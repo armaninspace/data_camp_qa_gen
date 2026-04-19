@@ -268,8 +268,8 @@ def rebuild_run_summary(output_dir: str | Path) -> dict[str, Any]:
             for row in read_jsonl(out / "question_validation.jsonl")
         ),
         "answered_count": sum(item["answered_count"] for item in bundles),
-        "rejected_count": sum(item["rejected_count"] for item in bundles),
-        "errored_count": sum(item["errored_count"] for item in bundles),
+        "rejected_question_count": sum(item["rejected_count"] for item in bundles),
+        "errored_question_count": sum(item["errored_count"] for item in bundles),
         "correct_count": sum(
             row.get("correctness") == "correct" for row in read_jsonl(out / "answers.jsonl")
         ),
@@ -279,8 +279,12 @@ def rebuild_run_summary(output_dir: str | Path) -> dict[str, Any]:
         "uncertain_count": sum(
             row.get("correctness") == "uncertain" for row in read_jsonl(out / "answers.jsonl")
         ),
-        "quality_metrics": _quality_metrics(out),
     }
+    quality_metrics = _quality_metrics(out)
+    summary.update(quality_metrics)
+    summary["rejected_count"] = summary["rejected_question_count"]
+    summary["errored_count"] = summary["errored_question_count"]
+    summary["quality_metrics"] = quality_metrics
     write_yaml(out / "run_summary.yaml", summary)
     return summary
 

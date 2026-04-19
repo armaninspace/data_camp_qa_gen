@@ -119,6 +119,10 @@ def test_persist_stage_artifacts_upserts_by_course_id(tmp_path: Path) -> None:
     assert summary["artifact_counts"]["canonical_topics.jsonl"] == 2
     assert summary["artifact_counts"]["vetted_topics.jsonl"] == 2
     assert summary["artifact_counts"]["single_topic_questions.jsonl"] == 2
+    assert "rejected_question_count" in summary
+    assert "errored_question_count" in summary
+    assert "heading_like_topic_rate" in summary
+    assert "answer_rows_without_evidence_count" in summary
     assert "quality_metrics" in summary
     assert "reject_rate" in summary["quality_metrics"]
     assert "answer_rows_without_evidence_count" in summary["quality_metrics"]
