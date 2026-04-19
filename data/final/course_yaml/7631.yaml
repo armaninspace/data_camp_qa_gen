@@ -132,99 +132,100 @@ extracted_topics:
 - topic_id: t001
   label: master the basics of data analysis with python in just four hours. this
   topic_type: concept
-  description: 'Topic inferred from chapter heading: master the basics of data analysis
-    with python in just four hours. this'
+  description: 'Topic extracted from overview_inferred: master the basics of data
+    analysis with python in just four hours. this'
   evidence:
   - source: overview_inferred
     text: Master the basics of data analysis with Python in just four hours. This
-  confidence: 0.45
+  confidence: 0.55
 - topic_id: t002
   label: online course will introduce the python interface
   topic_type: concept
-  description: 'Topic inferred from chapter heading: online course will introduce
+  description: 'Topic extracted from overview_inferred: online course will introduce
     the python interface'
   evidence:
   - source: overview_inferred
     text: online course will introduce the Python interface and explore popular
-  confidence: 0.55
+  confidence: 0.75
 - topic_id: t003
   label: explore popular
   topic_type: concept
-  description: 'Topic inferred from chapter heading: explore popular'
+  description: 'Topic extracted from overview_inferred: explore popular'
   evidence:
   - source: overview_inferred
     text: online course will introduce the Python interface and explore popular
-  confidence: 0.55
+  confidence: 0.75
 - topic_id: t004
   label: an introduction to python
   topic_type: concept
-  description: 'Topic inferred from chapter heading: an introduction to python'
+  description: 'Topic extracted from overview_inferred: an introduction to python'
   evidence:
   - source: overview_inferred
     text: An Introduction to Python
-  confidence: 0.45
+  confidence: 0.55
 - topic_id: t005
   label: python has grown to become the market leader in programming languages and
   topic_type: concept
-  description: 'Topic inferred from chapter heading: python has grown to become the
-    market leader in programming languages and'
+  description: 'Topic extracted from overview_inferred: python has grown to become
+    the market leader in programming languages and'
   evidence:
   - source: overview_inferred
     text: Python has grown to become the market leader in programming languages and
-  confidence: 0.45
+  confidence: 0.55
 - topic_id: t006
   label: the language of choice for data analysts
   topic_type: concept
-  description: 'Topic inferred from chapter heading: the language of choice for data
-    analysts'
+  description: 'Topic extracted from overview_inferred: the language of choice for
+    data analysts'
   evidence:
   - source: overview_inferred
     text: the language of choice for data analysts and data scientists. Demand for
-  confidence: 0.55
+  confidence: 0.75
 - topic_id: t007
   label: data scientists. demand for
   topic_type: concept
-  description: 'Topic inferred from chapter heading: data scientists. demand for'
+  description: 'Topic extracted from overview_inferred: data scientists. demand for'
   evidence:
   - source: overview_inferred
     text: the language of choice for data analysts and data scientists. Demand for
-  confidence: 0.55
+  confidence: 0.75
 - topic_id: t008
   label: data skills is rising because companies want to gain actionable insights
   topic_type: concept
-  description: 'Topic inferred from chapter heading: data skills is rising because
+  description: 'Topic extracted from overview_inferred: data skills is rising because
     companies want to gain actionable insights'
   evidence:
   - source: overview_inferred
     text: data skills is rising because companies want to gain actionable insights
-  confidence: 0.45
+  confidence: 0.55
 - topic_id: t009
   label: discover the python basics
   topic_type: concept
-  description: 'Topic inferred from chapter heading: discover the python basics'
+  description: 'Topic extracted from overview_inferred: discover the python basics'
   evidence:
   - source: overview_inferred
     text: Discover the Python Basics
-  confidence: 0.45
+  confidence: 0.55
 - topic_id: t010
   label: this is a python course for beginners
   topic_type: concept
-  description: 'Topic inferred from chapter heading: this is a python course for beginners'
+  description: 'Topic extracted from overview_inferred: this is a python course for
+    beginners'
   evidence:
   - source: overview_inferred
     text: This is a Python course for beginners, and we designed it for people with
       no
-  confidence: 0.55
+  confidence: 0.75
 - topic_id: t011
   label: we designed it for people with no
   topic_type: concept
-  description: 'Topic inferred from chapter heading: we designed it for people with
-    no'
+  description: 'Topic extracted from overview_inferred: we designed it for people
+    with no'
   evidence:
   - source: overview_inferred
     text: This is a Python course for beginners, and we designed it for people with
       no
-  confidence: 0.55
+  confidence: 0.75
 canonical_topics:
 - canonical_topic_id: ct_001
   label: master basics of data analysis with python in just four hours. this
@@ -314,342 +315,135 @@ question_candidates:
 - candidate_id: q0002
   relevant_topics:
   - master basics of data analysis with python in just four hours. this
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does master basics of data analysis with python in just four
-    hours. this mean?
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does master basics of data analysis with python in just four
+    hours. this work?
 - candidate_id: q0003
-  relevant_topics:
-  - master basics of data analysis with python in just four hours. this
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does master basics of data analysis with python in just four
-    hours. this matter?
-- candidate_id: q0004
-  relevant_topics:
-  - master basics of data analysis with python in just four hours. this
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use master basics of data analysis with python in just
-    four hours. this?
-- candidate_id: q0005
-  relevant_topics:
-  - master basics of data analysis with python in just four hours. this
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of master basics of data analysis with python
-    in just four hours. this?
-- candidate_id: q0006
   relevant_topics:
   - online course will introduce python interface
   family: entry
   pattern: What is {x}?
   question_text: What is online course will introduce python interface?
-- candidate_id: q0007
+- candidate_id: q0004
   relevant_topics:
   - online course will introduce python interface
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does online course will introduce python interface mean?
-- candidate_id: q0008
-  relevant_topics:
-  - online course will introduce python interface
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does online course will introduce python interface matter?
-- candidate_id: q0009
-  relevant_topics:
-  - online course will introduce python interface
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use online course will introduce python interface?
-- candidate_id: q0010
-  relevant_topics:
-  - online course will introduce python interface
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of online course will introduce python interface?
-- candidate_id: q0011
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does online course will introduce python interface work?
+- candidate_id: q0005
   relevant_topics:
   - explore popular
   family: entry
   pattern: What is {x}?
   question_text: What is explore popular?
-- candidate_id: q0012
+- candidate_id: q0006
   relevant_topics:
   - explore popular
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does explore popular mean?
-- candidate_id: q0013
-  relevant_topics:
-  - explore popular
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does explore popular matter?
-- candidate_id: q0014
-  relevant_topics:
-  - explore popular
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use explore popular?
-- candidate_id: q0015
-  relevant_topics:
-  - explore popular
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of explore popular?
-- candidate_id: q0016
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does explore popular work?
+- candidate_id: q0007
   relevant_topics:
   - an introduction to python
   family: entry
   pattern: What is {x}?
   question_text: What is an introduction to python?
-- candidate_id: q0017
+- candidate_id: q0008
   relevant_topics:
   - an introduction to python
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does an introduction to python mean?
-- candidate_id: q0018
-  relevant_topics:
-  - an introduction to python
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does an introduction to python matter?
-- candidate_id: q0019
-  relevant_topics:
-  - an introduction to python
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use an introduction to python?
-- candidate_id: q0020
-  relevant_topics:
-  - an introduction to python
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of an introduction to python?
-- candidate_id: q0021
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does an introduction to python work?
+- candidate_id: q0009
   relevant_topics:
   - python has grown to become market leader in programming languages and
   family: entry
   pattern: What is {x}?
   question_text: What is python has grown to become market leader in programming languages
     and?
-- candidate_id: q0022
+- candidate_id: q0010
   relevant_topics:
   - python has grown to become market leader in programming languages and
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does python has grown to become market leader in programming
-    languages and mean?
-- candidate_id: q0023
-  relevant_topics:
-  - python has grown to become market leader in programming languages and
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does python has grown to become market leader in programming
-    languages and matter?
-- candidate_id: q0024
-  relevant_topics:
-  - python has grown to become market leader in programming languages and
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use python has grown to become market leader in programming
-    languages and?
-- candidate_id: q0025
-  relevant_topics:
-  - python has grown to become market leader in programming languages and
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of python has grown to become market leader
-    in programming languages and?
-- candidate_id: q0026
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does python has grown to become market leader in programming
+    languages and work?
+- candidate_id: q0011
   relevant_topics:
   - language of choice for data analysts
   family: entry
   pattern: What is {x}?
   question_text: What is language of choice for data analysts?
-- candidate_id: q0027
+- candidate_id: q0012
   relevant_topics:
   - language of choice for data analysts
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does language of choice for data analysts mean?
-- candidate_id: q0028
-  relevant_topics:
-  - language of choice for data analysts
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does language of choice for data analysts matter?
-- candidate_id: q0029
-  relevant_topics:
-  - language of choice for data analysts
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use language of choice for data analysts?
-- candidate_id: q0030
-  relevant_topics:
-  - language of choice for data analysts
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of language of choice for data analysts?
-- candidate_id: q0031
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does language of choice for data analysts work?
+- candidate_id: q0013
   relevant_topics:
   - data scientists. demand for
   family: entry
   pattern: What is {x}?
   question_text: What is data scientists. demand for?
-- candidate_id: q0032
+- candidate_id: q0014
   relevant_topics:
   - data scientists. demand for
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does data scientists. demand for mean?
-- candidate_id: q0033
-  relevant_topics:
-  - data scientists. demand for
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does data scientists. demand for matter?
-- candidate_id: q0034
-  relevant_topics:
-  - data scientists. demand for
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use data scientists. demand for?
-- candidate_id: q0035
-  relevant_topics:
-  - data scientists. demand for
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of data scientists. demand for?
-- candidate_id: q0036
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does data scientists. demand for work?
+- candidate_id: q0015
   relevant_topics:
   - data skills is rising because companies want to gain actionable insights
   family: entry
   pattern: What is {x}?
   question_text: What is data skills is rising because companies want to gain actionable
     insights?
-- candidate_id: q0037
+- candidate_id: q0016
   relevant_topics:
   - data skills is rising because companies want to gain actionable insights
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does data skills is rising because companies want to gain actionable
-    insights mean?
-- candidate_id: q0038
-  relevant_topics:
-  - data skills is rising because companies want to gain actionable insights
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does data skills is rising because companies want to gain actionable
-    insights matter?
-- candidate_id: q0039
-  relevant_topics:
-  - data skills is rising because companies want to gain actionable insights
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use data skills is rising because companies want to gain
-    actionable insights?
-- candidate_id: q0040
-  relevant_topics:
-  - data skills is rising because companies want to gain actionable insights
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of data skills is rising because companies
-    want to gain actionable insights?
-- candidate_id: q0041
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does data skills is rising because companies want to gain actionable
+    insights work?
+- candidate_id: q0017
   relevant_topics:
   - discover python basics
   family: entry
   pattern: What is {x}?
   question_text: What is discover python basics?
-- candidate_id: q0042
+- candidate_id: q0018
   relevant_topics:
   - discover python basics
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does discover python basics mean?
-- candidate_id: q0043
-  relevant_topics:
-  - discover python basics
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does discover python basics matter?
-- candidate_id: q0044
-  relevant_topics:
-  - discover python basics
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use discover python basics?
-- candidate_id: q0045
-  relevant_topics:
-  - discover python basics
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of discover python basics?
-- candidate_id: q0046
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does discover python basics work?
+- candidate_id: q0019
   relevant_topics:
   - this is a python course for beginners
   family: entry
   pattern: What is {x}?
   question_text: What is this is a python course for beginners?
-- candidate_id: q0047
+- candidate_id: q0020
   relevant_topics:
   - this is a python course for beginners
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does this is a python course for beginners mean?
-- candidate_id: q0048
-  relevant_topics:
-  - this is a python course for beginners
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does this is a python course for beginners matter?
-- candidate_id: q0049
-  relevant_topics:
-  - this is a python course for beginners
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use this is a python course for beginners?
-- candidate_id: q0050
-  relevant_topics:
-  - this is a python course for beginners
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of this is a python course for beginners?
-- candidate_id: q0051
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does this is a python course for beginners work?
+- candidate_id: q0021
   relevant_topics:
   - we designed it for people with no
   family: entry
   pattern: What is {x}?
   question_text: What is we designed it for people with no?
-- candidate_id: q0052
+- candidate_id: q0022
   relevant_topics:
   - we designed it for people with no
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does we designed it for people with no mean?
-- candidate_id: q0053
-  relevant_topics:
-  - we designed it for people with no
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does we designed it for people with no matter?
-- candidate_id: q0054
-  relevant_topics:
-  - we designed it for people with no
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use we designed it for people with no?
-- candidate_id: q0055
-  relevant_topics:
-  - we designed it for people with no
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of we designed it for people with no?
-- candidate_id: q0056
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does we designed it for people with no work?
+- candidate_id: q0023
   relevant_topics:
   - master basics of data analysis with python in just four hours. this
   - online course will introduce python interface
@@ -657,15 +451,7 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is master basics of data analysis with python in just four hours.
     this different from online course will introduce python interface?
-- candidate_id: q0057
-  relevant_topics:
-  - master basics of data analysis with python in just four hours. this
-  - explore popular
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is master basics of data analysis with python in just four hours.
-    this different from explore popular?
-- candidate_id: q0058
+- candidate_id: q0024
   relevant_topics:
   - master basics of data analysis with python in just four hours. this
   - an introduction to python
@@ -673,7 +459,7 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is master basics of data analysis with python in just four hours.
     this different from an introduction to python?
-- candidate_id: q0059
+- candidate_id: q0025
   relevant_topics:
   - master basics of data analysis with python in just four hours. this
   - python has grown to become market leader in programming languages and
@@ -682,7 +468,7 @@ question_candidates:
   question_text: How is master basics of data analysis with python in just four hours.
     this different from python has grown to become market leader in programming languages
     and?
-- candidate_id: q0060
+- candidate_id: q0026
   relevant_topics:
   - master basics of data analysis with python in just four hours. this
   - language of choice for data analysts
@@ -690,24 +476,7 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is master basics of data analysis with python in just four hours.
     this different from language of choice for data analysts?
-- candidate_id: q0061
-  relevant_topics:
-  - master basics of data analysis with python in just four hours. this
-  - data scientists. demand for
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is master basics of data analysis with python in just four hours.
-    this different from data scientists. demand for?
-- candidate_id: q0062
-  relevant_topics:
-  - master basics of data analysis with python in just four hours. this
-  - data skills is rising because companies want to gain actionable insights
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is master basics of data analysis with python in just four hours.
-    this different from data skills is rising because companies want to gain actionable
-    insights?
-- candidate_id: q0063
+- candidate_id: q0027
   relevant_topics:
   - master basics of data analysis with python in just four hours. this
   - discover python basics
@@ -715,7 +484,7 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is master basics of data analysis with python in just four hours.
     this different from discover python basics?
-- candidate_id: q0064
+- candidate_id: q0028
   relevant_topics:
   - master basics of data analysis with python in just four hours. this
   - this is a python course for beginners
@@ -723,15 +492,15 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is master basics of data analysis with python in just four hours.
     this different from this is a python course for beginners?
-- candidate_id: q0065
+- candidate_id: q0029
   relevant_topics:
-  - online course will introduce python interface
-  - explore popular
+  - master basics of data analysis with python in just four hours. this
+  - we designed it for people with no
   family: comparison
   pattern: How is {x} different from {y}?
-  question_text: How is online course will introduce python interface different from
-    explore popular?
-- candidate_id: q0066
+  question_text: How is master basics of data analysis with python in just four hours.
+    this different from we designed it for people with no?
+- candidate_id: q0030
   relevant_topics:
   - online course will introduce python interface
   - an introduction to python
@@ -739,7 +508,7 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is online course will introduce python interface different from
     an introduction to python?
-- candidate_id: q0067
+- candidate_id: q0031
   relevant_topics:
   - online course will introduce python interface
   - python has grown to become market leader in programming languages and
@@ -747,31 +516,7 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is online course will introduce python interface different from
     python has grown to become market leader in programming languages and?
-- candidate_id: q0068
-  relevant_topics:
-  - online course will introduce python interface
-  - language of choice for data analysts
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is online course will introduce python interface different from
-    language of choice for data analysts?
-- candidate_id: q0069
-  relevant_topics:
-  - online course will introduce python interface
-  - data scientists. demand for
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is online course will introduce python interface different from
-    data scientists. demand for?
-- candidate_id: q0070
-  relevant_topics:
-  - online course will introduce python interface
-  - data skills is rising because companies want to gain actionable insights
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is online course will introduce python interface different from
-    data skills is rising because companies want to gain actionable insights?
-- candidate_id: q0071
+- candidate_id: q0032
   relevant_topics:
   - online course will introduce python interface
   - discover python basics
@@ -779,7 +524,7 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is online course will introduce python interface different from
     discover python basics?
-- candidate_id: q0072
+- candidate_id: q0033
   relevant_topics:
   - online course will introduce python interface
   - this is a python course for beginners
@@ -787,60 +532,7 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is online course will introduce python interface different from
     this is a python course for beginners?
-- candidate_id: q0073
-  relevant_topics:
-  - explore popular
-  - an introduction to python
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is explore popular different from an introduction to python?
-- candidate_id: q0074
-  relevant_topics:
-  - explore popular
-  - python has grown to become market leader in programming languages and
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is explore popular different from python has grown to become
-    market leader in programming languages and?
-- candidate_id: q0075
-  relevant_topics:
-  - explore popular
-  - language of choice for data analysts
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is explore popular different from language of choice for data
-    analysts?
-- candidate_id: q0076
-  relevant_topics:
-  - explore popular
-  - data scientists. demand for
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is explore popular different from data scientists. demand for?
-- candidate_id: q0077
-  relevant_topics:
-  - explore popular
-  - data skills is rising because companies want to gain actionable insights
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is explore popular different from data skills is rising because
-    companies want to gain actionable insights?
-- candidate_id: q0078
-  relevant_topics:
-  - explore popular
-  - discover python basics
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is explore popular different from discover python basics?
-- candidate_id: q0079
-  relevant_topics:
-  - explore popular
-  - this is a python course for beginners
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is explore popular different from this is a python course for
-    beginners?
-- candidate_id: q0080
+- candidate_id: q0034
   relevant_topics:
   - an introduction to python
   - python has grown to become market leader in programming languages and
@@ -848,23 +540,7 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is an introduction to python different from python has grown
     to become market leader in programming languages and?
-- candidate_id: q0081
-  relevant_topics:
-  - an introduction to python
-  - language of choice for data analysts
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is an introduction to python different from language of choice
-    for data analysts?
-- candidate_id: q0082
-  relevant_topics:
-  - an introduction to python
-  - data scientists. demand for
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is an introduction to python different from data scientists.
-    demand for?
-- candidate_id: q0083
+- candidate_id: q0035
   relevant_topics:
   - an introduction to python
   - data skills is rising because companies want to gain actionable insights
@@ -872,14 +548,14 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is an introduction to python different from data skills is rising
     because companies want to gain actionable insights?
-- candidate_id: q0084
+- candidate_id: q0036
   relevant_topics:
   - an introduction to python
   - discover python basics
   family: comparison
   pattern: How is {x} different from {y}?
   question_text: How is an introduction to python different from discover python basics?
-- candidate_id: q0085
+- candidate_id: q0037
   relevant_topics:
   - an introduction to python
   - this is a python course for beginners
@@ -887,23 +563,7 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is an introduction to python different from this is a python
     course for beginners?
-- candidate_id: q0086
-  relevant_topics:
-  - python has grown to become market leader in programming languages and
-  - language of choice for data analysts
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is python has grown to become market leader in programming languages
-    and different from language of choice for data analysts?
-- candidate_id: q0087
-  relevant_topics:
-  - python has grown to become market leader in programming languages and
-  - data scientists. demand for
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is python has grown to become market leader in programming languages
-    and different from data scientists. demand for?
-- candidate_id: q0088
+- candidate_id: q0038
   relevant_topics:
   - python has grown to become market leader in programming languages and
   - data skills is rising because companies want to gain actionable insights
@@ -912,7 +572,7 @@ question_candidates:
   question_text: How is python has grown to become market leader in programming languages
     and different from data skills is rising because companies want to gain actionable
     insights?
-- candidate_id: q0089
+- candidate_id: q0039
   relevant_topics:
   - python has grown to become market leader in programming languages and
   - discover python basics
@@ -920,7 +580,7 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is python has grown to become market leader in programming languages
     and different from discover python basics?
-- candidate_id: q0090
+- candidate_id: q0040
   relevant_topics:
   - python has grown to become market leader in programming languages and
   - this is a python course for beginners
@@ -928,7 +588,7 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is python has grown to become market leader in programming languages
     and different from this is a python course for beginners?
-- candidate_id: q0091
+- candidate_id: q0041
   relevant_topics:
   - language of choice for data analysts
   - data scientists. demand for
@@ -936,23 +596,7 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is language of choice for data analysts different from data scientists.
     demand for?
-- candidate_id: q0092
-  relevant_topics:
-  - language of choice for data analysts
-  - data skills is rising because companies want to gain actionable insights
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is language of choice for data analysts different from data skills
-    is rising because companies want to gain actionable insights?
-- candidate_id: q0093
-  relevant_topics:
-  - language of choice for data analysts
-  - discover python basics
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is language of choice for data analysts different from discover
-    python basics?
-- candidate_id: q0094
+- candidate_id: q0042
   relevant_topics:
   - language of choice for data analysts
   - this is a python course for beginners
@@ -960,23 +604,15 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is language of choice for data analysts different from this is
     a python course for beginners?
-- candidate_id: q0095
+- candidate_id: q0043
   relevant_topics:
-  - data scientists. demand for
-  - data skills is rising because companies want to gain actionable insights
+  - language of choice for data analysts
+  - we designed it for people with no
   family: comparison
   pattern: How is {x} different from {y}?
-  question_text: How is data scientists. demand for different from data skills is
-    rising because companies want to gain actionable insights?
-- candidate_id: q0096
-  relevant_topics:
-  - data scientists. demand for
-  - discover python basics
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is data scientists. demand for different from discover python
-    basics?
-- candidate_id: q0097
+  question_text: How is language of choice for data analysts different from we designed
+    it for people with no?
+- candidate_id: q0044
   relevant_topics:
   - data scientists. demand for
   - this is a python course for beginners
@@ -984,15 +620,15 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is data scientists. demand for different from this is a python
     course for beginners?
-- candidate_id: q0098
+- candidate_id: q0045
   relevant_topics:
-  - data skills is rising because companies want to gain actionable insights
-  - discover python basics
+  - data scientists. demand for
+  - we designed it for people with no
   family: comparison
   pattern: How is {x} different from {y}?
-  question_text: How is data skills is rising because companies want to gain actionable
-    insights different from discover python basics?
-- candidate_id: q0099
+  question_text: How is data scientists. demand for different from we designed it
+    for people with no?
+- candidate_id: q0046
   relevant_topics:
   - data skills is rising because companies want to gain actionable insights
   - this is a python course for beginners
@@ -1000,7 +636,7 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is data skills is rising because companies want to gain actionable
     insights different from this is a python course for beginners?
-- candidate_id: q0100
+- candidate_id: q0047
   relevant_topics:
   - discover python basics
   - this is a python course for beginners
@@ -1008,6 +644,14 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is discover python basics different from this is a python course
     for beginners?
+- candidate_id: q0048
+  relevant_topics:
+  - this is a python course for beginners
+  - we designed it for people with no
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is this is a python course for beginners different from we designed
+    it for people with no?
 question_repairs:
 - candidate_id: q0001
   status: accepted
@@ -1018,324 +662,134 @@ question_repairs:
   reject_reason: null
 - candidate_id: q0002
   status: accepted
-  original_text: What does master basics of data analysis with python in just four
-    hours. this mean?
-  final_text: What does master basics of data analysis with python in just four hours.
-    this mean?
+  original_text: How does master basics of data analysis with python in just four
+    hours. this work?
+  final_text: How does master basics of data analysis with python in just four hours.
+    this work?
   reject_reason: null
 - candidate_id: q0003
-  status: accepted
-  original_text: Why does master basics of data analysis with python in just four
-    hours. this matter?
-  final_text: Why does master basics of data analysis with python in just four hours.
-    this matter?
-  reject_reason: null
-- candidate_id: q0004
-  status: repaired
-  original_text: Why do we use master basics of data analysis with python in just
-    four hours. this?
-  final_text: Why does master basics of data analysis with python in just four hours.
-    this?
-  reject_reason: null
-- candidate_id: q0005
-  status: accepted
-  original_text: What is a simple example of master basics of data analysis with python
-    in just four hours. this?
-  final_text: What is a simple example of master basics of data analysis with python
-    in just four hours. this?
-  reject_reason: null
-- candidate_id: q0006
   status: accepted
   original_text: What is online course will introduce python interface?
   final_text: What is online course will introduce python interface?
   reject_reason: null
-- candidate_id: q0007
+- candidate_id: q0004
   status: accepted
-  original_text: What does online course will introduce python interface mean?
-  final_text: What does online course will introduce python interface mean?
+  original_text: How does online course will introduce python interface work?
+  final_text: How does online course will introduce python interface work?
   reject_reason: null
-- candidate_id: q0008
-  status: accepted
-  original_text: Why does online course will introduce python interface matter?
-  final_text: Why does online course will introduce python interface matter?
-  reject_reason: null
-- candidate_id: q0009
-  status: repaired
-  original_text: Why do we use online course will introduce python interface?
-  final_text: Why does online course will introduce python interface?
-  reject_reason: null
-- candidate_id: q0010
-  status: accepted
-  original_text: What is a simple example of online course will introduce python interface?
-  final_text: What is a simple example of online course will introduce python interface?
-  reject_reason: null
-- candidate_id: q0011
+- candidate_id: q0005
   status: accepted
   original_text: What is explore popular?
   final_text: What is explore popular?
   reject_reason: null
-- candidate_id: q0012
+- candidate_id: q0006
   status: accepted
-  original_text: What does explore popular mean?
-  final_text: What does explore popular mean?
+  original_text: How does explore popular work?
+  final_text: How does explore popular work?
   reject_reason: null
-- candidate_id: q0013
-  status: accepted
-  original_text: Why does explore popular matter?
-  final_text: Why does explore popular matter?
-  reject_reason: null
-- candidate_id: q0014
-  status: repaired
-  original_text: Why do we use explore popular?
-  final_text: Why does explore popular?
-  reject_reason: null
-- candidate_id: q0015
-  status: accepted
-  original_text: What is a simple example of explore popular?
-  final_text: What is a simple example of explore popular?
-  reject_reason: null
-- candidate_id: q0016
+- candidate_id: q0007
   status: accepted
   original_text: What is an introduction to python?
   final_text: What is an introduction to python?
   reject_reason: null
-- candidate_id: q0017
+- candidate_id: q0008
   status: accepted
-  original_text: What does an introduction to python mean?
-  final_text: What does an introduction to python mean?
+  original_text: How does an introduction to python work?
+  final_text: How does an introduction to python work?
   reject_reason: null
-- candidate_id: q0018
-  status: accepted
-  original_text: Why does an introduction to python matter?
-  final_text: Why does an introduction to python matter?
-  reject_reason: null
-- candidate_id: q0019
-  status: repaired
-  original_text: Why do we use an introduction to python?
-  final_text: Why does an introduction to python?
-  reject_reason: null
-- candidate_id: q0020
-  status: accepted
-  original_text: What is a simple example of an introduction to python?
-  final_text: What is a simple example of an introduction to python?
-  reject_reason: null
-- candidate_id: q0021
+- candidate_id: q0009
   status: accepted
   original_text: What is python has grown to become market leader in programming languages
     and?
   final_text: What is python has grown to become market leader in programming languages
     and?
   reject_reason: null
-- candidate_id: q0022
+- candidate_id: q0010
   status: accepted
-  original_text: What does python has grown to become market leader in programming
-    languages and mean?
-  final_text: What does python has grown to become market leader in programming languages
-    and mean?
+  original_text: How does python has grown to become market leader in programming
+    languages and work?
+  final_text: How does python has grown to become market leader in programming languages
+    and work?
   reject_reason: null
-- candidate_id: q0023
-  status: accepted
-  original_text: Why does python has grown to become market leader in programming
-    languages and matter?
-  final_text: Why does python has grown to become market leader in programming languages
-    and matter?
-  reject_reason: null
-- candidate_id: q0024
-  status: repaired
-  original_text: Why do we use python has grown to become market leader in programming
-    languages and?
-  final_text: Why does python has grown to become market leader in programming languages
-    and?
-  reject_reason: null
-- candidate_id: q0025
-  status: accepted
-  original_text: What is a simple example of python has grown to become market leader
-    in programming languages and?
-  final_text: What is a simple example of python has grown to become market leader
-    in programming languages and?
-  reject_reason: null
-- candidate_id: q0026
+- candidate_id: q0011
   status: accepted
   original_text: What is language of choice for data analysts?
   final_text: What is language of choice for data analysts?
   reject_reason: null
-- candidate_id: q0027
+- candidate_id: q0012
   status: accepted
-  original_text: What does language of choice for data analysts mean?
-  final_text: What does language of choice for data analysts mean?
+  original_text: How does language of choice for data analysts work?
+  final_text: How does language of choice for data analysts work?
   reject_reason: null
-- candidate_id: q0028
-  status: accepted
-  original_text: Why does language of choice for data analysts matter?
-  final_text: Why does language of choice for data analysts matter?
-  reject_reason: null
-- candidate_id: q0029
-  status: repaired
-  original_text: Why do we use language of choice for data analysts?
-  final_text: Why does language of choice for data analysts?
-  reject_reason: null
-- candidate_id: q0030
-  status: accepted
-  original_text: What is a simple example of language of choice for data analysts?
-  final_text: What is a simple example of language of choice for data analysts?
-  reject_reason: null
-- candidate_id: q0031
+- candidate_id: q0013
   status: accepted
   original_text: What is data scientists. demand for?
   final_text: What is data scientists. demand for?
   reject_reason: null
-- candidate_id: q0032
+- candidate_id: q0014
   status: accepted
-  original_text: What does data scientists. demand for mean?
-  final_text: What does data scientists. demand for mean?
+  original_text: How does data scientists. demand for work?
+  final_text: How does data scientists. demand for work?
   reject_reason: null
-- candidate_id: q0033
-  status: accepted
-  original_text: Why does data scientists. demand for matter?
-  final_text: Why does data scientists. demand for matter?
-  reject_reason: null
-- candidate_id: q0034
-  status: repaired
-  original_text: Why do we use data scientists. demand for?
-  final_text: Why does data scientists. demand for?
-  reject_reason: null
-- candidate_id: q0035
-  status: accepted
-  original_text: What is a simple example of data scientists. demand for?
-  final_text: What is a simple example of data scientists. demand for?
-  reject_reason: null
-- candidate_id: q0036
+- candidate_id: q0015
   status: accepted
   original_text: What is data skills is rising because companies want to gain actionable
     insights?
   final_text: What is data skills is rising because companies want to gain actionable
     insights?
   reject_reason: null
-- candidate_id: q0037
+- candidate_id: q0016
   status: accepted
-  original_text: What does data skills is rising because companies want to gain actionable
-    insights mean?
-  final_text: What does data skills is rising because companies want to gain actionable
-    insights mean?
+  original_text: How does data skills is rising because companies want to gain actionable
+    insights work?
+  final_text: How does data skills is rising because companies want to gain actionable
+    insights work?
   reject_reason: null
-- candidate_id: q0038
-  status: accepted
-  original_text: Why does data skills is rising because companies want to gain actionable
-    insights matter?
-  final_text: Why does data skills is rising because companies want to gain actionable
-    insights matter?
-  reject_reason: null
-- candidate_id: q0039
-  status: repaired
-  original_text: Why do we use data skills is rising because companies want to gain
-    actionable insights?
-  final_text: Why does data skills is rising because companies want to gain actionable
-    insights?
-  reject_reason: null
-- candidate_id: q0040
-  status: accepted
-  original_text: What is a simple example of data skills is rising because companies
-    want to gain actionable insights?
-  final_text: What is a simple example of data skills is rising because companies
-    want to gain actionable insights?
-  reject_reason: null
-- candidate_id: q0041
+- candidate_id: q0017
   status: accepted
   original_text: What is discover python basics?
   final_text: What is discover python basics?
   reject_reason: null
-- candidate_id: q0042
+- candidate_id: q0018
   status: accepted
-  original_text: What does discover python basics mean?
-  final_text: What does discover python basics mean?
+  original_text: How does discover python basics work?
+  final_text: How does discover python basics work?
   reject_reason: null
-- candidate_id: q0043
-  status: accepted
-  original_text: Why does discover python basics matter?
-  final_text: Why does discover python basics matter?
-  reject_reason: null
-- candidate_id: q0044
-  status: repaired
-  original_text: Why do we use discover python basics?
-  final_text: Why does discover python basics?
-  reject_reason: null
-- candidate_id: q0045
-  status: accepted
-  original_text: What is a simple example of discover python basics?
-  final_text: What is a simple example of discover python basics?
-  reject_reason: null
-- candidate_id: q0046
+- candidate_id: q0019
   status: accepted
   original_text: What is this is a python course for beginners?
   final_text: What is this is a python course for beginners?
   reject_reason: null
-- candidate_id: q0047
+- candidate_id: q0020
   status: accepted
-  original_text: What does this is a python course for beginners mean?
-  final_text: What does this is a python course for beginners mean?
+  original_text: How does this is a python course for beginners work?
+  final_text: How does this is a python course for beginners work?
   reject_reason: null
-- candidate_id: q0048
-  status: accepted
-  original_text: Why does this is a python course for beginners matter?
-  final_text: Why does this is a python course for beginners matter?
-  reject_reason: null
-- candidate_id: q0049
-  status: repaired
-  original_text: Why do we use this is a python course for beginners?
-  final_text: Why does this is a python course for beginners?
-  reject_reason: null
-- candidate_id: q0050
-  status: accepted
-  original_text: What is a simple example of this is a python course for beginners?
-  final_text: What is a simple example of this is a python course for beginners?
-  reject_reason: null
-- candidate_id: q0051
+- candidate_id: q0021
   status: accepted
   original_text: What is we designed it for people with no?
   final_text: What is we designed it for people with no?
   reject_reason: null
-- candidate_id: q0052
+- candidate_id: q0022
   status: accepted
-  original_text: What does we designed it for people with no mean?
-  final_text: What does we designed it for people with no mean?
+  original_text: How does we designed it for people with no work?
+  final_text: How does we designed it for people with no work?
   reject_reason: null
-- candidate_id: q0053
-  status: accepted
-  original_text: Why does we designed it for people with no matter?
-  final_text: Why does we designed it for people with no matter?
-  reject_reason: null
-- candidate_id: q0054
-  status: repaired
-  original_text: Why do we use we designed it for people with no?
-  final_text: Why does we designed it for people with no?
-  reject_reason: null
-- candidate_id: q0055
-  status: accepted
-  original_text: What is a simple example of we designed it for people with no?
-  final_text: What is a simple example of we designed it for people with no?
-  reject_reason: null
-- candidate_id: q0056
+- candidate_id: q0023
   status: accepted
   original_text: How is master basics of data analysis with python in just four hours.
     this different from online course will introduce python interface?
   final_text: How is master basics of data analysis with python in just four hours.
     this different from online course will introduce python interface?
   reject_reason: null
-- candidate_id: q0057
-  status: accepted
-  original_text: How is master basics of data analysis with python in just four hours.
-    this different from explore popular?
-  final_text: How is master basics of data analysis with python in just four hours.
-    this different from explore popular?
-  reject_reason: null
-- candidate_id: q0058
+- candidate_id: q0024
   status: accepted
   original_text: How is master basics of data analysis with python in just four hours.
     this different from an introduction to python?
   final_text: How is master basics of data analysis with python in just four hours.
     this different from an introduction to python?
   reject_reason: null
-- candidate_id: q0059
+- candidate_id: q0025
   status: accepted
   original_text: How is master basics of data analysis with python in just four hours.
     this different from python has grown to become market leader in programming languages
@@ -1344,195 +798,89 @@ question_repairs:
     this different from python has grown to become market leader in programming languages
     and?
   reject_reason: null
-- candidate_id: q0060
+- candidate_id: q0026
   status: accepted
   original_text: How is master basics of data analysis with python in just four hours.
     this different from language of choice for data analysts?
   final_text: How is master basics of data analysis with python in just four hours.
     this different from language of choice for data analysts?
   reject_reason: null
-- candidate_id: q0061
-  status: accepted
-  original_text: How is master basics of data analysis with python in just four hours.
-    this different from data scientists. demand for?
-  final_text: How is master basics of data analysis with python in just four hours.
-    this different from data scientists. demand for?
-  reject_reason: null
-- candidate_id: q0062
-  status: accepted
-  original_text: How is master basics of data analysis with python in just four hours.
-    this different from data skills is rising because companies want to gain actionable
-    insights?
-  final_text: How is master basics of data analysis with python in just four hours.
-    this different from data skills is rising because companies want to gain actionable
-    insights?
-  reject_reason: null
-- candidate_id: q0063
+- candidate_id: q0027
   status: accepted
   original_text: How is master basics of data analysis with python in just four hours.
     this different from discover python basics?
   final_text: How is master basics of data analysis with python in just four hours.
     this different from discover python basics?
   reject_reason: null
-- candidate_id: q0064
+- candidate_id: q0028
   status: accepted
   original_text: How is master basics of data analysis with python in just four hours.
     this different from this is a python course for beginners?
   final_text: How is master basics of data analysis with python in just four hours.
     this different from this is a python course for beginners?
   reject_reason: null
-- candidate_id: q0065
+- candidate_id: q0029
   status: accepted
-  original_text: How is online course will introduce python interface different from
-    explore popular?
-  final_text: How is online course will introduce python interface different from
-    explore popular?
+  original_text: How is master basics of data analysis with python in just four hours.
+    this different from we designed it for people with no?
+  final_text: How is master basics of data analysis with python in just four hours.
+    this different from we designed it for people with no?
   reject_reason: null
-- candidate_id: q0066
+- candidate_id: q0030
   status: accepted
   original_text: How is online course will introduce python interface different from
     an introduction to python?
   final_text: How is online course will introduce python interface different from
     an introduction to python?
   reject_reason: null
-- candidate_id: q0067
+- candidate_id: q0031
   status: accepted
   original_text: How is online course will introduce python interface different from
     python has grown to become market leader in programming languages and?
   final_text: How is online course will introduce python interface different from
     python has grown to become market leader in programming languages and?
   reject_reason: null
-- candidate_id: q0068
-  status: accepted
-  original_text: How is online course will introduce python interface different from
-    language of choice for data analysts?
-  final_text: How is online course will introduce python interface different from
-    language of choice for data analysts?
-  reject_reason: null
-- candidate_id: q0069
-  status: accepted
-  original_text: How is online course will introduce python interface different from
-    data scientists. demand for?
-  final_text: How is online course will introduce python interface different from
-    data scientists. demand for?
-  reject_reason: null
-- candidate_id: q0070
-  status: accepted
-  original_text: How is online course will introduce python interface different from
-    data skills is rising because companies want to gain actionable insights?
-  final_text: How is online course will introduce python interface different from
-    data skills is rising because companies want to gain actionable insights?
-  reject_reason: null
-- candidate_id: q0071
+- candidate_id: q0032
   status: accepted
   original_text: How is online course will introduce python interface different from
     discover python basics?
   final_text: How is online course will introduce python interface different from
     discover python basics?
   reject_reason: null
-- candidate_id: q0072
+- candidate_id: q0033
   status: accepted
   original_text: How is online course will introduce python interface different from
     this is a python course for beginners?
   final_text: How is online course will introduce python interface different from
     this is a python course for beginners?
   reject_reason: null
-- candidate_id: q0073
-  status: accepted
-  original_text: How is explore popular different from an introduction to python?
-  final_text: How is explore popular different from an introduction to python?
-  reject_reason: null
-- candidate_id: q0074
-  status: accepted
-  original_text: How is explore popular different from python has grown to become
-    market leader in programming languages and?
-  final_text: How is explore popular different from python has grown to become market
-    leader in programming languages and?
-  reject_reason: null
-- candidate_id: q0075
-  status: accepted
-  original_text: How is explore popular different from language of choice for data
-    analysts?
-  final_text: How is explore popular different from language of choice for data analysts?
-  reject_reason: null
-- candidate_id: q0076
-  status: accepted
-  original_text: How is explore popular different from data scientists. demand for?
-  final_text: How is explore popular different from data scientists. demand for?
-  reject_reason: null
-- candidate_id: q0077
-  status: accepted
-  original_text: How is explore popular different from data skills is rising because
-    companies want to gain actionable insights?
-  final_text: How is explore popular different from data skills is rising because
-    companies want to gain actionable insights?
-  reject_reason: null
-- candidate_id: q0078
-  status: accepted
-  original_text: How is explore popular different from discover python basics?
-  final_text: How is explore popular different from discover python basics?
-  reject_reason: null
-- candidate_id: q0079
-  status: accepted
-  original_text: How is explore popular different from this is a python course for
-    beginners?
-  final_text: How is explore popular different from this is a python course for beginners?
-  reject_reason: null
-- candidate_id: q0080
+- candidate_id: q0034
   status: accepted
   original_text: How is an introduction to python different from python has grown
     to become market leader in programming languages and?
   final_text: How is an introduction to python different from python has grown to
     become market leader in programming languages and?
   reject_reason: null
-- candidate_id: q0081
-  status: accepted
-  original_text: How is an introduction to python different from language of choice
-    for data analysts?
-  final_text: How is an introduction to python different from language of choice for
-    data analysts?
-  reject_reason: null
-- candidate_id: q0082
-  status: accepted
-  original_text: How is an introduction to python different from data scientists.
-    demand for?
-  final_text: How is an introduction to python different from data scientists. demand
-    for?
-  reject_reason: null
-- candidate_id: q0083
+- candidate_id: q0035
   status: accepted
   original_text: How is an introduction to python different from data skills is rising
     because companies want to gain actionable insights?
   final_text: How is an introduction to python different from data skills is rising
     because companies want to gain actionable insights?
   reject_reason: null
-- candidate_id: q0084
+- candidate_id: q0036
   status: accepted
   original_text: How is an introduction to python different from discover python basics?
   final_text: How is an introduction to python different from discover python basics?
   reject_reason: null
-- candidate_id: q0085
+- candidate_id: q0037
   status: accepted
   original_text: How is an introduction to python different from this is a python
     course for beginners?
   final_text: How is an introduction to python different from this is a python course
     for beginners?
   reject_reason: null
-- candidate_id: q0086
-  status: accepted
-  original_text: How is python has grown to become market leader in programming languages
-    and different from language of choice for data analysts?
-  final_text: How is python has grown to become market leader in programming languages
-    and different from language of choice for data analysts?
-  reject_reason: null
-- candidate_id: q0087
-  status: accepted
-  original_text: How is python has grown to become market leader in programming languages
-    and different from data scientists. demand for?
-  final_text: How is python has grown to become market leader in programming languages
-    and different from data scientists. demand for?
-  reject_reason: null
-- candidate_id: q0088
+- candidate_id: q0038
   status: accepted
   original_text: How is python has grown to become market leader in programming languages
     and different from data skills is rising because companies want to gain actionable
@@ -1541,849 +889,194 @@ question_repairs:
     and different from data skills is rising because companies want to gain actionable
     insights?
   reject_reason: null
-- candidate_id: q0089
+- candidate_id: q0039
   status: accepted
   original_text: How is python has grown to become market leader in programming languages
     and different from discover python basics?
   final_text: How is python has grown to become market leader in programming languages
     and different from discover python basics?
   reject_reason: null
-- candidate_id: q0090
+- candidate_id: q0040
   status: accepted
   original_text: How is python has grown to become market leader in programming languages
     and different from this is a python course for beginners?
   final_text: How is python has grown to become market leader in programming languages
     and different from this is a python course for beginners?
   reject_reason: null
-- candidate_id: q0091
+- candidate_id: q0041
   status: accepted
   original_text: How is language of choice for data analysts different from data scientists.
     demand for?
   final_text: How is language of choice for data analysts different from data scientists.
     demand for?
   reject_reason: null
-- candidate_id: q0092
-  status: accepted
-  original_text: How is language of choice for data analysts different from data skills
-    is rising because companies want to gain actionable insights?
-  final_text: How is language of choice for data analysts different from data skills
-    is rising because companies want to gain actionable insights?
-  reject_reason: null
-- candidate_id: q0093
-  status: accepted
-  original_text: How is language of choice for data analysts different from discover
-    python basics?
-  final_text: How is language of choice for data analysts different from discover
-    python basics?
-  reject_reason: null
-- candidate_id: q0094
+- candidate_id: q0042
   status: accepted
   original_text: How is language of choice for data analysts different from this is
     a python course for beginners?
   final_text: How is language of choice for data analysts different from this is a
     python course for beginners?
   reject_reason: null
-- candidate_id: q0095
+- candidate_id: q0043
   status: accepted
-  original_text: How is data scientists. demand for different from data skills is
-    rising because companies want to gain actionable insights?
-  final_text: How is data scientists. demand for different from data skills is rising
-    because companies want to gain actionable insights?
+  original_text: How is language of choice for data analysts different from we designed
+    it for people with no?
+  final_text: How is language of choice for data analysts different from we designed
+    it for people with no?
   reject_reason: null
-- candidate_id: q0096
-  status: accepted
-  original_text: How is data scientists. demand for different from discover python
-    basics?
-  final_text: How is data scientists. demand for different from discover python basics?
-  reject_reason: null
-- candidate_id: q0097
+- candidate_id: q0044
   status: accepted
   original_text: How is data scientists. demand for different from this is a python
     course for beginners?
   final_text: How is data scientists. demand for different from this is a python course
     for beginners?
   reject_reason: null
-- candidate_id: q0098
+- candidate_id: q0045
   status: accepted
-  original_text: How is data skills is rising because companies want to gain actionable
-    insights different from discover python basics?
-  final_text: How is data skills is rising because companies want to gain actionable
-    insights different from discover python basics?
+  original_text: How is data scientists. demand for different from we designed it
+    for people with no?
+  final_text: How is data scientists. demand for different from we designed it for
+    people with no?
   reject_reason: null
-- candidate_id: q0099
+- candidate_id: q0046
   status: accepted
   original_text: How is data skills is rising because companies want to gain actionable
     insights different from this is a python course for beginners?
   final_text: How is data skills is rising because companies want to gain actionable
     insights different from this is a python course for beginners?
   reject_reason: null
-- candidate_id: q0100
+- candidate_id: q0047
   status: accepted
   original_text: How is discover python basics different from this is a python course
     for beginners?
   final_text: How is discover python basics different from this is a python course
     for beginners?
   reject_reason: null
+- candidate_id: q0048
+  status: accepted
+  original_text: How is this is a python course for beginners different from we designed
+    it for people with no?
+  final_text: How is this is a python course for beginners different from we designed
+    it for people with no?
+  reject_reason: null
 answers:
-- question_id: q0001
-  question_text: What is master basics of data analysis with python in just four hours.
-    this?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0002
-  question_text: What does master basics of data analysis with python in just four
-    hours. this mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0003
-  question_text: Why does master basics of data analysis with python in just four
-    hours. this matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0004
-  question_text: Why does master basics of data analysis with python in just four
-    hours. this?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
 - question_id: q0005
-  question_text: What is a simple example of master basics of data analysis with python
-    in just four hours. this?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0006
-  question_text: What is online course will introduce python interface?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0007
-  question_text: What does online course will introduce python interface mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0008
-  question_text: Why does online course will introduce python interface matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0009
-  question_text: Why does online course will introduce python interface?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0010
-  question_text: What is a simple example of online course will introduce python interface?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0011
   question_text: What is explore popular?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0012
-  question_text: What does explore popular mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0013
-  question_text: Why does explore popular matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0014
-  question_text: Why does explore popular?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0015
-  question_text: What is a simple example of explore popular?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0016
+  answer_text: online course will introduce the Python interface and explore popular
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: summary
+    text: online course will introduce the Python interface and explore popular
+- question_id: q0006
+  question_text: How does explore popular work?
+  answer_text: online course will introduce the Python interface and explore popular
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: summary
+    text: online course will introduce the Python interface and explore popular
+- question_id: q0007
   question_text: What is an introduction to python?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0017
-  question_text: What does an introduction to python mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0018
-  question_text: Why does an introduction to python matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0019
-  question_text: Why does an introduction to python?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0020
-  question_text: What is a simple example of an introduction to python?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0021
-  question_text: What is python has grown to become market leader in programming languages
-    and?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0022
-  question_text: What does python has grown to become market leader in programming
-    languages and mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0023
-  question_text: Why does python has grown to become market leader in programming
-    languages and matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0024
-  question_text: Why does python has grown to become market leader in programming
-    languages and?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0025
-  question_text: What is a simple example of python has grown to become market leader
-    in programming languages and?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0026
+  answer_text: An Introduction to Python
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: An Introduction to Python
+- question_id: q0008
+  question_text: How does an introduction to python work?
+  answer_text: An Introduction to Python
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: An Introduction to Python
+- question_id: q0011
   question_text: What is language of choice for data analysts?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0027
-  question_text: What does language of choice for data analysts mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0028
-  question_text: Why does language of choice for data analysts matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0029
-  question_text: Why does language of choice for data analysts?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0030
-  question_text: What is a simple example of language of choice for data analysts?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0031
-  question_text: What is data scientists. demand for?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0032
-  question_text: What does data scientists. demand for mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0033
-  question_text: Why does data scientists. demand for matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0034
-  question_text: Why does data scientists. demand for?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0035
-  question_text: What is a simple example of data scientists. demand for?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0036
+  answer_text: the language of choice for data analysts and data scientists.
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: the language of choice for data analysts and data scientists.
+- question_id: q0012
+  question_text: How does language of choice for data analysts work?
+  answer_text: the language of choice for data analysts and data scientists.
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: the language of choice for data analysts and data scientists.
+- question_id: q0015
   question_text: What is data skills is rising because companies want to gain actionable
     insights?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0037
-  question_text: What does data skills is rising because companies want to gain actionable
-    insights mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0038
-  question_text: Why does data skills is rising because companies want to gain actionable
-    insights matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0039
-  question_text: Why does data skills is rising because companies want to gain actionable
-    insights?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0040
-  question_text: What is a simple example of data skills is rising because companies
-    want to gain actionable insights?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0041
-  question_text: What is discover python basics?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0042
-  question_text: What does discover python basics mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0043
-  question_text: Why does discover python basics matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0044
-  question_text: Why does discover python basics?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0045
-  question_text: What is a simple example of discover python basics?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0046
+  answer_text: data skills is rising because companies want to gain actionable insights
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: data skills is rising because companies want to gain actionable insights
+- question_id: q0016
+  question_text: How does data skills is rising because companies want to gain actionable
+    insights work?
+  answer_text: data skills is rising because companies want to gain actionable insights
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: data skills is rising because companies want to gain actionable insights
+- question_id: q0019
   question_text: What is this is a python course for beginners?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0047
-  question_text: What does this is a python course for beginners mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0048
-  question_text: Why does this is a python course for beginners matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0049
-  question_text: Why does this is a python course for beginners?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0050
-  question_text: What is a simple example of this is a python course for beginners?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0051
+  answer_text: This is a Python course for beginners, and we designed it for people
+    with no
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: This is a Python course for beginners, and we designed it for people with
+      no
+- question_id: q0020
+  question_text: How does this is a python course for beginners work?
+  answer_text: This is a Python course for beginners, and we designed it for people
+    with no
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: This is a Python course for beginners, and we designed it for people with
+      no
+- question_id: q0021
   question_text: What is we designed it for people with no?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0052
-  question_text: What does we designed it for people with no mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0053
-  question_text: Why does we designed it for people with no matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0054
-  question_text: Why does we designed it for people with no?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0055
-  question_text: What is a simple example of we designed it for people with no?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0056
-  question_text: How is master basics of data analysis with python in just four hours.
-    this different from online course will introduce python interface?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0057
-  question_text: How is master basics of data analysis with python in just four hours.
-    this different from explore popular?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0058
-  question_text: How is master basics of data analysis with python in just four hours.
-    this different from an introduction to python?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0059
-  question_text: How is master basics of data analysis with python in just four hours.
-    this different from python has grown to become market leader in programming languages
-    and?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0060
-  question_text: How is master basics of data analysis with python in just four hours.
-    this different from language of choice for data analysts?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0061
-  question_text: How is master basics of data analysis with python in just four hours.
-    this different from data scientists. demand for?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0062
-  question_text: How is master basics of data analysis with python in just four hours.
-    this different from data skills is rising because companies want to gain actionable
-    insights?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0063
-  question_text: How is master basics of data analysis with python in just four hours.
-    this different from discover python basics?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0064
-  question_text: How is master basics of data analysis with python in just four hours.
-    this different from this is a python course for beginners?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0065
-  question_text: How is online course will introduce python interface different from
-    explore popular?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0066
-  question_text: How is online course will introduce python interface different from
-    an introduction to python?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0067
-  question_text: How is online course will introduce python interface different from
-    python has grown to become market leader in programming languages and?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0068
-  question_text: How is online course will introduce python interface different from
-    language of choice for data analysts?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0069
-  question_text: How is online course will introduce python interface different from
-    data scientists. demand for?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0070
-  question_text: How is online course will introduce python interface different from
-    data skills is rising because companies want to gain actionable insights?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0071
-  question_text: How is online course will introduce python interface different from
-    discover python basics?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0072
-  question_text: How is online course will introduce python interface different from
-    this is a python course for beginners?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0073
-  question_text: How is explore popular different from an introduction to python?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0074
-  question_text: How is explore popular different from python has grown to become
-    market leader in programming languages and?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0075
-  question_text: How is explore popular different from language of choice for data
-    analysts?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0076
-  question_text: How is explore popular different from data scientists. demand for?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0077
-  question_text: How is explore popular different from data skills is rising because
-    companies want to gain actionable insights?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0078
-  question_text: How is explore popular different from discover python basics?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0079
-  question_text: How is explore popular different from this is a python course for
-    beginners?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0080
-  question_text: How is an introduction to python different from python has grown
-    to become market leader in programming languages and?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0081
-  question_text: How is an introduction to python different from language of choice
-    for data analysts?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0082
-  question_text: How is an introduction to python different from data scientists.
-    demand for?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0083
-  question_text: How is an introduction to python different from data skills is rising
-    because companies want to gain actionable insights?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0084
-  question_text: How is an introduction to python different from discover python basics?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0085
-  question_text: How is an introduction to python different from this is a python
-    course for beginners?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0086
-  question_text: How is python has grown to become market leader in programming languages
-    and different from language of choice for data analysts?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0087
-  question_text: How is python has grown to become market leader in programming languages
-    and different from data scientists. demand for?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0088
-  question_text: How is python has grown to become market leader in programming languages
-    and different from data skills is rising because companies want to gain actionable
-    insights?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0089
-  question_text: How is python has grown to become market leader in programming languages
-    and different from discover python basics?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0090
-  question_text: How is python has grown to become market leader in programming languages
-    and different from this is a python course for beginners?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0091
-  question_text: How is language of choice for data analysts different from data scientists.
-    demand for?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0092
-  question_text: How is language of choice for data analysts different from data skills
-    is rising because companies want to gain actionable insights?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0093
-  question_text: How is language of choice for data analysts different from discover
-    python basics?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0094
-  question_text: How is language of choice for data analysts different from this is
-    a python course for beginners?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0095
-  question_text: How is data scientists. demand for different from data skills is
-    rising because companies want to gain actionable insights?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0096
-  question_text: How is data scientists. demand for different from discover python
-    basics?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0097
-  question_text: How is data scientists. demand for different from this is a python
-    course for beginners?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0098
-  question_text: How is data skills is rising because companies want to gain actionable
-    insights different from discover python basics?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0099
-  question_text: How is data skills is rising because companies want to gain actionable
-    insights different from this is a python course for beginners?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0100
-  question_text: How is discover python basics different from this is a python course
-    for beginners?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
+  answer_text: This is a Python course for beginners, and we designed it for people
+    with no
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: This is a Python course for beginners, and we designed it for people with
+      no
+- question_id: q0022
+  question_text: How does we designed it for people with no work?
+  answer_text: This is a Python course for beginners, and we designed it for people
+    with no
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: This is a Python course for beginners, and we designed it for people with
+      no
+- question_id: q0048
+  question_text: How is this is a python course for beginners different from we designed
+    it for people with no?
+  answer_text: This is a Python course for beginners, and we designed it for people
+    with no
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: This is a Python course for beginners, and we designed it for people with
+      no
 final_rows:
 - row_id: r_000001
   course:
@@ -2394,12 +1087,11 @@ final_rows:
   - master basics of data analysis with python in just four hours. this
   question_text: What is master basics of data analysis with python in just four hours.
     this?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: entry
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
 - row_id: r_000002
   course:
@@ -2408,14 +1100,13 @@ final_rows:
       no
   relevant_topics:
   - master basics of data analysis with python in just four hours. this
-  question_text: What does master basics of data analysis with python in just four
-    hours. this mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
-  status: answered
-  reject_reason: null
+  question_text: How does master basics of data analysis with python in just four
+    hours. this work?
+  question_answer: null
+  correctness: null
+  question_family: mechanism
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
 - row_id: r_000003
   course:
@@ -2423,15 +1114,13 @@ final_rows:
     title: This is a Python course for beginners, and we designed it for people with
       no
   relevant_topics:
-  - master basics of data analysis with python in just four hours. this
-  question_text: Why does master basics of data analysis with python in just four
-    hours. this matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
+  - online course will introduce python interface
+  question_text: What is online course will introduce python interface?
+  question_answer: null
+  correctness: null
+  question_family: entry
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
 - row_id: r_000004
   course:
@@ -2439,15 +1128,13 @@ final_rows:
     title: This is a Python course for beginners, and we designed it for people with
       no
   relevant_topics:
-  - master basics of data analysis with python in just four hours. this
-  question_text: Why does master basics of data analysis with python in just four
-    hours. this?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
+  - online course will introduce python interface
+  question_text: How does online course will introduce python interface work?
+  question_answer: null
+  correctness: null
+  question_family: mechanism
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
 - row_id: r_000005
   course:
@@ -2455,167 +1142,33 @@ final_rows:
     title: This is a Python course for beginners, and we designed it for people with
       no
   relevant_topics:
-  - master basics of data analysis with python in just four hours. this
-  question_text: What is a simple example of master basics of data analysis with python
-    in just four hours. this?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
+  - explore popular
+  question_text: What is explore popular?
+  question_answer: online course will introduce the Python interface and explore popular
+  correctness: correct
+  question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: summary
+    text: online course will introduce the Python interface and explore popular
 - row_id: r_000006
   course:
     course_id: '7631'
     title: This is a Python course for beginners, and we designed it for people with
       no
   relevant_topics:
-  - online course will introduce python interface
-  question_text: What is online course will introduce python interface?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  - explore popular
+  question_text: How does explore popular work?
+  question_answer: online course will introduce the Python interface and explore popular
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: summary
+    text: online course will introduce the Python interface and explore popular
 - row_id: r_000007
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - online course will introduce python interface
-  question_text: What does online course will introduce python interface mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000008
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - online course will introduce python interface
-  question_text: Why does online course will introduce python interface matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000009
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - online course will introduce python interface
-  question_text: Why does online course will introduce python interface?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000010
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - online course will introduce python interface
-  question_text: What is a simple example of online course will introduce python interface?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000011
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - explore popular
-  question_text: What is explore popular?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000012
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - explore popular
-  question_text: What does explore popular mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000013
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - explore popular
-  question_text: Why does explore popular matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000014
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - explore popular
-  question_text: Why does explore popular?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000015
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - explore popular
-  question_text: What is a simple example of explore popular?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000016
   course:
     course_id: '7631'
     title: This is a Python course for beginners, and we designed it for people with
@@ -2623,74 +1176,31 @@ final_rows:
   relevant_topics:
   - an introduction to python
   question_text: What is an introduction to python?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: An Introduction to Python
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000017
+  source_evidence:
+  - source: overview
+    text: An Introduction to Python
+- row_id: r_000008
   course:
     course_id: '7631'
     title: This is a Python course for beginners, and we designed it for people with
       no
   relevant_topics:
   - an introduction to python
-  question_text: What does an introduction to python mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does an introduction to python work?
+  question_answer: An Introduction to Python
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000018
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - an introduction to python
-  question_text: Why does an introduction to python matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000019
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - an introduction to python
-  question_text: Why does an introduction to python?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000020
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - an introduction to python
-  question_text: What is a simple example of an introduction to python?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000021
+  source_evidence:
+  - source: overview
+    text: An Introduction to Python
+- row_id: r_000009
   course:
     course_id: '7631'
     title: This is a Python course for beginners, and we designed it for people with
@@ -2699,78 +1209,28 @@ final_rows:
   - python has grown to become market leader in programming languages and
   question_text: What is python has grown to become market leader in programming languages
     and?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: entry
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000022
+- row_id: r_000010
   course:
     course_id: '7631'
     title: This is a Python course for beginners, and we designed it for people with
       no
   relevant_topics:
   - python has grown to become market leader in programming languages and
-  question_text: What does python has grown to become market leader in programming
-    languages and mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
-  status: answered
-  reject_reason: null
+  question_text: How does python has grown to become market leader in programming
+    languages and work?
+  question_answer: null
+  correctness: null
+  question_family: mechanism
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000023
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - python has grown to become market leader in programming languages and
-  question_text: Why does python has grown to become market leader in programming
-    languages and matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000024
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - python has grown to become market leader in programming languages and
-  question_text: Why does python has grown to become market leader in programming
-    languages and?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000025
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - python has grown to become market leader in programming languages and
-  question_text: What is a simple example of python has grown to become market leader
-    in programming languages and?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000026
+- row_id: r_000011
   course:
     course_id: '7631'
     title: This is a Python course for beginners, and we designed it for people with
@@ -2778,74 +1238,31 @@ final_rows:
   relevant_topics:
   - language of choice for data analysts
   question_text: What is language of choice for data analysts?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: the language of choice for data analysts and data scientists.
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000027
+  source_evidence:
+  - source: overview
+    text: the language of choice for data analysts and data scientists.
+- row_id: r_000012
   course:
     course_id: '7631'
     title: This is a Python course for beginners, and we designed it for people with
       no
   relevant_topics:
   - language of choice for data analysts
-  question_text: What does language of choice for data analysts mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does language of choice for data analysts work?
+  question_answer: the language of choice for data analysts and data scientists.
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000028
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - language of choice for data analysts
-  question_text: Why does language of choice for data analysts matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000029
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - language of choice for data analysts
-  question_text: Why does language of choice for data analysts?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000030
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - language of choice for data analysts
-  question_text: What is a simple example of language of choice for data analysts?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000031
+  source_evidence:
+  - source: overview
+    text: the language of choice for data analysts and data scientists.
+- row_id: r_000013
   course:
     course_id: '7631'
     title: This is a Python course for beginners, and we designed it for people with
@@ -2853,74 +1270,27 @@ final_rows:
   relevant_topics:
   - data scientists. demand for
   question_text: What is data scientists. demand for?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: entry
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000032
+- row_id: r_000014
   course:
     course_id: '7631'
     title: This is a Python course for beginners, and we designed it for people with
       no
   relevant_topics:
   - data scientists. demand for
-  question_text: What does data scientists. demand for mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
-  status: answered
-  reject_reason: null
+  question_text: How does data scientists. demand for work?
+  question_answer: null
+  correctness: null
+  question_family: mechanism
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000033
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - data scientists. demand for
-  question_text: Why does data scientists. demand for matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000034
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - data scientists. demand for
-  question_text: Why does data scientists. demand for?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000035
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - data scientists. demand for
-  question_text: What is a simple example of data scientists. demand for?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000036
+- row_id: r_000015
   course:
     course_id: '7631'
     title: This is a Python course for beginners, and we designed it for people with
@@ -2929,78 +1299,34 @@ final_rows:
   - data skills is rising because companies want to gain actionable insights
   question_text: What is data skills is rising because companies want to gain actionable
     insights?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: data skills is rising because companies want to gain actionable
+    insights
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000037
+  source_evidence:
+  - source: overview
+    text: data skills is rising because companies want to gain actionable insights
+- row_id: r_000016
   course:
     course_id: '7631'
     title: This is a Python course for beginners, and we designed it for people with
       no
   relevant_topics:
   - data skills is rising because companies want to gain actionable insights
-  question_text: What does data skills is rising because companies want to gain actionable
-    insights mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does data skills is rising because companies want to gain actionable
+    insights work?
+  question_answer: data skills is rising because companies want to gain actionable
+    insights
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000038
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - data skills is rising because companies want to gain actionable insights
-  question_text: Why does data skills is rising because companies want to gain actionable
-    insights matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000039
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - data skills is rising because companies want to gain actionable insights
-  question_text: Why does data skills is rising because companies want to gain actionable
-    insights?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000040
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - data skills is rising because companies want to gain actionable insights
-  question_text: What is a simple example of data skills is rising because companies
-    want to gain actionable insights?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000041
+  source_evidence:
+  - source: overview
+    text: data skills is rising because companies want to gain actionable insights
+- row_id: r_000017
   course:
     course_id: '7631'
     title: This is a Python course for beginners, and we designed it for people with
@@ -3008,74 +1334,27 @@ final_rows:
   relevant_topics:
   - discover python basics
   question_text: What is discover python basics?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: entry
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000042
+- row_id: r_000018
   course:
     course_id: '7631'
     title: This is a Python course for beginners, and we designed it for people with
       no
   relevant_topics:
   - discover python basics
-  question_text: What does discover python basics mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
-  status: answered
-  reject_reason: null
+  question_text: How does discover python basics work?
+  question_answer: null
+  correctness: null
+  question_family: mechanism
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000043
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - discover python basics
-  question_text: Why does discover python basics matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000044
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - discover python basics
-  question_text: Why does discover python basics?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000045
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - discover python basics
-  question_text: What is a simple example of discover python basics?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000046
+- row_id: r_000019
   course:
     course_id: '7631'
     title: This is a Python course for beginners, and we designed it for people with
@@ -3083,74 +1362,35 @@ final_rows:
   relevant_topics:
   - this is a python course for beginners
   question_text: What is this is a python course for beginners?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: This is a Python course for beginners, and we designed it for people
+    with no
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000047
+  source_evidence:
+  - source: overview
+    text: This is a Python course for beginners, and we designed it for people with
+      no
+- row_id: r_000020
   course:
     course_id: '7631'
     title: This is a Python course for beginners, and we designed it for people with
       no
   relevant_topics:
   - this is a python course for beginners
-  question_text: What does this is a python course for beginners mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does this is a python course for beginners work?
+  question_answer: This is a Python course for beginners, and we designed it for people
+    with no
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000048
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
+  source_evidence:
+  - source: overview
+    text: This is a Python course for beginners, and we designed it for people with
       no
-  relevant_topics:
-  - this is a python course for beginners
-  question_text: Why does this is a python course for beginners matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000049
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - this is a python course for beginners
-  question_text: Why does this is a python course for beginners?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000050
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - this is a python course for beginners
-  question_text: What is a simple example of this is a python course for beginners?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000051
+- row_id: r_000021
   course:
     course_id: '7631'
     title: This is a Python course for beginners, and we designed it for people with
@@ -3158,74 +1398,35 @@ final_rows:
   relevant_topics:
   - we designed it for people with no
   question_text: What is we designed it for people with no?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: This is a Python course for beginners, and we designed it for people
+    with no
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000052
+  source_evidence:
+  - source: overview
+    text: This is a Python course for beginners, and we designed it for people with
+      no
+- row_id: r_000022
   course:
     course_id: '7631'
     title: This is a Python course for beginners, and we designed it for people with
       no
   relevant_topics:
   - we designed it for people with no
-  question_text: What does we designed it for people with no mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does we designed it for people with no work?
+  question_answer: This is a Python course for beginners, and we designed it for people
+    with no
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000053
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
+  source_evidence:
+  - source: overview
+    text: This is a Python course for beginners, and we designed it for people with
       no
-  relevant_topics:
-  - we designed it for people with no
-  question_text: Why does we designed it for people with no matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000054
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - we designed it for people with no
-  question_text: Why does we designed it for people with no?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000055
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - we designed it for people with no
-  question_text: What is a simple example of we designed it for people with no?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000056
+- row_id: r_000023
   course:
     course_id: '7631'
     title: This is a Python course for beginners, and we designed it for people with
@@ -3235,31 +1436,13 @@ final_rows:
   - online course will introduce python interface
   question_text: How is master basics of data analysis with python in just four hours.
     this different from online course will introduce python interface?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000057
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - master basics of data analysis with python in just four hours. this
-  - explore popular
-  question_text: How is master basics of data analysis with python in just four hours.
-    this different from explore popular?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000058
+- row_id: r_000024
   course:
     course_id: '7631'
     title: This is a Python course for beginners, and we designed it for people with
@@ -3269,14 +1452,13 @@ final_rows:
   - an introduction to python
   question_text: How is master basics of data analysis with python in just four hours.
     this different from an introduction to python?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000059
+- row_id: r_000025
   course:
     course_id: '7631'
     title: This is a Python course for beginners, and we designed it for people with
@@ -3287,14 +1469,13 @@ final_rows:
   question_text: How is master basics of data analysis with python in just four hours.
     this different from python has grown to become market leader in programming languages
     and?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000060
+- row_id: r_000026
   course:
     course_id: '7631'
     title: This is a Python course for beginners, and we designed it for people with
@@ -3304,49 +1485,13 @@ final_rows:
   - language of choice for data analysts
   question_text: How is master basics of data analysis with python in just four hours.
     this different from language of choice for data analysts?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000061
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - master basics of data analysis with python in just four hours. this
-  - data scientists. demand for
-  question_text: How is master basics of data analysis with python in just four hours.
-    this different from data scientists. demand for?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000062
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - master basics of data analysis with python in just four hours. this
-  - data skills is rising because companies want to gain actionable insights
-  question_text: How is master basics of data analysis with python in just four hours.
-    this different from data skills is rising because companies want to gain actionable
-    insights?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000063
+- row_id: r_000027
   course:
     course_id: '7631'
     title: This is a Python course for beginners, and we designed it for people with
@@ -3356,14 +1501,13 @@ final_rows:
   - discover python basics
   question_text: How is master basics of data analysis with python in just four hours.
     this different from discover python basics?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000064
+- row_id: r_000028
   course:
     course_id: '7631'
     title: This is a Python course for beginners, and we designed it for people with
@@ -3373,31 +1517,29 @@ final_rows:
   - this is a python course for beginners
   question_text: How is master basics of data analysis with python in just four hours.
     this different from this is a python course for beginners?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000065
+- row_id: r_000029
   course:
     course_id: '7631'
     title: This is a Python course for beginners, and we designed it for people with
       no
   relevant_topics:
-  - online course will introduce python interface
-  - explore popular
-  question_text: How is online course will introduce python interface different from
-    explore popular?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  - master basics of data analysis with python in just four hours. this
+  - we designed it for people with no
+  question_text: How is master basics of data analysis with python in just four hours.
+    this different from we designed it for people with no?
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000066
+- row_id: r_000030
   course:
     course_id: '7631'
     title: This is a Python course for beginners, and we designed it for people with
@@ -3407,14 +1549,13 @@ final_rows:
   - an introduction to python
   question_text: How is online course will introduce python interface different from
     an introduction to python?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000067
+- row_id: r_000031
   course:
     course_id: '7631'
     title: This is a Python course for beginners, and we designed it for people with
@@ -3424,65 +1565,13 @@ final_rows:
   - python has grown to become market leader in programming languages and
   question_text: How is online course will introduce python interface different from
     python has grown to become market leader in programming languages and?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000068
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - online course will introduce python interface
-  - language of choice for data analysts
-  question_text: How is online course will introduce python interface different from
-    language of choice for data analysts?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000069
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - online course will introduce python interface
-  - data scientists. demand for
-  question_text: How is online course will introduce python interface different from
-    data scientists. demand for?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000070
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - online course will introduce python interface
-  - data skills is rising because companies want to gain actionable insights
-  question_text: How is online course will introduce python interface different from
-    data skills is rising because companies want to gain actionable insights?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000071
+- row_id: r_000032
   course:
     course_id: '7631'
     title: This is a Python course for beginners, and we designed it for people with
@@ -3492,14 +1581,13 @@ final_rows:
   - discover python basics
   question_text: How is online course will introduce python interface different from
     discover python basics?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000072
+- row_id: r_000033
   course:
     course_id: '7631'
     title: This is a Python course for beginners, and we designed it for people with
@@ -3509,130 +1597,13 @@ final_rows:
   - this is a python course for beginners
   question_text: How is online course will introduce python interface different from
     this is a python course for beginners?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000073
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - explore popular
-  - an introduction to python
-  question_text: How is explore popular different from an introduction to python?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000074
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - explore popular
-  - python has grown to become market leader in programming languages and
-  question_text: How is explore popular different from python has grown to become
-    market leader in programming languages and?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000075
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - explore popular
-  - language of choice for data analysts
-  question_text: How is explore popular different from language of choice for data
-    analysts?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000076
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - explore popular
-  - data scientists. demand for
-  question_text: How is explore popular different from data scientists. demand for?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000077
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - explore popular
-  - data skills is rising because companies want to gain actionable insights
-  question_text: How is explore popular different from data skills is rising because
-    companies want to gain actionable insights?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000078
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - explore popular
-  - discover python basics
-  question_text: How is explore popular different from discover python basics?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000079
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - explore popular
-  - this is a python course for beginners
-  question_text: How is explore popular different from this is a python course for
-    beginners?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000080
+- row_id: r_000034
   course:
     course_id: '7631'
     title: This is a Python course for beginners, and we designed it for people with
@@ -3642,48 +1613,13 @@ final_rows:
   - python has grown to become market leader in programming languages and
   question_text: How is an introduction to python different from python has grown
     to become market leader in programming languages and?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000081
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - an introduction to python
-  - language of choice for data analysts
-  question_text: How is an introduction to python different from language of choice
-    for data analysts?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000082
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - an introduction to python
-  - data scientists. demand for
-  question_text: How is an introduction to python different from data scientists.
-    demand for?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000083
+- row_id: r_000035
   course:
     course_id: '7631'
     title: This is a Python course for beginners, and we designed it for people with
@@ -3693,14 +1629,13 @@ final_rows:
   - data skills is rising because companies want to gain actionable insights
   question_text: How is an introduction to python different from data skills is rising
     because companies want to gain actionable insights?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000084
+- row_id: r_000036
   course:
     course_id: '7631'
     title: This is a Python course for beginners, and we designed it for people with
@@ -3709,14 +1644,13 @@ final_rows:
   - an introduction to python
   - discover python basics
   question_text: How is an introduction to python different from discover python basics?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000085
+- row_id: r_000037
   course:
     course_id: '7631'
     title: This is a Python course for beginners, and we designed it for people with
@@ -3726,48 +1660,13 @@ final_rows:
   - this is a python course for beginners
   question_text: How is an introduction to python different from this is a python
     course for beginners?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000086
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - python has grown to become market leader in programming languages and
-  - language of choice for data analysts
-  question_text: How is python has grown to become market leader in programming languages
-    and different from language of choice for data analysts?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000087
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - python has grown to become market leader in programming languages and
-  - data scientists. demand for
-  question_text: How is python has grown to become market leader in programming languages
-    and different from data scientists. demand for?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000088
+- row_id: r_000038
   course:
     course_id: '7631'
     title: This is a Python course for beginners, and we designed it for people with
@@ -3778,14 +1677,13 @@ final_rows:
   question_text: How is python has grown to become market leader in programming languages
     and different from data skills is rising because companies want to gain actionable
     insights?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000089
+- row_id: r_000039
   course:
     course_id: '7631'
     title: This is a Python course for beginners, and we designed it for people with
@@ -3795,14 +1693,13 @@ final_rows:
   - discover python basics
   question_text: How is python has grown to become market leader in programming languages
     and different from discover python basics?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000090
+- row_id: r_000040
   course:
     course_id: '7631'
     title: This is a Python course for beginners, and we designed it for people with
@@ -3812,14 +1709,13 @@ final_rows:
   - this is a python course for beginners
   question_text: How is python has grown to become market leader in programming languages
     and different from this is a python course for beginners?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000091
+- row_id: r_000041
   course:
     course_id: '7631'
     title: This is a Python course for beginners, and we designed it for people with
@@ -3829,48 +1725,13 @@ final_rows:
   - data scientists. demand for
   question_text: How is language of choice for data analysts different from data scientists.
     demand for?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000092
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - language of choice for data analysts
-  - data skills is rising because companies want to gain actionable insights
-  question_text: How is language of choice for data analysts different from data skills
-    is rising because companies want to gain actionable insights?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000093
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - language of choice for data analysts
-  - discover python basics
-  question_text: How is language of choice for data analysts different from discover
-    python basics?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000094
+- row_id: r_000042
   course:
     course_id: '7631'
     title: This is a Python course for beginners, and we designed it for people with
@@ -3880,48 +1741,29 @@ final_rows:
   - this is a python course for beginners
   question_text: How is language of choice for data analysts different from this is
     a python course for beginners?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000095
+- row_id: r_000043
   course:
     course_id: '7631'
     title: This is a Python course for beginners, and we designed it for people with
       no
   relevant_topics:
-  - data scientists. demand for
-  - data skills is rising because companies want to gain actionable insights
-  question_text: How is data scientists. demand for different from data skills is
-    rising because companies want to gain actionable insights?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  - language of choice for data analysts
+  - we designed it for people with no
+  question_text: How is language of choice for data analysts different from we designed
+    it for people with no?
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000096
-  course:
-    course_id: '7631'
-    title: This is a Python course for beginners, and we designed it for people with
-      no
-  relevant_topics:
-  - data scientists. demand for
-  - discover python basics
-  question_text: How is data scientists. demand for different from discover python
-    basics?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000097
+- row_id: r_000044
   course:
     course_id: '7631'
     title: This is a Python course for beginners, and we designed it for people with
@@ -3931,31 +1773,29 @@ final_rows:
   - this is a python course for beginners
   question_text: How is data scientists. demand for different from this is a python
     course for beginners?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000098
+- row_id: r_000045
   course:
     course_id: '7631'
     title: This is a Python course for beginners, and we designed it for people with
       no
   relevant_topics:
-  - data skills is rising because companies want to gain actionable insights
-  - discover python basics
-  question_text: How is data skills is rising because companies want to gain actionable
-    insights different from discover python basics?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  - data scientists. demand for
+  - we designed it for people with no
+  question_text: How is data scientists. demand for different from we designed it
+    for people with no?
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000099
+- row_id: r_000046
   course:
     course_id: '7631'
     title: This is a Python course for beginners, and we designed it for people with
@@ -3965,14 +1805,13 @@ final_rows:
   - this is a python course for beginners
   question_text: How is data skills is rising because companies want to gain actionable
     insights different from this is a python course for beginners?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000100
+- row_id: r_000047
   course:
     course_id: '7631'
     title: This is a Python course for beginners, and we designed it for people with
@@ -3982,18 +1821,37 @@ final_rows:
   - this is a python course for beginners
   question_text: How is discover python basics different from this is a python course
     for beginners?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
+  question_family: comparison
+  status: errored
+  reject_reason: missing_answer
+  source_evidence: []
+- row_id: r_000048
+  course:
+    course_id: '7631'
+    title: This is a Python course for beginners, and we designed it for people with
+      no
+  relevant_topics:
+  - this is a python course for beginners
+  - we designed it for people with no
+  question_text: How is this is a python course for beginners different from we designed
+    it for people with no?
+  question_answer: This is a Python course for beginners, and we designed it for people
+    with no
+  correctness: correct
   question_family: comparison
   status: answered
   reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: overview
+    text: This is a Python course for beginners, and we designed it for people with
+      no
 summary:
   topic_count: 11
   canonical_topic_count: 11
-  candidate_count: 100
-  accepted_count: 100
+  candidate_count: 48
+  accepted_count: 48
   rejected_count: 0
-  correct_count: 0
-  uncertain_count: 100
+  correct_count: 13
+  uncertain_count: 0

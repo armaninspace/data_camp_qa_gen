@@ -118,1954 +118,604 @@ normalized_course:
     final_url: true
 extracted_topics:
 - topic_id: t001
-  label: introduction to data science
-  topic_type: concept
-  description: 'Topic inferred from chapter heading: introduction to data science'
-  evidence:
-  - source: syllabus
-    text: Introduction to Data Science
-  confidence: 0.45
-- topic_id: t002
   label: data collection
   topic_type: concept
-  description: 'Topic inferred from chapter heading: data collection'
+  description: 'Topic extracted from syllabus: data collection'
   evidence:
   - source: syllabus
     text: Data Collection and Storage
-  confidence: 0.55
-- topic_id: t003
+  confidence: 0.75
+- topic_id: t002
   label: storage
   topic_type: concept
-  description: 'Topic inferred from chapter heading: storage'
+  description: 'Topic extracted from syllabus: storage'
   evidence:
   - source: syllabus
     text: Data Collection and Storage
-  confidence: 0.55
-- topic_id: t004
+  confidence: 0.75
+- topic_id: t003
   label: preparation, exploration
   topic_type: concept
-  description: 'Topic inferred from chapter heading: preparation, exploration'
+  description: 'Topic extracted from syllabus: preparation, exploration'
   evidence:
   - source: syllabus
     text: Preparation, Exploration, and Visualization
-  confidence: 0.55
-- topic_id: t005
+  confidence: 0.75
+- topic_id: t004
   label: visualization
   topic_type: concept
-  description: 'Topic inferred from chapter heading: visualization'
+  description: 'Topic extracted from syllabus: visualization'
   evidence:
   - source: syllabus
     text: Preparation, Exploration, and Visualization
-  confidence: 0.55
-- topic_id: t006
+  confidence: 0.75
+- topic_id: t005
   label: experimentation
   topic_type: concept
-  description: 'Topic inferred from chapter heading: experimentation'
+  description: 'Topic extracted from syllabus: experimentation'
   evidence:
   - source: syllabus
     text: Experimentation and Prediction
-  confidence: 0.55
-- topic_id: t007
+  confidence: 0.75
+- topic_id: t006
   label: prediction
   topic_type: concept
-  description: 'Topic inferred from chapter heading: prediction'
+  description: 'Topic extracted from syllabus: prediction'
   evidence:
   - source: syllabus
     text: Experimentation and Prediction
-  confidence: 0.55
+  confidence: 0.75
+- topic_id: t007
+  label: where
+  topic_type: tool
+  description: 'Topic extracted from syllabus: where'
+  evidence:
+  - source: syllabus
+    text: 'In this final chapter, we''ll discuss experimentation and prediction!
+
+      Beginning with experiments, we''ll cover A/B testing, and move on to
+
+      time series forecasting where we''ll learn about predicting future
+
+      events. Finally, we''ll end with machine learning, looking at
+
+      supervised learning, and clustering.'
+  confidence: 0.8
 canonical_topics:
 - canonical_topic_id: ct_001
-  label: introduction to data science
+  label: data collection
   aliases:
-  - introduction to data science
+  - data collection
   member_topic_ids:
   - t001
   topic_type: concept
 - canonical_topic_id: ct_002
-  label: data collection
-  aliases:
-  - data collection
-  member_topic_ids:
-  - t002
-  topic_type: concept
-- canonical_topic_id: ct_003
   label: storage
   aliases:
   - storage
   member_topic_ids:
-  - t003
+  - t002
   topic_type: concept
-- canonical_topic_id: ct_004
+- canonical_topic_id: ct_003
   label: preparation, exploration
   aliases:
   - preparation, exploration
   member_topic_ids:
-  - t004
+  - t003
   topic_type: concept
-- canonical_topic_id: ct_005
+- canonical_topic_id: ct_004
   label: visualization
   aliases:
   - visualization
   member_topic_ids:
-  - t005
+  - t004
   topic_type: concept
-- canonical_topic_id: ct_006
+- canonical_topic_id: ct_005
   label: experimentation
   aliases:
   - experimentation
   member_topic_ids:
-  - t006
+  - t005
   topic_type: concept
-- canonical_topic_id: ct_007
+- canonical_topic_id: ct_006
   label: prediction
   aliases:
   - prediction
   member_topic_ids:
-  - t007
+  - t006
   topic_type: concept
+- canonical_topic_id: ct_007
+  label: where
+  aliases:
+  - where
+  member_topic_ids:
+  - t007
+  topic_type: tool
 question_candidates:
 - candidate_id: q0001
-  relevant_topics:
-  - introduction to data science
-  family: entry
-  pattern: What is {x}?
-  question_text: What is introduction to data science?
-- candidate_id: q0002
-  relevant_topics:
-  - introduction to data science
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does introduction to data science mean?
-- candidate_id: q0003
-  relevant_topics:
-  - introduction to data science
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does introduction to data science matter?
-- candidate_id: q0004
-  relevant_topics:
-  - introduction to data science
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use introduction to data science?
-- candidate_id: q0005
-  relevant_topics:
-  - introduction to data science
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of introduction to data science?
-- candidate_id: q0006
   relevant_topics:
   - data collection
   family: entry
   pattern: What is {x}?
   question_text: What is data collection?
-- candidate_id: q0007
+- candidate_id: q0002
   relevant_topics:
   - data collection
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does data collection mean?
-- candidate_id: q0008
-  relevant_topics:
-  - data collection
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does data collection matter?
-- candidate_id: q0009
-  relevant_topics:
-  - data collection
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use data collection?
-- candidate_id: q0010
-  relevant_topics:
-  - data collection
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of data collection?
-- candidate_id: q0011
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does data collection work?
+- candidate_id: q0003
   relevant_topics:
   - storage
   family: entry
   pattern: What is {x}?
   question_text: What is storage?
-- candidate_id: q0012
+- candidate_id: q0004
   relevant_topics:
   - storage
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does storage mean?
-- candidate_id: q0013
-  relevant_topics:
-  - storage
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does storage matter?
-- candidate_id: q0014
-  relevant_topics:
-  - storage
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use storage?
-- candidate_id: q0015
-  relevant_topics:
-  - storage
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of storage?
-- candidate_id: q0016
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does storage work?
+- candidate_id: q0005
   relevant_topics:
   - preparation, exploration
   family: entry
   pattern: What is {x}?
   question_text: What is preparation, exploration?
-- candidate_id: q0017
+- candidate_id: q0006
   relevant_topics:
   - preparation, exploration
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does preparation, exploration mean?
-- candidate_id: q0018
-  relevant_topics:
-  - preparation, exploration
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does preparation, exploration matter?
-- candidate_id: q0019
-  relevant_topics:
-  - preparation, exploration
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use preparation, exploration?
-- candidate_id: q0020
-  relevant_topics:
-  - preparation, exploration
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of preparation, exploration?
-- candidate_id: q0021
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does preparation, exploration work?
+- candidate_id: q0007
   relevant_topics:
   - visualization
   family: entry
   pattern: What is {x}?
   question_text: What is visualization?
-- candidate_id: q0022
+- candidate_id: q0008
   relevant_topics:
   - visualization
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does visualization mean?
-- candidate_id: q0023
-  relevant_topics:
-  - visualization
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does visualization matter?
-- candidate_id: q0024
-  relevant_topics:
-  - visualization
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use visualization?
-- candidate_id: q0025
-  relevant_topics:
-  - visualization
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of visualization?
-- candidate_id: q0026
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does visualization work?
+- candidate_id: q0009
   relevant_topics:
   - experimentation
   family: entry
   pattern: What is {x}?
   question_text: What is experimentation?
-- candidate_id: q0027
+- candidate_id: q0010
   relevant_topics:
   - experimentation
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does experimentation mean?
-- candidate_id: q0028
-  relevant_topics:
-  - experimentation
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does experimentation matter?
-- candidate_id: q0029
-  relevant_topics:
-  - experimentation
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use experimentation?
-- candidate_id: q0030
-  relevant_topics:
-  - experimentation
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of experimentation?
-- candidate_id: q0031
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does experimentation work?
+- candidate_id: q0011
   relevant_topics:
   - prediction
   family: entry
   pattern: What is {x}?
   question_text: What is prediction?
-- candidate_id: q0032
+- candidate_id: q0012
   relevant_topics:
   - prediction
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does prediction work?
+- candidate_id: q0013
+  relevant_topics:
+  - where
   family: entry
-  pattern: What does {x} mean?
-  question_text: What does prediction mean?
-- candidate_id: q0033
+  pattern: What is {x}?
+  question_text: What is where?
+- candidate_id: q0014
   relevant_topics:
-  - prediction
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does prediction matter?
-- candidate_id: q0034
-  relevant_topics:
-  - prediction
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use prediction?
-- candidate_id: q0035
-  relevant_topics:
-  - prediction
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of prediction?
-- candidate_id: q0036
-  relevant_topics:
-  - introduction to data science
-  - data collection
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is introduction to data science different from data collection?
-- candidate_id: q0037
-  relevant_topics:
-  - introduction to data science
-  - storage
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is introduction to data science different from storage?
-- candidate_id: q0038
-  relevant_topics:
-  - introduction to data science
-  - preparation, exploration
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is introduction to data science different from preparation, exploration?
-- candidate_id: q0039
-  relevant_topics:
-  - introduction to data science
-  - visualization
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is introduction to data science different from visualization?
-- candidate_id: q0040
-  relevant_topics:
-  - introduction to data science
-  - experimentation
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is introduction to data science different from experimentation?
-- candidate_id: q0041
-  relevant_topics:
-  - introduction to data science
-  - prediction
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is introduction to data science different from prediction?
-- candidate_id: q0042
-  relevant_topics:
-  - data collection
-  - storage
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is data collection different from storage?
-- candidate_id: q0043
-  relevant_topics:
-  - data collection
-  - preparation, exploration
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is data collection different from preparation, exploration?
-- candidate_id: q0044
-  relevant_topics:
-  - data collection
-  - visualization
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is data collection different from visualization?
-- candidate_id: q0045
-  relevant_topics:
-  - data collection
-  - experimentation
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is data collection different from experimentation?
-- candidate_id: q0046
-  relevant_topics:
-  - data collection
-  - prediction
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is data collection different from prediction?
-- candidate_id: q0047
-  relevant_topics:
-  - storage
-  - preparation, exploration
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is storage different from preparation, exploration?
-- candidate_id: q0048
-  relevant_topics:
-  - storage
-  - visualization
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is storage different from visualization?
-- candidate_id: q0049
-  relevant_topics:
-  - storage
-  - experimentation
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is storage different from experimentation?
-- candidate_id: q0050
-  relevant_topics:
-  - storage
-  - prediction
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is storage different from prediction?
-- candidate_id: q0051
-  relevant_topics:
-  - preparation, exploration
-  - visualization
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is preparation, exploration different from visualization?
-- candidate_id: q0052
-  relevant_topics:
-  - preparation, exploration
-  - experimentation
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is preparation, exploration different from experimentation?
-- candidate_id: q0053
-  relevant_topics:
-  - preparation, exploration
-  - prediction
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is preparation, exploration different from prediction?
-- candidate_id: q0054
-  relevant_topics:
-  - visualization
-  - experimentation
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is visualization different from experimentation?
-- candidate_id: q0055
-  relevant_topics:
-  - visualization
-  - prediction
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is visualization different from prediction?
-- candidate_id: q0056
-  relevant_topics:
-  - experimentation
-  - prediction
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is experimentation different from prediction?
+  - where
+  family: procedure
+  pattern: How do you use {x}?
+  question_text: How do you use where?
 question_repairs:
 - candidate_id: q0001
-  status: accepted
-  original_text: What is introduction to data science?
-  final_text: What is introduction to data science?
-  reject_reason: null
-- candidate_id: q0002
-  status: accepted
-  original_text: What does introduction to data science mean?
-  final_text: What does introduction to data science mean?
-  reject_reason: null
-- candidate_id: q0003
-  status: accepted
-  original_text: Why does introduction to data science matter?
-  final_text: Why does introduction to data science matter?
-  reject_reason: null
-- candidate_id: q0004
-  status: repaired
-  original_text: Why do we use introduction to data science?
-  final_text: Why does introduction to data science?
-  reject_reason: null
-- candidate_id: q0005
-  status: accepted
-  original_text: What is a simple example of introduction to data science?
-  final_text: What is a simple example of introduction to data science?
-  reject_reason: null
-- candidate_id: q0006
   status: accepted
   original_text: What is data collection?
   final_text: What is data collection?
   reject_reason: null
-- candidate_id: q0007
+- candidate_id: q0002
   status: accepted
-  original_text: What does data collection mean?
-  final_text: What does data collection mean?
+  original_text: How does data collection work?
+  final_text: How does data collection work?
   reject_reason: null
-- candidate_id: q0008
-  status: accepted
-  original_text: Why does data collection matter?
-  final_text: Why does data collection matter?
-  reject_reason: null
-- candidate_id: q0009
-  status: repaired
-  original_text: Why do we use data collection?
-  final_text: Why does data collection?
-  reject_reason: null
-- candidate_id: q0010
-  status: accepted
-  original_text: What is a simple example of data collection?
-  final_text: What is a simple example of data collection?
-  reject_reason: null
-- candidate_id: q0011
+- candidate_id: q0003
   status: accepted
   original_text: What is storage?
   final_text: What is storage?
   reject_reason: null
-- candidate_id: q0012
+- candidate_id: q0004
   status: accepted
-  original_text: What does storage mean?
-  final_text: What does storage mean?
+  original_text: How does storage work?
+  final_text: How does storage work?
   reject_reason: null
-- candidate_id: q0013
-  status: accepted
-  original_text: Why does storage matter?
-  final_text: Why does storage matter?
-  reject_reason: null
-- candidate_id: q0014
-  status: repaired
-  original_text: Why do we use storage?
-  final_text: Why does storage?
-  reject_reason: null
-- candidate_id: q0015
-  status: accepted
-  original_text: What is a simple example of storage?
-  final_text: What is a simple example of storage?
-  reject_reason: null
-- candidate_id: q0016
+- candidate_id: q0005
   status: accepted
   original_text: What is preparation, exploration?
   final_text: What is preparation, exploration?
   reject_reason: null
-- candidate_id: q0017
+- candidate_id: q0006
   status: accepted
-  original_text: What does preparation, exploration mean?
-  final_text: What does preparation, exploration mean?
+  original_text: How does preparation, exploration work?
+  final_text: How does preparation, exploration work?
   reject_reason: null
-- candidate_id: q0018
-  status: accepted
-  original_text: Why does preparation, exploration matter?
-  final_text: Why does preparation, exploration matter?
-  reject_reason: null
-- candidate_id: q0019
-  status: repaired
-  original_text: Why do we use preparation, exploration?
-  final_text: Why does preparation, exploration?
-  reject_reason: null
-- candidate_id: q0020
-  status: accepted
-  original_text: What is a simple example of preparation, exploration?
-  final_text: What is a simple example of preparation, exploration?
-  reject_reason: null
-- candidate_id: q0021
+- candidate_id: q0007
   status: accepted
   original_text: What is visualization?
   final_text: What is visualization?
   reject_reason: null
-- candidate_id: q0022
+- candidate_id: q0008
   status: accepted
-  original_text: What does visualization mean?
-  final_text: What does visualization mean?
+  original_text: How does visualization work?
+  final_text: How does visualization work?
   reject_reason: null
-- candidate_id: q0023
-  status: accepted
-  original_text: Why does visualization matter?
-  final_text: Why does visualization matter?
-  reject_reason: null
-- candidate_id: q0024
-  status: repaired
-  original_text: Why do we use visualization?
-  final_text: Why does visualization?
-  reject_reason: null
-- candidate_id: q0025
-  status: accepted
-  original_text: What is a simple example of visualization?
-  final_text: What is a simple example of visualization?
-  reject_reason: null
-- candidate_id: q0026
+- candidate_id: q0009
   status: accepted
   original_text: What is experimentation?
   final_text: What is experimentation?
   reject_reason: null
-- candidate_id: q0027
+- candidate_id: q0010
   status: accepted
-  original_text: What does experimentation mean?
-  final_text: What does experimentation mean?
+  original_text: How does experimentation work?
+  final_text: How does experimentation work?
   reject_reason: null
-- candidate_id: q0028
-  status: accepted
-  original_text: Why does experimentation matter?
-  final_text: Why does experimentation matter?
-  reject_reason: null
-- candidate_id: q0029
-  status: repaired
-  original_text: Why do we use experimentation?
-  final_text: Why does experimentation?
-  reject_reason: null
-- candidate_id: q0030
-  status: accepted
-  original_text: What is a simple example of experimentation?
-  final_text: What is a simple example of experimentation?
-  reject_reason: null
-- candidate_id: q0031
+- candidate_id: q0011
   status: accepted
   original_text: What is prediction?
   final_text: What is prediction?
   reject_reason: null
-- candidate_id: q0032
+- candidate_id: q0012
   status: accepted
-  original_text: What does prediction mean?
-  final_text: What does prediction mean?
+  original_text: How does prediction work?
+  final_text: How does prediction work?
   reject_reason: null
-- candidate_id: q0033
+- candidate_id: q0013
   status: accepted
-  original_text: Why does prediction matter?
-  final_text: Why does prediction matter?
+  original_text: What is where?
+  final_text: What is where?
   reject_reason: null
-- candidate_id: q0034
-  status: repaired
-  original_text: Why do we use prediction?
-  final_text: Why does prediction?
-  reject_reason: null
-- candidate_id: q0035
+- candidate_id: q0014
   status: accepted
-  original_text: What is a simple example of prediction?
-  final_text: What is a simple example of prediction?
-  reject_reason: null
-- candidate_id: q0036
-  status: accepted
-  original_text: How is introduction to data science different from data collection?
-  final_text: How is introduction to data science different from data collection?
-  reject_reason: null
-- candidate_id: q0037
-  status: accepted
-  original_text: How is introduction to data science different from storage?
-  final_text: How is introduction to data science different from storage?
-  reject_reason: null
-- candidate_id: q0038
-  status: accepted
-  original_text: How is introduction to data science different from preparation, exploration?
-  final_text: How is introduction to data science different from preparation, exploration?
-  reject_reason: null
-- candidate_id: q0039
-  status: accepted
-  original_text: How is introduction to data science different from visualization?
-  final_text: How is introduction to data science different from visualization?
-  reject_reason: null
-- candidate_id: q0040
-  status: accepted
-  original_text: How is introduction to data science different from experimentation?
-  final_text: How is introduction to data science different from experimentation?
-  reject_reason: null
-- candidate_id: q0041
-  status: accepted
-  original_text: How is introduction to data science different from prediction?
-  final_text: How is introduction to data science different from prediction?
-  reject_reason: null
-- candidate_id: q0042
-  status: accepted
-  original_text: How is data collection different from storage?
-  final_text: How is data collection different from storage?
-  reject_reason: null
-- candidate_id: q0043
-  status: accepted
-  original_text: How is data collection different from preparation, exploration?
-  final_text: How is data collection different from preparation, exploration?
-  reject_reason: null
-- candidate_id: q0044
-  status: accepted
-  original_text: How is data collection different from visualization?
-  final_text: How is data collection different from visualization?
-  reject_reason: null
-- candidate_id: q0045
-  status: accepted
-  original_text: How is data collection different from experimentation?
-  final_text: How is data collection different from experimentation?
-  reject_reason: null
-- candidate_id: q0046
-  status: accepted
-  original_text: How is data collection different from prediction?
-  final_text: How is data collection different from prediction?
-  reject_reason: null
-- candidate_id: q0047
-  status: accepted
-  original_text: How is storage different from preparation, exploration?
-  final_text: How is storage different from preparation, exploration?
-  reject_reason: null
-- candidate_id: q0048
-  status: accepted
-  original_text: How is storage different from visualization?
-  final_text: How is storage different from visualization?
-  reject_reason: null
-- candidate_id: q0049
-  status: accepted
-  original_text: How is storage different from experimentation?
-  final_text: How is storage different from experimentation?
-  reject_reason: null
-- candidate_id: q0050
-  status: accepted
-  original_text: How is storage different from prediction?
-  final_text: How is storage different from prediction?
-  reject_reason: null
-- candidate_id: q0051
-  status: accepted
-  original_text: How is preparation, exploration different from visualization?
-  final_text: How is preparation, exploration different from visualization?
-  reject_reason: null
-- candidate_id: q0052
-  status: accepted
-  original_text: How is preparation, exploration different from experimentation?
-  final_text: How is preparation, exploration different from experimentation?
-  reject_reason: null
-- candidate_id: q0053
-  status: accepted
-  original_text: How is preparation, exploration different from prediction?
-  final_text: How is preparation, exploration different from prediction?
-  reject_reason: null
-- candidate_id: q0054
-  status: accepted
-  original_text: How is visualization different from experimentation?
-  final_text: How is visualization different from experimentation?
-  reject_reason: null
-- candidate_id: q0055
-  status: accepted
-  original_text: How is visualization different from prediction?
-  final_text: How is visualization different from prediction?
-  reject_reason: null
-- candidate_id: q0056
-  status: accepted
-  original_text: How is experimentation different from prediction?
-  final_text: How is experimentation different from prediction?
+  original_text: How do you use where?
+  final_text: How do you use where?
   reject_reason: null
 answers:
 - question_id: q0001
-  question_text: What is introduction to data science?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0002
-  question_text: What does introduction to data science mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0003
-  question_text: Why does introduction to data science matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0004
-  question_text: Why does introduction to data science?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0005
-  question_text: What is a simple example of introduction to data science?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0006
   question_text: What is data collection?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0007
-  question_text: What does data collection mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0008
-  question_text: Why does data collection matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0009
-  question_text: Why does data collection?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0010
-  question_text: What is a simple example of data collection?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0011
+  answer_text: Data Collection and Storage
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Data Collection and Storage
+- question_id: q0002
+  question_text: How does data collection work?
+  answer_text: Data Collection and Storage
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Data Collection and Storage
+- question_id: q0003
   question_text: What is storage?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0012
-  question_text: What does storage mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0013
-  question_text: Why does storage matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0014
-  question_text: Why does storage?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0015
-  question_text: What is a simple example of storage?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0016
+  answer_text: Data Collection and Storage
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Data Collection and Storage
+- question_id: q0004
+  question_text: How does storage work?
+  answer_text: Data Collection and Storage
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Data Collection and Storage
+- question_id: q0005
   question_text: What is preparation, exploration?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0017
-  question_text: What does preparation, exploration mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0018
-  question_text: Why does preparation, exploration matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0019
-  question_text: Why does preparation, exploration?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0020
-  question_text: What is a simple example of preparation, exploration?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0021
+  answer_text: Preparation, Exploration, and Visualization
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Preparation, Exploration, and Visualization
+- question_id: q0006
+  question_text: How does preparation, exploration work?
+  answer_text: Preparation, Exploration, and Visualization
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Preparation, Exploration, and Visualization
+- question_id: q0007
   question_text: What is visualization?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0022
-  question_text: What does visualization mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0023
-  question_text: Why does visualization matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0024
-  question_text: Why does visualization?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0025
-  question_text: What is a simple example of visualization?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0026
+  answer_text: Preparation, Exploration, and Visualization
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Preparation, Exploration, and Visualization
+- question_id: q0008
+  question_text: How does visualization work?
+  answer_text: Preparation, Exploration, and Visualization
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Preparation, Exploration, and Visualization
+- question_id: q0009
   question_text: What is experimentation?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0027
-  question_text: What does experimentation mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0028
-  question_text: Why does experimentation matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0029
-  question_text: Why does experimentation?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0030
-  question_text: What is a simple example of experimentation?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0031
+  answer_text: Experimentation and Prediction
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Experimentation and Prediction
+- question_id: q0010
+  question_text: How does experimentation work?
+  answer_text: Experimentation and Prediction
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Experimentation and Prediction
+- question_id: q0011
   question_text: What is prediction?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0032
-  question_text: What does prediction mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0033
-  question_text: Why does prediction matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0034
-  question_text: Why does prediction?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0035
-  question_text: What is a simple example of prediction?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0036
-  question_text: How is introduction to data science different from data collection?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0037
-  question_text: How is introduction to data science different from storage?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0038
-  question_text: How is introduction to data science different from preparation, exploration?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0039
-  question_text: How is introduction to data science different from visualization?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0040
-  question_text: How is introduction to data science different from experimentation?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0041
-  question_text: How is introduction to data science different from prediction?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0042
-  question_text: How is data collection different from storage?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0043
-  question_text: How is data collection different from preparation, exploration?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0044
-  question_text: How is data collection different from visualization?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0045
-  question_text: How is data collection different from experimentation?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0046
-  question_text: How is data collection different from prediction?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0047
-  question_text: How is storage different from preparation, exploration?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0048
-  question_text: How is storage different from visualization?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0049
-  question_text: How is storage different from experimentation?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0050
-  question_text: How is storage different from prediction?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0051
-  question_text: How is preparation, exploration different from visualization?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0052
-  question_text: How is preparation, exploration different from experimentation?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0053
-  question_text: How is preparation, exploration different from prediction?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0054
-  question_text: How is visualization different from experimentation?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0055
-  question_text: How is visualization different from prediction?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0056
-  question_text: How is experimentation different from prediction?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
+  answer_text: Experimentation and Prediction
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Experimentation and Prediction
+- question_id: q0012
+  question_text: How does prediction work?
+  answer_text: Experimentation and Prediction
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Experimentation and Prediction
+- question_id: q0013
+  question_text: What is where?
+  answer_text: time series forecasting where we'll learn about predicting future
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: time series forecasting where we'll learn about predicting future
+- question_id: q0014
+  question_text: How do you use where?
+  answer_text: time series forecasting where we'll learn about predicting future
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: time series forecasting where we'll learn about predicting future
 final_rows:
 - row_id: r_000001
   course:
     course_id: '24379'
     title: Understanding Data Science
   relevant_topics:
-  - introduction to data science
-  question_text: What is introduction to data science?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  - data collection
+  question_text: What is data collection?
+  question_answer: Data Collection and Storage
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: syllabus
+    text: Data Collection and Storage
 - row_id: r_000002
   course:
     course_id: '24379'
     title: Understanding Data Science
   relevant_topics:
-  - introduction to data science
-  question_text: What does introduction to data science mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  - data collection
+  question_text: How does data collection work?
+  question_answer: Data Collection and Storage
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: syllabus
+    text: Data Collection and Storage
 - row_id: r_000003
-  course:
-    course_id: '24379'
-    title: Understanding Data Science
-  relevant_topics:
-  - introduction to data science
-  question_text: Why does introduction to data science matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000004
-  course:
-    course_id: '24379'
-    title: Understanding Data Science
-  relevant_topics:
-  - introduction to data science
-  question_text: Why does introduction to data science?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000005
-  course:
-    course_id: '24379'
-    title: Understanding Data Science
-  relevant_topics:
-  - introduction to data science
-  question_text: What is a simple example of introduction to data science?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000006
-  course:
-    course_id: '24379'
-    title: Understanding Data Science
-  relevant_topics:
-  - data collection
-  question_text: What is data collection?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000007
-  course:
-    course_id: '24379'
-    title: Understanding Data Science
-  relevant_topics:
-  - data collection
-  question_text: What does data collection mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000008
-  course:
-    course_id: '24379'
-    title: Understanding Data Science
-  relevant_topics:
-  - data collection
-  question_text: Why does data collection matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000009
-  course:
-    course_id: '24379'
-    title: Understanding Data Science
-  relevant_topics:
-  - data collection
-  question_text: Why does data collection?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000010
-  course:
-    course_id: '24379'
-    title: Understanding Data Science
-  relevant_topics:
-  - data collection
-  question_text: What is a simple example of data collection?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000011
   course:
     course_id: '24379'
     title: Understanding Data Science
   relevant_topics:
   - storage
   question_text: What is storage?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Data Collection and Storage
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000012
+  source_evidence:
+  - source: syllabus
+    text: Data Collection and Storage
+- row_id: r_000004
   course:
     course_id: '24379'
     title: Understanding Data Science
   relevant_topics:
   - storage
-  question_text: What does storage mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does storage work?
+  question_answer: Data Collection and Storage
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000013
-  course:
-    course_id: '24379'
-    title: Understanding Data Science
-  relevant_topics:
-  - storage
-  question_text: Why does storage matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000014
-  course:
-    course_id: '24379'
-    title: Understanding Data Science
-  relevant_topics:
-  - storage
-  question_text: Why does storage?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000015
-  course:
-    course_id: '24379'
-    title: Understanding Data Science
-  relevant_topics:
-  - storage
-  question_text: What is a simple example of storage?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000016
+  source_evidence:
+  - source: syllabus
+    text: Data Collection and Storage
+- row_id: r_000005
   course:
     course_id: '24379'
     title: Understanding Data Science
   relevant_topics:
   - preparation, exploration
   question_text: What is preparation, exploration?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Preparation, Exploration, and Visualization
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000017
+  source_evidence:
+  - source: syllabus
+    text: Preparation, Exploration, and Visualization
+- row_id: r_000006
   course:
     course_id: '24379'
     title: Understanding Data Science
   relevant_topics:
   - preparation, exploration
-  question_text: What does preparation, exploration mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does preparation, exploration work?
+  question_answer: Preparation, Exploration, and Visualization
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000018
-  course:
-    course_id: '24379'
-    title: Understanding Data Science
-  relevant_topics:
-  - preparation, exploration
-  question_text: Why does preparation, exploration matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000019
-  course:
-    course_id: '24379'
-    title: Understanding Data Science
-  relevant_topics:
-  - preparation, exploration
-  question_text: Why does preparation, exploration?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000020
-  course:
-    course_id: '24379'
-    title: Understanding Data Science
-  relevant_topics:
-  - preparation, exploration
-  question_text: What is a simple example of preparation, exploration?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000021
+  source_evidence:
+  - source: syllabus
+    text: Preparation, Exploration, and Visualization
+- row_id: r_000007
   course:
     course_id: '24379'
     title: Understanding Data Science
   relevant_topics:
   - visualization
   question_text: What is visualization?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Preparation, Exploration, and Visualization
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000022
+  source_evidence:
+  - source: syllabus
+    text: Preparation, Exploration, and Visualization
+- row_id: r_000008
   course:
     course_id: '24379'
     title: Understanding Data Science
   relevant_topics:
   - visualization
-  question_text: What does visualization mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does visualization work?
+  question_answer: Preparation, Exploration, and Visualization
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000023
-  course:
-    course_id: '24379'
-    title: Understanding Data Science
-  relevant_topics:
-  - visualization
-  question_text: Why does visualization matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000024
-  course:
-    course_id: '24379'
-    title: Understanding Data Science
-  relevant_topics:
-  - visualization
-  question_text: Why does visualization?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000025
-  course:
-    course_id: '24379'
-    title: Understanding Data Science
-  relevant_topics:
-  - visualization
-  question_text: What is a simple example of visualization?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000026
+  source_evidence:
+  - source: syllabus
+    text: Preparation, Exploration, and Visualization
+- row_id: r_000009
   course:
     course_id: '24379'
     title: Understanding Data Science
   relevant_topics:
   - experimentation
   question_text: What is experimentation?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Experimentation and Prediction
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000027
+  source_evidence:
+  - source: syllabus
+    text: Experimentation and Prediction
+- row_id: r_000010
   course:
     course_id: '24379'
     title: Understanding Data Science
   relevant_topics:
   - experimentation
-  question_text: What does experimentation mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does experimentation work?
+  question_answer: Experimentation and Prediction
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000028
-  course:
-    course_id: '24379'
-    title: Understanding Data Science
-  relevant_topics:
-  - experimentation
-  question_text: Why does experimentation matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000029
-  course:
-    course_id: '24379'
-    title: Understanding Data Science
-  relevant_topics:
-  - experimentation
-  question_text: Why does experimentation?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000030
-  course:
-    course_id: '24379'
-    title: Understanding Data Science
-  relevant_topics:
-  - experimentation
-  question_text: What is a simple example of experimentation?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000031
+  source_evidence:
+  - source: syllabus
+    text: Experimentation and Prediction
+- row_id: r_000011
   course:
     course_id: '24379'
     title: Understanding Data Science
   relevant_topics:
   - prediction
   question_text: What is prediction?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Experimentation and Prediction
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000032
+  source_evidence:
+  - source: syllabus
+    text: Experimentation and Prediction
+- row_id: r_000012
   course:
     course_id: '24379'
     title: Understanding Data Science
   relevant_topics:
   - prediction
-  question_text: What does prediction mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_text: How does prediction work?
+  question_answer: Experimentation and Prediction
+  correctness: correct
+  question_family: mechanism
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: syllabus
+    text: Experimentation and Prediction
+- row_id: r_000013
+  course:
+    course_id: '24379'
+    title: Understanding Data Science
+  relevant_topics:
+  - where
+  question_text: What is where?
+  question_answer: time series forecasting where we'll learn about predicting future
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000033
+  source_evidence:
+  - source: syllabus
+    text: time series forecasting where we'll learn about predicting future
+- row_id: r_000014
   course:
     course_id: '24379'
     title: Understanding Data Science
   relevant_topics:
-  - prediction
-  question_text: Why does prediction matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
+  - where
+  question_text: How do you use where?
+  question_answer: time series forecasting where we'll learn about predicting future
+  correctness: correct
+  question_family: procedure
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000034
-  course:
-    course_id: '24379'
-    title: Understanding Data Science
-  relevant_topics:
-  - prediction
-  question_text: Why does prediction?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000035
-  course:
-    course_id: '24379'
-    title: Understanding Data Science
-  relevant_topics:
-  - prediction
-  question_text: What is a simple example of prediction?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000036
-  course:
-    course_id: '24379'
-    title: Understanding Data Science
-  relevant_topics:
-  - introduction to data science
-  - data collection
-  question_text: How is introduction to data science different from data collection?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000037
-  course:
-    course_id: '24379'
-    title: Understanding Data Science
-  relevant_topics:
-  - introduction to data science
-  - storage
-  question_text: How is introduction to data science different from storage?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000038
-  course:
-    course_id: '24379'
-    title: Understanding Data Science
-  relevant_topics:
-  - introduction to data science
-  - preparation, exploration
-  question_text: How is introduction to data science different from preparation, exploration?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000039
-  course:
-    course_id: '24379'
-    title: Understanding Data Science
-  relevant_topics:
-  - introduction to data science
-  - visualization
-  question_text: How is introduction to data science different from visualization?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000040
-  course:
-    course_id: '24379'
-    title: Understanding Data Science
-  relevant_topics:
-  - introduction to data science
-  - experimentation
-  question_text: How is introduction to data science different from experimentation?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000041
-  course:
-    course_id: '24379'
-    title: Understanding Data Science
-  relevant_topics:
-  - introduction to data science
-  - prediction
-  question_text: How is introduction to data science different from prediction?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000042
-  course:
-    course_id: '24379'
-    title: Understanding Data Science
-  relevant_topics:
-  - data collection
-  - storage
-  question_text: How is data collection different from storage?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000043
-  course:
-    course_id: '24379'
-    title: Understanding Data Science
-  relevant_topics:
-  - data collection
-  - preparation, exploration
-  question_text: How is data collection different from preparation, exploration?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000044
-  course:
-    course_id: '24379'
-    title: Understanding Data Science
-  relevant_topics:
-  - data collection
-  - visualization
-  question_text: How is data collection different from visualization?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000045
-  course:
-    course_id: '24379'
-    title: Understanding Data Science
-  relevant_topics:
-  - data collection
-  - experimentation
-  question_text: How is data collection different from experimentation?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000046
-  course:
-    course_id: '24379'
-    title: Understanding Data Science
-  relevant_topics:
-  - data collection
-  - prediction
-  question_text: How is data collection different from prediction?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000047
-  course:
-    course_id: '24379'
-    title: Understanding Data Science
-  relevant_topics:
-  - storage
-  - preparation, exploration
-  question_text: How is storage different from preparation, exploration?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000048
-  course:
-    course_id: '24379'
-    title: Understanding Data Science
-  relevant_topics:
-  - storage
-  - visualization
-  question_text: How is storage different from visualization?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000049
-  course:
-    course_id: '24379'
-    title: Understanding Data Science
-  relevant_topics:
-  - storage
-  - experimentation
-  question_text: How is storage different from experimentation?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000050
-  course:
-    course_id: '24379'
-    title: Understanding Data Science
-  relevant_topics:
-  - storage
-  - prediction
-  question_text: How is storage different from prediction?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000051
-  course:
-    course_id: '24379'
-    title: Understanding Data Science
-  relevant_topics:
-  - preparation, exploration
-  - visualization
-  question_text: How is preparation, exploration different from visualization?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000052
-  course:
-    course_id: '24379'
-    title: Understanding Data Science
-  relevant_topics:
-  - preparation, exploration
-  - experimentation
-  question_text: How is preparation, exploration different from experimentation?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000053
-  course:
-    course_id: '24379'
-    title: Understanding Data Science
-  relevant_topics:
-  - preparation, exploration
-  - prediction
-  question_text: How is preparation, exploration different from prediction?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000054
-  course:
-    course_id: '24379'
-    title: Understanding Data Science
-  relevant_topics:
-  - visualization
-  - experimentation
-  question_text: How is visualization different from experimentation?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000055
-  course:
-    course_id: '24379'
-    title: Understanding Data Science
-  relevant_topics:
-  - visualization
-  - prediction
-  question_text: How is visualization different from prediction?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000056
-  course:
-    course_id: '24379'
-    title: Understanding Data Science
-  relevant_topics:
-  - experimentation
-  - prediction
-  question_text: How is experimentation different from prediction?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: syllabus
+    text: time series forecasting where we'll learn about predicting future
 summary:
   topic_count: 7
   canonical_topic_count: 7
-  candidate_count: 56
-  accepted_count: 56
+  candidate_count: 14
+  accepted_count: 14
   rejected_count: 0
-  correct_count: 0
-  uncertain_count: 56
+  correct_count: 14
+  uncertain_count: 0

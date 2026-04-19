@@ -131,43 +131,43 @@ extracted_topics:
 - topic_id: t001
   label: getting started with tableau
   topic_type: concept
-  description: 'Topic inferred from chapter heading: getting started with tableau'
+  description: 'Topic extracted from syllabus: getting started with tableau'
   evidence:
   - source: syllabus
     text: Getting Started with Tableau
-  confidence: 0.45
+  confidence: 0.55
 - topic_id: t002
-  label: building
+  label: building visualizations
   topic_type: concept
-  description: 'Topic inferred from chapter heading: building'
+  description: 'Topic extracted from syllabus: building visualizations'
   evidence:
   - source: syllabus
     text: Building and Customizing Visualizations
-  confidence: 0.55
+  confidence: 0.75
 - topic_id: t003
   label: customizing visualizations
   topic_type: concept
-  description: 'Topic inferred from chapter heading: customizing visualizations'
+  description: 'Topic extracted from syllabus: customizing visualizations'
   evidence:
   - source: syllabus
     text: Building and Customizing Visualizations
-  confidence: 0.55
+  confidence: 0.75
 - topic_id: t004
   label: digging deeper
   topic_type: concept
-  description: 'Topic inferred from chapter heading: digging deeper'
+  description: 'Topic extracted from syllabus: digging deeper'
   evidence:
   - source: syllabus
     text: Digging Deeper
-  confidence: 0.45
+  confidence: 0.55
 - topic_id: t005
   label: presenting your data
   topic_type: concept
-  description: 'Topic inferred from chapter heading: presenting your data'
+  description: 'Topic extracted from syllabus: presenting your data'
   evidence:
   - source: syllabus
     text: Presenting Your Data
-  confidence: 0.45
+  confidence: 0.55
 canonical_topics:
 - canonical_topic_id: ct_001
   label: getting started with tableau
@@ -177,9 +177,9 @@ canonical_topics:
   - t001
   topic_type: concept
 - canonical_topic_id: ct_002
-  label: building
+  label: building visualizations
   aliases:
-  - building
+  - building visualizations
   member_topic_ids:
   - t002
   topic_type: concept
@@ -214,219 +214,64 @@ question_candidates:
 - candidate_id: q0002
   relevant_topics:
   - getting started with tableau
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does getting started with tableau mean?
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does getting started with tableau work?
 - candidate_id: q0003
   relevant_topics:
-  - getting started with tableau
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does getting started with tableau matter?
-- candidate_id: q0004
-  relevant_topics:
-  - getting started with tableau
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use getting started with tableau?
-- candidate_id: q0005
-  relevant_topics:
-  - getting started with tableau
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of getting started with tableau?
-- candidate_id: q0006
-  relevant_topics:
-  - building
+  - building visualizations
   family: entry
   pattern: What is {x}?
-  question_text: What is building?
-- candidate_id: q0007
+  question_text: What is building visualizations?
+- candidate_id: q0004
   relevant_topics:
-  - building
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does building mean?
-- candidate_id: q0008
-  relevant_topics:
-  - building
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does building matter?
-- candidate_id: q0009
-  relevant_topics:
-  - building
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use building?
-- candidate_id: q0010
-  relevant_topics:
-  - building
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of building?
-- candidate_id: q0011
+  - building visualizations
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does building visualizations work?
+- candidate_id: q0005
   relevant_topics:
   - customizing visualizations
   family: entry
   pattern: What is {x}?
   question_text: What is customizing visualizations?
-- candidate_id: q0012
+- candidate_id: q0006
   relevant_topics:
   - customizing visualizations
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does customizing visualizations mean?
-- candidate_id: q0013
-  relevant_topics:
-  - customizing visualizations
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does customizing visualizations matter?
-- candidate_id: q0014
-  relevant_topics:
-  - customizing visualizations
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use customizing visualizations?
-- candidate_id: q0015
-  relevant_topics:
-  - customizing visualizations
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of customizing visualizations?
-- candidate_id: q0016
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does customizing visualizations work?
+- candidate_id: q0007
   relevant_topics:
   - digging deeper
   family: entry
   pattern: What is {x}?
   question_text: What is digging deeper?
-- candidate_id: q0017
+- candidate_id: q0008
   relevant_topics:
   - digging deeper
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does digging deeper mean?
-- candidate_id: q0018
-  relevant_topics:
-  - digging deeper
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does digging deeper matter?
-- candidate_id: q0019
-  relevant_topics:
-  - digging deeper
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use digging deeper?
-- candidate_id: q0020
-  relevant_topics:
-  - digging deeper
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of digging deeper?
-- candidate_id: q0021
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does digging deeper work?
+- candidate_id: q0009
   relevant_topics:
   - presenting your data
   family: entry
   pattern: What is {x}?
   question_text: What is presenting your data?
-- candidate_id: q0022
+- candidate_id: q0010
   relevant_topics:
   - presenting your data
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does presenting your data mean?
-- candidate_id: q0023
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does presenting your data work?
+- candidate_id: q0011
   relevant_topics:
-  - presenting your data
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does presenting your data matter?
-- candidate_id: q0024
-  relevant_topics:
-  - presenting your data
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use presenting your data?
-- candidate_id: q0025
-  relevant_topics:
-  - presenting your data
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of presenting your data?
-- candidate_id: q0026
-  relevant_topics:
-  - getting started with tableau
-  - building
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is getting started with tableau different from building?
-- candidate_id: q0027
-  relevant_topics:
-  - getting started with tableau
+  - building visualizations
   - customizing visualizations
   family: comparison
   pattern: How is {x} different from {y}?
-  question_text: How is getting started with tableau different from customizing visualizations?
-- candidate_id: q0028
-  relevant_topics:
-  - getting started with tableau
-  - digging deeper
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is getting started with tableau different from digging deeper?
-- candidate_id: q0029
-  relevant_topics:
-  - getting started with tableau
-  - presenting your data
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is getting started with tableau different from presenting your
-    data?
-- candidate_id: q0030
-  relevant_topics:
-  - building
-  - customizing visualizations
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is building different from customizing visualizations?
-- candidate_id: q0031
-  relevant_topics:
-  - building
-  - digging deeper
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is building different from digging deeper?
-- candidate_id: q0032
-  relevant_topics:
-  - building
-  - presenting your data
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is building different from presenting your data?
-- candidate_id: q0033
-  relevant_topics:
-  - customizing visualizations
-  - digging deeper
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is customizing visualizations different from digging deeper?
-- candidate_id: q0034
-  relevant_topics:
-  - customizing visualizations
-  - presenting your data
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is customizing visualizations different from presenting your
-    data?
-- candidate_id: q0035
-  relevant_topics:
-  - digging deeper
-  - presenting your data
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is digging deeper different from presenting your data?
+  question_text: How is building visualizations different from customizing visualizations?
 question_repairs:
 - candidate_id: q0001
   status: accepted
@@ -435,424 +280,119 @@ question_repairs:
   reject_reason: null
 - candidate_id: q0002
   status: accepted
-  original_text: What does getting started with tableau mean?
-  final_text: What does getting started with tableau mean?
+  original_text: How does getting started with tableau work?
+  final_text: How does getting started with tableau work?
   reject_reason: null
 - candidate_id: q0003
   status: accepted
-  original_text: Why does getting started with tableau matter?
-  final_text: Why does getting started with tableau matter?
+  original_text: What is building visualizations?
+  final_text: What is building visualizations?
   reject_reason: null
 - candidate_id: q0004
-  status: repaired
-  original_text: Why do we use getting started with tableau?
-  final_text: Why does getting started with tableau?
+  status: accepted
+  original_text: How does building visualizations work?
+  final_text: How does building visualizations work?
   reject_reason: null
 - candidate_id: q0005
-  status: accepted
-  original_text: What is a simple example of getting started with tableau?
-  final_text: What is a simple example of getting started with tableau?
-  reject_reason: null
-- candidate_id: q0006
-  status: accepted
-  original_text: What is building?
-  final_text: What is building?
-  reject_reason: null
-- candidate_id: q0007
-  status: accepted
-  original_text: What does building mean?
-  final_text: What does building mean?
-  reject_reason: null
-- candidate_id: q0008
-  status: accepted
-  original_text: Why does building matter?
-  final_text: Why does building matter?
-  reject_reason: null
-- candidate_id: q0009
-  status: repaired
-  original_text: Why do we use building?
-  final_text: Why does building?
-  reject_reason: null
-- candidate_id: q0010
-  status: accepted
-  original_text: What is a simple example of building?
-  final_text: What is a simple example of building?
-  reject_reason: null
-- candidate_id: q0011
   status: accepted
   original_text: What is customizing visualizations?
   final_text: What is customizing visualizations?
   reject_reason: null
-- candidate_id: q0012
+- candidate_id: q0006
   status: accepted
-  original_text: What does customizing visualizations mean?
-  final_text: What does customizing visualizations mean?
+  original_text: How does customizing visualizations work?
+  final_text: How does customizing visualizations work?
   reject_reason: null
-- candidate_id: q0013
-  status: accepted
-  original_text: Why does customizing visualizations matter?
-  final_text: Why does customizing visualizations matter?
-  reject_reason: null
-- candidate_id: q0014
-  status: repaired
-  original_text: Why do we use customizing visualizations?
-  final_text: Why does customizing visualizations?
-  reject_reason: null
-- candidate_id: q0015
-  status: accepted
-  original_text: What is a simple example of customizing visualizations?
-  final_text: What is a simple example of customizing visualizations?
-  reject_reason: null
-- candidate_id: q0016
+- candidate_id: q0007
   status: accepted
   original_text: What is digging deeper?
   final_text: What is digging deeper?
   reject_reason: null
-- candidate_id: q0017
+- candidate_id: q0008
   status: accepted
-  original_text: What does digging deeper mean?
-  final_text: What does digging deeper mean?
+  original_text: How does digging deeper work?
+  final_text: How does digging deeper work?
   reject_reason: null
-- candidate_id: q0018
-  status: accepted
-  original_text: Why does digging deeper matter?
-  final_text: Why does digging deeper matter?
-  reject_reason: null
-- candidate_id: q0019
-  status: repaired
-  original_text: Why do we use digging deeper?
-  final_text: Why does digging deeper?
-  reject_reason: null
-- candidate_id: q0020
-  status: accepted
-  original_text: What is a simple example of digging deeper?
-  final_text: What is a simple example of digging deeper?
-  reject_reason: null
-- candidate_id: q0021
+- candidate_id: q0009
   status: accepted
   original_text: What is presenting your data?
   final_text: What is presenting your data?
   reject_reason: null
-- candidate_id: q0022
+- candidate_id: q0010
   status: accepted
-  original_text: What does presenting your data mean?
-  final_text: What does presenting your data mean?
+  original_text: How does presenting your data work?
+  final_text: How does presenting your data work?
   reject_reason: null
-- candidate_id: q0023
+- candidate_id: q0011
   status: accepted
-  original_text: Why does presenting your data matter?
-  final_text: Why does presenting your data matter?
-  reject_reason: null
-- candidate_id: q0024
-  status: repaired
-  original_text: Why do we use presenting your data?
-  final_text: Why does presenting your data?
-  reject_reason: null
-- candidate_id: q0025
-  status: accepted
-  original_text: What is a simple example of presenting your data?
-  final_text: What is a simple example of presenting your data?
-  reject_reason: null
-- candidate_id: q0026
-  status: accepted
-  original_text: How is getting started with tableau different from building?
-  final_text: How is getting started with tableau different from building?
-  reject_reason: null
-- candidate_id: q0027
-  status: accepted
-  original_text: How is getting started with tableau different from customizing visualizations?
-  final_text: How is getting started with tableau different from customizing visualizations?
-  reject_reason: null
-- candidate_id: q0028
-  status: accepted
-  original_text: How is getting started with tableau different from digging deeper?
-  final_text: How is getting started with tableau different from digging deeper?
-  reject_reason: null
-- candidate_id: q0029
-  status: accepted
-  original_text: How is getting started with tableau different from presenting your
-    data?
-  final_text: How is getting started with tableau different from presenting your data?
-  reject_reason: null
-- candidate_id: q0030
-  status: accepted
-  original_text: How is building different from customizing visualizations?
-  final_text: How is building different from customizing visualizations?
-  reject_reason: null
-- candidate_id: q0031
-  status: accepted
-  original_text: How is building different from digging deeper?
-  final_text: How is building different from digging deeper?
-  reject_reason: null
-- candidate_id: q0032
-  status: accepted
-  original_text: How is building different from presenting your data?
-  final_text: How is building different from presenting your data?
-  reject_reason: null
-- candidate_id: q0033
-  status: accepted
-  original_text: How is customizing visualizations different from digging deeper?
-  final_text: How is customizing visualizations different from digging deeper?
-  reject_reason: null
-- candidate_id: q0034
-  status: accepted
-  original_text: How is customizing visualizations different from presenting your
-    data?
-  final_text: How is customizing visualizations different from presenting your data?
-  reject_reason: null
-- candidate_id: q0035
-  status: accepted
-  original_text: How is digging deeper different from presenting your data?
-  final_text: How is digging deeper different from presenting your data?
+  original_text: How is building visualizations different from customizing visualizations?
+  final_text: How is building visualizations different from customizing visualizations?
   reject_reason: null
 answers:
 - question_id: q0001
   question_text: What is getting started with tableau?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
+  answer_text: Getting Started with Tableau
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Getting Started with Tableau
 - question_id: q0002
-  question_text: What does getting started with tableau mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0003
-  question_text: Why does getting started with tableau matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0004
-  question_text: Why does getting started with tableau?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
+  question_text: How does getting started with tableau work?
+  answer_text: Getting Started with Tableau
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Getting Started with Tableau
 - question_id: q0005
-  question_text: What is a simple example of getting started with tableau?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0006
-  question_text: What is building?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0007
-  question_text: What does building mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0008
-  question_text: Why does building matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0009
-  question_text: Why does building?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0010
-  question_text: What is a simple example of building?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0011
   question_text: What is customizing visualizations?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0012
-  question_text: What does customizing visualizations mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0013
-  question_text: Why does customizing visualizations matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0014
-  question_text: Why does customizing visualizations?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0015
-  question_text: What is a simple example of customizing visualizations?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0016
+  answer_text: Building and Customizing Visualizations
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Building and Customizing Visualizations
+- question_id: q0006
+  question_text: How does customizing visualizations work?
+  answer_text: Building and Customizing Visualizations
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Building and Customizing Visualizations
+- question_id: q0007
   question_text: What is digging deeper?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0017
-  question_text: What does digging deeper mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0018
-  question_text: Why does digging deeper matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0019
-  question_text: Why does digging deeper?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0020
-  question_text: What is a simple example of digging deeper?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0021
+  answer_text: Digging Deeper
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Digging Deeper
+- question_id: q0008
+  question_text: How does digging deeper work?
+  answer_text: Digging Deeper
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Digging Deeper
+- question_id: q0009
   question_text: What is presenting your data?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0022
-  question_text: What does presenting your data mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0023
-  question_text: Why does presenting your data matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0024
-  question_text: Why does presenting your data?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0025
-  question_text: What is a simple example of presenting your data?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0026
-  question_text: How is getting started with tableau different from building?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0027
-  question_text: How is getting started with tableau different from customizing visualizations?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0028
-  question_text: How is getting started with tableau different from digging deeper?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0029
-  question_text: How is getting started with tableau different from presenting your
-    data?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0030
-  question_text: How is building different from customizing visualizations?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0031
-  question_text: How is building different from digging deeper?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0032
-  question_text: How is building different from presenting your data?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0033
-  question_text: How is customizing visualizations different from digging deeper?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0034
-  question_text: How is customizing visualizations different from presenting your
-    data?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0035
-  question_text: How is digging deeper different from presenting your data?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
+  answer_text: Presenting Your Data
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Presenting Your Data
+- question_id: q0010
+  question_text: How does presenting your data work?
+  answer_text: Presenting Your Data
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Presenting Your Data
 final_rows:
 - row_id: r_000001
   course:
@@ -861,506 +401,164 @@ final_rows:
   relevant_topics:
   - getting started with tableau
   question_text: What is getting started with tableau?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Getting Started with Tableau
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: syllabus
+    text: Getting Started with Tableau
 - row_id: r_000002
   course:
     course_id: '24381'
     title: Introduction to Tableau
   relevant_topics:
   - getting started with tableau
-  question_text: What does getting started with tableau mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does getting started with tableau work?
+  question_answer: Getting Started with Tableau
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: syllabus
+    text: Getting Started with Tableau
 - row_id: r_000003
   course:
     course_id: '24381'
     title: Introduction to Tableau
   relevant_topics:
-  - getting started with tableau
-  question_text: Why does getting started with tableau matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
+  - building visualizations
+  question_text: What is building visualizations?
+  question_answer: null
+  correctness: null
+  question_family: entry
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
 - row_id: r_000004
   course:
     course_id: '24381'
     title: Introduction to Tableau
   relevant_topics:
-  - getting started with tableau
-  question_text: Why does getting started with tableau?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
+  - building visualizations
+  question_text: How does building visualizations work?
+  question_answer: null
+  correctness: null
+  question_family: mechanism
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
 - row_id: r_000005
   course:
     course_id: '24381'
     title: Introduction to Tableau
   relevant_topics:
-  - getting started with tableau
-  question_text: What is a simple example of getting started with tableau?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
+  - customizing visualizations
+  question_text: What is customizing visualizations?
+  question_answer: Building and Customizing Visualizations
+  correctness: correct
+  question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: syllabus
+    text: Building and Customizing Visualizations
 - row_id: r_000006
   course:
     course_id: '24381'
     title: Introduction to Tableau
   relevant_topics:
-  - building
-  question_text: What is building?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  - customizing visualizations
+  question_text: How does customizing visualizations work?
+  question_answer: Building and Customizing Visualizations
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: syllabus
+    text: Building and Customizing Visualizations
 - row_id: r_000007
-  course:
-    course_id: '24381'
-    title: Introduction to Tableau
-  relevant_topics:
-  - building
-  question_text: What does building mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000008
-  course:
-    course_id: '24381'
-    title: Introduction to Tableau
-  relevant_topics:
-  - building
-  question_text: Why does building matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000009
-  course:
-    course_id: '24381'
-    title: Introduction to Tableau
-  relevant_topics:
-  - building
-  question_text: Why does building?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000010
-  course:
-    course_id: '24381'
-    title: Introduction to Tableau
-  relevant_topics:
-  - building
-  question_text: What is a simple example of building?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000011
-  course:
-    course_id: '24381'
-    title: Introduction to Tableau
-  relevant_topics:
-  - customizing visualizations
-  question_text: What is customizing visualizations?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000012
-  course:
-    course_id: '24381'
-    title: Introduction to Tableau
-  relevant_topics:
-  - customizing visualizations
-  question_text: What does customizing visualizations mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000013
-  course:
-    course_id: '24381'
-    title: Introduction to Tableau
-  relevant_topics:
-  - customizing visualizations
-  question_text: Why does customizing visualizations matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000014
-  course:
-    course_id: '24381'
-    title: Introduction to Tableau
-  relevant_topics:
-  - customizing visualizations
-  question_text: Why does customizing visualizations?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000015
-  course:
-    course_id: '24381'
-    title: Introduction to Tableau
-  relevant_topics:
-  - customizing visualizations
-  question_text: What is a simple example of customizing visualizations?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000016
   course:
     course_id: '24381'
     title: Introduction to Tableau
   relevant_topics:
   - digging deeper
   question_text: What is digging deeper?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Digging Deeper
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000017
+  source_evidence:
+  - source: syllabus
+    text: Digging Deeper
+- row_id: r_000008
   course:
     course_id: '24381'
     title: Introduction to Tableau
   relevant_topics:
   - digging deeper
-  question_text: What does digging deeper mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does digging deeper work?
+  question_answer: Digging Deeper
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000018
-  course:
-    course_id: '24381'
-    title: Introduction to Tableau
-  relevant_topics:
-  - digging deeper
-  question_text: Why does digging deeper matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000019
-  course:
-    course_id: '24381'
-    title: Introduction to Tableau
-  relevant_topics:
-  - digging deeper
-  question_text: Why does digging deeper?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000020
-  course:
-    course_id: '24381'
-    title: Introduction to Tableau
-  relevant_topics:
-  - digging deeper
-  question_text: What is a simple example of digging deeper?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000021
+  source_evidence:
+  - source: syllabus
+    text: Digging Deeper
+- row_id: r_000009
   course:
     course_id: '24381'
     title: Introduction to Tableau
   relevant_topics:
   - presenting your data
   question_text: What is presenting your data?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Presenting Your Data
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000022
+  source_evidence:
+  - source: syllabus
+    text: Presenting Your Data
+- row_id: r_000010
   course:
     course_id: '24381'
     title: Introduction to Tableau
   relevant_topics:
   - presenting your data
-  question_text: What does presenting your data mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does presenting your data work?
+  question_answer: Presenting Your Data
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000023
+  source_evidence:
+  - source: syllabus
+    text: Presenting Your Data
+- row_id: r_000011
   course:
     course_id: '24381'
     title: Introduction to Tableau
   relevant_topics:
-  - presenting your data
-  question_text: Why does presenting your data matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000024
-  course:
-    course_id: '24381'
-    title: Introduction to Tableau
-  relevant_topics:
-  - presenting your data
-  question_text: Why does presenting your data?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000025
-  course:
-    course_id: '24381'
-    title: Introduction to Tableau
-  relevant_topics:
-  - presenting your data
-  question_text: What is a simple example of presenting your data?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000026
-  course:
-    course_id: '24381'
-    title: Introduction to Tableau
-  relevant_topics:
-  - getting started with tableau
-  - building
-  question_text: How is getting started with tableau different from building?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000027
-  course:
-    course_id: '24381'
-    title: Introduction to Tableau
-  relevant_topics:
-  - getting started with tableau
+  - building visualizations
   - customizing visualizations
-  question_text: How is getting started with tableau different from customizing visualizations?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_text: How is building visualizations different from customizing visualizations?
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000028
-  course:
-    course_id: '24381'
-    title: Introduction to Tableau
-  relevant_topics:
-  - getting started with tableau
-  - digging deeper
-  question_text: How is getting started with tableau different from digging deeper?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000029
-  course:
-    course_id: '24381'
-    title: Introduction to Tableau
-  relevant_topics:
-  - getting started with tableau
-  - presenting your data
-  question_text: How is getting started with tableau different from presenting your
-    data?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000030
-  course:
-    course_id: '24381'
-    title: Introduction to Tableau
-  relevant_topics:
-  - building
-  - customizing visualizations
-  question_text: How is building different from customizing visualizations?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000031
-  course:
-    course_id: '24381'
-    title: Introduction to Tableau
-  relevant_topics:
-  - building
-  - digging deeper
-  question_text: How is building different from digging deeper?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000032
-  course:
-    course_id: '24381'
-    title: Introduction to Tableau
-  relevant_topics:
-  - building
-  - presenting your data
-  question_text: How is building different from presenting your data?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000033
-  course:
-    course_id: '24381'
-    title: Introduction to Tableau
-  relevant_topics:
-  - customizing visualizations
-  - digging deeper
-  question_text: How is customizing visualizations different from digging deeper?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000034
-  course:
-    course_id: '24381'
-    title: Introduction to Tableau
-  relevant_topics:
-  - customizing visualizations
-  - presenting your data
-  question_text: How is customizing visualizations different from presenting your
-    data?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000035
-  course:
-    course_id: '24381'
-    title: Introduction to Tableau
-  relevant_topics:
-  - digging deeper
-  - presenting your data
-  question_text: How is digging deeper different from presenting your data?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
 summary:
   topic_count: 5
   canonical_topic_count: 5
-  candidate_count: 35
-  accepted_count: 35
+  candidate_count: 11
+  accepted_count: 11
   rejected_count: 0
-  correct_count: 0
-  uncertain_count: 35
+  correct_count: 8
+  uncertain_count: 0

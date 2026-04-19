@@ -119,27 +119,45 @@ extracted_topics:
 - topic_id: t001
   label: aesthetics
   topic_type: concept
-  description: 'Topic inferred from chapter heading: aesthetics'
+  description: 'Topic extracted from syllabus: aesthetics'
   evidence:
   - source: syllabus
     text: Aesthetics
-  confidence: 0.45
+  confidence: 0.55
 - topic_id: t002
+  label: where
+  topic_type: tool
+  description: 'Topic extracted from syllabus: where'
+  evidence:
+  - source: syllabus
+    text: 'Aesthetic mappings are the cornerstone of the grammar of graphics
+
+      plotting concept. This is where the magic happens - converting
+
+      continuous and categorical data into visual scales that provide
+
+      access to a large amount of information in a very short time. In
+
+      this chapter you’ll understand how to choose the best aesthetic
+
+      mappings for your data.'
+  confidence: 0.8
+- topic_id: t003
   label: geometries
   topic_type: concept
-  description: 'Topic inferred from chapter heading: geometries'
+  description: 'Topic extracted from syllabus: geometries'
   evidence:
   - source: syllabus
     text: Geometries
-  confidence: 0.45
-- topic_id: t003
+  confidence: 0.55
+- topic_id: t004
   label: themes
   topic_type: concept
-  description: 'Topic inferred from chapter heading: themes'
+  description: 'Topic extracted from syllabus: themes'
   evidence:
   - source: syllabus
     text: Themes
-  confidence: 0.45
+  confidence: 0.55
 canonical_topics:
 - canonical_topic_id: ct_001
   label: aesthetics
@@ -149,18 +167,25 @@ canonical_topics:
   - t001
   topic_type: concept
 - canonical_topic_id: ct_002
+  label: where
+  aliases:
+  - where
+  member_topic_ids:
+  - t002
+  topic_type: tool
+- canonical_topic_id: ct_003
   label: geometries
   aliases:
   - geometries
   member_topic_ids:
-  - t002
+  - t003
   topic_type: concept
-- canonical_topic_id: ct_003
+- canonical_topic_id: ct_004
   label: themes
   aliases:
   - themes
   member_topic_ids:
-  - t003
+  - t004
   topic_type: concept
 question_candidates:
 - candidate_id: q0001
@@ -172,108 +197,45 @@ question_candidates:
 - candidate_id: q0002
   relevant_topics:
   - aesthetics
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does aesthetics mean?
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does aesthetics work?
 - candidate_id: q0003
   relevant_topics:
-  - aesthetics
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does aesthetics matter?
+  - where
+  family: entry
+  pattern: What is {x}?
+  question_text: What is where?
 - candidate_id: q0004
   relevant_topics:
-  - aesthetics
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use aesthetics?
+  - where
+  family: procedure
+  pattern: How do you use {x}?
+  question_text: How do you use where?
 - candidate_id: q0005
-  relevant_topics:
-  - aesthetics
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of aesthetics?
-- candidate_id: q0006
   relevant_topics:
   - geometries
   family: entry
   pattern: What is {x}?
   question_text: What is geometries?
+- candidate_id: q0006
+  relevant_topics:
+  - geometries
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does geometries work?
 - candidate_id: q0007
-  relevant_topics:
-  - geometries
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does geometries mean?
-- candidate_id: q0008
-  relevant_topics:
-  - geometries
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does geometries matter?
-- candidate_id: q0009
-  relevant_topics:
-  - geometries
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use geometries?
-- candidate_id: q0010
-  relevant_topics:
-  - geometries
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of geometries?
-- candidate_id: q0011
   relevant_topics:
   - themes
   family: entry
   pattern: What is {x}?
   question_text: What is themes?
-- candidate_id: q0012
+- candidate_id: q0008
   relevant_topics:
   - themes
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does themes mean?
-- candidate_id: q0013
-  relevant_topics:
-  - themes
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does themes matter?
-- candidate_id: q0014
-  relevant_topics:
-  - themes
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use themes?
-- candidate_id: q0015
-  relevant_topics:
-  - themes
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of themes?
-- candidate_id: q0016
-  relevant_topics:
-  - aesthetics
-  - geometries
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is aesthetics different from geometries?
-- candidate_id: q0017
-  relevant_topics:
-  - aesthetics
-  - themes
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is aesthetics different from themes?
-- candidate_id: q0018
-  relevant_topics:
-  - geometries
-  - themes
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is geometries different from themes?
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does themes work?
 question_repairs:
 - candidate_id: q0001
   status: accepted
@@ -282,216 +244,104 @@ question_repairs:
   reject_reason: null
 - candidate_id: q0002
   status: accepted
-  original_text: What does aesthetics mean?
-  final_text: What does aesthetics mean?
+  original_text: How does aesthetics work?
+  final_text: How does aesthetics work?
   reject_reason: null
 - candidate_id: q0003
   status: accepted
-  original_text: Why does aesthetics matter?
-  final_text: Why does aesthetics matter?
+  original_text: What is where?
+  final_text: What is where?
   reject_reason: null
 - candidate_id: q0004
-  status: repaired
-  original_text: Why do we use aesthetics?
-  final_text: Why does aesthetics?
+  status: accepted
+  original_text: How do you use where?
+  final_text: How do you use where?
   reject_reason: null
 - candidate_id: q0005
-  status: accepted
-  original_text: What is a simple example of aesthetics?
-  final_text: What is a simple example of aesthetics?
-  reject_reason: null
-- candidate_id: q0006
   status: accepted
   original_text: What is geometries?
   final_text: What is geometries?
   reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: How does geometries work?
+  final_text: How does geometries work?
+  reject_reason: null
 - candidate_id: q0007
-  status: accepted
-  original_text: What does geometries mean?
-  final_text: What does geometries mean?
-  reject_reason: null
-- candidate_id: q0008
-  status: accepted
-  original_text: Why does geometries matter?
-  final_text: Why does geometries matter?
-  reject_reason: null
-- candidate_id: q0009
-  status: repaired
-  original_text: Why do we use geometries?
-  final_text: Why does geometries?
-  reject_reason: null
-- candidate_id: q0010
-  status: accepted
-  original_text: What is a simple example of geometries?
-  final_text: What is a simple example of geometries?
-  reject_reason: null
-- candidate_id: q0011
   status: accepted
   original_text: What is themes?
   final_text: What is themes?
   reject_reason: null
-- candidate_id: q0012
+- candidate_id: q0008
   status: accepted
-  original_text: What does themes mean?
-  final_text: What does themes mean?
-  reject_reason: null
-- candidate_id: q0013
-  status: accepted
-  original_text: Why does themes matter?
-  final_text: Why does themes matter?
-  reject_reason: null
-- candidate_id: q0014
-  status: repaired
-  original_text: Why do we use themes?
-  final_text: Why does themes?
-  reject_reason: null
-- candidate_id: q0015
-  status: accepted
-  original_text: What is a simple example of themes?
-  final_text: What is a simple example of themes?
-  reject_reason: null
-- candidate_id: q0016
-  status: accepted
-  original_text: How is aesthetics different from geometries?
-  final_text: How is aesthetics different from geometries?
-  reject_reason: null
-- candidate_id: q0017
-  status: accepted
-  original_text: How is aesthetics different from themes?
-  final_text: How is aesthetics different from themes?
-  reject_reason: null
-- candidate_id: q0018
-  status: accepted
-  original_text: How is geometries different from themes?
-  final_text: How is geometries different from themes?
+  original_text: How does themes work?
+  final_text: How does themes work?
   reject_reason: null
 answers:
 - question_id: q0001
   question_text: What is aesthetics?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
+  answer_text: three essential layers for making a plot - Data, Aesthetics and Geometries.
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: three essential layers for making a plot - Data, Aesthetics and Geometries.
 - question_id: q0002
-  question_text: What does aesthetics mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
+  question_text: How does aesthetics work?
+  answer_text: three essential layers for making a plot - Data, Aesthetics and Geometries.
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: three essential layers for making a plot - Data, Aesthetics and Geometries.
 - question_id: q0003
-  question_text: Why does aesthetics matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
+  question_text: What is where?
+  answer_text: This is where the magic happens - converting
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: This is where the magic happens - converting
 - question_id: q0004
-  question_text: Why does aesthetics?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
+  question_text: How do you use where?
+  answer_text: This is where the magic happens - converting
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: This is where the magic happens - converting
 - question_id: q0005
-  question_text: What is a simple example of aesthetics?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0006
   question_text: What is geometries?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
+  answer_text: three essential layers for making a plot - Data, Aesthetics and Geometries.
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: three essential layers for making a plot - Data, Aesthetics and Geometries.
+- question_id: q0006
+  question_text: How does geometries work?
+  answer_text: three essential layers for making a plot - Data, Aesthetics and Geometries.
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: three essential layers for making a plot - Data, Aesthetics and Geometries.
 - question_id: q0007
-  question_text: What does geometries mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0008
-  question_text: Why does geometries matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0009
-  question_text: Why does geometries?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0010
-  question_text: What is a simple example of geometries?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0011
   question_text: What is themes?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0012
-  question_text: What does themes mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0013
-  question_text: Why does themes matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0014
-  question_text: Why does themes?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0015
-  question_text: What is a simple example of themes?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0016
-  question_text: How is aesthetics different from geometries?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0017
-  question_text: How is aesthetics different from themes?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0018
-  question_text: How is geometries different from themes?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
+  answer_text: Themes
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Themes
+- question_id: q0008
+  question_text: How does themes work?
+  answer_text: Themes
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Themes
 final_rows:
 - row_id: r_000001
   course:
@@ -500,259 +350,128 @@ final_rows:
   relevant_topics:
   - aesthetics
   question_text: What is aesthetics?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: three essential layers for making a plot - Data, Aesthetics and
+    Geometries.
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: overview
+    text: three essential layers for making a plot - Data, Aesthetics and Geometries.
 - row_id: r_000002
   course:
     course_id: '24395'
     title: Introduction to Data Visualization with ggplot2
   relevant_topics:
   - aesthetics
-  question_text: What does aesthetics mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does aesthetics work?
+  question_answer: three essential layers for making a plot - Data, Aesthetics and
+    Geometries.
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: overview
+    text: three essential layers for making a plot - Data, Aesthetics and Geometries.
 - row_id: r_000003
   course:
     course_id: '24395'
     title: Introduction to Data Visualization with ggplot2
   relevant_topics:
-  - aesthetics
-  question_text: Why does aesthetics matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
+  - where
+  question_text: What is where?
+  question_answer: This is where the magic happens - converting
+  correctness: correct
+  question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: syllabus
+    text: This is where the magic happens - converting
 - row_id: r_000004
   course:
     course_id: '24395'
     title: Introduction to Data Visualization with ggplot2
   relevant_topics:
-  - aesthetics
-  question_text: Why does aesthetics?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
+  - where
+  question_text: How do you use where?
+  question_answer: This is where the magic happens - converting
+  correctness: correct
+  question_family: procedure
   status: answered
   reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: syllabus
+    text: This is where the magic happens - converting
 - row_id: r_000005
-  course:
-    course_id: '24395'
-    title: Introduction to Data Visualization with ggplot2
-  relevant_topics:
-  - aesthetics
-  question_text: What is a simple example of aesthetics?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000006
   course:
     course_id: '24395'
     title: Introduction to Data Visualization with ggplot2
   relevant_topics:
   - geometries
   question_text: What is geometries?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: three essential layers for making a plot - Data, Aesthetics and
+    Geometries.
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: overview
+    text: three essential layers for making a plot - Data, Aesthetics and Geometries.
+- row_id: r_000006
+  course:
+    course_id: '24395'
+    title: Introduction to Data Visualization with ggplot2
+  relevant_topics:
+  - geometries
+  question_text: How does geometries work?
+  question_answer: three essential layers for making a plot - Data, Aesthetics and
+    Geometries.
+  correctness: correct
+  question_family: mechanism
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: three essential layers for making a plot - Data, Aesthetics and Geometries.
 - row_id: r_000007
-  course:
-    course_id: '24395'
-    title: Introduction to Data Visualization with ggplot2
-  relevant_topics:
-  - geometries
-  question_text: What does geometries mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000008
-  course:
-    course_id: '24395'
-    title: Introduction to Data Visualization with ggplot2
-  relevant_topics:
-  - geometries
-  question_text: Why does geometries matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000009
-  course:
-    course_id: '24395'
-    title: Introduction to Data Visualization with ggplot2
-  relevant_topics:
-  - geometries
-  question_text: Why does geometries?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000010
-  course:
-    course_id: '24395'
-    title: Introduction to Data Visualization with ggplot2
-  relevant_topics:
-  - geometries
-  question_text: What is a simple example of geometries?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000011
   course:
     course_id: '24395'
     title: Introduction to Data Visualization with ggplot2
   relevant_topics:
   - themes
   question_text: What is themes?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Themes
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000012
+  source_evidence:
+  - source: syllabus
+    text: Themes
+- row_id: r_000008
   course:
     course_id: '24395'
     title: Introduction to Data Visualization with ggplot2
   relevant_topics:
   - themes
-  question_text: What does themes mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does themes work?
+  question_answer: Themes
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000013
-  course:
-    course_id: '24395'
-    title: Introduction to Data Visualization with ggplot2
-  relevant_topics:
-  - themes
-  question_text: Why does themes matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000014
-  course:
-    course_id: '24395'
-    title: Introduction to Data Visualization with ggplot2
-  relevant_topics:
-  - themes
-  question_text: Why does themes?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000015
-  course:
-    course_id: '24395'
-    title: Introduction to Data Visualization with ggplot2
-  relevant_topics:
-  - themes
-  question_text: What is a simple example of themes?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000016
-  course:
-    course_id: '24395'
-    title: Introduction to Data Visualization with ggplot2
-  relevant_topics:
-  - aesthetics
-  - geometries
-  question_text: How is aesthetics different from geometries?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000017
-  course:
-    course_id: '24395'
-    title: Introduction to Data Visualization with ggplot2
-  relevant_topics:
-  - aesthetics
-  - themes
-  question_text: How is aesthetics different from themes?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000018
-  course:
-    course_id: '24395'
-    title: Introduction to Data Visualization with ggplot2
-  relevant_topics:
-  - geometries
-  - themes
-  question_text: How is geometries different from themes?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: syllabus
+    text: Themes
 summary:
-  topic_count: 3
-  canonical_topic_count: 3
-  candidate_count: 18
-  accepted_count: 18
+  topic_count: 4
+  canonical_topic_count: 4
+  candidate_count: 8
+  accepted_count: 8
   rejected_count: 0
-  correct_count: 0
-  uncertain_count: 18
+  correct_count: 8
+  uncertain_count: 0

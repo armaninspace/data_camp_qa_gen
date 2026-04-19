@@ -121,35 +121,49 @@ extracted_topics:
 - topic_id: t001
   label: getting started in python
   topic_type: concept
-  description: 'Topic inferred from chapter heading: getting started in python'
+  description: 'Topic extracted from syllabus: getting started in python'
   evidence:
   - source: syllabus
     text: Getting Started in Python
-  confidence: 0.45
+  confidence: 0.55
 - topic_id: t002
   label: loading data in pandas
   topic_type: concept
-  description: 'Topic inferred from chapter heading: loading data in pandas'
+  description: 'Topic extracted from syllabus: loading data in pandas'
   evidence:
   - source: syllabus
     text: Loading Data in pandas
-  confidence: 0.45
+  confidence: 0.55
 - topic_id: t003
   label: plotting data with matplotlib
   topic_type: concept
-  description: 'Topic inferred from chapter heading: plotting data with matplotlib'
+  description: 'Topic extracted from syllabus: plotting data with matplotlib'
   evidence:
   - source: syllabus
     text: Plotting Data with Matplotlib
-  confidence: 0.45
+  confidence: 0.55
 - topic_id: t004
   label: different types of plots
   topic_type: concept
-  description: 'Topic inferred from chapter heading: different types of plots'
+  description: 'Topic extracted from syllabus: different types of plots'
   evidence:
   - source: syllabus
     text: Different Types of Plots
-  confidence: 0.45
+  confidence: 0.55
+- topic_id: t005
+  label: where
+  topic_type: tool
+  description: 'Topic extracted from syllabus: where'
+  evidence:
+  - source: syllabus
+    text: 'In this final chapter, you''ll learn how to create three new plot
+
+      types: scatter plots, bar plots, and histograms. You''ll use these
+
+      tools to locate where the kidnapper is hiding and rescue Bayes, the
+
+      Golden Retriever.'
+  confidence: 0.8
 canonical_topics:
 - canonical_topic_id: ct_001
   label: getting started in python
@@ -179,6 +193,13 @@ canonical_topics:
   member_topic_ids:
   - t004
   topic_type: concept
+- canonical_topic_id: ct_005
+  label: where
+  aliases:
+  - where
+  member_topic_ids:
+  - t005
+  topic_type: tool
 question_candidates:
 - candidate_id: q0001
   relevant_topics:
@@ -189,162 +210,64 @@ question_candidates:
 - candidate_id: q0002
   relevant_topics:
   - getting started in python
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does getting started in python mean?
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does getting started in python work?
 - candidate_id: q0003
-  relevant_topics:
-  - getting started in python
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does getting started in python matter?
-- candidate_id: q0004
-  relevant_topics:
-  - getting started in python
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use getting started in python?
-- candidate_id: q0005
-  relevant_topics:
-  - getting started in python
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of getting started in python?
-- candidate_id: q0006
   relevant_topics:
   - loading data in pandas
   family: entry
   pattern: What is {x}?
   question_text: What is loading data in pandas?
-- candidate_id: q0007
+- candidate_id: q0004
   relevant_topics:
   - loading data in pandas
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does loading data in pandas mean?
-- candidate_id: q0008
-  relevant_topics:
-  - loading data in pandas
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does loading data in pandas matter?
-- candidate_id: q0009
-  relevant_topics:
-  - loading data in pandas
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use loading data in pandas?
-- candidate_id: q0010
-  relevant_topics:
-  - loading data in pandas
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of loading data in pandas?
-- candidate_id: q0011
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does loading data in pandas work?
+- candidate_id: q0005
   relevant_topics:
   - plotting data with matplotlib
   family: entry
   pattern: What is {x}?
   question_text: What is plotting data with matplotlib?
-- candidate_id: q0012
+- candidate_id: q0006
   relevant_topics:
   - plotting data with matplotlib
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does plotting data with matplotlib mean?
-- candidate_id: q0013
-  relevant_topics:
-  - plotting data with matplotlib
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does plotting data with matplotlib matter?
-- candidate_id: q0014
-  relevant_topics:
-  - plotting data with matplotlib
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use plotting data with matplotlib?
-- candidate_id: q0015
-  relevant_topics:
-  - plotting data with matplotlib
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of plotting data with matplotlib?
-- candidate_id: q0016
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does plotting data with matplotlib work?
+- candidate_id: q0007
   relevant_topics:
   - different types of plots
   family: entry
   pattern: What is {x}?
   question_text: What is different types of plots?
-- candidate_id: q0017
+- candidate_id: q0008
   relevant_topics:
   - different types of plots
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does different types of plots work?
+- candidate_id: q0009
+  relevant_topics:
+  - where
   family: entry
-  pattern: What does {x} mean?
-  question_text: What does different types of plots mean?
-- candidate_id: q0018
+  pattern: What is {x}?
+  question_text: What is where?
+- candidate_id: q0010
   relevant_topics:
-  - different types of plots
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does different types of plots matter?
-- candidate_id: q0019
-  relevant_topics:
-  - different types of plots
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use different types of plots?
-- candidate_id: q0020
-  relevant_topics:
-  - different types of plots
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of different types of plots?
-- candidate_id: q0021
+  - where
+  family: procedure
+  pattern: How do you use {x}?
+  question_text: How do you use where?
+- candidate_id: q0011
   relevant_topics:
   - getting started in python
   - loading data in pandas
   family: comparison
   pattern: How is {x} different from {y}?
   question_text: How is getting started in python different from loading data in pandas?
-- candidate_id: q0022
-  relevant_topics:
-  - getting started in python
-  - plotting data with matplotlib
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is getting started in python different from plotting data with
-    matplotlib?
-- candidate_id: q0023
-  relevant_topics:
-  - getting started in python
-  - different types of plots
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is getting started in python different from different types of
-    plots?
-- candidate_id: q0024
-  relevant_topics:
-  - loading data in pandas
-  - plotting data with matplotlib
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is loading data in pandas different from plotting data with matplotlib?
-- candidate_id: q0025
-  relevant_topics:
-  - loading data in pandas
-  - different types of plots
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is loading data in pandas different from different types of plots?
-- candidate_id: q0026
-  relevant_topics:
-  - plotting data with matplotlib
-  - different types of plots
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is plotting data with matplotlib different from different types
-    of plots?
 question_repairs:
 - candidate_id: q0001
   status: accepted
@@ -353,319 +276,135 @@ question_repairs:
   reject_reason: null
 - candidate_id: q0002
   status: accepted
-  original_text: What does getting started in python mean?
-  final_text: What does getting started in python mean?
+  original_text: How does getting started in python work?
+  final_text: How does getting started in python work?
   reject_reason: null
 - candidate_id: q0003
-  status: accepted
-  original_text: Why does getting started in python matter?
-  final_text: Why does getting started in python matter?
-  reject_reason: null
-- candidate_id: q0004
-  status: repaired
-  original_text: Why do we use getting started in python?
-  final_text: Why does getting started in python?
-  reject_reason: null
-- candidate_id: q0005
-  status: accepted
-  original_text: What is a simple example of getting started in python?
-  final_text: What is a simple example of getting started in python?
-  reject_reason: null
-- candidate_id: q0006
   status: accepted
   original_text: What is loading data in pandas?
   final_text: What is loading data in pandas?
   reject_reason: null
-- candidate_id: q0007
+- candidate_id: q0004
   status: accepted
-  original_text: What does loading data in pandas mean?
-  final_text: What does loading data in pandas mean?
+  original_text: How does loading data in pandas work?
+  final_text: How does loading data in pandas work?
   reject_reason: null
-- candidate_id: q0008
-  status: accepted
-  original_text: Why does loading data in pandas matter?
-  final_text: Why does loading data in pandas matter?
-  reject_reason: null
-- candidate_id: q0009
-  status: repaired
-  original_text: Why do we use loading data in pandas?
-  final_text: Why does loading data in pandas?
-  reject_reason: null
-- candidate_id: q0010
-  status: accepted
-  original_text: What is a simple example of loading data in pandas?
-  final_text: What is a simple example of loading data in pandas?
-  reject_reason: null
-- candidate_id: q0011
+- candidate_id: q0005
   status: accepted
   original_text: What is plotting data with matplotlib?
   final_text: What is plotting data with matplotlib?
   reject_reason: null
-- candidate_id: q0012
+- candidate_id: q0006
   status: accepted
-  original_text: What does plotting data with matplotlib mean?
-  final_text: What does plotting data with matplotlib mean?
+  original_text: How does plotting data with matplotlib work?
+  final_text: How does plotting data with matplotlib work?
   reject_reason: null
-- candidate_id: q0013
-  status: accepted
-  original_text: Why does plotting data with matplotlib matter?
-  final_text: Why does plotting data with matplotlib matter?
-  reject_reason: null
-- candidate_id: q0014
-  status: repaired
-  original_text: Why do we use plotting data with matplotlib?
-  final_text: Why does plotting data with matplotlib?
-  reject_reason: null
-- candidate_id: q0015
-  status: accepted
-  original_text: What is a simple example of plotting data with matplotlib?
-  final_text: What is a simple example of plotting data with matplotlib?
-  reject_reason: null
-- candidate_id: q0016
+- candidate_id: q0007
   status: accepted
   original_text: What is different types of plots?
   final_text: What is different types of plots?
   reject_reason: null
-- candidate_id: q0017
+- candidate_id: q0008
   status: accepted
-  original_text: What does different types of plots mean?
-  final_text: What does different types of plots mean?
+  original_text: How does different types of plots work?
+  final_text: How does different types of plots work?
   reject_reason: null
-- candidate_id: q0018
+- candidate_id: q0009
   status: accepted
-  original_text: Why does different types of plots matter?
-  final_text: Why does different types of plots matter?
+  original_text: What is where?
+  final_text: What is where?
   reject_reason: null
-- candidate_id: q0019
-  status: repaired
-  original_text: Why do we use different types of plots?
-  final_text: Why does different types of plots?
-  reject_reason: null
-- candidate_id: q0020
+- candidate_id: q0010
   status: accepted
-  original_text: What is a simple example of different types of plots?
-  final_text: What is a simple example of different types of plots?
+  original_text: How do you use where?
+  final_text: How do you use where?
   reject_reason: null
-- candidate_id: q0021
+- candidate_id: q0011
   status: accepted
   original_text: How is getting started in python different from loading data in pandas?
   final_text: How is getting started in python different from loading data in pandas?
   reject_reason: null
-- candidate_id: q0022
-  status: accepted
-  original_text: How is getting started in python different from plotting data with
-    matplotlib?
-  final_text: How is getting started in python different from plotting data with matplotlib?
-  reject_reason: null
-- candidate_id: q0023
-  status: accepted
-  original_text: How is getting started in python different from different types of
-    plots?
-  final_text: How is getting started in python different from different types of plots?
-  reject_reason: null
-- candidate_id: q0024
-  status: accepted
-  original_text: How is loading data in pandas different from plotting data with matplotlib?
-  final_text: How is loading data in pandas different from plotting data with matplotlib?
-  reject_reason: null
-- candidate_id: q0025
-  status: accepted
-  original_text: How is loading data in pandas different from different types of plots?
-  final_text: How is loading data in pandas different from different types of plots?
-  reject_reason: null
-- candidate_id: q0026
-  status: accepted
-  original_text: How is plotting data with matplotlib different from different types
-    of plots?
-  final_text: How is plotting data with matplotlib different from different types
-    of plots?
-  reject_reason: null
 answers:
 - question_id: q0001
   question_text: What is getting started in python?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
+  answer_text: Getting Started in Python
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: Getting Started in Python
 - question_id: q0002
-  question_text: What does getting started in python mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
+  question_text: How does getting started in python work?
+  answer_text: Getting Started in Python
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: Getting Started in Python
 - question_id: q0003
-  question_text: Why does getting started in python matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0004
-  question_text: Why does getting started in python?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0005
-  question_text: What is a simple example of getting started in python?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0006
   question_text: What is loading data in pandas?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0007
-  question_text: What does loading data in pandas mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0008
-  question_text: Why does loading data in pandas matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0009
-  question_text: Why does loading data in pandas?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0010
-  question_text: What is a simple example of loading data in pandas?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0011
+  answer_text: Loading Data in pandas
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: Loading Data in pandas
+- question_id: q0004
+  question_text: How does loading data in pandas work?
+  answer_text: Loading Data in pandas
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: Loading Data in pandas
+- question_id: q0005
   question_text: What is plotting data with matplotlib?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0012
-  question_text: What does plotting data with matplotlib mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0013
-  question_text: Why does plotting data with matplotlib matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0014
-  question_text: Why does plotting data with matplotlib?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0015
-  question_text: What is a simple example of plotting data with matplotlib?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0016
+  answer_text: Plotting Data with Matplotlib
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: Plotting Data with Matplotlib
+- question_id: q0006
+  question_text: How does plotting data with matplotlib work?
+  answer_text: Plotting Data with Matplotlib
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: Plotting Data with Matplotlib
+- question_id: q0007
   question_text: What is different types of plots?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0017
-  question_text: What does different types of plots mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0018
-  question_text: Why does different types of plots matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0019
-  question_text: Why does different types of plots?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0020
-  question_text: What is a simple example of different types of plots?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0021
-  question_text: How is getting started in python different from loading data in pandas?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0022
-  question_text: How is getting started in python different from plotting data with
-    matplotlib?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0023
-  question_text: How is getting started in python different from different types of
-    plots?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0024
-  question_text: How is loading data in pandas different from plotting data with matplotlib?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0025
-  question_text: How is loading data in pandas different from different types of plots?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0026
-  question_text: How is plotting data with matplotlib different from different types
-    of plots?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
+  answer_text: Different Types of Plots
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: Different Types of Plots
+- question_id: q0008
+  question_text: How does different types of plots work?
+  answer_text: Different Types of Plots
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: Different Types of Plots
+- question_id: q0009
+  question_text: What is where?
+  answer_text: where the kidnapper is hiding and rescue Bayes, the Golden Retriever.
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: where the kidnapper is hiding and rescue Bayes, the Golden Retriever.
+- question_id: q0010
+  question_text: How do you use where?
+  answer_text: where the kidnapper is hiding and rescue Bayes, the Golden Retriever.
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: where the kidnapper is hiding and rescue Bayes, the Golden Retriever.
 final_rows:
 - row_id: r_000001
   course:
@@ -674,280 +413,150 @@ final_rows:
   relevant_topics:
   - getting started in python
   question_text: What is getting started in python?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Getting Started in Python
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: overview
+    text: Getting Started in Python
 - row_id: r_000002
   course:
     course_id: '24373'
     title: Introduction to Data Science in Python
   relevant_topics:
   - getting started in python
-  question_text: What does getting started in python mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does getting started in python work?
+  question_answer: Getting Started in Python
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: overview
+    text: Getting Started in Python
 - row_id: r_000003
-  course:
-    course_id: '24373'
-    title: Introduction to Data Science in Python
-  relevant_topics:
-  - getting started in python
-  question_text: Why does getting started in python matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000004
-  course:
-    course_id: '24373'
-    title: Introduction to Data Science in Python
-  relevant_topics:
-  - getting started in python
-  question_text: Why does getting started in python?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000005
-  course:
-    course_id: '24373'
-    title: Introduction to Data Science in Python
-  relevant_topics:
-  - getting started in python
-  question_text: What is a simple example of getting started in python?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000006
   course:
     course_id: '24373'
     title: Introduction to Data Science in Python
   relevant_topics:
   - loading data in pandas
   question_text: What is loading data in pandas?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Loading Data in pandas
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000007
+  source_evidence:
+  - source: overview
+    text: Loading Data in pandas
+- row_id: r_000004
   course:
     course_id: '24373'
     title: Introduction to Data Science in Python
   relevant_topics:
   - loading data in pandas
-  question_text: What does loading data in pandas mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does loading data in pandas work?
+  question_answer: Loading Data in pandas
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000008
-  course:
-    course_id: '24373'
-    title: Introduction to Data Science in Python
-  relevant_topics:
-  - loading data in pandas
-  question_text: Why does loading data in pandas matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000009
-  course:
-    course_id: '24373'
-    title: Introduction to Data Science in Python
-  relevant_topics:
-  - loading data in pandas
-  question_text: Why does loading data in pandas?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000010
-  course:
-    course_id: '24373'
-    title: Introduction to Data Science in Python
-  relevant_topics:
-  - loading data in pandas
-  question_text: What is a simple example of loading data in pandas?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000011
+  source_evidence:
+  - source: overview
+    text: Loading Data in pandas
+- row_id: r_000005
   course:
     course_id: '24373'
     title: Introduction to Data Science in Python
   relevant_topics:
   - plotting data with matplotlib
   question_text: What is plotting data with matplotlib?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Plotting Data with Matplotlib
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000012
+  source_evidence:
+  - source: overview
+    text: Plotting Data with Matplotlib
+- row_id: r_000006
   course:
     course_id: '24373'
     title: Introduction to Data Science in Python
   relevant_topics:
   - plotting data with matplotlib
-  question_text: What does plotting data with matplotlib mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does plotting data with matplotlib work?
+  question_answer: Plotting Data with Matplotlib
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000013
-  course:
-    course_id: '24373'
-    title: Introduction to Data Science in Python
-  relevant_topics:
-  - plotting data with matplotlib
-  question_text: Why does plotting data with matplotlib matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000014
-  course:
-    course_id: '24373'
-    title: Introduction to Data Science in Python
-  relevant_topics:
-  - plotting data with matplotlib
-  question_text: Why does plotting data with matplotlib?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000015
-  course:
-    course_id: '24373'
-    title: Introduction to Data Science in Python
-  relevant_topics:
-  - plotting data with matplotlib
-  question_text: What is a simple example of plotting data with matplotlib?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000016
+  source_evidence:
+  - source: overview
+    text: Plotting Data with Matplotlib
+- row_id: r_000007
   course:
     course_id: '24373'
     title: Introduction to Data Science in Python
   relevant_topics:
   - different types of plots
   question_text: What is different types of plots?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Different Types of Plots
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000017
+  source_evidence:
+  - source: overview
+    text: Different Types of Plots
+- row_id: r_000008
   course:
     course_id: '24373'
     title: Introduction to Data Science in Python
   relevant_topics:
   - different types of plots
-  question_text: What does different types of plots mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_text: How does different types of plots work?
+  question_answer: Different Types of Plots
+  correctness: correct
+  question_family: mechanism
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: Different Types of Plots
+- row_id: r_000009
+  course:
+    course_id: '24373'
+    title: Introduction to Data Science in Python
+  relevant_topics:
+  - where
+  question_text: What is where?
+  question_answer: where the kidnapper is hiding and rescue Bayes, the Golden Retriever.
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000018
+  source_evidence:
+  - source: overview
+    text: where the kidnapper is hiding and rescue Bayes, the Golden Retriever.
+- row_id: r_000010
   course:
     course_id: '24373'
     title: Introduction to Data Science in Python
   relevant_topics:
-  - different types of plots
-  question_text: Why does different types of plots matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
+  - where
+  question_text: How do you use where?
+  question_answer: where the kidnapper is hiding and rescue Bayes, the Golden Retriever.
+  correctness: correct
+  question_family: procedure
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000019
-  course:
-    course_id: '24373'
-    title: Introduction to Data Science in Python
-  relevant_topics:
-  - different types of plots
-  question_text: Why does different types of plots?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000020
-  course:
-    course_id: '24373'
-    title: Introduction to Data Science in Python
-  relevant_topics:
-  - different types of plots
-  question_text: What is a simple example of different types of plots?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000021
+  source_evidence:
+  - source: overview
+    text: where the kidnapper is hiding and rescue Bayes, the Golden Retriever.
+- row_id: r_000011
   course:
     course_id: '24373'
     title: Introduction to Data Science in Python
@@ -955,96 +564,17 @@ final_rows:
   - getting started in python
   - loading data in pandas
   question_text: How is getting started in python different from loading data in pandas?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000022
-  course:
-    course_id: '24373'
-    title: Introduction to Data Science in Python
-  relevant_topics:
-  - getting started in python
-  - plotting data with matplotlib
-  question_text: How is getting started in python different from plotting data with
-    matplotlib?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000023
-  course:
-    course_id: '24373'
-    title: Introduction to Data Science in Python
-  relevant_topics:
-  - getting started in python
-  - different types of plots
-  question_text: How is getting started in python different from different types of
-    plots?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000024
-  course:
-    course_id: '24373'
-    title: Introduction to Data Science in Python
-  relevant_topics:
-  - loading data in pandas
-  - plotting data with matplotlib
-  question_text: How is loading data in pandas different from plotting data with matplotlib?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000025
-  course:
-    course_id: '24373'
-    title: Introduction to Data Science in Python
-  relevant_topics:
-  - loading data in pandas
-  - different types of plots
-  question_text: How is loading data in pandas different from different types of plots?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000026
-  course:
-    course_id: '24373'
-    title: Introduction to Data Science in Python
-  relevant_topics:
-  - plotting data with matplotlib
-  - different types of plots
-  question_text: How is plotting data with matplotlib different from different types
-    of plots?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
 summary:
-  topic_count: 4
-  canonical_topic_count: 4
-  candidate_count: 26
-  accepted_count: 26
+  topic_count: 5
+  canonical_topic_count: 5
+  candidate_count: 11
+  accepted_count: 11
   rejected_count: 0
-  correct_count: 0
-  uncertain_count: 26
+  correct_count: 10
+  uncertain_count: 0

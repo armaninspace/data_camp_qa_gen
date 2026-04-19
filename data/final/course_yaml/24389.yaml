@@ -110,35 +110,51 @@ extracted_topics:
 - topic_id: t001
   label: what is data engineering?
   topic_type: concept
-  description: 'Topic inferred from chapter heading: what is data engineering?'
+  description: 'Topic extracted from syllabus: what is data engineering?'
   evidence:
   - source: syllabus
     text: What is data engineering?
-  confidence: 0.45
+  confidence: 0.55
 - topic_id: t002
+  label: where
+  topic_type: tool
+  description: 'Topic extracted from syllabus: where'
+  evidence:
+  - source: syllabus
+    text: 'In this chapter, you’ll learn what data engineering is and why
+
+      demand for them is increasing. You’ll then discover where data
+
+      engineering sits in relation to the data science lifecycle, how data
+
+      engineers differ from data scientists, and have an introduction to
+
+      your first complete data pipeline.'
+  confidence: 0.8
+- topic_id: t003
   label: storing data
   topic_type: concept
-  description: 'Topic inferred from chapter heading: storing data'
+  description: 'Topic extracted from syllabus: storing data'
   evidence:
   - source: syllabus
     text: Storing data
-  confidence: 0.45
-- topic_id: t003
-  label: moving
-  topic_type: concept
-  description: 'Topic inferred from chapter heading: moving'
-  evidence:
-  - source: syllabus
-    text: Moving and processing data
   confidence: 0.55
 - topic_id: t004
-  label: processing data
+  label: moving data
   topic_type: concept
-  description: 'Topic inferred from chapter heading: processing data'
+  description: 'Topic extracted from syllabus: moving data'
   evidence:
   - source: syllabus
     text: Moving and processing data
-  confidence: 0.55
+  confidence: 0.75
+- topic_id: t005
+  label: processing data
+  topic_type: concept
+  description: 'Topic extracted from syllabus: processing data'
+  evidence:
+  - source: syllabus
+    text: Moving and processing data
+  confidence: 0.75
 canonical_topics:
 - canonical_topic_id: ct_001
   label: what is data engineering?
@@ -148,25 +164,32 @@ canonical_topics:
   - t001
   topic_type: concept
 - canonical_topic_id: ct_002
+  label: where
+  aliases:
+  - where
+  member_topic_ids:
+  - t002
+  topic_type: tool
+- canonical_topic_id: ct_003
   label: storing data
   aliases:
   - storing data
   member_topic_ids:
-  - t002
-  topic_type: concept
-- canonical_topic_id: ct_003
-  label: moving
-  aliases:
-  - moving
-  member_topic_ids:
   - t003
   topic_type: concept
 - canonical_topic_id: ct_004
+  label: moving data
+  aliases:
+  - moving data
+  member_topic_ids:
+  - t004
+  topic_type: concept
+- canonical_topic_id: ct_005
   label: processing data
   aliases:
   - processing data
   member_topic_ids:
-  - t004
+  - t005
   topic_type: concept
 question_candidates:
 - candidate_id: q0001
@@ -178,473 +201,165 @@ question_candidates:
 - candidate_id: q0002
   relevant_topics:
   - what is data engineering?
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does what is data engineering? mean?
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does what is data engineering? work?
 - candidate_id: q0003
   relevant_topics:
-  - what is data engineering?
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does what is data engineering? matter?
+  - where
+  family: entry
+  pattern: What is {x}?
+  question_text: What is where?
 - candidate_id: q0004
   relevant_topics:
-  - what is data engineering?
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use what is data engineering??
+  - where
+  family: procedure
+  pattern: How do you use {x}?
+  question_text: How do you use where?
 - candidate_id: q0005
-  relevant_topics:
-  - what is data engineering?
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of what is data engineering??
-- candidate_id: q0006
   relevant_topics:
   - storing data
   family: entry
   pattern: What is {x}?
   question_text: What is storing data?
+- candidate_id: q0006
+  relevant_topics:
+  - storing data
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does storing data work?
 - candidate_id: q0007
   relevant_topics:
-  - storing data
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does storing data mean?
-- candidate_id: q0008
-  relevant_topics:
-  - storing data
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does storing data matter?
-- candidate_id: q0009
-  relevant_topics:
-  - storing data
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use storing data?
-- candidate_id: q0010
-  relevant_topics:
-  - storing data
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of storing data?
-- candidate_id: q0011
-  relevant_topics:
-  - moving
+  - moving data
   family: entry
   pattern: What is {x}?
-  question_text: What is moving?
-- candidate_id: q0012
+  question_text: What is moving data?
+- candidate_id: q0008
   relevant_topics:
-  - moving
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does moving mean?
-- candidate_id: q0013
-  relevant_topics:
-  - moving
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does moving matter?
-- candidate_id: q0014
-  relevant_topics:
-  - moving
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use moving?
-- candidate_id: q0015
-  relevant_topics:
-  - moving
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of moving?
-- candidate_id: q0016
+  - moving data
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does moving data work?
+- candidate_id: q0009
   relevant_topics:
   - processing data
   family: entry
   pattern: What is {x}?
   question_text: What is processing data?
-- candidate_id: q0017
+- candidate_id: q0010
   relevant_topics:
   - processing data
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does processing data mean?
-- candidate_id: q0018
-  relevant_topics:
-  - processing data
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does processing data matter?
-- candidate_id: q0019
-  relevant_topics:
-  - processing data
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use processing data?
-- candidate_id: q0020
-  relevant_topics:
-  - processing data
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of processing data?
-- candidate_id: q0021
-  relevant_topics:
-  - what is data engineering?
-  - storing data
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is what is data engineering? different from storing data?
-- candidate_id: q0022
-  relevant_topics:
-  - what is data engineering?
-  - moving
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is what is data engineering? different from moving?
-- candidate_id: q0023
-  relevant_topics:
-  - what is data engineering?
-  - processing data
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is what is data engineering? different from processing data?
-- candidate_id: q0024
-  relevant_topics:
-  - storing data
-  - moving
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is storing data different from moving?
-- candidate_id: q0025
-  relevant_topics:
-  - storing data
-  - processing data
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is storing data different from processing data?
-- candidate_id: q0026
-  relevant_topics:
-  - moving
-  - processing data
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is moving different from processing data?
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does processing data work?
 question_repairs:
 - candidate_id: q0001
-  status: accepted
+  status: rejected
   original_text: What is what is data engineering??
-  final_text: What is what is data engineering??
-  reject_reason: null
+  final_text: null
+  reject_reason: malformed
 - candidate_id: q0002
   status: accepted
-  original_text: What does what is data engineering? mean?
-  final_text: What does what is data engineering? mean?
+  original_text: How does what is data engineering? work?
+  final_text: How does what is data engineering? work?
   reject_reason: null
 - candidate_id: q0003
   status: accepted
-  original_text: Why does what is data engineering? matter?
-  final_text: Why does what is data engineering? matter?
+  original_text: What is where?
+  final_text: What is where?
   reject_reason: null
 - candidate_id: q0004
-  status: repaired
-  original_text: Why do we use what is data engineering??
-  final_text: Why does what is data engineering??
+  status: accepted
+  original_text: How do you use where?
+  final_text: How do you use where?
   reject_reason: null
 - candidate_id: q0005
-  status: accepted
-  original_text: What is a simple example of what is data engineering??
-  final_text: What is a simple example of what is data engineering??
-  reject_reason: null
-- candidate_id: q0006
   status: accepted
   original_text: What is storing data?
   final_text: What is storing data?
   reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: How does storing data work?
+  final_text: How does storing data work?
+  reject_reason: null
 - candidate_id: q0007
   status: accepted
-  original_text: What does storing data mean?
-  final_text: What does storing data mean?
+  original_text: What is moving data?
+  final_text: What is moving data?
   reject_reason: null
 - candidate_id: q0008
   status: accepted
-  original_text: Why does storing data matter?
-  final_text: Why does storing data matter?
+  original_text: How does moving data work?
+  final_text: How does moving data work?
   reject_reason: null
 - candidate_id: q0009
-  status: repaired
-  original_text: Why do we use storing data?
-  final_text: Why does storing data?
-  reject_reason: null
-- candidate_id: q0010
-  status: accepted
-  original_text: What is a simple example of storing data?
-  final_text: What is a simple example of storing data?
-  reject_reason: null
-- candidate_id: q0011
-  status: accepted
-  original_text: What is moving?
-  final_text: What is moving?
-  reject_reason: null
-- candidate_id: q0012
-  status: accepted
-  original_text: What does moving mean?
-  final_text: What does moving mean?
-  reject_reason: null
-- candidate_id: q0013
-  status: accepted
-  original_text: Why does moving matter?
-  final_text: Why does moving matter?
-  reject_reason: null
-- candidate_id: q0014
-  status: repaired
-  original_text: Why do we use moving?
-  final_text: Why does moving?
-  reject_reason: null
-- candidate_id: q0015
-  status: accepted
-  original_text: What is a simple example of moving?
-  final_text: What is a simple example of moving?
-  reject_reason: null
-- candidate_id: q0016
   status: accepted
   original_text: What is processing data?
   final_text: What is processing data?
   reject_reason: null
-- candidate_id: q0017
+- candidate_id: q0010
   status: accepted
-  original_text: What does processing data mean?
-  final_text: What does processing data mean?
-  reject_reason: null
-- candidate_id: q0018
-  status: accepted
-  original_text: Why does processing data matter?
-  final_text: Why does processing data matter?
-  reject_reason: null
-- candidate_id: q0019
-  status: repaired
-  original_text: Why do we use processing data?
-  final_text: Why does processing data?
-  reject_reason: null
-- candidate_id: q0020
-  status: accepted
-  original_text: What is a simple example of processing data?
-  final_text: What is a simple example of processing data?
-  reject_reason: null
-- candidate_id: q0021
-  status: accepted
-  original_text: How is what is data engineering? different from storing data?
-  final_text: How is what is data engineering? different from storing data?
-  reject_reason: null
-- candidate_id: q0022
-  status: accepted
-  original_text: How is what is data engineering? different from moving?
-  final_text: How is what is data engineering? different from moving?
-  reject_reason: null
-- candidate_id: q0023
-  status: accepted
-  original_text: How is what is data engineering? different from processing data?
-  final_text: How is what is data engineering? different from processing data?
-  reject_reason: null
-- candidate_id: q0024
-  status: accepted
-  original_text: How is storing data different from moving?
-  final_text: How is storing data different from moving?
-  reject_reason: null
-- candidate_id: q0025
-  status: accepted
-  original_text: How is storing data different from processing data?
-  final_text: How is storing data different from processing data?
-  reject_reason: null
-- candidate_id: q0026
-  status: accepted
-  original_text: How is moving different from processing data?
-  final_text: How is moving different from processing data?
+  original_text: How does processing data work?
+  final_text: How does processing data work?
   reject_reason: null
 answers:
-- question_id: q0001
-  question_text: What is what is data engineering??
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
 - question_id: q0002
-  question_text: What does what is data engineering? mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
+  question_text: How does what is data engineering? work?
+  answer_text: What is data engineering?
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: What is data engineering?
 - question_id: q0003
-  question_text: Why does what is data engineering? matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
+  question_text: What is where?
+  answer_text: You’ll then discover where data engineering sits in
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: You’ll then discover where data engineering sits in
 - question_id: q0004
-  question_text: Why does what is data engineering??
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
+  question_text: How do you use where?
+  answer_text: You’ll then discover where data engineering sits in
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: You’ll then discover where data engineering sits in
 - question_id: q0005
-  question_text: What is a simple example of what is data engineering??
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0006
   question_text: What is storing data?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0007
-  question_text: What does storing data mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0008
-  question_text: Why does storing data matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
+  answer_text: Storing data
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: Storing data
+- question_id: q0006
+  question_text: How does storing data work?
+  answer_text: Storing data
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: Storing data
 - question_id: q0009
-  question_text: Why does storing data?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0010
-  question_text: What is a simple example of storing data?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0011
-  question_text: What is moving?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0012
-  question_text: What does moving mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0013
-  question_text: Why does moving matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0014
-  question_text: Why does moving?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0015
-  question_text: What is a simple example of moving?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0016
   question_text: What is processing data?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0017
-  question_text: What does processing data mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0018
-  question_text: Why does processing data matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0019
-  question_text: Why does processing data?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0020
-  question_text: What is a simple example of processing data?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0021
-  question_text: How is what is data engineering? different from storing data?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0022
-  question_text: How is what is data engineering? different from moving?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0023
-  question_text: How is what is data engineering? different from processing data?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0024
-  question_text: How is storing data different from moving?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0025
-  question_text: How is storing data different from processing data?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0026
-  question_text: How is moving different from processing data?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
+  answer_text: Moving and processing data
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: Moving and processing data
+- question_id: q0010
+  question_text: How does processing data work?
+  answer_text: Moving and processing data
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: Moving and processing data
 final_rows:
 - row_id: r_000001
   course:
@@ -653,12 +368,11 @@ final_rows:
   relevant_topics:
   - what is data engineering?
   question_text: What is what is data engineering??
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: entry
-  status: answered
-  reject_reason: null
+  status: rejected
+  reject_reason: malformed
   source_evidence: []
 - row_id: r_000002
   course:
@@ -666,361 +380,136 @@ final_rows:
     title: Understanding Data Engineering
   relevant_topics:
   - what is data engineering?
-  question_text: What does what is data engineering? mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does what is data engineering? work?
+  question_answer: What is data engineering?
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: overview
+    text: What is data engineering?
 - row_id: r_000003
   course:
     course_id: '24389'
     title: Understanding Data Engineering
   relevant_topics:
-  - what is data engineering?
-  question_text: Why does what is data engineering? matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
+  - where
+  question_text: What is where?
+  question_answer: You’ll then discover where data engineering sits in
+  correctness: correct
+  question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: overview
+    text: You’ll then discover where data engineering sits in
 - row_id: r_000004
   course:
     course_id: '24389'
     title: Understanding Data Engineering
   relevant_topics:
-  - what is data engineering?
-  question_text: Why does what is data engineering??
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
+  - where
+  question_text: How do you use where?
+  question_answer: You’ll then discover where data engineering sits in
+  correctness: correct
+  question_family: procedure
   status: answered
   reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: overview
+    text: You’ll then discover where data engineering sits in
 - row_id: r_000005
-  course:
-    course_id: '24389'
-    title: Understanding Data Engineering
-  relevant_topics:
-  - what is data engineering?
-  question_text: What is a simple example of what is data engineering??
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000006
   course:
     course_id: '24389'
     title: Understanding Data Engineering
   relevant_topics:
   - storing data
   question_text: What is storing data?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Storing data
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000007
+  source_evidence:
+  - source: overview
+    text: Storing data
+- row_id: r_000006
   course:
     course_id: '24389'
     title: Understanding Data Engineering
   relevant_topics:
   - storing data
-  question_text: What does storing data mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does storing data work?
+  question_answer: Storing data
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
+  source_evidence:
+  - source: overview
+    text: Storing data
+- row_id: r_000007
+  course:
+    course_id: '24389'
+    title: Understanding Data Engineering
+  relevant_topics:
+  - moving data
+  question_text: What is moving data?
+  question_answer: null
+  correctness: null
+  question_family: entry
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
 - row_id: r_000008
   course:
     course_id: '24389'
     title: Understanding Data Engineering
   relevant_topics:
-  - storing data
-  question_text: Why does storing data matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
+  - moving data
+  question_text: How does moving data work?
+  question_answer: null
+  correctness: null
+  question_family: mechanism
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
 - row_id: r_000009
   course:
     course_id: '24389'
     title: Understanding Data Engineering
   relevant_topics:
-  - storing data
-  question_text: Why does storing data?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
+  - processing data
+  question_text: What is processing data?
+  question_answer: Moving and processing data
+  correctness: correct
+  question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: overview
+    text: Moving and processing data
 - row_id: r_000010
   course:
     course_id: '24389'
     title: Understanding Data Engineering
   relevant_topics:
-  - storing data
-  question_text: What is a simple example of storing data?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000011
-  course:
-    course_id: '24389'
-    title: Understanding Data Engineering
-  relevant_topics:
-  - moving
-  question_text: What is moving?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000012
-  course:
-    course_id: '24389'
-    title: Understanding Data Engineering
-  relevant_topics:
-  - moving
-  question_text: What does moving mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000013
-  course:
-    course_id: '24389'
-    title: Understanding Data Engineering
-  relevant_topics:
-  - moving
-  question_text: Why does moving matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000014
-  course:
-    course_id: '24389'
-    title: Understanding Data Engineering
-  relevant_topics:
-  - moving
-  question_text: Why does moving?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000015
-  course:
-    course_id: '24389'
-    title: Understanding Data Engineering
-  relevant_topics:
-  - moving
-  question_text: What is a simple example of moving?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000016
-  course:
-    course_id: '24389'
-    title: Understanding Data Engineering
-  relevant_topics:
   - processing data
-  question_text: What is processing data?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does processing data work?
+  question_answer: Moving and processing data
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000017
-  course:
-    course_id: '24389'
-    title: Understanding Data Engineering
-  relevant_topics:
-  - processing data
-  question_text: What does processing data mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000018
-  course:
-    course_id: '24389'
-    title: Understanding Data Engineering
-  relevant_topics:
-  - processing data
-  question_text: Why does processing data matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000019
-  course:
-    course_id: '24389'
-    title: Understanding Data Engineering
-  relevant_topics:
-  - processing data
-  question_text: Why does processing data?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000020
-  course:
-    course_id: '24389'
-    title: Understanding Data Engineering
-  relevant_topics:
-  - processing data
-  question_text: What is a simple example of processing data?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000021
-  course:
-    course_id: '24389'
-    title: Understanding Data Engineering
-  relevant_topics:
-  - what is data engineering?
-  - storing data
-  question_text: How is what is data engineering? different from storing data?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000022
-  course:
-    course_id: '24389'
-    title: Understanding Data Engineering
-  relevant_topics:
-  - what is data engineering?
-  - moving
-  question_text: How is what is data engineering? different from moving?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000023
-  course:
-    course_id: '24389'
-    title: Understanding Data Engineering
-  relevant_topics:
-  - what is data engineering?
-  - processing data
-  question_text: How is what is data engineering? different from processing data?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000024
-  course:
-    course_id: '24389'
-    title: Understanding Data Engineering
-  relevant_topics:
-  - storing data
-  - moving
-  question_text: How is storing data different from moving?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000025
-  course:
-    course_id: '24389'
-    title: Understanding Data Engineering
-  relevant_topics:
-  - storing data
-  - processing data
-  question_text: How is storing data different from processing data?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000026
-  course:
-    course_id: '24389'
-    title: Understanding Data Engineering
-  relevant_topics:
-  - moving
-  - processing data
-  question_text: How is moving different from processing data?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: overview
+    text: Moving and processing data
 summary:
-  topic_count: 4
-  canonical_topic_count: 4
-  candidate_count: 26
-  accepted_count: 26
-  rejected_count: 0
-  correct_count: 0
-  uncertain_count: 26
+  topic_count: 5
+  canonical_topic_count: 5
+  candidate_count: 10
+  accepted_count: 9
+  rejected_count: 1
+  correct_count: 7
+  uncertain_count: 0

@@ -418,12 +418,13 @@
 {"course_id": "24663", "canonical_topic_id": "ct_004", "label": "non-standard amortization schedules", "aliases": ["non-standard amortization schedules"], "member_topic_ids": ["t004"], "topic_type": "concept"}
 {"course_id": "7630", "canonical_topic_id": "ct_001", "label": "intro to basics", "aliases": ["intro to basics"], "member_topic_ids": ["t001"], "topic_type": "concept"}
 {"course_id": "7630", "canonical_topic_id": "ct_002", "label": "vectors", "aliases": ["vectors"], "member_topic_ids": ["t002"], "topic_type": "concept"}
-{"course_id": "7630", "canonical_topic_id": "ct_003", "label": "matrices", "aliases": ["matrices"], "member_topic_ids": ["t003"], "topic_type": "concept"}
-{"course_id": "7630", "canonical_topic_id": "ct_004", "label": "factors", "aliases": ["factors"], "member_topic_ids": ["t004"], "topic_type": "concept"}
-{"course_id": "7630", "canonical_topic_id": "ct_005", "label": "data frames", "aliases": ["data frames"], "member_topic_ids": ["t005"], "topic_type": "concept"}
-{"course_id": "7630", "canonical_topic_id": "ct_006", "label": "lists", "aliases": ["lists"], "member_topic_ids": ["t006"], "topic_type": "concept"}
-{"course_id": "7630", "canonical_topic_id": "ct_007", "label": "data types", "aliases": ["data types"], "member_topic_ids": ["t007"], "topic_type": "concept"}
-{"course_id": "7630", "canonical_topic_id": "ct_008", "label": "categorical data", "aliases": ["categorical data"], "member_topic_ids": ["t008"], "topic_type": "concept"}
+{"course_id": "7630", "canonical_topic_id": "ct_003", "label": "where", "aliases": ["where"], "member_topic_ids": ["t003"], "topic_type": "tool"}
+{"course_id": "7630", "canonical_topic_id": "ct_004", "label": "matrices", "aliases": ["matrices"], "member_topic_ids": ["t004"], "topic_type": "concept"}
+{"course_id": "7630", "canonical_topic_id": "ct_005", "label": "factors", "aliases": ["factors"], "member_topic_ids": ["t005"], "topic_type": "concept"}
+{"course_id": "7630", "canonical_topic_id": "ct_006", "label": "data frames", "aliases": ["data frames"], "member_topic_ids": ["t006"], "topic_type": "concept"}
+{"course_id": "7630", "canonical_topic_id": "ct_007", "label": "lists", "aliases": ["lists"], "member_topic_ids": ["t007"], "topic_type": "concept"}
+{"course_id": "7630", "canonical_topic_id": "ct_008", "label": "data types", "aliases": ["data types"], "member_topic_ids": ["t008"], "topic_type": "concept"}
+{"course_id": "7630", "canonical_topic_id": "ct_009", "label": "categorical data", "aliases": ["categorical data"], "member_topic_ids": ["t009"], "topic_type": "concept"}
 {"course_id": "7631", "canonical_topic_id": "ct_001", "label": "master basics of data analysis with python in just four hours. this", "aliases": ["master the basics of data analysis with python in just four hours. this"], "member_topic_ids": ["t001"], "topic_type": "concept"}
 {"course_id": "7631", "canonical_topic_id": "ct_002", "label": "online course will introduce python interface", "aliases": ["online course will introduce the python interface"], "member_topic_ids": ["t002"], "topic_type": "concept"}
 {"course_id": "7631", "canonical_topic_id": "ct_003", "label": "explore popular", "aliases": ["explore popular"], "member_topic_ids": ["t003"], "topic_type": "concept"}
@@ -435,31 +436,29 @@
 {"course_id": "7631", "canonical_topic_id": "ct_009", "label": "discover python basics", "aliases": ["discover the python basics"], "member_topic_ids": ["t009"], "topic_type": "concept"}
 {"course_id": "7631", "canonical_topic_id": "ct_010", "label": "this is a python course for beginners", "aliases": ["this is a python course for beginners"], "member_topic_ids": ["t010"], "topic_type": "concept"}
 {"course_id": "7631", "canonical_topic_id": "ct_011", "label": "we designed it for people with no", "aliases": ["we designed it for people with no"], "member_topic_ids": ["t011"], "topic_type": "concept"}
-{"course_id": "24370", "canonical_topic_id": "ct_001", "label": "introduction to statistics in r", "aliases": ["introduction to statistics in r"], "member_topic_ids": ["t001"], "topic_type": "concept"}
-{"course_id": "24370", "canonical_topic_id": "ct_002", "label": "foundations of probability in r", "aliases": ["foundations of probability in r"], "member_topic_ids": ["t002"], "topic_type": "concept"}
-{"course_id": "24370", "canonical_topic_id": "ct_003", "label": "introduction to regression in r", "aliases": ["introduction to regression in r"], "member_topic_ids": ["t003"], "topic_type": "concept"}
-{"course_id": "24370", "canonical_topic_id": "ct_004", "label": "intermediate regression in r", "aliases": ["intermediate regression in r"], "member_topic_ids": ["t004"], "topic_type": "concept"}
-{"course_id": "24370", "canonical_topic_id": "ct_005", "label": "sampling in r", "aliases": ["sampling in r"], "member_topic_ids": ["t005"], "topic_type": "concept"}
-{"course_id": "24370", "canonical_topic_id": "ct_006", "label": "hypothesis testing in r", "aliases": ["hypothesis testing in r"], "member_topic_ids": ["t006"], "topic_type": "concept"}
-{"course_id": "24370", "canonical_topic_id": "ct_007", "label": "experimental design in r", "aliases": ["experimental design in r"], "member_topic_ids": ["t007"], "topic_type": "concept"}
-{"course_id": "24370", "canonical_topic_id": "ct_008", "label": "analyzing survey data in r", "aliases": ["analyzing survey data in r"], "member_topic_ids": ["t008"], "topic_type": "concept"}
-{"course_id": "24370", "canonical_topic_id": "ct_009", "label": "hierarchical", "aliases": ["hierarchical"], "member_topic_ids": ["t009"], "topic_type": "concept"}
-{"course_id": "24370", "canonical_topic_id": "ct_010", "label": "mixed effects models in r", "aliases": ["mixed effects models in r"], "member_topic_ids": ["t010"], "topic_type": "concept"}
-{"course_id": "24370", "canonical_topic_id": "ct_011", "label": "survival analysis in r", "aliases": ["survival analysis in r"], "member_topic_ids": ["t011"], "topic_type": "concept"}
-{"course_id": "24370", "canonical_topic_id": "ct_012", "label": "fundamentals of bayesian data analysis in r", "aliases": ["fundamentals of bayesian data analysis in r"], "member_topic_ids": ["t012"], "topic_type": "concept"}
-{"course_id": "24370", "canonical_topic_id": "ct_013", "label": "factor analysis in r", "aliases": ["factor analysis in r"], "member_topic_ids": ["t013"], "topic_type": "concept"}
-{"course_id": "24370", "canonical_topic_id": "ct_014", "label": "foundations of inference in r", "aliases": ["foundations of inference in r"], "member_topic_ids": ["t014"], "topic_type": "concept"}
-{"course_id": "24370", "canonical_topic_id": "ct_015", "label": "how environmental factors influence wildlife populations", "aliases": ["how environmental factors influence wildlife populations"], "member_topic_ids": ["t015"], "topic_type": "concept"}
+{"course_id": "24370", "canonical_topic_id": "ct_001", "label": "foundations of probability in r", "aliases": ["foundations of probability in r"], "member_topic_ids": ["t001"], "topic_type": "concept"}
+{"course_id": "24370", "canonical_topic_id": "ct_002", "label": "intermediate regression in r", "aliases": ["intermediate regression in r"], "member_topic_ids": ["t002"], "topic_type": "concept"}
+{"course_id": "24370", "canonical_topic_id": "ct_003", "label": "sampling in r", "aliases": ["sampling in r"], "member_topic_ids": ["t003"], "topic_type": "concept"}
+{"course_id": "24370", "canonical_topic_id": "ct_004", "label": "hypothesis testing in r", "aliases": ["hypothesis testing in r"], "member_topic_ids": ["t004"], "topic_type": "concept"}
+{"course_id": "24370", "canonical_topic_id": "ct_005", "label": "experimental design in r", "aliases": ["experimental design in r"], "member_topic_ids": ["t005"], "topic_type": "concept"}
+{"course_id": "24370", "canonical_topic_id": "ct_006", "label": "analyzing survey data in r", "aliases": ["analyzing survey data in r"], "member_topic_ids": ["t006"], "topic_type": "concept"}
+{"course_id": "24370", "canonical_topic_id": "ct_007", "label": "hierarchical effects models in r", "aliases": ["hierarchical effects models in r"], "member_topic_ids": ["t007"], "topic_type": "concept"}
+{"course_id": "24370", "canonical_topic_id": "ct_008", "label": "mixed effects models in r", "aliases": ["mixed effects models in r"], "member_topic_ids": ["t008"], "topic_type": "concept"}
+{"course_id": "24370", "canonical_topic_id": "ct_009", "label": "survival analysis in r", "aliases": ["survival analysis in r"], "member_topic_ids": ["t009"], "topic_type": "concept"}
+{"course_id": "24370", "canonical_topic_id": "ct_010", "label": "fundamentals of bayesian data analysis in r", "aliases": ["fundamentals of bayesian data analysis in r"], "member_topic_ids": ["t010"], "topic_type": "concept"}
+{"course_id": "24370", "canonical_topic_id": "ct_011", "label": "factor analysis in r", "aliases": ["factor analysis in r"], "member_topic_ids": ["t011"], "topic_type": "concept"}
+{"course_id": "24370", "canonical_topic_id": "ct_012", "label": "foundations of inference in r", "aliases": ["foundations of inference in r"], "member_topic_ids": ["t012"], "topic_type": "concept"}
+{"course_id": "24370", "canonical_topic_id": "ct_013", "label": "how environmental factors influence wildlife populations", "aliases": ["how environmental factors influence wildlife populations"], "member_topic_ids": ["t013"], "topic_type": "concept"}
 {"course_id": "24372", "canonical_topic_id": "ct_001", "label": "matplotlib", "aliases": ["matplotlib"], "member_topic_ids": ["t001"], "topic_type": "concept"}
 {"course_id": "24372", "canonical_topic_id": "ct_002", "label": "dictionaries & pandas", "aliases": ["dictionaries & pandas"], "member_topic_ids": ["t002"], "topic_type": "concept"}
 {"course_id": "24372", "canonical_topic_id": "ct_003", "label": "logic, control flow", "aliases": ["logic, control flow"], "member_topic_ids": ["t003"], "topic_type": "concept"}
 {"course_id": "24372", "canonical_topic_id": "ct_004", "label": "filtering", "aliases": ["filtering"], "member_topic_ids": ["t004"], "topic_type": "concept"}
 {"course_id": "24372", "canonical_topic_id": "ct_005", "label": "loops", "aliases": ["loops"], "member_topic_ids": ["t005"], "topic_type": "concept"}
-{"course_id": "24372", "canonical_topic_id": "ct_006", "label": "case study: hacker statistics", "aliases": ["case study: hacker statistics"], "member_topic_ids": ["t006"], "topic_type": "concept"}
 {"course_id": "24373", "canonical_topic_id": "ct_001", "label": "getting started in python", "aliases": ["getting started in python"], "member_topic_ids": ["t001"], "topic_type": "concept"}
 {"course_id": "24373", "canonical_topic_id": "ct_002", "label": "loading data in pandas", "aliases": ["loading data in pandas"], "member_topic_ids": ["t002"], "topic_type": "concept"}
 {"course_id": "24373", "canonical_topic_id": "ct_003", "label": "plotting data with matplotlib", "aliases": ["plotting data with matplotlib"], "member_topic_ids": ["t003"], "topic_type": "concept"}
 {"course_id": "24373", "canonical_topic_id": "ct_004", "label": "different types of plots", "aliases": ["different types of plots"], "member_topic_ids": ["t004"], "topic_type": "concept"}
+{"course_id": "24373", "canonical_topic_id": "ct_005", "label": "where", "aliases": ["where"], "member_topic_ids": ["t005"], "topic_type": "tool"}
 {"course_id": "24374", "canonical_topic_id": "ct_001", "label": "learn how to import", "aliases": ["learn how to import"], "member_topic_ids": ["t001"], "topic_type": "concept"}
 {"course_id": "24374", "canonical_topic_id": "ct_002", "label": "clean data, calculate statistics", "aliases": ["clean data, calculate statistics"], "member_topic_ids": ["t002"], "topic_type": "concept"}
 {"course_id": "24374", "canonical_topic_id": "ct_003", "label": "create", "aliases": ["create"], "member_topic_ids": ["t003"], "topic_type": "concept"}
@@ -480,33 +479,32 @@
 {"course_id": "24375", "canonical_topic_id": "ct_006", "label": "regression", "aliases": ["regression"], "member_topic_ids": ["t006"], "topic_type": "concept"}
 {"course_id": "24375", "canonical_topic_id": "ct_007", "label": "-in previous chapter, you used image", "aliases": ["-in the previous chapter, you used image"], "member_topic_ids": ["t007"], "topic_type": "concept"}
 {"course_id": "24375", "canonical_topic_id": "ct_008", "label": "political datasets to predict", "aliases": ["political datasets to predict"], "member_topic_ids": ["t008"], "topic_type": "concept"}
-{"course_id": "24375", "canonical_topic_id": "ct_009", "label": "binary", "aliases": ["binary"], "member_topic_ids": ["t009"], "topic_type": "concept"}
+{"course_id": "24375", "canonical_topic_id": "ct_009", "label": "binary outcomes. but what if your problem requires a", "aliases": ["binary outcomes. but what if your problem requires a"], "member_topic_ids": ["t009"], "topic_type": "concept"}
 {"course_id": "24375", "canonical_topic_id": "ct_010", "label": "multiclass outcomes. but what if your problem requires a", "aliases": ["multiclass outcomes. but what if your problem requires a"], "member_topic_ids": ["t010"], "topic_type": "concept"}
 {"course_id": "24375", "canonical_topic_id": "ct_011", "label": "continuous outcome? regression is best suited to solving such problems. you", "aliases": ["continuous outcome? regression is best suited to solving such problems. you"], "member_topic_ids": ["t011"], "topic_type": "concept"}
-{"course_id": "24376", "canonical_topic_id": "ct_001", "label": "introduction to joins", "aliases": ["introduction to joins"], "member_topic_ids": ["t001"], "topic_type": "concept"}
-{"course_id": "24376", "canonical_topic_id": "ct_002", "label": "-in this chapter, you'll be introduced to concept of joining tables, and", "aliases": ["-in this chapter, you'll be introduced to the concept of joining tables, and"], "member_topic_ids": ["t002"], "topic_type": "concept"}
-{"course_id": "24376", "canonical_topic_id": "ct_003", "label": "will explore different ways you can enrich your queries using inner", "aliases": ["will explore the different ways you can enrich your queries using inner"], "member_topic_ids": ["t003"], "topic_type": "concept"}
-{"course_id": "24376", "canonical_topic_id": "ct_004", "label": "joins", "aliases": ["joins"], "member_topic_ids": ["t004"], "topic_type": "concept"}
-{"course_id": "24376", "canonical_topic_id": "ct_005", "label": "self joins. you'll also see how to use case statement to split", "aliases": ["self joins. you'll also see how to use the case statement to split"], "member_topic_ids": ["t005"], "topic_type": "concept"}
-{"course_id": "24376", "canonical_topic_id": "ct_006", "label": "outer joins", "aliases": ["outer joins"], "member_topic_ids": ["t006"], "topic_type": "concept"}
-{"course_id": "24376", "canonical_topic_id": "ct_007", "label": "cross joins", "aliases": ["cross joins"], "member_topic_ids": ["t007"], "topic_type": "concept"}
-{"course_id": "24376", "canonical_topic_id": "ct_008", "label": "you'll learn how to gain further insights into your data through left joins,", "aliases": ["you'll learn how to gain further insights into your data through left joins,"], "member_topic_ids": ["t008"], "topic_type": "concept"}
-{"course_id": "24376", "canonical_topic_id": "ct_009", "label": "right joins", "aliases": ["right joins"], "member_topic_ids": ["t009"], "topic_type": "concept"}
-{"course_id": "24376", "canonical_topic_id": "ct_010", "label": "full joins. in addition to outer joins, you'll also work", "aliases": ["full joins. in addition to outer joins, you'll also work"], "member_topic_ids": ["t010"], "topic_type": "concept"}
-{"course_id": "24376", "canonical_topic_id": "ct_011", "label": "set theory clauses", "aliases": ["set theory clauses"], "member_topic_ids": ["t011"], "topic_type": "concept"}
-{"course_id": "24377", "canonical_topic_id": "ct_001", "label": "learn art of writing your own functions in python, as well as key", "aliases": ["learn the art of writing your own functions in python, as well as key"], "member_topic_ids": ["t001"], "topic_type": "concept"}
+{"course_id": "24376", "canonical_topic_id": "ct_001", "label": "-in this chapter, you'll be introduced to concept of joining tables, and", "aliases": ["-in this chapter, you'll be introduced to the concept of joining tables, and"], "member_topic_ids": ["t001"], "topic_type": "concept"}
+{"course_id": "24376", "canonical_topic_id": "ct_002", "label": "will explore different ways you can enrich your queries using inner", "aliases": ["will explore the different ways you can enrich your queries using inner"], "member_topic_ids": ["t002"], "topic_type": "concept"}
+{"course_id": "24376", "canonical_topic_id": "ct_003", "label": "joins joins. you'll also see how to use case statement to split", "aliases": ["joins joins. you'll also see how to use the case statement to split"], "member_topic_ids": ["t003"], "topic_type": "concept"}
+{"course_id": "24376", "canonical_topic_id": "ct_004", "label": "self joins. you'll also see how to use case statement to split", "aliases": ["self joins. you'll also see how to use the case statement to split"], "member_topic_ids": ["t004"], "topic_type": "concept"}
+{"course_id": "24376", "canonical_topic_id": "ct_005", "label": "outer joins", "aliases": ["outer joins"], "member_topic_ids": ["t005"], "topic_type": "concept"}
+{"course_id": "24376", "canonical_topic_id": "ct_006", "label": "cross joins", "aliases": ["cross joins"], "member_topic_ids": ["t006"], "topic_type": "concept"}
+{"course_id": "24376", "canonical_topic_id": "ct_007", "label": "you'll learn how to gain further insights into your data through left joins", "aliases": ["you'll learn how to gain further insights into your data through left joins"], "member_topic_ids": ["t007"], "topic_type": "concept"}
+{"course_id": "24376", "canonical_topic_id": "ct_008", "label": "right joins", "aliases": ["right joins"], "member_topic_ids": ["t008"], "topic_type": "concept"}
+{"course_id": "24376", "canonical_topic_id": "ct_009", "label": "full joins. in addition to outer joins, you'll also work", "aliases": ["full joins. in addition to outer joins, you'll also work"], "member_topic_ids": ["t009"], "topic_type": "concept"}
+{"course_id": "24376", "canonical_topic_id": "ct_010", "label": "set theory clauses", "aliases": ["set theory clauses"], "member_topic_ids": ["t010"], "topic_type": "concept"}
+{"course_id": "24377", "canonical_topic_id": "ct_001", "label": "learn art of writing your own functions in python, as well as key", "aliases": ["learn the art of writing your own functions in python, as well as key"], "member_topic_ids": ["t001"], "topic_type": "tool"}
 {"course_id": "24377", "canonical_topic_id": "ct_002", "label": "it's time to push forward", "aliases": ["it's time to push forward"], "member_topic_ids": ["t002"], "topic_type": "concept"}
 {"course_id": "24377", "canonical_topic_id": "ct_003", "label": "develop your python chops even further. python", "aliases": ["develop your python chops even further. python"], "member_topic_ids": ["t003"], "topic_type": "concept"}
-{"course_id": "24377", "canonical_topic_id": "ct_004", "label": "has tons of fantastic functions", "aliases": ["has tons of fantastic functions"], "member_topic_ids": ["t004"], "topic_type": "concept"}
+{"course_id": "24377", "canonical_topic_id": "ct_004", "label": "has tons of fantastic functions", "aliases": ["has tons of fantastic functions"], "member_topic_ids": ["t004"], "topic_type": "tool"}
 {"course_id": "24377", "canonical_topic_id": "ct_005", "label": "a module ecosystem. however, as a data", "aliases": ["a module ecosystem. however, as a data"], "member_topic_ids": ["t005"], "topic_type": "concept"}
 {"course_id": "24377", "canonical_topic_id": "ct_006", "label": "professional or developer, you'll constantly need to write your own", "aliases": ["professional or developer, you'll constantly need to write your own"], "member_topic_ids": ["t006"], "topic_type": "concept"}
-{"course_id": "24377", "canonical_topic_id": "ct_007", "label": "functions to solve problems that are dictated by your data. you will learn", "aliases": ["functions to solve problems that are dictated by your data. you will learn"], "member_topic_ids": ["t007"], "topic_type": "concept"}
-{"course_id": "24377", "canonical_topic_id": "ct_008", "label": "art of function writing in this first course. you'll come out of this", "aliases": ["the art of function writing in this first course. you'll come out of this"], "member_topic_ids": ["t008"], "topic_type": "concept"}
-{"course_id": "24377", "canonical_topic_id": "ct_009", "label": "course being able to write your very own custom functions, complete with", "aliases": ["course being able to write your very own custom functions, complete with"], "member_topic_ids": ["t009"], "topic_type": "concept"}
+{"course_id": "24377", "canonical_topic_id": "ct_007", "label": "functions to solve problems that are dictated by your data. you will learn", "aliases": ["functions to solve problems that are dictated by your data. you will learn"], "member_topic_ids": ["t007"], "topic_type": "tool"}
+{"course_id": "24377", "canonical_topic_id": "ct_008", "label": "art of function writing in this first course. you'll come out of this", "aliases": ["the art of function writing in this first course. you'll come out of this"], "member_topic_ids": ["t008"], "topic_type": "tool"}
+{"course_id": "24377", "canonical_topic_id": "ct_009", "label": "course being able to write your very own custom functions, complete with", "aliases": ["course being able to write your very own custom functions, complete with"], "member_topic_ids": ["t009"], "topic_type": "tool"}
 {"course_id": "24377", "canonical_topic_id": "ct_010", "label": "multiple parameters", "aliases": ["multiple parameters"], "member_topic_ids": ["t010"], "topic_type": "concept"}
 {"course_id": "24377", "canonical_topic_id": "ct_011", "label": "multiple return values, along with default arguments", "aliases": ["multiple return values, along with default arguments"], "member_topic_ids": ["t011"], "topic_type": "concept"}
 {"course_id": "24378", "canonical_topic_id": "ct_001", "label": "gain an introduction to machine learning concepts", "aliases": ["gain an introduction to machine learning concepts"], "member_topic_ids": ["t001"], "topic_type": "concept"}
-{"course_id": "24378", "canonical_topic_id": "ct_002", "label": "what's behind machine learning hype? in this non-technical course,", "aliases": ["what's behind the machine learning hype? in this non-technical course,"], "member_topic_ids": ["t002"], "topic_type": "concept"}
+{"course_id": "24378", "canonical_topic_id": "ct_002", "label": "what's behind machine learning hype? in this non-technical course", "aliases": ["what's behind the machine learning hype? in this non-technical course"], "member_topic_ids": ["t002"], "topic_type": "concept"}
 {"course_id": "24378", "canonical_topic_id": "ct_003", "label": "you’ll learn everything you’ve been too afraid to ask about machine", "aliases": ["you’ll learn everything you’ve been too afraid to ask about machine"], "member_topic_ids": ["t003"], "topic_type": "concept"}
 {"course_id": "24378", "canonical_topic_id": "ct_004", "label": "you will explore basic yet essential concepts to start your machine learning", "aliases": ["you will explore basic yet essential concepts to start your machine learning"], "member_topic_ids": ["t004"], "topic_type": "concept"}
 {"course_id": "24378", "canonical_topic_id": "ct_005", "label": "journey, using hands-on exercises to cement your knowledge. this includes", "aliases": ["journey, using hands-on exercises to cement your knowledge. this includes"], "member_topic_ids": ["t005"], "topic_type": "concept"}
@@ -514,21 +512,22 @@
 {"course_id": "24378", "canonical_topic_id": "ct_007", "label": "learning how this exciting", "aliases": ["learning how this exciting"], "member_topic_ids": ["t007"], "topic_type": "concept"}
 {"course_id": "24378", "canonical_topic_id": "ct_008", "label": "technology powers everything from self-driving cars to your personal amazon", "aliases": ["technology powers everything from self-driving cars to your personal amazon"], "member_topic_ids": ["t008"], "topic_type": "concept"}
 {"course_id": "24378", "canonical_topic_id": "ct_009", "label": "explore machine learning basics", "aliases": ["explore the machine learning basics"], "member_topic_ids": ["t009"], "topic_type": "concept"}
-{"course_id": "24379", "canonical_topic_id": "ct_001", "label": "introduction to data science", "aliases": ["introduction to data science"], "member_topic_ids": ["t001"], "topic_type": "concept"}
-{"course_id": "24379", "canonical_topic_id": "ct_002", "label": "data collection", "aliases": ["data collection"], "member_topic_ids": ["t002"], "topic_type": "concept"}
-{"course_id": "24379", "canonical_topic_id": "ct_003", "label": "storage", "aliases": ["storage"], "member_topic_ids": ["t003"], "topic_type": "concept"}
-{"course_id": "24379", "canonical_topic_id": "ct_004", "label": "preparation, exploration", "aliases": ["preparation, exploration"], "member_topic_ids": ["t004"], "topic_type": "concept"}
-{"course_id": "24379", "canonical_topic_id": "ct_005", "label": "visualization", "aliases": ["visualization"], "member_topic_ids": ["t005"], "topic_type": "concept"}
-{"course_id": "24379", "canonical_topic_id": "ct_006", "label": "experimentation", "aliases": ["experimentation"], "member_topic_ids": ["t006"], "topic_type": "concept"}
-{"course_id": "24379", "canonical_topic_id": "ct_007", "label": "prediction", "aliases": ["prediction"], "member_topic_ids": ["t007"], "topic_type": "concept"}
-{"course_id": "24380", "canonical_topic_id": "ct_001", "label": "conditionals", "aliases": ["conditionals"], "member_topic_ids": ["t001"], "topic_type": "concept"}
+{"course_id": "24379", "canonical_topic_id": "ct_001", "label": "data collection", "aliases": ["data collection"], "member_topic_ids": ["t001"], "topic_type": "concept"}
+{"course_id": "24379", "canonical_topic_id": "ct_002", "label": "storage", "aliases": ["storage"], "member_topic_ids": ["t002"], "topic_type": "concept"}
+{"course_id": "24379", "canonical_topic_id": "ct_003", "label": "preparation, exploration", "aliases": ["preparation, exploration"], "member_topic_ids": ["t003"], "topic_type": "concept"}
+{"course_id": "24379", "canonical_topic_id": "ct_004", "label": "visualization", "aliases": ["visualization"], "member_topic_ids": ["t004"], "topic_type": "concept"}
+{"course_id": "24379", "canonical_topic_id": "ct_005", "label": "experimentation", "aliases": ["experimentation"], "member_topic_ids": ["t005"], "topic_type": "concept"}
+{"course_id": "24379", "canonical_topic_id": "ct_006", "label": "prediction", "aliases": ["prediction"], "member_topic_ids": ["t006"], "topic_type": "concept"}
+{"course_id": "24379", "canonical_topic_id": "ct_007", "label": "where", "aliases": ["where"], "member_topic_ids": ["t007"], "topic_type": "tool"}
+{"course_id": "24380", "canonical_topic_id": "ct_001", "label": "conditionals flow", "aliases": ["conditionals flow"], "member_topic_ids": ["t001"], "topic_type": "concept"}
 {"course_id": "24380", "canonical_topic_id": "ct_002", "label": "control flow", "aliases": ["control flow"], "member_topic_ids": ["t002"], "topic_type": "concept"}
 {"course_id": "24380", "canonical_topic_id": "ct_003", "label": "loops", "aliases": ["loops"], "member_topic_ids": ["t003"], "topic_type": "concept"}
-{"course_id": "24380", "canonical_topic_id": "ct_004", "label": "functions", "aliases": ["functions"], "member_topic_ids": ["t004"], "topic_type": "concept"}
+{"course_id": "24380", "canonical_topic_id": "ct_004", "label": "functions", "aliases": ["functions"], "member_topic_ids": ["t004"], "topic_type": "tool"}
 {"course_id": "24380", "canonical_topic_id": "ct_005", "label": "apply family", "aliases": ["the apply family"], "member_topic_ids": ["t005"], "topic_type": "concept"}
 {"course_id": "24380", "canonical_topic_id": "ct_006", "label": "utilities", "aliases": ["utilities"], "member_topic_ids": ["t006"], "topic_type": "concept"}
+{"course_id": "24380", "canonical_topic_id": "ct_007", "label": "having", "aliases": ["having"], "member_topic_ids": ["t007"], "topic_type": "tool"}
 {"course_id": "24381", "canonical_topic_id": "ct_001", "label": "getting started with tableau", "aliases": ["getting started with tableau"], "member_topic_ids": ["t001"], "topic_type": "concept"}
-{"course_id": "24381", "canonical_topic_id": "ct_002", "label": "building", "aliases": ["building"], "member_topic_ids": ["t002"], "topic_type": "concept"}
+{"course_id": "24381", "canonical_topic_id": "ct_002", "label": "building visualizations", "aliases": ["building visualizations"], "member_topic_ids": ["t002"], "topic_type": "concept"}
 {"course_id": "24381", "canonical_topic_id": "ct_003", "label": "customizing visualizations", "aliases": ["customizing visualizations"], "member_topic_ids": ["t003"], "topic_type": "concept"}
 {"course_id": "24381", "canonical_topic_id": "ct_004", "label": "digging deeper", "aliases": ["digging deeper"], "member_topic_ids": ["t004"], "topic_type": "concept"}
 {"course_id": "24381", "canonical_topic_id": "ct_005", "label": "presenting your data", "aliases": ["presenting your data"], "member_topic_ids": ["t005"], "topic_type": "concept"}
@@ -546,14 +545,16 @@
 {"course_id": "24388", "canonical_topic_id": "ct_001", "label": "selection box", "aliases": ["selection box"], "member_topic_ids": ["t001"], "topic_type": "concept"}
 {"course_id": "24388", "canonical_topic_id": "ct_002", "label": "groups, strings", "aliases": ["groups, strings"], "member_topic_ids": ["t002"], "topic_type": "concept"}
 {"course_id": "24388", "canonical_topic_id": "ct_003", "label": "counting things", "aliases": ["counting things"], "member_topic_ids": ["t003"], "topic_type": "concept"}
-{"course_id": "24388", "canonical_topic_id": "ct_004", "label": "joining tables", "aliases": ["joining tables"], "member_topic_ids": ["t004"], "topic_type": "concept"}
-{"course_id": "24388", "canonical_topic_id": "ct_005", "label": "you've got power", "aliases": ["you've got the power"], "member_topic_ids": ["t005"], "topic_type": "concept"}
-{"course_id": "24388", "canonical_topic_id": "ct_006", "label": "strings", "aliases": ["strings"], "member_topic_ids": ["t006"], "topic_type": "concept"}
-{"course_id": "24388", "canonical_topic_id": "ct_007", "label": "text data", "aliases": ["text data"], "member_topic_ids": ["t007"], "topic_type": "concept"}
+{"course_id": "24388", "canonical_topic_id": "ct_004", "label": "having", "aliases": ["having"], "member_topic_ids": ["t004"], "topic_type": "tool"}
+{"course_id": "24388", "canonical_topic_id": "ct_005", "label": "joining tables", "aliases": ["joining tables"], "member_topic_ids": ["t005"], "topic_type": "concept"}
+{"course_id": "24388", "canonical_topic_id": "ct_006", "label": "you've got power", "aliases": ["you've got the power"], "member_topic_ids": ["t006"], "topic_type": "concept"}
+{"course_id": "24388", "canonical_topic_id": "ct_007", "label": "strings", "aliases": ["strings"], "member_topic_ids": ["t007"], "topic_type": "concept"}
+{"course_id": "24388", "canonical_topic_id": "ct_008", "label": "text data", "aliases": ["text data"], "member_topic_ids": ["t008"], "topic_type": "concept"}
 {"course_id": "24389", "canonical_topic_id": "ct_001", "label": "what is data engineering?", "aliases": ["what is data engineering?"], "member_topic_ids": ["t001"], "topic_type": "concept"}
-{"course_id": "24389", "canonical_topic_id": "ct_002", "label": "storing data", "aliases": ["storing data"], "member_topic_ids": ["t002"], "topic_type": "concept"}
-{"course_id": "24389", "canonical_topic_id": "ct_003", "label": "moving", "aliases": ["moving"], "member_topic_ids": ["t003"], "topic_type": "concept"}
-{"course_id": "24389", "canonical_topic_id": "ct_004", "label": "processing data", "aliases": ["processing data"], "member_topic_ids": ["t004"], "topic_type": "concept"}
+{"course_id": "24389", "canonical_topic_id": "ct_002", "label": "where", "aliases": ["where"], "member_topic_ids": ["t002"], "topic_type": "tool"}
+{"course_id": "24389", "canonical_topic_id": "ct_003", "label": "storing data", "aliases": ["storing data"], "member_topic_ids": ["t003"], "topic_type": "concept"}
+{"course_id": "24389", "canonical_topic_id": "ct_004", "label": "moving data", "aliases": ["moving data"], "member_topic_ids": ["t004"], "topic_type": "concept"}
+{"course_id": "24389", "canonical_topic_id": "ct_005", "label": "processing data", "aliases": ["processing data"], "member_topic_ids": ["t005"], "topic_type": "concept"}
 {"course_id": "24391", "canonical_topic_id": "ct_001", "label": "preparing for analysis", "aliases": ["preparing for analysis"], "member_topic_ids": ["t001"], "topic_type": "concept"}
 {"course_id": "24391", "canonical_topic_id": "ct_002", "label": "exploring visualizations", "aliases": ["exploring visualizations"], "member_topic_ids": ["t002"], "topic_type": "concept"}
 {"course_id": "24391", "canonical_topic_id": "ct_003", "label": "mapping analysis", "aliases": ["mapping analysis"], "member_topic_ids": ["t003"], "topic_type": "concept"}
@@ -564,7 +565,7 @@
 {"course_id": "24392", "canonical_topic_id": "ct_003", "label": "thinking probabilistically-- discrete variables", "aliases": ["thinking probabilistically-- discrete variables"], "member_topic_ids": ["t003"], "topic_type": "concept"}
 {"course_id": "24392", "canonical_topic_id": "ct_004", "label": "thinking probabilistically-- continuous variables", "aliases": ["thinking probabilistically-- continuous variables"], "member_topic_ids": ["t004"], "topic_type": "concept"}
 {"course_id": "24393", "canonical_topic_id": "ct_001", "label": "foundations for efficiencies", "aliases": ["foundations for efficiencies"], "member_topic_ids": ["t001"], "topic_type": "concept"}
-{"course_id": "24393", "canonical_topic_id": "ct_002", "label": "timing", "aliases": ["timing"], "member_topic_ids": ["t002"], "topic_type": "concept"}
+{"course_id": "24393", "canonical_topic_id": "ct_002", "label": "timing code", "aliases": ["timing code"], "member_topic_ids": ["t002"], "topic_type": "concept"}
 {"course_id": "24393", "canonical_topic_id": "ct_003", "label": "profiling code", "aliases": ["profiling code"], "member_topic_ids": ["t003"], "topic_type": "concept"}
 {"course_id": "24393", "canonical_topic_id": "ct_004", "label": "gaining efficiencies", "aliases": ["gaining efficiencies"], "member_topic_ids": ["t004"], "topic_type": "concept"}
 {"course_id": "24393", "canonical_topic_id": "ct_005", "label": "basic pandas optimizations", "aliases": ["basic pandas optimizations"], "member_topic_ids": ["t005"], "topic_type": "concept"}
@@ -573,5 +574,6 @@
 {"course_id": "24394", "canonical_topic_id": "ct_003", "label": "uniquely identify records with key constraints", "aliases": ["uniquely identify records with key constraints"], "member_topic_ids": ["t003"], "topic_type": "concept"}
 {"course_id": "24394", "canonical_topic_id": "ct_004", "label": "glue together tables with foreign keys", "aliases": ["glue together tables with foreign keys"], "member_topic_ids": ["t004"], "topic_type": "concept"}
 {"course_id": "24395", "canonical_topic_id": "ct_001", "label": "aesthetics", "aliases": ["aesthetics"], "member_topic_ids": ["t001"], "topic_type": "concept"}
-{"course_id": "24395", "canonical_topic_id": "ct_002", "label": "geometries", "aliases": ["geometries"], "member_topic_ids": ["t002"], "topic_type": "concept"}
-{"course_id": "24395", "canonical_topic_id": "ct_003", "label": "themes", "aliases": ["themes"], "member_topic_ids": ["t003"], "topic_type": "concept"}
+{"course_id": "24395", "canonical_topic_id": "ct_002", "label": "where", "aliases": ["where"], "member_topic_ids": ["t002"], "topic_type": "tool"}
+{"course_id": "24395", "canonical_topic_id": "ct_003", "label": "geometries", "aliases": ["geometries"], "member_topic_ids": ["t003"], "topic_type": "concept"}
+{"course_id": "24395", "canonical_topic_id": "ct_004", "label": "themes", "aliases": ["themes"], "member_topic_ids": ["t004"], "topic_type": "concept"}

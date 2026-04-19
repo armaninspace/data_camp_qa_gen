@@ -128,38 +128,37 @@ extracted_topics:
 - topic_id: t001
   label: your first database
   topic_type: concept
-  description: 'Topic inferred from chapter heading: your first database'
+  description: 'Topic extracted from syllabus: your first database'
   evidence:
   - source: syllabus
     text: Your first database
-  confidence: 0.45
+  confidence: 0.55
 - topic_id: t002
   label: enforce data consistency with attribute constraints
   topic_type: concept
-  description: 'Topic inferred from chapter heading: enforce data consistency with
-    attribute constraints'
+  description: 'Topic extracted from syllabus: enforce data consistency with attribute
+    constraints'
   evidence:
   - source: syllabus
     text: Enforce data consistency with attribute constraints
-  confidence: 0.45
+  confidence: 0.55
 - topic_id: t003
   label: uniquely identify records with key constraints
   topic_type: concept
-  description: 'Topic inferred from chapter heading: uniquely identify records with
-    key constraints'
+  description: 'Topic extracted from syllabus: uniquely identify records with key
+    constraints'
   evidence:
   - source: syllabus
     text: Uniquely identify records with key constraints
-  confidence: 0.45
+  confidence: 0.55
 - topic_id: t004
   label: glue together tables with foreign keys
   topic_type: concept
-  description: 'Topic inferred from chapter heading: glue together tables with foreign
-    keys'
+  description: 'Topic extracted from syllabus: glue together tables with foreign keys'
   evidence:
   - source: syllabus
     text: Glue together tables with foreign keys
-  confidence: 0.45
+  confidence: 0.55
 canonical_topics:
 - canonical_topic_id: ct_001
   label: your first database
@@ -199,143 +198,46 @@ question_candidates:
 - candidate_id: q0002
   relevant_topics:
   - your first database
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does your first database mean?
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does your first database work?
 - candidate_id: q0003
-  relevant_topics:
-  - your first database
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does your first database matter?
-- candidate_id: q0004
-  relevant_topics:
-  - your first database
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use your first database?
-- candidate_id: q0005
-  relevant_topics:
-  - your first database
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of your first database?
-- candidate_id: q0006
   relevant_topics:
   - enforce data consistency with attribute constraints
   family: entry
   pattern: What is {x}?
   question_text: What is enforce data consistency with attribute constraints?
-- candidate_id: q0007
+- candidate_id: q0004
   relevant_topics:
   - enforce data consistency with attribute constraints
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does enforce data consistency with attribute constraints mean?
-- candidate_id: q0008
-  relevant_topics:
-  - enforce data consistency with attribute constraints
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does enforce data consistency with attribute constraints matter?
-- candidate_id: q0009
-  relevant_topics:
-  - enforce data consistency with attribute constraints
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use enforce data consistency with attribute constraints?
-- candidate_id: q0010
-  relevant_topics:
-  - enforce data consistency with attribute constraints
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of enforce data consistency with attribute
-    constraints?
-- candidate_id: q0011
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does enforce data consistency with attribute constraints work?
+- candidate_id: q0005
   relevant_topics:
   - uniquely identify records with key constraints
   family: entry
   pattern: What is {x}?
   question_text: What is uniquely identify records with key constraints?
-- candidate_id: q0012
+- candidate_id: q0006
   relevant_topics:
   - uniquely identify records with key constraints
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does uniquely identify records with key constraints mean?
-- candidate_id: q0013
-  relevant_topics:
-  - uniquely identify records with key constraints
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does uniquely identify records with key constraints matter?
-- candidate_id: q0014
-  relevant_topics:
-  - uniquely identify records with key constraints
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use uniquely identify records with key constraints?
-- candidate_id: q0015
-  relevant_topics:
-  - uniquely identify records with key constraints
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of uniquely identify records with key constraints?
-- candidate_id: q0016
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does uniquely identify records with key constraints work?
+- candidate_id: q0007
   relevant_topics:
   - glue together tables with foreign keys
   family: entry
   pattern: What is {x}?
   question_text: What is glue together tables with foreign keys?
-- candidate_id: q0017
+- candidate_id: q0008
   relevant_topics:
   - glue together tables with foreign keys
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does glue together tables with foreign keys mean?
-- candidate_id: q0018
-  relevant_topics:
-  - glue together tables with foreign keys
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does glue together tables with foreign keys matter?
-- candidate_id: q0019
-  relevant_topics:
-  - glue together tables with foreign keys
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use glue together tables with foreign keys?
-- candidate_id: q0020
-  relevant_topics:
-  - glue together tables with foreign keys
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of glue together tables with foreign keys?
-- candidate_id: q0021
-  relevant_topics:
-  - your first database
-  - enforce data consistency with attribute constraints
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is your first database different from enforce data consistency
-    with attribute constraints?
-- candidate_id: q0022
-  relevant_topics:
-  - your first database
-  - uniquely identify records with key constraints
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is your first database different from uniquely identify records
-    with key constraints?
-- candidate_id: q0023
-  relevant_topics:
-  - your first database
-  - glue together tables with foreign keys
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is your first database different from glue together tables with
-    foreign keys?
-- candidate_id: q0024
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does glue together tables with foreign keys work?
+- candidate_id: q0009
   relevant_topics:
   - enforce data consistency with attribute constraints
   - uniquely identify records with key constraints
@@ -343,7 +245,7 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is enforce data consistency with attribute constraints different
     from uniquely identify records with key constraints?
-- candidate_id: q0025
+- candidate_id: q0010
   relevant_topics:
   - enforce data consistency with attribute constraints
   - glue together tables with foreign keys
@@ -351,7 +253,7 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is enforce data consistency with attribute constraints different
     from glue together tables with foreign keys?
-- candidate_id: q0026
+- candidate_id: q0011
   relevant_topics:
   - uniquely identify records with key constraints
   - glue together tables with foreign keys
@@ -367,137 +269,54 @@ question_repairs:
   reject_reason: null
 - candidate_id: q0002
   status: accepted
-  original_text: What does your first database mean?
-  final_text: What does your first database mean?
+  original_text: How does your first database work?
+  final_text: How does your first database work?
   reject_reason: null
 - candidate_id: q0003
-  status: accepted
-  original_text: Why does your first database matter?
-  final_text: Why does your first database matter?
-  reject_reason: null
-- candidate_id: q0004
-  status: repaired
-  original_text: Why do we use your first database?
-  final_text: Why does your first database?
-  reject_reason: null
-- candidate_id: q0005
-  status: accepted
-  original_text: What is a simple example of your first database?
-  final_text: What is a simple example of your first database?
-  reject_reason: null
-- candidate_id: q0006
   status: accepted
   original_text: What is enforce data consistency with attribute constraints?
   final_text: What is enforce data consistency with attribute constraints?
   reject_reason: null
-- candidate_id: q0007
+- candidate_id: q0004
   status: accepted
-  original_text: What does enforce data consistency with attribute constraints mean?
-  final_text: What does enforce data consistency with attribute constraints mean?
+  original_text: How does enforce data consistency with attribute constraints work?
+  final_text: How does enforce data consistency with attribute constraints work?
   reject_reason: null
-- candidate_id: q0008
-  status: accepted
-  original_text: Why does enforce data consistency with attribute constraints matter?
-  final_text: Why does enforce data consistency with attribute constraints matter?
-  reject_reason: null
-- candidate_id: q0009
-  status: repaired
-  original_text: Why do we use enforce data consistency with attribute constraints?
-  final_text: Why does enforce data consistency with attribute constraints?
-  reject_reason: null
-- candidate_id: q0010
-  status: accepted
-  original_text: What is a simple example of enforce data consistency with attribute
-    constraints?
-  final_text: What is a simple example of enforce data consistency with attribute
-    constraints?
-  reject_reason: null
-- candidate_id: q0011
+- candidate_id: q0005
   status: accepted
   original_text: What is uniquely identify records with key constraints?
   final_text: What is uniquely identify records with key constraints?
   reject_reason: null
-- candidate_id: q0012
+- candidate_id: q0006
   status: accepted
-  original_text: What does uniquely identify records with key constraints mean?
-  final_text: What does uniquely identify records with key constraints mean?
+  original_text: How does uniquely identify records with key constraints work?
+  final_text: How does uniquely identify records with key constraints work?
   reject_reason: null
-- candidate_id: q0013
-  status: accepted
-  original_text: Why does uniquely identify records with key constraints matter?
-  final_text: Why does uniquely identify records with key constraints matter?
-  reject_reason: null
-- candidate_id: q0014
-  status: repaired
-  original_text: Why do we use uniquely identify records with key constraints?
-  final_text: Why does uniquely identify records with key constraints?
-  reject_reason: null
-- candidate_id: q0015
-  status: accepted
-  original_text: What is a simple example of uniquely identify records with key constraints?
-  final_text: What is a simple example of uniquely identify records with key constraints?
-  reject_reason: null
-- candidate_id: q0016
+- candidate_id: q0007
   status: accepted
   original_text: What is glue together tables with foreign keys?
   final_text: What is glue together tables with foreign keys?
   reject_reason: null
-- candidate_id: q0017
+- candidate_id: q0008
   status: accepted
-  original_text: What does glue together tables with foreign keys mean?
-  final_text: What does glue together tables with foreign keys mean?
+  original_text: How does glue together tables with foreign keys work?
+  final_text: How does glue together tables with foreign keys work?
   reject_reason: null
-- candidate_id: q0018
-  status: accepted
-  original_text: Why does glue together tables with foreign keys matter?
-  final_text: Why does glue together tables with foreign keys matter?
-  reject_reason: null
-- candidate_id: q0019
-  status: repaired
-  original_text: Why do we use glue together tables with foreign keys?
-  final_text: Why does glue together tables with foreign keys?
-  reject_reason: null
-- candidate_id: q0020
-  status: accepted
-  original_text: What is a simple example of glue together tables with foreign keys?
-  final_text: What is a simple example of glue together tables with foreign keys?
-  reject_reason: null
-- candidate_id: q0021
-  status: accepted
-  original_text: How is your first database different from enforce data consistency
-    with attribute constraints?
-  final_text: How is your first database different from enforce data consistency with
-    attribute constraints?
-  reject_reason: null
-- candidate_id: q0022
-  status: accepted
-  original_text: How is your first database different from uniquely identify records
-    with key constraints?
-  final_text: How is your first database different from uniquely identify records
-    with key constraints?
-  reject_reason: null
-- candidate_id: q0023
-  status: accepted
-  original_text: How is your first database different from glue together tables with
-    foreign keys?
-  final_text: How is your first database different from glue together tables with
-    foreign keys?
-  reject_reason: null
-- candidate_id: q0024
+- candidate_id: q0009
   status: accepted
   original_text: How is enforce data consistency with attribute constraints different
     from uniquely identify records with key constraints?
   final_text: How is enforce data consistency with attribute constraints different
     from uniquely identify records with key constraints?
   reject_reason: null
-- candidate_id: q0025
+- candidate_id: q0010
   status: accepted
   original_text: How is enforce data consistency with attribute constraints different
     from glue together tables with foreign keys?
   final_text: How is enforce data consistency with attribute constraints different
     from glue together tables with foreign keys?
   reject_reason: null
-- candidate_id: q0026
+- candidate_id: q0011
   status: accepted
   original_text: How is uniquely identify records with key constraints different from
     glue together tables with foreign keys?
@@ -507,193 +326,68 @@ question_repairs:
 answers:
 - question_id: q0001
   question_text: What is your first database?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
+  answer_text: Create Your First Database
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: Create Your First Database
 - question_id: q0002
-  question_text: What does your first database mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
+  question_text: How does your first database work?
+  answer_text: Create Your First Database
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: Create Your First Database
 - question_id: q0003
-  question_text: Why does your first database matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0004
-  question_text: Why does your first database?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0005
-  question_text: What is a simple example of your first database?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0006
   question_text: What is enforce data consistency with attribute constraints?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0007
-  question_text: What does enforce data consistency with attribute constraints mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0008
-  question_text: Why does enforce data consistency with attribute constraints matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0009
-  question_text: Why does enforce data consistency with attribute constraints?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0010
-  question_text: What is a simple example of enforce data consistency with attribute
-    constraints?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0011
+  answer_text: Enforce data consistency with attribute constraints
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Enforce data consistency with attribute constraints
+- question_id: q0004
+  question_text: How does enforce data consistency with attribute constraints work?
+  answer_text: Enforce data consistency with attribute constraints
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Enforce data consistency with attribute constraints
+- question_id: q0005
   question_text: What is uniquely identify records with key constraints?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0012
-  question_text: What does uniquely identify records with key constraints mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0013
-  question_text: Why does uniquely identify records with key constraints matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0014
-  question_text: Why does uniquely identify records with key constraints?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0015
-  question_text: What is a simple example of uniquely identify records with key constraints?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0016
+  answer_text: Uniquely identify records with key constraints
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Uniquely identify records with key constraints
+- question_id: q0006
+  question_text: How does uniquely identify records with key constraints work?
+  answer_text: Uniquely identify records with key constraints
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Uniquely identify records with key constraints
+- question_id: q0007
   question_text: What is glue together tables with foreign keys?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0017
-  question_text: What does glue together tables with foreign keys mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0018
-  question_text: Why does glue together tables with foreign keys matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0019
-  question_text: Why does glue together tables with foreign keys?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0020
-  question_text: What is a simple example of glue together tables with foreign keys?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0021
-  question_text: How is your first database different from enforce data consistency
-    with attribute constraints?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0022
-  question_text: How is your first database different from uniquely identify records
-    with key constraints?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0023
-  question_text: How is your first database different from glue together tables with
-    foreign keys?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0024
-  question_text: How is enforce data consistency with attribute constraints different
-    from uniquely identify records with key constraints?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0025
-  question_text: How is enforce data consistency with attribute constraints different
-    from glue together tables with foreign keys?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0026
-  question_text: How is uniquely identify records with key constraints different from
-    glue together tables with foreign keys?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
+  answer_text: Glue together tables with foreign keys
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Glue together tables with foreign keys
+- question_id: q0008
+  question_text: How does glue together tables with foreign keys work?
+  answer_text: Glue together tables with foreign keys
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Glue together tables with foreign keys
 final_rows:
 - row_id: r_000001
   course:
@@ -702,329 +396,120 @@ final_rows:
   relevant_topics:
   - your first database
   question_text: What is your first database?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Create Your First Database
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: overview
+    text: Create Your First Database
 - row_id: r_000002
   course:
     course_id: '24394'
     title: Introduction to Relational Databases in SQL
   relevant_topics:
   - your first database
-  question_text: What does your first database mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does your first database work?
+  question_answer: Create Your First Database
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: overview
+    text: Create Your First Database
 - row_id: r_000003
-  course:
-    course_id: '24394'
-    title: Introduction to Relational Databases in SQL
-  relevant_topics:
-  - your first database
-  question_text: Why does your first database matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000004
-  course:
-    course_id: '24394'
-    title: Introduction to Relational Databases in SQL
-  relevant_topics:
-  - your first database
-  question_text: Why does your first database?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000005
-  course:
-    course_id: '24394'
-    title: Introduction to Relational Databases in SQL
-  relevant_topics:
-  - your first database
-  question_text: What is a simple example of your first database?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000006
   course:
     course_id: '24394'
     title: Introduction to Relational Databases in SQL
   relevant_topics:
   - enforce data consistency with attribute constraints
   question_text: What is enforce data consistency with attribute constraints?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Enforce data consistency with attribute constraints
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000007
+  source_evidence:
+  - source: syllabus
+    text: Enforce data consistency with attribute constraints
+- row_id: r_000004
   course:
     course_id: '24394'
     title: Introduction to Relational Databases in SQL
   relevant_topics:
   - enforce data consistency with attribute constraints
-  question_text: What does enforce data consistency with attribute constraints mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does enforce data consistency with attribute constraints work?
+  question_answer: Enforce data consistency with attribute constraints
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000008
-  course:
-    course_id: '24394'
-    title: Introduction to Relational Databases in SQL
-  relevant_topics:
-  - enforce data consistency with attribute constraints
-  question_text: Why does enforce data consistency with attribute constraints matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000009
-  course:
-    course_id: '24394'
-    title: Introduction to Relational Databases in SQL
-  relevant_topics:
-  - enforce data consistency with attribute constraints
-  question_text: Why does enforce data consistency with attribute constraints?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000010
-  course:
-    course_id: '24394'
-    title: Introduction to Relational Databases in SQL
-  relevant_topics:
-  - enforce data consistency with attribute constraints
-  question_text: What is a simple example of enforce data consistency with attribute
-    constraints?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000011
+  source_evidence:
+  - source: syllabus
+    text: Enforce data consistency with attribute constraints
+- row_id: r_000005
   course:
     course_id: '24394'
     title: Introduction to Relational Databases in SQL
   relevant_topics:
   - uniquely identify records with key constraints
   question_text: What is uniquely identify records with key constraints?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Uniquely identify records with key constraints
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000012
+  source_evidence:
+  - source: syllabus
+    text: Uniquely identify records with key constraints
+- row_id: r_000006
   course:
     course_id: '24394'
     title: Introduction to Relational Databases in SQL
   relevant_topics:
   - uniquely identify records with key constraints
-  question_text: What does uniquely identify records with key constraints mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does uniquely identify records with key constraints work?
+  question_answer: Uniquely identify records with key constraints
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000013
-  course:
-    course_id: '24394'
-    title: Introduction to Relational Databases in SQL
-  relevant_topics:
-  - uniquely identify records with key constraints
-  question_text: Why does uniquely identify records with key constraints matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000014
-  course:
-    course_id: '24394'
-    title: Introduction to Relational Databases in SQL
-  relevant_topics:
-  - uniquely identify records with key constraints
-  question_text: Why does uniquely identify records with key constraints?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000015
-  course:
-    course_id: '24394'
-    title: Introduction to Relational Databases in SQL
-  relevant_topics:
-  - uniquely identify records with key constraints
-  question_text: What is a simple example of uniquely identify records with key constraints?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000016
+  source_evidence:
+  - source: syllabus
+    text: Uniquely identify records with key constraints
+- row_id: r_000007
   course:
     course_id: '24394'
     title: Introduction to Relational Databases in SQL
   relevant_topics:
   - glue together tables with foreign keys
   question_text: What is glue together tables with foreign keys?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Glue together tables with foreign keys
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000017
+  source_evidence:
+  - source: syllabus
+    text: Glue together tables with foreign keys
+- row_id: r_000008
   course:
     course_id: '24394'
     title: Introduction to Relational Databases in SQL
   relevant_topics:
   - glue together tables with foreign keys
-  question_text: What does glue together tables with foreign keys mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does glue together tables with foreign keys work?
+  question_answer: Glue together tables with foreign keys
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000018
-  course:
-    course_id: '24394'
-    title: Introduction to Relational Databases in SQL
-  relevant_topics:
-  - glue together tables with foreign keys
-  question_text: Why does glue together tables with foreign keys matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000019
-  course:
-    course_id: '24394'
-    title: Introduction to Relational Databases in SQL
-  relevant_topics:
-  - glue together tables with foreign keys
-  question_text: Why does glue together tables with foreign keys?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000020
-  course:
-    course_id: '24394'
-    title: Introduction to Relational Databases in SQL
-  relevant_topics:
-  - glue together tables with foreign keys
-  question_text: What is a simple example of glue together tables with foreign keys?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000021
-  course:
-    course_id: '24394'
-    title: Introduction to Relational Databases in SQL
-  relevant_topics:
-  - your first database
-  - enforce data consistency with attribute constraints
-  question_text: How is your first database different from enforce data consistency
-    with attribute constraints?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000022
-  course:
-    course_id: '24394'
-    title: Introduction to Relational Databases in SQL
-  relevant_topics:
-  - your first database
-  - uniquely identify records with key constraints
-  question_text: How is your first database different from uniquely identify records
-    with key constraints?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000023
-  course:
-    course_id: '24394'
-    title: Introduction to Relational Databases in SQL
-  relevant_topics:
-  - your first database
-  - glue together tables with foreign keys
-  question_text: How is your first database different from glue together tables with
-    foreign keys?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000024
+  source_evidence:
+  - source: syllabus
+    text: Glue together tables with foreign keys
+- row_id: r_000009
   course:
     course_id: '24394'
     title: Introduction to Relational Databases in SQL
@@ -1033,14 +518,13 @@ final_rows:
   - uniquely identify records with key constraints
   question_text: How is enforce data consistency with attribute constraints different
     from uniquely identify records with key constraints?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000025
+- row_id: r_000010
   course:
     course_id: '24394'
     title: Introduction to Relational Databases in SQL
@@ -1049,14 +533,13 @@ final_rows:
   - glue together tables with foreign keys
   question_text: How is enforce data consistency with attribute constraints different
     from glue together tables with foreign keys?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000026
+- row_id: r_000011
   course:
     course_id: '24394'
     title: Introduction to Relational Databases in SQL
@@ -1065,18 +548,17 @@ final_rows:
   - glue together tables with foreign keys
   question_text: How is uniquely identify records with key constraints different from
     glue together tables with foreign keys?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
 summary:
   topic_count: 4
   canonical_topic_count: 4
-  candidate_count: 26
-  accepted_count: 26
+  candidate_count: 11
+  accepted_count: 11
   rejected_count: 0
-  correct_count: 0
-  uncertain_count: 26
+  correct_count: 8
+  uncertain_count: 0

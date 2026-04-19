@@ -113,58 +113,74 @@ normalized_course:
     final_url: true
 extracted_topics:
 - topic_id: t001
-  label: conditionals
+  label: conditionals flow
   topic_type: concept
-  description: 'Topic inferred from chapter heading: conditionals'
+  description: 'Topic extracted from syllabus: conditionals flow'
   evidence:
   - source: syllabus
     text: Conditionals and Control Flow
-  confidence: 0.55
+  confidence: 0.75
 - topic_id: t002
   label: control flow
   topic_type: concept
-  description: 'Topic inferred from chapter heading: control flow'
+  description: 'Topic extracted from syllabus: control flow'
   evidence:
   - source: syllabus
     text: Conditionals and Control Flow
-  confidence: 0.55
+  confidence: 0.75
 - topic_id: t003
   label: loops
   topic_type: concept
-  description: 'Topic inferred from chapter heading: loops'
+  description: 'Topic extracted from syllabus: loops'
   evidence:
   - source: syllabus
     text: Loops
-  confidence: 0.45
+  confidence: 0.55
 - topic_id: t004
   label: functions
-  topic_type: concept
-  description: 'Topic inferred from chapter heading: functions'
+  topic_type: tool
+  description: 'Topic extracted from syllabus: functions'
   evidence:
   - source: syllabus
     text: Functions
-  confidence: 0.45
+  confidence: 0.55
 - topic_id: t005
   label: the apply family
   topic_type: concept
-  description: 'Topic inferred from chapter heading: the apply family'
+  description: 'Topic extracted from syllabus: the apply family'
   evidence:
   - source: syllabus
     text: The apply family
-  confidence: 0.45
+  confidence: 0.55
 - topic_id: t006
   label: utilities
   topic_type: concept
-  description: 'Topic inferred from chapter heading: utilities'
+  description: 'Topic extracted from syllabus: utilities'
   evidence:
   - source: syllabus
     text: Utilities
-  confidence: 0.45
+  confidence: 0.55
+- topic_id: t007
+  label: having
+  topic_type: tool
+  description: 'Topic extracted from syllabus: having'
+  evidence:
+  - source: syllabus
+    text: 'Mastering R programming is not only about understanding its
+
+      programming concepts. Having a solid understanding of a wide range
+
+      of R functions is also important. This chapter introduces you to
+
+      many useful functions for data structure manipulation, regular
+
+      expressions, and working with times and dates.'
+  confidence: 0.8
 canonical_topics:
 - canonical_topic_id: ct_001
-  label: conditionals
+  label: conditionals flow
   aliases:
-  - conditionals
+  - conditionals flow
   member_topic_ids:
   - t001
   topic_type: concept
@@ -188,7 +204,7 @@ canonical_topics:
   - functions
   member_topic_ids:
   - t004
-  topic_type: concept
+  topic_type: tool
 - canonical_topic_id: ct_005
   label: apply family
   aliases:
@@ -203,1485 +219,508 @@ canonical_topics:
   member_topic_ids:
   - t006
   topic_type: concept
+- canonical_topic_id: ct_007
+  label: having
+  aliases:
+  - having
+  member_topic_ids:
+  - t007
+  topic_type: tool
 question_candidates:
 - candidate_id: q0001
   relevant_topics:
-  - conditionals
+  - conditionals flow
   family: entry
   pattern: What is {x}?
-  question_text: What is conditionals?
+  question_text: What is conditionals flow?
 - candidate_id: q0002
   relevant_topics:
-  - conditionals
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does conditionals mean?
+  - conditionals flow
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does conditionals flow work?
 - candidate_id: q0003
-  relevant_topics:
-  - conditionals
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does conditionals matter?
-- candidate_id: q0004
-  relevant_topics:
-  - conditionals
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use conditionals?
-- candidate_id: q0005
-  relevant_topics:
-  - conditionals
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of conditionals?
-- candidate_id: q0006
   relevant_topics:
   - control flow
   family: entry
   pattern: What is {x}?
   question_text: What is control flow?
-- candidate_id: q0007
+- candidate_id: q0004
   relevant_topics:
   - control flow
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does control flow mean?
-- candidate_id: q0008
-  relevant_topics:
-  - control flow
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does control flow matter?
-- candidate_id: q0009
-  relevant_topics:
-  - control flow
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use control flow?
-- candidate_id: q0010
-  relevant_topics:
-  - control flow
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of control flow?
-- candidate_id: q0011
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does control flow work?
+- candidate_id: q0005
   relevant_topics:
   - loops
   family: entry
   pattern: What is {x}?
   question_text: What is loops?
-- candidate_id: q0012
+- candidate_id: q0006
   relevant_topics:
   - loops
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does loops mean?
-- candidate_id: q0013
-  relevant_topics:
-  - loops
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does loops matter?
-- candidate_id: q0014
-  relevant_topics:
-  - loops
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use loops?
-- candidate_id: q0015
-  relevant_topics:
-  - loops
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of loops?
-- candidate_id: q0016
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does loops work?
+- candidate_id: q0007
   relevant_topics:
   - functions
   family: entry
   pattern: What is {x}?
   question_text: What is functions?
-- candidate_id: q0017
+- candidate_id: q0008
   relevant_topics:
   - functions
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does functions mean?
-- candidate_id: q0018
-  relevant_topics:
-  - functions
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does functions matter?
-- candidate_id: q0019
-  relevant_topics:
-  - functions
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use functions?
-- candidate_id: q0020
-  relevant_topics:
-  - functions
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of functions?
-- candidate_id: q0021
+  family: procedure
+  pattern: How do you use {x}?
+  question_text: How do you use functions?
+- candidate_id: q0009
   relevant_topics:
   - apply family
   family: entry
   pattern: What is {x}?
   question_text: What is apply family?
-- candidate_id: q0022
+- candidate_id: q0010
   relevant_topics:
   - apply family
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does apply family mean?
-- candidate_id: q0023
-  relevant_topics:
-  - apply family
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does apply family matter?
-- candidate_id: q0024
-  relevant_topics:
-  - apply family
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use apply family?
-- candidate_id: q0025
-  relevant_topics:
-  - apply family
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of apply family?
-- candidate_id: q0026
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does apply family work?
+- candidate_id: q0011
   relevant_topics:
   - utilities
   family: entry
   pattern: What is {x}?
   question_text: What is utilities?
-- candidate_id: q0027
+- candidate_id: q0012
   relevant_topics:
   - utilities
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does utilities work?
+- candidate_id: q0013
+  relevant_topics:
+  - having
   family: entry
-  pattern: What does {x} mean?
-  question_text: What does utilities mean?
-- candidate_id: q0028
+  pattern: What is {x}?
+  question_text: What is having?
+- candidate_id: q0014
   relevant_topics:
-  - utilities
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does utilities matter?
-- candidate_id: q0029
+  - having
+  family: procedure
+  pattern: How do you use {x}?
+  question_text: How do you use having?
+- candidate_id: q0015
   relevant_topics:
-  - utilities
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use utilities?
-- candidate_id: q0030
-  relevant_topics:
-  - utilities
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of utilities?
-- candidate_id: q0031
-  relevant_topics:
-  - conditionals
+  - conditionals flow
   - control flow
   family: comparison
   pattern: How is {x} different from {y}?
-  question_text: How is conditionals different from control flow?
-- candidate_id: q0032
-  relevant_topics:
-  - conditionals
-  - loops
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is conditionals different from loops?
-- candidate_id: q0033
-  relevant_topics:
-  - conditionals
-  - functions
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is conditionals different from functions?
-- candidate_id: q0034
-  relevant_topics:
-  - conditionals
-  - apply family
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is conditionals different from apply family?
-- candidate_id: q0035
-  relevant_topics:
-  - conditionals
-  - utilities
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is conditionals different from utilities?
-- candidate_id: q0036
-  relevant_topics:
-  - control flow
-  - loops
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is control flow different from loops?
-- candidate_id: q0037
-  relevant_topics:
-  - control flow
-  - functions
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is control flow different from functions?
-- candidate_id: q0038
-  relevant_topics:
-  - control flow
-  - apply family
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is control flow different from apply family?
-- candidate_id: q0039
-  relevant_topics:
-  - control flow
-  - utilities
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is control flow different from utilities?
-- candidate_id: q0040
-  relevant_topics:
-  - loops
-  - functions
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is loops different from functions?
-- candidate_id: q0041
-  relevant_topics:
-  - loops
-  - apply family
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is loops different from apply family?
-- candidate_id: q0042
-  relevant_topics:
-  - loops
-  - utilities
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is loops different from utilities?
-- candidate_id: q0043
-  relevant_topics:
-  - functions
-  - apply family
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is functions different from apply family?
-- candidate_id: q0044
-  relevant_topics:
-  - functions
-  - utilities
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is functions different from utilities?
-- candidate_id: q0045
-  relevant_topics:
-  - apply family
-  - utilities
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is apply family different from utilities?
+  question_text: How is conditionals flow different from control flow?
 question_repairs:
 - candidate_id: q0001
   status: accepted
-  original_text: What is conditionals?
-  final_text: What is conditionals?
+  original_text: What is conditionals flow?
+  final_text: What is conditionals flow?
   reject_reason: null
 - candidate_id: q0002
   status: accepted
-  original_text: What does conditionals mean?
-  final_text: What does conditionals mean?
+  original_text: How does conditionals flow work?
+  final_text: How does conditionals flow work?
   reject_reason: null
 - candidate_id: q0003
-  status: accepted
-  original_text: Why does conditionals matter?
-  final_text: Why does conditionals matter?
-  reject_reason: null
-- candidate_id: q0004
-  status: repaired
-  original_text: Why do we use conditionals?
-  final_text: Why does conditionals?
-  reject_reason: null
-- candidate_id: q0005
-  status: accepted
-  original_text: What is a simple example of conditionals?
-  final_text: What is a simple example of conditionals?
-  reject_reason: null
-- candidate_id: q0006
   status: accepted
   original_text: What is control flow?
   final_text: What is control flow?
   reject_reason: null
-- candidate_id: q0007
+- candidate_id: q0004
   status: accepted
-  original_text: What does control flow mean?
-  final_text: What does control flow mean?
+  original_text: How does control flow work?
+  final_text: How does control flow work?
   reject_reason: null
-- candidate_id: q0008
-  status: accepted
-  original_text: Why does control flow matter?
-  final_text: Why does control flow matter?
-  reject_reason: null
-- candidate_id: q0009
-  status: repaired
-  original_text: Why do we use control flow?
-  final_text: Why does control flow?
-  reject_reason: null
-- candidate_id: q0010
-  status: accepted
-  original_text: What is a simple example of control flow?
-  final_text: What is a simple example of control flow?
-  reject_reason: null
-- candidate_id: q0011
+- candidate_id: q0005
   status: accepted
   original_text: What is loops?
   final_text: What is loops?
   reject_reason: null
-- candidate_id: q0012
+- candidate_id: q0006
   status: accepted
-  original_text: What does loops mean?
-  final_text: What does loops mean?
+  original_text: How does loops work?
+  final_text: How does loops work?
   reject_reason: null
-- candidate_id: q0013
-  status: accepted
-  original_text: Why does loops matter?
-  final_text: Why does loops matter?
-  reject_reason: null
-- candidate_id: q0014
-  status: repaired
-  original_text: Why do we use loops?
-  final_text: Why does loops?
-  reject_reason: null
-- candidate_id: q0015
-  status: accepted
-  original_text: What is a simple example of loops?
-  final_text: What is a simple example of loops?
-  reject_reason: null
-- candidate_id: q0016
+- candidate_id: q0007
   status: accepted
   original_text: What is functions?
   final_text: What is functions?
   reject_reason: null
-- candidate_id: q0017
+- candidate_id: q0008
   status: accepted
-  original_text: What does functions mean?
-  final_text: What does functions mean?
+  original_text: How do you use functions?
+  final_text: How do you use functions?
   reject_reason: null
-- candidate_id: q0018
-  status: accepted
-  original_text: Why does functions matter?
-  final_text: Why does functions matter?
-  reject_reason: null
-- candidate_id: q0019
-  status: repaired
-  original_text: Why do we use functions?
-  final_text: Why does functions?
-  reject_reason: null
-- candidate_id: q0020
-  status: accepted
-  original_text: What is a simple example of functions?
-  final_text: What is a simple example of functions?
-  reject_reason: null
-- candidate_id: q0021
+- candidate_id: q0009
   status: accepted
   original_text: What is apply family?
   final_text: What is apply family?
   reject_reason: null
-- candidate_id: q0022
+- candidate_id: q0010
   status: accepted
-  original_text: What does apply family mean?
-  final_text: What does apply family mean?
+  original_text: How does apply family work?
+  final_text: How does apply family work?
   reject_reason: null
-- candidate_id: q0023
-  status: accepted
-  original_text: Why does apply family matter?
-  final_text: Why does apply family matter?
-  reject_reason: null
-- candidate_id: q0024
-  status: repaired
-  original_text: Why do we use apply family?
-  final_text: Why does apply family?
-  reject_reason: null
-- candidate_id: q0025
-  status: accepted
-  original_text: What is a simple example of apply family?
-  final_text: What is a simple example of apply family?
-  reject_reason: null
-- candidate_id: q0026
+- candidate_id: q0011
   status: accepted
   original_text: What is utilities?
   final_text: What is utilities?
   reject_reason: null
-- candidate_id: q0027
+- candidate_id: q0012
   status: accepted
-  original_text: What does utilities mean?
-  final_text: What does utilities mean?
+  original_text: How does utilities work?
+  final_text: How does utilities work?
   reject_reason: null
-- candidate_id: q0028
+- candidate_id: q0013
   status: accepted
-  original_text: Why does utilities matter?
-  final_text: Why does utilities matter?
+  original_text: What is having?
+  final_text: What is having?
   reject_reason: null
-- candidate_id: q0029
-  status: repaired
-  original_text: Why do we use utilities?
-  final_text: Why does utilities?
-  reject_reason: null
-- candidate_id: q0030
+- candidate_id: q0014
   status: accepted
-  original_text: What is a simple example of utilities?
-  final_text: What is a simple example of utilities?
+  original_text: How do you use having?
+  final_text: How do you use having?
   reject_reason: null
-- candidate_id: q0031
+- candidate_id: q0015
   status: accepted
-  original_text: How is conditionals different from control flow?
-  final_text: How is conditionals different from control flow?
-  reject_reason: null
-- candidate_id: q0032
-  status: accepted
-  original_text: How is conditionals different from loops?
-  final_text: How is conditionals different from loops?
-  reject_reason: null
-- candidate_id: q0033
-  status: accepted
-  original_text: How is conditionals different from functions?
-  final_text: How is conditionals different from functions?
-  reject_reason: null
-- candidate_id: q0034
-  status: accepted
-  original_text: How is conditionals different from apply family?
-  final_text: How is conditionals different from apply family?
-  reject_reason: null
-- candidate_id: q0035
-  status: accepted
-  original_text: How is conditionals different from utilities?
-  final_text: How is conditionals different from utilities?
-  reject_reason: null
-- candidate_id: q0036
-  status: accepted
-  original_text: How is control flow different from loops?
-  final_text: How is control flow different from loops?
-  reject_reason: null
-- candidate_id: q0037
-  status: accepted
-  original_text: How is control flow different from functions?
-  final_text: How is control flow different from functions?
-  reject_reason: null
-- candidate_id: q0038
-  status: accepted
-  original_text: How is control flow different from apply family?
-  final_text: How is control flow different from apply family?
-  reject_reason: null
-- candidate_id: q0039
-  status: accepted
-  original_text: How is control flow different from utilities?
-  final_text: How is control flow different from utilities?
-  reject_reason: null
-- candidate_id: q0040
-  status: accepted
-  original_text: How is loops different from functions?
-  final_text: How is loops different from functions?
-  reject_reason: null
-- candidate_id: q0041
-  status: accepted
-  original_text: How is loops different from apply family?
-  final_text: How is loops different from apply family?
-  reject_reason: null
-- candidate_id: q0042
-  status: accepted
-  original_text: How is loops different from utilities?
-  final_text: How is loops different from utilities?
-  reject_reason: null
-- candidate_id: q0043
-  status: accepted
-  original_text: How is functions different from apply family?
-  final_text: How is functions different from apply family?
-  reject_reason: null
-- candidate_id: q0044
-  status: accepted
-  original_text: How is functions different from utilities?
-  final_text: How is functions different from utilities?
-  reject_reason: null
-- candidate_id: q0045
-  status: accepted
-  original_text: How is apply family different from utilities?
-  final_text: How is apply family different from utilities?
+  original_text: How is conditionals flow different from control flow?
+  final_text: How is conditionals flow different from control flow?
   reject_reason: null
 answers:
-- question_id: q0001
-  question_text: What is conditionals?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0002
-  question_text: What does conditionals mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
 - question_id: q0003
-  question_text: Why does conditionals matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0004
-  question_text: Why does conditionals?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0005
-  question_text: What is a simple example of conditionals?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0006
   question_text: What is control flow?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0007
-  question_text: What does control flow mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0008
-  question_text: Why does control flow matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0009
-  question_text: Why does control flow?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0010
-  question_text: What is a simple example of control flow?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0011
+  answer_text: Conditionals and Control Flow
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Conditionals and Control Flow
+- question_id: q0004
+  question_text: How does control flow work?
+  answer_text: Conditionals and Control Flow
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Conditionals and Control Flow
+- question_id: q0005
   question_text: What is loops?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0012
-  question_text: What does loops mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0013
-  question_text: Why does loops matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0014
-  question_text: Why does loops?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0015
-  question_text: What is a simple example of loops?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0016
+  answer_text: statements, loops, and vector functions.
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: summary
+    text: statements, loops, and vector functions.
+- question_id: q0006
+  question_text: How does loops work?
+  answer_text: statements, loops, and vector functions.
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: summary
+    text: statements, loops, and vector functions.
+- question_id: q0007
   question_text: What is functions?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0017
-  question_text: What does functions mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0018
-  question_text: Why does functions matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0019
-  question_text: Why does functions?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0020
-  question_text: What is a simple example of functions?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0021
+  answer_text: statements, loops, and vector functions.
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: summary
+    text: statements, loops, and vector functions.
+- question_id: q0008
+  question_text: How do you use functions?
+  answer_text: statements, loops, and vector functions.
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: summary
+    text: statements, loops, and vector functions.
+- question_id: q0009
   question_text: What is apply family?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0022
-  question_text: What does apply family mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0023
-  question_text: Why does apply family matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0024
-  question_text: Why does apply family?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0025
-  question_text: What is a simple example of apply family?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0026
+  answer_text: The apply family
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: The apply family
+- question_id: q0010
+  question_text: How does apply family work?
+  answer_text: The apply family
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: The apply family
+- question_id: q0011
   question_text: What is utilities?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0027
-  question_text: What does utilities mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0028
-  question_text: Why does utilities matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0029
-  question_text: Why does utilities?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0030
-  question_text: What is a simple example of utilities?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0031
-  question_text: How is conditionals different from control flow?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0032
-  question_text: How is conditionals different from loops?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0033
-  question_text: How is conditionals different from functions?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0034
-  question_text: How is conditionals different from apply family?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0035
-  question_text: How is conditionals different from utilities?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0036
-  question_text: How is control flow different from loops?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0037
-  question_text: How is control flow different from functions?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0038
-  question_text: How is control flow different from apply family?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0039
-  question_text: How is control flow different from utilities?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0040
-  question_text: How is loops different from functions?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0041
-  question_text: How is loops different from apply family?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0042
-  question_text: How is loops different from utilities?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0043
-  question_text: How is functions different from apply family?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0044
-  question_text: How is functions different from utilities?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0045
-  question_text: How is apply family different from utilities?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
+  answer_text: the utilities chapter gets you up to speed with regular expressions
+    in R,
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: the utilities chapter gets you up to speed with regular expressions in R,
+- question_id: q0012
+  question_text: How does utilities work?
+  answer_text: the utilities chapter gets you up to speed with regular expressions
+    in R,
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: the utilities chapter gets you up to speed with regular expressions in R,
+- question_id: q0013
+  question_text: What is having?
+  answer_text: Having a solid understanding of a wide range
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Having a solid understanding of a wide range
+- question_id: q0014
+  question_text: How do you use having?
+  answer_text: Having a solid understanding of a wide range
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Having a solid understanding of a wide range
 final_rows:
 - row_id: r_000001
   course:
     course_id: '24380'
     title: Intermediate R
   relevant_topics:
-  - conditionals
-  question_text: What is conditionals?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  - conditionals flow
+  question_text: What is conditionals flow?
+  question_answer: null
+  correctness: null
   question_family: entry
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
 - row_id: r_000002
   course:
     course_id: '24380'
     title: Intermediate R
   relevant_topics:
-  - conditionals
-  question_text: What does conditionals mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
-  status: answered
-  reject_reason: null
+  - conditionals flow
+  question_text: How does conditionals flow work?
+  question_answer: null
+  correctness: null
+  question_family: mechanism
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
 - row_id: r_000003
   course:
     course_id: '24380'
     title: Intermediate R
   relevant_topics:
-  - conditionals
-  question_text: Why does conditionals matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
+  - control flow
+  question_text: What is control flow?
+  question_answer: Conditionals and Control Flow
+  correctness: correct
+  question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: syllabus
+    text: Conditionals and Control Flow
 - row_id: r_000004
   course:
     course_id: '24380'
     title: Intermediate R
   relevant_topics:
-  - conditionals
-  question_text: Why does conditionals?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
+  - control flow
+  question_text: How does control flow work?
+  question_answer: Conditionals and Control Flow
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: syllabus
+    text: Conditionals and Control Flow
 - row_id: r_000005
-  course:
-    course_id: '24380'
-    title: Intermediate R
-  relevant_topics:
-  - conditionals
-  question_text: What is a simple example of conditionals?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000006
-  course:
-    course_id: '24380'
-    title: Intermediate R
-  relevant_topics:
-  - control flow
-  question_text: What is control flow?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000007
-  course:
-    course_id: '24380'
-    title: Intermediate R
-  relevant_topics:
-  - control flow
-  question_text: What does control flow mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000008
-  course:
-    course_id: '24380'
-    title: Intermediate R
-  relevant_topics:
-  - control flow
-  question_text: Why does control flow matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000009
-  course:
-    course_id: '24380'
-    title: Intermediate R
-  relevant_topics:
-  - control flow
-  question_text: Why does control flow?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000010
-  course:
-    course_id: '24380'
-    title: Intermediate R
-  relevant_topics:
-  - control flow
-  question_text: What is a simple example of control flow?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000011
   course:
     course_id: '24380'
     title: Intermediate R
   relevant_topics:
   - loops
   question_text: What is loops?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: statements, loops, and vector functions.
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000012
+  source_evidence:
+  - source: summary
+    text: statements, loops, and vector functions.
+- row_id: r_000006
   course:
     course_id: '24380'
     title: Intermediate R
   relevant_topics:
   - loops
-  question_text: What does loops mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does loops work?
+  question_answer: statements, loops, and vector functions.
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000013
-  course:
-    course_id: '24380'
-    title: Intermediate R
-  relevant_topics:
-  - loops
-  question_text: Why does loops matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000014
-  course:
-    course_id: '24380'
-    title: Intermediate R
-  relevant_topics:
-  - loops
-  question_text: Why does loops?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000015
-  course:
-    course_id: '24380'
-    title: Intermediate R
-  relevant_topics:
-  - loops
-  question_text: What is a simple example of loops?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000016
+  source_evidence:
+  - source: summary
+    text: statements, loops, and vector functions.
+- row_id: r_000007
   course:
     course_id: '24380'
     title: Intermediate R
   relevant_topics:
   - functions
   question_text: What is functions?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: statements, loops, and vector functions.
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000017
+  source_evidence:
+  - source: summary
+    text: statements, loops, and vector functions.
+- row_id: r_000008
   course:
     course_id: '24380'
     title: Intermediate R
   relevant_topics:
   - functions
-  question_text: What does functions mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How do you use functions?
+  question_answer: statements, loops, and vector functions.
+  correctness: correct
+  question_family: procedure
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000018
-  course:
-    course_id: '24380'
-    title: Intermediate R
-  relevant_topics:
-  - functions
-  question_text: Why does functions matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000019
-  course:
-    course_id: '24380'
-    title: Intermediate R
-  relevant_topics:
-  - functions
-  question_text: Why does functions?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000020
-  course:
-    course_id: '24380'
-    title: Intermediate R
-  relevant_topics:
-  - functions
-  question_text: What is a simple example of functions?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000021
+  source_evidence:
+  - source: summary
+    text: statements, loops, and vector functions.
+- row_id: r_000009
   course:
     course_id: '24380'
     title: Intermediate R
   relevant_topics:
   - apply family
   question_text: What is apply family?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: The apply family
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000022
+  source_evidence:
+  - source: syllabus
+    text: The apply family
+- row_id: r_000010
   course:
     course_id: '24380'
     title: Intermediate R
   relevant_topics:
   - apply family
-  question_text: What does apply family mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does apply family work?
+  question_answer: The apply family
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000023
-  course:
-    course_id: '24380'
-    title: Intermediate R
-  relevant_topics:
-  - apply family
-  question_text: Why does apply family matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000024
-  course:
-    course_id: '24380'
-    title: Intermediate R
-  relevant_topics:
-  - apply family
-  question_text: Why does apply family?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000025
-  course:
-    course_id: '24380'
-    title: Intermediate R
-  relevant_topics:
-  - apply family
-  question_text: What is a simple example of apply family?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000026
+  source_evidence:
+  - source: syllabus
+    text: The apply family
+- row_id: r_000011
   course:
     course_id: '24380'
     title: Intermediate R
   relevant_topics:
   - utilities
   question_text: What is utilities?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: the utilities chapter gets you up to speed with regular expressions
+    in R,
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000027
+  source_evidence:
+  - source: overview
+    text: the utilities chapter gets you up to speed with regular expressions in R,
+- row_id: r_000012
   course:
     course_id: '24380'
     title: Intermediate R
   relevant_topics:
   - utilities
-  question_text: What does utilities mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_text: How does utilities work?
+  question_answer: the utilities chapter gets you up to speed with regular expressions
+    in R,
+  correctness: correct
+  question_family: mechanism
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: the utilities chapter gets you up to speed with regular expressions in R,
+- row_id: r_000013
+  course:
+    course_id: '24380'
+    title: Intermediate R
+  relevant_topics:
+  - having
+  question_text: What is having?
+  question_answer: Having a solid understanding of a wide range
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000028
+  source_evidence:
+  - source: syllabus
+    text: Having a solid understanding of a wide range
+- row_id: r_000014
   course:
     course_id: '24380'
     title: Intermediate R
   relevant_topics:
-  - utilities
-  question_text: Why does utilities matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
+  - having
+  question_text: How do you use having?
+  question_answer: Having a solid understanding of a wide range
+  correctness: correct
+  question_family: procedure
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000029
+  source_evidence:
+  - source: syllabus
+    text: Having a solid understanding of a wide range
+- row_id: r_000015
   course:
     course_id: '24380'
     title: Intermediate R
   relevant_topics:
-  - utilities
-  question_text: Why does utilities?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000030
-  course:
-    course_id: '24380'
-    title: Intermediate R
-  relevant_topics:
-  - utilities
-  question_text: What is a simple example of utilities?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000031
-  course:
-    course_id: '24380'
-    title: Intermediate R
-  relevant_topics:
-  - conditionals
+  - conditionals flow
   - control flow
-  question_text: How is conditionals different from control flow?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_text: How is conditionals flow different from control flow?
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000032
-  course:
-    course_id: '24380'
-    title: Intermediate R
-  relevant_topics:
-  - conditionals
-  - loops
-  question_text: How is conditionals different from loops?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000033
-  course:
-    course_id: '24380'
-    title: Intermediate R
-  relevant_topics:
-  - conditionals
-  - functions
-  question_text: How is conditionals different from functions?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000034
-  course:
-    course_id: '24380'
-    title: Intermediate R
-  relevant_topics:
-  - conditionals
-  - apply family
-  question_text: How is conditionals different from apply family?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000035
-  course:
-    course_id: '24380'
-    title: Intermediate R
-  relevant_topics:
-  - conditionals
-  - utilities
-  question_text: How is conditionals different from utilities?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000036
-  course:
-    course_id: '24380'
-    title: Intermediate R
-  relevant_topics:
-  - control flow
-  - loops
-  question_text: How is control flow different from loops?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000037
-  course:
-    course_id: '24380'
-    title: Intermediate R
-  relevant_topics:
-  - control flow
-  - functions
-  question_text: How is control flow different from functions?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000038
-  course:
-    course_id: '24380'
-    title: Intermediate R
-  relevant_topics:
-  - control flow
-  - apply family
-  question_text: How is control flow different from apply family?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000039
-  course:
-    course_id: '24380'
-    title: Intermediate R
-  relevant_topics:
-  - control flow
-  - utilities
-  question_text: How is control flow different from utilities?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000040
-  course:
-    course_id: '24380'
-    title: Intermediate R
-  relevant_topics:
-  - loops
-  - functions
-  question_text: How is loops different from functions?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000041
-  course:
-    course_id: '24380'
-    title: Intermediate R
-  relevant_topics:
-  - loops
-  - apply family
-  question_text: How is loops different from apply family?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000042
-  course:
-    course_id: '24380'
-    title: Intermediate R
-  relevant_topics:
-  - loops
-  - utilities
-  question_text: How is loops different from utilities?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000043
-  course:
-    course_id: '24380'
-    title: Intermediate R
-  relevant_topics:
-  - functions
-  - apply family
-  question_text: How is functions different from apply family?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000044
-  course:
-    course_id: '24380'
-    title: Intermediate R
-  relevant_topics:
-  - functions
-  - utilities
-  question_text: How is functions different from utilities?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000045
-  course:
-    course_id: '24380'
-    title: Intermediate R
-  relevant_topics:
-  - apply family
-  - utilities
-  question_text: How is apply family different from utilities?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
 summary:
-  topic_count: 6
-  canonical_topic_count: 6
-  candidate_count: 45
-  accepted_count: 45
+  topic_count: 7
+  canonical_topic_count: 7
+  candidate_count: 15
+  accepted_count: 15
   rejected_count: 0
-  correct_count: 0
-  uncertain_count: 45
+  correct_count: 12
+  uncertain_count: 0

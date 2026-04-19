@@ -127,43 +127,43 @@ extracted_topics:
 - topic_id: t001
   label: preparing for analysis
   topic_type: concept
-  description: 'Topic inferred from chapter heading: preparing for analysis'
+  description: 'Topic extracted from syllabus: preparing for analysis'
   evidence:
   - source: syllabus
     text: Preparing for Analysis
-  confidence: 0.45
+  confidence: 0.55
 - topic_id: t002
   label: exploring visualizations
   topic_type: concept
-  description: 'Topic inferred from chapter heading: exploring visualizations'
+  description: 'Topic extracted from syllabus: exploring visualizations'
   evidence:
   - source: syllabus
     text: Exploring Visualizations
-  confidence: 0.45
+  confidence: 0.55
 - topic_id: t003
   label: mapping analysis
   topic_type: concept
-  description: 'Topic inferred from chapter heading: mapping analysis'
+  description: 'Topic extracted from syllabus: mapping analysis'
   evidence:
   - source: syllabus
     text: Mapping Analysis
-  confidence: 0.45
+  confidence: 0.55
 - topic_id: t004
   label: groups, sets
   topic_type: concept
-  description: 'Topic inferred from chapter heading: groups, sets'
+  description: 'Topic extracted from syllabus: groups, sets'
   evidence:
   - source: syllabus
     text: Groups, Sets, and Parameters
-  confidence: 0.55
+  confidence: 0.75
 - topic_id: t005
   label: parameters
   topic_type: concept
-  description: 'Topic inferred from chapter heading: parameters'
+  description: 'Topic extracted from syllabus: parameters'
   evidence:
   - source: syllabus
     text: Groups, Sets, and Parameters
-  confidence: 0.55
+  confidence: 0.75
 canonical_topics:
 - canonical_topic_id: ct_001
   label: preparing for analysis
@@ -210,217 +210,64 @@ question_candidates:
 - candidate_id: q0002
   relevant_topics:
   - preparing for analysis
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does preparing for analysis mean?
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does preparing for analysis work?
 - candidate_id: q0003
-  relevant_topics:
-  - preparing for analysis
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does preparing for analysis matter?
-- candidate_id: q0004
-  relevant_topics:
-  - preparing for analysis
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use preparing for analysis?
-- candidate_id: q0005
-  relevant_topics:
-  - preparing for analysis
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of preparing for analysis?
-- candidate_id: q0006
   relevant_topics:
   - exploring visualizations
   family: entry
   pattern: What is {x}?
   question_text: What is exploring visualizations?
-- candidate_id: q0007
+- candidate_id: q0004
   relevant_topics:
   - exploring visualizations
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does exploring visualizations mean?
-- candidate_id: q0008
-  relevant_topics:
-  - exploring visualizations
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does exploring visualizations matter?
-- candidate_id: q0009
-  relevant_topics:
-  - exploring visualizations
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use exploring visualizations?
-- candidate_id: q0010
-  relevant_topics:
-  - exploring visualizations
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of exploring visualizations?
-- candidate_id: q0011
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does exploring visualizations work?
+- candidate_id: q0005
   relevant_topics:
   - mapping analysis
   family: entry
   pattern: What is {x}?
   question_text: What is mapping analysis?
-- candidate_id: q0012
+- candidate_id: q0006
   relevant_topics:
   - mapping analysis
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does mapping analysis mean?
-- candidate_id: q0013
-  relevant_topics:
-  - mapping analysis
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does mapping analysis matter?
-- candidate_id: q0014
-  relevant_topics:
-  - mapping analysis
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use mapping analysis?
-- candidate_id: q0015
-  relevant_topics:
-  - mapping analysis
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of mapping analysis?
-- candidate_id: q0016
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does mapping analysis work?
+- candidate_id: q0007
   relevant_topics:
   - groups, sets
   family: entry
   pattern: What is {x}?
   question_text: What is groups, sets?
-- candidate_id: q0017
+- candidate_id: q0008
   relevant_topics:
   - groups, sets
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does groups, sets mean?
-- candidate_id: q0018
-  relevant_topics:
-  - groups, sets
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does groups, sets matter?
-- candidate_id: q0019
-  relevant_topics:
-  - groups, sets
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use groups, sets?
-- candidate_id: q0020
-  relevant_topics:
-  - groups, sets
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of groups, sets?
-- candidate_id: q0021
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does groups, sets work?
+- candidate_id: q0009
   relevant_topics:
   - parameters
   family: entry
   pattern: What is {x}?
   question_text: What is parameters?
-- candidate_id: q0022
+- candidate_id: q0010
   relevant_topics:
   - parameters
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does parameters mean?
-- candidate_id: q0023
-  relevant_topics:
-  - parameters
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does parameters matter?
-- candidate_id: q0024
-  relevant_topics:
-  - parameters
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use parameters?
-- candidate_id: q0025
-  relevant_topics:
-  - parameters
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of parameters?
-- candidate_id: q0026
-  relevant_topics:
-  - preparing for analysis
-  - exploring visualizations
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is preparing for analysis different from exploring visualizations?
-- candidate_id: q0027
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does parameters work?
+- candidate_id: q0011
   relevant_topics:
   - preparing for analysis
   - mapping analysis
   family: comparison
   pattern: How is {x} different from {y}?
   question_text: How is preparing for analysis different from mapping analysis?
-- candidate_id: q0028
-  relevant_topics:
-  - preparing for analysis
-  - groups, sets
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is preparing for analysis different from groups, sets?
-- candidate_id: q0029
-  relevant_topics:
-  - preparing for analysis
-  - parameters
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is preparing for analysis different from parameters?
-- candidate_id: q0030
-  relevant_topics:
-  - exploring visualizations
-  - mapping analysis
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is exploring visualizations different from mapping analysis?
-- candidate_id: q0031
-  relevant_topics:
-  - exploring visualizations
-  - groups, sets
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is exploring visualizations different from groups, sets?
-- candidate_id: q0032
-  relevant_topics:
-  - exploring visualizations
-  - parameters
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is exploring visualizations different from parameters?
-- candidate_id: q0033
-  relevant_topics:
-  - mapping analysis
-  - groups, sets
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is mapping analysis different from groups, sets?
-- candidate_id: q0034
-  relevant_topics:
-  - mapping analysis
-  - parameters
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is mapping analysis different from parameters?
-- candidate_id: q0035
-  relevant_topics:
-  - groups, sets
-  - parameters
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is groups, sets different from parameters?
 question_repairs:
 - candidate_id: q0001
   status: accepted
@@ -429,420 +276,135 @@ question_repairs:
   reject_reason: null
 - candidate_id: q0002
   status: accepted
-  original_text: What does preparing for analysis mean?
-  final_text: What does preparing for analysis mean?
+  original_text: How does preparing for analysis work?
+  final_text: How does preparing for analysis work?
   reject_reason: null
 - candidate_id: q0003
-  status: accepted
-  original_text: Why does preparing for analysis matter?
-  final_text: Why does preparing for analysis matter?
-  reject_reason: null
-- candidate_id: q0004
-  status: repaired
-  original_text: Why do we use preparing for analysis?
-  final_text: Why does preparing for analysis?
-  reject_reason: null
-- candidate_id: q0005
-  status: accepted
-  original_text: What is a simple example of preparing for analysis?
-  final_text: What is a simple example of preparing for analysis?
-  reject_reason: null
-- candidate_id: q0006
   status: accepted
   original_text: What is exploring visualizations?
   final_text: What is exploring visualizations?
   reject_reason: null
-- candidate_id: q0007
+- candidate_id: q0004
   status: accepted
-  original_text: What does exploring visualizations mean?
-  final_text: What does exploring visualizations mean?
+  original_text: How does exploring visualizations work?
+  final_text: How does exploring visualizations work?
   reject_reason: null
-- candidate_id: q0008
-  status: accepted
-  original_text: Why does exploring visualizations matter?
-  final_text: Why does exploring visualizations matter?
-  reject_reason: null
-- candidate_id: q0009
-  status: repaired
-  original_text: Why do we use exploring visualizations?
-  final_text: Why does exploring visualizations?
-  reject_reason: null
-- candidate_id: q0010
-  status: accepted
-  original_text: What is a simple example of exploring visualizations?
-  final_text: What is a simple example of exploring visualizations?
-  reject_reason: null
-- candidate_id: q0011
+- candidate_id: q0005
   status: accepted
   original_text: What is mapping analysis?
   final_text: What is mapping analysis?
   reject_reason: null
-- candidate_id: q0012
+- candidate_id: q0006
   status: accepted
-  original_text: What does mapping analysis mean?
-  final_text: What does mapping analysis mean?
+  original_text: How does mapping analysis work?
+  final_text: How does mapping analysis work?
   reject_reason: null
-- candidate_id: q0013
-  status: accepted
-  original_text: Why does mapping analysis matter?
-  final_text: Why does mapping analysis matter?
-  reject_reason: null
-- candidate_id: q0014
-  status: repaired
-  original_text: Why do we use mapping analysis?
-  final_text: Why does mapping analysis?
-  reject_reason: null
-- candidate_id: q0015
-  status: accepted
-  original_text: What is a simple example of mapping analysis?
-  final_text: What is a simple example of mapping analysis?
-  reject_reason: null
-- candidate_id: q0016
+- candidate_id: q0007
   status: accepted
   original_text: What is groups, sets?
   final_text: What is groups, sets?
   reject_reason: null
-- candidate_id: q0017
+- candidate_id: q0008
   status: accepted
-  original_text: What does groups, sets mean?
-  final_text: What does groups, sets mean?
+  original_text: How does groups, sets work?
+  final_text: How does groups, sets work?
   reject_reason: null
-- candidate_id: q0018
-  status: accepted
-  original_text: Why does groups, sets matter?
-  final_text: Why does groups, sets matter?
-  reject_reason: null
-- candidate_id: q0019
-  status: repaired
-  original_text: Why do we use groups, sets?
-  final_text: Why does groups, sets?
-  reject_reason: null
-- candidate_id: q0020
-  status: accepted
-  original_text: What is a simple example of groups, sets?
-  final_text: What is a simple example of groups, sets?
-  reject_reason: null
-- candidate_id: q0021
+- candidate_id: q0009
   status: accepted
   original_text: What is parameters?
   final_text: What is parameters?
   reject_reason: null
-- candidate_id: q0022
+- candidate_id: q0010
   status: accepted
-  original_text: What does parameters mean?
-  final_text: What does parameters mean?
+  original_text: How does parameters work?
+  final_text: How does parameters work?
   reject_reason: null
-- candidate_id: q0023
-  status: accepted
-  original_text: Why does parameters matter?
-  final_text: Why does parameters matter?
-  reject_reason: null
-- candidate_id: q0024
-  status: repaired
-  original_text: Why do we use parameters?
-  final_text: Why does parameters?
-  reject_reason: null
-- candidate_id: q0025
-  status: accepted
-  original_text: What is a simple example of parameters?
-  final_text: What is a simple example of parameters?
-  reject_reason: null
-- candidate_id: q0026
-  status: accepted
-  original_text: How is preparing for analysis different from exploring visualizations?
-  final_text: How is preparing for analysis different from exploring visualizations?
-  reject_reason: null
-- candidate_id: q0027
+- candidate_id: q0011
   status: accepted
   original_text: How is preparing for analysis different from mapping analysis?
   final_text: How is preparing for analysis different from mapping analysis?
   reject_reason: null
-- candidate_id: q0028
-  status: accepted
-  original_text: How is preparing for analysis different from groups, sets?
-  final_text: How is preparing for analysis different from groups, sets?
-  reject_reason: null
-- candidate_id: q0029
-  status: accepted
-  original_text: How is preparing for analysis different from parameters?
-  final_text: How is preparing for analysis different from parameters?
-  reject_reason: null
-- candidate_id: q0030
-  status: accepted
-  original_text: How is exploring visualizations different from mapping analysis?
-  final_text: How is exploring visualizations different from mapping analysis?
-  reject_reason: null
-- candidate_id: q0031
-  status: accepted
-  original_text: How is exploring visualizations different from groups, sets?
-  final_text: How is exploring visualizations different from groups, sets?
-  reject_reason: null
-- candidate_id: q0032
-  status: accepted
-  original_text: How is exploring visualizations different from parameters?
-  final_text: How is exploring visualizations different from parameters?
-  reject_reason: null
-- candidate_id: q0033
-  status: accepted
-  original_text: How is mapping analysis different from groups, sets?
-  final_text: How is mapping analysis different from groups, sets?
-  reject_reason: null
-- candidate_id: q0034
-  status: accepted
-  original_text: How is mapping analysis different from parameters?
-  final_text: How is mapping analysis different from parameters?
-  reject_reason: null
-- candidate_id: q0035
-  status: accepted
-  original_text: How is groups, sets different from parameters?
-  final_text: How is groups, sets different from parameters?
-  reject_reason: null
 answers:
 - question_id: q0001
   question_text: What is preparing for analysis?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
+  answer_text: Preparing for Analysis
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: Preparing for Analysis
 - question_id: q0002
-  question_text: What does preparing for analysis mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
+  question_text: How does preparing for analysis work?
+  answer_text: Preparing for Analysis
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: Preparing for Analysis
 - question_id: q0003
-  question_text: Why does preparing for analysis matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0004
-  question_text: Why does preparing for analysis?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0005
-  question_text: What is a simple example of preparing for analysis?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0006
   question_text: What is exploring visualizations?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0007
-  question_text: What does exploring visualizations mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0008
-  question_text: Why does exploring visualizations matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0009
-  question_text: Why does exploring visualizations?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0010
-  question_text: What is a simple example of exploring visualizations?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0011
+  answer_text: Exploring Visualizations
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: Exploring Visualizations
+- question_id: q0004
+  question_text: How does exploring visualizations work?
+  answer_text: Exploring Visualizations
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: Exploring Visualizations
+- question_id: q0005
   question_text: What is mapping analysis?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0012
-  question_text: What does mapping analysis mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0013
-  question_text: Why does mapping analysis matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0014
-  question_text: Why does mapping analysis?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0015
-  question_text: What is a simple example of mapping analysis?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0016
+  answer_text: Mapping Analysis
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: Mapping Analysis
+- question_id: q0006
+  question_text: How does mapping analysis work?
+  answer_text: Mapping Analysis
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: Mapping Analysis
+- question_id: q0007
   question_text: What is groups, sets?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0017
-  question_text: What does groups, sets mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0018
-  question_text: Why does groups, sets matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0019
-  question_text: Why does groups, sets?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0020
-  question_text: What is a simple example of groups, sets?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0021
+  answer_text: Groups, Sets, and Parameters
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: Groups, Sets, and Parameters
+- question_id: q0008
+  question_text: How does groups, sets work?
+  answer_text: Groups, Sets, and Parameters
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: Groups, Sets, and Parameters
+- question_id: q0009
   question_text: What is parameters?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0022
-  question_text: What does parameters mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0023
-  question_text: Why does parameters matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0024
-  question_text: Why does parameters?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0025
-  question_text: What is a simple example of parameters?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0026
-  question_text: How is preparing for analysis different from exploring visualizations?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0027
-  question_text: How is preparing for analysis different from mapping analysis?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0028
-  question_text: How is preparing for analysis different from groups, sets?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0029
-  question_text: How is preparing for analysis different from parameters?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0030
-  question_text: How is exploring visualizations different from mapping analysis?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0031
-  question_text: How is exploring visualizations different from groups, sets?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0032
-  question_text: How is exploring visualizations different from parameters?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0033
-  question_text: How is mapping analysis different from groups, sets?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0034
-  question_text: How is mapping analysis different from parameters?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0035
-  question_text: How is groups, sets different from parameters?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
+  answer_text: Groups, Sets, and Parameters
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: Groups, Sets, and Parameters
+- question_id: q0010
+  question_text: How does parameters work?
+  answer_text: Groups, Sets, and Parameters
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: Groups, Sets, and Parameters
 final_rows:
 - row_id: r_000001
   course:
@@ -851,365 +413,150 @@ final_rows:
   relevant_topics:
   - preparing for analysis
   question_text: What is preparing for analysis?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Preparing for Analysis
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: overview
+    text: Preparing for Analysis
 - row_id: r_000002
   course:
     course_id: '24391'
     title: Analyzing Data in Tableau
   relevant_topics:
   - preparing for analysis
-  question_text: What does preparing for analysis mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does preparing for analysis work?
+  question_answer: Preparing for Analysis
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: overview
+    text: Preparing for Analysis
 - row_id: r_000003
-  course:
-    course_id: '24391'
-    title: Analyzing Data in Tableau
-  relevant_topics:
-  - preparing for analysis
-  question_text: Why does preparing for analysis matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000004
-  course:
-    course_id: '24391'
-    title: Analyzing Data in Tableau
-  relevant_topics:
-  - preparing for analysis
-  question_text: Why does preparing for analysis?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000005
-  course:
-    course_id: '24391'
-    title: Analyzing Data in Tableau
-  relevant_topics:
-  - preparing for analysis
-  question_text: What is a simple example of preparing for analysis?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000006
   course:
     course_id: '24391'
     title: Analyzing Data in Tableau
   relevant_topics:
   - exploring visualizations
   question_text: What is exploring visualizations?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Exploring Visualizations
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000007
+  source_evidence:
+  - source: overview
+    text: Exploring Visualizations
+- row_id: r_000004
   course:
     course_id: '24391'
     title: Analyzing Data in Tableau
   relevant_topics:
   - exploring visualizations
-  question_text: What does exploring visualizations mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does exploring visualizations work?
+  question_answer: Exploring Visualizations
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000008
-  course:
-    course_id: '24391'
-    title: Analyzing Data in Tableau
-  relevant_topics:
-  - exploring visualizations
-  question_text: Why does exploring visualizations matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000009
-  course:
-    course_id: '24391'
-    title: Analyzing Data in Tableau
-  relevant_topics:
-  - exploring visualizations
-  question_text: Why does exploring visualizations?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000010
-  course:
-    course_id: '24391'
-    title: Analyzing Data in Tableau
-  relevant_topics:
-  - exploring visualizations
-  question_text: What is a simple example of exploring visualizations?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000011
+  source_evidence:
+  - source: overview
+    text: Exploring Visualizations
+- row_id: r_000005
   course:
     course_id: '24391'
     title: Analyzing Data in Tableau
   relevant_topics:
   - mapping analysis
   question_text: What is mapping analysis?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Mapping Analysis
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000012
+  source_evidence:
+  - source: overview
+    text: Mapping Analysis
+- row_id: r_000006
   course:
     course_id: '24391'
     title: Analyzing Data in Tableau
   relevant_topics:
   - mapping analysis
-  question_text: What does mapping analysis mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does mapping analysis work?
+  question_answer: Mapping Analysis
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000013
-  course:
-    course_id: '24391'
-    title: Analyzing Data in Tableau
-  relevant_topics:
-  - mapping analysis
-  question_text: Why does mapping analysis matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000014
-  course:
-    course_id: '24391'
-    title: Analyzing Data in Tableau
-  relevant_topics:
-  - mapping analysis
-  question_text: Why does mapping analysis?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000015
-  course:
-    course_id: '24391'
-    title: Analyzing Data in Tableau
-  relevant_topics:
-  - mapping analysis
-  question_text: What is a simple example of mapping analysis?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000016
+  source_evidence:
+  - source: overview
+    text: Mapping Analysis
+- row_id: r_000007
   course:
     course_id: '24391'
     title: Analyzing Data in Tableau
   relevant_topics:
   - groups, sets
   question_text: What is groups, sets?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Groups, Sets, and Parameters
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000017
+  source_evidence:
+  - source: overview
+    text: Groups, Sets, and Parameters
+- row_id: r_000008
   course:
     course_id: '24391'
     title: Analyzing Data in Tableau
   relevant_topics:
   - groups, sets
-  question_text: What does groups, sets mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does groups, sets work?
+  question_answer: Groups, Sets, and Parameters
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000018
-  course:
-    course_id: '24391'
-    title: Analyzing Data in Tableau
-  relevant_topics:
-  - groups, sets
-  question_text: Why does groups, sets matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000019
-  course:
-    course_id: '24391'
-    title: Analyzing Data in Tableau
-  relevant_topics:
-  - groups, sets
-  question_text: Why does groups, sets?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000020
-  course:
-    course_id: '24391'
-    title: Analyzing Data in Tableau
-  relevant_topics:
-  - groups, sets
-  question_text: What is a simple example of groups, sets?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000021
+  source_evidence:
+  - source: overview
+    text: Groups, Sets, and Parameters
+- row_id: r_000009
   course:
     course_id: '24391'
     title: Analyzing Data in Tableau
   relevant_topics:
   - parameters
   question_text: What is parameters?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Groups, Sets, and Parameters
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000022
+  source_evidence:
+  - source: overview
+    text: Groups, Sets, and Parameters
+- row_id: r_000010
   course:
     course_id: '24391'
     title: Analyzing Data in Tableau
   relevant_topics:
   - parameters
-  question_text: What does parameters mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does parameters work?
+  question_answer: Groups, Sets, and Parameters
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000023
-  course:
-    course_id: '24391'
-    title: Analyzing Data in Tableau
-  relevant_topics:
-  - parameters
-  question_text: Why does parameters matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000024
-  course:
-    course_id: '24391'
-    title: Analyzing Data in Tableau
-  relevant_topics:
-  - parameters
-  question_text: Why does parameters?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000025
-  course:
-    course_id: '24391'
-    title: Analyzing Data in Tableau
-  relevant_topics:
-  - parameters
-  question_text: What is a simple example of parameters?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000026
-  course:
-    course_id: '24391'
-    title: Analyzing Data in Tableau
-  relevant_topics:
-  - preparing for analysis
-  - exploring visualizations
-  question_text: How is preparing for analysis different from exploring visualizations?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000027
+  source_evidence:
+  - source: overview
+    text: Groups, Sets, and Parameters
+- row_id: r_000011
   course:
     course_id: '24391'
     title: Analyzing Data in Tableau
@@ -1217,138 +564,17 @@ final_rows:
   - preparing for analysis
   - mapping analysis
   question_text: How is preparing for analysis different from mapping analysis?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000028
-  course:
-    course_id: '24391'
-    title: Analyzing Data in Tableau
-  relevant_topics:
-  - preparing for analysis
-  - groups, sets
-  question_text: How is preparing for analysis different from groups, sets?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000029
-  course:
-    course_id: '24391'
-    title: Analyzing Data in Tableau
-  relevant_topics:
-  - preparing for analysis
-  - parameters
-  question_text: How is preparing for analysis different from parameters?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000030
-  course:
-    course_id: '24391'
-    title: Analyzing Data in Tableau
-  relevant_topics:
-  - exploring visualizations
-  - mapping analysis
-  question_text: How is exploring visualizations different from mapping analysis?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000031
-  course:
-    course_id: '24391'
-    title: Analyzing Data in Tableau
-  relevant_topics:
-  - exploring visualizations
-  - groups, sets
-  question_text: How is exploring visualizations different from groups, sets?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000032
-  course:
-    course_id: '24391'
-    title: Analyzing Data in Tableau
-  relevant_topics:
-  - exploring visualizations
-  - parameters
-  question_text: How is exploring visualizations different from parameters?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000033
-  course:
-    course_id: '24391'
-    title: Analyzing Data in Tableau
-  relevant_topics:
-  - mapping analysis
-  - groups, sets
-  question_text: How is mapping analysis different from groups, sets?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000034
-  course:
-    course_id: '24391'
-    title: Analyzing Data in Tableau
-  relevant_topics:
-  - mapping analysis
-  - parameters
-  question_text: How is mapping analysis different from parameters?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000035
-  course:
-    course_id: '24391'
-    title: Analyzing Data in Tableau
-  relevant_topics:
-  - groups, sets
-  - parameters
-  question_text: How is groups, sets different from parameters?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
 summary:
   topic_count: 5
   canonical_topic_count: 5
-  candidate_count: 35
-  accepted_count: 35
+  candidate_count: 11
+  accepted_count: 11
   rejected_count: 0
-  correct_count: 0
-  uncertain_count: 35
+  correct_count: 10
+  uncertain_count: 0

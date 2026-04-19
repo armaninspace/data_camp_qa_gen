@@ -121,108 +121,108 @@ extracted_topics:
 - topic_id: t001
   label: learn how to import
   topic_type: concept
-  description: 'Topic inferred from chapter heading: learn how to import'
+  description: 'Topic extracted from overview_inferred: learn how to import'
   evidence:
   - source: overview_inferred
     text: Learn how to import and clean data, calculate statistics, and create
-  confidence: 0.55
+  confidence: 0.75
 - topic_id: t002
   label: clean data, calculate statistics
   topic_type: concept
-  description: 'Topic inferred from chapter heading: clean data, calculate statistics'
+  description: 'Topic extracted from overview_inferred: clean data, calculate statistics'
   evidence:
   - source: overview_inferred
     text: Learn how to import and clean data, calculate statistics, and create
-  confidence: 0.55
+  confidence: 0.75
 - topic_id: t003
   label: create
   topic_type: concept
-  description: 'Topic inferred from chapter heading: create'
+  description: 'Topic extracted from overview_inferred: create'
   evidence:
   - source: overview_inferred
     text: Learn how to import and clean data, calculate statistics, and create
-  confidence: 0.55
+  confidence: 0.75
 - topic_id: t004
   label: discover data manipulation with pandas
   topic_type: concept
-  description: 'Topic inferred from chapter heading: discover data manipulation with
-    pandas'
+  description: 'Topic extracted from overview_inferred: discover data manipulation
+    with pandas'
   evidence:
   - source: overview_inferred
     text: Discover Data Manipulation with pandas
-  confidence: 0.45
+  confidence: 0.55
 - topic_id: t005
   label: with this course, you’ll learn why pandas is the world's most popular python
   topic_type: concept
-  description: 'Topic inferred from chapter heading: with this course, you’ll learn
+  description: 'Topic extracted from overview_inferred: with this course, you’ll learn
     why pandas is the world''s most popular python'
   evidence:
   - source: overview_inferred
     text: With this course, you’ll learn why pandas is the world's most popular Python
-  confidence: 0.45
+  confidence: 0.55
 - topic_id: t006
   label: library, used for everything from data manipulation to data analysis. you’ll
   topic_type: concept
-  description: 'Topic inferred from chapter heading: library, used for everything
+  description: 'Topic extracted from overview_inferred: library, used for everything
     from data manipulation to data analysis. you’ll'
   evidence:
   - source: overview_inferred
     text: library, used for everything from data manipulation to data analysis. You’ll
-  confidence: 0.45
+  confidence: 0.55
 - topic_id: t007
   label: explore how to manipulate dataframes, as you extract, filter
   topic_type: concept
-  description: 'Topic inferred from chapter heading: explore how to manipulate dataframes,
-    as you extract, filter'
+  description: 'Topic extracted from overview_inferred: explore how to manipulate
+    dataframes, as you extract, filter'
   evidence:
   - source: overview_inferred
     text: explore how to manipulate DataFrames, as you extract, filter, and transform
-  confidence: 0.55
+  confidence: 0.75
 - topic_id: t008
   label: transform
   topic_type: concept
-  description: 'Topic inferred from chapter heading: transform'
+  description: 'Topic extracted from overview_inferred: transform'
   evidence:
   - source: overview_inferred
     text: explore how to manipulate DataFrames, as you extract, filter, and transform
-  confidence: 0.55
+  confidence: 0.75
 - topic_id: t009
   label: with pandas, you’ll explore all the core data science concepts. using
   topic_type: concept
-  description: 'Topic inferred from chapter heading: with pandas, you’ll explore all
-    the core data science concepts. using'
+  description: 'Topic extracted from overview_inferred: with pandas, you’ll explore
+    all the core data science concepts. using'
   evidence:
   - source: overview_inferred
     text: With pandas, you’ll explore all the core data science concepts. Using
-  confidence: 0.45
+  confidence: 0.55
 - topic_id: t010
   label: real-world data, including walmart sales figures
   topic_type: concept
-  description: 'Topic inferred from chapter heading: real-world data, including walmart
-    sales figures'
+  description: 'Topic extracted from overview_inferred: real-world data, including
+    walmart sales figures'
   evidence:
   - source: overview_inferred
     text: real-world data, including Walmart sales figures and global temperature
       time
-  confidence: 0.55
+  confidence: 0.75
 - topic_id: t011
   label: global temperature time
   topic_type: concept
-  description: 'Topic inferred from chapter heading: global temperature time'
+  description: 'Topic extracted from overview_inferred: global temperature time'
   evidence:
   - source: overview_inferred
     text: real-world data, including Walmart sales figures and global temperature
       time
-  confidence: 0.55
+  confidence: 0.75
 - topic_id: t012
   label: series, you’ll learn how to import, clean, calculate statistics
   topic_type: concept
-  description: 'Topic inferred from chapter heading: series, you’ll learn how to import,
-    clean, calculate statistics'
+  description: 'Topic extracted from overview_inferred: series, you’ll learn how to
+    import, clean, calculate statistics'
   evidence:
   - source: overview_inferred
     text: series, you’ll learn how to import, clean, calculate statistics, and create
-  confidence: 0.55
+  confidence: 0.75
 canonical_topics:
 - canonical_topic_id: ct_001
   label: learn how to import
@@ -318,404 +318,150 @@ question_candidates:
 - candidate_id: q0002
   relevant_topics:
   - learn how to import
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does learn how to import mean?
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does learn how to import work?
 - candidate_id: q0003
-  relevant_topics:
-  - learn how to import
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does learn how to import matter?
-- candidate_id: q0004
-  relevant_topics:
-  - learn how to import
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use learn how to import?
-- candidate_id: q0005
-  relevant_topics:
-  - learn how to import
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of learn how to import?
-- candidate_id: q0006
   relevant_topics:
   - clean data, calculate statistics
   family: entry
   pattern: What is {x}?
   question_text: What is clean data, calculate statistics?
-- candidate_id: q0007
+- candidate_id: q0004
   relevant_topics:
   - clean data, calculate statistics
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does clean data, calculate statistics mean?
-- candidate_id: q0008
-  relevant_topics:
-  - clean data, calculate statistics
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does clean data, calculate statistics matter?
-- candidate_id: q0009
-  relevant_topics:
-  - clean data, calculate statistics
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use clean data, calculate statistics?
-- candidate_id: q0010
-  relevant_topics:
-  - clean data, calculate statistics
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of clean data, calculate statistics?
-- candidate_id: q0011
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does clean data, calculate statistics work?
+- candidate_id: q0005
   relevant_topics:
   - create
   family: entry
   pattern: What is {x}?
   question_text: What is create?
-- candidate_id: q0012
+- candidate_id: q0006
   relevant_topics:
   - create
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does create mean?
-- candidate_id: q0013
-  relevant_topics:
-  - create
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does create matter?
-- candidate_id: q0014
-  relevant_topics:
-  - create
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use create?
-- candidate_id: q0015
-  relevant_topics:
-  - create
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of create?
-- candidate_id: q0016
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does create work?
+- candidate_id: q0007
   relevant_topics:
   - discover data manipulation with pandas
   family: entry
   pattern: What is {x}?
   question_text: What is discover data manipulation with pandas?
-- candidate_id: q0017
+- candidate_id: q0008
   relevant_topics:
   - discover data manipulation with pandas
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does discover data manipulation with pandas mean?
-- candidate_id: q0018
-  relevant_topics:
-  - discover data manipulation with pandas
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does discover data manipulation with pandas matter?
-- candidate_id: q0019
-  relevant_topics:
-  - discover data manipulation with pandas
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use discover data manipulation with pandas?
-- candidate_id: q0020
-  relevant_topics:
-  - discover data manipulation with pandas
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of discover data manipulation with pandas?
-- candidate_id: q0021
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does discover data manipulation with pandas work?
+- candidate_id: q0009
   relevant_topics:
   - with this course, you’ll learn why pandas is world's most popular python
   family: entry
   pattern: What is {x}?
   question_text: What is with this course, you’ll learn why pandas is world's most
     popular python?
-- candidate_id: q0022
+- candidate_id: q0010
   relevant_topics:
   - with this course, you’ll learn why pandas is world's most popular python
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does with this course, you’ll learn why pandas is world's most
-    popular python mean?
-- candidate_id: q0023
-  relevant_topics:
-  - with this course, you’ll learn why pandas is world's most popular python
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does with this course, you’ll learn why pandas is world's most
-    popular python matter?
-- candidate_id: q0024
-  relevant_topics:
-  - with this course, you’ll learn why pandas is world's most popular python
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use with this course, you’ll learn why pandas is world's
-    most popular python?
-- candidate_id: q0025
-  relevant_topics:
-  - with this course, you’ll learn why pandas is world's most popular python
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of with this course, you’ll learn why pandas
-    is world's most popular python?
-- candidate_id: q0026
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does with this course, you’ll learn why pandas is world's most
+    popular python work?
+- candidate_id: q0011
   relevant_topics:
   - library, used for everything from data manipulation to data analysis. you’ll
   family: entry
   pattern: What is {x}?
   question_text: What is library, used for everything from data manipulation to data
     analysis. you’ll?
-- candidate_id: q0027
+- candidate_id: q0012
   relevant_topics:
   - library, used for everything from data manipulation to data analysis. you’ll
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does library, used for everything from data manipulation to
-    data analysis. you’ll mean?
-- candidate_id: q0028
-  relevant_topics:
-  - library, used for everything from data manipulation to data analysis. you’ll
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does library, used for everything from data manipulation to data
-    analysis. you’ll matter?
-- candidate_id: q0029
-  relevant_topics:
-  - library, used for everything from data manipulation to data analysis. you’ll
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use library, used for everything from data manipulation
-    to data analysis. you’ll?
-- candidate_id: q0030
-  relevant_topics:
-  - library, used for everything from data manipulation to data analysis. you’ll
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of library, used for everything from data
-    manipulation to data analysis. you’ll?
-- candidate_id: q0031
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does library, used for everything from data manipulation to data
+    analysis. you’ll work?
+- candidate_id: q0013
   relevant_topics:
   - explore how to manipulate dataframes, as you extract, filter
   family: entry
   pattern: What is {x}?
   question_text: What is explore how to manipulate dataframes, as you extract, filter?
-- candidate_id: q0032
+- candidate_id: q0014
   relevant_topics:
   - explore how to manipulate dataframes, as you extract, filter
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does explore how to manipulate dataframes, as you extract, filter
-    mean?
-- candidate_id: q0033
-  relevant_topics:
-  - explore how to manipulate dataframes, as you extract, filter
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does explore how to manipulate dataframes, as you extract, filter
-    matter?
-- candidate_id: q0034
-  relevant_topics:
-  - explore how to manipulate dataframes, as you extract, filter
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use explore how to manipulate dataframes, as you extract,
-    filter?
-- candidate_id: q0035
-  relevant_topics:
-  - explore how to manipulate dataframes, as you extract, filter
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of explore how to manipulate dataframes,
-    as you extract, filter?
-- candidate_id: q0036
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does explore how to manipulate dataframes, as you extract, filter
+    work?
+- candidate_id: q0015
   relevant_topics:
   - transform
   family: entry
   pattern: What is {x}?
   question_text: What is transform?
-- candidate_id: q0037
+- candidate_id: q0016
   relevant_topics:
   - transform
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does transform mean?
-- candidate_id: q0038
-  relevant_topics:
-  - transform
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does transform matter?
-- candidate_id: q0039
-  relevant_topics:
-  - transform
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use transform?
-- candidate_id: q0040
-  relevant_topics:
-  - transform
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of transform?
-- candidate_id: q0041
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does transform work?
+- candidate_id: q0017
   relevant_topics:
   - with pandas, you’ll explore all core data science concepts. using
   family: entry
   pattern: What is {x}?
   question_text: What is with pandas, you’ll explore all core data science concepts.
     using?
-- candidate_id: q0042
+- candidate_id: q0018
   relevant_topics:
   - with pandas, you’ll explore all core data science concepts. using
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does with pandas, you’ll explore all core data science concepts.
-    using mean?
-- candidate_id: q0043
-  relevant_topics:
-  - with pandas, you’ll explore all core data science concepts. using
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does with pandas, you’ll explore all core data science concepts.
-    using matter?
-- candidate_id: q0044
-  relevant_topics:
-  - with pandas, you’ll explore all core data science concepts. using
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use with pandas, you’ll explore all core data science concepts.
-    using?
-- candidate_id: q0045
-  relevant_topics:
-  - with pandas, you’ll explore all core data science concepts. using
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of with pandas, you’ll explore all core
-    data science concepts. using?
-- candidate_id: q0046
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does with pandas, you’ll explore all core data science concepts.
+    using work?
+- candidate_id: q0019
   relevant_topics:
   - real-world data, including walmart sales figures
   family: entry
   pattern: What is {x}?
   question_text: What is real-world data, including walmart sales figures?
-- candidate_id: q0047
+- candidate_id: q0020
   relevant_topics:
   - real-world data, including walmart sales figures
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does real-world data, including walmart sales figures mean?
-- candidate_id: q0048
-  relevant_topics:
-  - real-world data, including walmart sales figures
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does real-world data, including walmart sales figures matter?
-- candidate_id: q0049
-  relevant_topics:
-  - real-world data, including walmart sales figures
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use real-world data, including walmart sales figures?
-- candidate_id: q0050
-  relevant_topics:
-  - real-world data, including walmart sales figures
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of real-world data, including walmart sales
-    figures?
-- candidate_id: q0051
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does real-world data, including walmart sales figures work?
+- candidate_id: q0021
   relevant_topics:
   - global temperature time
   family: entry
   pattern: What is {x}?
   question_text: What is global temperature time?
-- candidate_id: q0052
+- candidate_id: q0022
   relevant_topics:
   - global temperature time
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does global temperature time mean?
-- candidate_id: q0053
-  relevant_topics:
-  - global temperature time
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does global temperature time matter?
-- candidate_id: q0054
-  relevant_topics:
-  - global temperature time
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use global temperature time?
-- candidate_id: q0055
-  relevant_topics:
-  - global temperature time
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of global temperature time?
-- candidate_id: q0056
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does global temperature time work?
+- candidate_id: q0023
   relevant_topics:
   - series, you’ll learn how to import, clean, calculate statistics
   family: entry
   pattern: What is {x}?
   question_text: What is series, you’ll learn how to import, clean, calculate statistics?
-- candidate_id: q0057
+- candidate_id: q0024
   relevant_topics:
   - series, you’ll learn how to import, clean, calculate statistics
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does series, you’ll learn how to import, clean, calculate statistics
-    mean?
-- candidate_id: q0058
-  relevant_topics:
-  - series, you’ll learn how to import, clean, calculate statistics
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does series, you’ll learn how to import, clean, calculate statistics
-    matter?
-- candidate_id: q0059
-  relevant_topics:
-  - series, you’ll learn how to import, clean, calculate statistics
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use series, you’ll learn how to import, clean, calculate
-    statistics?
-- candidate_id: q0060
-  relevant_topics:
-  - series, you’ll learn how to import, clean, calculate statistics
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of series, you’ll learn how to import, clean,
-    calculate statistics?
-- candidate_id: q0061
-  relevant_topics:
-  - learn how to import
-  - clean data, calculate statistics
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is learn how to import different from clean data, calculate statistics?
-- candidate_id: q0062
-  relevant_topics:
-  - learn how to import
-  - create
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is learn how to import different from create?
-- candidate_id: q0063
-  relevant_topics:
-  - learn how to import
-  - discover data manipulation with pandas
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is learn how to import different from discover data manipulation
-    with pandas?
-- candidate_id: q0064
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does series, you’ll learn how to import, clean, calculate statistics
+    work?
+- candidate_id: q0025
   relevant_topics:
   - learn how to import
   - with this course, you’ll learn why pandas is world's most popular python
@@ -723,7 +469,7 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is learn how to import different from with this course, you’ll
     learn why pandas is world's most popular python?
-- candidate_id: q0065
+- candidate_id: q0026
   relevant_topics:
   - learn how to import
   - library, used for everything from data manipulation to data analysis. you’ll
@@ -731,7 +477,7 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is learn how to import different from library, used for everything
     from data manipulation to data analysis. you’ll?
-- candidate_id: q0066
+- candidate_id: q0027
   relevant_topics:
   - learn how to import
   - explore how to manipulate dataframes, as you extract, filter
@@ -739,84 +485,15 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is learn how to import different from explore how to manipulate
     dataframes, as you extract, filter?
-- candidate_id: q0067
+- candidate_id: q0028
   relevant_topics:
   - learn how to import
-  - transform
+  - series, you’ll learn how to import, clean, calculate statistics
   family: comparison
   pattern: How is {x} different from {y}?
-  question_text: How is learn how to import different from transform?
-- candidate_id: q0068
-  relevant_topics:
-  - learn how to import
-  - with pandas, you’ll explore all core data science concepts. using
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is learn how to import different from with pandas, you’ll explore
-    all core data science concepts. using?
-- candidate_id: q0069
-  relevant_topics:
-  - learn how to import
-  - real-world data, including walmart sales figures
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is learn how to import different from real-world data, including
-    walmart sales figures?
-- candidate_id: q0070
-  relevant_topics:
-  - clean data, calculate statistics
-  - create
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is clean data, calculate statistics different from create?
-- candidate_id: q0071
-  relevant_topics:
-  - clean data, calculate statistics
-  - discover data manipulation with pandas
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is clean data, calculate statistics different from discover data
-    manipulation with pandas?
-- candidate_id: q0072
-  relevant_topics:
-  - clean data, calculate statistics
-  - with this course, you’ll learn why pandas is world's most popular python
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is clean data, calculate statistics different from with this
-    course, you’ll learn why pandas is world's most popular python?
-- candidate_id: q0073
-  relevant_topics:
-  - clean data, calculate statistics
-  - library, used for everything from data manipulation to data analysis. you’ll
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is clean data, calculate statistics different from library, used
-    for everything from data manipulation to data analysis. you’ll?
-- candidate_id: q0074
-  relevant_topics:
-  - clean data, calculate statistics
-  - explore how to manipulate dataframes, as you extract, filter
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is clean data, calculate statistics different from explore how
-    to manipulate dataframes, as you extract, filter?
-- candidate_id: q0075
-  relevant_topics:
-  - clean data, calculate statistics
-  - transform
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is clean data, calculate statistics different from transform?
-- candidate_id: q0076
-  relevant_topics:
-  - clean data, calculate statistics
-  - with pandas, you’ll explore all core data science concepts. using
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is clean data, calculate statistics different from with pandas,
-    you’ll explore all core data science concepts. using?
-- candidate_id: q0077
+  question_text: How is learn how to import different from series, you’ll learn how
+    to import, clean, calculate statistics?
+- candidate_id: q0029
   relevant_topics:
   - clean data, calculate statistics
   - real-world data, including walmart sales figures
@@ -824,61 +501,15 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is clean data, calculate statistics different from real-world
     data, including walmart sales figures?
-- candidate_id: q0078
+- candidate_id: q0030
   relevant_topics:
-  - create
-  - discover data manipulation with pandas
+  - clean data, calculate statistics
+  - series, you’ll learn how to import, clean, calculate statistics
   family: comparison
   pattern: How is {x} different from {y}?
-  question_text: How is create different from discover data manipulation with pandas?
-- candidate_id: q0079
-  relevant_topics:
-  - create
-  - with this course, you’ll learn why pandas is world's most popular python
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is create different from with this course, you’ll learn why pandas
-    is world's most popular python?
-- candidate_id: q0080
-  relevant_topics:
-  - create
-  - library, used for everything from data manipulation to data analysis. you’ll
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is create different from library, used for everything from data
-    manipulation to data analysis. you’ll?
-- candidate_id: q0081
-  relevant_topics:
-  - create
-  - explore how to manipulate dataframes, as you extract, filter
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is create different from explore how to manipulate dataframes,
-    as you extract, filter?
-- candidate_id: q0082
-  relevant_topics:
-  - create
-  - transform
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is create different from transform?
-- candidate_id: q0083
-  relevant_topics:
-  - create
-  - with pandas, you’ll explore all core data science concepts. using
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is create different from with pandas, you’ll explore all core
-    data science concepts. using?
-- candidate_id: q0084
-  relevant_topics:
-  - create
-  - real-world data, including walmart sales figures
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is create different from real-world data, including walmart sales
-    figures?
-- candidate_id: q0085
+  question_text: How is clean data, calculate statistics different from series, you’ll
+    learn how to import, clean, calculate statistics?
+- candidate_id: q0031
   relevant_topics:
   - discover data manipulation with pandas
   - with this course, you’ll learn why pandas is world's most popular python
@@ -886,7 +517,7 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is discover data manipulation with pandas different from with
     this course, you’ll learn why pandas is world's most popular python?
-- candidate_id: q0086
+- candidate_id: q0032
   relevant_topics:
   - discover data manipulation with pandas
   - library, used for everything from data manipulation to data analysis. you’ll
@@ -894,22 +525,7 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is discover data manipulation with pandas different from library,
     used for everything from data manipulation to data analysis. you’ll?
-- candidate_id: q0087
-  relevant_topics:
-  - discover data manipulation with pandas
-  - explore how to manipulate dataframes, as you extract, filter
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is discover data manipulation with pandas different from explore
-    how to manipulate dataframes, as you extract, filter?
-- candidate_id: q0088
-  relevant_topics:
-  - discover data manipulation with pandas
-  - transform
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is discover data manipulation with pandas different from transform?
-- candidate_id: q0089
+- candidate_id: q0033
   relevant_topics:
   - discover data manipulation with pandas
   - with pandas, you’ll explore all core data science concepts. using
@@ -917,15 +533,7 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is discover data manipulation with pandas different from with
     pandas, you’ll explore all core data science concepts. using?
-- candidate_id: q0090
-  relevant_topics:
-  - discover data manipulation with pandas
-  - real-world data, including walmart sales figures
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is discover data manipulation with pandas different from real-world
-    data, including walmart sales figures?
-- candidate_id: q0091
+- candidate_id: q0034
   relevant_topics:
   - with this course, you’ll learn why pandas is world's most popular python
   - library, used for everything from data manipulation to data analysis. you’ll
@@ -934,24 +542,7 @@ question_candidates:
   question_text: How is with this course, you’ll learn why pandas is world's most
     popular python different from library, used for everything from data manipulation
     to data analysis. you’ll?
-- candidate_id: q0092
-  relevant_topics:
-  - with this course, you’ll learn why pandas is world's most popular python
-  - explore how to manipulate dataframes, as you extract, filter
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is with this course, you’ll learn why pandas is world's most
-    popular python different from explore how to manipulate dataframes, as you extract,
-    filter?
-- candidate_id: q0093
-  relevant_topics:
-  - with this course, you’ll learn why pandas is world's most popular python
-  - transform
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is with this course, you’ll learn why pandas is world's most
-    popular python different from transform?
-- candidate_id: q0094
+- candidate_id: q0035
   relevant_topics:
   - with this course, you’ll learn why pandas is world's most popular python
   - with pandas, you’ll explore all core data science concepts. using
@@ -960,15 +551,16 @@ question_candidates:
   question_text: How is with this course, you’ll learn why pandas is world's most
     popular python different from with pandas, you’ll explore all core data science
     concepts. using?
-- candidate_id: q0095
+- candidate_id: q0036
   relevant_topics:
   - with this course, you’ll learn why pandas is world's most popular python
-  - real-world data, including walmart sales figures
+  - series, you’ll learn how to import, clean, calculate statistics
   family: comparison
   pattern: How is {x} different from {y}?
   question_text: How is with this course, you’ll learn why pandas is world's most
-    popular python different from real-world data, including walmart sales figures?
-- candidate_id: q0096
+    popular python different from series, you’ll learn how to import, clean, calculate
+    statistics?
+- candidate_id: q0037
   relevant_topics:
   - library, used for everything from data manipulation to data analysis. you’ll
   - explore how to manipulate dataframes, as you extract, filter
@@ -977,15 +569,7 @@ question_candidates:
   question_text: How is library, used for everything from data manipulation to data
     analysis. you’ll different from explore how to manipulate dataframes, as you extract,
     filter?
-- candidate_id: q0097
-  relevant_topics:
-  - library, used for everything from data manipulation to data analysis. you’ll
-  - transform
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is library, used for everything from data manipulation to data
-    analysis. you’ll different from transform?
-- candidate_id: q0098
+- candidate_id: q0038
   relevant_topics:
   - library, used for everything from data manipulation to data analysis. you’ll
   - with pandas, you’ll explore all core data science concepts. using
@@ -994,23 +578,16 @@ question_candidates:
   question_text: How is library, used for everything from data manipulation to data
     analysis. you’ll different from with pandas, you’ll explore all core data science
     concepts. using?
-- candidate_id: q0099
+- candidate_id: q0039
   relevant_topics:
   - library, used for everything from data manipulation to data analysis. you’ll
-  - real-world data, including walmart sales figures
+  - series, you’ll learn how to import, clean, calculate statistics
   family: comparison
   pattern: How is {x} different from {y}?
   question_text: How is library, used for everything from data manipulation to data
-    analysis. you’ll different from real-world data, including walmart sales figures?
-- candidate_id: q0100
-  relevant_topics:
-  - explore how to manipulate dataframes, as you extract, filter
-  - transform
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is explore how to manipulate dataframes, as you extract, filter
-    different from transform?
-- candidate_id: q0101
+    analysis. you’ll different from series, you’ll learn how to import, clean, calculate
+    statistics?
+- candidate_id: q0040
   relevant_topics:
   - explore how to manipulate dataframes, as you extract, filter
   - with pandas, you’ll explore all core data science concepts. using
@@ -1018,38 +595,22 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is explore how to manipulate dataframes, as you extract, filter
     different from with pandas, you’ll explore all core data science concepts. using?
-- candidate_id: q0102
+- candidate_id: q0041
   relevant_topics:
   - explore how to manipulate dataframes, as you extract, filter
-  - real-world data, including walmart sales figures
+  - series, you’ll learn how to import, clean, calculate statistics
   family: comparison
   pattern: How is {x} different from {y}?
   question_text: How is explore how to manipulate dataframes, as you extract, filter
-    different from real-world data, including walmart sales figures?
-- candidate_id: q0103
-  relevant_topics:
-  - transform
-  - with pandas, you’ll explore all core data science concepts. using
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is transform different from with pandas, you’ll explore all core
-    data science concepts. using?
-- candidate_id: q0104
-  relevant_topics:
-  - transform
-  - real-world data, including walmart sales figures
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is transform different from real-world data, including walmart
-    sales figures?
-- candidate_id: q0105
+    different from series, you’ll learn how to import, clean, calculate statistics?
+- candidate_id: q0042
   relevant_topics:
   - with pandas, you’ll explore all core data science concepts. using
-  - real-world data, including walmart sales figures
+  - series, you’ll learn how to import, clean, calculate statistics
   family: comparison
   pattern: How is {x} different from {y}?
   question_text: How is with pandas, you’ll explore all core data science concepts.
-    using different from real-world data, including walmart sales figures?
+    using different from series, you’ll learn how to import, clean, calculate statistics?
 question_repairs:
 - candidate_id: q0001
   status: accepted
@@ -1058,540 +619,199 @@ question_repairs:
   reject_reason: null
 - candidate_id: q0002
   status: accepted
-  original_text: What does learn how to import mean?
-  final_text: What does learn how to import mean?
+  original_text: How does learn how to import work?
+  final_text: How does learn how to import work?
   reject_reason: null
 - candidate_id: q0003
-  status: accepted
-  original_text: Why does learn how to import matter?
-  final_text: Why does learn how to import matter?
-  reject_reason: null
-- candidate_id: q0004
-  status: repaired
-  original_text: Why do we use learn how to import?
-  final_text: Why does learn how to import?
-  reject_reason: null
-- candidate_id: q0005
-  status: accepted
-  original_text: What is a simple example of learn how to import?
-  final_text: What is a simple example of learn how to import?
-  reject_reason: null
-- candidate_id: q0006
   status: accepted
   original_text: What is clean data, calculate statistics?
   final_text: What is clean data, calculate statistics?
   reject_reason: null
-- candidate_id: q0007
+- candidate_id: q0004
   status: accepted
-  original_text: What does clean data, calculate statistics mean?
-  final_text: What does clean data, calculate statistics mean?
+  original_text: How does clean data, calculate statistics work?
+  final_text: How does clean data, calculate statistics work?
   reject_reason: null
-- candidate_id: q0008
-  status: accepted
-  original_text: Why does clean data, calculate statistics matter?
-  final_text: Why does clean data, calculate statistics matter?
-  reject_reason: null
-- candidate_id: q0009
-  status: repaired
-  original_text: Why do we use clean data, calculate statistics?
-  final_text: Why does clean data, calculate statistics?
-  reject_reason: null
-- candidate_id: q0010
-  status: accepted
-  original_text: What is a simple example of clean data, calculate statistics?
-  final_text: What is a simple example of clean data, calculate statistics?
-  reject_reason: null
-- candidate_id: q0011
+- candidate_id: q0005
   status: accepted
   original_text: What is create?
   final_text: What is create?
   reject_reason: null
-- candidate_id: q0012
+- candidate_id: q0006
   status: accepted
-  original_text: What does create mean?
-  final_text: What does create mean?
+  original_text: How does create work?
+  final_text: How does create work?
   reject_reason: null
-- candidate_id: q0013
-  status: accepted
-  original_text: Why does create matter?
-  final_text: Why does create matter?
-  reject_reason: null
-- candidate_id: q0014
-  status: repaired
-  original_text: Why do we use create?
-  final_text: Why does create?
-  reject_reason: null
-- candidate_id: q0015
-  status: accepted
-  original_text: What is a simple example of create?
-  final_text: What is a simple example of create?
-  reject_reason: null
-- candidate_id: q0016
+- candidate_id: q0007
   status: accepted
   original_text: What is discover data manipulation with pandas?
   final_text: What is discover data manipulation with pandas?
   reject_reason: null
-- candidate_id: q0017
+- candidate_id: q0008
   status: accepted
-  original_text: What does discover data manipulation with pandas mean?
-  final_text: What does discover data manipulation with pandas mean?
+  original_text: How does discover data manipulation with pandas work?
+  final_text: How does discover data manipulation with pandas work?
   reject_reason: null
-- candidate_id: q0018
-  status: accepted
-  original_text: Why does discover data manipulation with pandas matter?
-  final_text: Why does discover data manipulation with pandas matter?
-  reject_reason: null
-- candidate_id: q0019
-  status: repaired
-  original_text: Why do we use discover data manipulation with pandas?
-  final_text: Why does discover data manipulation with pandas?
-  reject_reason: null
-- candidate_id: q0020
-  status: accepted
-  original_text: What is a simple example of discover data manipulation with pandas?
-  final_text: What is a simple example of discover data manipulation with pandas?
-  reject_reason: null
-- candidate_id: q0021
+- candidate_id: q0009
   status: accepted
   original_text: What is with this course, you’ll learn why pandas is world's most
     popular python?
   final_text: What is with this course, you’ll learn why pandas is world's most popular
     python?
   reject_reason: null
-- candidate_id: q0022
+- candidate_id: q0010
   status: accepted
-  original_text: What does with this course, you’ll learn why pandas is world's most
-    popular python mean?
-  final_text: What does with this course, you’ll learn why pandas is world's most
-    popular python mean?
+  original_text: How does with this course, you’ll learn why pandas is world's most
+    popular python work?
+  final_text: How does with this course, you’ll learn why pandas is world's most popular
+    python work?
   reject_reason: null
-- candidate_id: q0023
-  status: accepted
-  original_text: Why does with this course, you’ll learn why pandas is world's most
-    popular python matter?
-  final_text: Why does with this course, you’ll learn why pandas is world's most popular
-    python matter?
-  reject_reason: null
-- candidate_id: q0024
-  status: repaired
-  original_text: Why do we use with this course, you’ll learn why pandas is world's
-    most popular python?
-  final_text: Why does with this course, you’ll learn why pandas is world's most popular
-    python?
-  reject_reason: null
-- candidate_id: q0025
-  status: accepted
-  original_text: What is a simple example of with this course, you’ll learn why pandas
-    is world's most popular python?
-  final_text: What is a simple example of with this course, you’ll learn why pandas
-    is world's most popular python?
-  reject_reason: null
-- candidate_id: q0026
+- candidate_id: q0011
   status: accepted
   original_text: What is library, used for everything from data manipulation to data
     analysis. you’ll?
   final_text: What is library, used for everything from data manipulation to data
     analysis. you’ll?
   reject_reason: null
-- candidate_id: q0027
+- candidate_id: q0012
   status: accepted
-  original_text: What does library, used for everything from data manipulation to
-    data analysis. you’ll mean?
-  final_text: What does library, used for everything from data manipulation to data
-    analysis. you’ll mean?
+  original_text: How does library, used for everything from data manipulation to data
+    analysis. you’ll work?
+  final_text: How does library, used for everything from data manipulation to data
+    analysis. you’ll work?
   reject_reason: null
-- candidate_id: q0028
-  status: accepted
-  original_text: Why does library, used for everything from data manipulation to data
-    analysis. you’ll matter?
-  final_text: Why does library, used for everything from data manipulation to data
-    analysis. you’ll matter?
-  reject_reason: null
-- candidate_id: q0029
-  status: repaired
-  original_text: Why do we use library, used for everything from data manipulation
-    to data analysis. you’ll?
-  final_text: Why does library, used for everything from data manipulation to data
-    analysis. you’ll?
-  reject_reason: null
-- candidate_id: q0030
-  status: accepted
-  original_text: What is a simple example of library, used for everything from data
-    manipulation to data analysis. you’ll?
-  final_text: What is a simple example of library, used for everything from data manipulation
-    to data analysis. you’ll?
-  reject_reason: null
-- candidate_id: q0031
+- candidate_id: q0013
   status: accepted
   original_text: What is explore how to manipulate dataframes, as you extract, filter?
   final_text: What is explore how to manipulate dataframes, as you extract, filter?
   reject_reason: null
-- candidate_id: q0032
+- candidate_id: q0014
   status: accepted
-  original_text: What does explore how to manipulate dataframes, as you extract, filter
-    mean?
-  final_text: What does explore how to manipulate dataframes, as you extract, filter
-    mean?
+  original_text: How does explore how to manipulate dataframes, as you extract, filter
+    work?
+  final_text: How does explore how to manipulate dataframes, as you extract, filter
+    work?
   reject_reason: null
-- candidate_id: q0033
-  status: accepted
-  original_text: Why does explore how to manipulate dataframes, as you extract, filter
-    matter?
-  final_text: Why does explore how to manipulate dataframes, as you extract, filter
-    matter?
-  reject_reason: null
-- candidate_id: q0034
-  status: repaired
-  original_text: Why do we use explore how to manipulate dataframes, as you extract,
-    filter?
-  final_text: Why does explore how to manipulate dataframes, as you extract, filter?
-  reject_reason: null
-- candidate_id: q0035
-  status: accepted
-  original_text: What is a simple example of explore how to manipulate dataframes,
-    as you extract, filter?
-  final_text: What is a simple example of explore how to manipulate dataframes, as
-    you extract, filter?
-  reject_reason: null
-- candidate_id: q0036
+- candidate_id: q0015
   status: accepted
   original_text: What is transform?
   final_text: What is transform?
   reject_reason: null
-- candidate_id: q0037
+- candidate_id: q0016
   status: accepted
-  original_text: What does transform mean?
-  final_text: What does transform mean?
+  original_text: How does transform work?
+  final_text: How does transform work?
   reject_reason: null
-- candidate_id: q0038
-  status: accepted
-  original_text: Why does transform matter?
-  final_text: Why does transform matter?
-  reject_reason: null
-- candidate_id: q0039
-  status: repaired
-  original_text: Why do we use transform?
-  final_text: Why does transform?
-  reject_reason: null
-- candidate_id: q0040
-  status: accepted
-  original_text: What is a simple example of transform?
-  final_text: What is a simple example of transform?
-  reject_reason: null
-- candidate_id: q0041
+- candidate_id: q0017
   status: accepted
   original_text: What is with pandas, you’ll explore all core data science concepts.
     using?
   final_text: What is with pandas, you’ll explore all core data science concepts.
     using?
   reject_reason: null
-- candidate_id: q0042
+- candidate_id: q0018
   status: accepted
-  original_text: What does with pandas, you’ll explore all core data science concepts.
-    using mean?
-  final_text: What does with pandas, you’ll explore all core data science concepts.
-    using mean?
+  original_text: How does with pandas, you’ll explore all core data science concepts.
+    using work?
+  final_text: How does with pandas, you’ll explore all core data science concepts.
+    using work?
   reject_reason: null
-- candidate_id: q0043
-  status: accepted
-  original_text: Why does with pandas, you’ll explore all core data science concepts.
-    using matter?
-  final_text: Why does with pandas, you’ll explore all core data science concepts.
-    using matter?
-  reject_reason: null
-- candidate_id: q0044
-  status: repaired
-  original_text: Why do we use with pandas, you’ll explore all core data science concepts.
-    using?
-  final_text: Why does with pandas, you’ll explore all core data science concepts.
-    using?
-  reject_reason: null
-- candidate_id: q0045
-  status: accepted
-  original_text: What is a simple example of with pandas, you’ll explore all core
-    data science concepts. using?
-  final_text: What is a simple example of with pandas, you’ll explore all core data
-    science concepts. using?
-  reject_reason: null
-- candidate_id: q0046
+- candidate_id: q0019
   status: accepted
   original_text: What is real-world data, including walmart sales figures?
   final_text: What is real-world data, including walmart sales figures?
   reject_reason: null
-- candidate_id: q0047
+- candidate_id: q0020
   status: accepted
-  original_text: What does real-world data, including walmart sales figures mean?
-  final_text: What does real-world data, including walmart sales figures mean?
+  original_text: How does real-world data, including walmart sales figures work?
+  final_text: How does real-world data, including walmart sales figures work?
   reject_reason: null
-- candidate_id: q0048
-  status: accepted
-  original_text: Why does real-world data, including walmart sales figures matter?
-  final_text: Why does real-world data, including walmart sales figures matter?
-  reject_reason: null
-- candidate_id: q0049
-  status: repaired
-  original_text: Why do we use real-world data, including walmart sales figures?
-  final_text: Why does real-world data, including walmart sales figures?
-  reject_reason: null
-- candidate_id: q0050
-  status: accepted
-  original_text: What is a simple example of real-world data, including walmart sales
-    figures?
-  final_text: What is a simple example of real-world data, including walmart sales
-    figures?
-  reject_reason: null
-- candidate_id: q0051
+- candidate_id: q0021
   status: accepted
   original_text: What is global temperature time?
   final_text: What is global temperature time?
   reject_reason: null
-- candidate_id: q0052
+- candidate_id: q0022
   status: accepted
-  original_text: What does global temperature time mean?
-  final_text: What does global temperature time mean?
+  original_text: How does global temperature time work?
+  final_text: How does global temperature time work?
   reject_reason: null
-- candidate_id: q0053
-  status: accepted
-  original_text: Why does global temperature time matter?
-  final_text: Why does global temperature time matter?
-  reject_reason: null
-- candidate_id: q0054
-  status: repaired
-  original_text: Why do we use global temperature time?
-  final_text: Why does global temperature time?
-  reject_reason: null
-- candidate_id: q0055
-  status: accepted
-  original_text: What is a simple example of global temperature time?
-  final_text: What is a simple example of global temperature time?
-  reject_reason: null
-- candidate_id: q0056
+- candidate_id: q0023
   status: accepted
   original_text: What is series, you’ll learn how to import, clean, calculate statistics?
   final_text: What is series, you’ll learn how to import, clean, calculate statistics?
   reject_reason: null
-- candidate_id: q0057
+- candidate_id: q0024
   status: accepted
-  original_text: What does series, you’ll learn how to import, clean, calculate statistics
-    mean?
-  final_text: What does series, you’ll learn how to import, clean, calculate statistics
-    mean?
+  original_text: How does series, you’ll learn how to import, clean, calculate statistics
+    work?
+  final_text: How does series, you’ll learn how to import, clean, calculate statistics
+    work?
   reject_reason: null
-- candidate_id: q0058
-  status: accepted
-  original_text: Why does series, you’ll learn how to import, clean, calculate statistics
-    matter?
-  final_text: Why does series, you’ll learn how to import, clean, calculate statistics
-    matter?
-  reject_reason: null
-- candidate_id: q0059
-  status: repaired
-  original_text: Why do we use series, you’ll learn how to import, clean, calculate
-    statistics?
-  final_text: Why does series, you’ll learn how to import, clean, calculate statistics?
-  reject_reason: null
-- candidate_id: q0060
-  status: accepted
-  original_text: What is a simple example of series, you’ll learn how to import, clean,
-    calculate statistics?
-  final_text: What is a simple example of series, you’ll learn how to import, clean,
-    calculate statistics?
-  reject_reason: null
-- candidate_id: q0061
-  status: accepted
-  original_text: How is learn how to import different from clean data, calculate statistics?
-  final_text: How is learn how to import different from clean data, calculate statistics?
-  reject_reason: null
-- candidate_id: q0062
-  status: accepted
-  original_text: How is learn how to import different from create?
-  final_text: How is learn how to import different from create?
-  reject_reason: null
-- candidate_id: q0063
-  status: accepted
-  original_text: How is learn how to import different from discover data manipulation
-    with pandas?
-  final_text: How is learn how to import different from discover data manipulation
-    with pandas?
-  reject_reason: null
-- candidate_id: q0064
+- candidate_id: q0025
   status: accepted
   original_text: How is learn how to import different from with this course, you’ll
     learn why pandas is world's most popular python?
   final_text: How is learn how to import different from with this course, you’ll learn
     why pandas is world's most popular python?
   reject_reason: null
-- candidate_id: q0065
+- candidate_id: q0026
   status: accepted
   original_text: How is learn how to import different from library, used for everything
     from data manipulation to data analysis. you’ll?
   final_text: How is learn how to import different from library, used for everything
     from data manipulation to data analysis. you’ll?
   reject_reason: null
-- candidate_id: q0066
+- candidate_id: q0027
   status: accepted
   original_text: How is learn how to import different from explore how to manipulate
     dataframes, as you extract, filter?
   final_text: How is learn how to import different from explore how to manipulate
     dataframes, as you extract, filter?
   reject_reason: null
-- candidate_id: q0067
+- candidate_id: q0028
   status: accepted
-  original_text: How is learn how to import different from transform?
-  final_text: How is learn how to import different from transform?
+  original_text: How is learn how to import different from series, you’ll learn how
+    to import, clean, calculate statistics?
+  final_text: How is learn how to import different from series, you’ll learn how to
+    import, clean, calculate statistics?
   reject_reason: null
-- candidate_id: q0068
-  status: accepted
-  original_text: How is learn how to import different from with pandas, you’ll explore
-    all core data science concepts. using?
-  final_text: How is learn how to import different from with pandas, you’ll explore
-    all core data science concepts. using?
-  reject_reason: null
-- candidate_id: q0069
-  status: accepted
-  original_text: How is learn how to import different from real-world data, including
-    walmart sales figures?
-  final_text: How is learn how to import different from real-world data, including
-    walmart sales figures?
-  reject_reason: null
-- candidate_id: q0070
-  status: accepted
-  original_text: How is clean data, calculate statistics different from create?
-  final_text: How is clean data, calculate statistics different from create?
-  reject_reason: null
-- candidate_id: q0071
-  status: accepted
-  original_text: How is clean data, calculate statistics different from discover data
-    manipulation with pandas?
-  final_text: How is clean data, calculate statistics different from discover data
-    manipulation with pandas?
-  reject_reason: null
-- candidate_id: q0072
-  status: accepted
-  original_text: How is clean data, calculate statistics different from with this
-    course, you’ll learn why pandas is world's most popular python?
-  final_text: How is clean data, calculate statistics different from with this course,
-    you’ll learn why pandas is world's most popular python?
-  reject_reason: null
-- candidate_id: q0073
-  status: accepted
-  original_text: How is clean data, calculate statistics different from library, used
-    for everything from data manipulation to data analysis. you’ll?
-  final_text: How is clean data, calculate statistics different from library, used
-    for everything from data manipulation to data analysis. you’ll?
-  reject_reason: null
-- candidate_id: q0074
-  status: accepted
-  original_text: How is clean data, calculate statistics different from explore how
-    to manipulate dataframes, as you extract, filter?
-  final_text: How is clean data, calculate statistics different from explore how to
-    manipulate dataframes, as you extract, filter?
-  reject_reason: null
-- candidate_id: q0075
-  status: accepted
-  original_text: How is clean data, calculate statistics different from transform?
-  final_text: How is clean data, calculate statistics different from transform?
-  reject_reason: null
-- candidate_id: q0076
-  status: accepted
-  original_text: How is clean data, calculate statistics different from with pandas,
-    you’ll explore all core data science concepts. using?
-  final_text: How is clean data, calculate statistics different from with pandas,
-    you’ll explore all core data science concepts. using?
-  reject_reason: null
-- candidate_id: q0077
+- candidate_id: q0029
   status: accepted
   original_text: How is clean data, calculate statistics different from real-world
     data, including walmart sales figures?
   final_text: How is clean data, calculate statistics different from real-world data,
     including walmart sales figures?
   reject_reason: null
-- candidate_id: q0078
+- candidate_id: q0030
   status: accepted
-  original_text: How is create different from discover data manipulation with pandas?
-  final_text: How is create different from discover data manipulation with pandas?
+  original_text: How is clean data, calculate statistics different from series, you’ll
+    learn how to import, clean, calculate statistics?
+  final_text: How is clean data, calculate statistics different from series, you’ll
+    learn how to import, clean, calculate statistics?
   reject_reason: null
-- candidate_id: q0079
-  status: accepted
-  original_text: How is create different from with this course, you’ll learn why pandas
-    is world's most popular python?
-  final_text: How is create different from with this course, you’ll learn why pandas
-    is world's most popular python?
-  reject_reason: null
-- candidate_id: q0080
-  status: accepted
-  original_text: How is create different from library, used for everything from data
-    manipulation to data analysis. you’ll?
-  final_text: How is create different from library, used for everything from data
-    manipulation to data analysis. you’ll?
-  reject_reason: null
-- candidate_id: q0081
-  status: accepted
-  original_text: How is create different from explore how to manipulate dataframes,
-    as you extract, filter?
-  final_text: How is create different from explore how to manipulate dataframes, as
-    you extract, filter?
-  reject_reason: null
-- candidate_id: q0082
-  status: accepted
-  original_text: How is create different from transform?
-  final_text: How is create different from transform?
-  reject_reason: null
-- candidate_id: q0083
-  status: accepted
-  original_text: How is create different from with pandas, you’ll explore all core
-    data science concepts. using?
-  final_text: How is create different from with pandas, you’ll explore all core data
-    science concepts. using?
-  reject_reason: null
-- candidate_id: q0084
-  status: accepted
-  original_text: How is create different from real-world data, including walmart sales
-    figures?
-  final_text: How is create different from real-world data, including walmart sales
-    figures?
-  reject_reason: null
-- candidate_id: q0085
+- candidate_id: q0031
   status: accepted
   original_text: How is discover data manipulation with pandas different from with
     this course, you’ll learn why pandas is world's most popular python?
   final_text: How is discover data manipulation with pandas different from with this
     course, you’ll learn why pandas is world's most popular python?
   reject_reason: null
-- candidate_id: q0086
+- candidate_id: q0032
   status: accepted
   original_text: How is discover data manipulation with pandas different from library,
     used for everything from data manipulation to data analysis. you’ll?
   final_text: How is discover data manipulation with pandas different from library,
     used for everything from data manipulation to data analysis. you’ll?
   reject_reason: null
-- candidate_id: q0087
-  status: accepted
-  original_text: How is discover data manipulation with pandas different from explore
-    how to manipulate dataframes, as you extract, filter?
-  final_text: How is discover data manipulation with pandas different from explore
-    how to manipulate dataframes, as you extract, filter?
-  reject_reason: null
-- candidate_id: q0088
-  status: accepted
-  original_text: How is discover data manipulation with pandas different from transform?
-  final_text: How is discover data manipulation with pandas different from transform?
-  reject_reason: null
-- candidate_id: q0089
+- candidate_id: q0033
   status: accepted
   original_text: How is discover data manipulation with pandas different from with
     pandas, you’ll explore all core data science concepts. using?
   final_text: How is discover data manipulation with pandas different from with pandas,
     you’ll explore all core data science concepts. using?
   reject_reason: null
-- candidate_id: q0090
-  status: accepted
-  original_text: How is discover data manipulation with pandas different from real-world
-    data, including walmart sales figures?
-  final_text: How is discover data manipulation with pandas different from real-world
-    data, including walmart sales figures?
-  reject_reason: null
-- candidate_id: q0091
+- candidate_id: q0034
   status: accepted
   original_text: How is with this course, you’ll learn why pandas is world's most
     popular python different from library, used for everything from data manipulation
@@ -1600,22 +820,7 @@ question_repairs:
     python different from library, used for everything from data manipulation to data
     analysis. you’ll?
   reject_reason: null
-- candidate_id: q0092
-  status: accepted
-  original_text: How is with this course, you’ll learn why pandas is world's most
-    popular python different from explore how to manipulate dataframes, as you extract,
-    filter?
-  final_text: How is with this course, you’ll learn why pandas is world's most popular
-    python different from explore how to manipulate dataframes, as you extract, filter?
-  reject_reason: null
-- candidate_id: q0093
-  status: accepted
-  original_text: How is with this course, you’ll learn why pandas is world's most
-    popular python different from transform?
-  final_text: How is with this course, you’ll learn why pandas is world's most popular
-    python different from transform?
-  reject_reason: null
-- candidate_id: q0094
+- candidate_id: q0035
   status: accepted
   original_text: How is with this course, you’ll learn why pandas is world's most
     popular python different from with pandas, you’ll explore all core data science
@@ -1624,14 +829,15 @@ question_repairs:
     python different from with pandas, you’ll explore all core data science concepts.
     using?
   reject_reason: null
-- candidate_id: q0095
+- candidate_id: q0036
   status: accepted
   original_text: How is with this course, you’ll learn why pandas is world's most
-    popular python different from real-world data, including walmart sales figures?
+    popular python different from series, you’ll learn how to import, clean, calculate
+    statistics?
   final_text: How is with this course, you’ll learn why pandas is world's most popular
-    python different from real-world data, including walmart sales figures?
+    python different from series, you’ll learn how to import, clean, calculate statistics?
   reject_reason: null
-- candidate_id: q0096
+- candidate_id: q0037
   status: accepted
   original_text: How is library, used for everything from data manipulation to data
     analysis. you’ll different from explore how to manipulate dataframes, as you extract,
@@ -1639,14 +845,7 @@ question_repairs:
   final_text: How is library, used for everything from data manipulation to data analysis.
     you’ll different from explore how to manipulate dataframes, as you extract, filter?
   reject_reason: null
-- candidate_id: q0097
-  status: accepted
-  original_text: How is library, used for everything from data manipulation to data
-    analysis. you’ll different from transform?
-  final_text: How is library, used for everything from data manipulation to data analysis.
-    you’ll different from transform?
-  reject_reason: null
-- candidate_id: q0098
+- candidate_id: q0038
   status: accepted
   original_text: How is library, used for everything from data manipulation to data
     analysis. you’ll different from with pandas, you’ll explore all core data science
@@ -1655,855 +854,202 @@ question_repairs:
     you’ll different from with pandas, you’ll explore all core data science concepts.
     using?
   reject_reason: null
-- candidate_id: q0099
+- candidate_id: q0039
   status: accepted
   original_text: How is library, used for everything from data manipulation to data
-    analysis. you’ll different from real-world data, including walmart sales figures?
+    analysis. you’ll different from series, you’ll learn how to import, clean, calculate
+    statistics?
   final_text: How is library, used for everything from data manipulation to data analysis.
-    you’ll different from real-world data, including walmart sales figures?
+    you’ll different from series, you’ll learn how to import, clean, calculate statistics?
   reject_reason: null
-- candidate_id: q0100
-  status: accepted
-  original_text: How is explore how to manipulate dataframes, as you extract, filter
-    different from transform?
-  final_text: How is explore how to manipulate dataframes, as you extract, filter
-    different from transform?
-  reject_reason: null
-- candidate_id: q0101
+- candidate_id: q0040
   status: accepted
   original_text: How is explore how to manipulate dataframes, as you extract, filter
     different from with pandas, you’ll explore all core data science concepts. using?
   final_text: How is explore how to manipulate dataframes, as you extract, filter
     different from with pandas, you’ll explore all core data science concepts. using?
   reject_reason: null
-- candidate_id: q0102
+- candidate_id: q0041
   status: accepted
   original_text: How is explore how to manipulate dataframes, as you extract, filter
-    different from real-world data, including walmart sales figures?
+    different from series, you’ll learn how to import, clean, calculate statistics?
   final_text: How is explore how to manipulate dataframes, as you extract, filter
-    different from real-world data, including walmart sales figures?
+    different from series, you’ll learn how to import, clean, calculate statistics?
   reject_reason: null
-- candidate_id: q0103
-  status: accepted
-  original_text: How is transform different from with pandas, you’ll explore all core
-    data science concepts. using?
-  final_text: How is transform different from with pandas, you’ll explore all core
-    data science concepts. using?
-  reject_reason: null
-- candidate_id: q0104
-  status: accepted
-  original_text: How is transform different from real-world data, including walmart
-    sales figures?
-  final_text: How is transform different from real-world data, including walmart sales
-    figures?
-  reject_reason: null
-- candidate_id: q0105
+- candidate_id: q0042
   status: accepted
   original_text: How is with pandas, you’ll explore all core data science concepts.
-    using different from real-world data, including walmart sales figures?
+    using different from series, you’ll learn how to import, clean, calculate statistics?
   final_text: How is with pandas, you’ll explore all core data science concepts. using
-    different from real-world data, including walmart sales figures?
+    different from series, you’ll learn how to import, clean, calculate statistics?
   reject_reason: null
 answers:
 - question_id: q0001
   question_text: What is learn how to import?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
+  answer_text: Learn how to import and clean data, calculate statistics, and create
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: summary
+    text: Learn how to import and clean data, calculate statistics, and create
 - question_id: q0002
-  question_text: What does learn how to import mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
+  question_text: How does learn how to import work?
+  answer_text: Learn how to import and clean data, calculate statistics, and create
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: summary
+    text: Learn how to import and clean data, calculate statistics, and create
 - question_id: q0003
-  question_text: Why does learn how to import matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0004
-  question_text: Why does learn how to import?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0005
-  question_text: What is a simple example of learn how to import?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0006
   question_text: What is clean data, calculate statistics?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0007
-  question_text: What does clean data, calculate statistics mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0008
-  question_text: Why does clean data, calculate statistics matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0009
-  question_text: Why does clean data, calculate statistics?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0010
-  question_text: What is a simple example of clean data, calculate statistics?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0011
+  answer_text: Learn how to import and clean data, calculate statistics, and create
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: summary
+    text: Learn how to import and clean data, calculate statistics, and create
+- question_id: q0004
+  question_text: How does clean data, calculate statistics work?
+  answer_text: Learn how to import and clean data, calculate statistics, and create
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: summary
+    text: Learn how to import and clean data, calculate statistics, and create
+- question_id: q0005
   question_text: What is create?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0012
-  question_text: What does create mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0013
-  question_text: Why does create matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0014
-  question_text: Why does create?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0015
-  question_text: What is a simple example of create?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0016
+  answer_text: Learn how to import and clean data, calculate statistics, and create
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: summary
+    text: Learn how to import and clean data, calculate statistics, and create
+- question_id: q0006
+  question_text: How does create work?
+  answer_text: Learn how to import and clean data, calculate statistics, and create
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: summary
+    text: Learn how to import and clean data, calculate statistics, and create
+- question_id: q0007
   question_text: What is discover data manipulation with pandas?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0017
-  question_text: What does discover data manipulation with pandas mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0018
-  question_text: Why does discover data manipulation with pandas matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0019
-  question_text: Why does discover data manipulation with pandas?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0020
-  question_text: What is a simple example of discover data manipulation with pandas?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0021
-  question_text: What is with this course, you’ll learn why pandas is world's most
-    popular python?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0022
-  question_text: What does with this course, you’ll learn why pandas is world's most
-    popular python mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0023
-  question_text: Why does with this course, you’ll learn why pandas is world's most
-    popular python matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0024
-  question_text: Why does with this course, you’ll learn why pandas is world's most
-    popular python?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0025
-  question_text: What is a simple example of with this course, you’ll learn why pandas
-    is world's most popular python?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0026
-  question_text: What is library, used for everything from data manipulation to data
-    analysis. you’ll?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0027
-  question_text: What does library, used for everything from data manipulation to
-    data analysis. you’ll mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0028
-  question_text: Why does library, used for everything from data manipulation to data
-    analysis. you’ll matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0029
-  question_text: Why does library, used for everything from data manipulation to data
-    analysis. you’ll?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0030
-  question_text: What is a simple example of library, used for everything from data
-    manipulation to data analysis. you’ll?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0031
+  answer_text: Discover Data Manipulation with pandas
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: Discover Data Manipulation with pandas
+- question_id: q0008
+  question_text: How does discover data manipulation with pandas work?
+  answer_text: Discover Data Manipulation with pandas
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: Discover Data Manipulation with pandas
+- question_id: q0013
   question_text: What is explore how to manipulate dataframes, as you extract, filter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0032
-  question_text: What does explore how to manipulate dataframes, as you extract, filter
-    mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0033
-  question_text: Why does explore how to manipulate dataframes, as you extract, filter
-    matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0034
-  question_text: Why does explore how to manipulate dataframes, as you extract, filter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0035
-  question_text: What is a simple example of explore how to manipulate dataframes,
-    as you extract, filter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0036
+  answer_text: explore how to manipulate DataFrames, as you extract, filter, and transform
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: explore how to manipulate DataFrames, as you extract, filter, and transform
+- question_id: q0014
+  question_text: How does explore how to manipulate dataframes, as you extract, filter
+    work?
+  answer_text: explore how to manipulate DataFrames, as you extract, filter, and transform
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: explore how to manipulate DataFrames, as you extract, filter, and transform
+- question_id: q0015
   question_text: What is transform?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0037
-  question_text: What does transform mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0038
-  question_text: Why does transform matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0039
-  question_text: Why does transform?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0040
-  question_text: What is a simple example of transform?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0041
-  question_text: What is with pandas, you’ll explore all core data science concepts.
-    using?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0042
-  question_text: What does with pandas, you’ll explore all core data science concepts.
-    using mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0043
-  question_text: Why does with pandas, you’ll explore all core data science concepts.
-    using matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0044
-  question_text: Why does with pandas, you’ll explore all core data science concepts.
-    using?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0045
-  question_text: What is a simple example of with pandas, you’ll explore all core
-    data science concepts. using?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0046
+  answer_text: explore how to manipulate DataFrames, as you extract, filter, and transform
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: explore how to manipulate DataFrames, as you extract, filter, and transform
+- question_id: q0016
+  question_text: How does transform work?
+  answer_text: explore how to manipulate DataFrames, as you extract, filter, and transform
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: explore how to manipulate DataFrames, as you extract, filter, and transform
+- question_id: q0019
   question_text: What is real-world data, including walmart sales figures?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0047
-  question_text: What does real-world data, including walmart sales figures mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0048
-  question_text: Why does real-world data, including walmart sales figures matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0049
-  question_text: Why does real-world data, including walmart sales figures?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0050
-  question_text: What is a simple example of real-world data, including walmart sales
-    figures?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0051
+  answer_text: real-world data, including Walmart sales figures and global temperature
+    time
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: real-world data, including Walmart sales figures and global temperature
+      time
+- question_id: q0020
+  question_text: How does real-world data, including walmart sales figures work?
+  answer_text: real-world data, including Walmart sales figures and global temperature
+    time
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: real-world data, including Walmart sales figures and global temperature
+      time
+- question_id: q0021
   question_text: What is global temperature time?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0052
-  question_text: What does global temperature time mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0053
-  question_text: Why does global temperature time matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0054
-  question_text: Why does global temperature time?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0055
-  question_text: What is a simple example of global temperature time?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0056
+  answer_text: real-world data, including Walmart sales figures and global temperature
+    time
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: real-world data, including Walmart sales figures and global temperature
+      time
+- question_id: q0022
+  question_text: How does global temperature time work?
+  answer_text: real-world data, including Walmart sales figures and global temperature
+    time
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: real-world data, including Walmart sales figures and global temperature
+      time
+- question_id: q0023
   question_text: What is series, you’ll learn how to import, clean, calculate statistics?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0057
-  question_text: What does series, you’ll learn how to import, clean, calculate statistics
-    mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0058
-  question_text: Why does series, you’ll learn how to import, clean, calculate statistics
-    matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0059
-  question_text: Why does series, you’ll learn how to import, clean, calculate statistics?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0060
-  question_text: What is a simple example of series, you’ll learn how to import, clean,
-    calculate statistics?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0061
-  question_text: How is learn how to import different from clean data, calculate statistics?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0062
-  question_text: How is learn how to import different from create?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0063
-  question_text: How is learn how to import different from discover data manipulation
-    with pandas?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0064
-  question_text: How is learn how to import different from with this course, you’ll
-    learn why pandas is world's most popular python?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0065
-  question_text: How is learn how to import different from library, used for everything
-    from data manipulation to data analysis. you’ll?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0066
-  question_text: How is learn how to import different from explore how to manipulate
-    dataframes, as you extract, filter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0067
-  question_text: How is learn how to import different from transform?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0068
-  question_text: How is learn how to import different from with pandas, you’ll explore
-    all core data science concepts. using?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0069
-  question_text: How is learn how to import different from real-world data, including
-    walmart sales figures?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0070
-  question_text: How is clean data, calculate statistics different from create?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0071
-  question_text: How is clean data, calculate statistics different from discover data
-    manipulation with pandas?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0072
-  question_text: How is clean data, calculate statistics different from with this
-    course, you’ll learn why pandas is world's most popular python?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0073
-  question_text: How is clean data, calculate statistics different from library, used
-    for everything from data manipulation to data analysis. you’ll?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0074
-  question_text: How is clean data, calculate statistics different from explore how
-    to manipulate dataframes, as you extract, filter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0075
-  question_text: How is clean data, calculate statistics different from transform?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0076
-  question_text: How is clean data, calculate statistics different from with pandas,
-    you’ll explore all core data science concepts. using?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0077
-  question_text: How is clean data, calculate statistics different from real-world
-    data, including walmart sales figures?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0078
-  question_text: How is create different from discover data manipulation with pandas?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0079
-  question_text: How is create different from with this course, you’ll learn why pandas
-    is world's most popular python?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0080
-  question_text: How is create different from library, used for everything from data
-    manipulation to data analysis. you’ll?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0081
-  question_text: How is create different from explore how to manipulate dataframes,
-    as you extract, filter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0082
-  question_text: How is create different from transform?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0083
-  question_text: How is create different from with pandas, you’ll explore all core
-    data science concepts. using?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0084
-  question_text: How is create different from real-world data, including walmart sales
-    figures?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0085
-  question_text: How is discover data manipulation with pandas different from with
-    this course, you’ll learn why pandas is world's most popular python?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0086
-  question_text: How is discover data manipulation with pandas different from library,
-    used for everything from data manipulation to data analysis. you’ll?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0087
-  question_text: How is discover data manipulation with pandas different from explore
-    how to manipulate dataframes, as you extract, filter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0088
-  question_text: How is discover data manipulation with pandas different from transform?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0089
-  question_text: How is discover data manipulation with pandas different from with
-    pandas, you’ll explore all core data science concepts. using?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0090
-  question_text: How is discover data manipulation with pandas different from real-world
-    data, including walmart sales figures?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0091
-  question_text: How is with this course, you’ll learn why pandas is world's most
-    popular python different from library, used for everything from data manipulation
-    to data analysis. you’ll?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0092
-  question_text: How is with this course, you’ll learn why pandas is world's most
-    popular python different from explore how to manipulate dataframes, as you extract,
-    filter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0093
-  question_text: How is with this course, you’ll learn why pandas is world's most
-    popular python different from transform?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0094
-  question_text: How is with this course, you’ll learn why pandas is world's most
-    popular python different from with pandas, you’ll explore all core data science
-    concepts. using?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0095
-  question_text: How is with this course, you’ll learn why pandas is world's most
-    popular python different from real-world data, including walmart sales figures?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0096
-  question_text: How is library, used for everything from data manipulation to data
-    analysis. you’ll different from explore how to manipulate dataframes, as you extract,
-    filter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0097
-  question_text: How is library, used for everything from data manipulation to data
-    analysis. you’ll different from transform?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0098
-  question_text: How is library, used for everything from data manipulation to data
-    analysis. you’ll different from with pandas, you’ll explore all core data science
-    concepts. using?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0099
-  question_text: How is library, used for everything from data manipulation to data
-    analysis. you’ll different from real-world data, including walmart sales figures?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0100
-  question_text: How is explore how to manipulate dataframes, as you extract, filter
-    different from transform?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0101
-  question_text: How is explore how to manipulate dataframes, as you extract, filter
-    different from with pandas, you’ll explore all core data science concepts. using?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0102
-  question_text: How is explore how to manipulate dataframes, as you extract, filter
-    different from real-world data, including walmart sales figures?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0103
-  question_text: How is transform different from with pandas, you’ll explore all core
-    data science concepts. using?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0104
-  question_text: How is transform different from real-world data, including walmart
-    sales figures?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0105
-  question_text: How is with pandas, you’ll explore all core data science concepts.
-    using different from real-world data, including walmart sales figures?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
+  answer_text: series, you’ll learn how to import, clean, calculate statistics, and
+    create
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: series, you’ll learn how to import, clean, calculate statistics, and create
+- question_id: q0024
+  question_text: How does series, you’ll learn how to import, clean, calculate statistics
+    work?
+  answer_text: series, you’ll learn how to import, clean, calculate statistics, and
+    create
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: series, you’ll learn how to import, clean, calculate statistics, and create
+- question_id: q0028
+  question_text: How is learn how to import different from series, you’ll learn how
+    to import, clean, calculate statistics?
+  answer_text: series, you’ll learn how to import, clean, calculate statistics, and
+    create
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: series, you’ll learn how to import, clean, calculate statistics, and create
 final_rows:
 - row_id: r_000001
   course:
@@ -2512,280 +1058,120 @@ final_rows:
   relevant_topics:
   - learn how to import
   question_text: What is learn how to import?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Learn how to import and clean data, calculate statistics, and create
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: summary
+    text: Learn how to import and clean data, calculate statistics, and create
 - row_id: r_000002
   course:
     course_id: '24374'
     title: series, you’ll learn how to import, clean, calculate statistics, and create
   relevant_topics:
   - learn how to import
-  question_text: What does learn how to import mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does learn how to import work?
+  question_answer: Learn how to import and clean data, calculate statistics, and create
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: summary
+    text: Learn how to import and clean data, calculate statistics, and create
 - row_id: r_000003
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - learn how to import
-  question_text: Why does learn how to import matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000004
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - learn how to import
-  question_text: Why does learn how to import?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000005
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - learn how to import
-  question_text: What is a simple example of learn how to import?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000006
   course:
     course_id: '24374'
     title: series, you’ll learn how to import, clean, calculate statistics, and create
   relevant_topics:
   - clean data, calculate statistics
   question_text: What is clean data, calculate statistics?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Learn how to import and clean data, calculate statistics, and create
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000007
+  source_evidence:
+  - source: summary
+    text: Learn how to import and clean data, calculate statistics, and create
+- row_id: r_000004
   course:
     course_id: '24374'
     title: series, you’ll learn how to import, clean, calculate statistics, and create
   relevant_topics:
   - clean data, calculate statistics
-  question_text: What does clean data, calculate statistics mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does clean data, calculate statistics work?
+  question_answer: Learn how to import and clean data, calculate statistics, and create
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000008
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - clean data, calculate statistics
-  question_text: Why does clean data, calculate statistics matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000009
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - clean data, calculate statistics
-  question_text: Why does clean data, calculate statistics?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000010
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - clean data, calculate statistics
-  question_text: What is a simple example of clean data, calculate statistics?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000011
+  source_evidence:
+  - source: summary
+    text: Learn how to import and clean data, calculate statistics, and create
+- row_id: r_000005
   course:
     course_id: '24374'
     title: series, you’ll learn how to import, clean, calculate statistics, and create
   relevant_topics:
   - create
   question_text: What is create?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Learn how to import and clean data, calculate statistics, and create
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000012
+  source_evidence:
+  - source: summary
+    text: Learn how to import and clean data, calculate statistics, and create
+- row_id: r_000006
   course:
     course_id: '24374'
     title: series, you’ll learn how to import, clean, calculate statistics, and create
   relevant_topics:
   - create
-  question_text: What does create mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does create work?
+  question_answer: Learn how to import and clean data, calculate statistics, and create
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000013
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - create
-  question_text: Why does create matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000014
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - create
-  question_text: Why does create?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000015
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - create
-  question_text: What is a simple example of create?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000016
+  source_evidence:
+  - source: summary
+    text: Learn how to import and clean data, calculate statistics, and create
+- row_id: r_000007
   course:
     course_id: '24374'
     title: series, you’ll learn how to import, clean, calculate statistics, and create
   relevant_topics:
   - discover data manipulation with pandas
   question_text: What is discover data manipulation with pandas?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Discover Data Manipulation with pandas
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000017
+  source_evidence:
+  - source: overview
+    text: Discover Data Manipulation with pandas
+- row_id: r_000008
   course:
     course_id: '24374'
     title: series, you’ll learn how to import, clean, calculate statistics, and create
   relevant_topics:
   - discover data manipulation with pandas
-  question_text: What does discover data manipulation with pandas mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does discover data manipulation with pandas work?
+  question_answer: Discover Data Manipulation with pandas
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000018
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - discover data manipulation with pandas
-  question_text: Why does discover data manipulation with pandas matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000019
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - discover data manipulation with pandas
-  question_text: Why does discover data manipulation with pandas?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000020
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - discover data manipulation with pandas
-  question_text: What is a simple example of discover data manipulation with pandas?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000021
+  source_evidence:
+  - source: overview
+    text: Discover Data Manipulation with pandas
+- row_id: r_000009
   course:
     course_id: '24374'
     title: series, you’ll learn how to import, clean, calculate statistics, and create
@@ -2793,74 +1179,27 @@ final_rows:
   - with this course, you’ll learn why pandas is world's most popular python
   question_text: What is with this course, you’ll learn why pandas is world's most
     popular python?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: entry
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000022
+- row_id: r_000010
   course:
     course_id: '24374'
     title: series, you’ll learn how to import, clean, calculate statistics, and create
   relevant_topics:
   - with this course, you’ll learn why pandas is world's most popular python
-  question_text: What does with this course, you’ll learn why pandas is world's most
-    popular python mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
-  status: answered
-  reject_reason: null
+  question_text: How does with this course, you’ll learn why pandas is world's most
+    popular python work?
+  question_answer: null
+  correctness: null
+  question_family: mechanism
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000023
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - with this course, you’ll learn why pandas is world's most popular python
-  question_text: Why does with this course, you’ll learn why pandas is world's most
-    popular python matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000024
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - with this course, you’ll learn why pandas is world's most popular python
-  question_text: Why does with this course, you’ll learn why pandas is world's most
-    popular python?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000025
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - with this course, you’ll learn why pandas is world's most popular python
-  question_text: What is a simple example of with this course, you’ll learn why pandas
-    is world's most popular python?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000026
+- row_id: r_000011
   course:
     course_id: '24374'
     title: series, you’ll learn how to import, clean, calculate statistics, and create
@@ -2868,217 +1207,92 @@ final_rows:
   - library, used for everything from data manipulation to data analysis. you’ll
   question_text: What is library, used for everything from data manipulation to data
     analysis. you’ll?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: entry
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000027
+- row_id: r_000012
   course:
     course_id: '24374'
     title: series, you’ll learn how to import, clean, calculate statistics, and create
   relevant_topics:
   - library, used for everything from data manipulation to data analysis. you’ll
-  question_text: What does library, used for everything from data manipulation to
-    data analysis. you’ll mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
-  status: answered
-  reject_reason: null
+  question_text: How does library, used for everything from data manipulation to data
+    analysis. you’ll work?
+  question_answer: null
+  correctness: null
+  question_family: mechanism
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000028
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - library, used for everything from data manipulation to data analysis. you’ll
-  question_text: Why does library, used for everything from data manipulation to data
-    analysis. you’ll matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000029
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - library, used for everything from data manipulation to data analysis. you’ll
-  question_text: Why does library, used for everything from data manipulation to data
-    analysis. you’ll?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000030
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - library, used for everything from data manipulation to data analysis. you’ll
-  question_text: What is a simple example of library, used for everything from data
-    manipulation to data analysis. you’ll?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000031
+- row_id: r_000013
   course:
     course_id: '24374'
     title: series, you’ll learn how to import, clean, calculate statistics, and create
   relevant_topics:
   - explore how to manipulate dataframes, as you extract, filter
   question_text: What is explore how to manipulate dataframes, as you extract, filter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: explore how to manipulate DataFrames, as you extract, filter, and
+    transform
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000032
+  source_evidence:
+  - source: overview
+    text: explore how to manipulate DataFrames, as you extract, filter, and transform
+- row_id: r_000014
   course:
     course_id: '24374'
     title: series, you’ll learn how to import, clean, calculate statistics, and create
   relevant_topics:
   - explore how to manipulate dataframes, as you extract, filter
-  question_text: What does explore how to manipulate dataframes, as you extract, filter
-    mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does explore how to manipulate dataframes, as you extract, filter
+    work?
+  question_answer: explore how to manipulate DataFrames, as you extract, filter, and
+    transform
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000033
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - explore how to manipulate dataframes, as you extract, filter
-  question_text: Why does explore how to manipulate dataframes, as you extract, filter
-    matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000034
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - explore how to manipulate dataframes, as you extract, filter
-  question_text: Why does explore how to manipulate dataframes, as you extract, filter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000035
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - explore how to manipulate dataframes, as you extract, filter
-  question_text: What is a simple example of explore how to manipulate dataframes,
-    as you extract, filter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000036
+  source_evidence:
+  - source: overview
+    text: explore how to manipulate DataFrames, as you extract, filter, and transform
+- row_id: r_000015
   course:
     course_id: '24374'
     title: series, you’ll learn how to import, clean, calculate statistics, and create
   relevant_topics:
   - transform
   question_text: What is transform?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: explore how to manipulate DataFrames, as you extract, filter, and
+    transform
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000037
+  source_evidence:
+  - source: overview
+    text: explore how to manipulate DataFrames, as you extract, filter, and transform
+- row_id: r_000016
   course:
     course_id: '24374'
     title: series, you’ll learn how to import, clean, calculate statistics, and create
   relevant_topics:
   - transform
-  question_text: What does transform mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does transform work?
+  question_answer: explore how to manipulate DataFrames, as you extract, filter, and
+    transform
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000038
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - transform
-  question_text: Why does transform matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000039
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - transform
-  question_text: Why does transform?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000040
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - transform
-  question_text: What is a simple example of transform?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000041
+  source_evidence:
+  - source: overview
+    text: explore how to manipulate DataFrames, as you extract, filter, and transform
+- row_id: r_000017
   course:
     course_id: '24374'
     title: series, you’ll learn how to import, clean, calculate statistics, and create
@@ -3086,334 +1300,128 @@ final_rows:
   - with pandas, you’ll explore all core data science concepts. using
   question_text: What is with pandas, you’ll explore all core data science concepts.
     using?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: entry
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000042
+- row_id: r_000018
   course:
     course_id: '24374'
     title: series, you’ll learn how to import, clean, calculate statistics, and create
   relevant_topics:
   - with pandas, you’ll explore all core data science concepts. using
-  question_text: What does with pandas, you’ll explore all core data science concepts.
-    using mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
-  status: answered
-  reject_reason: null
+  question_text: How does with pandas, you’ll explore all core data science concepts.
+    using work?
+  question_answer: null
+  correctness: null
+  question_family: mechanism
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000043
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - with pandas, you’ll explore all core data science concepts. using
-  question_text: Why does with pandas, you’ll explore all core data science concepts.
-    using matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000044
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - with pandas, you’ll explore all core data science concepts. using
-  question_text: Why does with pandas, you’ll explore all core data science concepts.
-    using?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000045
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - with pandas, you’ll explore all core data science concepts. using
-  question_text: What is a simple example of with pandas, you’ll explore all core
-    data science concepts. using?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000046
+- row_id: r_000019
   course:
     course_id: '24374'
     title: series, you’ll learn how to import, clean, calculate statistics, and create
   relevant_topics:
   - real-world data, including walmart sales figures
   question_text: What is real-world data, including walmart sales figures?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: real-world data, including Walmart sales figures and global temperature
+    time
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000047
+  source_evidence:
+  - source: overview
+    text: real-world data, including Walmart sales figures and global temperature
+      time
+- row_id: r_000020
   course:
     course_id: '24374'
     title: series, you’ll learn how to import, clean, calculate statistics, and create
   relevant_topics:
   - real-world data, including walmart sales figures
-  question_text: What does real-world data, including walmart sales figures mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does real-world data, including walmart sales figures work?
+  question_answer: real-world data, including Walmart sales figures and global temperature
+    time
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000048
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - real-world data, including walmart sales figures
-  question_text: Why does real-world data, including walmart sales figures matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000049
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - real-world data, including walmart sales figures
-  question_text: Why does real-world data, including walmart sales figures?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000050
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - real-world data, including walmart sales figures
-  question_text: What is a simple example of real-world data, including walmart sales
-    figures?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000051
+  source_evidence:
+  - source: overview
+    text: real-world data, including Walmart sales figures and global temperature
+      time
+- row_id: r_000021
   course:
     course_id: '24374'
     title: series, you’ll learn how to import, clean, calculate statistics, and create
   relevant_topics:
   - global temperature time
   question_text: What is global temperature time?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: real-world data, including Walmart sales figures and global temperature
+    time
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000052
+  source_evidence:
+  - source: overview
+    text: real-world data, including Walmart sales figures and global temperature
+      time
+- row_id: r_000022
   course:
     course_id: '24374'
     title: series, you’ll learn how to import, clean, calculate statistics, and create
   relevant_topics:
   - global temperature time
-  question_text: What does global temperature time mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does global temperature time work?
+  question_answer: real-world data, including Walmart sales figures and global temperature
+    time
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000053
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - global temperature time
-  question_text: Why does global temperature time matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000054
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - global temperature time
-  question_text: Why does global temperature time?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000055
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - global temperature time
-  question_text: What is a simple example of global temperature time?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000056
+  source_evidence:
+  - source: overview
+    text: real-world data, including Walmart sales figures and global temperature
+      time
+- row_id: r_000023
   course:
     course_id: '24374'
     title: series, you’ll learn how to import, clean, calculate statistics, and create
   relevant_topics:
   - series, you’ll learn how to import, clean, calculate statistics
   question_text: What is series, you’ll learn how to import, clean, calculate statistics?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: series, you’ll learn how to import, clean, calculate statistics,
+    and create
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000057
+  source_evidence:
+  - source: overview
+    text: series, you’ll learn how to import, clean, calculate statistics, and create
+- row_id: r_000024
   course:
     course_id: '24374'
     title: series, you’ll learn how to import, clean, calculate statistics, and create
   relevant_topics:
   - series, you’ll learn how to import, clean, calculate statistics
-  question_text: What does series, you’ll learn how to import, clean, calculate statistics
-    mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does series, you’ll learn how to import, clean, calculate statistics
+    work?
+  question_answer: series, you’ll learn how to import, clean, calculate statistics,
+    and create
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000058
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - series, you’ll learn how to import, clean, calculate statistics
-  question_text: Why does series, you’ll learn how to import, clean, calculate statistics
-    matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000059
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - series, you’ll learn how to import, clean, calculate statistics
-  question_text: Why does series, you’ll learn how to import, clean, calculate statistics?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000060
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - series, you’ll learn how to import, clean, calculate statistics
-  question_text: What is a simple example of series, you’ll learn how to import, clean,
-    calculate statistics?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000061
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - learn how to import
-  - clean data, calculate statistics
-  question_text: How is learn how to import different from clean data, calculate statistics?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000062
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - learn how to import
-  - create
-  question_text: How is learn how to import different from create?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000063
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - learn how to import
-  - discover data manipulation with pandas
-  question_text: How is learn how to import different from discover data manipulation
-    with pandas?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000064
+  source_evidence:
+  - source: overview
+    text: series, you’ll learn how to import, clean, calculate statistics, and create
+- row_id: r_000025
   course:
     course_id: '24374'
     title: series, you’ll learn how to import, clean, calculate statistics, and create
@@ -3422,14 +1430,13 @@ final_rows:
   - with this course, you’ll learn why pandas is world's most popular python
   question_text: How is learn how to import different from with this course, you’ll
     learn why pandas is world's most popular python?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000065
+- row_id: r_000026
   course:
     course_id: '24374'
     title: series, you’ll learn how to import, clean, calculate statistics, and create
@@ -3438,14 +1445,13 @@ final_rows:
   - library, used for everything from data manipulation to data analysis. you’ll
   question_text: How is learn how to import different from library, used for everything
     from data manipulation to data analysis. you’ll?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000066
+- row_id: r_000027
   course:
     course_id: '24374'
     title: series, you’ll learn how to import, clean, calculate statistics, and create
@@ -3454,171 +1460,31 @@ final_rows:
   - explore how to manipulate dataframes, as you extract, filter
   question_text: How is learn how to import different from explore how to manipulate
     dataframes, as you extract, filter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000067
+- row_id: r_000028
   course:
     course_id: '24374'
     title: series, you’ll learn how to import, clean, calculate statistics, and create
   relevant_topics:
   - learn how to import
-  - transform
-  question_text: How is learn how to import different from transform?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  - series, you’ll learn how to import, clean, calculate statistics
+  question_text: How is learn how to import different from series, you’ll learn how
+    to import, clean, calculate statistics?
+  question_answer: series, you’ll learn how to import, clean, calculate statistics,
+    and create
+  correctness: correct
   question_family: comparison
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000068
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - learn how to import
-  - with pandas, you’ll explore all core data science concepts. using
-  question_text: How is learn how to import different from with pandas, you’ll explore
-    all core data science concepts. using?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000069
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - learn how to import
-  - real-world data, including walmart sales figures
-  question_text: How is learn how to import different from real-world data, including
-    walmart sales figures?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000070
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - clean data, calculate statistics
-  - create
-  question_text: How is clean data, calculate statistics different from create?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000071
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - clean data, calculate statistics
-  - discover data manipulation with pandas
-  question_text: How is clean data, calculate statistics different from discover data
-    manipulation with pandas?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000072
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - clean data, calculate statistics
-  - with this course, you’ll learn why pandas is world's most popular python
-  question_text: How is clean data, calculate statistics different from with this
-    course, you’ll learn why pandas is world's most popular python?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000073
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - clean data, calculate statistics
-  - library, used for everything from data manipulation to data analysis. you’ll
-  question_text: How is clean data, calculate statistics different from library, used
-    for everything from data manipulation to data analysis. you’ll?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000074
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - clean data, calculate statistics
-  - explore how to manipulate dataframes, as you extract, filter
-  question_text: How is clean data, calculate statistics different from explore how
-    to manipulate dataframes, as you extract, filter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000075
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - clean data, calculate statistics
-  - transform
-  question_text: How is clean data, calculate statistics different from transform?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000076
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - clean data, calculate statistics
-  - with pandas, you’ll explore all core data science concepts. using
-  question_text: How is clean data, calculate statistics different from with pandas,
-    you’ll explore all core data science concepts. using?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000077
+  source_evidence:
+  - source: overview
+    text: series, you’ll learn how to import, clean, calculate statistics, and create
+- row_id: r_000029
   course:
     course_id: '24374'
     title: series, you’ll learn how to import, clean, calculate statistics, and create
@@ -3627,124 +1493,28 @@ final_rows:
   - real-world data, including walmart sales figures
   question_text: How is clean data, calculate statistics different from real-world
     data, including walmart sales figures?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000078
+- row_id: r_000030
   course:
     course_id: '24374'
     title: series, you’ll learn how to import, clean, calculate statistics, and create
   relevant_topics:
-  - create
-  - discover data manipulation with pandas
-  question_text: How is create different from discover data manipulation with pandas?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  - clean data, calculate statistics
+  - series, you’ll learn how to import, clean, calculate statistics
+  question_text: How is clean data, calculate statistics different from series, you’ll
+    learn how to import, clean, calculate statistics?
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000079
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - create
-  - with this course, you’ll learn why pandas is world's most popular python
-  question_text: How is create different from with this course, you’ll learn why pandas
-    is world's most popular python?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000080
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - create
-  - library, used for everything from data manipulation to data analysis. you’ll
-  question_text: How is create different from library, used for everything from data
-    manipulation to data analysis. you’ll?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000081
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - create
-  - explore how to manipulate dataframes, as you extract, filter
-  question_text: How is create different from explore how to manipulate dataframes,
-    as you extract, filter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000082
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - create
-  - transform
-  question_text: How is create different from transform?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000083
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - create
-  - with pandas, you’ll explore all core data science concepts. using
-  question_text: How is create different from with pandas, you’ll explore all core
-    data science concepts. using?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000084
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - create
-  - real-world data, including walmart sales figures
-  question_text: How is create different from real-world data, including walmart sales
-    figures?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000085
+- row_id: r_000031
   course:
     course_id: '24374'
     title: series, you’ll learn how to import, clean, calculate statistics, and create
@@ -3753,14 +1523,13 @@ final_rows:
   - with this course, you’ll learn why pandas is world's most popular python
   question_text: How is discover data manipulation with pandas different from with
     this course, you’ll learn why pandas is world's most popular python?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000086
+- row_id: r_000032
   course:
     course_id: '24374'
     title: series, you’ll learn how to import, clean, calculate statistics, and create
@@ -3769,45 +1538,13 @@ final_rows:
   - library, used for everything from data manipulation to data analysis. you’ll
   question_text: How is discover data manipulation with pandas different from library,
     used for everything from data manipulation to data analysis. you’ll?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000087
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - discover data manipulation with pandas
-  - explore how to manipulate dataframes, as you extract, filter
-  question_text: How is discover data manipulation with pandas different from explore
-    how to manipulate dataframes, as you extract, filter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000088
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - discover data manipulation with pandas
-  - transform
-  question_text: How is discover data manipulation with pandas different from transform?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000089
+- row_id: r_000033
   course:
     course_id: '24374'
     title: series, you’ll learn how to import, clean, calculate statistics, and create
@@ -3816,30 +1553,13 @@ final_rows:
   - with pandas, you’ll explore all core data science concepts. using
   question_text: How is discover data manipulation with pandas different from with
     pandas, you’ll explore all core data science concepts. using?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000090
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - discover data manipulation with pandas
-  - real-world data, including walmart sales figures
-  question_text: How is discover data manipulation with pandas different from real-world
-    data, including walmart sales figures?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000091
+- row_id: r_000034
   course:
     course_id: '24374'
     title: series, you’ll learn how to import, clean, calculate statistics, and create
@@ -3849,47 +1569,13 @@ final_rows:
   question_text: How is with this course, you’ll learn why pandas is world's most
     popular python different from library, used for everything from data manipulation
     to data analysis. you’ll?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000092
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - with this course, you’ll learn why pandas is world's most popular python
-  - explore how to manipulate dataframes, as you extract, filter
-  question_text: How is with this course, you’ll learn why pandas is world's most
-    popular python different from explore how to manipulate dataframes, as you extract,
-    filter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000093
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - with this course, you’ll learn why pandas is world's most popular python
-  - transform
-  question_text: How is with this course, you’ll learn why pandas is world's most
-    popular python different from transform?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000094
+- row_id: r_000035
   course:
     course_id: '24374'
     title: series, you’ll learn how to import, clean, calculate statistics, and create
@@ -3899,30 +1585,29 @@ final_rows:
   question_text: How is with this course, you’ll learn why pandas is world's most
     popular python different from with pandas, you’ll explore all core data science
     concepts. using?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000095
+- row_id: r_000036
   course:
     course_id: '24374'
     title: series, you’ll learn how to import, clean, calculate statistics, and create
   relevant_topics:
   - with this course, you’ll learn why pandas is world's most popular python
-  - real-world data, including walmart sales figures
+  - series, you’ll learn how to import, clean, calculate statistics
   question_text: How is with this course, you’ll learn why pandas is world's most
-    popular python different from real-world data, including walmart sales figures?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+    popular python different from series, you’ll learn how to import, clean, calculate
+    statistics?
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000096
+- row_id: r_000037
   course:
     course_id: '24374'
     title: series, you’ll learn how to import, clean, calculate statistics, and create
@@ -3932,30 +1617,13 @@ final_rows:
   question_text: How is library, used for everything from data manipulation to data
     analysis. you’ll different from explore how to manipulate dataframes, as you extract,
     filter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000097
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - library, used for everything from data manipulation to data analysis. you’ll
-  - transform
-  question_text: How is library, used for everything from data manipulation to data
-    analysis. you’ll different from transform?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000098
+- row_id: r_000038
   course:
     course_id: '24374'
     title: series, you’ll learn how to import, clean, calculate statistics, and create
@@ -3965,46 +1633,29 @@ final_rows:
   question_text: How is library, used for everything from data manipulation to data
     analysis. you’ll different from with pandas, you’ll explore all core data science
     concepts. using?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000099
+- row_id: r_000039
   course:
     course_id: '24374'
     title: series, you’ll learn how to import, clean, calculate statistics, and create
   relevant_topics:
   - library, used for everything from data manipulation to data analysis. you’ll
-  - real-world data, including walmart sales figures
+  - series, you’ll learn how to import, clean, calculate statistics
   question_text: How is library, used for everything from data manipulation to data
-    analysis. you’ll different from real-world data, including walmart sales figures?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+    analysis. you’ll different from series, you’ll learn how to import, clean, calculate
+    statistics?
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000100
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - explore how to manipulate dataframes, as you extract, filter
-  - transform
-  question_text: How is explore how to manipulate dataframes, as you extract, filter
-    different from transform?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000101
+- row_id: r_000040
   course:
     course_id: '24374'
     title: series, you’ll learn how to import, clean, calculate statistics, and create
@@ -4013,82 +1664,47 @@ final_rows:
   - with pandas, you’ll explore all core data science concepts. using
   question_text: How is explore how to manipulate dataframes, as you extract, filter
     different from with pandas, you’ll explore all core data science concepts. using?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000102
+- row_id: r_000041
   course:
     course_id: '24374'
     title: series, you’ll learn how to import, clean, calculate statistics, and create
   relevant_topics:
   - explore how to manipulate dataframes, as you extract, filter
-  - real-world data, including walmart sales figures
+  - series, you’ll learn how to import, clean, calculate statistics
   question_text: How is explore how to manipulate dataframes, as you extract, filter
-    different from real-world data, including walmart sales figures?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+    different from series, you’ll learn how to import, clean, calculate statistics?
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000103
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - transform
-  - with pandas, you’ll explore all core data science concepts. using
-  question_text: How is transform different from with pandas, you’ll explore all core
-    data science concepts. using?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000104
-  course:
-    course_id: '24374'
-    title: series, you’ll learn how to import, clean, calculate statistics, and create
-  relevant_topics:
-  - transform
-  - real-world data, including walmart sales figures
-  question_text: How is transform different from real-world data, including walmart
-    sales figures?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000105
+- row_id: r_000042
   course:
     course_id: '24374'
     title: series, you’ll learn how to import, clean, calculate statistics, and create
   relevant_topics:
   - with pandas, you’ll explore all core data science concepts. using
-  - real-world data, including walmart sales figures
+  - series, you’ll learn how to import, clean, calculate statistics
   question_text: How is with pandas, you’ll explore all core data science concepts.
-    using different from real-world data, including walmart sales figures?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+    using different from series, you’ll learn how to import, clean, calculate statistics?
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
 summary:
   topic_count: 12
   canonical_topic_count: 12
-  candidate_count: 105
-  accepted_count: 105
+  candidate_count: 42
+  accepted_count: 42
   rejected_count: 0
-  correct_count: 0
-  uncertain_count: 105
+  correct_count: 19
+  uncertain_count: 0

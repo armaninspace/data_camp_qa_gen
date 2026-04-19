@@ -128,55 +128,71 @@ extracted_topics:
 - topic_id: t001
   label: selection box
   topic_type: concept
-  description: 'Topic inferred from chapter heading: selection box'
+  description: 'Topic extracted from syllabus: selection box'
   evidence:
   - source: syllabus
     text: SELECTion Box
-  confidence: 0.45
+  confidence: 0.55
 - topic_id: t002
   label: groups, strings
   topic_type: concept
-  description: 'Topic inferred from chapter heading: groups, strings'
+  description: 'Topic extracted from syllabus: groups, strings'
   evidence:
   - source: syllabus
     text: Groups, strings, and counting things
-  confidence: 0.55
+  confidence: 0.75
 - topic_id: t003
   label: counting things
   topic_type: concept
-  description: 'Topic inferred from chapter heading: counting things'
+  description: 'Topic extracted from syllabus: counting things'
   evidence:
   - source: syllabus
     text: Groups, strings, and counting things
-  confidence: 0.55
+  confidence: 0.75
 - topic_id: t004
+  label: having
+  topic_type: tool
+  description: 'Topic extracted from syllabus: having'
+  evidence:
+  - source: syllabus
+    text: 'Herein, you''ll learn how to use important SQL Server aggregate
+
+      functions such as SUM, COUNT, MIN, MAX, and AVG. Following that,
+
+      you''ll learn how to manipulate text fields. To round out the
+
+      chapter, you''ll power up your queries using GROUP BY and HAVING,
+
+      which will enable you to perform more meaningful aggregations.'
+  confidence: 0.8
+- topic_id: t005
   label: joining tables
   topic_type: concept
-  description: 'Topic inferred from chapter heading: joining tables'
+  description: 'Topic extracted from syllabus: joining tables'
   evidence:
   - source: syllabus
     text: Joining tables
-  confidence: 0.45
-- topic_id: t005
+  confidence: 0.55
+- topic_id: t006
   label: you've got the power
   topic_type: concept
-  description: 'Topic inferred from chapter heading: you''ve got the power'
+  description: 'Topic extracted from syllabus: you''ve got the power'
   evidence:
   - source: syllabus
     text: You've got the power
-  confidence: 0.45
-- topic_id: t006
+  confidence: 0.55
+- topic_id: t007
   label: strings
   topic_type: concept
-  description: 'Topic mined from course text: strings'
+  description: 'Topic extracted from overview: strings'
   evidence:
   - source: overview
     text: strings
   confidence: 0.75
-- topic_id: t007
+- topic_id: t008
   label: text data
   topic_type: concept
-  description: 'Topic mined from course text: text data'
+  description: 'Topic extracted from overview: text data'
   evidence:
   - source: overview
     text: text data
@@ -204,32 +220,39 @@ canonical_topics:
   - t003
   topic_type: concept
 - canonical_topic_id: ct_004
+  label: having
+  aliases:
+  - having
+  member_topic_ids:
+  - t004
+  topic_type: tool
+- canonical_topic_id: ct_005
   label: joining tables
   aliases:
   - joining tables
   member_topic_ids:
-  - t004
+  - t005
   topic_type: concept
-- canonical_topic_id: ct_005
+- canonical_topic_id: ct_006
   label: you've got power
   aliases:
   - you've got the power
   member_topic_ids:
-  - t005
+  - t006
   topic_type: concept
-- canonical_topic_id: ct_006
+- canonical_topic_id: ct_007
   label: strings
   aliases:
   - strings
   member_topic_ids:
-  - t006
+  - t007
   topic_type: concept
-- canonical_topic_id: ct_007
+- canonical_topic_id: ct_008
   label: text data
   aliases:
   - text data
   member_topic_ids:
-  - t007
+  - t008
   topic_type: concept
 question_candidates:
 - candidate_id: q0001
@@ -241,354 +264,100 @@ question_candidates:
 - candidate_id: q0002
   relevant_topics:
   - selection box
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does selection box mean?
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does selection box work?
 - candidate_id: q0003
-  relevant_topics:
-  - selection box
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does selection box matter?
-- candidate_id: q0004
-  relevant_topics:
-  - selection box
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use selection box?
-- candidate_id: q0005
-  relevant_topics:
-  - selection box
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of selection box?
-- candidate_id: q0006
   relevant_topics:
   - groups, strings
   family: entry
   pattern: What is {x}?
   question_text: What is groups, strings?
-- candidate_id: q0007
+- candidate_id: q0004
   relevant_topics:
   - groups, strings
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does groups, strings mean?
-- candidate_id: q0008
-  relevant_topics:
-  - groups, strings
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does groups, strings matter?
-- candidate_id: q0009
-  relevant_topics:
-  - groups, strings
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use groups, strings?
-- candidate_id: q0010
-  relevant_topics:
-  - groups, strings
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of groups, strings?
-- candidate_id: q0011
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does groups, strings work?
+- candidate_id: q0005
   relevant_topics:
   - counting things
   family: entry
   pattern: What is {x}?
   question_text: What is counting things?
-- candidate_id: q0012
+- candidate_id: q0006
   relevant_topics:
   - counting things
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does counting things work?
+- candidate_id: q0007
+  relevant_topics:
+  - having
   family: entry
-  pattern: What does {x} mean?
-  question_text: What does counting things mean?
-- candidate_id: q0013
+  pattern: What is {x}?
+  question_text: What is having?
+- candidate_id: q0008
   relevant_topics:
-  - counting things
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does counting things matter?
-- candidate_id: q0014
-  relevant_topics:
-  - counting things
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use counting things?
-- candidate_id: q0015
-  relevant_topics:
-  - counting things
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of counting things?
-- candidate_id: q0016
+  - having
+  family: procedure
+  pattern: How do you use {x}?
+  question_text: How do you use having?
+- candidate_id: q0009
   relevant_topics:
   - joining tables
   family: entry
   pattern: What is {x}?
   question_text: What is joining tables?
-- candidate_id: q0017
+- candidate_id: q0010
   relevant_topics:
   - joining tables
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does joining tables mean?
-- candidate_id: q0018
-  relevant_topics:
-  - joining tables
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does joining tables matter?
-- candidate_id: q0019
-  relevant_topics:
-  - joining tables
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use joining tables?
-- candidate_id: q0020
-  relevant_topics:
-  - joining tables
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of joining tables?
-- candidate_id: q0021
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does joining tables work?
+- candidate_id: q0011
   relevant_topics:
   - you've got power
   family: entry
   pattern: What is {x}?
   question_text: What is you've got power?
-- candidate_id: q0022
+- candidate_id: q0012
   relevant_topics:
   - you've got power
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does you've got power mean?
-- candidate_id: q0023
-  relevant_topics:
-  - you've got power
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does you've got power matter?
-- candidate_id: q0024
-  relevant_topics:
-  - you've got power
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use you've got power?
-- candidate_id: q0025
-  relevant_topics:
-  - you've got power
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of you've got power?
-- candidate_id: q0026
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does you've got power work?
+- candidate_id: q0013
   relevant_topics:
   - strings
   family: entry
   pattern: What is {x}?
   question_text: What is strings?
-- candidate_id: q0027
+- candidate_id: q0014
   relevant_topics:
   - strings
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does strings mean?
-- candidate_id: q0028
-  relevant_topics:
-  - strings
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does strings matter?
-- candidate_id: q0029
-  relevant_topics:
-  - strings
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use strings?
-- candidate_id: q0030
-  relevant_topics:
-  - strings
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of strings?
-- candidate_id: q0031
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does strings work?
+- candidate_id: q0015
   relevant_topics:
   - text data
   family: entry
   pattern: What is {x}?
   question_text: What is text data?
-- candidate_id: q0032
+- candidate_id: q0016
   relevant_topics:
   - text data
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does text data mean?
-- candidate_id: q0033
-  relevant_topics:
-  - text data
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does text data matter?
-- candidate_id: q0034
-  relevant_topics:
-  - text data
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use text data?
-- candidate_id: q0035
-  relevant_topics:
-  - text data
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of text data?
-- candidate_id: q0036
-  relevant_topics:
-  - selection box
-  - groups, strings
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is selection box different from groups, strings?
-- candidate_id: q0037
-  relevant_topics:
-  - selection box
-  - counting things
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is selection box different from counting things?
-- candidate_id: q0038
-  relevant_topics:
-  - selection box
-  - joining tables
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is selection box different from joining tables?
-- candidate_id: q0039
-  relevant_topics:
-  - selection box
-  - you've got power
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is selection box different from you've got power?
-- candidate_id: q0040
-  relevant_topics:
-  - selection box
-  - strings
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is selection box different from strings?
-- candidate_id: q0041
-  relevant_topics:
-  - selection box
-  - text data
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is selection box different from text data?
-- candidate_id: q0042
-  relevant_topics:
-  - groups, strings
-  - counting things
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is groups, strings different from counting things?
-- candidate_id: q0043
-  relevant_topics:
-  - groups, strings
-  - joining tables
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is groups, strings different from joining tables?
-- candidate_id: q0044
-  relevant_topics:
-  - groups, strings
-  - you've got power
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is groups, strings different from you've got power?
-- candidate_id: q0045
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does text data work?
+- candidate_id: q0017
   relevant_topics:
   - groups, strings
   - strings
   family: comparison
   pattern: How is {x} different from {y}?
   question_text: How is groups, strings different from strings?
-- candidate_id: q0046
-  relevant_topics:
-  - groups, strings
-  - text data
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is groups, strings different from text data?
-- candidate_id: q0047
-  relevant_topics:
-  - counting things
-  - joining tables
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is counting things different from joining tables?
-- candidate_id: q0048
-  relevant_topics:
-  - counting things
-  - you've got power
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is counting things different from you've got power?
-- candidate_id: q0049
-  relevant_topics:
-  - counting things
-  - strings
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is counting things different from strings?
-- candidate_id: q0050
-  relevant_topics:
-  - counting things
-  - text data
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is counting things different from text data?
-- candidate_id: q0051
-  relevant_topics:
-  - joining tables
-  - you've got power
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is joining tables different from you've got power?
-- candidate_id: q0052
-  relevant_topics:
-  - joining tables
-  - strings
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is joining tables different from strings?
-- candidate_id: q0053
-  relevant_topics:
-  - joining tables
-  - text data
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is joining tables different from text data?
-- candidate_id: q0054
-  relevant_topics:
-  - you've got power
-  - strings
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is you've got power different from strings?
-- candidate_id: q0055
-  relevant_topics:
-  - you've got power
-  - text data
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is you've got power different from text data?
-- candidate_id: q0056
-  relevant_topics:
-  - strings
-  - text data
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is strings different from text data?
 question_repairs:
 - candidate_id: q0001
   status: accepted
@@ -597,694 +366,209 @@ question_repairs:
   reject_reason: null
 - candidate_id: q0002
   status: accepted
-  original_text: What does selection box mean?
-  final_text: What does selection box mean?
+  original_text: How does selection box work?
+  final_text: How does selection box work?
   reject_reason: null
 - candidate_id: q0003
-  status: accepted
-  original_text: Why does selection box matter?
-  final_text: Why does selection box matter?
-  reject_reason: null
-- candidate_id: q0004
-  status: repaired
-  original_text: Why do we use selection box?
-  final_text: Why does selection box?
-  reject_reason: null
-- candidate_id: q0005
-  status: accepted
-  original_text: What is a simple example of selection box?
-  final_text: What is a simple example of selection box?
-  reject_reason: null
-- candidate_id: q0006
   status: accepted
   original_text: What is groups, strings?
   final_text: What is groups, strings?
   reject_reason: null
-- candidate_id: q0007
+- candidate_id: q0004
   status: accepted
-  original_text: What does groups, strings mean?
-  final_text: What does groups, strings mean?
+  original_text: How does groups, strings work?
+  final_text: How does groups, strings work?
   reject_reason: null
-- candidate_id: q0008
-  status: accepted
-  original_text: Why does groups, strings matter?
-  final_text: Why does groups, strings matter?
-  reject_reason: null
-- candidate_id: q0009
-  status: repaired
-  original_text: Why do we use groups, strings?
-  final_text: Why does groups, strings?
-  reject_reason: null
-- candidate_id: q0010
-  status: accepted
-  original_text: What is a simple example of groups, strings?
-  final_text: What is a simple example of groups, strings?
-  reject_reason: null
-- candidate_id: q0011
+- candidate_id: q0005
   status: accepted
   original_text: What is counting things?
   final_text: What is counting things?
   reject_reason: null
-- candidate_id: q0012
+- candidate_id: q0006
   status: accepted
-  original_text: What does counting things mean?
-  final_text: What does counting things mean?
+  original_text: How does counting things work?
+  final_text: How does counting things work?
   reject_reason: null
-- candidate_id: q0013
+- candidate_id: q0007
   status: accepted
-  original_text: Why does counting things matter?
-  final_text: Why does counting things matter?
+  original_text: What is having?
+  final_text: What is having?
   reject_reason: null
-- candidate_id: q0014
-  status: repaired
-  original_text: Why do we use counting things?
-  final_text: Why does counting things?
-  reject_reason: null
-- candidate_id: q0015
+- candidate_id: q0008
   status: accepted
-  original_text: What is a simple example of counting things?
-  final_text: What is a simple example of counting things?
+  original_text: How do you use having?
+  final_text: How do you use having?
   reject_reason: null
-- candidate_id: q0016
+- candidate_id: q0009
   status: accepted
   original_text: What is joining tables?
   final_text: What is joining tables?
   reject_reason: null
-- candidate_id: q0017
+- candidate_id: q0010
   status: accepted
-  original_text: What does joining tables mean?
-  final_text: What does joining tables mean?
+  original_text: How does joining tables work?
+  final_text: How does joining tables work?
   reject_reason: null
-- candidate_id: q0018
-  status: accepted
-  original_text: Why does joining tables matter?
-  final_text: Why does joining tables matter?
-  reject_reason: null
-- candidate_id: q0019
-  status: repaired
-  original_text: Why do we use joining tables?
-  final_text: Why does joining tables?
-  reject_reason: null
-- candidate_id: q0020
-  status: accepted
-  original_text: What is a simple example of joining tables?
-  final_text: What is a simple example of joining tables?
-  reject_reason: null
-- candidate_id: q0021
+- candidate_id: q0011
   status: accepted
   original_text: What is you've got power?
   final_text: What is you've got power?
   reject_reason: null
-- candidate_id: q0022
+- candidate_id: q0012
   status: accepted
-  original_text: What does you've got power mean?
-  final_text: What does you've got power mean?
+  original_text: How does you've got power work?
+  final_text: How does you've got power work?
   reject_reason: null
-- candidate_id: q0023
-  status: accepted
-  original_text: Why does you've got power matter?
-  final_text: Why does you've got power matter?
-  reject_reason: null
-- candidate_id: q0024
-  status: repaired
-  original_text: Why do we use you've got power?
-  final_text: Why does you've got power?
-  reject_reason: null
-- candidate_id: q0025
-  status: accepted
-  original_text: What is a simple example of you've got power?
-  final_text: What is a simple example of you've got power?
-  reject_reason: null
-- candidate_id: q0026
+- candidate_id: q0013
   status: accepted
   original_text: What is strings?
   final_text: What is strings?
   reject_reason: null
-- candidate_id: q0027
+- candidate_id: q0014
   status: accepted
-  original_text: What does strings mean?
-  final_text: What does strings mean?
+  original_text: How does strings work?
+  final_text: How does strings work?
   reject_reason: null
-- candidate_id: q0028
-  status: accepted
-  original_text: Why does strings matter?
-  final_text: Why does strings matter?
-  reject_reason: null
-- candidate_id: q0029
-  status: repaired
-  original_text: Why do we use strings?
-  final_text: Why does strings?
-  reject_reason: null
-- candidate_id: q0030
-  status: accepted
-  original_text: What is a simple example of strings?
-  final_text: What is a simple example of strings?
-  reject_reason: null
-- candidate_id: q0031
+- candidate_id: q0015
   status: accepted
   original_text: What is text data?
   final_text: What is text data?
   reject_reason: null
-- candidate_id: q0032
+- candidate_id: q0016
   status: accepted
-  original_text: What does text data mean?
-  final_text: What does text data mean?
+  original_text: How does text data work?
+  final_text: How does text data work?
   reject_reason: null
-- candidate_id: q0033
-  status: accepted
-  original_text: Why does text data matter?
-  final_text: Why does text data matter?
-  reject_reason: null
-- candidate_id: q0034
-  status: repaired
-  original_text: Why do we use text data?
-  final_text: Why does text data?
-  reject_reason: null
-- candidate_id: q0035
-  status: accepted
-  original_text: What is a simple example of text data?
-  final_text: What is a simple example of text data?
-  reject_reason: null
-- candidate_id: q0036
-  status: accepted
-  original_text: How is selection box different from groups, strings?
-  final_text: How is selection box different from groups, strings?
-  reject_reason: null
-- candidate_id: q0037
-  status: accepted
-  original_text: How is selection box different from counting things?
-  final_text: How is selection box different from counting things?
-  reject_reason: null
-- candidate_id: q0038
-  status: accepted
-  original_text: How is selection box different from joining tables?
-  final_text: How is selection box different from joining tables?
-  reject_reason: null
-- candidate_id: q0039
-  status: accepted
-  original_text: How is selection box different from you've got power?
-  final_text: How is selection box different from you've got power?
-  reject_reason: null
-- candidate_id: q0040
-  status: accepted
-  original_text: How is selection box different from strings?
-  final_text: How is selection box different from strings?
-  reject_reason: null
-- candidate_id: q0041
-  status: accepted
-  original_text: How is selection box different from text data?
-  final_text: How is selection box different from text data?
-  reject_reason: null
-- candidate_id: q0042
-  status: accepted
-  original_text: How is groups, strings different from counting things?
-  final_text: How is groups, strings different from counting things?
-  reject_reason: null
-- candidate_id: q0043
-  status: accepted
-  original_text: How is groups, strings different from joining tables?
-  final_text: How is groups, strings different from joining tables?
-  reject_reason: null
-- candidate_id: q0044
-  status: accepted
-  original_text: How is groups, strings different from you've got power?
-  final_text: How is groups, strings different from you've got power?
-  reject_reason: null
-- candidate_id: q0045
+- candidate_id: q0017
   status: accepted
   original_text: How is groups, strings different from strings?
   final_text: How is groups, strings different from strings?
   reject_reason: null
-- candidate_id: q0046
-  status: accepted
-  original_text: How is groups, strings different from text data?
-  final_text: How is groups, strings different from text data?
-  reject_reason: null
-- candidate_id: q0047
-  status: accepted
-  original_text: How is counting things different from joining tables?
-  final_text: How is counting things different from joining tables?
-  reject_reason: null
-- candidate_id: q0048
-  status: accepted
-  original_text: How is counting things different from you've got power?
-  final_text: How is counting things different from you've got power?
-  reject_reason: null
-- candidate_id: q0049
-  status: accepted
-  original_text: How is counting things different from strings?
-  final_text: How is counting things different from strings?
-  reject_reason: null
-- candidate_id: q0050
-  status: accepted
-  original_text: How is counting things different from text data?
-  final_text: How is counting things different from text data?
-  reject_reason: null
-- candidate_id: q0051
-  status: accepted
-  original_text: How is joining tables different from you've got power?
-  final_text: How is joining tables different from you've got power?
-  reject_reason: null
-- candidate_id: q0052
-  status: accepted
-  original_text: How is joining tables different from strings?
-  final_text: How is joining tables different from strings?
-  reject_reason: null
-- candidate_id: q0053
-  status: accepted
-  original_text: How is joining tables different from text data?
-  final_text: How is joining tables different from text data?
-  reject_reason: null
-- candidate_id: q0054
-  status: accepted
-  original_text: How is you've got power different from strings?
-  final_text: How is you've got power different from strings?
-  reject_reason: null
-- candidate_id: q0055
-  status: accepted
-  original_text: How is you've got power different from text data?
-  final_text: How is you've got power different from text data?
-  reject_reason: null
-- candidate_id: q0056
-  status: accepted
-  original_text: How is strings different from text data?
-  final_text: How is strings different from text data?
-  reject_reason: null
 answers:
 - question_id: q0001
   question_text: What is selection box?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
+  answer_text: SELECTion Box
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: SELECTion Box
 - question_id: q0002
-  question_text: What does selection box mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
+  question_text: How does selection box work?
+  answer_text: SELECTion Box
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: SELECTion Box
 - question_id: q0003
-  question_text: Why does selection box matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0004
-  question_text: Why does selection box?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0005
-  question_text: What is a simple example of selection box?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0006
   question_text: What is groups, strings?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0007
-  question_text: What does groups, strings mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0008
-  question_text: Why does groups, strings matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0009
-  question_text: Why does groups, strings?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0010
-  question_text: What is a simple example of groups, strings?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0011
+  answer_text: Groups, strings, and counting things
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: Groups, strings, and counting things
+- question_id: q0004
+  question_text: How does groups, strings work?
+  answer_text: Groups, strings, and counting things
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: Groups, strings, and counting things
+- question_id: q0005
   question_text: What is counting things?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0012
-  question_text: What does counting things mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0013
-  question_text: Why does counting things matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0014
-  question_text: Why does counting things?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0015
-  question_text: What is a simple example of counting things?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0016
+  answer_text: Groups, strings, and counting things
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: Groups, strings, and counting things
+- question_id: q0006
+  question_text: How does counting things work?
+  answer_text: Groups, strings, and counting things
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: Groups, strings, and counting things
+- question_id: q0007
+  question_text: What is having?
+  answer_text: queries using GROUP BY and HAVING, which will enable you to perform
+    more
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: queries using GROUP BY and HAVING, which will enable you to perform more
+- question_id: q0008
+  question_text: How do you use having?
+  answer_text: queries using GROUP BY and HAVING, which will enable you to perform
+    more
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: queries using GROUP BY and HAVING, which will enable you to perform more
+- question_id: q0009
   question_text: What is joining tables?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0017
-  question_text: What does joining tables mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0018
-  question_text: Why does joining tables matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0019
-  question_text: Why does joining tables?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0020
-  question_text: What is a simple example of joining tables?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0021
-  question_text: What is you've got power?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0022
-  question_text: What does you've got power mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0023
-  question_text: Why does you've got power matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0024
-  question_text: Why does you've got power?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0025
-  question_text: What is a simple example of you've got power?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0026
+  answer_text: Joining tables
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: Joining tables
+- question_id: q0010
+  question_text: How does joining tables work?
+  answer_text: Joining tables
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: Joining tables
+- question_id: q0013
   question_text: What is strings?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0027
-  question_text: What does strings mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0028
-  question_text: Why does strings matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0029
-  question_text: Why does strings?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0030
-  question_text: What is a simple example of strings?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0031
+  answer_text: Groups, strings, and counting things
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: Groups, strings, and counting things
+- question_id: q0014
+  question_text: How does strings work?
+  answer_text: Groups, strings, and counting things
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: Groups, strings, and counting things
+- question_id: q0015
   question_text: What is text data?
-  answer_text: Text data is string-based or unstructured data that often needs cleaning
-    for consistency.
+  answer_text: You'll also learn how to apply filters to both numeric and text data,
+    and
   correctness: correct
-  confidence: 0.85
+  confidence: 0.7
   evidence:
   - source: overview
-    text: text data
-- question_id: q0032
-  question_text: What does text data mean?
-  answer_text: Text data is string-based or unstructured data that often needs cleaning
-    for consistency.
+    text: You'll also learn how to apply filters to both numeric and text data, and
+- question_id: q0016
+  question_text: How does text data work?
+  answer_text: You'll also learn how to apply filters to both numeric and text data,
+    and
   correctness: correct
-  confidence: 0.85
+  confidence: 0.7
   evidence:
   - source: overview
-    text: text data
-- question_id: q0033
-  question_text: Why does text data matter?
-  answer_text: Text data is string-based or unstructured data that often needs cleaning
-    for consistency.
-  correctness: correct
-  confidence: 0.85
-  evidence:
-  - source: overview
-    text: text data
-- question_id: q0034
-  question_text: Why does text data?
-  answer_text: Text data is string-based or unstructured data that often needs cleaning
-    for consistency.
-  correctness: correct
-  confidence: 0.85
-  evidence:
-  - source: overview
-    text: text data
-- question_id: q0035
-  question_text: What is a simple example of text data?
-  answer_text: Text data is string-based or unstructured data that often needs cleaning
-    for consistency.
-  correctness: correct
-  confidence: 0.85
-  evidence:
-  - source: overview
-    text: text data
-- question_id: q0036
-  question_text: How is selection box different from groups, strings?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0037
-  question_text: How is selection box different from counting things?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0038
-  question_text: How is selection box different from joining tables?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0039
-  question_text: How is selection box different from you've got power?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0040
-  question_text: How is selection box different from strings?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0041
-  question_text: How is selection box different from text data?
-  answer_text: Text data is string-based or unstructured data that often needs cleaning
-    for consistency.
-  correctness: correct
-  confidence: 0.85
-  evidence:
-  - source: overview
-    text: text data
-- question_id: q0042
-  question_text: How is groups, strings different from counting things?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0043
-  question_text: How is groups, strings different from joining tables?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0044
-  question_text: How is groups, strings different from you've got power?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0045
+    text: You'll also learn how to apply filters to both numeric and text data, and
+- question_id: q0017
   question_text: How is groups, strings different from strings?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0046
-  question_text: How is groups, strings different from text data?
-  answer_text: Text data is string-based or unstructured data that often needs cleaning
-    for consistency.
+  answer_text: Groups, strings, and counting things
   correctness: correct
-  confidence: 0.85
+  confidence: 0.7
   evidence:
   - source: overview
-    text: text data
-- question_id: q0047
-  question_text: How is counting things different from joining tables?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0048
-  question_text: How is counting things different from you've got power?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0049
-  question_text: How is counting things different from strings?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0050
-  question_text: How is counting things different from text data?
-  answer_text: Text data is string-based or unstructured data that often needs cleaning
-    for consistency.
-  correctness: correct
-  confidence: 0.85
-  evidence:
-  - source: overview
-    text: text data
-- question_id: q0051
-  question_text: How is joining tables different from you've got power?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0052
-  question_text: How is joining tables different from strings?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0053
-  question_text: How is joining tables different from text data?
-  answer_text: Text data is string-based or unstructured data that often needs cleaning
-    for consistency.
-  correctness: correct
-  confidence: 0.85
-  evidence:
-  - source: overview
-    text: text data
-- question_id: q0054
-  question_text: How is you've got power different from strings?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0055
-  question_text: How is you've got power different from text data?
-  answer_text: Text data is string-based or unstructured data that often needs cleaning
-    for consistency.
-  correctness: correct
-  confidence: 0.85
-  evidence:
-  - source: overview
-    text: text data
-- question_id: q0056
-  question_text: How is strings different from text data?
-  answer_text: Text data is string-based or unstructured data that often needs cleaning
-    for consistency.
-  correctness: correct
-  confidence: 0.85
-  evidence:
-  - source: overview
-    text: text data
+    text: Groups, strings, and counting things
 final_rows:
 - row_id: r_000001
   course:
@@ -1293,637 +577,240 @@ final_rows:
   relevant_topics:
   - selection box
   question_text: What is selection box?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: SELECTion Box
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: overview
+    text: SELECTion Box
 - row_id: r_000002
   course:
     course_id: '24388'
     title: Introduction to SQL Server
   relevant_topics:
   - selection box
-  question_text: What does selection box mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does selection box work?
+  question_answer: SELECTion Box
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: overview
+    text: SELECTion Box
 - row_id: r_000003
-  course:
-    course_id: '24388'
-    title: Introduction to SQL Server
-  relevant_topics:
-  - selection box
-  question_text: Why does selection box matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000004
-  course:
-    course_id: '24388'
-    title: Introduction to SQL Server
-  relevant_topics:
-  - selection box
-  question_text: Why does selection box?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000005
-  course:
-    course_id: '24388'
-    title: Introduction to SQL Server
-  relevant_topics:
-  - selection box
-  question_text: What is a simple example of selection box?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000006
   course:
     course_id: '24388'
     title: Introduction to SQL Server
   relevant_topics:
   - groups, strings
   question_text: What is groups, strings?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Groups, strings, and counting things
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000007
+  source_evidence:
+  - source: overview
+    text: Groups, strings, and counting things
+- row_id: r_000004
   course:
     course_id: '24388'
     title: Introduction to SQL Server
   relevant_topics:
   - groups, strings
-  question_text: What does groups, strings mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does groups, strings work?
+  question_answer: Groups, strings, and counting things
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000008
-  course:
-    course_id: '24388'
-    title: Introduction to SQL Server
-  relevant_topics:
-  - groups, strings
-  question_text: Why does groups, strings matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000009
-  course:
-    course_id: '24388'
-    title: Introduction to SQL Server
-  relevant_topics:
-  - groups, strings
-  question_text: Why does groups, strings?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000010
-  course:
-    course_id: '24388'
-    title: Introduction to SQL Server
-  relevant_topics:
-  - groups, strings
-  question_text: What is a simple example of groups, strings?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000011
+  source_evidence:
+  - source: overview
+    text: Groups, strings, and counting things
+- row_id: r_000005
   course:
     course_id: '24388'
     title: Introduction to SQL Server
   relevant_topics:
   - counting things
   question_text: What is counting things?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Groups, strings, and counting things
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000012
+  source_evidence:
+  - source: overview
+    text: Groups, strings, and counting things
+- row_id: r_000006
   course:
     course_id: '24388'
     title: Introduction to SQL Server
   relevant_topics:
   - counting things
-  question_text: What does counting things mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_text: How does counting things work?
+  question_answer: Groups, strings, and counting things
+  correctness: correct
+  question_family: mechanism
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: Groups, strings, and counting things
+- row_id: r_000007
+  course:
+    course_id: '24388'
+    title: Introduction to SQL Server
+  relevant_topics:
+  - having
+  question_text: What is having?
+  question_answer: queries using GROUP BY and HAVING, which will enable you to perform
+    more
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000013
+  source_evidence:
+  - source: overview
+    text: queries using GROUP BY and HAVING, which will enable you to perform more
+- row_id: r_000008
   course:
     course_id: '24388'
     title: Introduction to SQL Server
   relevant_topics:
-  - counting things
-  question_text: Why does counting things matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
+  - having
+  question_text: How do you use having?
+  question_answer: queries using GROUP BY and HAVING, which will enable you to perform
+    more
+  correctness: correct
+  question_family: procedure
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000014
-  course:
-    course_id: '24388'
-    title: Introduction to SQL Server
-  relevant_topics:
-  - counting things
-  question_text: Why does counting things?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000015
-  course:
-    course_id: '24388'
-    title: Introduction to SQL Server
-  relevant_topics:
-  - counting things
-  question_text: What is a simple example of counting things?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000016
+  source_evidence:
+  - source: overview
+    text: queries using GROUP BY and HAVING, which will enable you to perform more
+- row_id: r_000009
   course:
     course_id: '24388'
     title: Introduction to SQL Server
   relevant_topics:
   - joining tables
   question_text: What is joining tables?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Joining tables
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000017
+  source_evidence:
+  - source: overview
+    text: Joining tables
+- row_id: r_000010
   course:
     course_id: '24388'
     title: Introduction to SQL Server
   relevant_topics:
   - joining tables
-  question_text: What does joining tables mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does joining tables work?
+  question_answer: Joining tables
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000018
-  course:
-    course_id: '24388'
-    title: Introduction to SQL Server
-  relevant_topics:
-  - joining tables
-  question_text: Why does joining tables matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000019
-  course:
-    course_id: '24388'
-    title: Introduction to SQL Server
-  relevant_topics:
-  - joining tables
-  question_text: Why does joining tables?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000020
-  course:
-    course_id: '24388'
-    title: Introduction to SQL Server
-  relevant_topics:
-  - joining tables
-  question_text: What is a simple example of joining tables?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000021
+  source_evidence:
+  - source: overview
+    text: Joining tables
+- row_id: r_000011
   course:
     course_id: '24388'
     title: Introduction to SQL Server
   relevant_topics:
   - you've got power
   question_text: What is you've got power?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: entry
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000022
+- row_id: r_000012
   course:
     course_id: '24388'
     title: Introduction to SQL Server
   relevant_topics:
   - you've got power
-  question_text: What does you've got power mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
-  status: answered
-  reject_reason: null
+  question_text: How does you've got power work?
+  question_answer: null
+  correctness: null
+  question_family: mechanism
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000023
-  course:
-    course_id: '24388'
-    title: Introduction to SQL Server
-  relevant_topics:
-  - you've got power
-  question_text: Why does you've got power matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000024
-  course:
-    course_id: '24388'
-    title: Introduction to SQL Server
-  relevant_topics:
-  - you've got power
-  question_text: Why does you've got power?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000025
-  course:
-    course_id: '24388'
-    title: Introduction to SQL Server
-  relevant_topics:
-  - you've got power
-  question_text: What is a simple example of you've got power?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000026
+- row_id: r_000013
   course:
     course_id: '24388'
     title: Introduction to SQL Server
   relevant_topics:
   - strings
   question_text: What is strings?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Groups, strings, and counting things
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000027
+  source_evidence:
+  - source: overview
+    text: Groups, strings, and counting things
+- row_id: r_000014
   course:
     course_id: '24388'
     title: Introduction to SQL Server
   relevant_topics:
   - strings
-  question_text: What does strings mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does strings work?
+  question_answer: Groups, strings, and counting things
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000028
-  course:
-    course_id: '24388'
-    title: Introduction to SQL Server
-  relevant_topics:
-  - strings
-  question_text: Why does strings matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000029
-  course:
-    course_id: '24388'
-    title: Introduction to SQL Server
-  relevant_topics:
-  - strings
-  question_text: Why does strings?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000030
-  course:
-    course_id: '24388'
-    title: Introduction to SQL Server
-  relevant_topics:
-  - strings
-  question_text: What is a simple example of strings?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000031
+  source_evidence:
+  - source: overview
+    text: Groups, strings, and counting things
+- row_id: r_000015
   course:
     course_id: '24388'
     title: Introduction to SQL Server
   relevant_topics:
   - text data
   question_text: What is text data?
-  question_answer: Text data is string-based or unstructured data that often needs
-    cleaning for consistency.
+  question_answer: You'll also learn how to apply filters to both numeric and text
+    data, and
   correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
   source_evidence:
   - source: overview
-    text: text data
-- row_id: r_000032
+    text: You'll also learn how to apply filters to both numeric and text data, and
+- row_id: r_000016
   course:
     course_id: '24388'
     title: Introduction to SQL Server
   relevant_topics:
   - text data
-  question_text: What does text data mean?
-  question_answer: Text data is string-based or unstructured data that often needs
-    cleaning for consistency.
+  question_text: How does text data work?
+  question_answer: You'll also learn how to apply filters to both numeric and text
+    data, and
   correctness: correct
-  question_family: entry
+  question_family: mechanism
   status: answered
   reject_reason: null
   source_evidence:
   - source: overview
-    text: text data
-- row_id: r_000033
-  course:
-    course_id: '24388'
-    title: Introduction to SQL Server
-  relevant_topics:
-  - text data
-  question_text: Why does text data matter?
-  question_answer: Text data is string-based or unstructured data that often needs
-    cleaning for consistency.
-  correctness: correct
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence:
-  - source: overview
-    text: text data
-- row_id: r_000034
-  course:
-    course_id: '24388'
-    title: Introduction to SQL Server
-  relevant_topics:
-  - text data
-  question_text: Why does text data?
-  question_answer: Text data is string-based or unstructured data that often needs
-    cleaning for consistency.
-  correctness: correct
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence:
-  - source: overview
-    text: text data
-- row_id: r_000035
-  course:
-    course_id: '24388'
-    title: Introduction to SQL Server
-  relevant_topics:
-  - text data
-  question_text: What is a simple example of text data?
-  question_answer: Text data is string-based or unstructured data that often needs
-    cleaning for consistency.
-  correctness: correct
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence:
-  - source: overview
-    text: text data
-- row_id: r_000036
-  course:
-    course_id: '24388'
-    title: Introduction to SQL Server
-  relevant_topics:
-  - selection box
-  - groups, strings
-  question_text: How is selection box different from groups, strings?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000037
-  course:
-    course_id: '24388'
-    title: Introduction to SQL Server
-  relevant_topics:
-  - selection box
-  - counting things
-  question_text: How is selection box different from counting things?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000038
-  course:
-    course_id: '24388'
-    title: Introduction to SQL Server
-  relevant_topics:
-  - selection box
-  - joining tables
-  question_text: How is selection box different from joining tables?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000039
-  course:
-    course_id: '24388'
-    title: Introduction to SQL Server
-  relevant_topics:
-  - selection box
-  - you've got power
-  question_text: How is selection box different from you've got power?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000040
-  course:
-    course_id: '24388'
-    title: Introduction to SQL Server
-  relevant_topics:
-  - selection box
-  - strings
-  question_text: How is selection box different from strings?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000041
-  course:
-    course_id: '24388'
-    title: Introduction to SQL Server
-  relevant_topics:
-  - selection box
-  - text data
-  question_text: How is selection box different from text data?
-  question_answer: Text data is string-based or unstructured data that often needs
-    cleaning for consistency.
-  correctness: correct
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence:
-  - source: overview
-    text: text data
-- row_id: r_000042
-  course:
-    course_id: '24388'
-    title: Introduction to SQL Server
-  relevant_topics:
-  - groups, strings
-  - counting things
-  question_text: How is groups, strings different from counting things?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000043
-  course:
-    course_id: '24388'
-    title: Introduction to SQL Server
-  relevant_topics:
-  - groups, strings
-  - joining tables
-  question_text: How is groups, strings different from joining tables?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000044
-  course:
-    course_id: '24388'
-    title: Introduction to SQL Server
-  relevant_topics:
-  - groups, strings
-  - you've got power
-  question_text: How is groups, strings different from you've got power?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000045
+    text: You'll also learn how to apply filters to both numeric and text data, and
+- row_id: r_000017
   course:
     course_id: '24388'
     title: Introduction to SQL Server
@@ -1931,193 +818,19 @@ final_rows:
   - groups, strings
   - strings
   question_text: How is groups, strings different from strings?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000046
-  course:
-    course_id: '24388'
-    title: Introduction to SQL Server
-  relevant_topics:
-  - groups, strings
-  - text data
-  question_text: How is groups, strings different from text data?
-  question_answer: Text data is string-based or unstructured data that often needs
-    cleaning for consistency.
+  question_answer: Groups, strings, and counting things
   correctness: correct
   question_family: comparison
   status: answered
   reject_reason: null
   source_evidence:
   - source: overview
-    text: text data
-- row_id: r_000047
-  course:
-    course_id: '24388'
-    title: Introduction to SQL Server
-  relevant_topics:
-  - counting things
-  - joining tables
-  question_text: How is counting things different from joining tables?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000048
-  course:
-    course_id: '24388'
-    title: Introduction to SQL Server
-  relevant_topics:
-  - counting things
-  - you've got power
-  question_text: How is counting things different from you've got power?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000049
-  course:
-    course_id: '24388'
-    title: Introduction to SQL Server
-  relevant_topics:
-  - counting things
-  - strings
-  question_text: How is counting things different from strings?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000050
-  course:
-    course_id: '24388'
-    title: Introduction to SQL Server
-  relevant_topics:
-  - counting things
-  - text data
-  question_text: How is counting things different from text data?
-  question_answer: Text data is string-based or unstructured data that often needs
-    cleaning for consistency.
-  correctness: correct
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence:
-  - source: overview
-    text: text data
-- row_id: r_000051
-  course:
-    course_id: '24388'
-    title: Introduction to SQL Server
-  relevant_topics:
-  - joining tables
-  - you've got power
-  question_text: How is joining tables different from you've got power?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000052
-  course:
-    course_id: '24388'
-    title: Introduction to SQL Server
-  relevant_topics:
-  - joining tables
-  - strings
-  question_text: How is joining tables different from strings?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000053
-  course:
-    course_id: '24388'
-    title: Introduction to SQL Server
-  relevant_topics:
-  - joining tables
-  - text data
-  question_text: How is joining tables different from text data?
-  question_answer: Text data is string-based or unstructured data that often needs
-    cleaning for consistency.
-  correctness: correct
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence:
-  - source: overview
-    text: text data
-- row_id: r_000054
-  course:
-    course_id: '24388'
-    title: Introduction to SQL Server
-  relevant_topics:
-  - you've got power
-  - strings
-  question_text: How is you've got power different from strings?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000055
-  course:
-    course_id: '24388'
-    title: Introduction to SQL Server
-  relevant_topics:
-  - you've got power
-  - text data
-  question_text: How is you've got power different from text data?
-  question_answer: Text data is string-based or unstructured data that often needs
-    cleaning for consistency.
-  correctness: correct
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence:
-  - source: overview
-    text: text data
-- row_id: r_000056
-  course:
-    course_id: '24388'
-    title: Introduction to SQL Server
-  relevant_topics:
-  - strings
-  - text data
-  question_text: How is strings different from text data?
-  question_answer: Text data is string-based or unstructured data that often needs
-    cleaning for consistency.
-  correctness: correct
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence:
-  - source: overview
-    text: text data
+    text: Groups, strings, and counting things
 summary:
-  topic_count: 7
-  canonical_topic_count: 7
-  candidate_count: 56
-  accepted_count: 56
+  topic_count: 8
+  canonical_topic_count: 8
+  candidate_count: 17
+  accepted_count: 17
   rejected_count: 0
-  correct_count: 11
-  uncertain_count: 45
+  correct_count: 15
+  uncertain_count: 0

@@ -115,43 +115,43 @@ extracted_topics:
 - topic_id: t001
   label: foundations for efficiencies
   topic_type: concept
-  description: 'Topic inferred from chapter heading: foundations for efficiencies'
+  description: 'Topic extracted from syllabus: foundations for efficiencies'
   evidence:
   - source: syllabus
     text: Foundations for efficiencies
-  confidence: 0.45
+  confidence: 0.55
 - topic_id: t002
-  label: timing
+  label: timing code
   topic_type: concept
-  description: 'Topic inferred from chapter heading: timing'
+  description: 'Topic extracted from syllabus: timing code'
   evidence:
   - source: syllabus
     text: Timing and profiling code
-  confidence: 0.55
+  confidence: 0.75
 - topic_id: t003
   label: profiling code
   topic_type: concept
-  description: 'Topic inferred from chapter heading: profiling code'
+  description: 'Topic extracted from syllabus: profiling code'
   evidence:
   - source: syllabus
     text: Timing and profiling code
-  confidence: 0.55
+  confidence: 0.75
 - topic_id: t004
   label: gaining efficiencies
   topic_type: concept
-  description: 'Topic inferred from chapter heading: gaining efficiencies'
+  description: 'Topic extracted from syllabus: gaining efficiencies'
   evidence:
   - source: syllabus
     text: Gaining efficiencies
-  confidence: 0.45
+  confidence: 0.55
 - topic_id: t005
   label: basic pandas optimizations
   topic_type: concept
-  description: 'Topic inferred from chapter heading: basic pandas optimizations'
+  description: 'Topic extracted from syllabus: basic pandas optimizations'
   evidence:
   - source: syllabus
     text: Basic pandas optimizations
-  confidence: 0.45
+  confidence: 0.55
 canonical_topics:
 - canonical_topic_id: ct_001
   label: foundations for efficiencies
@@ -161,9 +161,9 @@ canonical_topics:
   - t001
   topic_type: concept
 - canonical_topic_id: ct_002
-  label: timing
+  label: timing code
   aliases:
-  - timing
+  - timing code
   member_topic_ids:
   - t002
   topic_type: concept
@@ -198,217 +198,64 @@ question_candidates:
 - candidate_id: q0002
   relevant_topics:
   - foundations for efficiencies
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does foundations for efficiencies mean?
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does foundations for efficiencies work?
 - candidate_id: q0003
   relevant_topics:
-  - foundations for efficiencies
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does foundations for efficiencies matter?
-- candidate_id: q0004
-  relevant_topics:
-  - foundations for efficiencies
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use foundations for efficiencies?
-- candidate_id: q0005
-  relevant_topics:
-  - foundations for efficiencies
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of foundations for efficiencies?
-- candidate_id: q0006
-  relevant_topics:
-  - timing
+  - timing code
   family: entry
   pattern: What is {x}?
-  question_text: What is timing?
-- candidate_id: q0007
+  question_text: What is timing code?
+- candidate_id: q0004
   relevant_topics:
-  - timing
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does timing mean?
-- candidate_id: q0008
-  relevant_topics:
-  - timing
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does timing matter?
-- candidate_id: q0009
-  relevant_topics:
-  - timing
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use timing?
-- candidate_id: q0010
-  relevant_topics:
-  - timing
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of timing?
-- candidate_id: q0011
+  - timing code
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does timing code work?
+- candidate_id: q0005
   relevant_topics:
   - profiling code
   family: entry
   pattern: What is {x}?
   question_text: What is profiling code?
-- candidate_id: q0012
+- candidate_id: q0006
   relevant_topics:
   - profiling code
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does profiling code mean?
-- candidate_id: q0013
-  relevant_topics:
-  - profiling code
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does profiling code matter?
-- candidate_id: q0014
-  relevant_topics:
-  - profiling code
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use profiling code?
-- candidate_id: q0015
-  relevant_topics:
-  - profiling code
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of profiling code?
-- candidate_id: q0016
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does profiling code work?
+- candidate_id: q0007
   relevant_topics:
   - gaining efficiencies
   family: entry
   pattern: What is {x}?
   question_text: What is gaining efficiencies?
-- candidate_id: q0017
+- candidate_id: q0008
   relevant_topics:
   - gaining efficiencies
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does gaining efficiencies mean?
-- candidate_id: q0018
-  relevant_topics:
-  - gaining efficiencies
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does gaining efficiencies matter?
-- candidate_id: q0019
-  relevant_topics:
-  - gaining efficiencies
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use gaining efficiencies?
-- candidate_id: q0020
-  relevant_topics:
-  - gaining efficiencies
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of gaining efficiencies?
-- candidate_id: q0021
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does gaining efficiencies work?
+- candidate_id: q0009
   relevant_topics:
   - basic pandas optimizations
   family: entry
   pattern: What is {x}?
   question_text: What is basic pandas optimizations?
-- candidate_id: q0022
+- candidate_id: q0010
   relevant_topics:
   - basic pandas optimizations
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does basic pandas optimizations mean?
-- candidate_id: q0023
-  relevant_topics:
-  - basic pandas optimizations
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does basic pandas optimizations matter?
-- candidate_id: q0024
-  relevant_topics:
-  - basic pandas optimizations
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use basic pandas optimizations?
-- candidate_id: q0025
-  relevant_topics:
-  - basic pandas optimizations
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of basic pandas optimizations?
-- candidate_id: q0026
-  relevant_topics:
-  - foundations for efficiencies
-  - timing
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is foundations for efficiencies different from timing?
-- candidate_id: q0027
-  relevant_topics:
-  - foundations for efficiencies
-  - profiling code
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is foundations for efficiencies different from profiling code?
-- candidate_id: q0028
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does basic pandas optimizations work?
+- candidate_id: q0011
   relevant_topics:
   - foundations for efficiencies
   - gaining efficiencies
   family: comparison
   pattern: How is {x} different from {y}?
   question_text: How is foundations for efficiencies different from gaining efficiencies?
-- candidate_id: q0029
-  relevant_topics:
-  - foundations for efficiencies
-  - basic pandas optimizations
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is foundations for efficiencies different from basic pandas optimizations?
-- candidate_id: q0030
-  relevant_topics:
-  - timing
-  - profiling code
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is timing different from profiling code?
-- candidate_id: q0031
-  relevant_topics:
-  - timing
-  - gaining efficiencies
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is timing different from gaining efficiencies?
-- candidate_id: q0032
-  relevant_topics:
-  - timing
-  - basic pandas optimizations
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is timing different from basic pandas optimizations?
-- candidate_id: q0033
-  relevant_topics:
-  - profiling code
-  - gaining efficiencies
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is profiling code different from gaining efficiencies?
-- candidate_id: q0034
-  relevant_topics:
-  - profiling code
-  - basic pandas optimizations
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is profiling code different from basic pandas optimizations?
-- candidate_id: q0035
-  relevant_topics:
-  - gaining efficiencies
-  - basic pandas optimizations
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is gaining efficiencies different from basic pandas optimizations?
 question_repairs:
 - candidate_id: q0001
   status: accepted
@@ -417,420 +264,119 @@ question_repairs:
   reject_reason: null
 - candidate_id: q0002
   status: accepted
-  original_text: What does foundations for efficiencies mean?
-  final_text: What does foundations for efficiencies mean?
+  original_text: How does foundations for efficiencies work?
+  final_text: How does foundations for efficiencies work?
   reject_reason: null
 - candidate_id: q0003
   status: accepted
-  original_text: Why does foundations for efficiencies matter?
-  final_text: Why does foundations for efficiencies matter?
+  original_text: What is timing code?
+  final_text: What is timing code?
   reject_reason: null
 - candidate_id: q0004
-  status: repaired
-  original_text: Why do we use foundations for efficiencies?
-  final_text: Why does foundations for efficiencies?
+  status: accepted
+  original_text: How does timing code work?
+  final_text: How does timing code work?
   reject_reason: null
 - candidate_id: q0005
-  status: accepted
-  original_text: What is a simple example of foundations for efficiencies?
-  final_text: What is a simple example of foundations for efficiencies?
-  reject_reason: null
-- candidate_id: q0006
-  status: accepted
-  original_text: What is timing?
-  final_text: What is timing?
-  reject_reason: null
-- candidate_id: q0007
-  status: accepted
-  original_text: What does timing mean?
-  final_text: What does timing mean?
-  reject_reason: null
-- candidate_id: q0008
-  status: accepted
-  original_text: Why does timing matter?
-  final_text: Why does timing matter?
-  reject_reason: null
-- candidate_id: q0009
-  status: repaired
-  original_text: Why do we use timing?
-  final_text: Why does timing?
-  reject_reason: null
-- candidate_id: q0010
-  status: accepted
-  original_text: What is a simple example of timing?
-  final_text: What is a simple example of timing?
-  reject_reason: null
-- candidate_id: q0011
   status: accepted
   original_text: What is profiling code?
   final_text: What is profiling code?
   reject_reason: null
-- candidate_id: q0012
+- candidate_id: q0006
   status: accepted
-  original_text: What does profiling code mean?
-  final_text: What does profiling code mean?
+  original_text: How does profiling code work?
+  final_text: How does profiling code work?
   reject_reason: null
-- candidate_id: q0013
-  status: accepted
-  original_text: Why does profiling code matter?
-  final_text: Why does profiling code matter?
-  reject_reason: null
-- candidate_id: q0014
-  status: repaired
-  original_text: Why do we use profiling code?
-  final_text: Why does profiling code?
-  reject_reason: null
-- candidate_id: q0015
-  status: accepted
-  original_text: What is a simple example of profiling code?
-  final_text: What is a simple example of profiling code?
-  reject_reason: null
-- candidate_id: q0016
+- candidate_id: q0007
   status: accepted
   original_text: What is gaining efficiencies?
   final_text: What is gaining efficiencies?
   reject_reason: null
-- candidate_id: q0017
+- candidate_id: q0008
   status: accepted
-  original_text: What does gaining efficiencies mean?
-  final_text: What does gaining efficiencies mean?
+  original_text: How does gaining efficiencies work?
+  final_text: How does gaining efficiencies work?
   reject_reason: null
-- candidate_id: q0018
-  status: accepted
-  original_text: Why does gaining efficiencies matter?
-  final_text: Why does gaining efficiencies matter?
-  reject_reason: null
-- candidate_id: q0019
-  status: repaired
-  original_text: Why do we use gaining efficiencies?
-  final_text: Why does gaining efficiencies?
-  reject_reason: null
-- candidate_id: q0020
-  status: accepted
-  original_text: What is a simple example of gaining efficiencies?
-  final_text: What is a simple example of gaining efficiencies?
-  reject_reason: null
-- candidate_id: q0021
+- candidate_id: q0009
   status: accepted
   original_text: What is basic pandas optimizations?
   final_text: What is basic pandas optimizations?
   reject_reason: null
-- candidate_id: q0022
+- candidate_id: q0010
   status: accepted
-  original_text: What does basic pandas optimizations mean?
-  final_text: What does basic pandas optimizations mean?
+  original_text: How does basic pandas optimizations work?
+  final_text: How does basic pandas optimizations work?
   reject_reason: null
-- candidate_id: q0023
-  status: accepted
-  original_text: Why does basic pandas optimizations matter?
-  final_text: Why does basic pandas optimizations matter?
-  reject_reason: null
-- candidate_id: q0024
-  status: repaired
-  original_text: Why do we use basic pandas optimizations?
-  final_text: Why does basic pandas optimizations?
-  reject_reason: null
-- candidate_id: q0025
-  status: accepted
-  original_text: What is a simple example of basic pandas optimizations?
-  final_text: What is a simple example of basic pandas optimizations?
-  reject_reason: null
-- candidate_id: q0026
-  status: accepted
-  original_text: How is foundations for efficiencies different from timing?
-  final_text: How is foundations for efficiencies different from timing?
-  reject_reason: null
-- candidate_id: q0027
-  status: accepted
-  original_text: How is foundations for efficiencies different from profiling code?
-  final_text: How is foundations for efficiencies different from profiling code?
-  reject_reason: null
-- candidate_id: q0028
+- candidate_id: q0011
   status: accepted
   original_text: How is foundations for efficiencies different from gaining efficiencies?
   final_text: How is foundations for efficiencies different from gaining efficiencies?
   reject_reason: null
-- candidate_id: q0029
-  status: accepted
-  original_text: How is foundations for efficiencies different from basic pandas optimizations?
-  final_text: How is foundations for efficiencies different from basic pandas optimizations?
-  reject_reason: null
-- candidate_id: q0030
-  status: accepted
-  original_text: How is timing different from profiling code?
-  final_text: How is timing different from profiling code?
-  reject_reason: null
-- candidate_id: q0031
-  status: accepted
-  original_text: How is timing different from gaining efficiencies?
-  final_text: How is timing different from gaining efficiencies?
-  reject_reason: null
-- candidate_id: q0032
-  status: accepted
-  original_text: How is timing different from basic pandas optimizations?
-  final_text: How is timing different from basic pandas optimizations?
-  reject_reason: null
-- candidate_id: q0033
-  status: accepted
-  original_text: How is profiling code different from gaining efficiencies?
-  final_text: How is profiling code different from gaining efficiencies?
-  reject_reason: null
-- candidate_id: q0034
-  status: accepted
-  original_text: How is profiling code different from basic pandas optimizations?
-  final_text: How is profiling code different from basic pandas optimizations?
-  reject_reason: null
-- candidate_id: q0035
-  status: accepted
-  original_text: How is gaining efficiencies different from basic pandas optimizations?
-  final_text: How is gaining efficiencies different from basic pandas optimizations?
-  reject_reason: null
 answers:
 - question_id: q0001
   question_text: What is foundations for efficiencies?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
+  answer_text: Foundations for efficiencies
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Foundations for efficiencies
 - question_id: q0002
-  question_text: What does foundations for efficiencies mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0003
-  question_text: Why does foundations for efficiencies matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0004
-  question_text: Why does foundations for efficiencies?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
+  question_text: How does foundations for efficiencies work?
+  answer_text: Foundations for efficiencies
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Foundations for efficiencies
 - question_id: q0005
-  question_text: What is a simple example of foundations for efficiencies?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0006
-  question_text: What is timing?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0007
-  question_text: What does timing mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0008
-  question_text: Why does timing matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0009
-  question_text: Why does timing?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0010
-  question_text: What is a simple example of timing?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0011
   question_text: What is profiling code?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0012
-  question_text: What does profiling code mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0013
-  question_text: Why does profiling code matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0014
-  question_text: Why does profiling code?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0015
-  question_text: What is a simple example of profiling code?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0016
+  answer_text: Timing and profiling code
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Timing and profiling code
+- question_id: q0006
+  question_text: How does profiling code work?
+  answer_text: Timing and profiling code
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Timing and profiling code
+- question_id: q0007
   question_text: What is gaining efficiencies?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0017
-  question_text: What does gaining efficiencies mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0018
-  question_text: Why does gaining efficiencies matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0019
-  question_text: Why does gaining efficiencies?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0020
-  question_text: What is a simple example of gaining efficiencies?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0021
+  answer_text: Gaining efficiencies
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Gaining efficiencies
+- question_id: q0008
+  question_text: How does gaining efficiencies work?
+  answer_text: Gaining efficiencies
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Gaining efficiencies
+- question_id: q0009
   question_text: What is basic pandas optimizations?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0022
-  question_text: What does basic pandas optimizations mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0023
-  question_text: Why does basic pandas optimizations matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0024
-  question_text: Why does basic pandas optimizations?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0025
-  question_text: What is a simple example of basic pandas optimizations?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0026
-  question_text: How is foundations for efficiencies different from timing?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0027
-  question_text: How is foundations for efficiencies different from profiling code?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0028
-  question_text: How is foundations for efficiencies different from gaining efficiencies?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0029
-  question_text: How is foundations for efficiencies different from basic pandas optimizations?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0030
-  question_text: How is timing different from profiling code?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0031
-  question_text: How is timing different from gaining efficiencies?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0032
-  question_text: How is timing different from basic pandas optimizations?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0033
-  question_text: How is profiling code different from gaining efficiencies?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0034
-  question_text: How is profiling code different from basic pandas optimizations?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0035
-  question_text: How is gaining efficiencies different from basic pandas optimizations?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
+  answer_text: Basic pandas optimizations
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Basic pandas optimizations
+- question_id: q0010
+  question_text: How does basic pandas optimizations work?
+  answer_text: Basic pandas optimizations
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Basic pandas optimizations
 final_rows:
 - row_id: r_000001
   course:
@@ -839,380 +385,146 @@ final_rows:
   relevant_topics:
   - foundations for efficiencies
   question_text: What is foundations for efficiencies?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Foundations for efficiencies
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: syllabus
+    text: Foundations for efficiencies
 - row_id: r_000002
   course:
     course_id: '24393'
     title: Writing Efficient Python Code
   relevant_topics:
   - foundations for efficiencies
-  question_text: What does foundations for efficiencies mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does foundations for efficiencies work?
+  question_answer: Foundations for efficiencies
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: syllabus
+    text: Foundations for efficiencies
 - row_id: r_000003
   course:
     course_id: '24393'
     title: Writing Efficient Python Code
   relevant_topics:
-  - foundations for efficiencies
-  question_text: Why does foundations for efficiencies matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
+  - timing code
+  question_text: What is timing code?
+  question_answer: null
+  correctness: null
+  question_family: entry
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
 - row_id: r_000004
   course:
     course_id: '24393'
     title: Writing Efficient Python Code
   relevant_topics:
-  - foundations for efficiencies
-  question_text: Why does foundations for efficiencies?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
+  - timing code
+  question_text: How does timing code work?
+  question_answer: null
+  correctness: null
+  question_family: mechanism
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
 - row_id: r_000005
   course:
     course_id: '24393'
     title: Writing Efficient Python Code
   relevant_topics:
-  - foundations for efficiencies
-  question_text: What is a simple example of foundations for efficiencies?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
+  - profiling code
+  question_text: What is profiling code?
+  question_answer: Timing and profiling code
+  correctness: correct
+  question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: syllabus
+    text: Timing and profiling code
 - row_id: r_000006
   course:
     course_id: '24393'
     title: Writing Efficient Python Code
   relevant_topics:
-  - timing
-  question_text: What is timing?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  - profiling code
+  question_text: How does profiling code work?
+  question_answer: Timing and profiling code
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: syllabus
+    text: Timing and profiling code
 - row_id: r_000007
-  course:
-    course_id: '24393'
-    title: Writing Efficient Python Code
-  relevant_topics:
-  - timing
-  question_text: What does timing mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000008
-  course:
-    course_id: '24393'
-    title: Writing Efficient Python Code
-  relevant_topics:
-  - timing
-  question_text: Why does timing matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000009
-  course:
-    course_id: '24393'
-    title: Writing Efficient Python Code
-  relevant_topics:
-  - timing
-  question_text: Why does timing?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000010
-  course:
-    course_id: '24393'
-    title: Writing Efficient Python Code
-  relevant_topics:
-  - timing
-  question_text: What is a simple example of timing?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000011
-  course:
-    course_id: '24393'
-    title: Writing Efficient Python Code
-  relevant_topics:
-  - profiling code
-  question_text: What is profiling code?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000012
-  course:
-    course_id: '24393'
-    title: Writing Efficient Python Code
-  relevant_topics:
-  - profiling code
-  question_text: What does profiling code mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000013
-  course:
-    course_id: '24393'
-    title: Writing Efficient Python Code
-  relevant_topics:
-  - profiling code
-  question_text: Why does profiling code matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000014
-  course:
-    course_id: '24393'
-    title: Writing Efficient Python Code
-  relevant_topics:
-  - profiling code
-  question_text: Why does profiling code?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000015
-  course:
-    course_id: '24393'
-    title: Writing Efficient Python Code
-  relevant_topics:
-  - profiling code
-  question_text: What is a simple example of profiling code?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000016
   course:
     course_id: '24393'
     title: Writing Efficient Python Code
   relevant_topics:
   - gaining efficiencies
   question_text: What is gaining efficiencies?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Gaining efficiencies
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000017
+  source_evidence:
+  - source: syllabus
+    text: Gaining efficiencies
+- row_id: r_000008
   course:
     course_id: '24393'
     title: Writing Efficient Python Code
   relevant_topics:
   - gaining efficiencies
-  question_text: What does gaining efficiencies mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does gaining efficiencies work?
+  question_answer: Gaining efficiencies
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000018
-  course:
-    course_id: '24393'
-    title: Writing Efficient Python Code
-  relevant_topics:
-  - gaining efficiencies
-  question_text: Why does gaining efficiencies matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000019
-  course:
-    course_id: '24393'
-    title: Writing Efficient Python Code
-  relevant_topics:
-  - gaining efficiencies
-  question_text: Why does gaining efficiencies?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000020
-  course:
-    course_id: '24393'
-    title: Writing Efficient Python Code
-  relevant_topics:
-  - gaining efficiencies
-  question_text: What is a simple example of gaining efficiencies?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000021
+  source_evidence:
+  - source: syllabus
+    text: Gaining efficiencies
+- row_id: r_000009
   course:
     course_id: '24393'
     title: Writing Efficient Python Code
   relevant_topics:
   - basic pandas optimizations
   question_text: What is basic pandas optimizations?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Basic pandas optimizations
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000022
+  source_evidence:
+  - source: syllabus
+    text: Basic pandas optimizations
+- row_id: r_000010
   course:
     course_id: '24393'
     title: Writing Efficient Python Code
   relevant_topics:
   - basic pandas optimizations
-  question_text: What does basic pandas optimizations mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does basic pandas optimizations work?
+  question_answer: Basic pandas optimizations
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000023
-  course:
-    course_id: '24393'
-    title: Writing Efficient Python Code
-  relevant_topics:
-  - basic pandas optimizations
-  question_text: Why does basic pandas optimizations matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000024
-  course:
-    course_id: '24393'
-    title: Writing Efficient Python Code
-  relevant_topics:
-  - basic pandas optimizations
-  question_text: Why does basic pandas optimizations?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000025
-  course:
-    course_id: '24393'
-    title: Writing Efficient Python Code
-  relevant_topics:
-  - basic pandas optimizations
-  question_text: What is a simple example of basic pandas optimizations?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000026
-  course:
-    course_id: '24393'
-    title: Writing Efficient Python Code
-  relevant_topics:
-  - foundations for efficiencies
-  - timing
-  question_text: How is foundations for efficiencies different from timing?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000027
-  course:
-    course_id: '24393'
-    title: Writing Efficient Python Code
-  relevant_topics:
-  - foundations for efficiencies
-  - profiling code
-  question_text: How is foundations for efficiencies different from profiling code?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000028
+  source_evidence:
+  - source: syllabus
+    text: Basic pandas optimizations
+- row_id: r_000011
   course:
     course_id: '24393'
     title: Writing Efficient Python Code
@@ -1220,123 +532,17 @@ final_rows:
   - foundations for efficiencies
   - gaining efficiencies
   question_text: How is foundations for efficiencies different from gaining efficiencies?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000029
-  course:
-    course_id: '24393'
-    title: Writing Efficient Python Code
-  relevant_topics:
-  - foundations for efficiencies
-  - basic pandas optimizations
-  question_text: How is foundations for efficiencies different from basic pandas optimizations?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000030
-  course:
-    course_id: '24393'
-    title: Writing Efficient Python Code
-  relevant_topics:
-  - timing
-  - profiling code
-  question_text: How is timing different from profiling code?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000031
-  course:
-    course_id: '24393'
-    title: Writing Efficient Python Code
-  relevant_topics:
-  - timing
-  - gaining efficiencies
-  question_text: How is timing different from gaining efficiencies?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000032
-  course:
-    course_id: '24393'
-    title: Writing Efficient Python Code
-  relevant_topics:
-  - timing
-  - basic pandas optimizations
-  question_text: How is timing different from basic pandas optimizations?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000033
-  course:
-    course_id: '24393'
-    title: Writing Efficient Python Code
-  relevant_topics:
-  - profiling code
-  - gaining efficiencies
-  question_text: How is profiling code different from gaining efficiencies?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000034
-  course:
-    course_id: '24393'
-    title: Writing Efficient Python Code
-  relevant_topics:
-  - profiling code
-  - basic pandas optimizations
-  question_text: How is profiling code different from basic pandas optimizations?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000035
-  course:
-    course_id: '24393'
-    title: Writing Efficient Python Code
-  relevant_topics:
-  - gaining efficiencies
-  - basic pandas optimizations
-  question_text: How is gaining efficiencies different from basic pandas optimizations?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
 summary:
   topic_count: 5
   canonical_topic_count: 5
-  candidate_count: 35
-  accepted_count: 35
+  candidate_count: 11
+  accepted_count: 11
   rejected_count: 0
-  correct_count: 0
-  uncertain_count: 35
+  correct_count: 8
+  uncertain_count: 0

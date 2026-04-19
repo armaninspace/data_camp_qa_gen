@@ -113,52 +113,52 @@ extracted_topics:
 - topic_id: t001
   label: data merging basics
   topic_type: concept
-  description: 'Topic inferred from chapter heading: data merging basics'
+  description: 'Topic extracted from syllabus: data merging basics'
   evidence:
   - source: syllabus
     text: Data Merging Basics
-  confidence: 0.45
+  confidence: 0.55
 - topic_id: t002
   label: merging tables with different join types
   topic_type: concept
-  description: 'Topic inferred from chapter heading: merging tables with different
-    join types'
+  description: 'Topic extracted from syllabus: merging tables with different join
+    types'
   evidence:
   - source: syllabus
     text: Merging Tables With Different Join Types
-  confidence: 0.45
+  confidence: 0.55
 - topic_id: t003
   label: advanced merging
   topic_type: concept
-  description: 'Topic inferred from chapter heading: advanced merging'
+  description: 'Topic extracted from syllabus: advanced merging'
   evidence:
   - source: syllabus
     text: Advanced Merging and Concatenating
-  confidence: 0.55
+  confidence: 0.75
 - topic_id: t004
   label: concatenating
   topic_type: concept
-  description: 'Topic inferred from chapter heading: concatenating'
+  description: 'Topic extracted from syllabus: concatenating'
   evidence:
   - source: syllabus
     text: Advanced Merging and Concatenating
-  confidence: 0.55
+  confidence: 0.75
 - topic_id: t005
   label: merging ordered
   topic_type: concept
-  description: 'Topic inferred from chapter heading: merging ordered'
+  description: 'Topic extracted from syllabus: merging ordered'
   evidence:
   - source: syllabus
     text: Merging Ordered and Time-Series Data
-  confidence: 0.55
+  confidence: 0.75
 - topic_id: t006
   label: time-series data
   topic_type: concept
-  description: 'Topic inferred from chapter heading: time-series data'
+  description: 'Topic extracted from syllabus: time-series data'
   evidence:
   - source: syllabus
     text: Merging Ordered and Time-Series Data
-  confidence: 0.55
+  confidence: 0.75
 canonical_topics:
 - canonical_topic_id: ct_001
   label: data merging basics
@@ -212,178 +212,70 @@ question_candidates:
 - candidate_id: q0002
   relevant_topics:
   - data merging basics
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does data merging basics mean?
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does data merging basics work?
 - candidate_id: q0003
-  relevant_topics:
-  - data merging basics
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does data merging basics matter?
-- candidate_id: q0004
-  relevant_topics:
-  - data merging basics
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use data merging basics?
-- candidate_id: q0005
-  relevant_topics:
-  - data merging basics
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of data merging basics?
-- candidate_id: q0006
   relevant_topics:
   - merging tables with different join types
   family: entry
   pattern: What is {x}?
   question_text: What is merging tables with different join types?
-- candidate_id: q0007
+- candidate_id: q0004
   relevant_topics:
   - merging tables with different join types
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does merging tables with different join types mean?
-- candidate_id: q0008
-  relevant_topics:
-  - merging tables with different join types
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does merging tables with different join types matter?
-- candidate_id: q0009
-  relevant_topics:
-  - merging tables with different join types
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use merging tables with different join types?
-- candidate_id: q0010
-  relevant_topics:
-  - merging tables with different join types
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of merging tables with different join types?
-- candidate_id: q0011
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does merging tables with different join types work?
+- candidate_id: q0005
   relevant_topics:
   - advanced merging
   family: entry
   pattern: What is {x}?
   question_text: What is advanced merging?
-- candidate_id: q0012
+- candidate_id: q0006
   relevant_topics:
   - advanced merging
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does advanced merging mean?
-- candidate_id: q0013
-  relevant_topics:
-  - advanced merging
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does advanced merging matter?
-- candidate_id: q0014
-  relevant_topics:
-  - advanced merging
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use advanced merging?
-- candidate_id: q0015
-  relevant_topics:
-  - advanced merging
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of advanced merging?
-- candidate_id: q0016
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does advanced merging work?
+- candidate_id: q0007
   relevant_topics:
   - concatenating
   family: entry
   pattern: What is {x}?
   question_text: What is concatenating?
-- candidate_id: q0017
+- candidate_id: q0008
   relevant_topics:
   - concatenating
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does concatenating mean?
-- candidate_id: q0018
-  relevant_topics:
-  - concatenating
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does concatenating matter?
-- candidate_id: q0019
-  relevant_topics:
-  - concatenating
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use concatenating?
-- candidate_id: q0020
-  relevant_topics:
-  - concatenating
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of concatenating?
-- candidate_id: q0021
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does concatenating work?
+- candidate_id: q0009
   relevant_topics:
   - merging ordered
   family: entry
   pattern: What is {x}?
   question_text: What is merging ordered?
-- candidate_id: q0022
+- candidate_id: q0010
   relevant_topics:
   - merging ordered
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does merging ordered mean?
-- candidate_id: q0023
-  relevant_topics:
-  - merging ordered
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does merging ordered matter?
-- candidate_id: q0024
-  relevant_topics:
-  - merging ordered
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use merging ordered?
-- candidate_id: q0025
-  relevant_topics:
-  - merging ordered
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of merging ordered?
-- candidate_id: q0026
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does merging ordered work?
+- candidate_id: q0011
   relevant_topics:
   - time-series data
   family: entry
   pattern: What is {x}?
   question_text: What is time-series data?
-- candidate_id: q0027
+- candidate_id: q0012
   relevant_topics:
   - time-series data
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does time-series data mean?
-- candidate_id: q0028
-  relevant_topics:
-  - time-series data
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does time-series data matter?
-- candidate_id: q0029
-  relevant_topics:
-  - time-series data
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use time-series data?
-- candidate_id: q0030
-  relevant_topics:
-  - time-series data
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of time-series data?
-- candidate_id: q0031
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does time-series data work?
+- candidate_id: q0013
   relevant_topics:
   - data merging basics
   - merging tables with different join types
@@ -391,35 +283,21 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is data merging basics different from merging tables with different
     join types?
-- candidate_id: q0032
+- candidate_id: q0014
   relevant_topics:
   - data merging basics
   - advanced merging
   family: comparison
   pattern: How is {x} different from {y}?
   question_text: How is data merging basics different from advanced merging?
-- candidate_id: q0033
-  relevant_topics:
-  - data merging basics
-  - concatenating
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is data merging basics different from concatenating?
-- candidate_id: q0034
+- candidate_id: q0015
   relevant_topics:
   - data merging basics
   - merging ordered
   family: comparison
   pattern: How is {x} different from {y}?
   question_text: How is data merging basics different from merging ordered?
-- candidate_id: q0035
-  relevant_topics:
-  - data merging basics
-  - time-series data
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is data merging basics different from time-series data?
-- candidate_id: q0036
+- candidate_id: q0016
   relevant_topics:
   - merging tables with different join types
   - advanced merging
@@ -427,14 +305,7 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is merging tables with different join types different from advanced
     merging?
-- candidate_id: q0037
-  relevant_topics:
-  - merging tables with different join types
-  - concatenating
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is merging tables with different join types different from concatenating?
-- candidate_id: q0038
+- candidate_id: q0017
   relevant_topics:
   - merging tables with different join types
   - merging ordered
@@ -442,56 +313,13 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is merging tables with different join types different from merging
     ordered?
-- candidate_id: q0039
-  relevant_topics:
-  - merging tables with different join types
-  - time-series data
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is merging tables with different join types different from time-series
-    data?
-- candidate_id: q0040
-  relevant_topics:
-  - advanced merging
-  - concatenating
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is advanced merging different from concatenating?
-- candidate_id: q0041
+- candidate_id: q0018
   relevant_topics:
   - advanced merging
   - merging ordered
   family: comparison
   pattern: How is {x} different from {y}?
   question_text: How is advanced merging different from merging ordered?
-- candidate_id: q0042
-  relevant_topics:
-  - advanced merging
-  - time-series data
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is advanced merging different from time-series data?
-- candidate_id: q0043
-  relevant_topics:
-  - concatenating
-  - merging ordered
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is concatenating different from merging ordered?
-- candidate_id: q0044
-  relevant_topics:
-  - concatenating
-  - time-series data
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is concatenating different from time-series data?
-- candidate_id: q0045
-  relevant_topics:
-  - merging ordered
-  - time-series data
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is merging ordered different from time-series data?
 question_repairs:
 - candidate_id: q0001
   status: accepted
@@ -500,552 +328,192 @@ question_repairs:
   reject_reason: null
 - candidate_id: q0002
   status: accepted
-  original_text: What does data merging basics mean?
-  final_text: What does data merging basics mean?
+  original_text: How does data merging basics work?
+  final_text: How does data merging basics work?
   reject_reason: null
 - candidate_id: q0003
-  status: accepted
-  original_text: Why does data merging basics matter?
-  final_text: Why does data merging basics matter?
-  reject_reason: null
-- candidate_id: q0004
-  status: repaired
-  original_text: Why do we use data merging basics?
-  final_text: Why does data merging basics?
-  reject_reason: null
-- candidate_id: q0005
-  status: accepted
-  original_text: What is a simple example of data merging basics?
-  final_text: What is a simple example of data merging basics?
-  reject_reason: null
-- candidate_id: q0006
   status: accepted
   original_text: What is merging tables with different join types?
   final_text: What is merging tables with different join types?
   reject_reason: null
-- candidate_id: q0007
+- candidate_id: q0004
   status: accepted
-  original_text: What does merging tables with different join types mean?
-  final_text: What does merging tables with different join types mean?
+  original_text: How does merging tables with different join types work?
+  final_text: How does merging tables with different join types work?
   reject_reason: null
-- candidate_id: q0008
-  status: accepted
-  original_text: Why does merging tables with different join types matter?
-  final_text: Why does merging tables with different join types matter?
-  reject_reason: null
-- candidate_id: q0009
-  status: repaired
-  original_text: Why do we use merging tables with different join types?
-  final_text: Why does merging tables with different join types?
-  reject_reason: null
-- candidate_id: q0010
-  status: accepted
-  original_text: What is a simple example of merging tables with different join types?
-  final_text: What is a simple example of merging tables with different join types?
-  reject_reason: null
-- candidate_id: q0011
+- candidate_id: q0005
   status: accepted
   original_text: What is advanced merging?
   final_text: What is advanced merging?
   reject_reason: null
-- candidate_id: q0012
+- candidate_id: q0006
   status: accepted
-  original_text: What does advanced merging mean?
-  final_text: What does advanced merging mean?
+  original_text: How does advanced merging work?
+  final_text: How does advanced merging work?
   reject_reason: null
-- candidate_id: q0013
-  status: accepted
-  original_text: Why does advanced merging matter?
-  final_text: Why does advanced merging matter?
-  reject_reason: null
-- candidate_id: q0014
-  status: repaired
-  original_text: Why do we use advanced merging?
-  final_text: Why does advanced merging?
-  reject_reason: null
-- candidate_id: q0015
-  status: accepted
-  original_text: What is a simple example of advanced merging?
-  final_text: What is a simple example of advanced merging?
-  reject_reason: null
-- candidate_id: q0016
+- candidate_id: q0007
   status: accepted
   original_text: What is concatenating?
   final_text: What is concatenating?
   reject_reason: null
-- candidate_id: q0017
+- candidate_id: q0008
   status: accepted
-  original_text: What does concatenating mean?
-  final_text: What does concatenating mean?
+  original_text: How does concatenating work?
+  final_text: How does concatenating work?
   reject_reason: null
-- candidate_id: q0018
-  status: accepted
-  original_text: Why does concatenating matter?
-  final_text: Why does concatenating matter?
-  reject_reason: null
-- candidate_id: q0019
-  status: repaired
-  original_text: Why do we use concatenating?
-  final_text: Why does concatenating?
-  reject_reason: null
-- candidate_id: q0020
-  status: accepted
-  original_text: What is a simple example of concatenating?
-  final_text: What is a simple example of concatenating?
-  reject_reason: null
-- candidate_id: q0021
+- candidate_id: q0009
   status: accepted
   original_text: What is merging ordered?
   final_text: What is merging ordered?
   reject_reason: null
-- candidate_id: q0022
+- candidate_id: q0010
   status: accepted
-  original_text: What does merging ordered mean?
-  final_text: What does merging ordered mean?
+  original_text: How does merging ordered work?
+  final_text: How does merging ordered work?
   reject_reason: null
-- candidate_id: q0023
-  status: accepted
-  original_text: Why does merging ordered matter?
-  final_text: Why does merging ordered matter?
-  reject_reason: null
-- candidate_id: q0024
-  status: repaired
-  original_text: Why do we use merging ordered?
-  final_text: Why does merging ordered?
-  reject_reason: null
-- candidate_id: q0025
-  status: accepted
-  original_text: What is a simple example of merging ordered?
-  final_text: What is a simple example of merging ordered?
-  reject_reason: null
-- candidate_id: q0026
+- candidate_id: q0011
   status: accepted
   original_text: What is time-series data?
   final_text: What is time-series data?
   reject_reason: null
-- candidate_id: q0027
+- candidate_id: q0012
   status: accepted
-  original_text: What does time-series data mean?
-  final_text: What does time-series data mean?
+  original_text: How does time-series data work?
+  final_text: How does time-series data work?
   reject_reason: null
-- candidate_id: q0028
-  status: accepted
-  original_text: Why does time-series data matter?
-  final_text: Why does time-series data matter?
-  reject_reason: null
-- candidate_id: q0029
-  status: repaired
-  original_text: Why do we use time-series data?
-  final_text: Why does time-series data?
-  reject_reason: null
-- candidate_id: q0030
-  status: accepted
-  original_text: What is a simple example of time-series data?
-  final_text: What is a simple example of time-series data?
-  reject_reason: null
-- candidate_id: q0031
+- candidate_id: q0013
   status: accepted
   original_text: How is data merging basics different from merging tables with different
     join types?
   final_text: How is data merging basics different from merging tables with different
     join types?
   reject_reason: null
-- candidate_id: q0032
+- candidate_id: q0014
   status: accepted
   original_text: How is data merging basics different from advanced merging?
   final_text: How is data merging basics different from advanced merging?
   reject_reason: null
-- candidate_id: q0033
-  status: accepted
-  original_text: How is data merging basics different from concatenating?
-  final_text: How is data merging basics different from concatenating?
-  reject_reason: null
-- candidate_id: q0034
+- candidate_id: q0015
   status: accepted
   original_text: How is data merging basics different from merging ordered?
   final_text: How is data merging basics different from merging ordered?
   reject_reason: null
-- candidate_id: q0035
-  status: accepted
-  original_text: How is data merging basics different from time-series data?
-  final_text: How is data merging basics different from time-series data?
-  reject_reason: null
-- candidate_id: q0036
+- candidate_id: q0016
   status: accepted
   original_text: How is merging tables with different join types different from advanced
     merging?
   final_text: How is merging tables with different join types different from advanced
     merging?
   reject_reason: null
-- candidate_id: q0037
-  status: accepted
-  original_text: How is merging tables with different join types different from concatenating?
-  final_text: How is merging tables with different join types different from concatenating?
-  reject_reason: null
-- candidate_id: q0038
+- candidate_id: q0017
   status: accepted
   original_text: How is merging tables with different join types different from merging
     ordered?
   final_text: How is merging tables with different join types different from merging
     ordered?
   reject_reason: null
-- candidate_id: q0039
-  status: accepted
-  original_text: How is merging tables with different join types different from time-series
-    data?
-  final_text: How is merging tables with different join types different from time-series
-    data?
-  reject_reason: null
-- candidate_id: q0040
-  status: accepted
-  original_text: How is advanced merging different from concatenating?
-  final_text: How is advanced merging different from concatenating?
-  reject_reason: null
-- candidate_id: q0041
+- candidate_id: q0018
   status: accepted
   original_text: How is advanced merging different from merging ordered?
   final_text: How is advanced merging different from merging ordered?
   reject_reason: null
-- candidate_id: q0042
-  status: accepted
-  original_text: How is advanced merging different from time-series data?
-  final_text: How is advanced merging different from time-series data?
-  reject_reason: null
-- candidate_id: q0043
-  status: accepted
-  original_text: How is concatenating different from merging ordered?
-  final_text: How is concatenating different from merging ordered?
-  reject_reason: null
-- candidate_id: q0044
-  status: accepted
-  original_text: How is concatenating different from time-series data?
-  final_text: How is concatenating different from time-series data?
-  reject_reason: null
-- candidate_id: q0045
-  status: accepted
-  original_text: How is merging ordered different from time-series data?
-  final_text: How is merging ordered different from time-series data?
-  reject_reason: null
 answers:
 - question_id: q0001
   question_text: What is data merging basics?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
+  answer_text: Data Merging Basics
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Data Merging Basics
 - question_id: q0002
-  question_text: What does data merging basics mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
+  question_text: How does data merging basics work?
+  answer_text: Data Merging Basics
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Data Merging Basics
 - question_id: q0003
-  question_text: Why does data merging basics matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0004
-  question_text: Why does data merging basics?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0005
-  question_text: What is a simple example of data merging basics?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0006
   question_text: What is merging tables with different join types?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0007
-  question_text: What does merging tables with different join types mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0008
-  question_text: Why does merging tables with different join types matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0009
-  question_text: Why does merging tables with different join types?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0010
-  question_text: What is a simple example of merging tables with different join types?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0011
+  answer_text: Merging Tables With Different Join Types
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Merging Tables With Different Join Types
+- question_id: q0004
+  question_text: How does merging tables with different join types work?
+  answer_text: Merging Tables With Different Join Types
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Merging Tables With Different Join Types
+- question_id: q0005
   question_text: What is advanced merging?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0012
-  question_text: What does advanced merging mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0013
-  question_text: Why does advanced merging matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0014
-  question_text: Why does advanced merging?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0015
-  question_text: What is a simple example of advanced merging?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0016
+  answer_text: Advanced Merging and Concatenating
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Advanced Merging and Concatenating
+- question_id: q0006
+  question_text: How does advanced merging work?
+  answer_text: Advanced Merging and Concatenating
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Advanced Merging and Concatenating
+- question_id: q0007
   question_text: What is concatenating?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0017
-  question_text: What does concatenating mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0018
-  question_text: Why does concatenating matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0019
-  question_text: Why does concatenating?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0020
-  question_text: What is a simple example of concatenating?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0021
+  answer_text: Advanced Merging and Concatenating
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Advanced Merging and Concatenating
+- question_id: q0008
+  question_text: How does concatenating work?
+  answer_text: Advanced Merging and Concatenating
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Advanced Merging and Concatenating
+- question_id: q0009
   question_text: What is merging ordered?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0022
-  question_text: What does merging ordered mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0023
-  question_text: Why does merging ordered matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0024
-  question_text: Why does merging ordered?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0025
-  question_text: What is a simple example of merging ordered?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0026
+  answer_text: Merging Ordered and Time-Series Data
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Merging Ordered and Time-Series Data
+- question_id: q0010
+  question_text: How does merging ordered work?
+  answer_text: Merging Ordered and Time-Series Data
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Merging Ordered and Time-Series Data
+- question_id: q0011
   question_text: What is time-series data?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0027
-  question_text: What does time-series data mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0028
-  question_text: Why does time-series data matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0029
-  question_text: Why does time-series data?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0030
-  question_text: What is a simple example of time-series data?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0031
-  question_text: How is data merging basics different from merging tables with different
-    join types?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0032
-  question_text: How is data merging basics different from advanced merging?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0033
-  question_text: How is data merging basics different from concatenating?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0034
-  question_text: How is data merging basics different from merging ordered?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0035
-  question_text: How is data merging basics different from time-series data?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0036
-  question_text: How is merging tables with different join types different from advanced
-    merging?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0037
-  question_text: How is merging tables with different join types different from concatenating?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0038
-  question_text: How is merging tables with different join types different from merging
-    ordered?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0039
-  question_text: How is merging tables with different join types different from time-series
-    data?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0040
-  question_text: How is advanced merging different from concatenating?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0041
-  question_text: How is advanced merging different from merging ordered?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0042
-  question_text: How is advanced merging different from time-series data?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0043
-  question_text: How is concatenating different from merging ordered?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0044
-  question_text: How is concatenating different from time-series data?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0045
-  question_text: How is merging ordered different from time-series data?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
+  answer_text: Merging Ordered and Time-Series Data
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Merging Ordered and Time-Series Data
+- question_id: q0012
+  question_text: How does time-series data work?
+  answer_text: Merging Ordered and Time-Series Data
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Merging Ordered and Time-Series Data
 final_rows:
 - row_id: r_000001
   course:
@@ -1054,420 +522,180 @@ final_rows:
   relevant_topics:
   - data merging basics
   question_text: What is data merging basics?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Data Merging Basics
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: syllabus
+    text: Data Merging Basics
 - row_id: r_000002
   course:
     course_id: '24386'
     title: Joining Data with pandas
   relevant_topics:
   - data merging basics
-  question_text: What does data merging basics mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does data merging basics work?
+  question_answer: Data Merging Basics
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: syllabus
+    text: Data Merging Basics
 - row_id: r_000003
-  course:
-    course_id: '24386'
-    title: Joining Data with pandas
-  relevant_topics:
-  - data merging basics
-  question_text: Why does data merging basics matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000004
-  course:
-    course_id: '24386'
-    title: Joining Data with pandas
-  relevant_topics:
-  - data merging basics
-  question_text: Why does data merging basics?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000005
-  course:
-    course_id: '24386'
-    title: Joining Data with pandas
-  relevant_topics:
-  - data merging basics
-  question_text: What is a simple example of data merging basics?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000006
   course:
     course_id: '24386'
     title: Joining Data with pandas
   relevant_topics:
   - merging tables with different join types
   question_text: What is merging tables with different join types?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Merging Tables With Different Join Types
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000007
+  source_evidence:
+  - source: syllabus
+    text: Merging Tables With Different Join Types
+- row_id: r_000004
   course:
     course_id: '24386'
     title: Joining Data with pandas
   relevant_topics:
   - merging tables with different join types
-  question_text: What does merging tables with different join types mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does merging tables with different join types work?
+  question_answer: Merging Tables With Different Join Types
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000008
-  course:
-    course_id: '24386'
-    title: Joining Data with pandas
-  relevant_topics:
-  - merging tables with different join types
-  question_text: Why does merging tables with different join types matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000009
-  course:
-    course_id: '24386'
-    title: Joining Data with pandas
-  relevant_topics:
-  - merging tables with different join types
-  question_text: Why does merging tables with different join types?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000010
-  course:
-    course_id: '24386'
-    title: Joining Data with pandas
-  relevant_topics:
-  - merging tables with different join types
-  question_text: What is a simple example of merging tables with different join types?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000011
+  source_evidence:
+  - source: syllabus
+    text: Merging Tables With Different Join Types
+- row_id: r_000005
   course:
     course_id: '24386'
     title: Joining Data with pandas
   relevant_topics:
   - advanced merging
   question_text: What is advanced merging?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Advanced Merging and Concatenating
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000012
+  source_evidence:
+  - source: syllabus
+    text: Advanced Merging and Concatenating
+- row_id: r_000006
   course:
     course_id: '24386'
     title: Joining Data with pandas
   relevant_topics:
   - advanced merging
-  question_text: What does advanced merging mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does advanced merging work?
+  question_answer: Advanced Merging and Concatenating
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000013
-  course:
-    course_id: '24386'
-    title: Joining Data with pandas
-  relevant_topics:
-  - advanced merging
-  question_text: Why does advanced merging matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000014
-  course:
-    course_id: '24386'
-    title: Joining Data with pandas
-  relevant_topics:
-  - advanced merging
-  question_text: Why does advanced merging?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000015
-  course:
-    course_id: '24386'
-    title: Joining Data with pandas
-  relevant_topics:
-  - advanced merging
-  question_text: What is a simple example of advanced merging?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000016
+  source_evidence:
+  - source: syllabus
+    text: Advanced Merging and Concatenating
+- row_id: r_000007
   course:
     course_id: '24386'
     title: Joining Data with pandas
   relevant_topics:
   - concatenating
   question_text: What is concatenating?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Advanced Merging and Concatenating
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000017
+  source_evidence:
+  - source: syllabus
+    text: Advanced Merging and Concatenating
+- row_id: r_000008
   course:
     course_id: '24386'
     title: Joining Data with pandas
   relevant_topics:
   - concatenating
-  question_text: What does concatenating mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does concatenating work?
+  question_answer: Advanced Merging and Concatenating
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000018
-  course:
-    course_id: '24386'
-    title: Joining Data with pandas
-  relevant_topics:
-  - concatenating
-  question_text: Why does concatenating matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000019
-  course:
-    course_id: '24386'
-    title: Joining Data with pandas
-  relevant_topics:
-  - concatenating
-  question_text: Why does concatenating?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000020
-  course:
-    course_id: '24386'
-    title: Joining Data with pandas
-  relevant_topics:
-  - concatenating
-  question_text: What is a simple example of concatenating?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000021
+  source_evidence:
+  - source: syllabus
+    text: Advanced Merging and Concatenating
+- row_id: r_000009
   course:
     course_id: '24386'
     title: Joining Data with pandas
   relevant_topics:
   - merging ordered
   question_text: What is merging ordered?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Merging Ordered and Time-Series Data
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000022
+  source_evidence:
+  - source: syllabus
+    text: Merging Ordered and Time-Series Data
+- row_id: r_000010
   course:
     course_id: '24386'
     title: Joining Data with pandas
   relevant_topics:
   - merging ordered
-  question_text: What does merging ordered mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does merging ordered work?
+  question_answer: Merging Ordered and Time-Series Data
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000023
-  course:
-    course_id: '24386'
-    title: Joining Data with pandas
-  relevant_topics:
-  - merging ordered
-  question_text: Why does merging ordered matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000024
-  course:
-    course_id: '24386'
-    title: Joining Data with pandas
-  relevant_topics:
-  - merging ordered
-  question_text: Why does merging ordered?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000025
-  course:
-    course_id: '24386'
-    title: Joining Data with pandas
-  relevant_topics:
-  - merging ordered
-  question_text: What is a simple example of merging ordered?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000026
+  source_evidence:
+  - source: syllabus
+    text: Merging Ordered and Time-Series Data
+- row_id: r_000011
   course:
     course_id: '24386'
     title: Joining Data with pandas
   relevant_topics:
   - time-series data
   question_text: What is time-series data?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Merging Ordered and Time-Series Data
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000027
+  source_evidence:
+  - source: syllabus
+    text: Merging Ordered and Time-Series Data
+- row_id: r_000012
   course:
     course_id: '24386'
     title: Joining Data with pandas
   relevant_topics:
   - time-series data
-  question_text: What does time-series data mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does time-series data work?
+  question_answer: Merging Ordered and Time-Series Data
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000028
-  course:
-    course_id: '24386'
-    title: Joining Data with pandas
-  relevant_topics:
-  - time-series data
-  question_text: Why does time-series data matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000029
-  course:
-    course_id: '24386'
-    title: Joining Data with pandas
-  relevant_topics:
-  - time-series data
-  question_text: Why does time-series data?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000030
-  course:
-    course_id: '24386'
-    title: Joining Data with pandas
-  relevant_topics:
-  - time-series data
-  question_text: What is a simple example of time-series data?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000031
+  source_evidence:
+  - source: syllabus
+    text: Merging Ordered and Time-Series Data
+- row_id: r_000013
   course:
     course_id: '24386'
     title: Joining Data with pandas
@@ -1476,14 +704,13 @@ final_rows:
   - merging tables with different join types
   question_text: How is data merging basics different from merging tables with different
     join types?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000032
+- row_id: r_000014
   course:
     course_id: '24386'
     title: Joining Data with pandas
@@ -1491,29 +718,13 @@ final_rows:
   - data merging basics
   - advanced merging
   question_text: How is data merging basics different from advanced merging?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000033
-  course:
-    course_id: '24386'
-    title: Joining Data with pandas
-  relevant_topics:
-  - data merging basics
-  - concatenating
-  question_text: How is data merging basics different from concatenating?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000034
+- row_id: r_000015
   course:
     course_id: '24386'
     title: Joining Data with pandas
@@ -1521,29 +732,13 @@ final_rows:
   - data merging basics
   - merging ordered
   question_text: How is data merging basics different from merging ordered?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000035
-  course:
-    course_id: '24386'
-    title: Joining Data with pandas
-  relevant_topics:
-  - data merging basics
-  - time-series data
-  question_text: How is data merging basics different from time-series data?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000036
+- row_id: r_000016
   course:
     course_id: '24386'
     title: Joining Data with pandas
@@ -1552,29 +747,13 @@ final_rows:
   - advanced merging
   question_text: How is merging tables with different join types different from advanced
     merging?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000037
-  course:
-    course_id: '24386'
-    title: Joining Data with pandas
-  relevant_topics:
-  - merging tables with different join types
-  - concatenating
-  question_text: How is merging tables with different join types different from concatenating?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000038
+- row_id: r_000017
   course:
     course_id: '24386'
     title: Joining Data with pandas
@@ -1583,45 +762,13 @@ final_rows:
   - merging ordered
   question_text: How is merging tables with different join types different from merging
     ordered?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000039
-  course:
-    course_id: '24386'
-    title: Joining Data with pandas
-  relevant_topics:
-  - merging tables with different join types
-  - time-series data
-  question_text: How is merging tables with different join types different from time-series
-    data?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000040
-  course:
-    course_id: '24386'
-    title: Joining Data with pandas
-  relevant_topics:
-  - advanced merging
-  - concatenating
-  question_text: How is advanced merging different from concatenating?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000041
+- row_id: r_000018
   course:
     course_id: '24386'
     title: Joining Data with pandas
@@ -1629,78 +776,17 @@ final_rows:
   - advanced merging
   - merging ordered
   question_text: How is advanced merging different from merging ordered?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000042
-  course:
-    course_id: '24386'
-    title: Joining Data with pandas
-  relevant_topics:
-  - advanced merging
-  - time-series data
-  question_text: How is advanced merging different from time-series data?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000043
-  course:
-    course_id: '24386'
-    title: Joining Data with pandas
-  relevant_topics:
-  - concatenating
-  - merging ordered
-  question_text: How is concatenating different from merging ordered?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000044
-  course:
-    course_id: '24386'
-    title: Joining Data with pandas
-  relevant_topics:
-  - concatenating
-  - time-series data
-  question_text: How is concatenating different from time-series data?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000045
-  course:
-    course_id: '24386'
-    title: Joining Data with pandas
-  relevant_topics:
-  - merging ordered
-  - time-series data
-  question_text: How is merging ordered different from time-series data?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
 summary:
   topic_count: 6
   canonical_topic_count: 6
-  candidate_count: 45
-  accepted_count: 45
+  candidate_count: 18
+  accepted_count: 18
   rejected_count: 0
-  correct_count: 0
-  uncertain_count: 45
+  correct_count: 12
+  uncertain_count: 0

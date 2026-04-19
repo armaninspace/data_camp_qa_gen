@@ -109,619 +109,306 @@ normalized_course:
     final_url: true
 extracted_topics:
 - topic_id: t001
-  label: introduction to joins
-  topic_type: concept
-  description: 'Topic inferred from chapter heading: introduction to joins'
-  evidence:
-  - source: overview_inferred
-    text: Introduction to joins
-  confidence: 0.45
-- topic_id: t002
   label: -in this chapter, you'll be introduced to the concept of joining tables,
     and
   topic_type: concept
-  description: 'Topic inferred from chapter heading: -in this chapter, you''ll be
-    introduced to the concept of joining tables, and'
+  description: 'Topic extracted from overview_inferred: -in this chapter, you''ll
+    be introduced to the concept of joining tables, and'
   evidence:
   - source: overview_inferred
     text: -In this chapter, you'll be introduced to the concept of joining tables,
       and
-  confidence: 0.45
-- topic_id: t003
+  confidence: 0.55
+- topic_id: t002
   label: will explore the different ways you can enrich your queries using inner
   topic_type: concept
-  description: 'Topic inferred from chapter heading: will explore the different ways
-    you can enrich your queries using inner'
+  description: 'Topic extracted from overview_inferred: will explore the different
+    ways you can enrich your queries using inner'
   evidence:
   - source: overview_inferred
     text: will explore the different ways you can enrich your queries using inner
-  confidence: 0.45
-- topic_id: t004
-  label: joins
+  confidence: 0.55
+- topic_id: t003
+  label: joins joins. you'll also see how to use the case statement to split
   topic_type: concept
-  description: 'Topic inferred from chapter heading: joins'
+  description: 'Topic extracted from overview_inferred: joins joins. you''ll also
+    see how to use the case statement to split'
   evidence:
   - source: overview_inferred
     text: joins and self joins. You'll also see how to use the case statement to split
-  confidence: 0.55
-- topic_id: t005
+  confidence: 0.75
+- topic_id: t004
   label: self joins. you'll also see how to use the case statement to split
   topic_type: concept
-  description: 'Topic inferred from chapter heading: self joins. you''ll also see
+  description: 'Topic extracted from overview_inferred: self joins. you''ll also see
     how to use the case statement to split'
   evidence:
   - source: overview_inferred
     text: joins and self joins. You'll also see how to use the case statement to split
-  confidence: 0.55
-- topic_id: t006
+  confidence: 0.75
+- topic_id: t005
   label: outer joins
   topic_type: concept
-  description: 'Topic inferred from chapter heading: outer joins'
+  description: 'Topic extracted from overview_inferred: outer joins'
   evidence:
   - source: overview_inferred
     text: Outer joins and cross joins
-  confidence: 0.55
-- topic_id: t007
+  confidence: 0.75
+- topic_id: t006
   label: cross joins
   topic_type: concept
-  description: 'Topic inferred from chapter heading: cross joins'
+  description: 'Topic extracted from overview_inferred: cross joins'
   evidence:
   - source: overview_inferred
     text: Outer joins and cross joins
-  confidence: 0.55
-- topic_id: t008
-  label: you'll learn how to gain further insights into your data through left joins,
+  confidence: 0.75
+- topic_id: t007
+  label: you'll learn how to gain further insights into your data through left joins
   topic_type: concept
-  description: 'Topic inferred from chapter heading: you''ll learn how to gain further
-    insights into your data through left joins,'
+  description: 'Topic extracted from overview_inferred: you''ll learn how to gain
+    further insights into your data through left joins'
   evidence:
   - source: overview_inferred
     text: You'll learn how to gain further insights into your data through left joins,
-  confidence: 0.45
-- topic_id: t009
+  confidence: 0.55
+- topic_id: t008
   label: right joins
   topic_type: concept
-  description: 'Topic inferred from chapter heading: right joins'
+  description: 'Topic extracted from overview_inferred: right joins'
   evidence:
   - source: overview_inferred
     text: right joins, and full joins. In addition to outer joins, you'll also work
-  confidence: 0.55
-- topic_id: t010
+  confidence: 0.75
+- topic_id: t009
   label: full joins. in addition to outer joins, you'll also work
   topic_type: concept
-  description: 'Topic inferred from chapter heading: full joins. in addition to outer
-    joins, you''ll also work'
+  description: 'Topic extracted from overview_inferred: full joins. in addition to
+    outer joins, you''ll also work'
   evidence:
   - source: overview_inferred
     text: right joins, and full joins. In addition to outer joins, you'll also work
-  confidence: 0.55
-- topic_id: t011
+  confidence: 0.75
+- topic_id: t010
   label: set theory clauses
   topic_type: concept
-  description: 'Topic inferred from chapter heading: set theory clauses'
+  description: 'Topic extracted from overview_inferred: set theory clauses'
   evidence:
   - source: overview_inferred
     text: Set theory clauses
-  confidence: 0.45
+  confidence: 0.55
 canonical_topics:
 - canonical_topic_id: ct_001
-  label: introduction to joins
-  aliases:
-  - introduction to joins
-  member_topic_ids:
-  - t001
-  topic_type: concept
-- canonical_topic_id: ct_002
   label: -in this chapter, you'll be introduced to concept of joining tables, and
   aliases:
   - -in this chapter, you'll be introduced to the concept of joining tables, and
   member_topic_ids:
-  - t002
+  - t001
   topic_type: concept
-- canonical_topic_id: ct_003
+- canonical_topic_id: ct_002
   label: will explore different ways you can enrich your queries using inner
   aliases:
   - will explore the different ways you can enrich your queries using inner
   member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: joins joins. you'll also see how to use case statement to split
+  aliases:
+  - joins joins. you'll also see how to use the case statement to split
+  member_topic_ids:
   - t003
   topic_type: concept
 - canonical_topic_id: ct_004
-  label: joins
-  aliases:
-  - joins
-  member_topic_ids:
-  - t004
-  topic_type: concept
-- canonical_topic_id: ct_005
   label: self joins. you'll also see how to use case statement to split
   aliases:
   - self joins. you'll also see how to use the case statement to split
   member_topic_ids:
-  - t005
+  - t004
   topic_type: concept
-- canonical_topic_id: ct_006
+- canonical_topic_id: ct_005
   label: outer joins
   aliases:
   - outer joins
   member_topic_ids:
-  - t006
+  - t005
   topic_type: concept
-- canonical_topic_id: ct_007
+- canonical_topic_id: ct_006
   label: cross joins
   aliases:
   - cross joins
   member_topic_ids:
+  - t006
+  topic_type: concept
+- canonical_topic_id: ct_007
+  label: you'll learn how to gain further insights into your data through left joins
+  aliases:
+  - you'll learn how to gain further insights into your data through left joins
+  member_topic_ids:
   - t007
   topic_type: concept
 - canonical_topic_id: ct_008
-  label: you'll learn how to gain further insights into your data through left joins,
-  aliases:
-  - you'll learn how to gain further insights into your data through left joins,
-  member_topic_ids:
-  - t008
-  topic_type: concept
-- canonical_topic_id: ct_009
   label: right joins
   aliases:
   - right joins
   member_topic_ids:
-  - t009
+  - t008
   topic_type: concept
-- canonical_topic_id: ct_010
+- canonical_topic_id: ct_009
   label: full joins. in addition to outer joins, you'll also work
   aliases:
   - full joins. in addition to outer joins, you'll also work
   member_topic_ids:
-  - t010
+  - t009
   topic_type: concept
-- canonical_topic_id: ct_011
+- canonical_topic_id: ct_010
   label: set theory clauses
   aliases:
   - set theory clauses
   member_topic_ids:
-  - t011
+  - t010
   topic_type: concept
 question_candidates:
 - candidate_id: q0001
-  relevant_topics:
-  - introduction to joins
-  family: entry
-  pattern: What is {x}?
-  question_text: What is introduction to joins?
-- candidate_id: q0002
-  relevant_topics:
-  - introduction to joins
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does introduction to joins mean?
-- candidate_id: q0003
-  relevant_topics:
-  - introduction to joins
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does introduction to joins matter?
-- candidate_id: q0004
-  relevant_topics:
-  - introduction to joins
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use introduction to joins?
-- candidate_id: q0005
-  relevant_topics:
-  - introduction to joins
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of introduction to joins?
-- candidate_id: q0006
   relevant_topics:
   - -in this chapter, you'll be introduced to concept of joining tables, and
   family: entry
   pattern: What is {x}?
   question_text: What is -in this chapter, you'll be introduced to concept of joining
     tables, and?
-- candidate_id: q0007
+- candidate_id: q0002
   relevant_topics:
   - -in this chapter, you'll be introduced to concept of joining tables, and
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does -in this chapter, you'll be introduced to concept of joining
-    tables, and mean?
-- candidate_id: q0008
-  relevant_topics:
-  - -in this chapter, you'll be introduced to concept of joining tables, and
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does -in this chapter, you'll be introduced to concept of joining
-    tables, and matter?
-- candidate_id: q0009
-  relevant_topics:
-  - -in this chapter, you'll be introduced to concept of joining tables, and
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use -in this chapter, you'll be introduced to concept of
-    joining tables, and?
-- candidate_id: q0010
-  relevant_topics:
-  - -in this chapter, you'll be introduced to concept of joining tables, and
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of -in this chapter, you'll be introduced
-    to concept of joining tables, and?
-- candidate_id: q0011
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does -in this chapter, you'll be introduced to concept of joining
+    tables, and work?
+- candidate_id: q0003
   relevant_topics:
   - will explore different ways you can enrich your queries using inner
   family: entry
   pattern: What is {x}?
   question_text: What is will explore different ways you can enrich your queries using
     inner?
-- candidate_id: q0012
+- candidate_id: q0004
   relevant_topics:
   - will explore different ways you can enrich your queries using inner
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does will explore different ways you can enrich your queries
-    using inner mean?
-- candidate_id: q0013
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does will explore different ways you can enrich your queries
+    using inner work?
+- candidate_id: q0005
   relevant_topics:
-  - will explore different ways you can enrich your queries using inner
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does will explore different ways you can enrich your queries
-    using inner matter?
-- candidate_id: q0014
-  relevant_topics:
-  - will explore different ways you can enrich your queries using inner
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use will explore different ways you can enrich your queries
-    using inner?
-- candidate_id: q0015
-  relevant_topics:
-  - will explore different ways you can enrich your queries using inner
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of will explore different ways you can enrich
-    your queries using inner?
-- candidate_id: q0016
-  relevant_topics:
-  - joins
+  - joins joins. you'll also see how to use case statement to split
   family: entry
   pattern: What is {x}?
-  question_text: What is joins?
-- candidate_id: q0017
+  question_text: What is joins joins. you'll also see how to use case statement to
+    split?
+- candidate_id: q0006
   relevant_topics:
-  - joins
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does joins mean?
-- candidate_id: q0018
-  relevant_topics:
-  - joins
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does joins matter?
-- candidate_id: q0019
-  relevant_topics:
-  - joins
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use joins?
-- candidate_id: q0020
-  relevant_topics:
-  - joins
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of joins?
-- candidate_id: q0021
+  - joins joins. you'll also see how to use case statement to split
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does joins joins. you'll also see how to use case statement to
+    split work?
+- candidate_id: q0007
   relevant_topics:
   - self joins. you'll also see how to use case statement to split
   family: entry
   pattern: What is {x}?
   question_text: What is self joins. you'll also see how to use case statement to
     split?
-- candidate_id: q0022
+- candidate_id: q0008
   relevant_topics:
   - self joins. you'll also see how to use case statement to split
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does self joins. you'll also see how to use case statement to
-    split mean?
-- candidate_id: q0023
-  relevant_topics:
-  - self joins. you'll also see how to use case statement to split
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does self joins. you'll also see how to use case statement to
-    split matter?
-- candidate_id: q0024
-  relevant_topics:
-  - self joins. you'll also see how to use case statement to split
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use self joins. you'll also see how to use case statement
-    to split?
-- candidate_id: q0025
-  relevant_topics:
-  - self joins. you'll also see how to use case statement to split
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of self joins. you'll also see how to use
-    case statement to split?
-- candidate_id: q0026
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does self joins. you'll also see how to use case statement to
+    split work?
+- candidate_id: q0009
   relevant_topics:
   - outer joins
   family: entry
   pattern: What is {x}?
   question_text: What is outer joins?
-- candidate_id: q0027
+- candidate_id: q0010
   relevant_topics:
   - outer joins
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does outer joins mean?
-- candidate_id: q0028
-  relevant_topics:
-  - outer joins
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does outer joins matter?
-- candidate_id: q0029
-  relevant_topics:
-  - outer joins
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use outer joins?
-- candidate_id: q0030
-  relevant_topics:
-  - outer joins
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of outer joins?
-- candidate_id: q0031
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does outer joins work?
+- candidate_id: q0011
   relevant_topics:
   - cross joins
   family: entry
   pattern: What is {x}?
   question_text: What is cross joins?
-- candidate_id: q0032
+- candidate_id: q0012
   relevant_topics:
   - cross joins
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does cross joins mean?
-- candidate_id: q0033
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does cross joins work?
+- candidate_id: q0013
   relevant_topics:
-  - cross joins
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does cross joins matter?
-- candidate_id: q0034
-  relevant_topics:
-  - cross joins
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use cross joins?
-- candidate_id: q0035
-  relevant_topics:
-  - cross joins
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of cross joins?
-- candidate_id: q0036
-  relevant_topics:
-  - you'll learn how to gain further insights into your data through left joins,
+  - you'll learn how to gain further insights into your data through left joins
   family: entry
   pattern: What is {x}?
   question_text: What is you'll learn how to gain further insights into your data
-    through left joins,?
-- candidate_id: q0037
+    through left joins?
+- candidate_id: q0014
   relevant_topics:
-  - you'll learn how to gain further insights into your data through left joins,
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does you'll learn how to gain further insights into your data
-    through left joins, mean?
-- candidate_id: q0038
-  relevant_topics:
-  - you'll learn how to gain further insights into your data through left joins,
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does you'll learn how to gain further insights into your data
-    through left joins, matter?
-- candidate_id: q0039
-  relevant_topics:
-  - you'll learn how to gain further insights into your data through left joins,
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use you'll learn how to gain further insights into your
-    data through left joins,?
-- candidate_id: q0040
-  relevant_topics:
-  - you'll learn how to gain further insights into your data through left joins,
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of you'll learn how to gain further insights
-    into your data through left joins,?
-- candidate_id: q0041
+  - you'll learn how to gain further insights into your data through left joins
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does you'll learn how to gain further insights into your data
+    through left joins work?
+- candidate_id: q0015
   relevant_topics:
   - right joins
   family: entry
   pattern: What is {x}?
   question_text: What is right joins?
-- candidate_id: q0042
+- candidate_id: q0016
   relevant_topics:
   - right joins
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does right joins mean?
-- candidate_id: q0043
-  relevant_topics:
-  - right joins
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does right joins matter?
-- candidate_id: q0044
-  relevant_topics:
-  - right joins
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use right joins?
-- candidate_id: q0045
-  relevant_topics:
-  - right joins
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of right joins?
-- candidate_id: q0046
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does right joins work?
+- candidate_id: q0017
   relevant_topics:
   - full joins. in addition to outer joins, you'll also work
   family: entry
   pattern: What is {x}?
   question_text: What is full joins. in addition to outer joins, you'll also work?
-- candidate_id: q0047
+- candidate_id: q0018
   relevant_topics:
   - full joins. in addition to outer joins, you'll also work
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does full joins. in addition to outer joins, you'll also work
-    mean?
-- candidate_id: q0048
-  relevant_topics:
-  - full joins. in addition to outer joins, you'll also work
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does full joins. in addition to outer joins, you'll also work
-    matter?
-- candidate_id: q0049
-  relevant_topics:
-  - full joins. in addition to outer joins, you'll also work
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use full joins. in addition to outer joins, you'll also
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does full joins. in addition to outer joins, you'll also work
     work?
-- candidate_id: q0050
-  relevant_topics:
-  - full joins. in addition to outer joins, you'll also work
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of full joins. in addition to outer joins,
-    you'll also work?
-- candidate_id: q0051
+- candidate_id: q0019
   relevant_topics:
   - set theory clauses
   family: entry
   pattern: What is {x}?
   question_text: What is set theory clauses?
-- candidate_id: q0052
+- candidate_id: q0020
   relevant_topics:
   - set theory clauses
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does set theory clauses mean?
-- candidate_id: q0053
-  relevant_topics:
-  - set theory clauses
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does set theory clauses matter?
-- candidate_id: q0054
-  relevant_topics:
-  - set theory clauses
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use set theory clauses?
-- candidate_id: q0055
-  relevant_topics:
-  - set theory clauses
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of set theory clauses?
-- candidate_id: q0056
-  relevant_topics:
-  - introduction to joins
-  - -in this chapter, you'll be introduced to concept of joining tables, and
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is introduction to joins different from -in this chapter, you'll
-    be introduced to concept of joining tables, and?
-- candidate_id: q0057
-  relevant_topics:
-  - introduction to joins
-  - will explore different ways you can enrich your queries using inner
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is introduction to joins different from will explore different
-    ways you can enrich your queries using inner?
-- candidate_id: q0058
-  relevant_topics:
-  - introduction to joins
-  - joins
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is introduction to joins different from joins?
-- candidate_id: q0059
-  relevant_topics:
-  - introduction to joins
-  - self joins. you'll also see how to use case statement to split
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is introduction to joins different from self joins. you'll also
-    see how to use case statement to split?
-- candidate_id: q0060
-  relevant_topics:
-  - introduction to joins
-  - outer joins
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is introduction to joins different from outer joins?
-- candidate_id: q0061
-  relevant_topics:
-  - introduction to joins
-  - cross joins
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is introduction to joins different from cross joins?
-- candidate_id: q0062
-  relevant_topics:
-  - introduction to joins
-  - you'll learn how to gain further insights into your data through left joins,
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is introduction to joins different from you'll learn how to gain
-    further insights into your data through left joins,?
-- candidate_id: q0063
-  relevant_topics:
-  - introduction to joins
-  - right joins
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is introduction to joins different from right joins?
-- candidate_id: q0064
-  relevant_topics:
-  - introduction to joins
-  - full joins. in addition to outer joins, you'll also work
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is introduction to joins different from full joins. in addition
-    to outer joins, you'll also work?
-- candidate_id: q0065
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does set theory clauses work?
+- candidate_id: q0021
   relevant_topics:
   - -in this chapter, you'll be introduced to concept of joining tables, and
-  - will explore different ways you can enrich your queries using inner
+  - joins joins. you'll also see how to use case statement to split
   family: comparison
   pattern: How is {x} different from {y}?
   question_text: How is -in this chapter, you'll be introduced to concept of joining
-    tables, and different from will explore different ways you can enrich your queries
-    using inner?
-- candidate_id: q0066
-  relevant_topics:
-  - -in this chapter, you'll be introduced to concept of joining tables, and
-  - joins
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is -in this chapter, you'll be introduced to concept of joining
-    tables, and different from joins?
-- candidate_id: q0067
+    tables, and different from joins joins. you'll also see how to use case statement
+    to split?
+- candidate_id: q0022
   relevant_topics:
   - -in this chapter, you'll be introduced to concept of joining tables, and
   - self joins. you'll also see how to use case statement to split
@@ -730,40 +417,16 @@ question_candidates:
   question_text: How is -in this chapter, you'll be introduced to concept of joining
     tables, and different from self joins. you'll also see how to use case statement
     to split?
-- candidate_id: q0068
+- candidate_id: q0023
   relevant_topics:
   - -in this chapter, you'll be introduced to concept of joining tables, and
-  - outer joins
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is -in this chapter, you'll be introduced to concept of joining
-    tables, and different from outer joins?
-- candidate_id: q0069
-  relevant_topics:
-  - -in this chapter, you'll be introduced to concept of joining tables, and
-  - cross joins
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is -in this chapter, you'll be introduced to concept of joining
-    tables, and different from cross joins?
-- candidate_id: q0070
-  relevant_topics:
-  - -in this chapter, you'll be introduced to concept of joining tables, and
-  - you'll learn how to gain further insights into your data through left joins,
+  - you'll learn how to gain further insights into your data through left joins
   family: comparison
   pattern: How is {x} different from {y}?
   question_text: How is -in this chapter, you'll be introduced to concept of joining
     tables, and different from you'll learn how to gain further insights into your
-    data through left joins,?
-- candidate_id: q0071
-  relevant_topics:
-  - -in this chapter, you'll be introduced to concept of joining tables, and
-  - right joins
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is -in this chapter, you'll be introduced to concept of joining
-    tables, and different from right joins?
-- candidate_id: q0072
+    data through left joins?
+- candidate_id: q0024
   relevant_topics:
   - -in this chapter, you'll be introduced to concept of joining tables, and
   - full joins. in addition to outer joins, you'll also work
@@ -772,143 +435,75 @@ question_candidates:
   question_text: How is -in this chapter, you'll be introduced to concept of joining
     tables, and different from full joins. in addition to outer joins, you'll also
     work?
-- candidate_id: q0073
+- candidate_id: q0025
   relevant_topics:
   - will explore different ways you can enrich your queries using inner
-  - joins
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is will explore different ways you can enrich your queries using
-    inner different from joins?
-- candidate_id: q0074
-  relevant_topics:
-  - will explore different ways you can enrich your queries using inner
-  - self joins. you'll also see how to use case statement to split
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is will explore different ways you can enrich your queries using
-    inner different from self joins. you'll also see how to use case statement to
-    split?
-- candidate_id: q0075
-  relevant_topics:
-  - will explore different ways you can enrich your queries using inner
-  - outer joins
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is will explore different ways you can enrich your queries using
-    inner different from outer joins?
-- candidate_id: q0076
-  relevant_topics:
-  - will explore different ways you can enrich your queries using inner
-  - cross joins
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is will explore different ways you can enrich your queries using
-    inner different from cross joins?
-- candidate_id: q0077
-  relevant_topics:
-  - will explore different ways you can enrich your queries using inner
-  - you'll learn how to gain further insights into your data through left joins,
+  - you'll learn how to gain further insights into your data through left joins
   family: comparison
   pattern: How is {x} different from {y}?
   question_text: How is will explore different ways you can enrich your queries using
     inner different from you'll learn how to gain further insights into your data
-    through left joins,?
-- candidate_id: q0078
+    through left joins?
+- candidate_id: q0026
   relevant_topics:
-  - will explore different ways you can enrich your queries using inner
-  - right joins
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is will explore different ways you can enrich your queries using
-    inner different from right joins?
-- candidate_id: q0079
-  relevant_topics:
-  - will explore different ways you can enrich your queries using inner
-  - full joins. in addition to outer joins, you'll also work
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is will explore different ways you can enrich your queries using
-    inner different from full joins. in addition to outer joins, you'll also work?
-- candidate_id: q0080
-  relevant_topics:
-  - joins
+  - joins joins. you'll also see how to use case statement to split
   - self joins. you'll also see how to use case statement to split
   family: comparison
   pattern: How is {x} different from {y}?
-  question_text: How is joins different from self joins. you'll also see how to use
-    case statement to split?
-- candidate_id: q0081
+  question_text: How is joins joins. you'll also see how to use case statement to
+    split different from self joins. you'll also see how to use case statement to
+    split?
+- candidate_id: q0027
   relevant_topics:
-  - joins
+  - joins joins. you'll also see how to use case statement to split
   - outer joins
   family: comparison
   pattern: How is {x} different from {y}?
-  question_text: How is joins different from outer joins?
-- candidate_id: q0082
+  question_text: How is joins joins. you'll also see how to use case statement to
+    split different from outer joins?
+- candidate_id: q0028
   relevant_topics:
-  - joins
+  - joins joins. you'll also see how to use case statement to split
   - cross joins
   family: comparison
   pattern: How is {x} different from {y}?
-  question_text: How is joins different from cross joins?
-- candidate_id: q0083
+  question_text: How is joins joins. you'll also see how to use case statement to
+    split different from cross joins?
+- candidate_id: q0029
   relevant_topics:
-  - joins
-  - you'll learn how to gain further insights into your data through left joins,
+  - joins joins. you'll also see how to use case statement to split
+  - you'll learn how to gain further insights into your data through left joins
   family: comparison
   pattern: How is {x} different from {y}?
-  question_text: How is joins different from you'll learn how to gain further insights
-    into your data through left joins,?
-- candidate_id: q0084
+  question_text: How is joins joins. you'll also see how to use case statement to
+    split different from you'll learn how to gain further insights into your data
+    through left joins?
+- candidate_id: q0030
   relevant_topics:
-  - joins
+  - joins joins. you'll also see how to use case statement to split
   - right joins
   family: comparison
   pattern: How is {x} different from {y}?
-  question_text: How is joins different from right joins?
-- candidate_id: q0085
+  question_text: How is joins joins. you'll also see how to use case statement to
+    split different from right joins?
+- candidate_id: q0031
   relevant_topics:
-  - joins
+  - joins joins. you'll also see how to use case statement to split
   - full joins. in addition to outer joins, you'll also work
   family: comparison
   pattern: How is {x} different from {y}?
-  question_text: How is joins different from full joins. in addition to outer joins,
-    you'll also work?
-- candidate_id: q0086
+  question_text: How is joins joins. you'll also see how to use case statement to
+    split different from full joins. in addition to outer joins, you'll also work?
+- candidate_id: q0032
   relevant_topics:
   - self joins. you'll also see how to use case statement to split
-  - outer joins
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is self joins. you'll also see how to use case statement to split
-    different from outer joins?
-- candidate_id: q0087
-  relevant_topics:
-  - self joins. you'll also see how to use case statement to split
-  - cross joins
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is self joins. you'll also see how to use case statement to split
-    different from cross joins?
-- candidate_id: q0088
-  relevant_topics:
-  - self joins. you'll also see how to use case statement to split
-  - you'll learn how to gain further insights into your data through left joins,
+  - you'll learn how to gain further insights into your data through left joins
   family: comparison
   pattern: How is {x} different from {y}?
   question_text: How is self joins. you'll also see how to use case statement to split
     different from you'll learn how to gain further insights into your data through
-    left joins,?
-- candidate_id: q0089
-  relevant_topics:
-  - self joins. you'll also see how to use case statement to split
-  - right joins
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is self joins. you'll also see how to use case statement to split
-    different from right joins?
-- candidate_id: q0090
+    left joins?
+- candidate_id: q0033
   relevant_topics:
   - self joins. you'll also see how to use case statement to split
   - full joins. in addition to outer joins, you'll also work
@@ -916,29 +511,29 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is self joins. you'll also see how to use case statement to split
     different from full joins. in addition to outer joins, you'll also work?
-- candidate_id: q0091
+- candidate_id: q0034
   relevant_topics:
   - outer joins
   - cross joins
   family: comparison
   pattern: How is {x} different from {y}?
   question_text: How is outer joins different from cross joins?
-- candidate_id: q0092
+- candidate_id: q0035
   relevant_topics:
   - outer joins
-  - you'll learn how to gain further insights into your data through left joins,
+  - you'll learn how to gain further insights into your data through left joins
   family: comparison
   pattern: How is {x} different from {y}?
   question_text: How is outer joins different from you'll learn how to gain further
-    insights into your data through left joins,?
-- candidate_id: q0093
+    insights into your data through left joins?
+- candidate_id: q0036
   relevant_topics:
   - outer joins
   - right joins
   family: comparison
   pattern: How is {x} different from {y}?
   question_text: How is outer joins different from right joins?
-- candidate_id: q0094
+- candidate_id: q0037
   relevant_topics:
   - outer joins
   - full joins. in addition to outer joins, you'll also work
@@ -946,445 +541,168 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is outer joins different from full joins. in addition to outer
     joins, you'll also work?
-- candidate_id: q0095
+- candidate_id: q0038
   relevant_topics:
   - cross joins
-  - you'll learn how to gain further insights into your data through left joins,
+  - you'll learn how to gain further insights into your data through left joins
   family: comparison
   pattern: How is {x} different from {y}?
   question_text: How is cross joins different from you'll learn how to gain further
-    insights into your data through left joins,?
-- candidate_id: q0096
+    insights into your data through left joins?
+- candidate_id: q0039
   relevant_topics:
   - cross joins
   - right joins
   family: comparison
   pattern: How is {x} different from {y}?
   question_text: How is cross joins different from right joins?
-- candidate_id: q0097
+- candidate_id: q0040
   relevant_topics:
-  - cross joins
-  - full joins. in addition to outer joins, you'll also work
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is cross joins different from full joins. in addition to outer
-    joins, you'll also work?
-- candidate_id: q0098
-  relevant_topics:
-  - you'll learn how to gain further insights into your data through left joins,
+  - you'll learn how to gain further insights into your data through left joins
   - right joins
   family: comparison
   pattern: How is {x} different from {y}?
   question_text: How is you'll learn how to gain further insights into your data through
-    left joins, different from right joins?
-- candidate_id: q0099
+    left joins different from right joins?
+- candidate_id: q0041
   relevant_topics:
-  - you'll learn how to gain further insights into your data through left joins,
+  - you'll learn how to gain further insights into your data through left joins
   - full joins. in addition to outer joins, you'll also work
   family: comparison
   pattern: How is {x} different from {y}?
   question_text: How is you'll learn how to gain further insights into your data through
-    left joins, different from full joins. in addition to outer joins, you'll also
+    left joins different from full joins. in addition to outer joins, you'll also
     work?
-- candidate_id: q0100
-  relevant_topics:
-  - right joins
-  - full joins. in addition to outer joins, you'll also work
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is right joins different from full joins. in addition to outer
-    joins, you'll also work?
 question_repairs:
 - candidate_id: q0001
-  status: accepted
-  original_text: What is introduction to joins?
-  final_text: What is introduction to joins?
-  reject_reason: null
-- candidate_id: q0002
-  status: accepted
-  original_text: What does introduction to joins mean?
-  final_text: What does introduction to joins mean?
-  reject_reason: null
-- candidate_id: q0003
-  status: accepted
-  original_text: Why does introduction to joins matter?
-  final_text: Why does introduction to joins matter?
-  reject_reason: null
-- candidate_id: q0004
-  status: repaired
-  original_text: Why do we use introduction to joins?
-  final_text: Why does introduction to joins?
-  reject_reason: null
-- candidate_id: q0005
-  status: accepted
-  original_text: What is a simple example of introduction to joins?
-  final_text: What is a simple example of introduction to joins?
-  reject_reason: null
-- candidate_id: q0006
   status: accepted
   original_text: What is -in this chapter, you'll be introduced to concept of joining
     tables, and?
   final_text: What is -in this chapter, you'll be introduced to concept of joining
     tables, and?
   reject_reason: null
-- candidate_id: q0007
+- candidate_id: q0002
   status: accepted
-  original_text: What does -in this chapter, you'll be introduced to concept of joining
-    tables, and mean?
-  final_text: What does -in this chapter, you'll be introduced to concept of joining
-    tables, and mean?
+  original_text: How does -in this chapter, you'll be introduced to concept of joining
+    tables, and work?
+  final_text: How does -in this chapter, you'll be introduced to concept of joining
+    tables, and work?
   reject_reason: null
-- candidate_id: q0008
-  status: accepted
-  original_text: Why does -in this chapter, you'll be introduced to concept of joining
-    tables, and matter?
-  final_text: Why does -in this chapter, you'll be introduced to concept of joining
-    tables, and matter?
-  reject_reason: null
-- candidate_id: q0009
-  status: repaired
-  original_text: Why do we use -in this chapter, you'll be introduced to concept of
-    joining tables, and?
-  final_text: Why does -in this chapter, you'll be introduced to concept of joining
-    tables, and?
-  reject_reason: null
-- candidate_id: q0010
-  status: accepted
-  original_text: What is a simple example of -in this chapter, you'll be introduced
-    to concept of joining tables, and?
-  final_text: What is a simple example of -in this chapter, you'll be introduced to
-    concept of joining tables, and?
-  reject_reason: null
-- candidate_id: q0011
+- candidate_id: q0003
   status: accepted
   original_text: What is will explore different ways you can enrich your queries using
     inner?
   final_text: What is will explore different ways you can enrich your queries using
     inner?
   reject_reason: null
-- candidate_id: q0012
+- candidate_id: q0004
   status: accepted
-  original_text: What does will explore different ways you can enrich your queries
-    using inner mean?
-  final_text: What does will explore different ways you can enrich your queries using
-    inner mean?
+  original_text: How does will explore different ways you can enrich your queries
+    using inner work?
+  final_text: How does will explore different ways you can enrich your queries using
+    inner work?
   reject_reason: null
-- candidate_id: q0013
+- candidate_id: q0005
   status: accepted
-  original_text: Why does will explore different ways you can enrich your queries
-    using inner matter?
-  final_text: Why does will explore different ways you can enrich your queries using
-    inner matter?
+  original_text: What is joins joins. you'll also see how to use case statement to
+    split?
+  final_text: What is joins joins. you'll also see how to use case statement to split?
   reject_reason: null
-- candidate_id: q0014
-  status: repaired
-  original_text: Why do we use will explore different ways you can enrich your queries
-    using inner?
-  final_text: Why does will explore different ways you can enrich your queries using
-    inner?
-  reject_reason: null
-- candidate_id: q0015
+- candidate_id: q0006
   status: accepted
-  original_text: What is a simple example of will explore different ways you can enrich
-    your queries using inner?
-  final_text: What is a simple example of will explore different ways you can enrich
-    your queries using inner?
+  original_text: How does joins joins. you'll also see how to use case statement to
+    split work?
+  final_text: How does joins joins. you'll also see how to use case statement to split
+    work?
   reject_reason: null
-- candidate_id: q0016
-  status: accepted
-  original_text: What is joins?
-  final_text: What is joins?
-  reject_reason: null
-- candidate_id: q0017
-  status: accepted
-  original_text: What does joins mean?
-  final_text: What does joins mean?
-  reject_reason: null
-- candidate_id: q0018
-  status: accepted
-  original_text: Why does joins matter?
-  final_text: Why does joins matter?
-  reject_reason: null
-- candidate_id: q0019
-  status: repaired
-  original_text: Why do we use joins?
-  final_text: Why does joins?
-  reject_reason: null
-- candidate_id: q0020
-  status: accepted
-  original_text: What is a simple example of joins?
-  final_text: What is a simple example of joins?
-  reject_reason: null
-- candidate_id: q0021
+- candidate_id: q0007
   status: accepted
   original_text: What is self joins. you'll also see how to use case statement to
     split?
   final_text: What is self joins. you'll also see how to use case statement to split?
   reject_reason: null
-- candidate_id: q0022
+- candidate_id: q0008
   status: accepted
-  original_text: What does self joins. you'll also see how to use case statement to
-    split mean?
-  final_text: What does self joins. you'll also see how to use case statement to split
-    mean?
+  original_text: How does self joins. you'll also see how to use case statement to
+    split work?
+  final_text: How does self joins. you'll also see how to use case statement to split
+    work?
   reject_reason: null
-- candidate_id: q0023
-  status: accepted
-  original_text: Why does self joins. you'll also see how to use case statement to
-    split matter?
-  final_text: Why does self joins. you'll also see how to use case statement to split
-    matter?
-  reject_reason: null
-- candidate_id: q0024
-  status: repaired
-  original_text: Why do we use self joins. you'll also see how to use case statement
-    to split?
-  final_text: Why does self joins. you'll also see how to use case statement to split?
-  reject_reason: null
-- candidate_id: q0025
-  status: accepted
-  original_text: What is a simple example of self joins. you'll also see how to use
-    case statement to split?
-  final_text: What is a simple example of self joins. you'll also see how to use case
-    statement to split?
-  reject_reason: null
-- candidate_id: q0026
+- candidate_id: q0009
   status: accepted
   original_text: What is outer joins?
   final_text: What is outer joins?
   reject_reason: null
-- candidate_id: q0027
+- candidate_id: q0010
   status: accepted
-  original_text: What does outer joins mean?
-  final_text: What does outer joins mean?
+  original_text: How does outer joins work?
+  final_text: How does outer joins work?
   reject_reason: null
-- candidate_id: q0028
-  status: accepted
-  original_text: Why does outer joins matter?
-  final_text: Why does outer joins matter?
-  reject_reason: null
-- candidate_id: q0029
-  status: repaired
-  original_text: Why do we use outer joins?
-  final_text: Why does outer joins?
-  reject_reason: null
-- candidate_id: q0030
-  status: accepted
-  original_text: What is a simple example of outer joins?
-  final_text: What is a simple example of outer joins?
-  reject_reason: null
-- candidate_id: q0031
+- candidate_id: q0011
   status: accepted
   original_text: What is cross joins?
   final_text: What is cross joins?
   reject_reason: null
-- candidate_id: q0032
+- candidate_id: q0012
   status: accepted
-  original_text: What does cross joins mean?
-  final_text: What does cross joins mean?
+  original_text: How does cross joins work?
+  final_text: How does cross joins work?
   reject_reason: null
-- candidate_id: q0033
-  status: accepted
-  original_text: Why does cross joins matter?
-  final_text: Why does cross joins matter?
-  reject_reason: null
-- candidate_id: q0034
-  status: repaired
-  original_text: Why do we use cross joins?
-  final_text: Why does cross joins?
-  reject_reason: null
-- candidate_id: q0035
-  status: accepted
-  original_text: What is a simple example of cross joins?
-  final_text: What is a simple example of cross joins?
-  reject_reason: null
-- candidate_id: q0036
+- candidate_id: q0013
   status: accepted
   original_text: What is you'll learn how to gain further insights into your data
-    through left joins,?
+    through left joins?
   final_text: What is you'll learn how to gain further insights into your data through
-    left joins,?
+    left joins?
   reject_reason: null
-- candidate_id: q0037
+- candidate_id: q0014
   status: accepted
-  original_text: What does you'll learn how to gain further insights into your data
-    through left joins, mean?
-  final_text: What does you'll learn how to gain further insights into your data through
-    left joins, mean?
+  original_text: How does you'll learn how to gain further insights into your data
+    through left joins work?
+  final_text: How does you'll learn how to gain further insights into your data through
+    left joins work?
   reject_reason: null
-- candidate_id: q0038
-  status: accepted
-  original_text: Why does you'll learn how to gain further insights into your data
-    through left joins, matter?
-  final_text: Why does you'll learn how to gain further insights into your data through
-    left joins, matter?
-  reject_reason: null
-- candidate_id: q0039
-  status: repaired
-  original_text: Why do we use you'll learn how to gain further insights into your
-    data through left joins,?
-  final_text: Why does you'll learn how to gain further insights into your data through
-    left joins,?
-  reject_reason: null
-- candidate_id: q0040
-  status: accepted
-  original_text: What is a simple example of you'll learn how to gain further insights
-    into your data through left joins,?
-  final_text: What is a simple example of you'll learn how to gain further insights
-    into your data through left joins,?
-  reject_reason: null
-- candidate_id: q0041
+- candidate_id: q0015
   status: accepted
   original_text: What is right joins?
   final_text: What is right joins?
   reject_reason: null
-- candidate_id: q0042
+- candidate_id: q0016
   status: accepted
-  original_text: What does right joins mean?
-  final_text: What does right joins mean?
+  original_text: How does right joins work?
+  final_text: How does right joins work?
   reject_reason: null
-- candidate_id: q0043
-  status: accepted
-  original_text: Why does right joins matter?
-  final_text: Why does right joins matter?
-  reject_reason: null
-- candidate_id: q0044
-  status: repaired
-  original_text: Why do we use right joins?
-  final_text: Why does right joins?
-  reject_reason: null
-- candidate_id: q0045
-  status: accepted
-  original_text: What is a simple example of right joins?
-  final_text: What is a simple example of right joins?
-  reject_reason: null
-- candidate_id: q0046
+- candidate_id: q0017
   status: accepted
   original_text: What is full joins. in addition to outer joins, you'll also work?
   final_text: What is full joins. in addition to outer joins, you'll also work?
   reject_reason: null
-- candidate_id: q0047
+- candidate_id: q0018
   status: accepted
-  original_text: What does full joins. in addition to outer joins, you'll also work
-    mean?
-  final_text: What does full joins. in addition to outer joins, you'll also work mean?
-  reject_reason: null
-- candidate_id: q0048
-  status: accepted
-  original_text: Why does full joins. in addition to outer joins, you'll also work
-    matter?
-  final_text: Why does full joins. in addition to outer joins, you'll also work matter?
-  reject_reason: null
-- candidate_id: q0049
-  status: repaired
-  original_text: Why do we use full joins. in addition to outer joins, you'll also
+  original_text: How does full joins. in addition to outer joins, you'll also work
     work?
-  final_text: Why does full joins. in addition to outer joins, you'll also work?
+  final_text: How does full joins. in addition to outer joins, you'll also work work?
   reject_reason: null
-- candidate_id: q0050
-  status: accepted
-  original_text: What is a simple example of full joins. in addition to outer joins,
-    you'll also work?
-  final_text: What is a simple example of full joins. in addition to outer joins,
-    you'll also work?
-  reject_reason: null
-- candidate_id: q0051
+- candidate_id: q0019
   status: accepted
   original_text: What is set theory clauses?
   final_text: What is set theory clauses?
   reject_reason: null
-- candidate_id: q0052
+- candidate_id: q0020
   status: accepted
-  original_text: What does set theory clauses mean?
-  final_text: What does set theory clauses mean?
+  original_text: How does set theory clauses work?
+  final_text: How does set theory clauses work?
   reject_reason: null
-- candidate_id: q0053
-  status: accepted
-  original_text: Why does set theory clauses matter?
-  final_text: Why does set theory clauses matter?
-  reject_reason: null
-- candidate_id: q0054
-  status: repaired
-  original_text: Why do we use set theory clauses?
-  final_text: Why does set theory clauses?
-  reject_reason: null
-- candidate_id: q0055
-  status: accepted
-  original_text: What is a simple example of set theory clauses?
-  final_text: What is a simple example of set theory clauses?
-  reject_reason: null
-- candidate_id: q0056
-  status: accepted
-  original_text: How is introduction to joins different from -in this chapter, you'll
-    be introduced to concept of joining tables, and?
-  final_text: How is introduction to joins different from -in this chapter, you'll
-    be introduced to concept of joining tables, and?
-  reject_reason: null
-- candidate_id: q0057
-  status: accepted
-  original_text: How is introduction to joins different from will explore different
-    ways you can enrich your queries using inner?
-  final_text: How is introduction to joins different from will explore different ways
-    you can enrich your queries using inner?
-  reject_reason: null
-- candidate_id: q0058
-  status: accepted
-  original_text: How is introduction to joins different from joins?
-  final_text: How is introduction to joins different from joins?
-  reject_reason: null
-- candidate_id: q0059
-  status: accepted
-  original_text: How is introduction to joins different from self joins. you'll also
-    see how to use case statement to split?
-  final_text: How is introduction to joins different from self joins. you'll also
-    see how to use case statement to split?
-  reject_reason: null
-- candidate_id: q0060
-  status: accepted
-  original_text: How is introduction to joins different from outer joins?
-  final_text: How is introduction to joins different from outer joins?
-  reject_reason: null
-- candidate_id: q0061
-  status: accepted
-  original_text: How is introduction to joins different from cross joins?
-  final_text: How is introduction to joins different from cross joins?
-  reject_reason: null
-- candidate_id: q0062
-  status: accepted
-  original_text: How is introduction to joins different from you'll learn how to gain
-    further insights into your data through left joins,?
-  final_text: How is introduction to joins different from you'll learn how to gain
-    further insights into your data through left joins,?
-  reject_reason: null
-- candidate_id: q0063
-  status: accepted
-  original_text: How is introduction to joins different from right joins?
-  final_text: How is introduction to joins different from right joins?
-  reject_reason: null
-- candidate_id: q0064
-  status: accepted
-  original_text: How is introduction to joins different from full joins. in addition
-    to outer joins, you'll also work?
-  final_text: How is introduction to joins different from full joins. in addition
-    to outer joins, you'll also work?
-  reject_reason: null
-- candidate_id: q0065
+- candidate_id: q0021
   status: accepted
   original_text: How is -in this chapter, you'll be introduced to concept of joining
-    tables, and different from will explore different ways you can enrich your queries
-    using inner?
+    tables, and different from joins joins. you'll also see how to use case statement
+    to split?
   final_text: How is -in this chapter, you'll be introduced to concept of joining
-    tables, and different from will explore different ways you can enrich your queries
-    using inner?
+    tables, and different from joins joins. you'll also see how to use case statement
+    to split?
   reject_reason: null
-- candidate_id: q0066
-  status: accepted
-  original_text: How is -in this chapter, you'll be introduced to concept of joining
-    tables, and different from joins?
-  final_text: How is -in this chapter, you'll be introduced to concept of joining
-    tables, and different from joins?
-  reject_reason: null
-- candidate_id: q0067
+- candidate_id: q0022
   status: accepted
   original_text: How is -in this chapter, you'll be introduced to concept of joining
     tables, and different from self joins. you'll also see how to use case statement
@@ -1393,37 +711,16 @@ question_repairs:
     tables, and different from self joins. you'll also see how to use case statement
     to split?
   reject_reason: null
-- candidate_id: q0068
-  status: accepted
-  original_text: How is -in this chapter, you'll be introduced to concept of joining
-    tables, and different from outer joins?
-  final_text: How is -in this chapter, you'll be introduced to concept of joining
-    tables, and different from outer joins?
-  reject_reason: null
-- candidate_id: q0069
-  status: accepted
-  original_text: How is -in this chapter, you'll be introduced to concept of joining
-    tables, and different from cross joins?
-  final_text: How is -in this chapter, you'll be introduced to concept of joining
-    tables, and different from cross joins?
-  reject_reason: null
-- candidate_id: q0070
+- candidate_id: q0023
   status: accepted
   original_text: How is -in this chapter, you'll be introduced to concept of joining
     tables, and different from you'll learn how to gain further insights into your
-    data through left joins,?
+    data through left joins?
   final_text: How is -in this chapter, you'll be introduced to concept of joining
     tables, and different from you'll learn how to gain further insights into your
-    data through left joins,?
+    data through left joins?
   reject_reason: null
-- candidate_id: q0071
-  status: accepted
-  original_text: How is -in this chapter, you'll be introduced to concept of joining
-    tables, and different from right joins?
-  final_text: How is -in this chapter, you'll be introduced to concept of joining
-    tables, and different from right joins?
-  reject_reason: null
-- candidate_id: q0072
+- candidate_id: q0024
   status: accepted
   original_text: How is -in this chapter, you'll be introduced to concept of joining
     tables, and different from full joins. in addition to outer joins, you'll also
@@ -1432,1112 +729,251 @@ question_repairs:
     tables, and different from full joins. in addition to outer joins, you'll also
     work?
   reject_reason: null
-- candidate_id: q0073
-  status: accepted
-  original_text: How is will explore different ways you can enrich your queries using
-    inner different from joins?
-  final_text: How is will explore different ways you can enrich your queries using
-    inner different from joins?
-  reject_reason: null
-- candidate_id: q0074
-  status: accepted
-  original_text: How is will explore different ways you can enrich your queries using
-    inner different from self joins. you'll also see how to use case statement to
-    split?
-  final_text: How is will explore different ways you can enrich your queries using
-    inner different from self joins. you'll also see how to use case statement to
-    split?
-  reject_reason: null
-- candidate_id: q0075
-  status: accepted
-  original_text: How is will explore different ways you can enrich your queries using
-    inner different from outer joins?
-  final_text: How is will explore different ways you can enrich your queries using
-    inner different from outer joins?
-  reject_reason: null
-- candidate_id: q0076
-  status: accepted
-  original_text: How is will explore different ways you can enrich your queries using
-    inner different from cross joins?
-  final_text: How is will explore different ways you can enrich your queries using
-    inner different from cross joins?
-  reject_reason: null
-- candidate_id: q0077
+- candidate_id: q0025
   status: accepted
   original_text: How is will explore different ways you can enrich your queries using
     inner different from you'll learn how to gain further insights into your data
-    through left joins,?
+    through left joins?
   final_text: How is will explore different ways you can enrich your queries using
     inner different from you'll learn how to gain further insights into your data
-    through left joins,?
+    through left joins?
   reject_reason: null
-- candidate_id: q0078
+- candidate_id: q0026
   status: accepted
-  original_text: How is will explore different ways you can enrich your queries using
-    inner different from right joins?
-  final_text: How is will explore different ways you can enrich your queries using
-    inner different from right joins?
+  original_text: How is joins joins. you'll also see how to use case statement to
+    split different from self joins. you'll also see how to use case statement to
+    split?
+  final_text: How is joins joins. you'll also see how to use case statement to split
+    different from self joins. you'll also see how to use case statement to split?
   reject_reason: null
-- candidate_id: q0079
+- candidate_id: q0027
   status: accepted
-  original_text: How is will explore different ways you can enrich your queries using
-    inner different from full joins. in addition to outer joins, you'll also work?
-  final_text: How is will explore different ways you can enrich your queries using
-    inner different from full joins. in addition to outer joins, you'll also work?
-  reject_reason: null
-- candidate_id: q0080
-  status: accepted
-  original_text: How is joins different from self joins. you'll also see how to use
-    case statement to split?
-  final_text: How is joins different from self joins. you'll also see how to use case
-    statement to split?
-  reject_reason: null
-- candidate_id: q0081
-  status: accepted
-  original_text: How is joins different from outer joins?
-  final_text: How is joins different from outer joins?
-  reject_reason: null
-- candidate_id: q0082
-  status: accepted
-  original_text: How is joins different from cross joins?
-  final_text: How is joins different from cross joins?
-  reject_reason: null
-- candidate_id: q0083
-  status: accepted
-  original_text: How is joins different from you'll learn how to gain further insights
-    into your data through left joins,?
-  final_text: How is joins different from you'll learn how to gain further insights
-    into your data through left joins,?
-  reject_reason: null
-- candidate_id: q0084
-  status: accepted
-  original_text: How is joins different from right joins?
-  final_text: How is joins different from right joins?
-  reject_reason: null
-- candidate_id: q0085
-  status: accepted
-  original_text: How is joins different from full joins. in addition to outer joins,
-    you'll also work?
-  final_text: How is joins different from full joins. in addition to outer joins,
-    you'll also work?
-  reject_reason: null
-- candidate_id: q0086
-  status: accepted
-  original_text: How is self joins. you'll also see how to use case statement to split
-    different from outer joins?
-  final_text: How is self joins. you'll also see how to use case statement to split
+  original_text: How is joins joins. you'll also see how to use case statement to
+    split different from outer joins?
+  final_text: How is joins joins. you'll also see how to use case statement to split
     different from outer joins?
   reject_reason: null
-- candidate_id: q0087
+- candidate_id: q0028
   status: accepted
-  original_text: How is self joins. you'll also see how to use case statement to split
-    different from cross joins?
-  final_text: How is self joins. you'll also see how to use case statement to split
+  original_text: How is joins joins. you'll also see how to use case statement to
+    split different from cross joins?
+  final_text: How is joins joins. you'll also see how to use case statement to split
     different from cross joins?
   reject_reason: null
-- candidate_id: q0088
+- candidate_id: q0029
+  status: accepted
+  original_text: How is joins joins. you'll also see how to use case statement to
+    split different from you'll learn how to gain further insights into your data
+    through left joins?
+  final_text: How is joins joins. you'll also see how to use case statement to split
+    different from you'll learn how to gain further insights into your data through
+    left joins?
+  reject_reason: null
+- candidate_id: q0030
+  status: accepted
+  original_text: How is joins joins. you'll also see how to use case statement to
+    split different from right joins?
+  final_text: How is joins joins. you'll also see how to use case statement to split
+    different from right joins?
+  reject_reason: null
+- candidate_id: q0031
+  status: accepted
+  original_text: How is joins joins. you'll also see how to use case statement to
+    split different from full joins. in addition to outer joins, you'll also work?
+  final_text: How is joins joins. you'll also see how to use case statement to split
+    different from full joins. in addition to outer joins, you'll also work?
+  reject_reason: null
+- candidate_id: q0032
   status: accepted
   original_text: How is self joins. you'll also see how to use case statement to split
     different from you'll learn how to gain further insights into your data through
-    left joins,?
+    left joins?
   final_text: How is self joins. you'll also see how to use case statement to split
     different from you'll learn how to gain further insights into your data through
-    left joins,?
+    left joins?
   reject_reason: null
-- candidate_id: q0089
-  status: accepted
-  original_text: How is self joins. you'll also see how to use case statement to split
-    different from right joins?
-  final_text: How is self joins. you'll also see how to use case statement to split
-    different from right joins?
-  reject_reason: null
-- candidate_id: q0090
+- candidate_id: q0033
   status: accepted
   original_text: How is self joins. you'll also see how to use case statement to split
     different from full joins. in addition to outer joins, you'll also work?
   final_text: How is self joins. you'll also see how to use case statement to split
     different from full joins. in addition to outer joins, you'll also work?
   reject_reason: null
-- candidate_id: q0091
+- candidate_id: q0034
   status: accepted
   original_text: How is outer joins different from cross joins?
   final_text: How is outer joins different from cross joins?
   reject_reason: null
-- candidate_id: q0092
+- candidate_id: q0035
   status: accepted
   original_text: How is outer joins different from you'll learn how to gain further
-    insights into your data through left joins,?
+    insights into your data through left joins?
   final_text: How is outer joins different from you'll learn how to gain further insights
-    into your data through left joins,?
+    into your data through left joins?
   reject_reason: null
-- candidate_id: q0093
+- candidate_id: q0036
   status: accepted
   original_text: How is outer joins different from right joins?
   final_text: How is outer joins different from right joins?
   reject_reason: null
-- candidate_id: q0094
+- candidate_id: q0037
   status: accepted
   original_text: How is outer joins different from full joins. in addition to outer
     joins, you'll also work?
   final_text: How is outer joins different from full joins. in addition to outer joins,
     you'll also work?
   reject_reason: null
-- candidate_id: q0095
+- candidate_id: q0038
   status: accepted
   original_text: How is cross joins different from you'll learn how to gain further
-    insights into your data through left joins,?
+    insights into your data through left joins?
   final_text: How is cross joins different from you'll learn how to gain further insights
-    into your data through left joins,?
+    into your data through left joins?
   reject_reason: null
-- candidate_id: q0096
+- candidate_id: q0039
   status: accepted
   original_text: How is cross joins different from right joins?
   final_text: How is cross joins different from right joins?
   reject_reason: null
-- candidate_id: q0097
-  status: accepted
-  original_text: How is cross joins different from full joins. in addition to outer
-    joins, you'll also work?
-  final_text: How is cross joins different from full joins. in addition to outer joins,
-    you'll also work?
-  reject_reason: null
-- candidate_id: q0098
+- candidate_id: q0040
   status: accepted
   original_text: How is you'll learn how to gain further insights into your data through
-    left joins, different from right joins?
+    left joins different from right joins?
   final_text: How is you'll learn how to gain further insights into your data through
-    left joins, different from right joins?
+    left joins different from right joins?
   reject_reason: null
-- candidate_id: q0099
+- candidate_id: q0041
   status: accepted
   original_text: How is you'll learn how to gain further insights into your data through
-    left joins, different from full joins. in addition to outer joins, you'll also
+    left joins different from full joins. in addition to outer joins, you'll also
     work?
   final_text: How is you'll learn how to gain further insights into your data through
-    left joins, different from full joins. in addition to outer joins, you'll also
+    left joins different from full joins. in addition to outer joins, you'll also
     work?
-  reject_reason: null
-- candidate_id: q0100
-  status: accepted
-  original_text: How is right joins different from full joins. in addition to outer
-    joins, you'll also work?
-  final_text: How is right joins different from full joins. in addition to outer joins,
-    you'll also work?
   reject_reason: null
 answers:
-- question_id: q0001
-  question_text: What is introduction to joins?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0002
-  question_text: What does introduction to joins mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0003
-  question_text: Why does introduction to joins matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0004
-  question_text: Why does introduction to joins?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0005
-  question_text: What is a simple example of introduction to joins?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0006
-  question_text: What is -in this chapter, you'll be introduced to concept of joining
-    tables, and?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0007
-  question_text: What does -in this chapter, you'll be introduced to concept of joining
-    tables, and mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0008
-  question_text: Why does -in this chapter, you'll be introduced to concept of joining
-    tables, and matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
 - question_id: q0009
-  question_text: Why does -in this chapter, you'll be introduced to concept of joining
-    tables, and?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0010
-  question_text: What is a simple example of -in this chapter, you'll be introduced
-    to concept of joining tables, and?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0011
-  question_text: What is will explore different ways you can enrich your queries using
-    inner?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0012
-  question_text: What does will explore different ways you can enrich your queries
-    using inner mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0013
-  question_text: Why does will explore different ways you can enrich your queries
-    using inner matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0014
-  question_text: Why does will explore different ways you can enrich your queries
-    using inner?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0015
-  question_text: What is a simple example of will explore different ways you can enrich
-    your queries using inner?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0016
-  question_text: What is joins?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0017
-  question_text: What does joins mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0018
-  question_text: Why does joins matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0019
-  question_text: Why does joins?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0020
-  question_text: What is a simple example of joins?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0021
-  question_text: What is self joins. you'll also see how to use case statement to
-    split?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0022
-  question_text: What does self joins. you'll also see how to use case statement to
-    split mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0023
-  question_text: Why does self joins. you'll also see how to use case statement to
-    split matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0024
-  question_text: Why does self joins. you'll also see how to use case statement to
-    split?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0025
-  question_text: What is a simple example of self joins. you'll also see how to use
-    case statement to split?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0026
   question_text: What is outer joins?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0027
-  question_text: What does outer joins mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0028
-  question_text: Why does outer joins matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0029
-  question_text: Why does outer joins?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0030
-  question_text: What is a simple example of outer joins?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0031
+  answer_text: Outer joins and cross joins
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: Outer joins and cross joins
+- question_id: q0010
+  question_text: How does outer joins work?
+  answer_text: Outer joins and cross joins
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: Outer joins and cross joins
+- question_id: q0011
   question_text: What is cross joins?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0032
-  question_text: What does cross joins mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0033
-  question_text: Why does cross joins matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0034
-  question_text: Why does cross joins?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0035
-  question_text: What is a simple example of cross joins?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0036
+  answer_text: Outer joins and cross joins
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: Outer joins and cross joins
+- question_id: q0012
+  question_text: How does cross joins work?
+  answer_text: Outer joins and cross joins
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: Outer joins and cross joins
+- question_id: q0013
   question_text: What is you'll learn how to gain further insights into your data
-    through left joins,?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0037
-  question_text: What does you'll learn how to gain further insights into your data
-    through left joins, mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0038
-  question_text: Why does you'll learn how to gain further insights into your data
-    through left joins, matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0039
-  question_text: Why does you'll learn how to gain further insights into your data
-    through left joins,?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0040
-  question_text: What is a simple example of you'll learn how to gain further insights
-    into your data through left joins,?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0041
+    through left joins?
+  answer_text: You'll learn how to gain further insights into your data through left
+    joins,
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: You'll learn how to gain further insights into your data through left joins,
+- question_id: q0014
+  question_text: How does you'll learn how to gain further insights into your data
+    through left joins work?
+  answer_text: You'll learn how to gain further insights into your data through left
+    joins,
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: You'll learn how to gain further insights into your data through left joins,
+- question_id: q0015
   question_text: What is right joins?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0042
-  question_text: What does right joins mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0043
-  question_text: Why does right joins matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0044
-  question_text: Why does right joins?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0045
-  question_text: What is a simple example of right joins?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0046
-  question_text: What is full joins. in addition to outer joins, you'll also work?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0047
-  question_text: What does full joins. in addition to outer joins, you'll also work
-    mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0048
-  question_text: Why does full joins. in addition to outer joins, you'll also work
-    matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0049
-  question_text: Why does full joins. in addition to outer joins, you'll also work?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0050
-  question_text: What is a simple example of full joins. in addition to outer joins,
-    you'll also work?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0051
+  answer_text: right joins, and full joins.
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: right joins, and full joins.
+- question_id: q0016
+  question_text: How does right joins work?
+  answer_text: right joins, and full joins.
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: right joins, and full joins.
+- question_id: q0019
   question_text: What is set theory clauses?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0052
-  question_text: What does set theory clauses mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0053
-  question_text: Why does set theory clauses matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0054
-  question_text: Why does set theory clauses?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0055
-  question_text: What is a simple example of set theory clauses?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0056
-  question_text: How is introduction to joins different from -in this chapter, you'll
-    be introduced to concept of joining tables, and?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0057
-  question_text: How is introduction to joins different from will explore different
-    ways you can enrich your queries using inner?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0058
-  question_text: How is introduction to joins different from joins?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0059
-  question_text: How is introduction to joins different from self joins. you'll also
-    see how to use case statement to split?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0060
-  question_text: How is introduction to joins different from outer joins?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0061
-  question_text: How is introduction to joins different from cross joins?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0062
-  question_text: How is introduction to joins different from you'll learn how to gain
-    further insights into your data through left joins,?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0063
-  question_text: How is introduction to joins different from right joins?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0064
-  question_text: How is introduction to joins different from full joins. in addition
-    to outer joins, you'll also work?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0065
-  question_text: How is -in this chapter, you'll be introduced to concept of joining
-    tables, and different from will explore different ways you can enrich your queries
-    using inner?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0066
-  question_text: How is -in this chapter, you'll be introduced to concept of joining
-    tables, and different from joins?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0067
-  question_text: How is -in this chapter, you'll be introduced to concept of joining
-    tables, and different from self joins. you'll also see how to use case statement
-    to split?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0068
-  question_text: How is -in this chapter, you'll be introduced to concept of joining
-    tables, and different from outer joins?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0069
-  question_text: How is -in this chapter, you'll be introduced to concept of joining
-    tables, and different from cross joins?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0070
-  question_text: How is -in this chapter, you'll be introduced to concept of joining
-    tables, and different from you'll learn how to gain further insights into your
-    data through left joins,?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0071
-  question_text: How is -in this chapter, you'll be introduced to concept of joining
-    tables, and different from right joins?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0072
-  question_text: How is -in this chapter, you'll be introduced to concept of joining
-    tables, and different from full joins. in addition to outer joins, you'll also
-    work?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0073
-  question_text: How is will explore different ways you can enrich your queries using
-    inner different from joins?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0074
-  question_text: How is will explore different ways you can enrich your queries using
-    inner different from self joins. you'll also see how to use case statement to
-    split?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0075
-  question_text: How is will explore different ways you can enrich your queries using
-    inner different from outer joins?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0076
-  question_text: How is will explore different ways you can enrich your queries using
-    inner different from cross joins?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0077
-  question_text: How is will explore different ways you can enrich your queries using
-    inner different from you'll learn how to gain further insights into your data
-    through left joins,?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0078
-  question_text: How is will explore different ways you can enrich your queries using
-    inner different from right joins?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0079
-  question_text: How is will explore different ways you can enrich your queries using
-    inner different from full joins. in addition to outer joins, you'll also work?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0080
-  question_text: How is joins different from self joins. you'll also see how to use
-    case statement to split?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0081
-  question_text: How is joins different from outer joins?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0082
-  question_text: How is joins different from cross joins?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0083
-  question_text: How is joins different from you'll learn how to gain further insights
-    into your data through left joins,?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0084
-  question_text: How is joins different from right joins?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0085
-  question_text: How is joins different from full joins. in addition to outer joins,
-    you'll also work?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0086
-  question_text: How is self joins. you'll also see how to use case statement to split
-    different from outer joins?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0087
-  question_text: How is self joins. you'll also see how to use case statement to split
-    different from cross joins?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0088
-  question_text: How is self joins. you'll also see how to use case statement to split
-    different from you'll learn how to gain further insights into your data through
-    left joins,?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0089
-  question_text: How is self joins. you'll also see how to use case statement to split
-    different from right joins?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0090
-  question_text: How is self joins. you'll also see how to use case statement to split
-    different from full joins. in addition to outer joins, you'll also work?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0091
+  answer_text: Set theory clauses
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: Set theory clauses
+- question_id: q0020
+  question_text: How does set theory clauses work?
+  answer_text: Set theory clauses
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: Set theory clauses
+- question_id: q0034
   question_text: How is outer joins different from cross joins?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0092
-  question_text: How is outer joins different from you'll learn how to gain further
-    insights into your data through left joins,?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0093
-  question_text: How is outer joins different from right joins?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0094
-  question_text: How is outer joins different from full joins. in addition to outer
-    joins, you'll also work?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0095
-  question_text: How is cross joins different from you'll learn how to gain further
-    insights into your data through left joins,?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0096
-  question_text: How is cross joins different from right joins?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0097
-  question_text: How is cross joins different from full joins. in addition to outer
-    joins, you'll also work?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0098
-  question_text: How is you'll learn how to gain further insights into your data through
-    left joins, different from right joins?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0099
-  question_text: How is you'll learn how to gain further insights into your data through
-    left joins, different from full joins. in addition to outer joins, you'll also
-    work?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0100
-  question_text: How is right joins different from full joins. in addition to outer
-    joins, you'll also work?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
+  answer_text: Outer joins and cross joins
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: Outer joins and cross joins
 final_rows:
 - row_id: r_000001
   course:
     course_id: '24376'
     title: Set theory clauses
   relevant_topics:
-  - introduction to joins
-  question_text: What is introduction to joins?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  - -in this chapter, you'll be introduced to concept of joining tables, and
+  question_text: What is -in this chapter, you'll be introduced to concept of joining
+    tables, and?
+  question_answer: null
+  correctness: null
   question_family: entry
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
 - row_id: r_000002
   course:
     course_id: '24376'
     title: Set theory clauses
   relevant_topics:
-  - introduction to joins
-  question_text: What does introduction to joins mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
-  status: answered
-  reject_reason: null
+  - -in this chapter, you'll be introduced to concept of joining tables, and
+  question_text: How does -in this chapter, you'll be introduced to concept of joining
+    tables, and work?
+  question_answer: null
+  correctness: null
+  question_family: mechanism
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
 - row_id: r_000003
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - introduction to joins
-  question_text: Why does introduction to joins matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000004
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - introduction to joins
-  question_text: Why does introduction to joins?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000005
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - introduction to joins
-  question_text: What is a simple example of introduction to joins?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000006
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - -in this chapter, you'll be introduced to concept of joining tables, and
-  question_text: What is -in this chapter, you'll be introduced to concept of joining
-    tables, and?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000007
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - -in this chapter, you'll be introduced to concept of joining tables, and
-  question_text: What does -in this chapter, you'll be introduced to concept of joining
-    tables, and mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000008
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - -in this chapter, you'll be introduced to concept of joining tables, and
-  question_text: Why does -in this chapter, you'll be introduced to concept of joining
-    tables, and matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000009
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - -in this chapter, you'll be introduced to concept of joining tables, and
-  question_text: Why does -in this chapter, you'll be introduced to concept of joining
-    tables, and?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000010
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - -in this chapter, you'll be introduced to concept of joining tables, and
-  question_text: What is a simple example of -in this chapter, you'll be introduced
-    to concept of joining tables, and?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000011
   course:
     course_id: '24376'
     title: Set theory clauses
@@ -2545,144 +981,55 @@ final_rows:
   - will explore different ways you can enrich your queries using inner
   question_text: What is will explore different ways you can enrich your queries using
     inner?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: entry
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000012
+- row_id: r_000004
   course:
     course_id: '24376'
     title: Set theory clauses
   relevant_topics:
   - will explore different ways you can enrich your queries using inner
-  question_text: What does will explore different ways you can enrich your queries
-    using inner mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_text: How does will explore different ways you can enrich your queries
+    using inner work?
+  question_answer: null
+  correctness: null
+  question_family: mechanism
+  status: errored
+  reject_reason: missing_answer
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24376'
+    title: Set theory clauses
+  relevant_topics:
+  - joins joins. you'll also see how to use case statement to split
+  question_text: What is joins joins. you'll also see how to use case statement to
+    split?
+  question_answer: null
+  correctness: null
   question_family: entry
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000013
+- row_id: r_000006
   course:
     course_id: '24376'
     title: Set theory clauses
   relevant_topics:
-  - will explore different ways you can enrich your queries using inner
-  question_text: Why does will explore different ways you can enrich your queries
-    using inner matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
+  - joins joins. you'll also see how to use case statement to split
+  question_text: How does joins joins. you'll also see how to use case statement to
+    split work?
+  question_answer: null
+  correctness: null
+  question_family: mechanism
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000014
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - will explore different ways you can enrich your queries using inner
-  question_text: Why does will explore different ways you can enrich your queries
-    using inner?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000015
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - will explore different ways you can enrich your queries using inner
-  question_text: What is a simple example of will explore different ways you can enrich
-    your queries using inner?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000016
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - joins
-  question_text: What is joins?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000017
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - joins
-  question_text: What does joins mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000018
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - joins
-  question_text: Why does joins matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000019
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - joins
-  question_text: Why does joins?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000020
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - joins
-  question_text: What is a simple example of joins?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000021
+- row_id: r_000007
   course:
     course_id: '24376'
     title: Set theory clauses
@@ -2690,675 +1037,224 @@ final_rows:
   - self joins. you'll also see how to use case statement to split
   question_text: What is self joins. you'll also see how to use case statement to
     split?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: entry
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000022
+- row_id: r_000008
   course:
     course_id: '24376'
     title: Set theory clauses
   relevant_topics:
   - self joins. you'll also see how to use case statement to split
-  question_text: What does self joins. you'll also see how to use case statement to
-    split mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
-  status: answered
-  reject_reason: null
+  question_text: How does self joins. you'll also see how to use case statement to
+    split work?
+  question_answer: null
+  correctness: null
+  question_family: mechanism
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000023
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - self joins. you'll also see how to use case statement to split
-  question_text: Why does self joins. you'll also see how to use case statement to
-    split matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000024
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - self joins. you'll also see how to use case statement to split
-  question_text: Why does self joins. you'll also see how to use case statement to
-    split?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000025
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - self joins. you'll also see how to use case statement to split
-  question_text: What is a simple example of self joins. you'll also see how to use
-    case statement to split?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000026
+- row_id: r_000009
   course:
     course_id: '24376'
     title: Set theory clauses
   relevant_topics:
   - outer joins
   question_text: What is outer joins?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Outer joins and cross joins
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000027
+  source_evidence:
+  - source: overview
+    text: Outer joins and cross joins
+- row_id: r_000010
   course:
     course_id: '24376'
     title: Set theory clauses
   relevant_topics:
   - outer joins
-  question_text: What does outer joins mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does outer joins work?
+  question_answer: Outer joins and cross joins
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000028
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - outer joins
-  question_text: Why does outer joins matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000029
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - outer joins
-  question_text: Why does outer joins?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000030
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - outer joins
-  question_text: What is a simple example of outer joins?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000031
+  source_evidence:
+  - source: overview
+    text: Outer joins and cross joins
+- row_id: r_000011
   course:
     course_id: '24376'
     title: Set theory clauses
   relevant_topics:
   - cross joins
   question_text: What is cross joins?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Outer joins and cross joins
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000032
+  source_evidence:
+  - source: overview
+    text: Outer joins and cross joins
+- row_id: r_000012
   course:
     course_id: '24376'
     title: Set theory clauses
   relevant_topics:
   - cross joins
-  question_text: What does cross joins mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does cross joins work?
+  question_answer: Outer joins and cross joins
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000033
+  source_evidence:
+  - source: overview
+    text: Outer joins and cross joins
+- row_id: r_000013
   course:
     course_id: '24376'
     title: Set theory clauses
   relevant_topics:
-  - cross joins
-  question_text: Why does cross joins matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000034
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - cross joins
-  question_text: Why does cross joins?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000035
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - cross joins
-  question_text: What is a simple example of cross joins?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000036
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - you'll learn how to gain further insights into your data through left joins,
+  - you'll learn how to gain further insights into your data through left joins
   question_text: What is you'll learn how to gain further insights into your data
-    through left joins,?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+    through left joins?
+  question_answer: You'll learn how to gain further insights into your data through
+    left joins,
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000037
+  source_evidence:
+  - source: overview
+    text: You'll learn how to gain further insights into your data through left joins,
+- row_id: r_000014
   course:
     course_id: '24376'
     title: Set theory clauses
   relevant_topics:
-  - you'll learn how to gain further insights into your data through left joins,
-  question_text: What does you'll learn how to gain further insights into your data
-    through left joins, mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  - you'll learn how to gain further insights into your data through left joins
+  question_text: How does you'll learn how to gain further insights into your data
+    through left joins work?
+  question_answer: You'll learn how to gain further insights into your data through
+    left joins,
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000038
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - you'll learn how to gain further insights into your data through left joins,
-  question_text: Why does you'll learn how to gain further insights into your data
-    through left joins, matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000039
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - you'll learn how to gain further insights into your data through left joins,
-  question_text: Why does you'll learn how to gain further insights into your data
-    through left joins,?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000040
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - you'll learn how to gain further insights into your data through left joins,
-  question_text: What is a simple example of you'll learn how to gain further insights
-    into your data through left joins,?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000041
+  source_evidence:
+  - source: overview
+    text: You'll learn how to gain further insights into your data through left joins,
+- row_id: r_000015
   course:
     course_id: '24376'
     title: Set theory clauses
   relevant_topics:
   - right joins
   question_text: What is right joins?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: right joins, and full joins.
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000042
+  source_evidence:
+  - source: overview
+    text: right joins, and full joins.
+- row_id: r_000016
   course:
     course_id: '24376'
     title: Set theory clauses
   relevant_topics:
   - right joins
-  question_text: What does right joins mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does right joins work?
+  question_answer: right joins, and full joins.
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000043
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - right joins
-  question_text: Why does right joins matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000044
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - right joins
-  question_text: Why does right joins?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000045
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - right joins
-  question_text: What is a simple example of right joins?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000046
+  source_evidence:
+  - source: overview
+    text: right joins, and full joins.
+- row_id: r_000017
   course:
     course_id: '24376'
     title: Set theory clauses
   relevant_topics:
   - full joins. in addition to outer joins, you'll also work
   question_text: What is full joins. in addition to outer joins, you'll also work?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: entry
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000047
+- row_id: r_000018
   course:
     course_id: '24376'
     title: Set theory clauses
   relevant_topics:
   - full joins. in addition to outer joins, you'll also work
-  question_text: What does full joins. in addition to outer joins, you'll also work
-    mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
-  status: answered
-  reject_reason: null
+  question_text: How does full joins. in addition to outer joins, you'll also work
+    work?
+  question_answer: null
+  correctness: null
+  question_family: mechanism
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000048
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - full joins. in addition to outer joins, you'll also work
-  question_text: Why does full joins. in addition to outer joins, you'll also work
-    matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000049
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - full joins. in addition to outer joins, you'll also work
-  question_text: Why does full joins. in addition to outer joins, you'll also work?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000050
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - full joins. in addition to outer joins, you'll also work
-  question_text: What is a simple example of full joins. in addition to outer joins,
-    you'll also work?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000051
+- row_id: r_000019
   course:
     course_id: '24376'
     title: Set theory clauses
   relevant_topics:
   - set theory clauses
   question_text: What is set theory clauses?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Set theory clauses
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000052
+  source_evidence:
+  - source: overview
+    text: Set theory clauses
+- row_id: r_000020
   course:
     course_id: '24376'
     title: Set theory clauses
   relevant_topics:
   - set theory clauses
-  question_text: What does set theory clauses mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does set theory clauses work?
+  question_answer: Set theory clauses
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000053
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - set theory clauses
-  question_text: Why does set theory clauses matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000054
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - set theory clauses
-  question_text: Why does set theory clauses?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000055
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - set theory clauses
-  question_text: What is a simple example of set theory clauses?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000056
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - introduction to joins
-  - -in this chapter, you'll be introduced to concept of joining tables, and
-  question_text: How is introduction to joins different from -in this chapter, you'll
-    be introduced to concept of joining tables, and?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000057
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - introduction to joins
-  - will explore different ways you can enrich your queries using inner
-  question_text: How is introduction to joins different from will explore different
-    ways you can enrich your queries using inner?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000058
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - introduction to joins
-  - joins
-  question_text: How is introduction to joins different from joins?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000059
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - introduction to joins
-  - self joins. you'll also see how to use case statement to split
-  question_text: How is introduction to joins different from self joins. you'll also
-    see how to use case statement to split?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000060
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - introduction to joins
-  - outer joins
-  question_text: How is introduction to joins different from outer joins?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000061
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - introduction to joins
-  - cross joins
-  question_text: How is introduction to joins different from cross joins?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000062
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - introduction to joins
-  - you'll learn how to gain further insights into your data through left joins,
-  question_text: How is introduction to joins different from you'll learn how to gain
-    further insights into your data through left joins,?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000063
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - introduction to joins
-  - right joins
-  question_text: How is introduction to joins different from right joins?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000064
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - introduction to joins
-  - full joins. in addition to outer joins, you'll also work
-  question_text: How is introduction to joins different from full joins. in addition
-    to outer joins, you'll also work?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000065
+  source_evidence:
+  - source: overview
+    text: Set theory clauses
+- row_id: r_000021
   course:
     course_id: '24376'
     title: Set theory clauses
   relevant_topics:
   - -in this chapter, you'll be introduced to concept of joining tables, and
-  - will explore different ways you can enrich your queries using inner
+  - joins joins. you'll also see how to use case statement to split
   question_text: How is -in this chapter, you'll be introduced to concept of joining
-    tables, and different from will explore different ways you can enrich your queries
-    using inner?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+    tables, and different from joins joins. you'll also see how to use case statement
+    to split?
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000066
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - -in this chapter, you'll be introduced to concept of joining tables, and
-  - joins
-  question_text: How is -in this chapter, you'll be introduced to concept of joining
-    tables, and different from joins?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000067
+- row_id: r_000022
   course:
     course_id: '24376'
     title: Set theory clauses
@@ -3368,79 +1264,29 @@ final_rows:
   question_text: How is -in this chapter, you'll be introduced to concept of joining
     tables, and different from self joins. you'll also see how to use case statement
     to split?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000068
+- row_id: r_000023
   course:
     course_id: '24376'
     title: Set theory clauses
   relevant_topics:
   - -in this chapter, you'll be introduced to concept of joining tables, and
-  - outer joins
-  question_text: How is -in this chapter, you'll be introduced to concept of joining
-    tables, and different from outer joins?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000069
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - -in this chapter, you'll be introduced to concept of joining tables, and
-  - cross joins
-  question_text: How is -in this chapter, you'll be introduced to concept of joining
-    tables, and different from cross joins?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000070
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - -in this chapter, you'll be introduced to concept of joining tables, and
-  - you'll learn how to gain further insights into your data through left joins,
+  - you'll learn how to gain further insights into your data through left joins
   question_text: How is -in this chapter, you'll be introduced to concept of joining
     tables, and different from you'll learn how to gain further insights into your
-    data through left joins,?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+    data through left joins?
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000071
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - -in this chapter, you'll be introduced to concept of joining tables, and
-  - right joins
-  question_text: How is -in this chapter, you'll be introduced to concept of joining
-    tables, and different from right joins?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000072
+- row_id: r_000024
   course:
     course_id: '24376'
     title: Set theory clauses
@@ -3450,286 +1296,137 @@ final_rows:
   question_text: How is -in this chapter, you'll be introduced to concept of joining
     tables, and different from full joins. in addition to outer joins, you'll also
     work?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000073
+- row_id: r_000025
   course:
     course_id: '24376'
     title: Set theory clauses
   relevant_topics:
   - will explore different ways you can enrich your queries using inner
-  - joins
-  question_text: How is will explore different ways you can enrich your queries using
-    inner different from joins?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000074
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - will explore different ways you can enrich your queries using inner
-  - self joins. you'll also see how to use case statement to split
-  question_text: How is will explore different ways you can enrich your queries using
-    inner different from self joins. you'll also see how to use case statement to
-    split?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000075
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - will explore different ways you can enrich your queries using inner
-  - outer joins
-  question_text: How is will explore different ways you can enrich your queries using
-    inner different from outer joins?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000076
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - will explore different ways you can enrich your queries using inner
-  - cross joins
-  question_text: How is will explore different ways you can enrich your queries using
-    inner different from cross joins?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000077
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - will explore different ways you can enrich your queries using inner
-  - you'll learn how to gain further insights into your data through left joins,
+  - you'll learn how to gain further insights into your data through left joins
   question_text: How is will explore different ways you can enrich your queries using
     inner different from you'll learn how to gain further insights into your data
-    through left joins,?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+    through left joins?
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000078
+- row_id: r_000026
   course:
     course_id: '24376'
     title: Set theory clauses
   relevant_topics:
-  - will explore different ways you can enrich your queries using inner
-  - right joins
-  question_text: How is will explore different ways you can enrich your queries using
-    inner different from right joins?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000079
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - will explore different ways you can enrich your queries using inner
-  - full joins. in addition to outer joins, you'll also work
-  question_text: How is will explore different ways you can enrich your queries using
-    inner different from full joins. in addition to outer joins, you'll also work?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000080
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - joins
+  - joins joins. you'll also see how to use case statement to split
   - self joins. you'll also see how to use case statement to split
-  question_text: How is joins different from self joins. you'll also see how to use
-    case statement to split?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_text: How is joins joins. you'll also see how to use case statement to
+    split different from self joins. you'll also see how to use case statement to
+    split?
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000081
+- row_id: r_000027
   course:
     course_id: '24376'
     title: Set theory clauses
   relevant_topics:
-  - joins
+  - joins joins. you'll also see how to use case statement to split
   - outer joins
-  question_text: How is joins different from outer joins?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_text: How is joins joins. you'll also see how to use case statement to
+    split different from outer joins?
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000082
+- row_id: r_000028
   course:
     course_id: '24376'
     title: Set theory clauses
   relevant_topics:
-  - joins
+  - joins joins. you'll also see how to use case statement to split
   - cross joins
-  question_text: How is joins different from cross joins?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_text: How is joins joins. you'll also see how to use case statement to
+    split different from cross joins?
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000083
+- row_id: r_000029
   course:
     course_id: '24376'
     title: Set theory clauses
   relevant_topics:
-  - joins
-  - you'll learn how to gain further insights into your data through left joins,
-  question_text: How is joins different from you'll learn how to gain further insights
-    into your data through left joins,?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  - joins joins. you'll also see how to use case statement to split
+  - you'll learn how to gain further insights into your data through left joins
+  question_text: How is joins joins. you'll also see how to use case statement to
+    split different from you'll learn how to gain further insights into your data
+    through left joins?
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000084
+- row_id: r_000030
   course:
     course_id: '24376'
     title: Set theory clauses
   relevant_topics:
-  - joins
+  - joins joins. you'll also see how to use case statement to split
   - right joins
-  question_text: How is joins different from right joins?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_text: How is joins joins. you'll also see how to use case statement to
+    split different from right joins?
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000085
+- row_id: r_000031
   course:
     course_id: '24376'
     title: Set theory clauses
   relevant_topics:
-  - joins
+  - joins joins. you'll also see how to use case statement to split
   - full joins. in addition to outer joins, you'll also work
-  question_text: How is joins different from full joins. in addition to outer joins,
-    you'll also work?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_text: How is joins joins. you'll also see how to use case statement to
+    split different from full joins. in addition to outer joins, you'll also work?
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000086
+- row_id: r_000032
   course:
     course_id: '24376'
     title: Set theory clauses
   relevant_topics:
   - self joins. you'll also see how to use case statement to split
-  - outer joins
-  question_text: How is self joins. you'll also see how to use case statement to split
-    different from outer joins?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000087
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - self joins. you'll also see how to use case statement to split
-  - cross joins
-  question_text: How is self joins. you'll also see how to use case statement to split
-    different from cross joins?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000088
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - self joins. you'll also see how to use case statement to split
-  - you'll learn how to gain further insights into your data through left joins,
+  - you'll learn how to gain further insights into your data through left joins
   question_text: How is self joins. you'll also see how to use case statement to split
     different from you'll learn how to gain further insights into your data through
-    left joins,?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+    left joins?
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000089
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - self joins. you'll also see how to use case statement to split
-  - right joins
-  question_text: How is self joins. you'll also see how to use case statement to split
-    different from right joins?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000090
+- row_id: r_000033
   course:
     course_id: '24376'
     title: Set theory clauses
@@ -3738,14 +1435,13 @@ final_rows:
   - full joins. in addition to outer joins, you'll also work
   question_text: How is self joins. you'll also see how to use case statement to split
     different from full joins. in addition to outer joins, you'll also work?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000091
+- row_id: r_000034
   course:
     course_id: '24376'
     title: Set theory clauses
@@ -3753,30 +1449,30 @@ final_rows:
   - outer joins
   - cross joins
   question_text: How is outer joins different from cross joins?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Outer joins and cross joins
+  correctness: correct
   question_family: comparison
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000092
+  source_evidence:
+  - source: overview
+    text: Outer joins and cross joins
+- row_id: r_000035
   course:
     course_id: '24376'
     title: Set theory clauses
   relevant_topics:
   - outer joins
-  - you'll learn how to gain further insights into your data through left joins,
+  - you'll learn how to gain further insights into your data through left joins
   question_text: How is outer joins different from you'll learn how to gain further
-    insights into your data through left joins,?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+    insights into your data through left joins?
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000093
+- row_id: r_000036
   course:
     course_id: '24376'
     title: Set theory clauses
@@ -3784,14 +1480,13 @@ final_rows:
   - outer joins
   - right joins
   question_text: How is outer joins different from right joins?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000094
+- row_id: r_000037
   course:
     course_id: '24376'
     title: Set theory clauses
@@ -3800,30 +1495,28 @@ final_rows:
   - full joins. in addition to outer joins, you'll also work
   question_text: How is outer joins different from full joins. in addition to outer
     joins, you'll also work?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000095
+- row_id: r_000038
   course:
     course_id: '24376'
     title: Set theory clauses
   relevant_topics:
   - cross joins
-  - you'll learn how to gain further insights into your data through left joins,
+  - you'll learn how to gain further insights into your data through left joins
   question_text: How is cross joins different from you'll learn how to gain further
-    insights into your data through left joins,?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+    insights into your data through left joins?
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000096
+- row_id: r_000039
   course:
     course_id: '24376'
     title: Set theory clauses
@@ -3831,83 +1524,48 @@ final_rows:
   - cross joins
   - right joins
   question_text: How is cross joins different from right joins?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000097
+- row_id: r_000040
   course:
     course_id: '24376'
     title: Set theory clauses
   relevant_topics:
-  - cross joins
-  - full joins. in addition to outer joins, you'll also work
-  question_text: How is cross joins different from full joins. in addition to outer
-    joins, you'll also work?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000098
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - you'll learn how to gain further insights into your data through left joins,
+  - you'll learn how to gain further insights into your data through left joins
   - right joins
   question_text: How is you'll learn how to gain further insights into your data through
-    left joins, different from right joins?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+    left joins different from right joins?
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000099
+- row_id: r_000041
   course:
     course_id: '24376'
     title: Set theory clauses
   relevant_topics:
-  - you'll learn how to gain further insights into your data through left joins,
+  - you'll learn how to gain further insights into your data through left joins
   - full joins. in addition to outer joins, you'll also work
   question_text: How is you'll learn how to gain further insights into your data through
-    left joins, different from full joins. in addition to outer joins, you'll also
+    left joins different from full joins. in addition to outer joins, you'll also
     work?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000100
-  course:
-    course_id: '24376'
-    title: Set theory clauses
-  relevant_topics:
-  - right joins
-  - full joins. in addition to outer joins, you'll also work
-  question_text: How is right joins different from full joins. in addition to outer
-    joins, you'll also work?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
 summary:
-  topic_count: 11
-  canonical_topic_count: 11
-  candidate_count: 100
-  accepted_count: 100
+  topic_count: 10
+  canonical_topic_count: 10
+  candidate_count: 41
+  accepted_count: 41
   rejected_count: 0
-  correct_count: 0
-  uncertain_count: 100
+  correct_count: 11
+  uncertain_count: 0

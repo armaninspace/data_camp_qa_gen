@@ -132,39 +132,39 @@ extracted_topics:
 - topic_id: t001
   label: getting started with power bi
   topic_type: concept
-  description: 'Topic inferred from chapter heading: getting started with power bi'
+  description: 'Topic extracted from syllabus: getting started with power bi'
   evidence:
   - source: syllabus
     text: Getting Started with Power BI
-  confidence: 0.45
+  confidence: 0.55
 - topic_id: t002
   label: transforming data
   topic_type: concept
-  description: 'Topic inferred from chapter heading: transforming data'
+  description: 'Topic extracted from syllabus: transforming data'
   evidence:
   - source: syllabus
     text: Transforming Data
-  confidence: 0.45
+  confidence: 0.55
 - topic_id: t003
   label: visualizing data
   topic_type: concept
-  description: 'Topic inferred from chapter heading: visualizing data'
+  description: 'Topic extracted from syllabus: visualizing data'
   evidence:
   - source: syllabus
     text: Visualizing Data
-  confidence: 0.45
+  confidence: 0.55
 - topic_id: t004
   label: filtering
   topic_type: concept
-  description: 'Topic inferred from chapter heading: filtering'
+  description: 'Topic extracted from syllabus: filtering'
   evidence:
   - source: syllabus
     text: Filtering
-  confidence: 0.45
+  confidence: 0.55
 - topic_id: t005
   label: data types
   topic_type: concept
-  description: 'Topic mined from course text: data types'
+  description: 'Topic extracted from overview: data types'
   evidence:
   - source: overview
     text: data types
@@ -215,218 +215,57 @@ question_candidates:
 - candidate_id: q0002
   relevant_topics:
   - getting started with power bi
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does getting started with power bi mean?
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does getting started with power bi work?
 - candidate_id: q0003
-  relevant_topics:
-  - getting started with power bi
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does getting started with power bi matter?
-- candidate_id: q0004
-  relevant_topics:
-  - getting started with power bi
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use getting started with power bi?
-- candidate_id: q0005
-  relevant_topics:
-  - getting started with power bi
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of getting started with power bi?
-- candidate_id: q0006
   relevant_topics:
   - transforming data
   family: entry
   pattern: What is {x}?
   question_text: What is transforming data?
-- candidate_id: q0007
+- candidate_id: q0004
   relevant_topics:
   - transforming data
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does transforming data mean?
-- candidate_id: q0008
-  relevant_topics:
-  - transforming data
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does transforming data matter?
-- candidate_id: q0009
-  relevant_topics:
-  - transforming data
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use transforming data?
-- candidate_id: q0010
-  relevant_topics:
-  - transforming data
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of transforming data?
-- candidate_id: q0011
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does transforming data work?
+- candidate_id: q0005
   relevant_topics:
   - visualizing data
   family: entry
   pattern: What is {x}?
   question_text: What is visualizing data?
-- candidate_id: q0012
+- candidate_id: q0006
   relevant_topics:
   - visualizing data
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does visualizing data mean?
-- candidate_id: q0013
-  relevant_topics:
-  - visualizing data
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does visualizing data matter?
-- candidate_id: q0014
-  relevant_topics:
-  - visualizing data
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use visualizing data?
-- candidate_id: q0015
-  relevant_topics:
-  - visualizing data
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of visualizing data?
-- candidate_id: q0016
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does visualizing data work?
+- candidate_id: q0007
   relevant_topics:
   - filtering
   family: entry
   pattern: What is {x}?
   question_text: What is filtering?
-- candidate_id: q0017
+- candidate_id: q0008
   relevant_topics:
   - filtering
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does filtering mean?
-- candidate_id: q0018
-  relevant_topics:
-  - filtering
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does filtering matter?
-- candidate_id: q0019
-  relevant_topics:
-  - filtering
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use filtering?
-- candidate_id: q0020
-  relevant_topics:
-  - filtering
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of filtering?
-- candidate_id: q0021
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does filtering work?
+- candidate_id: q0009
   relevant_topics:
   - data types
   family: entry
   pattern: What is {x}?
   question_text: What is data types?
-- candidate_id: q0022
+- candidate_id: q0010
   relevant_topics:
   - data types
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does data types mean?
-- candidate_id: q0023
-  relevant_topics:
-  - data types
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does data types matter?
-- candidate_id: q0024
-  relevant_topics:
-  - data types
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use data types?
-- candidate_id: q0025
-  relevant_topics:
-  - data types
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of data types?
-- candidate_id: q0026
-  relevant_topics:
-  - getting started with power bi
-  - transforming data
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is getting started with power bi different from transforming
-    data?
-- candidate_id: q0027
-  relevant_topics:
-  - getting started with power bi
-  - visualizing data
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is getting started with power bi different from visualizing data?
-- candidate_id: q0028
-  relevant_topics:
-  - getting started with power bi
-  - filtering
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is getting started with power bi different from filtering?
-- candidate_id: q0029
-  relevant_topics:
-  - getting started with power bi
-  - data types
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is getting started with power bi different from data types?
-- candidate_id: q0030
-  relevant_topics:
-  - transforming data
-  - visualizing data
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is transforming data different from visualizing data?
-- candidate_id: q0031
-  relevant_topics:
-  - transforming data
-  - filtering
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is transforming data different from filtering?
-- candidate_id: q0032
-  relevant_topics:
-  - transforming data
-  - data types
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is transforming data different from data types?
-- candidate_id: q0033
-  relevant_topics:
-  - visualizing data
-  - filtering
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is visualizing data different from filtering?
-- candidate_id: q0034
-  relevant_topics:
-  - visualizing data
-  - data types
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is visualizing data different from data types?
-- candidate_id: q0035
-  relevant_topics:
-  - filtering
-  - data types
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is filtering different from data types?
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does data types work?
 question_repairs:
 - candidate_id: q0001
   status: accepted
@@ -435,422 +274,130 @@ question_repairs:
   reject_reason: null
 - candidate_id: q0002
   status: accepted
-  original_text: What does getting started with power bi mean?
-  final_text: What does getting started with power bi mean?
+  original_text: How does getting started with power bi work?
+  final_text: How does getting started with power bi work?
   reject_reason: null
 - candidate_id: q0003
-  status: accepted
-  original_text: Why does getting started with power bi matter?
-  final_text: Why does getting started with power bi matter?
-  reject_reason: null
-- candidate_id: q0004
-  status: repaired
-  original_text: Why do we use getting started with power bi?
-  final_text: Why does getting started with power bi?
-  reject_reason: null
-- candidate_id: q0005
-  status: accepted
-  original_text: What is a simple example of getting started with power bi?
-  final_text: What is a simple example of getting started with power bi?
-  reject_reason: null
-- candidate_id: q0006
   status: accepted
   original_text: What is transforming data?
   final_text: What is transforming data?
   reject_reason: null
-- candidate_id: q0007
+- candidate_id: q0004
   status: accepted
-  original_text: What does transforming data mean?
-  final_text: What does transforming data mean?
+  original_text: How does transforming data work?
+  final_text: How does transforming data work?
   reject_reason: null
-- candidate_id: q0008
-  status: accepted
-  original_text: Why does transforming data matter?
-  final_text: Why does transforming data matter?
-  reject_reason: null
-- candidate_id: q0009
-  status: repaired
-  original_text: Why do we use transforming data?
-  final_text: Why does transforming data?
-  reject_reason: null
-- candidate_id: q0010
-  status: accepted
-  original_text: What is a simple example of transforming data?
-  final_text: What is a simple example of transforming data?
-  reject_reason: null
-- candidate_id: q0011
+- candidate_id: q0005
   status: accepted
   original_text: What is visualizing data?
   final_text: What is visualizing data?
   reject_reason: null
-- candidate_id: q0012
+- candidate_id: q0006
   status: accepted
-  original_text: What does visualizing data mean?
-  final_text: What does visualizing data mean?
+  original_text: How does visualizing data work?
+  final_text: How does visualizing data work?
   reject_reason: null
-- candidate_id: q0013
-  status: accepted
-  original_text: Why does visualizing data matter?
-  final_text: Why does visualizing data matter?
-  reject_reason: null
-- candidate_id: q0014
-  status: repaired
-  original_text: Why do we use visualizing data?
-  final_text: Why does visualizing data?
-  reject_reason: null
-- candidate_id: q0015
-  status: accepted
-  original_text: What is a simple example of visualizing data?
-  final_text: What is a simple example of visualizing data?
-  reject_reason: null
-- candidate_id: q0016
+- candidate_id: q0007
   status: accepted
   original_text: What is filtering?
   final_text: What is filtering?
   reject_reason: null
-- candidate_id: q0017
+- candidate_id: q0008
   status: accepted
-  original_text: What does filtering mean?
-  final_text: What does filtering mean?
+  original_text: How does filtering work?
+  final_text: How does filtering work?
   reject_reason: null
-- candidate_id: q0018
-  status: accepted
-  original_text: Why does filtering matter?
-  final_text: Why does filtering matter?
-  reject_reason: null
-- candidate_id: q0019
-  status: repaired
-  original_text: Why do we use filtering?
-  final_text: Why does filtering?
-  reject_reason: null
-- candidate_id: q0020
-  status: accepted
-  original_text: What is a simple example of filtering?
-  final_text: What is a simple example of filtering?
-  reject_reason: null
-- candidate_id: q0021
+- candidate_id: q0009
   status: accepted
   original_text: What is data types?
   final_text: What is data types?
   reject_reason: null
-- candidate_id: q0022
+- candidate_id: q0010
   status: accepted
-  original_text: What does data types mean?
-  final_text: What does data types mean?
-  reject_reason: null
-- candidate_id: q0023
-  status: accepted
-  original_text: Why does data types matter?
-  final_text: Why does data types matter?
-  reject_reason: null
-- candidate_id: q0024
-  status: repaired
-  original_text: Why do we use data types?
-  final_text: Why does data types?
-  reject_reason: null
-- candidate_id: q0025
-  status: accepted
-  original_text: What is a simple example of data types?
-  final_text: What is a simple example of data types?
-  reject_reason: null
-- candidate_id: q0026
-  status: accepted
-  original_text: How is getting started with power bi different from transforming
-    data?
-  final_text: How is getting started with power bi different from transforming data?
-  reject_reason: null
-- candidate_id: q0027
-  status: accepted
-  original_text: How is getting started with power bi different from visualizing data?
-  final_text: How is getting started with power bi different from visualizing data?
-  reject_reason: null
-- candidate_id: q0028
-  status: accepted
-  original_text: How is getting started with power bi different from filtering?
-  final_text: How is getting started with power bi different from filtering?
-  reject_reason: null
-- candidate_id: q0029
-  status: accepted
-  original_text: How is getting started with power bi different from data types?
-  final_text: How is getting started with power bi different from data types?
-  reject_reason: null
-- candidate_id: q0030
-  status: accepted
-  original_text: How is transforming data different from visualizing data?
-  final_text: How is transforming data different from visualizing data?
-  reject_reason: null
-- candidate_id: q0031
-  status: accepted
-  original_text: How is transforming data different from filtering?
-  final_text: How is transforming data different from filtering?
-  reject_reason: null
-- candidate_id: q0032
-  status: accepted
-  original_text: How is transforming data different from data types?
-  final_text: How is transforming data different from data types?
-  reject_reason: null
-- candidate_id: q0033
-  status: accepted
-  original_text: How is visualizing data different from filtering?
-  final_text: How is visualizing data different from filtering?
-  reject_reason: null
-- candidate_id: q0034
-  status: accepted
-  original_text: How is visualizing data different from data types?
-  final_text: How is visualizing data different from data types?
-  reject_reason: null
-- candidate_id: q0035
-  status: accepted
-  original_text: How is filtering different from data types?
-  final_text: How is filtering different from data types?
+  original_text: How does data types work?
+  final_text: How does data types work?
   reject_reason: null
 answers:
 - question_id: q0001
   question_text: What is getting started with power bi?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
+  answer_text: Getting Started with Power BI
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Getting Started with Power BI
 - question_id: q0002
-  question_text: What does getting started with power bi mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
+  question_text: How does getting started with power bi work?
+  answer_text: Getting Started with Power BI
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Getting Started with Power BI
 - question_id: q0003
-  question_text: Why does getting started with power bi matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0004
-  question_text: Why does getting started with power bi?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0005
-  question_text: What is a simple example of getting started with power bi?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0006
   question_text: What is transforming data?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0007
-  question_text: What does transforming data mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0008
-  question_text: Why does transforming data matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0009
-  question_text: Why does transforming data?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0010
-  question_text: What is a simple example of transforming data?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0011
+  answer_text: Transforming Data
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Transforming Data
+- question_id: q0004
+  question_text: How does transforming data work?
+  answer_text: Transforming Data
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Transforming Data
+- question_id: q0005
   question_text: What is visualizing data?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0012
-  question_text: What does visualizing data mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0013
-  question_text: Why does visualizing data matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0014
-  question_text: Why does visualizing data?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0015
-  question_text: What is a simple example of visualizing data?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0016
+  answer_text: Visualizing Data
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Visualizing Data
+- question_id: q0006
+  question_text: How does visualizing data work?
+  answer_text: Visualizing Data
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Visualizing Data
+- question_id: q0007
   question_text: What is filtering?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0017
-  question_text: What does filtering mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0018
-  question_text: Why does filtering matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0019
-  question_text: Why does filtering?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0020
-  question_text: What is a simple example of filtering?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0021
+  answer_text: Filtering
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Filtering
+- question_id: q0008
+  question_text: How does filtering work?
+  answer_text: Filtering
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: syllabus
+    text: Filtering
+- question_id: q0009
   question_text: What is data types?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0022
-  question_text: What does data types mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0023
-  question_text: Why does data types matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0024
-  question_text: Why does data types?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0025
-  question_text: What is a simple example of data types?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0026
-  question_text: How is getting started with power bi different from transforming
-    data?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0027
-  question_text: How is getting started with power bi different from visualizing data?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0028
-  question_text: How is getting started with power bi different from filtering?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0029
-  question_text: How is getting started with power bi different from data types?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0030
-  question_text: How is transforming data different from visualizing data?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0031
-  question_text: How is transforming data different from filtering?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0032
-  question_text: How is transforming data different from data types?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0033
-  question_text: How is visualizing data different from filtering?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0034
-  question_text: How is visualizing data different from data types?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0035
-  question_text: How is filtering different from data types?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
+  answer_text: different data types, and learn to drill deeper into your reports.
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: different data types, and learn to drill deeper into your reports.
+- question_id: q0010
+  question_text: How does data types work?
+  answer_text: different data types, and learn to drill deeper into your reports.
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: different data types, and learn to drill deeper into your reports.
 final_rows:
 - row_id: r_000001
   course:
@@ -859,505 +406,154 @@ final_rows:
   relevant_topics:
   - getting started with power bi
   question_text: What is getting started with power bi?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Getting Started with Power BI
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: syllabus
+    text: Getting Started with Power BI
 - row_id: r_000002
   course:
     course_id: '24382'
     title: Introduction to Power BI
   relevant_topics:
   - getting started with power bi
-  question_text: What does getting started with power bi mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does getting started with power bi work?
+  question_answer: Getting Started with Power BI
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: syllabus
+    text: Getting Started with Power BI
 - row_id: r_000003
-  course:
-    course_id: '24382'
-    title: Introduction to Power BI
-  relevant_topics:
-  - getting started with power bi
-  question_text: Why does getting started with power bi matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000004
-  course:
-    course_id: '24382'
-    title: Introduction to Power BI
-  relevant_topics:
-  - getting started with power bi
-  question_text: Why does getting started with power bi?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000005
-  course:
-    course_id: '24382'
-    title: Introduction to Power BI
-  relevant_topics:
-  - getting started with power bi
-  question_text: What is a simple example of getting started with power bi?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000006
   course:
     course_id: '24382'
     title: Introduction to Power BI
   relevant_topics:
   - transforming data
   question_text: What is transforming data?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Transforming Data
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000007
+  source_evidence:
+  - source: syllabus
+    text: Transforming Data
+- row_id: r_000004
   course:
     course_id: '24382'
     title: Introduction to Power BI
   relevant_topics:
   - transforming data
-  question_text: What does transforming data mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does transforming data work?
+  question_answer: Transforming Data
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000008
-  course:
-    course_id: '24382'
-    title: Introduction to Power BI
-  relevant_topics:
-  - transforming data
-  question_text: Why does transforming data matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000009
-  course:
-    course_id: '24382'
-    title: Introduction to Power BI
-  relevant_topics:
-  - transforming data
-  question_text: Why does transforming data?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000010
-  course:
-    course_id: '24382'
-    title: Introduction to Power BI
-  relevant_topics:
-  - transforming data
-  question_text: What is a simple example of transforming data?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000011
+  source_evidence:
+  - source: syllabus
+    text: Transforming Data
+- row_id: r_000005
   course:
     course_id: '24382'
     title: Introduction to Power BI
   relevant_topics:
   - visualizing data
   question_text: What is visualizing data?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Visualizing Data
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000012
+  source_evidence:
+  - source: syllabus
+    text: Visualizing Data
+- row_id: r_000006
   course:
     course_id: '24382'
     title: Introduction to Power BI
   relevant_topics:
   - visualizing data
-  question_text: What does visualizing data mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does visualizing data work?
+  question_answer: Visualizing Data
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000013
-  course:
-    course_id: '24382'
-    title: Introduction to Power BI
-  relevant_topics:
-  - visualizing data
-  question_text: Why does visualizing data matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000014
-  course:
-    course_id: '24382'
-    title: Introduction to Power BI
-  relevant_topics:
-  - visualizing data
-  question_text: Why does visualizing data?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000015
-  course:
-    course_id: '24382'
-    title: Introduction to Power BI
-  relevant_topics:
-  - visualizing data
-  question_text: What is a simple example of visualizing data?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000016
+  source_evidence:
+  - source: syllabus
+    text: Visualizing Data
+- row_id: r_000007
   course:
     course_id: '24382'
     title: Introduction to Power BI
   relevant_topics:
   - filtering
   question_text: What is filtering?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: Filtering
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000017
+  source_evidence:
+  - source: syllabus
+    text: Filtering
+- row_id: r_000008
   course:
     course_id: '24382'
     title: Introduction to Power BI
   relevant_topics:
   - filtering
-  question_text: What does filtering mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does filtering work?
+  question_answer: Filtering
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000018
-  course:
-    course_id: '24382'
-    title: Introduction to Power BI
-  relevant_topics:
-  - filtering
-  question_text: Why does filtering matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000019
-  course:
-    course_id: '24382'
-    title: Introduction to Power BI
-  relevant_topics:
-  - filtering
-  question_text: Why does filtering?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000020
-  course:
-    course_id: '24382'
-    title: Introduction to Power BI
-  relevant_topics:
-  - filtering
-  question_text: What is a simple example of filtering?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000021
+  source_evidence:
+  - source: syllabus
+    text: Filtering
+- row_id: r_000009
   course:
     course_id: '24382'
     title: Introduction to Power BI
   relevant_topics:
   - data types
   question_text: What is data types?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: different data types, and learn to drill deeper into your reports.
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000022
+  source_evidence:
+  - source: overview
+    text: different data types, and learn to drill deeper into your reports.
+- row_id: r_000010
   course:
     course_id: '24382'
     title: Introduction to Power BI
   relevant_topics:
   - data types
-  question_text: What does data types mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does data types work?
+  question_answer: different data types, and learn to drill deeper into your reports.
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000023
-  course:
-    course_id: '24382'
-    title: Introduction to Power BI
-  relevant_topics:
-  - data types
-  question_text: Why does data types matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000024
-  course:
-    course_id: '24382'
-    title: Introduction to Power BI
-  relevant_topics:
-  - data types
-  question_text: Why does data types?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000025
-  course:
-    course_id: '24382'
-    title: Introduction to Power BI
-  relevant_topics:
-  - data types
-  question_text: What is a simple example of data types?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000026
-  course:
-    course_id: '24382'
-    title: Introduction to Power BI
-  relevant_topics:
-  - getting started with power bi
-  - transforming data
-  question_text: How is getting started with power bi different from transforming
-    data?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000027
-  course:
-    course_id: '24382'
-    title: Introduction to Power BI
-  relevant_topics:
-  - getting started with power bi
-  - visualizing data
-  question_text: How is getting started with power bi different from visualizing data?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000028
-  course:
-    course_id: '24382'
-    title: Introduction to Power BI
-  relevant_topics:
-  - getting started with power bi
-  - filtering
-  question_text: How is getting started with power bi different from filtering?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000029
-  course:
-    course_id: '24382'
-    title: Introduction to Power BI
-  relevant_topics:
-  - getting started with power bi
-  - data types
-  question_text: How is getting started with power bi different from data types?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000030
-  course:
-    course_id: '24382'
-    title: Introduction to Power BI
-  relevant_topics:
-  - transforming data
-  - visualizing data
-  question_text: How is transforming data different from visualizing data?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000031
-  course:
-    course_id: '24382'
-    title: Introduction to Power BI
-  relevant_topics:
-  - transforming data
-  - filtering
-  question_text: How is transforming data different from filtering?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000032
-  course:
-    course_id: '24382'
-    title: Introduction to Power BI
-  relevant_topics:
-  - transforming data
-  - data types
-  question_text: How is transforming data different from data types?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000033
-  course:
-    course_id: '24382'
-    title: Introduction to Power BI
-  relevant_topics:
-  - visualizing data
-  - filtering
-  question_text: How is visualizing data different from filtering?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000034
-  course:
-    course_id: '24382'
-    title: Introduction to Power BI
-  relevant_topics:
-  - visualizing data
-  - data types
-  question_text: How is visualizing data different from data types?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000035
-  course:
-    course_id: '24382'
-    title: Introduction to Power BI
-  relevant_topics:
-  - filtering
-  - data types
-  question_text: How is filtering different from data types?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: overview
+    text: different data types, and learn to drill deeper into your reports.
 summary:
   topic_count: 5
   canonical_topic_count: 5
-  candidate_count: 35
-  accepted_count: 35
+  candidate_count: 10
+  accepted_count: 10
   rejected_count: 0
-  correct_count: 0
-  uncertain_count: 35
+  correct_count: 10
+  uncertain_count: 0

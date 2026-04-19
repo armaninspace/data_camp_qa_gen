@@ -106,100 +106,100 @@ normalized_course:
 extracted_topics:
 - topic_id: t001
   label: learn the art of writing your own functions in python, as well as key
-  topic_type: concept
-  description: 'Topic inferred from chapter heading: learn the art of writing your
+  topic_type: tool
+  description: 'Topic extracted from overview_inferred: learn the art of writing your
     own functions in python, as well as key'
   evidence:
   - source: overview_inferred
     text: Learn the art of writing your own functions in Python, as well as key
-  confidence: 0.45
+  confidence: 0.55
 - topic_id: t002
   label: it's time to push forward
   topic_type: concept
-  description: 'Topic inferred from chapter heading: it''s time to push forward'
+  description: 'Topic extracted from overview_inferred: it''s time to push forward'
   evidence:
   - source: overview_inferred
     text: It's time to push forward and develop your Python chops even further. Python
-  confidence: 0.55
+  confidence: 0.75
 - topic_id: t003
   label: develop your python chops even further. python
   topic_type: concept
-  description: 'Topic inferred from chapter heading: develop your python chops even
-    further. python'
+  description: 'Topic extracted from overview_inferred: develop your python chops
+    even further. python'
   evidence:
   - source: overview_inferred
     text: It's time to push forward and develop your Python chops even further. Python
-  confidence: 0.55
+  confidence: 0.75
 - topic_id: t004
   label: has tons of fantastic functions
-  topic_type: concept
-  description: 'Topic inferred from chapter heading: has tons of fantastic functions'
+  topic_type: tool
+  description: 'Topic extracted from overview_inferred: has tons of fantastic functions'
   evidence:
   - source: overview_inferred
     text: has tons of fantastic functions and a module ecosystem. However, as a data
-  confidence: 0.55
+  confidence: 0.75
 - topic_id: t005
   label: a module ecosystem. however, as a data
   topic_type: concept
-  description: 'Topic inferred from chapter heading: a module ecosystem. however,
+  description: 'Topic extracted from overview_inferred: a module ecosystem. however,
     as a data'
   evidence:
   - source: overview_inferred
     text: has tons of fantastic functions and a module ecosystem. However, as a data
-  confidence: 0.55
+  confidence: 0.75
 - topic_id: t006
   label: professional or developer, you'll constantly need to write your own
   topic_type: concept
-  description: 'Topic inferred from chapter heading: professional or developer, you''ll
-    constantly need to write your own'
+  description: 'Topic extracted from overview_inferred: professional or developer,
+    you''ll constantly need to write your own'
   evidence:
   - source: overview_inferred
     text: professional or developer, you'll constantly need to write your own
-  confidence: 0.45
+  confidence: 0.55
 - topic_id: t007
   label: functions to solve problems that are dictated by your data. you will learn
-  topic_type: concept
-  description: 'Topic inferred from chapter heading: functions to solve problems that
-    are dictated by your data. you will learn'
+  topic_type: tool
+  description: 'Topic extracted from overview_inferred: functions to solve problems
+    that are dictated by your data. you will learn'
   evidence:
   - source: overview_inferred
     text: functions to solve problems that are dictated by your data. You will learn
-  confidence: 0.45
+  confidence: 0.55
 - topic_id: t008
   label: the art of function writing in this first course. you'll come out of this
-  topic_type: concept
-  description: 'Topic inferred from chapter heading: the art of function writing in
-    this first course. you''ll come out of this'
+  topic_type: tool
+  description: 'Topic extracted from overview_inferred: the art of function writing
+    in this first course. you''ll come out of this'
   evidence:
   - source: overview_inferred
     text: the art of function writing in this first course. You'll come out of this
-  confidence: 0.45
+  confidence: 0.55
 - topic_id: t009
   label: course being able to write your very own custom functions, complete with
-  topic_type: concept
-  description: 'Topic inferred from chapter heading: course being able to write your
-    very own custom functions, complete with'
+  topic_type: tool
+  description: 'Topic extracted from overview_inferred: course being able to write
+    your very own custom functions, complete with'
   evidence:
   - source: overview_inferred
     text: course being able to write your very own custom functions, complete with
-  confidence: 0.45
+  confidence: 0.55
 - topic_id: t010
   label: multiple parameters
   topic_type: concept
-  description: 'Topic inferred from chapter heading: multiple parameters'
+  description: 'Topic extracted from overview_inferred: multiple parameters'
   evidence:
   - source: overview_inferred
     text: multiple parameters and multiple return values, along with default arguments
-  confidence: 0.55
+  confidence: 0.75
 - topic_id: t011
   label: multiple return values, along with default arguments
   topic_type: concept
-  description: 'Topic inferred from chapter heading: multiple return values, along
+  description: 'Topic extracted from overview_inferred: multiple return values, along
     with default arguments'
   evidence:
   - source: overview_inferred
     text: multiple parameters and multiple return values, along with default arguments
-  confidence: 0.55
+  confidence: 0.75
 canonical_topics:
 - canonical_topic_id: ct_001
   label: learn art of writing your own functions in python, as well as key
@@ -207,7 +207,7 @@ canonical_topics:
   - learn the art of writing your own functions in python, as well as key
   member_topic_ids:
   - t001
-  topic_type: concept
+  topic_type: tool
 - canonical_topic_id: ct_002
   label: it's time to push forward
   aliases:
@@ -228,7 +228,7 @@ canonical_topics:
   - has tons of fantastic functions
   member_topic_ids:
   - t004
-  topic_type: concept
+  topic_type: tool
 - canonical_topic_id: ct_005
   label: a module ecosystem. however, as a data
   aliases:
@@ -249,21 +249,21 @@ canonical_topics:
   - functions to solve problems that are dictated by your data. you will learn
   member_topic_ids:
   - t007
-  topic_type: concept
+  topic_type: tool
 - canonical_topic_id: ct_008
   label: art of function writing in this first course. you'll come out of this
   aliases:
   - the art of function writing in this first course. you'll come out of this
   member_topic_ids:
   - t008
-  topic_type: concept
+  topic_type: tool
 - canonical_topic_id: ct_009
   label: course being able to write your very own custom functions, complete with
   aliases:
   - course being able to write your very own custom functions, complete with
   member_topic_ids:
   - t009
-  topic_type: concept
+  topic_type: tool
 - canonical_topic_id: ct_010
   label: multiple parameters
   aliases:
@@ -289,362 +289,139 @@ question_candidates:
 - candidate_id: q0002
   relevant_topics:
   - learn art of writing your own functions in python, as well as key
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does learn art of writing your own functions in python, as well
-    as key mean?
-- candidate_id: q0003
-  relevant_topics:
-  - learn art of writing your own functions in python, as well as key
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does learn art of writing your own functions in python, as well
-    as key matter?
-- candidate_id: q0004
-  relevant_topics:
-  - learn art of writing your own functions in python, as well as key
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use learn art of writing your own functions in python,
+  family: procedure
+  pattern: How do you use {x}?
+  question_text: How do you use learn art of writing your own functions in python,
     as well as key?
-- candidate_id: q0005
-  relevant_topics:
-  - learn art of writing your own functions in python, as well as key
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of learn art of writing your own functions
-    in python, as well as key?
-- candidate_id: q0006
+- candidate_id: q0003
   relevant_topics:
   - it's time to push forward
   family: entry
   pattern: What is {x}?
   question_text: What is it's time to push forward?
-- candidate_id: q0007
+- candidate_id: q0004
   relevant_topics:
   - it's time to push forward
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does it's time to push forward mean?
-- candidate_id: q0008
-  relevant_topics:
-  - it's time to push forward
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does it's time to push forward matter?
-- candidate_id: q0009
-  relevant_topics:
-  - it's time to push forward
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use it's time to push forward?
-- candidate_id: q0010
-  relevant_topics:
-  - it's time to push forward
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of it's time to push forward?
-- candidate_id: q0011
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does it's time to push forward work?
+- candidate_id: q0005
   relevant_topics:
   - develop your python chops even further. python
   family: entry
   pattern: What is {x}?
   question_text: What is develop your python chops even further. python?
-- candidate_id: q0012
+- candidate_id: q0006
   relevant_topics:
   - develop your python chops even further. python
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does develop your python chops even further. python mean?
-- candidate_id: q0013
-  relevant_topics:
-  - develop your python chops even further. python
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does develop your python chops even further. python matter?
-- candidate_id: q0014
-  relevant_topics:
-  - develop your python chops even further. python
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use develop your python chops even further. python?
-- candidate_id: q0015
-  relevant_topics:
-  - develop your python chops even further. python
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of develop your python chops even further.
-    python?
-- candidate_id: q0016
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does develop your python chops even further. python work?
+- candidate_id: q0007
   relevant_topics:
   - has tons of fantastic functions
   family: entry
   pattern: What is {x}?
   question_text: What is has tons of fantastic functions?
-- candidate_id: q0017
+- candidate_id: q0008
   relevant_topics:
   - has tons of fantastic functions
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does has tons of fantastic functions mean?
-- candidate_id: q0018
-  relevant_topics:
-  - has tons of fantastic functions
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does has tons of fantastic functions matter?
-- candidate_id: q0019
-  relevant_topics:
-  - has tons of fantastic functions
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use has tons of fantastic functions?
-- candidate_id: q0020
-  relevant_topics:
-  - has tons of fantastic functions
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of has tons of fantastic functions?
-- candidate_id: q0021
+  family: procedure
+  pattern: How do you use {x}?
+  question_text: How do you use has tons of fantastic functions?
+- candidate_id: q0009
   relevant_topics:
   - a module ecosystem. however, as a data
   family: entry
   pattern: What is {x}?
   question_text: What is a module ecosystem. however, as a data?
-- candidate_id: q0022
+- candidate_id: q0010
   relevant_topics:
   - a module ecosystem. however, as a data
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does a module ecosystem. however, as a data mean?
-- candidate_id: q0023
-  relevant_topics:
-  - a module ecosystem. however, as a data
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does a module ecosystem. however, as a data matter?
-- candidate_id: q0024
-  relevant_topics:
-  - a module ecosystem. however, as a data
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use a module ecosystem. however, as a data?
-- candidate_id: q0025
-  relevant_topics:
-  - a module ecosystem. however, as a data
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of a module ecosystem. however, as a data?
-- candidate_id: q0026
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does a module ecosystem. however, as a data work?
+- candidate_id: q0011
   relevant_topics:
   - professional or developer, you'll constantly need to write your own
   family: entry
   pattern: What is {x}?
   question_text: What is professional or developer, you'll constantly need to write
     your own?
-- candidate_id: q0027
+- candidate_id: q0012
   relevant_topics:
   - professional or developer, you'll constantly need to write your own
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does professional or developer, you'll constantly need to write
-    your own mean?
-- candidate_id: q0028
-  relevant_topics:
-  - professional or developer, you'll constantly need to write your own
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does professional or developer, you'll constantly need to write
-    your own matter?
-- candidate_id: q0029
-  relevant_topics:
-  - professional or developer, you'll constantly need to write your own
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use professional or developer, you'll constantly need to
-    write your own?
-- candidate_id: q0030
-  relevant_topics:
-  - professional or developer, you'll constantly need to write your own
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of professional or developer, you'll constantly
-    need to write your own?
-- candidate_id: q0031
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does professional or developer, you'll constantly need to write
+    your own work?
+- candidate_id: q0013
   relevant_topics:
   - functions to solve problems that are dictated by your data. you will learn
   family: entry
   pattern: What is {x}?
   question_text: What is functions to solve problems that are dictated by your data.
     you will learn?
-- candidate_id: q0032
+- candidate_id: q0014
   relevant_topics:
   - functions to solve problems that are dictated by your data. you will learn
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does functions to solve problems that are dictated by your data.
-    you will learn mean?
-- candidate_id: q0033
-  relevant_topics:
-  - functions to solve problems that are dictated by your data. you will learn
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does functions to solve problems that are dictated by your data.
-    you will learn matter?
-- candidate_id: q0034
-  relevant_topics:
-  - functions to solve problems that are dictated by your data. you will learn
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use functions to solve problems that are dictated by your
+  family: procedure
+  pattern: How do you use {x}?
+  question_text: How do you use functions to solve problems that are dictated by your
     data. you will learn?
-- candidate_id: q0035
-  relevant_topics:
-  - functions to solve problems that are dictated by your data. you will learn
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of functions to solve problems that are
-    dictated by your data. you will learn?
-- candidate_id: q0036
+- candidate_id: q0015
   relevant_topics:
   - art of function writing in this first course. you'll come out of this
   family: entry
   pattern: What is {x}?
   question_text: What is art of function writing in this first course. you'll come
     out of this?
-- candidate_id: q0037
+- candidate_id: q0016
   relevant_topics:
   - art of function writing in this first course. you'll come out of this
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does art of function writing in this first course. you'll come
-    out of this mean?
-- candidate_id: q0038
-  relevant_topics:
-  - art of function writing in this first course. you'll come out of this
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does art of function writing in this first course. you'll come
-    out of this matter?
-- candidate_id: q0039
-  relevant_topics:
-  - art of function writing in this first course. you'll come out of this
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use art of function writing in this first course. you'll
+  family: procedure
+  pattern: How do you use {x}?
+  question_text: How do you use art of function writing in this first course. you'll
     come out of this?
-- candidate_id: q0040
-  relevant_topics:
-  - art of function writing in this first course. you'll come out of this
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of art of function writing in this first
-    course. you'll come out of this?
-- candidate_id: q0041
+- candidate_id: q0017
   relevant_topics:
   - course being able to write your very own custom functions, complete with
   family: entry
   pattern: What is {x}?
   question_text: What is course being able to write your very own custom functions,
     complete with?
-- candidate_id: q0042
+- candidate_id: q0018
   relevant_topics:
   - course being able to write your very own custom functions, complete with
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does course being able to write your very own custom functions,
-    complete with mean?
-- candidate_id: q0043
-  relevant_topics:
-  - course being able to write your very own custom functions, complete with
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does course being able to write your very own custom functions,
-    complete with matter?
-- candidate_id: q0044
-  relevant_topics:
-  - course being able to write your very own custom functions, complete with
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use course being able to write your very own custom functions,
+  family: procedure
+  pattern: How do you use {x}?
+  question_text: How do you use course being able to write your very own custom functions,
     complete with?
-- candidate_id: q0045
-  relevant_topics:
-  - course being able to write your very own custom functions, complete with
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of course being able to write your very
-    own custom functions, complete with?
-- candidate_id: q0046
+- candidate_id: q0019
   relevant_topics:
   - multiple parameters
   family: entry
   pattern: What is {x}?
   question_text: What is multiple parameters?
-- candidate_id: q0047
+- candidate_id: q0020
   relevant_topics:
   - multiple parameters
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does multiple parameters mean?
-- candidate_id: q0048
-  relevant_topics:
-  - multiple parameters
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does multiple parameters matter?
-- candidate_id: q0049
-  relevant_topics:
-  - multiple parameters
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use multiple parameters?
-- candidate_id: q0050
-  relevant_topics:
-  - multiple parameters
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of multiple parameters?
-- candidate_id: q0051
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does multiple parameters work?
+- candidate_id: q0021
   relevant_topics:
   - multiple return values, along with default arguments
   family: entry
   pattern: What is {x}?
   question_text: What is multiple return values, along with default arguments?
-- candidate_id: q0052
+- candidate_id: q0022
   relevant_topics:
   - multiple return values, along with default arguments
-  family: entry
-  pattern: What does {x} mean?
-  question_text: What does multiple return values, along with default arguments mean?
-- candidate_id: q0053
-  relevant_topics:
-  - multiple return values, along with default arguments
-  family: purpose
-  pattern: Why does {x} matter?
-  question_text: Why does multiple return values, along with default arguments matter?
-- candidate_id: q0054
-  relevant_topics:
-  - multiple return values, along with default arguments
-  family: purpose
-  pattern: Why do we use {x}?
-  question_text: Why do we use multiple return values, along with default arguments?
-- candidate_id: q0055
-  relevant_topics:
-  - multiple return values, along with default arguments
-  family: example
-  pattern: What is a simple example of {x}?
-  question_text: What is a simple example of multiple return values, along with default
-    arguments?
-- candidate_id: q0056
-  relevant_topics:
-  - learn art of writing your own functions in python, as well as key
-  - it's time to push forward
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is learn art of writing your own functions in python, as well
-    as key different from it's time to push forward?
-- candidate_id: q0057
+  family: mechanism
+  pattern: How does {x} work?
+  question_text: How does multiple return values, along with default arguments work?
+- candidate_id: q0023
   relevant_topics:
   - learn art of writing your own functions in python, as well as key
   - develop your python chops even further. python
@@ -652,7 +429,7 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is learn art of writing your own functions in python, as well
     as key different from develop your python chops even further. python?
-- candidate_id: q0058
+- candidate_id: q0024
   relevant_topics:
   - learn art of writing your own functions in python, as well as key
   - has tons of fantastic functions
@@ -660,7 +437,7 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is learn art of writing your own functions in python, as well
     as key different from has tons of fantastic functions?
-- candidate_id: q0059
+- candidate_id: q0025
   relevant_topics:
   - learn art of writing your own functions in python, as well as key
   - a module ecosystem. however, as a data
@@ -668,7 +445,7 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is learn art of writing your own functions in python, as well
     as key different from a module ecosystem. however, as a data?
-- candidate_id: q0060
+- candidate_id: q0026
   relevant_topics:
   - learn art of writing your own functions in python, as well as key
   - professional or developer, you'll constantly need to write your own
@@ -677,7 +454,7 @@ question_candidates:
   question_text: How is learn art of writing your own functions in python, as well
     as key different from professional or developer, you'll constantly need to write
     your own?
-- candidate_id: q0061
+- candidate_id: q0027
   relevant_topics:
   - learn art of writing your own functions in python, as well as key
   - functions to solve problems that are dictated by your data. you will learn
@@ -686,7 +463,7 @@ question_candidates:
   question_text: How is learn art of writing your own functions in python, as well
     as key different from functions to solve problems that are dictated by your data.
     you will learn?
-- candidate_id: q0062
+- candidate_id: q0028
   relevant_topics:
   - learn art of writing your own functions in python, as well as key
   - art of function writing in this first course. you'll come out of this
@@ -695,7 +472,7 @@ question_candidates:
   question_text: How is learn art of writing your own functions in python, as well
     as key different from art of function writing in this first course. you'll come
     out of this?
-- candidate_id: q0063
+- candidate_id: q0029
   relevant_topics:
   - learn art of writing your own functions in python, as well as key
   - course being able to write your very own custom functions, complete with
@@ -704,39 +481,7 @@ question_candidates:
   question_text: How is learn art of writing your own functions in python, as well
     as key different from course being able to write your very own custom functions,
     complete with?
-- candidate_id: q0064
-  relevant_topics:
-  - learn art of writing your own functions in python, as well as key
-  - multiple parameters
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is learn art of writing your own functions in python, as well
-    as key different from multiple parameters?
-- candidate_id: q0065
-  relevant_topics:
-  - it's time to push forward
-  - develop your python chops even further. python
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is it's time to push forward different from develop your python
-    chops even further. python?
-- candidate_id: q0066
-  relevant_topics:
-  - it's time to push forward
-  - has tons of fantastic functions
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is it's time to push forward different from has tons of fantastic
-    functions?
-- candidate_id: q0067
-  relevant_topics:
-  - it's time to push forward
-  - a module ecosystem. however, as a data
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is it's time to push forward different from a module ecosystem.
-    however, as a data?
-- candidate_id: q0068
+- candidate_id: q0030
   relevant_topics:
   - it's time to push forward
   - professional or developer, you'll constantly need to write your own
@@ -744,7 +489,7 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is it's time to push forward different from professional or developer,
     you'll constantly need to write your own?
-- candidate_id: q0069
+- candidate_id: q0031
   relevant_topics:
   - it's time to push forward
   - functions to solve problems that are dictated by your data. you will learn
@@ -752,15 +497,7 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is it's time to push forward different from functions to solve
     problems that are dictated by your data. you will learn?
-- candidate_id: q0070
-  relevant_topics:
-  - it's time to push forward
-  - art of function writing in this first course. you'll come out of this
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is it's time to push forward different from art of function writing
-    in this first course. you'll come out of this?
-- candidate_id: q0071
+- candidate_id: q0032
   relevant_topics:
   - it's time to push forward
   - course being able to write your very own custom functions, complete with
@@ -768,30 +505,7 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is it's time to push forward different from course being able
     to write your very own custom functions, complete with?
-- candidate_id: q0072
-  relevant_topics:
-  - it's time to push forward
-  - multiple parameters
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is it's time to push forward different from multiple parameters?
-- candidate_id: q0073
-  relevant_topics:
-  - develop your python chops even further. python
-  - has tons of fantastic functions
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is develop your python chops even further. python different from
-    has tons of fantastic functions?
-- candidate_id: q0074
-  relevant_topics:
-  - develop your python chops even further. python
-  - a module ecosystem. however, as a data
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is develop your python chops even further. python different from
-    a module ecosystem. however, as a data?
-- candidate_id: q0075
+- candidate_id: q0033
   relevant_topics:
   - develop your python chops even further. python
   - professional or developer, you'll constantly need to write your own
@@ -799,7 +513,7 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is develop your python chops even further. python different from
     professional or developer, you'll constantly need to write your own?
-- candidate_id: q0076
+- candidate_id: q0034
   relevant_topics:
   - develop your python chops even further. python
   - functions to solve problems that are dictated by your data. you will learn
@@ -807,15 +521,7 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is develop your python chops even further. python different from
     functions to solve problems that are dictated by your data. you will learn?
-- candidate_id: q0077
-  relevant_topics:
-  - develop your python chops even further. python
-  - art of function writing in this first course. you'll come out of this
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is develop your python chops even further. python different from
-    art of function writing in this first course. you'll come out of this?
-- candidate_id: q0078
+- candidate_id: q0035
   relevant_topics:
   - develop your python chops even further. python
   - course being able to write your very own custom functions, complete with
@@ -823,31 +529,7 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is develop your python chops even further. python different from
     course being able to write your very own custom functions, complete with?
-- candidate_id: q0079
-  relevant_topics:
-  - develop your python chops even further. python
-  - multiple parameters
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is develop your python chops even further. python different from
-    multiple parameters?
-- candidate_id: q0080
-  relevant_topics:
-  - has tons of fantastic functions
-  - a module ecosystem. however, as a data
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is has tons of fantastic functions different from a module ecosystem.
-    however, as a data?
-- candidate_id: q0081
-  relevant_topics:
-  - has tons of fantastic functions
-  - professional or developer, you'll constantly need to write your own
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is has tons of fantastic functions different from professional
-    or developer, you'll constantly need to write your own?
-- candidate_id: q0082
+- candidate_id: q0036
   relevant_topics:
   - has tons of fantastic functions
   - functions to solve problems that are dictated by your data. you will learn
@@ -855,7 +537,7 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is has tons of fantastic functions different from functions to
     solve problems that are dictated by your data. you will learn?
-- candidate_id: q0083
+- candidate_id: q0037
   relevant_topics:
   - has tons of fantastic functions
   - art of function writing in this first course. you'll come out of this
@@ -863,62 +545,7 @@ question_candidates:
   pattern: How is {x} different from {y}?
   question_text: How is has tons of fantastic functions different from art of function
     writing in this first course. you'll come out of this?
-- candidate_id: q0084
-  relevant_topics:
-  - has tons of fantastic functions
-  - course being able to write your very own custom functions, complete with
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is has tons of fantastic functions different from course being
-    able to write your very own custom functions, complete with?
-- candidate_id: q0085
-  relevant_topics:
-  - has tons of fantastic functions
-  - multiple parameters
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is has tons of fantastic functions different from multiple parameters?
-- candidate_id: q0086
-  relevant_topics:
-  - a module ecosystem. however, as a data
-  - professional or developer, you'll constantly need to write your own
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is a module ecosystem. however, as a data different from professional
-    or developer, you'll constantly need to write your own?
-- candidate_id: q0087
-  relevant_topics:
-  - a module ecosystem. however, as a data
-  - functions to solve problems that are dictated by your data. you will learn
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is a module ecosystem. however, as a data different from functions
-    to solve problems that are dictated by your data. you will learn?
-- candidate_id: q0088
-  relevant_topics:
-  - a module ecosystem. however, as a data
-  - art of function writing in this first course. you'll come out of this
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is a module ecosystem. however, as a data different from art
-    of function writing in this first course. you'll come out of this?
-- candidate_id: q0089
-  relevant_topics:
-  - a module ecosystem. however, as a data
-  - course being able to write your very own custom functions, complete with
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is a module ecosystem. however, as a data different from course
-    being able to write your very own custom functions, complete with?
-- candidate_id: q0090
-  relevant_topics:
-  - a module ecosystem. however, as a data
-  - multiple parameters
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is a module ecosystem. however, as a data different from multiple
-    parameters?
-- candidate_id: q0091
+- candidate_id: q0038
   relevant_topics:
   - professional or developer, you'll constantly need to write your own
   - functions to solve problems that are dictated by your data. you will learn
@@ -927,7 +554,7 @@ question_candidates:
   question_text: How is professional or developer, you'll constantly need to write
     your own different from functions to solve problems that are dictated by your
     data. you will learn?
-- candidate_id: q0092
+- candidate_id: q0039
   relevant_topics:
   - professional or developer, you'll constantly need to write your own
   - art of function writing in this first course. you'll come out of this
@@ -936,7 +563,7 @@ question_candidates:
   question_text: How is professional or developer, you'll constantly need to write
     your own different from art of function writing in this first course. you'll come
     out of this?
-- candidate_id: q0093
+- candidate_id: q0040
   relevant_topics:
   - professional or developer, you'll constantly need to write your own
   - course being able to write your very own custom functions, complete with
@@ -945,24 +572,7 @@ question_candidates:
   question_text: How is professional or developer, you'll constantly need to write
     your own different from course being able to write your very own custom functions,
     complete with?
-- candidate_id: q0094
-  relevant_topics:
-  - professional or developer, you'll constantly need to write your own
-  - multiple parameters
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is professional or developer, you'll constantly need to write
-    your own different from multiple parameters?
-- candidate_id: q0095
-  relevant_topics:
-  - functions to solve problems that are dictated by your data. you will learn
-  - art of function writing in this first course. you'll come out of this
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is functions to solve problems that are dictated by your data.
-    you will learn different from art of function writing in this first course. you'll
-    come out of this?
-- candidate_id: q0096
+- candidate_id: q0041
   relevant_topics:
   - functions to solve problems that are dictated by your data. you will learn
   - course being able to write your very own custom functions, complete with
@@ -971,39 +581,22 @@ question_candidates:
   question_text: How is functions to solve problems that are dictated by your data.
     you will learn different from course being able to write your very own custom
     functions, complete with?
-- candidate_id: q0097
-  relevant_topics:
-  - functions to solve problems that are dictated by your data. you will learn
-  - multiple parameters
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is functions to solve problems that are dictated by your data.
-    you will learn different from multiple parameters?
-- candidate_id: q0098
-  relevant_topics:
-  - art of function writing in this first course. you'll come out of this
-  - course being able to write your very own custom functions, complete with
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is art of function writing in this first course. you'll come
-    out of this different from course being able to write your very own custom functions,
-    complete with?
-- candidate_id: q0099
-  relevant_topics:
-  - art of function writing in this first course. you'll come out of this
-  - multiple parameters
-  family: comparison
-  pattern: How is {x} different from {y}?
-  question_text: How is art of function writing in this first course. you'll come
-    out of this different from multiple parameters?
-- candidate_id: q0100
+- candidate_id: q0042
   relevant_topics:
   - course being able to write your very own custom functions, complete with
-  - multiple parameters
+  - multiple return values, along with default arguments
   family: comparison
   pattern: How is {x} different from {y}?
   question_text: How is course being able to write your very own custom functions,
-    complete with different from multiple parameters?
+    complete with different from multiple return values, along with default arguments?
+- candidate_id: q0043
+  relevant_topics:
+  - multiple parameters
+  - multiple return values, along with default arguments
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is multiple parameters different from multiple return values,
+    along with default arguments?
 question_repairs:
 - candidate_id: q0001
   status: accepted
@@ -1014,355 +607,149 @@ question_repairs:
   reject_reason: null
 - candidate_id: q0002
   status: accepted
-  original_text: What does learn art of writing your own functions in python, as well
-    as key mean?
-  final_text: What does learn art of writing your own functions in python, as well
-    as key mean?
+  original_text: How do you use learn art of writing your own functions in python,
+    as well as key?
+  final_text: How do you use learn art of writing your own functions in python, as
+    well as key?
   reject_reason: null
 - candidate_id: q0003
-  status: accepted
-  original_text: Why does learn art of writing your own functions in python, as well
-    as key matter?
-  final_text: Why does learn art of writing your own functions in python, as well
-    as key matter?
-  reject_reason: null
-- candidate_id: q0004
-  status: repaired
-  original_text: Why do we use learn art of writing your own functions in python,
-    as well as key?
-  final_text: Why does learn art of writing your own functions in python, as well
-    as key?
-  reject_reason: null
-- candidate_id: q0005
-  status: accepted
-  original_text: What is a simple example of learn art of writing your own functions
-    in python, as well as key?
-  final_text: What is a simple example of learn art of writing your own functions
-    in python, as well as key?
-  reject_reason: null
-- candidate_id: q0006
   status: accepted
   original_text: What is it's time to push forward?
   final_text: What is it's time to push forward?
   reject_reason: null
-- candidate_id: q0007
+- candidate_id: q0004
   status: accepted
-  original_text: What does it's time to push forward mean?
-  final_text: What does it's time to push forward mean?
+  original_text: How does it's time to push forward work?
+  final_text: How does it's time to push forward work?
   reject_reason: null
-- candidate_id: q0008
-  status: accepted
-  original_text: Why does it's time to push forward matter?
-  final_text: Why does it's time to push forward matter?
-  reject_reason: null
-- candidate_id: q0009
-  status: repaired
-  original_text: Why do we use it's time to push forward?
-  final_text: Why does it's time to push forward?
-  reject_reason: null
-- candidate_id: q0010
-  status: accepted
-  original_text: What is a simple example of it's time to push forward?
-  final_text: What is a simple example of it's time to push forward?
-  reject_reason: null
-- candidate_id: q0011
+- candidate_id: q0005
   status: accepted
   original_text: What is develop your python chops even further. python?
   final_text: What is develop your python chops even further. python?
   reject_reason: null
-- candidate_id: q0012
+- candidate_id: q0006
   status: accepted
-  original_text: What does develop your python chops even further. python mean?
-  final_text: What does develop your python chops even further. python mean?
+  original_text: How does develop your python chops even further. python work?
+  final_text: How does develop your python chops even further. python work?
   reject_reason: null
-- candidate_id: q0013
-  status: accepted
-  original_text: Why does develop your python chops even further. python matter?
-  final_text: Why does develop your python chops even further. python matter?
-  reject_reason: null
-- candidate_id: q0014
-  status: repaired
-  original_text: Why do we use develop your python chops even further. python?
-  final_text: Why does develop your python chops even further. python?
-  reject_reason: null
-- candidate_id: q0015
-  status: accepted
-  original_text: What is a simple example of develop your python chops even further.
-    python?
-  final_text: What is a simple example of develop your python chops even further.
-    python?
-  reject_reason: null
-- candidate_id: q0016
+- candidate_id: q0007
   status: accepted
   original_text: What is has tons of fantastic functions?
   final_text: What is has tons of fantastic functions?
   reject_reason: null
-- candidate_id: q0017
+- candidate_id: q0008
   status: accepted
-  original_text: What does has tons of fantastic functions mean?
-  final_text: What does has tons of fantastic functions mean?
+  original_text: How do you use has tons of fantastic functions?
+  final_text: How do you use has tons of fantastic functions?
   reject_reason: null
-- candidate_id: q0018
-  status: accepted
-  original_text: Why does has tons of fantastic functions matter?
-  final_text: Why does has tons of fantastic functions matter?
-  reject_reason: null
-- candidate_id: q0019
-  status: repaired
-  original_text: Why do we use has tons of fantastic functions?
-  final_text: Why does has tons of fantastic functions?
-  reject_reason: null
-- candidate_id: q0020
-  status: accepted
-  original_text: What is a simple example of has tons of fantastic functions?
-  final_text: What is a simple example of has tons of fantastic functions?
-  reject_reason: null
-- candidate_id: q0021
+- candidate_id: q0009
   status: accepted
   original_text: What is a module ecosystem. however, as a data?
   final_text: What is a module ecosystem. however, as a data?
   reject_reason: null
-- candidate_id: q0022
+- candidate_id: q0010
   status: accepted
-  original_text: What does a module ecosystem. however, as a data mean?
-  final_text: What does a module ecosystem. however, as a data mean?
+  original_text: How does a module ecosystem. however, as a data work?
+  final_text: How does a module ecosystem. however, as a data work?
   reject_reason: null
-- candidate_id: q0023
-  status: accepted
-  original_text: Why does a module ecosystem. however, as a data matter?
-  final_text: Why does a module ecosystem. however, as a data matter?
-  reject_reason: null
-- candidate_id: q0024
-  status: repaired
-  original_text: Why do we use a module ecosystem. however, as a data?
-  final_text: Why does a module ecosystem. however, as a data?
-  reject_reason: null
-- candidate_id: q0025
-  status: accepted
-  original_text: What is a simple example of a module ecosystem. however, as a data?
-  final_text: What is a simple example of a module ecosystem. however, as a data?
-  reject_reason: null
-- candidate_id: q0026
+- candidate_id: q0011
   status: accepted
   original_text: What is professional or developer, you'll constantly need to write
     your own?
   final_text: What is professional or developer, you'll constantly need to write your
     own?
   reject_reason: null
-- candidate_id: q0027
+- candidate_id: q0012
   status: accepted
-  original_text: What does professional or developer, you'll constantly need to write
-    your own mean?
-  final_text: What does professional or developer, you'll constantly need to write
-    your own mean?
+  original_text: How does professional or developer, you'll constantly need to write
+    your own work?
+  final_text: How does professional or developer, you'll constantly need to write
+    your own work?
   reject_reason: null
-- candidate_id: q0028
-  status: accepted
-  original_text: Why does professional or developer, you'll constantly need to write
-    your own matter?
-  final_text: Why does professional or developer, you'll constantly need to write
-    your own matter?
-  reject_reason: null
-- candidate_id: q0029
-  status: repaired
-  original_text: Why do we use professional or developer, you'll constantly need to
-    write your own?
-  final_text: Why does professional or developer, you'll constantly need to write
-    your own?
-  reject_reason: null
-- candidate_id: q0030
-  status: accepted
-  original_text: What is a simple example of professional or developer, you'll constantly
-    need to write your own?
-  final_text: What is a simple example of professional or developer, you'll constantly
-    need to write your own?
-  reject_reason: null
-- candidate_id: q0031
+- candidate_id: q0013
   status: accepted
   original_text: What is functions to solve problems that are dictated by your data.
     you will learn?
   final_text: What is functions to solve problems that are dictated by your data.
     you will learn?
   reject_reason: null
-- candidate_id: q0032
+- candidate_id: q0014
   status: accepted
-  original_text: What does functions to solve problems that are dictated by your data.
-    you will learn mean?
-  final_text: What does functions to solve problems that are dictated by your data.
-    you will learn mean?
-  reject_reason: null
-- candidate_id: q0033
-  status: accepted
-  original_text: Why does functions to solve problems that are dictated by your data.
-    you will learn matter?
-  final_text: Why does functions to solve problems that are dictated by your data.
-    you will learn matter?
-  reject_reason: null
-- candidate_id: q0034
-  status: repaired
-  original_text: Why do we use functions to solve problems that are dictated by your
+  original_text: How do you use functions to solve problems that are dictated by your
     data. you will learn?
-  final_text: Why does functions to solve problems that are dictated by your data.
-    you will learn?
+  final_text: How do you use functions to solve problems that are dictated by your
+    data. you will learn?
   reject_reason: null
-- candidate_id: q0035
-  status: accepted
-  original_text: What is a simple example of functions to solve problems that are
-    dictated by your data. you will learn?
-  final_text: What is a simple example of functions to solve problems that are dictated
-    by your data. you will learn?
-  reject_reason: null
-- candidate_id: q0036
+- candidate_id: q0015
   status: accepted
   original_text: What is art of function writing in this first course. you'll come
     out of this?
   final_text: What is art of function writing in this first course. you'll come out
     of this?
   reject_reason: null
-- candidate_id: q0037
+- candidate_id: q0016
   status: accepted
-  original_text: What does art of function writing in this first course. you'll come
-    out of this mean?
-  final_text: What does art of function writing in this first course. you'll come
-    out of this mean?
-  reject_reason: null
-- candidate_id: q0038
-  status: accepted
-  original_text: Why does art of function writing in this first course. you'll come
-    out of this matter?
-  final_text: Why does art of function writing in this first course. you'll come out
-    of this matter?
-  reject_reason: null
-- candidate_id: q0039
-  status: repaired
-  original_text: Why do we use art of function writing in this first course. you'll
+  original_text: How do you use art of function writing in this first course. you'll
     come out of this?
-  final_text: Why does art of function writing in this first course. you'll come out
-    of this?
+  final_text: How do you use art of function writing in this first course. you'll
+    come out of this?
   reject_reason: null
-- candidate_id: q0040
-  status: accepted
-  original_text: What is a simple example of art of function writing in this first
-    course. you'll come out of this?
-  final_text: What is a simple example of art of function writing in this first course.
-    you'll come out of this?
-  reject_reason: null
-- candidate_id: q0041
+- candidate_id: q0017
   status: accepted
   original_text: What is course being able to write your very own custom functions,
     complete with?
   final_text: What is course being able to write your very own custom functions, complete
     with?
   reject_reason: null
-- candidate_id: q0042
+- candidate_id: q0018
   status: accepted
-  original_text: What does course being able to write your very own custom functions,
-    complete with mean?
-  final_text: What does course being able to write your very own custom functions,
-    complete with mean?
-  reject_reason: null
-- candidate_id: q0043
-  status: accepted
-  original_text: Why does course being able to write your very own custom functions,
-    complete with matter?
-  final_text: Why does course being able to write your very own custom functions,
-    complete with matter?
-  reject_reason: null
-- candidate_id: q0044
-  status: repaired
-  original_text: Why do we use course being able to write your very own custom functions,
+  original_text: How do you use course being able to write your very own custom functions,
     complete with?
-  final_text: Why does course being able to write your very own custom functions,
+  final_text: How do you use course being able to write your very own custom functions,
     complete with?
   reject_reason: null
-- candidate_id: q0045
-  status: accepted
-  original_text: What is a simple example of course being able to write your very
-    own custom functions, complete with?
-  final_text: What is a simple example of course being able to write your very own
-    custom functions, complete with?
-  reject_reason: null
-- candidate_id: q0046
+- candidate_id: q0019
   status: accepted
   original_text: What is multiple parameters?
   final_text: What is multiple parameters?
   reject_reason: null
-- candidate_id: q0047
+- candidate_id: q0020
   status: accepted
-  original_text: What does multiple parameters mean?
-  final_text: What does multiple parameters mean?
+  original_text: How does multiple parameters work?
+  final_text: How does multiple parameters work?
   reject_reason: null
-- candidate_id: q0048
-  status: accepted
-  original_text: Why does multiple parameters matter?
-  final_text: Why does multiple parameters matter?
-  reject_reason: null
-- candidate_id: q0049
-  status: repaired
-  original_text: Why do we use multiple parameters?
-  final_text: Why does multiple parameters?
-  reject_reason: null
-- candidate_id: q0050
-  status: accepted
-  original_text: What is a simple example of multiple parameters?
-  final_text: What is a simple example of multiple parameters?
-  reject_reason: null
-- candidate_id: q0051
+- candidate_id: q0021
   status: accepted
   original_text: What is multiple return values, along with default arguments?
   final_text: What is multiple return values, along with default arguments?
   reject_reason: null
-- candidate_id: q0052
+- candidate_id: q0022
   status: accepted
-  original_text: What does multiple return values, along with default arguments mean?
-  final_text: What does multiple return values, along with default arguments mean?
+  original_text: How does multiple return values, along with default arguments work?
+  final_text: How does multiple return values, along with default arguments work?
   reject_reason: null
-- candidate_id: q0053
-  status: accepted
-  original_text: Why does multiple return values, along with default arguments matter?
-  final_text: Why does multiple return values, along with default arguments matter?
-  reject_reason: null
-- candidate_id: q0054
-  status: repaired
-  original_text: Why do we use multiple return values, along with default arguments?
-  final_text: Why does multiple return values, along with default arguments?
-  reject_reason: null
-- candidate_id: q0055
-  status: accepted
-  original_text: What is a simple example of multiple return values, along with default
-    arguments?
-  final_text: What is a simple example of multiple return values, along with default
-    arguments?
-  reject_reason: null
-- candidate_id: q0056
-  status: accepted
-  original_text: How is learn art of writing your own functions in python, as well
-    as key different from it's time to push forward?
-  final_text: How is learn art of writing your own functions in python, as well as
-    key different from it's time to push forward?
-  reject_reason: null
-- candidate_id: q0057
+- candidate_id: q0023
   status: accepted
   original_text: How is learn art of writing your own functions in python, as well
     as key different from develop your python chops even further. python?
   final_text: How is learn art of writing your own functions in python, as well as
     key different from develop your python chops even further. python?
   reject_reason: null
-- candidate_id: q0058
+- candidate_id: q0024
   status: accepted
   original_text: How is learn art of writing your own functions in python, as well
     as key different from has tons of fantastic functions?
   final_text: How is learn art of writing your own functions in python, as well as
     key different from has tons of fantastic functions?
   reject_reason: null
-- candidate_id: q0059
+- candidate_id: q0025
   status: accepted
   original_text: How is learn art of writing your own functions in python, as well
     as key different from a module ecosystem. however, as a data?
   final_text: How is learn art of writing your own functions in python, as well as
     key different from a module ecosystem. however, as a data?
   reject_reason: null
-- candidate_id: q0060
+- candidate_id: q0026
   status: accepted
   original_text: How is learn art of writing your own functions in python, as well
     as key different from professional or developer, you'll constantly need to write
@@ -1371,7 +758,7 @@ question_repairs:
     key different from professional or developer, you'll constantly need to write
     your own?
   reject_reason: null
-- candidate_id: q0061
+- candidate_id: q0027
   status: accepted
   original_text: How is learn art of writing your own functions in python, as well
     as key different from functions to solve problems that are dictated by your data.
@@ -1380,7 +767,7 @@ question_repairs:
     key different from functions to solve problems that are dictated by your data.
     you will learn?
   reject_reason: null
-- candidate_id: q0062
+- candidate_id: q0028
   status: accepted
   original_text: How is learn art of writing your own functions in python, as well
     as key different from art of function writing in this first course. you'll come
@@ -1389,7 +776,7 @@ question_repairs:
     key different from art of function writing in this first course. you'll come out
     of this?
   reject_reason: null
-- candidate_id: q0063
+- candidate_id: q0029
   status: accepted
   original_text: How is learn art of writing your own functions in python, as well
     as key different from course being able to write your very own custom functions,
@@ -1398,192 +785,63 @@ question_repairs:
     key different from course being able to write your very own custom functions,
     complete with?
   reject_reason: null
-- candidate_id: q0064
-  status: accepted
-  original_text: How is learn art of writing your own functions in python, as well
-    as key different from multiple parameters?
-  final_text: How is learn art of writing your own functions in python, as well as
-    key different from multiple parameters?
-  reject_reason: null
-- candidate_id: q0065
-  status: accepted
-  original_text: How is it's time to push forward different from develop your python
-    chops even further. python?
-  final_text: How is it's time to push forward different from develop your python
-    chops even further. python?
-  reject_reason: null
-- candidate_id: q0066
-  status: accepted
-  original_text: How is it's time to push forward different from has tons of fantastic
-    functions?
-  final_text: How is it's time to push forward different from has tons of fantastic
-    functions?
-  reject_reason: null
-- candidate_id: q0067
-  status: accepted
-  original_text: How is it's time to push forward different from a module ecosystem.
-    however, as a data?
-  final_text: How is it's time to push forward different from a module ecosystem.
-    however, as a data?
-  reject_reason: null
-- candidate_id: q0068
+- candidate_id: q0030
   status: accepted
   original_text: How is it's time to push forward different from professional or developer,
     you'll constantly need to write your own?
   final_text: How is it's time to push forward different from professional or developer,
     you'll constantly need to write your own?
   reject_reason: null
-- candidate_id: q0069
+- candidate_id: q0031
   status: accepted
   original_text: How is it's time to push forward different from functions to solve
     problems that are dictated by your data. you will learn?
   final_text: How is it's time to push forward different from functions to solve problems
     that are dictated by your data. you will learn?
   reject_reason: null
-- candidate_id: q0070
-  status: accepted
-  original_text: How is it's time to push forward different from art of function writing
-    in this first course. you'll come out of this?
-  final_text: How is it's time to push forward different from art of function writing
-    in this first course. you'll come out of this?
-  reject_reason: null
-- candidate_id: q0071
+- candidate_id: q0032
   status: accepted
   original_text: How is it's time to push forward different from course being able
     to write your very own custom functions, complete with?
   final_text: How is it's time to push forward different from course being able to
     write your very own custom functions, complete with?
   reject_reason: null
-- candidate_id: q0072
-  status: accepted
-  original_text: How is it's time to push forward different from multiple parameters?
-  final_text: How is it's time to push forward different from multiple parameters?
-  reject_reason: null
-- candidate_id: q0073
-  status: accepted
-  original_text: How is develop your python chops even further. python different from
-    has tons of fantastic functions?
-  final_text: How is develop your python chops even further. python different from
-    has tons of fantastic functions?
-  reject_reason: null
-- candidate_id: q0074
-  status: accepted
-  original_text: How is develop your python chops even further. python different from
-    a module ecosystem. however, as a data?
-  final_text: How is develop your python chops even further. python different from
-    a module ecosystem. however, as a data?
-  reject_reason: null
-- candidate_id: q0075
+- candidate_id: q0033
   status: accepted
   original_text: How is develop your python chops even further. python different from
     professional or developer, you'll constantly need to write your own?
   final_text: How is develop your python chops even further. python different from
     professional or developer, you'll constantly need to write your own?
   reject_reason: null
-- candidate_id: q0076
+- candidate_id: q0034
   status: accepted
   original_text: How is develop your python chops even further. python different from
     functions to solve problems that are dictated by your data. you will learn?
   final_text: How is develop your python chops even further. python different from
     functions to solve problems that are dictated by your data. you will learn?
   reject_reason: null
-- candidate_id: q0077
-  status: accepted
-  original_text: How is develop your python chops even further. python different from
-    art of function writing in this first course. you'll come out of this?
-  final_text: How is develop your python chops even further. python different from
-    art of function writing in this first course. you'll come out of this?
-  reject_reason: null
-- candidate_id: q0078
+- candidate_id: q0035
   status: accepted
   original_text: How is develop your python chops even further. python different from
     course being able to write your very own custom functions, complete with?
   final_text: How is develop your python chops even further. python different from
     course being able to write your very own custom functions, complete with?
   reject_reason: null
-- candidate_id: q0079
-  status: accepted
-  original_text: How is develop your python chops even further. python different from
-    multiple parameters?
-  final_text: How is develop your python chops even further. python different from
-    multiple parameters?
-  reject_reason: null
-- candidate_id: q0080
-  status: accepted
-  original_text: How is has tons of fantastic functions different from a module ecosystem.
-    however, as a data?
-  final_text: How is has tons of fantastic functions different from a module ecosystem.
-    however, as a data?
-  reject_reason: null
-- candidate_id: q0081
-  status: accepted
-  original_text: How is has tons of fantastic functions different from professional
-    or developer, you'll constantly need to write your own?
-  final_text: How is has tons of fantastic functions different from professional or
-    developer, you'll constantly need to write your own?
-  reject_reason: null
-- candidate_id: q0082
+- candidate_id: q0036
   status: accepted
   original_text: How is has tons of fantastic functions different from functions to
     solve problems that are dictated by your data. you will learn?
   final_text: How is has tons of fantastic functions different from functions to solve
     problems that are dictated by your data. you will learn?
   reject_reason: null
-- candidate_id: q0083
+- candidate_id: q0037
   status: accepted
   original_text: How is has tons of fantastic functions different from art of function
     writing in this first course. you'll come out of this?
   final_text: How is has tons of fantastic functions different from art of function
     writing in this first course. you'll come out of this?
   reject_reason: null
-- candidate_id: q0084
-  status: accepted
-  original_text: How is has tons of fantastic functions different from course being
-    able to write your very own custom functions, complete with?
-  final_text: How is has tons of fantastic functions different from course being able
-    to write your very own custom functions, complete with?
-  reject_reason: null
-- candidate_id: q0085
-  status: accepted
-  original_text: How is has tons of fantastic functions different from multiple parameters?
-  final_text: How is has tons of fantastic functions different from multiple parameters?
-  reject_reason: null
-- candidate_id: q0086
-  status: accepted
-  original_text: How is a module ecosystem. however, as a data different from professional
-    or developer, you'll constantly need to write your own?
-  final_text: How is a module ecosystem. however, as a data different from professional
-    or developer, you'll constantly need to write your own?
-  reject_reason: null
-- candidate_id: q0087
-  status: accepted
-  original_text: How is a module ecosystem. however, as a data different from functions
-    to solve problems that are dictated by your data. you will learn?
-  final_text: How is a module ecosystem. however, as a data different from functions
-    to solve problems that are dictated by your data. you will learn?
-  reject_reason: null
-- candidate_id: q0088
-  status: accepted
-  original_text: How is a module ecosystem. however, as a data different from art
-    of function writing in this first course. you'll come out of this?
-  final_text: How is a module ecosystem. however, as a data different from art of
-    function writing in this first course. you'll come out of this?
-  reject_reason: null
-- candidate_id: q0089
-  status: accepted
-  original_text: How is a module ecosystem. however, as a data different from course
-    being able to write your very own custom functions, complete with?
-  final_text: How is a module ecosystem. however, as a data different from course
-    being able to write your very own custom functions, complete with?
-  reject_reason: null
-- candidate_id: q0090
-  status: accepted
-  original_text: How is a module ecosystem. however, as a data different from multiple
-    parameters?
-  final_text: How is a module ecosystem. however, as a data different from multiple
-    parameters?
-  reject_reason: null
-- candidate_id: q0091
+- candidate_id: q0038
   status: accepted
   original_text: How is professional or developer, you'll constantly need to write
     your own different from functions to solve problems that are dictated by your
@@ -1592,7 +850,7 @@ question_repairs:
     own different from functions to solve problems that are dictated by your data.
     you will learn?
   reject_reason: null
-- candidate_id: q0092
+- candidate_id: q0039
   status: accepted
   original_text: How is professional or developer, you'll constantly need to write
     your own different from art of function writing in this first course. you'll come
@@ -1601,7 +859,7 @@ question_repairs:
     own different from art of function writing in this first course. you'll come out
     of this?
   reject_reason: null
-- candidate_id: q0093
+- candidate_id: q0040
   status: accepted
   original_text: How is professional or developer, you'll constantly need to write
     your own different from course being able to write your very own custom functions,
@@ -1610,23 +868,7 @@ question_repairs:
     own different from course being able to write your very own custom functions,
     complete with?
   reject_reason: null
-- candidate_id: q0094
-  status: accepted
-  original_text: How is professional or developer, you'll constantly need to write
-    your own different from multiple parameters?
-  final_text: How is professional or developer, you'll constantly need to write your
-    own different from multiple parameters?
-  reject_reason: null
-- candidate_id: q0095
-  status: accepted
-  original_text: How is functions to solve problems that are dictated by your data.
-    you will learn different from art of function writing in this first course. you'll
-    come out of this?
-  final_text: How is functions to solve problems that are dictated by your data. you
-    will learn different from art of function writing in this first course. you'll
-    come out of this?
-  reject_reason: null
-- candidate_id: q0096
+- candidate_id: q0041
   status: accepted
   original_text: How is functions to solve problems that are dictated by your data.
     you will learn different from course being able to write your very own custom
@@ -1635,817 +877,137 @@ question_repairs:
     will learn different from course being able to write your very own custom functions,
     complete with?
   reject_reason: null
-- candidate_id: q0097
-  status: accepted
-  original_text: How is functions to solve problems that are dictated by your data.
-    you will learn different from multiple parameters?
-  final_text: How is functions to solve problems that are dictated by your data. you
-    will learn different from multiple parameters?
-  reject_reason: null
-- candidate_id: q0098
-  status: accepted
-  original_text: How is art of function writing in this first course. you'll come
-    out of this different from course being able to write your very own custom functions,
-    complete with?
-  final_text: How is art of function writing in this first course. you'll come out
-    of this different from course being able to write your very own custom functions,
-    complete with?
-  reject_reason: null
-- candidate_id: q0099
-  status: accepted
-  original_text: How is art of function writing in this first course. you'll come
-    out of this different from multiple parameters?
-  final_text: How is art of function writing in this first course. you'll come out
-    of this different from multiple parameters?
-  reject_reason: null
-- candidate_id: q0100
+- candidate_id: q0042
   status: accepted
   original_text: How is course being able to write your very own custom functions,
-    complete with different from multiple parameters?
+    complete with different from multiple return values, along with default arguments?
   final_text: How is course being able to write your very own custom functions, complete
-    with different from multiple parameters?
+    with different from multiple return values, along with default arguments?
+  reject_reason: null
+- candidate_id: q0043
+  status: accepted
+  original_text: How is multiple parameters different from multiple return values,
+    along with default arguments?
+  final_text: How is multiple parameters different from multiple return values, along
+    with default arguments?
   reject_reason: null
 answers:
-- question_id: q0001
-  question_text: What is learn art of writing your own functions in python, as well
-    as key?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0002
-  question_text: What does learn art of writing your own functions in python, as well
-    as key mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
 - question_id: q0003
-  question_text: Why does learn art of writing your own functions in python, as well
-    as key matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0004
-  question_text: Why does learn art of writing your own functions in python, as well
-    as key?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0005
-  question_text: What is a simple example of learn art of writing your own functions
-    in python, as well as key?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0006
   question_text: What is it's time to push forward?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
+  answer_text: It's time to push forward and develop your Python chops even further.
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: It's time to push forward and develop your Python chops even further.
+- question_id: q0004
+  question_text: How does it's time to push forward work?
+  answer_text: It's time to push forward and develop your Python chops even further.
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: It's time to push forward and develop your Python chops even further.
 - question_id: q0007
-  question_text: What does it's time to push forward mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0008
-  question_text: Why does it's time to push forward matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0009
-  question_text: Why does it's time to push forward?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0010
-  question_text: What is a simple example of it's time to push forward?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0011
-  question_text: What is develop your python chops even further. python?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0012
-  question_text: What does develop your python chops even further. python mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0013
-  question_text: Why does develop your python chops even further. python matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0014
-  question_text: Why does develop your python chops even further. python?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0015
-  question_text: What is a simple example of develop your python chops even further.
-    python?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0016
   question_text: What is has tons of fantastic functions?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0017
-  question_text: What does has tons of fantastic functions mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0018
-  question_text: Why does has tons of fantastic functions matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0019
-  question_text: Why does has tons of fantastic functions?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0020
-  question_text: What is a simple example of has tons of fantastic functions?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0021
-  question_text: What is a module ecosystem. however, as a data?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0022
-  question_text: What does a module ecosystem. however, as a data mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0023
-  question_text: Why does a module ecosystem. however, as a data matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0024
-  question_text: Why does a module ecosystem. however, as a data?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0025
-  question_text: What is a simple example of a module ecosystem. however, as a data?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0026
+  answer_text: has tons of fantastic functions and a module ecosystem.
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: has tons of fantastic functions and a module ecosystem.
+- question_id: q0008
+  question_text: How do you use has tons of fantastic functions?
+  answer_text: has tons of fantastic functions and a module ecosystem.
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: has tons of fantastic functions and a module ecosystem.
+- question_id: q0011
   question_text: What is professional or developer, you'll constantly need to write
     your own?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0027
-  question_text: What does professional or developer, you'll constantly need to write
-    your own mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0028
-  question_text: Why does professional or developer, you'll constantly need to write
-    your own matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0029
-  question_text: Why does professional or developer, you'll constantly need to write
-    your own?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0030
-  question_text: What is a simple example of professional or developer, you'll constantly
-    need to write your own?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0031
-  question_text: What is functions to solve problems that are dictated by your data.
-    you will learn?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0032
-  question_text: What does functions to solve problems that are dictated by your data.
-    you will learn mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0033
-  question_text: Why does functions to solve problems that are dictated by your data.
-    you will learn matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0034
-  question_text: Why does functions to solve problems that are dictated by your data.
-    you will learn?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0035
-  question_text: What is a simple example of functions to solve problems that are
-    dictated by your data. you will learn?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0036
-  question_text: What is art of function writing in this first course. you'll come
-    out of this?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0037
-  question_text: What does art of function writing in this first course. you'll come
-    out of this mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0038
-  question_text: Why does art of function writing in this first course. you'll come
-    out of this matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0039
-  question_text: Why does art of function writing in this first course. you'll come
-    out of this?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0040
-  question_text: What is a simple example of art of function writing in this first
-    course. you'll come out of this?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0041
+  answer_text: professional or developer, you'll constantly need to write your own
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: professional or developer, you'll constantly need to write your own
+- question_id: q0012
+  question_text: How does professional or developer, you'll constantly need to write
+    your own work?
+  answer_text: professional or developer, you'll constantly need to write your own
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: professional or developer, you'll constantly need to write your own
+- question_id: q0017
   question_text: What is course being able to write your very own custom functions,
     complete with?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0042
-  question_text: What does course being able to write your very own custom functions,
-    complete with mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0043
-  question_text: Why does course being able to write your very own custom functions,
-    complete with matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0044
-  question_text: Why does course being able to write your very own custom functions,
+  answer_text: course being able to write your very own custom functions, complete
+    with
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: course being able to write your very own custom functions, complete with
+- question_id: q0018
+  question_text: How do you use course being able to write your very own custom functions,
     complete with?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0045
-  question_text: What is a simple example of course being able to write your very
-    own custom functions, complete with?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0046
+  answer_text: course being able to write your very own custom functions, complete
+    with
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: course being able to write your very own custom functions, complete with
+- question_id: q0019
   question_text: What is multiple parameters?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0047
-  question_text: What does multiple parameters mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0048
-  question_text: Why does multiple parameters matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0049
-  question_text: Why does multiple parameters?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0050
-  question_text: What is a simple example of multiple parameters?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0051
+  answer_text: multiple parameters and multiple return values, along with default
+    arguments
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: multiple parameters and multiple return values, along with default arguments
+- question_id: q0020
+  question_text: How does multiple parameters work?
+  answer_text: multiple parameters and multiple return values, along with default
+    arguments
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: multiple parameters and multiple return values, along with default arguments
+- question_id: q0021
   question_text: What is multiple return values, along with default arguments?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0052
-  question_text: What does multiple return values, along with default arguments mean?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0053
-  question_text: Why does multiple return values, along with default arguments matter?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0054
-  question_text: Why does multiple return values, along with default arguments?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0055
-  question_text: What is a simple example of multiple return values, along with default
-    arguments?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0056
-  question_text: How is learn art of writing your own functions in python, as well
-    as key different from it's time to push forward?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0057
-  question_text: How is learn art of writing your own functions in python, as well
-    as key different from develop your python chops even further. python?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0058
-  question_text: How is learn art of writing your own functions in python, as well
-    as key different from has tons of fantastic functions?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0059
-  question_text: How is learn art of writing your own functions in python, as well
-    as key different from a module ecosystem. however, as a data?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0060
-  question_text: How is learn art of writing your own functions in python, as well
-    as key different from professional or developer, you'll constantly need to write
-    your own?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0061
-  question_text: How is learn art of writing your own functions in python, as well
-    as key different from functions to solve problems that are dictated by your data.
-    you will learn?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0062
-  question_text: How is learn art of writing your own functions in python, as well
-    as key different from art of function writing in this first course. you'll come
-    out of this?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0063
-  question_text: How is learn art of writing your own functions in python, as well
-    as key different from course being able to write your very own custom functions,
-    complete with?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0064
-  question_text: How is learn art of writing your own functions in python, as well
-    as key different from multiple parameters?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0065
-  question_text: How is it's time to push forward different from develop your python
-    chops even further. python?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0066
-  question_text: How is it's time to push forward different from has tons of fantastic
-    functions?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0067
-  question_text: How is it's time to push forward different from a module ecosystem.
-    however, as a data?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0068
-  question_text: How is it's time to push forward different from professional or developer,
-    you'll constantly need to write your own?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0069
-  question_text: How is it's time to push forward different from functions to solve
-    problems that are dictated by your data. you will learn?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0070
-  question_text: How is it's time to push forward different from art of function writing
-    in this first course. you'll come out of this?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0071
-  question_text: How is it's time to push forward different from course being able
-    to write your very own custom functions, complete with?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0072
-  question_text: How is it's time to push forward different from multiple parameters?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0073
-  question_text: How is develop your python chops even further. python different from
-    has tons of fantastic functions?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0074
-  question_text: How is develop your python chops even further. python different from
-    a module ecosystem. however, as a data?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0075
-  question_text: How is develop your python chops even further. python different from
-    professional or developer, you'll constantly need to write your own?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0076
-  question_text: How is develop your python chops even further. python different from
-    functions to solve problems that are dictated by your data. you will learn?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0077
-  question_text: How is develop your python chops even further. python different from
-    art of function writing in this first course. you'll come out of this?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0078
-  question_text: How is develop your python chops even further. python different from
-    course being able to write your very own custom functions, complete with?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0079
-  question_text: How is develop your python chops even further. python different from
-    multiple parameters?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0080
-  question_text: How is has tons of fantastic functions different from a module ecosystem.
-    however, as a data?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0081
-  question_text: How is has tons of fantastic functions different from professional
-    or developer, you'll constantly need to write your own?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0082
-  question_text: How is has tons of fantastic functions different from functions to
-    solve problems that are dictated by your data. you will learn?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0083
-  question_text: How is has tons of fantastic functions different from art of function
-    writing in this first course. you'll come out of this?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0084
-  question_text: How is has tons of fantastic functions different from course being
-    able to write your very own custom functions, complete with?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0085
-  question_text: How is has tons of fantastic functions different from multiple parameters?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0086
-  question_text: How is a module ecosystem. however, as a data different from professional
-    or developer, you'll constantly need to write your own?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0087
-  question_text: How is a module ecosystem. however, as a data different from functions
-    to solve problems that are dictated by your data. you will learn?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0088
-  question_text: How is a module ecosystem. however, as a data different from art
-    of function writing in this first course. you'll come out of this?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0089
-  question_text: How is a module ecosystem. however, as a data different from course
-    being able to write your very own custom functions, complete with?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0090
-  question_text: How is a module ecosystem. however, as a data different from multiple
-    parameters?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0091
-  question_text: How is professional or developer, you'll constantly need to write
-    your own different from functions to solve problems that are dictated by your
-    data. you will learn?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0092
-  question_text: How is professional or developer, you'll constantly need to write
-    your own different from art of function writing in this first course. you'll come
-    out of this?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0093
-  question_text: How is professional or developer, you'll constantly need to write
-    your own different from course being able to write your very own custom functions,
-    complete with?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0094
-  question_text: How is professional or developer, you'll constantly need to write
-    your own different from multiple parameters?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0095
-  question_text: How is functions to solve problems that are dictated by your data.
-    you will learn different from art of function writing in this first course. you'll
-    come out of this?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0096
-  question_text: How is functions to solve problems that are dictated by your data.
-    you will learn different from course being able to write your very own custom
-    functions, complete with?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0097
-  question_text: How is functions to solve problems that are dictated by your data.
-    you will learn different from multiple parameters?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0098
-  question_text: How is art of function writing in this first course. you'll come
-    out of this different from course being able to write your very own custom functions,
-    complete with?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0099
-  question_text: How is art of function writing in this first course. you'll come
-    out of this different from multiple parameters?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
-- question_id: q0100
-  question_text: How is course being able to write your very own custom functions,
-    complete with different from multiple parameters?
-  answer_text: The course appears to mention this topic, but the scraped text may
-    not support a stronger answer.
-  correctness: uncertain
-  confidence: 0.35
-  evidence: []
+  answer_text: multiple parameters and multiple return values, along with default
+    arguments
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: multiple parameters and multiple return values, along with default arguments
+- question_id: q0022
+  question_text: How does multiple return values, along with default arguments work?
+  answer_text: multiple parameters and multiple return values, along with default
+    arguments
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: multiple parameters and multiple return values, along with default arguments
+- question_id: q0043
+  question_text: How is multiple parameters different from multiple return values,
+    along with default arguments?
+  answer_text: multiple parameters and multiple return values, along with default
+    arguments
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: multiple parameters and multiple return values, along with default arguments
 final_rows:
 - row_id: r_000001
   course:
@@ -2455,12 +1017,11 @@ final_rows:
   - learn art of writing your own functions in python, as well as key
   question_text: What is learn art of writing your own functions in python, as well
     as key?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: entry
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
 - row_id: r_000002
   course:
@@ -2468,342 +1029,127 @@ final_rows:
     title: multiple parameters and multiple return values, along with default arguments
   relevant_topics:
   - learn art of writing your own functions in python, as well as key
-  question_text: What does learn art of writing your own functions in python, as well
-    as key mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
-  status: answered
-  reject_reason: null
+  question_text: How do you use learn art of writing your own functions in python,
+    as well as key?
+  question_answer: null
+  correctness: null
+  question_family: procedure
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
 - row_id: r_000003
   course:
     course_id: '24377'
     title: multiple parameters and multiple return values, along with default arguments
   relevant_topics:
-  - learn art of writing your own functions in python, as well as key
-  question_text: Why does learn art of writing your own functions in python, as well
-    as key matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
+  - it's time to push forward
+  question_text: What is it's time to push forward?
+  question_answer: It's time to push forward and develop your Python chops even further.
+  correctness: correct
+  question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: overview
+    text: It's time to push forward and develop your Python chops even further.
 - row_id: r_000004
   course:
     course_id: '24377'
     title: multiple parameters and multiple return values, along with default arguments
   relevant_topics:
-  - learn art of writing your own functions in python, as well as key
-  question_text: Why does learn art of writing your own functions in python, as well
-    as key?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
+  - it's time to push forward
+  question_text: How does it's time to push forward work?
+  question_answer: It's time to push forward and develop your Python chops even further.
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: overview
+    text: It's time to push forward and develop your Python chops even further.
 - row_id: r_000005
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - learn art of writing your own functions in python, as well as key
-  question_text: What is a simple example of learn art of writing your own functions
-    in python, as well as key?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000006
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - it's time to push forward
-  question_text: What is it's time to push forward?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000007
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - it's time to push forward
-  question_text: What does it's time to push forward mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000008
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - it's time to push forward
-  question_text: Why does it's time to push forward matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000009
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - it's time to push forward
-  question_text: Why does it's time to push forward?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000010
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - it's time to push forward
-  question_text: What is a simple example of it's time to push forward?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000011
   course:
     course_id: '24377'
     title: multiple parameters and multiple return values, along with default arguments
   relevant_topics:
   - develop your python chops even further. python
   question_text: What is develop your python chops even further. python?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: entry
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000012
+- row_id: r_000006
   course:
     course_id: '24377'
     title: multiple parameters and multiple return values, along with default arguments
   relevant_topics:
   - develop your python chops even further. python
-  question_text: What does develop your python chops even further. python mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
-  status: answered
-  reject_reason: null
+  question_text: How does develop your python chops even further. python work?
+  question_answer: null
+  correctness: null
+  question_family: mechanism
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000013
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - develop your python chops even further. python
-  question_text: Why does develop your python chops even further. python matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000014
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - develop your python chops even further. python
-  question_text: Why does develop your python chops even further. python?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000015
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - develop your python chops even further. python
-  question_text: What is a simple example of develop your python chops even further.
-    python?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000016
+- row_id: r_000007
   course:
     course_id: '24377'
     title: multiple parameters and multiple return values, along with default arguments
   relevant_topics:
   - has tons of fantastic functions
   question_text: What is has tons of fantastic functions?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: has tons of fantastic functions and a module ecosystem.
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000017
+  source_evidence:
+  - source: overview
+    text: has tons of fantastic functions and a module ecosystem.
+- row_id: r_000008
   course:
     course_id: '24377'
     title: multiple parameters and multiple return values, along with default arguments
   relevant_topics:
   - has tons of fantastic functions
-  question_text: What does has tons of fantastic functions mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How do you use has tons of fantastic functions?
+  question_answer: has tons of fantastic functions and a module ecosystem.
+  correctness: correct
+  question_family: procedure
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000018
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - has tons of fantastic functions
-  question_text: Why does has tons of fantastic functions matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000019
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - has tons of fantastic functions
-  question_text: Why does has tons of fantastic functions?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000020
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - has tons of fantastic functions
-  question_text: What is a simple example of has tons of fantastic functions?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000021
+  source_evidence:
+  - source: overview
+    text: has tons of fantastic functions and a module ecosystem.
+- row_id: r_000009
   course:
     course_id: '24377'
     title: multiple parameters and multiple return values, along with default arguments
   relevant_topics:
   - a module ecosystem. however, as a data
   question_text: What is a module ecosystem. however, as a data?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: entry
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000022
+- row_id: r_000010
   course:
     course_id: '24377'
     title: multiple parameters and multiple return values, along with default arguments
   relevant_topics:
   - a module ecosystem. however, as a data
-  question_text: What does a module ecosystem. however, as a data mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
-  status: answered
-  reject_reason: null
+  question_text: How does a module ecosystem. however, as a data work?
+  question_answer: null
+  correctness: null
+  question_family: mechanism
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000023
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - a module ecosystem. however, as a data
-  question_text: Why does a module ecosystem. however, as a data matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000024
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - a module ecosystem. however, as a data
-  question_text: Why does a module ecosystem. however, as a data?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000025
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - a module ecosystem. however, as a data
-  question_text: What is a simple example of a module ecosystem. however, as a data?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000026
+- row_id: r_000011
   course:
     course_id: '24377'
     title: multiple parameters and multiple return values, along with default arguments
@@ -2811,74 +1157,33 @@ final_rows:
   - professional or developer, you'll constantly need to write your own
   question_text: What is professional or developer, you'll constantly need to write
     your own?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: professional or developer, you'll constantly need to write your
+    own
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000027
+  source_evidence:
+  - source: overview
+    text: professional or developer, you'll constantly need to write your own
+- row_id: r_000012
   course:
     course_id: '24377'
     title: multiple parameters and multiple return values, along with default arguments
   relevant_topics:
   - professional or developer, you'll constantly need to write your own
-  question_text: What does professional or developer, you'll constantly need to write
-    your own mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does professional or developer, you'll constantly need to write
+    your own work?
+  question_answer: professional or developer, you'll constantly need to write your
+    own
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000028
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - professional or developer, you'll constantly need to write your own
-  question_text: Why does professional or developer, you'll constantly need to write
-    your own matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000029
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - professional or developer, you'll constantly need to write your own
-  question_text: Why does professional or developer, you'll constantly need to write
-    your own?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000030
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - professional or developer, you'll constantly need to write your own
-  question_text: What is a simple example of professional or developer, you'll constantly
-    need to write your own?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000031
+  source_evidence:
+  - source: overview
+    text: professional or developer, you'll constantly need to write your own
+- row_id: r_000013
   course:
     course_id: '24377'
     title: multiple parameters and multiple return values, along with default arguments
@@ -2886,74 +1191,27 @@ final_rows:
   - functions to solve problems that are dictated by your data. you will learn
   question_text: What is functions to solve problems that are dictated by your data.
     you will learn?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: entry
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000032
+- row_id: r_000014
   course:
     course_id: '24377'
     title: multiple parameters and multiple return values, along with default arguments
   relevant_topics:
   - functions to solve problems that are dictated by your data. you will learn
-  question_text: What does functions to solve problems that are dictated by your data.
-    you will learn mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
-  status: answered
-  reject_reason: null
+  question_text: How do you use functions to solve problems that are dictated by your
+    data. you will learn?
+  question_answer: null
+  correctness: null
+  question_family: procedure
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000033
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - functions to solve problems that are dictated by your data. you will learn
-  question_text: Why does functions to solve problems that are dictated by your data.
-    you will learn matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000034
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - functions to solve problems that are dictated by your data. you will learn
-  question_text: Why does functions to solve problems that are dictated by your data.
-    you will learn?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000035
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - functions to solve problems that are dictated by your data. you will learn
-  question_text: What is a simple example of functions to solve problems that are
-    dictated by your data. you will learn?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000036
+- row_id: r_000015
   course:
     course_id: '24377'
     title: multiple parameters and multiple return values, along with default arguments
@@ -2961,74 +1219,27 @@ final_rows:
   - art of function writing in this first course. you'll come out of this
   question_text: What is art of function writing in this first course. you'll come
     out of this?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: entry
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000037
+- row_id: r_000016
   course:
     course_id: '24377'
     title: multiple parameters and multiple return values, along with default arguments
   relevant_topics:
   - art of function writing in this first course. you'll come out of this
-  question_text: What does art of function writing in this first course. you'll come
-    out of this mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
-  status: answered
-  reject_reason: null
+  question_text: How do you use art of function writing in this first course. you'll
+    come out of this?
+  question_answer: null
+  correctness: null
+  question_family: procedure
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000038
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - art of function writing in this first course. you'll come out of this
-  question_text: Why does art of function writing in this first course. you'll come
-    out of this matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000039
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - art of function writing in this first course. you'll come out of this
-  question_text: Why does art of function writing in this first course. you'll come
-    out of this?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000040
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - art of function writing in this first course. you'll come out of this
-  question_text: What is a simple example of art of function writing in this first
-    course. you'll come out of this?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000041
+- row_id: r_000017
   course:
     course_id: '24377'
     title: multiple parameters and multiple return values, along with default arguments
@@ -3036,231 +1247,97 @@ final_rows:
   - course being able to write your very own custom functions, complete with
   question_text: What is course being able to write your very own custom functions,
     complete with?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: course being able to write your very own custom functions, complete
+    with
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000042
+  source_evidence:
+  - source: overview
+    text: course being able to write your very own custom functions, complete with
+- row_id: r_000018
   course:
     course_id: '24377'
     title: multiple parameters and multiple return values, along with default arguments
   relevant_topics:
   - course being able to write your very own custom functions, complete with
-  question_text: What does course being able to write your very own custom functions,
-    complete with mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000043
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - course being able to write your very own custom functions, complete with
-  question_text: Why does course being able to write your very own custom functions,
-    complete with matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000044
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - course being able to write your very own custom functions, complete with
-  question_text: Why does course being able to write your very own custom functions,
+  question_text: How do you use course being able to write your very own custom functions,
     complete with?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
+  question_answer: course being able to write your very own custom functions, complete
+    with
+  correctness: correct
+  question_family: procedure
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000045
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - course being able to write your very own custom functions, complete with
-  question_text: What is a simple example of course being able to write your very
-    own custom functions, complete with?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000046
+  source_evidence:
+  - source: overview
+    text: course being able to write your very own custom functions, complete with
+- row_id: r_000019
   course:
     course_id: '24377'
     title: multiple parameters and multiple return values, along with default arguments
   relevant_topics:
   - multiple parameters
   question_text: What is multiple parameters?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: multiple parameters and multiple return values, along with default
+    arguments
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000047
+  source_evidence:
+  - source: overview
+    text: multiple parameters and multiple return values, along with default arguments
+- row_id: r_000020
   course:
     course_id: '24377'
     title: multiple parameters and multiple return values, along with default arguments
   relevant_topics:
   - multiple parameters
-  question_text: What does multiple parameters mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does multiple parameters work?
+  question_answer: multiple parameters and multiple return values, along with default
+    arguments
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000048
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - multiple parameters
-  question_text: Why does multiple parameters matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000049
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - multiple parameters
-  question_text: Why does multiple parameters?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000050
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - multiple parameters
-  question_text: What is a simple example of multiple parameters?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000051
+  source_evidence:
+  - source: overview
+    text: multiple parameters and multiple return values, along with default arguments
+- row_id: r_000021
   course:
     course_id: '24377'
     title: multiple parameters and multiple return values, along with default arguments
   relevant_topics:
   - multiple return values, along with default arguments
   question_text: What is multiple return values, along with default arguments?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: multiple parameters and multiple return values, along with default
+    arguments
+  correctness: correct
   question_family: entry
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000052
+  source_evidence:
+  - source: overview
+    text: multiple parameters and multiple return values, along with default arguments
+- row_id: r_000022
   course:
     course_id: '24377'
     title: multiple parameters and multiple return values, along with default arguments
   relevant_topics:
   - multiple return values, along with default arguments
-  question_text: What does multiple return values, along with default arguments mean?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: entry
+  question_text: How does multiple return values, along with default arguments work?
+  question_answer: multiple parameters and multiple return values, along with default
+    arguments
+  correctness: correct
+  question_family: mechanism
   status: answered
   reject_reason: null
-  source_evidence: []
-- row_id: r_000053
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - multiple return values, along with default arguments
-  question_text: Why does multiple return values, along with default arguments matter?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000054
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - multiple return values, along with default arguments
-  question_text: Why does multiple return values, along with default arguments?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: purpose
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000055
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - multiple return values, along with default arguments
-  question_text: What is a simple example of multiple return values, along with default
-    arguments?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: example
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000056
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - learn art of writing your own functions in python, as well as key
-  - it's time to push forward
-  question_text: How is learn art of writing your own functions in python, as well
-    as key different from it's time to push forward?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000057
+  source_evidence:
+  - source: overview
+    text: multiple parameters and multiple return values, along with default arguments
+- row_id: r_000023
   course:
     course_id: '24377'
     title: multiple parameters and multiple return values, along with default arguments
@@ -3269,14 +1346,13 @@ final_rows:
   - develop your python chops even further. python
   question_text: How is learn art of writing your own functions in python, as well
     as key different from develop your python chops even further. python?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000058
+- row_id: r_000024
   course:
     course_id: '24377'
     title: multiple parameters and multiple return values, along with default arguments
@@ -3285,14 +1361,13 @@ final_rows:
   - has tons of fantastic functions
   question_text: How is learn art of writing your own functions in python, as well
     as key different from has tons of fantastic functions?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000059
+- row_id: r_000025
   course:
     course_id: '24377'
     title: multiple parameters and multiple return values, along with default arguments
@@ -3301,14 +1376,13 @@ final_rows:
   - a module ecosystem. however, as a data
   question_text: How is learn art of writing your own functions in python, as well
     as key different from a module ecosystem. however, as a data?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000060
+- row_id: r_000026
   course:
     course_id: '24377'
     title: multiple parameters and multiple return values, along with default arguments
@@ -3318,14 +1392,13 @@ final_rows:
   question_text: How is learn art of writing your own functions in python, as well
     as key different from professional or developer, you'll constantly need to write
     your own?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000061
+- row_id: r_000027
   course:
     course_id: '24377'
     title: multiple parameters and multiple return values, along with default arguments
@@ -3335,14 +1408,13 @@ final_rows:
   question_text: How is learn art of writing your own functions in python, as well
     as key different from functions to solve problems that are dictated by your data.
     you will learn?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000062
+- row_id: r_000028
   course:
     course_id: '24377'
     title: multiple parameters and multiple return values, along with default arguments
@@ -3352,14 +1424,13 @@ final_rows:
   question_text: How is learn art of writing your own functions in python, as well
     as key different from art of function writing in this first course. you'll come
     out of this?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000063
+- row_id: r_000029
   course:
     course_id: '24377'
     title: multiple parameters and multiple return values, along with default arguments
@@ -3369,78 +1440,13 @@ final_rows:
   question_text: How is learn art of writing your own functions in python, as well
     as key different from course being able to write your very own custom functions,
     complete with?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000064
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - learn art of writing your own functions in python, as well as key
-  - multiple parameters
-  question_text: How is learn art of writing your own functions in python, as well
-    as key different from multiple parameters?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000065
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - it's time to push forward
-  - develop your python chops even further. python
-  question_text: How is it's time to push forward different from develop your python
-    chops even further. python?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000066
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - it's time to push forward
-  - has tons of fantastic functions
-  question_text: How is it's time to push forward different from has tons of fantastic
-    functions?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000067
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - it's time to push forward
-  - a module ecosystem. however, as a data
-  question_text: How is it's time to push forward different from a module ecosystem.
-    however, as a data?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000068
+- row_id: r_000030
   course:
     course_id: '24377'
     title: multiple parameters and multiple return values, along with default arguments
@@ -3449,14 +1455,13 @@ final_rows:
   - professional or developer, you'll constantly need to write your own
   question_text: How is it's time to push forward different from professional or developer,
     you'll constantly need to write your own?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000069
+- row_id: r_000031
   course:
     course_id: '24377'
     title: multiple parameters and multiple return values, along with default arguments
@@ -3465,30 +1470,13 @@ final_rows:
   - functions to solve problems that are dictated by your data. you will learn
   question_text: How is it's time to push forward different from functions to solve
     problems that are dictated by your data. you will learn?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000070
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - it's time to push forward
-  - art of function writing in this first course. you'll come out of this
-  question_text: How is it's time to push forward different from art of function writing
-    in this first course. you'll come out of this?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000071
+- row_id: r_000032
   course:
     course_id: '24377'
     title: multiple parameters and multiple return values, along with default arguments
@@ -3497,61 +1485,13 @@ final_rows:
   - course being able to write your very own custom functions, complete with
   question_text: How is it's time to push forward different from course being able
     to write your very own custom functions, complete with?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000072
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - it's time to push forward
-  - multiple parameters
-  question_text: How is it's time to push forward different from multiple parameters?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000073
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - develop your python chops even further. python
-  - has tons of fantastic functions
-  question_text: How is develop your python chops even further. python different from
-    has tons of fantastic functions?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000074
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - develop your python chops even further. python
-  - a module ecosystem. however, as a data
-  question_text: How is develop your python chops even further. python different from
-    a module ecosystem. however, as a data?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000075
+- row_id: r_000033
   course:
     course_id: '24377'
     title: multiple parameters and multiple return values, along with default arguments
@@ -3560,14 +1500,13 @@ final_rows:
   - professional or developer, you'll constantly need to write your own
   question_text: How is develop your python chops even further. python different from
     professional or developer, you'll constantly need to write your own?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000076
+- row_id: r_000034
   course:
     course_id: '24377'
     title: multiple parameters and multiple return values, along with default arguments
@@ -3576,30 +1515,13 @@ final_rows:
   - functions to solve problems that are dictated by your data. you will learn
   question_text: How is develop your python chops even further. python different from
     functions to solve problems that are dictated by your data. you will learn?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000077
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - develop your python chops even further. python
-  - art of function writing in this first course. you'll come out of this
-  question_text: How is develop your python chops even further. python different from
-    art of function writing in this first course. you'll come out of this?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000078
+- row_id: r_000035
   course:
     course_id: '24377'
     title: multiple parameters and multiple return values, along with default arguments
@@ -3608,62 +1530,13 @@ final_rows:
   - course being able to write your very own custom functions, complete with
   question_text: How is develop your python chops even further. python different from
     course being able to write your very own custom functions, complete with?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000079
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - develop your python chops even further. python
-  - multiple parameters
-  question_text: How is develop your python chops even further. python different from
-    multiple parameters?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000080
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - has tons of fantastic functions
-  - a module ecosystem. however, as a data
-  question_text: How is has tons of fantastic functions different from a module ecosystem.
-    however, as a data?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000081
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - has tons of fantastic functions
-  - professional or developer, you'll constantly need to write your own
-  question_text: How is has tons of fantastic functions different from professional
-    or developer, you'll constantly need to write your own?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000082
+- row_id: r_000036
   course:
     course_id: '24377'
     title: multiple parameters and multiple return values, along with default arguments
@@ -3672,14 +1545,13 @@ final_rows:
   - functions to solve problems that are dictated by your data. you will learn
   question_text: How is has tons of fantastic functions different from functions to
     solve problems that are dictated by your data. you will learn?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000083
+- row_id: r_000037
   course:
     course_id: '24377'
     title: multiple parameters and multiple return values, along with default arguments
@@ -3688,125 +1560,13 @@ final_rows:
   - art of function writing in this first course. you'll come out of this
   question_text: How is has tons of fantastic functions different from art of function
     writing in this first course. you'll come out of this?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000084
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - has tons of fantastic functions
-  - course being able to write your very own custom functions, complete with
-  question_text: How is has tons of fantastic functions different from course being
-    able to write your very own custom functions, complete with?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000085
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - has tons of fantastic functions
-  - multiple parameters
-  question_text: How is has tons of fantastic functions different from multiple parameters?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000086
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - a module ecosystem. however, as a data
-  - professional or developer, you'll constantly need to write your own
-  question_text: How is a module ecosystem. however, as a data different from professional
-    or developer, you'll constantly need to write your own?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000087
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - a module ecosystem. however, as a data
-  - functions to solve problems that are dictated by your data. you will learn
-  question_text: How is a module ecosystem. however, as a data different from functions
-    to solve problems that are dictated by your data. you will learn?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000088
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - a module ecosystem. however, as a data
-  - art of function writing in this first course. you'll come out of this
-  question_text: How is a module ecosystem. however, as a data different from art
-    of function writing in this first course. you'll come out of this?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000089
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - a module ecosystem. however, as a data
-  - course being able to write your very own custom functions, complete with
-  question_text: How is a module ecosystem. however, as a data different from course
-    being able to write your very own custom functions, complete with?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000090
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - a module ecosystem. however, as a data
-  - multiple parameters
-  question_text: How is a module ecosystem. however, as a data different from multiple
-    parameters?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000091
+- row_id: r_000038
   course:
     course_id: '24377'
     title: multiple parameters and multiple return values, along with default arguments
@@ -3816,14 +1576,13 @@ final_rows:
   question_text: How is professional or developer, you'll constantly need to write
     your own different from functions to solve problems that are dictated by your
     data. you will learn?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000092
+- row_id: r_000039
   course:
     course_id: '24377'
     title: multiple parameters and multiple return values, along with default arguments
@@ -3833,14 +1592,13 @@ final_rows:
   question_text: How is professional or developer, you'll constantly need to write
     your own different from art of function writing in this first course. you'll come
     out of this?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000093
+- row_id: r_000040
   course:
     course_id: '24377'
     title: multiple parameters and multiple return values, along with default arguments
@@ -3850,47 +1608,13 @@ final_rows:
   question_text: How is professional or developer, you'll constantly need to write
     your own different from course being able to write your very own custom functions,
     complete with?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000094
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - professional or developer, you'll constantly need to write your own
-  - multiple parameters
-  question_text: How is professional or developer, you'll constantly need to write
-    your own different from multiple parameters?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000095
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - functions to solve problems that are dictated by your data. you will learn
-  - art of function writing in this first course. you'll come out of this
-  question_text: How is functions to solve problems that are dictated by your data.
-    you will learn different from art of function writing in this first course. you'll
-    come out of this?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000096
+- row_id: r_000041
   course:
     course_id: '24377'
     title: multiple parameters and multiple return values, along with default arguments
@@ -3900,83 +1624,50 @@ final_rows:
   question_text: How is functions to solve problems that are dictated by your data.
     you will learn different from course being able to write your very own custom
     functions, complete with?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+  question_answer: null
+  correctness: null
   question_family: comparison
-  status: answered
-  reject_reason: null
+  status: errored
+  reject_reason: missing_answer
   source_evidence: []
-- row_id: r_000097
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - functions to solve problems that are dictated by your data. you will learn
-  - multiple parameters
-  question_text: How is functions to solve problems that are dictated by your data.
-    you will learn different from multiple parameters?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000098
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - art of function writing in this first course. you'll come out of this
-  - course being able to write your very own custom functions, complete with
-  question_text: How is art of function writing in this first course. you'll come
-    out of this different from course being able to write your very own custom functions,
-    complete with?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000099
-  course:
-    course_id: '24377'
-    title: multiple parameters and multiple return values, along with default arguments
-  relevant_topics:
-  - art of function writing in this first course. you'll come out of this
-  - multiple parameters
-  question_text: How is art of function writing in this first course. you'll come
-    out of this different from multiple parameters?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
-  question_family: comparison
-  status: answered
-  reject_reason: null
-  source_evidence: []
-- row_id: r_000100
+- row_id: r_000042
   course:
     course_id: '24377'
     title: multiple parameters and multiple return values, along with default arguments
   relevant_topics:
   - course being able to write your very own custom functions, complete with
-  - multiple parameters
+  - multiple return values, along with default arguments
   question_text: How is course being able to write your very own custom functions,
-    complete with different from multiple parameters?
-  question_answer: The course appears to mention this topic, but the scraped text
-    may not support a stronger answer.
-  correctness: uncertain
+    complete with different from multiple return values, along with default arguments?
+  question_answer: null
+  correctness: null
+  question_family: comparison
+  status: errored
+  reject_reason: missing_answer
+  source_evidence: []
+- row_id: r_000043
+  course:
+    course_id: '24377'
+    title: multiple parameters and multiple return values, along with default arguments
+  relevant_topics:
+  - multiple parameters
+  - multiple return values, along with default arguments
+  question_text: How is multiple parameters different from multiple return values,
+    along with default arguments?
+  question_answer: multiple parameters and multiple return values, along with default
+    arguments
+  correctness: correct
   question_family: comparison
   status: answered
   reject_reason: null
-  source_evidence: []
+  source_evidence:
+  - source: overview
+    text: multiple parameters and multiple return values, along with default arguments
 summary:
   topic_count: 11
   canonical_topic_count: 11
-  candidate_count: 100
-  accepted_count: 100
+  candidate_count: 43
+  accepted_count: 43
   rejected_count: 0
-  correct_count: 0
-  uncertain_count: 100
+  correct_count: 13
+  uncertain_count: 0
