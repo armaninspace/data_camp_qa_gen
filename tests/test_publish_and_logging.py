@@ -17,9 +17,15 @@ def test_publish_final_outputs_merges_and_logs(tmp_path: Path) -> None:
         "normalized_courses.jsonl": '{"course_id": "1", "title": "One"}\n',
         "topics.jsonl": '{"course_id": "1", "topic_id": "t1"}\n',
         "canonical_topics.jsonl": '{"course_id": "1", "canonical_topic_id": "ct1"}\n',
+        "related_topic_pairs.jsonl": '{"course_id": "1", "pair_id": "p1"}\n',
+        "vetted_topics.jsonl": '{"course_id": "1", "canonical_topic_id": "ct1", "decision": "keep"}\n',
+        "vetted_topic_pairs.jsonl": '{"course_id": "1", "pair_id": "p1", "decision": "keep_pair"}\n',
+        "single_topic_questions.jsonl": '{"course_id": "1", "question_id": "q1"}\n',
+        "pairwise_questions.jsonl": '{"course_id": "1", "question_id": "q2"}\n',
+        "question_validation.jsonl": '{"course_id": "1", "question_id": "q1", "status": "accepted"}\n',
         "question_candidates.jsonl": '{"course_id": "1", "candidate_id": "q1"}\n',
         "question_repairs.jsonl": '{"course_id": "1", "candidate_id": "q1"}\n',
-        "answers.jsonl": '{"course_id": "1", "question_id": "q1"}\n',
+        "answers.jsonl": '{"course_id": "1", "question_id": "q1", "correctness": "correct", "answer_text": "answer", "evidence": [{"source": "overview", "text": "answer"}]}\n',
         "all_rows.jsonl": '{"course": {"course_id": "1", "title": "One"}, "status": "answered"}\n',
     }
     for name, content in artifacts.items():

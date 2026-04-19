@@ -11,8 +11,12 @@ TopicType = Literal[
     "concept",
     "procedure",
     "tool",
+    "method",
     "metric",
     "test",
+    "comparison_pair_candidate",
+    "wrapper_or_container_candidate",
+    "unknown",
     "chapter_wrapper",
     "example_block",
     "case_study_container",
@@ -20,6 +24,8 @@ TopicType = Literal[
 ]
 RepairStatus = Literal["accepted", "repaired", "rejected"]
 QuestionStatus = Literal["answered", "rejected", "errored"]
+TopicDecision = Literal["keep", "keep_entry_only", "keep_no_pairwise", "reject"]
+PairDecision = Literal["keep_pair", "reject_pair"]
 
 
 class Chapter(BaseModel):
@@ -61,6 +67,49 @@ class CanonicalTopic(BaseModel):
     aliases: list[str] = Field(default_factory=list)
     member_topic_ids: list[str] = Field(default_factory=list)
     topic_type: TopicType = "concept"
+    evidence: list[TopicEvidence] = Field(default_factory=list)
+
+
+class RelatedTopicPair(BaseModel):
+    pair_id: str
+    topic_x: str
+    topic_y: str
+    relation_type: str
+    evidence_spans: list[TopicEvidence] = Field(default_factory=list)
+    confidence: float = 0.0
+
+
+class VettedTopic(BaseModel):
+    canonical_topic_id: str
+    canonical_label: str
+    decision: TopicDecision
+    allow_single_topic_questions: bool
+    allow_pairwise_questions: bool
+    reason: str
+    final_topic_type: TopicType = "concept"
+    evidence_spans: list[TopicEvidence] = Field(default_factory=list)
+
+
+class VettedTopicPair(BaseModel):
+    pair_id: str
+    topic_x: str
+    topic_y: str
+    decision: PairDecision
+    reason: str
+    relation_type: str | None = None
+    evidence_spans: list[TopicEvidence] = Field(default_factory=list)
+
+
+class GeneratedQuestion(BaseModel):
+    question_id: str
+    relevant_topics: list[str]
+    source_topic_ids: list[str] = Field(default_factory=list)
+    source_pair_id: str | None = None
+    family: str
+    pattern: str
+    question_text: str
+    evidence_spans: list[TopicEvidence] = Field(default_factory=list)
+    generation_scope: Literal["single_topic", "pairwise"]
 
 
 class QuestionCandidate(BaseModel):
@@ -77,6 +126,17 @@ class QuestionRepair(BaseModel):
     original_text: str
     final_text: str | None = None
     reject_reason: str | None = None
+
+
+class QuestionValidationRecord(BaseModel):
+    question_id: str
+    relevant_topics: list[str]
+    status: RepairStatus
+    original_text: str
+    final_text: str | None = None
+    reject_reason: str | None = None
+    question_family: str
+    evidence_spans: list[TopicEvidence] = Field(default_factory=list)
 
 
 class AnswerRecord(BaseModel):
@@ -105,10 +165,14 @@ class CourseBundle(BaseModel):
     course_id: str
     title: str
     normalized_course: NormalizedCourse
-    extracted_topics: list[Topic]
+    raw_topics: list[Topic]
     canonical_topics: list[CanonicalTopic]
-    question_candidates: list[QuestionCandidate]
-    question_repairs: list[QuestionRepair]
+    vetted_topics: list[VettedTopic] = Field(default_factory=list)
+    related_topic_pairs: list[RelatedTopicPair] = Field(default_factory=list)
+    vetted_topic_pairs: list[VettedTopicPair] = Field(default_factory=list)
+    single_topic_questions: list[GeneratedQuestion] = Field(default_factory=list)
+    pairwise_questions: list[GeneratedQuestion] = Field(default_factory=list)
+    question_validation: list[QuestionValidationRecord] = Field(default_factory=list)
     answers: list[AnswerRecord]
     final_rows: list[LedgerRow]
     summary: dict = Field(default_factory=dict)

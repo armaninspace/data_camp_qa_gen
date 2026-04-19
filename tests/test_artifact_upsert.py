@@ -117,7 +117,11 @@ def test_persist_stage_artifacts_upserts_by_course_id(tmp_path: Path) -> None:
 
     assert summary["course_count"] == 2
     assert summary["artifact_counts"]["canonical_topics.jsonl"] == 2
+    assert summary["artifact_counts"]["vetted_topics.jsonl"] == 2
+    assert summary["artifact_counts"]["single_topic_questions.jsonl"] == 2
     assert "quality_metrics" in summary
     assert "reject_rate" in summary["quality_metrics"]
+    assert "answer_rows_without_evidence_count" in summary["quality_metrics"]
     bundle = (output_dir / "course_yaml" / "1.yaml").read_text(encoding="utf-8")
     assert "One Updated" in bundle
+    assert "single_topic_questions" in bundle
