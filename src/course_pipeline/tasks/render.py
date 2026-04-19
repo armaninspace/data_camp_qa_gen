@@ -21,9 +21,7 @@ from course_pipeline.schemas import (
     LedgerRow,
     NormalizedCourse,
     RelatedTopicPair,
-    QuestionCandidate,
     QuestionValidationRecord,
-    QuestionRepair,
     Topic,
     ExcludedCourseRecord,
     VettedTopic,
@@ -83,8 +81,6 @@ def persist_stage_artifacts(
     course: NormalizedCourse,
     topics: list[Topic],
     canonical_topics: list[CanonicalTopic],
-    candidates: list[QuestionCandidate],
-    repairs: list[QuestionRepair],
     answers: list[AnswerRecord],
     rows: list[LedgerRow],
     related_pairs: list[RelatedTopicPair] | None = None,
@@ -100,17 +96,19 @@ def persist_stage_artifacts(
     out = Path(output_dir)
     course_ids = {course.course_id}
     related_pairs = related_pairs or []
-    single_topic_questions = single_topic_questions or _single_topic_questions_from_candidates(
-        candidates,
-        canonical_topics,
-    )
-    pairwise_questions = pairwise_questions or _pairwise_questions_from_candidates(candidates)
+    single_topic_questions = single_topic_questions or []
+    pairwise_questions = pairwise_questions or []
     vetted_topics = vetted_topics or _default_vetted_topics(canonical_topics)
     vetted_pairs = vetted_pairs or _default_vetted_pairs(related_pairs)
-    validations = validations or _validation_records_from_repairs(repairs, candidates)
+    validations = validations or []
     synthetic_answers = synthetic_answers or []
     synthetic_validations = synthetic_validations or []
     synthetic_rewrites = synthetic_rewrites or []
+    projected_candidates = _candidate_rows_from_questions(
+        course.course_id,
+        [*single_topic_questions, *pairwise_questions],
+    )
+    projected_repairs = _repair_rows_from_validations(course.course_id, validations)
 
     upsert_jsonl_rows(out / "normalized_courses.jsonl", [course], course_ids)
     upsert_jsonl_rows(
@@ -176,18 +174,12 @@ def persist_stage_artifacts(
     )
     upsert_jsonl_rows(
         out / "question_candidates.jsonl",
-        [
-            {"course_id": course.course_id, **candidate.model_dump()}
-            for candidate in candidates
-        ],
+        projected_candidates,
         course_ids,
     )
     upsert_jsonl_rows(
         out / "question_repairs.jsonl",
-        [
-            {"course_id": course.course_id, **repair.model_dump()}
-            for repair in repairs
-        ],
+        projected_repairs,
         course_ids,
     )
     upsert_jsonl_rows(
@@ -467,73 +459,35 @@ def _default_vetted_pairs(related_pairs: list[RelatedTopicPair]) -> list[VettedT
         )
         for pair in related_pairs
     ]
+def _candidate_rows_from_questions(
+    course_id: str,
+    questions: list[GeneratedQuestion],
+) -> list[dict[str, object]]:
+    return [
+        {
+            "course_id": course_id,
+            "candidate_id": question.question_id,
+            "relevant_topics": question.relevant_topics,
+            "family": question.family,
+            "pattern": question.pattern,
+            "question_text": question.question_text,
+        }
+        for question in questions
+    ]
 
 
-def _single_topic_questions_from_candidates(
-    candidates: list[QuestionCandidate],
-    canonical_topics: list[CanonicalTopic],
-) -> list[GeneratedQuestion]:
-    canonical_id_by_label = {
-        topic.label: topic.canonical_topic_id for topic in canonical_topics
-    }
-    questions: list[GeneratedQuestion] = []
-    for candidate in candidates:
-        if len(candidate.relevant_topics) != 1:
-            continue
-        label = candidate.relevant_topics[0]
-        questions.append(
-            GeneratedQuestion(
-                question_id=candidate.candidate_id,
-                relevant_topics=candidate.relevant_topics,
-                source_topic_ids=[canonical_id_by_label.get(label, label)],
-                family=candidate.family,
-                pattern=candidate.pattern,
-                question_text=candidate.question_text,
-                generation_scope="single_topic",
-            )
-        )
-    return questions
-
-
-def _pairwise_questions_from_candidates(
-    candidates: list[QuestionCandidate],
-) -> list[GeneratedQuestion]:
-    questions: list[GeneratedQuestion] = []
-    for candidate in candidates:
-        if len(candidate.relevant_topics) < 2:
-            continue
-        pair_key = "__".join(candidate.relevant_topics)
-        questions.append(
-            GeneratedQuestion(
-                question_id=candidate.candidate_id,
-                relevant_topics=candidate.relevant_topics,
-                source_pair_id=f"pair::{pair_key}",
-                family=candidate.family,
-                pattern=candidate.pattern,
-                question_text=candidate.question_text,
-                generation_scope="pairwise",
-            )
-        )
-    return questions
-
-
-def _validation_records_from_repairs(
-    repairs: list[QuestionRepair],
-    candidates: list[QuestionCandidate],
-) -> list[QuestionValidationRecord]:
-    by_id = {candidate.candidate_id: candidate for candidate in candidates}
-    validations: list[QuestionValidationRecord] = []
-    for repair in repairs:
-        candidate = by_id[repair.candidate_id]
-        validations.append(
-            QuestionValidationRecord(
-                question_id=repair.candidate_id,
-                relevant_topics=candidate.relevant_topics,
-                status=repair.status,
-                original_text=repair.original_text,
-                final_text=repair.final_text,
-                reject_reason=repair.reject_reason,
-                question_family=candidate.family,
-            )
-        )
-    return validations
+def _repair_rows_from_validations(
+    course_id: str,
+    validations: list[QuestionValidationRecord],
+) -> list[dict[str, object]]:
+    return [
+        {
+            "course_id": course_id,
+            "candidate_id": validation.question_id,
+            "status": validation.status,
+            "original_text": validation.original_text,
+            "final_text": validation.final_text,
+            "reject_reason": validation.reject_reason,
+        }
+        for validation in validations
+    ]

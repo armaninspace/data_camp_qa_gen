@@ -5,10 +5,10 @@ from pathlib import Path
 from course_pipeline.schemas import (
     AnswerRecord,
     CanonicalTopic,
+    GeneratedQuestion,
     LedgerRow,
     NormalizedCourse,
-    QuestionCandidate,
-    QuestionRepair,
+    QuestionValidationRecord,
     Topic,
     TopicEvidence,
 )
@@ -37,22 +37,26 @@ def _canonical(label: str, topic_id: str) -> CanonicalTopic:
     )
 
 
-def _candidate(candidate_id: str, label: str) -> QuestionCandidate:
-    return QuestionCandidate(
-        candidate_id=candidate_id,
+def _question(candidate_id: str, label: str) -> GeneratedQuestion:
+    return GeneratedQuestion(
+        question_id=candidate_id,
         relevant_topics=[label],
+        source_topic_ids=[f"ct_{label}"],
         family="entry",
         pattern="What is {x}?",
         question_text=f"What is {label}?",
+        generation_scope="single_topic",
     )
 
 
-def _repair(candidate_id: str, text: str) -> QuestionRepair:
-    return QuestionRepair(
-        candidate_id=candidate_id,
+def _validation(candidate_id: str, label: str, text: str) -> QuestionValidationRecord:
+    return QuestionValidationRecord(
+        question_id=candidate_id,
+        relevant_topics=[label],
         status="accepted",
         original_text=text,
         final_text=text,
+        question_family="entry",
     )
 
 
@@ -87,8 +91,8 @@ def test_persist_stage_artifacts_upserts_by_course_id(tmp_path: Path) -> None:
         course=_course("1", "One"),
         topics=[_topic("t1", "topic one")],
         canonical_topics=[_canonical("topic one", "t1")],
-        candidates=[_candidate("q1", "topic one")],
-        repairs=[_repair("q1", "What is topic one?")],
+        single_topic_questions=[_question("q1", "topic one")],
+        validations=[_validation("q1", "topic one", "What is topic one?")],
         answers=[_answer("q1", "What is topic one?")],
         rows=[_row("1", "One", "What is topic one?")],
     )
@@ -97,8 +101,8 @@ def test_persist_stage_artifacts_upserts_by_course_id(tmp_path: Path) -> None:
         course=_course("1", "One Updated"),
         topics=[_topic("t1b", "topic one updated")],
         canonical_topics=[_canonical("topic one updated", "t1b")],
-        candidates=[_candidate("q1b", "topic one updated")],
-        repairs=[_repair("q1b", "What is topic one updated?")],
+        single_topic_questions=[_question("q1b", "topic one updated")],
+        validations=[_validation("q1b", "topic one updated", "What is topic one updated?")],
         answers=[_answer("q1b", "What is topic one updated?")],
         rows=[_row("1", "One Updated", "What is topic one updated?")],
     )
@@ -107,8 +111,8 @@ def test_persist_stage_artifacts_upserts_by_course_id(tmp_path: Path) -> None:
         course=_course("2", "Two"),
         topics=[_topic("t2", "topic two")],
         canonical_topics=[_canonical("topic two", "t2")],
-        candidates=[_candidate("q2", "topic two")],
-        repairs=[_repair("q2", "What is topic two?")],
+        single_topic_questions=[_question("q2", "topic two")],
+        validations=[_validation("q2", "topic two", "What is topic two?")],
         answers=[_answer("q2", "What is topic two?")],
         rows=[_row("2", "Two", "What is topic two?")],
     )

@@ -33,8 +33,6 @@ from course_pipeline.tasks.synthesize_answers import (
 from course_pipeline.tasks.vet_topics import vet_topics_and_pairs
 from course_pipeline.schemas import (
     GeneratedQuestion,
-    QuestionCandidate,
-    QuestionRepair,
     QuestionValidationRecord,
 )
 
@@ -196,9 +194,6 @@ def _process_course(
     validations = validate_questions(all_generated_questions)
     timer.finish(output_row_count=len(validations))
 
-    candidates = _legacy_candidates(all_generated_questions)
-    repairs = _legacy_repairs(validations)
-
     timer = StageTimer(
         logger,
         course_id=course.course_id,
@@ -237,9 +232,9 @@ def _process_course(
         logger,
         course_id=course.course_id,
         stage="build_ledger_rows",
-        input_row_count=len(repairs),
+        input_row_count=len(validations),
     )
-    rows = build_ledger_rows(course, candidates, repairs, answers)
+    rows = build_ledger_rows(course, all_generated_questions, validations, answers)
     timer.finish(output_row_count=len(rows))
 
     timer = StageTimer(
@@ -253,8 +248,6 @@ def _process_course(
         course=course,
         topics=topics,
         canonical_topics=canonical_topics,
-        candidates=candidates,
-        repairs=repairs,
         answers=answers,
         rows=rows,
         related_pairs=related_pairs,
@@ -277,34 +270,6 @@ def _process_course(
         "rejected_count": sum(r.status == "rejected" for r in rows),
         "errored_count": sum(r.status == "errored" for r in rows),
     }
-
-
-def _legacy_candidates(questions: list[GeneratedQuestion]) -> list[QuestionCandidate]:
-    return [
-        QuestionCandidate(
-            candidate_id=question.question_id,
-            relevant_topics=question.relevant_topics,
-            family=question.family,
-            pattern=question.pattern,
-            question_text=question.question_text,
-        )
-        for question in questions
-    ]
-
-
-def _legacy_repairs(validations: list[QuestionValidationRecord]) -> list[QuestionRepair]:
-    return [
-        QuestionRepair(
-            candidate_id=validation.question_id,
-            status=validation.status,
-            original_text=validation.original_text,
-            final_text=validation.final_text,
-            reject_reason=validation.reject_reason,
-        )
-        for validation in validations
-    ]
-
-
 @flow(name="course-question-pipeline-flow")
 def course_question_pipeline_flow(
     input_dir: str,
