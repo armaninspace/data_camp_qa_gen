@@ -155,6 +155,14 @@ class StageTimer:
         self.stage = stage
         self.input_row_count = input_row_count
         self.started = time.perf_counter()
+        self.logger.log_stage_metric(
+            course_id=self.course_id,
+            stage=self.stage,
+            event="started",
+            duration_ms=0,
+            input_row_count=self.input_row_count,
+            output_row_count=0,
+        )
 
     def finish(
         self,
