@@ -1,0 +1,88 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-introduction-to-natural-language-processing-in-python-24419
+final_url: |-
+  https://www.classcentral.com/course/datacamp-introduction-to-natural-language-processing-in-python-24419
+fetched_at: 2026-04-13T20:19:03.327Z
+title: "Introduction to Natural Language Processing in Python"
+provider: DataCamp
+summary: |-
+  Learn fundamental natural language processing techniques using Python and
+  how to apply them to extract insights from real-world text data.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Beginner
+ratings:
+  class_central: {}
+  provider:
+    rating: 4
+    provider: DataCamp
+    rating_count: 40
+subjects:
+  - Python
+  - "Regular Expressions"
+  - "Natural Language Toolkit (NLTK)"
+  - "Named Entity Recognition"
+overview: |-
+  Regular expressions & word tokenization
+
+  This chapter will introduce some basic NLP concepts, such as word
+  tokenization and regular expressions to help parse text. You'll also learn
+  how to handle non-English text and more difficult tokenization you might
+  find.
+
+  Simple topic identification
+
+  This chapter will introduce you to topic identification, which you can apply
+  to any text you encounter in the wild. Using basic NLP models, you will
+  identify topics from texts based on term frequencies. You'll experiment and
+  compare two simple methods: bag-of-words and Tf-idf using NLTK, and a new
+  library Gensim.
+
+  Named-entity recognition
+
+  This chapter will introduce a slightly more advanced topic: named-entity
+  recognition. You'll learn how to identify the who, what, and where of your
+  texts using pre-trained models on English and non-English text. You'll also
+  learn how to use some new libraries, polyglot and spaCy, to add to your NLP
+  toolbox.
+
+  Building a "fake news" classifier
+
+  You'll apply the basics of what you've learned along with some supervised
+  machine learning to build a "fake news" detector. You'll begin by learning
+  the basics of supervised machine learning, and then move forward by choosing
+  a few important features and testing ideas to identify and classify fake
+  news articles.
+syllabus:
+  - title: "Regular expressions & word tokenization"
+    summary: |-
+      This chapter will introduce some basic NLP concepts, such as word
+      tokenization and regular expressions to help parse text. You'll also
+      learn how to handle non-English text and more difficult tokenization
+      you might find.
+  - title: "Simple topic identification"
+    summary: |-
+      This chapter will introduce you to topic identification, which you
+      can apply to any text you encounter in the wild. Using basic NLP
+      models, you will identify topics from texts based on term
+      frequencies. You'll experiment and compare two simple methods:
+      bag-of-words and Tf-idf using NLTK, and a new library Gensim.
+  - title: "Named-entity recognition"
+    summary: |-
+      This chapter will introduce a slightly more advanced topic:
+      named-entity recognition. You'll learn how to identify the who,
+      what, and where of your texts using pre-trained models on English
+      and non-English text. You'll also learn how to use some new
+      libraries, polyglot and spaCy, to add to your NLP toolbox.
+  - title: "Building a \"fake news\" classifier"
+    summary: |-
+      You'll apply the basics of what you've learned along with some
+      supervised machine learning to build a "fake news" detector. You'll
+      begin by learning the basics of supervised machine learning, and
+      then move forward by choosing a few important features and testing
+      ideas to identify and classify fake news articles.

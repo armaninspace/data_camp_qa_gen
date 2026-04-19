@@ -1,0 +1,82 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-manipulating-time-series-data-in-python-24450
+final_url: |-
+  https://www.classcentral.com/course/datacamp-manipulating-time-series-data-in-python-24450
+fetched_at: 2026-04-13T20:21:53.349Z
+title: "Manipulating Time Series Data in Python"
+provider: DataCamp
+summary: |-
+  In this course you'll learn the basics of working with time series data.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider:
+    rating: 4.3
+    provider: DataCamp
+    rating_count: 29
+subjects:
+  - "Time Series Analysis"
+  - Python
+  - pandas
+  - Resampling
+overview: |-
+  Working with Time Series in Pandas
+
+  This chapter lays the foundations to leverage the powerful time series
+  functionality made available by how Pandas represents dates, in particular
+  by the DateTimeIndex. You will learn how to create and manipulate date
+  information and time series, and how to do calculations with time-aware
+  DataFrames to shift your data in time or create period-specific returns.
+
+  Basic Time Series Metrics & Resampling
+
+  This chapter dives deeper into the essential time series functionality made
+  available through the pandas DataTimeIndex. It introduces resampling and how
+  to compare different time series by normalizing their start points.
+
+  Window Functions: Rolling & Expanding Metrics
+
+  This chapter will show you how to use window function to calculate time
+  series metrics for both rolling and expanding windows.
+
+  Putting it all together: Building a value-weighted index
+
+  This chapter combines the previous concepts by teaching you how to create a
+  value-weighted index. This index uses market-cap data contained in the stock
+  exchange listings to calculate weights and 2016 stock price information.
+  Index performance is then compared against benchmarks to evaluate the
+  performance of the index you created.
+syllabus:
+  - title: "Working with Time Series in Pandas"
+    summary: |-
+      This chapter lays the foundations to leverage the powerful time
+      series functionality made available by how Pandas represents dates,
+      in particular by the DateTimeIndex. You will learn how to create and
+      manipulate date information and time series, and how to do
+      calculations with time-aware DataFrames to shift your data in time
+      or create period-specific returns.
+  - title: "Basic Time Series Metrics & Resampling"
+    summary: |-
+      This chapter dives deeper into the essential time series
+      functionality made available through the pandas DataTimeIndex. It
+      introduces resampling and how to compare different time series by
+      normalizing their start points.
+  - title: "Window Functions: Rolling & Expanding Metrics"
+    summary: |-
+      This chapter will show you how to use window function to calculate
+      time series metrics for both rolling and expanding windows.
+  - title: "Putting it all together: Building a value-weighted index"
+    summary: |-
+      This chapter combines the previous concepts by teaching you how to
+      create a value-weighted index. This index uses market-cap data
+      contained in the stock exchange listings to calculate weights and
+      2016 stock price information. Index performance is then compared
+      against benchmarks to evaluate the performance of the index you
+      created.

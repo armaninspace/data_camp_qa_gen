@@ -1,0 +1,94 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-machine-learning-in-the-tidyverse-24581
+final_url: |-
+  https://www.classcentral.com/course/datacamp-machine-learning-in-the-tidyverse-24581
+fetched_at: 2026-04-13T20:33:53.631Z
+title: "Machine Learning in the Tidyverse"
+provider: DataCamp
+summary: |-
+  Leverage tidyr and purrr packages in the tidyverse to generate, explore, and
+  evaluate machine learning models.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "5 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider:
+    rating: 4.1
+    provider: DataCamp
+    rating_count: 13
+subjects:
+  - Tidyverse
+  - "Machine Learning"
+  - "Regression Models"
+  - "Classification Models"
+  - "Hyperparameter Tuning"
+  - tidyr
+overview: |-
+  Leverage tidyr and purrr packages in the tidyverse to generate, explore, and
+  evaluate machine learning models.
+
+  Welcome to the tidyverse! In this course, you will continue on your journey
+  to learn the tidyverse and apply your knowledge to machine learning
+  concepts.
+
+  This course is ideal if you’re looking to integrate R's Tidyverse tools into
+  your machine learning workflows.
+
+  Evaluating machine learning models
+
+  Throughout this course, you will focus on leveraging the tidyverse tools in
+  R to build, explore, and evaluate machine learning models efficiently.
+
+  The course begins by introducing the List Column Workflow (LCW), a method
+  for managing multiple models within a single dataframe. It also covers using
+  the broom package to tidy up and explore model outputs, making the complex
+  results more interpretable.
+
+  Utilizing tidyr and purrr
+
+  Work through practical exercises including building and evaluating
+  regression along with classification models. Explore techniques for tuning
+  hyperparameters to optimize model performance.
+
+  You will use packages like tidyr and purrr to handle complex data
+  manipulations and model evaluations, ensuring a tidy and systematic approach
+  to machine learning.
+
+  Gain real-world application
+
+  Explore real-world examples through multiple case studies, such as using the
+  gapminder dataset to predict life expectancy with linear models.
+
+  By the end of the course, you will have a strong foundation in applying
+  Tidyverse principles to machine learning, enabling them to build, tune, and
+  evaluate models efficiently in a tidy and reproducible manner.
+syllabus:
+  - title: "Foundations of \"tidy\" Machine learning"
+    summary: |-
+      This chapter will introduce you to the backbone of machine learning
+      in the tidyverse, the List Column Workflow (LCW). The LCW will
+      empower you to work with many models in one dataframe. This chapter
+      will also introduce you to the fundamentals of the broom package for
+      exploring your models.
+  - title: "Multiple Models with broom"
+    summary: |-
+      This chapter leverages the List Column Workflow to build and explore
+      the attributes of 77 models. You will use the tools from the broom
+      package to gain a multidimensional understanding of all of these
+      models.
+  - title: "Build, Tune & Evaluate Regression Models"
+    summary: |-
+      In this chapter you will learn how to use the List Column Workflow
+      to build, tune and evaluate regression models. You will have the
+      chance to work with two types of models: linear models and random
+      forest models.
+  - title: "Build, Tune & Evaluate Classification Models"
+    summary: |-
+      In this chapter you will shift gears to build, tune and evaluate
+      classification models.

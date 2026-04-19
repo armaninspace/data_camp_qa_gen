@@ -1,0 +1,64 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-network-analysis-in-the-tidyverse-24670
+final_url: |-
+  https://www.classcentral.com/course/datacamp-network-analysis-in-the-tidyverse-24670
+fetched_at: 2026-04-13T20:41:56.382Z
+title: "Network Analysis in the Tidyverse"
+provider: DataCamp
+summary: |-
+  Learn how to analyze and visualize network data in the R programming
+  language using the tidyverse approach.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - Tidyverse
+  - "Data Visualization"
+  - "R Programming"
+  - "Network Analysis"
+  - "Hierarchical Clustering"
+overview: |-
+  The hubs of the network
+
+  -The challenge in this chapter is to spot the most highly connected
+  terrorists in the network. We will first import the dataset and build the
+  network. Then we will learn how to visualize it in different layouts using
+  ggraph package. Later on, we will compute two basic yet important centrality
+  measures in network science - degree and strength. We will use them to spot
+  highly connected terrorists. We will finally touch two alternative
+  centrality measures, betweenness and closeness.
+
+  In its weakness lies its strength
+
+  -In this chapter we will spot the most influential ties among terrorists in
+  the network. We will use a centrality measure on ties, called betweenness,
+  and will learn how to visualize the network highlighting connections with
+  high betweenness centrality. Moreover, we will provide some alternative
+  evidence regarding Mark Granovetter's theory of strength of weak ties,
+  confirming that looser connections are crucial as demonstrated in the Madrid
+  terrorism network.
+
+  Connection patterns
+
+  -The challenge in this chapter is to discover pairs of similar (and
+  dissimilar) terrorists. We will introduce the adjacency matrix as a
+  mathematical representation of a network and use it to find terrorists with
+  similar connection patterns. We will also learn how to visualize similar and
+  dissimilar pairs of individuals using ggraph.
+
+  Similarity clusters
+
+  -In this chapter we will discover cells of similar terrorists. We will
+  explore hierarchical clustering to find groups of similar terrorists
+  building on the notion of similarity of connection patterns developed in the
+  previous chapter. Furthermore, we will explore the visNetwork package to
+  produce fulfilling interactive network visualizations.
+syllabus: []

@@ -1,0 +1,71 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-supply-chain-analytics-in-python-24563
+final_url: |-
+  https://www.classcentral.com/course/datacamp-supply-chain-analytics-in-python-24563
+fetched_at: 2026-04-13T20:32:15.423Z
+title: "Supply Chain Analytics in Python"
+provider: DataCamp
+summary: "Leverage the power of Python and PuLP to optimize supply chains."
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - Python
+  - "Linear Programming"
+  - "Sensitivity Analysis"
+overview: |-
+  Leverage the power of Python and PuLP to optimize supply chains.
+
+  Supply Chain Analytics transforms supply chain activities from guessing, to
+  ones that makes decision using data. An essential tool in Supply Chain
+  Analytics is using optimization analysis to assist in decision making.
+  According to Deloitte, 79% of organizations with high performing supply
+  chains achieve revenue growth that is significantly above average. This
+  course will introduce you to PuLP, a Linear Program optimization modeler
+  written in Python. Using PuLP, the course will show you how to formulate and
+  answer Supply Chain optimization questions such as where a production
+  facility should be located, how to allocate production demand across
+  different facilities, and more. We will explore the results of the models
+  and their implications through sensitivity and simulation testing. This
+  course will help you position yourself to improve the decision making of a
+  supply chain by leveraging the power of Python and PuLP.
+syllabus:
+  - title: "Basics of supply chain optimization and PuLP"
+    summary: |-
+      Linear Programming (LP) is a key technique for Supply Chain
+      Optimization. The PuLP framework is an easy to use tool for working
+      with LP problems and allows the programmer to focus on modeling. In
+      this chapter we learn the basics of LP problems and start to learn
+      how to use the PuLP framework to solve them.
+  - title: "Modeling in PuLP"
+    summary: |-
+      In this chapter we continue to learn how to model LP and IP problems
+      in PuLP. We touch on how to use PuLP for large scale problems.
+      Additionally, we begin our case study example on how to solve the
+      Capacitated Plant location model.
+  - title: "Solve and evaluate model"
+    summary: |-
+      This chapter reviews some common mistakes made when creating
+      constraints, and step through the process of solving the model. Once
+      we have a solution to our LP model, how do we know if it is correct?
+      In this chapter we also review a process for reasonableness checking
+      or sanity checking the results. Furthermore, we continue working
+      through our case study example on the Capacitated Plant location
+      model by completing all the needed constraints.
+  - title: "Sensitivity and simulation testing of model"
+    summary: |-
+      In our final chapter we review sensitivity analysis of constraints
+      through shadow prices and slack. Additionally, we look at simulation
+      testing our LP models. These different techniques allow us to answer
+      different business-related questions about our models, such as
+      available capacity and incremental costs. Finally, we complete our
+      case study exercise and focus on using sensitivity analysis and
+      simulation testing to answer questions about our model.

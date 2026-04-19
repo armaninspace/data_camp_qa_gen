@@ -1,0 +1,103 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-arima-models-in-python-24561
+final_url: |-
+  https://www.classcentral.com/course/datacamp-arima-models-in-python-24561
+fetched_at: 2026-04-13T20:32:04.279Z
+title: "ARIMA Models in Python"
+provider: DataCamp
+summary: |-
+  Learn about ARIMA models in Python and become an expert in time series
+  analysis.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central:
+    rating: 4.77273
+    review_count: 1
+  provider:
+    rating: 4.8
+    provider: DataCamp
+    rating_count: 22
+subjects:
+  - Python
+  - "Time Series Analysis"
+  - Forecasting
+  - "ARIMA Models"
+overview: |-
+  Learn about ARIMA models in Python and become an expert in time series
+  analysis.
+
+  Have you ever tried to predict the future? What lies ahead is a mystery that
+  is usually only solved by waiting. In this course, you can stop waiting and
+  dive into the world of time series modeling using ARIMA models in Python to
+  forecast the future.
+
+  Time series data
+
+  Start by learning the basics of time series data, including the concept of
+  stationarity—crucial for working with ARMA models. You'll learn how to test
+  for stationarity both visually and statistically, generate ARMA data, and
+  fit ARMA models to get a solid foundation.​
+
+  Statsmodels package
+
+  As you progress, explore the powerful Statsmodels package for fitting ARMA,
+  ARIMA, and ARMAX models. You'll get hands-on experience using your models to
+  predict future values like stock prices.
+
+  Making these concepts easy to grasp and apply, you’ll uncover generating
+  one-step-ahead predictions, dynamic forecasts, and fitting ARIMA models
+  directly to your data.
+
+  ACF and PACF plots
+
+  One of the highlights is learning how to choose the best model using ACF and
+  PACF plots to identify promising model orders. You'll learn about criteria
+  like AIC and BIC for model selection and diagnostics, helping you refine
+  your models to perfection​​.
+
+  SARIMA models
+
+  The course wraps up with seasonal ARIMA (SARIMA) models, perfect for
+  handling data with seasonal patterns. You'll learn to decompose time series
+  data into seasonal and non-seasonal components and apply your ARIMA skills
+  in a global forecast challenge.
+
+  This final project ties everything together, giving you a comprehensive
+  understanding of ARIMA modeling.
+syllabus:
+  - title: "ARMA Models"
+    summary: |-
+      Dive straight in and learn about the most important properties of
+      time series. You'll learn about stationarity and how this is
+      important for ARMA models. You'll learn how to test for stationarity
+      by eye and with a standard statistical test. Finally, you'll learn
+      the basic structure of ARMA models and use this to generate some
+      ARMA data and fit an ARMA model.
+  - title: "Fitting the Future"
+    summary: |-
+      What lies ahead in this chapter is you predicting what lies ahead in
+      your data. You'll learn how to use the elegant statsmodels package
+      to fit ARMA, ARIMA and ARMAX models. Then you'll use your models to
+      predict the uncertain future of stock prices!
+  - title: "The Best of the Best Models"
+    summary: |-
+      In this chapter, you will become a modeler of discerning taste.
+      You'll learn how to identify promising model orders from the data
+      itself, then, once the most promising models have been trained,
+      you'll learn how to choose the best model from this fitted
+      selection. You'll also learn a great framework for structuring your
+      time series projects.
+  - title: "Seasonal ARIMA Models"
+    summary: |-
+      In this final chapter, you'll learn how to use seasonal ARIMA models
+      to fit more complex data. You'll learn how to decompose this data
+      into seasonal and non-seasonal parts and then you'll get the chance
+      to utilize all your ARIMA tools on one last global forecast
+      challenge.

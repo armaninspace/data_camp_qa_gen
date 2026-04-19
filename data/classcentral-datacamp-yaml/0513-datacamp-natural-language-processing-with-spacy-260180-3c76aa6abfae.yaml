@@ -1,0 +1,84 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-natural-language-processing-with-spacy-260180
+final_url: |-
+  https://www.classcentral.com/course/datacamp-natural-language-processing-with-spacy-260180
+fetched_at: 2026-04-13T21:00:56.243Z
+title: "Natural Language Processing with spaCy"
+provider: DataCamp
+summary: |-
+  Master the core operations of spaCy and train models for natural language
+  processing. Extract information from unstructured data and match patterns.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - spaCy
+  - "Data Analysis"
+  - "Named Entity Recognition"
+  - "Word Vectors"
+overview: |-
+  Master the core operations of spaCy and train models for natural language
+  processing. Extract information from unstructured data and match patterns.
+
+  Meet spaCy, an Industry-Standard for NLP
+
+  In this course, you will learn how to use spaCy, a fast-growing
+  industry-standard library, to perform various natural language processing
+  tasks such as tokenization, sentence segmentation, parsing, and named entity
+  recognition. spaCy can provide powerful, easy-to-use, and production-ready
+  features across a wide range of natural language processing tasks.
+
+  Learn the Core Operations of spaCy
+
+  You will start by learning the core operations of spaCy and how to use them
+  to parse text and extract information from unstructured data. Then, you will
+  work with spaCy’s classes, such as Doc, Span, and Token, and learn how to
+  use different spaCy components for calculating word vectors and predicting
+  semantic similarity.
+
+  Train spaCy Models and Learn About Pattern Matching
+
+  You will practice writing simple and complex matching patterns to extract
+  given terms and phrases using EntityRuler, Matcher, and PhraseMatcher from
+  unstructured data. You will also learn how to create custom pipeline
+  components and create training/evaluation data. From there, you will dive
+  into training spaCy models and how to use them for inference. Throughout the
+  course, you will work on real-world examples and solidify your understanding
+  of using spaCy in your own NLP projects.
+syllabus:
+  - title: "Introduction to NLP and spaCy"
+    summary: |-
+      This chapter will introduce you to NLP, some of its use cases such
+      as named-entity recognition and AI-powered chatbots. You’ll learn
+      how to use the powerful spaCy library to perform various natural
+      language processing tasks such as tokenization, sentence
+      segmentation, POS tagging, and named entity recognition.
+  - title: "spaCy Linguistic Annotations and Word Vectors"
+    summary: |-
+      Learn about linguistic features, word vectors, semantic similarity,
+      analogies, and word vector operations. In this chapter you’ll
+      discover how to use spaCy to extract word vectors, categorize texts
+      that are relevant to a given topic and find semantically similar
+      terms to given words from a corpus or from a spaCy model vocabulary.
+  - title: "Data Analysis with spaCy"
+    summary: |-
+      Get familiar with spaCy pipeline components, how to add a pipeline
+      component, and analyze the NLP pipeline. You will also learn about
+      multiple approaches for rule-based information extraction using
+      EntityRuler, Matcher, and PhraseMatcher classes in spaCy and RegEx
+      Python package.
+  - title: "Customizing spaCy Models"
+    summary: |-
+      Explore multiple real-world use cases where spaCy models may fail
+      and learn how to train them further to improve model performance.
+      You’ll be introduced to spaCy training steps and understand how to
+      train an existing spaCy model or from scratch, and evaluate the
+      model at the inference time.

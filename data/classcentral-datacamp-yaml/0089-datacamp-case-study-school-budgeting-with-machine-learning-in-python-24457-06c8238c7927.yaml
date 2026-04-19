@@ -1,0 +1,87 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-case-study-school-budgeting-with-machine-learning-in-python-24457
+final_url: |-
+  https://www.classcentral.com/course/datacamp-case-study-school-budgeting-with-machine-learning-in-python-24457
+fetched_at: 2026-04-13T20:22:32.724Z
+title: "Case Study: School Budgeting with Machine Learning in Python"
+provider: DataCamp
+summary: |-
+  Learn how to build a model to automatically classify items in a school
+  budget.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: "No Longer Offered"
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - "Machine Learning"
+  - "Data Science"
+  - "Data Visualization"
+  - Python
+  - scikit-learn
+  - "Data Exploration"
+overview: |-
+  Exploring the raw data
+
+  In this chapter, you'll be introduced to the problem you'll be solving in
+  this course. How do you accurately classify line-items in a school budget
+  based on what that money is being used for? You will explore the raw text
+  and numeric values in the dataset, both quantitatively and visually. And
+  you'll learn how to measure success when trying to predict class labels for
+  each row of the dataset.
+
+  Creating a simple first model
+
+  In this chapter, you'll build a first-pass model. You'll use numeric data
+  only to train the model. Spoiler alert - throwing out all of the text data
+  is bad for performance! But you'll learn how to format your predictions.
+  Then, you'll be introduced to natural language processing (NLP) in order to
+  start working with the large amounts of text in the data.
+
+  Improving your model
+
+  Here, you'll improve on your benchmark model using pipelines. Because the
+  budget consists of both text and numeric data, you'll learn to how build
+  pipielines that process multiple types of data. You'll also explore how the
+  flexibility of the pipeline workflow makes testing different approaches
+  efficient, even in complicated problems like this one!
+
+  Learning from the experts
+
+  In this chapter, you will learn the tricks used by the competition winner,
+  and implement them yourself using scikit-learn. Enjoy!
+syllabus:
+  - title: "Exploring the raw data"
+    summary: |-
+      In this chapter, you'll be introduced to the problem you'll be
+      solving in this course. How do you accurately classify line-items in
+      a school budget based on what that money is being used for? You will
+      explore the raw text and numeric values in the dataset, both
+      quantitatively and visually. And you'll learn how to measure success
+      when trying to predict class labels for each row of the dataset.
+  - title: "Creating a simple first model"
+    summary: |-
+      In this chapter, you'll build a first-pass model. You'll use numeric
+      data only to train the model. Spoiler alert - throwing out all of
+      the text data is bad for performance! But you'll learn how to format
+      your predictions. Then, you'll be introduced to natural language
+      processing (NLP) in order to start working with the large amounts of
+      text in the data.
+  - title: "Improving your model"
+    summary: |-
+      Here, you'll improve on your benchmark model using pipelines.
+      Because the budget consists of both text and numeric data, you'll
+      learn to how build pipielines that process multiple types of data.
+      You'll also explore how the flexibility of the pipeline workflow
+      makes testing different approaches efficient, even in complicated
+      problems like this one!
+  - title: "Learning from the experts"
+    summary: |-
+      In this chapter, you will learn the tricks used by the competition
+      winner, and implement them yourself using scikit-learn. Enjoy!

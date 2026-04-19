@@ -1,0 +1,96 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-introduction-to-mlflow-203174
+final_url: |-
+  https://www.classcentral.com/course/datacamp-introduction-to-mlflow-203174
+fetched_at: 2026-04-13T20:58:41.489Z
+title: "Introduction to MLflow"
+provider: DataCamp
+summary: |-
+  Learn how to use MLflow to simplify the complexities of building machine
+  learning applications. Explore MLflow tracking, projects, models, and model
+  registry.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - MLFlow
+  - "Machine Learning"
+  - "Model Deployment"
+  - "Experiment Tracking"
+overview: |-
+  Learn how to use MLflow to simplify the complexities of building machine
+  learning applications. Explore MLflow tracking, projects, models, and model
+  registry.
+
+  Managing the end-to-end lifecycle of a Machine Learning application can be a
+  daunting task for data scientists, engineers, and developers. Machine
+  Learning applications are complex and have a proven track record of being
+  difficult to track, hard to reproduce, and problematic to deploy.
+
+  In this course, you will learn what MLflow is and how it attempts to
+  simplify the difficulties of the Machine Learning lifecycle such as
+  tracking, reproducibility, and deployment. After learning MLflow, you will
+  have a better understanding of how to overcome the complexities of building
+  Machine Learning applications and how to navigate different stages of the
+  Machine Learning lifecycle.
+
+  Throughout the course, you will deep dive into the four major components
+  that make up the MLflow platform. You will explore how to track models,
+  metrics, and parameters with MLflow Tracking, package reproducible ML code
+  using MLflow Projects, create and deploy models using MLflow Models, and
+  store and version control models using Model Registry.
+
+  As you progress through the course, you will also learn best practices of
+  using MLflow for versioning models, how to evaluate models, add
+  customizations to models, and how to build automation into training runs.
+  This course will prepare you for success in managing the lifecycle of your
+  next Machine Learning application.
+syllabus:
+  - title: "Introduction to MLflow"
+    summary: |-
+      In this Chapter, you will be introduced to MLflow and how it aims to
+      assist with some difficulties of the Machine Learning lifecycle. You
+      will be introduced to the four main concepts that make up MLflow
+      with a main focus on MLflow Tracking. You will learn to create
+      experiments and runs as well as how to track metrics, parameters,
+      and artifacts. Finally, you will search MLflow programmatically to
+      find experiment runs that fit certain criteria.
+  - title: "MLflow Models"
+    summary: |-
+      In this Chapter, you will be introduced to MLflow Models. The MLflow
+      Models component of MLflow plays an essential role in the Model
+      Evaluation and Model Engineering steps of the Machine Learning
+      lifecycle. You will learn how MLflow Models standardizes the
+      packaging of ML models as well as how to save, log and load them.
+      You will learn how to create custom MLflow Models to provide more
+      flexibility to your use cases as well as how to evaluate model
+      performance. You will utilize the powerful concept of “Flavors” and
+      finally use the MLflow command line tool for model deployment.
+  - title: "Mlflow Model Registry"
+    summary: |-
+      This Chapter introduces the concept of MLflow called the Model
+      Registry. You will be introduced to how the Model Registry is used
+      to manage the lifecycle of ML models. You will learn how to create
+      and search for models in the Model Registry. You then learn how to
+      register models to the Model Registry and learn how to transition
+      models between predefined stages. Finally, you will also learn how
+      to deploy models from the Model Registry.
+  - title: "MLflow Projects"
+    summary: |-
+      In this chapter, you'll gain valuable knowledge on how to streamline
+      your data science code for reusability and reproducibility using
+      MLflow Projects. The chapter begins by introducing the concept of
+      MLflow Projects and walking you through creating an MLproject file.
+      From there, you'll learn how to run MLflow Projects through both the
+      command-line and the MLflow Projects module while also discovering
+      the power of using parameters for added flexibility in your code.
+      Finally, you will learn how to manage steps of the machine learning
+      lifecycle by creating a multi-step workflow using MLflow Projects.

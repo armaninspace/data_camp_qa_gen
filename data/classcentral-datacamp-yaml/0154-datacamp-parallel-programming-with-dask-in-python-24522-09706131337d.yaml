@@ -1,0 +1,79 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-parallel-programming-with-dask-in-python-24522
+final_url: |-
+  https://www.classcentral.com/course/datacamp-parallel-programming-with-dask-in-python-24522
+fetched_at: 2026-04-13T20:28:28.835Z
+title: "Parallel Programming with Dask in Python"
+provider: DataCamp
+summary: |-
+  Learn how to take the Python workflows you currently have and easily scale
+  them up to large datasets without the need for distributed computing
+  environments.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - Python
+  - "Big Data"
+  - "Data Analysis"
+  - pandas
+  - NumPy
+  - "Parallel Computing"
+  - Dask
+overview: |-
+  Working with Big Data
+
+  -In this chapter you'll learn how to leverage traditional Python techniques
+  for reading and processing large datasets stored in either a single file or
+  in multiple files. Finally, you'll learn how the Dask library can be used to
+  execute a pipeline of Python functions in parallel with the added goal of
+  being able to process large amounts of data on modest computational
+  resources.
+
+  For this course, the data set sizes have been reduced so that the exercises
+  can be completed rapidly. Many of these data sets were originally several
+  Gigabytes in size.
+
+  Working with Dask Arrays
+
+  -In this chapter we'll explore how we can use `dask.array` to read multiple
+  data sources and perform computations with them as a single data array.
+  We'll learn some advanced uses of NumPy arrays when dealing with high
+  dimensional data that also work on Dask arrays. Finally, we'll examine
+  climate patterns in the US from monthly weather data in the US.
+
+  Working with Dask DataFrames
+
+  -The Dask DataFrame is built upon the Pandas DataFrame. Dask provides the
+  ability to scale your Pandas workflows to large data sets stored in either a
+  single file or separated across multiple files. In this chapter you'll learn
+  how to build a pipeline of delayed computation with Dask DataFrame, and
+  you'll use these skills to study how much NYC taxi riders tip their drivers.
+
+  Working with Dask Bags for Unstructured Data
+
+  -Datasets that have not already been standardized and provided as CSV files
+  can be challenging to work with. In this chapter you'll use the Dask Bag to
+  read raw text files and perform simple text processing workflows over large
+  datasets in parallel. Conceptually, the Dask Bag is a parallel list that can
+  store any Python datatype with convenient functions that map over all of the
+  elements.
+
+  Case Study: Analyzing Flight Delays
+
+  -Now that you've learned how to utilize Dask to read and process large data
+  sets in parallel, you'll put these skills together to search for
+  correlations between flight delays and reported weather events at selected
+  airports. You'll read files in multiple directories containing flight
+  statistics for selected airports from the Bureau of Transportation
+  Statistics and merge them with daily weather data from wunderground.com into
+  a single Dask DataFrame.
+syllabus: []

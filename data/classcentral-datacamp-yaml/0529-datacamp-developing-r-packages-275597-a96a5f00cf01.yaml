@@ -1,0 +1,91 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-developing-r-packages-275597
+final_url: |-
+  https://www.classcentral.com/course/datacamp-developing-r-packages-275597
+fetched_at: 2026-04-13T21:02:20.259Z
+title: "Developing R Packages"
+provider: DataCamp
+summary: |-
+  Learn to develop R packages and boost your coding skills. Discover package
+  creation benefits, practice with dev tools, and create a unit conversion
+  package.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - "Unit Testing"
+  - "Data Analysis"
+overview: |-
+  Learn to develop R packages and boost your coding skills. Discover package
+  creation benefits, practice with dev tools, and create a unit conversion
+  package.
+
+  The expansive ecosystem of R packages may seem daunting at first glance, but
+  don't worry! Acquiring the skill to develop your own R package is
+  invaluable, regardless of whether you collaborate on your code with others.
+  With a range of modern tools and packages at your fingertips, it's simpler
+  than ever.
+
+  Discover the Benefits of Package Creation
+
+  Creating a package allows you to document your functions, enhancing their
+  quality. It provides a formal structure for your code and analyses, enabling
+  function improvement while tests verify no previous functionality is
+  disrupted.
+
+  Practice Using R Package Development Tools
+
+  This course will guide you through these concepts, and as a bonus, you'll
+  develop your own package focused on unit conversion. You'll learn how to use
+  the devtools, usethis, roxygen2, available, and testthat packages as well as
+  rmarkdown to speed up and improve your package development workflow.
+
+  Experience the Power of R Package Development
+
+  Get ready to dive into the dynamic world of R package development and
+  empower yourself with a valuable toolset that can greatly enhance your data
+  analysis journey!
+syllabus:
+  - title: "Creating R Packages: From Data to Functions"
+    summary: |-
+      Dive into the essentials of R package construction, from
+      understanding the architecture, the critical R and man directories,
+      to the significance of the DESCRIPTION and NAMESPACE files. Get
+      hands-on with the usethis package as you create your own package
+      skeleton and include data. Strengthen your R function writing
+      skills, grasp best practices for package development, and get
+      comfortable saving functions to a file. Finally, install your
+      package locally using devtools.
+  - title: "Designing R Packages: Package Naming and Dependencies"
+    summary: |-
+      Learn the advantages of creating packages versus using scripts,
+      exploring the impact on code organization, reproducibility,
+      collaboration, and sharing. Discover effective strategies for
+      structuring code and functions within the R directory, and choosing
+      an appropriate name and license for your package. Finally, you’ll
+      learn how to manage CRAN package dependencies.
+  - title: "Package Documentation: Generating Help Files and Vignettes"
+    summary: |-
+      Harness the power of examples in documentation by creating function
+      examples with roxygen2. Understand the significance of examples in
+      clarifying function behavior and identifying key components of a
+      well-documented R function. Explore the purpose of vignettes in R
+      package documentation and learn best practices for creating engaging
+      vignettes and evaluating their content and quality through metadata
+      analysis.
+  - title: "Testing R Packages: Using Unit Tests and Robust Checks"
+    summary: |-
+      Identify why the unit tests are important to package development and
+      maintenance and learn how to implement the testthat package for unit
+      tests. Convert R examples into expectations to build your unit test
+      knowledge. You’ll then gain an understanding on how to document your
+      package data and run some final checks to ensure you have developed
+      a robust R package.

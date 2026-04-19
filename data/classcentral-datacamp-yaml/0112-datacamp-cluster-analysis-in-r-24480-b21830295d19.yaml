@@ -1,0 +1,95 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-cluster-analysis-in-r-24480
+final_url: |-
+  https://www.classcentral.com/course/datacamp-cluster-analysis-in-r-24480
+fetched_at: 2026-04-13T20:24:39.312Z
+title: "Cluster Analysis in R"
+provider: DataCamp
+summary: |-
+  Develop a strong intuition for how hierarchical and k-means clustering work
+  and learn how to apply them to extract insights from your data.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider:
+    rating: 4.8
+    provider: DataCamp
+    rating_count: 13
+subjects:
+  - "R Programming"
+  - "Data Science"
+  - "Market Segmentation"
+  - "Cluster Analysis"
+  - "Hierarchical Clustering"
+  - "K-Means Clustering"
+overview: |-
+  Develop a strong intuition for how hierarchical and k-means clustering work
+  and learn how to apply them to extract insights from your data.
+
+  Learn How to Perform Cluster Analysis
+
+  Cluster analysis is a powerful toolkit in the data science workbench. It is
+  used to find groups of observations (clusters) that share similar
+  characteristics. These similarities can inform all kinds of business
+  decisions; for example, in marketing, it is used to identify distinct groups
+  of customers for which advertisements can be tailored.
+
+  Explore Hierarchical and K-Means Clustering Techniques
+
+  In this course, you will learn about two commonly used clustering methods -
+  hierarchical clustering and k-means clustering. You won't just learn how to
+  use these methods, you'll build a strong intuition for how they work and how
+  to interpret their results. You'll develop this intuition by exploring three
+  different datasets: soccer player positions, wholesale customer spending
+  data, and longitudinal occupational wage data.
+
+  Hone Your Skills with a Hands-On Case Study
+
+  You’ll finish the course by applying your new skills to a case study based
+  around average salaries and how they have changed over time. This will
+  combine hierarchical clustering techniques such as occupation trees,
+  preparing for exploration, and plotting occupational clusters, with k-means
+  techniques including elbow analysis and average silhouette widths.
+
+  DataCamp courses are comprised of a mixture of videos, articles, and
+  practice exercises so that you have the chance to test and cement your
+  new-found skills so that you feel confident applying them outside a course
+  setting.
+syllabus:
+  - title: "Calculating Distance Between Observations"
+    summary: |-
+      Cluster analysis seeks to find groups of observations that are
+      similar to one another, but the identified groups are different from
+      each other. This similarity/difference is captured by the metric
+      called distance. In this chapter, you will learn how to calculate
+      the distance between observations for both continuous and
+      categorical features. You will also develop an intuition for how the
+      scales of your features can affect distance.
+  - title: "Hierarchical Clustering"
+    summary: |-
+      This chapter will help you answer the last question from chapter
+      1—how do you find groups of similar observations (clusters) in your
+      data using the distances that you have calculated? You will learn
+      about the fundamental principles of hierarchical clustering - the
+      linkage criteria and the dendrogram plot - and how both are used to
+      build clusters. You will also explore data from a wholesale
+      distributor in order to perform market segmentation of clients using
+      their spending habits.
+  - title: "K-means Clustering"
+    summary: |-
+      In this chapter, you will build an understanding of the principles
+      behind the k-means algorithm, learn how to select the right k when
+      it isn't previously known, and revisit the wholesale data from a
+      different perspective.
+  - title: "Case Study: National Occupational Mean Wage"
+    summary: |-
+      In this chapter, you will apply the skills you have learned to
+      explore how the average salary amongst professions have changed over
+      time.

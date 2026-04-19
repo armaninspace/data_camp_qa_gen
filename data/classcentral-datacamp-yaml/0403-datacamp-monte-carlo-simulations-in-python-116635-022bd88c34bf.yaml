@@ -1,0 +1,84 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-monte-carlo-simulations-in-python-116635
+final_url: |-
+  https://www.classcentral.com/course/datacamp-monte-carlo-simulations-in-python-116635
+fetched_at: 2026-04-13T20:51:08.673Z
+title: "Monte Carlo Simulations in Python"
+provider: DataCamp
+summary: "Learn to design and run your own Monte Carlo simulations using Python!"
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider:
+    rating: 4.6
+    provider: DataCamp
+    rating_count: 12
+subjects:
+  - Python
+  - "Data Visualization"
+  - Seaborn
+  - NumPy
+  - SciPy
+  - "Probability Distributions"
+  - "Monte Carlo Simulation"
+overview: |-
+  Learn to design and run your own Monte Carlo simulations using Python!
+
+  Simulate Outcomes with SciPy and NumPy
+
+  This practical course introduces Monte Carlo simulations and their use
+  cases. Monte Carlo simulations are used to estimate a range of outcomes for
+  uncertain events, and Python libraries such as SciPy and NumPy make creating
+  your own simulations fast and easy!
+
+  Apply New Skills in a Principled Simulation
+
+  As you learn each step of creating a simulation, you’ll apply these skills
+  by performing a principled Monte Carlo simulation on a dataset of diabetes
+  patient outcomes and use the results of your simulation to understand how
+  different variables impact diabetes progression.
+
+  Learn How to Assess and Improve Your Simulations
+
+  You’ll review probability distributions and understand how to choose the
+  proper distribution for use in your simulation, and you’ll discover the
+  importance of input correlation and model sensitivity analysis. Finally,
+  you’ll learn to communicate your simulation findings using the popular
+  Seaborn visualization library.
+syllabus:
+  - title: "Introduction to Monte Carlo Simulations"
+    summary: |-
+      What are Monte Carlo simulations and when are they useful? After
+      covering these foundational questions, you’ll learn how to perform
+      simple simulations such as estimating the value of pi. You’ll also
+      learn about resampling, a special type of Monte Carlo Simulation.
+  - title: "Foundations for Monte Carlo"
+    summary: |-
+      Now that you can run your own simple simulations, you’re ready to
+      explore real-world application of Monte Carlo simulations across
+      various industries. Then, you’ll dive into the heart of what makes a
+      good simulation work: sampling from the correct probability
+      distribution. You’ll learn about probability distributions for
+      discrete, continuous, and multivariate random variables.
+  - title: "Principled Monte Carlo Simulation"
+    summary: |-
+      Once you’re comfortable with your choice of probability
+      distribution, you’re ready to follow a principled Monte Carlo
+      simulation workflow using a dataset of diabetes patient
+      characteristics and outcomes. You will explore the data, perform a
+      simulation, and generate summary statistics to communicate your
+      simulation results.
+  - title: "Model Checking and Results Interpretation"
+    summary: |-
+      Discover how to evaluate your Monte Carlo models and communicate the
+      results with easy-to-read visualizations in Seaborn. Finally, use
+      sensitivity analysis to understand how changes to model inputs will
+      impact your results, and practice this concept by simulating how
+      business profits are impacted by changes to sales and inflation!

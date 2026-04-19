@@ -1,0 +1,61 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-time-series-with-data-table-in-r-24687
+final_url: |-
+  https://www.classcentral.com/course/datacamp-time-series-with-data-table-in-r-24687
+fetched_at: 2026-04-13T20:43:28.424Z
+title: "Time Series with data.table in R"
+provider: DataCamp
+summary: |-
+  Master time series data manipulation using data.table in R. Learn efficient
+  techniques for handling large datasets, performing feature engineering, and
+  building statistical models with financial data.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - "Time Series Analysis"
+  - "Data Analysis"
+  - "R Programming"
+  - "Statistical Modeling"
+  - "Data Tables"
+  - "Data Manipulation"
+  - "Financial Data Analysis"
+  - "Feature Engineering"
+overview: |-
+  Review of data.table
+
+  -This chapter provides an overview of all the cool things that make
+  data.table perfect for working with time series data, including its multiple
+  column-selection options, how to modify data.tables by reference, and
+  calling functions by taking advantage of non-standard evaluation.
+
+  Getting time series data into data.table
+
+  -Ok, so you have some time series data and you believe me that data.table is
+  great for it. Before you can test that, you need to convert your data! In
+  this chapter, you'll learn how to convert from popular time series data
+  formats into data.table.
+
+  Generating lags, differences, and windowed aggregations
+
+  -Like most other data, time series data you find in the wild are rarely
+  suitable to directly start using in model training. In this chapter, you'll
+  learn how to write powerful, expressive data.table code to implement a few
+  common forms of time series feature engineering.
+
+  Case study: financial data
+
+  -It's time to put it all together! In this chapter you'll consider a
+  real-world dataset of spot metal prices from the London Metal Exchange
+  (LME). By the end, you'll know how to write reusable functions to perform
+  common time series feature engineering tasks and you'll have experience
+  using those functions to build a statistical model.
+syllabus: []

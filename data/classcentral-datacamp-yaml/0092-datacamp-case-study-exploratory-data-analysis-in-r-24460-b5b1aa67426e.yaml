@@ -1,0 +1,88 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-case-study-exploratory-data-analysis-in-r-24460
+final_url: |-
+  https://www.classcentral.com/course/datacamp-case-study-exploratory-data-analysis-in-r-24460
+fetched_at: 2026-04-13T20:22:47.336Z
+title: "Case Study: Exploratory Data Analysis in R"
+provider: DataCamp
+summary: |-
+  Use data manipulation and visualization skills to explore the historical
+  voting of the United Nations General Assembly.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider:
+    rating: 4.9
+    provider: DataCamp
+    rating_count: 15
+subjects:
+  - "R Programming"
+  - "Data Visualization"
+  - "Data Cleaning"
+  - "Statistical Modeling"
+  - "Data Manipulation"
+  - "Exploratory Data Analysis"
+  - "Linear Models"
+  - ggplot2
+  - dplyr
+overview: |-
+  Data cleaning and summarizing with dplyr
+
+  The best way to learn data wrangling skills is to apply them to a specific
+  case study. Here you'll learn how to clean and filter the United Nations
+  voting dataset using the dplyr package, and how to summarize it into
+  smaller, interpretable units.
+
+  Data visualization with ggplot2
+
+  Once you've cleaned and summarized data, you'll want to visualize them to
+  understand trends and extract insights. Here you'll use the ggplot2 package
+  to explore trends in United Nations voting within each country over time.
+
+  Tidy modeling with broom
+
+  While visualization helps you understand one country at a time, statistical
+  modeling lets you quantify trends across many countries and interpret them
+  together. Here you'll learn to use the tidyr, purrr, and broom packages to
+  fit linear models to each country, and understand and compare their outputs.
+
+  Joining and tidying
+
+  In this chapter, you'll learn to combine multiple related datasets, such as
+  incorporating information about each resolution's topic into your vote
+  analysis. You'll also learn how to turn untidy data into tidy data, and see
+  how tidy data can guide your exploration of topics and countries over time.
+syllabus:
+  - title: "Data cleaning and summarizing with dplyr"
+    summary: |-
+      The best way to learn data wrangling skills is to apply them to a
+      specific case study. Here you'll learn how to clean and filter the
+      United Nations voting dataset using the dplyr package, and how to
+      summarize it into smaller, interpretable units.
+  - title: "Data visualization with ggplot2"
+    summary: |-
+      Once you've cleaned and summarized data, you'll want to visualize
+      them to understand trends and extract insights. Here you'll use the
+      ggplot2 package to explore trends in United Nations voting within
+      each country over time.
+  - title: "Tidy modeling with broom"
+    summary: |-
+      While visualization helps you understand one country at a time,
+      statistical modeling lets you quantify trends across many countries
+      and interpret them together. Here you'll learn to use the tidyr,
+      purrr, and broom packages to fit linear models to each country, and
+      understand and compare their outputs.
+  - title: "Joining and tidying"
+    summary: |-
+      In this chapter, you'll learn to combine multiple related datasets,
+      such as incorporating information about each resolution's topic into
+      your vote analysis. You'll also learn how to turn untidy data into
+      tidy data, and see how tidy data can guide your exploration of
+      topics and countries over time.

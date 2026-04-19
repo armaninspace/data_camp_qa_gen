@@ -1,0 +1,75 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-mixture-models-in-r-24695
+final_url: |-
+  https://www.classcentral.com/course/datacamp-mixture-models-in-r-24695
+fetched_at: 2026-04-13T20:44:11.200Z
+title: "Mixture Models in R"
+provider: DataCamp
+summary: |-
+  Learn mixture models: a convenient and formal statistical framework for
+  probabilistic clustering and classification.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - "R Programming"
+  - "Statistical Modeling"
+  - "Binomial Distribution"
+  - Classification
+  - "Poisson Distribution"
+  - "Parameter Estimation"
+  - "Gaussian Distribution"
+overview: |-
+  Learn mixture models: a convenient and formal statistical framework for
+  probabilistic clustering and classification.
+
+  Mixture modeling is a way of representing populations when we are interested
+  in their heterogeneity. Mixture models use familiar probability
+  distributions (e.g. Gaussian, Poisson, Binomial) to provide a convenient yet
+  formal statistical framework for clustering and classification. Unlike
+  standard clustering approaches, we can estimate the probability of belonging
+  to a cluster and make inference about the sub-populations. For example, in
+  the context of marketing, you may want to cluster different customer groups
+  and find their respective probabilities of purchasing specific products to
+  better target them with custom promotions. When applying natural language
+  processing to a large set of documents, you may want to cluster documents
+  into different topics and understand how important each topic is across each
+  document. In this course, you will learn what Mixture Models are, how they
+  are estimated, and when it is appropriate to apply them!
+syllabus:
+  - title: "Introduction to Mixture Models"
+    summary: |-
+      In this chapter, you will be introduced to fundamental concepts in
+      model-based clustering and how this approach differs from other
+      clustering techniques. You will learn the generating process of
+      Gaussian Mixture Models as well as how to visualize the clusters.
+  - title: "Structure of Mixture Models and Parameters Estimation"
+    summary: |-
+      In this chapter, you will be introduced to the main structure of
+      Mixture Models, how to address different data with this approach and
+      how to estimate the parameters involved. To accomplish the
+      estimation, you will learn an iterative method called
+      Expectation-Maximization algorithm.
+  - title: "Mixture of Gaussians with `flexmix`"
+    summary: |-
+      This chapter shows how to fit Gaussian Mixture Models in 1 and 2
+      dimensions with `flexmix` package. The data used is formed by 10.000
+      observations of people with their weight, height, body mass index
+      and informed gender.
+  - title: "Mixture Models Beyond Gaussians"
+    summary: |-
+      In this module, you will learn how Mixture Models extends to
+      consider probability distributions different from the Gaussian and
+      how these models are fitted with `flexmix`. The datasets used are
+      handwritten digits images and the number of crimes in Chicago city.
+      For the first dataset you will find clusters that summarize the
+      handwritten digits and for the second dataset, you will find
+      clusters of communities where is more or less dangerous to live in.

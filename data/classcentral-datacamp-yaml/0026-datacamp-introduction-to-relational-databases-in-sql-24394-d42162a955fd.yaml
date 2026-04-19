@@ -1,0 +1,91 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-introduction-to-relational-databases-in-sql-24394
+final_url: |-
+  https://www.classcentral.com/course/datacamp-introduction-to-relational-databases-in-sql-24394
+fetched_at: 2026-04-13T20:16:45.622Z
+title: "Introduction to Relational Databases in SQL"
+provider: DataCamp
+summary: |-
+  Learn how to create one of the most efficient ways of storing data -
+  relational databases!
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Beginner
+ratings:
+  class_central:
+    rating: 4.6
+    review_count: 1
+  provider:
+    rating: 4.6
+    provider: DataCamp
+    rating_count: 55
+subjects:
+  - SQL
+  - "Relational Databases"
+  - "Data Structures"
+  - "Data Integrity"
+  - "Data Modeling"
+  - "Data Migration"
+overview: |-
+  Learn how to create one of the most efficient ways of storing data -
+  relational databases!
+
+  Explore the Role of SQL in Relational Database Management
+
+  There are a lot of reasons why SQL is the go-to query language for
+  relational database management. The main one is that SQL is a powerful
+  language that can handle large amounts of data in complex ways and solve
+  tricky analytical questions. In this course, you will gain an introduction
+  to relational databases in SQL.
+
+  Learn how to create tables and specify their relationships, as well as how
+  to enforce data integrity. Additionally, discover other unique features of
+  database systems, such as constraints.
+
+  Create Your First Database
+
+  You begin the course by creating your first database with simple SQL
+  commands. Next, you’ll learn how to update your database as the structure
+  changes by migrating data and deleting tables.
+
+  In the final chapter, you will glue tables in foreign keys together and
+  establish relationships that greatly benefit your data quality. Finally, you
+  will run ad hoc analyses on your new database.
+
+  Understand the Basics of Relational Databases
+
+  By the end of the course, you will gain a basic yet essential understanding
+  of SQL relational databases. They are widely used in various data science
+  fields (from healthcare to finance) and have consequently become one of the
+  crucial languages for data scientists. If you're interested in deepening
+  your knowledge further, you may be interested in our SQL for Database
+  Administrators, SQL Server Developer, and SQL Server for Database
+  Administrators Tracks.
+syllabus:
+  - title: "Your first database"
+    summary: |-
+      In this chapter, you'll create your very first database with a set
+      of simple SQL commands. Next, you'll migrate data from existing flat
+      tables into that database. You'll also learn how meta-information
+      about a database can be queried.
+  - title: "Enforce data consistency with attribute constraints"
+    summary: |-
+      After building a simple database, it's now time to make use of the
+      features. You'll specify data types in columns, enforce column
+      uniqueness, and disallow NULL values in this chapter.
+  - title: "Uniquely identify records with key constraints"
+    summary: |-
+      Now let’s get into the best practices of database engineering. It's
+      time to add primary and foreign keys to the tables. These are two of
+      the most important concepts in databases, and are the building
+      blocks you’ll use to establish relationships between tables.
+  - title: "Glue together tables with foreign keys"
+    summary: |-
+      In the final chapter, you'll leverage foreign keys to connect tables
+      and establish relationships that will greatly benefit your data
+      quality. And you'll run ad hoc analyses on your new database.

@@ -1,0 +1,91 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-handling-missing-data-with-imputations-in-r-24701
+final_url: |-
+  https://www.classcentral.com/course/datacamp-handling-missing-data-with-imputations-in-r-24701
+fetched_at: 2026-04-13T20:44:43.714Z
+title: "Handling Missing Data with Imputations in R"
+provider: DataCamp
+summary: |-
+  Diagnose, visualize and treat missing data with a range of imputation
+  techniques with tips to improve your results.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - "R Programming"
+  - "Data Analysis"
+  - "Data Visualization"
+  - "Statistical Models"
+  - "Machine Learning Models"
+overview: |-
+  The Problem of Missing Data
+
+  In this chapter, you’ll find out why missing data can be a risk when
+  analyzing a dataset. You’ll be introduced to the three missing data
+  mechanisms and learn how to recognize them using statistical tests and
+  visualization tools.
+
+  Donor-Based Imputation
+
+  Get to know the taxonomy of imputation methods and learn three donor-based
+  techniques: mean, hot-deck, and k-Nearest-Neighbors imputation. You’ll look
+  under the hood to see how these methods work, before learning how to apply
+  them to a real-world tropical weather dataset. Along the way, you’ll also
+  learn useful tricks that you can use to make them work even better for your
+  problems.
+
+  Model-Based Imputation
+
+  It’s time to learn how to use statistical and machine learning models, such
+  as linear regression, logistic regression, and random forests, to impute
+  missing data. In this chapter, you’ll look into how the models make their
+  predictions and use this knowledge to draw the imputed values from
+  conditional distributions. This is important as it ensures your imputations
+  are more varied and plausible, making them more similar to the true data.
+
+  Uncertainty from Imputation
+
+  Imputed values are not set in stone. They are just estimates and estimates
+  come with some uncertainty. In this final chapter, you’ll discover how
+  bootstrapping and chained equation using the mice package can be used to
+  incorporate imputation uncertainty into your models and analyses to make
+  them more reliable and robust.
+syllabus:
+  - title: "The Problem of Missing Data"
+    summary: |-
+      In this chapter, you’ll find out why missing data can be a risk when
+      analyzing a dataset. You’ll be introduced to the three missing data
+      mechanisms and learn how to recognize them using statistical tests
+      and visualization tools.
+  - title: "Donor-Based Imputation"
+    summary: |-
+      Get to know the taxonomy of imputation methods and learn three
+      donor-based techniques: mean, hot-deck, and k-Nearest-Neighbors
+      imputation. You’ll look under the hood to see how these methods
+      work, before learning how to apply them to a real-world tropical
+      weather dataset. Along the way, you’ll also learn useful tricks that
+      you can use to make them work even better for your problems.
+  - title: "Model-Based Imputation"
+    summary: |-
+      It’s time to learn how to use statistical and machine learning
+      models, such as linear regression, logistic regression, and random
+      forests, to impute missing data. In this chapter, you’ll look into
+      how the models make their predictions and use this knowledge to draw
+      the imputed values from conditional distributions. This is important
+      as it ensures your imputations are more varied and plausible, making
+      them more similar to the true data.
+  - title: "Uncertainty from Imputation"
+    summary: |-
+      Imputed values are not set in stone. They are just estimates and
+      estimates come with some uncertainty. In this final chapter, you’ll
+      discover how bootstrapping and chained equation using the mice
+      package can be used to incorporate imputation uncertainty into your
+      models and analyses to make them more reliable and robust.

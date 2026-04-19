@@ -1,0 +1,107 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-introduction-to-spark-sql-in-python-24557
+final_url: |-
+  https://www.classcentral.com/course/datacamp-introduction-to-spark-sql-in-python-24557
+fetched_at: 2026-04-13T20:31:40.649Z
+title: "Introduction to Spark SQL in Python"
+provider: DataCamp
+summary: |-
+  Learn how to manipulate data and create machine learning feature sets in
+  Spark using SQL in Python.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - "Apache Spark"
+  - "Machine Learning"
+  - Python
+  - SQL
+  - "Time Series Analysis"
+  - PySpark
+  - "Data Manipulation"
+  - "Logistic Regression"
+overview: |-
+  Learn how to manipulate data and create machine learning feature sets in
+  Spark using SQL in Python.
+
+  Learn Spark SQL
+
+  If you’re familiar with SQL and have heard great things about Apache Spark,
+  this course is for you. Apache Spark is a computing framework for processing
+  big data, and Spark SQL is a component of Apache Spark. This four-hour
+  course will show you how to take Spark to a new level of usefulness, using
+  advanced SQL features, such as window functions.
+
+  Over the course of four chapters, you’ll use Spark SQL to analyze time
+  series data, extract the most common words from a text document, create
+  feature sets from natural language text, and use them to predict the last
+  word in a sentence using logistic regression.
+
+  Discover the Uses of Spark SQL
+
+  You’ll start by creating and querying an SQL table in Spark, as well as
+  learning how to use SQL window functions to perform running sums, running
+  differences, and other operations.
+
+  Next, you’ll explore how to use the window function in Spark SQL for natural
+  language processing, including using a moving window analysis to find common
+  word sequences.
+
+  In chapter 3, you’ll learn how to use the SQL Spark UI to properly cache
+  DataFrames and SQL tables before exploring the best practices for logging in
+  Spark.
+
+  Finally, you use all of the skills learned so far to load and tokenize raw
+  text before extracting word sequences. You’ll then use logistic regression
+  to classify the text, using raw natural language data to train a text
+  classifier.
+
+  Gain a Thorough Introduction to Spark SQL
+
+  By the end of the course, you’ll have a firm understanding of Spark SQL and
+  will understand how Spark combines the power of distributed computing with
+  the ease of use of Python and SQL.
+syllabus:
+  - title: "PySpark SQL"
+    summary: |-
+      In this chapter you will learn how to create and query a SQL table
+      in Spark. Spark SQL brings the expressiveness of SQL to Spark. You
+      will also learn how to use SQL window functions in Spark. Window
+      functions perform a calculation across rows that are related to the
+      current row. They greatly simplify achieving results that are
+      difficult to express using only joins and traditional aggregations.
+      We'll use window functions to perform running sums, running
+      differences, and other operations that are challenging to perform in
+      basic SQL.
+  - title: "Using Window Function SQL for Natural Language Processing"
+    summary: |-
+      In this chapter, you will be loading natural language text. Then you
+      will apply a moving window analysis to find frequent word sequences.
+  - title: "Caching, Logging, and the Spark UI"
+    summary: |-
+      In the previous chapters you learned how to use the expressiveness
+      of window function SQL. However, this expressiveness now makes it
+      important that you understand how to properly cache dataframes and
+      cache SQL tables. It is also important to know how to evaluate your
+      application. You learn how to do do this using the Spark UI. You'll
+      also learn a best practice for logging in Spark. Spark SQL brings
+      with it another useful tool for tuning query performance issues, the
+      query execution plan. You will learn how to use the execution plan
+      for evaluating the provenance of a dataframe.
+  - title: "Text Classification"
+    summary: |-
+      Previous chapters provided you with the tools for loading raw text,
+      tokenizing it, and extracting word sequences. This is already very
+      useful for analysis, but it is also useful for machine learning.
+      What you've learned now comes together by using logistic regression
+      to classify text. By the conclusion of this chapter, you will have
+      loaded raw natural language text data and used it to train a text
+      classifier.

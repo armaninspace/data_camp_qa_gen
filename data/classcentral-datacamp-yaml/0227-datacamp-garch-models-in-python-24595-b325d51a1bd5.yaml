@@ -1,0 +1,83 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-garch-models-in-python-24595
+final_url: |-
+  https://www.classcentral.com/course/datacamp-garch-models-in-python-24595
+fetched_at: 2026-04-13T20:35:13.297Z
+title: "GARCH Models in Python"
+provider: DataCamp
+summary: |-
+  Learn about GARCH Models, how to implement them and calibrate them on
+  financial data from stocks to foreign exchange.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Advanced
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - Python
+  - "Risk Management"
+  - "Quantitative Finance"
+  - "Portfolio Management"
+  - "Asset Allocation"
+overview: |-
+  GARCH Model Fundamentals
+
+  What are GARCH models, what are they used for, and how can you implement
+  them in Python? After completing this first chapter you’ll be able to
+  confidently answer all these questions.
+
+  GARCH Model Configuration
+
+  A normal GARCH model is not representative of the real financial data, whose
+  distributions frequently exhibit fat tails, skewness, and asymmetric shocks.
+  In this chapter, you’ll learn how to define better GARCH models with more
+  realistic assumptions. You’ll also learn how to make more sophisticated
+  volatility forecasts with rolling window approaches.
+
+  Model Performance Evaluation
+
+  This chapter introduces you to the KISS principle of data science modeling.
+  You’ll learn how to use p-values and t-statistics to simplify model
+  configuration, use ACF plot, Ljung-Box test to verify model assumptions and
+  use likelihood and information criteria for model selection.
+
+  GARCH in Action
+
+  In this final chapter, you’ll learn how to apply the GARCH models you’ve
+  previously learned to practical financial world scenarios. You’ll develop
+  your skills as you become more familiar with VaR in risk management, dynamic
+  covariance in asset allocation, and dynamic Beta in portfolio management.
+syllabus:
+  - title: "GARCH Model Fundamentals"
+    summary: |-
+      What are GARCH models, what are they used for, and how can you
+      implement them in Python? After completing this first chapter you’ll
+      be able to confidently answer all these questions.
+  - title: "GARCH Model Configuration"
+    summary: |-
+      A normal GARCH model is not representative of the real financial
+      data, whose distributions frequently exhibit fat tails, skewness,
+      and asymmetric shocks. In this chapter, you’ll learn how to define
+      better GARCH models with more realistic assumptions. You’ll also
+      learn how to make more sophisticated volatility forecasts with
+      rolling window approaches.
+  - title: "Model Performance Evaluation"
+    summary: |-
+      This chapter introduces you to the KISS principle of data science
+      modeling. You’ll learn how to use p-values and t-statistics to
+      simplify model configuration, use ACF plot, Ljung-Box test to verify
+      model assumptions and use likelihood and information criteria for
+      model selection.
+  - title: "GARCH in Action"
+    summary: |-
+      In this final chapter, you’ll learn how to apply the GARCH models
+      you’ve previously learned to practical financial world scenarios.
+      You’ll develop your skills as you become more familiar with VaR in
+      risk management, dynamic covariance in asset allocation, and dynamic
+      Beta in portfolio management.

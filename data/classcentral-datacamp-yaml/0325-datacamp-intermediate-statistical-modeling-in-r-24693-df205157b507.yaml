@@ -1,0 +1,62 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-intermediate-statistical-modeling-in-r-24693
+final_url: |-
+  https://www.classcentral.com/course/datacamp-intermediate-statistical-modeling-in-r-24693
+fetched_at: 2026-04-13T20:44:00.098Z
+title: "Intermediate Statistical Modeling in R"
+provider: DataCamp
+summary: |-
+  In this follow-up course, you will expand your stat modeling skills from the
+  introduction and dive into more advanced concepts.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - "Statistical Modeling"
+  - "R Programming"
+  - Resampling
+overview: |-
+  Effect size and interaction
+
+  -Effect sizes were introduced in Part 1 of this course series as a way to
+  quantify how each explanatory variable is connected to the response. In this
+  chapter, you'll meet some high-level tools that make it easier to calculate
+  and visualize effect sizes. You'll see how to extend the notion of effect
+  size to models with a categorical response variable. And you'll start to use
+  interactions in constructing models to reflect the way that one explanatory
+  variable can influence the effect size of another explanatory variable on
+  the response.
+
+  Total and partial change
+
+  -In many circumstances, an effect size tells you exactly what you need to
+  know: how much the model output will change when one, and only one,
+  explanatory variable changes. This is called partial change. In other
+  situations, you will want to look at total change, which combines the
+  effects of two or more explanatory variables. You'll also see an additional,
+  but limited way of quantifying the extent to which the explanatory variables
+  influence the response: R-squared. Finally, we'll describe the notion of
+  degrees of freedom, a way of describing the complexity of a model.
+
+  Sampling variability and mathematical transforms
+
+  -This chapter examines the precision with which a model can estimate an
+  effect size. The lack of precision comes from sampling variability, which
+  can be quantified using resampling and bootstrapping. You'll also see some
+  ways to improve precision using mathematical transformations of variables.
+
+  Variables working together
+
+  -In this final chapter, you'll learn about why you'd want to avoid
+  collinearity, a common phenomenon in statistical modeling. You'll wrap up
+  the course by discussing some of the ways models can be improved by
+  involving the modeler in the design of the data collecting process.
+syllabus: []

@@ -1,0 +1,99 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-working-with-dates-and-times-in-r-24477
+final_url: |-
+  https://www.classcentral.com/course/datacamp-working-with-dates-and-times-in-r-24477
+fetched_at: 2026-04-13T20:24:22.975Z
+title: "Working with Dates and Times in R"
+provider: DataCamp
+summary: |-
+  Learn the essentials of parsing, manipulating and computing with dates and
+  times in R.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider:
+    rating: 4.6
+    provider: DataCamp
+    rating_count: 14
+subjects:
+  - "R Programming"
+overview: |-
+  Dates and Times in R
+
+  R doesn't know something is a date or time unless you tell it. In this
+  chapter you'll learn about some of the ways R stores dates and times by
+  exploring how often R versions are released, and how quickly people download
+  them. You'll also get a sneak peek at what you'll learn in the following
+  chapters.
+
+  Parsing and Manipulating Dates and Times with lubridate
+
+  Dates and times come in a huge assortment of formats, so your first hurdle
+  is often to parse the format you have into an R datetime. This chapter
+  teaches you to import dates and times with the lubridate package. You'll
+  also learn how to extract parts of a datetime. You'll practice by exploring
+  the weather in R's birthplace, Auckland NZ.
+
+  Arithmetic with Dates and Times
+
+  Getting datetimes into R is just the first step. Now that you know how to
+  parse datetimes, you need to learn how to do calculations with them. In this
+  chapter, you'll learn the different ways of representing spans of time with
+  lubridate and how to leverage them to do arithmetic on datetimes. By the end
+  of the chapter, you'll have calculated how long it's been since the first
+  man stepped on the moon, generated sequences of dates to help schedule
+  reminders, calculated when an eclipse occurs, and explored the reigns of
+  monarch's of England (and which ones might have seen Halley's comet!).
+
+  Problems in practice
+
+  You now know most of what you need to tackle data that includes dates and
+  times, but there are a few other problems you might encounter in practice.
+  In this final chapter you'll learn a little more about these problems by
+  returning to some of the earlier data examples and learning how to handle
+  time zones, deal with times when you don't care about dates, parse dates
+  quickly, and output dates and times.
+syllabus:
+  - title: "Dates and Times in R"
+    summary: |-
+      R doesn't know something is a date or time unless you tell it. In
+      this chapter you'll learn about some of the ways R stores dates and
+      times by exploring how often R versions are released, and how
+      quickly people download them. You'll also get a sneak peek at what
+      you'll learn in the following chapters.
+  - title: "Parsing and Manipulating Dates and Times with lubridate"
+    summary: |-
+      Dates and times come in a huge assortment of formats, so your first
+      hurdle is often to parse the format you have into an R datetime.
+      This chapter teaches you to import dates and times with the
+      lubridate package. You'll also learn how to extract parts of a
+      datetime. You'll practice by exploring the weather in R's
+      birthplace, Auckland NZ.
+  - title: "Arithmetic with Dates and Times"
+    summary: |-
+      Getting datetimes into R is just the first step. Now that you know
+      how to parse datetimes, you need to learn how to do calculations
+      with them. In this chapter, you'll learn the different ways of
+      representing spans of time with lubridate and how to leverage them
+      to do arithmetic on datetimes. By the end of the chapter, you'll
+      have calculated how long it's been since the first man stepped on
+      the moon, generated sequences of dates to help schedule reminders,
+      calculated when an eclipse occurs, and explored the reigns of
+      monarch's of England (and which ones might have seen Halley's
+      comet!).
+  - title: "Problems in practice"
+    summary: |-
+      You now know most of what you need to tackle data that includes
+      dates and times, but there are a few other problems you might
+      encounter in practice. In this final chapter you'll learn a little
+      more about these problems by returning to some of the earlier data
+      examples and learning how to handle time zones, deal with times when
+      you don't care about dates, parse dates quickly, and output dates
+      and times.

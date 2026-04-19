@@ -1,0 +1,98 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-data-manipulation-with-dplyr-24396
+final_url: |-
+  https://www.classcentral.com/course/datacamp-data-manipulation-with-dplyr-24396
+fetched_at: 2026-04-13T20:16:56.901Z
+title: "Data Manipulation with dplyr "
+provider: DataCamp
+summary: |-
+  Build Tidyverse skills by learning how to transform and manipulate data with
+  dplyr.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Beginner
+ratings:
+  class_central: {}
+  provider:
+    rating: 4.5
+    provider: DataCamp
+    rating_count: 67
+subjects:
+  - "R Programming"
+  - "Data Analysis"
+  - Tidyverse
+  - "Data Transformation"
+  - "Data Manipulation"
+  - "Data Aggregation"
+  - ggplot2
+  - dplyr
+overview: |-
+  Build Tidyverse skills by learning how to transform and manipulate data with
+  dplyr.
+
+  Say you've found a great dataset and would like to learn more about it. How
+  can you start to answer the questions you have about the data? Use dplyr to
+  answer those questions.
+
+  First steps: Transforming data with dplyr
+
+  This course is designed to teach users how to efficiently manipulate and
+  transform data using the dplyr package in R.
+
+  First, explore fundamental data transformation techniques, including the use
+  of key dplyr verbs like select, filter, arrange, and mutate. These functions
+  will teach you how to modify datasets by selecting specific columns,
+  filtering rows based on conditions, sorting data, and creating new
+  calculated columns​​.
+
+  Aggregating data with dplyr
+
+  Next, the course covers data aggregation, teaching users how to summarize
+  and condense data for better interpretation.
+
+  You’ll understand how to make your data more interpretable and manageable​​.
+  Functions such as count, group_by, and summarize are introduced to perform
+  operations that aggregate many observations into meaningful summaries,
+  essential for data analysis and reporting.
+
+  Selecting and transforming data
+
+  Finally, you will learn advanced data selection and transformation
+  techniques, such as using select helpers and the rename verb. You will also
+  get to apply your skills to a real-world case study and practice grouped
+  mutates, window functions, and data visualization with ggplot2.
+
+  By the end of the course, you will have developed robust data manipulation
+  skills using dplyr, enabling more efficient and effective data analysis​​—a
+  vital capability for any data analyst or scientist.
+syllabus:
+  - title: "Transforming Data with dplyr"
+    summary: |-
+      Learn verbs you can use to transform your data, including select,
+      filter, arrange, and mutate. You'll use these functions to modify
+      the counties dataset to view particular observations and answer
+      questions about the data.
+  - title: "Aggregating Data"
+    summary: |-
+      Now that you know how to transform your data, you'll want to know
+      more about how to aggregate your data to make it more interpretable.
+      You'll learn a number of functions you can use to take many
+      observations in your data and summarize them, including count,
+      group_by, summarize, ungroup, and slice_min/slice_max.
+  - title: "Selecting and Transforming Data"
+    summary: |-
+      Learn advanced methods to select and transform columns. Also, learn
+      about select helpers, which are functions that specify criteria for
+      columns you want to choose, as well as the rename verb.
+  - title: "Case Study: The babynames Dataset"
+    summary: |-
+      Work with a new dataset that represents the names of babies born in
+      the United States each year. Learn how to use grouped mutates and
+      window functions to ask and answer more complex questions about your
+      data. And use a combination of dplyr and ggplot2 to make interesting
+      graphs to further explore your data.

@@ -1,0 +1,97 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-unsupervised-learning-in-python-24401
+final_url: |-
+  https://www.classcentral.com/course/datacamp-unsupervised-learning-in-python-24401
+fetched_at: 2026-04-13T20:17:21.578Z
+title: "Unsupervised Learning in Python"
+provider: DataCamp
+summary: |-
+  Learn how to cluster, transform, visualize, and extract insights from
+  unlabeled datasets using scikit-learn and scipy.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider:
+    rating: 4.5
+    provider: DataCamp
+    rating_count: 81
+subjects:
+  - Python
+  - "Data Visualization"
+  - "Unsupervised Learning"
+  - "Recommender Systems"
+  - scikit-learn
+  - SciPy
+  - "Matrix Factorization"
+  - Clustering
+  - "Hierarchical Clustering"
+  - t-SNE
+  - "Dimension Reduction"
+overview: |-
+  Learn how to cluster, transform, visualize, and extract insights from
+  unlabeled datasets using scikit-learn and scipy.
+
+  Say you have a collection of customers with a variety of characteristics
+  such as age, location, and financial history, and you wish to discover
+  patterns and sort them into clusters. Or perhaps you have a set of texts,
+  such as Wikipedia pages, and you wish to segment them into categories based
+  on their content. This is the world of unsupervised learning, called as such
+  because you are not guiding, or supervising, the pattern discovery by some
+  prediction task, but instead uncovering hidden structure from unlabeled
+  data. Unsupervised learning encompasses a variety of techniques in machine
+  learning, from clustering to dimension reduction to matrix factorization. In
+  this course, you'll learn the fundamentals of unsupervised learning and
+  implement the essential algorithms using scikit-learn and SciPy. You will
+  learn how to cluster, transform, visualize, and extract insights from
+  unlabeled datasets, and end the course by building a recommender system to
+  recommend popular musical artists.
+
+  The videos contain live transcripts you can reveal by clicking "Show
+  transcript" at the bottom left of the videos.
+
+  The course glossary can be found on the right in the resources section.
+
+  To obtain CPE credits you need to complete the course and reach a score of
+  70% on the qualified assessment. You can navigate to the assessment by
+  clicking on the CPE credits callout on the right.
+syllabus:
+  - title: "Clustering for Dataset Exploration"
+    summary: |-
+      Learn how to discover the underlying groups (or "clusters") in a
+      dataset. By the end of this chapter, you'll be clustering companies
+      using their stock market prices, and distinguishing different
+      species by clustering their measurements.
+  - title: "Visualization with Hierarchical Clustering and t-SNE"
+    summary: |-
+      In this chapter, you'll learn about two unsupervised learning
+      techniques for data visualization, hierarchical clustering and
+      t-SNE. Hierarchical clustering merges the data samples into
+      ever-coarser clusters, yielding a tree visualization of the
+      resulting cluster hierarchy. t-SNE maps the data samples into 2d
+      space so that the proximity of the samples to one another can be
+      visualized.
+  - title: "Decorrelating Your Data and Dimension Reduction"
+    summary: |-
+      Dimension reduction summarizes a dataset using its common occuring
+      patterns. In this chapter, you'll learn about the most fundamental
+      of dimension reduction techniques, "Principal Component Analysis"
+      ("PCA"). PCA is often used before supervised learning to improve
+      model performance and generalization. It can also be useful for
+      unsupervised learning. For example, you'll employ a variant of PCA
+      will allow you to cluster Wikipedia articles by their content!
+  - title: "Discovering Interpretable Features"
+    summary: |-
+      In this chapter, you'll learn about a dimension reduction technique
+      called "Non-negative matrix factorization" ("NMF") that expresses
+      samples as combinations of interpretable parts. For example, it
+      expresses documents as combinations of topics, and images in terms
+      of commonly occurring visual patterns. You'll also learn to use NMF
+      to build recommender systems that can find you similar articles to
+      read, or musical artists that match your listening history!

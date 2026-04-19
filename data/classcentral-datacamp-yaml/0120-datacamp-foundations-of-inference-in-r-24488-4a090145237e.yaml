@@ -1,0 +1,90 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-foundations-of-inference-in-r-24488
+final_url: |-
+  https://www.classcentral.com/course/datacamp-foundations-of-inference-in-r-24488
+fetched_at: 2026-04-13T20:25:22.514Z
+title: "Foundations of Inference in R"
+provider: DataCamp
+summary: |-
+  Learn how to draw conclusions about a population from a sample of data via a
+  process known as statistical inference.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - "R Programming"
+  - "Hypothesis Testing"
+  - "Confidence Intervals"
+  - "Data Interpretation"
+  - "Statistical Inference"
+overview: |-
+  Introduction to ideas of inference
+
+  In this chapter, you will investigate how repeated samples taken from a
+  population can vary. It is the variability in samples that allow you to make
+  claims about the population of interest. It is important to remember that
+  the research claims of interest focus on the population while the
+  information available comes only from the sample data.
+
+  Completing a randomization test: gender discrimination
+
+  In this chapter, you will gain the tools and knowledge to complete a full
+  hypothesis test. That is, given a dataset, you will know whether or not is
+  appropriate to reject the null hypothesis in favor of the research claim of
+  interest.
+
+  Hypothesis testing errors: opportunity cost
+
+  You will continue learning about hypothesis testing with a new example and
+  the same structure of randomization tests. In this chapter, however, the
+  focus will be on different errors (type I and type II), how they are made,
+  when one is worse than another, and how things like sample size and effect
+  size impact the error rates.
+
+  Confidence intervals
+
+  As a complement to hypothesis testing, confidence intervals allow you to
+  estimate a population parameter. Recall that your interest is always in some
+  characteristic of the population, but you only have incomplete information
+  to estimate the parameter using sample data. Here, the parameter is the true
+  proportion of successes in a population. Bootstrapping is used to estimate
+  the variability needed to form the confidence interval.
+syllabus:
+  - title: "Introduction to ideas of inference"
+    summary: |-
+      In this chapter, you will investigate how repeated samples taken
+      from a population can vary. It is the variability in samples that
+      allow you to make claims about the population of interest. It is
+      important to remember that the research claims of interest focus on
+      the population while the information available comes only from the
+      sample data.
+  - title: "Completing a randomization test: gender discrimination"
+    summary: |-
+      In this chapter, you will gain the tools and knowledge to complete a
+      full hypothesis test. That is, given a dataset, you will know
+      whether or not is appropriate to reject the null hypothesis in favor
+      of the research claim of interest.
+  - title: "Hypothesis testing errors: opportunity cost"
+    summary: |-
+      You will continue learning about hypothesis testing with a new
+      example and the same structure of randomization tests. In this
+      chapter, however, the focus will be on different errors (type I and
+      type II), how they are made, when one is worse than another, and how
+      things like sample size and effect size impact the error rates.
+  - title: "Confidence intervals"
+    summary: |-
+      As a complement to hypothesis testing, confidence intervals allow
+      you to estimate a population parameter. Recall that your interest is
+      always in some characteristic of the population, but you only have
+      incomplete information to estimate the parameter using sample data.
+      Here, the parameter is the true proportion of successes in a
+      population. Bootstrapping is used to estimate the variability needed
+      to form the confidence interval.

@@ -1,0 +1,80 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-survival-analysis-in-r-24610
+final_url: |-
+  https://www.classcentral.com/course/datacamp-survival-analysis-in-r-24610
+fetched_at: 2026-04-13T20:36:32.448Z
+title: "Survival Analysis in R"
+provider: DataCamp
+summary: |-
+  Learn to work with time-to-event data. The event may be death or finding a
+  job after unemployment. Learn to estimate, visualize, and interpret survival
+  models!
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider:
+    rating: 4.3
+    provider: DataCamp
+    rating_count: 15
+subjects:
+  - "R Programming"
+  - "Data Visualization"
+  - "Survival Analysis"
+overview: |-
+  What is Survival Analysis?
+
+  In the first chapter, we introduce the concept of survival analysis, explain
+  the importance of this topic, and provide a quick introduction to the theory
+  behind survival curves. We discuss why special methods are needed when
+  dealing with time-to-event data and introduce the concept of censoring. We
+  also discuss how we describe the distribution of the elapsed time until an
+  event.
+
+  Estimation of survival curves
+
+  In this chapter, we will look into different methods of estimating survival
+  curves. We will discuss the Kaplan-Meier estimate and the Weibull model as
+  tools for survival curve estimation and learn how to communicate those
+  results through visualization.
+
+  The Weibull model
+
+  In this chapter, we will learn how to estimate and visualize a Weibull model
+  to learn about the effects of covariates on the time-to-event outcome.
+
+  The Cox Model
+
+  In the last chapter, we learn how to compute and interpret Cox models to
+  understand why they are useful and how they differ from Weibull models.
+syllabus:
+  - title: "What is Survival Analysis?"
+    summary: |-
+      In the first chapter, we introduce the concept of survival analysis,
+      explain the importance of this topic, and provide a quick
+      introduction to the theory behind survival curves. We discuss why
+      special methods are needed when dealing with time-to-event data and
+      introduce the concept of censoring. We also discuss how we describe
+      the distribution of the elapsed time until an event.
+  - title: "Estimation of survival curves"
+    summary: |-
+      In this chapter, we will look into different methods of estimating
+      survival curves. We will discuss the Kaplan-Meier estimate and the
+      Weibull model as tools for survival curve estimation and learn how
+      to communicate those results through visualization.
+  - title: "The Weibull model"
+    summary: |-
+      In this chapter, we will learn how to estimate and visualize a
+      Weibull model to learn about the effects of covariates on the
+      time-to-event outcome.
+  - title: "The Cox Model"
+    summary: |-
+      In the last chapter, we learn how to compute and interpret Cox
+      models to understand why they are useful and how they differ from
+      Weibull models.

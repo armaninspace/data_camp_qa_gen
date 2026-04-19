@@ -1,0 +1,88 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-credit-risk-modeling-in-python-24558
+final_url: |-
+  https://www.classcentral.com/course/datacamp-credit-risk-modeling-in-python-24558
+fetched_at: 2026-04-13T20:31:45.498Z
+title: "Credit Risk Modeling in Python"
+provider: DataCamp
+summary: |-
+  Learn how to prepare credit application data, apply machine learning and
+  business rules to reduce risk and ensure profitability.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - Python
+  - "Machine Learning"
+  - "Data Preparation"
+  - "Logistic Regression"
+  - "Model Evaluation"
+  - XGBoost
+overview: |-
+  Exploring and Preparing Loan Data
+
+  In this first chapter, we will discuss the concept of credit risk and define
+  how it is calculated. Using cross tables and plots, we will explore a
+  real-world data set. Before applying machine learning, we will process this
+  data by finding and resolving problems.
+
+  Logistic Regression for Defaults
+
+  With the loan data fully prepared, we will discuss the logistic regression
+  model which is a standard in risk modeling. We will understand the
+  components of this model as well as how to score its performance. Once we've
+  created predictions, we can explore the financial impact of utilizing this
+  model.
+
+  Gradient Boosted Trees Using XGBoost
+
+  Decision trees are another standard credit risk model. We will go beyond
+  decision trees by using the trendy XGBoost package in Python to create
+  gradient boosted trees. After developing sophisticated models, we will
+  stress test their performance and discuss column selection in unbalanced
+  data.
+
+  Model Evaluation and Implementation
+
+  After developing and testing two powerful machine learning models, we use
+  key performance metrics to compare them. Using advanced model selection
+  techniques specifically for financial modeling, we will select one model.
+  With that model, we will: develop a business strategy, estimate portfolio
+  value, and minimize expected loss.
+syllabus:
+  - title: "Exploring and Preparing Loan Data"
+    summary: |-
+      In this first chapter, we will discuss the concept of credit risk
+      and define how it is calculated. Using cross tables and plots, we
+      will explore a real-world data set. Before applying machine
+      learning, we will process this data by finding and resolving
+      problems.
+  - title: "Logistic Regression for Defaults"
+    summary: |-
+      With the loan data fully prepared, we will discuss the logistic
+      regression model which is a standard in risk modeling. We will
+      understand the components of this model as well as how to score its
+      performance. Once we've created predictions, we can explore the
+      financial impact of utilizing this model.
+  - title: "Gradient Boosted Trees Using XGBoost"
+    summary: |-
+      Decision trees are another standard credit risk model. We will go
+      beyond decision trees by using the trendy XGBoost package in Python
+      to create gradient boosted trees. After developing sophisticated
+      models, we will stress test their performance and discuss column
+      selection in unbalanced data.
+  - title: "Model Evaluation and Implementation"
+    summary: |-
+      After developing and testing two powerful machine learning models,
+      we use key performance metrics to compare them. Using advanced model
+      selection techniques specifically for financial modeling, we will
+      select one model. With that model, we will: develop a business
+      strategy, estimate portfolio value, and minimize expected loss.

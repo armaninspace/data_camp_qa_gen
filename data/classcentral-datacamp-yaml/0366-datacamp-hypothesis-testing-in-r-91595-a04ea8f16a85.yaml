@@ -1,0 +1,91 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-hypothesis-testing-in-r-91595
+final_url: |-
+  https://www.classcentral.com/course/datacamp-hypothesis-testing-in-r-91595
+fetched_at: 2026-04-13T20:47:45.056Z
+title: "Hypothesis Testing in R"
+provider: DataCamp
+summary: |-
+  Learn how and when to use hypothesis testing in R, including t-tests,
+  proportion tests, and chi-square tests.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider:
+    rating: 4.2
+    provider: DataCamp
+    rating_count: 34
+subjects:
+  - "R Programming"
+  - "Data Analysis"
+  - "Hypothesis Testing"
+  - "Statistical Analysis"
+  - "Non-Parametric Tests"
+  - t-tests
+  - ANOVA
+overview: |-
+  Learn how and when to use hypothesis testing in R, including t-tests,
+  proportion tests, and chi-square tests.
+
+  Discover Hypothesis Testing in R
+
+  Hypothesis testing lets you ask questions about your datasets and answer
+  them in a statistically rigorous way. In this course, you'll learn how and
+  when to use common tests like t-tests, proportion tests, and chi-square
+  tests.
+
+  You'll gain a deep understanding of how they work and the assumptions that
+  underlie them. You'll also learn how different hypothesis tests are related
+  using the ""There is only one test"" framework and use non-parametric tests
+  that let you sidestep the requirements of traditional hypothesis tests.
+
+  Learn About T-Tests and Chi-Square Tests
+
+  You’ll start by learning why hypothesis testing in R is useful while
+  examining some key concepts as you go. You’ll also learn how t-tests can
+  help you test for differences in means between two groups and how chi-square
+  tests can help you compare observed results with expected results.
+
+  Understand the Relationships Between R Hypothesis Tests
+
+  As you progress, you’ll discover the relationships between different tests,
+  exploring elements of randomness, independence of observation, and sample
+  sizes.
+
+  By the time you finish this course, you’ll have a deeper understanding of
+  hypothesis testing in R and when it’s appropriate to use specific tests on
+  your data.
+
+  Throughout the course, you'll explore a Stack Overflow user survey and a
+  dataset of late shipments of medical supplies."
+syllabus:
+  - title: "Introduction to Hypothesis Testing"
+    summary: |-
+      Learn why hypothesis testing is useful, and step through the
+      workflow for a one sample proportion test. In doing so, you'll
+      encounter important concepts like z-scores, p-p-values, and false
+      negative and false positive errors. The Stack Overflow survey and
+      late medical shipments datasets are introduced.
+  - title: "Two-Sample and ANOVA Tests"
+    summary: |-
+      Learn how to test for differences in means between two groups using
+      t-tests, and how to extend this to more than two groups using ANOVA
+      and pairwise t-tests.
+  - title: "Proportion Tests"
+    summary: |-
+      Learn how to test for differences in proportions between two groups
+      using proportion tests, extended it to more than two groups with
+      chi-square independence tests, and return to the one sample case
+      with chi-square goodness of fit tests.
+  - title: "Non-Parametric Tests"
+    summary: |-
+      Learn about the assumptions made by parametric hypothesis tests and
+      see how simulation-based and rank-based non-parametric tests can be
+      used when those assumptions aren't met.

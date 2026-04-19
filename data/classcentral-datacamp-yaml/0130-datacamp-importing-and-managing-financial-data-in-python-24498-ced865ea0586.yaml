@@ -1,0 +1,102 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-importing-and-managing-financial-data-in-python-24498
+final_url: |-
+  https://www.classcentral.com/course/datacamp-importing-and-managing-financial-data-in-python-24498
+fetched_at: 2026-04-13T20:26:16.530Z
+title: "Importing and Managing Financial Data in Python"
+provider: DataCamp
+summary: |-
+  In this course, you'll learn how to import and manage financial data in
+  Python using various tools and sources.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "5 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider:
+    rating: 4.8
+    provider: DataCamp
+    rating_count: 11
+subjects:
+  - Python
+  - "Data Visualization"
+  - Seaborn
+  - pandas
+  - "Data Aggregation"
+overview: |-
+  Importing stock listing data from Excel
+
+  In this chapter, you will learn how to import, clean and combine data from
+  Excel workbook sheets into a pandas DataFrame. You will also practice
+  grouping data, summarizing information for categories, and visualizing the
+  result using subplots and heatmaps.
+
+  You will use data on companies listed on the stock exchanges NASDAQ, NYSE,
+  and AMEX with information on company name, stock symbol, last market
+  capitalization and price, sector or industry group, and IPO year. In Chapter
+  2, you will build on this data to download and analyze stock price history
+  for some of these companies.
+
+  Importing financial data from the web
+
+  This chapter introduces online data access to Google Finance and the Federal
+  Reserve Data Service through the `pandas` `DataReader`. You will pull data,
+  perform basic manipulations, combine data series, and visualize the results.
+
+  Summarizing your data and visualizing the result
+
+  In this chapter, you will learn how to capture key characteristics of
+  individual variables in simple metrics. As a result, it will be easier to
+  understand the distribution of the variables in your data set: Which values
+  are central to, or typical of your data? Is your data widely dispersed, or
+  rather narrowly distributed around some mid point? Are there outliers? What
+  does the overall distribution look like?
+
+  Aggregating and describing your data by category
+
+  This chapter introduces the ability to group data by one or more categorical
+  variables, and to calculate and visualize summary statistics for each
+  caategory. In the process, you will learn to compare company statistics for
+  different sectors and IPO vintages, analyze the global income distribution
+  over time, and learn how to create various statistical charts from the
+  seaborn library.
+syllabus:
+  - title: "Importing stock listing data from Excel"
+    summary: |-
+      In this chapter, you will learn how to import, clean and combine
+      data from Excel workbook sheets into a pandas DataFrame. You will
+      also practice grouping data, summarizing information for categories,
+      and visualizing the result using subplots and heatmaps. You will use
+      data on companies listed on the stock exchanges NASDAQ, NYSE, and
+      AMEX with information on company name, stock symbol, last market
+      capitalization and price, sector or industry group, and IPO year. In
+      Chapter 2, you will build on this data to download and analyze stock
+      price history for some of these companies.
+  - title: "Importing financial data from the web"
+    summary: |-
+      This chapter introduces online data access to Google Finance and the
+      Federal Reserve Data Service through the `pandas` `DataReader`. You
+      will pull data, perform basic manipulations, combine data series,
+      and visualize the results.
+  - title: "Summarizing your data and visualizing the result"
+    summary: |-
+      In this chapter, you will learn how to capture key characteristics
+      of individual variables in simple metrics. As a result, it will be
+      easier to understand the distribution of the variables in your data
+      set: Which values are central to, or typical of your data? Is your
+      data widely dispersed, or rather narrowly distributed around some
+      mid point? Are there outliers? What does the overall distribution
+      look like?
+  - title: "Aggregating and describing your data by category"
+    summary: |-
+      This chapter introduces the ability to group data by one or more
+      categorical variables, and to calculate and visualize summary
+      statistics for each caategory. In the process, you will learn to
+      compare company statistics for different sectors and IPO vintages,
+      analyze the global income distribution over time, and learn how to
+      create various statistical charts from the seaborn library.

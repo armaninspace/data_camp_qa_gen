@@ -1,0 +1,95 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-forecasting-product-demand-in-r-24679
+final_url: |-
+  https://www.classcentral.com/course/datacamp-forecasting-product-demand-in-r-24679
+fetched_at: 2026-04-13T20:42:44.147Z
+title: "Forecasting Product Demand in R"
+provider: DataCamp
+summary: |-
+  Learn how to identify important drivers of demand, look at seasonal effects,
+  and predict demand for a hierarchy of products from a real world example.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - "R Programming"
+  - "Time Series Analysis"
+  - "Regression Analysis"
+  - "Demand Forecasting"
+  - "Price Elasticity"
+  - "ARIMA Models"
+overview: |-
+  Forecasting Demand With Time Series
+
+  When it comes to forecasting, time series modeling is a great place to
+  start! You need to forecast out the future values of sales demand and a good
+  baseline approach would be ARIMA models. In this chapter you'll learn how to
+  quickly implement ARIMA models and get good initial forecasts for future
+  product demand.
+
+  Components of Demand
+
+  Economic theory has a lot to say about predicting values of demand.
+  Obviously, external factors like price, seasonality, and timing of
+  promotions will drive some aspects of product demand. In this chapter you'll
+  learn about the basics around price elasticity models and how to incorporate
+  seasonality and promotion timing factors into our product demand forecasts.
+
+  Blending Regression With Time Series
+
+  Time series models and pricing regressions don't have to be thought of as
+  separate approaches to product demand forecasting. They can be combined! In
+  this chapter you'll learn about two ways of "combining" the information
+  gained in both modeling approaches - transfer functions and forecast
+  ensembling.
+
+  Hierarchical Forecasting
+
+  Everything up until this point deals with making individual models for
+  forecasting product demand. However, we haven't taken advantage of the fact
+  that all of these products form a product hierarchy of sales. Products make
+  up regions and regions make up states. How can we ensure that our forecasts
+  reconcile correctly up and down the hierarchy? In this chapter you'll learn
+  about hierarchical forecasting and how to use it to your advantage in
+  forecasting product demand.
+syllabus:
+  - title: "Forecasting Demand With Time Series"
+    summary: |-
+      When it comes to forecasting, time series modeling is a great place
+      to start! You need to forecast out the future values of sales demand
+      and a good baseline approach would be ARIMA models. In this chapter
+      you'll learn how to quickly implement ARIMA models and get good
+      initial forecasts for future product demand.
+  - title: "Components of Demand"
+    summary: |-
+      Economic theory has a lot to say about predicting values of demand.
+      Obviously, external factors like price, seasonality, and timing of
+      promotions will drive some aspects of product demand. In this
+      chapter you'll learn about the basics around price elasticity models
+      and how to incorporate seasonality and promotion timing factors into
+      our product demand forecasts.
+  - title: "Blending Regression With Time Series"
+    summary: |-
+      Time series models and pricing regressions don't have to be thought
+      of as separate approaches to product demand forecasting. They can be
+      combined! In this chapter you'll learn about two ways of "combining"
+      the information gained in both modeling approaches - transfer
+      functions and forecast ensembling.
+  - title: "Hierarchical Forecasting"
+    summary: |-
+      Everything up until this point deals with making individual models
+      for forecasting product demand. However, we haven't taken advantage
+      of the fact that all of these products form a product hierarchy of
+      sales. Products make up regions and regions make up states. How can
+      we ensure that our forecasts reconcile correctly up and down the
+      hierarchy? In this chapter you'll learn about hierarchical
+      forecasting and how to use it to your advantage in forecasting
+      product demand.

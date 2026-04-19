@@ -1,0 +1,78 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-introduction-to-linear-modeling-in-python-24529
+final_url: |-
+  https://www.classcentral.com/course/datacamp-introduction-to-linear-modeling-in-python-24529
+fetched_at: 2026-04-13T20:29:07.962Z
+title: "Introduction to Linear Modeling in Python"
+provider: DataCamp
+summary: |-
+  Explore the concepts and applications of linear models with python and build
+  models to describe, predict, and extract insight from data patterns.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - Python
+  - "Data Visualization"
+  - NumPy
+  - scikit-learn
+  - "Taylor Series"
+  - "Descriptive Statistics"
+  - Correlation
+  - Statsmodels
+overview: |-
+  Explore the concepts and applications of linear models with python and build
+  models to describe, predict, and extract insight from data patterns.
+
+  One of the primary goals of any scientist is to find patterns in data and
+  build models to describe, predict, and extract insight from those patterns.
+  The most fundamental of these patterns is a linear relationship between two
+  variables. This course provides an introduction to exploring, quantifying,
+  and modeling linear relationships in data, by demonstrating techniques such
+  as least-squares, linear regression, estimatation, and bootstrap resampling.
+  Here you will apply the most powerful modeling tools in the python data
+  science ecosystem, including scipy, statsmodels, and scikit-learn, to build
+  and evaluate linear models. By exploring the concepts and applications of
+  linear models with python, this course serves as both a practical
+  introduction to modeling, and as a foundation for learning more advanced
+  modeling techniques and tools in statistics and machine learning.
+syllabus:
+  - title: "Exploring Linear Trends"
+    summary: |-
+      We start the course with an initial exploration of linear
+      relationships, including some motivating examples of how linear
+      models are used, and demonstrations of data visualization methods
+      from matplotlib. We then use descriptive statistics to quantify the
+      shape of our data and use correlation to quantify the strength of
+      linear relationships between two variables.
+  - title: "Building Linear Models"
+    summary: |-
+      Here we look at the parts that go into building a linear model.
+      Using the concept of a Taylor Series, we focus on the parameters
+      slope and intercept, how they define the model, and how to interpret
+      the them in several applied contexts. We apply a variety of python
+      modules to find the model that best fits the data, by computing the
+      optimal values of slope and intercept, using least-squares, numpy,
+      statsmodels, and scikit-learn.
+  - title: "Making Model Predictions"
+    summary: |-
+      Next we will apply models to real data and make predictions. We will
+      explore some of the most common pit-falls and limitations of
+      predictions, and we evaluate and compare models by quantifying and
+      contrasting several measures of goodness-of-fit, including RMSE and
+      R-squared.
+  - title: "Estimating Model Parameters"
+    summary: |-
+      In our final chapter, we introduce concepts from inferential
+      statistics, and use them to explore how maximum likelihood
+      estimation and bootstrap resampling can be used to estimate linear
+      model parameters. We then apply these methods to make probabilistic
+      statements about our confidence in the model parameters.

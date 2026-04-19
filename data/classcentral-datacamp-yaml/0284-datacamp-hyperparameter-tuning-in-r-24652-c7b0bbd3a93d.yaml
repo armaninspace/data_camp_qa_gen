@@ -1,0 +1,93 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-hyperparameter-tuning-in-r-24652
+final_url: |-
+  https://www.classcentral.com/course/datacamp-hyperparameter-tuning-in-r-24652
+fetched_at: 2026-04-13T20:40:22.334Z
+title: "Hyperparameter Tuning in R"
+provider: DataCamp
+summary: |-
+  Learn how to tune your model's hyperparameters to get the best predictive
+  results.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - "Hyperparameter Optimization"
+  - "Machine Learning"
+  - "R Programming"
+  - "Supervised Learning"
+  - AutoML
+  - "Random Forests"
+  - "Hyperparameter Tuning"
+overview: |-
+  Introduction to hyperparameters
+
+  Why do we use the strange word "hyperparameter"? What makes it hyper? Here,
+  you will understand what model parameters are, and why they are different
+  from hyperparameters in machine learning. You will then see why we would
+  want to tune them and how the default setting of caret automatically
+  includes hyperparameter tuning.
+
+  Hyperparameter tuning with caret
+
+  In this chapter, you will learn how to tune hyperparameters with a Cartesian
+  grid. Then, you will implement faster and more efficient approaches. You
+  will use Random Search and adaptive resampling to tune the parameter grid,
+  in a way that concentrates on values in the neighborhood of the optimal
+  settings.
+
+  Hyperparameter tuning with mlr
+
+  Here, you will use another package for machine learning that has very
+  convenient hyperparameter tuning functions. You will define a Cartesian grid
+  or perform Random Search, as well as advanced techniques. You will also
+  learn different ways to plot and evaluate models with different
+  hyperparameters.
+
+  Hyperparameter tuning with h2o
+
+  In this final chapter, you will use h2o, another package for machine
+  learning with very convenient hyperparameter tuning functions. You will use
+  it to train different models and define a Cartesian grid. Then, You will
+  implement a Random Search use stopping criteria. Finally, you will learn
+  AutoML, an h2o interface which allows for very fast and convenient model and
+  hyperparameter tuning with just one function.
+syllabus:
+  - title: "Introduction to hyperparameters"
+    summary: |-
+      Why do we use the strange word "hyperparameter"? What makes it
+      hyper? Here, you will understand what model parameters are, and why
+      they are different from hyperparameters in machine learning. You
+      will then see why we would want to tune them and how the default
+      setting of caret automatically includes hyperparameter tuning.
+  - title: "Hyperparameter tuning with caret"
+    summary: |-
+      In this chapter, you will learn how to tune hyperparameters with a
+      Cartesian grid. Then, you will implement faster and more efficient
+      approaches. You will use Random Search and adaptive resampling to
+      tune the parameter grid, in a way that concentrates on values in the
+      neighborhood of the optimal settings.
+  - title: "Hyperparameter tuning with mlr"
+    summary: |-
+      Here, you will use another package for machine learning that has
+      very convenient hyperparameter tuning functions. You will define a
+      Cartesian grid or perform Random Search, as well as advanced
+      techniques. You will also learn different ways to plot and evaluate
+      models with different hyperparameters.
+  - title: "Hyperparameter tuning with h2o"
+    summary: |-
+      In this final chapter, you will use h2o, another package for machine
+      learning with very convenient hyperparameter tuning functions. You
+      will use it to train different models and define a Cartesian grid.
+      Then, You will implement a Random Search use stopping criteria.
+      Finally, you will learn AutoML, an h2o interface which allows for
+      very fast and convenient model and hyperparameter tuning with just
+      one function.

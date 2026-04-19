@@ -1,0 +1,93 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-dimensionality-reduction-in-r-157473
+final_url: |-
+  https://www.classcentral.com/course/datacamp-dimensionality-reduction-in-r-157473
+fetched_at: 2026-04-13T20:56:37.794Z
+title: "Dimensionality Reduction in R"
+provider: DataCamp
+summary: |-
+  Learn dimensionality reduction techniques in R and master feature selection
+  and extraction for your own data and models.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - "Dimensionality Reduction"
+  - "Data Science"
+  - "Feature Extraction"
+  - "Data Modeling"
+  - "Feature Selection"
+  - "Principal Component Analysis"
+  - t-SNE
+  - tidymodels
+  - UMAP
+overview: |-
+  Learn dimensionality reduction techniques in R and master feature selection
+  and extraction for your own data and models.
+
+  Do you ever work with datasets with an overwhelming number of features? Do
+  you need all those features? Which ones are the most important? In this
+  course, you will learn dimensionality reduction techniques that will help
+  you simplify your data and the models that you build with your data while
+  maintaining the information in the original data and good predictive
+  performance.
+
+  Why learn dimensionality reduction?
+
+  We live in the information age—an era of information overload. The art of
+  extracting essential information from data is a marketable skill. Models
+  train faster on reduced data. In production, smaller models mean faster
+  response time. Perhaps most important, smaller data and models are often
+  easier to understand. Dimensionality reduction is your Occam’s razor in data
+  science.
+
+  What will you learn in this course?
+
+  The difference between feature selection and feature extraction! Using R,
+  you will learn how to identify and remove features with low or redundant
+  information, keeping the features with the most information. That’s feature
+  selection. You will also learn how to extract combinations of features as
+  condensed components that contain maximal information. That’s feature
+  extraction!
+
+  But most importantly, using R’s new tidymodel package, you will use
+  real-world data to build models with fewer features without sacrificing
+  significant performance.
+syllabus:
+  - title: "Foundations of Dimensionality Reduction"
+    summary: |-
+      Prepare to simplify large data sets! You will learn about
+      information, how to assess feature importance, and practice
+      identifying low-information features. By the end of the chapter, you
+      will understand the difference between feature selection and feature
+      extraction—the two approaches to dimensionality reduction.
+  - title: "Feature Selection for Feature Importance"
+    summary: |-
+      Learn how to identify information-rich and information-poor features
+      missing value ratios, variance, and correlation. Then you'll
+      discover how to build tidymodel recipes to select features using
+      these information indicators.
+  - title: "Feature Selection for Model Performance"
+    summary: |-
+      Chapter three introduces the difference between unsupervised and
+      supervised feature selection approaches. You'll review how to use
+      tidymodels workflows to build models. Then, you'll perform
+      supervised feature selection using lasso regression and random
+      forest models.
+  - title: "Feature Extraction and Model Performance"
+    summary: |-
+      In this final chapter, you'll gain a strong intuition of feature
+      extraction by understanding how principal components extract and
+      combine the most important information from different features. Then
+      learn about and apply three types of feature extraction — principal
+      component analysis (PCA), t-SNE, and UMAP. Discover how you can use
+      these feature extraction methods as a preprocessing step in the
+      tidymodels model-building process.

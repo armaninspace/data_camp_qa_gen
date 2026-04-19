@@ -1,0 +1,91 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-feature-engineering-for-machine-learning-in-python-24474
+final_url: |-
+  https://www.classcentral.com/course/datacamp-feature-engineering-for-machine-learning-in-python-24474
+fetched_at: 2026-04-13T20:24:04.828Z
+title: "Feature Engineering for Machine Learning in Python"
+provider: DataCamp
+summary: |-
+  Create new features to improve the performance of your Machine Learning
+  models.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - Python
+  - "Machine Learning"
+  - pandas
+  - "Data Preprocessing"
+  - "Categorical data"
+  - "Unstructured Data"
+  - "Feature Engineering"
+overview: |-
+  Creating Features
+
+  In this chapter, you will explore what feature engineering is and how to get
+  started with applying it to real-world data. You will load, explore and
+  visualize a survey response dataset, and in doing so you will learn about
+  its underlying data types and why they have an influence on how you should
+  engineer your features. Using the pandas package you will create new
+  features from both categorical and continuous columns.
+
+  Dealing with Messy Data
+
+  This chapter introduces you to the reality of messy and incomplete data. You
+  will learn how to find where your data has missing values and explore
+  multiple approaches on how to deal with them. You will also use string
+  manipulation techniques to deal with unwanted characters in your dataset.
+
+  Conforming to Statistical Assumptions
+
+  In this chapter, you will focus on analyzing the underlying distribution of
+  your data and whether it will impact your machine learning pipeline. You
+  will learn how to deal with skewed data and situations where outliers may be
+  negatively impacting your analysis.
+
+  Dealing with Text Data
+
+  Finally, in this chapter, you will work with unstructured text data,
+  understanding ways in which you can engineer columnar features out of a text
+  corpus. You will compare how different approaches may impact how much
+  context is being extracted from a text, and how to balance the need for
+  context, without too many features being created.
+syllabus:
+  - title: "Creating Features"
+    summary: |-
+      In this chapter, you will explore what feature engineering is and
+      how to get started with applying it to real-world data. You will
+      load, explore and visualize a survey response dataset, and in doing
+      so you will learn about its underlying data types and why they have
+      an influence on how you should engineer your features. Using the
+      pandas package you will create new features from both categorical
+      and continuous columns.
+  - title: "Dealing with Messy Data"
+    summary: |-
+      This chapter introduces you to the reality of messy and incomplete
+      data. You will learn how to find where your data has missing values
+      and explore multiple approaches on how to deal with them. You will
+      also use string manipulation techniques to deal with unwanted
+      characters in your dataset.
+  - title: "Conforming to Statistical Assumptions"
+    summary: |-
+      In this chapter, you will focus on analyzing the underlying
+      distribution of your data and whether it will impact your machine
+      learning pipeline. You will learn how to deal with skewed data and
+      situations where outliers may be negatively impacting your analysis.
+  - title: "Dealing with Text Data"
+    summary: |-
+      Finally, in this chapter, you will work with unstructured text data,
+      understanding ways in which you can engineer columnar features out
+      of a text corpus. You will compare how different approaches may
+      impact how much context is being extracted from a text, and how to
+      balance the need for context, without too many features being
+      created.

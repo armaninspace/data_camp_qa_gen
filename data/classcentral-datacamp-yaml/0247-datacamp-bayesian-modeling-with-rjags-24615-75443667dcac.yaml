@@ -1,0 +1,93 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-bayesian-modeling-with-rjags-24615
+final_url: |-
+  https://www.classcentral.com/course/datacamp-bayesian-modeling-with-rjags-24615
+fetched_at: 2026-04-13T20:36:59.255Z
+title: "Bayesian Modeling with RJAGS"
+provider: DataCamp
+summary: |-
+  In this course, you'll learn how to implement more advanced Bayesian models
+  using RJAGS.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Advanced
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - "Bayesian Statistics"
+  - "Statistics & Probability"
+  - "Bayesian Inference"
+  - "Markov Chains"
+overview: |-
+  Introduction to Bayesian Modeling
+
+  Bayesian models combine prior insights with insights from observed data to
+  form updated, posterior insights about a parameter. In this chapter, you
+  will review these Bayesian concepts in the context of the foundational
+  Beta-Binomial model for a proportion parameter. You will also learn how to
+  use the rjags package to define, compile, and simulate this model in R.
+
+  Bayesian Models & Markov Chains
+
+  The two-parameter Normal-Normal Bayesian model provides a simple foundation
+  for Normal regression models. In this chapter, you will engineer the
+  Normal-Normal and define, compile, and simulate this model using rjags. You
+  will also explore the magic of the Markov chain mechanics behind rjags
+  simulation.
+
+  Bayesian Inference & Prediction
+
+  In this chapter, you will extend the Normal-Normal model to a simple
+  Bayesian regression model. Within this context, you will explore how to use
+  rjags simulation output to conduct posterior inference. Specifically, you
+  will construct posterior estimates of regression parameters using posterior
+  means & credible intervals, you will test hypotheses using posterior
+  probabilities, and you will construct posterior predictive distributions for
+  new observations.
+
+  Multivariate & Generalized Linear Models
+
+  In this final chapter, you will generalize the simple Normal regression
+  model for application in broader contexts. You will incorporate categorical
+  predictors, engineer a multivariate regression model with two predictors,
+  and finally extend this methodology to Poisson multivariate regression
+  models for count variables.
+syllabus:
+  - title: "Introduction to Bayesian Modeling"
+    summary: |-
+      Bayesian models combine prior insights with insights from observed
+      data to form updated, posterior insights about a parameter. In this
+      chapter, you will review these Bayesian concepts in the context of
+      the foundational Beta-Binomial model for a proportion parameter. You
+      will also learn how to use the rjags package to define, compile, and
+      simulate this model in R.
+  - title: "Bayesian Models & Markov Chains"
+    summary: |-
+      The two-parameter Normal-Normal Bayesian model provides a simple
+      foundation for Normal regression models. In this chapter, you will
+      engineer the Normal-Normal and define, compile, and simulate this
+      model using rjags. You will also explore the magic of the Markov
+      chain mechanics behind rjags simulation.
+  - title: "Bayesian Inference & Prediction"
+    summary: |-
+      In this chapter, you will extend the Normal-Normal model to a simple
+      Bayesian regression model. Within this context, you will explore how
+      to use rjags simulation output to conduct posterior inference.
+      Specifically, you will construct posterior estimates of regression
+      parameters using posterior means & credible intervals, you will test
+      hypotheses using posterior probabilities, and you will construct
+      posterior predictive distributions for new observations.
+  - title: "Multivariate & Generalized Linear Models"
+    summary: |-
+      In this final chapter, you will generalize the simple Normal
+      regression model for application in broader contexts. You will
+      incorporate categorical predictors, engineer a multivariate
+      regression model with two predictors, and finally extend this
+      methodology to Poisson multivariate regression models for count
+      variables.

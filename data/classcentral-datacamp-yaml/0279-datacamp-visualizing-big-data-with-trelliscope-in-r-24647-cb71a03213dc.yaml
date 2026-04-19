@@ -1,0 +1,89 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-visualizing-big-data-with-trelliscope-in-r-24647
+final_url: |-
+  https://www.classcentral.com/course/datacamp-visualizing-big-data-with-trelliscope-in-r-24647
+fetched_at: 2026-04-13T20:39:56.233Z
+title: "Visualizing Big Data with Trelliscope in R"
+provider: DataCamp
+summary: "Learn how to visualize big data in R using ggplot2 and trelliscopejs."
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - "R Programming"
+  - "Data Analysis"
+  - Tidyverse
+  - "Exploratory Data Analysis"
+  - ggplot2
+overview: |-
+  General strategies for visualizing big data
+
+  Learn different strategies for plotting big data using ggplot2, including
+  calculating and plotting summary statistics, various techniques to deal with
+  overplotting, and principles of small multiples with faceting, which leads
+  into Trelliscope.
+
+  ggplot2 + TrelliscopeJS
+
+  In the previous chapter you saw how faceting can be used as a powerful
+  technique for visualizing a lot of data that can be naturally partitioned in
+  some meaningful way. Now, using the trelliscopejs package with ggplot2, you
+  will learn how to create faceted visualizations when the number of
+  partitions in the data becomes too large to effectively view in a single
+  screen.
+
+  Trelliscope in the Tidyverse
+
+  The ggplot2 + trelliscopejs interface is easy to use, but trelliscopejs also
+  provides a faceted plotting mechanism that gives you much more flexibility
+  in what plotting system you use and how to specify cognostics. You will
+  learn all about that in this chapter!
+
+  Case Study: Exploring Montreal BIXI Bike Data
+
+  The Montreal BIXI bike network provides open data for every bike ride,
+  including the date, time, duration, and start and end stations of the ride.
+  In this chapter, you will analyze data from over 4 million bike rides in
+  2017, going between 546 stations. There are many interesting exploratory
+  questions to ask from this data and you will create exploratory
+  visualizations ranging from summary statistics to detailed Trelliscope
+  visualizations that will give you interesting insight into the data.
+syllabus:
+  - title: "General strategies for visualizing big data"
+    summary: |-
+      Learn different strategies for plotting big data using ggplot2,
+      including calculating and plotting summary statistics, various
+      techniques to deal with overplotting, and principles of small
+      multiples with faceting, which leads into Trelliscope.
+  - title: "ggplot2 + TrelliscopeJS"
+    summary: |-
+      In the previous chapter you saw how faceting can be used as a
+      powerful technique for visualizing a lot of data that can be
+      naturally partitioned in some meaningful way. Now, using the
+      trelliscopejs package with ggplot2, you will learn how to create
+      faceted visualizations when the number of partitions in the data
+      becomes too large to effectively view in a single screen.
+  - title: "Trelliscope in the Tidyverse"
+    summary: |-
+      The ggplot2 + trelliscopejs interface is easy to use, but
+      trelliscopejs also provides a faceted plotting mechanism that gives
+      you much more flexibility in what plotting system you use and how to
+      specify cognostics. You will learn all about that in this chapter!
+  - title: "Case Study: Exploring Montreal BIXI Bike Data"
+    summary: |-
+      The Montreal BIXI bike network provides open data for every bike
+      ride, including the date, time, duration, and start and end stations
+      of the ride. In this chapter, you will analyze data from over 4
+      million bike rides in 2017, going between 546 stations. There are
+      many interesting exploratory questions to ask from this data and you
+      will create exploratory visualizations ranging from summary
+      statistics to detailed Trelliscope visualizations that will give you
+      interesting insight into the data.

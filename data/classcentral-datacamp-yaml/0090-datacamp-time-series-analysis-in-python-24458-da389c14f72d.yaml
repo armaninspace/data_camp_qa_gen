@@ -1,0 +1,99 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-time-series-analysis-in-python-24458
+final_url: |-
+  https://www.classcentral.com/course/datacamp-time-series-analysis-in-python-24458
+fetched_at: 2026-04-13T20:22:38.175Z
+title: "Time Series Analysis in Python"
+provider: DataCamp
+summary: |-
+  In this four-hour course, you’ll learn the basics of analyzing time series
+  data in Python.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider:
+    rating: 4.5
+    provider: DataCamp
+    rating_count: 19
+subjects:
+  - "Time Series Analysis"
+  - Python
+  - "Random Walks"
+  - Correlation
+  - Autocorrelation
+  - "Autoregressive Models"
+overview: |-
+  In this four-hour course, you’ll learn the basics of analyzing time series
+  data in Python.
+
+  Learn How to Use Python for Time Series Analysis
+
+  From stock prices to climate data, you can find time series data in a wide
+  variety of domains. Having the skills to work with such data effectively is
+  an increasingly important skill for data scientists. This course will
+  introduce you to time series analysis in Python.
+
+  After learning what a time series is, you'll explore several time series
+  models, ranging from autoregressive and moving average models to
+  cointegration models. Along the way, you'll learn how to estimate, forecast,
+  and simulate these models using statistical libraries in Python.
+
+  You'll see numerous examples of how these models are used, with a particular
+  emphasis on applications in finance.
+
+  Discover How to Use Time Series Methods
+
+  You’ll start by covering the fundamentals of time series data, as well as
+  simple linear regression. You’ll cover concepts of correlation and
+  autocorrelation and how they apply to time series data before exploring some
+  simple time series models, such as white noise and a random walk.
+
+  Next, you’ll explore how autoregressive (AR) models are used for time series
+  data to predict current values and how moving average models can combine
+  with AR models to produce powerful ARMA models.
+
+  Finally, you’ll look at how to use cointegration models to model two series
+  jointly before looking at a real-life case study.
+
+  Explore Python Models and Libraries for Time Series Analysis
+
+  By the end of this course, you’ll understand how time series analysis in
+  Python works. You’ll know about some of the models, methods, and libraries
+  that can assist you with the process and will know how to choose the
+  appropriate ones for your own analysis.
+
+  This course is part of a wider Time Series with Python Track, which provides
+  a set of five courses to help you master this data science skill.
+syllabus:
+  - title: "Correlation and Autocorrelation"
+    summary: |-
+      In this chapter you'll be introduced to the ideas of correlation and
+      autocorrelation for time series. Correlation describes the
+      relationship between two time series and autocorrelation describes
+      the relationship of a time series with its past values.
+  - title: "Some Simple Time Series"
+    summary: |-
+      In this chapter you'll learn about some simple time series models.
+      These include white noise and a random walk.
+  - title: "Autoregressive (AR) Models"
+    summary: |-
+      In this chapter you'll learn about autoregressive, or AR, models for
+      time series. These models use past values of the series to predict
+      the current value.
+  - title: "Moving Average (MA) and ARMA Models"
+    summary: |-
+      In this chapter you'll learn about another kind of model, the moving
+      average, or MA, model. You will also see how to combine AR and MA
+      models into a powerful ARMA model.
+  - title: "Putting It All Together"
+    summary: |-
+      This chapter will show you how to model two series jointly using
+      cointegration models. Then you'll wrap up with a case study where
+      you look at a time series of temperature data from New York City.

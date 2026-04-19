@@ -1,0 +1,67 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-working-with-web-data-in-r-24580
+final_url: |-
+  https://www.classcentral.com/course/datacamp-working-with-web-data-in-r-24580
+fetched_at: 2026-04-13T20:33:46.865Z
+title: "Working with Web Data in R"
+provider: DataCamp
+summary: "Learn how to efficiently import data from the web into R."
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - "R Programming"
+  - XML
+  - "Web Scraping"
+  - APIs
+  - JSON
+overview: |-
+  Downloading Files and Using API Clients
+
+  -Sometimes getting data off the internet is very, very simple - it's stored
+  in a format that R can handle and just lives on a server somewhere, or it's
+  in a more complex format and perhaps part of an API but there's an R package
+  designed to make using it a piece of cake. This chapter will explore how to
+  download and read in static files, and how to use APIs when pre-existing
+  clients are available.
+
+  Using httr to interact with APIs directly
+
+  -If an API client doesn't exist, it's up to you to communicate directly with
+  the API. But don't worry, the package `httr` makes this really
+  straightforward. In this chapter you'll learn how to make web requests from
+  R, how to examine the responses you get back and some best practices for
+  doing this in a responsible way.
+
+  Handling JSON and XML
+
+  -Sometimes data is a TSV or nice plaintext output. Sometimes it's XML and/or
+  JSON. This chapter walks you through what JSON and XML are, how to convert
+  them into R-like objects, and how to extract data from them. You'll practice
+  by examining the revision history for a Wikipedia article retrieved from the
+  Wikipedia API using httr, xml2 and jsonlite.
+
+  Web scraping with XPATHs
+
+  -Now that we've covered the low-hanging fruit ("it has an API, and a
+  client", "it has an API") it's time to talk about what to do when a website
+  doesn't have any access mechanisms at all - when you have to rely on web
+  scraping. This chapter will introduce you to the rvest web-scraping package,
+  and build on your previous knowledge of XML manipulation and XPATHs.
+
+  CSS Web Scraping and Final Case Study
+
+  -CSS path-based web scraping is a far-more-pleasant alternative to using
+  XPATHs. You'll start this chapter by learning about CSS, and how to leverage
+  it for web scraping. Then, you'll work through a final case study that
+  combines everything you've learnt so far to write a function that queries an
+  API, parses the response and returns data in a nice form.
+syllabus: []

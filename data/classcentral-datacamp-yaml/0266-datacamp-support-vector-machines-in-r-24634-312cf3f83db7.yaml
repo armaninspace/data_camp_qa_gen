@@ -1,0 +1,95 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-support-vector-machines-in-r-24634
+final_url: |-
+  https://www.classcentral.com/course/datacamp-support-vector-machines-in-r-24634
+fetched_at: 2026-04-13T20:38:44.715Z
+title: "Support Vector Machines in R"
+provider: DataCamp
+summary: |-
+  This course will introduce the support vector machine (SVM) using an
+  intuitive, visual approach.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - "Support Vector Machine (SVM)"
+  - "Data Science"
+  - "Machine Learning"
+  - "R Programming"
+  - "Classification Algorithms"
+  - "Parameter Tuning"
+overview: |-
+  Introduction
+
+  This chapter introduces some key concepts of support vector machines through
+  a simple 1-dimensional example. Students are also walked through the
+  creation of a linearly separable dataset that is used in the subsequent
+  chapter.
+
+  Support Vector Classifiers - Linear Kernels
+
+  Introduces students to the basic concepts of support vector machines by
+  applying the svm algorithm to a dataset that is linearly separable. Key
+  concepts are illustrated through ggplot visualisations that are built from
+  the outputs of the algorithm and the role of the cost parameter is
+  highlighted via a simple example. The chapter closes with a section on how
+  the algorithm deals with multiclass problems.
+
+  Polynomial Kernels
+
+  Provides an introduction to polynomial kernels via a dataset that is
+  radially separable (i.e. has a circular decision boundary). After
+  demonstrating the inadequacy of linear kernels for this dataset, students
+  will see how a simple transformation renders the problem linearly separable
+  thus motivating an intuitive discussion of the kernel trick. Students will
+  then apply the polynomial kernel to the dataset and tune the resulting
+  classifier.
+
+  Radial Basis Function Kernels
+
+  Builds on the previous three chapters by introducing the highly flexible
+  Radial Basis Function (RBF) kernel. Students will create a "complex" dataset
+  that shows up the limitations of polynomial kernels. Then, following an
+  intuitive motivation for the RBF kernel, students see how it addresses the
+  shortcomings of the other kernels discussed in this course.
+syllabus:
+  - title: Introduction
+    summary: |-
+      This chapter introduces some key concepts of support vector machines
+      through a simple 1-dimensional example. Students are also walked
+      through the creation of a linearly separable dataset that is used in
+      the subsequent chapter.
+  - title: "Support Vector Classifiers - Linear Kernels"
+    summary: |-
+      Introduces students to the basic concepts of support vector machines
+      by applying the svm algorithm to a dataset that is linearly
+      separable. Key concepts are illustrated through ggplot
+      visualisations that are built from the outputs of the algorithm and
+      the role of the cost parameter is highlighted via a simple example.
+      The chapter closes with a section on how the algorithm deals with
+      multiclass problems.
+  - title: "Polynomial Kernels"
+    summary: |-
+      Provides an introduction to polynomial kernels via a dataset that is
+      radially separable (i.e. has a circular decision boundary). After
+      demonstrating the inadequacy of linear kernels for this dataset,
+      students will see how a simple transformation renders the problem
+      linearly separable thus motivating an intuitive discussion of the
+      kernel trick. Students will then apply the polynomial kernel to the
+      dataset and tune the resulting classifier.
+  - title: "Radial Basis Function Kernels"
+    summary: |-
+      Builds on the previous three chapters by introducing the highly
+      flexible Radial Basis Function (RBF) kernel. Students will create a
+      "complex" dataset that shows up the limitations of polynomial
+      kernels. Then, following an intuitive motivation for the RBF kernel,
+      students see how it addresses the shortcomings of the other kernels
+      discussed in this course.

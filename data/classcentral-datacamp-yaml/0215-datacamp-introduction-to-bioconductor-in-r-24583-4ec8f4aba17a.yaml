@@ -1,0 +1,95 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-introduction-to-bioconductor-in-r-24583
+final_url: |-
+  https://www.classcentral.com/course/datacamp-introduction-to-bioconductor-in-r-24583
+fetched_at: 2026-04-13T20:34:05.001Z
+title: "Introduction to Bioconductor in R"
+provider: DataCamp
+summary: |-
+  Learn to use essential Bioconductor packages for bioinformatics using
+  datasets from viruses, fungi, humans, and plants!
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - "R Programming"
+  - Bioinformatics
+overview: |-
+  What is Bioconductor?
+
+  In this chapter, you will get hands-on with Bioconductor. Bioconductor is
+  the specialized repository for bioinformatics software, developed and
+  maintained by the R community. You will learn how to install and use
+  bioconductor packages. You'll be introduced to S4 objects and functions,
+  because most packages within Bioconductor inherit from S4. Additionally, you
+  will use a real genomic dataset of a fungus to explore the BSgenome package.
+
+  Biostrings and When to Use Them?
+
+  Biostrings are memory efficient string containers. Biostring has matching
+  algorithms, and other utilities, for fast manipulation of large biological
+  sequences or sets of sequences. How efficient you can become by using the
+  right containers for your sequences? You will learn about alphabets, and
+  sequence manipulation by using the tiny genome of a virus.
+
+  IRanges and GenomicRanges
+
+  The IRanges and GenomicRanges packages are also containers for storing and
+  manipulating genomic intervals and variables defined along a genome. These
+  packages provide infrastructure and support to many other Bioconductor
+  packages because of their enriching features. You will learn how to use
+  these containers and their associated metadata, for manipulation of your
+  sequences. The dataset you will be looking at is a special gene of interest
+  in the human genome.
+
+  Introducing ShortRead
+
+  ShortRead is the package for input, manipulation and assessment of fasta and
+  fastq files. You can subset, trim and filter the sequences of interest, and
+  even do a report of quality. An extra bonus towards the last exercises will
+  give you the tools for parallel quality assessment, wink, wink Rqc. Exciting
+  enough, for this you will use plant genome sequences!
+syllabus:
+  - title: "What is Bioconductor?"
+    summary: |-
+      In this chapter, you will get hands-on with Bioconductor.
+      Bioconductor is the specialized repository for bioinformatics
+      software, developed and maintained by the R community. You will
+      learn how to install and use bioconductor packages. You'll be
+      introduced to S4 objects and functions, because most packages within
+      Bioconductor inherit from S4. Additionally, you will use a real
+      genomic dataset of a fungus to explore the BSgenome package.
+  - title: "Biostrings and When to Use Them?"
+    summary: |-
+      Biostrings are memory efficient string containers. Biostring has
+      matching algorithms, and other utilities, for fast manipulation of
+      large biological sequences or sets of sequences. How efficient you
+      can become by using the right containers for your sequences? You
+      will learn about alphabets, and sequence manipulation by using the
+      tiny genome of a virus.
+  - title: "IRanges and GenomicRanges"
+    summary: |-
+      The IRanges and GenomicRanges packages are also containers for
+      storing and manipulating genomic intervals and variables defined
+      along a genome. These packages provide infrastructure and support to
+      many other Bioconductor packages because of their enriching
+      features. You will learn how to use these containers and their
+      associated metadata, for manipulation of your sequences. The dataset
+      you will be looking at is a special gene of interest in the human
+      genome.
+  - title: "Introducing ShortRead"
+    summary: |-
+      ShortRead is the package for input, manipulation and assessment of
+      fasta and fastq files. You can subset, trim and filter the sequences
+      of interest, and even do a report of quality. An extra bonus towards
+      the last exercises will give you the tools for parallel quality
+      assessment, wink, wink Rqc. Exciting enough, for this you will use
+      plant genome sequences!

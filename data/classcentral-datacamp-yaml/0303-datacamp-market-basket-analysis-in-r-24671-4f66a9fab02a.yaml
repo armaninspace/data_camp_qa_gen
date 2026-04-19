@@ -1,0 +1,102 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-market-basket-analysis-in-r-24671
+final_url: |-
+  https://www.classcentral.com/course/datacamp-market-basket-analysis-in-r-24671
+fetched_at: 2026-04-13T20:42:01.282Z
+title: "Market Basket Analysis in R"
+provider: DataCamp
+summary: |-
+  Explore association rules in market basket analysis with R by analyzing
+  retail data and creating movie recommendations.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - "R Programming"
+  - "Data Visualization"
+  - Tidyverse
+  - "Apriori Algorithm"
+  - dplyr
+  - "Market Basket Analysis"
+overview: |-
+  Introduction to Market Basket Analysis
+
+  What’s in your basket? In this first chapter, you’ll learn how market basket
+  analysis (MBA) can be used to look into baskets and dig into itemsets to
+  better understand customers and predict their needs. Using tidyverse and
+  dplyr you’ll discover how many baskets can be created from a given set of
+  items, and learn the power of using market basket analysis for online
+  shopping, offline shopping, and use cases beyond retail.
+
+  Metrics & Techniques in Market Basket Analysis
+
+  In this chapter, you’ll convert transactional datasets to a basket format,
+  ready for analysis using the Apriori algorithm. You’ll then be introduced to
+  the three main metrics for market basket analysis: support, confidence, and
+  lift, before getting hands-on with the Apriori algorithm to extract rules
+  from a transactional dataset. Lastly, You explore how the arules package is
+  used for market basket analysis to retrieve basket rules and to help you
+  find the most informative and relevant rules.
+
+  Visualization in Market Basket Analysis
+
+  Let’s get visual. In this chapter, you’ll visually inspect the set of rules
+  you have previously extracted. Visualizations in market basket analysis are
+  vital given that often you are dealing with large sets of extracted rules.
+  You’ll use the arulesViz package to create barplots, scatterplots, and
+  graphs to visualize your sets of inferred rules. You’ll then turn sets of
+  plots into interactive plots, making it is easier to drill into the mined
+  association rules.
+
+  Case Study: Market basket with Movies
+
+  We’re going to the movies. In this final chapter, you’ll apply everything
+  you’ve learned as you work with a movie dataset. Using market basket
+  analysis you’ll turn this dataset into a movie recommendation system, using
+  information from movie transactions to understand and predict what your
+  audience might want to watch next.
+syllabus:
+  - title: "Introduction to Market Basket Analysis"
+    summary: |-
+      What’s in your basket? In this first chapter, you’ll learn how
+      market basket analysis (MBA) can be used to look into baskets and
+      dig into itemsets to better understand customers and predict their
+      needs. Using tidyverse and dplyr you’ll discover how many baskets
+      can be created from a given set of items, and learn the power of
+      using market basket analysis for online shopping, offline shopping,
+      and use cases beyond retail.
+  - title: "Metrics & Techniques in Market Basket Analysis"
+    summary: |-
+      In this chapter, you’ll convert transactional datasets to a basket
+      format, ready for analysis using the Apriori algorithm. You’ll then
+      be introduced to the three main metrics for market basket analysis:
+      support, confidence, and lift, before getting hands-on with the
+      Apriori algorithm to extract rules from a transactional dataset.
+      Lastly, You explore how the arules package is used for market basket
+      analysis to retrieve basket rules and to help you find the most
+      informative and relevant rules.
+  - title: "Visualization in Market Basket Analysis"
+    summary: |-
+      Let’s get visual. In this chapter, you’ll visually inspect the set
+      of rules you have previously extracted. Visualizations in market
+      basket analysis are vital given that often you are dealing with
+      large sets of extracted rules. You’ll use the arulesViz package to
+      create barplots, scatterplots, and graphs to visualize your sets of
+      inferred rules. You’ll then turn sets of plots into interactive
+      plots, making it is easier to drill into the mined association
+      rules.
+  - title: "Case Study: Market basket with Movies"
+    summary: |-
+      We’re going to the movies. In this final chapter, you’ll apply
+      everything you’ve learned as you work with a movie dataset. Using
+      market basket analysis you’ll turn this dataset into a movie
+      recommendation system, using information from movie transactions to
+      understand and predict what your audience might want to watch next.

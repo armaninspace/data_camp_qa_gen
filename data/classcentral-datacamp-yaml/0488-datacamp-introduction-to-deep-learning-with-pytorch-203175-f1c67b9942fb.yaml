@@ -1,0 +1,94 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-introduction-to-deep-learning-with-pytorch-203175
+final_url: |-
+  https://www.classcentral.com/course/datacamp-introduction-to-deep-learning-with-pytorch-203175
+fetched_at: 2026-04-13T20:58:47.563Z
+title: "Introduction to Deep Learning with PyTorch"
+provider: DataCamp
+summary: |-
+  Learn how to build your first neural network, adjust hyperparameters, and
+  tackle classification and regression problems in PyTorch.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Beginner
+ratings:
+  class_central: {}
+  provider:
+    rating: 4.2
+    provider: DataCamp
+    rating_count: 43
+subjects:
+  - PyTorch
+  - "Deep Learning"
+  - "Neural Networks"
+  - Classification
+  - Overfitting
+  - "Model Evaluation"
+  - Tensors
+  - "Loss Functions"
+  - Hyperparameters
+overview: |-
+  Learn how to build your first neural network, adjust hyperparameters, and
+  tackle classification and regression problems in PyTorch.
+
+  Understanding the power of Deep Learning
+
+  Deep learning is everywhere: in smartphone cameras, voice assistants, and
+  self-driving cars. It has even helped discover protein structures and beat
+  humans at the game of Go. Discover this powerful technology and learn how to
+  leverage it using PyTorch, one of the most popular deep learning libraries.
+
+  Train your first neural network
+
+  First, tackle the difference between deep learning and "classic" machine
+  learning. You will learn about the training process of a neural network and
+  how to write a training loop. To do so, you will create loss functions for
+  regression and classification problems and leverage PyTorch to calculate
+  their derivatives.
+
+  Evaluate and improve your model
+
+  In the second half, learn the different hyperparameters you can adjust to
+  improve your model. After learning about the different components of a
+  neural network, you will be able to create larger and more complex
+  architectures. To measure your model performances, you will leverage
+  TorchMetrics, a PyTorch library for model evaluation.
+
+  Upon completion, you will be able to leverage PyTorch to solve
+  classification and regression problems on both tabular and image data using
+  deep learning. A vital capability for experienced data professionals looking
+  to advance their careers.
+syllabus:
+  - title: "Introduction to PyTorch, a Deep Learning Library"
+    summary: |-
+      Self-driving cars, smartphones, search engines... Deep learning is
+      now everywhere. Before you begin building complex models, you will
+      become familiar with PyTorch, a deep learning framework. You will
+      learn how to manipulate tensors, create PyTorch data structures, and
+      build your first neural network in PyTorch with linear layers.
+  - title: "Neural Network Architecture and Hyperparameters"
+    summary: |-
+      To train a neural network in PyTorch, you will first need to
+      understand additional components, such as activation and loss
+      functions. You will then realize that training a network requires
+      minimizing that loss function, which is done by calculating
+      gradients. You will learn how to use these gradients to update your
+      model's parameters.
+  - title: "Training a Neural Network with PyTorch"
+    summary: |-
+      Now that you've learned the key components of a neural network,
+      you'll train one using a training loop. You'll explore potential
+      issues like vanishing gradients and learn strategies to address
+      them, such as alternative activation functions and tuning learning
+      rate and momentum.
+  - title: "Evaluating and Improving Models"
+    summary: |-
+      Training a deep learning model is an art, and to make sure our model
+      is trained correctly, we need to keep track of certain metrics
+      during training, such as the loss or the accuracy. We will learn how
+      to calculate such metrics and how to reduce overfitting.

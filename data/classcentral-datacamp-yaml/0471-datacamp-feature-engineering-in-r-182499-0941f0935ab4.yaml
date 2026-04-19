@@ -1,0 +1,90 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-feature-engineering-in-r-182499
+final_url: |-
+  https://www.classcentral.com/course/datacamp-feature-engineering-in-r-182499
+fetched_at: 2026-04-13T20:57:10.724Z
+title: "Feature Engineering in R"
+provider: DataCamp
+summary: |-
+  Learn the principles of feature engineering for machine learning models and
+  how to implement them using the R tidymodels framework.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - "Feature Engineering"
+  - "Machine Learning"
+  - "R Programming"
+  - "Data Transformation"
+  - "Dimensionality Reduction"
+overview: |-
+  Learn the principles of feature engineering for machine learning models and
+  how to implement them using the R tidymodels framework.
+
+  Discover Feature Engineering for Machine Learning
+
+  In this course, you’ll learn about feature engineering, which is at the
+  heart of many times of machine learning models. As the performance of any
+  model is a direct consequence of the features it’s fed, feature engineering
+  places domain knowledge at the center of the process. You’ll become
+  acquainted with principles of sound feature engineering, helping to reduce
+  the number of variables where possible, making learning algorithms run
+  faster, improving interpretability, and preventing overfitting.
+
+  Implement Feature Engineering Techniques in R
+
+  You will learn how to implement feature engineering techniques using the R
+  tidymodels framework, emphasizing the recipe package that will allow you to
+  create, extract, transform, and select the best features for your model.
+
+  Engineer Features and Build Better ML Models
+
+  When faced with a new dataset, you will be able to identify and select
+  relevant features and disregard non-informative ones to make your model run
+  faster without sacrificing accuracy. You will also become comfortable
+  applying transformations and creating new features to make your models more
+  efficient, interpretable, and accurate!
+syllabus:
+  - title: "Introducing Feature Engineering"
+    summary: |-
+      Raw data does not always come in its best shape for analysis. In
+      this opening chapter, you will get a first look at how to transform
+      and create features that enhance your model's performance and
+      interpretability.
+  - title: "Transforming Features"
+    summary: |-
+      In this chapter, you’ll learn that, beyond manually transforming
+      features, you can leverage tools from the tidyverse to engineer new
+      variables programmatically. You’ll explore how this approach
+      improves your models' reproducibility and is especially useful when
+      handling datasets with many features.
+  - title: "Extracting Features"
+    summary: |-
+      You’ll now learn how models often benefit from reducing
+      dimensionality and extracting features from high-dimensional data,
+      including converting text data into numeric values, encoding
+      categorical data, and ranking the predictive power of variables.
+      You’ll explore methods including principal component analysis,
+      kernel principal component analysis, numerical extraction from text,
+      categorical encodings, and variable importance scores.
+  - title: "Selecting Features"
+    summary: |-
+      You’ll wrap up the course by learning about feature engineering and
+      machine learning techniques. You’ll begin by focusing on the
+      problems associated with using all available features in a model and
+      the importance of identifying irrelevant and redundant features and
+      learning to remove these features using embedded methods such as
+      lasso and elastic-net. Next, you’ll explore shrinkage methods such
+      as lasso, ridge, and elastic-net, which can be used to regularize
+      feature weights or select features by setting coefficients to zero.
+      Finally, you’ll finish by focusing on creating an end-to-end feature
+      engineering workflow and reviewing and practicing the previously
+      learned concepts and functions in a small project.

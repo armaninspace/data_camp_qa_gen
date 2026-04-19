@@ -1,0 +1,103 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-introduction-to-tensorflow-in-python-24439
+final_url: |-
+  https://www.classcentral.com/course/datacamp-introduction-to-tensorflow-in-python-24439
+fetched_at: 2026-04-13T20:20:51.186Z
+title: "Introduction to TensorFlow in Python"
+provider: DataCamp
+summary: |-
+  Learn the fundamentals of neural networks and how to build deep learning
+  models using TensorFlow.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Beginner
+ratings:
+  class_central: {}
+  provider:
+    rating: 4
+    provider: DataCamp
+    rating_count: 21
+subjects:
+  - Python
+  - "Deep Learning"
+  - "Neural Networks"
+  - TensorFlow
+  - "Linear Regression"
+  - "Activation Functions"
+  - "Model Training"
+overview: |-
+  Learn the fundamentals of neural networks and how to build deep learning
+  models using TensorFlow.
+
+  Get an Introduction to TensorFlow
+
+  Not long ago, cutting-edge computer vision algorithms couldn’t differentiate
+  between images of cats and dogs. Today, a skilled data scientist equipped
+  with nothing more than a laptop can classify tens of thousands of objects
+  with greater accuracy than the human eye.
+
+  In this course, you will use TensorFlow 2.6 to develop, train, and make
+  predictions with the models that have powered major advances in
+  recommendation systems, image classification, and FinTech.
+
+  Use Linear Models to Make Predictions
+
+  You’ll discover how to use TensorFlow 2.6 to make predictions using linear
+  regression models, and will test out your knowledge by predicting house
+  prices in King County. This section of the course includes a view of loss
+  functions and how you can reduce your resource use by training your linear
+  model in batches.
+
+  Train Your Neural Network
+
+  In the second half of the course, you’ll use the same tools to make
+  predictions using neural networks. You’ll practice training a network in
+  TensorFlow by adding trainable variables and using your model and test
+  features to predict target values.
+
+  Combine TensorFlow with the Keras API
+
+  Add Keras’ powerful API to your repertoire and learn to combine it with
+  TensorFlow 2.6 to make predictions and evaluate models. By the end of this
+  course, you’ll understand how to use the Estimators API to streamline model
+  definition and to avoid errors.
+syllabus:
+  - title: "Introduction to TensorFlow"
+    summary: |-
+      Before you can build advanced models in TensorFlow 2, you will first
+      need to understand the basics. In this chapter, you’ll learn how to
+      define constants and variables, perform tensor addition and
+      multiplication, and compute derivatives. Knowledge of linear algebra
+      will be helpful, but not necessary.
+  - title: "Linear models"
+    summary: |-
+      In this chapter, you will learn how to build, solve, and make
+      predictions with models in TensorFlow 2. You will focus on a simple
+      class of models – the linear regression model – and will try to
+      predict housing prices. By the end of the chapter, you will know how
+      to load and manipulate data, construct loss functions, perform
+      minimization, make predictions, and reduce resource use with batch
+      training.
+  - title: "Neural Networks"
+    summary: |-
+      The previous chapters taught you how to build models in TensorFlow
+      2. In this chapter, you will apply those same tools to build, train,
+      and make predictions with neural networks. You will learn how to
+      define dense layers, apply activation functions, select an
+      optimizer, and apply regularization to reduce overfitting. You will
+      take advantage of TensorFlow's flexibility by using both low-level
+      linear algebra and high-level Keras API operations to define and
+      train models.
+  - title: "High Level APIs"
+    summary: |-
+      In the final chapter, you'll use high-level APIs in TensorFlow 2 to
+      train a sign language letter classifier. You will use both the
+      sequential and functional Keras APIs to train, validate, make
+      predictions with, and evaluate models. You will also learn how to
+      use the Estimators API to streamline the model definition and
+      training process, and to avoid errors.

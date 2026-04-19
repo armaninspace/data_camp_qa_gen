@@ -1,0 +1,100 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-importing-and-managing-financial-data-in-r-24575
+final_url: |-
+  https://www.classcentral.com/course/datacamp-importing-and-managing-financial-data-in-r-24575
+fetched_at: 2026-04-13T20:33:20.852Z
+title: "Importing and Managing Financial Data in R"
+provider: DataCamp
+summary: |-
+  Learn how to access financial data from local files as well as from internet
+  sources.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "5 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - "R Programming"
+  - "Data Science"
+  - "Data Transformation"
+  - "Data Extraction"
+  - "Financial Analysis"
+overview: |-
+  Introduction and Downloading Data
+
+  A wealth of financial and economic data are available online. Learn how
+  getSymbols() and Quandl() make it easy to access data from a variety of
+  sources.
+
+  Extracting and Transforming Data
+
+  You've learned how to import data from online sources, now it's time to see
+  how to extract columns from the imported data. After you've learned how to
+  extract columns from a single object, you will explore how to import,
+  transform, and extract data from multiple instruments.
+
+  Managing Data from Multiple Sources
+
+  Learn how to simplify and streamline your workflow by taking advantage of
+  the ability to customize default arguments to getSymbols(). You will see how
+  to customize defaults by data source, and then how to customize defaults by
+  symbol. You will also learn how to handle problematic instrument symbols.
+
+  Aligning Data with Different Periodicities
+
+  You've learned how to import, extract, and transform data from multiple data
+  sources. You often have to manipulate data from different sources in order
+  to combine them into a single data set. First, you will learn how to convert
+  sparse, irregular data into a regular series. Then you will review how to
+  aggregate dense data to a lower frequency. Finally, you will learn how to
+  handle issues with intra-day data.
+
+  Importing Text Data, and Adjusting for Corporate Actions
+
+  You've learned the core workflow of importing and manipulating financial
+  data. Now you will see how to import data from text files of various
+  formats. Then you will learn how to check data for weirdness and handle
+  missing values. Finally, you will learn how to adjust stock prices for
+  splits and dividends.
+syllabus:
+  - title: "Introduction and Downloading Data"
+    summary: |-
+      A wealth of financial and economic data are available online. Learn
+      how getSymbols() and Quandl() make it easy to access data from a
+      variety of sources.
+  - title: "Extracting and Transforming Data"
+    summary: |-
+      You've learned how to import data from online sources, now it's time
+      to see how to extract columns from the imported data. After you've
+      learned how to extract columns from a single object, you will
+      explore how to import, transform, and extract data from multiple
+      instruments.
+  - title: "Managing Data from Multiple Sources"
+    summary: |-
+      Learn how to simplify and streamline your workflow by taking
+      advantage of the ability to customize default arguments to
+      getSymbols(). You will see how to customize defaults by data source,
+      and then how to customize defaults by symbol. You will also learn
+      how to handle problematic instrument symbols.
+  - title: "Aligning Data with Different Periodicities"
+    summary: |-
+      You've learned how to import, extract, and transform data from
+      multiple data sources. You often have to manipulate data from
+      different sources in order to combine them into a single data set.
+      First, you will learn how to convert sparse, irregular data into a
+      regular series. Then you will review how to aggregate dense data to
+      a lower frequency. Finally, you will learn how to handle issues with
+      intra-day data.
+  - title: "Importing Text Data, and Adjusting for Corporate Actions"
+    summary: |-
+      You've learned the core workflow of importing and manipulating
+      financial data. Now you will see how to import data from text files
+      of various formats. Then you will learn how to check data for
+      weirdness and handle missing values. Finally, you will learn how to
+      adjust stock prices for splits and dividends.

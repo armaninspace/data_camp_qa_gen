@@ -1,0 +1,77 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-joining-data-with-dplyr-24422
+final_url: |-
+  https://www.classcentral.com/course/datacamp-joining-data-with-dplyr-24422
+fetched_at: 2026-04-13T20:19:19.547Z
+title: "Joining Data with dplyr"
+provider: DataCamp
+summary: |-
+  Learn to combine data across multiple tables to answer more complex
+  questions with dplyr.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central:
+    rating: 4
+    review_count: 1
+  provider:
+    rating: 4
+    provider: DataCamp
+    rating_count: 47
+subjects:
+  - "R Programming"
+  - "Data Analysis"
+  - "Data Visualization"
+  - ggplot2
+  - dplyr
+overview: |-
+  Learn to combine data across multiple tables to answer more complex
+  questions with dplyr.
+
+  Often in data science, you'll encounter fascinating data that is spread
+  across multiple tables. This course will teach you the skills you'll need to
+  join multiple tables together to analyze them in combination. You'll
+  practice your skills using a fun dataset about LEGOs from the Rebrickable
+  website. The dataset contains information about the sets, parts, themes, and
+  colors of LEGOs, but is spread across many tables. You'll work with the data
+  throughout the course as you learn a total of six different joins! You'll
+  learn four mutating joins: inner join, left join, right join, and full join,
+  and two filtering joins: semi join and anti join. In the final chapter,
+  you'll apply your new skills to Stack Overflow data, containing each of the
+  almost 300,000 Stack Oveflow questions that are tagged with R, including
+  information about their answers, the date they were asked, and their score.
+  Get ready to take your dplyr skills to the next level!
+syllabus:
+  - title: "Joining Tables"
+    summary: |-
+      Get started with your first joining verb: inner-join! You'll learn
+      to join tables together to answer questions about the LEGO dataset,
+      which contains information across many tables about the sets, parts,
+      themes, and colors of LEGOs over time.
+  - title: "Left and Right Joins"
+    summary: |-
+      Learn two more mutating joins, the left and right join, which are
+      mirror images of each other! You'll learn use cases for each type of
+      join as you explore parts and colors of LEGO themes. Then, you'll
+      explore how to join tables to themselves to understand the hierarchy
+      of LEGO themes in the data.
+  - title: "Full, Semi, and Anti Joins"
+    summary: |-
+      In this chapter, you'll cover three more joining verbs: full-join,
+      semi-join, and anti-join. You'll then use these verbs to answer
+      questions about the similarities and differences between a variety
+      of LEGO sets.
+  - title: "Case Study: Joins on Stack Overflow Data"
+    summary: |-
+      Put together all the types of join you learned in this course to
+      analyze a new dataset: Stack Overflow questions, answers, and tags.
+      This includes calculating and visualizing trends for some notable
+      tags like dplyr and ggplot2. You'll also master one more method for
+      combining tables, the bind_rows verb, which stacks tables on top of
+      each other.

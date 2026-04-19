@@ -1,0 +1,89 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-network-analysis-in-r-24602
+final_url: |-
+  https://www.classcentral.com/course/datacamp-network-analysis-in-r-24602
+fetched_at: 2026-04-13T20:35:51.389Z
+title: "Network Analysis in R"
+provider: DataCamp
+summary: |-
+  Learn to analyze and visualize network data with the igraph package and
+  create interactive network plots with threejs.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - "R Programming"
+  - Three.js
+  - "Social Networks"
+  - "Network Analysis"
+overview: |-
+  Learn to analyze and visualize network data with the igraph package and
+  create interactive network plots with threejs.
+
+  Get an Introduction to Networks
+
+  Discover the fundamental concepts in network analysis. This course begins by
+  taking you through the basics of social networks, vertices and edges, and
+  how you can use the igraph R package to explore and visualize network data.
+
+  You’ll move on to looking at directed networks in more detail, including the
+  identification of key relationships between vertices and applying your new
+  skills to a network data set looking at measles transmission in Hagelloch.
+
+  Understand Network Structures and Graphs
+
+  Learn to characterize network structures and substructures by looking at
+  network density and average path length. The third chapter of this course
+  takes you through randomization and random graphs, before moving on to
+  triangles, transitivity, and visualizing cliques.
+
+  Identify Relationships Using Assortativity in igraph
+
+  Assortativity determines how likely two vertices are to be attached to each
+  other if they share a common attribute - whether that’s numerical or
+  categorical. You’ll explore the ASSORTATIVITY function within igraph to
+  determine the impact of gender on a friendship network dataset, and will
+  apply randomizations to assess your findings.
+
+  Create Interactive Network Plots using threejs
+
+  At the end of this course, you’ll expand your knowledge beyond igraph to
+  explore the network visualization capabilities of threejs. You’ll make your
+  first interactive network plots using this R package, and will look at how
+  you can further develop your visualization.
+syllabus:
+  - title: "Introduction to networks"
+    summary: |-
+      In this chapter, you will be introduced to fundamental concepts in
+      social network analysis. You will learn how to use the igraph R
+      package to explore and analyze social network data as well as
+      learning how to visualize networks.
+  - title: "Identifying important vertices in a network"
+    summary: |-
+      In this chapter you will learn about directed networks. You will
+      also learn how to identify key relationships between vertices in a
+      network as well as how to use these relationships to identify
+      important or influential vertices. Throughout this chapter you will
+      use a network of measles transmission. The data come from the German
+      city of Hagelloch in 1861. Each directed edge of the network
+      indicates a child becoming infected with measles after coming into
+      contact with an infected child.
+  - title: "Characterizing network structures"
+    summary: |-
+      This module will show how to characterize global network structures
+      and sub-structures. It will also introduce generating random network
+      graphs.
+  - title: "Identifying special relationships"
+    summary: |-
+      This chapter will further explore the partitioning of networks into
+      sub-networks and determining which vertices are more highly related
+      to one another than others. You will also develop visualization
+      methods by creating three-dimensional visualizations.

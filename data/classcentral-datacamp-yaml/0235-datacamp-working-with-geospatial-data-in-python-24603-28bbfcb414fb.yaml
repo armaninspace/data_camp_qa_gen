@@ -1,0 +1,77 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-working-with-geospatial-data-in-python-24603
+final_url: |-
+  https://www.classcentral.com/course/datacamp-working-with-geospatial-data-in-python-24603
+fetched_at: 2026-04-13T20:35:56.339Z
+title: "Working with Geospatial Data in Python"
+provider: DataCamp
+summary: |-
+  This course will show you how to integrate spatial data into your Python
+  Data Science workflow.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - Python
+  - "Data Science"
+  - "Data Visualization"
+  - "Geospatial Data"
+  - GeoPandas
+overview: |-
+  This course will show you how to integrate spatial data into your Python
+  Data Science workflow.
+
+  A good proportion of the data out there in the real world is inherently
+  spatial. From the population recorded in the national census, to every shop
+  in your neighborhood, the majority of datasets have a location aspect that
+  you can exploit to make the most of what they have to offer. This course
+  will show you how to integrate spatial data into your Python Data Science
+  workflow. You will learn how to interact with, manipulate and augment
+  real-world data using their geographic dimension. You will learn to read
+  tabular spatial data in the most common formats (e.g. GeoJSON, shapefile,
+  geopackage) and visualize them in maps. You will then combine different
+  sources using their location as the bridge that puts them in relation to
+  each other. And, by the end of the course, you will be able to understand
+  what makes geographic data unique, allowing you to transform and repurpose
+  them in different contexts.
+syllabus:
+  - title: "Introduction to Geospatial Vector Data"
+    summary: |-
+      In this chapter, you will be introduced to the concepts of
+      geospatial data, and more specifically of vector data. You will then
+      learn how to represent such data in Python using the GeoPandas
+      library, and the basics to read, explore and visualize such data.
+      And you will exercise all this with some datasets about the city of
+      Paris.
+  - title: "Spatial Relationships"
+    summary: |-
+      One of the key aspects of geospatial data is how they relate to each
+      other in space. In this chapter, you will learn the different
+      spatial relationships, and how to use them in Python to query the
+      data or to perform spatial joins. Finally, you will also learn in
+      more detail about choropleth visualizations.
+  - title: "Projecting and Transforming Geometries"
+    summary: |-
+      In this chapter, we will take a deeper look into how the coordinates
+      of the geometries are expressed based on their Coordinate Reference
+      System (CRS). You will learn the importance of those reference
+      systems and how to handle it in practice with GeoPandas. Further,
+      you will also learn how to create new geometries based on the
+      spatial relationships, which will allow you to overlay spatial
+      datasets. And you will further practice this all with Paris
+      datasets!
+  - title: "Putting It All Together – Artisanal Mining Sites Case Study"
+    summary: |-
+      In this final chapter, we leave the Paris data behind us, and apply
+      everything we have learnt up to now on a brand new dataset about
+      artisanal mining sites in Eastern Congo. Further, you will still
+      learn some new spatial operations, how to apply custom spatial
+      operations, and you will get a sneak preview into raster data.

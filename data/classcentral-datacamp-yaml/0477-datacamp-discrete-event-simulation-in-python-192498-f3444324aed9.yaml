@@ -1,0 +1,95 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-discrete-event-simulation-in-python-192498
+final_url: |-
+  https://www.classcentral.com/course/datacamp-discrete-event-simulation-in-python-192498
+fetched_at: 2026-04-13T20:57:44.585Z
+title: "Discrete Event Simulation in Python"
+provider: DataCamp
+summary: |-
+  Discover the power of discrete-event simulation in optimizing your business
+  processes. Learn to develop digital twins using Python's SimPy package.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - "Discrete Event Simulation"
+  - Python
+  - "Monte Carlo Methods"
+  - "Digital Twins"
+  - Determinism
+overview: |-
+  Discover the power of discrete-event simulation in optimizing your business
+  processes. Learn to develop digital twins using Python's SimPy package.
+
+  Discover Discrete-Event Simulation
+
+  Have you ever been asked to optimize your industry or business operations?
+  In this course on discrete-event simulation in Python, you will learn how to
+  tackle the optimization of a myriad of processes running in parallel or in
+  sequence.
+
+  Explore Process Optimization
+
+  Manufacturing, transportation, logistics, and supply-chain activities may
+  require the management of several processes running in parallel or in
+  sequence. Optimizing these processes can be a daunting task, even for small
+  companies, but it is an essential journey needed to increase profitability,
+  tackle bottlenecks, and improve the management of resources.
+
+  Develop Digital Twins for Real-World Processes
+
+  By leveraging Python’s SimPy package, you’ll develop digital twins for
+  different types of industrial processes based on discrete-event simulations.
+  You’ll encounter several real-world examples, from car production lines and
+  eCommerce to road traffic management and supply-chain activities.
+
+  After completing this course, you will have the confidence to develop
+  operational discrete-event models that can be used as “virtual living labs”
+  for incrementally testing the effectiveness and cost-benefit of different
+  management and optimization strategies.
+syllabus:
+  - title: |-
+      Introduction to Dynamic Systems and Discrete-Event Simulation Models
+    summary: |-
+      Let’s unravel the power of discrete-event simulations. To begin this
+      course, you’ll learn to identify problems where discrete-event
+      simulations can be helpful in supporting management and
+      decision-making. You’ll also learn the main components of
+      discrete-event models and how to interpret model outputs. Finally,
+      you’ll build your first “queue” discrete-event model.
+  - title: "Developing Discrete-Event Models Using SimPy"
+    summary: |-
+      Discover the power of the SimPy package to streamline your
+      discrete-event simulations. In chapter 2, you’ll learn how to build
+      a SimPy model environment and how to add processes and resources.
+      You’ll also learn the different types of resources available, as
+      well as options to control and schedule events. To finish this
+      chapter, you’ll build a complete SimPy model for an aircraft
+      assembly line.
+  - title: "Mixing Determinism and Non-Determinism in Models"
+    summary: |-
+      Explore the types of processes that you can add to discrete-event
+      models. You’ll learn to distinguish between deterministic and
+      non-deterministic processes and how to represent them in models.
+      You’ll also learn how to randomize events (or processes), which is
+      critical to simulate non-deterministic events. Finally, you’ll build
+      a SimPy model combining both deterministic and non-deterministic
+      processes.
+  - title: "Model Application, Clustering, Optimization, and Modularity"
+    summary: |-
+      You’ll learn optimization methods to maximize the impact of your
+      discrete-event models. You’ll learn how to perform simulation
+      ensembles using Monte Carlo approaches and discover how to identify
+      clusters in your model results to help you understand its behavior
+      and identify critical processes and tipping points. You’ll also use
+      objective functions to set targets for your model optimization
+      efforts. To end this course, you’ll explore how to make your model
+      scalable so that it can grow stable and in a controlled manner.

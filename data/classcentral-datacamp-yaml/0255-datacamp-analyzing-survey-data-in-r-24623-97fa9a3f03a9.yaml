@@ -1,0 +1,100 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-analyzing-survey-data-in-r-24623
+final_url: |-
+  https://www.classcentral.com/course/datacamp-analyzing-survey-data-in-r-24623
+fetched_at: 2026-04-13T20:37:42.147Z
+title: "Analyzing Survey Data in R"
+provider: DataCamp
+summary: |-
+  Learn survey design using common design structures followed by visualizing
+  and analyzing survey results.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider:
+    rating: 4.5
+    provider: DataCamp
+    rating_count: 11
+subjects:
+  - "R Programming"
+  - "Data Analysis"
+  - "Data Visualization"
+  - Clustering
+  - "Survey Design"
+  - "Quantitative Data Analysis"
+  - "Categorical Data Analysis"
+overview: |-
+  Introduction to survey data
+
+  Our exploration of survey data will begin with survey weights. In this
+  chapter, we will learn what survey weights are and why they are so important
+  in survey data analysis. Another unique feature of survey data are how they
+  were collected via clustering and stratification. We'll practice specifying
+  and exploring these sampling features for several survey datasets.
+
+  Exploring categorical data
+
+  Now that we have a handle of survey weights, we will practice incorporating
+  those weights into our analysis of categorical data in this chapter. We'll
+  conduct descriptive inference by calculating summary statistics, building
+  summary tables, and constructing bar graphs. For analytic inference, we will
+  learn to run chi-squared tests.
+
+  Exploring quantitative data
+
+  Of course not all survey data are categorical and so in this chapter, we
+  will explore analyzing quantitative survey data. We will learn to compute
+  survey-weighted statistics, such as the mean and quantiles. For data
+  visualization, we'll construct bar-graphs, histograms and density plots. We
+  will close out the chapter by conducting analytic inference with
+  survey-weighted t-tests.
+
+  Modeling quantitative data
+
+  To model survey data also requires careful consideration of how the data
+  were collected. We will start our modeling chapter by learning how to
+  incorporate survey weights into scatter plots through aesthetics such as
+  size, color, and transparency. We'll model the survey data with linear
+  regression and will explore how to incorporate categorical predictors and
+  polynomial terms into our models.
+syllabus:
+  - title: "Introduction to survey data"
+    summary: |-
+      Our exploration of survey data will begin with survey weights. In
+      this chapter, we will learn what survey weights are and why they are
+      so important in survey data analysis. Another unique feature of
+      survey data are how they were collected via clustering and
+      stratification. We'll practice specifying and exploring these
+      sampling features for several survey datasets.
+  - title: "Exploring categorical data"
+    summary: |-
+      Now that we have a handle of survey weights, we will practice
+      incorporating those weights into our analysis of categorical data in
+      this chapter. We'll conduct descriptive inference by calculating
+      summary statistics, building summary tables, and constructing bar
+      graphs. For analytic inference, we will learn to run chi-squared
+      tests.
+  - title: "Exploring quantitative data"
+    summary: |-
+      Of course not all survey data are categorical and so in this
+      chapter, we will explore analyzing quantitative survey data. We will
+      learn to compute survey-weighted statistics, such as the mean and
+      quantiles. For data visualization, we'll construct bar-graphs,
+      histograms and density plots. We will close out the chapter by
+      conducting analytic inference with survey-weighted t-tests.
+  - title: "Modeling quantitative data"
+    summary: |-
+      To model survey data also requires careful consideration of how the
+      data were collected. We will start our modeling chapter by learning
+      how to incorporate survey weights into scatter plots through
+      aesthetics such as size, color, and transparency. We'll model the
+      survey data with linear regression and will explore how to
+      incorporate categorical predictors and polynomial terms into our
+      models.

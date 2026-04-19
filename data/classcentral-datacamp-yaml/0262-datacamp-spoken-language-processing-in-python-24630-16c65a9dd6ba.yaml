@@ -1,0 +1,90 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-spoken-language-processing-in-python-24630
+final_url: |-
+  https://www.classcentral.com/course/datacamp-spoken-language-processing-in-python-24630
+fetched_at: 2026-04-13T20:38:23.046Z
+title: "Spoken Language Processing in Python"
+provider: DataCamp
+summary: |-
+  Learn how to load, transform, and transcribe speech from raw audio files in
+  Python.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - Python
+  - "Sentiment Analysis"
+  - "Named Entity Recognition"
+  - "Text Classification"
+overview: |-
+  Learn how to load, transform, and transcribe speech from raw audio files in
+  Python.
+
+  Learn Speech Recognition and Spoken Language Processing in Python
+
+  We learn to speak far before we learn to read. Even in the digital age, our
+  main method of communication is speech. Spoken Language Processing in Python
+  will help you load, transform, and transcribe audio files. You’ll start by
+  seeing what raw audio looks like in Python, and move on to exploring popular
+  libraries and working through an example business use case.
+
+  Use Python SpeechRecognition and PyDub to Transcribe Audio Files
+
+  Python has a number of popular libraries that help you to process spoken
+  language. SpeechRecognition offers you an easy way to integrate with
+  speech-to-text APIs, while PyDub helps you to programmatically alter audio
+  file attributes to get them ready for transcription. Each of these libraries
+  is covered in an in-depth chapter, offering you the opportunity to put
+  theory into practice to cement your knowledge.
+
+  Practice Speech Transcription with an In-Course Project
+
+  The final chapter in this course offers you the opportunity to put
+  everything you’ve learned together by building a speech processing proof of
+  concept for a fictional technology company. You’ll build a system that
+  transcribes phone call audio to text and then performs sentiment analysis to
+  review customer support phone calls.
+
+  By the end of this course, you’ll have both the knowledge and hands-on
+  experience to put your learning into practice within your job or personal
+  projects.
+syllabus:
+  - title: "Introduction to Spoken Language Processing with Python"
+    summary: |-
+      Audio files are different from most other types of data. Before you
+      can start working with them, they require some preprocessing. In
+      this chapter, you'll learn the first steps to working with speech
+      files by converting two different audio files into soundwaves and
+      comparing them visually.
+  - title: "Using the Python SpeechRecognition library"
+    summary: |-
+      Speech recognition is still far from perfect. But the
+      SpeechRecognition library provides an easy way to interact with many
+      speech-to-text APIs. In this section, you'll learn how to use the
+      SpeechRecognition library to easily start converting the spoken
+      language in your audio files to text.
+  - title: "Manipulating Audio Files with PyDub"
+    summary: |-
+      Not all audio files come in the same shape, size or format. Luckily,
+      the PyDub library by James Robert provides tools which you can use
+      to programmatically alter and change different audio file attributes
+      such as frame rate, number of channels, file format and more. In
+      this chapter, you'll learn how to use this helpful library to ensure
+      all of your audio files are in the right shape for transcription.
+  - title: "Processing text transcribed from spoken language"
+    summary: |-
+      In this chapter, you'll put everything you've learned together by
+      building a speech processing proof of concept project for a
+      technology company, Acme Studios. You'll start by transcribing
+      customer support call phone call audio snippets to text. Then you'll
+      perform sentiment analysis using NLTK, named entity recognition
+      using spaCy and text classification using scikit-learn on the
+      transcribed text.

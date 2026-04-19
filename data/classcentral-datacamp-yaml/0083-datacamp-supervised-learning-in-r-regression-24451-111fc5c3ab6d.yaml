@@ -1,0 +1,119 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-supervised-learning-in-r-regression-24451
+final_url: |-
+  https://www.classcentral.com/course/datacamp-supervised-learning-in-r-regression-24451
+fetched_at: 2026-04-13T20:21:58.894Z
+title: "Supervised Learning in R: Regression"
+provider: DataCamp
+summary: |-
+  In this course you will learn how to predict future events using linear
+  regression, generalized additive models, random forests, and xgboost.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider:
+    rating: 4.2
+    provider: DataCamp
+    rating_count: 13
+subjects:
+  - "R Programming"
+  - "Machine Learning"
+  - "Supervised Learning"
+  - "Linear Regression"
+  - "Predictive Modeling"
+  - "Random Forests"
+  - "Model Evaluation"
+  - XGBoost
+overview: |-
+  What is Regression?
+
+  In this chapter we introduce the concept of regression from a machine
+  learning point of view. We will present the fundamental regression method:
+  linear regression. We will show how to fit a linear regression model and to
+  make predictions from the model.
+
+  Training and Evaluating Regression Models
+
+  Now that we have learned how to fit basic linear regression models, we will
+  learn how to evaluate how well our models perform. We will review evaluating
+  a model graphically, and look at two basic metrics for regression models. We
+  will also learn how to train a model that will perform well in the wild, not
+  just on training data. Although we will demonstrate these techniques using
+  linear regression, all these concepts apply to models fit with any
+  regression algorithm.
+
+  Issues to Consider
+
+  Before moving on to more sophisticated regression techniques, we will look
+  at some other modeling issues: modeling with categorical inputs,
+  interactions between variables, and when you might consider transforming
+  inputs and outputs before modeling. While more sophisticated regression
+  techniques manage some of these issues automatically, it's important to be
+  aware of them, in order to understand which methods best handle various
+  issues -- and which issues you must still manage yourself.
+
+  Dealing with Non-Linear Responses
+
+  Now that we have mastered linear models, we will begin to look at techniques
+  for modeling situations that don't meet the assumptions of linearity. This
+  includes predicting probabilities and frequencies (values bounded between 0
+  and 1); predicting counts (nonnegative integer values, and associated
+  rates); and responses that have a non-linear but additive relationship to
+  the inputs. These algorithms are variations on the standard linear model.
+
+  Tree-Based Methods
+
+  In this chapter we will look at modeling algorithms that do not assume
+  linearity or additivity, and that can learn limited types of interactions
+  among input variables. These algorithms are *tree-based* methods that work
+  by combining ensembles of *decision trees* that are learned from the
+  training data.
+syllabus:
+  - title: "What is Regression?"
+    summary: |-
+      In this chapter we introduce the concept of regression from a
+      machine learning point of view. We will present the fundamental
+      regression method: linear regression. We will show how to fit a
+      linear regression model and to make predictions from the model.
+  - title: "Training and Evaluating Regression Models"
+    summary: |-
+      Now that we have learned how to fit basic linear regression models,
+      we will learn how to evaluate how well our models perform. We will
+      review evaluating a model graphically, and look at two basic metrics
+      for regression models. We will also learn how to train a model that
+      will perform well in the wild, not just on training data. Although
+      we will demonstrate these techniques using linear regression, all
+      these concepts apply to models fit with any regression algorithm.
+  - title: "Issues to Consider"
+    summary: |-
+      Before moving on to more sophisticated regression techniques, we
+      will look at some other modeling issues: modeling with categorical
+      inputs, interactions between variables, and when you might consider
+      transforming inputs and outputs before modeling. While more
+      sophisticated regression techniques manage some of these issues
+      automatically, it's important to be aware of them, in order to
+      understand which methods best handle various issues -- and which
+      issues you must still manage yourself.
+  - title: "Dealing with Non-Linear Responses"
+    summary: |-
+      Now that we have mastered linear models, we will begin to look at
+      techniques for modeling situations that don't meet the assumptions
+      of linearity. This includes predicting probabilities and frequencies
+      (values bounded between 0 and 1); predicting counts (nonnegative
+      integer values, and associated rates); and responses that have a
+      non-linear but additive relationship to the inputs. These algorithms
+      are variations on the standard linear model.
+  - title: "Tree-Based Methods"
+    summary: |-
+      In this chapter we will look at modeling algorithms that do not
+      assume linearity or additivity, and that can learn limited types of
+      interactions among input variables. These algorithms are
+      *tree-based* methods that work by combining ensembles of *decision
+      trees* that are learned from the training data.

@@ -1,0 +1,77 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-scalable-data-processing-in-r-24686
+final_url: |-
+  https://www.classcentral.com/course/datacamp-scalable-data-processing-in-r-24686
+fetched_at: 2026-04-13T20:43:23.050Z
+title: "Scalable Data Processing in R"
+provider: DataCamp
+summary: |-
+  Learn how to write scalable code for working with big data in R using the
+  bigmemory and iotools packages.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - "R Programming"
+  - "Big Data"
+  - "Data Analysis"
+  - "Data Processing"
+overview: |-
+  Working with increasingly large data sets
+
+  In this chapter, we cover the reasons you need to apply new techniques when
+  data sets are larger than available RAM. We show that importing and
+  exporting data using the base R functions can be slow and some easy ways to
+  remedy this. Finally, we introduce the bigmemory package.
+
+  Processing and Analyzing Data with bigmemory
+
+  Now that you've got some experience using bigmemory, we're going to go
+  through some simple data exploration and analysis techniques. In particular,
+  we'll see how to create tables and implement the split-apply-combine
+  approach.
+
+  Working with iotools
+
+  We'll use the iotools package that can process both numeric and string data,
+  and introduce the concept of chunk-wise processing.
+
+  Case Study: A Preliminary Analysis of the Housing Data
+
+  In the previous chapters, we've introduced the housing data and shown how to
+  compute with data that is about as big, or bigger than, the amount of RAM on
+  a single machine. In this chapter, we'll go through a preliminary analysis
+  of the data, comparing various trends over time.
+syllabus:
+  - title: "Working with increasingly large data sets"
+    summary: |-
+      In this chapter, we cover the reasons you need to apply new
+      techniques when data sets are larger than available RAM. We show
+      that importing and exporting data using the base R functions can be
+      slow and some easy ways to remedy this. Finally, we introduce the
+      bigmemory package.
+  - title: "Processing and Analyzing Data with bigmemory"
+    summary: |-
+      Now that you've got some experience using bigmemory, we're going to
+      go through some simple data exploration and analysis techniques. In
+      particular, we'll see how to create tables and implement the
+      split-apply-combine approach.
+  - title: "Working with iotools"
+    summary: |-
+      We'll use the iotools package that can process both numeric and
+      string data, and introduce the concept of chunk-wise processing.
+  - title: "Case Study: A Preliminary Analysis of the Housing Data"
+    summary: |-
+      In the previous chapters, we've introduced the housing data and
+      shown how to compute with data that is about as big, or bigger than,
+      the amount of RAM on a single machine. In this chapter, we'll go
+      through a preliminary analysis of the data, comparing various trends
+      over time.

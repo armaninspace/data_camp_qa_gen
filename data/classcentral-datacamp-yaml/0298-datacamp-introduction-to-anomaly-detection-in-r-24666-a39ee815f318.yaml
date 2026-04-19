@@ -1,0 +1,97 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-introduction-to-anomaly-detection-in-r-24666
+final_url: |-
+  https://www.classcentral.com/course/datacamp-introduction-to-anomaly-detection-in-r-24666
+fetched_at: 2026-04-13T20:41:34.861Z
+title: "Introduction to Anomaly Detection in R"
+provider: DataCamp
+summary: |-
+  Learn statistical tests for identifying outliers and how to use
+  sophisticated anomaly scoring algorithms.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - "Anomaly Detection"
+  - "Data Analysis"
+  - "R Programming"
+  - "Network Security"
+  - "Fraud Detection"
+  - "Outlier Detection Algorithms"
+overview: |-
+  Statistical outlier detection
+
+  In this chapter, you'll learn how numerical and graphical summaries can be
+  used to informally assess whether data contain unusual points. You'll use a
+  statistical procedure called Grubbs' test to check whether a point is an
+  outlier, and learn about the Seasonal-Hybrid ESD algorithm, which can help
+  identify outliers when the data are a time series.
+
+  Distance and density based anomaly detection
+
+  In this chapter, you'll learn how to calculate the k-nearest neighbors
+  distance and the local outlier factor, which are used to construct
+  continuous anomaly scores for each data point when the data have multiple
+  features. You'll learn the difference between local and global anomalies and
+  how the two algorithms can help in each case.
+
+  Isolation forest
+
+  k-nearest neighbors distance and local outlier factor use the distance or
+  relative density of the nearest neighbors to score each point. In this
+  chapter, you'll explore an alternative tree-based approach called an
+  isolation forest, which is a fast and robust method of detecting anomalies
+  that measures how easily points can be separated by randomly splitting the
+  data into smaller and smaller regions.
+
+  Comparing performance
+
+  You've now been introduced to a few different algorithms for anomaly
+  scoring. In this final chapter, you'll learn to compare the detection
+  performance of the algorithms in instances where labeled anomalies are
+  available. You'll learn to calculate and interpret the precision and recall
+  statistics for an anomaly score, and how to adapt the algorithms so they can
+  accommodate data with categorical features.
+syllabus:
+  - title: "Statistical outlier detection"
+    summary: |-
+      In this chapter, you'll learn how numerical and graphical summaries
+      can be used to informally assess whether data contain unusual
+      points. You'll use a statistical procedure called Grubbs' test to
+      check whether a point is an outlier, and learn about the
+      Seasonal-Hybrid ESD algorithm, which can help identify outliers when
+      the data are a time series.
+  - title: "Distance and density based anomaly detection"
+    summary: |-
+      In this chapter, you'll learn how to calculate the k-nearest
+      neighbors distance and the local outlier factor, which are used to
+      construct continuous anomaly scores for each data point when the
+      data have multiple features. You'll learn the difference between
+      local and global anomalies and how the two algorithms can help in
+      each case.
+  - title: "Isolation forest"
+    summary: |-
+      k-nearest neighbors distance and local outlier factor use the
+      distance or relative density of the nearest neighbors to score each
+      point. In this chapter, you'll explore an alternative tree-based
+      approach called an isolation forest, which is a fast and robust
+      method of detecting anomalies that measures how easily points can be
+      separated by randomly splitting the data into smaller and smaller
+      regions.
+  - title: "Comparing performance"
+    summary: |-
+      You've now been introduced to a few different algorithms for anomaly
+      scoring. In this final chapter, you'll learn to compare the
+      detection performance of the algorithms in instances where labeled
+      anomalies are available. You'll learn to calculate and interpret the
+      precision and recall statistics for an anomaly score, and how to
+      adapt the algorithms so they can accommodate data with categorical
+      features.

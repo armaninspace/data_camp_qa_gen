@@ -1,0 +1,89 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-big-data-fundamentals-with-pyspark-24466
+final_url: |-
+  https://www.classcentral.com/course/datacamp-big-data-fundamentals-with-pyspark-24466
+fetched_at: 2026-04-13T20:23:19.817Z
+title: "Big Data Fundamentals with PySpark"
+provider: DataCamp
+summary: "Learn the fundamentals of working with big data with PySpark."
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central:
+    rating: 4
+    review_count: 1
+  provider:
+    rating: 4
+    provider: DataCamp
+    rating_count: 19
+subjects:
+  - "Big Data"
+  - Programming
+  - "Data Analysis"
+  - "Machine Learning"
+  - PySpark
+  - Algorithms
+  - DataFrames
+  - "Spark SQL"
+  - MLlib
+overview: |-
+  Introduction to Big Data analysis with Spark
+
+  This chapter introduces the exciting world of Big Data, as well as the
+  various concepts and different frameworks for processing Big Data. You will
+  understand why Apache Spark is considered the best framework for BigData.
+
+  Programming in PySpark RDD’s
+
+  The main abstraction Spark provides is a resilient distributed dataset
+  (RDD), which is the fundamental and backbone data type of this engine. This
+  chapter introduces RDDs and shows how RDDs can be created and executed using
+  RDD Transformations and Actions.
+
+  PySpark SQL & DataFrames
+
+  In this chapter, you'll learn about Spark SQL which is a Spark module for
+  structured data processing. It provides a programming abstraction called
+  DataFrames and can also act as a distributed SQL query engine. This chapter
+  shows how Spark SQL allows you to use DataFrames in Python.
+
+  Machine Learning with PySpark MLlib
+
+  PySpark MLlib is the Apache Spark scalable machine learning library in
+  Python consisting of common learning algorithms and utilities. Throughout
+  this last chapter, you'll learn important Machine Learning algorithms. You
+  will build a movie recommendation engine and a spam filter, and use k-means
+  clustering.
+syllabus:
+  - title: "Introduction to Big Data analysis with Spark"
+    summary: |-
+      This chapter introduces the exciting world of Big Data, as well as
+      the various concepts and different frameworks for processing Big
+      Data. You will understand why Apache Spark is considered the best
+      framework for BigData.
+  - title: "Programming in PySpark RDD’s"
+    summary: |-
+      The main abstraction Spark provides is a resilient distributed
+      dataset (RDD), which is the fundamental and backbone data type of
+      this engine. This chapter introduces RDDs and shows how RDDs can be
+      created and executed using RDD Transformations and Actions.
+  - title: "PySpark SQL & DataFrames"
+    summary: |-
+      In this chapter, you'll learn about Spark SQL which is a Spark
+      module for structured data processing. It provides a programming
+      abstraction called DataFrames and can also act as a distributed SQL
+      query engine. This chapter shows how Spark SQL allows you to use
+      DataFrames in Python.
+  - title: "Machine Learning with PySpark MLlib"
+    summary: |-
+      PySpark MLlib is the Apache Spark scalable machine learning library
+      in Python consisting of common learning algorithms and utilities.
+      Throughout this last chapter, you'll learn important Machine
+      Learning algorithms. You will build a movie recommendation engine
+      and a spam filter, and use k-means clustering.

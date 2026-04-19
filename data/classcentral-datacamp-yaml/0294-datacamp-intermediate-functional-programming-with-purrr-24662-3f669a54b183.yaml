@@ -1,0 +1,72 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-intermediate-functional-programming-with-purrr-24662
+final_url: |-
+  https://www.classcentral.com/course/datacamp-intermediate-functional-programming-with-purrr-24662
+fetched_at: 2026-04-13T20:41:12.985Z
+title: "Intermediate Functional Programming with purrr"
+provider: DataCamp
+summary: |-
+  Continue learning with purrr to create robust, clean, and easy to maintain
+  iterative code.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - "R Programming"
+  - Tidyverse
+  - "Functional Programming"
+  - "Data Manipulation"
+  - "Code Efficiency"
+  - "Lambda Functions"
+overview: |-
+  Continue learning with purrr to create robust, clean, and easy to maintain
+  iterative code.
+
+  Have you ever been wondering what the purrr description (“A functional
+  programming toolkit for R”) refers to? Then, you’ve come to the right place!
+  This course will walk you through the functional programming part of purrr -
+  in other words, you will learn how to take full advantage of the flexibility
+  offered by the .f in map(.x, .f) to iterate other lists, vectors and
+  data.frame with a robust, clean, and easy to maintain code. During this
+  course, you will learn how to write your own mappers (or lambda functions),
+  and how to use predicates and adverbs. Finally, this new knowledge will be
+  applied to a use case, so that you’ll be able to see how you can use this
+  newly acquired knowledge on a concrete example of a simple nested list, how
+  to extract, keep or discard elements, how to compose functions to manipulate
+  and parse results from this list, how to integrate purrr workflow inside
+  other functions, how to avoid copy and pasting with purrr functional tools.
+syllabus:
+  - title: "Programming with purrr"
+    summary: |-
+      Do lambda functions, mappers, and predicates sound scary to you?
+      Fear no more! After refreshing your purrr memory, we will dive into
+      functional programming 101, discover anonymous functions and
+      predicates, and see how we can use them to clean and explore data.
+  - title: "Functional programming: from theory to practice"
+    summary: |-
+      Ready to go deeper with functional programming and purrr? In this
+      chapter, we'll discover the concept of functional programming,
+      explore error handling using including safely() and possibly(), and
+      introduce the function compact() for cleaning your code.
+  - title: "Better code with purrr"
+    summary: |-
+      In this chapter, we'll use purrr to write code that is clearer,
+      cleaner, and easier to maintain. We'll learn how to write clean
+      functions with compose() and negate(). We'll also use partial() to
+      compose functions by "prefilling" arguments from existing functions.
+      Lastly, we'll introduce list-columns, which are a convenient data
+      structure that helps us write clean code using the Tidyverse.
+  - title: "Case study"
+    summary: |-
+      We'll wrap up everything we know about purrr in a case study. Here,
+      we'll use purrr to analyze data that has been scraped from Twitter.
+      We'll use clean code to organize the data and then we'll identify
+      Twitter influencers from the 2018 RStudio conference.

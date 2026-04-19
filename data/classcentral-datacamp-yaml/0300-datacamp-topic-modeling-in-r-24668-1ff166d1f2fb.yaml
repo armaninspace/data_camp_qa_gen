@@ -1,0 +1,55 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-topic-modeling-in-r-24668
+final_url: |-
+  https://www.classcentral.com/course/datacamp-topic-modeling-in-r-24668
+fetched_at: 2026-04-13T20:41:45.235Z
+title: "Topic Modeling in R"
+provider: DataCamp
+summary: |-
+  Learn how to fit topic models using the Latent Dirichlet Allocation
+  algorithm.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - "R Programming"
+  - "Data Visualization"
+  - "Machine Learning"
+  - "Text Analysis"
+  - ggplot2
+  - "Topic Modeling"
+  - "Latent Dirichlet Allocation"
+overview: |-
+  Quick introduction to the workflow
+
+  -This chapter introduces the workflow used in topic modeling: preparation of
+  a document-term matrix, model fitting, and visualization of results with
+  ggplot2.
+
+  Wordclouds, stopwords, and control arguments
+
+  -This chapter explains how to use join functions to remove or keep words in
+  the document-term matrix, how to make wordcloud charts, and how to use some
+  of the many control arguments.
+
+  Named entity recognition as unsupervised classification
+
+  -This chapter goes into detail on how LDA topic models can be used as
+  classifiers. It covers the importance of the Dirichlet shape parameter
+  alpha, construction of word contexts for named entities using regex, and
+  technical issues like corpus alignment and held-out data.
+
+  How many topics is enough?
+
+  -This chapter explains the basic methods used in the search for the optimal
+  number of topics. It also covers how to use a single document as a source of
+  data, and how topic numbering can be controlled using seed words.
+syllabus: []

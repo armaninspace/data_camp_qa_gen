@@ -1,0 +1,89 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-advanced-deep-learning-with-keras-24481
+final_url: |-
+  https://www.classcentral.com/course/datacamp-advanced-deep-learning-with-keras-24481
+fetched_at: 2026-04-13T20:24:44.535Z
+title: "Advanced Deep Learning with Keras"
+provider: DataCamp
+summary: "Learn how to develop deep learning models with Keras."
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider:
+    rating: 4.6
+    provider: DataCamp
+    rating_count: 19
+subjects:
+  - Python
+  - "Deep Learning"
+  - "Neural Networks"
+  - Keras
+  - Classification
+overview: |-
+  Learn how to develop deep learning models with Keras.
+
+  Keras functional API
+
+  In this course, you will learn how to solve complex problems using the Keras
+  functional API.
+
+  Beginning with an introduction, you will build simple functional networks,
+  fit them to data, and make predictions. You will also learn how to construct
+  models with multiple inputs and a single output and share weights between
+  layers​​.
+
+  Multiple-input networks
+
+  As you progress, explore building two-input networks using categorical
+  embeddings, shared layers, and merge layers. These are the foundational
+  building blocks for designing neural networks with complex data flows.
+
+  It extends these concepts to models with three or more inputs, helping you
+  understand the parameters and topology of your neural networks using Keras'
+  summary and plot functions​​.
+
+  Multiple-output networks
+
+  In the final interactive exercises, you'll work with multiple-output
+  networks, which can solve regression problems with multiple targets and even
+  handle both regression and classification tasks simultaneously.
+
+  By the end of the course, you'll have practical experience with advanced
+  deep learning techniques to advance your career as a data scientist,
+  including evaluating your models on new data using multiple metrics​.
+syllabus:
+  - title: "The Keras Functional API"
+    summary: |-
+      In this chapter, you'll become familiar with the basics of the Keras
+      functional API. You'll build a simple functional network using
+      functional building blocks, fit it to data, and make predictions.
+  - title: |-
+      Two Input Networks Using Categorical Embeddings, Shared Layers, and
+      Merge Layers
+    summary: |-
+      In this chapter, you will build two-input networks that use
+      categorical embeddings to represent high-cardinality data, shared
+      layers to specify re-usable building blocks, and merge layers to
+      join multiple inputs to a single output. By the end of this chapter,
+      you will have the foundational building blocks for designing neural
+      networks with complex data flows.
+  - title: "Multiple Inputs: 3 Inputs (and Beyond!)"
+    summary: |-
+      In this chapter, you will extend your 2-input model to 3 inputs, and
+      learn how to use Keras' summary and plot functions to understand the
+      parameters and topology of your neural networks. By the end of the
+      chapter, you will understand how to extend a 2-input model to 3
+      inputs and beyond.
+  - title: "Multiple Outputs"
+    summary: |-
+      In this chapter, you will build neural networks with multiple
+      outputs, which can be used to solve regression problems with
+      multiple targets. You will also build a model that solves a
+      regression problem and a classification problem simultaneously.

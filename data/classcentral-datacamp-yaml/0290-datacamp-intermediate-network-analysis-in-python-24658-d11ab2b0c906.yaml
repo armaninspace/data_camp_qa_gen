@@ -1,0 +1,73 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-intermediate-network-analysis-in-python-24658
+final_url: |-
+  https://www.classcentral.com/course/datacamp-intermediate-network-analysis-in-python-24658
+fetched_at: 2026-04-13T20:40:51.917Z
+title: "Intermediate Network Analysis in Python"
+provider: DataCamp
+summary: |-
+  Analyze time series graphs, use bipartite graphs, and gain the skills to
+  tackle advanced problems in network analytics.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - Python
+  - "Network Analysis"
+  - "Recommendation Systems"
+  - "Bipartite Graphs"
+overview: |-
+  Analyze time series graphs, use bipartite graphs, and gain the skills to
+  tackle advanced problems in network analytics.
+
+  Have you taken DataCamp's Introduction to Network Analysis in Python course
+  and are yearning to learn more sophisticated techniques to analyze your
+  networks, whether they be social, transportation, or biological? Then this
+  is the course for you! Herein, you'll build on your knowledge and skills to
+  tackle more advanced problems in network analytics! You'll gain the
+  conceptual and practical skills to analyze evolving time series of networks,
+  learn about bipartite graphs, and how to use bipartite graphs in product
+  recommendation systems. You'll also learn about graph projections, why
+  they're so useful in Data Science, and figure out the best ways to store and
+  load graph data from files. You'll consolidate all of this knowledge in a
+  final chapter case study, in which you'll analyze a forum dataset and come
+  out of this course a Pythonista Network Analyst ninja!
+syllabus:
+  - title: "Bipartite graphs & product recommendation systems"
+    summary: |-
+      In this chapter, you will learn about bipartite graphs and how they
+      are used in recommendation systems. You will explore the GitHub
+      dataset from the previous course, this time analyzing the underlying
+      bipartite graph that was used to create the graph that you used
+      earlier. Finally, you will get a chance to build the basic
+      components of a recommendation system using the GitHub data!
+  - title: "Graph projections"
+    summary: |-
+      In this chapter, you will use a famous American Revolution dataset
+      to dive deeper into exploration of bipartite graphs. Here, you will
+      learn how to create the unipartite projection of a bipartite graph,
+      a very useful method for simplifying a complex network for further
+      analysis. Additionally, you will learn how to use matrices to
+      manipulate and analyze graphs - with many computing routines
+      optimized for matrices, you'll be able to analyze many large graphs
+      quickly and efficiently!
+  - title: "Comparing graphs & time-dynamic graphs"
+    summary: |-
+      In this chapter, you will delve into the fundamental ways that you
+      can analyze graphs that change over time. You will explore a dataset
+      describing messaging frequency between students, and learn how to
+      visualize important evolving graph statistics.
+  - title: "Tying it up!"
+    summary: |-
+      In this chapter, you will apply everything you've learned in the
+      previous three chapters to a forum posting dataset. You will analyze
+      the temporal changes in forum user connectivity patterns, and make
+      visualizations of evolving graph statistics over time.

@@ -1,0 +1,80 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-writing-efficient-python-code-24393
+final_url: |-
+  https://www.classcentral.com/course/datacamp-writing-efficient-python-code-24393
+fetched_at: 2026-04-13T20:16:39.914Z
+title: "Writing Efficient Python Code"
+provider: DataCamp
+summary: |-
+  Learn to write efficient code that executes quickly and allocates resources
+  skillfully to avoid unnecessary overhead.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider:
+    rating: 4.7
+    provider: DataCamp
+    rating_count: 53
+subjects:
+  - Python
+  - pandas
+  - NumPy
+  - "Data Structures"
+  - "Code Optimization"
+overview: |-
+  Learn to write efficient code that executes quickly and allocates resources
+  skillfully to avoid unnecessary overhead.
+
+  As a Data Scientist, the majority of your time should be spent gleaning
+  actionable insights from data -- not waiting for your code to finish
+  running. Writing efficient Python code can help reduce runtime and save
+  computational resources, ultimately freeing you up to do the things you love
+  as a Data Scientist. In this course, you'll learn how to use Python's
+  built-in data structures, functions, and modules to write cleaner, faster,
+  and more efficient code. We'll explore how to time and profile code in order
+  to find bottlenecks. Then, you'll practice eliminating these bottlenecks,
+  and other bad design patterns, using Python's Standard Library, NumPy, and
+  pandas. After completing this course, you'll have the necessary tools to
+  start writing efficient Python code!
+
+  The videos contain live transcripts you can reveal by clicking "Show
+  transcript" at the bottom left of the videos.
+
+  The course glossary can be found on the right in the resources section.
+
+  To obtain CPE credits you need to complete the course and reach a score of
+  70% on the qualified assessment. You can navigate to the assessment by
+  clicking on the CPE credits callout on the right.
+syllabus:
+  - title: "Foundations for efficiencies"
+    summary: |-
+      In this chapter, you'll learn what it means to write efficient
+      Python code. You'll explore Python's Standard Library, learn about
+      NumPy arrays, and practice using some of Python's built-in tools.
+      This chapter builds a foundation for the concepts covered ahead.
+  - title: "Timing and profiling code"
+    summary: |-
+      In this chapter, you will learn how to gather and compare runtimes
+      between different coding approaches. You'll practice using the
+      line_profiler and memory_profiler packages to profile your code base
+      and spot bottlenecks. Then, you'll put your learnings to practice by
+      replacing these bottlenecks with efficient Python code.
+  - title: "Gaining efficiencies"
+    summary: |-
+      This chapter covers more complex efficiency tips and tricks. You'll
+      learn a few useful built-in modules for writing efficient code and
+      practice using set theory. You'll then learn about looping patterns
+      in Python and how to make them more efficient.
+  - title: "Basic pandas optimizations"
+    summary: |-
+      This chapter offers a brief introduction on how to efficiently work
+      with pandas DataFrames. You'll learn the various options you have
+      for iterating over a DataFrame. Then, you'll learn how to
+      efficiently apply functions to data stored in a DataFrame.

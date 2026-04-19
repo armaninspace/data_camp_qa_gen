@@ -1,0 +1,89 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-cleaning-data-in-postgresql-databases-24691
+final_url: |-
+  https://www.classcentral.com/course/datacamp-cleaning-data-in-postgresql-databases-24691
+fetched_at: 2026-04-13T20:43:49.287Z
+title: "Cleaning Data in PostgreSQL Databases"
+provider: DataCamp
+summary: |-
+  Learn to tame your raw, messy data stored in a PostgreSQL database to
+  extract accurate insights.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider:
+    rating: 4.4
+    provider: DataCamp
+    rating_count: 17
+subjects:
+  - "Data Cleaning"
+  - PostgreSQL
+  - "Data Transformation"
+overview: |-
+  Data Cleaning Basics
+
+  In this chapter, you’ll gain an understanding of data cleaning approaches
+  when working with PostgreSQL databases and learn the value of cleaning data
+  as early as possible in the pipeline. You’ll also learn basic string editing
+  approaches such as removing unnecessary spaces as well as more involved
+  topics such as pattern matching and string similarity to identify string
+  values in need of cleaning.
+
+  Missing, Duplicate, and Invalid Data
+
+  You’ll learn how to write queries to solve common problems of missing,
+  duplicate, and invalid data in the context of PostgreSQL database tables.
+  Through hands-on exercises, you’ll use the COALESCE() function, SELECT
+  query, and WHERE clause to clean messy data.
+
+  Converting Data
+
+  Sometimes you need to convert data stored in a PostgreSQL database from one
+  data type to another. In this chapter, you’ll explore the expressions you
+  need to convert text to numeric types and how to format strings for temporal
+  data.
+
+  Transforming Data
+
+  In the final chapter, you’ll learn how to transform your data and construct
+  pivot tables. Working with real-world postal data, you’ll discover how to
+  combine and split addresses into city, state, and zip codes using a
+  multitude of powerful functions including CONCAT(), SUBSTRING(), and
+  REGEXP_SPLIT_TO_TABLE().
+syllabus:
+  - title: "Data Cleaning Basics"
+    summary: |-
+      In this chapter, you’ll gain an understanding of data cleaning
+      approaches when working with PostgreSQL databases and learn the
+      value of cleaning data as early as possible in the pipeline. You’ll
+      also learn basic string editing approaches such as removing
+      unnecessary spaces as well as more involved topics such as pattern
+      matching and string similarity to identify string values in need of
+      cleaning.
+  - title: "Missing, Duplicate, and Invalid Data"
+    summary: |-
+      You’ll learn how to write queries to solve common problems of
+      missing, duplicate, and invalid data in the context of PostgreSQL
+      database tables. Through hands-on exercises, you’ll use the
+      COALESCE() function, SELECT query, and WHERE clause to clean messy
+      data.
+  - title: "Converting Data"
+    summary: |-
+      Sometimes you need to convert data stored in a PostgreSQL database
+      from one data type to another. In this chapter, you’ll explore the
+      expressions you need to convert text to numeric types and how to
+      format strings for temporal data.
+  - title: "Transforming Data"
+    summary: |-
+      In the final chapter, you’ll learn how to transform your data and
+      construct pivot tables. Working with real-world postal data, you’ll
+      discover how to combine and split addresses into city, state, and
+      zip codes using a multitude of powerful functions including
+      CONCAT(), SUBSTRING(), and REGEXP_SPLIT_TO_TABLE().

@@ -1,0 +1,59 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-parallel-computing-in-r-24540
+final_url: |-
+  https://www.classcentral.com/course/datacamp-parallel-computing-in-r-24540
+fetched_at: 2026-04-13T20:30:05.792Z
+title: "Parallel Computing in R"
+provider: DataCamp
+summary: |-
+  This course covers in detail the tools available in R for parallel
+  computing.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - "R Programming"
+  - "Parallel Computing"
+  - "Parallel Processing"
+  - "Load Balancing"
+overview: |-
+  Can I Run My Application in Parallel?
+
+  -In order to take advantage of parallel environment, the application needs
+  to be split into pieces. In this introductory chapter, you will learn about
+  different ways of partitioning and how it fits different hardware
+  configurations. You will also be introduced to various R packages that
+  support parallel programming.
+
+  The parallel Package
+
+  -This chapter will dive deeper into the parallel package. You'll learn about
+  the various backends and their differences and get a deep understanding
+  about the workhorse of the package, namely the clusterApply() function.
+  Strategies for task segmentation including their pitfalls will also be
+  discussed.
+
+  foreach, future.apply and Load Balancing
+
+  -In this chapter, you will look at two user-contributed packages, namely
+  foreach and future.apply, which make parallel programming in R even easier.
+  They are built on top of the parallel and future packages. In the last
+  lesson of this chapter, you will learn about the advantages and pitfalls of
+  load balancing and scheduling.
+
+  Random Numbers and Reproducibility
+
+  -Now you might ask, can I reproduce my results if the application uses
+  random numbers? Can I generate the same results regardless of if the code
+  runs sequentially or in parallel? This chapter will answer these questions.
+  You will learn about a random number generator well suited to a parallel
+  environment and how the various packages make use of it.
+syllabus: []

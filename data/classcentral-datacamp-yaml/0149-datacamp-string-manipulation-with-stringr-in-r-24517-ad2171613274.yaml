@@ -1,0 +1,89 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-string-manipulation-with-stringr-in-r-24517
+final_url: |-
+  https://www.classcentral.com/course/datacamp-string-manipulation-with-stringr-in-r-24517
+fetched_at: 2026-04-13T20:27:58.511Z
+title: "String Manipulation with stringr in R"
+provider: DataCamp
+summary: |-
+  Learn how to pull character strings apart, put them back together and use
+  the stringr package.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Beginner
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - "R Programming"
+  - "Regular Expressions"
+  - "Data Cleaning"
+  - "String Manipulation"
+overview: |-
+  String basics
+
+  You'll start with some basics: how to enter strings in R, how to control how
+  numbers are transformed to strings, and finally how to combine strings
+  together to produce output that combines text and nicely formatted numbers.
+
+  Introduction to stringr
+
+  Time to meet stringr! You'll start by learning about some stringr functions
+  that are very similar to some base R functions, then how to detect specific
+  patterns in strings, how to split strings apart and how to find and replace
+  parts of strings.
+
+  Pattern matching with regular expressions
+
+  In this chapter you'll learn about regular expressions, a language for
+  describing patterns in strings. By combining regular expressions with the
+  stringr functions you'll greatly increase your power to manipulate strings.
+
+  More advanced matching and manipulation
+
+  Now for two advanced ways to use regular expressions along with stringr:
+  selecting parts of a match (a.k.a capturing) and referring back to parts of
+  a match (a.k.a back-referencing). You'll also learn to deal with and strings
+  or patterns that contain Unicode characters (e.g. é).
+
+  Case studies
+
+  Practice your string manipulation skills on a couple of case studies. You'll
+  also learn a few new skills, reading strings into R and handling problems of
+  case (e.g. A versus a).
+syllabus:
+  - title: "String basics"
+    summary: |-
+      You'll start with some basics: how to enter strings in R, how to
+      control how numbers are transformed to strings, and finally how to
+      combine strings together to produce output that combines text and
+      nicely formatted numbers.
+  - title: "Introduction to stringr"
+    summary: |-
+      Time to meet stringr! You'll start by learning about some stringr
+      functions that are very similar to some base R functions, then how
+      to detect specific patterns in strings, how to split strings apart
+      and how to find and replace parts of strings.
+  - title: "Pattern matching with regular expressions"
+    summary: |-
+      In this chapter you'll learn about regular expressions, a language
+      for describing patterns in strings. By combining regular expressions
+      with the stringr functions you'll greatly increase your power to
+      manipulate strings.
+  - title: "More advanced matching and manipulation"
+    summary: |-
+      Now for two advanced ways to use regular expressions along with
+      stringr: selecting parts of a match (a.k.a capturing) and referring
+      back to parts of a match (a.k.a back-referencing). You'll also learn
+      to deal with and strings or patterns that contain Unicode characters
+      (e.g. é).
+  - title: "Case studies"
+    summary: |-
+      Practice your string manipulation skills on a couple of case
+      studies. You'll also learn a few new skills, reading strings into R
+      and handling problems of case (e.g. A versus a).

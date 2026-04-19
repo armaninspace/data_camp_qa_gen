@@ -1,0 +1,107 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-choice-modeling-for-marketing-in-r-24698
+final_url: |-
+  https://www.classcentral.com/course/datacamp-choice-modeling-for-marketing-in-r-24698
+fetched_at: 2026-04-13T20:44:28.376Z
+title: "Choice Modeling for Marketing in R"
+provider: DataCamp
+summary: "Learn to analyze and model customer choice data in R."
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - "R Programming"
+  - Marketing
+  - "Consumer Behavior"
+  - "Survey Design"
+overview: |-
+  Quickstart Guide
+
+  Our goal for this chapter is to get you through the entire choice modeling
+  process as quickly as possible, so that you get a broad understanding of
+  what we can do with choice models and how the choice modeling process works.
+  The main idea here is that we can use a choice model to understand how
+  customers' product choices depend on the features of those products. Do
+  sportscar buyers prefer manual transmissions to automatic? By how much? In
+  order to give you an overview, we will skip over many of the details. In
+  later chapters, we will go back and cover important issues in preparing
+  data, specifying and interpreting models and reporting your findings, so
+  that you are fully prepared to use these methods with your own choice data.
+
+  Managing and Summarizing Choice Data
+
+  There are many different places to get choice data and different ways it can
+  be formatted. In this chapter, we will take data that is provided in several
+  alternative formats and learn how to get it into shape for choice modeling.
+  We will also discuss how you can build a survey to collect your own choice
+  data.
+
+  Building Choice Models
+
+  In this chapter, we take deeper dive into estimating choice models. To give
+  you a foundation for thinking about choice models, we will focus on how the
+  multinomial logit model converts the product features into a prediction for
+  what the decision maker will choose. This will give you a framework for
+  making decisions about which features to include in your model.
+
+  Hierarchical Choice Models
+
+  Different people have different tastes and preferences. This seems
+  intuitively obvious, but there is also extensive research in marketing
+  showing that this is true. This chapter covers choice models where we assume
+  that different decision makers have different preferences that influence
+  their choices. When our models recognize that different consumers have
+  different preferences, they tend to make larger share predictions for niche
+  products that appeal to a subset of consumers. Hierarchical models are used
+  in most commercial choice modeling applications, so it is important to
+  understand how they work.
+syllabus:
+  - title: "Quickstart Guide"
+    summary: |-
+      Our goal for this chapter is to get you through the entire choice
+      modeling process as quickly as possible, so that you get a broad
+      understanding of what we can do with choice models and how the
+      choice modeling process works. The main idea here is that we can use
+      a choice model to understand how customers' product choices depend
+      on the features of those products. Do sportscar buyers prefer manual
+      transmissions to automatic? By how much? In order to give you an
+      overview, we will skip over many of the details. In later chapters,
+      we will go back and cover important issues in preparing data,
+      specifying and interpreting models and reporting your findings, so
+      that you are fully prepared to use these methods with your own
+      choice data.
+  - title: "Managing and Summarizing Choice Data"
+    summary: |-
+      There are many different places to get choice data and different
+      ways it can be formatted. In this chapter, we will take data that is
+      provided in several alternative formats and learn how to get it into
+      shape for choice modeling. We will also discuss how you can build a
+      survey to collect your own choice data.
+  - title: "Building Choice Models"
+    summary: |-
+      In this chapter, we take deeper dive into estimating choice models.
+      To give you a foundation for thinking about choice models, we will
+      focus on how the multinomial logit model converts the product
+      features into a prediction for what the decision maker will choose.
+      This will give you a framework for making decisions about which
+      features to include in your model.
+  - title: "Hierarchical Choice Models"
+    summary: |-
+      Different people have different tastes and preferences. This seems
+      intuitively obvious, but there is also extensive research in
+      marketing showing that this is true. This chapter covers choice
+      models where we assume that different decision makers have different
+      preferences that influence their choices. When our models recognize
+      that different consumers have different preferences, they tend to
+      make larger share predictions for niche products that appeal to a
+      subset of consumers. Hierarchical models are used in most commercial
+      choice modeling applications, so it is important to understand how
+      they work.

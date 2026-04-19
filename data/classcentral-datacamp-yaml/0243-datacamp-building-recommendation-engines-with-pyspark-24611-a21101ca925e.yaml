@@ -1,0 +1,98 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-building-recommendation-engines-with-pyspark-24611
+final_url: |-
+  https://www.classcentral.com/course/datacamp-building-recommendation-engines-with-pyspark-24611
+fetched_at: 2026-04-13T20:36:38.342Z
+title: "Building Recommendation Engines with PySpark"
+provider: DataCamp
+summary: |-
+  Learn tools and techniques to leverage your own big data to facilitate
+  positive experiences for your users.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - "Recommender Systems"
+  - "Big Data"
+  - PySpark
+  - "Content-Based Filtering"
+  - "Collaborative Filtering"
+  - "Matrix Factorization"
+overview: |-
+  Recommendations Are Everywhere
+
+  This chapter will show you how powerful recommendations engines can be, and
+  provide important distinctions between collaborative-filtering engines and
+  content-based engines as well as the different types of implicit and
+  explicit data that recommendation engines can use. You will also learn a
+  very powerful way to uncover hidden features (latent features) that you may
+  not even know exist in customer datasets.
+
+  How does ALS work?
+
+  In this chapter you will review basic concepts of matrix multiplication and
+  matrix factorization, and dive into how the Alternating Least Squares
+  algorithm works and what arguments and hyperparameters it uses to return the
+  best recommendations possible. You will also learn important techniques for
+  properly preparing your data for ALS in Spark.
+
+  Recommending Movies
+
+  In this chapter you will be introduced to the MovieLens dataset. You will
+  walk through how to assess it's use for ALS, build out a full
+  cross-validated ALS model on it, and learn how to evaluate it's performance.
+  This will be the foundation for all subsequent ALS models you build using
+  Pyspark.
+
+  What if you don't have customer ratings?
+
+  In most real-life situations, you won't not have "perfect" customer data
+  available to build an ALS model. This chapter will teach you how to use your
+  customer behavior data to "infer" customer ratings and use those inferred
+  ratings to build an ALS recommendation engine. Using the Million Songs
+  Dataset as well as another version of the MovieLens dataset, this chapter
+  will show you how to use the data available to you to build a recommendation
+  engine using ALS and evaluate it's performance.
+syllabus:
+  - title: "Recommendations Are Everywhere"
+    summary: |-
+      This chapter will show you how powerful recommendations engines can
+      be, and provide important distinctions between
+      collaborative-filtering engines and content-based engines as well as
+      the different types of implicit and explicit data that
+      recommendation engines can use. You will also learn a very powerful
+      way to uncover hidden features (latent features) that you may not
+      even know exist in customer datasets.
+  - title: "How does ALS work?"
+    summary: |-
+      In this chapter you will review basic concepts of matrix
+      multiplication and matrix factorization, and dive into how the
+      Alternating Least Squares algorithm works and what arguments and
+      hyperparameters it uses to return the best recommendations possible.
+      You will also learn important techniques for properly preparing your
+      data for ALS in Spark.
+  - title: "Recommending Movies"
+    summary: |-
+      In this chapter you will be introduced to the MovieLens dataset. You
+      will walk through how to assess it's use for ALS, build out a full
+      cross-validated ALS model on it, and learn how to evaluate it's
+      performance. This will be the foundation for all subsequent ALS
+      models you build using Pyspark.
+  - title: "What if you don't have customer ratings?"
+    summary: |-
+      In most real-life situations, you won't not have "perfect" customer
+      data available to build an ALS model. This chapter will teach you
+      how to use your customer behavior data to "infer" customer ratings
+      and use those inferred ratings to build an ALS recommendation
+      engine. Using the Million Songs Dataset as well as another version
+      of the MovieLens dataset, this chapter will show you how to use the
+      data available to you to build a recommendation engine using ALS and
+      evaluate it's performance.

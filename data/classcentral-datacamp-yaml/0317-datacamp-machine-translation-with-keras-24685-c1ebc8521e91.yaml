@@ -1,0 +1,68 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-machine-translation-with-keras-24685
+final_url: |-
+  https://www.classcentral.com/course/datacamp-machine-translation-with-keras-24685
+fetched_at: 2026-04-13T20:43:17.106Z
+title: "Machine Translation with Keras"
+provider: DataCamp
+summary: |-
+  Are you curious about the inner workings of the models that are behind
+  products like Google Translate?
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - Python
+  - "Deep Learning"
+  - Keras
+  - "Word Embeddings"
+  - "Training Models"
+  - "Encoder-Decoder Architecture"
+overview: |-
+  Are you curious about the inner workings of the models that are behind
+  products like Google Translate?
+
+  The need to pack a bilingual dictionary for your European holiday or keeping
+  one on your desk to complete your foreign language homework is a thing of
+  the past. You just hop on the internet and make use of a language
+  translation service to quickly understand what the street sign means or
+  finding out how to greet and thank a foreigner in their language. Behind the
+  language translation services are complex machine translation models. Have
+  you ever wondered how these models work? This course will allow you to
+  explore the inner workings of a machine translation model. You will use
+  Keras, a powerful Python-based deep learning library, to implement a
+  translation model. You will then train the model to perform an English to
+  French translation, and you will be shown techniques to improve your model.
+  At the end of this course, you would have developed an in-depth
+  understanding of machine translation models and appreciate them even more!
+syllabus:
+  - title: "Introduction to Machine Translation"
+    summary: |-
+      In this chapter, you'll understand what the encoder-decoder
+      architecture is and how it is used for machine translation. You will
+      also learn about Gated Recurrent Units (GRUs) and how they are used
+      in the encoder-decoder architecture.
+  - title: "Implementing an Encoder-Decoder Model with Keras"
+    summary: |-
+      In this chapter, you will implement the encoder-decoder model with
+      the Keras functional API. While doing so, you will learn several
+      useful Keras layers such as RepeatVector and TimeDistributed layers.
+  - title: "Training and Generating Translations"
+    summary: |-
+      In this chapter, you will train the previously defined model and
+      then use a well-trained model to generate translations. You will see
+      that our model does a good job when translating sentences.
+  - title: "Teacher Forcing and Word Embeddings"
+    summary: |-
+      In this chapter, you will learn about a technique known as Teacher
+      Forcing, which enables translation models to be trained better and
+      faster. Then you will learn how you can use word embeddings to make
+      the model even better.

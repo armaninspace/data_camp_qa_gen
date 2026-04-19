@@ -1,0 +1,122 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-designing-machine-learning-workflows-in-python-24618
+final_url: |-
+  https://www.classcentral.com/course/datacamp-designing-machine-learning-workflows-in-python-24618
+fetched_at: 2026-04-13T20:37:13.768Z
+title: "Designing Machine Learning Workflows in Python"
+provider: DataCamp
+summary: "Learn to build pipelines that stand the test of time."
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - Python
+  - "Machine Learning"
+  - "Supervised Learning"
+  - "Unsupervised Learning"
+  - "Anomaly Detection"
+  - "Feature Engineering"
+  - "Model Tuning"
+overview: |-
+  The Standard Workflow
+
+  In this chapter, you will be reminded of the basics of a supervised learning
+  workflow, complete with model fitting, tuning and selection, feature
+  engineering and selection, and data splitting techniques. You will
+  understand how these steps in a workflow depend on each other, and recognize
+  how they can all contribute to, or fight against overfitting: the data
+  scientist's worst enemy. By the end of the chapter, you will already be
+  fluent in supervised learning, and ready to take the dive towards more
+  advanced material in later chapters.
+
+  The Human in the Loop
+
+  In the previous chapter, you perfected your knowledge of the standard
+  supervised learning workflows. In this chapter, you will critically examine
+  the ways in which expert knowledge is incorporated in supervised learning.
+  This is done through the identification of the appropriate unit of analysis
+  which might require feature engineering across multiple data sources,
+  through the sometimes imperfect process of labeling examples, and through
+  the specification of a loss function that captures the true business value
+  of errors made by your machine learning model.
+
+  Model Lifecycle Management
+
+  In the previous chapter, you employed different ways of incorporating
+  feedback from experts in your workflow, and evaluating it in ways that are
+  aligned with business value. Now it is time for you to practice the skills
+  needed to productize your model and ensure it continues to perform well
+  thereafter by iteratively improving it. You will also learn to diagnose
+  dataset shift and mitigate the effect that a changing environment can have
+  on your model's accuracy.
+
+  Unsupervised Workflows
+
+  In the previous chapters you established a solid foundation in supervised
+  learning, complete with knowledge of deploying models in production but
+  always assumed you a labeled dataset would be available for your analysis.
+  In this chapter, you take on the challenge of modeling data without any, or
+  with very few, labels. This takes you into a journey into anomaly detection,
+  a kind of unsupervised modeling, as well as distance-based learning, where
+  beliefs about what constitutes similarity between two examples can be used
+  in place of labels to help you achieve levels of accuracy comparable to a
+  supervised workflow. Upon completing this chapter, you will clearly stand
+  out from the crowd of data scientists in confidently knowing what tools to
+  use to modify your workflow in order to overcome common real-world
+  challenges.
+syllabus:
+  - title: "The Standard Workflow"
+    summary: |-
+      In this chapter, you will be reminded of the basics of a supervised
+      learning workflow, complete with model fitting, tuning and
+      selection, feature engineering and selection, and data splitting
+      techniques. You will understand how these steps in a workflow depend
+      on each other, and recognize how they can all contribute to, or
+      fight against overfitting: the data scientist's worst enemy. By the
+      end of the chapter, you will already be fluent in supervised
+      learning, and ready to take the dive towards more advanced material
+      in later chapters.
+  - title: "The Human in the Loop"
+    summary: |-
+      In the previous chapter, you perfected your knowledge of the
+      standard supervised learning workflows. In this chapter, you will
+      critically examine the ways in which expert knowledge is
+      incorporated in supervised learning. This is done through the
+      identification of the appropriate unit of analysis which might
+      require feature engineering across multiple data sources, through
+      the sometimes imperfect process of labeling examples, and through
+      the specification of a loss function that captures the true business
+      value of errors made by your machine learning model.
+  - title: "Model Lifecycle Management"
+    summary: |-
+      In the previous chapter, you employed different ways of
+      incorporating feedback from experts in your workflow, and evaluating
+      it in ways that are aligned with business value. Now it is time for
+      you to practice the skills needed to productize your model and
+      ensure it continues to perform well thereafter by iteratively
+      improving it. You will also learn to diagnose dataset shift and
+      mitigate the effect that a changing environment can have on your
+      model's accuracy.
+  - title: "Unsupervised Workflows"
+    summary: |-
+      In the previous chapters you established a solid foundation in
+      supervised learning, complete with knowledge of deploying models in
+      production but always assumed you a labeled dataset would be
+      available for your analysis. In this chapter, you take on the
+      challenge of modeling data without any, or with very few, labels.
+      This takes you into a journey into anomaly detection, a kind of
+      unsupervised modeling, as well as distance-based learning, where
+      beliefs about what constitutes similarity between two examples can
+      be used in place of labels to help you achieve levels of accuracy
+      comparable to a supervised workflow. Upon completing this chapter,
+      you will clearly stand out from the crowd of data scientists in
+      confidently knowing what tools to use to modify your workflow in
+      order to overcome common real-world challenges.

@@ -1,0 +1,103 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-business-process-analytics-in-r-24696
+final_url: |-
+  https://www.classcentral.com/course/datacamp-business-process-analytics-in-r-24696
+fetched_at: 2026-04-13T20:44:17.260Z
+title: "Business Process Analytics in R"
+provider: DataCamp
+summary: |-
+  Learn how to analyze business processes in R and extract actionable insights
+  from enormous sets of event data.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - "R Programming"
+  - "Process Mining"
+  - "Data Preprocessing"
+overview: |-
+  Introduction to process analysis
+
+  The amount of event data has grown enormously during the last decades. A
+  considerable amount of this data is recorded within the context of various
+  business process. In this chapter, you will discover a methodology for
+  analyzing process data, consisting of three stages: extraction, processing
+  and analysis. You will have our first encounter with the specific elements
+  of process data which are required for analysis, and have a first deep dive
+  into the world of activities and traces, which will allow you to reveal of
+  first glimpse of the process.
+
+  Analysis techniques
+
+  A process can be looked at from different angles: the control-flow, the
+  performance and the organizational background. In this chapter, you will
+  make a deep dive into each of these perspectives. The control-flow refers to
+  the different ways in which the process can be executed, and thus, how it is
+  structured. Considering performance, we are both interested in discovering
+  how long things take, as well as when they take place. Finally, the
+  organizational perspective looks at the actors in the process.
+
+  Event data processing
+
+  Event data rarely comes in a form which is ready to analyze. Therefore, you
+  often require a set of tools to get the data in the right shape, before we
+  can answer our research question. At the end of this chapter, you will be
+  familiar with three common preprocessing tasks: filtering data, aggregating
+  events and enriching data.
+
+  Case study
+
+  In this final chapter we will use everything we have learned so far to do
+  and end-to-end analysis of an order-to-cash process. Firstly, we will
+  transform data from various sources to an event log. Secondly, we will have
+  a helicopter view of the process, exploring the dimensions of the data and
+  the different activities, stages and flows in the process. Finally, we will
+  combine preprocessing and analysis tools to formulate an answer to several
+  research questions.
+syllabus:
+  - title: "Introduction to process analysis"
+    summary: |-
+      The amount of event data has grown enormously during the last
+      decades. A considerable amount of this data is recorded within the
+      context of various business process. In this chapter, you will
+      discover a methodology for analyzing process data, consisting of
+      three stages: extraction, processing and analysis. You will have our
+      first encounter with the specific elements of process data which are
+      required for analysis, and have a first deep dive into the world of
+      activities and traces, which will allow you to reveal of first
+      glimpse of the process.
+  - title: "Analysis techniques"
+    summary: |-
+      A process can be looked at from different angles: the control-flow,
+      the performance and the organizational background. In this chapter,
+      you will make a deep dive into each of these perspectives. The
+      control-flow refers to the different ways in which the process can
+      be executed, and thus, how it is structured. Considering
+      performance, we are both interested in discovering how long things
+      take, as well as when they take place. Finally, the organizational
+      perspective looks at the actors in the process.
+  - title: "Event data processing"
+    summary: |-
+      Event data rarely comes in a form which is ready to analyze.
+      Therefore, you often require a set of tools to get the data in the
+      right shape, before we can answer our research question. At the end
+      of this chapter, you will be familiar with three common
+      preprocessing tasks: filtering data, aggregating events and
+      enriching data.
+  - title: "Case study"
+    summary: |-
+      In this final chapter we will use everything we have learned so far
+      to do and end-to-end analysis of an order-to-cash process. Firstly,
+      we will transform data from various sources to an event log.
+      Secondly, we will have a helicopter view of the process, exploring
+      the dimensions of the data and the different activities, stages and
+      flows in the process. Finally, we will combine preprocessing and
+      analysis tools to formulate an answer to several research questions.

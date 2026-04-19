@@ -1,0 +1,95 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-data-privacy-and-anonymization-in-python-91618
+final_url: |-
+  https://www.classcentral.com/course/datacamp-data-privacy-and-anonymization-in-python-91618
+fetched_at: 2026-04-13T20:49:51.364Z
+title: "Data Privacy and Anonymization in Python"
+provider: DataCamp
+summary: |-
+  Learn to process sensitive information with privacy-preserving techniques.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - Python
+  - "Machine Learning"
+  - GDPR
+  - "Data Privacy"
+  - "Differential Privacy"
+overview: |-
+  Introduction to Data Privacy
+
+  Get ready to apply anonymization techniques such as data suppression,
+  masking, synthetic data generation, and generalization. In this chapter,
+  you’ll learn how to distinguish between sensitive and non-sensitive
+  personally identifiable information (PII), quasi-identifiers, and the basics
+  of the GDPR. You'll also encounter real-life examples of what can go wrong
+  if you don't follow these best practices.
+
+  More on Privacy-Preserving Techniques
+
+  Discover how to anonymize data by sampling from datasets following the
+  probability distribution of the columns. You’ll then learn how to apply the
+  k-anonymity privacy model to prevent linkage or re-identification attacks
+  and use hierarchies to perform data generalization in categorical variables.
+
+  Differential Privacy
+
+  Learn about differential privacy, the model used by major technology
+  companies such as Apple, Google, and Uber. In this chapter, you’ll explore
+  data by generating private histograms and computing private averages in
+  data. You’ll also create differentially private machine learning models that
+  allow businesses to increase the utility of their data.
+
+  Anonymizing and Releasing Datasets
+
+  In this final chapter, you’ll learn how to apply dimensionality reduction
+  methods such as principal component analysis (PCA) to anonymize large
+  multi-column datasets. You’ll then use Faker to generate realistic and
+  consistent datasets, and scikit-learn to create synthetic datasets that
+  follow a normal distribution. Lastly, you’ll tie everything you learned in
+  this course together as you combine multiple techniques to safely release
+  datasets to the public.
+syllabus:
+  - title: "Introduction to Data Privacy"
+    summary: |-
+      Get ready to apply anonymization techniques such as data
+      suppression, masking, synthetic data generation, and generalization.
+      In this chapter, you’ll learn how to distinguish between sensitive
+      and non-sensitive personally identifiable information (PII),
+      quasi-identifiers, and the basics of the GDPR. You'll also encounter
+      real-life examples of what can go wrong if you don't follow these
+      best practices.
+  - title: "More on Privacy-Preserving Techniques"
+    summary: |-
+      Discover how to anonymize data by sampling from datasets following
+      the probability distribution of the columns. You’ll then learn how
+      to apply the k-anonymity privacy model to prevent linkage or
+      re-identification attacks and use hierarchies to perform data
+      generalization in categorical variables.
+  - title: "Differential Privacy"
+    summary: |-
+      Learn about differential privacy, the model used by major technology
+      companies such as Apple, Google, and Uber. In this chapter, you’ll
+      explore data by generating private histograms and computing private
+      averages in data. You’ll also create differentially private machine
+      learning models that allow businesses to increase the utility of
+      their data.
+  - title: "Anonymizing and Releasing Datasets"
+    summary: |-
+      In this final chapter, you’ll learn how to apply dimensionality
+      reduction methods such as principal component analysis (PCA) to
+      anonymize large multi-column datasets. You’ll then use Faker to
+      generate realistic and consistent datasets, and scikit-learn to
+      create synthetic datasets that follow a normal distribution. Lastly,
+      you’ll tie everything you learned in this course together as you
+      combine multiple techniques to safely release datasets to the
+      public.

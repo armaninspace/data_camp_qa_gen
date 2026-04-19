@@ -1,0 +1,106 @@
+source_url: https://www.classcentral.com/course/datacamp-garch-models-in-r-24552
+final_url: https://www.classcentral.com/course/datacamp-garch-models-in-r-24552
+fetched_at: 2026-04-13T20:31:15.174Z
+title: "GARCH Models in R"
+provider: DataCamp
+summary: |-
+  Specify and fit GARCH models to forecast time-varying volatility and
+  value-at-risk.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - "R Programming"
+  - "Quantitative Finance"
+  - "Value at Risk"
+overview: |-
+  The Standard GARCH Model as the Workhorse Model
+
+  We start off by making our hands dirty. A rolling window analysis of daily
+  stock returns shows that its standard deviation changes massively through
+  time. Looking back at the past, we thus have clear evidence of time-varying
+  volatility. Looking forward, we need to estimate the volatility of future
+  returns. This is essentially what a GARCH model does! In this chapter, you
+  will learn the basics of using the rugarch package for specifying and
+  estimating the workhorse GARCH(1,1) model in R. We end by showing its
+  usefulness in tactical asset allocation.
+
+  Improvements of the Normal GARCH Model
+
+  Markets take the stairs up and the elevator down. This Wallstreet wisdom has
+  important consequences for specifying a realistic volatility model. It
+  requires to give up the assumption of normality, as well as the symmetric
+  response of volatility to shocks. In this chapter, you will learn about
+  GARCH models with a leverage effect and skewed student t innovations. At the
+  end, you will be able to use GARCH models for estimating over ten thousand
+  different GARCH model specifications.
+
+  Performance Evaluation
+
+  GARCH models yield volatility forecasts which serve as input for financial
+  decision making. Their use in practice requires to first evaluate the
+  goodness of the volatility forecast. In this chapter, you will learn about
+  the analysis of statistical significance of the estimated GARCH parameters,
+  the properties of standardized returns, the interpretation of information
+  criteria and the use of rolling GARCH estimation and mean squared prediction
+  errors to analyze the accuracy of the volatility forecast.
+
+  Applications
+
+  At this stage, you master the standard specification, estimation and
+  validation of GARCH models in the rugarch package. This chapter introduces
+  specific rugarch functionality for making value-at-risk estimates, for using
+  the GARCH model in production and for simulating GARCH returns. You will
+  also discover that the presence of GARCH dynamics in the variance has
+  implications for simulating log-returns, the estimation of the beta of a
+  stock and finding the minimum variance portfolio.
+syllabus:
+  - title: "The Standard GARCH Model as the Workhorse Model"
+    summary: |-
+      We start off by making our hands dirty. A rolling window analysis of
+      daily stock returns shows that its standard deviation changes
+      massively through time. Looking back at the past, we thus have clear
+      evidence of time-varying volatility. Looking forward, we need to
+      estimate the volatility of future returns. This is essentially what
+      a GARCH model does! In this chapter, you will learn the basics of
+      using the rugarch package for specifying and estimating the
+      workhorse GARCH(1,1) model in R. We end by showing its usefulness in
+      tactical asset allocation.
+  - title: "Improvements of the Normal GARCH Model"
+    summary: |-
+      Markets take the stairs up and the elevator down. This Wallstreet
+      wisdom has important consequences for specifying a realistic
+      volatility model. It requires to give up the assumption of
+      normality, as well as the symmetric response of volatility to
+      shocks. In this chapter, you will learn about GARCH models with a
+      leverage effect and skewed student t innovations. At the end, you
+      will be able to use GARCH models for estimating over ten thousand
+      different GARCH model specifications.
+  - title: "Performance Evaluation"
+    summary: |-
+      GARCH models yield volatility forecasts which serve as input for
+      financial decision making. Their use in practice requires to first
+      evaluate the goodness of the volatility forecast. In this chapter,
+      you will learn about the analysis of statistical significance of the
+      estimated GARCH parameters, the properties of standardized returns,
+      the interpretation of information criteria and the use of rolling
+      GARCH estimation and mean squared prediction errors to analyze the
+      accuracy of the volatility forecast.
+  - title: Applications
+    summary: |-
+      At this stage, you master the standard specification, estimation and
+      validation of GARCH models in the rugarch package. This chapter
+      introduces specific rugarch functionality for making value-at-risk
+      estimates, for using the GARCH model in production and for
+      simulating GARCH returns. You will also discover that the presence
+      of GARCH dynamics in the variance has implications for simulating
+      log-returns, the estimation of the beta of a stock and finding the
+      minimum variance portfolio.

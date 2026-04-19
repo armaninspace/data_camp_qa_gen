@@ -1,0 +1,82 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-introduction-to-portfolio-analysis-in-r-24574
+final_url: |-
+  https://www.classcentral.com/course/datacamp-introduction-to-portfolio-analysis-in-r-24574
+fetched_at: 2026-04-13T20:33:14.809Z
+title: "Introduction to Portfolio Analysis in R"
+provider: DataCamp
+summary: |-
+  Apply your finance and R skills to backtest, analyze, and optimize financial
+  portfolios.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "5 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - "R Programming"
+  - Finance
+  - "Risk Management"
+  - "Asset Allocation"
+overview: |-
+  The Building Blocks
+
+  Asset returns and portfolio weights; those are the building blocks of a
+  portfolio return. This chapter is about computing those portfolio weights
+  and returns in R.
+
+  Analyzing Performance
+
+  The history of portfolio returns reveals valuable information about how much
+  the investor can expect to gain or lose. This chapter introduces the R
+  functionality to analyze the investment performance based on a statistical
+  analysis of the portfolio returns. It includes graphical analysis and the
+  calculation of performance statistics expressing average return, risk, and
+  risk-adjusted return over rolling estimation samples.
+
+  Performance Drivers
+
+  In addition to studying portfolio performance based on the observed
+  portfolio return series, it is relevant to determine how individual
+  (expected) returns, volatilities, and correlations interact to determine the
+  total portfolio performance.
+
+  Optimizing the Portfolio
+
+  We have up to now considered the portfolio weights as given. In this
+  chapter, you learn how to determine in R the portfolio weights that are
+  optimal in terms of achieving a target return with minimum variance, while
+  satisfying constraints on the portfolio weights.
+syllabus:
+  - title: "The Building Blocks"
+    summary: |-
+      Asset returns and portfolio weights; those are the building blocks
+      of a portfolio return. This chapter is about computing those
+      portfolio weights and returns in R.
+  - title: "Analyzing Performance"
+    summary: |-
+      The history of portfolio returns reveals valuable information about
+      how much the investor can expect to gain or lose. This chapter
+      introduces the R functionality to analyze the investment performance
+      based on a statistical analysis of the portfolio returns. It
+      includes graphical analysis and the calculation of performance
+      statistics expressing average return, risk, and risk-adjusted return
+      over rolling estimation samples.
+  - title: "Performance Drivers"
+    summary: |-
+      In addition to studying portfolio performance based on the observed
+      portfolio return series, it is relevant to determine how individual
+      (expected) returns, volatilities, and correlations interact to
+      determine the total portfolio performance.
+  - title: "Optimizing the Portfolio"
+    summary: |-
+      We have up to now considered the portfolio weights as given. In this
+      chapter, you learn how to determine in R the portfolio weights that
+      are optimal in terms of achieving a target return with minimum
+      variance, while satisfying constraints on the portfolio weights.

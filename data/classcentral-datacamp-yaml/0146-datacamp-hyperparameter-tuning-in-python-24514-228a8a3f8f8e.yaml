@@ -1,0 +1,104 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-hyperparameter-tuning-in-python-24514
+final_url: |-
+  https://www.classcentral.com/course/datacamp-hyperparameter-tuning-in-python-24514
+fetched_at: 2026-04-13T20:27:40.471Z
+title: "Hyperparameter Tuning in Python"
+provider: DataCamp
+summary: |-
+  Learn techniques for automated hyperparameter tuning in Python, including
+  Grid, Random, and Informed Search.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider:
+    rating: 4.8
+    provider: DataCamp
+    rating_count: 12
+subjects:
+  - "Hyperparameter Optimization"
+  - "Machine Learning"
+  - Python
+  - "Genetic Algorithms"
+  - "Hyperparameter Tuning"
+overview: |-
+  Learn techniques for automated hyperparameter tuning in Python, including
+  Grid, Random, and Informed Search.
+
+  As a data or machine learning scientist, building powerful machine learning
+  models depends heavily on the set of hyperparameters used. But with
+  increasingly complex models with lots of options, how do you efficiently
+  find the best settings for your particular problem? The answer is
+  hyperparameter tuning!
+
+  Hyperparameters vs. parameters
+
+  Gain practical experience using various methodologies for automated
+  hyperparameter tuning in Python with Scikit-Learn.
+
+  Learn the difference between hyperparameters and parameters and best
+  practices for setting and analyzing hyperparameter values. This foundation
+  will prepare you to understand the significance of hyperparameters in
+  machine learning models.
+
+  Grid search
+
+  Master several hyperparameter tuning techniques, starting with Grid Search.
+  Using credit card default data, you will practice conducting Grid Search to
+  exhaustively search for the best hyperparameter combinations and interpret
+  the results.
+
+  You will be introduced to Random Search, and learn about its advantages over
+  Grid Search, such as efficiency in large parameter spaces.​
+
+  Informed search
+
+  In the final part of the course, you will explore advanced optimization
+  methods, such as Bayesian and Genetic algorithms.
+
+  These informed search techniques are demonstrated through practical
+  examples, allowing you to compare and contrast them with uninformed search
+  methods. By the end, you will have a comprehensive understanding of how to
+  optimize hyperparameters effectively to improve model performance​.
+syllabus:
+  - title: "Hyperparameters and Parameters"
+    summary: |-
+      In this introductory chapter you will learn the difference between
+      hyperparameters and parameters. You will practice extracting and
+      analyzing parameters, setting hyperparameter values for several
+      popular machine learning algorithms. Along the way you will learn
+      some best practice tips & tricks for choosing which hyperparameters
+      to tune and what values to set & build learning curves to analyze
+      your hyperparameter choices.
+  - title: "Grid search"
+    summary: |-
+      This chapter introduces you to a popular automated hyperparameter
+      tuning methodology called Grid Search. You will learn what it is,
+      how it works and practice undertaking a Grid Search using Scikit
+      Learn. You will then learn how to analyze the output of a Grid
+      Search & gain practical experience doing this.
+  - title: "Random Search"
+    summary: |-
+      In this chapter you will be introduced to another popular automated
+      hyperparameter tuning methodology called Random Search. You will
+      learn what it is, how it works and importantly how it differs from
+      grid search. You will learn some advantages and disadvantages of
+      this method and when to choose this method compared to Grid Search.
+      You will practice undertaking a Random Search with Scikit Learn as
+      well as visualizing & interpreting the output.
+  - title: "Informed Search"
+    summary: |-
+      In this final chapter you will be given a taste of more advanced
+      hyperparameter tuning methodologies known as ''informed search''.
+      This includes a methodology known as Coarse To Fine as well as
+      Bayesian & Genetic hyperparameter tuning algorithms. You will learn
+      how informed search differs from uninformed search and gain
+      practical skills with each of the mentioned methodologies, comparing
+      and contrasting them as you go.

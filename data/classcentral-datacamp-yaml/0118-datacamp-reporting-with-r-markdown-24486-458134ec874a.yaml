@@ -1,0 +1,89 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-reporting-with-r-markdown-24486
+final_url: |-
+  https://www.classcentral.com/course/datacamp-reporting-with-r-markdown-24486
+fetched_at: 2026-04-13T20:25:11.639Z
+title: "Reporting with R Markdown"
+provider: DataCamp
+summary: |-
+  R Markdown is an easy-to-use formatting language for authoring dynamic
+  reports from R code.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Beginner
+ratings:
+  class_central: {}
+  provider:
+    rating: 4.6
+    provider: DataCamp
+    rating_count: 21
+subjects:
+  - "R Programming"
+  - "Computer Science"
+  - "Data Analysis"
+  - "Data Visualization"
+  - "R Markdown"
+  - ggplot2
+  - dplyr
+overview: |-
+  Getting Started with R Markdown
+
+  In this chapter, you'll learn about the three components of a Markdown file:
+  the code, the text, and the metadata. You'll also learn to add and modify
+  each of these elements to your own reports, as you create your first
+  Markdown files.
+
+  Adding Analyses and Visualizations
+
+  In this chapter, you’ll use dplyr to begin to analyze the World Bank IFC
+  datasets and include the analyses in your report. You’ll then create
+  visualizations of the data using ggplot2 and learn to modify how the plots
+  display in your knit report.
+
+  Improving the Report
+
+  Now that you've learned how to add, label, and modify code chunks, you'll
+  learn about code chunk options. You can use these to determine whether the
+  code and results appear in the knit report. You'll also discover how to
+  create lists and tables to include in your report.
+
+  Customizing the Report
+
+  In this final chapter, you'll learn how to customize your report by adding a
+  table of contents and adding a CSS file to the YAML header, to personalize
+  reports with your brand’s fonts and colors. You'll also learn how to
+  efficiently create new reports from your data using parameters, which will
+  save you time from manually updating existing reports to create new ones.
+syllabus:
+  - title: "Getting Started with R Markdown"
+    summary: |-
+      In this chapter, you'll learn about the three components of a
+      Markdown file: the code, the text, and the metadata. You'll also
+      learn to add and modify each of these elements to your own reports,
+      as you create your first Markdown files.
+  - title: "Adding Analyses and Visualizations"
+    summary: |-
+      In this chapter, you’ll use dplyr to begin to analyze the World Bank
+      IFC datasets and include the analyses in your report. You’ll then
+      create visualizations of the data using ggplot2 and learn to modify
+      how the plots display in your knit report.
+  - title: "Improving the Report"
+    summary: |-
+      Now that you've learned how to add, label, and modify code chunks,
+      you'll learn about code chunk options. You can use these to
+      determine whether the code and results appear in the knit report.
+      You'll also discover how to create lists and tables to include in
+      your report.
+  - title: "Customizing the Report"
+    summary: |-
+      In this final chapter, you'll learn how to customize your report by
+      adding a table of contents and adding a CSS file to the YAML header,
+      to personalize reports with your brand’s fonts and colors. You'll
+      also learn how to efficiently create new reports from your data
+      using parameters, which will save you time from manually updating
+      existing reports to create new ones.

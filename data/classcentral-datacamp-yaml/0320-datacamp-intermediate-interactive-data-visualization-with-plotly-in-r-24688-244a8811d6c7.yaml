@@ -1,0 +1,89 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-intermediate-interactive-data-visualization-with-plotly-in-r-24688
+final_url: |-
+  https://www.classcentral.com/course/datacamp-intermediate-interactive-data-visualization-with-plotly-in-r-24688
+fetched_at: 2026-04-13T20:43:33.847Z
+title: "Intermediate Interactive Data Visualization with plotly in R"
+provider: DataCamp
+summary: |-
+  Learn to create animated graphics and linked views entirely in R with
+  plotly.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - "R Programming"
+  - "Data Wrangling"
+  - Plotly
+  - "Keyframe Animation"
+overview: |-
+  Introduction and review of plotly
+
+  A review of key plotly commands. You will review how to create multiple plot
+  types in plotly and how to polish your charts. Additionally, you will create
+  static versions of the bubble and line charts that you will animate in the
+  next chapter.
+
+  Animating graphics
+
+  In this chapter, you will learn how to implement keyframe animation in
+  plotly. You will explore how to create animations, such as Hans Rosling's
+  bubble charts, as well as cumulative animations, such as an animation of a
+  stock's valuation over time.
+
+  Linking graphics
+
+  When you are exploring unexpected structure in your graphics, it's useful to
+  have selections made on one chart update the other. For example, if you are
+  exploring clusters observed on a scatterplot, it is useful to have the
+  selected cluster update some chart of group membership, such as a jittered
+  scatterplot or sets of bar charts. In this chapter, you will learn how to
+  link your plotly charts to enable linked brushing. Along the way, you will
+  also learn how to add dropdown menus, checkboxes, and sliders to your plotly
+  charts, without the need for Shiny.
+
+  Case Study: Space launches
+
+  In the final chapter, you will use your expanded plotly toolkit to explore
+  orbital space launches between 1957 and 2018. Along the way, you'll learn
+  how to wrangle data to enable cumulative animations without common starting
+  points, and hone your understanding of the crosstalk package.
+syllabus:
+  - title: "Introduction and review of plotly"
+    summary: |-
+      A review of key plotly commands. You will review how to create
+      multiple plot types in plotly and how to polish your charts.
+      Additionally, you will create static versions of the bubble and line
+      charts that you will animate in the next chapter.
+  - title: "Animating graphics"
+    summary: |-
+      In this chapter, you will learn how to implement keyframe animation
+      in plotly. You will explore how to create animations, such as Hans
+      Rosling's bubble charts, as well as cumulative animations, such as
+      an animation of a stock's valuation over time.
+  - title: "Linking graphics"
+    summary: |-
+      When you are exploring unexpected structure in your graphics, it's
+      useful to have selections made on one chart update the other. For
+      example, if you are exploring clusters observed on a scatterplot, it
+      is useful to have the selected cluster update some chart of group
+      membership, such as a jittered scatterplot or sets of bar charts. In
+      this chapter, you will learn how to link your plotly charts to
+      enable linked brushing. Along the way, you will also learn how to
+      add dropdown menus, checkboxes, and sliders to your plotly charts,
+      without the need for Shiny.
+  - title: "Case Study: Space launches"
+    summary: |-
+      In the final chapter, you will use your expanded plotly toolkit to
+      explore orbital space launches between 1957 and 2018. Along the way,
+      you'll learn how to wrangle data to enable cumulative animations
+      without common starting points, and hone your understanding of the
+      crosstalk package.

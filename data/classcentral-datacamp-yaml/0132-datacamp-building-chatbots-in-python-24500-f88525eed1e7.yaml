@@ -1,0 +1,85 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-building-chatbots-in-python-24500
+final_url: |-
+  https://www.classcentral.com/course/datacamp-building-chatbots-in-python-24500
+fetched_at: 2026-04-13T20:26:27.247Z
+title: "Building Chatbots in Python"
+provider: DataCamp
+summary: |-
+  Learn the fundamentals of how to build conversational bots using rule-based
+  systems as well as machine learning.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - Python
+  - "Machine Learning"
+  - Chatbot
+  - scikit-learn
+  - spaCy
+overview: |-
+  Chatbots 101
+
+  In this chapter, you'll learn how to build your first chatbot. After gaining
+  a bit of historical context, you'll set up a basic structure for receiving
+  text and responding to users, and then learn how to add the basic elements
+  of personality. You'll then build rule-based systems for parsing text.
+
+  Understanding natural language
+
+  Here, you'll use machine learning to turn natural language into structured
+  data using spaCy, scikit-learn, and rasa NLU. You'll start with a refresher
+  on the theoretical foundations and then move onto building models using the
+  ATIS dataset, which contains thousands of sentences from real people
+  interacting with a flight booking system.
+
+  Building a virtual assistant
+
+  In this chapter, you'll build a personal assistant to help you plan a trip.
+  It will be able to respond to questions like "are there any cheap hotels in
+  the north of town?" by looking inside a hotel’s database for matching
+  results.
+
+  Dialogue
+
+  Everything you've built so far has statelessly mapped intents to actions and
+  responses. It's amazing how far you can get with that! But to build more
+  sophisticated bots you will always want to add some statefulness. That's
+  what you'll do here, as you build a chatbot that helps users order coffee.
+syllabus:
+  - title: "Chatbots 101"
+    summary: |-
+      In this chapter, you'll learn how to build your first chatbot. After
+      gaining a bit of historical context, you'll set up a basic structure
+      for receiving text and responding to users, and then learn how to
+      add the basic elements of personality. You'll then build rule-based
+      systems for parsing text.
+  - title: "Understanding natural language"
+    summary: |-
+      Here, you'll use machine learning to turn natural language into
+      structured data using spaCy, scikit-learn, and rasa NLU. You'll
+      start with a refresher on the theoretical foundations and then move
+      onto building models using the ATIS dataset, which contains
+      thousands of sentences from real people interacting with a flight
+      booking system.
+  - title: "Building a virtual assistant"
+    summary: |-
+      In this chapter, you'll build a personal assistant to help you plan
+      a trip. It will be able to respond to questions like "are there any
+      cheap hotels in the north of town?" by looking inside a hotel’s
+      database for matching results.
+  - title: Dialogue
+    summary: |-
+      Everything you've built so far has statelessly mapped intents to
+      actions and responses. It's amazing how far you can get with that!
+      But to build more sophisticated bots you will always want to add
+      some statefulness. That's what you'll do here, as you build a
+      chatbot that helps users order coffee.

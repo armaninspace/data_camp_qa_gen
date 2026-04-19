@@ -1,0 +1,93 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-creating-postgresql-databases-24604
+final_url: |-
+  https://www.classcentral.com/course/datacamp-creating-postgresql-databases-24604
+fetched_at: 2026-04-13T20:36:01.160Z
+title: "Creating PostgreSQL Databases"
+provider: DataCamp
+summary: |-
+  Learn how to create a PostgreSQL database and explore the structure, data
+  types, and how to normalize databases.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Beginner
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - PostgreSQL
+  - "Database Management"
+  - "Access Control"
+overview: |-
+  Learn how to create a PostgreSQL database and explore the structure, data
+  types, and how to normalize databases.
+
+  Learn How the PostgreSQL Create Database Function Works
+
+  Have you ever wanted to create and manage your own databases but thought
+  such knowledge is reserved for database administrators? This course teaches
+  you the skills and knowledge necessary create your databases and effectively
+  manage them yourself.
+
+  You'll cover the structure of PostgreSQL databases, PostgreSQL datatypes,
+  and the normalization of databases to remove data duplication, increase data
+  consistency and improve data organization.
+
+  Discover the Structure of PostgreSQL Databases and Learn PostgreSQL Data
+  Types
+
+  You’ll start this course by exploring the fundamentals of creating a
+  Postgres database by covering databases, tables, and schemas, understanding
+  how each fits into the PostgreSQL object hierarchy.
+
+  Next, you’ll look at PostgreSQL data types, including text, numeric,
+  temporal, and boolean data. You’ll also learn the appropriate times to use
+  each data type.
+
+  As you progress, you’ll learn about database normalization, understanding
+  how it maintains the integrity of your data and reduces duplication.
+  Finally, you’ll cover PostgreSQL access control and how you can protect your
+  databases from unauthorized access.
+
+  Create Your Own Database Using PSQL
+
+  As you master the skills to create a PostgreSQL database, you’ll work with
+  real data from the U.S. Small Business Administration (SBA) to guide you
+  through the lessons and provide context for the concepts covered in the
+  course.
+
+  By the time you've completed this PostgreSQL training, you’ll be able to
+  confidently create your own databases using PostgreSQL. "
+syllabus:
+  - title: "Structure of PostgreSQL Databases"
+    summary: |-
+      In this chapter, you will be introduced to the fundamental objects
+      in a PostgreSQL database: the database, tables, and schemas. After
+      completing this chapter, you will know how to issue commands to
+      create all three types of objects, and understand how each fits into
+      the hierarchy of PostgreSQL objects.
+  - title: "PostgreSQL Data Types"
+    summary: |-
+      In this chapter, you will be introduced to text, numeric, temporal,
+      and boolean data types in PostgreSQL. After completing this chapter,
+      you will be able to define the appropriate data types for table
+      columns based on the data values to be stored.
+  - title: "Database Normalization"
+    summary: |-
+      In this chapter, database normalization is introduced. Database
+      normalization maintains data integrity and reduces data duplication.
+      1st, 2nd, and 3rd Normal Form are defined as steps in the process of
+      normalizing a database. Examples to clarify concepts are provided
+      throughout the chapter.
+  - title: "Access Control in PostgreSQL"
+    summary: |-
+      In this chapter, the topic of access control in PostgreSQL is
+      introduced. Access control is presented as granting and revoking
+      privileges to users and groups on database objects. Using these
+      tools, a database and its objects can be protected from unauthorized
+      access, helping to ensure the integrity of the stored data.

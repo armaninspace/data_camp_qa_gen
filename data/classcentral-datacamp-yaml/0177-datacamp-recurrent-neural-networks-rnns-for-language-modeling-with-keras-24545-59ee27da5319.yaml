@@ -1,0 +1,96 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-recurrent-neural-networks-rnns-for-language-modeling-with-keras-24545
+final_url: |-
+  https://www.classcentral.com/course/datacamp-recurrent-neural-networks-rnns-for-language-modeling-with-keras-24545
+fetched_at: 2026-04-13T20:30:36.196Z
+title: "Recurrent Neural Networks (RNNs) for Language Modeling with Keras"
+provider: DataCamp
+summary: |-
+  Learn how to use RNNs to classify text sentiment, generate sentences, and
+  translate text between languages.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - "Recurrent Neural Networks (RNN)"
+  - Python
+  - "Natural Language Processing (NLP)"
+overview: |-
+  Learn how to use RNNs to classify text sentiment, generate sentences, and
+  translate text between languages.
+
+  Learn How to Use RNN Modeling in Python
+
+  In this course, you will learn how to use Recurrent Neural Networks to
+  classify text (binary and multiclass), generate phrases, and translate
+  Portuguese sentences into English.
+
+  Machine Learning models are based on numerical values to make predictions
+  and classifications, but how can computers deal with text data? With the
+  huge increase of available text data, applications such as automatic
+  document classification, text generation, and neural machine translation are
+  possible. Here, you’ll learn how RNNs in machine learning can help with this
+  process.
+
+  Discover the Power of Recurrent Neural Networks
+
+  You’ll start this four-hour course by looking at the foundations of
+  Recurrent Neural Networks. Exploring how information flows through a
+  recurrent neural network, you’ll use a Keras RNN model to perform sentiment
+  classification.
+
+  As you review RNN architecture in more detail, you’ll learn about vanishing
+  and exploding gradient problems and how to embed layers in a language model.
+
+  Explore Language Models With Real-Life Data
+
+  Building on this knowledge, you’ll discover how you can prepare data for a
+  multi-class classification task, exploring how these tasks differ from
+  binary classification.
+
+  Finally, you’ll learn how to use RNN models for text generation and neural
+  machine translation. You’ll use your knowledge of recurrent neural networks
+  to replicate the speech of Sheldon from The Big Bang Theory and to translate
+  Portuguese phrases into English.
+
+  This course provides an in-depth look at RNNs in machine learning, giving
+  you the knowledge to build your skills in this area.
+syllabus:
+  - title: "Recurrent Neural Networks and Keras"
+    summary: |-
+      In this chapter, you will learn the foundations of Recurrent Neural
+      Networks (RNN). Starting with some prerequisites, continuing to
+      understanding how information flows through the network and finally
+      seeing how to implement such models with Keras in the sentiment
+      classification task.
+  - title: "RNN Architecture"
+    summary: |-
+      You will learn about the vanishing and exploding gradient problems,
+      often occurring in RNNs, and how to deal with them with the GRU and
+      LSTM cells. Furthermore, you'll create embedding layers for language
+      models and revisit the sentiment classification task.
+  - title: "Multi-Class Classification"
+    summary: |-
+      Next, in this chapter you will learn how to prepare data for the
+      multi-class classification task, as well as the differences between
+      multi-class classification and binary classification (sentiment
+      analysis). Finally, you will learn how to create models and measure
+      their performance with Keras.
+  - title: "Sequence to Sequence Models"
+    summary: |-
+      This chapter introduces you to two applications of RNN models: Text
+      Generation and Neural Machine Translation. You will learn how to
+      prepare the text data to the format needed by the models. The Text
+      Generation model is used for replicating a character's way of speech
+      and will have some fun mimicking Sheldon from The Big Bang Theory.
+      Neural Machine Translation is used for example by Google Translate
+      in a much more complex model. In this chapter, you will create a
+      model that translates Portuguese small phrases into English.

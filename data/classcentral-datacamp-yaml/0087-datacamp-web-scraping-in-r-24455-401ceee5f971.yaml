@@ -1,0 +1,80 @@
+source_url: https://www.classcentral.com/course/datacamp-web-scraping-in-r-24455
+final_url: https://www.classcentral.com/course/datacamp-web-scraping-in-r-24455
+fetched_at: 2026-04-13T20:22:21.715Z
+title: "Web Scraping in R"
+provider: DataCamp
+summary: |-
+  Learn how to efficiently collect and download data from any website using R.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - "R Programming"
+  - "Computer Science"
+  - "Web Scraping"
+  - XPath
+  - HTML
+  - "HTTP Requests"
+overview: |-
+  Introduction to HTML and Web Scraping
+
+  In this chapter, you'll be introduced to Hyper Text Markup Language (HTML),
+  a declarative language used to structure modern websites. Using the rvest
+  library, you'll learn how to query simple HTML elements and scrape your
+  first table.
+
+  Navigation and Selection with CSS
+
+  Cascading Style Sheets (CSS) describe how HTML elements are displayed on a
+  web page, including colors, fonts, and general layout. In this chapter,
+  you'll learn why CSS selectors and combinators are a crucial ingredient for
+  web scraping.
+
+  Advanced Selection with XPATH
+
+  The CSS selectors you got to know in the last chapter are powerful but have
+  their limitations. For example, if you want to select nodes based on the
+  properties of their descendants. XPath to the rescue! Using this query
+  language, you can navigate and scrape even the most hideous HTML.
+
+  Scraping Best Practices
+
+  Now that you know how to extract content from web pages, it's time to look
+  behind the curtains. In this final chapter, you’ll learn why HTTP requests
+  are the foundation of every scraping action and how they can be customized
+  to comply with best practices in web scraping.
+syllabus:
+  - title: "Introduction to HTML and Web Scraping"
+    summary: |-
+      In this chapter, you'll be introduced to Hyper Text Markup Language
+      (HTML), a declarative language used to structure modern websites.
+      Using the rvest library, you'll learn how to query simple HTML
+      elements and scrape your first table.
+  - title: "Navigation and Selection with CSS"
+    summary: |-
+      Cascading Style Sheets (CSS) describe how HTML elements are
+      displayed on a web page, including colors, fonts, and general
+      layout. In this chapter, you'll learn why CSS selectors and
+      combinators are a crucial ingredient for web scraping.
+  - title: "Advanced Selection with XPATH"
+    summary: |-
+      The CSS selectors you got to know in the last chapter are powerful
+      but have their limitations. For example, if you want to select nodes
+      based on the properties of their descendants. XPath to the rescue!
+      Using this query language, you can navigate and scrape even the most
+      hideous HTML.
+  - title: "Scraping Best Practices"
+    summary: |-
+      Now that you know how to extract content from web pages, it's time
+      to look behind the curtains. In this final chapter, you’ll learn why
+      HTTP requests are the foundation of every scraping action and how
+      they can be customized to comply with best practices in web
+      scraping.

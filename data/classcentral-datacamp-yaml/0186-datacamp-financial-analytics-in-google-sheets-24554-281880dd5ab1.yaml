@@ -1,0 +1,106 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-financial-analytics-in-google-sheets-24554
+final_url: |-
+  https://www.classcentral.com/course/datacamp-financial-analytics-in-google-sheets-24554
+fetched_at: 2026-04-13T20:31:26.067Z
+title: "Financial Analytics in Google Sheets"
+provider: DataCamp
+summary: |-
+  Learn how to build a graphical dashboard with Google Sheets to track the
+  performance of financial securities.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - "Business Software"
+  - "Data Visualization"
+  - "Google Sheets"
+  - "Risk Analysis"
+  - "Sharpe Ratio"
+  - Benchmarking
+  - "Gaussian Distribution"
+overview: |-
+  Learn how to build a graphical dashboard with Google Sheets to track the
+  performance of financial securities.
+
+  Monitoring the evolution of traded assets is a crucial skill in the finance
+  sector. This comprehensive course is designed to equip you with the
+  knowledge and skills to build a graphical dashboard using Google Sheets. You
+  will learn to track and analyze the performance of financial securities,
+  focusing on historical prices and dividends of the hypothetical stock ABC.
+  The course will guide you through the process of visualizing the prices of
+  ABC, measuring essential reward and risk indicators, and comparing your
+  investment's performance against a benchmark index. By the end of this
+  course, you'll have a solid understanding of how to utilize Google Sheets to
+  create effective monitoring tools that are widely used by traders and
+  financial analysts in their everyday professional activities.
+
+  Understanding Financial Securities with ABC Stock
+
+  In the first section of the course, we delve into the world of financial
+  securities using the hypothetical ABC stock as our primary example. You will
+  learn how to source historical data for ABC, including its prices and
+  dividends. This part of the course emphasizes the importance of historical
+  data analysis in understanding market trends and making informed investment
+  decisions. We will explore different methods to organize and present this
+  data in Google Sheets, enabling you to gain insights into the stock's past
+  performance and future potential.
+
+  Building and Analyzing Your Dashboard
+
+  The final part of the course focuses on building your own graphical
+  dashboard in Google Sheets. This section is a hands-on experience where you
+  apply the concepts learned to create a dynamic tool for monitoring the
+  performance of ABC stock. You will learn how to implement various Google
+  Sheets functions and tools to visualize data, calculate key risk and reward
+  indicators, and compare ABC's performance with a benchmark index. The skills
+  acquired in this section are not just applicable to ABC stock but can be
+  transferred to any financial security, making you adept at creating
+  versatile financial analysis tools.
+syllabus:
+  - title: "Monitoring historical prices"
+    summary: |-
+      In the first chapter, you’ll be introduced to the problem: you have
+      a time series of monthly (historical) prices for the hypothetical
+      stock ABC from which you have to extract some meaningful
+      information. You’ll be given some definitions (what is a stock? what
+      are dividends?), and at the end of the chapter, you’ll be able to
+      graphically represent the evolution of a stock price over a specific
+      period.
+  - title: "Monitoring historical returns"
+    summary: |-
+      In this chapter, the core of the analysis will switch from
+      historical prices to historical returns. You’ll learn (and compute)
+      the main performance indicators of past returns, both in terms of
+      reward and risk. Finally, you’ll be introduced to risk-adjusted
+      performance measures: indicators that take into account both reward
+      and risk.
+  - title: "Monitoring the distribution of returns"
+    summary: |-
+      In this chapter, you'll look at the full distribution of historical
+      returns. First, you’ll learn how to build a histogram to describe
+      the distribution of historical returns. Second, you’ll be introduced
+      to the Gaussian distribution, a commonly used model for stock
+      returns. You'll visually inspect if the Gaussian model is reasonable
+      for the ABC stock returns. Finally, you'll understand potential
+      flaws with the Gaussian model.
+  - title: "Benchmarking performance"
+    summary: |-
+      In this final chapter, you’ll benchmark ABC stock against a market
+      index and verify whether ABC outperformed the benchmark or not. The
+      comparison process will be done through several steps/metrics.
+      First, you’ll analyze the cumulative wealth. Next, you’ll extend the
+      comparison using different indicators such as Sharpe Ratio and
+      Drawdown. Finally, you’ll examine the linear relation between ABC
+      stock and the benchmark through the correlation coefficient. At the
+      end of the chapter, you’ll be introduced to more powerful and
+      advanced spreadsheet features that introduce interactivity in your
+      analysis.

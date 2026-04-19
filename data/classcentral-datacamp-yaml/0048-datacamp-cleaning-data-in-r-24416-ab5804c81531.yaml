@@ -1,0 +1,85 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-cleaning-data-in-r-24416
+final_url: https://www.classcentral.com/course/datacamp-cleaning-data-in-r-24416
+fetched_at: 2026-04-13T20:18:48.480Z
+title: "Cleaning Data in R"
+provider: DataCamp
+summary: |-
+  Learn to clean data as quickly and accurately as possible to help you move
+  from raw data to awesome insights.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider:
+    rating: 4.5
+    provider: DataCamp
+    rating_count: 29
+subjects:
+  - "Data Cleaning"
+  - "R Programming"
+overview: |-
+  Learn to clean data as quickly and accurately as possible to help you move
+  from raw data to awesome insights.
+
+  Overcome Common Data Problems Like Removing Duplicates in R
+
+  It's commonly said that data scientists spend 80% of their time cleaning and
+  manipulating data and only 20% of their time analyzing it. The time spent
+  cleaning is vital since analyzing dirty data can lead you to draw inaccurate
+  conclusions.
+
+  In this course, you’ll learn a variety of techniques to help you clean dirty
+  data using R. You’ll start by converting data types, applying range
+  constraints, and dealing with full and partial duplicates to avoid
+  double-counting.
+
+  Delve into Advanced Data Challenges
+
+  Once you’ve practiced working on common data issues, you’ll move on to more
+  advanced challenges such as ensuring consistency in measurements and dealing
+  with missing data. After every new concept, you’ll have the chance to
+  complete a hands-on exercise to cement your knowledge and build your
+  experience.
+
+  Learn to Use Record Linkage During Data Cleaning
+
+  Record Linkage is used to merge datasets together when the values have
+  issues such as typos or different spellings. You’ll explore this useful
+  technique in the final chapter and practice the application by using it to
+  join two restaurant review datasets together into a single dataset.
+syllabus:
+  - title: "Common Data Problems"
+    summary: |-
+      In this chapter, you'll learn how to overcome some of the most
+      common dirty data problems. You'll convert data types, apply range
+      constraints to remove future data points, and remove duplicated data
+      points to avoid double-counting.
+  - title: "Categorical and Text Data"
+    summary: |-
+      Categorical and text data can often be some of the messiest parts of
+      a dataset due to their unstructured nature. In this chapter, you’ll
+      learn how to fix whitespace and capitalization inconsistencies in
+      category labels, collapse multiple categories into one, and reformat
+      strings for consistency.
+  - title: "Advanced Data Problems"
+    summary: |-
+      In this chapter, you’ll dive into more advanced data cleaning
+      problems, such as ensuring that weights are all written in kilograms
+      instead of pounds. You’ll also gain invaluable skills that will help
+      you verify that values have been added correctly and that missing
+      values don’t negatively impact your analyses.
+  - title: "Record Linkage"
+    summary: |-
+      Record linkage is a powerful technique used to merge multiple
+      datasets together, used when values have typos or different
+      spellings. In this chapter, you'll learn how to link records by
+      calculating the similarity between strings—you’ll then use your new
+      skills to join two restaurant review datasets into one clean master
+      dataset.

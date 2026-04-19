@@ -1,0 +1,101 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-mlops-deployment-and-life-cycling-133402
+final_url: |-
+  https://www.classcentral.com/course/datacamp-mlops-deployment-and-life-cycling-133402
+fetched_at: 2026-04-13T20:54:43.110Z
+title: "MLOps Deployment and Life Cycling"
+provider: DataCamp
+summary: |-
+  In this course, you’ll explore the modern MLOps framework, exploring the
+  lifecycle and deployment of machine learning models.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider:
+    rating: 4.9
+    provider: DataCamp
+    rating_count: 11
+subjects:
+  - MLOps
+  - "Value Delivery"
+  - "Model Training"
+  - "Machine Learning Model Deployment"
+overview: |-
+  In this course, you’ll explore the modern MLOps framework, exploring the
+  lifecycle and deployment of machine learning models.
+
+  MLOps Deployment and LifeCycling
+
+  Explore the modern MLOps framework, including the lifecycle and deployment
+  of machine learning models. In this course, you’ll learn to write ML code
+  that minimizes technical debt, discover the tools you’ll need to deploy and
+  monitor your models, and examine the different types of environments and
+  analytics you’ll encounter.
+
+  Learn About the MLOps Lifecycle
+
+  After you’ve collected, prepared, and labeled your data, run numerous
+  experiments on different models, and proven your concept with a champion
+  model, it’s time for the next steps. Build. Deploy. Monitor. Maintain. That
+  is the life cycle of your model once it's destined for production. That is
+  the Ops part of MLOps.
+
+  This course will show you how to navigate the second chapter of your model's
+  journey to value delivery, setting the benchmark for many more to come.
+  You’ll start by exploring the MLOps lifecycle, discovering the importance of
+  MLOps and the key functional components for model development, deployment,
+  monitoring, and maintenance.
+
+  Develop ML Code for Deployment
+
+  Next, you’ll learn how to develop models for deployment and how to write
+  effective ML code, leverage tools, and train ML pipelines. As you progress,
+  you’ll cover how to deploy your models, exploring different deployment
+  environments and when to use them. You’ll also develop strategies for
+  replacing existing production models and examine APIs.
+
+  Learn How to Monitor Your Models
+
+  As you complete the course, you’ll discover the crucial performance metrics
+  behind monitoring and maintaining your ML models. You’ll learn about drift
+  monitoring in production, as well as model feedback, updates, and
+  governance.
+
+  By the time you’re finished, you’ll understand how you can use MLOps
+  lifecycle to deploy your own models in production.
+syllabus:
+  - title: "MLOps in a Nutshell"
+    summary: |-
+      This chapter gives a high-level overview of MLOps principles and
+      framework components important for deployment and life cycling.
+  - title: "Develop for Deployment"
+    summary: |-
+      This chapter is dedicated to all the considerations we need to make
+      already in the development phase, in order to ensure a smooth ride
+      when we reach the operations. Our ultimate goal is to explain how to
+      train the model using MLOps best practices and build a model package
+      that enables smooth deployment, reproducibility and post-deployment
+      monitoring.
+  - title: "Deploy and Run"
+    summary: |-
+      This chapter deals with critical model operations questions such as:
+      - What are the different ways in which we can serve our models? -
+      What is an API, and what are its key functionalities? - How do we
+      thoroughly test our service before making it available to the end
+      users? - How do we update models in production without service
+      disturbance? You will learn about batch prediction, real-time
+      prediction, input and output data validation, unit testing,
+      integration testing, canary deployment, and much more.
+  - title: "Monitor and Maintain"
+    summary: |-
+      This final chapter is dedicated to monitoring and maintaining ML
+      services after they are deployed, as well as to model governance.
+      You will cover crucial concepts such as verification latency,
+      covariate shift, concept drift, human-in-the-loop systems, and more.

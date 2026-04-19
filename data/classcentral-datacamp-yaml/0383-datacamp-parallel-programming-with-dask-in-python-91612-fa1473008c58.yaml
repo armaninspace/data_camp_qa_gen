@@ -1,0 +1,84 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-parallel-programming-with-dask-in-python-91612
+final_url: |-
+  https://www.classcentral.com/course/datacamp-parallel-programming-with-dask-in-python-91612
+fetched_at: 2026-04-13T20:49:15.943Z
+title: "Parallel Programming with Dask in Python"
+provider: DataCamp
+summary: |-
+  Learn how to use Python parallel programming with Dask to upscale your
+  workflows and efficiently handle big data.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - Python
+  - "Big Data"
+  - "Parallel Programming"
+  - "Lazy Evaluation"
+  - "Parallel Computing"
+  - Dask
+overview: |-
+  Learn how to use Python parallel programming with Dask to upscale your
+  workflows and efficiently handle big data.
+
+  Use Parallel Processing to Speed Up Your Python Code
+
+  With this 4-hour course, you’ll discover how parallel processing with Dask
+  in Python can make your workflows faster.
+
+  When working with big data, you’ll face two common obstacles: using too much
+  memory and long runtimes. The Dask library can lower your memory use by
+  loading chunks of data only when needed. It can lower runtimes by using all
+  your available computing cores in parallel. Best of all, it requires very
+  few changes to your existing Python code.
+
+  Analyze Big Structured Data Using Dask DataFrames
+
+  In this course, you use Dask to analyze Spotify song data, process images of
+  sign language gestures, calculate trends in weather data, analyze audio
+  recordings, and train machine learning models on big data.
+
+  You’ll start by learning the basics of Dask, exploring how parallel
+  processing in Python can speed up almost any code. Next, you’ll explore Dask
+  DataFrames and arrays and how to use them to analyze big structured data.
+
+  Train machine learning models using Dask-ML
+
+  As you progress through the 51 exercises in this course, you’ll learn how to
+  process any type of data, using Dask bags to work with unstructured and
+  structured data. Finally, you’ll learn how to use Dask in Python to train
+  machine learning models and improve your computing speeds.
+syllabus:
+  - title: "Lazy Evaluation and Parallel Computing"
+    summary: |-
+      This chapter will teach you the basics of Dask and lazy evaluation.
+      At the end of this chapter, you'll be able to speed up almost any
+      Python code by using parallel processing or multi-threading. You'll
+      learn the difference between these two task scheduling methods and
+      which one is better under which circumstances.
+  - title: "Parallel Processing of Big, Structured Data"
+    summary: |-
+      Here you’ll learn how to analyze big structured data using Dask
+      arrays and Dask DataFrames. You'll learn how everything you know
+      about NumPy and pandas can easily be applied to data that is too
+      large to fit in memory.
+  - title: "Dask Bags for Unstructured Data"
+    summary: |-
+      Process any kind of data. You'll learn how Dask bags can be used to
+      efficiently process unstructured text data, semi-structured JSON
+      data, and even recorded audio.
+  - title: "Dask Machine Learning and Final Pieces"
+    summary: |-
+      Harness the power of Dask to train machine learning models. You'll
+      learn how to train machine learning models on big data using the
+      Dask-ML package, and how to split Dask calculations across a mixture
+      of processes and threads for even greater computing speed.

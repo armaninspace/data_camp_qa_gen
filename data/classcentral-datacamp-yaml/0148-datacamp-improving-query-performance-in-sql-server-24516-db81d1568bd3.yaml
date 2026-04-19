@@ -1,0 +1,81 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-improving-query-performance-in-sql-server-24516
+final_url: |-
+  https://www.classcentral.com/course/datacamp-improving-query-performance-in-sql-server-24516
+fetched_at: 2026-04-13T20:27:53.023Z
+title: "Improving Query Performance in SQL Server"
+provider: DataCamp
+summary: |-
+  In this course, students will learn to write queries that are both efficient
+  and easy to read and understand.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider:
+    rating: 4.3
+    provider: DataCamp
+    rating_count: 14
+subjects:
+  - SQL
+  - "Relational Databases"
+overview: |-
+  Introduction, Review and The Order of Things
+
+  In this chapter, students will learn how SQL code formatting, commenting,
+  and aliasing is used to make queries easy to read and understand. Students
+  will also be introduced to query processing order in the database versus the
+  order of the SQL syntax in a query.
+
+  Filtering and Data Interrogation
+
+  This chapter introduces filtering with WHERE and HAVING and some best
+  practices for how (and how not) to use these keywords. Next, it explains the
+  methods used to interrogate data and the effects these may have on
+  performance. Finally, the chapter goes over the roles of DISTINCT() and
+  UNION in removing duplicates and their potential effects on performance.
+
+  Sub-queries and presence or absence
+
+  This chapter is an introduction to sub-queries and their potential impacts
+  on query performance. It also examines the different methods used to
+  determine if the data in one table is present, or absent, in a related
+  table.
+
+  Query performance tuning
+
+  Students are introduced to how STATISTICS TIME, STATISTICS IO, indexes, and
+  executions plans can be used in SQL Server to help analyze and tune query
+  performance.
+syllabus:
+  - title: "Introduction, Review and The Order of Things"
+    summary: |-
+      In this chapter, students will learn how SQL code formatting,
+      commenting, and aliasing is used to make queries easy to read and
+      understand. Students will also be introduced to query processing
+      order in the database versus the order of the SQL syntax in a query.
+  - title: "Filtering and Data Interrogation"
+    summary: |-
+      This chapter introduces filtering with WHERE and HAVING and some
+      best practices for how (and how not) to use these keywords. Next, it
+      explains the methods used to interrogate data and the effects these
+      may have on performance. Finally, the chapter goes over the roles of
+      DISTINCT() and UNION in removing duplicates and their potential
+      effects on performance.
+  - title: "Sub-queries and presence or absence"
+    summary: |-
+      This chapter is an introduction to sub-queries and their potential
+      impacts on query performance. It also examines the different methods
+      used to determine if the data in one table is present, or absent, in
+      a related table.
+  - title: "Query performance tuning"
+    summary: |-
+      Students are introduced to how STATISTICS TIME, STATISTICS IO,
+      indexes, and executions plans can be used in SQL Server to help
+      analyze and tune query performance.

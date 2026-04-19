@@ -1,0 +1,76 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-transactions-and-error-handling-in-sql-server-24537
+final_url: |-
+  https://www.classcentral.com/course/datacamp-transactions-and-error-handling-in-sql-server-24537
+fetched_at: 2026-04-13T20:29:49.255Z
+title: "Transactions and Error Handling in SQL Server"
+provider: DataCamp
+summary: |-
+  Learn to write scripts that will catch and handle errors and control for
+  multiple operations happening at once.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - SQL
+  - "Relational Databases"
+  - Concurrency
+overview: |-
+  Starting with error handling
+
+  To begin the course, you will learn how to handle errors using the
+  TRY...CATCH construct that provides T-SQL. You will study the anatomy of
+  errors, and you will learn how to use some functions that can give you
+  information about errors.
+
+  Raising, throwing and customizing your errors
+
+  In this chapter, you will deepen your knowledge of handling errors. You will
+  learn how to raise errors using RAISERROR and THROW. Additionally, you will
+  discover how to customize errors.
+
+  Transactions in SQL Server
+
+  In this chapter, you will be introduced to the concept of transactions. You
+  will discover how to commit and rollback them. You will finish by learning
+  how to return the number of transactions and their state.
+
+  Controlling the concurrency: Transaction isolation levels
+
+  This chapter defines what concurrency is and how it can affect transactions.
+  You will learn exciting concepts like dirty reads, repeatable reads, and
+  phantom reads. To avoid or allow this reads, you will explore, one by one,
+  the different transaction isolation levels.
+syllabus:
+  - title: "Starting with error handling"
+    summary: |-
+      To begin the course, you will learn how to handle errors using the
+      TRY...CATCH construct that provides T-SQL. You will study the
+      anatomy of errors, and you will learn how to use some functions that
+      can give you information about errors.
+  - title: "Raising, throwing and customizing your errors"
+    summary: |-
+      In this chapter, you will deepen your knowledge of handling errors.
+      You will learn how to raise errors using RAISERROR and THROW.
+      Additionally, you will discover how to customize errors.
+  - title: "Transactions in SQL Server"
+    summary: |-
+      In this chapter, you will be introduced to the concept of
+      transactions. You will discover how to commit and rollback them. You
+      will finish by learning how to return the number of transactions and
+      their state.
+  - title: "Controlling the concurrency: Transaction isolation levels"
+    summary: |-
+      This chapter defines what concurrency is and how it can affect
+      transactions. You will learn exciting concepts like dirty reads,
+      repeatable reads, and phantom reads. To avoid or allow this reads,
+      you will explore, one by one, the different transaction isolation
+      levels.

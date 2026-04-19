@@ -1,0 +1,88 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-unsupervised-learning-in-r-24436
+final_url: |-
+  https://www.classcentral.com/course/datacamp-unsupervised-learning-in-r-24436
+fetched_at: 2026-04-13T20:20:34.385Z
+title: "Unsupervised Learning in R"
+provider: DataCamp
+summary: |-
+  This course provides an intro to clustering and dimensionality reduction in
+  R from a machine learning perspective.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider:
+    rating: 4.6
+    provider: DataCamp
+    rating_count: 22
+subjects:
+  - "R Programming"
+  - "Data Visualization"
+  - "Unsupervised Learning"
+  - "Case Study Analysis"
+  - "Dimensionality Reduction"
+  - Clustering
+  - "Hierarchical Clustering"
+overview: |-
+  Unsupervised learning in R
+
+  The k-means algorithm is one common approach to clustering. Learn how the
+  algorithm works under the hood, implement k-means clustering in R, visualize
+  and interpret the results, and select the number of clusters when it's not
+  known ahead of time. By the end of the chapter, you'll have applied k-means
+  clustering to a fun "real-world" dataset!
+
+  Hierarchical clustering
+
+  Hierarchical clustering is another popular method for clustering. The goal
+  of this chapter is to go over how it works, how to use it, and how it
+  compares to k-means clustering.
+
+  Dimensionality reduction with PCA
+
+  Principal component analysis, or PCA, is a common approach to dimensionality
+  reduction. Learn exactly what PCA does, visualize the results of PCA with
+  biplots and scree plots, and deal with practical issues such as centering
+  and scaling the data before performing PCA.
+
+  Putting it all together with a case study
+
+  The goal of this chapter is to guide you through a complete analysis using
+  the unsupervised learning techniques covered in the first three chapters.
+  You'll extend what you've learned by combining PCA as a preprocessing step
+  to clustering using data that consist of measurements of cell nuclei of
+  human breast masses.
+syllabus:
+  - title: "Unsupervised learning in R"
+    summary: |-
+      The k-means algorithm is one common approach to clustering. Learn
+      how the algorithm works under the hood, implement k-means clustering
+      in R, visualize and interpret the results, and select the number of
+      clusters when it's not known ahead of time. By the end of the
+      chapter, you'll have applied k-means clustering to a fun
+      "real-world" dataset!
+  - title: "Hierarchical clustering"
+    summary: |-
+      Hierarchical clustering is another popular method for clustering.
+      The goal of this chapter is to go over how it works, how to use it,
+      and how it compares to k-means clustering.
+  - title: "Dimensionality reduction with PCA"
+    summary: |-
+      Principal component analysis, or PCA, is a common approach to
+      dimensionality reduction. Learn exactly what PCA does, visualize the
+      results of PCA with biplots and scree plots, and deal with practical
+      issues such as centering and scaling the data before performing PCA.
+  - title: "Putting it all together with a case study"
+    summary: |-
+      The goal of this chapter is to guide you through a complete analysis
+      using the unsupervised learning techniques covered in the first
+      three chapters. You'll extend what you've learned by combining PCA
+      as a preprocessing step to clustering using data that consist of
+      measurements of cell nuclei of human breast masses.

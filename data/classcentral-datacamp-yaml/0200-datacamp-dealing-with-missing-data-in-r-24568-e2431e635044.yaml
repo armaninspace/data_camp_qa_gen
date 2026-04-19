@@ -1,0 +1,108 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-dealing-with-missing-data-in-r-24568
+final_url: |-
+  https://www.classcentral.com/course/datacamp-dealing-with-missing-data-in-r-24568
+fetched_at: 2026-04-13T20:32:43.450Z
+title: "Dealing With Missing Data in R"
+provider: DataCamp
+summary: |-
+  Make it easy to visualize, explore, and impute missing data with naniar, a
+  tidyverse friendly approach to missing data.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - "R Programming"
+  - "Data Analysis"
+  - "Data Visualization"
+  - Tidyverse
+overview: |-
+  Why care about missing data?
+
+  Chapter 1 introduces you to missing data, explaining what missing values
+  are, their behavior in R, how to detect them, and how to count them. We then
+  introduce missing data summaries and how to summarise missingness across
+  cases, variables, and how to explore across groups within the data. Finally,
+  we discuss missing data visualizations, how to produce overview
+  visualizations for the entire dataset and over variables, cases, and other
+  summaries, and how to explore these across groups.
+
+  Wrangling and tidying up missing values
+
+  In chapter two, you will learn how to uncover hidden missing values like
+  "missing" or "N/A" and replace them with `NA`. You will learn how to
+  efficiently handle implicit missing values - those values implied to be
+  missing, but not explicitly listed. We also cover how to explore missing
+  data dependence, discussing Missing Completely at Random (MCAR), Missing At
+  Random (MAR), Missing Not At Random (MNAR), and what they mean for your data
+  analysis.
+
+  Testing missing relationships
+
+  In this chapter, you will learn about workflows for working with missing
+  data. We introduce special data structures, the shadow matrix, and nabular
+  data, and demonstrate how to use them in workflows for exploring missing
+  data so that you can link summaries of missingness back to values in the
+  data. You will learn how to use ggplot to explore and visualize how values
+  changes as other variables go missing. Finally, you learn how to visualize
+  missingness across two variables, and how and why to visualize missings in a
+  scatterplot.
+
+  Connecting the dots (Imputation)
+
+  In this chapter, you will learn about filling in the missing values in your
+  data, which is called imputation. You will learn how to impute and track
+  missing values, and what the good and bad features of imputations are so
+  that you can explore, visualise, and evaluate the imputed data against the
+  original values. You will learn how to use, evaluate, and compare different
+  imputation models, and explore how different imputation models affect the
+  inferences you can draw from the models.
+syllabus:
+  - title: "Why care about missing data?"
+    summary: |-
+      Chapter 1 introduces you to missing data, explaining what missing
+      values are, their behavior in R, how to detect them, and how to
+      count them. We then introduce missing data summaries and how to
+      summarise missingness across cases, variables, and how to explore
+      across groups within the data. Finally, we discuss missing data
+      visualizations, how to produce overview visualizations for the
+      entire dataset and over variables, cases, and other summaries, and
+      how to explore these across groups.
+  - title: "Wrangling and tidying up missing values"
+    summary: |-
+      In chapter two, you will learn how to uncover hidden missing values
+      like "missing" or "N/A" and replace them with `NA`. You will learn
+      how to efficiently handle implicit missing values - those values
+      implied to be missing, but not explicitly listed. We also cover how
+      to explore missing data dependence, discussing Missing Completely at
+      Random (MCAR), Missing At Random (MAR), Missing Not At Random
+      (MNAR), and what they mean for your data analysis.
+  - title: "Testing missing relationships"
+    summary: |-
+      In this chapter, you will learn about workflows for working with
+      missing data. We introduce special data structures, the shadow
+      matrix, and nabular data, and demonstrate how to use them in
+      workflows for exploring missing data so that you can link summaries
+      of missingness back to values in the data. You will learn how to use
+      ggplot to explore and visualize how values changes as other
+      variables go missing. Finally, you learn how to visualize
+      missingness across two variables, and how and why to visualize
+      missings in a scatterplot.
+  - title: "Connecting the dots (Imputation)"
+    summary: |-
+      In this chapter, you will learn about filling in the missing values
+      in your data, which is called imputation. You will learn how to
+      impute and track missing values, and what the good and bad features
+      of imputations are so that you can explore, visualise, and evaluate
+      the imputed data against the original values. You will learn how to
+      use, evaluate, and compare different imputation models, and explore
+      how different imputation models affect the inferences you can draw
+      from the models.

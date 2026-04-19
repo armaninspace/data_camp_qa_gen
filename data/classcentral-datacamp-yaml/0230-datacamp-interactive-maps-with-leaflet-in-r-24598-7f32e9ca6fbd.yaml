@@ -1,0 +1,120 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-interactive-maps-with-leaflet-in-r-24598
+final_url: |-
+  https://www.classcentral.com/course/datacamp-interactive-maps-with-leaflet-in-r-24598
+fetched_at: 2026-04-13T20:35:31.108Z
+title: "Interactive Maps with leaflet in R"
+provider: DataCamp
+summary: "Learn how to produce interactive web maps with ease using leaflet."
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - Leaflet
+  - "Data Visualization"
+  - "R Programming"
+  - "Spatial Data Analysis"
+  - Geocoding
+overview: |-
+  Setting Up Interactive Web Maps
+
+  Chapter 1 will introduce students to the htmlwidgets package and the leaflet
+  package. Following this introduction, students will build their first
+  interactive web map using leaflet. Through the process of creating this
+  first map students will be introduced to many of the core features of the
+  leaflet package, including adding different map tiles, setting the center
+  point and zoom level, plotting single points based on latitude and longitude
+  coordinates, and storing leaflet maps as objects. Chapter 1 will conclude
+  with students geocoding DataCamp’s headquarters, and creating a leaflet map
+  that plots the headquarters and displays a popup describing the location.
+
+  Plotting Points
+
+  In chapter 2 students will build on the leaflet map they created in chapter
+  1 to create an interactive web map of every four year college in California.
+  After plotting hundreds of points on an interactive leaflet map, students
+  will learn to customize the markers on their leaflet map. This chapter will
+  also how to color code markers based on a factor variable.
+
+  Groups, Layers, and Extras
+
+  In chapter 3 students will expand on their map of all four year colleges in
+  California to create a map of all American colleges. First, in section 3.1
+  students will review and build on the material from Chapter 2 to create a
+  map of all American colleges. Then students will re-plot the colleges on
+  their leaflet map by sector (public, private, or for-profit) using groups to
+  enable users to toggle the colleges that are displayed on the map. In
+  section 3.3 students will learn to add multiple base maps so that users can
+  toggle between multiple map tiles.
+
+  Plotting Polygons
+
+  In Chapter 4 students will learn to map polygons, which can be used to
+  define geographic regions (e.g., zip codes, states, countries, etc.).
+  Chapter 4 will start by plotting the zip codes in North Carolina that fall
+  in the top quartile of mean family incomes. Students will learn to customize
+  the polygons with color palettes and labels. Chapter 4 will conclude with
+  adding a new layer to the map of every college in America that displays
+  every zip code with a mean income of $200,000 or more during the 2015 tax
+  year. Through the process of mapping zip codes students will learn about
+  spatial data generally, geoJSON data, the @ symbol, and the addPolygons()
+  function. Furthermore, students will have an opportunity to practice
+  applying many of the options that they learned about in the previous
+  chapters, such as popups and labels, as well as new ways to customize their
+  maps, such as the highlight option in addPolygons().
+syllabus:
+  - title: "Setting Up Interactive Web Maps"
+    summary: |-
+      Chapter 1 will introduce students to the htmlwidgets package and the
+      leaflet package. Following this introduction, students will build
+      their first interactive web map using leaflet. Through the process
+      of creating this first map students will be introduced to many of
+      the core features of the leaflet package, including adding different
+      map tiles, setting the center point and zoom level, plotting single
+      points based on latitude and longitude coordinates, and storing
+      leaflet maps as objects. Chapter 1 will conclude with students
+      geocoding DataCamp’s headquarters, and creating a leaflet map that
+      plots the headquarters and displays a popup describing the location.
+  - title: "Plotting Points"
+    summary: |-
+      In chapter 2 students will build on the leaflet map they created in
+      chapter 1 to create an interactive web map of every four year
+      college in California. After plotting hundreds of points on an
+      interactive leaflet map, students will learn to customize the
+      markers on their leaflet map. This chapter will also how to color
+      code markers based on a factor variable.
+  - title: "Groups, Layers, and Extras"
+    summary: |-
+      In chapter 3 students will expand on their map of all four year
+      colleges in California to create a map of all American colleges.
+      First, in section 3.1 students will review and build on the material
+      from Chapter 2 to create a map of all American colleges. Then
+      students will re-plot the colleges on their leaflet map by sector
+      (public, private, or for-profit) using groups to enable users to
+      toggle the colleges that are displayed on the map. In section 3.3
+      students will learn to add multiple base maps so that users can
+      toggle between multiple map tiles.
+  - title: "Plotting Polygons"
+    summary: |-
+      In Chapter 4 students will learn to map polygons, which can be used
+      to define geographic regions (e.g., zip codes, states, countries,
+      etc.). Chapter 4 will start by plotting the zip codes in North
+      Carolina that fall in the top quartile of mean family incomes.
+      Students will learn to customize the polygons with color palettes
+      and labels. Chapter 4 will conclude with adding a new layer to the
+      map of every college in America that displays every zip code with a
+      mean income of $200,000 or more during the 2015 tax year. Through
+      the process of mapping zip codes students will learn about spatial
+      data generally, geoJSON data, the @ symbol, and the addPolygons()
+      function. Furthermore, students will have an opportunity to practice
+      applying many of the options that they learned about in the previous
+      chapters, such as popups and labels, as well as new ways to
+      customize their maps, such as the highlight option in addPolygons().

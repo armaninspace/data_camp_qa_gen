@@ -1,0 +1,91 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-reshaping-data-with-tidyr-24438
+final_url: |-
+  https://www.classcentral.com/course/datacamp-reshaping-data-with-tidyr-24438
+fetched_at: 2026-04-13T20:20:45.338Z
+title: "Reshaping Data with tidyr"
+provider: DataCamp
+summary: |-
+  Transform almost any dataset into a tidy format to make analysis easier.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider:
+    rating: 4.6
+    provider: DataCamp
+    rating_count: 24
+subjects:
+  - "R Programming"
+  - XML
+  - "Data Transformation"
+  - JSON
+  - "Data Wrangling"
+  - "Tidy Data"
+overview: |-
+  Tidy Data
+
+  You'll be introduced to the concept of tidy data which is central to this
+  course. In the first two lessons, you'll jump straight into the action by
+  separating messy character columns into tidy variables and observations
+  ready for analysis. In the final lesson, you'll learn how to overwrite and
+  remove missing values.
+
+  From Wide to Long and Back
+
+  This chapter is all about pivoting data from a wide to long format and back
+  again using the pivot_longer() and pivot_wider() functions. You'll need
+  these functions when variables are hidden in messy column names or when
+  variables are stored in rows instead of columns. You'll learn about space
+  dogs, nuclear bombs, and planet temperatures along the way.
+
+  Expanding Data
+
+  Values can often be missing in your data, and sometimes entire observations
+  are absent too. In this chapter, you'll learn how to complete your dataset
+  with these missing observations. You'll add observations with zero values to
+  counted data, expand time series to a full sequence of intervals, and more!
+
+  Rectangling Data
+
+  In the final chapter, you'll learn how to turn nested data structures such
+  as JSON and XML files into tidy, rectangular data. This skill will enable
+  you to process data from web APIs. You'll also learn how nested data
+  structures can be used to write elegant modeling pipelines that produce tidy
+  outputs.
+syllabus:
+  - title: "Tidy Data"
+    summary: |-
+      You'll be introduced to the concept of tidy data which is central to
+      this course. In the first two lessons, you'll jump straight into the
+      action by separating messy character columns into tidy variables and
+      observations ready for analysis. In the final lesson, you'll learn
+      how to overwrite and remove missing values.
+  - title: "From Wide to Long and Back"
+    summary: |-
+      This chapter is all about pivoting data from a wide to long format
+      and back again using the pivot_longer() and pivot_wider() functions.
+      You'll need these functions when variables are hidden in messy
+      column names or when variables are stored in rows instead of
+      columns. You'll learn about space dogs, nuclear bombs, and planet
+      temperatures along the way.
+  - title: "Expanding Data"
+    summary: |-
+      Values can often be missing in your data, and sometimes entire
+      observations are absent too. In this chapter, you'll learn how to
+      complete your dataset with these missing observations. You'll add
+      observations with zero values to counted data, expand time series to
+      a full sequence of intervals, and more!
+  - title: "Rectangling Data"
+    summary: |-
+      In the final chapter, you'll learn how to turn nested data
+      structures such as JSON and XML files into tidy, rectangular data.
+      This skill will enable you to process data from web APIs. You'll
+      also learn how nested data structures can be used to write elegant
+      modeling pipelines that produce tidy outputs.

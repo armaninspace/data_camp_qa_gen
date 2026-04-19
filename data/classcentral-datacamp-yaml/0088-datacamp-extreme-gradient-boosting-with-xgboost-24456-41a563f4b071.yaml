@@ -1,0 +1,92 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-extreme-gradient-boosting-with-xgboost-24456
+final_url: |-
+  https://www.classcentral.com/course/datacamp-extreme-gradient-boosting-with-xgboost-24456
+fetched_at: 2026-04-13T20:22:27.235Z
+title: "Extreme Gradient Boosting with XGBoost"
+provider: DataCamp
+summary: |-
+  Learn the fundamentals of gradient boosting and build state-of-the-art
+  machine learning models using XGBoost to solve classification and regression
+  problems.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider:
+    rating: 4.2
+    provider: DataCamp
+    rating_count: 34
+subjects:
+  - Python
+  - "Machine Learning"
+  - pandas
+  - scikit-learn
+  - Classification
+  - "Hyperparameter Tuning"
+  - XGBoost
+  - "Machine Learning Pipelines"
+overview: |-
+  Classification with XGBoost
+
+  This chapter will introduce you to the fundamental idea behind
+  XGBoost—boosted learners. Once you understand how XGBoost works, you'll
+  apply it to solve a common classification problem found in industry:
+  predicting whether a customer will stop being a customer at some point in
+  the future.
+
+  Regression with XGBoost
+
+  After a brief review of supervised regression, you'll apply XGBoost to the
+  regression task of predicting house prices in Ames, Iowa. You'll learn about
+  the two kinds of base learners that XGboost can use as its weak learners,
+  and review how to evaluate the quality of your regression models.
+
+  Fine-tuning your XGBoost model
+
+  This chapter will teach you how to make your XGBoost models as performant as
+  possible. You'll learn about the variety of parameters that can be adjusted
+  to alter the behavior of XGBoost and how to tune them efficiently so that
+  you can supercharge the performance of your models.
+
+  Using XGBoost in pipelines
+
+  Take your XGBoost skills to the next level by incorporating your models into
+  two end-to-end machine learning pipelines. You'll learn how to tune the most
+  important XGBoost hyperparameters efficiently within a pipeline, and get an
+  introduction to some more advanced preprocessing techniques.
+syllabus:
+  - title: "Classification with XGBoost"
+    summary: |-
+      This chapter will introduce you to the fundamental idea behind
+      XGBoost—boosted learners. Once you understand how XGBoost works,
+      you'll apply it to solve a common classification problem found in
+      industry: predicting whether a customer will stop being a customer
+      at some point in the future.
+  - title: "Regression with XGBoost"
+    summary: |-
+      After a brief review of supervised regression, you'll apply XGBoost
+      to the regression task of predicting house prices in Ames, Iowa.
+      You'll learn about the two kinds of base learners that XGboost can
+      use as its weak learners, and review how to evaluate the quality of
+      your regression models.
+  - title: "Fine-tuning your XGBoost model"
+    summary: |-
+      This chapter will teach you how to make your XGBoost models as
+      performant as possible. You'll learn about the variety of parameters
+      that can be adjusted to alter the behavior of XGBoost and how to
+      tune them efficiently so that you can supercharge the performance of
+      your models.
+  - title: "Using XGBoost in pipelines"
+    summary: |-
+      Take your XGBoost skills to the next level by incorporating your
+      models into two end-to-end machine learning pipelines. You'll learn
+      how to tune the most important XGBoost hyperparameters efficiently
+      within a pipeline, and get an introduction to some more advanced
+      preprocessing techniques.

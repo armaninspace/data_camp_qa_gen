@@ -1,0 +1,103 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-modeling-with-data-in-the-tidyverse-24505
+final_url: |-
+  https://www.classcentral.com/course/datacamp-modeling-with-data-in-the-tidyverse-24505
+fetched_at: 2026-04-13T20:26:55.358Z
+title: "Modeling with Data in the Tidyverse"
+provider: DataCamp
+summary: |-
+  Discover different types in data modeling, including for prediction, and
+  learn how to conduct linear regression and model assessment measures in the
+  Tidyverse.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - Tidyverse
+  - "Artificial Intelligence"
+  - "Machine Learning"
+  - "Linear Regression"
+  - "Data Modeling"
+  - "Exploratory Data Analysis"
+  - "Multiple Regression"
+  - "Causal Inference"
+overview: |-
+  Introduction to Modeling
+
+  This chapter will introduce you to some background theory and terminology
+  for modeling, in particular, the general modeling framework, the difference
+  between modeling for explanation and modeling for prediction, and the
+  modeling problem. Furthermore, you'll start performing your first
+  exploratory data analysis, a crucial first step before any formal modeling.
+
+  Modeling with Basic Regression
+
+  Equipped with your understanding of the general modeling framework, in this
+  chapter, we'll cover basic linear regression where you'll keep things simple
+  and model the outcome variable y as a function of a single explanatory/
+  predictor variable x. We'll use both numerical and categorical x variables.
+  The outcome variable of interest in this chapter will be teaching evaluation
+  scores of instructors at the University of Texas, Austin.
+
+  Modeling with Multiple Regression
+
+  In the previous chapter, you learned about basic regression using either a
+  single numerical or a categorical predictor. But why limit ourselves to
+  using only one variable to inform your explanations/predictions? You will
+  now extend basic regression to multiple regression, which allows for
+  incorporation of more than one explanatory or one predictor variable in your
+  models. You'll be modeling house prices using a dataset of houses in the
+  Seattle, WA metropolitan area.
+
+  Model Assessment and Selection
+
+  In the previous chapters, you fit various models to explain or predict an
+  outcome variable of interest. However, how do we know which models to
+  choose? Model assessment measures allow you to assess how well an
+  explanatory model "fits" a set of data or how accurate a predictive model
+  is. Based on these measures, you'll learn about criteria for determining
+  which models are "best".
+syllabus:
+  - title: "Introduction to Modeling"
+    summary: |-
+      This chapter will introduce you to some background theory and
+      terminology for modeling, in particular, the general modeling
+      framework, the difference between modeling for explanation and
+      modeling for prediction, and the modeling problem. Furthermore,
+      you'll start performing your first exploratory data analysis, a
+      crucial first step before any formal modeling.
+  - title: "Modeling with Basic Regression"
+    summary: |-
+      Equipped with your understanding of the general modeling framework,
+      in this chapter, we'll cover basic linear regression where you'll
+      keep things simple and model the outcome variable y as a function of
+      a single explanatory/ predictor variable x. We'll use both numerical
+      and categorical x variables. The outcome variable of interest in
+      this chapter will be teaching evaluation scores of instructors at
+      the University of Texas, Austin.
+  - title: "Modeling with Multiple Regression"
+    summary: |-
+      In the previous chapter, you learned about basic regression using
+      either a single numerical or a categorical predictor. But why limit
+      ourselves to using only one variable to inform your
+      explanations/predictions? You will now extend basic regression to
+      multiple regression, which allows for incorporation of more than one
+      explanatory or one predictor variable in your models. You'll be
+      modeling house prices using a dataset of houses in the Seattle, WA
+      metropolitan area.
+  - title: "Model Assessment and Selection"
+    summary: |-
+      In the previous chapters, you fit various models to explain or
+      predict an outcome variable of interest. However, how do we know
+      which models to choose? Model assessment measures allow you to
+      assess how well an explanatory model "fits" a set of data or how
+      accurate a predictive model is. Based on these measures, you'll
+      learn about criteria for determining which models are "best".

@@ -1,0 +1,107 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-intermediate-deep-learning-with-pytorch-260172
+final_url: |-
+  https://www.classcentral.com/course/datacamp-intermediate-deep-learning-with-pytorch-260172
+fetched_at: 2026-04-13T21:00:15.304Z
+title: "Intermediate Deep Learning with PyTorch"
+provider: DataCamp
+summary: |-
+  Learn about fundamental deep learning architectures such as CNNs, RNNs,
+  LSTMs, and GRUs for modeling image and sequential data.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider:
+    rating: 4.4
+    provider: DataCamp
+    rating_count: 21
+subjects:
+  - PyTorch
+  - "Deep Learning"
+  - "Image Classification"
+overview: |-
+  Learn about fundamental deep learning architectures such as CNNs, RNNs,
+  LSTMs, and GRUs for modeling image and sequential data.
+
+  Learn Deep Learning
+
+  Deep learning is a rapidly evolving field of artificial intelligence that
+  revolutionized the field of machine learning, enabling breakthroughs in
+  areas such as computer vision, natural language processing, and speech
+  recognition. The most recent advances in Generative AI, including image
+  generators and conversational chatbots, have brought deep machine learning
+  models to the public spotlight. Start learning about how deep learning works
+  and how to train deep models yourself today.
+
+  Use PyTorch, the Most Pythonic Way to Do Deep Learning
+
+  PyTorch is a powerful and flexible deep learning framework that allows
+  researchers and practitioners to build and train neural networks with ease.
+  Loved by Pythonistas around the world, PyTorch offers a lot of flexibility
+  and an intuitive way to implement deep learning concepts.
+
+  Train Robust Deep Learning Models
+
+  This course in deep learning with PyTorch is designed to provide you with a
+  comprehensive understanding of the fundamental concepts and techniques of
+  deep learning, and equip you with the practical skills to implement various
+  neural network concepts. You’ll get to grips with multi-input and
+  multi-output architectures. You’ll learn how to prevent the vanishing and
+  exploding gradients problems using non-saturating activations, batch
+  normalization, and proper weights initialization. You will be able to
+  alleviate overfitting using regularization and dropout. Finally, you will
+  know how to accelerate the training process with learning rate scheduling.
+
+  Build Image and Sequence Models
+
+  You get to know two specialized neural network architectures: Convolutional
+  Neural Networks (CNNs) for image data and Recurrent Neural Networks (RNNs)
+  for sequential data such as time series or text. You will understand their
+  advantages and will be able to implement them in image classification and
+  time series prediction tasks.
+
+  By the end of the course, you will have the knowledge and confidence to
+  robustly train and evaluate your own deep learning models for a range of
+  applications.
+syllabus:
+  - title: "Training Robust Neural Networks"
+    summary: |-
+      Learn how to train neural networks in a robust way. In this chapter,
+      you will use object-oriented programming to define PyTorch datasets
+      and models and refresh your knowledge of training and evaluating
+      neural networks. You will also get familiar with different
+      optimizers and, finally, get to grips with various techniques that
+      help mitigate the problems of unstable gradients so ubiquitous in
+      neural nets training.
+  - title: "Images & Convolutional Neural Networks"
+    summary: |-
+      Train neural networks to solve image classification tasks. In this
+      chapter, you will learn how to handle image data in PyTorch and get
+      to grips with convolutional neural networks (CNNs). You will
+      practice training and evaluating an image classifier while learning
+      about how to improve the model performance with data augmentation.
+  - title: "Sequences & Recurrent Neural Networks"
+    summary: |-
+      Build and train recurrent neural networks (RNNs) for processing
+      sequential data such as time series, text, or audio. You will learn
+      about the two most popular recurrent architectures, Long-Short Term
+      Memory (LSTM) and Gated Recurrent Unit (GRU) networks, as well as
+      how to prepare sequential data for model training. You will practice
+      your skills by training and evaluating a recurrent model for
+      predicting electricity consumption.
+  - title: "Multi-Input & Multi-Output Architectures"
+    summary: |-
+      Build multi-input and multi-output models, demonstrating how they
+      can handle tasks requiring more than one input or generating
+      multiple outputs. You will explore how to design and train these
+      models using PyTorch and delve into the crucial topic of loss
+      weighting in multi-output models. This involves understanding how to
+      balance the importance of different tasks when training a model to
+      perform multiple tasks simultaneously.

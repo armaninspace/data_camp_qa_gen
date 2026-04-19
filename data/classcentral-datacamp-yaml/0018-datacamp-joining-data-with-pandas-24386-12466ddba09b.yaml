@@ -1,0 +1,79 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-joining-data-with-pandas-24386
+final_url: |-
+  https://www.classcentral.com/course/datacamp-joining-data-with-pandas-24386
+fetched_at: 2026-04-13T20:16:01.520Z
+title: "Joining Data with pandas"
+provider: DataCamp
+summary: |-
+  Learn to combine data from multiple tables by joining data together using
+  pandas.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider:
+    rating: 4.3
+    provider: DataCamp
+    rating_count: 158
+subjects:
+  - pandas
+  - "Data Analysis"
+  - Python
+  - "Data Manipulation"
+  - "Data Validation"
+overview: |-
+  Learn to combine data from multiple tables by joining data together using
+  pandas.
+
+  Being able to combine and work with multiple datasets is an essential skill
+  for any aspiring Data Scientist. pandas is a crucial cornerstone of the
+  Python data science ecosystem, with Stack Overflow recording 5 million views
+  for pandas questions. Learn to handle multiple DataFrames by combining,
+  organizing, joining, and reshaping them using pandas. You'll work with
+  datasets from the World Bank and the City Of Chicago. You will finish the
+  course with a solid skillset for data-joining in pandas.
+
+  The videos contain live transcripts you can reveal by clicking "Show
+  transcript" at the bottom left of the videos.
+
+  The course glossary can be found on the right in the resources section.
+
+  To obtain CPE credits you need to complete the course and reach a score of
+  70% on the qualified assessment. You can navigate to the assessment by
+  clicking on the CPE credits callout on the right.
+syllabus:
+  - title: "Data Merging Basics"
+    summary: |-
+      Learn how you can merge disparate data using inner joins. By
+      combining information from multiple sources you’ll uncover
+      compelling insights that may have previously been hidden. You’ll
+      also learn how the relationship between those sources, such as
+      one-to-one or one-to-many, can affect your result.
+  - title: "Merging Tables With Different Join Types"
+    summary: |-
+      Take your knowledge of joins to the next level. In this chapter,
+      you’ll work with TMDb movie data as you learn about left, right, and
+      outer joins. You’ll also discover how to merge a table to itself and
+      merge on a DataFrame index.
+  - title: "Advanced Merging and Concatenating"
+    summary: |-
+      In this chapter, you’ll leverage powerful filtering techniques,
+      including semi-joins and anti-joins. You’ll also learn how to glue
+      DataFrames by vertically combining and using the pandas.concat
+      function to create new datasets. Finally, because data is rarely
+      clean, you’ll also learn how to validate your newly combined data
+      structures.
+  - title: "Merging Ordered and Time-Series Data"
+    summary: |-
+      In this final chapter, you’ll step up a gear and learn to apply
+      pandas' specialized methods for merging time-series and ordered data
+      together with real-world financial and economic data from the city
+      of Chicago. You’ll also learn how to query resulting tables using a
+      SQL-style format, and unpivot data using the melt method.

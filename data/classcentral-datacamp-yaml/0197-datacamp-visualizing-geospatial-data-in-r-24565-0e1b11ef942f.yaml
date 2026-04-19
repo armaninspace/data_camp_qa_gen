@@ -1,0 +1,99 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-visualizing-geospatial-data-in-r-24565
+final_url: |-
+  https://www.classcentral.com/course/datacamp-visualizing-geospatial-data-in-r-24565
+fetched_at: 2026-04-13T20:32:27.345Z
+title: "Visualizing Geospatial Data in R"
+provider: DataCamp
+summary: |-
+  Learn to read, explore, and manipulate spatial data then use your skills to
+  create informative maps using R.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - "R Programming"
+  - ggplot2
+  - "Spatial Data Analysis"
+overview: |-
+  Basic mapping with ggplot2 and ggmap
+
+  We'll dive in by displaying some spatial data -- property sales in a small
+  US town -- using ggplot2 and we'll introduce you to the ggmap package as a
+  quick way to add spatial context to your plots. We'll talk about what makes
+  spatial data special and introduce you to the common types of spatial data
+  we'll be working with throughout the course.
+
+  Point and polygon data
+
+  You can get a long way with spatial data stored in data frames, but it makes
+  life easier if they are stored in special spatial objects. In this chapter
+  we'll introduce you to the spatial object classes provided by the sp
+  package, particularly for point and polygon data. You'll learn how to
+  explore and subset these objects by exploring a world map. The reward for
+  learning about these object classes: we'll show you the package tmap which
+  requires spatial objects as input, but makes creating maps really easy!
+  You'll finish up by making a map of the world's population.
+
+  Raster data and color
+
+  While the sp package provides some classes for raster data, the raster
+  package provides more useful classes. You'll be introduced to these classes
+  and their advantages and then learn to display them. The examples continue
+  with the theme of population from Chapter 2, but you'll look at some much
+  finer detail datasets, both spatially and demographically. In the second
+  half of the chapter you'll learn about color -- an essential part of any
+  visual display, but especially important for maps.
+
+  Data import and projections
+
+  In this chapter you'll follow the creation of a visualization from raw
+  spatial data files to adding a credit to a map. Along the way, you'll learn
+  how to read spatial data into R, more about projections and coordinate
+  reference systems, how to add additional data to a spatial object, and some
+  tips for polishing your maps.
+syllabus:
+  - title: "Basic mapping with ggplot2 and ggmap"
+    summary: |-
+      We'll dive in by displaying some spatial data -- property sales in a
+      small US town -- using ggplot2 and we'll introduce you to the ggmap
+      package as a quick way to add spatial context to your plots. We'll
+      talk about what makes spatial data special and introduce you to the
+      common types of spatial data we'll be working with throughout the
+      course.
+  - title: "Point and polygon data"
+    summary: |-
+      You can get a long way with spatial data stored in data frames, but
+      it makes life easier if they are stored in special spatial objects.
+      In this chapter we'll introduce you to the spatial object classes
+      provided by the sp package, particularly for point and polygon data.
+      You'll learn how to explore and subset these objects by exploring a
+      world map. The reward for learning about these object classes: we'll
+      show you the package tmap which requires spatial objects as input,
+      but makes creating maps really easy! You'll finish up by making a
+      map of the world's population.
+  - title: "Raster data and color"
+    summary: |-
+      While the sp package provides some classes for raster data, the
+      raster package provides more useful classes. You'll be introduced to
+      these classes and their advantages and then learn to display them.
+      The examples continue with the theme of population from Chapter 2,
+      but you'll look at some much finer detail datasets, both spatially
+      and demographically. In the second half of the chapter you'll learn
+      about color -- an essential part of any visual display, but
+      especially important for maps.
+  - title: "Data import and projections"
+    summary: |-
+      In this chapter you'll follow the creation of a visualization from
+      raw spatial data files to adding a credit to a map. Along the way,
+      you'll learn how to read spatial data into R, more about projections
+      and coordinate reference systems, how to add additional data to a
+      spatial object, and some tips for polishing your maps.

@@ -1,0 +1,82 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-web-scraping-in-python-24414
+final_url: |-
+  https://www.classcentral.com/course/datacamp-web-scraping-in-python-24414
+fetched_at: 2026-04-13T20:18:35.758Z
+title: "Web Scraping in Python"
+provider: DataCamp
+summary: |-
+  Learn to retrieve and parse information from the internet using the Python
+  library scrapy.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider:
+    rating: 4.4
+    provider: DataCamp
+    rating_count: 54
+subjects:
+  - Python
+  - Scrapy
+  - "Web Scraping"
+  - XPath
+  - HTML
+  - "Data Extraction"
+overview: |-
+  Introduction to HTML
+
+  Learn the structure of HTML. We begin by explaining why web scraping can be
+  a valuable addition to your data science toolbox and then delving into some
+  basics of HTML. We end the chapter by giving a brief introduction on XPath
+  notation, which is used to navigate the elements within HTML code.
+
+  XPaths and Selectors
+
+  Leverage XPath syntax to explore scrapy selectors. Both of these concepts
+  will move you towards being able to scrape an HTML document.
+
+  CSS Locators, Chaining, and Responses
+
+  Learn CSS Locator syntax and begin playing with the idea of chaining
+  together CSS Locators with XPath. We also introduce Response objects, which
+  behave like Selectors but give us extra tools to mobilize our scraping
+  efforts across multiple websites.
+
+  Spiders
+
+  Learn to create web crawlers with scrapy. These scrapy spiders will crawl
+  the web through multiple pages, following links to scrape each of those
+  pages automatically according to the procedures we've learned in the
+  previous chapters.
+syllabus:
+  - title: "Introduction to HTML"
+    summary: |-
+      Learn the structure of HTML. We begin by explaining why web scraping
+      can be a valuable addition to your data science toolbox and then
+      delving into some basics of HTML. We end the chapter by giving a
+      brief introduction on XPath notation, which is used to navigate the
+      elements within HTML code.
+  - title: "XPaths and Selectors"
+    summary: |-
+      Leverage XPath syntax to explore scrapy selectors. Both of these
+      concepts will move you towards being able to scrape an HTML
+      document.
+  - title: "CSS Locators, Chaining, and Responses"
+    summary: |-
+      Learn CSS Locator syntax and begin playing with the idea of chaining
+      together CSS Locators with XPath. We also introduce Response
+      objects, which behave like Selectors but give us extra tools to
+      mobilize our scraping efforts across multiple websites.
+  - title: Spiders
+    summary: |-
+      Learn to create web crawlers with scrapy. These scrapy spiders will
+      crawl the web through multiple pages, following links to scrape each
+      of those pages automatically according to the procedures we've
+      learned in the previous chapters.

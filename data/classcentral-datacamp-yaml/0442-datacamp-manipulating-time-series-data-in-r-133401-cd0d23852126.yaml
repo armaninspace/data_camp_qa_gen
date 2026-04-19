@@ -1,0 +1,98 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-manipulating-time-series-data-in-r-133401
+final_url: |-
+  https://www.classcentral.com/course/datacamp-manipulating-time-series-data-in-r-133401
+fetched_at: 2026-04-13T20:54:37.671Z
+title: "Manipulating Time Series Data in R"
+provider: DataCamp
+summary: |-
+  Master time series data manipulation in R, including importing, summarizing
+  and subsetting, with zoo, lubridate and xts.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - "R Programming"
+  - "Data Visualization"
+overview: |-
+  Master time series data manipulation in R, including importing, summarizing
+  and subsetting, with zoo, lubridate and xts.
+
+  Learn All About Time Series Data
+
+  Working with data that changes over time is an essential skill in data
+  science. This kind of data is known as a time series. You'll learn the
+  foundations of what a time series represents, how to retrieve summary
+  statistics about the data in a time series, and how to interpret a time
+  series visually.
+
+  Master Manipulation of Time Series with zoo, lubridate and xts
+
+  You’ll master using the zoo and lubridate packages to import, explore, and
+  visualize time series data in R. You’ll learn to retrieve key attributes of
+  time series information, such as the period of that data and how often the
+  data was sampled, gaining fluency in converting between data frames and time
+  series along the way. Further, by aggregating your data, you’ll learn to see
+  the overall trends in the data using the xts package.
+
+  Perfect Your Subsetting Skills
+
+  You’ll cover how to subset a window from a time series to focus on a
+  particular period of interest. You’ll sample time series data at various
+  rates, such as every minute, hour, month, or year. You'll also learn methods
+  of 'imputing' your data – filling in missing values with constant fill,
+  LOCF, or linear interpolation methods. You’ll also learn to create “rolling”
+  windows of a time series that move, or "roll" along with data, making it
+  possible to summarize trends in the data across time. You will also learn
+  how to create expanding windows, which show how these summary statistics
+  approach their final value.
+syllabus:
+  - title: "What Is Time Series Data?"
+    summary: |-
+      You'll learn the foundations of what a time series represents, how
+      to retrieve summary statistics about the data in a time series, and
+      how to visually interpret a time series plot as part of the
+      exploration step of your analysis. You’ll also cover how to manage
+      date and time information within R objects and ways of incorporating
+      consistent formatting for dates.
+  - title: "Manipulating Time Series with zoo"
+    summary: |-
+      Here, you’ll learn to retrieve key attributes of time series
+      information, such as the range in time of the data and how often the
+      data were sampled, to understand your data better. You'll also be
+      introduced to the zoo package, which contains tools and functions
+      for creating and manipulating time series objects. Many data science
+      applications in R use the data frame paradigm; you'll learn how to
+      convert between a data frame and a time series.
+  - title: "Indexing Time Series Objects"
+    summary: |-
+      You’ll cover how to subset a window from a time series to focus on a
+      particular period of interest. You’ll see that when working with
+      real-world time series data, the timespan of your dataset may cover
+      more information than you need, which can clutter your
+      visualizations. You’ll sample time series data at various rates,
+      such as every minute, hour, month, or year. Further, by aggregating
+      your data, you’ll learn to see the overall trends in the data using
+      the xts package. You'll also learn methods of 'imputing' your data –
+      filling in missing values with constant fill, LOCF, or linear
+      interpolation methods.
+  - title: "Rolling and Expanding Windows"
+    summary: |-
+      You’ll learn to create “rolling” windows of a time series that move,
+      or "roll" along with data, making it possible to summarize trends in
+      the data across time, such as the average over success months of
+      observations or the sum over several weeks of sales. Overall summary
+      statistics, like mean, median, sum, maximum, and so on, do not
+      always provide insight into how data changes over time, and rolling
+      windows will allow you to compute statistics dynamically. In
+      addition to rolling windows, you will also learn how to create
+      expanding windows, which show how these summary statistics approach
+      their final value.

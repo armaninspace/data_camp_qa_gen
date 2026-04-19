@@ -1,0 +1,84 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-exploratory-data-analysis-in-sql-24425
+final_url: |-
+  https://www.classcentral.com/course/datacamp-exploratory-data-analysis-in-sql-24425
+fetched_at: 2026-04-13T20:19:35.200Z
+title: "Exploratory Data Analysis in SQL"
+provider: DataCamp
+summary: |-
+  Learn how to explore what's available in a database: the tables,
+  relationships between them, and data stored in them.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider:
+    rating: 4.5
+    provider: DataCamp
+    rating_count: 66
+subjects:
+  - SQL
+  - "Data Analysis"
+  - "Relational Databases"
+  - "Data Cleaning"
+  - "Data Summarization"
+  - "Exploratory Data Analysis"
+  - "Data Aggregation"
+  - Subqueries
+overview: |-
+  Learn how to explore what's available in a database: the tables,
+  relationships between them, and data stored in them.
+
+  You have access to a database. Now what do you do? Building on your existing
+  skills joining tables, using basic functions, grouping data, and using
+  subqueries, the next step in your SQL journey is learning how to explore a
+  database and the data in it. Using data from Stack Overflow, Fortune 500
+  companies, and 311 help requests from Evanston, IL, you'll get familiar with
+  numeric, character, and date/time data types. You'll use functions to
+  aggregate, summarize, and analyze data without leaving the database. Errors
+  and inconsistencies in the data won't stop you! You'll learn common problems
+  to look for and strategies to clean up messy data. By the end of this
+  course, you'll be ready to start exploring your own PostgreSQL databases and
+  analyzing the data in them.
+
+  The videos contain live transcripts you can reveal by clicking "Show
+  transcript" at the bottom left of the videos.
+
+  The course glossary can be found on the right in the resources section.
+
+  To obtain CPE credits you need to complete the course and reach a score of
+  70% on the qualified assessment. You can navigate to the assessment by
+  clicking on the CPE credits callout on the right.
+syllabus:
+  - title: "What's in the Database?"
+    summary: |-
+      Start exploring a database by identifying the tables and the foreign
+      keys that link them. Look for missing values, count the number of
+      observations, and join tables to understand how they're related.
+      Learn about coalescing and casting data along the way.
+  - title: "Summarizing and Aggregating Numeric Data"
+    summary: |-
+      You'll build on functions like min and max to summarize numeric data
+      in new ways. Add average, variance, correlation, and percentile
+      functions to your toolkit, and learn how to truncate and round
+      numeric values too. Build complex queries and save your results by
+      creating temporary tables.
+  - title: "Exploring Categorical Data and Unstructured Text"
+    summary: |-
+      Text, or character, data can get messy, but you'll learn how to deal
+      with inconsistencies in case, spacing, and delimiters. Learn how to
+      use a temporary table to recode messy categorical data to
+      standardized values you can count and aggregate. Extract new
+      variables from unstructured text as you explore help requests
+      submitted to the city of Evanston, IL.
+  - title: "Working with Dates and Timestamps"
+    summary: |-
+      What time is it? In this chapter, you'll learn how to find out.
+      You'll aggregate date/time data by hour, day, month, or year and
+      practice both constructing time series and finding gaps in them.

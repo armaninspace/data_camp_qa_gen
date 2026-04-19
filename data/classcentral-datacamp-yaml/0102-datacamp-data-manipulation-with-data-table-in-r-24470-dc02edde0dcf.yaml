@@ -1,0 +1,84 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-data-manipulation-with-data-table-in-r-24470
+final_url: |-
+  https://www.classcentral.com/course/datacamp-data-manipulation-with-data-table-in-r-24470
+fetched_at: 2026-04-13T20:23:43.414Z
+title: "Data Manipulation with data.table in R"
+provider: DataCamp
+summary: |-
+  Master core concepts about data manipulation such as filtering, selecting
+  and calculating groupwise statistics using data.table.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - "R Programming"
+  - "Data Tables"
+  - "Data Manipulation"
+overview: |-
+  Introduction to data.table
+
+  This chapter introduces data.tables as a drop-in replacement for data.frames
+  and shows how to use data.table's i argument to filter rows.
+
+  Selecting and Computing on Columns
+
+  Just as the i argument lets you filter rows, the j argument of data.table
+  lets you select columns and also perform computations. The syntax is far
+  more convenient and flexible when compared to data.frames.
+
+  Groupwise Operations
+
+  This chapter introduces data.table's by argument that lets you perform
+  computations by groups. By the end of this chapter, you will master the
+  concise DT[i, j, by] syntax of data.table.
+
+  Reference Semantics
+
+  You will learn about a unique feature of data.table in this chapter:
+  modifying existing data.tables in place. Modifying data.tables in place
+  makes your operations incredibly fast and is easy to learn.
+
+  Importing and Exporting Data
+
+  Not only does the data.table package help you perform incredibly fast
+  computations, it can also help you read and write data to disk with amazing
+  speeds. This chapter focuses on data.table's fread() and fwrite() functions
+  which let you import and export flat files quickly and easily!
+syllabus:
+  - title: "Introduction to data.table"
+    summary: |-
+      This chapter introduces data.tables as a drop-in replacement for
+      data.frames and shows how to use data.table's i argument to filter
+      rows.
+  - title: "Selecting and Computing on Columns"
+    summary: |-
+      Just as the i argument lets you filter rows, the j argument of
+      data.table lets you select columns and also perform computations.
+      The syntax is far more convenient and flexible when compared to
+      data.frames.
+  - title: "Groupwise Operations"
+    summary: |-
+      This chapter introduces data.table's by argument that lets you
+      perform computations by groups. By the end of this chapter, you will
+      master the concise DT[i, j, by] syntax of data.table.
+  - title: "Reference Semantics"
+    summary: |-
+      You will learn about a unique feature of data.table in this chapter:
+      modifying existing data.tables in place. Modifying data.tables in
+      place makes your operations incredibly fast and is easy to learn.
+  - title: "Importing and Exporting Data"
+    summary: |-
+      Not only does the data.table package help you perform incredibly
+      fast computations, it can also help you read and write data to disk
+      with amazing speeds. This chapter focuses on data.table's fread()
+      and fwrite() functions which let you import and export flat files
+      quickly and easily!

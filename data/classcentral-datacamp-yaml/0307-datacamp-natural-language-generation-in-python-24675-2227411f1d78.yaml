@@ -1,0 +1,63 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-natural-language-generation-in-python-24675
+final_url: |-
+  https://www.classcentral.com/course/datacamp-natural-language-generation-in-python-24675
+fetched_at: 2026-04-13T20:42:22.217Z
+title: "Natural Language Generation in Python"
+provider: DataCamp
+summary: |-
+  Imitate Shakespear, translate language and autocomplete sentences using Deep
+  Learning in Python.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - Python
+  - "Machine Learning"
+  - "Text Generation"
+  - "Neural Machine Translation"
+  - "Encoder-Decoder Architecture"
+overview: |-
+  Introduction to Sequential Data
+
+  -The order of words in sentences is important (unless Yoda you are called).
+  That’s why in this chapter, you’ll learn how to represent your data
+  sequentially and use neural network architecture to model your text data.
+  You'll learn how to create and train a recurrent network to generate new
+  text, character by character. You'll also use the names dataset to build
+  your own baby name generator, using a very simple recurrent neural network
+  and the Keras package.
+
+  Write Like Shakespeare
+
+  -In this chapter, you’ll find out how to overcome the limitations of
+  recurrent neural networks when input sequences span long intervals. To avoid
+  vanishing and exploding gradient problems you'll be introduced to long short
+  term memory (LSTM) networks that are more effective when working with
+  long-term dependencies. You'll work on a fun project where you'll build and
+  train a simple LSTM model using selected literary works of Shakespeare to
+  generate new text in the unique writing style of Shakespeare.
+
+  Translate Words into a Different Language
+
+  -In this chapter, you'll learn about the encoder-decoder architecture and
+  how it can be used to model sequence-to-sequence datasets, converting
+  information from one domain to another domain. You'll use this knowledge to
+  build a model for neural machine translation, training your model to
+  translate English sentences into French.
+
+  Autocomplete Your Sentences
+
+  -In this chapter, you'll build your very own machine learning seq2seq model.
+  You'll use real-world messages from the Enron email dataset to train an
+  encoder-decoder model. Using this you’ll predict the correct ending for an
+  incomplete input sentence.
+syllabus: []

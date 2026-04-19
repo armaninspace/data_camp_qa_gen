@@ -1,0 +1,81 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-monitoring-machine-learning-in-python-275590
+final_url: |-
+  https://www.classcentral.com/course/datacamp-monitoring-machine-learning-in-python-275590
+fetched_at: 2026-04-13T21:01:39.416Z
+title: "Monitoring Machine Learning in Python"
+provider: DataCamp
+summary: |-
+  This course covers everything you need to know to build a basic machine
+  learning monitoring system in Python
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "3 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider: null
+subjects:
+  - Python
+  - "Root Cause Analysis"
+  - "Data Preparation"
+overview: |-
+  This course covers everything you need to know to build a basic machine
+  learning monitoring system in Python
+
+  Learn how to monitor your ML Models in Python
+
+  Monitoring machine learning models ensures the long-term success of your
+  machine learning projects. Monitoring can be very complex, however, there
+  are Python packages to help us understand how our models are performing,
+  what data has changed that might have led to a drop in performance, and give
+  us clues on what we need to do to get our models back on track. This course
+  covers everything you need to know to build a basic monitoring system in
+  Python, using the popular monitor package, nannyml.
+
+  Understand the optimal monitoring workflow
+
+  Model monitoring is not only about simply calculating model performance in
+  production. Unfortunately, it is not that easy. Especially when labels are
+  hard to come by. This course will teach you about the optimal monitoring
+  workflow. It will ensure that you always catch model failures, avoid alert
+  fatigue, and quickly get to the root of the issue.
+
+  Learn how to find the root cause of model performance issues
+
+  Another important component to model monitoring is root cause analysis. This
+  course will dive into how to use data drift detection techniques to get to
+  the root cause of model performance issues. You will learn how to use both
+  univariate and multivariate data drift detection techniques to uncover
+  potential root causes of model issues.
+syllabus:
+  - title: "Data Preparation and Performance Estimation"
+    summary: |-
+      In this chapter, you will be introduced to the NannyML library and
+      its fundamental functions. Initially, you will learn the process of
+      preparing raw data to create reference and analysis sets ready for
+      production monitoring. As a practical example, you will investigate
+      predicting the tip amount for taxi rides in New York. Toward the end
+      of the chapter, you will also discover how to estimate the
+      performance of the tip prediction model using NannyML.
+  - title: "Monitoring Performance and Business Value"
+    summary: |-
+      In this chapter, you will be introduced to realized performance
+      calculators used when ground truth becomes available. You will learn
+      about the more advanced methods for handling results, including
+      filtering, plotting, converting them to data frames, chunking, and
+      establishing custom thresholds. Lastly, you'll apply this knowledge
+      to calculate the business value of a model trained on the hotel
+      booking dataset.
+  - title: "Root Cause Analysis and Issue Resolution"
+    summary: |-
+      Having detected the performance degradation in the hotel booking
+      model, you will now learn how to identify the underlying issue
+      causing it. In this chapter, you will be introduced to multivariate
+      and univariate drift detection methods. You will also learn how to
+      identify data quality issues and how to address the underlying
+      problems you detect.

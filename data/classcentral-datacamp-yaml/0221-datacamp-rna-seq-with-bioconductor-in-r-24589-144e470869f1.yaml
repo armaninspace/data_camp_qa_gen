@@ -1,0 +1,72 @@
+source_url: |-
+  https://www.classcentral.com/course/datacamp-rna-seq-with-bioconductor-in-r-24589
+final_url: |-
+  https://www.classcentral.com/course/datacamp-rna-seq-with-bioconductor-in-r-24589
+fetched_at: 2026-04-13T20:34:40.591Z
+title: "RNA-Seq with Bioconductor in R"
+provider: DataCamp
+summary: |-
+  Use RNA-Seq differential expression analysis to identify genes likely to be
+  important for different diseases or conditions.
+details:
+  provider: DataCamp
+  pricing: "Free Trial Available"
+  languages: English
+  certificate: "Certificate Available"
+  duration_workload: "4 hours"
+  sessions: Self-Paced
+  level: Intermediate
+ratings:
+  class_central: {}
+  provider:
+    rating: 4.2
+    provider: DataCamp
+    rating_count: 15
+subjects:
+  - "R Programming"
+  - Bioinformatics
+  - "Data Visualization"
+  - Genomics
+  - Heatmaps
+overview: |-
+  Use RNA-Seq differential expression analysis to identify genes likely to be
+  important for different diseases or conditions.
+
+  RNA-Seq is an exciting next-generation sequencing method used for
+  identifying genes and pathways underlying particular diseases or conditions.
+  As high-throughput sequencing becomes more affordable and accessible to a
+  wider community of researchers, the knowledge to analyze this data is
+  becoming an increasingly valuable skill. Join us in learning about the
+  RNA-Seq workflow and discovering how to identify which genes and biological
+  processes may be important for your condition of interest! We will start the
+  course with a brief overview of the RNA-Seq workflow with an emphasis on
+  differential expression (DE) analysis. Starting with the counts for each
+  gene, the course will cover how to prepare data for DE analysis, assess the
+  quality of the count data, and identify outliers and detect major sources of
+  variation in the data. The DESeq2 R package will be used to model the count
+  data using a negative binomial model and test for differentially expressed
+  genes. Visualization of the results with heatmaps and volcano plots will be
+  performed and the significant differentially expressed genes will be
+  identified and saved.
+syllabus:
+  - title: "Introduction to RNA-Seq theory and workflow"
+    summary: |-
+      In this chapter we explore what we can do with RNA-Seq data and why
+      it is exciting. We learn about the different steps and
+      considerations involved in an RNA-Seq workflow.
+  - title: "Exploratory data analysis"
+    summary: |-
+      In this chapter, we perform quality control on the RNA-Seq count
+      data using heatmaps and principal component analysis. We explore the
+      similarity of the samples to each other and determine whether there
+      are any sample outliers.
+  - title: "Differential expression analysis with DESeq2"
+    summary: |-
+      In this chapter, we execute the differential expression analysis,
+      generate results and identify the differentially expressed genes.
+  - title: "Exploration of differential expression results"
+    summary: |-
+      In this final chapter we explore the differential expression results
+      using visualizations, such as heatmaps and volcano plots. We also
+      review the steps in the analysis and summarize the differential
+      expression workflow with DESeq2.
