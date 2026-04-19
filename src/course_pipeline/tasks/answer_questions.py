@@ -29,16 +29,19 @@ def answer_questions(
 
         evidence = _find_evidence(matched_topics, support_spans)
         if not evidence:
+            evidence = _find_partial_evidence(matched_topics, support_spans)
+        if not evidence:
             continue
 
         answer_text = evidence[0].text
+        correctness = _classify_correctness(repair.final_text, evidence)
         answers.append(
             AnswerRecord(
                 question_id=repair.candidate_id,
                 question_text=repair.final_text,
                 answer_text=answer_text,
-                correctness="correct",
-                confidence=0.7,
+                correctness=correctness,
+                confidence=_confidence_for(correctness),
                 evidence=evidence,
             )
         )
@@ -94,3 +97,63 @@ def _find_evidence(
         if target in span.text.lower():
             return [span]
     return []
+
+
+def _find_partial_evidence(
+    matched_topics: list[str],
+    support_spans: list[TopicEvidence],
+) -> list[TopicEvidence]:
+    for span in support_spans:
+        span_low = span.text.lower()
+        if any(topic in span_low for topic in matched_topics):
+            return [span]
+    return []
+
+
+def _classify_correctness(
+    question_text: str,
+    evidence: list[TopicEvidence],
+) -> str:
+    question_low = question_text.lower()
+    evidence_text = " ".join(item.text.lower() for item in evidence)
+
+    if any(
+        phrase in evidence_text
+        for phrase in (
+            "does not cover",
+            "doesn't cover",
+            "not covered",
+            "not explained",
+            "without discussing",
+        )
+    ):
+        return "incorrect"
+
+    if _is_weak_evidence(question_low, evidence):
+        return "uncertain"
+
+    return "correct"
+
+
+def _is_weak_evidence(question_text: str, evidence: list[TopicEvidence]) -> bool:
+    if not evidence:
+        return True
+
+    if any(item.source == "syllabus" for item in evidence):
+        return True
+
+    if any(len(item.text.split()) <= 5 for item in evidence):
+        return True
+
+    if question_text.startswith("how is ") and " different from " in question_text:
+        return any(" and " not in item.text.lower() for item in evidence)
+
+    return False
+
+
+def _confidence_for(correctness: str) -> float:
+    if correctness == "correct":
+        return 0.7
+    if correctness == "uncertain":
+        return 0.4
+    return 0.2

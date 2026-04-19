@@ -65,3 +65,42 @@ def test_answer_uses_supporting_span() -> None:
     assert len(answers) == 1
     assert answers[0].evidence
     assert "Correlation describes" in answers[0].answer_text
+    assert answers[0].correctness == "correct"
+
+
+def test_answer_marks_heading_only_support_uncertain() -> None:
+    course = NormalizedCourse(
+        course_id="1",
+        title="Example",
+        chapters=[
+            {
+                "chapter_index": 1,
+                "title": "Correlation",
+                "summary": None,
+                "source": "syllabus",
+                "confidence": 1.0,
+            }
+        ],
+    )
+    repairs = repair_or_reject_questions([_candidate("q1", "What is correlation?", family="entry")])
+
+    answers = answer_questions(course, [_topic("correlation")], repairs)
+
+    assert len(answers) == 1
+    assert answers[0].correctness == "uncertain"
+
+
+def test_answer_marks_explicit_non_answer_incorrect() -> None:
+    course = NormalizedCourse(
+        course_id="1",
+        title="Example",
+        overview="This course does not cover how to use correlation in practice.",
+    )
+    repairs = repair_or_reject_questions(
+        [_candidate("q1", "How do you use correlation?", family="procedure")]
+    )
+
+    answers = answer_questions(course, [_topic("correlation")], repairs)
+
+    assert len(answers) == 1
+    assert answers[0].correctness == "incorrect"

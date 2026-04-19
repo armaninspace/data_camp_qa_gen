@@ -4,8 +4,9 @@ from pathlib import Path
 
 import yaml
 
-from course_pipeline.flows.course_question_pipeline import course_question_pipeline_flow
+from course_pipeline.flows.course_question_pipeline import _process_course
 from course_pipeline.io_utils import read_jsonl
+from course_pipeline.run_logging import RunLogger
 
 
 def test_partial_preflight_status_is_persisted_in_normalized_course(tmp_path: Path) -> None:
@@ -24,10 +25,13 @@ def test_partial_preflight_status_is_persisted_in_normalized_course(tmp_path: Pa
         encoding="utf-8",
     )
 
-    course_question_pipeline_flow.fn(
-        input_dir=str(input_dir),
-        output_dir=str(run_dir),
-        publish=False,
+    logger = RunLogger(run_id="run", root_dir=run_dir)
+    logger.ensure_files()
+    _process_course(
+        str(input_dir / "partial.yaml"),
+        str(run_dir),
+        logger,
+        quality_status="partial",
     )
 
     rows = read_jsonl(run_dir / "normalized_courses.jsonl")
