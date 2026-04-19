@@ -3,6 +3,11 @@
 This page is the short operator guide for running corpus slices and creating
 inspection bundles.
 
+The primary operator path is `python -m course_pipeline.cli run` or the
+equivalent shell wrappers. Synthetic tutor answers are generated inside that
+main flow. The separate synthetic CLI commands are debug helpers, not the
+standard publish path.
+
 ## Defaults
 
 - Input corpus: `datacamp_data/classcentral-datacamp-yaml`

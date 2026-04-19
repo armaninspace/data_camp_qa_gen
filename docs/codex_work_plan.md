@@ -141,3 +141,8 @@ Deliver:
 - measure extraction, question, answer, incremental-overwrite, and final-publish
   quality
 - verify inspection bundle stability and manifest completeness
+# Historical Note
+
+This work plan predates the removal of the grounded answer runtime. The current
+main flow publishes synthetic tutor answers and should be treated as the
+canonical operator path.

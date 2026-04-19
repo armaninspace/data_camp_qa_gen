@@ -11,8 +11,8 @@ bundle. It favors simple, inspectable stages over inherited complexity.
 
 Input: scraped course YAML or JSON.
 
-Output: structured learner-facing question and answer artifacts grounded in the
-course text.
+Output: structured learner-facing question and answer artifacts scoped by the
+course text and answered by the synthetic tutor-answer path.
 
 Final row shape:
 
@@ -24,8 +24,9 @@ Final row shape:
 2. Extract atomic topics and entities.
 3. Generate question candidates from a bounded pattern bank.
 4. Repair or reject weak questions.
-5. Answer accepted questions conservatively.
-6. Write one authoritative ledger plus per-course inspection YAML.
+5. Synthesize short tutor answers for accepted questions.
+6. Validate, rewrite, or reject synthesized answers.
+7. Write one authoritative ledger plus per-course inspection YAML.
 
 ## Why this exists
 
@@ -55,7 +56,7 @@ Use multiple prompts rather than one giant prompt.
 - `gpt-5.4`
   - atomic topic extraction
   - repair or reject
-  - answer generation and correctness judgment
+  - synthetic answer generation and validation
 
 - `gpt-5.4-mini`
   - pattern-conditioned question generation
@@ -64,6 +65,10 @@ Use multiple prompts rather than one giant prompt.
 
 A single-prompt baseline can be kept for comparison, but it should not be the
 canonical path.
+
+The course text defines scope, topics, and provenance. The primary `run`
+command publishes synthetic tutor answers. The older grounded span-answer path
+has been removed from the main runtime.
 
 ## Project layout
 

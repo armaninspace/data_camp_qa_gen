@@ -14,12 +14,14 @@ Tasks:
 3. `normalize_course`
 4. `extract_atomic_topics`
 5. `canonicalize_topics`
-6. `generate_question_candidates`
-7. `repair_or_reject_questions`
-8. `answer_questions`
-9. `build_ledger_rows`
-10. `render_per_course_yaml_bundle`
-11. `render_run_summary`
+6. `vet_topics_and_pairs`
+7. `generate questions`
+8. `validate questions`
+9. `synthesize tutor answers`
+10. `validate / rewrite synthesized answers`
+11. `build_ledger_rows`
+12. `render_per_course_yaml_bundle`
+13. `render_run_summary`
 
 Required post-flow step:
 - `publish_final_outputs`
@@ -38,9 +40,18 @@ data/pipeline_runs/<run_id>/
   normalized_courses.jsonl
   topics.jsonl
   canonical_topics.jsonl
+  related_topic_pairs.jsonl
+  vetted_topics.jsonl
+  vetted_topic_pairs.jsonl
+  single_topic_questions.jsonl
+  pairwise_questions.jsonl
+  question_validation.jsonl
   question_candidates.jsonl
   question_repairs.jsonl
   answers.jsonl
+  synthetic_answers.jsonl
+  synthetic_answer_validation.jsonl
+  synthetic_answer_rewrites.jsonl
   all_rows.jsonl
   run_summary.yaml
   logs/
@@ -59,6 +70,12 @@ data/final/
   normalized_courses.jsonl
   topics.jsonl
   canonical_topics.jsonl
+  related_topic_pairs.jsonl
+  vetted_topics.jsonl
+  vetted_topic_pairs.jsonl
+  single_topic_questions.jsonl
+  pairwise_questions.jsonl
+  question_validation.jsonl
   question_candidates.jsonl
   question_repairs.jsonl
   answers.jsonl
@@ -74,6 +91,12 @@ Inspection bundle directory:
   normalized_courses.jsonl
   topics.jsonl
   canonical_topics.jsonl
+  related_topic_pairs.jsonl
+  vetted_topics.jsonl
+  vetted_topic_pairs.jsonl
+  single_topic_questions.jsonl
+  pairwise_questions.jsonl
+  question_validation.jsonl
   question_candidates.jsonl
   question_repairs.jsonl
   answers.jsonl
