@@ -45,6 +45,9 @@ RUN_ARTIFACT_NAMES = [
     "question_candidates.jsonl",
     "question_repairs.jsonl",
     "answers.jsonl",
+    "synthetic_answers.jsonl",
+    "synthetic_answer_validation.jsonl",
+    "synthetic_answer_rewrites.jsonl",
     "all_rows.jsonl",
 ]
 PUBLISHED_ARTIFACT_NAMES = [
@@ -90,6 +93,9 @@ def persist_stage_artifacts(
     single_topic_questions: list[GeneratedQuestion] | None = None,
     pairwise_questions: list[GeneratedQuestion] | None = None,
     validations: list[QuestionValidationRecord] | None = None,
+    synthetic_answers: list | None = None,
+    synthetic_validations: list | None = None,
+    synthetic_rewrites: list[dict] | None = None,
 ) -> None:
     out = Path(output_dir)
     course_ids = {course.course_id}
@@ -102,6 +108,9 @@ def persist_stage_artifacts(
     vetted_topics = vetted_topics or _default_vetted_topics(canonical_topics)
     vetted_pairs = vetted_pairs or _default_vetted_pairs(related_pairs)
     validations = validations or _validation_records_from_repairs(repairs, candidates)
+    synthetic_answers = synthetic_answers or []
+    synthetic_validations = synthetic_validations or []
+    synthetic_rewrites = synthetic_rewrites or []
 
     upsert_jsonl_rows(out / "normalized_courses.jsonl", [course], course_ids)
     upsert_jsonl_rows(
@@ -189,6 +198,21 @@ def persist_stage_artifacts(
         ],
         course_ids,
     )
+    upsert_jsonl_rows(
+        out / "synthetic_answers.jsonl",
+        [item.model_dump() for item in synthetic_answers],
+        course_ids,
+    )
+    upsert_jsonl_rows(
+        out / "synthetic_answer_validation.jsonl",
+        [item.model_dump() for item in synthetic_validations],
+        course_ids,
+    )
+    upsert_jsonl_rows(
+        out / "synthetic_answer_rewrites.jsonl",
+        synthetic_rewrites,
+        course_ids,
+    )
     upsert_jsonl_rows(out / "all_rows.jsonl", rows, course_ids)
 
     bundle = CourseBundle(
@@ -204,6 +228,9 @@ def persist_stage_artifacts(
         pairwise_questions=pairwise_questions,
         question_validation=validations,
         answers=answers,
+        synthetic_answers=synthetic_answers,
+        synthetic_answer_validation=synthetic_validations,
+        synthetic_answer_rewrites=synthetic_rewrites,
         final_rows=rows,
         summary={
             "raw_topic_count": len(topics),
@@ -217,6 +244,13 @@ def persist_stage_artifacts(
             "correct_count": sum(a.correctness == "correct" for a in answers),
             "incorrect_count": sum(a.correctness == "incorrect" for a in answers),
             "uncertain_count": sum(a.correctness == "uncertain" for a in answers),
+            "synthetic_answer_count": len(synthetic_answers),
+            "synthetic_rewrite_count": sum(
+                item.decision == "rewrite" for item in synthetic_validations
+            ),
+            "synthetic_reject_count": sum(
+                item.decision == "reject" for item in synthetic_validations
+            ),
         },
     )
     write_yaml(out / "course_yaml" / f"{course.course_id}.yaml", bundle)

@@ -6,9 +6,10 @@ import math
 
 from prefect import flow, task
 
+from course_pipeline.config import Settings
 from course_pipeline.io_utils import normalized_relative_paths, write_jsonl
+from course_pipeline.llm import LLMClient
 from course_pipeline.run_logging import RunLogger, StageTimer
-from course_pipeline.tasks.answer_questions import answer_questions
 from course_pipeline.tasks.build_ledger import build_ledger_rows
 from course_pipeline.tasks.canonicalize import canonicalize_topics
 from course_pipeline.tasks.discover_related_pairs import discover_related_pairs
@@ -25,6 +26,10 @@ from course_pipeline.tasks.render import (
     rebuild_run_summary,
 )
 from course_pipeline.tasks.repair_questions import validate_questions
+from course_pipeline.tasks.synthesize_answers import (
+    synthesize_answers_for_course,
+    synthetic_results_to_answer_records,
+)
 from course_pipeline.tasks.vet_topics import vet_topics_and_pairs
 from course_pipeline.schemas import (
     GeneratedQuestion,
@@ -103,6 +108,8 @@ def _process_course(
     path: str,
     output_dir: str,
     logger: RunLogger,
+    synth_client: LLMClient,
+    validate_client: LLMClient,
     *,
     quality_status: str | None,
 ) -> dict:
@@ -195,10 +202,34 @@ def _process_course(
     timer = StageTimer(
         logger,
         course_id=course.course_id,
-        stage="answer_questions",
-        input_row_count=len(repairs),
+        stage="synthesize_answers",
+        input_row_count=len(validations),
     )
-    answers = answer_questions(course, canonical_topics, repairs)
+    synth_result = synthesize_answers_for_course(
+        run_id=Path(output_dir).name,
+        course=course.model_dump(),
+        canonical_topics=[
+            {"course_id": course.course_id, **topic.model_dump()} for topic in canonical_topics
+        ],
+        validations=[{"course_id": course.course_id, **item.model_dump()} for item in validations],
+        related_pairs=[
+            {"course_id": course.course_id, **pair.model_dump()} for pair in related_pairs
+        ],
+        synth_client=synth_client,
+        validate_client=validate_client,
+        logger=logger,
+    )
+    answers = synthetic_results_to_answer_records(
+        synthetic_answers=synth_result.synthetic_answers,
+        validations=synth_result.validations,
+        question_provenance={
+            item.question_id: {
+                "topic_labels": item.relevant_topics,
+                "source_refs": [span.source for span in item.evidence_spans],
+            }
+            for item in validations
+        },
+    )
     timer.finish(output_row_count=len(answers))
 
     timer = StageTimer(
@@ -209,8 +240,6 @@ def _process_course(
     )
     rows = build_ledger_rows(course, candidates, repairs, answers)
     timer.finish(output_row_count=len(rows))
-
-    _assert_course_quality_gate(course.course_id, repairs, answers)
 
     timer = StageTimer(
         logger,
@@ -233,6 +262,9 @@ def _process_course(
         single_topic_questions=single_topic_questions,
         pairwise_questions=pairwise_questions,
         validations=validations,
+        synthetic_answers=synth_result.synthetic_answers,
+        synthetic_validations=synth_result.validations,
+        synthetic_rewrites=synth_result.rewrites,
     )
     timer.finish(output_row_count=len(rows))
 
@@ -244,22 +276,6 @@ def _process_course(
         "rejected_count": sum(r.status == "rejected" for r in rows),
         "errored_count": sum(r.status == "errored" for r in rows),
     }
-
-
-def _assert_course_quality_gate(
-    course_id: str,
-    repairs: list[QuestionRepair],
-    answers: list,
-) -> None:
-    accepted_count = sum(item.status != "rejected" for item in repairs)
-    rejected_count = sum(item.status == "rejected" for item in repairs)
-    uncertain_count = sum(getattr(item, "correctness", None) == "uncertain" for item in answers)
-
-    if accepted_count > 0 and rejected_count == 0 and uncertain_count == accepted_count:
-        raise RuntimeError(
-            "quality gate failed for "
-            f"course_id={course_id}: rejected_count=0 and uncertain_count==accepted_count=={accepted_count}"
-        )
 
 
 def _legacy_candidates(questions: list[GeneratedQuestion]) -> list[QuestionCandidate]:
@@ -296,12 +312,23 @@ def course_question_pipeline_flow(
     slice_start: float = 0.0,
     slice_end: float = 100.0,
     publish: bool = True,
+    synth_client: LLMClient | None = None,
+    validate_client: LLMClient | None = None,
 ) -> dict:
     output = Path(output_dir)
     output.mkdir(parents=True, exist_ok=True)
 
     logger = RunLogger(run_id=output.name or "run", root_dir=output)
     logger.ensure_files()
+    settings = Settings()
+    synth_client = synth_client or LLMClient(
+        api_key=settings.openai_api_key,
+        model=settings.model_synth_answer,
+    )
+    validate_client = validate_client or LLMClient(
+        api_key=settings.openai_api_key,
+        model=settings.model_synth_validate,
+    )
     logger.log_pipeline(
         f"run start input_dir={input_dir} output_dir={output_dir} slice={slice_start}-{slice_end}"
     )
@@ -324,6 +351,8 @@ def course_question_pipeline_flow(
                 selected.absolute_path,
                 output_dir,
                 logger,
+                synth_client,
+                validate_client,
                 quality_status=selected.quality_status,
             )
         )
@@ -332,6 +361,11 @@ def course_question_pipeline_flow(
     logger.log_pipeline(
         f"run summary rebuilt course_count={run_summary['course_count']} excluded_course_count={run_summary['excluded_course_count']}"
     )
+
+    if len(preflight.excluded_rows) == 0 and run_summary["rejected_question_count"] == 0:
+        raise RuntimeError(
+            "rejection pressure gate failed: no excluded courses and no rejected questions"
+        )
 
     published_summary = None
     affected_course_ids = {item["course_id"] for item in summaries}

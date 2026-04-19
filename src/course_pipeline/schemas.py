@@ -7,6 +7,7 @@ from pydantic import BaseModel, Field
 
 Correctness = Literal["correct", "incorrect", "uncertain"]
 CourseQualityStatus = Literal["usable", "partial", "broken"]
+AnswerMode = Literal["grounded_course_answer", "synthetic_tutor_answer", "blended_answer"]
 TopicType = Literal[
     "concept",
     "procedure",
@@ -146,6 +147,10 @@ class AnswerRecord(BaseModel):
     correctness: Correctness = "uncertain"
     confidence: float = 0.0
     evidence: list[TopicEvidence] = Field(default_factory=list)
+    answer_mode: AnswerMode = "grounded_course_answer"
+    validation_status: str | None = None
+    rewrite_applied: bool = False
+    provenance: dict = Field(default_factory=dict)
 
 
 class LedgerRow(BaseModel):
@@ -174,8 +179,62 @@ class CourseBundle(BaseModel):
     pairwise_questions: list[GeneratedQuestion] = Field(default_factory=list)
     question_validation: list[QuestionValidationRecord] = Field(default_factory=list)
     answers: list[AnswerRecord]
+    synthetic_answers: list[SyntheticAnswerRecord] = Field(default_factory=list)
+    synthetic_answer_validation: list[SyntheticAnswerValidationRecord] = Field(default_factory=list)
+    synthetic_answer_rewrites: list[dict] = Field(default_factory=list)
     final_rows: list[LedgerRow]
     summary: dict = Field(default_factory=dict)
+
+
+class SyntheticAnswerRecord(BaseModel):
+    run_id: str
+    course_id: str
+    question_id: str
+    question_text: str
+    canonical_topic: str
+    question_family: str
+    difficulty_band: str | None = None
+    answer_mode: Literal["synthetic_tutor_answer"] = "synthetic_tutor_answer"
+    answer_text: str
+    target_verbosity: str
+    model_name: str
+    prompt_family: str
+    confidence: float | None = None
+    risks: list[str] = Field(default_factory=list)
+
+
+class SyntheticAnswerValidationRecord(BaseModel):
+    run_id: str
+    course_id: str
+    question_id: str
+    original_answer_text: str
+    decision: Literal["accept", "rewrite", "reject"]
+    correctness: float
+    sufficiency: float
+    brevity: float
+    pedagogical_fit: float
+    difficulty_alignment: float
+    clarity: float
+    contradiction_risk: float
+    scope_drift: float
+    rewritten_answer_text: str | None = None
+    reject_reasons: list[str] = Field(default_factory=list)
+
+
+class FineTuneRow(BaseModel):
+    run_id: str
+    course_id: str
+    question_id: str
+    prompt: str
+    completion: str
+    question_text: str
+    answer_text: str
+    canonical_topic: str
+    question_family: str
+    difficulty_band: str | None = None
+    answer_mode: AnswerMode
+    provenance: dict = Field(default_factory=dict)
+    metadata: dict = Field(default_factory=dict)
 
 
 class ExcludedCourseRecord(BaseModel):
