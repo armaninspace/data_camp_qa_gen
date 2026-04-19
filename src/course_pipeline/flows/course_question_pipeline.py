@@ -6,7 +6,7 @@ import math
 
 from prefect import flow, task
 
-from course_pipeline.io_utils import normalized_relative_paths
+from course_pipeline.io_utils import normalized_relative_paths, write_jsonl
 from course_pipeline.run_logging import RunLogger, StageTimer
 from course_pipeline.tasks.answer_questions import answer_questions
 from course_pipeline.tasks.build_ledger import build_ledger_rows
@@ -14,6 +14,7 @@ from course_pipeline.tasks.canonicalize import canonicalize_topics
 from course_pipeline.tasks.extract_topics import extract_atomic_topics_baseline
 from course_pipeline.tasks.generate_questions import generate_question_candidates
 from course_pipeline.tasks.normalize import load_raw_course, normalize_course_record
+from course_pipeline.tasks.preflight_validate import preflight_validate_course
 from course_pipeline.tasks.render import (
     persist_stage_artifacts,
     publish_final_outputs,
@@ -26,6 +27,12 @@ from course_pipeline.tasks.repair_questions import repair_or_reject_questions
 class SelectedCoursePath:
     relative_path: str
     absolute_path: str
+
+
+@dataclass
+class PreflightSelection:
+    runnable_paths: list[SelectedCoursePath]
+    excluded_rows: list[dict]
 
 
 def _slice_indexes(total: int, slice_start: float, slice_end: float) -> tuple[int, int]:
@@ -51,12 +58,33 @@ def load_course_paths(
     ]
 
 
+@task
+def preflight_validate_selected_paths(
+    selected_paths: list[SelectedCoursePath],
+) -> PreflightSelection:
+    runnable: list[SelectedCoursePath] = []
+    excluded_rows: list[dict] = []
+    for selected in selected_paths:
+        raw = load_raw_course(selected.absolute_path)
+        excluded = preflight_validate_course(raw, selected.relative_path)
+        if excluded is None:
+            runnable.append(selected)
+        else:
+            excluded_rows.append(excluded.model_dump())
+    return PreflightSelection(runnable_paths=runnable, excluded_rows=excluded_rows)
+
+
 def _process_course(path: str, output_dir: str, logger: RunLogger) -> dict:
     raw = load_raw_course(path)
     course = normalize_course_record(raw)
     logger.log_pipeline(f"processing course_id={course.course_id} path={path}")
 
-    timer = StageTimer(logger, course_id=course.course_id, stage="normalize_course", input_row_count=1)
+    timer = StageTimer(
+        logger,
+        course_id=course.course_id,
+        stage="normalize_course",
+        input_row_count=1,
+    )
     timer.finish(output_row_count=1)
 
     timer = StageTimer(
@@ -160,15 +188,19 @@ def course_question_pipeline_flow(
     )
 
     paths = load_course_paths(input_dir=input_dir, slice_start=slice_start, slice_end=slice_end)
-    logger.log_pipeline(f"selected_courses={len(paths)}")
+    preflight = preflight_validate_selected_paths(paths)
+    write_jsonl(output / "excluded_courses.jsonl", preflight.excluded_rows)
+    logger.log_pipeline(
+        f"selected_courses={len(preflight.runnable_paths)} excluded_courses={len(preflight.excluded_rows)}"
+    )
 
     summaries = []
-    for selected in paths:
+    for selected in preflight.runnable_paths:
         summaries.append(_process_course(selected.absolute_path, output_dir, logger))
 
     run_summary = rebuild_run_summary(output)
     logger.log_pipeline(
-        f"run summary rebuilt course_count={run_summary['course_count']} answered_count={run_summary['answered_count']}"
+        f"run summary rebuilt course_count={run_summary['course_count']} excluded_course_count={run_summary['excluded_course_count']}"
     )
 
     published_summary = None
@@ -187,7 +219,8 @@ def course_question_pipeline_flow(
         "published_summary": published_summary,
         "slice_start": slice_start,
         "slice_end": slice_end,
-        "selected_course_count": len(paths),
+        "selected_course_count": len(preflight.runnable_paths),
+        "excluded_course_count": len(preflight.excluded_rows),
         "courses": summaries,
     }
 

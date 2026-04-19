@@ -19,6 +19,7 @@ that are grounded in the course text and easy to inspect.
 
 ## Required pipeline stages
 
+0. preflight validate course
 1. normalize course
 2. extract atomic topics
 3. canonicalize topics
@@ -31,6 +32,28 @@ that are grounded in the course text and easy to inspect.
 
 The inspection bundle is not one of the core 9 stages.
 It is a separate post-publish job that reads from `data/final`.
+
+## Preflight validation guidance
+
+Every raw course record must be classified before entering the main pipeline.
+
+Required quality states:
+- `usable`
+- `partial`
+- `broken`
+
+Rules:
+- exclude `broken` courses from the runnable course set
+- preserve a machine-readable record of every excluded course
+- do not invent missing structure to rescue a broken record
+- `partial` courses may continue only when the remaining text still supports
+  conservative grounded extraction
+
+Common exclusion signals:
+- missing or junk title
+- no usable overview and no usable syllabus
+- malformed provider/details with insufficient supporting text
+- chapter extraction would require unsupported reconstruction
 
 ## Topic extraction guidance
 
@@ -157,6 +180,7 @@ Success rules for publish:
 - blocked publish attempts must be logged explicitly
 
 Required files:
+- `excluded_courses.jsonl`
 - `normalized_courses.jsonl`
 - `topics.jsonl`
 - `canonical_topics.jsonl`
@@ -232,6 +256,9 @@ Published final files under `data/final`:
 - `all_rows.jsonl`
 - `run_summary.yaml`
 - `course_yaml/<course_id>.yaml`
+
+`excluded_courses.jsonl` belongs to transient run artifacts only and must not be
+published to `data/final`.
 
 An inspection bundle job must exist:
 - job name: `mk_inspectgion_bundle`

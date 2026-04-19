@@ -101,3 +101,13 @@ class CourseBundle(BaseModel):
     answers: list[AnswerRecord]
     final_rows: list[LedgerRow]
     summary: dict = Field(default_factory=dict)
+
+
+class ExcludedCourseRecord(BaseModel):
+    course_id: str
+    source_path: str
+    quality_status: Literal["broken"]
+    exclude_reason: str
+    title_raw: str | None = None
+    overview_present: bool = False
+    syllabus_count: int = 0

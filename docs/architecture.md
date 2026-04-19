@@ -10,15 +10,16 @@ Main flow:
 
 Tasks:
 1. `load_course_records`
-2. `normalize_course`
-3. `extract_atomic_topics`
-4. `canonicalize_topics`
-5. `generate_question_candidates`
-6. `repair_or_reject_questions`
-7. `answer_questions`
-8. `build_ledger_rows`
-9. `render_per_course_yaml_bundle`
-10. `render_run_summary`
+2. `preflight_validate_courses`
+3. `normalize_course`
+4. `extract_atomic_topics`
+5. `canonicalize_topics`
+6. `generate_question_candidates`
+7. `repair_or_reject_questions`
+8. `answer_questions`
+9. `build_ledger_rows`
+10. `render_per_course_yaml_bundle`
+11. `render_run_summary`
 
 Required post-flow step:
 - `publish_final_outputs`
@@ -33,6 +34,7 @@ Start file-first.
 Run directory:
 ```text
 data/pipeline_runs/<run_id>/
+  excluded_courses.jsonl
   normalized_courses.jsonl
   topics.jsonl
   canonical_topics.jsonl
@@ -110,6 +112,11 @@ For summaries:
 - compute run summary values from the merged artifact state after upsert
 
 This allows overlapping slice runs without duplicating rows in JSONL outputs.
+
+Preflight exclusions:
+- excluded courses do not enter shared stage artifacts
+- excluded courses are written to `excluded_courses.jsonl` for the current run
+- excluded-course records are transient run diagnostics and are not published
 
 Slice selection:
 - resolve percent-based or range-based slices against a stable deterministic

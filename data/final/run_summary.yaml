@@ -1,4 +1,5 @@
 course_count: 111
+excluded_course_count: 0
 courses:
 - course_id: '24370'
   title: Statistician in R
@@ -668,6 +669,7 @@ courses:
   rejected_count: 0
   errored_count: 0
 artifact_counts:
+  excluded_courses.jsonl: 0
   normalized_courses.jsonl: 111
   topics.jsonl: 577
   canonical_topics.jsonl: 577

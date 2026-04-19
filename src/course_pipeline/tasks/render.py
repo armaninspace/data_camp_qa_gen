@@ -8,6 +8,7 @@ from course_pipeline.io_utils import (
     read_jsonl,
     read_yaml,
     upsert_jsonl_rows,
+    write_jsonl,
     write_yaml,
 )
 from course_pipeline.run_logging import RunLogger
@@ -20,10 +21,12 @@ from course_pipeline.schemas import (
     QuestionCandidate,
     QuestionRepair,
     Topic,
+    ExcludedCourseRecord,
 )
 
 
-ARTIFACT_NAMES = [
+RUN_ARTIFACT_NAMES = [
+    "excluded_courses.jsonl",
     "normalized_courses.jsonl",
     "topics.jsonl",
     "canonical_topics.jsonl",
@@ -32,6 +35,26 @@ ARTIFACT_NAMES = [
     "answers.jsonl",
     "all_rows.jsonl",
 ]
+PUBLISHED_ARTIFACT_NAMES = [
+    "normalized_courses.jsonl",
+    "topics.jsonl",
+    "canonical_topics.jsonl",
+    "question_candidates.jsonl",
+    "question_repairs.jsonl",
+    "answers.jsonl",
+    "all_rows.jsonl",
+]
+
+
+def write_excluded_courses(
+    output_dir: str | Path,
+    excluded_courses: list[ExcludedCourseRecord],
+) -> None:
+    out = Path(output_dir)
+    write_jsonl(
+        out / "excluded_courses.jsonl",
+        [item.model_dump() for item in excluded_courses],
+    )
 
 
 def persist_stage_artifacts(
@@ -137,10 +160,11 @@ def rebuild_run_summary(output_dir: str | Path) -> dict[str, Any]:
 
     summary = {
         "course_count": len(bundles),
+        "excluded_course_count": len(read_jsonl(out / "excluded_courses.jsonl")),
         "courses": bundles,
         "artifact_counts": {
             artifact_name: len(read_jsonl(out / artifact_name))
-            for artifact_name in ARTIFACT_NAMES
+            for artifact_name in RUN_ARTIFACT_NAMES
         },
         "answered_count": sum(item["answered_count"] for item in bundles),
         "rejected_count": sum(item["rejected_count"] for item in bundles),
@@ -177,7 +201,7 @@ def publish_final_outputs(
 
     missing_artifacts = [
         artifact_name
-        for artifact_name in ARTIFACT_NAMES
+        for artifact_name in PUBLISHED_ARTIFACT_NAMES
         if not (run_root / artifact_name).exists()
     ]
     if missing_artifacts:
@@ -189,7 +213,7 @@ def publish_final_outputs(
             f"publish blocked; missing shared artifacts: {', '.join(missing_artifacts)}"
         )
 
-    for artifact_name in ARTIFACT_NAMES:
+    for artifact_name in PUBLISHED_ARTIFACT_NAMES:
         rows = [
             row
             for row in read_jsonl(run_root / artifact_name)

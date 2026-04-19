@@ -14,6 +14,7 @@ Final row shape:
 
 ```text
 raw course yaml/json
+-> preflight quality classification
 -> normalized course
 -> atomic topics/entities X
 -> question candidates Q from patterns P
@@ -55,6 +56,31 @@ Rules:
 - infer chapters from overview if syllabus is missing
 - keep confidence on inferred chapter recovery
 - never silently drop malformed fields
+
+## Preflight validation
+
+Every raw scraped course must first be classified for source quality.
+
+Quality states:
+- `usable`
+- `partial`
+- `broken`
+
+Rules:
+- exclude `broken` courses from the runnable course set
+- write excluded records to `excluded_courses.jsonl`
+- allow `partial` courses only when the remaining text still supports grounded
+  extraction
+- do not invent missing chapters, blurbs, or structure to rescue broken inputs
+
+Required exclusion fields:
+- `course_id`
+- `source_path`
+- `quality_status`
+- `exclude_reason`
+- `title_raw`
+- `overview_present`
+- `syllabus_count`
 
 ## Stage 2: Extract atomic topics
 
@@ -240,6 +266,9 @@ Published files:
 - `data/final/all_rows.jsonl`
 - `data/final/run_summary.yaml`
 - `data/final/course_yaml/<course_id>.yaml`
+
+Transient-only run artifacts:
+- `data/pipeline_runs/<run_id>/excluded_courses.jsonl`
 
 Publish orchestration rule:
 - publish is a required post-flow step of a complete successful pipeline run
