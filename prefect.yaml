@@ -1,0 +1,11 @@
+
+name: course-question-pipeline
+
+deployments:
+  - name: local-dev
+    version: 1
+    tags: ["local", "dev"]
+    description: Local deployment for the clean-sheet course question flow.
+    entrypoint: src/course_pipeline/flows/course_question_pipeline.py:course_question_pipeline_flow
+    work_pool:
+      name: default

@@ -1,0 +1,38 @@
+
+course_id: "24416"
+title: "Cleaning Data in R"
+provider: "DataCamp"
+summary: >
+  Learn to clean data as quickly and accurately as possible to help you move
+  from raw data to awesome insights.
+overview: >
+  Learn to clean data as quickly and accurately as possible to help you move
+  from raw data to awesome insights. You'll convert data types, apply range
+  constraints, and remove duplicated data points. Categorical and text data
+  can be messy because of inconsistent whitespace and capitalization in category
+  labels and strings. You'll also standardize measurement units, verify values,
+  handle missing values, and use record linkage to join data with typos or
+  spelling differences.
+subjects:
+  - Data Science
+  - R
+details:
+  level: "Intermediate"
+  duration_hours: 4.0
+syllabus:
+  - title: "Common Data Problems"
+    summary: >
+      Convert data types, apply range constraints, and remove duplicated data
+      points to avoid double-counting.
+  - title: "Categorical and Text Data"
+    summary: >
+      Fix whitespace and capitalization inconsistencies in category labels,
+      collapse categories, and reformat strings for consistency.
+  - title: "Advanced Data Problems"
+    summary: >
+      Ensure consistency in measurements, verify values, and handle missing
+      values without harming analyses.
+  - title: "Record Linkage"
+    summary: >
+      Merge datasets when values have typos or different spellings by comparing
+      string similarity.
