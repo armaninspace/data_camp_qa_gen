@@ -114,6 +114,10 @@ def _is_heading_like(label: str) -> bool:
     return label in ALWAYS_REJECT_TOPICS or label.startswith(HEADING_LIKE_PREFIXES)
 
 
+def is_heading_like_topic(label: str) -> bool:
+    return _is_heading_like(_clean_label(label))
+
+
 def _add_topic(
     topics: list[Topic],
     seen: set[str],

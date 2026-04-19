@@ -12,6 +12,7 @@ from course_pipeline.io_utils import (
     write_yaml,
 )
 from course_pipeline.run_logging import RunLogger
+from course_pipeline.tasks.extract_topics import is_heading_like_topic
 from course_pipeline.schemas import (
     AnswerRecord,
     CanonicalTopic,
@@ -169,6 +170,7 @@ def rebuild_run_summary(output_dir: str | Path) -> dict[str, Any]:
         "answered_count": sum(item["answered_count"] for item in bundles),
         "rejected_count": sum(item["rejected_count"] for item in bundles),
         "errored_count": sum(item["errored_count"] for item in bundles),
+        "quality_metrics": _quality_metrics(out),
     }
     write_yaml(out / "run_summary.yaml", summary)
     return summary
@@ -246,3 +248,31 @@ def _row_course_id(row: dict[str, Any]) -> str | None:
     if isinstance(course, dict) and course.get("course_id") is not None:
         return str(course["course_id"])
     return None
+
+
+def _quality_metrics(output_dir: Path) -> dict[str, Any]:
+    canonical_topics = read_jsonl(output_dir / "canonical_topics.jsonl")
+    all_rows = read_jsonl(output_dir / "all_rows.jsonl")
+    candidates = read_jsonl(output_dir / "question_candidates.jsonl")
+
+    heading_like_count = sum(
+        is_heading_like_topic(row.get("label", ""))
+        for row in canonical_topics
+        if isinstance(row, dict)
+    )
+    total_topics = len(canonical_topics)
+    total_rows = len(all_rows)
+    rejected_count = sum(row.get("status") == "rejected" for row in all_rows)
+    errored_count = sum(row.get("status") == "errored" for row in all_rows)
+    comparison_count = sum(row.get("family") == "comparison" for row in candidates)
+    entry_count = sum(row.get("family") == "entry" for row in candidates)
+
+    return {
+        "heading_like_canonical_topic_rate": 0.0
+        if total_topics == 0
+        else round(heading_like_count / total_topics, 4),
+        "reject_rate": 0.0 if total_rows == 0 else round(rejected_count / total_rows, 4),
+        "errored_rate": 0.0 if total_rows == 0 else round(errored_count / total_rows, 4),
+        "comparison_question_count": comparison_count,
+        "entry_question_count": entry_count,
+    }
