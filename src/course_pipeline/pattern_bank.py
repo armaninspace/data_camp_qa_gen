@@ -47,10 +47,13 @@ PATTERN_BANK: dict[str, list[str]] = {
 
 
 TOPIC_TYPE_FAMILIES: dict[str, list[str]] = {
-    "concept": ["entry", "purpose", "example"],
-    "procedure": ["procedure", "purpose", "failure"],
-    "tool": ["entry", "procedure", "purpose", "comparison"],
-    "metric": ["entry", "interpretation", "purpose"],
+    "concept": ["entry", "mechanism"],
+    "procedure": ["procedure", "failure"],
+    "tool": ["entry", "procedure"],
+    "metric": ["entry", "interpretation"],
     "test": ["entry", "interpretation", "decision"],
+    "chapter_wrapper": [],
+    "example_block": [],
+    "case_study_container": [],
     "other": ["entry"],
 }

@@ -6,7 +6,17 @@ from pydantic import BaseModel, Field
 
 
 Correctness = Literal["correct", "incorrect", "uncertain"]
-TopicType = Literal["concept", "procedure", "tool", "metric", "test", "other"]
+TopicType = Literal[
+    "concept",
+    "procedure",
+    "tool",
+    "metric",
+    "test",
+    "chapter_wrapper",
+    "example_block",
+    "case_study_container",
+    "other",
+]
 RepairStatus = Literal["accepted", "repaired", "rejected"]
 QuestionStatus = Literal["answered", "rejected", "errored"]
 

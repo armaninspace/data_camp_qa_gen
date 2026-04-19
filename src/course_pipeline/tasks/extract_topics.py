@@ -39,6 +39,27 @@ LEXICAL_TOPICS = [
     "text data",
     "categorical data",
 ]
+TOOL_LABELS = {
+    "compose",
+    "negate",
+    "partial",
+    "safely",
+    "possibly",
+    "compact",
+    "where",
+    "having",
+    "distinct",
+    "union",
+    "indexes",
+    "execution plans",
+}
+METRIC_LABELS = {
+    "correlation",
+    "autocorrelation",
+}
+TEST_LABELS = {
+    "hypothesis testing",
+}
 SUMMARY_PATTERNS = [
     r"\b(white noise)\b",
     r"\b(random walk)\b",
@@ -130,6 +151,22 @@ def _extract_summary_topics(summary: str) -> list[str]:
     return found
 
 
+def _infer_topic_type(label: str) -> str:
+    if label in METRIC_LABELS:
+        return "metric"
+    if label in TEST_LABELS:
+        return "test"
+    if label in TOOL_LABELS:
+        return "tool"
+    if "function" in label or "functions" in label:
+        return "tool"
+    if label.endswith("models") or label.endswith("model"):
+        return "concept"
+    if "query processing order" in label:
+        return "procedure"
+    return "concept"
+
+
 def extract_atomic_topics_baseline(course: NormalizedCourse) -> list[Topic]:
     topics: list[Topic] = []
     seen: set[str] = set()
@@ -148,6 +185,7 @@ def extract_atomic_topics_baseline(course: NormalizedCourse) -> list[Topic]:
                     source=chapter.source,
                     evidence_text=chapter.title,
                     confidence=0.75,
+                    topic_type=_infer_topic_type(label),
                 )
         elif not _is_heading_like(heading):
             _add_topic(
@@ -157,6 +195,7 @@ def extract_atomic_topics_baseline(course: NormalizedCourse) -> list[Topic]:
                 source=chapter.source,
                 evidence_text=chapter.title,
                 confidence=0.55,
+                topic_type=_infer_topic_type(heading),
             )
 
         for label in _extract_summary_topics(summary_text):
@@ -167,6 +206,7 @@ def extract_atomic_topics_baseline(course: NormalizedCourse) -> list[Topic]:
                 source=chapter.source,
                 evidence_text=summary_text,
                 confidence=0.8,
+                topic_type=_infer_topic_type(label),
             )
 
     overview = ((course.overview or "") + " " + (course.summary or "")).lower()
@@ -179,6 +219,7 @@ def extract_atomic_topics_baseline(course: NormalizedCourse) -> list[Topic]:
                 source="overview",
                 evidence_text=item,
                 confidence=0.75,
+                topic_type=_infer_topic_type(item),
             )
 
     return topics
