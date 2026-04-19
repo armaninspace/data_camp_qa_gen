@@ -27,12 +27,14 @@ from course_pipeline.tasks.repair_questions import repair_or_reject_questions
 class SelectedCoursePath:
     relative_path: str
     absolute_path: str
+    quality_status: str | None = None
 
 
 @dataclass
 class PreflightSelection:
     runnable_paths: list[SelectedCoursePath]
     excluded_rows: list[dict]
+    quality_counts: dict[str, int]
 
 
 def _slice_indexes(total: int, slice_start: float, slice_end: float) -> tuple[int, int]:
@@ -64,19 +66,39 @@ def preflight_validate_selected_paths(
 ) -> PreflightSelection:
     runnable: list[SelectedCoursePath] = []
     excluded_rows: list[dict] = []
+    quality_counts = {"usable": 0, "partial": 0, "broken": 0}
     for selected in selected_paths:
         raw = load_raw_course(selected.absolute_path)
-        excluded = preflight_validate_course(raw, selected.relative_path)
-        if excluded is None:
-            runnable.append(selected)
+        decision = preflight_validate_course(raw, selected.relative_path)
+        quality_counts[decision.quality_status] += 1
+        if decision.quality_status == "broken":
+            excluded_rows.append(decision.model_dump())
         else:
-            excluded_rows.append(excluded.model_dump())
-    return PreflightSelection(runnable_paths=runnable, excluded_rows=excluded_rows)
+            runnable.append(
+                SelectedCoursePath(
+                    relative_path=selected.relative_path,
+                    absolute_path=selected.absolute_path,
+                    quality_status=decision.quality_status,
+                )
+            )
+    return PreflightSelection(
+        runnable_paths=runnable,
+        excluded_rows=excluded_rows,
+        quality_counts=quality_counts,
+    )
 
 
-def _process_course(path: str, output_dir: str, logger: RunLogger) -> dict:
+def _process_course(
+    path: str,
+    output_dir: str,
+    logger: RunLogger,
+    *,
+    quality_status: str | None,
+) -> dict:
     raw = load_raw_course(path)
     course = normalize_course_record(raw)
+    if quality_status:
+        course.metadata["quality_status"] = quality_status
     logger.log_pipeline(f"processing course_id={course.course_id} path={path}")
 
     timer = StageTimer(
@@ -191,12 +213,23 @@ def course_question_pipeline_flow(
     preflight = preflight_validate_selected_paths(paths)
     write_jsonl(output / "excluded_courses.jsonl", preflight.excluded_rows)
     logger.log_pipeline(
-        f"selected_courses={len(preflight.runnable_paths)} excluded_courses={len(preflight.excluded_rows)}"
+        "selected_courses="
+        f"{len(preflight.runnable_paths)} excluded_courses={len(preflight.excluded_rows)} "
+        f"usable_courses={preflight.quality_counts['usable']} "
+        f"partial_courses={preflight.quality_counts['partial']} "
+        f"broken_courses={preflight.quality_counts['broken']}"
     )
 
     summaries = []
     for selected in preflight.runnable_paths:
-        summaries.append(_process_course(selected.absolute_path, output_dir, logger))
+        summaries.append(
+            _process_course(
+                selected.absolute_path,
+                output_dir,
+                logger,
+                quality_status=selected.quality_status,
+            )
+        )
 
     run_summary = rebuild_run_summary(output)
     logger.log_pipeline(

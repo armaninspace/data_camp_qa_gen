@@ -3,7 +3,7 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Any
 
-from course_pipeline.schemas import ExcludedCourseRecord
+from course_pipeline.schemas import PreflightCourseDecision
 
 
 BROKEN_TITLES = {
@@ -12,7 +12,10 @@ BROKEN_TITLES = {
 }
 
 
-def preflight_validate_course(raw: dict[str, Any], source_path: str | Path) -> ExcludedCourseRecord | None:
+def preflight_validate_course(
+    raw: dict[str, Any],
+    source_path: str | Path,
+) -> PreflightCourseDecision:
     title_raw = raw.get("title")
     title = str(title_raw).strip() if title_raw is not None else None
     overview = raw.get("overview")
@@ -24,7 +27,7 @@ def preflight_validate_course(raw: dict[str, Any], source_path: str | Path) -> E
     course_id = _course_id(raw, source_url, title)
 
     if not title or title.lower() in BROKEN_TITLES:
-        return ExcludedCourseRecord(
+        return PreflightCourseDecision(
             course_id=course_id,
             source_path=str(source_path),
             quality_status="broken",
@@ -35,7 +38,7 @@ def preflight_validate_course(raw: dict[str, Any], source_path: str | Path) -> E
         )
 
     if not overview_present and syllabus_count == 0:
-        return ExcludedCourseRecord(
+        return PreflightCourseDecision(
             course_id=course_id,
             source_path=str(source_path),
             quality_status="broken",
@@ -45,7 +48,20 @@ def preflight_validate_course(raw: dict[str, Any], source_path: str | Path) -> E
             syllabus_count=syllabus_count,
         )
 
-    return None
+    if overview_present and syllabus_count > 0:
+        quality_status = "usable"
+    else:
+        quality_status = "partial"
+
+    return PreflightCourseDecision(
+        course_id=course_id,
+        source_path=str(source_path),
+        quality_status=quality_status,
+        exclude_reason=None,
+        title_raw=title,
+        overview_present=overview_present,
+        syllabus_count=syllabus_count,
+    )
 
 
 def _course_id(raw: dict[str, Any], source_url: str, title: str | None) -> str:

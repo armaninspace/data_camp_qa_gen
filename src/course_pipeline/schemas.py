@@ -6,6 +6,7 @@ from pydantic import BaseModel, Field
 
 
 Correctness = Literal["correct", "incorrect", "uncertain"]
+CourseQualityStatus = Literal["usable", "partial", "broken"]
 TopicType = Literal[
     "concept",
     "procedure",
@@ -118,6 +119,16 @@ class ExcludedCourseRecord(BaseModel):
     source_path: str
     quality_status: Literal["broken"]
     exclude_reason: str
+    title_raw: str | None = None
+    overview_present: bool = False
+    syllabus_count: int = 0
+
+
+class PreflightCourseDecision(BaseModel):
+    course_id: str
+    source_path: str
+    quality_status: CourseQualityStatus
+    exclude_reason: str | None = None
     title_raw: str | None = None
     overview_present: bool = False
     syllabus_count: int = 0
