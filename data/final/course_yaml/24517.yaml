@@ -1,0 +1,2106 @@
+course_id: '24517'
+title: String Manipulation with stringr in R
+normalized_course:
+  course_id: '24517'
+  title: String Manipulation with stringr in R
+  provider: DataCamp
+  summary: 'Learn how to pull character strings apart, put them back together and
+    use
+
+    the stringr package.'
+  overview: 'String basics
+
+
+    You''ll start with some basics: how to enter strings in R, how to control how
+
+    numbers are transformed to strings, and finally how to combine strings
+
+    together to produce output that combines text and nicely formatted numbers.
+
+
+    Introduction to stringr
+
+
+    Time to meet stringr! You''ll start by learning about some stringr functions
+
+    that are very similar to some base R functions, then how to detect specific
+
+    patterns in strings, how to split strings apart and how to find and replace
+
+    parts of strings.
+
+
+    Pattern matching with regular expressions
+
+
+    In this chapter you''ll learn about regular expressions, a language for
+
+    describing patterns in strings. By combining regular expressions with the
+
+    stringr functions you''ll greatly increase your power to manipulate strings.
+
+
+    More advanced matching and manipulation
+
+
+    Now for two advanced ways to use regular expressions along with stringr:
+
+    selecting parts of a match (a.k.a capturing) and referring back to parts of
+
+    a match (a.k.a back-referencing). You''ll also learn to deal with and strings
+
+    or patterns that contain Unicode characters (e.g. é).
+
+
+    Case studies
+
+
+    Practice your string manipulation skills on a couple of case studies. You''ll
+
+    also learn a few new skills, reading strings into R and handling problems of
+
+    case (e.g. A versus a).'
+  chapters:
+  - chapter_index: 1
+    title: String basics
+    summary: 'You''ll start with some basics: how to enter strings in R, how to
+
+      control how numbers are transformed to strings, and finally how to
+
+      combine strings together to produce output that combines text and
+
+      nicely formatted numbers.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 2
+    title: Introduction to stringr
+    summary: 'Time to meet stringr! You''ll start by learning about some stringr
+
+      functions that are very similar to some base R functions, then how
+
+      to detect specific patterns in strings, how to split strings apart
+
+      and how to find and replace parts of strings.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 3
+    title: Pattern matching with regular expressions
+    summary: 'In this chapter you''ll learn about regular expressions, a language
+
+      for describing patterns in strings. By combining regular expressions
+
+      with the stringr functions you''ll greatly increase your power to
+
+      manipulate strings.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 4
+    title: More advanced matching and manipulation
+    summary: 'Now for two advanced ways to use regular expressions along with
+
+      stringr: selecting parts of a match (a.k.a capturing) and referring
+
+      back to parts of a match (a.k.a back-referencing). You''ll also learn
+
+      to deal with and strings or patterns that contain Unicode characters
+
+      (e.g. é).'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 5
+    title: Case studies
+    summary: 'Practice your string manipulation skills on a couple of case
+
+      studies. You''ll also learn a few new skills, reading strings into R
+
+      and handling problems of case (e.g. A versus a).'
+    source: syllabus
+    confidence: 1.0
+  metadata:
+    level: Beginner
+    duration_hours: 4 hours
+    subjects:
+    - R Programming
+    - Regular Expressions
+    - Data Cleaning
+    - String Manipulation
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: string basics
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: string basics'
+  evidence:
+  - source: syllabus
+    text: String basics
+  confidence: 0.45
+- topic_id: t002
+  label: introduction to stringr
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: introduction to stringr'
+  evidence:
+  - source: syllabus
+    text: Introduction to stringr
+  confidence: 0.45
+- topic_id: t003
+  label: pattern matching with regular expressions
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: pattern matching with regular
+    expressions'
+  evidence:
+  - source: syllabus
+    text: Pattern matching with regular expressions
+  confidence: 0.45
+- topic_id: t004
+  label: more advanced matching
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: more advanced matching'
+  evidence:
+  - source: syllabus
+    text: More advanced matching and manipulation
+  confidence: 0.55
+- topic_id: t005
+  label: manipulation
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: manipulation'
+  evidence:
+  - source: syllabus
+    text: More advanced matching and manipulation
+  confidence: 0.55
+- topic_id: t006
+  label: case studies
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: case studies'
+  evidence:
+  - source: syllabus
+    text: Case studies
+  confidence: 0.45
+- topic_id: t007
+  label: strings
+  topic_type: concept
+  description: 'Topic mined from course text: strings'
+  evidence:
+  - source: overview
+    text: strings
+  confidence: 0.75
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: string basics
+  aliases:
+  - string basics
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: introduction to stringr
+  aliases:
+  - introduction to stringr
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: pattern matching with regular expressions
+  aliases:
+  - pattern matching with regular expressions
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: more advanced matching
+  aliases:
+  - more advanced matching
+  member_topic_ids:
+  - t004
+  topic_type: concept
+- canonical_topic_id: ct_005
+  label: manipulation
+  aliases:
+  - manipulation
+  member_topic_ids:
+  - t005
+  topic_type: concept
+- canonical_topic_id: ct_006
+  label: case studies
+  aliases:
+  - case studies
+  member_topic_ids:
+  - t006
+  topic_type: concept
+- canonical_topic_id: ct_007
+  label: strings
+  aliases:
+  - strings
+  member_topic_ids:
+  - t007
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - string basics
+  family: entry
+  pattern: What is {x}?
+  question_text: What is string basics?
+- candidate_id: q0002
+  relevant_topics:
+  - string basics
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does string basics mean?
+- candidate_id: q0003
+  relevant_topics:
+  - string basics
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does string basics matter?
+- candidate_id: q0004
+  relevant_topics:
+  - string basics
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use string basics?
+- candidate_id: q0005
+  relevant_topics:
+  - string basics
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of string basics?
+- candidate_id: q0006
+  relevant_topics:
+  - introduction to stringr
+  family: entry
+  pattern: What is {x}?
+  question_text: What is introduction to stringr?
+- candidate_id: q0007
+  relevant_topics:
+  - introduction to stringr
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does introduction to stringr mean?
+- candidate_id: q0008
+  relevant_topics:
+  - introduction to stringr
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does introduction to stringr matter?
+- candidate_id: q0009
+  relevant_topics:
+  - introduction to stringr
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use introduction to stringr?
+- candidate_id: q0010
+  relevant_topics:
+  - introduction to stringr
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of introduction to stringr?
+- candidate_id: q0011
+  relevant_topics:
+  - pattern matching with regular expressions
+  family: entry
+  pattern: What is {x}?
+  question_text: What is pattern matching with regular expressions?
+- candidate_id: q0012
+  relevant_topics:
+  - pattern matching with regular expressions
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does pattern matching with regular expressions mean?
+- candidate_id: q0013
+  relevant_topics:
+  - pattern matching with regular expressions
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does pattern matching with regular expressions matter?
+- candidate_id: q0014
+  relevant_topics:
+  - pattern matching with regular expressions
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use pattern matching with regular expressions?
+- candidate_id: q0015
+  relevant_topics:
+  - pattern matching with regular expressions
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of pattern matching with regular expressions?
+- candidate_id: q0016
+  relevant_topics:
+  - more advanced matching
+  family: entry
+  pattern: What is {x}?
+  question_text: What is more advanced matching?
+- candidate_id: q0017
+  relevant_topics:
+  - more advanced matching
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does more advanced matching mean?
+- candidate_id: q0018
+  relevant_topics:
+  - more advanced matching
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does more advanced matching matter?
+- candidate_id: q0019
+  relevant_topics:
+  - more advanced matching
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use more advanced matching?
+- candidate_id: q0020
+  relevant_topics:
+  - more advanced matching
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of more advanced matching?
+- candidate_id: q0021
+  relevant_topics:
+  - manipulation
+  family: entry
+  pattern: What is {x}?
+  question_text: What is manipulation?
+- candidate_id: q0022
+  relevant_topics:
+  - manipulation
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does manipulation mean?
+- candidate_id: q0023
+  relevant_topics:
+  - manipulation
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does manipulation matter?
+- candidate_id: q0024
+  relevant_topics:
+  - manipulation
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use manipulation?
+- candidate_id: q0025
+  relevant_topics:
+  - manipulation
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of manipulation?
+- candidate_id: q0026
+  relevant_topics:
+  - case studies
+  family: entry
+  pattern: What is {x}?
+  question_text: What is case studies?
+- candidate_id: q0027
+  relevant_topics:
+  - case studies
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does case studies mean?
+- candidate_id: q0028
+  relevant_topics:
+  - case studies
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does case studies matter?
+- candidate_id: q0029
+  relevant_topics:
+  - case studies
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use case studies?
+- candidate_id: q0030
+  relevant_topics:
+  - case studies
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of case studies?
+- candidate_id: q0031
+  relevant_topics:
+  - strings
+  family: entry
+  pattern: What is {x}?
+  question_text: What is strings?
+- candidate_id: q0032
+  relevant_topics:
+  - strings
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does strings mean?
+- candidate_id: q0033
+  relevant_topics:
+  - strings
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does strings matter?
+- candidate_id: q0034
+  relevant_topics:
+  - strings
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use strings?
+- candidate_id: q0035
+  relevant_topics:
+  - strings
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of strings?
+- candidate_id: q0036
+  relevant_topics:
+  - string basics
+  - introduction to stringr
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is string basics different from introduction to stringr?
+- candidate_id: q0037
+  relevant_topics:
+  - string basics
+  - pattern matching with regular expressions
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is string basics different from pattern matching with regular
+    expressions?
+- candidate_id: q0038
+  relevant_topics:
+  - string basics
+  - more advanced matching
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is string basics different from more advanced matching?
+- candidate_id: q0039
+  relevant_topics:
+  - string basics
+  - manipulation
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is string basics different from manipulation?
+- candidate_id: q0040
+  relevant_topics:
+  - string basics
+  - case studies
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is string basics different from case studies?
+- candidate_id: q0041
+  relevant_topics:
+  - string basics
+  - strings
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is string basics different from strings?
+- candidate_id: q0042
+  relevant_topics:
+  - introduction to stringr
+  - pattern matching with regular expressions
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to stringr different from pattern matching with
+    regular expressions?
+- candidate_id: q0043
+  relevant_topics:
+  - introduction to stringr
+  - more advanced matching
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to stringr different from more advanced matching?
+- candidate_id: q0044
+  relevant_topics:
+  - introduction to stringr
+  - manipulation
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to stringr different from manipulation?
+- candidate_id: q0045
+  relevant_topics:
+  - introduction to stringr
+  - case studies
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to stringr different from case studies?
+- candidate_id: q0046
+  relevant_topics:
+  - introduction to stringr
+  - strings
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to stringr different from strings?
+- candidate_id: q0047
+  relevant_topics:
+  - pattern matching with regular expressions
+  - more advanced matching
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is pattern matching with regular expressions different from more
+    advanced matching?
+- candidate_id: q0048
+  relevant_topics:
+  - pattern matching with regular expressions
+  - manipulation
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is pattern matching with regular expressions different from manipulation?
+- candidate_id: q0049
+  relevant_topics:
+  - pattern matching with regular expressions
+  - case studies
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is pattern matching with regular expressions different from case
+    studies?
+- candidate_id: q0050
+  relevant_topics:
+  - pattern matching with regular expressions
+  - strings
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is pattern matching with regular expressions different from strings?
+- candidate_id: q0051
+  relevant_topics:
+  - more advanced matching
+  - manipulation
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is more advanced matching different from manipulation?
+- candidate_id: q0052
+  relevant_topics:
+  - more advanced matching
+  - case studies
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is more advanced matching different from case studies?
+- candidate_id: q0053
+  relevant_topics:
+  - more advanced matching
+  - strings
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is more advanced matching different from strings?
+- candidate_id: q0054
+  relevant_topics:
+  - manipulation
+  - case studies
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is manipulation different from case studies?
+- candidate_id: q0055
+  relevant_topics:
+  - manipulation
+  - strings
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is manipulation different from strings?
+- candidate_id: q0056
+  relevant_topics:
+  - case studies
+  - strings
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is case studies different from strings?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is string basics?
+  final_text: What is string basics?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does string basics mean?
+  final_text: What does string basics mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does string basics matter?
+  final_text: Why does string basics matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use string basics?
+  final_text: Why does string basics?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of string basics?
+  final_text: What is a simple example of string basics?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is introduction to stringr?
+  final_text: What is introduction to stringr?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does introduction to stringr mean?
+  final_text: What does introduction to stringr mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does introduction to stringr matter?
+  final_text: Why does introduction to stringr matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use introduction to stringr?
+  final_text: Why does introduction to stringr?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of introduction to stringr?
+  final_text: What is a simple example of introduction to stringr?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is pattern matching with regular expressions?
+  final_text: What is pattern matching with regular expressions?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does pattern matching with regular expressions mean?
+  final_text: What does pattern matching with regular expressions mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does pattern matching with regular expressions matter?
+  final_text: Why does pattern matching with regular expressions matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use pattern matching with regular expressions?
+  final_text: Why does pattern matching with regular expressions?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of pattern matching with regular expressions?
+  final_text: What is a simple example of pattern matching with regular expressions?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is more advanced matching?
+  final_text: What is more advanced matching?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does more advanced matching mean?
+  final_text: What does more advanced matching mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does more advanced matching matter?
+  final_text: Why does more advanced matching matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use more advanced matching?
+  final_text: Why does more advanced matching?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of more advanced matching?
+  final_text: What is a simple example of more advanced matching?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: What is manipulation?
+  final_text: What is manipulation?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: What does manipulation mean?
+  final_text: What does manipulation mean?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: Why does manipulation matter?
+  final_text: Why does manipulation matter?
+  reject_reason: null
+- candidate_id: q0024
+  status: repaired
+  original_text: Why do we use manipulation?
+  final_text: Why does manipulation?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: What is a simple example of manipulation?
+  final_text: What is a simple example of manipulation?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: What is case studies?
+  final_text: What is case studies?
+  reject_reason: null
+- candidate_id: q0027
+  status: accepted
+  original_text: What does case studies mean?
+  final_text: What does case studies mean?
+  reject_reason: null
+- candidate_id: q0028
+  status: accepted
+  original_text: Why does case studies matter?
+  final_text: Why does case studies matter?
+  reject_reason: null
+- candidate_id: q0029
+  status: repaired
+  original_text: Why do we use case studies?
+  final_text: Why does case studies?
+  reject_reason: null
+- candidate_id: q0030
+  status: accepted
+  original_text: What is a simple example of case studies?
+  final_text: What is a simple example of case studies?
+  reject_reason: null
+- candidate_id: q0031
+  status: accepted
+  original_text: What is strings?
+  final_text: What is strings?
+  reject_reason: null
+- candidate_id: q0032
+  status: accepted
+  original_text: What does strings mean?
+  final_text: What does strings mean?
+  reject_reason: null
+- candidate_id: q0033
+  status: accepted
+  original_text: Why does strings matter?
+  final_text: Why does strings matter?
+  reject_reason: null
+- candidate_id: q0034
+  status: repaired
+  original_text: Why do we use strings?
+  final_text: Why does strings?
+  reject_reason: null
+- candidate_id: q0035
+  status: accepted
+  original_text: What is a simple example of strings?
+  final_text: What is a simple example of strings?
+  reject_reason: null
+- candidate_id: q0036
+  status: accepted
+  original_text: How is string basics different from introduction to stringr?
+  final_text: How is string basics different from introduction to stringr?
+  reject_reason: null
+- candidate_id: q0037
+  status: accepted
+  original_text: How is string basics different from pattern matching with regular
+    expressions?
+  final_text: How is string basics different from pattern matching with regular expressions?
+  reject_reason: null
+- candidate_id: q0038
+  status: accepted
+  original_text: How is string basics different from more advanced matching?
+  final_text: How is string basics different from more advanced matching?
+  reject_reason: null
+- candidate_id: q0039
+  status: accepted
+  original_text: How is string basics different from manipulation?
+  final_text: How is string basics different from manipulation?
+  reject_reason: null
+- candidate_id: q0040
+  status: accepted
+  original_text: How is string basics different from case studies?
+  final_text: How is string basics different from case studies?
+  reject_reason: null
+- candidate_id: q0041
+  status: accepted
+  original_text: How is string basics different from strings?
+  final_text: How is string basics different from strings?
+  reject_reason: null
+- candidate_id: q0042
+  status: accepted
+  original_text: How is introduction to stringr different from pattern matching with
+    regular expressions?
+  final_text: How is introduction to stringr different from pattern matching with
+    regular expressions?
+  reject_reason: null
+- candidate_id: q0043
+  status: accepted
+  original_text: How is introduction to stringr different from more advanced matching?
+  final_text: How is introduction to stringr different from more advanced matching?
+  reject_reason: null
+- candidate_id: q0044
+  status: accepted
+  original_text: How is introduction to stringr different from manipulation?
+  final_text: How is introduction to stringr different from manipulation?
+  reject_reason: null
+- candidate_id: q0045
+  status: accepted
+  original_text: How is introduction to stringr different from case studies?
+  final_text: How is introduction to stringr different from case studies?
+  reject_reason: null
+- candidate_id: q0046
+  status: accepted
+  original_text: How is introduction to stringr different from strings?
+  final_text: How is introduction to stringr different from strings?
+  reject_reason: null
+- candidate_id: q0047
+  status: accepted
+  original_text: How is pattern matching with regular expressions different from more
+    advanced matching?
+  final_text: How is pattern matching with regular expressions different from more
+    advanced matching?
+  reject_reason: null
+- candidate_id: q0048
+  status: accepted
+  original_text: How is pattern matching with regular expressions different from manipulation?
+  final_text: How is pattern matching with regular expressions different from manipulation?
+  reject_reason: null
+- candidate_id: q0049
+  status: accepted
+  original_text: How is pattern matching with regular expressions different from case
+    studies?
+  final_text: How is pattern matching with regular expressions different from case
+    studies?
+  reject_reason: null
+- candidate_id: q0050
+  status: accepted
+  original_text: How is pattern matching with regular expressions different from strings?
+  final_text: How is pattern matching with regular expressions different from strings?
+  reject_reason: null
+- candidate_id: q0051
+  status: accepted
+  original_text: How is more advanced matching different from manipulation?
+  final_text: How is more advanced matching different from manipulation?
+  reject_reason: null
+- candidate_id: q0052
+  status: accepted
+  original_text: How is more advanced matching different from case studies?
+  final_text: How is more advanced matching different from case studies?
+  reject_reason: null
+- candidate_id: q0053
+  status: accepted
+  original_text: How is more advanced matching different from strings?
+  final_text: How is more advanced matching different from strings?
+  reject_reason: null
+- candidate_id: q0054
+  status: accepted
+  original_text: How is manipulation different from case studies?
+  final_text: How is manipulation different from case studies?
+  reject_reason: null
+- candidate_id: q0055
+  status: accepted
+  original_text: How is manipulation different from strings?
+  final_text: How is manipulation different from strings?
+  reject_reason: null
+- candidate_id: q0056
+  status: accepted
+  original_text: How is case studies different from strings?
+  final_text: How is case studies different from strings?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is string basics?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does string basics mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does string basics matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does string basics?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of string basics?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is introduction to stringr?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does introduction to stringr mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does introduction to stringr matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does introduction to stringr?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of introduction to stringr?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is pattern matching with regular expressions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does pattern matching with regular expressions mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does pattern matching with regular expressions matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does pattern matching with regular expressions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of pattern matching with regular expressions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is more advanced matching?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does more advanced matching mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does more advanced matching matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does more advanced matching?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of more advanced matching?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: What is manipulation?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: What does manipulation mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: Why does manipulation matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: Why does manipulation?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: What is a simple example of manipulation?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: What is case studies?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0027
+  question_text: What does case studies mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0028
+  question_text: Why does case studies matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0029
+  question_text: Why does case studies?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0030
+  question_text: What is a simple example of case studies?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0031
+  question_text: What is strings?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0032
+  question_text: What does strings mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0033
+  question_text: Why does strings matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0034
+  question_text: Why does strings?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0035
+  question_text: What is a simple example of strings?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0036
+  question_text: How is string basics different from introduction to stringr?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0037
+  question_text: How is string basics different from pattern matching with regular
+    expressions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0038
+  question_text: How is string basics different from more advanced matching?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0039
+  question_text: How is string basics different from manipulation?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0040
+  question_text: How is string basics different from case studies?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0041
+  question_text: How is string basics different from strings?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0042
+  question_text: How is introduction to stringr different from pattern matching with
+    regular expressions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0043
+  question_text: How is introduction to stringr different from more advanced matching?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0044
+  question_text: How is introduction to stringr different from manipulation?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0045
+  question_text: How is introduction to stringr different from case studies?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0046
+  question_text: How is introduction to stringr different from strings?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0047
+  question_text: How is pattern matching with regular expressions different from more
+    advanced matching?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0048
+  question_text: How is pattern matching with regular expressions different from manipulation?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0049
+  question_text: How is pattern matching with regular expressions different from case
+    studies?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0050
+  question_text: How is pattern matching with regular expressions different from strings?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0051
+  question_text: How is more advanced matching different from manipulation?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0052
+  question_text: How is more advanced matching different from case studies?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0053
+  question_text: How is more advanced matching different from strings?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0054
+  question_text: How is manipulation different from case studies?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0055
+  question_text: How is manipulation different from strings?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0056
+  question_text: How is case studies different from strings?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - string basics
+  question_text: What is string basics?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - string basics
+  question_text: What does string basics mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - string basics
+  question_text: Why does string basics matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - string basics
+  question_text: Why does string basics?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - string basics
+  question_text: What is a simple example of string basics?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - introduction to stringr
+  question_text: What is introduction to stringr?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - introduction to stringr
+  question_text: What does introduction to stringr mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - introduction to stringr
+  question_text: Why does introduction to stringr matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - introduction to stringr
+  question_text: Why does introduction to stringr?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - introduction to stringr
+  question_text: What is a simple example of introduction to stringr?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - pattern matching with regular expressions
+  question_text: What is pattern matching with regular expressions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - pattern matching with regular expressions
+  question_text: What does pattern matching with regular expressions mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - pattern matching with regular expressions
+  question_text: Why does pattern matching with regular expressions matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - pattern matching with regular expressions
+  question_text: Why does pattern matching with regular expressions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - pattern matching with regular expressions
+  question_text: What is a simple example of pattern matching with regular expressions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - more advanced matching
+  question_text: What is more advanced matching?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - more advanced matching
+  question_text: What does more advanced matching mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - more advanced matching
+  question_text: Why does more advanced matching matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - more advanced matching
+  question_text: Why does more advanced matching?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - more advanced matching
+  question_text: What is a simple example of more advanced matching?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - manipulation
+  question_text: What is manipulation?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - manipulation
+  question_text: What does manipulation mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - manipulation
+  question_text: Why does manipulation matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - manipulation
+  question_text: Why does manipulation?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - manipulation
+  question_text: What is a simple example of manipulation?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - case studies
+  question_text: What is case studies?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000027
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - case studies
+  question_text: What does case studies mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000028
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - case studies
+  question_text: Why does case studies matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000029
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - case studies
+  question_text: Why does case studies?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000030
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - case studies
+  question_text: What is a simple example of case studies?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000031
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - strings
+  question_text: What is strings?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000032
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - strings
+  question_text: What does strings mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000033
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - strings
+  question_text: Why does strings matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000034
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - strings
+  question_text: Why does strings?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000035
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - strings
+  question_text: What is a simple example of strings?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000036
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - string basics
+  - introduction to stringr
+  question_text: How is string basics different from introduction to stringr?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000037
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - string basics
+  - pattern matching with regular expressions
+  question_text: How is string basics different from pattern matching with regular
+    expressions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000038
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - string basics
+  - more advanced matching
+  question_text: How is string basics different from more advanced matching?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000039
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - string basics
+  - manipulation
+  question_text: How is string basics different from manipulation?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000040
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - string basics
+  - case studies
+  question_text: How is string basics different from case studies?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000041
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - string basics
+  - strings
+  question_text: How is string basics different from strings?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000042
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - introduction to stringr
+  - pattern matching with regular expressions
+  question_text: How is introduction to stringr different from pattern matching with
+    regular expressions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000043
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - introduction to stringr
+  - more advanced matching
+  question_text: How is introduction to stringr different from more advanced matching?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000044
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - introduction to stringr
+  - manipulation
+  question_text: How is introduction to stringr different from manipulation?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000045
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - introduction to stringr
+  - case studies
+  question_text: How is introduction to stringr different from case studies?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000046
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - introduction to stringr
+  - strings
+  question_text: How is introduction to stringr different from strings?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000047
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - pattern matching with regular expressions
+  - more advanced matching
+  question_text: How is pattern matching with regular expressions different from more
+    advanced matching?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000048
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - pattern matching with regular expressions
+  - manipulation
+  question_text: How is pattern matching with regular expressions different from manipulation?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000049
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - pattern matching with regular expressions
+  - case studies
+  question_text: How is pattern matching with regular expressions different from case
+    studies?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000050
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - pattern matching with regular expressions
+  - strings
+  question_text: How is pattern matching with regular expressions different from strings?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000051
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - more advanced matching
+  - manipulation
+  question_text: How is more advanced matching different from manipulation?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000052
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - more advanced matching
+  - case studies
+  question_text: How is more advanced matching different from case studies?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000053
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - more advanced matching
+  - strings
+  question_text: How is more advanced matching different from strings?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000054
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - manipulation
+  - case studies
+  question_text: How is manipulation different from case studies?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000055
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - manipulation
+  - strings
+  question_text: How is manipulation different from strings?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000056
+  course:
+    course_id: '24517'
+    title: String Manipulation with stringr in R
+  relevant_topics:
+  - case studies
+  - strings
+  question_text: How is case studies different from strings?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 7
+  canonical_topic_count: 7
+  candidate_count: 56
+  accepted_count: 56
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 56

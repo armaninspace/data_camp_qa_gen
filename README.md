@@ -57,7 +57,7 @@ Use multiple prompts rather than one giant prompt.
   - repair or reject
   - answer generation and correctness judgment
 
-- `gpt-5.1-mini`
+- `gpt-5.4-mini`
   - pattern-conditioned question generation
   - cheap high-volume expansion
   - optional paraphrase work

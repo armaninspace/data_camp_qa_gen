@@ -1,0 +1,1064 @@
+course_id: '24467'
+title: Introduction to Deep Learning with Keras
+normalized_course:
+  course_id: '24467'
+  title: Introduction to Deep Learning with Keras
+  provider: DataCamp
+  summary: Learn to start developing deep learning models with Keras.
+  overview: 'Introducing Keras
+
+
+    In this first chapter, you will get introduced to neural networks,
+
+    understand what kind of problems they can solve, and when to use them. You
+
+    will also build several networks and save the earth by training a regression
+
+    model that approximates the orbit of a meteor that is approaching us!
+
+
+    Going Deeper
+
+
+    By the end of this chapter, you will know how to solve binary, multi-class,
+
+    and multi-label problems with neural networks. All of this by solving
+
+    problems like detecting fake dollar bills, deciding who threw which dart at
+
+    a board, and building an intelligent system to water your farm. You will
+
+    also be able to plot model training metrics and to stop training and save
+
+    your models when they no longer improve.
+
+
+    Improving Your Model Performance
+
+
+    In the previous chapters, you''ve trained a lot of models! You will now learn
+
+    how to interpret learning curves to understand your models as they train.
+
+    You will also visualize the effects of activation functions, batch-sizes,
+
+    and batch-normalization. Finally, you will learn how to perform automatic
+
+    hyperparameter optimization to your Keras models using sklearn.
+
+
+    Advanced Model Architectures
+
+
+    It''s time to get introduced to more advanced architectures! You will create
+
+    an autoencoder to reconstruct noisy images, visualize convolutional neural
+
+    network activations, use deep pre-trained models to classify images and
+
+    learn more about recurrent neural networks and working with text as you
+
+    build a network that predicts the next word in a sentence.'
+  chapters:
+  - chapter_index: 1
+    title: Introducing Keras
+    summary: 'In this first chapter, you will get introduced to neural networks,
+
+      understand what kind of problems they can solve, and when to use
+
+      them. You will also build several networks and save the earth by
+
+      training a regression model that approximates the orbit of a meteor
+
+      that is approaching us!'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 2
+    title: Going Deeper
+    summary: 'By the end of this chapter, you will know how to solve binary,
+
+      multi-class, and multi-label problems with neural networks. All of
+
+      this by solving problems like detecting fake dollar bills, deciding
+
+      who threw which dart at a board, and building an intelligent system
+
+      to water your farm. You will also be able to plot model training
+
+      metrics and to stop training and save your models when they no
+
+      longer improve.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 3
+    title: Improving Your Model Performance
+    summary: 'In the previous chapters, you''ve trained a lot of models! You will
+
+      now learn how to interpret learning curves to understand your models
+
+      as they train. You will also visualize the effects of activation
+
+      functions, batch-sizes, and batch-normalization. Finally, you will
+
+      learn how to perform automatic hyperparameter optimization to your
+
+      Keras models using sklearn.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 4
+    title: Advanced Model Architectures
+    summary: 'It''s time to get introduced to more advanced architectures! You will
+
+      create an autoencoder to reconstruct noisy images, visualize
+
+      convolutional neural network activations, use deep pre-trained
+
+      models to classify images and learn more about recurrent neural
+
+      networks and working with text as you build a network that predicts
+
+      the next word in a sentence.'
+    source: syllabus
+    confidence: 1.0
+  metadata:
+    level: Intermediate
+    duration_hours: 4 hours
+    subjects:
+    - Python
+    - Deep Learning
+    - Neural Networks
+    - Keras
+    - Regression Analysis
+    - Binary Classification
+    - Image Reconstruction
+    - Activation Functions
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: introducing keras
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: introducing keras'
+  evidence:
+  - source: syllabus
+    text: Introducing Keras
+  confidence: 0.45
+- topic_id: t002
+  label: going deeper
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: going deeper'
+  evidence:
+  - source: syllabus
+    text: Going Deeper
+  confidence: 0.45
+- topic_id: t003
+  label: improving your model performance
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: improving your model performance'
+  evidence:
+  - source: syllabus
+    text: Improving Your Model Performance
+  confidence: 0.45
+- topic_id: t004
+  label: advanced model architectures
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: advanced model architectures'
+  evidence:
+  - source: syllabus
+    text: Advanced Model Architectures
+  confidence: 0.45
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: introducing keras
+  aliases:
+  - introducing keras
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: going deeper
+  aliases:
+  - going deeper
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: improving your model performance
+  aliases:
+  - improving your model performance
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: advanced model architectures
+  aliases:
+  - advanced model architectures
+  member_topic_ids:
+  - t004
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - introducing keras
+  family: entry
+  pattern: What is {x}?
+  question_text: What is introducing keras?
+- candidate_id: q0002
+  relevant_topics:
+  - introducing keras
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does introducing keras mean?
+- candidate_id: q0003
+  relevant_topics:
+  - introducing keras
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does introducing keras matter?
+- candidate_id: q0004
+  relevant_topics:
+  - introducing keras
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use introducing keras?
+- candidate_id: q0005
+  relevant_topics:
+  - introducing keras
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of introducing keras?
+- candidate_id: q0006
+  relevant_topics:
+  - going deeper
+  family: entry
+  pattern: What is {x}?
+  question_text: What is going deeper?
+- candidate_id: q0007
+  relevant_topics:
+  - going deeper
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does going deeper mean?
+- candidate_id: q0008
+  relevant_topics:
+  - going deeper
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does going deeper matter?
+- candidate_id: q0009
+  relevant_topics:
+  - going deeper
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use going deeper?
+- candidate_id: q0010
+  relevant_topics:
+  - going deeper
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of going deeper?
+- candidate_id: q0011
+  relevant_topics:
+  - improving your model performance
+  family: entry
+  pattern: What is {x}?
+  question_text: What is improving your model performance?
+- candidate_id: q0012
+  relevant_topics:
+  - improving your model performance
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does improving your model performance mean?
+- candidate_id: q0013
+  relevant_topics:
+  - improving your model performance
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does improving your model performance matter?
+- candidate_id: q0014
+  relevant_topics:
+  - improving your model performance
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use improving your model performance?
+- candidate_id: q0015
+  relevant_topics:
+  - improving your model performance
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of improving your model performance?
+- candidate_id: q0016
+  relevant_topics:
+  - advanced model architectures
+  family: entry
+  pattern: What is {x}?
+  question_text: What is advanced model architectures?
+- candidate_id: q0017
+  relevant_topics:
+  - advanced model architectures
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does advanced model architectures mean?
+- candidate_id: q0018
+  relevant_topics:
+  - advanced model architectures
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does advanced model architectures matter?
+- candidate_id: q0019
+  relevant_topics:
+  - advanced model architectures
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use advanced model architectures?
+- candidate_id: q0020
+  relevant_topics:
+  - advanced model architectures
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of advanced model architectures?
+- candidate_id: q0021
+  relevant_topics:
+  - introducing keras
+  - going deeper
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introducing keras different from going deeper?
+- candidate_id: q0022
+  relevant_topics:
+  - introducing keras
+  - improving your model performance
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introducing keras different from improving your model performance?
+- candidate_id: q0023
+  relevant_topics:
+  - introducing keras
+  - advanced model architectures
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introducing keras different from advanced model architectures?
+- candidate_id: q0024
+  relevant_topics:
+  - going deeper
+  - improving your model performance
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is going deeper different from improving your model performance?
+- candidate_id: q0025
+  relevant_topics:
+  - going deeper
+  - advanced model architectures
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is going deeper different from advanced model architectures?
+- candidate_id: q0026
+  relevant_topics:
+  - improving your model performance
+  - advanced model architectures
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is improving your model performance different from advanced model
+    architectures?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is introducing keras?
+  final_text: What is introducing keras?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does introducing keras mean?
+  final_text: What does introducing keras mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does introducing keras matter?
+  final_text: Why does introducing keras matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use introducing keras?
+  final_text: Why does introducing keras?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of introducing keras?
+  final_text: What is a simple example of introducing keras?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is going deeper?
+  final_text: What is going deeper?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does going deeper mean?
+  final_text: What does going deeper mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does going deeper matter?
+  final_text: Why does going deeper matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use going deeper?
+  final_text: Why does going deeper?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of going deeper?
+  final_text: What is a simple example of going deeper?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is improving your model performance?
+  final_text: What is improving your model performance?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does improving your model performance mean?
+  final_text: What does improving your model performance mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does improving your model performance matter?
+  final_text: Why does improving your model performance matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use improving your model performance?
+  final_text: Why does improving your model performance?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of improving your model performance?
+  final_text: What is a simple example of improving your model performance?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is advanced model architectures?
+  final_text: What is advanced model architectures?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does advanced model architectures mean?
+  final_text: What does advanced model architectures mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does advanced model architectures matter?
+  final_text: Why does advanced model architectures matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use advanced model architectures?
+  final_text: Why does advanced model architectures?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of advanced model architectures?
+  final_text: What is a simple example of advanced model architectures?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: How is introducing keras different from going deeper?
+  final_text: How is introducing keras different from going deeper?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: How is introducing keras different from improving your model performance?
+  final_text: How is introducing keras different from improving your model performance?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: How is introducing keras different from advanced model architectures?
+  final_text: How is introducing keras different from advanced model architectures?
+  reject_reason: null
+- candidate_id: q0024
+  status: accepted
+  original_text: How is going deeper different from improving your model performance?
+  final_text: How is going deeper different from improving your model performance?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: How is going deeper different from advanced model architectures?
+  final_text: How is going deeper different from advanced model architectures?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: How is improving your model performance different from advanced model
+    architectures?
+  final_text: How is improving your model performance different from advanced model
+    architectures?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is introducing keras?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does introducing keras mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does introducing keras matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does introducing keras?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of introducing keras?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is going deeper?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does going deeper mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does going deeper matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does going deeper?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of going deeper?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is improving your model performance?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does improving your model performance mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does improving your model performance matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does improving your model performance?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of improving your model performance?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is advanced model architectures?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does advanced model architectures mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does advanced model architectures matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does advanced model architectures?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of advanced model architectures?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: How is introducing keras different from going deeper?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: How is introducing keras different from improving your model performance?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: How is introducing keras different from advanced model architectures?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: How is going deeper different from improving your model performance?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: How is going deeper different from advanced model architectures?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: How is improving your model performance different from advanced model
+    architectures?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24467'
+    title: Introduction to Deep Learning with Keras
+  relevant_topics:
+  - introducing keras
+  question_text: What is introducing keras?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24467'
+    title: Introduction to Deep Learning with Keras
+  relevant_topics:
+  - introducing keras
+  question_text: What does introducing keras mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24467'
+    title: Introduction to Deep Learning with Keras
+  relevant_topics:
+  - introducing keras
+  question_text: Why does introducing keras matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24467'
+    title: Introduction to Deep Learning with Keras
+  relevant_topics:
+  - introducing keras
+  question_text: Why does introducing keras?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24467'
+    title: Introduction to Deep Learning with Keras
+  relevant_topics:
+  - introducing keras
+  question_text: What is a simple example of introducing keras?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24467'
+    title: Introduction to Deep Learning with Keras
+  relevant_topics:
+  - going deeper
+  question_text: What is going deeper?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24467'
+    title: Introduction to Deep Learning with Keras
+  relevant_topics:
+  - going deeper
+  question_text: What does going deeper mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24467'
+    title: Introduction to Deep Learning with Keras
+  relevant_topics:
+  - going deeper
+  question_text: Why does going deeper matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24467'
+    title: Introduction to Deep Learning with Keras
+  relevant_topics:
+  - going deeper
+  question_text: Why does going deeper?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24467'
+    title: Introduction to Deep Learning with Keras
+  relevant_topics:
+  - going deeper
+  question_text: What is a simple example of going deeper?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24467'
+    title: Introduction to Deep Learning with Keras
+  relevant_topics:
+  - improving your model performance
+  question_text: What is improving your model performance?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24467'
+    title: Introduction to Deep Learning with Keras
+  relevant_topics:
+  - improving your model performance
+  question_text: What does improving your model performance mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24467'
+    title: Introduction to Deep Learning with Keras
+  relevant_topics:
+  - improving your model performance
+  question_text: Why does improving your model performance matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24467'
+    title: Introduction to Deep Learning with Keras
+  relevant_topics:
+  - improving your model performance
+  question_text: Why does improving your model performance?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24467'
+    title: Introduction to Deep Learning with Keras
+  relevant_topics:
+  - improving your model performance
+  question_text: What is a simple example of improving your model performance?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24467'
+    title: Introduction to Deep Learning with Keras
+  relevant_topics:
+  - advanced model architectures
+  question_text: What is advanced model architectures?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24467'
+    title: Introduction to Deep Learning with Keras
+  relevant_topics:
+  - advanced model architectures
+  question_text: What does advanced model architectures mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24467'
+    title: Introduction to Deep Learning with Keras
+  relevant_topics:
+  - advanced model architectures
+  question_text: Why does advanced model architectures matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24467'
+    title: Introduction to Deep Learning with Keras
+  relevant_topics:
+  - advanced model architectures
+  question_text: Why does advanced model architectures?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24467'
+    title: Introduction to Deep Learning with Keras
+  relevant_topics:
+  - advanced model architectures
+  question_text: What is a simple example of advanced model architectures?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24467'
+    title: Introduction to Deep Learning with Keras
+  relevant_topics:
+  - introducing keras
+  - going deeper
+  question_text: How is introducing keras different from going deeper?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24467'
+    title: Introduction to Deep Learning with Keras
+  relevant_topics:
+  - introducing keras
+  - improving your model performance
+  question_text: How is introducing keras different from improving your model performance?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24467'
+    title: Introduction to Deep Learning with Keras
+  relevant_topics:
+  - introducing keras
+  - advanced model architectures
+  question_text: How is introducing keras different from advanced model architectures?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24467'
+    title: Introduction to Deep Learning with Keras
+  relevant_topics:
+  - going deeper
+  - improving your model performance
+  question_text: How is going deeper different from improving your model performance?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24467'
+    title: Introduction to Deep Learning with Keras
+  relevant_topics:
+  - going deeper
+  - advanced model architectures
+  question_text: How is going deeper different from advanced model architectures?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24467'
+    title: Introduction to Deep Learning with Keras
+  relevant_topics:
+  - improving your model performance
+  - advanced model architectures
+  question_text: How is improving your model performance different from advanced model
+    architectures?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 4
+  canonical_topic_count: 4
+  candidate_count: 26
+  accepted_count: 26
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 26

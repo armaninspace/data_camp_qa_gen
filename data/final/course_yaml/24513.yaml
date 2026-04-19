@@ -1,0 +1,243 @@
+course_id: '24513'
+title: Introduction to Text Analysis in R
+normalized_course:
+  course_id: '24513'
+  title: Introduction to Text Analysis in R
+  provider: DataCamp
+  summary: 'Learn to analyze text data using R''s tidy framework. Covers wrangling,
+
+    visualization, sentiment analysis, and topic modeling techniques for
+
+    extracting insights from various text sources like social media and product
+
+    reviews.'
+  overview: null
+  chapters: []
+  metadata:
+    level: Intermediate
+    duration_hours: 4 hours
+    subjects:
+    - R Programming
+    - Data Visualization
+    - Sentiment Analysis
+    - Data Wrangling
+    - Text Analysis
+    - ggplot2
+    - Topic Modeling
+    - Latent Dirichlet Allocation
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: text data
+  topic_type: concept
+  description: 'Topic mined from course text: text data'
+  evidence:
+  - source: overview
+    text: text data
+  confidence: 0.75
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: text data
+  aliases:
+  - text data
+  member_topic_ids:
+  - t001
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - text data
+  family: entry
+  pattern: What is {x}?
+  question_text: What is text data?
+- candidate_id: q0002
+  relevant_topics:
+  - text data
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does text data mean?
+- candidate_id: q0003
+  relevant_topics:
+  - text data
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does text data matter?
+- candidate_id: q0004
+  relevant_topics:
+  - text data
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use text data?
+- candidate_id: q0005
+  relevant_topics:
+  - text data
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of text data?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is text data?
+  final_text: What is text data?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does text data mean?
+  final_text: What does text data mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does text data matter?
+  final_text: Why does text data matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use text data?
+  final_text: Why does text data?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of text data?
+  final_text: What is a simple example of text data?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is text data?
+  answer_text: Text data is string-based or unstructured data that often needs cleaning
+    for consistency.
+  correctness: correct
+  confidence: 0.85
+  evidence:
+  - source: overview
+    text: text data
+- question_id: q0002
+  question_text: What does text data mean?
+  answer_text: Text data is string-based or unstructured data that often needs cleaning
+    for consistency.
+  correctness: correct
+  confidence: 0.85
+  evidence:
+  - source: overview
+    text: text data
+- question_id: q0003
+  question_text: Why does text data matter?
+  answer_text: Text data is string-based or unstructured data that often needs cleaning
+    for consistency.
+  correctness: correct
+  confidence: 0.85
+  evidence:
+  - source: overview
+    text: text data
+- question_id: q0004
+  question_text: Why does text data?
+  answer_text: Text data is string-based or unstructured data that often needs cleaning
+    for consistency.
+  correctness: correct
+  confidence: 0.85
+  evidence:
+  - source: overview
+    text: text data
+- question_id: q0005
+  question_text: What is a simple example of text data?
+  answer_text: Text data is string-based or unstructured data that often needs cleaning
+    for consistency.
+  correctness: correct
+  confidence: 0.85
+  evidence:
+  - source: overview
+    text: text data
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24513'
+    title: Introduction to Text Analysis in R
+  relevant_topics:
+  - text data
+  question_text: What is text data?
+  question_answer: Text data is string-based or unstructured data that often needs
+    cleaning for consistency.
+  correctness: correct
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: text data
+- row_id: r_000002
+  course:
+    course_id: '24513'
+    title: Introduction to Text Analysis in R
+  relevant_topics:
+  - text data
+  question_text: What does text data mean?
+  question_answer: Text data is string-based or unstructured data that often needs
+    cleaning for consistency.
+  correctness: correct
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: text data
+- row_id: r_000003
+  course:
+    course_id: '24513'
+    title: Introduction to Text Analysis in R
+  relevant_topics:
+  - text data
+  question_text: Why does text data matter?
+  question_answer: Text data is string-based or unstructured data that often needs
+    cleaning for consistency.
+  correctness: correct
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: text data
+- row_id: r_000004
+  course:
+    course_id: '24513'
+    title: Introduction to Text Analysis in R
+  relevant_topics:
+  - text data
+  question_text: Why does text data?
+  question_answer: Text data is string-based or unstructured data that often needs
+    cleaning for consistency.
+  correctness: correct
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: text data
+- row_id: r_000005
+  course:
+    course_id: '24513'
+    title: Introduction to Text Analysis in R
+  relevant_topics:
+  - text data
+  question_text: What is a simple example of text data?
+  question_answer: Text data is string-based or unstructured data that often needs
+    cleaning for consistency.
+  correctness: correct
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: text data
+summary:
+  topic_count: 1
+  canonical_topic_count: 1
+  candidate_count: 5
+  accepted_count: 5
+  rejected_count: 0
+  correct_count: 5
+  uncertain_count: 0

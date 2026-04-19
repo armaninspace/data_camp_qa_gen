@@ -1,0 +1,2858 @@
+course_id: '24661'
+title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+normalized_course:
+  course_id: '24661'
+  title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  provider: DataCamp
+  summary: 'Learn how to apply advanced dimensionality techniques such as t-SNE and
+
+    GLRM.'
+  overview: 'Introduction to Advanced Dimensionality Reduction
+
+
+    -Are you ready to become a master of dimensionality reduction?
+
+
+    In this chapter, you''ll start by understanding how to represent handwritten
+
+    digits using the MNIST dataset. You will learn what a distance metric is and
+
+    which ones are the most common, along with the problems that arise with the
+
+    curse of dimensionality.
+
+
+    Finally, you will compare the application of PCA and t-SNE .
+
+
+    Introduction to t-SNE
+
+
+    -Now, you will learn how to apply the t-Distributed Stochastic Neighbour
+
+    Embedding (t-SNE) algorithm. After finishing this chapter, you will
+
+    understand the different hyperparameters that have an impact on your results
+
+    and how to optimize them. Finally, you will do something really cool:
+
+    compute centroids prototypes of each digit to classify other digits.
+
+
+    Using t-SNE with Predictive Models
+
+
+    -In this chapter, you''ll apply t-SNE to train predictive models faster. This
+
+    is one of the many advantages of dimensionality reduction. You will learn
+
+    how to train a random forest with the original features and with the
+
+    embedded features and compare them. You will also apply t-SNE to understand
+
+    the patterns learned by a neural network. And all of this using a real
+
+    credit card fraud dataset!
+
+
+    Generalized Low Rank Models (GLRM)
+
+
+    -In the final chapter, you will practice another useful dimensionality
+
+    reduction algorithm: GLRM. Here you will make use of the Fashion MNIST data
+
+    to classify clothes, impute missing data and also train random forests using
+
+    the low dimensional embedding.'
+  chapters:
+  - chapter_index: 1
+    title: Introduction to Advanced Dimensionality Reduction
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 2
+    title: -Are you ready to become a master of dimensionality reduction?
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 3
+    title: In this chapter, you'll start by understanding how to represent handwritten
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 4
+    title: digits using the MNIST dataset. You will learn what a distance metric is
+      and
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 5
+    title: which ones are the most common, along with the problems that arise with
+      the
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 6
+    title: Introduction to t-SNE
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 7
+    title: -Now, you will learn how to apply the t-Distributed Stochastic Neighbour
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 8
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  metadata:
+    level: Advanced
+    duration_hours: 4 hours
+    subjects:
+    - R Programming
+    - Dimensionality Reduction
+    - Predictive Models
+    - t-SNE
+    - MNIST Dataset
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: introduction to advanced dimensionality reduction
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: introduction to advanced dimensionality
+    reduction'
+  evidence:
+  - source: overview_inferred
+    text: Introduction to Advanced Dimensionality Reduction
+  confidence: 0.45
+- topic_id: t002
+  label: -are you ready to become a master of dimensionality reduction?
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: -are you ready to become a master
+    of dimensionality reduction?'
+  evidence:
+  - source: overview_inferred
+    text: -Are you ready to become a master of dimensionality reduction?
+  confidence: 0.45
+- topic_id: t003
+  label: in this chapter, you'll start by understanding how to represent handwritten
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: in this chapter, you''ll start
+    by understanding how to represent handwritten'
+  evidence:
+  - source: overview_inferred
+    text: In this chapter, you'll start by understanding how to represent handwritten
+  confidence: 0.45
+- topic_id: t004
+  label: digits using the mnist dataset. you will learn what a distance metric is
+    and
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: digits using the mnist dataset.
+    you will learn what a distance metric is and'
+  evidence:
+  - source: overview_inferred
+    text: digits using the MNIST dataset. You will learn what a distance metric is
+      and
+  confidence: 0.45
+- topic_id: t005
+  label: which ones are the most common, along with the problems that arise with the
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: which ones are the most common,
+    along with the problems that arise with the'
+  evidence:
+  - source: overview_inferred
+    text: which ones are the most common, along with the problems that arise with
+      the
+  confidence: 0.45
+- topic_id: t006
+  label: introduction to t-sne
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: introduction to t-sne'
+  evidence:
+  - source: overview_inferred
+    text: Introduction to t-SNE
+  confidence: 0.45
+- topic_id: t007
+  label: -now, you will learn how to apply the t-distributed stochastic neighbour
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: -now, you will learn how to apply
+    the t-distributed stochastic neighbour'
+  evidence:
+  - source: overview_inferred
+    text: -Now, you will learn how to apply the t-Distributed Stochastic Neighbour
+  confidence: 0.45
+- topic_id: t008
+  label: embedding (t-sne) algorithm. after finishing this chapter, you will
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: embedding (t-sne) algorithm.
+    after finishing this chapter, you will'
+  evidence:
+  - source: overview_inferred
+    text: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  confidence: 0.45
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: introduction to advanced dimensionality reduction
+  aliases:
+  - introduction to advanced dimensionality reduction
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: -are you ready to become a master of dimensionality reduction?
+  aliases:
+  - -are you ready to become a master of dimensionality reduction?
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: in this chapter, you'll start by understanding how to represent handwritten
+  aliases:
+  - in this chapter, you'll start by understanding how to represent handwritten
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: digits using mnist dataset. you will learn what a distance metric is and
+  aliases:
+  - digits using the mnist dataset. you will learn what a distance metric is and
+  member_topic_ids:
+  - t004
+  topic_type: concept
+- canonical_topic_id: ct_005
+  label: which ones are most common, along with problems that arise with the
+  aliases:
+  - which ones are the most common, along with the problems that arise with the
+  member_topic_ids:
+  - t005
+  topic_type: concept
+- canonical_topic_id: ct_006
+  label: introduction to t-sne
+  aliases:
+  - introduction to t-sne
+  member_topic_ids:
+  - t006
+  topic_type: concept
+- canonical_topic_id: ct_007
+  label: -now, you will learn how to apply t-distributed stochastic neighbour
+  aliases:
+  - -now, you will learn how to apply the t-distributed stochastic neighbour
+  member_topic_ids:
+  - t007
+  topic_type: concept
+- canonical_topic_id: ct_008
+  label: embedding (t-sne) algorithm. after finishing this chapter, you will
+  aliases:
+  - embedding (t-sne) algorithm. after finishing this chapter, you will
+  member_topic_ids:
+  - t008
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - introduction to advanced dimensionality reduction
+  family: entry
+  pattern: What is {x}?
+  question_text: What is introduction to advanced dimensionality reduction?
+- candidate_id: q0002
+  relevant_topics:
+  - introduction to advanced dimensionality reduction
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does introduction to advanced dimensionality reduction mean?
+- candidate_id: q0003
+  relevant_topics:
+  - introduction to advanced dimensionality reduction
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does introduction to advanced dimensionality reduction matter?
+- candidate_id: q0004
+  relevant_topics:
+  - introduction to advanced dimensionality reduction
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use introduction to advanced dimensionality reduction?
+- candidate_id: q0005
+  relevant_topics:
+  - introduction to advanced dimensionality reduction
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of introduction to advanced dimensionality
+    reduction?
+- candidate_id: q0006
+  relevant_topics:
+  - -are you ready to become a master of dimensionality reduction?
+  family: entry
+  pattern: What is {x}?
+  question_text: What is -are you ready to become a master of dimensionality reduction??
+- candidate_id: q0007
+  relevant_topics:
+  - -are you ready to become a master of dimensionality reduction?
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does -are you ready to become a master of dimensionality reduction?
+    mean?
+- candidate_id: q0008
+  relevant_topics:
+  - -are you ready to become a master of dimensionality reduction?
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does -are you ready to become a master of dimensionality reduction?
+    matter?
+- candidate_id: q0009
+  relevant_topics:
+  - -are you ready to become a master of dimensionality reduction?
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use -are you ready to become a master of dimensionality
+    reduction??
+- candidate_id: q0010
+  relevant_topics:
+  - -are you ready to become a master of dimensionality reduction?
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of -are you ready to become a master of
+    dimensionality reduction??
+- candidate_id: q0011
+  relevant_topics:
+  - in this chapter, you'll start by understanding how to represent handwritten
+  family: entry
+  pattern: What is {x}?
+  question_text: What is in this chapter, you'll start by understanding how to represent
+    handwritten?
+- candidate_id: q0012
+  relevant_topics:
+  - in this chapter, you'll start by understanding how to represent handwritten
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does in this chapter, you'll start by understanding how to represent
+    handwritten mean?
+- candidate_id: q0013
+  relevant_topics:
+  - in this chapter, you'll start by understanding how to represent handwritten
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does in this chapter, you'll start by understanding how to represent
+    handwritten matter?
+- candidate_id: q0014
+  relevant_topics:
+  - in this chapter, you'll start by understanding how to represent handwritten
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use in this chapter, you'll start by understanding how
+    to represent handwritten?
+- candidate_id: q0015
+  relevant_topics:
+  - in this chapter, you'll start by understanding how to represent handwritten
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of in this chapter, you'll start by understanding
+    how to represent handwritten?
+- candidate_id: q0016
+  relevant_topics:
+  - digits using mnist dataset. you will learn what a distance metric is and
+  family: entry
+  pattern: What is {x}?
+  question_text: What is digits using mnist dataset. you will learn what a distance
+    metric is and?
+- candidate_id: q0017
+  relevant_topics:
+  - digits using mnist dataset. you will learn what a distance metric is and
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does digits using mnist dataset. you will learn what a distance
+    metric is and mean?
+- candidate_id: q0018
+  relevant_topics:
+  - digits using mnist dataset. you will learn what a distance metric is and
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does digits using mnist dataset. you will learn what a distance
+    metric is and matter?
+- candidate_id: q0019
+  relevant_topics:
+  - digits using mnist dataset. you will learn what a distance metric is and
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use digits using mnist dataset. you will learn what a distance
+    metric is and?
+- candidate_id: q0020
+  relevant_topics:
+  - digits using mnist dataset. you will learn what a distance metric is and
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of digits using mnist dataset. you will
+    learn what a distance metric is and?
+- candidate_id: q0021
+  relevant_topics:
+  - which ones are most common, along with problems that arise with the
+  family: entry
+  pattern: What is {x}?
+  question_text: What is which ones are most common, along with problems that arise
+    with the?
+- candidate_id: q0022
+  relevant_topics:
+  - which ones are most common, along with problems that arise with the
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does which ones are most common, along with problems that arise
+    with the mean?
+- candidate_id: q0023
+  relevant_topics:
+  - which ones are most common, along with problems that arise with the
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does which ones are most common, along with problems that arise
+    with the matter?
+- candidate_id: q0024
+  relevant_topics:
+  - which ones are most common, along with problems that arise with the
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use which ones are most common, along with problems that
+    arise with the?
+- candidate_id: q0025
+  relevant_topics:
+  - which ones are most common, along with problems that arise with the
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of which ones are most common, along with
+    problems that arise with the?
+- candidate_id: q0026
+  relevant_topics:
+  - introduction to t-sne
+  family: entry
+  pattern: What is {x}?
+  question_text: What is introduction to t-sne?
+- candidate_id: q0027
+  relevant_topics:
+  - introduction to t-sne
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does introduction to t-sne mean?
+- candidate_id: q0028
+  relevant_topics:
+  - introduction to t-sne
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does introduction to t-sne matter?
+- candidate_id: q0029
+  relevant_topics:
+  - introduction to t-sne
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use introduction to t-sne?
+- candidate_id: q0030
+  relevant_topics:
+  - introduction to t-sne
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of introduction to t-sne?
+- candidate_id: q0031
+  relevant_topics:
+  - -now, you will learn how to apply t-distributed stochastic neighbour
+  family: entry
+  pattern: What is {x}?
+  question_text: What is -now, you will learn how to apply t-distributed stochastic
+    neighbour?
+- candidate_id: q0032
+  relevant_topics:
+  - -now, you will learn how to apply t-distributed stochastic neighbour
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does -now, you will learn how to apply t-distributed stochastic
+    neighbour mean?
+- candidate_id: q0033
+  relevant_topics:
+  - -now, you will learn how to apply t-distributed stochastic neighbour
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does -now, you will learn how to apply t-distributed stochastic
+    neighbour matter?
+- candidate_id: q0034
+  relevant_topics:
+  - -now, you will learn how to apply t-distributed stochastic neighbour
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use -now, you will learn how to apply t-distributed stochastic
+    neighbour?
+- candidate_id: q0035
+  relevant_topics:
+  - -now, you will learn how to apply t-distributed stochastic neighbour
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of -now, you will learn how to apply t-distributed
+    stochastic neighbour?
+- candidate_id: q0036
+  relevant_topics:
+  - embedding (t-sne) algorithm. after finishing this chapter, you will
+  family: entry
+  pattern: What is {x}?
+  question_text: What is embedding (t-sne) algorithm. after finishing this chapter,
+    you will?
+- candidate_id: q0037
+  relevant_topics:
+  - embedding (t-sne) algorithm. after finishing this chapter, you will
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does embedding (t-sne) algorithm. after finishing this chapter,
+    you will mean?
+- candidate_id: q0038
+  relevant_topics:
+  - embedding (t-sne) algorithm. after finishing this chapter, you will
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does embedding (t-sne) algorithm. after finishing this chapter,
+    you will matter?
+- candidate_id: q0039
+  relevant_topics:
+  - embedding (t-sne) algorithm. after finishing this chapter, you will
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use embedding (t-sne) algorithm. after finishing this chapter,
+    you will?
+- candidate_id: q0040
+  relevant_topics:
+  - embedding (t-sne) algorithm. after finishing this chapter, you will
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of embedding (t-sne) algorithm. after finishing
+    this chapter, you will?
+- candidate_id: q0041
+  relevant_topics:
+  - introduction to advanced dimensionality reduction
+  - -are you ready to become a master of dimensionality reduction?
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to advanced dimensionality reduction different
+    from -are you ready to become a master of dimensionality reduction??
+- candidate_id: q0042
+  relevant_topics:
+  - introduction to advanced dimensionality reduction
+  - in this chapter, you'll start by understanding how to represent handwritten
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to advanced dimensionality reduction different
+    from in this chapter, you'll start by understanding how to represent handwritten?
+- candidate_id: q0043
+  relevant_topics:
+  - introduction to advanced dimensionality reduction
+  - digits using mnist dataset. you will learn what a distance metric is and
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to advanced dimensionality reduction different
+    from digits using mnist dataset. you will learn what a distance metric is and?
+- candidate_id: q0044
+  relevant_topics:
+  - introduction to advanced dimensionality reduction
+  - which ones are most common, along with problems that arise with the
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to advanced dimensionality reduction different
+    from which ones are most common, along with problems that arise with the?
+- candidate_id: q0045
+  relevant_topics:
+  - introduction to advanced dimensionality reduction
+  - introduction to t-sne
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to advanced dimensionality reduction different
+    from introduction to t-sne?
+- candidate_id: q0046
+  relevant_topics:
+  - introduction to advanced dimensionality reduction
+  - -now, you will learn how to apply t-distributed stochastic neighbour
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to advanced dimensionality reduction different
+    from -now, you will learn how to apply t-distributed stochastic neighbour?
+- candidate_id: q0047
+  relevant_topics:
+  - introduction to advanced dimensionality reduction
+  - embedding (t-sne) algorithm. after finishing this chapter, you will
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to advanced dimensionality reduction different
+    from embedding (t-sne) algorithm. after finishing this chapter, you will?
+- candidate_id: q0048
+  relevant_topics:
+  - -are you ready to become a master of dimensionality reduction?
+  - in this chapter, you'll start by understanding how to represent handwritten
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -are you ready to become a master of dimensionality reduction?
+    different from in this chapter, you'll start by understanding how to represent
+    handwritten?
+- candidate_id: q0049
+  relevant_topics:
+  - -are you ready to become a master of dimensionality reduction?
+  - digits using mnist dataset. you will learn what a distance metric is and
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -are you ready to become a master of dimensionality reduction?
+    different from digits using mnist dataset. you will learn what a distance metric
+    is and?
+- candidate_id: q0050
+  relevant_topics:
+  - -are you ready to become a master of dimensionality reduction?
+  - which ones are most common, along with problems that arise with the
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -are you ready to become a master of dimensionality reduction?
+    different from which ones are most common, along with problems that arise with
+    the?
+- candidate_id: q0051
+  relevant_topics:
+  - -are you ready to become a master of dimensionality reduction?
+  - introduction to t-sne
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -are you ready to become a master of dimensionality reduction?
+    different from introduction to t-sne?
+- candidate_id: q0052
+  relevant_topics:
+  - -are you ready to become a master of dimensionality reduction?
+  - -now, you will learn how to apply t-distributed stochastic neighbour
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -are you ready to become a master of dimensionality reduction?
+    different from -now, you will learn how to apply t-distributed stochastic neighbour?
+- candidate_id: q0053
+  relevant_topics:
+  - -are you ready to become a master of dimensionality reduction?
+  - embedding (t-sne) algorithm. after finishing this chapter, you will
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -are you ready to become a master of dimensionality reduction?
+    different from embedding (t-sne) algorithm. after finishing this chapter, you
+    will?
+- candidate_id: q0054
+  relevant_topics:
+  - in this chapter, you'll start by understanding how to represent handwritten
+  - digits using mnist dataset. you will learn what a distance metric is and
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is in this chapter, you'll start by understanding how to represent
+    handwritten different from digits using mnist dataset. you will learn what a distance
+    metric is and?
+- candidate_id: q0055
+  relevant_topics:
+  - in this chapter, you'll start by understanding how to represent handwritten
+  - which ones are most common, along with problems that arise with the
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is in this chapter, you'll start by understanding how to represent
+    handwritten different from which ones are most common, along with problems that
+    arise with the?
+- candidate_id: q0056
+  relevant_topics:
+  - in this chapter, you'll start by understanding how to represent handwritten
+  - introduction to t-sne
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is in this chapter, you'll start by understanding how to represent
+    handwritten different from introduction to t-sne?
+- candidate_id: q0057
+  relevant_topics:
+  - in this chapter, you'll start by understanding how to represent handwritten
+  - -now, you will learn how to apply t-distributed stochastic neighbour
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is in this chapter, you'll start by understanding how to represent
+    handwritten different from -now, you will learn how to apply t-distributed stochastic
+    neighbour?
+- candidate_id: q0058
+  relevant_topics:
+  - in this chapter, you'll start by understanding how to represent handwritten
+  - embedding (t-sne) algorithm. after finishing this chapter, you will
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is in this chapter, you'll start by understanding how to represent
+    handwritten different from embedding (t-sne) algorithm. after finishing this chapter,
+    you will?
+- candidate_id: q0059
+  relevant_topics:
+  - digits using mnist dataset. you will learn what a distance metric is and
+  - which ones are most common, along with problems that arise with the
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is digits using mnist dataset. you will learn what a distance
+    metric is and different from which ones are most common, along with problems that
+    arise with the?
+- candidate_id: q0060
+  relevant_topics:
+  - digits using mnist dataset. you will learn what a distance metric is and
+  - introduction to t-sne
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is digits using mnist dataset. you will learn what a distance
+    metric is and different from introduction to t-sne?
+- candidate_id: q0061
+  relevant_topics:
+  - digits using mnist dataset. you will learn what a distance metric is and
+  - -now, you will learn how to apply t-distributed stochastic neighbour
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is digits using mnist dataset. you will learn what a distance
+    metric is and different from -now, you will learn how to apply t-distributed stochastic
+    neighbour?
+- candidate_id: q0062
+  relevant_topics:
+  - digits using mnist dataset. you will learn what a distance metric is and
+  - embedding (t-sne) algorithm. after finishing this chapter, you will
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is digits using mnist dataset. you will learn what a distance
+    metric is and different from embedding (t-sne) algorithm. after finishing this
+    chapter, you will?
+- candidate_id: q0063
+  relevant_topics:
+  - which ones are most common, along with problems that arise with the
+  - introduction to t-sne
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is which ones are most common, along with problems that arise
+    with the different from introduction to t-sne?
+- candidate_id: q0064
+  relevant_topics:
+  - which ones are most common, along with problems that arise with the
+  - -now, you will learn how to apply t-distributed stochastic neighbour
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is which ones are most common, along with problems that arise
+    with the different from -now, you will learn how to apply t-distributed stochastic
+    neighbour?
+- candidate_id: q0065
+  relevant_topics:
+  - which ones are most common, along with problems that arise with the
+  - embedding (t-sne) algorithm. after finishing this chapter, you will
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is which ones are most common, along with problems that arise
+    with the different from embedding (t-sne) algorithm. after finishing this chapter,
+    you will?
+- candidate_id: q0066
+  relevant_topics:
+  - introduction to t-sne
+  - -now, you will learn how to apply t-distributed stochastic neighbour
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to t-sne different from -now, you will learn
+    how to apply t-distributed stochastic neighbour?
+- candidate_id: q0067
+  relevant_topics:
+  - introduction to t-sne
+  - embedding (t-sne) algorithm. after finishing this chapter, you will
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to t-sne different from embedding (t-sne) algorithm.
+    after finishing this chapter, you will?
+- candidate_id: q0068
+  relevant_topics:
+  - -now, you will learn how to apply t-distributed stochastic neighbour
+  - embedding (t-sne) algorithm. after finishing this chapter, you will
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -now, you will learn how to apply t-distributed stochastic
+    neighbour different from embedding (t-sne) algorithm. after finishing this chapter,
+    you will?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is introduction to advanced dimensionality reduction?
+  final_text: What is introduction to advanced dimensionality reduction?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does introduction to advanced dimensionality reduction mean?
+  final_text: What does introduction to advanced dimensionality reduction mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does introduction to advanced dimensionality reduction matter?
+  final_text: Why does introduction to advanced dimensionality reduction matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use introduction to advanced dimensionality reduction?
+  final_text: Why does introduction to advanced dimensionality reduction?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of introduction to advanced dimensionality
+    reduction?
+  final_text: What is a simple example of introduction to advanced dimensionality
+    reduction?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is -are you ready to become a master of dimensionality reduction??
+  final_text: What is -are you ready to become a master of dimensionality reduction??
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does -are you ready to become a master of dimensionality reduction?
+    mean?
+  final_text: What does -are you ready to become a master of dimensionality reduction?
+    mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does -are you ready to become a master of dimensionality reduction?
+    matter?
+  final_text: Why does -are you ready to become a master of dimensionality reduction?
+    matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use -are you ready to become a master of dimensionality
+    reduction??
+  final_text: Why does -are you ready to become a master of dimensionality reduction??
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of -are you ready to become a master of
+    dimensionality reduction??
+  final_text: What is a simple example of -are you ready to become a master of dimensionality
+    reduction??
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is in this chapter, you'll start by understanding how to represent
+    handwritten?
+  final_text: What is in this chapter, you'll start by understanding how to represent
+    handwritten?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does in this chapter, you'll start by understanding how to represent
+    handwritten mean?
+  final_text: What does in this chapter, you'll start by understanding how to represent
+    handwritten mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does in this chapter, you'll start by understanding how to represent
+    handwritten matter?
+  final_text: Why does in this chapter, you'll start by understanding how to represent
+    handwritten matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use in this chapter, you'll start by understanding how
+    to represent handwritten?
+  final_text: Why does in this chapter, you'll start by understanding how to represent
+    handwritten?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of in this chapter, you'll start by understanding
+    how to represent handwritten?
+  final_text: What is a simple example of in this chapter, you'll start by understanding
+    how to represent handwritten?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is digits using mnist dataset. you will learn what a distance
+    metric is and?
+  final_text: What is digits using mnist dataset. you will learn what a distance metric
+    is and?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does digits using mnist dataset. you will learn what a distance
+    metric is and mean?
+  final_text: What does digits using mnist dataset. you will learn what a distance
+    metric is and mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does digits using mnist dataset. you will learn what a distance
+    metric is and matter?
+  final_text: Why does digits using mnist dataset. you will learn what a distance
+    metric is and matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use digits using mnist dataset. you will learn what a distance
+    metric is and?
+  final_text: Why does digits using mnist dataset. you will learn what a distance
+    metric is and?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of digits using mnist dataset. you will
+    learn what a distance metric is and?
+  final_text: What is a simple example of digits using mnist dataset. you will learn
+    what a distance metric is and?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: What is which ones are most common, along with problems that arise
+    with the?
+  final_text: What is which ones are most common, along with problems that arise with
+    the?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: What does which ones are most common, along with problems that arise
+    with the mean?
+  final_text: What does which ones are most common, along with problems that arise
+    with the mean?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: Why does which ones are most common, along with problems that arise
+    with the matter?
+  final_text: Why does which ones are most common, along with problems that arise
+    with the matter?
+  reject_reason: null
+- candidate_id: q0024
+  status: repaired
+  original_text: Why do we use which ones are most common, along with problems that
+    arise with the?
+  final_text: Why does which ones are most common, along with problems that arise
+    with the?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: What is a simple example of which ones are most common, along with
+    problems that arise with the?
+  final_text: What is a simple example of which ones are most common, along with problems
+    that arise with the?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: What is introduction to t-sne?
+  final_text: What is introduction to t-sne?
+  reject_reason: null
+- candidate_id: q0027
+  status: accepted
+  original_text: What does introduction to t-sne mean?
+  final_text: What does introduction to t-sne mean?
+  reject_reason: null
+- candidate_id: q0028
+  status: accepted
+  original_text: Why does introduction to t-sne matter?
+  final_text: Why does introduction to t-sne matter?
+  reject_reason: null
+- candidate_id: q0029
+  status: repaired
+  original_text: Why do we use introduction to t-sne?
+  final_text: Why does introduction to t-sne?
+  reject_reason: null
+- candidate_id: q0030
+  status: accepted
+  original_text: What is a simple example of introduction to t-sne?
+  final_text: What is a simple example of introduction to t-sne?
+  reject_reason: null
+- candidate_id: q0031
+  status: accepted
+  original_text: What is -now, you will learn how to apply t-distributed stochastic
+    neighbour?
+  final_text: What is -now, you will learn how to apply t-distributed stochastic neighbour?
+  reject_reason: null
+- candidate_id: q0032
+  status: accepted
+  original_text: What does -now, you will learn how to apply t-distributed stochastic
+    neighbour mean?
+  final_text: What does -now, you will learn how to apply t-distributed stochastic
+    neighbour mean?
+  reject_reason: null
+- candidate_id: q0033
+  status: accepted
+  original_text: Why does -now, you will learn how to apply t-distributed stochastic
+    neighbour matter?
+  final_text: Why does -now, you will learn how to apply t-distributed stochastic
+    neighbour matter?
+  reject_reason: null
+- candidate_id: q0034
+  status: repaired
+  original_text: Why do we use -now, you will learn how to apply t-distributed stochastic
+    neighbour?
+  final_text: Why does -now, you will learn how to apply t-distributed stochastic
+    neighbour?
+  reject_reason: null
+- candidate_id: q0035
+  status: accepted
+  original_text: What is a simple example of -now, you will learn how to apply t-distributed
+    stochastic neighbour?
+  final_text: What is a simple example of -now, you will learn how to apply t-distributed
+    stochastic neighbour?
+  reject_reason: null
+- candidate_id: q0036
+  status: accepted
+  original_text: What is embedding (t-sne) algorithm. after finishing this chapter,
+    you will?
+  final_text: What is embedding (t-sne) algorithm. after finishing this chapter, you
+    will?
+  reject_reason: null
+- candidate_id: q0037
+  status: accepted
+  original_text: What does embedding (t-sne) algorithm. after finishing this chapter,
+    you will mean?
+  final_text: What does embedding (t-sne) algorithm. after finishing this chapter,
+    you will mean?
+  reject_reason: null
+- candidate_id: q0038
+  status: accepted
+  original_text: Why does embedding (t-sne) algorithm. after finishing this chapter,
+    you will matter?
+  final_text: Why does embedding (t-sne) algorithm. after finishing this chapter,
+    you will matter?
+  reject_reason: null
+- candidate_id: q0039
+  status: repaired
+  original_text: Why do we use embedding (t-sne) algorithm. after finishing this chapter,
+    you will?
+  final_text: Why does embedding (t-sne) algorithm. after finishing this chapter,
+    you will?
+  reject_reason: null
+- candidate_id: q0040
+  status: accepted
+  original_text: What is a simple example of embedding (t-sne) algorithm. after finishing
+    this chapter, you will?
+  final_text: What is a simple example of embedding (t-sne) algorithm. after finishing
+    this chapter, you will?
+  reject_reason: null
+- candidate_id: q0041
+  status: accepted
+  original_text: How is introduction to advanced dimensionality reduction different
+    from -are you ready to become a master of dimensionality reduction??
+  final_text: How is introduction to advanced dimensionality reduction different from
+    -are you ready to become a master of dimensionality reduction??
+  reject_reason: null
+- candidate_id: q0042
+  status: accepted
+  original_text: How is introduction to advanced dimensionality reduction different
+    from in this chapter, you'll start by understanding how to represent handwritten?
+  final_text: How is introduction to advanced dimensionality reduction different from
+    in this chapter, you'll start by understanding how to represent handwritten?
+  reject_reason: null
+- candidate_id: q0043
+  status: accepted
+  original_text: How is introduction to advanced dimensionality reduction different
+    from digits using mnist dataset. you will learn what a distance metric is and?
+  final_text: How is introduction to advanced dimensionality reduction different from
+    digits using mnist dataset. you will learn what a distance metric is and?
+  reject_reason: null
+- candidate_id: q0044
+  status: accepted
+  original_text: How is introduction to advanced dimensionality reduction different
+    from which ones are most common, along with problems that arise with the?
+  final_text: How is introduction to advanced dimensionality reduction different from
+    which ones are most common, along with problems that arise with the?
+  reject_reason: null
+- candidate_id: q0045
+  status: accepted
+  original_text: How is introduction to advanced dimensionality reduction different
+    from introduction to t-sne?
+  final_text: How is introduction to advanced dimensionality reduction different from
+    introduction to t-sne?
+  reject_reason: null
+- candidate_id: q0046
+  status: accepted
+  original_text: How is introduction to advanced dimensionality reduction different
+    from -now, you will learn how to apply t-distributed stochastic neighbour?
+  final_text: How is introduction to advanced dimensionality reduction different from
+    -now, you will learn how to apply t-distributed stochastic neighbour?
+  reject_reason: null
+- candidate_id: q0047
+  status: accepted
+  original_text: How is introduction to advanced dimensionality reduction different
+    from embedding (t-sne) algorithm. after finishing this chapter, you will?
+  final_text: How is introduction to advanced dimensionality reduction different from
+    embedding (t-sne) algorithm. after finishing this chapter, you will?
+  reject_reason: null
+- candidate_id: q0048
+  status: accepted
+  original_text: How is -are you ready to become a master of dimensionality reduction?
+    different from in this chapter, you'll start by understanding how to represent
+    handwritten?
+  final_text: How is -are you ready to become a master of dimensionality reduction?
+    different from in this chapter, you'll start by understanding how to represent
+    handwritten?
+  reject_reason: null
+- candidate_id: q0049
+  status: accepted
+  original_text: How is -are you ready to become a master of dimensionality reduction?
+    different from digits using mnist dataset. you will learn what a distance metric
+    is and?
+  final_text: How is -are you ready to become a master of dimensionality reduction?
+    different from digits using mnist dataset. you will learn what a distance metric
+    is and?
+  reject_reason: null
+- candidate_id: q0050
+  status: accepted
+  original_text: How is -are you ready to become a master of dimensionality reduction?
+    different from which ones are most common, along with problems that arise with
+    the?
+  final_text: How is -are you ready to become a master of dimensionality reduction?
+    different from which ones are most common, along with problems that arise with
+    the?
+  reject_reason: null
+- candidate_id: q0051
+  status: accepted
+  original_text: How is -are you ready to become a master of dimensionality reduction?
+    different from introduction to t-sne?
+  final_text: How is -are you ready to become a master of dimensionality reduction?
+    different from introduction to t-sne?
+  reject_reason: null
+- candidate_id: q0052
+  status: accepted
+  original_text: How is -are you ready to become a master of dimensionality reduction?
+    different from -now, you will learn how to apply t-distributed stochastic neighbour?
+  final_text: How is -are you ready to become a master of dimensionality reduction?
+    different from -now, you will learn how to apply t-distributed stochastic neighbour?
+  reject_reason: null
+- candidate_id: q0053
+  status: accepted
+  original_text: How is -are you ready to become a master of dimensionality reduction?
+    different from embedding (t-sne) algorithm. after finishing this chapter, you
+    will?
+  final_text: How is -are you ready to become a master of dimensionality reduction?
+    different from embedding (t-sne) algorithm. after finishing this chapter, you
+    will?
+  reject_reason: null
+- candidate_id: q0054
+  status: accepted
+  original_text: How is in this chapter, you'll start by understanding how to represent
+    handwritten different from digits using mnist dataset. you will learn what a distance
+    metric is and?
+  final_text: How is in this chapter, you'll start by understanding how to represent
+    handwritten different from digits using mnist dataset. you will learn what a distance
+    metric is and?
+  reject_reason: null
+- candidate_id: q0055
+  status: accepted
+  original_text: How is in this chapter, you'll start by understanding how to represent
+    handwritten different from which ones are most common, along with problems that
+    arise with the?
+  final_text: How is in this chapter, you'll start by understanding how to represent
+    handwritten different from which ones are most common, along with problems that
+    arise with the?
+  reject_reason: null
+- candidate_id: q0056
+  status: accepted
+  original_text: How is in this chapter, you'll start by understanding how to represent
+    handwritten different from introduction to t-sne?
+  final_text: How is in this chapter, you'll start by understanding how to represent
+    handwritten different from introduction to t-sne?
+  reject_reason: null
+- candidate_id: q0057
+  status: accepted
+  original_text: How is in this chapter, you'll start by understanding how to represent
+    handwritten different from -now, you will learn how to apply t-distributed stochastic
+    neighbour?
+  final_text: How is in this chapter, you'll start by understanding how to represent
+    handwritten different from -now, you will learn how to apply t-distributed stochastic
+    neighbour?
+  reject_reason: null
+- candidate_id: q0058
+  status: accepted
+  original_text: How is in this chapter, you'll start by understanding how to represent
+    handwritten different from embedding (t-sne) algorithm. after finishing this chapter,
+    you will?
+  final_text: How is in this chapter, you'll start by understanding how to represent
+    handwritten different from embedding (t-sne) algorithm. after finishing this chapter,
+    you will?
+  reject_reason: null
+- candidate_id: q0059
+  status: accepted
+  original_text: How is digits using mnist dataset. you will learn what a distance
+    metric is and different from which ones are most common, along with problems that
+    arise with the?
+  final_text: How is digits using mnist dataset. you will learn what a distance metric
+    is and different from which ones are most common, along with problems that arise
+    with the?
+  reject_reason: null
+- candidate_id: q0060
+  status: accepted
+  original_text: How is digits using mnist dataset. you will learn what a distance
+    metric is and different from introduction to t-sne?
+  final_text: How is digits using mnist dataset. you will learn what a distance metric
+    is and different from introduction to t-sne?
+  reject_reason: null
+- candidate_id: q0061
+  status: accepted
+  original_text: How is digits using mnist dataset. you will learn what a distance
+    metric is and different from -now, you will learn how to apply t-distributed stochastic
+    neighbour?
+  final_text: How is digits using mnist dataset. you will learn what a distance metric
+    is and different from -now, you will learn how to apply t-distributed stochastic
+    neighbour?
+  reject_reason: null
+- candidate_id: q0062
+  status: accepted
+  original_text: How is digits using mnist dataset. you will learn what a distance
+    metric is and different from embedding (t-sne) algorithm. after finishing this
+    chapter, you will?
+  final_text: How is digits using mnist dataset. you will learn what a distance metric
+    is and different from embedding (t-sne) algorithm. after finishing this chapter,
+    you will?
+  reject_reason: null
+- candidate_id: q0063
+  status: accepted
+  original_text: How is which ones are most common, along with problems that arise
+    with the different from introduction to t-sne?
+  final_text: How is which ones are most common, along with problems that arise with
+    the different from introduction to t-sne?
+  reject_reason: null
+- candidate_id: q0064
+  status: accepted
+  original_text: How is which ones are most common, along with problems that arise
+    with the different from -now, you will learn how to apply t-distributed stochastic
+    neighbour?
+  final_text: How is which ones are most common, along with problems that arise with
+    the different from -now, you will learn how to apply t-distributed stochastic
+    neighbour?
+  reject_reason: null
+- candidate_id: q0065
+  status: accepted
+  original_text: How is which ones are most common, along with problems that arise
+    with the different from embedding (t-sne) algorithm. after finishing this chapter,
+    you will?
+  final_text: How is which ones are most common, along with problems that arise with
+    the different from embedding (t-sne) algorithm. after finishing this chapter,
+    you will?
+  reject_reason: null
+- candidate_id: q0066
+  status: accepted
+  original_text: How is introduction to t-sne different from -now, you will learn
+    how to apply t-distributed stochastic neighbour?
+  final_text: How is introduction to t-sne different from -now, you will learn how
+    to apply t-distributed stochastic neighbour?
+  reject_reason: null
+- candidate_id: q0067
+  status: accepted
+  original_text: How is introduction to t-sne different from embedding (t-sne) algorithm.
+    after finishing this chapter, you will?
+  final_text: How is introduction to t-sne different from embedding (t-sne) algorithm.
+    after finishing this chapter, you will?
+  reject_reason: null
+- candidate_id: q0068
+  status: accepted
+  original_text: How is -now, you will learn how to apply t-distributed stochastic
+    neighbour different from embedding (t-sne) algorithm. after finishing this chapter,
+    you will?
+  final_text: How is -now, you will learn how to apply t-distributed stochastic neighbour
+    different from embedding (t-sne) algorithm. after finishing this chapter, you
+    will?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is introduction to advanced dimensionality reduction?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does introduction to advanced dimensionality reduction mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does introduction to advanced dimensionality reduction matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does introduction to advanced dimensionality reduction?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of introduction to advanced dimensionality
+    reduction?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is -are you ready to become a master of dimensionality reduction??
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does -are you ready to become a master of dimensionality reduction?
+    mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does -are you ready to become a master of dimensionality reduction?
+    matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does -are you ready to become a master of dimensionality reduction??
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of -are you ready to become a master of
+    dimensionality reduction??
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is in this chapter, you'll start by understanding how to represent
+    handwritten?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does in this chapter, you'll start by understanding how to represent
+    handwritten mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does in this chapter, you'll start by understanding how to represent
+    handwritten matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does in this chapter, you'll start by understanding how to represent
+    handwritten?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of in this chapter, you'll start by understanding
+    how to represent handwritten?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is digits using mnist dataset. you will learn what a distance
+    metric is and?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does digits using mnist dataset. you will learn what a distance
+    metric is and mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does digits using mnist dataset. you will learn what a distance
+    metric is and matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does digits using mnist dataset. you will learn what a distance
+    metric is and?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of digits using mnist dataset. you will
+    learn what a distance metric is and?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: What is which ones are most common, along with problems that arise
+    with the?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: What does which ones are most common, along with problems that arise
+    with the mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: Why does which ones are most common, along with problems that arise
+    with the matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: Why does which ones are most common, along with problems that arise
+    with the?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: What is a simple example of which ones are most common, along with
+    problems that arise with the?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: What is introduction to t-sne?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0027
+  question_text: What does introduction to t-sne mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0028
+  question_text: Why does introduction to t-sne matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0029
+  question_text: Why does introduction to t-sne?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0030
+  question_text: What is a simple example of introduction to t-sne?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0031
+  question_text: What is -now, you will learn how to apply t-distributed stochastic
+    neighbour?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0032
+  question_text: What does -now, you will learn how to apply t-distributed stochastic
+    neighbour mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0033
+  question_text: Why does -now, you will learn how to apply t-distributed stochastic
+    neighbour matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0034
+  question_text: Why does -now, you will learn how to apply t-distributed stochastic
+    neighbour?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0035
+  question_text: What is a simple example of -now, you will learn how to apply t-distributed
+    stochastic neighbour?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0036
+  question_text: What is embedding (t-sne) algorithm. after finishing this chapter,
+    you will?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0037
+  question_text: What does embedding (t-sne) algorithm. after finishing this chapter,
+    you will mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0038
+  question_text: Why does embedding (t-sne) algorithm. after finishing this chapter,
+    you will matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0039
+  question_text: Why does embedding (t-sne) algorithm. after finishing this chapter,
+    you will?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0040
+  question_text: What is a simple example of embedding (t-sne) algorithm. after finishing
+    this chapter, you will?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0041
+  question_text: How is introduction to advanced dimensionality reduction different
+    from -are you ready to become a master of dimensionality reduction??
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0042
+  question_text: How is introduction to advanced dimensionality reduction different
+    from in this chapter, you'll start by understanding how to represent handwritten?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0043
+  question_text: How is introduction to advanced dimensionality reduction different
+    from digits using mnist dataset. you will learn what a distance metric is and?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0044
+  question_text: How is introduction to advanced dimensionality reduction different
+    from which ones are most common, along with problems that arise with the?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0045
+  question_text: How is introduction to advanced dimensionality reduction different
+    from introduction to t-sne?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0046
+  question_text: How is introduction to advanced dimensionality reduction different
+    from -now, you will learn how to apply t-distributed stochastic neighbour?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0047
+  question_text: How is introduction to advanced dimensionality reduction different
+    from embedding (t-sne) algorithm. after finishing this chapter, you will?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0048
+  question_text: How is -are you ready to become a master of dimensionality reduction?
+    different from in this chapter, you'll start by understanding how to represent
+    handwritten?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0049
+  question_text: How is -are you ready to become a master of dimensionality reduction?
+    different from digits using mnist dataset. you will learn what a distance metric
+    is and?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0050
+  question_text: How is -are you ready to become a master of dimensionality reduction?
+    different from which ones are most common, along with problems that arise with
+    the?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0051
+  question_text: How is -are you ready to become a master of dimensionality reduction?
+    different from introduction to t-sne?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0052
+  question_text: How is -are you ready to become a master of dimensionality reduction?
+    different from -now, you will learn how to apply t-distributed stochastic neighbour?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0053
+  question_text: How is -are you ready to become a master of dimensionality reduction?
+    different from embedding (t-sne) algorithm. after finishing this chapter, you
+    will?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0054
+  question_text: How is in this chapter, you'll start by understanding how to represent
+    handwritten different from digits using mnist dataset. you will learn what a distance
+    metric is and?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0055
+  question_text: How is in this chapter, you'll start by understanding how to represent
+    handwritten different from which ones are most common, along with problems that
+    arise with the?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0056
+  question_text: How is in this chapter, you'll start by understanding how to represent
+    handwritten different from introduction to t-sne?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0057
+  question_text: How is in this chapter, you'll start by understanding how to represent
+    handwritten different from -now, you will learn how to apply t-distributed stochastic
+    neighbour?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0058
+  question_text: How is in this chapter, you'll start by understanding how to represent
+    handwritten different from embedding (t-sne) algorithm. after finishing this chapter,
+    you will?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0059
+  question_text: How is digits using mnist dataset. you will learn what a distance
+    metric is and different from which ones are most common, along with problems that
+    arise with the?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0060
+  question_text: How is digits using mnist dataset. you will learn what a distance
+    metric is and different from introduction to t-sne?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0061
+  question_text: How is digits using mnist dataset. you will learn what a distance
+    metric is and different from -now, you will learn how to apply t-distributed stochastic
+    neighbour?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0062
+  question_text: How is digits using mnist dataset. you will learn what a distance
+    metric is and different from embedding (t-sne) algorithm. after finishing this
+    chapter, you will?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0063
+  question_text: How is which ones are most common, along with problems that arise
+    with the different from introduction to t-sne?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0064
+  question_text: How is which ones are most common, along with problems that arise
+    with the different from -now, you will learn how to apply t-distributed stochastic
+    neighbour?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0065
+  question_text: How is which ones are most common, along with problems that arise
+    with the different from embedding (t-sne) algorithm. after finishing this chapter,
+    you will?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0066
+  question_text: How is introduction to t-sne different from -now, you will learn
+    how to apply t-distributed stochastic neighbour?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0067
+  question_text: How is introduction to t-sne different from embedding (t-sne) algorithm.
+    after finishing this chapter, you will?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0068
+  question_text: How is -now, you will learn how to apply t-distributed stochastic
+    neighbour different from embedding (t-sne) algorithm. after finishing this chapter,
+    you will?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - introduction to advanced dimensionality reduction
+  question_text: What is introduction to advanced dimensionality reduction?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - introduction to advanced dimensionality reduction
+  question_text: What does introduction to advanced dimensionality reduction mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - introduction to advanced dimensionality reduction
+  question_text: Why does introduction to advanced dimensionality reduction matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - introduction to advanced dimensionality reduction
+  question_text: Why does introduction to advanced dimensionality reduction?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - introduction to advanced dimensionality reduction
+  question_text: What is a simple example of introduction to advanced dimensionality
+    reduction?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - -are you ready to become a master of dimensionality reduction?
+  question_text: What is -are you ready to become a master of dimensionality reduction??
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - -are you ready to become a master of dimensionality reduction?
+  question_text: What does -are you ready to become a master of dimensionality reduction?
+    mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - -are you ready to become a master of dimensionality reduction?
+  question_text: Why does -are you ready to become a master of dimensionality reduction?
+    matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - -are you ready to become a master of dimensionality reduction?
+  question_text: Why does -are you ready to become a master of dimensionality reduction??
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - -are you ready to become a master of dimensionality reduction?
+  question_text: What is a simple example of -are you ready to become a master of
+    dimensionality reduction??
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - in this chapter, you'll start by understanding how to represent handwritten
+  question_text: What is in this chapter, you'll start by understanding how to represent
+    handwritten?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - in this chapter, you'll start by understanding how to represent handwritten
+  question_text: What does in this chapter, you'll start by understanding how to represent
+    handwritten mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - in this chapter, you'll start by understanding how to represent handwritten
+  question_text: Why does in this chapter, you'll start by understanding how to represent
+    handwritten matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - in this chapter, you'll start by understanding how to represent handwritten
+  question_text: Why does in this chapter, you'll start by understanding how to represent
+    handwritten?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - in this chapter, you'll start by understanding how to represent handwritten
+  question_text: What is a simple example of in this chapter, you'll start by understanding
+    how to represent handwritten?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - digits using mnist dataset. you will learn what a distance metric is and
+  question_text: What is digits using mnist dataset. you will learn what a distance
+    metric is and?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - digits using mnist dataset. you will learn what a distance metric is and
+  question_text: What does digits using mnist dataset. you will learn what a distance
+    metric is and mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - digits using mnist dataset. you will learn what a distance metric is and
+  question_text: Why does digits using mnist dataset. you will learn what a distance
+    metric is and matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - digits using mnist dataset. you will learn what a distance metric is and
+  question_text: Why does digits using mnist dataset. you will learn what a distance
+    metric is and?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - digits using mnist dataset. you will learn what a distance metric is and
+  question_text: What is a simple example of digits using mnist dataset. you will
+    learn what a distance metric is and?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - which ones are most common, along with problems that arise with the
+  question_text: What is which ones are most common, along with problems that arise
+    with the?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - which ones are most common, along with problems that arise with the
+  question_text: What does which ones are most common, along with problems that arise
+    with the mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - which ones are most common, along with problems that arise with the
+  question_text: Why does which ones are most common, along with problems that arise
+    with the matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - which ones are most common, along with problems that arise with the
+  question_text: Why does which ones are most common, along with problems that arise
+    with the?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - which ones are most common, along with problems that arise with the
+  question_text: What is a simple example of which ones are most common, along with
+    problems that arise with the?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - introduction to t-sne
+  question_text: What is introduction to t-sne?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000027
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - introduction to t-sne
+  question_text: What does introduction to t-sne mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000028
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - introduction to t-sne
+  question_text: Why does introduction to t-sne matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000029
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - introduction to t-sne
+  question_text: Why does introduction to t-sne?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000030
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - introduction to t-sne
+  question_text: What is a simple example of introduction to t-sne?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000031
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - -now, you will learn how to apply t-distributed stochastic neighbour
+  question_text: What is -now, you will learn how to apply t-distributed stochastic
+    neighbour?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000032
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - -now, you will learn how to apply t-distributed stochastic neighbour
+  question_text: What does -now, you will learn how to apply t-distributed stochastic
+    neighbour mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000033
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - -now, you will learn how to apply t-distributed stochastic neighbour
+  question_text: Why does -now, you will learn how to apply t-distributed stochastic
+    neighbour matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000034
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - -now, you will learn how to apply t-distributed stochastic neighbour
+  question_text: Why does -now, you will learn how to apply t-distributed stochastic
+    neighbour?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000035
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - -now, you will learn how to apply t-distributed stochastic neighbour
+  question_text: What is a simple example of -now, you will learn how to apply t-distributed
+    stochastic neighbour?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000036
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - embedding (t-sne) algorithm. after finishing this chapter, you will
+  question_text: What is embedding (t-sne) algorithm. after finishing this chapter,
+    you will?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000037
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - embedding (t-sne) algorithm. after finishing this chapter, you will
+  question_text: What does embedding (t-sne) algorithm. after finishing this chapter,
+    you will mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000038
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - embedding (t-sne) algorithm. after finishing this chapter, you will
+  question_text: Why does embedding (t-sne) algorithm. after finishing this chapter,
+    you will matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000039
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - embedding (t-sne) algorithm. after finishing this chapter, you will
+  question_text: Why does embedding (t-sne) algorithm. after finishing this chapter,
+    you will?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000040
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - embedding (t-sne) algorithm. after finishing this chapter, you will
+  question_text: What is a simple example of embedding (t-sne) algorithm. after finishing
+    this chapter, you will?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000041
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - introduction to advanced dimensionality reduction
+  - -are you ready to become a master of dimensionality reduction?
+  question_text: How is introduction to advanced dimensionality reduction different
+    from -are you ready to become a master of dimensionality reduction??
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000042
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - introduction to advanced dimensionality reduction
+  - in this chapter, you'll start by understanding how to represent handwritten
+  question_text: How is introduction to advanced dimensionality reduction different
+    from in this chapter, you'll start by understanding how to represent handwritten?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000043
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - introduction to advanced dimensionality reduction
+  - digits using mnist dataset. you will learn what a distance metric is and
+  question_text: How is introduction to advanced dimensionality reduction different
+    from digits using mnist dataset. you will learn what a distance metric is and?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000044
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - introduction to advanced dimensionality reduction
+  - which ones are most common, along with problems that arise with the
+  question_text: How is introduction to advanced dimensionality reduction different
+    from which ones are most common, along with problems that arise with the?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000045
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - introduction to advanced dimensionality reduction
+  - introduction to t-sne
+  question_text: How is introduction to advanced dimensionality reduction different
+    from introduction to t-sne?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000046
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - introduction to advanced dimensionality reduction
+  - -now, you will learn how to apply t-distributed stochastic neighbour
+  question_text: How is introduction to advanced dimensionality reduction different
+    from -now, you will learn how to apply t-distributed stochastic neighbour?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000047
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - introduction to advanced dimensionality reduction
+  - embedding (t-sne) algorithm. after finishing this chapter, you will
+  question_text: How is introduction to advanced dimensionality reduction different
+    from embedding (t-sne) algorithm. after finishing this chapter, you will?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000048
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - -are you ready to become a master of dimensionality reduction?
+  - in this chapter, you'll start by understanding how to represent handwritten
+  question_text: How is -are you ready to become a master of dimensionality reduction?
+    different from in this chapter, you'll start by understanding how to represent
+    handwritten?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000049
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - -are you ready to become a master of dimensionality reduction?
+  - digits using mnist dataset. you will learn what a distance metric is and
+  question_text: How is -are you ready to become a master of dimensionality reduction?
+    different from digits using mnist dataset. you will learn what a distance metric
+    is and?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000050
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - -are you ready to become a master of dimensionality reduction?
+  - which ones are most common, along with problems that arise with the
+  question_text: How is -are you ready to become a master of dimensionality reduction?
+    different from which ones are most common, along with problems that arise with
+    the?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000051
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - -are you ready to become a master of dimensionality reduction?
+  - introduction to t-sne
+  question_text: How is -are you ready to become a master of dimensionality reduction?
+    different from introduction to t-sne?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000052
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - -are you ready to become a master of dimensionality reduction?
+  - -now, you will learn how to apply t-distributed stochastic neighbour
+  question_text: How is -are you ready to become a master of dimensionality reduction?
+    different from -now, you will learn how to apply t-distributed stochastic neighbour?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000053
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - -are you ready to become a master of dimensionality reduction?
+  - embedding (t-sne) algorithm. after finishing this chapter, you will
+  question_text: How is -are you ready to become a master of dimensionality reduction?
+    different from embedding (t-sne) algorithm. after finishing this chapter, you
+    will?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000054
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - in this chapter, you'll start by understanding how to represent handwritten
+  - digits using mnist dataset. you will learn what a distance metric is and
+  question_text: How is in this chapter, you'll start by understanding how to represent
+    handwritten different from digits using mnist dataset. you will learn what a distance
+    metric is and?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000055
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - in this chapter, you'll start by understanding how to represent handwritten
+  - which ones are most common, along with problems that arise with the
+  question_text: How is in this chapter, you'll start by understanding how to represent
+    handwritten different from which ones are most common, along with problems that
+    arise with the?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000056
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - in this chapter, you'll start by understanding how to represent handwritten
+  - introduction to t-sne
+  question_text: How is in this chapter, you'll start by understanding how to represent
+    handwritten different from introduction to t-sne?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000057
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - in this chapter, you'll start by understanding how to represent handwritten
+  - -now, you will learn how to apply t-distributed stochastic neighbour
+  question_text: How is in this chapter, you'll start by understanding how to represent
+    handwritten different from -now, you will learn how to apply t-distributed stochastic
+    neighbour?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000058
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - in this chapter, you'll start by understanding how to represent handwritten
+  - embedding (t-sne) algorithm. after finishing this chapter, you will
+  question_text: How is in this chapter, you'll start by understanding how to represent
+    handwritten different from embedding (t-sne) algorithm. after finishing this chapter,
+    you will?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000059
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - digits using mnist dataset. you will learn what a distance metric is and
+  - which ones are most common, along with problems that arise with the
+  question_text: How is digits using mnist dataset. you will learn what a distance
+    metric is and different from which ones are most common, along with problems that
+    arise with the?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000060
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - digits using mnist dataset. you will learn what a distance metric is and
+  - introduction to t-sne
+  question_text: How is digits using mnist dataset. you will learn what a distance
+    metric is and different from introduction to t-sne?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000061
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - digits using mnist dataset. you will learn what a distance metric is and
+  - -now, you will learn how to apply t-distributed stochastic neighbour
+  question_text: How is digits using mnist dataset. you will learn what a distance
+    metric is and different from -now, you will learn how to apply t-distributed stochastic
+    neighbour?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000062
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - digits using mnist dataset. you will learn what a distance metric is and
+  - embedding (t-sne) algorithm. after finishing this chapter, you will
+  question_text: How is digits using mnist dataset. you will learn what a distance
+    metric is and different from embedding (t-sne) algorithm. after finishing this
+    chapter, you will?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000063
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - which ones are most common, along with problems that arise with the
+  - introduction to t-sne
+  question_text: How is which ones are most common, along with problems that arise
+    with the different from introduction to t-sne?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000064
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - which ones are most common, along with problems that arise with the
+  - -now, you will learn how to apply t-distributed stochastic neighbour
+  question_text: How is which ones are most common, along with problems that arise
+    with the different from -now, you will learn how to apply t-distributed stochastic
+    neighbour?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000065
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - which ones are most common, along with problems that arise with the
+  - embedding (t-sne) algorithm. after finishing this chapter, you will
+  question_text: How is which ones are most common, along with problems that arise
+    with the different from embedding (t-sne) algorithm. after finishing this chapter,
+    you will?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000066
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - introduction to t-sne
+  - -now, you will learn how to apply t-distributed stochastic neighbour
+  question_text: How is introduction to t-sne different from -now, you will learn
+    how to apply t-distributed stochastic neighbour?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000067
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - introduction to t-sne
+  - embedding (t-sne) algorithm. after finishing this chapter, you will
+  question_text: How is introduction to t-sne different from embedding (t-sne) algorithm.
+    after finishing this chapter, you will?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000068
+  course:
+    course_id: '24661'
+    title: Embedding (t-SNE) algorithm. After finishing this chapter, you will
+  relevant_topics:
+  - -now, you will learn how to apply t-distributed stochastic neighbour
+  - embedding (t-sne) algorithm. after finishing this chapter, you will
+  question_text: How is -now, you will learn how to apply t-distributed stochastic
+    neighbour different from embedding (t-sne) algorithm. after finishing this chapter,
+    you will?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 8
+  canonical_topic_count: 8
+  candidate_count: 68
+  accepted_count: 68
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 68

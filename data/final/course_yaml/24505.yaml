@@ -1,0 +1,1402 @@
+course_id: '24505'
+title: Modeling with Data in the Tidyverse
+normalized_course:
+  course_id: '24505'
+  title: Modeling with Data in the Tidyverse
+  provider: DataCamp
+  summary: 'Discover different types in data modeling, including for prediction, and
+
+    learn how to conduct linear regression and model assessment measures in the
+
+    Tidyverse.'
+  overview: 'Introduction to Modeling
+
+
+    This chapter will introduce you to some background theory and terminology
+
+    for modeling, in particular, the general modeling framework, the difference
+
+    between modeling for explanation and modeling for prediction, and the
+
+    modeling problem. Furthermore, you''ll start performing your first
+
+    exploratory data analysis, a crucial first step before any formal modeling.
+
+
+    Modeling with Basic Regression
+
+
+    Equipped with your understanding of the general modeling framework, in this
+
+    chapter, we''ll cover basic linear regression where you''ll keep things simple
+
+    and model the outcome variable y as a function of a single explanatory/
+
+    predictor variable x. We''ll use both numerical and categorical x variables.
+
+    The outcome variable of interest in this chapter will be teaching evaluation
+
+    scores of instructors at the University of Texas, Austin.
+
+
+    Modeling with Multiple Regression
+
+
+    In the previous chapter, you learned about basic regression using either a
+
+    single numerical or a categorical predictor. But why limit ourselves to
+
+    using only one variable to inform your explanations/predictions? You will
+
+    now extend basic regression to multiple regression, which allows for
+
+    incorporation of more than one explanatory or one predictor variable in your
+
+    models. You''ll be modeling house prices using a dataset of houses in the
+
+    Seattle, WA metropolitan area.
+
+
+    Model Assessment and Selection
+
+
+    In the previous chapters, you fit various models to explain or predict an
+
+    outcome variable of interest. However, how do we know which models to
+
+    choose? Model assessment measures allow you to assess how well an
+
+    explanatory model "fits" a set of data or how accurate a predictive model
+
+    is. Based on these measures, you''ll learn about criteria for determining
+
+    which models are "best".'
+  chapters:
+  - chapter_index: 1
+    title: Introduction to Modeling
+    summary: 'This chapter will introduce you to some background theory and
+
+      terminology for modeling, in particular, the general modeling
+
+      framework, the difference between modeling for explanation and
+
+      modeling for prediction, and the modeling problem. Furthermore,
+
+      you''ll start performing your first exploratory data analysis, a
+
+      crucial first step before any formal modeling.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 2
+    title: Modeling with Basic Regression
+    summary: 'Equipped with your understanding of the general modeling framework,
+
+      in this chapter, we''ll cover basic linear regression where you''ll
+
+      keep things simple and model the outcome variable y as a function of
+
+      a single explanatory/ predictor variable x. We''ll use both numerical
+
+      and categorical x variables. The outcome variable of interest in
+
+      this chapter will be teaching evaluation scores of instructors at
+
+      the University of Texas, Austin.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 3
+    title: Modeling with Multiple Regression
+    summary: 'In the previous chapter, you learned about basic regression using
+
+      either a single numerical or a categorical predictor. But why limit
+
+      ourselves to using only one variable to inform your
+
+      explanations/predictions? You will now extend basic regression to
+
+      multiple regression, which allows for incorporation of more than one
+
+      explanatory or one predictor variable in your models. You''ll be
+
+      modeling house prices using a dataset of houses in the Seattle, WA
+
+      metropolitan area.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 4
+    title: Model Assessment and Selection
+    summary: 'In the previous chapters, you fit various models to explain or
+
+      predict an outcome variable of interest. However, how do we know
+
+      which models to choose? Model assessment measures allow you to
+
+      assess how well an explanatory model "fits" a set of data or how
+
+      accurate a predictive model is. Based on these measures, you''ll
+
+      learn about criteria for determining which models are "best".'
+    source: syllabus
+    confidence: 1.0
+  metadata:
+    level: Intermediate
+    duration_hours: 4 hours
+    subjects:
+    - Tidyverse
+    - Artificial Intelligence
+    - Machine Learning
+    - Linear Regression
+    - Data Modeling
+    - Exploratory Data Analysis
+    - Multiple Regression
+    - Causal Inference
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: introduction to modeling
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: introduction to modeling'
+  evidence:
+  - source: syllabus
+    text: Introduction to Modeling
+  confidence: 0.45
+- topic_id: t002
+  label: modeling with basic regression
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: modeling with basic regression'
+  evidence:
+  - source: syllabus
+    text: Modeling with Basic Regression
+  confidence: 0.45
+- topic_id: t003
+  label: modeling with multiple regression
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: modeling with multiple regression'
+  evidence:
+  - source: syllabus
+    text: Modeling with Multiple Regression
+  confidence: 0.45
+- topic_id: t004
+  label: model assessment
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: model assessment'
+  evidence:
+  - source: syllabus
+    text: Model Assessment and Selection
+  confidence: 0.55
+- topic_id: t005
+  label: selection
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: selection'
+  evidence:
+  - source: syllabus
+    text: Model Assessment and Selection
+  confidence: 0.55
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: introduction to modeling
+  aliases:
+  - introduction to modeling
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: modeling with basic regression
+  aliases:
+  - modeling with basic regression
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: modeling with multiple regression
+  aliases:
+  - modeling with multiple regression
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: model assessment
+  aliases:
+  - model assessment
+  member_topic_ids:
+  - t004
+  topic_type: concept
+- canonical_topic_id: ct_005
+  label: selection
+  aliases:
+  - selection
+  member_topic_ids:
+  - t005
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - introduction to modeling
+  family: entry
+  pattern: What is {x}?
+  question_text: What is introduction to modeling?
+- candidate_id: q0002
+  relevant_topics:
+  - introduction to modeling
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does introduction to modeling mean?
+- candidate_id: q0003
+  relevant_topics:
+  - introduction to modeling
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does introduction to modeling matter?
+- candidate_id: q0004
+  relevant_topics:
+  - introduction to modeling
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use introduction to modeling?
+- candidate_id: q0005
+  relevant_topics:
+  - introduction to modeling
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of introduction to modeling?
+- candidate_id: q0006
+  relevant_topics:
+  - modeling with basic regression
+  family: entry
+  pattern: What is {x}?
+  question_text: What is modeling with basic regression?
+- candidate_id: q0007
+  relevant_topics:
+  - modeling with basic regression
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does modeling with basic regression mean?
+- candidate_id: q0008
+  relevant_topics:
+  - modeling with basic regression
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does modeling with basic regression matter?
+- candidate_id: q0009
+  relevant_topics:
+  - modeling with basic regression
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use modeling with basic regression?
+- candidate_id: q0010
+  relevant_topics:
+  - modeling with basic regression
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of modeling with basic regression?
+- candidate_id: q0011
+  relevant_topics:
+  - modeling with multiple regression
+  family: entry
+  pattern: What is {x}?
+  question_text: What is modeling with multiple regression?
+- candidate_id: q0012
+  relevant_topics:
+  - modeling with multiple regression
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does modeling with multiple regression mean?
+- candidate_id: q0013
+  relevant_topics:
+  - modeling with multiple regression
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does modeling with multiple regression matter?
+- candidate_id: q0014
+  relevant_topics:
+  - modeling with multiple regression
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use modeling with multiple regression?
+- candidate_id: q0015
+  relevant_topics:
+  - modeling with multiple regression
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of modeling with multiple regression?
+- candidate_id: q0016
+  relevant_topics:
+  - model assessment
+  family: entry
+  pattern: What is {x}?
+  question_text: What is model assessment?
+- candidate_id: q0017
+  relevant_topics:
+  - model assessment
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does model assessment mean?
+- candidate_id: q0018
+  relevant_topics:
+  - model assessment
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does model assessment matter?
+- candidate_id: q0019
+  relevant_topics:
+  - model assessment
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use model assessment?
+- candidate_id: q0020
+  relevant_topics:
+  - model assessment
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of model assessment?
+- candidate_id: q0021
+  relevant_topics:
+  - selection
+  family: entry
+  pattern: What is {x}?
+  question_text: What is selection?
+- candidate_id: q0022
+  relevant_topics:
+  - selection
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does selection mean?
+- candidate_id: q0023
+  relevant_topics:
+  - selection
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does selection matter?
+- candidate_id: q0024
+  relevant_topics:
+  - selection
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use selection?
+- candidate_id: q0025
+  relevant_topics:
+  - selection
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of selection?
+- candidate_id: q0026
+  relevant_topics:
+  - introduction to modeling
+  - modeling with basic regression
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to modeling different from modeling with basic
+    regression?
+- candidate_id: q0027
+  relevant_topics:
+  - introduction to modeling
+  - modeling with multiple regression
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to modeling different from modeling with multiple
+    regression?
+- candidate_id: q0028
+  relevant_topics:
+  - introduction to modeling
+  - model assessment
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to modeling different from model assessment?
+- candidate_id: q0029
+  relevant_topics:
+  - introduction to modeling
+  - selection
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to modeling different from selection?
+- candidate_id: q0030
+  relevant_topics:
+  - modeling with basic regression
+  - modeling with multiple regression
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is modeling with basic regression different from modeling with
+    multiple regression?
+- candidate_id: q0031
+  relevant_topics:
+  - modeling with basic regression
+  - model assessment
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is modeling with basic regression different from model assessment?
+- candidate_id: q0032
+  relevant_topics:
+  - modeling with basic regression
+  - selection
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is modeling with basic regression different from selection?
+- candidate_id: q0033
+  relevant_topics:
+  - modeling with multiple regression
+  - model assessment
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is modeling with multiple regression different from model assessment?
+- candidate_id: q0034
+  relevant_topics:
+  - modeling with multiple regression
+  - selection
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is modeling with multiple regression different from selection?
+- candidate_id: q0035
+  relevant_topics:
+  - model assessment
+  - selection
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is model assessment different from selection?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is introduction to modeling?
+  final_text: What is introduction to modeling?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does introduction to modeling mean?
+  final_text: What does introduction to modeling mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does introduction to modeling matter?
+  final_text: Why does introduction to modeling matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use introduction to modeling?
+  final_text: Why does introduction to modeling?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of introduction to modeling?
+  final_text: What is a simple example of introduction to modeling?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is modeling with basic regression?
+  final_text: What is modeling with basic regression?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does modeling with basic regression mean?
+  final_text: What does modeling with basic regression mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does modeling with basic regression matter?
+  final_text: Why does modeling with basic regression matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use modeling with basic regression?
+  final_text: Why does modeling with basic regression?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of modeling with basic regression?
+  final_text: What is a simple example of modeling with basic regression?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is modeling with multiple regression?
+  final_text: What is modeling with multiple regression?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does modeling with multiple regression mean?
+  final_text: What does modeling with multiple regression mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does modeling with multiple regression matter?
+  final_text: Why does modeling with multiple regression matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use modeling with multiple regression?
+  final_text: Why does modeling with multiple regression?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of modeling with multiple regression?
+  final_text: What is a simple example of modeling with multiple regression?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is model assessment?
+  final_text: What is model assessment?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does model assessment mean?
+  final_text: What does model assessment mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does model assessment matter?
+  final_text: Why does model assessment matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use model assessment?
+  final_text: Why does model assessment?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of model assessment?
+  final_text: What is a simple example of model assessment?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: What is selection?
+  final_text: What is selection?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: What does selection mean?
+  final_text: What does selection mean?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: Why does selection matter?
+  final_text: Why does selection matter?
+  reject_reason: null
+- candidate_id: q0024
+  status: repaired
+  original_text: Why do we use selection?
+  final_text: Why does selection?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: What is a simple example of selection?
+  final_text: What is a simple example of selection?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: How is introduction to modeling different from modeling with basic
+    regression?
+  final_text: How is introduction to modeling different from modeling with basic regression?
+  reject_reason: null
+- candidate_id: q0027
+  status: accepted
+  original_text: How is introduction to modeling different from modeling with multiple
+    regression?
+  final_text: How is introduction to modeling different from modeling with multiple
+    regression?
+  reject_reason: null
+- candidate_id: q0028
+  status: accepted
+  original_text: How is introduction to modeling different from model assessment?
+  final_text: How is introduction to modeling different from model assessment?
+  reject_reason: null
+- candidate_id: q0029
+  status: accepted
+  original_text: How is introduction to modeling different from selection?
+  final_text: How is introduction to modeling different from selection?
+  reject_reason: null
+- candidate_id: q0030
+  status: accepted
+  original_text: How is modeling with basic regression different from modeling with
+    multiple regression?
+  final_text: How is modeling with basic regression different from modeling with multiple
+    regression?
+  reject_reason: null
+- candidate_id: q0031
+  status: accepted
+  original_text: How is modeling with basic regression different from model assessment?
+  final_text: How is modeling with basic regression different from model assessment?
+  reject_reason: null
+- candidate_id: q0032
+  status: accepted
+  original_text: How is modeling with basic regression different from selection?
+  final_text: How is modeling with basic regression different from selection?
+  reject_reason: null
+- candidate_id: q0033
+  status: accepted
+  original_text: How is modeling with multiple regression different from model assessment?
+  final_text: How is modeling with multiple regression different from model assessment?
+  reject_reason: null
+- candidate_id: q0034
+  status: accepted
+  original_text: How is modeling with multiple regression different from selection?
+  final_text: How is modeling with multiple regression different from selection?
+  reject_reason: null
+- candidate_id: q0035
+  status: accepted
+  original_text: How is model assessment different from selection?
+  final_text: How is model assessment different from selection?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is introduction to modeling?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does introduction to modeling mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does introduction to modeling matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does introduction to modeling?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of introduction to modeling?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is modeling with basic regression?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does modeling with basic regression mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does modeling with basic regression matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does modeling with basic regression?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of modeling with basic regression?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is modeling with multiple regression?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does modeling with multiple regression mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does modeling with multiple regression matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does modeling with multiple regression?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of modeling with multiple regression?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is model assessment?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does model assessment mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does model assessment matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does model assessment?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of model assessment?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: What is selection?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: What does selection mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: Why does selection matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: Why does selection?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: What is a simple example of selection?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: How is introduction to modeling different from modeling with basic
+    regression?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0027
+  question_text: How is introduction to modeling different from modeling with multiple
+    regression?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0028
+  question_text: How is introduction to modeling different from model assessment?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0029
+  question_text: How is introduction to modeling different from selection?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0030
+  question_text: How is modeling with basic regression different from modeling with
+    multiple regression?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0031
+  question_text: How is modeling with basic regression different from model assessment?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0032
+  question_text: How is modeling with basic regression different from selection?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0033
+  question_text: How is modeling with multiple regression different from model assessment?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0034
+  question_text: How is modeling with multiple regression different from selection?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0035
+  question_text: How is model assessment different from selection?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24505'
+    title: Modeling with Data in the Tidyverse
+  relevant_topics:
+  - introduction to modeling
+  question_text: What is introduction to modeling?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24505'
+    title: Modeling with Data in the Tidyverse
+  relevant_topics:
+  - introduction to modeling
+  question_text: What does introduction to modeling mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24505'
+    title: Modeling with Data in the Tidyverse
+  relevant_topics:
+  - introduction to modeling
+  question_text: Why does introduction to modeling matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24505'
+    title: Modeling with Data in the Tidyverse
+  relevant_topics:
+  - introduction to modeling
+  question_text: Why does introduction to modeling?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24505'
+    title: Modeling with Data in the Tidyverse
+  relevant_topics:
+  - introduction to modeling
+  question_text: What is a simple example of introduction to modeling?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24505'
+    title: Modeling with Data in the Tidyverse
+  relevant_topics:
+  - modeling with basic regression
+  question_text: What is modeling with basic regression?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24505'
+    title: Modeling with Data in the Tidyverse
+  relevant_topics:
+  - modeling with basic regression
+  question_text: What does modeling with basic regression mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24505'
+    title: Modeling with Data in the Tidyverse
+  relevant_topics:
+  - modeling with basic regression
+  question_text: Why does modeling with basic regression matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24505'
+    title: Modeling with Data in the Tidyverse
+  relevant_topics:
+  - modeling with basic regression
+  question_text: Why does modeling with basic regression?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24505'
+    title: Modeling with Data in the Tidyverse
+  relevant_topics:
+  - modeling with basic regression
+  question_text: What is a simple example of modeling with basic regression?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24505'
+    title: Modeling with Data in the Tidyverse
+  relevant_topics:
+  - modeling with multiple regression
+  question_text: What is modeling with multiple regression?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24505'
+    title: Modeling with Data in the Tidyverse
+  relevant_topics:
+  - modeling with multiple regression
+  question_text: What does modeling with multiple regression mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24505'
+    title: Modeling with Data in the Tidyverse
+  relevant_topics:
+  - modeling with multiple regression
+  question_text: Why does modeling with multiple regression matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24505'
+    title: Modeling with Data in the Tidyverse
+  relevant_topics:
+  - modeling with multiple regression
+  question_text: Why does modeling with multiple regression?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24505'
+    title: Modeling with Data in the Tidyverse
+  relevant_topics:
+  - modeling with multiple regression
+  question_text: What is a simple example of modeling with multiple regression?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24505'
+    title: Modeling with Data in the Tidyverse
+  relevant_topics:
+  - model assessment
+  question_text: What is model assessment?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24505'
+    title: Modeling with Data in the Tidyverse
+  relevant_topics:
+  - model assessment
+  question_text: What does model assessment mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24505'
+    title: Modeling with Data in the Tidyverse
+  relevant_topics:
+  - model assessment
+  question_text: Why does model assessment matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24505'
+    title: Modeling with Data in the Tidyverse
+  relevant_topics:
+  - model assessment
+  question_text: Why does model assessment?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24505'
+    title: Modeling with Data in the Tidyverse
+  relevant_topics:
+  - model assessment
+  question_text: What is a simple example of model assessment?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24505'
+    title: Modeling with Data in the Tidyverse
+  relevant_topics:
+  - selection
+  question_text: What is selection?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24505'
+    title: Modeling with Data in the Tidyverse
+  relevant_topics:
+  - selection
+  question_text: What does selection mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24505'
+    title: Modeling with Data in the Tidyverse
+  relevant_topics:
+  - selection
+  question_text: Why does selection matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24505'
+    title: Modeling with Data in the Tidyverse
+  relevant_topics:
+  - selection
+  question_text: Why does selection?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24505'
+    title: Modeling with Data in the Tidyverse
+  relevant_topics:
+  - selection
+  question_text: What is a simple example of selection?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24505'
+    title: Modeling with Data in the Tidyverse
+  relevant_topics:
+  - introduction to modeling
+  - modeling with basic regression
+  question_text: How is introduction to modeling different from modeling with basic
+    regression?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000027
+  course:
+    course_id: '24505'
+    title: Modeling with Data in the Tidyverse
+  relevant_topics:
+  - introduction to modeling
+  - modeling with multiple regression
+  question_text: How is introduction to modeling different from modeling with multiple
+    regression?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000028
+  course:
+    course_id: '24505'
+    title: Modeling with Data in the Tidyverse
+  relevant_topics:
+  - introduction to modeling
+  - model assessment
+  question_text: How is introduction to modeling different from model assessment?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000029
+  course:
+    course_id: '24505'
+    title: Modeling with Data in the Tidyverse
+  relevant_topics:
+  - introduction to modeling
+  - selection
+  question_text: How is introduction to modeling different from selection?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000030
+  course:
+    course_id: '24505'
+    title: Modeling with Data in the Tidyverse
+  relevant_topics:
+  - modeling with basic regression
+  - modeling with multiple regression
+  question_text: How is modeling with basic regression different from modeling with
+    multiple regression?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000031
+  course:
+    course_id: '24505'
+    title: Modeling with Data in the Tidyverse
+  relevant_topics:
+  - modeling with basic regression
+  - model assessment
+  question_text: How is modeling with basic regression different from model assessment?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000032
+  course:
+    course_id: '24505'
+    title: Modeling with Data in the Tidyverse
+  relevant_topics:
+  - modeling with basic regression
+  - selection
+  question_text: How is modeling with basic regression different from selection?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000033
+  course:
+    course_id: '24505'
+    title: Modeling with Data in the Tidyverse
+  relevant_topics:
+  - modeling with multiple regression
+  - model assessment
+  question_text: How is modeling with multiple regression different from model assessment?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000034
+  course:
+    course_id: '24505'
+    title: Modeling with Data in the Tidyverse
+  relevant_topics:
+  - modeling with multiple regression
+  - selection
+  question_text: How is modeling with multiple regression different from selection?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000035
+  course:
+    course_id: '24505'
+    title: Modeling with Data in the Tidyverse
+  relevant_topics:
+  - model assessment
+  - selection
+  question_text: How is model assessment different from selection?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 5
+  canonical_topic_count: 5
+  candidate_count: 35
+  accepted_count: 35
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 35

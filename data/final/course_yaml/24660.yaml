@@ -1,0 +1,1098 @@
+course_id: '24660'
+title: Conditional Formatting in Google Sheets
+normalized_course:
+  course_id: '24660'
+  title: Conditional Formatting in Google Sheets
+  provider: DataCamp
+  summary: 'Learn how to use conditional formatting with your data through built-in
+
+    options and by creating custom formulas.'
+  overview: 'Learn how to use conditional formatting with your data through built-in
+
+    options and by creating custom formulas.
+
+
+    Spreadsheets often suffer from having too much data. If you want to tell the
+
+    underlying story that is in the data without creating additional reports,
+
+    conditional formatting can help! Whether it''s showing the age of your
+
+    inventory by highlighting the items using a color scale, or accentuating the
+
+    largest variances in year over year financial data, conditional formatting
+
+    has built-in options that can be used without any complex code. It can be
+
+    used instead of sorting or filtering since it works with the data that is
+
+    already there! By the end, you will be creating your own report using
+
+    conditional formatting to analyze a company''s payroll.
+
+
+    Understanding Conditional Formatting
+
+
+    Delve deeper into the world of conditional formatting, a feature in
+
+    spreadsheets that allows you to apply specific formatting to cells based on
+
+    certain criteria. This section of the course covers the basics of
+
+    conditional formatting, including how to set it up, common uses, and
+
+    troubleshooting tips. You''ll learn how to use different types of conditional
+
+    formatting, like color scales and data bars, to make your data visually
+
+    appealing and easier to analyze. This understanding will empower you to
+
+    transform complex datasets into meaningful information with just a few
+
+    clicks.
+
+
+    Advanced Techniques and Applications
+
+
+    In this advanced section, we explore the more intricate aspects of
+
+    conditional formatting. Here, you will learn how to apply conditional
+
+    formatting to entire rows or columns, use formulas for more complex
+
+    criteria, and create custom formats for unique scenarios. This part of the
+
+    course also includes real-world examples, such as tracking project
+
+    timelines, budget analysis, and performance metrics. By mastering these
+
+    techniques, you''ll be able to bring a new level of sophistication to your
+
+    data analysis and reporting skills.
+
+
+    Hands-On Project: Analyzing Company Payroll
+
+
+    The course culminates in a hands-on project where you will apply your newly
+
+    acquired skills to analyze a company''s payroll using conditional formatting.
+
+    This project involves creating a comprehensive report that highlights key
+
+    payroll metrics, identifies discrepancies, and provides insights into
+
+    employee compensation. Through this practical application, you''ll not only
+
+    reinforce your learning but also gain valuable experience in using
+
+    conditional formatting for real business scenarios. This project will serve
+
+    as a significant addition to your portfolio, showcasing your ability to turn
+
+    data into actionable insights.'
+  chapters:
+  - chapter_index: 1
+    title: A Primer on Conditional Formatting
+    summary: 'Learn what conditional formatting is and how it can be used to
+
+      emphasize the important data in a spreadsheet. We will discuss a
+
+      variety of the built-in options you can use to apply conditional
+
+      formatting rules to your data.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 2
+    title: Custom Application of Conditional Formatting
+    summary: 'In this chapter, you will learn how to apply conditional formatting
+
+      in more flexible ways. We''ll discuss a variety of functions you can
+
+      use to create conditional formatting rules with custom formulas.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 3
+    title: Conditional Formatting Hacks
+    summary: 'Learn tricks to use conditional formatting in unique ways! In this
+
+      chapter, you will learn more functions, build your own searches, and
+
+      make interactive task lists with checkboxes.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 4
+    title: Putting It All Together
+    summary: 'In this chapter, you will use everything you have learned about
+
+      conditional formatting to analyze a company''s payroll. You will be
+
+      working with dates, looking for duplicates, and checking for errors
+
+      to create your report.'
+    source: syllabus
+    confidence: 1.0
+  metadata:
+    level: Beginner
+    duration_hours: 2 hours
+    subjects:
+    - Business Software
+    - Data Analysis
+    - Google Sheets
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: a primer on conditional formatting
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: a primer on conditional formatting'
+  evidence:
+  - source: syllabus
+    text: A Primer on Conditional Formatting
+  confidence: 0.45
+- topic_id: t002
+  label: custom application of conditional formatting
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: custom application of conditional
+    formatting'
+  evidence:
+  - source: syllabus
+    text: Custom Application of Conditional Formatting
+  confidence: 0.45
+- topic_id: t003
+  label: conditional formatting hacks
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: conditional formatting hacks'
+  evidence:
+  - source: syllabus
+    text: Conditional Formatting Hacks
+  confidence: 0.45
+- topic_id: t004
+  label: putting it all together
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: putting it all together'
+  evidence:
+  - source: syllabus
+    text: Putting It All Together
+  confidence: 0.45
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: a primer on conditional formatting
+  aliases:
+  - a primer on conditional formatting
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: custom application of conditional formatting
+  aliases:
+  - custom application of conditional formatting
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: conditional formatting hacks
+  aliases:
+  - conditional formatting hacks
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: putting it all together
+  aliases:
+  - putting it all together
+  member_topic_ids:
+  - t004
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - a primer on conditional formatting
+  family: entry
+  pattern: What is {x}?
+  question_text: What is a primer on conditional formatting?
+- candidate_id: q0002
+  relevant_topics:
+  - a primer on conditional formatting
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does a primer on conditional formatting mean?
+- candidate_id: q0003
+  relevant_topics:
+  - a primer on conditional formatting
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does a primer on conditional formatting matter?
+- candidate_id: q0004
+  relevant_topics:
+  - a primer on conditional formatting
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use a primer on conditional formatting?
+- candidate_id: q0005
+  relevant_topics:
+  - a primer on conditional formatting
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of a primer on conditional formatting?
+- candidate_id: q0006
+  relevant_topics:
+  - custom application of conditional formatting
+  family: entry
+  pattern: What is {x}?
+  question_text: What is custom application of conditional formatting?
+- candidate_id: q0007
+  relevant_topics:
+  - custom application of conditional formatting
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does custom application of conditional formatting mean?
+- candidate_id: q0008
+  relevant_topics:
+  - custom application of conditional formatting
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does custom application of conditional formatting matter?
+- candidate_id: q0009
+  relevant_topics:
+  - custom application of conditional formatting
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use custom application of conditional formatting?
+- candidate_id: q0010
+  relevant_topics:
+  - custom application of conditional formatting
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of custom application of conditional formatting?
+- candidate_id: q0011
+  relevant_topics:
+  - conditional formatting hacks
+  family: entry
+  pattern: What is {x}?
+  question_text: What is conditional formatting hacks?
+- candidate_id: q0012
+  relevant_topics:
+  - conditional formatting hacks
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does conditional formatting hacks mean?
+- candidate_id: q0013
+  relevant_topics:
+  - conditional formatting hacks
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does conditional formatting hacks matter?
+- candidate_id: q0014
+  relevant_topics:
+  - conditional formatting hacks
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use conditional formatting hacks?
+- candidate_id: q0015
+  relevant_topics:
+  - conditional formatting hacks
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of conditional formatting hacks?
+- candidate_id: q0016
+  relevant_topics:
+  - putting it all together
+  family: entry
+  pattern: What is {x}?
+  question_text: What is putting it all together?
+- candidate_id: q0017
+  relevant_topics:
+  - putting it all together
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does putting it all together mean?
+- candidate_id: q0018
+  relevant_topics:
+  - putting it all together
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does putting it all together matter?
+- candidate_id: q0019
+  relevant_topics:
+  - putting it all together
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use putting it all together?
+- candidate_id: q0020
+  relevant_topics:
+  - putting it all together
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of putting it all together?
+- candidate_id: q0021
+  relevant_topics:
+  - a primer on conditional formatting
+  - custom application of conditional formatting
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is a primer on conditional formatting different from custom application
+    of conditional formatting?
+- candidate_id: q0022
+  relevant_topics:
+  - a primer on conditional formatting
+  - conditional formatting hacks
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is a primer on conditional formatting different from conditional
+    formatting hacks?
+- candidate_id: q0023
+  relevant_topics:
+  - a primer on conditional formatting
+  - putting it all together
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is a primer on conditional formatting different from putting
+    it all together?
+- candidate_id: q0024
+  relevant_topics:
+  - custom application of conditional formatting
+  - conditional formatting hacks
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is custom application of conditional formatting different from
+    conditional formatting hacks?
+- candidate_id: q0025
+  relevant_topics:
+  - custom application of conditional formatting
+  - putting it all together
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is custom application of conditional formatting different from
+    putting it all together?
+- candidate_id: q0026
+  relevant_topics:
+  - conditional formatting hacks
+  - putting it all together
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is conditional formatting hacks different from putting it all
+    together?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is a primer on conditional formatting?
+  final_text: What is a primer on conditional formatting?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does a primer on conditional formatting mean?
+  final_text: What does a primer on conditional formatting mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does a primer on conditional formatting matter?
+  final_text: Why does a primer on conditional formatting matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use a primer on conditional formatting?
+  final_text: Why does a primer on conditional formatting?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of a primer on conditional formatting?
+  final_text: What is a simple example of a primer on conditional formatting?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is custom application of conditional formatting?
+  final_text: What is custom application of conditional formatting?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does custom application of conditional formatting mean?
+  final_text: What does custom application of conditional formatting mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does custom application of conditional formatting matter?
+  final_text: Why does custom application of conditional formatting matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use custom application of conditional formatting?
+  final_text: Why does custom application of conditional formatting?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of custom application of conditional formatting?
+  final_text: What is a simple example of custom application of conditional formatting?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is conditional formatting hacks?
+  final_text: What is conditional formatting hacks?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does conditional formatting hacks mean?
+  final_text: What does conditional formatting hacks mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does conditional formatting hacks matter?
+  final_text: Why does conditional formatting hacks matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use conditional formatting hacks?
+  final_text: Why does conditional formatting hacks?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of conditional formatting hacks?
+  final_text: What is a simple example of conditional formatting hacks?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is putting it all together?
+  final_text: What is putting it all together?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does putting it all together mean?
+  final_text: What does putting it all together mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does putting it all together matter?
+  final_text: Why does putting it all together matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use putting it all together?
+  final_text: Why does putting it all together?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of putting it all together?
+  final_text: What is a simple example of putting it all together?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: How is a primer on conditional formatting different from custom application
+    of conditional formatting?
+  final_text: How is a primer on conditional formatting different from custom application
+    of conditional formatting?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: How is a primer on conditional formatting different from conditional
+    formatting hacks?
+  final_text: How is a primer on conditional formatting different from conditional
+    formatting hacks?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: How is a primer on conditional formatting different from putting
+    it all together?
+  final_text: How is a primer on conditional formatting different from putting it
+    all together?
+  reject_reason: null
+- candidate_id: q0024
+  status: accepted
+  original_text: How is custom application of conditional formatting different from
+    conditional formatting hacks?
+  final_text: How is custom application of conditional formatting different from conditional
+    formatting hacks?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: How is custom application of conditional formatting different from
+    putting it all together?
+  final_text: How is custom application of conditional formatting different from putting
+    it all together?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: How is conditional formatting hacks different from putting it all
+    together?
+  final_text: How is conditional formatting hacks different from putting it all together?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is a primer on conditional formatting?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does a primer on conditional formatting mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does a primer on conditional formatting matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does a primer on conditional formatting?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of a primer on conditional formatting?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is custom application of conditional formatting?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does custom application of conditional formatting mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does custom application of conditional formatting matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does custom application of conditional formatting?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of custom application of conditional formatting?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is conditional formatting hacks?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does conditional formatting hacks mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does conditional formatting hacks matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does conditional formatting hacks?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of conditional formatting hacks?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is putting it all together?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does putting it all together mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does putting it all together matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does putting it all together?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of putting it all together?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: How is a primer on conditional formatting different from custom application
+    of conditional formatting?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: How is a primer on conditional formatting different from conditional
+    formatting hacks?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: How is a primer on conditional formatting different from putting
+    it all together?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: How is custom application of conditional formatting different from
+    conditional formatting hacks?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: How is custom application of conditional formatting different from
+    putting it all together?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: How is conditional formatting hacks different from putting it all
+    together?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24660'
+    title: Conditional Formatting in Google Sheets
+  relevant_topics:
+  - a primer on conditional formatting
+  question_text: What is a primer on conditional formatting?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24660'
+    title: Conditional Formatting in Google Sheets
+  relevant_topics:
+  - a primer on conditional formatting
+  question_text: What does a primer on conditional formatting mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24660'
+    title: Conditional Formatting in Google Sheets
+  relevant_topics:
+  - a primer on conditional formatting
+  question_text: Why does a primer on conditional formatting matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24660'
+    title: Conditional Formatting in Google Sheets
+  relevant_topics:
+  - a primer on conditional formatting
+  question_text: Why does a primer on conditional formatting?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24660'
+    title: Conditional Formatting in Google Sheets
+  relevant_topics:
+  - a primer on conditional formatting
+  question_text: What is a simple example of a primer on conditional formatting?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24660'
+    title: Conditional Formatting in Google Sheets
+  relevant_topics:
+  - custom application of conditional formatting
+  question_text: What is custom application of conditional formatting?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24660'
+    title: Conditional Formatting in Google Sheets
+  relevant_topics:
+  - custom application of conditional formatting
+  question_text: What does custom application of conditional formatting mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24660'
+    title: Conditional Formatting in Google Sheets
+  relevant_topics:
+  - custom application of conditional formatting
+  question_text: Why does custom application of conditional formatting matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24660'
+    title: Conditional Formatting in Google Sheets
+  relevant_topics:
+  - custom application of conditional formatting
+  question_text: Why does custom application of conditional formatting?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24660'
+    title: Conditional Formatting in Google Sheets
+  relevant_topics:
+  - custom application of conditional formatting
+  question_text: What is a simple example of custom application of conditional formatting?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24660'
+    title: Conditional Formatting in Google Sheets
+  relevant_topics:
+  - conditional formatting hacks
+  question_text: What is conditional formatting hacks?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24660'
+    title: Conditional Formatting in Google Sheets
+  relevant_topics:
+  - conditional formatting hacks
+  question_text: What does conditional formatting hacks mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24660'
+    title: Conditional Formatting in Google Sheets
+  relevant_topics:
+  - conditional formatting hacks
+  question_text: Why does conditional formatting hacks matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24660'
+    title: Conditional Formatting in Google Sheets
+  relevant_topics:
+  - conditional formatting hacks
+  question_text: Why does conditional formatting hacks?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24660'
+    title: Conditional Formatting in Google Sheets
+  relevant_topics:
+  - conditional formatting hacks
+  question_text: What is a simple example of conditional formatting hacks?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24660'
+    title: Conditional Formatting in Google Sheets
+  relevant_topics:
+  - putting it all together
+  question_text: What is putting it all together?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24660'
+    title: Conditional Formatting in Google Sheets
+  relevant_topics:
+  - putting it all together
+  question_text: What does putting it all together mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24660'
+    title: Conditional Formatting in Google Sheets
+  relevant_topics:
+  - putting it all together
+  question_text: Why does putting it all together matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24660'
+    title: Conditional Formatting in Google Sheets
+  relevant_topics:
+  - putting it all together
+  question_text: Why does putting it all together?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24660'
+    title: Conditional Formatting in Google Sheets
+  relevant_topics:
+  - putting it all together
+  question_text: What is a simple example of putting it all together?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24660'
+    title: Conditional Formatting in Google Sheets
+  relevant_topics:
+  - a primer on conditional formatting
+  - custom application of conditional formatting
+  question_text: How is a primer on conditional formatting different from custom application
+    of conditional formatting?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24660'
+    title: Conditional Formatting in Google Sheets
+  relevant_topics:
+  - a primer on conditional formatting
+  - conditional formatting hacks
+  question_text: How is a primer on conditional formatting different from conditional
+    formatting hacks?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24660'
+    title: Conditional Formatting in Google Sheets
+  relevant_topics:
+  - a primer on conditional formatting
+  - putting it all together
+  question_text: How is a primer on conditional formatting different from putting
+    it all together?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24660'
+    title: Conditional Formatting in Google Sheets
+  relevant_topics:
+  - custom application of conditional formatting
+  - conditional formatting hacks
+  question_text: How is custom application of conditional formatting different from
+    conditional formatting hacks?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24660'
+    title: Conditional Formatting in Google Sheets
+  relevant_topics:
+  - custom application of conditional formatting
+  - putting it all together
+  question_text: How is custom application of conditional formatting different from
+    putting it all together?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24660'
+    title: Conditional Formatting in Google Sheets
+  relevant_topics:
+  - conditional formatting hacks
+  - putting it all together
+  question_text: How is conditional formatting hacks different from putting it all
+    together?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 4
+  canonical_topic_count: 4
+  candidate_count: 26
+  accepted_count: 26
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 26

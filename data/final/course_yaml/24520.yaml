@@ -1,0 +1,1697 @@
+course_id: '24520'
+title: Reshaping Data with pandas
+normalized_course:
+  course_id: '24520'
+  title: Reshaping Data with pandas
+  provider: DataCamp
+  summary: 'Reshape DataFrames from a wide to long format, stack and unstack rows
+    and
+
+    columns, and wrangle multi-index DataFrames.'
+  overview: 'Introduction to Data Reshaping
+
+
+    Let''s start by understanding the concept of wide and long formats and the
+
+    advantages of using each of them. You’ll then learn how to pivot data from
+
+    long to a wide format, and get summary statistics from a large DataFrame.
+
+
+    Converting Between Wide and Long Format
+
+
+    Master the technique of reshaping DataFrames from wide to long format. In
+
+    this chapter, you''ll learn how to use the melting method and wide to long
+
+    function before discovering how to handle string columns by concatenating or
+
+    splitting them.
+
+
+    Stacking and Unstacking DataFrames
+
+
+    In this chapter, you’ll level-up your data manipulation skills using
+
+    multi-level indexing. You''ll learn how to reshape DataFrames by rearranging
+
+    levels of the row indexes to the column axis, or vice versa. You''ll also
+
+    gain the skills you need to handle missing data generated in the stacking
+
+    and unstacking processes.
+
+
+    Advanced Reshaping
+
+
+    You''ll finish by learning how to combine the reshaping process with grouping
+
+    to produce quick data manipulations. Lastly, you''ll discover how to
+
+    transform list-like columns and handle complex nested data, such as nested
+
+    JSON files.'
+  chapters:
+  - chapter_index: 1
+    title: Introduction to Data Reshaping
+    summary: 'Let''s start by understanding the concept of wide and long formats
+
+      and the advantages of using each of them. You’ll then learn how to
+
+      pivot data from long to a wide format, and get summary statistics
+
+      from a large DataFrame.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 2
+    title: Converting Between Wide and Long Format
+    summary: 'Master the technique of reshaping DataFrames from wide to long
+
+      format. In this chapter, you''ll learn how to use the melting method
+
+      and wide to long function before discovering how to handle string
+
+      columns by concatenating or splitting them.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 3
+    title: Stacking and Unstacking DataFrames
+    summary: 'In this chapter, you’ll level-up your data manipulation skills using
+
+      multi-level indexing. You''ll learn how to reshape DataFrames by
+
+      rearranging levels of the row indexes to the column axis, or vice
+
+      versa. You''ll also gain the skills you need to handle missing data
+
+      generated in the stacking and unstacking processes.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 4
+    title: Advanced Reshaping
+    summary: 'You''ll finish by learning how to combine the reshaping process with
+
+      grouping to produce quick data manipulations. Lastly, you''ll
+
+      discover how to transform list-like columns and handle complex
+
+      nested data, such as nested JSON files.'
+    source: syllabus
+    confidence: 1.0
+  metadata:
+    level: Intermediate
+    duration_hours: 4 hours
+    subjects:
+    - pandas
+    - Data Analysis
+    - Data Manipulation
+    - DataFrames
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: introduction to data reshaping
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: introduction to data reshaping'
+  evidence:
+  - source: syllabus
+    text: Introduction to Data Reshaping
+  confidence: 0.45
+- topic_id: t002
+  label: converting between wide
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: converting between wide'
+  evidence:
+  - source: syllabus
+    text: Converting Between Wide and Long Format
+  confidence: 0.55
+- topic_id: t003
+  label: long format
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: long format'
+  evidence:
+  - source: syllabus
+    text: Converting Between Wide and Long Format
+  confidence: 0.55
+- topic_id: t004
+  label: stacking
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: stacking'
+  evidence:
+  - source: syllabus
+    text: Stacking and Unstacking DataFrames
+  confidence: 0.55
+- topic_id: t005
+  label: unstacking dataframes
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: unstacking dataframes'
+  evidence:
+  - source: syllabus
+    text: Stacking and Unstacking DataFrames
+  confidence: 0.55
+- topic_id: t006
+  label: advanced reshaping
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: advanced reshaping'
+  evidence:
+  - source: syllabus
+    text: Advanced Reshaping
+  confidence: 0.45
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: introduction to data reshaping
+  aliases:
+  - introduction to data reshaping
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: converting between wide
+  aliases:
+  - converting between wide
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: long format
+  aliases:
+  - long format
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: stacking
+  aliases:
+  - stacking
+  member_topic_ids:
+  - t004
+  topic_type: concept
+- canonical_topic_id: ct_005
+  label: unstacking dataframes
+  aliases:
+  - unstacking dataframes
+  member_topic_ids:
+  - t005
+  topic_type: concept
+- canonical_topic_id: ct_006
+  label: advanced reshaping
+  aliases:
+  - advanced reshaping
+  member_topic_ids:
+  - t006
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - introduction to data reshaping
+  family: entry
+  pattern: What is {x}?
+  question_text: What is introduction to data reshaping?
+- candidate_id: q0002
+  relevant_topics:
+  - introduction to data reshaping
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does introduction to data reshaping mean?
+- candidate_id: q0003
+  relevant_topics:
+  - introduction to data reshaping
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does introduction to data reshaping matter?
+- candidate_id: q0004
+  relevant_topics:
+  - introduction to data reshaping
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use introduction to data reshaping?
+- candidate_id: q0005
+  relevant_topics:
+  - introduction to data reshaping
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of introduction to data reshaping?
+- candidate_id: q0006
+  relevant_topics:
+  - converting between wide
+  family: entry
+  pattern: What is {x}?
+  question_text: What is converting between wide?
+- candidate_id: q0007
+  relevant_topics:
+  - converting between wide
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does converting between wide mean?
+- candidate_id: q0008
+  relevant_topics:
+  - converting between wide
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does converting between wide matter?
+- candidate_id: q0009
+  relevant_topics:
+  - converting between wide
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use converting between wide?
+- candidate_id: q0010
+  relevant_topics:
+  - converting between wide
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of converting between wide?
+- candidate_id: q0011
+  relevant_topics:
+  - long format
+  family: entry
+  pattern: What is {x}?
+  question_text: What is long format?
+- candidate_id: q0012
+  relevant_topics:
+  - long format
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does long format mean?
+- candidate_id: q0013
+  relevant_topics:
+  - long format
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does long format matter?
+- candidate_id: q0014
+  relevant_topics:
+  - long format
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use long format?
+- candidate_id: q0015
+  relevant_topics:
+  - long format
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of long format?
+- candidate_id: q0016
+  relevant_topics:
+  - stacking
+  family: entry
+  pattern: What is {x}?
+  question_text: What is stacking?
+- candidate_id: q0017
+  relevant_topics:
+  - stacking
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does stacking mean?
+- candidate_id: q0018
+  relevant_topics:
+  - stacking
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does stacking matter?
+- candidate_id: q0019
+  relevant_topics:
+  - stacking
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use stacking?
+- candidate_id: q0020
+  relevant_topics:
+  - stacking
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of stacking?
+- candidate_id: q0021
+  relevant_topics:
+  - unstacking dataframes
+  family: entry
+  pattern: What is {x}?
+  question_text: What is unstacking dataframes?
+- candidate_id: q0022
+  relevant_topics:
+  - unstacking dataframes
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does unstacking dataframes mean?
+- candidate_id: q0023
+  relevant_topics:
+  - unstacking dataframes
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does unstacking dataframes matter?
+- candidate_id: q0024
+  relevant_topics:
+  - unstacking dataframes
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use unstacking dataframes?
+- candidate_id: q0025
+  relevant_topics:
+  - unstacking dataframes
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of unstacking dataframes?
+- candidate_id: q0026
+  relevant_topics:
+  - advanced reshaping
+  family: entry
+  pattern: What is {x}?
+  question_text: What is advanced reshaping?
+- candidate_id: q0027
+  relevant_topics:
+  - advanced reshaping
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does advanced reshaping mean?
+- candidate_id: q0028
+  relevant_topics:
+  - advanced reshaping
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does advanced reshaping matter?
+- candidate_id: q0029
+  relevant_topics:
+  - advanced reshaping
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use advanced reshaping?
+- candidate_id: q0030
+  relevant_topics:
+  - advanced reshaping
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of advanced reshaping?
+- candidate_id: q0031
+  relevant_topics:
+  - introduction to data reshaping
+  - converting between wide
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to data reshaping different from converting between
+    wide?
+- candidate_id: q0032
+  relevant_topics:
+  - introduction to data reshaping
+  - long format
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to data reshaping different from long format?
+- candidate_id: q0033
+  relevant_topics:
+  - introduction to data reshaping
+  - stacking
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to data reshaping different from stacking?
+- candidate_id: q0034
+  relevant_topics:
+  - introduction to data reshaping
+  - unstacking dataframes
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to data reshaping different from unstacking dataframes?
+- candidate_id: q0035
+  relevant_topics:
+  - introduction to data reshaping
+  - advanced reshaping
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to data reshaping different from advanced reshaping?
+- candidate_id: q0036
+  relevant_topics:
+  - converting between wide
+  - long format
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is converting between wide different from long format?
+- candidate_id: q0037
+  relevant_topics:
+  - converting between wide
+  - stacking
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is converting between wide different from stacking?
+- candidate_id: q0038
+  relevant_topics:
+  - converting between wide
+  - unstacking dataframes
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is converting between wide different from unstacking dataframes?
+- candidate_id: q0039
+  relevant_topics:
+  - converting between wide
+  - advanced reshaping
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is converting between wide different from advanced reshaping?
+- candidate_id: q0040
+  relevant_topics:
+  - long format
+  - stacking
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is long format different from stacking?
+- candidate_id: q0041
+  relevant_topics:
+  - long format
+  - unstacking dataframes
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is long format different from unstacking dataframes?
+- candidate_id: q0042
+  relevant_topics:
+  - long format
+  - advanced reshaping
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is long format different from advanced reshaping?
+- candidate_id: q0043
+  relevant_topics:
+  - stacking
+  - unstacking dataframes
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is stacking different from unstacking dataframes?
+- candidate_id: q0044
+  relevant_topics:
+  - stacking
+  - advanced reshaping
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is stacking different from advanced reshaping?
+- candidate_id: q0045
+  relevant_topics:
+  - unstacking dataframes
+  - advanced reshaping
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is unstacking dataframes different from advanced reshaping?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is introduction to data reshaping?
+  final_text: What is introduction to data reshaping?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does introduction to data reshaping mean?
+  final_text: What does introduction to data reshaping mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does introduction to data reshaping matter?
+  final_text: Why does introduction to data reshaping matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use introduction to data reshaping?
+  final_text: Why does introduction to data reshaping?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of introduction to data reshaping?
+  final_text: What is a simple example of introduction to data reshaping?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is converting between wide?
+  final_text: What is converting between wide?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does converting between wide mean?
+  final_text: What does converting between wide mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does converting between wide matter?
+  final_text: Why does converting between wide matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use converting between wide?
+  final_text: Why does converting between wide?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of converting between wide?
+  final_text: What is a simple example of converting between wide?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is long format?
+  final_text: What is long format?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does long format mean?
+  final_text: What does long format mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does long format matter?
+  final_text: Why does long format matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use long format?
+  final_text: Why does long format?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of long format?
+  final_text: What is a simple example of long format?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is stacking?
+  final_text: What is stacking?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does stacking mean?
+  final_text: What does stacking mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does stacking matter?
+  final_text: Why does stacking matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use stacking?
+  final_text: Why does stacking?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of stacking?
+  final_text: What is a simple example of stacking?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: What is unstacking dataframes?
+  final_text: What is unstacking dataframes?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: What does unstacking dataframes mean?
+  final_text: What does unstacking dataframes mean?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: Why does unstacking dataframes matter?
+  final_text: Why does unstacking dataframes matter?
+  reject_reason: null
+- candidate_id: q0024
+  status: repaired
+  original_text: Why do we use unstacking dataframes?
+  final_text: Why does unstacking dataframes?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: What is a simple example of unstacking dataframes?
+  final_text: What is a simple example of unstacking dataframes?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: What is advanced reshaping?
+  final_text: What is advanced reshaping?
+  reject_reason: null
+- candidate_id: q0027
+  status: accepted
+  original_text: What does advanced reshaping mean?
+  final_text: What does advanced reshaping mean?
+  reject_reason: null
+- candidate_id: q0028
+  status: accepted
+  original_text: Why does advanced reshaping matter?
+  final_text: Why does advanced reshaping matter?
+  reject_reason: null
+- candidate_id: q0029
+  status: repaired
+  original_text: Why do we use advanced reshaping?
+  final_text: Why does advanced reshaping?
+  reject_reason: null
+- candidate_id: q0030
+  status: accepted
+  original_text: What is a simple example of advanced reshaping?
+  final_text: What is a simple example of advanced reshaping?
+  reject_reason: null
+- candidate_id: q0031
+  status: accepted
+  original_text: How is introduction to data reshaping different from converting between
+    wide?
+  final_text: How is introduction to data reshaping different from converting between
+    wide?
+  reject_reason: null
+- candidate_id: q0032
+  status: accepted
+  original_text: How is introduction to data reshaping different from long format?
+  final_text: How is introduction to data reshaping different from long format?
+  reject_reason: null
+- candidate_id: q0033
+  status: accepted
+  original_text: How is introduction to data reshaping different from stacking?
+  final_text: How is introduction to data reshaping different from stacking?
+  reject_reason: null
+- candidate_id: q0034
+  status: accepted
+  original_text: How is introduction to data reshaping different from unstacking dataframes?
+  final_text: How is introduction to data reshaping different from unstacking dataframes?
+  reject_reason: null
+- candidate_id: q0035
+  status: accepted
+  original_text: How is introduction to data reshaping different from advanced reshaping?
+  final_text: How is introduction to data reshaping different from advanced reshaping?
+  reject_reason: null
+- candidate_id: q0036
+  status: accepted
+  original_text: How is converting between wide different from long format?
+  final_text: How is converting between wide different from long format?
+  reject_reason: null
+- candidate_id: q0037
+  status: accepted
+  original_text: How is converting between wide different from stacking?
+  final_text: How is converting between wide different from stacking?
+  reject_reason: null
+- candidate_id: q0038
+  status: accepted
+  original_text: How is converting between wide different from unstacking dataframes?
+  final_text: How is converting between wide different from unstacking dataframes?
+  reject_reason: null
+- candidate_id: q0039
+  status: accepted
+  original_text: How is converting between wide different from advanced reshaping?
+  final_text: How is converting between wide different from advanced reshaping?
+  reject_reason: null
+- candidate_id: q0040
+  status: accepted
+  original_text: How is long format different from stacking?
+  final_text: How is long format different from stacking?
+  reject_reason: null
+- candidate_id: q0041
+  status: accepted
+  original_text: How is long format different from unstacking dataframes?
+  final_text: How is long format different from unstacking dataframes?
+  reject_reason: null
+- candidate_id: q0042
+  status: accepted
+  original_text: How is long format different from advanced reshaping?
+  final_text: How is long format different from advanced reshaping?
+  reject_reason: null
+- candidate_id: q0043
+  status: accepted
+  original_text: How is stacking different from unstacking dataframes?
+  final_text: How is stacking different from unstacking dataframes?
+  reject_reason: null
+- candidate_id: q0044
+  status: accepted
+  original_text: How is stacking different from advanced reshaping?
+  final_text: How is stacking different from advanced reshaping?
+  reject_reason: null
+- candidate_id: q0045
+  status: accepted
+  original_text: How is unstacking dataframes different from advanced reshaping?
+  final_text: How is unstacking dataframes different from advanced reshaping?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is introduction to data reshaping?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does introduction to data reshaping mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does introduction to data reshaping matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does introduction to data reshaping?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of introduction to data reshaping?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is converting between wide?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does converting between wide mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does converting between wide matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does converting between wide?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of converting between wide?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is long format?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does long format mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does long format matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does long format?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of long format?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is stacking?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does stacking mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does stacking matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does stacking?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of stacking?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: What is unstacking dataframes?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: What does unstacking dataframes mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: Why does unstacking dataframes matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: Why does unstacking dataframes?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: What is a simple example of unstacking dataframes?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: What is advanced reshaping?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0027
+  question_text: What does advanced reshaping mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0028
+  question_text: Why does advanced reshaping matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0029
+  question_text: Why does advanced reshaping?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0030
+  question_text: What is a simple example of advanced reshaping?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0031
+  question_text: How is introduction to data reshaping different from converting between
+    wide?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0032
+  question_text: How is introduction to data reshaping different from long format?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0033
+  question_text: How is introduction to data reshaping different from stacking?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0034
+  question_text: How is introduction to data reshaping different from unstacking dataframes?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0035
+  question_text: How is introduction to data reshaping different from advanced reshaping?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0036
+  question_text: How is converting between wide different from long format?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0037
+  question_text: How is converting between wide different from stacking?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0038
+  question_text: How is converting between wide different from unstacking dataframes?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0039
+  question_text: How is converting between wide different from advanced reshaping?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0040
+  question_text: How is long format different from stacking?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0041
+  question_text: How is long format different from unstacking dataframes?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0042
+  question_text: How is long format different from advanced reshaping?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0043
+  question_text: How is stacking different from unstacking dataframes?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0044
+  question_text: How is stacking different from advanced reshaping?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0045
+  question_text: How is unstacking dataframes different from advanced reshaping?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - introduction to data reshaping
+  question_text: What is introduction to data reshaping?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - introduction to data reshaping
+  question_text: What does introduction to data reshaping mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - introduction to data reshaping
+  question_text: Why does introduction to data reshaping matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - introduction to data reshaping
+  question_text: Why does introduction to data reshaping?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - introduction to data reshaping
+  question_text: What is a simple example of introduction to data reshaping?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - converting between wide
+  question_text: What is converting between wide?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - converting between wide
+  question_text: What does converting between wide mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - converting between wide
+  question_text: Why does converting between wide matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - converting between wide
+  question_text: Why does converting between wide?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - converting between wide
+  question_text: What is a simple example of converting between wide?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - long format
+  question_text: What is long format?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - long format
+  question_text: What does long format mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - long format
+  question_text: Why does long format matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - long format
+  question_text: Why does long format?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - long format
+  question_text: What is a simple example of long format?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - stacking
+  question_text: What is stacking?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - stacking
+  question_text: What does stacking mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - stacking
+  question_text: Why does stacking matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - stacking
+  question_text: Why does stacking?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - stacking
+  question_text: What is a simple example of stacking?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - unstacking dataframes
+  question_text: What is unstacking dataframes?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - unstacking dataframes
+  question_text: What does unstacking dataframes mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - unstacking dataframes
+  question_text: Why does unstacking dataframes matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - unstacking dataframes
+  question_text: Why does unstacking dataframes?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - unstacking dataframes
+  question_text: What is a simple example of unstacking dataframes?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - advanced reshaping
+  question_text: What is advanced reshaping?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000027
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - advanced reshaping
+  question_text: What does advanced reshaping mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000028
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - advanced reshaping
+  question_text: Why does advanced reshaping matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000029
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - advanced reshaping
+  question_text: Why does advanced reshaping?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000030
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - advanced reshaping
+  question_text: What is a simple example of advanced reshaping?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000031
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - introduction to data reshaping
+  - converting between wide
+  question_text: How is introduction to data reshaping different from converting between
+    wide?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000032
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - introduction to data reshaping
+  - long format
+  question_text: How is introduction to data reshaping different from long format?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000033
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - introduction to data reshaping
+  - stacking
+  question_text: How is introduction to data reshaping different from stacking?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000034
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - introduction to data reshaping
+  - unstacking dataframes
+  question_text: How is introduction to data reshaping different from unstacking dataframes?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000035
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - introduction to data reshaping
+  - advanced reshaping
+  question_text: How is introduction to data reshaping different from advanced reshaping?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000036
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - converting between wide
+  - long format
+  question_text: How is converting between wide different from long format?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000037
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - converting between wide
+  - stacking
+  question_text: How is converting between wide different from stacking?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000038
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - converting between wide
+  - unstacking dataframes
+  question_text: How is converting between wide different from unstacking dataframes?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000039
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - converting between wide
+  - advanced reshaping
+  question_text: How is converting between wide different from advanced reshaping?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000040
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - long format
+  - stacking
+  question_text: How is long format different from stacking?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000041
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - long format
+  - unstacking dataframes
+  question_text: How is long format different from unstacking dataframes?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000042
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - long format
+  - advanced reshaping
+  question_text: How is long format different from advanced reshaping?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000043
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - stacking
+  - unstacking dataframes
+  question_text: How is stacking different from unstacking dataframes?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000044
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - stacking
+  - advanced reshaping
+  question_text: How is stacking different from advanced reshaping?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000045
+  course:
+    course_id: '24520'
+    title: Reshaping Data with pandas
+  relevant_topics:
+  - unstacking dataframes
+  - advanced reshaping
+  question_text: How is unstacking dataframes different from advanced reshaping?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 6
+  canonical_topic_count: 6
+  candidate_count: 45
+  accepted_count: 45
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 45

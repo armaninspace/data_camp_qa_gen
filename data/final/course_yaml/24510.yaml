@@ -1,0 +1,1064 @@
+course_id: '24510'
+title: Introduction to Network Analysis in Python
+normalized_course:
+  course_id: '24510'
+  title: Introduction to Network Analysis in Python
+  provider: DataCamp
+  summary: 'This course will equip you with the skills to analyze, visualize, and
+    make
+
+    sense of networks using the NetworkX library.'
+  overview: 'Introduction to networks
+
+
+    In this chapter, you''ll be introduced to fundamental concepts in network
+
+    analytics while exploring a real-world Twitter network dataset. You''ll also
+
+    learn about NetworkX, a library that allows you to manipulate, analyze, and
+
+    model graph data. You''ll learn about the different types of graphs and how
+
+    to rationally visualize them.
+
+
+    Important nodes
+
+
+    You''ll learn about ways to identify nodes that are important in a network.
+
+    In doing so, you''ll be introduced to more advanced concepts in network
+
+    analysis as well as the basics of path-finding algorithms. The chapter
+
+    concludes with a deep dive into the Twitter network dataset which will
+
+    reinforce the concepts you''ve learned, such as degree centrality and
+
+    betweenness centrality.
+
+
+    Structures
+
+
+    This chapter is all about finding interesting structures within network
+
+    data. You''ll learn about essential concepts such as cliques, communities,
+
+    and subgraphs, which will leverage all of the skills you acquired in Chapter
+
+    2. By the end of this chapter, you''ll be ready to apply the concepts you''ve
+
+    learned to a real-world case study.
+
+
+    Bringing it all together
+
+
+    In this final chapter of the course, you''ll consolidate everything you''ve
+
+    learned through an in-depth case study of GitHub collaborator network data.
+
+    This is a great example of real-world social network data, and your newly
+
+    acquired skills will be fully tested. By the end of this chapter, you''ll
+
+    have developed your very own recommendation system to connect GitHub users
+
+    who should collaborate together.'
+  chapters:
+  - chapter_index: 1
+    title: Introduction to networks
+    summary: 'In this chapter, you''ll be introduced to fundamental concepts in
+
+      network analytics while exploring a real-world Twitter network
+
+      dataset. You''ll also learn about NetworkX, a library that allows you
+
+      to manipulate, analyze, and model graph data. You''ll learn about the
+
+      different types of graphs and how to rationally visualize them.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 2
+    title: Important nodes
+    summary: 'You''ll learn about ways to identify nodes that are important in a
+
+      network. In doing so, you''ll be introduced to more advanced concepts
+
+      in network analysis as well as the basics of path-finding
+
+      algorithms. The chapter concludes with a deep dive into the Twitter
+
+      network dataset which will reinforce the concepts you''ve learned,
+
+      such as degree centrality and betweenness centrality.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 3
+    title: Structures
+    summary: 'This chapter is all about finding interesting structures within
+
+      network data. You''ll learn about essential concepts such as cliques,
+
+      communities, and subgraphs, which will leverage all of the skills
+
+      you acquired in Chapter 2. By the end of this chapter, you''ll be
+
+      ready to apply the concepts you''ve learned to a real-world case
+
+      study.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 4
+    title: Bringing it all together
+    summary: 'In this final chapter of the course, you''ll consolidate everything
+
+      you''ve learned through an in-depth case study of GitHub collaborator
+
+      network data. This is a great example of real-world social network
+
+      data, and your newly acquired skills will be fully tested. By the
+
+      end of this chapter, you''ll have developed your very own
+
+      recommendation system to connect GitHub users who should collaborate
+
+      together.'
+    source: syllabus
+    confidence: 1.0
+  metadata:
+    level: Intermediate
+    duration_hours: 4 hours
+    subjects:
+    - Python
+    - Data Visualization
+    - Graph Theory
+    - Social Network Analysis
+    - Network Analysis
+    - Recommendation Systems
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: introduction to networks
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: introduction to networks'
+  evidence:
+  - source: syllabus
+    text: Introduction to networks
+  confidence: 0.45
+- topic_id: t002
+  label: important nodes
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: important nodes'
+  evidence:
+  - source: syllabus
+    text: Important nodes
+  confidence: 0.45
+- topic_id: t003
+  label: structures
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: structures'
+  evidence:
+  - source: syllabus
+    text: Structures
+  confidence: 0.45
+- topic_id: t004
+  label: bringing it all together
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: bringing it all together'
+  evidence:
+  - source: syllabus
+    text: Bringing it all together
+  confidence: 0.45
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: introduction to networks
+  aliases:
+  - introduction to networks
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: important nodes
+  aliases:
+  - important nodes
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: structures
+  aliases:
+  - structures
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: bringing it all together
+  aliases:
+  - bringing it all together
+  member_topic_ids:
+  - t004
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - introduction to networks
+  family: entry
+  pattern: What is {x}?
+  question_text: What is introduction to networks?
+- candidate_id: q0002
+  relevant_topics:
+  - introduction to networks
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does introduction to networks mean?
+- candidate_id: q0003
+  relevant_topics:
+  - introduction to networks
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does introduction to networks matter?
+- candidate_id: q0004
+  relevant_topics:
+  - introduction to networks
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use introduction to networks?
+- candidate_id: q0005
+  relevant_topics:
+  - introduction to networks
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of introduction to networks?
+- candidate_id: q0006
+  relevant_topics:
+  - important nodes
+  family: entry
+  pattern: What is {x}?
+  question_text: What is important nodes?
+- candidate_id: q0007
+  relevant_topics:
+  - important nodes
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does important nodes mean?
+- candidate_id: q0008
+  relevant_topics:
+  - important nodes
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does important nodes matter?
+- candidate_id: q0009
+  relevant_topics:
+  - important nodes
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use important nodes?
+- candidate_id: q0010
+  relevant_topics:
+  - important nodes
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of important nodes?
+- candidate_id: q0011
+  relevant_topics:
+  - structures
+  family: entry
+  pattern: What is {x}?
+  question_text: What is structures?
+- candidate_id: q0012
+  relevant_topics:
+  - structures
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does structures mean?
+- candidate_id: q0013
+  relevant_topics:
+  - structures
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does structures matter?
+- candidate_id: q0014
+  relevant_topics:
+  - structures
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use structures?
+- candidate_id: q0015
+  relevant_topics:
+  - structures
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of structures?
+- candidate_id: q0016
+  relevant_topics:
+  - bringing it all together
+  family: entry
+  pattern: What is {x}?
+  question_text: What is bringing it all together?
+- candidate_id: q0017
+  relevant_topics:
+  - bringing it all together
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does bringing it all together mean?
+- candidate_id: q0018
+  relevant_topics:
+  - bringing it all together
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does bringing it all together matter?
+- candidate_id: q0019
+  relevant_topics:
+  - bringing it all together
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use bringing it all together?
+- candidate_id: q0020
+  relevant_topics:
+  - bringing it all together
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of bringing it all together?
+- candidate_id: q0021
+  relevant_topics:
+  - introduction to networks
+  - important nodes
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to networks different from important nodes?
+- candidate_id: q0022
+  relevant_topics:
+  - introduction to networks
+  - structures
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to networks different from structures?
+- candidate_id: q0023
+  relevant_topics:
+  - introduction to networks
+  - bringing it all together
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to networks different from bringing it all together?
+- candidate_id: q0024
+  relevant_topics:
+  - important nodes
+  - structures
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is important nodes different from structures?
+- candidate_id: q0025
+  relevant_topics:
+  - important nodes
+  - bringing it all together
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is important nodes different from bringing it all together?
+- candidate_id: q0026
+  relevant_topics:
+  - structures
+  - bringing it all together
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is structures different from bringing it all together?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is introduction to networks?
+  final_text: What is introduction to networks?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does introduction to networks mean?
+  final_text: What does introduction to networks mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does introduction to networks matter?
+  final_text: Why does introduction to networks matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use introduction to networks?
+  final_text: Why does introduction to networks?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of introduction to networks?
+  final_text: What is a simple example of introduction to networks?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is important nodes?
+  final_text: What is important nodes?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does important nodes mean?
+  final_text: What does important nodes mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does important nodes matter?
+  final_text: Why does important nodes matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use important nodes?
+  final_text: Why does important nodes?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of important nodes?
+  final_text: What is a simple example of important nodes?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is structures?
+  final_text: What is structures?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does structures mean?
+  final_text: What does structures mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does structures matter?
+  final_text: Why does structures matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use structures?
+  final_text: Why does structures?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of structures?
+  final_text: What is a simple example of structures?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is bringing it all together?
+  final_text: What is bringing it all together?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does bringing it all together mean?
+  final_text: What does bringing it all together mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does bringing it all together matter?
+  final_text: Why does bringing it all together matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use bringing it all together?
+  final_text: Why does bringing it all together?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of bringing it all together?
+  final_text: What is a simple example of bringing it all together?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: How is introduction to networks different from important nodes?
+  final_text: How is introduction to networks different from important nodes?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: How is introduction to networks different from structures?
+  final_text: How is introduction to networks different from structures?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: How is introduction to networks different from bringing it all together?
+  final_text: How is introduction to networks different from bringing it all together?
+  reject_reason: null
+- candidate_id: q0024
+  status: accepted
+  original_text: How is important nodes different from structures?
+  final_text: How is important nodes different from structures?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: How is important nodes different from bringing it all together?
+  final_text: How is important nodes different from bringing it all together?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: How is structures different from bringing it all together?
+  final_text: How is structures different from bringing it all together?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is introduction to networks?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does introduction to networks mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does introduction to networks matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does introduction to networks?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of introduction to networks?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is important nodes?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does important nodes mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does important nodes matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does important nodes?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of important nodes?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is structures?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does structures mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does structures matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does structures?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of structures?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is bringing it all together?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does bringing it all together mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does bringing it all together matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does bringing it all together?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of bringing it all together?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: How is introduction to networks different from important nodes?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: How is introduction to networks different from structures?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: How is introduction to networks different from bringing it all together?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: How is important nodes different from structures?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: How is important nodes different from bringing it all together?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: How is structures different from bringing it all together?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24510'
+    title: Introduction to Network Analysis in Python
+  relevant_topics:
+  - introduction to networks
+  question_text: What is introduction to networks?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24510'
+    title: Introduction to Network Analysis in Python
+  relevant_topics:
+  - introduction to networks
+  question_text: What does introduction to networks mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24510'
+    title: Introduction to Network Analysis in Python
+  relevant_topics:
+  - introduction to networks
+  question_text: Why does introduction to networks matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24510'
+    title: Introduction to Network Analysis in Python
+  relevant_topics:
+  - introduction to networks
+  question_text: Why does introduction to networks?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24510'
+    title: Introduction to Network Analysis in Python
+  relevant_topics:
+  - introduction to networks
+  question_text: What is a simple example of introduction to networks?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24510'
+    title: Introduction to Network Analysis in Python
+  relevant_topics:
+  - important nodes
+  question_text: What is important nodes?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24510'
+    title: Introduction to Network Analysis in Python
+  relevant_topics:
+  - important nodes
+  question_text: What does important nodes mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24510'
+    title: Introduction to Network Analysis in Python
+  relevant_topics:
+  - important nodes
+  question_text: Why does important nodes matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24510'
+    title: Introduction to Network Analysis in Python
+  relevant_topics:
+  - important nodes
+  question_text: Why does important nodes?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24510'
+    title: Introduction to Network Analysis in Python
+  relevant_topics:
+  - important nodes
+  question_text: What is a simple example of important nodes?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24510'
+    title: Introduction to Network Analysis in Python
+  relevant_topics:
+  - structures
+  question_text: What is structures?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24510'
+    title: Introduction to Network Analysis in Python
+  relevant_topics:
+  - structures
+  question_text: What does structures mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24510'
+    title: Introduction to Network Analysis in Python
+  relevant_topics:
+  - structures
+  question_text: Why does structures matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24510'
+    title: Introduction to Network Analysis in Python
+  relevant_topics:
+  - structures
+  question_text: Why does structures?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24510'
+    title: Introduction to Network Analysis in Python
+  relevant_topics:
+  - structures
+  question_text: What is a simple example of structures?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24510'
+    title: Introduction to Network Analysis in Python
+  relevant_topics:
+  - bringing it all together
+  question_text: What is bringing it all together?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24510'
+    title: Introduction to Network Analysis in Python
+  relevant_topics:
+  - bringing it all together
+  question_text: What does bringing it all together mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24510'
+    title: Introduction to Network Analysis in Python
+  relevant_topics:
+  - bringing it all together
+  question_text: Why does bringing it all together matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24510'
+    title: Introduction to Network Analysis in Python
+  relevant_topics:
+  - bringing it all together
+  question_text: Why does bringing it all together?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24510'
+    title: Introduction to Network Analysis in Python
+  relevant_topics:
+  - bringing it all together
+  question_text: What is a simple example of bringing it all together?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24510'
+    title: Introduction to Network Analysis in Python
+  relevant_topics:
+  - introduction to networks
+  - important nodes
+  question_text: How is introduction to networks different from important nodes?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24510'
+    title: Introduction to Network Analysis in Python
+  relevant_topics:
+  - introduction to networks
+  - structures
+  question_text: How is introduction to networks different from structures?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24510'
+    title: Introduction to Network Analysis in Python
+  relevant_topics:
+  - introduction to networks
+  - bringing it all together
+  question_text: How is introduction to networks different from bringing it all together?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24510'
+    title: Introduction to Network Analysis in Python
+  relevant_topics:
+  - important nodes
+  - structures
+  question_text: How is important nodes different from structures?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24510'
+    title: Introduction to Network Analysis in Python
+  relevant_topics:
+  - important nodes
+  - bringing it all together
+  question_text: How is important nodes different from bringing it all together?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24510'
+    title: Introduction to Network Analysis in Python
+  relevant_topics:
+  - structures
+  - bringing it all together
+  question_text: How is structures different from bringing it all together?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 4
+  canonical_topic_count: 4
+  candidate_count: 26
+  accepted_count: 26
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 26

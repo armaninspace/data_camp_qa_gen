@@ -1,0 +1,1788 @@
+course_id: '24637'
+title: Inference for Categorical Data in R
+normalized_course:
+  course_id: '24637'
+  title: Inference for Categorical Data in R
+  provider: DataCamp
+  summary: 'In this course you''ll learn how to leverage statistical techniques for
+
+    working with categorical data.'
+  overview: 'Inference for a single parameter
+
+
+    In this chapter you will learn how to perform statistical inference on a
+
+    single parameter that describes categorical data. This includes both
+
+    resampling based methods and approximation based methods for a single
+
+    proportion.
+
+
+    Proportions: testing and power
+
+
+    This chapter dives deeper into performing hypothesis tests and creating
+
+    confidence intervals for a single parameter. Then, you''ll learn how to
+
+    perform inference on a difference between two proportions. Finally, this
+
+    chapter wraps up with an exploration of what happens when you know the null
+
+    hypothesis is true.
+
+
+    Comparing many parameters: independence
+
+
+    This part of the course will teach you how to use both resampling methods
+
+    and classical methods to test for the indepence of two categorical
+
+    variables. This chapter covers how to perform a Chi-squared test.
+
+
+    Comparing many parameters: goodness of fit
+
+
+    The course wraps up with two case studies using election data. Here, you''ll
+
+    learn how to use a Chi-squared test to check goodness-of-fit. You''ll study
+
+    election results from Iran and Iowa and test if Benford''s law applies to
+
+    these datasets.'
+  chapters:
+  - chapter_index: 1
+    title: Inference for a single parameter
+    summary: 'In this chapter you will learn how to perform statistical inference
+
+      on a single parameter that describes categorical data. This includes
+
+      both resampling based methods and approximation based methods for a
+
+      single proportion.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 2
+    title: 'Proportions: testing and power'
+    summary: 'This chapter dives deeper into performing hypothesis tests and
+
+      creating confidence intervals for a single parameter. Then, you''ll
+
+      learn how to perform inference on a difference between two
+
+      proportions. Finally, this chapter wraps up with an exploration of
+
+      what happens when you know the null hypothesis is true.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 3
+    title: 'Comparing many parameters: independence'
+    summary: 'This part of the course will teach you how to use both resampling
+
+      methods and classical methods to test for the indepence of two
+
+      categorical variables. This chapter covers how to perform a
+
+      Chi-squared test.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 4
+    title: 'Comparing many parameters: goodness of fit'
+    summary: 'The course wraps up with two case studies using election data. Here,
+
+      you''ll learn how to use a Chi-squared test to check goodness-of-fit.
+
+      You''ll study election results from Iran and Iowa and test if
+
+      Benford''s law applies to these datasets.'
+    source: syllabus
+    confidence: 1.0
+  metadata:
+    level: Intermediate
+    duration_hours: 4 hours
+    subjects:
+    - R Programming
+    - Hypothesis Testing
+    - Confidence Intervals
+    - Statistical Inference
+    - Chi-squared Tests
+    - Categorical Data Analysis
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: inference for a single parameter
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: inference for a single parameter'
+  evidence:
+  - source: syllabus
+    text: Inference for a single parameter
+  confidence: 0.45
+- topic_id: t002
+  label: 'proportions: testing'
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: proportions: testing'
+  evidence:
+  - source: syllabus
+    text: 'Proportions: testing and power'
+  confidence: 0.55
+- topic_id: t003
+  label: power
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: power'
+  evidence:
+  - source: syllabus
+    text: 'Proportions: testing and power'
+  confidence: 0.55
+- topic_id: t004
+  label: 'comparing many parameters: independence'
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: comparing many parameters: independence'
+  evidence:
+  - source: syllabus
+    text: 'Comparing many parameters: independence'
+  confidence: 0.45
+- topic_id: t005
+  label: 'comparing many parameters: goodness of fit'
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: comparing many parameters: goodness
+    of fit'
+  evidence:
+  - source: syllabus
+    text: 'Comparing many parameters: goodness of fit'
+  confidence: 0.45
+- topic_id: t006
+  label: categorical data
+  topic_type: concept
+  description: 'Topic mined from course text: categorical data'
+  evidence:
+  - source: overview
+    text: categorical data
+  confidence: 0.75
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: inference for a single parameter
+  aliases:
+  - inference for a single parameter
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: 'proportions: testing'
+  aliases:
+  - 'proportions: testing'
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: power
+  aliases:
+  - power
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: 'comparing many parameters: independence'
+  aliases:
+  - 'comparing many parameters: independence'
+  member_topic_ids:
+  - t004
+  topic_type: concept
+- canonical_topic_id: ct_005
+  label: 'comparing many parameters: goodness of fit'
+  aliases:
+  - 'comparing many parameters: goodness of fit'
+  member_topic_ids:
+  - t005
+  topic_type: concept
+- canonical_topic_id: ct_006
+  label: categorical data
+  aliases:
+  - categorical data
+  member_topic_ids:
+  - t006
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - inference for a single parameter
+  family: entry
+  pattern: What is {x}?
+  question_text: What is inference for a single parameter?
+- candidate_id: q0002
+  relevant_topics:
+  - inference for a single parameter
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does inference for a single parameter mean?
+- candidate_id: q0003
+  relevant_topics:
+  - inference for a single parameter
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does inference for a single parameter matter?
+- candidate_id: q0004
+  relevant_topics:
+  - inference for a single parameter
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use inference for a single parameter?
+- candidate_id: q0005
+  relevant_topics:
+  - inference for a single parameter
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of inference for a single parameter?
+- candidate_id: q0006
+  relevant_topics:
+  - 'proportions: testing'
+  family: entry
+  pattern: What is {x}?
+  question_text: 'What is proportions: testing?'
+- candidate_id: q0007
+  relevant_topics:
+  - 'proportions: testing'
+  family: entry
+  pattern: What does {x} mean?
+  question_text: 'What does proportions: testing mean?'
+- candidate_id: q0008
+  relevant_topics:
+  - 'proportions: testing'
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: 'Why does proportions: testing matter?'
+- candidate_id: q0009
+  relevant_topics:
+  - 'proportions: testing'
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: 'Why do we use proportions: testing?'
+- candidate_id: q0010
+  relevant_topics:
+  - 'proportions: testing'
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: 'What is a simple example of proportions: testing?'
+- candidate_id: q0011
+  relevant_topics:
+  - power
+  family: entry
+  pattern: What is {x}?
+  question_text: What is power?
+- candidate_id: q0012
+  relevant_topics:
+  - power
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does power mean?
+- candidate_id: q0013
+  relevant_topics:
+  - power
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does power matter?
+- candidate_id: q0014
+  relevant_topics:
+  - power
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use power?
+- candidate_id: q0015
+  relevant_topics:
+  - power
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of power?
+- candidate_id: q0016
+  relevant_topics:
+  - 'comparing many parameters: independence'
+  family: entry
+  pattern: What is {x}?
+  question_text: 'What is comparing many parameters: independence?'
+- candidate_id: q0017
+  relevant_topics:
+  - 'comparing many parameters: independence'
+  family: entry
+  pattern: What does {x} mean?
+  question_text: 'What does comparing many parameters: independence mean?'
+- candidate_id: q0018
+  relevant_topics:
+  - 'comparing many parameters: independence'
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: 'Why does comparing many parameters: independence matter?'
+- candidate_id: q0019
+  relevant_topics:
+  - 'comparing many parameters: independence'
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: 'Why do we use comparing many parameters: independence?'
+- candidate_id: q0020
+  relevant_topics:
+  - 'comparing many parameters: independence'
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: 'What is a simple example of comparing many parameters: independence?'
+- candidate_id: q0021
+  relevant_topics:
+  - 'comparing many parameters: goodness of fit'
+  family: entry
+  pattern: What is {x}?
+  question_text: 'What is comparing many parameters: goodness of fit?'
+- candidate_id: q0022
+  relevant_topics:
+  - 'comparing many parameters: goodness of fit'
+  family: entry
+  pattern: What does {x} mean?
+  question_text: 'What does comparing many parameters: goodness of fit mean?'
+- candidate_id: q0023
+  relevant_topics:
+  - 'comparing many parameters: goodness of fit'
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: 'Why does comparing many parameters: goodness of fit matter?'
+- candidate_id: q0024
+  relevant_topics:
+  - 'comparing many parameters: goodness of fit'
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: 'Why do we use comparing many parameters: goodness of fit?'
+- candidate_id: q0025
+  relevant_topics:
+  - 'comparing many parameters: goodness of fit'
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: 'What is a simple example of comparing many parameters: goodness
+    of fit?'
+- candidate_id: q0026
+  relevant_topics:
+  - categorical data
+  family: entry
+  pattern: What is {x}?
+  question_text: What is categorical data?
+- candidate_id: q0027
+  relevant_topics:
+  - categorical data
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does categorical data mean?
+- candidate_id: q0028
+  relevant_topics:
+  - categorical data
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does categorical data matter?
+- candidate_id: q0029
+  relevant_topics:
+  - categorical data
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use categorical data?
+- candidate_id: q0030
+  relevant_topics:
+  - categorical data
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of categorical data?
+- candidate_id: q0031
+  relevant_topics:
+  - inference for a single parameter
+  - 'proportions: testing'
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: 'How is inference for a single parameter different from proportions:
+    testing?'
+- candidate_id: q0032
+  relevant_topics:
+  - inference for a single parameter
+  - power
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is inference for a single parameter different from power?
+- candidate_id: q0033
+  relevant_topics:
+  - inference for a single parameter
+  - 'comparing many parameters: independence'
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: 'How is inference for a single parameter different from comparing
+    many parameters: independence?'
+- candidate_id: q0034
+  relevant_topics:
+  - inference for a single parameter
+  - 'comparing many parameters: goodness of fit'
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: 'How is inference for a single parameter different from comparing
+    many parameters: goodness of fit?'
+- candidate_id: q0035
+  relevant_topics:
+  - inference for a single parameter
+  - categorical data
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is inference for a single parameter different from categorical
+    data?
+- candidate_id: q0036
+  relevant_topics:
+  - 'proportions: testing'
+  - power
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: 'How is proportions: testing different from power?'
+- candidate_id: q0037
+  relevant_topics:
+  - 'proportions: testing'
+  - 'comparing many parameters: independence'
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: 'How is proportions: testing different from comparing many parameters:
+    independence?'
+- candidate_id: q0038
+  relevant_topics:
+  - 'proportions: testing'
+  - 'comparing many parameters: goodness of fit'
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: 'How is proportions: testing different from comparing many parameters:
+    goodness of fit?'
+- candidate_id: q0039
+  relevant_topics:
+  - 'proportions: testing'
+  - categorical data
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: 'How is proportions: testing different from categorical data?'
+- candidate_id: q0040
+  relevant_topics:
+  - power
+  - 'comparing many parameters: independence'
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: 'How is power different from comparing many parameters: independence?'
+- candidate_id: q0041
+  relevant_topics:
+  - power
+  - 'comparing many parameters: goodness of fit'
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: 'How is power different from comparing many parameters: goodness
+    of fit?'
+- candidate_id: q0042
+  relevant_topics:
+  - power
+  - categorical data
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is power different from categorical data?
+- candidate_id: q0043
+  relevant_topics:
+  - 'comparing many parameters: independence'
+  - 'comparing many parameters: goodness of fit'
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: 'How is comparing many parameters: independence different from comparing
+    many parameters: goodness of fit?'
+- candidate_id: q0044
+  relevant_topics:
+  - 'comparing many parameters: independence'
+  - categorical data
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: 'How is comparing many parameters: independence different from categorical
+    data?'
+- candidate_id: q0045
+  relevant_topics:
+  - 'comparing many parameters: goodness of fit'
+  - categorical data
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: 'How is comparing many parameters: goodness of fit different from
+    categorical data?'
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is inference for a single parameter?
+  final_text: What is inference for a single parameter?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does inference for a single parameter mean?
+  final_text: What does inference for a single parameter mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does inference for a single parameter matter?
+  final_text: Why does inference for a single parameter matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use inference for a single parameter?
+  final_text: Why does inference for a single parameter?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of inference for a single parameter?
+  final_text: What is a simple example of inference for a single parameter?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: 'What is proportions: testing?'
+  final_text: 'What is proportions: testing?'
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: 'What does proportions: testing mean?'
+  final_text: 'What does proportions: testing mean?'
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: 'Why does proportions: testing matter?'
+  final_text: 'Why does proportions: testing matter?'
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: 'Why do we use proportions: testing?'
+  final_text: 'Why does proportions: testing?'
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: 'What is a simple example of proportions: testing?'
+  final_text: 'What is a simple example of proportions: testing?'
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is power?
+  final_text: What is power?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does power mean?
+  final_text: What does power mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does power matter?
+  final_text: Why does power matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use power?
+  final_text: Why does power?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of power?
+  final_text: What is a simple example of power?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: 'What is comparing many parameters: independence?'
+  final_text: 'What is comparing many parameters: independence?'
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: 'What does comparing many parameters: independence mean?'
+  final_text: 'What does comparing many parameters: independence mean?'
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: 'Why does comparing many parameters: independence matter?'
+  final_text: 'Why does comparing many parameters: independence matter?'
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: 'Why do we use comparing many parameters: independence?'
+  final_text: 'Why does comparing many parameters: independence?'
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: 'What is a simple example of comparing many parameters: independence?'
+  final_text: 'What is a simple example of comparing many parameters: independence?'
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: 'What is comparing many parameters: goodness of fit?'
+  final_text: 'What is comparing many parameters: goodness of fit?'
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: 'What does comparing many parameters: goodness of fit mean?'
+  final_text: 'What does comparing many parameters: goodness of fit mean?'
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: 'Why does comparing many parameters: goodness of fit matter?'
+  final_text: 'Why does comparing many parameters: goodness of fit matter?'
+  reject_reason: null
+- candidate_id: q0024
+  status: repaired
+  original_text: 'Why do we use comparing many parameters: goodness of fit?'
+  final_text: 'Why does comparing many parameters: goodness of fit?'
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: 'What is a simple example of comparing many parameters: goodness
+    of fit?'
+  final_text: 'What is a simple example of comparing many parameters: goodness of
+    fit?'
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: What is categorical data?
+  final_text: What is categorical data?
+  reject_reason: null
+- candidate_id: q0027
+  status: accepted
+  original_text: What does categorical data mean?
+  final_text: What does categorical data mean?
+  reject_reason: null
+- candidate_id: q0028
+  status: accepted
+  original_text: Why does categorical data matter?
+  final_text: Why does categorical data matter?
+  reject_reason: null
+- candidate_id: q0029
+  status: repaired
+  original_text: Why do we use categorical data?
+  final_text: Why does categorical data?
+  reject_reason: null
+- candidate_id: q0030
+  status: accepted
+  original_text: What is a simple example of categorical data?
+  final_text: What is a simple example of categorical data?
+  reject_reason: null
+- candidate_id: q0031
+  status: accepted
+  original_text: 'How is inference for a single parameter different from proportions:
+    testing?'
+  final_text: 'How is inference for a single parameter different from proportions:
+    testing?'
+  reject_reason: null
+- candidate_id: q0032
+  status: accepted
+  original_text: How is inference for a single parameter different from power?
+  final_text: How is inference for a single parameter different from power?
+  reject_reason: null
+- candidate_id: q0033
+  status: accepted
+  original_text: 'How is inference for a single parameter different from comparing
+    many parameters: independence?'
+  final_text: 'How is inference for a single parameter different from comparing many
+    parameters: independence?'
+  reject_reason: null
+- candidate_id: q0034
+  status: accepted
+  original_text: 'How is inference for a single parameter different from comparing
+    many parameters: goodness of fit?'
+  final_text: 'How is inference for a single parameter different from comparing many
+    parameters: goodness of fit?'
+  reject_reason: null
+- candidate_id: q0035
+  status: accepted
+  original_text: How is inference for a single parameter different from categorical
+    data?
+  final_text: How is inference for a single parameter different from categorical data?
+  reject_reason: null
+- candidate_id: q0036
+  status: accepted
+  original_text: 'How is proportions: testing different from power?'
+  final_text: 'How is proportions: testing different from power?'
+  reject_reason: null
+- candidate_id: q0037
+  status: accepted
+  original_text: 'How is proportions: testing different from comparing many parameters:
+    independence?'
+  final_text: 'How is proportions: testing different from comparing many parameters:
+    independence?'
+  reject_reason: null
+- candidate_id: q0038
+  status: accepted
+  original_text: 'How is proportions: testing different from comparing many parameters:
+    goodness of fit?'
+  final_text: 'How is proportions: testing different from comparing many parameters:
+    goodness of fit?'
+  reject_reason: null
+- candidate_id: q0039
+  status: accepted
+  original_text: 'How is proportions: testing different from categorical data?'
+  final_text: 'How is proportions: testing different from categorical data?'
+  reject_reason: null
+- candidate_id: q0040
+  status: accepted
+  original_text: 'How is power different from comparing many parameters: independence?'
+  final_text: 'How is power different from comparing many parameters: independence?'
+  reject_reason: null
+- candidate_id: q0041
+  status: accepted
+  original_text: 'How is power different from comparing many parameters: goodness
+    of fit?'
+  final_text: 'How is power different from comparing many parameters: goodness of
+    fit?'
+  reject_reason: null
+- candidate_id: q0042
+  status: accepted
+  original_text: How is power different from categorical data?
+  final_text: How is power different from categorical data?
+  reject_reason: null
+- candidate_id: q0043
+  status: accepted
+  original_text: 'How is comparing many parameters: independence different from comparing
+    many parameters: goodness of fit?'
+  final_text: 'How is comparing many parameters: independence different from comparing
+    many parameters: goodness of fit?'
+  reject_reason: null
+- candidate_id: q0044
+  status: accepted
+  original_text: 'How is comparing many parameters: independence different from categorical
+    data?'
+  final_text: 'How is comparing many parameters: independence different from categorical
+    data?'
+  reject_reason: null
+- candidate_id: q0045
+  status: accepted
+  original_text: 'How is comparing many parameters: goodness of fit different from
+    categorical data?'
+  final_text: 'How is comparing many parameters: goodness of fit different from categorical
+    data?'
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is inference for a single parameter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does inference for a single parameter mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does inference for a single parameter matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does inference for a single parameter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of inference for a single parameter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: 'What is proportions: testing?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: 'What does proportions: testing mean?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: 'Why does proportions: testing matter?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: 'Why does proportions: testing?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: 'What is a simple example of proportions: testing?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is power?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does power mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does power matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does power?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of power?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: 'What is comparing many parameters: independence?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: 'What does comparing many parameters: independence mean?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: 'Why does comparing many parameters: independence matter?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: 'Why does comparing many parameters: independence?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: 'What is a simple example of comparing many parameters: independence?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: 'What is comparing many parameters: goodness of fit?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: 'What does comparing many parameters: goodness of fit mean?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: 'Why does comparing many parameters: goodness of fit matter?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: 'Why does comparing many parameters: goodness of fit?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: 'What is a simple example of comparing many parameters: goodness
+    of fit?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: What is categorical data?
+  answer_text: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  confidence: 0.82
+  evidence:
+  - source: overview
+    text: category labels
+- question_id: q0027
+  question_text: What does categorical data mean?
+  answer_text: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  confidence: 0.82
+  evidence:
+  - source: overview
+    text: category labels
+- question_id: q0028
+  question_text: Why does categorical data matter?
+  answer_text: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  confidence: 0.82
+  evidence:
+  - source: overview
+    text: category labels
+- question_id: q0029
+  question_text: Why does categorical data?
+  answer_text: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  confidence: 0.82
+  evidence:
+  - source: overview
+    text: category labels
+- question_id: q0030
+  question_text: What is a simple example of categorical data?
+  answer_text: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  confidence: 0.82
+  evidence:
+  - source: overview
+    text: category labels
+- question_id: q0031
+  question_text: 'How is inference for a single parameter different from proportions:
+    testing?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0032
+  question_text: How is inference for a single parameter different from power?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0033
+  question_text: 'How is inference for a single parameter different from comparing
+    many parameters: independence?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0034
+  question_text: 'How is inference for a single parameter different from comparing
+    many parameters: goodness of fit?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0035
+  question_text: How is inference for a single parameter different from categorical
+    data?
+  answer_text: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  confidence: 0.82
+  evidence:
+  - source: overview
+    text: category labels
+- question_id: q0036
+  question_text: 'How is proportions: testing different from power?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0037
+  question_text: 'How is proportions: testing different from comparing many parameters:
+    independence?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0038
+  question_text: 'How is proportions: testing different from comparing many parameters:
+    goodness of fit?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0039
+  question_text: 'How is proportions: testing different from categorical data?'
+  answer_text: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  confidence: 0.82
+  evidence:
+  - source: overview
+    text: category labels
+- question_id: q0040
+  question_text: 'How is power different from comparing many parameters: independence?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0041
+  question_text: 'How is power different from comparing many parameters: goodness
+    of fit?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0042
+  question_text: How is power different from categorical data?
+  answer_text: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  confidence: 0.82
+  evidence:
+  - source: overview
+    text: category labels
+- question_id: q0043
+  question_text: 'How is comparing many parameters: independence different from comparing
+    many parameters: goodness of fit?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0044
+  question_text: 'How is comparing many parameters: independence different from categorical
+    data?'
+  answer_text: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  confidence: 0.82
+  evidence:
+  - source: overview
+    text: category labels
+- question_id: q0045
+  question_text: 'How is comparing many parameters: goodness of fit different from
+    categorical data?'
+  answer_text: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  confidence: 0.82
+  evidence:
+  - source: overview
+    text: category labels
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - inference for a single parameter
+  question_text: What is inference for a single parameter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - inference for a single parameter
+  question_text: What does inference for a single parameter mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - inference for a single parameter
+  question_text: Why does inference for a single parameter matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - inference for a single parameter
+  question_text: Why does inference for a single parameter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - inference for a single parameter
+  question_text: What is a simple example of inference for a single parameter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - 'proportions: testing'
+  question_text: 'What is proportions: testing?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - 'proportions: testing'
+  question_text: 'What does proportions: testing mean?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - 'proportions: testing'
+  question_text: 'Why does proportions: testing matter?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - 'proportions: testing'
+  question_text: 'Why does proportions: testing?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - 'proportions: testing'
+  question_text: 'What is a simple example of proportions: testing?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - power
+  question_text: What is power?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - power
+  question_text: What does power mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - power
+  question_text: Why does power matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - power
+  question_text: Why does power?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - power
+  question_text: What is a simple example of power?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - 'comparing many parameters: independence'
+  question_text: 'What is comparing many parameters: independence?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - 'comparing many parameters: independence'
+  question_text: 'What does comparing many parameters: independence mean?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - 'comparing many parameters: independence'
+  question_text: 'Why does comparing many parameters: independence matter?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - 'comparing many parameters: independence'
+  question_text: 'Why does comparing many parameters: independence?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - 'comparing many parameters: independence'
+  question_text: 'What is a simple example of comparing many parameters: independence?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - 'comparing many parameters: goodness of fit'
+  question_text: 'What is comparing many parameters: goodness of fit?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - 'comparing many parameters: goodness of fit'
+  question_text: 'What does comparing many parameters: goodness of fit mean?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - 'comparing many parameters: goodness of fit'
+  question_text: 'Why does comparing many parameters: goodness of fit matter?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - 'comparing many parameters: goodness of fit'
+  question_text: 'Why does comparing many parameters: goodness of fit?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - 'comparing many parameters: goodness of fit'
+  question_text: 'What is a simple example of comparing many parameters: goodness
+    of fit?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - categorical data
+  question_text: What is categorical data?
+  question_answer: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: category labels
+- row_id: r_000027
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - categorical data
+  question_text: What does categorical data mean?
+  question_answer: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: category labels
+- row_id: r_000028
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - categorical data
+  question_text: Why does categorical data matter?
+  question_answer: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: category labels
+- row_id: r_000029
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - categorical data
+  question_text: Why does categorical data?
+  question_answer: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: category labels
+- row_id: r_000030
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - categorical data
+  question_text: What is a simple example of categorical data?
+  question_answer: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: category labels
+- row_id: r_000031
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - inference for a single parameter
+  - 'proportions: testing'
+  question_text: 'How is inference for a single parameter different from proportions:
+    testing?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000032
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - inference for a single parameter
+  - power
+  question_text: How is inference for a single parameter different from power?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000033
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - inference for a single parameter
+  - 'comparing many parameters: independence'
+  question_text: 'How is inference for a single parameter different from comparing
+    many parameters: independence?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000034
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - inference for a single parameter
+  - 'comparing many parameters: goodness of fit'
+  question_text: 'How is inference for a single parameter different from comparing
+    many parameters: goodness of fit?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000035
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - inference for a single parameter
+  - categorical data
+  question_text: How is inference for a single parameter different from categorical
+    data?
+  question_answer: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: category labels
+- row_id: r_000036
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - 'proportions: testing'
+  - power
+  question_text: 'How is proportions: testing different from power?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000037
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - 'proportions: testing'
+  - 'comparing many parameters: independence'
+  question_text: 'How is proportions: testing different from comparing many parameters:
+    independence?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000038
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - 'proportions: testing'
+  - 'comparing many parameters: goodness of fit'
+  question_text: 'How is proportions: testing different from comparing many parameters:
+    goodness of fit?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000039
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - 'proportions: testing'
+  - categorical data
+  question_text: 'How is proportions: testing different from categorical data?'
+  question_answer: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: category labels
+- row_id: r_000040
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - power
+  - 'comparing many parameters: independence'
+  question_text: 'How is power different from comparing many parameters: independence?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000041
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - power
+  - 'comparing many parameters: goodness of fit'
+  question_text: 'How is power different from comparing many parameters: goodness
+    of fit?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000042
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - power
+  - categorical data
+  question_text: How is power different from categorical data?
+  question_answer: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: category labels
+- row_id: r_000043
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - 'comparing many parameters: independence'
+  - 'comparing many parameters: goodness of fit'
+  question_text: 'How is comparing many parameters: independence different from comparing
+    many parameters: goodness of fit?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000044
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - 'comparing many parameters: independence'
+  - categorical data
+  question_text: 'How is comparing many parameters: independence different from categorical
+    data?'
+  question_answer: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: category labels
+- row_id: r_000045
+  course:
+    course_id: '24637'
+    title: Inference for Categorical Data in R
+  relevant_topics:
+  - 'comparing many parameters: goodness of fit'
+  - categorical data
+  question_text: 'How is comparing many parameters: goodness of fit different from
+    categorical data?'
+  question_answer: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: category labels
+summary:
+  topic_count: 6
+  canonical_topic_count: 6
+  candidate_count: 45
+  accepted_count: 45
+  rejected_count: 0
+  correct_count: 10
+  uncertain_count: 35

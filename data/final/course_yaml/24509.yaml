@@ -1,0 +1,3976 @@
+course_id: '24509'
+title: course, we’ll be looking at various data pipelines the data engineer is
+normalized_course:
+  course_id: '24509'
+  title: course, we’ll be looking at various data pipelines the data engineer is
+  provider: DataCamp
+  summary: 'Learn how to build and test data engineering pipelines in Python using
+
+    PySpark and Apache Airflow.'
+  overview: 'Learn how to build and test data engineering pipelines in Python using
+
+    PySpark and Apache Airflow.
+
+
+    In any data-driven company, you will undoubtedly cross paths with data
+
+    engineers. Among other things, they facilitate some of your work by making
+
+    data readily available to everyone within the organization, and possibly in
+
+    bringing machine learning models into production. One way to speed up this
+
+    process is through building an understanding of what it means to bring
+
+    processes into production and what features are of high-grade code. In this
+
+    course, we’ll be looking at various data pipelines the data engineer is
+
+    building, and how some of the tools he or she is using can help you in
+
+    getting your models into production or run repetitive tasks consistently and
+
+    efficiently.
+
+
+    In this course, we illustrate common elements of data engineering pipelines.
+
+    In Chapter 1, you will learn how to ingest data. Chapter 2 will go one step
+
+    further with cleaning and transforming data. In Chapter 3, you will learn
+
+    how to safely deploy code. Finally, in Chapter 4 you will schedule complex
+
+    dependencies between applications.
+
+
+    Building Data Engineering Pipelines covers new technologies and material, so
+
+    we recommend that you have a strong understanding of the prerequisites to
+
+    get the most out of this course.'
+  chapters:
+  - chapter_index: 1
+    title: Learn how to build and test data engineering pipelines in Python using
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 2
+    title: In any data-driven company, you will undoubtedly cross paths with data
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 3
+    title: engineers. Among other things, they facilitate some of your work by making
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 4
+    title: data readily available to everyone within the organization, and possibly
+      in
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 5
+    title: bringing machine learning models into production. One way to speed up this
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 6
+    title: process is through building an understanding of what it means to bring
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 7
+    title: processes into production and what features are of high-grade code. In
+      this
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 8
+    title: course, we’ll be looking at various data pipelines the data engineer is
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  metadata:
+    level: Intermediate
+    duration_hours: 4 hours
+    subjects:
+    - Python
+    - Apache Airflow
+    - PySpark
+    - Unit Testing
+    - Data Transformation
+    - Data Engineering
+    - Data Ingestion
+    - ETL Pipelines
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: learn how to build
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: learn how to build'
+  evidence:
+  - source: overview_inferred
+    text: Learn how to build and test data engineering pipelines in Python using
+  confidence: 0.55
+- topic_id: t002
+  label: test data engineering pipelines in python using
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: test data engineering pipelines
+    in python using'
+  evidence:
+  - source: overview_inferred
+    text: Learn how to build and test data engineering pipelines in Python using
+  confidence: 0.55
+- topic_id: t003
+  label: in any data-driven company, you will undoubtedly cross paths with data
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: in any data-driven company, you
+    will undoubtedly cross paths with data'
+  evidence:
+  - source: overview_inferred
+    text: In any data-driven company, you will undoubtedly cross paths with data
+  confidence: 0.45
+- topic_id: t004
+  label: engineers. among other things, they facilitate some of your work by making
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: engineers. among other things,
+    they facilitate some of your work by making'
+  evidence:
+  - source: overview_inferred
+    text: engineers. Among other things, they facilitate some of your work by making
+  confidence: 0.45
+- topic_id: t005
+  label: data readily available to everyone within the organization
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: data readily available to everyone
+    within the organization'
+  evidence:
+  - source: overview_inferred
+    text: data readily available to everyone within the organization, and possibly
+      in
+  confidence: 0.55
+- topic_id: t006
+  label: possibly in
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: possibly in'
+  evidence:
+  - source: overview_inferred
+    text: data readily available to everyone within the organization, and possibly
+      in
+  confidence: 0.55
+- topic_id: t007
+  label: bringing machine learning models into production. one way to speed up this
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: bringing machine learning models
+    into production. one way to speed up this'
+  evidence:
+  - source: overview_inferred
+    text: bringing machine learning models into production. One way to speed up this
+  confidence: 0.45
+- topic_id: t008
+  label: process is through building an understanding of what it means to bring
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: process is through building an
+    understanding of what it means to bring'
+  evidence:
+  - source: overview_inferred
+    text: process is through building an understanding of what it means to bring
+  confidence: 0.45
+- topic_id: t009
+  label: processes into production
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: processes into production'
+  evidence:
+  - source: overview_inferred
+    text: processes into production and what features are of high-grade code. In this
+  confidence: 0.55
+- topic_id: t010
+  label: what features are of high-grade code. in this
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: what features are of high-grade
+    code. in this'
+  evidence:
+  - source: overview_inferred
+    text: processes into production and what features are of high-grade code. In this
+  confidence: 0.55
+- topic_id: t011
+  label: course, we’ll be looking at various data pipelines the data engineer is
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: course, we’ll be looking at various
+    data pipelines the data engineer is'
+  evidence:
+  - source: overview_inferred
+    text: course, we’ll be looking at various data pipelines the data engineer is
+  confidence: 0.45
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: learn how to build
+  aliases:
+  - learn how to build
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: test data engineering pipelines in python using
+  aliases:
+  - test data engineering pipelines in python using
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: in any data-driven company, you will undoubtedly cross paths with data
+  aliases:
+  - in any data-driven company, you will undoubtedly cross paths with data
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: engineers. among other things, they facilitate some of your work by making
+  aliases:
+  - engineers. among other things, they facilitate some of your work by making
+  member_topic_ids:
+  - t004
+  topic_type: concept
+- canonical_topic_id: ct_005
+  label: data readily available to everyone within organization
+  aliases:
+  - data readily available to everyone within the organization
+  member_topic_ids:
+  - t005
+  topic_type: concept
+- canonical_topic_id: ct_006
+  label: possibly in
+  aliases:
+  - possibly in
+  member_topic_ids:
+  - t006
+  topic_type: concept
+- canonical_topic_id: ct_007
+  label: bringing machine learning models into production. one way to speed up this
+  aliases:
+  - bringing machine learning models into production. one way to speed up this
+  member_topic_ids:
+  - t007
+  topic_type: concept
+- canonical_topic_id: ct_008
+  label: process is through building an understanding of what it means to bring
+  aliases:
+  - process is through building an understanding of what it means to bring
+  member_topic_ids:
+  - t008
+  topic_type: concept
+- canonical_topic_id: ct_009
+  label: processes into production
+  aliases:
+  - processes into production
+  member_topic_ids:
+  - t009
+  topic_type: concept
+- canonical_topic_id: ct_010
+  label: what features are of high-grade code. in this
+  aliases:
+  - what features are of high-grade code. in this
+  member_topic_ids:
+  - t010
+  topic_type: concept
+- canonical_topic_id: ct_011
+  label: course, we’ll be looking at various data pipelines data engineer is
+  aliases:
+  - course, we’ll be looking at various data pipelines the data engineer is
+  member_topic_ids:
+  - t011
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - learn how to build
+  family: entry
+  pattern: What is {x}?
+  question_text: What is learn how to build?
+- candidate_id: q0002
+  relevant_topics:
+  - learn how to build
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does learn how to build mean?
+- candidate_id: q0003
+  relevant_topics:
+  - learn how to build
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does learn how to build matter?
+- candidate_id: q0004
+  relevant_topics:
+  - learn how to build
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use learn how to build?
+- candidate_id: q0005
+  relevant_topics:
+  - learn how to build
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of learn how to build?
+- candidate_id: q0006
+  relevant_topics:
+  - test data engineering pipelines in python using
+  family: entry
+  pattern: What is {x}?
+  question_text: What is test data engineering pipelines in python using?
+- candidate_id: q0007
+  relevant_topics:
+  - test data engineering pipelines in python using
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does test data engineering pipelines in python using mean?
+- candidate_id: q0008
+  relevant_topics:
+  - test data engineering pipelines in python using
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does test data engineering pipelines in python using matter?
+- candidate_id: q0009
+  relevant_topics:
+  - test data engineering pipelines in python using
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use test data engineering pipelines in python using?
+- candidate_id: q0010
+  relevant_topics:
+  - test data engineering pipelines in python using
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of test data engineering pipelines in python
+    using?
+- candidate_id: q0011
+  relevant_topics:
+  - in any data-driven company, you will undoubtedly cross paths with data
+  family: entry
+  pattern: What is {x}?
+  question_text: What is in any data-driven company, you will undoubtedly cross paths
+    with data?
+- candidate_id: q0012
+  relevant_topics:
+  - in any data-driven company, you will undoubtedly cross paths with data
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does in any data-driven company, you will undoubtedly cross
+    paths with data mean?
+- candidate_id: q0013
+  relevant_topics:
+  - in any data-driven company, you will undoubtedly cross paths with data
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does in any data-driven company, you will undoubtedly cross paths
+    with data matter?
+- candidate_id: q0014
+  relevant_topics:
+  - in any data-driven company, you will undoubtedly cross paths with data
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use in any data-driven company, you will undoubtedly cross
+    paths with data?
+- candidate_id: q0015
+  relevant_topics:
+  - in any data-driven company, you will undoubtedly cross paths with data
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of in any data-driven company, you will
+    undoubtedly cross paths with data?
+- candidate_id: q0016
+  relevant_topics:
+  - engineers. among other things, they facilitate some of your work by making
+  family: entry
+  pattern: What is {x}?
+  question_text: What is engineers. among other things, they facilitate some of your
+    work by making?
+- candidate_id: q0017
+  relevant_topics:
+  - engineers. among other things, they facilitate some of your work by making
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does engineers. among other things, they facilitate some of
+    your work by making mean?
+- candidate_id: q0018
+  relevant_topics:
+  - engineers. among other things, they facilitate some of your work by making
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does engineers. among other things, they facilitate some of your
+    work by making matter?
+- candidate_id: q0019
+  relevant_topics:
+  - engineers. among other things, they facilitate some of your work by making
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use engineers. among other things, they facilitate some
+    of your work by making?
+- candidate_id: q0020
+  relevant_topics:
+  - engineers. among other things, they facilitate some of your work by making
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of engineers. among other things, they facilitate
+    some of your work by making?
+- candidate_id: q0021
+  relevant_topics:
+  - data readily available to everyone within organization
+  family: entry
+  pattern: What is {x}?
+  question_text: What is data readily available to everyone within organization?
+- candidate_id: q0022
+  relevant_topics:
+  - data readily available to everyone within organization
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does data readily available to everyone within organization
+    mean?
+- candidate_id: q0023
+  relevant_topics:
+  - data readily available to everyone within organization
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does data readily available to everyone within organization matter?
+- candidate_id: q0024
+  relevant_topics:
+  - data readily available to everyone within organization
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use data readily available to everyone within organization?
+- candidate_id: q0025
+  relevant_topics:
+  - data readily available to everyone within organization
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of data readily available to everyone within
+    organization?
+- candidate_id: q0026
+  relevant_topics:
+  - possibly in
+  family: entry
+  pattern: What is {x}?
+  question_text: What is possibly in?
+- candidate_id: q0027
+  relevant_topics:
+  - possibly in
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does possibly in mean?
+- candidate_id: q0028
+  relevant_topics:
+  - possibly in
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does possibly in matter?
+- candidate_id: q0029
+  relevant_topics:
+  - possibly in
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use possibly in?
+- candidate_id: q0030
+  relevant_topics:
+  - possibly in
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of possibly in?
+- candidate_id: q0031
+  relevant_topics:
+  - bringing machine learning models into production. one way to speed up this
+  family: entry
+  pattern: What is {x}?
+  question_text: What is bringing machine learning models into production. one way
+    to speed up this?
+- candidate_id: q0032
+  relevant_topics:
+  - bringing machine learning models into production. one way to speed up this
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does bringing machine learning models into production. one way
+    to speed up this mean?
+- candidate_id: q0033
+  relevant_topics:
+  - bringing machine learning models into production. one way to speed up this
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does bringing machine learning models into production. one way
+    to speed up this matter?
+- candidate_id: q0034
+  relevant_topics:
+  - bringing machine learning models into production. one way to speed up this
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use bringing machine learning models into production. one
+    way to speed up this?
+- candidate_id: q0035
+  relevant_topics:
+  - bringing machine learning models into production. one way to speed up this
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of bringing machine learning models into
+    production. one way to speed up this?
+- candidate_id: q0036
+  relevant_topics:
+  - process is through building an understanding of what it means to bring
+  family: entry
+  pattern: What is {x}?
+  question_text: What is process is through building an understanding of what it means
+    to bring?
+- candidate_id: q0037
+  relevant_topics:
+  - process is through building an understanding of what it means to bring
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does process is through building an understanding of what it
+    means to bring mean?
+- candidate_id: q0038
+  relevant_topics:
+  - process is through building an understanding of what it means to bring
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does process is through building an understanding of what it
+    means to bring matter?
+- candidate_id: q0039
+  relevant_topics:
+  - process is through building an understanding of what it means to bring
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use process is through building an understanding of what
+    it means to bring?
+- candidate_id: q0040
+  relevant_topics:
+  - process is through building an understanding of what it means to bring
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of process is through building an understanding
+    of what it means to bring?
+- candidate_id: q0041
+  relevant_topics:
+  - processes into production
+  family: entry
+  pattern: What is {x}?
+  question_text: What is processes into production?
+- candidate_id: q0042
+  relevant_topics:
+  - processes into production
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does processes into production mean?
+- candidate_id: q0043
+  relevant_topics:
+  - processes into production
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does processes into production matter?
+- candidate_id: q0044
+  relevant_topics:
+  - processes into production
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use processes into production?
+- candidate_id: q0045
+  relevant_topics:
+  - processes into production
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of processes into production?
+- candidate_id: q0046
+  relevant_topics:
+  - what features are of high-grade code. in this
+  family: entry
+  pattern: What is {x}?
+  question_text: What is what features are of high-grade code. in this?
+- candidate_id: q0047
+  relevant_topics:
+  - what features are of high-grade code. in this
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does what features are of high-grade code. in this mean?
+- candidate_id: q0048
+  relevant_topics:
+  - what features are of high-grade code. in this
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does what features are of high-grade code. in this matter?
+- candidate_id: q0049
+  relevant_topics:
+  - what features are of high-grade code. in this
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use what features are of high-grade code. in this?
+- candidate_id: q0050
+  relevant_topics:
+  - what features are of high-grade code. in this
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of what features are of high-grade code.
+    in this?
+- candidate_id: q0051
+  relevant_topics:
+  - course, we’ll be looking at various data pipelines data engineer is
+  family: entry
+  pattern: What is {x}?
+  question_text: What is course, we’ll be looking at various data pipelines data engineer
+    is?
+- candidate_id: q0052
+  relevant_topics:
+  - course, we’ll be looking at various data pipelines data engineer is
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does course, we’ll be looking at various data pipelines data
+    engineer is mean?
+- candidate_id: q0053
+  relevant_topics:
+  - course, we’ll be looking at various data pipelines data engineer is
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does course, we’ll be looking at various data pipelines data
+    engineer is matter?
+- candidate_id: q0054
+  relevant_topics:
+  - course, we’ll be looking at various data pipelines data engineer is
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use course, we’ll be looking at various data pipelines
+    data engineer is?
+- candidate_id: q0055
+  relevant_topics:
+  - course, we’ll be looking at various data pipelines data engineer is
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of course, we’ll be looking at various data
+    pipelines data engineer is?
+- candidate_id: q0056
+  relevant_topics:
+  - learn how to build
+  - test data engineering pipelines in python using
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is learn how to build different from test data engineering pipelines
+    in python using?
+- candidate_id: q0057
+  relevant_topics:
+  - learn how to build
+  - in any data-driven company, you will undoubtedly cross paths with data
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is learn how to build different from in any data-driven company,
+    you will undoubtedly cross paths with data?
+- candidate_id: q0058
+  relevant_topics:
+  - learn how to build
+  - engineers. among other things, they facilitate some of your work by making
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is learn how to build different from engineers. among other things,
+    they facilitate some of your work by making?
+- candidate_id: q0059
+  relevant_topics:
+  - learn how to build
+  - data readily available to everyone within organization
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is learn how to build different from data readily available to
+    everyone within organization?
+- candidate_id: q0060
+  relevant_topics:
+  - learn how to build
+  - possibly in
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is learn how to build different from possibly in?
+- candidate_id: q0061
+  relevant_topics:
+  - learn how to build
+  - bringing machine learning models into production. one way to speed up this
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is learn how to build different from bringing machine learning
+    models into production. one way to speed up this?
+- candidate_id: q0062
+  relevant_topics:
+  - learn how to build
+  - process is through building an understanding of what it means to bring
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is learn how to build different from process is through building
+    an understanding of what it means to bring?
+- candidate_id: q0063
+  relevant_topics:
+  - learn how to build
+  - processes into production
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is learn how to build different from processes into production?
+- candidate_id: q0064
+  relevant_topics:
+  - learn how to build
+  - what features are of high-grade code. in this
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is learn how to build different from what features are of high-grade
+    code. in this?
+- candidate_id: q0065
+  relevant_topics:
+  - test data engineering pipelines in python using
+  - in any data-driven company, you will undoubtedly cross paths with data
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is test data engineering pipelines in python using different
+    from in any data-driven company, you will undoubtedly cross paths with data?
+- candidate_id: q0066
+  relevant_topics:
+  - test data engineering pipelines in python using
+  - engineers. among other things, they facilitate some of your work by making
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is test data engineering pipelines in python using different
+    from engineers. among other things, they facilitate some of your work by making?
+- candidate_id: q0067
+  relevant_topics:
+  - test data engineering pipelines in python using
+  - data readily available to everyone within organization
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is test data engineering pipelines in python using different
+    from data readily available to everyone within organization?
+- candidate_id: q0068
+  relevant_topics:
+  - test data engineering pipelines in python using
+  - possibly in
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is test data engineering pipelines in python using different
+    from possibly in?
+- candidate_id: q0069
+  relevant_topics:
+  - test data engineering pipelines in python using
+  - bringing machine learning models into production. one way to speed up this
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is test data engineering pipelines in python using different
+    from bringing machine learning models into production. one way to speed up this?
+- candidate_id: q0070
+  relevant_topics:
+  - test data engineering pipelines in python using
+  - process is through building an understanding of what it means to bring
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is test data engineering pipelines in python using different
+    from process is through building an understanding of what it means to bring?
+- candidate_id: q0071
+  relevant_topics:
+  - test data engineering pipelines in python using
+  - processes into production
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is test data engineering pipelines in python using different
+    from processes into production?
+- candidate_id: q0072
+  relevant_topics:
+  - test data engineering pipelines in python using
+  - what features are of high-grade code. in this
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is test data engineering pipelines in python using different
+    from what features are of high-grade code. in this?
+- candidate_id: q0073
+  relevant_topics:
+  - in any data-driven company, you will undoubtedly cross paths with data
+  - engineers. among other things, they facilitate some of your work by making
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is in any data-driven company, you will undoubtedly cross paths
+    with data different from engineers. among other things, they facilitate some of
+    your work by making?
+- candidate_id: q0074
+  relevant_topics:
+  - in any data-driven company, you will undoubtedly cross paths with data
+  - data readily available to everyone within organization
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is in any data-driven company, you will undoubtedly cross paths
+    with data different from data readily available to everyone within organization?
+- candidate_id: q0075
+  relevant_topics:
+  - in any data-driven company, you will undoubtedly cross paths with data
+  - possibly in
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is in any data-driven company, you will undoubtedly cross paths
+    with data different from possibly in?
+- candidate_id: q0076
+  relevant_topics:
+  - in any data-driven company, you will undoubtedly cross paths with data
+  - bringing machine learning models into production. one way to speed up this
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is in any data-driven company, you will undoubtedly cross paths
+    with data different from bringing machine learning models into production. one
+    way to speed up this?
+- candidate_id: q0077
+  relevant_topics:
+  - in any data-driven company, you will undoubtedly cross paths with data
+  - process is through building an understanding of what it means to bring
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is in any data-driven company, you will undoubtedly cross paths
+    with data different from process is through building an understanding of what
+    it means to bring?
+- candidate_id: q0078
+  relevant_topics:
+  - in any data-driven company, you will undoubtedly cross paths with data
+  - processes into production
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is in any data-driven company, you will undoubtedly cross paths
+    with data different from processes into production?
+- candidate_id: q0079
+  relevant_topics:
+  - in any data-driven company, you will undoubtedly cross paths with data
+  - what features are of high-grade code. in this
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is in any data-driven company, you will undoubtedly cross paths
+    with data different from what features are of high-grade code. in this?
+- candidate_id: q0080
+  relevant_topics:
+  - engineers. among other things, they facilitate some of your work by making
+  - data readily available to everyone within organization
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is engineers. among other things, they facilitate some of your
+    work by making different from data readily available to everyone within organization?
+- candidate_id: q0081
+  relevant_topics:
+  - engineers. among other things, they facilitate some of your work by making
+  - possibly in
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is engineers. among other things, they facilitate some of your
+    work by making different from possibly in?
+- candidate_id: q0082
+  relevant_topics:
+  - engineers. among other things, they facilitate some of your work by making
+  - bringing machine learning models into production. one way to speed up this
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is engineers. among other things, they facilitate some of your
+    work by making different from bringing machine learning models into production.
+    one way to speed up this?
+- candidate_id: q0083
+  relevant_topics:
+  - engineers. among other things, they facilitate some of your work by making
+  - process is through building an understanding of what it means to bring
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is engineers. among other things, they facilitate some of your
+    work by making different from process is through building an understanding of
+    what it means to bring?
+- candidate_id: q0084
+  relevant_topics:
+  - engineers. among other things, they facilitate some of your work by making
+  - processes into production
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is engineers. among other things, they facilitate some of your
+    work by making different from processes into production?
+- candidate_id: q0085
+  relevant_topics:
+  - engineers. among other things, they facilitate some of your work by making
+  - what features are of high-grade code. in this
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is engineers. among other things, they facilitate some of your
+    work by making different from what features are of high-grade code. in this?
+- candidate_id: q0086
+  relevant_topics:
+  - data readily available to everyone within organization
+  - possibly in
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is data readily available to everyone within organization different
+    from possibly in?
+- candidate_id: q0087
+  relevant_topics:
+  - data readily available to everyone within organization
+  - bringing machine learning models into production. one way to speed up this
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is data readily available to everyone within organization different
+    from bringing machine learning models into production. one way to speed up this?
+- candidate_id: q0088
+  relevant_topics:
+  - data readily available to everyone within organization
+  - process is through building an understanding of what it means to bring
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is data readily available to everyone within organization different
+    from process is through building an understanding of what it means to bring?
+- candidate_id: q0089
+  relevant_topics:
+  - data readily available to everyone within organization
+  - processes into production
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is data readily available to everyone within organization different
+    from processes into production?
+- candidate_id: q0090
+  relevant_topics:
+  - data readily available to everyone within organization
+  - what features are of high-grade code. in this
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is data readily available to everyone within organization different
+    from what features are of high-grade code. in this?
+- candidate_id: q0091
+  relevant_topics:
+  - possibly in
+  - bringing machine learning models into production. one way to speed up this
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is possibly in different from bringing machine learning models
+    into production. one way to speed up this?
+- candidate_id: q0092
+  relevant_topics:
+  - possibly in
+  - process is through building an understanding of what it means to bring
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is possibly in different from process is through building an
+    understanding of what it means to bring?
+- candidate_id: q0093
+  relevant_topics:
+  - possibly in
+  - processes into production
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is possibly in different from processes into production?
+- candidate_id: q0094
+  relevant_topics:
+  - possibly in
+  - what features are of high-grade code. in this
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is possibly in different from what features are of high-grade
+    code. in this?
+- candidate_id: q0095
+  relevant_topics:
+  - bringing machine learning models into production. one way to speed up this
+  - process is through building an understanding of what it means to bring
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is bringing machine learning models into production. one way
+    to speed up this different from process is through building an understanding of
+    what it means to bring?
+- candidate_id: q0096
+  relevant_topics:
+  - bringing machine learning models into production. one way to speed up this
+  - processes into production
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is bringing machine learning models into production. one way
+    to speed up this different from processes into production?
+- candidate_id: q0097
+  relevant_topics:
+  - bringing machine learning models into production. one way to speed up this
+  - what features are of high-grade code. in this
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is bringing machine learning models into production. one way
+    to speed up this different from what features are of high-grade code. in this?
+- candidate_id: q0098
+  relevant_topics:
+  - process is through building an understanding of what it means to bring
+  - processes into production
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is process is through building an understanding of what it means
+    to bring different from processes into production?
+- candidate_id: q0099
+  relevant_topics:
+  - process is through building an understanding of what it means to bring
+  - what features are of high-grade code. in this
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is process is through building an understanding of what it means
+    to bring different from what features are of high-grade code. in this?
+- candidate_id: q0100
+  relevant_topics:
+  - processes into production
+  - what features are of high-grade code. in this
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is processes into production different from what features are
+    of high-grade code. in this?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is learn how to build?
+  final_text: What is learn how to build?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does learn how to build mean?
+  final_text: What does learn how to build mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does learn how to build matter?
+  final_text: Why does learn how to build matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use learn how to build?
+  final_text: Why does learn how to build?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of learn how to build?
+  final_text: What is a simple example of learn how to build?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is test data engineering pipelines in python using?
+  final_text: What is test data engineering pipelines in python using?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does test data engineering pipelines in python using mean?
+  final_text: What does test data engineering pipelines in python using mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does test data engineering pipelines in python using matter?
+  final_text: Why does test data engineering pipelines in python using matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use test data engineering pipelines in python using?
+  final_text: Why does test data engineering pipelines in python using?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of test data engineering pipelines in python
+    using?
+  final_text: What is a simple example of test data engineering pipelines in python
+    using?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is in any data-driven company, you will undoubtedly cross paths
+    with data?
+  final_text: What is in any data-driven company, you will undoubtedly cross paths
+    with data?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does in any data-driven company, you will undoubtedly cross
+    paths with data mean?
+  final_text: What does in any data-driven company, you will undoubtedly cross paths
+    with data mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does in any data-driven company, you will undoubtedly cross paths
+    with data matter?
+  final_text: Why does in any data-driven company, you will undoubtedly cross paths
+    with data matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use in any data-driven company, you will undoubtedly cross
+    paths with data?
+  final_text: Why does in any data-driven company, you will undoubtedly cross paths
+    with data?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of in any data-driven company, you will
+    undoubtedly cross paths with data?
+  final_text: What is a simple example of in any data-driven company, you will undoubtedly
+    cross paths with data?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is engineers. among other things, they facilitate some of your
+    work by making?
+  final_text: What is engineers. among other things, they facilitate some of your
+    work by making?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does engineers. among other things, they facilitate some of
+    your work by making mean?
+  final_text: What does engineers. among other things, they facilitate some of your
+    work by making mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does engineers. among other things, they facilitate some of your
+    work by making matter?
+  final_text: Why does engineers. among other things, they facilitate some of your
+    work by making matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use engineers. among other things, they facilitate some
+    of your work by making?
+  final_text: Why does engineers. among other things, they facilitate some of your
+    work by making?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of engineers. among other things, they facilitate
+    some of your work by making?
+  final_text: What is a simple example of engineers. among other things, they facilitate
+    some of your work by making?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: What is data readily available to everyone within organization?
+  final_text: What is data readily available to everyone within organization?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: What does data readily available to everyone within organization
+    mean?
+  final_text: What does data readily available to everyone within organization mean?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: Why does data readily available to everyone within organization matter?
+  final_text: Why does data readily available to everyone within organization matter?
+  reject_reason: null
+- candidate_id: q0024
+  status: repaired
+  original_text: Why do we use data readily available to everyone within organization?
+  final_text: Why does data readily available to everyone within organization?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: What is a simple example of data readily available to everyone within
+    organization?
+  final_text: What is a simple example of data readily available to everyone within
+    organization?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: What is possibly in?
+  final_text: What is possibly in?
+  reject_reason: null
+- candidate_id: q0027
+  status: accepted
+  original_text: What does possibly in mean?
+  final_text: What does possibly in mean?
+  reject_reason: null
+- candidate_id: q0028
+  status: accepted
+  original_text: Why does possibly in matter?
+  final_text: Why does possibly in matter?
+  reject_reason: null
+- candidate_id: q0029
+  status: repaired
+  original_text: Why do we use possibly in?
+  final_text: Why does possibly in?
+  reject_reason: null
+- candidate_id: q0030
+  status: accepted
+  original_text: What is a simple example of possibly in?
+  final_text: What is a simple example of possibly in?
+  reject_reason: null
+- candidate_id: q0031
+  status: accepted
+  original_text: What is bringing machine learning models into production. one way
+    to speed up this?
+  final_text: What is bringing machine learning models into production. one way to
+    speed up this?
+  reject_reason: null
+- candidate_id: q0032
+  status: accepted
+  original_text: What does bringing machine learning models into production. one way
+    to speed up this mean?
+  final_text: What does bringing machine learning models into production. one way
+    to speed up this mean?
+  reject_reason: null
+- candidate_id: q0033
+  status: accepted
+  original_text: Why does bringing machine learning models into production. one way
+    to speed up this matter?
+  final_text: Why does bringing machine learning models into production. one way to
+    speed up this matter?
+  reject_reason: null
+- candidate_id: q0034
+  status: repaired
+  original_text: Why do we use bringing machine learning models into production. one
+    way to speed up this?
+  final_text: Why does bringing machine learning models into production. one way to
+    speed up this?
+  reject_reason: null
+- candidate_id: q0035
+  status: accepted
+  original_text: What is a simple example of bringing machine learning models into
+    production. one way to speed up this?
+  final_text: What is a simple example of bringing machine learning models into production.
+    one way to speed up this?
+  reject_reason: null
+- candidate_id: q0036
+  status: accepted
+  original_text: What is process is through building an understanding of what it means
+    to bring?
+  final_text: What is process is through building an understanding of what it means
+    to bring?
+  reject_reason: null
+- candidate_id: q0037
+  status: accepted
+  original_text: What does process is through building an understanding of what it
+    means to bring mean?
+  final_text: What does process is through building an understanding of what it means
+    to bring mean?
+  reject_reason: null
+- candidate_id: q0038
+  status: accepted
+  original_text: Why does process is through building an understanding of what it
+    means to bring matter?
+  final_text: Why does process is through building an understanding of what it means
+    to bring matter?
+  reject_reason: null
+- candidate_id: q0039
+  status: repaired
+  original_text: Why do we use process is through building an understanding of what
+    it means to bring?
+  final_text: Why does process is through building an understanding of what it means
+    to bring?
+  reject_reason: null
+- candidate_id: q0040
+  status: accepted
+  original_text: What is a simple example of process is through building an understanding
+    of what it means to bring?
+  final_text: What is a simple example of process is through building an understanding
+    of what it means to bring?
+  reject_reason: null
+- candidate_id: q0041
+  status: accepted
+  original_text: What is processes into production?
+  final_text: What is processes into production?
+  reject_reason: null
+- candidate_id: q0042
+  status: accepted
+  original_text: What does processes into production mean?
+  final_text: What does processes into production mean?
+  reject_reason: null
+- candidate_id: q0043
+  status: accepted
+  original_text: Why does processes into production matter?
+  final_text: Why does processes into production matter?
+  reject_reason: null
+- candidate_id: q0044
+  status: repaired
+  original_text: Why do we use processes into production?
+  final_text: Why does processes into production?
+  reject_reason: null
+- candidate_id: q0045
+  status: accepted
+  original_text: What is a simple example of processes into production?
+  final_text: What is a simple example of processes into production?
+  reject_reason: null
+- candidate_id: q0046
+  status: accepted
+  original_text: What is what features are of high-grade code. in this?
+  final_text: What is what features are of high-grade code. in this?
+  reject_reason: null
+- candidate_id: q0047
+  status: accepted
+  original_text: What does what features are of high-grade code. in this mean?
+  final_text: What does what features are of high-grade code. in this mean?
+  reject_reason: null
+- candidate_id: q0048
+  status: accepted
+  original_text: Why does what features are of high-grade code. in this matter?
+  final_text: Why does what features are of high-grade code. in this matter?
+  reject_reason: null
+- candidate_id: q0049
+  status: repaired
+  original_text: Why do we use what features are of high-grade code. in this?
+  final_text: Why does what features are of high-grade code. in this?
+  reject_reason: null
+- candidate_id: q0050
+  status: accepted
+  original_text: What is a simple example of what features are of high-grade code.
+    in this?
+  final_text: What is a simple example of what features are of high-grade code. in
+    this?
+  reject_reason: null
+- candidate_id: q0051
+  status: accepted
+  original_text: What is course, we’ll be looking at various data pipelines data engineer
+    is?
+  final_text: What is course, we’ll be looking at various data pipelines data engineer
+    is?
+  reject_reason: null
+- candidate_id: q0052
+  status: accepted
+  original_text: What does course, we’ll be looking at various data pipelines data
+    engineer is mean?
+  final_text: What does course, we’ll be looking at various data pipelines data engineer
+    is mean?
+  reject_reason: null
+- candidate_id: q0053
+  status: accepted
+  original_text: Why does course, we’ll be looking at various data pipelines data
+    engineer is matter?
+  final_text: Why does course, we’ll be looking at various data pipelines data engineer
+    is matter?
+  reject_reason: null
+- candidate_id: q0054
+  status: repaired
+  original_text: Why do we use course, we’ll be looking at various data pipelines
+    data engineer is?
+  final_text: Why does course, we’ll be looking at various data pipelines data engineer
+    is?
+  reject_reason: null
+- candidate_id: q0055
+  status: accepted
+  original_text: What is a simple example of course, we’ll be looking at various data
+    pipelines data engineer is?
+  final_text: What is a simple example of course, we’ll be looking at various data
+    pipelines data engineer is?
+  reject_reason: null
+- candidate_id: q0056
+  status: accepted
+  original_text: How is learn how to build different from test data engineering pipelines
+    in python using?
+  final_text: How is learn how to build different from test data engineering pipelines
+    in python using?
+  reject_reason: null
+- candidate_id: q0057
+  status: accepted
+  original_text: How is learn how to build different from in any data-driven company,
+    you will undoubtedly cross paths with data?
+  final_text: How is learn how to build different from in any data-driven company,
+    you will undoubtedly cross paths with data?
+  reject_reason: null
+- candidate_id: q0058
+  status: accepted
+  original_text: How is learn how to build different from engineers. among other things,
+    they facilitate some of your work by making?
+  final_text: How is learn how to build different from engineers. among other things,
+    they facilitate some of your work by making?
+  reject_reason: null
+- candidate_id: q0059
+  status: accepted
+  original_text: How is learn how to build different from data readily available to
+    everyone within organization?
+  final_text: How is learn how to build different from data readily available to everyone
+    within organization?
+  reject_reason: null
+- candidate_id: q0060
+  status: accepted
+  original_text: How is learn how to build different from possibly in?
+  final_text: How is learn how to build different from possibly in?
+  reject_reason: null
+- candidate_id: q0061
+  status: accepted
+  original_text: How is learn how to build different from bringing machine learning
+    models into production. one way to speed up this?
+  final_text: How is learn how to build different from bringing machine learning models
+    into production. one way to speed up this?
+  reject_reason: null
+- candidate_id: q0062
+  status: accepted
+  original_text: How is learn how to build different from process is through building
+    an understanding of what it means to bring?
+  final_text: How is learn how to build different from process is through building
+    an understanding of what it means to bring?
+  reject_reason: null
+- candidate_id: q0063
+  status: accepted
+  original_text: How is learn how to build different from processes into production?
+  final_text: How is learn how to build different from processes into production?
+  reject_reason: null
+- candidate_id: q0064
+  status: accepted
+  original_text: How is learn how to build different from what features are of high-grade
+    code. in this?
+  final_text: How is learn how to build different from what features are of high-grade
+    code. in this?
+  reject_reason: null
+- candidate_id: q0065
+  status: accepted
+  original_text: How is test data engineering pipelines in python using different
+    from in any data-driven company, you will undoubtedly cross paths with data?
+  final_text: How is test data engineering pipelines in python using different from
+    in any data-driven company, you will undoubtedly cross paths with data?
+  reject_reason: null
+- candidate_id: q0066
+  status: accepted
+  original_text: How is test data engineering pipelines in python using different
+    from engineers. among other things, they facilitate some of your work by making?
+  final_text: How is test data engineering pipelines in python using different from
+    engineers. among other things, they facilitate some of your work by making?
+  reject_reason: null
+- candidate_id: q0067
+  status: accepted
+  original_text: How is test data engineering pipelines in python using different
+    from data readily available to everyone within organization?
+  final_text: How is test data engineering pipelines in python using different from
+    data readily available to everyone within organization?
+  reject_reason: null
+- candidate_id: q0068
+  status: accepted
+  original_text: How is test data engineering pipelines in python using different
+    from possibly in?
+  final_text: How is test data engineering pipelines in python using different from
+    possibly in?
+  reject_reason: null
+- candidate_id: q0069
+  status: accepted
+  original_text: How is test data engineering pipelines in python using different
+    from bringing machine learning models into production. one way to speed up this?
+  final_text: How is test data engineering pipelines in python using different from
+    bringing machine learning models into production. one way to speed up this?
+  reject_reason: null
+- candidate_id: q0070
+  status: accepted
+  original_text: How is test data engineering pipelines in python using different
+    from process is through building an understanding of what it means to bring?
+  final_text: How is test data engineering pipelines in python using different from
+    process is through building an understanding of what it means to bring?
+  reject_reason: null
+- candidate_id: q0071
+  status: accepted
+  original_text: How is test data engineering pipelines in python using different
+    from processes into production?
+  final_text: How is test data engineering pipelines in python using different from
+    processes into production?
+  reject_reason: null
+- candidate_id: q0072
+  status: accepted
+  original_text: How is test data engineering pipelines in python using different
+    from what features are of high-grade code. in this?
+  final_text: How is test data engineering pipelines in python using different from
+    what features are of high-grade code. in this?
+  reject_reason: null
+- candidate_id: q0073
+  status: accepted
+  original_text: How is in any data-driven company, you will undoubtedly cross paths
+    with data different from engineers. among other things, they facilitate some of
+    your work by making?
+  final_text: How is in any data-driven company, you will undoubtedly cross paths
+    with data different from engineers. among other things, they facilitate some of
+    your work by making?
+  reject_reason: null
+- candidate_id: q0074
+  status: accepted
+  original_text: How is in any data-driven company, you will undoubtedly cross paths
+    with data different from data readily available to everyone within organization?
+  final_text: How is in any data-driven company, you will undoubtedly cross paths
+    with data different from data readily available to everyone within organization?
+  reject_reason: null
+- candidate_id: q0075
+  status: accepted
+  original_text: How is in any data-driven company, you will undoubtedly cross paths
+    with data different from possibly in?
+  final_text: How is in any data-driven company, you will undoubtedly cross paths
+    with data different from possibly in?
+  reject_reason: null
+- candidate_id: q0076
+  status: accepted
+  original_text: How is in any data-driven company, you will undoubtedly cross paths
+    with data different from bringing machine learning models into production. one
+    way to speed up this?
+  final_text: How is in any data-driven company, you will undoubtedly cross paths
+    with data different from bringing machine learning models into production. one
+    way to speed up this?
+  reject_reason: null
+- candidate_id: q0077
+  status: accepted
+  original_text: How is in any data-driven company, you will undoubtedly cross paths
+    with data different from process is through building an understanding of what
+    it means to bring?
+  final_text: How is in any data-driven company, you will undoubtedly cross paths
+    with data different from process is through building an understanding of what
+    it means to bring?
+  reject_reason: null
+- candidate_id: q0078
+  status: accepted
+  original_text: How is in any data-driven company, you will undoubtedly cross paths
+    with data different from processes into production?
+  final_text: How is in any data-driven company, you will undoubtedly cross paths
+    with data different from processes into production?
+  reject_reason: null
+- candidate_id: q0079
+  status: accepted
+  original_text: How is in any data-driven company, you will undoubtedly cross paths
+    with data different from what features are of high-grade code. in this?
+  final_text: How is in any data-driven company, you will undoubtedly cross paths
+    with data different from what features are of high-grade code. in this?
+  reject_reason: null
+- candidate_id: q0080
+  status: accepted
+  original_text: How is engineers. among other things, they facilitate some of your
+    work by making different from data readily available to everyone within organization?
+  final_text: How is engineers. among other things, they facilitate some of your work
+    by making different from data readily available to everyone within organization?
+  reject_reason: null
+- candidate_id: q0081
+  status: accepted
+  original_text: How is engineers. among other things, they facilitate some of your
+    work by making different from possibly in?
+  final_text: How is engineers. among other things, they facilitate some of your work
+    by making different from possibly in?
+  reject_reason: null
+- candidate_id: q0082
+  status: accepted
+  original_text: How is engineers. among other things, they facilitate some of your
+    work by making different from bringing machine learning models into production.
+    one way to speed up this?
+  final_text: How is engineers. among other things, they facilitate some of your work
+    by making different from bringing machine learning models into production. one
+    way to speed up this?
+  reject_reason: null
+- candidate_id: q0083
+  status: accepted
+  original_text: How is engineers. among other things, they facilitate some of your
+    work by making different from process is through building an understanding of
+    what it means to bring?
+  final_text: How is engineers. among other things, they facilitate some of your work
+    by making different from process is through building an understanding of what
+    it means to bring?
+  reject_reason: null
+- candidate_id: q0084
+  status: accepted
+  original_text: How is engineers. among other things, they facilitate some of your
+    work by making different from processes into production?
+  final_text: How is engineers. among other things, they facilitate some of your work
+    by making different from processes into production?
+  reject_reason: null
+- candidate_id: q0085
+  status: accepted
+  original_text: How is engineers. among other things, they facilitate some of your
+    work by making different from what features are of high-grade code. in this?
+  final_text: How is engineers. among other things, they facilitate some of your work
+    by making different from what features are of high-grade code. in this?
+  reject_reason: null
+- candidate_id: q0086
+  status: accepted
+  original_text: How is data readily available to everyone within organization different
+    from possibly in?
+  final_text: How is data readily available to everyone within organization different
+    from possibly in?
+  reject_reason: null
+- candidate_id: q0087
+  status: accepted
+  original_text: How is data readily available to everyone within organization different
+    from bringing machine learning models into production. one way to speed up this?
+  final_text: How is data readily available to everyone within organization different
+    from bringing machine learning models into production. one way to speed up this?
+  reject_reason: null
+- candidate_id: q0088
+  status: accepted
+  original_text: How is data readily available to everyone within organization different
+    from process is through building an understanding of what it means to bring?
+  final_text: How is data readily available to everyone within organization different
+    from process is through building an understanding of what it means to bring?
+  reject_reason: null
+- candidate_id: q0089
+  status: accepted
+  original_text: How is data readily available to everyone within organization different
+    from processes into production?
+  final_text: How is data readily available to everyone within organization different
+    from processes into production?
+  reject_reason: null
+- candidate_id: q0090
+  status: accepted
+  original_text: How is data readily available to everyone within organization different
+    from what features are of high-grade code. in this?
+  final_text: How is data readily available to everyone within organization different
+    from what features are of high-grade code. in this?
+  reject_reason: null
+- candidate_id: q0091
+  status: accepted
+  original_text: How is possibly in different from bringing machine learning models
+    into production. one way to speed up this?
+  final_text: How is possibly in different from bringing machine learning models into
+    production. one way to speed up this?
+  reject_reason: null
+- candidate_id: q0092
+  status: accepted
+  original_text: How is possibly in different from process is through building an
+    understanding of what it means to bring?
+  final_text: How is possibly in different from process is through building an understanding
+    of what it means to bring?
+  reject_reason: null
+- candidate_id: q0093
+  status: accepted
+  original_text: How is possibly in different from processes into production?
+  final_text: How is possibly in different from processes into production?
+  reject_reason: null
+- candidate_id: q0094
+  status: accepted
+  original_text: How is possibly in different from what features are of high-grade
+    code. in this?
+  final_text: How is possibly in different from what features are of high-grade code.
+    in this?
+  reject_reason: null
+- candidate_id: q0095
+  status: accepted
+  original_text: How is bringing machine learning models into production. one way
+    to speed up this different from process is through building an understanding of
+    what it means to bring?
+  final_text: How is bringing machine learning models into production. one way to
+    speed up this different from process is through building an understanding of what
+    it means to bring?
+  reject_reason: null
+- candidate_id: q0096
+  status: accepted
+  original_text: How is bringing machine learning models into production. one way
+    to speed up this different from processes into production?
+  final_text: How is bringing machine learning models into production. one way to
+    speed up this different from processes into production?
+  reject_reason: null
+- candidate_id: q0097
+  status: accepted
+  original_text: How is bringing machine learning models into production. one way
+    to speed up this different from what features are of high-grade code. in this?
+  final_text: How is bringing machine learning models into production. one way to
+    speed up this different from what features are of high-grade code. in this?
+  reject_reason: null
+- candidate_id: q0098
+  status: accepted
+  original_text: How is process is through building an understanding of what it means
+    to bring different from processes into production?
+  final_text: How is process is through building an understanding of what it means
+    to bring different from processes into production?
+  reject_reason: null
+- candidate_id: q0099
+  status: accepted
+  original_text: How is process is through building an understanding of what it means
+    to bring different from what features are of high-grade code. in this?
+  final_text: How is process is through building an understanding of what it means
+    to bring different from what features are of high-grade code. in this?
+  reject_reason: null
+- candidate_id: q0100
+  status: accepted
+  original_text: How is processes into production different from what features are
+    of high-grade code. in this?
+  final_text: How is processes into production different from what features are of
+    high-grade code. in this?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is learn how to build?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does learn how to build mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does learn how to build matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does learn how to build?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of learn how to build?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is test data engineering pipelines in python using?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does test data engineering pipelines in python using mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does test data engineering pipelines in python using matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does test data engineering pipelines in python using?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of test data engineering pipelines in python
+    using?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is in any data-driven company, you will undoubtedly cross paths
+    with data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does in any data-driven company, you will undoubtedly cross
+    paths with data mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does in any data-driven company, you will undoubtedly cross paths
+    with data matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does in any data-driven company, you will undoubtedly cross paths
+    with data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of in any data-driven company, you will
+    undoubtedly cross paths with data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is engineers. among other things, they facilitate some of your
+    work by making?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does engineers. among other things, they facilitate some of
+    your work by making mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does engineers. among other things, they facilitate some of your
+    work by making matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does engineers. among other things, they facilitate some of your
+    work by making?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of engineers. among other things, they facilitate
+    some of your work by making?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: What is data readily available to everyone within organization?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: What does data readily available to everyone within organization
+    mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: Why does data readily available to everyone within organization matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: Why does data readily available to everyone within organization?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: What is a simple example of data readily available to everyone within
+    organization?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: What is possibly in?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0027
+  question_text: What does possibly in mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0028
+  question_text: Why does possibly in matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0029
+  question_text: Why does possibly in?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0030
+  question_text: What is a simple example of possibly in?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0031
+  question_text: What is bringing machine learning models into production. one way
+    to speed up this?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0032
+  question_text: What does bringing machine learning models into production. one way
+    to speed up this mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0033
+  question_text: Why does bringing machine learning models into production. one way
+    to speed up this matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0034
+  question_text: Why does bringing machine learning models into production. one way
+    to speed up this?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0035
+  question_text: What is a simple example of bringing machine learning models into
+    production. one way to speed up this?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0036
+  question_text: What is process is through building an understanding of what it means
+    to bring?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0037
+  question_text: What does process is through building an understanding of what it
+    means to bring mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0038
+  question_text: Why does process is through building an understanding of what it
+    means to bring matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0039
+  question_text: Why does process is through building an understanding of what it
+    means to bring?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0040
+  question_text: What is a simple example of process is through building an understanding
+    of what it means to bring?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0041
+  question_text: What is processes into production?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0042
+  question_text: What does processes into production mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0043
+  question_text: Why does processes into production matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0044
+  question_text: Why does processes into production?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0045
+  question_text: What is a simple example of processes into production?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0046
+  question_text: What is what features are of high-grade code. in this?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0047
+  question_text: What does what features are of high-grade code. in this mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0048
+  question_text: Why does what features are of high-grade code. in this matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0049
+  question_text: Why does what features are of high-grade code. in this?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0050
+  question_text: What is a simple example of what features are of high-grade code.
+    in this?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0051
+  question_text: What is course, we’ll be looking at various data pipelines data engineer
+    is?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0052
+  question_text: What does course, we’ll be looking at various data pipelines data
+    engineer is mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0053
+  question_text: Why does course, we’ll be looking at various data pipelines data
+    engineer is matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0054
+  question_text: Why does course, we’ll be looking at various data pipelines data
+    engineer is?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0055
+  question_text: What is a simple example of course, we’ll be looking at various data
+    pipelines data engineer is?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0056
+  question_text: How is learn how to build different from test data engineering pipelines
+    in python using?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0057
+  question_text: How is learn how to build different from in any data-driven company,
+    you will undoubtedly cross paths with data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0058
+  question_text: How is learn how to build different from engineers. among other things,
+    they facilitate some of your work by making?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0059
+  question_text: How is learn how to build different from data readily available to
+    everyone within organization?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0060
+  question_text: How is learn how to build different from possibly in?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0061
+  question_text: How is learn how to build different from bringing machine learning
+    models into production. one way to speed up this?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0062
+  question_text: How is learn how to build different from process is through building
+    an understanding of what it means to bring?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0063
+  question_text: How is learn how to build different from processes into production?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0064
+  question_text: How is learn how to build different from what features are of high-grade
+    code. in this?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0065
+  question_text: How is test data engineering pipelines in python using different
+    from in any data-driven company, you will undoubtedly cross paths with data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0066
+  question_text: How is test data engineering pipelines in python using different
+    from engineers. among other things, they facilitate some of your work by making?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0067
+  question_text: How is test data engineering pipelines in python using different
+    from data readily available to everyone within organization?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0068
+  question_text: How is test data engineering pipelines in python using different
+    from possibly in?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0069
+  question_text: How is test data engineering pipelines in python using different
+    from bringing machine learning models into production. one way to speed up this?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0070
+  question_text: How is test data engineering pipelines in python using different
+    from process is through building an understanding of what it means to bring?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0071
+  question_text: How is test data engineering pipelines in python using different
+    from processes into production?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0072
+  question_text: How is test data engineering pipelines in python using different
+    from what features are of high-grade code. in this?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0073
+  question_text: How is in any data-driven company, you will undoubtedly cross paths
+    with data different from engineers. among other things, they facilitate some of
+    your work by making?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0074
+  question_text: How is in any data-driven company, you will undoubtedly cross paths
+    with data different from data readily available to everyone within organization?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0075
+  question_text: How is in any data-driven company, you will undoubtedly cross paths
+    with data different from possibly in?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0076
+  question_text: How is in any data-driven company, you will undoubtedly cross paths
+    with data different from bringing machine learning models into production. one
+    way to speed up this?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0077
+  question_text: How is in any data-driven company, you will undoubtedly cross paths
+    with data different from process is through building an understanding of what
+    it means to bring?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0078
+  question_text: How is in any data-driven company, you will undoubtedly cross paths
+    with data different from processes into production?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0079
+  question_text: How is in any data-driven company, you will undoubtedly cross paths
+    with data different from what features are of high-grade code. in this?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0080
+  question_text: How is engineers. among other things, they facilitate some of your
+    work by making different from data readily available to everyone within organization?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0081
+  question_text: How is engineers. among other things, they facilitate some of your
+    work by making different from possibly in?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0082
+  question_text: How is engineers. among other things, they facilitate some of your
+    work by making different from bringing machine learning models into production.
+    one way to speed up this?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0083
+  question_text: How is engineers. among other things, they facilitate some of your
+    work by making different from process is through building an understanding of
+    what it means to bring?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0084
+  question_text: How is engineers. among other things, they facilitate some of your
+    work by making different from processes into production?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0085
+  question_text: How is engineers. among other things, they facilitate some of your
+    work by making different from what features are of high-grade code. in this?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0086
+  question_text: How is data readily available to everyone within organization different
+    from possibly in?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0087
+  question_text: How is data readily available to everyone within organization different
+    from bringing machine learning models into production. one way to speed up this?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0088
+  question_text: How is data readily available to everyone within organization different
+    from process is through building an understanding of what it means to bring?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0089
+  question_text: How is data readily available to everyone within organization different
+    from processes into production?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0090
+  question_text: How is data readily available to everyone within organization different
+    from what features are of high-grade code. in this?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0091
+  question_text: How is possibly in different from bringing machine learning models
+    into production. one way to speed up this?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0092
+  question_text: How is possibly in different from process is through building an
+    understanding of what it means to bring?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0093
+  question_text: How is possibly in different from processes into production?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0094
+  question_text: How is possibly in different from what features are of high-grade
+    code. in this?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0095
+  question_text: How is bringing machine learning models into production. one way
+    to speed up this different from process is through building an understanding of
+    what it means to bring?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0096
+  question_text: How is bringing machine learning models into production. one way
+    to speed up this different from processes into production?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0097
+  question_text: How is bringing machine learning models into production. one way
+    to speed up this different from what features are of high-grade code. in this?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0098
+  question_text: How is process is through building an understanding of what it means
+    to bring different from processes into production?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0099
+  question_text: How is process is through building an understanding of what it means
+    to bring different from what features are of high-grade code. in this?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0100
+  question_text: How is processes into production different from what features are
+    of high-grade code. in this?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - learn how to build
+  question_text: What is learn how to build?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - learn how to build
+  question_text: What does learn how to build mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - learn how to build
+  question_text: Why does learn how to build matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - learn how to build
+  question_text: Why does learn how to build?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - learn how to build
+  question_text: What is a simple example of learn how to build?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - test data engineering pipelines in python using
+  question_text: What is test data engineering pipelines in python using?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - test data engineering pipelines in python using
+  question_text: What does test data engineering pipelines in python using mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - test data engineering pipelines in python using
+  question_text: Why does test data engineering pipelines in python using matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - test data engineering pipelines in python using
+  question_text: Why does test data engineering pipelines in python using?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - test data engineering pipelines in python using
+  question_text: What is a simple example of test data engineering pipelines in python
+    using?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - in any data-driven company, you will undoubtedly cross paths with data
+  question_text: What is in any data-driven company, you will undoubtedly cross paths
+    with data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - in any data-driven company, you will undoubtedly cross paths with data
+  question_text: What does in any data-driven company, you will undoubtedly cross
+    paths with data mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - in any data-driven company, you will undoubtedly cross paths with data
+  question_text: Why does in any data-driven company, you will undoubtedly cross paths
+    with data matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - in any data-driven company, you will undoubtedly cross paths with data
+  question_text: Why does in any data-driven company, you will undoubtedly cross paths
+    with data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - in any data-driven company, you will undoubtedly cross paths with data
+  question_text: What is a simple example of in any data-driven company, you will
+    undoubtedly cross paths with data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - engineers. among other things, they facilitate some of your work by making
+  question_text: What is engineers. among other things, they facilitate some of your
+    work by making?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - engineers. among other things, they facilitate some of your work by making
+  question_text: What does engineers. among other things, they facilitate some of
+    your work by making mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - engineers. among other things, they facilitate some of your work by making
+  question_text: Why does engineers. among other things, they facilitate some of your
+    work by making matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - engineers. among other things, they facilitate some of your work by making
+  question_text: Why does engineers. among other things, they facilitate some of your
+    work by making?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - engineers. among other things, they facilitate some of your work by making
+  question_text: What is a simple example of engineers. among other things, they facilitate
+    some of your work by making?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - data readily available to everyone within organization
+  question_text: What is data readily available to everyone within organization?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - data readily available to everyone within organization
+  question_text: What does data readily available to everyone within organization
+    mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - data readily available to everyone within organization
+  question_text: Why does data readily available to everyone within organization matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - data readily available to everyone within organization
+  question_text: Why does data readily available to everyone within organization?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - data readily available to everyone within organization
+  question_text: What is a simple example of data readily available to everyone within
+    organization?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - possibly in
+  question_text: What is possibly in?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000027
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - possibly in
+  question_text: What does possibly in mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000028
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - possibly in
+  question_text: Why does possibly in matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000029
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - possibly in
+  question_text: Why does possibly in?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000030
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - possibly in
+  question_text: What is a simple example of possibly in?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000031
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - bringing machine learning models into production. one way to speed up this
+  question_text: What is bringing machine learning models into production. one way
+    to speed up this?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000032
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - bringing machine learning models into production. one way to speed up this
+  question_text: What does bringing machine learning models into production. one way
+    to speed up this mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000033
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - bringing machine learning models into production. one way to speed up this
+  question_text: Why does bringing machine learning models into production. one way
+    to speed up this matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000034
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - bringing machine learning models into production. one way to speed up this
+  question_text: Why does bringing machine learning models into production. one way
+    to speed up this?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000035
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - bringing machine learning models into production. one way to speed up this
+  question_text: What is a simple example of bringing machine learning models into
+    production. one way to speed up this?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000036
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - process is through building an understanding of what it means to bring
+  question_text: What is process is through building an understanding of what it means
+    to bring?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000037
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - process is through building an understanding of what it means to bring
+  question_text: What does process is through building an understanding of what it
+    means to bring mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000038
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - process is through building an understanding of what it means to bring
+  question_text: Why does process is through building an understanding of what it
+    means to bring matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000039
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - process is through building an understanding of what it means to bring
+  question_text: Why does process is through building an understanding of what it
+    means to bring?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000040
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - process is through building an understanding of what it means to bring
+  question_text: What is a simple example of process is through building an understanding
+    of what it means to bring?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000041
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - processes into production
+  question_text: What is processes into production?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000042
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - processes into production
+  question_text: What does processes into production mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000043
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - processes into production
+  question_text: Why does processes into production matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000044
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - processes into production
+  question_text: Why does processes into production?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000045
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - processes into production
+  question_text: What is a simple example of processes into production?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000046
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - what features are of high-grade code. in this
+  question_text: What is what features are of high-grade code. in this?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000047
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - what features are of high-grade code. in this
+  question_text: What does what features are of high-grade code. in this mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000048
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - what features are of high-grade code. in this
+  question_text: Why does what features are of high-grade code. in this matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000049
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - what features are of high-grade code. in this
+  question_text: Why does what features are of high-grade code. in this?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000050
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - what features are of high-grade code. in this
+  question_text: What is a simple example of what features are of high-grade code.
+    in this?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000051
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - course, we’ll be looking at various data pipelines data engineer is
+  question_text: What is course, we’ll be looking at various data pipelines data engineer
+    is?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000052
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - course, we’ll be looking at various data pipelines data engineer is
+  question_text: What does course, we’ll be looking at various data pipelines data
+    engineer is mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000053
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - course, we’ll be looking at various data pipelines data engineer is
+  question_text: Why does course, we’ll be looking at various data pipelines data
+    engineer is matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000054
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - course, we’ll be looking at various data pipelines data engineer is
+  question_text: Why does course, we’ll be looking at various data pipelines data
+    engineer is?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000055
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - course, we’ll be looking at various data pipelines data engineer is
+  question_text: What is a simple example of course, we’ll be looking at various data
+    pipelines data engineer is?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000056
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - learn how to build
+  - test data engineering pipelines in python using
+  question_text: How is learn how to build different from test data engineering pipelines
+    in python using?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000057
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - learn how to build
+  - in any data-driven company, you will undoubtedly cross paths with data
+  question_text: How is learn how to build different from in any data-driven company,
+    you will undoubtedly cross paths with data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000058
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - learn how to build
+  - engineers. among other things, they facilitate some of your work by making
+  question_text: How is learn how to build different from engineers. among other things,
+    they facilitate some of your work by making?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000059
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - learn how to build
+  - data readily available to everyone within organization
+  question_text: How is learn how to build different from data readily available to
+    everyone within organization?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000060
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - learn how to build
+  - possibly in
+  question_text: How is learn how to build different from possibly in?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000061
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - learn how to build
+  - bringing machine learning models into production. one way to speed up this
+  question_text: How is learn how to build different from bringing machine learning
+    models into production. one way to speed up this?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000062
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - learn how to build
+  - process is through building an understanding of what it means to bring
+  question_text: How is learn how to build different from process is through building
+    an understanding of what it means to bring?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000063
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - learn how to build
+  - processes into production
+  question_text: How is learn how to build different from processes into production?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000064
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - learn how to build
+  - what features are of high-grade code. in this
+  question_text: How is learn how to build different from what features are of high-grade
+    code. in this?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000065
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - test data engineering pipelines in python using
+  - in any data-driven company, you will undoubtedly cross paths with data
+  question_text: How is test data engineering pipelines in python using different
+    from in any data-driven company, you will undoubtedly cross paths with data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000066
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - test data engineering pipelines in python using
+  - engineers. among other things, they facilitate some of your work by making
+  question_text: How is test data engineering pipelines in python using different
+    from engineers. among other things, they facilitate some of your work by making?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000067
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - test data engineering pipelines in python using
+  - data readily available to everyone within organization
+  question_text: How is test data engineering pipelines in python using different
+    from data readily available to everyone within organization?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000068
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - test data engineering pipelines in python using
+  - possibly in
+  question_text: How is test data engineering pipelines in python using different
+    from possibly in?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000069
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - test data engineering pipelines in python using
+  - bringing machine learning models into production. one way to speed up this
+  question_text: How is test data engineering pipelines in python using different
+    from bringing machine learning models into production. one way to speed up this?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000070
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - test data engineering pipelines in python using
+  - process is through building an understanding of what it means to bring
+  question_text: How is test data engineering pipelines in python using different
+    from process is through building an understanding of what it means to bring?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000071
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - test data engineering pipelines in python using
+  - processes into production
+  question_text: How is test data engineering pipelines in python using different
+    from processes into production?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000072
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - test data engineering pipelines in python using
+  - what features are of high-grade code. in this
+  question_text: How is test data engineering pipelines in python using different
+    from what features are of high-grade code. in this?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000073
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - in any data-driven company, you will undoubtedly cross paths with data
+  - engineers. among other things, they facilitate some of your work by making
+  question_text: How is in any data-driven company, you will undoubtedly cross paths
+    with data different from engineers. among other things, they facilitate some of
+    your work by making?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000074
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - in any data-driven company, you will undoubtedly cross paths with data
+  - data readily available to everyone within organization
+  question_text: How is in any data-driven company, you will undoubtedly cross paths
+    with data different from data readily available to everyone within organization?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000075
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - in any data-driven company, you will undoubtedly cross paths with data
+  - possibly in
+  question_text: How is in any data-driven company, you will undoubtedly cross paths
+    with data different from possibly in?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000076
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - in any data-driven company, you will undoubtedly cross paths with data
+  - bringing machine learning models into production. one way to speed up this
+  question_text: How is in any data-driven company, you will undoubtedly cross paths
+    with data different from bringing machine learning models into production. one
+    way to speed up this?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000077
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - in any data-driven company, you will undoubtedly cross paths with data
+  - process is through building an understanding of what it means to bring
+  question_text: How is in any data-driven company, you will undoubtedly cross paths
+    with data different from process is through building an understanding of what
+    it means to bring?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000078
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - in any data-driven company, you will undoubtedly cross paths with data
+  - processes into production
+  question_text: How is in any data-driven company, you will undoubtedly cross paths
+    with data different from processes into production?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000079
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - in any data-driven company, you will undoubtedly cross paths with data
+  - what features are of high-grade code. in this
+  question_text: How is in any data-driven company, you will undoubtedly cross paths
+    with data different from what features are of high-grade code. in this?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000080
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - engineers. among other things, they facilitate some of your work by making
+  - data readily available to everyone within organization
+  question_text: How is engineers. among other things, they facilitate some of your
+    work by making different from data readily available to everyone within organization?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000081
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - engineers. among other things, they facilitate some of your work by making
+  - possibly in
+  question_text: How is engineers. among other things, they facilitate some of your
+    work by making different from possibly in?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000082
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - engineers. among other things, they facilitate some of your work by making
+  - bringing machine learning models into production. one way to speed up this
+  question_text: How is engineers. among other things, they facilitate some of your
+    work by making different from bringing machine learning models into production.
+    one way to speed up this?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000083
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - engineers. among other things, they facilitate some of your work by making
+  - process is through building an understanding of what it means to bring
+  question_text: How is engineers. among other things, they facilitate some of your
+    work by making different from process is through building an understanding of
+    what it means to bring?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000084
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - engineers. among other things, they facilitate some of your work by making
+  - processes into production
+  question_text: How is engineers. among other things, they facilitate some of your
+    work by making different from processes into production?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000085
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - engineers. among other things, they facilitate some of your work by making
+  - what features are of high-grade code. in this
+  question_text: How is engineers. among other things, they facilitate some of your
+    work by making different from what features are of high-grade code. in this?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000086
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - data readily available to everyone within organization
+  - possibly in
+  question_text: How is data readily available to everyone within organization different
+    from possibly in?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000087
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - data readily available to everyone within organization
+  - bringing machine learning models into production. one way to speed up this
+  question_text: How is data readily available to everyone within organization different
+    from bringing machine learning models into production. one way to speed up this?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000088
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - data readily available to everyone within organization
+  - process is through building an understanding of what it means to bring
+  question_text: How is data readily available to everyone within organization different
+    from process is through building an understanding of what it means to bring?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000089
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - data readily available to everyone within organization
+  - processes into production
+  question_text: How is data readily available to everyone within organization different
+    from processes into production?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000090
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - data readily available to everyone within organization
+  - what features are of high-grade code. in this
+  question_text: How is data readily available to everyone within organization different
+    from what features are of high-grade code. in this?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000091
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - possibly in
+  - bringing machine learning models into production. one way to speed up this
+  question_text: How is possibly in different from bringing machine learning models
+    into production. one way to speed up this?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000092
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - possibly in
+  - process is through building an understanding of what it means to bring
+  question_text: How is possibly in different from process is through building an
+    understanding of what it means to bring?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000093
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - possibly in
+  - processes into production
+  question_text: How is possibly in different from processes into production?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000094
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - possibly in
+  - what features are of high-grade code. in this
+  question_text: How is possibly in different from what features are of high-grade
+    code. in this?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000095
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - bringing machine learning models into production. one way to speed up this
+  - process is through building an understanding of what it means to bring
+  question_text: How is bringing machine learning models into production. one way
+    to speed up this different from process is through building an understanding of
+    what it means to bring?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000096
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - bringing machine learning models into production. one way to speed up this
+  - processes into production
+  question_text: How is bringing machine learning models into production. one way
+    to speed up this different from processes into production?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000097
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - bringing machine learning models into production. one way to speed up this
+  - what features are of high-grade code. in this
+  question_text: How is bringing machine learning models into production. one way
+    to speed up this different from what features are of high-grade code. in this?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000098
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - process is through building an understanding of what it means to bring
+  - processes into production
+  question_text: How is process is through building an understanding of what it means
+    to bring different from processes into production?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000099
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - process is through building an understanding of what it means to bring
+  - what features are of high-grade code. in this
+  question_text: How is process is through building an understanding of what it means
+    to bring different from what features are of high-grade code. in this?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000100
+  course:
+    course_id: '24509'
+    title: course, we’ll be looking at various data pipelines the data engineer is
+  relevant_topics:
+  - processes into production
+  - what features are of high-grade code. in this
+  question_text: How is processes into production different from what features are
+    of high-grade code. in this?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 11
+  canonical_topic_count: 11
+  candidate_count: 100
+  accepted_count: 100
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 100

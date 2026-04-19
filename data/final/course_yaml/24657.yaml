@@ -1,0 +1,1356 @@
+course_id: '24657'
+title: Analyzing US Census Data in Python
+normalized_course:
+  course_id: '24657'
+  title: Analyzing US Census Data in Python
+  provider: DataCamp
+  summary: Learn to use the Census API to work with demographic and socioeconomic
+    data.
+  overview: 'Decennial Census of Population and Housing
+
+
+    Start exploring Census data products with the Decennial Census. Use the
+
+    Census API and the requests package to retrieve data, load into pandas data
+
+    frames, and conduct exploratory visualization in seaborn. Learn about
+
+    important Census geographies, including states, counties, and tracts.
+
+
+    American Community Survey
+
+
+    Explore topics such as health insurance coverage and gentrification using
+
+    the American Community Survey. Calculate Margins of Error and explore change
+
+    over time. Create choropleth maps using geopandas.
+
+
+    Measuring Segregation
+
+
+    Explore racial segregation in America. Calculate the Index of Dissimilarity,
+
+    and important measure of segregation. Learn about and use Metropolitan
+
+    Statistical Areas, and important geography for urban research. Study
+
+    segregation changes over time in Chicago.
+
+
+    Exploring Census Topics
+
+
+    In this chapter, you will apply what you have learned to four topical
+
+    studies. Explore unemployment by race and ethnicity; commuting patterns and
+
+    worker density; immigration and state-to-state population flows; and rent
+
+    burden in San Francisco.'
+  chapters:
+  - chapter_index: 1
+    title: Decennial Census of Population and Housing
+    summary: 'Start exploring Census data products with the Decennial Census. Use
+
+      the Census API and the requests package to retrieve data, load into
+
+      pandas data frames, and conduct exploratory visualization in
+
+      seaborn. Learn about important Census geographies, including states,
+
+      counties, and tracts.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 2
+    title: American Community Survey
+    summary: 'Explore topics such as health insurance coverage and gentrification
+
+      using the American Community Survey. Calculate Margins of Error and
+
+      explore change over time. Create choropleth maps using geopandas.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 3
+    title: Measuring Segregation
+    summary: 'Explore racial segregation in America. Calculate the Index of
+
+      Dissimilarity, and important measure of segregation. Learn about and
+
+      use Metropolitan Statistical Areas, and important geography for
+
+      urban research. Study segregation changes over time in Chicago.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 4
+    title: Exploring Census Topics
+    summary: 'In this chapter, you will apply what you have learned to four
+
+      topical studies. Explore unemployment by race and ethnicity;
+
+      commuting patterns and worker density; immigration and
+
+      state-to-state population flows; and rent burden in San Francisco.'
+    source: syllabus
+    confidence: 1.0
+  metadata:
+    level: Intermediate
+    duration_hours: 5 hours
+    subjects:
+    - Python
+    - Data Analysis
+    - pandas
+    - Choropleth Maps
+    - GeoPandas
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: decennial census of population
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: decennial census of population'
+  evidence:
+  - source: syllabus
+    text: Decennial Census of Population and Housing
+  confidence: 0.55
+- topic_id: t002
+  label: housing
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: housing'
+  evidence:
+  - source: syllabus
+    text: Decennial Census of Population and Housing
+  confidence: 0.55
+- topic_id: t003
+  label: american community survey
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: american community survey'
+  evidence:
+  - source: syllabus
+    text: American Community Survey
+  confidence: 0.45
+- topic_id: t004
+  label: measuring segregation
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: measuring segregation'
+  evidence:
+  - source: syllabus
+    text: Measuring Segregation
+  confidence: 0.45
+- topic_id: t005
+  label: exploring census topics
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: exploring census topics'
+  evidence:
+  - source: syllabus
+    text: Exploring Census Topics
+  confidence: 0.45
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: decennial census of population
+  aliases:
+  - decennial census of population
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: housing
+  aliases:
+  - housing
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: american community survey
+  aliases:
+  - american community survey
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: measuring segregation
+  aliases:
+  - measuring segregation
+  member_topic_ids:
+  - t004
+  topic_type: concept
+- canonical_topic_id: ct_005
+  label: exploring census topics
+  aliases:
+  - exploring census topics
+  member_topic_ids:
+  - t005
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - decennial census of population
+  family: entry
+  pattern: What is {x}?
+  question_text: What is decennial census of population?
+- candidate_id: q0002
+  relevant_topics:
+  - decennial census of population
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does decennial census of population mean?
+- candidate_id: q0003
+  relevant_topics:
+  - decennial census of population
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does decennial census of population matter?
+- candidate_id: q0004
+  relevant_topics:
+  - decennial census of population
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use decennial census of population?
+- candidate_id: q0005
+  relevant_topics:
+  - decennial census of population
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of decennial census of population?
+- candidate_id: q0006
+  relevant_topics:
+  - housing
+  family: entry
+  pattern: What is {x}?
+  question_text: What is housing?
+- candidate_id: q0007
+  relevant_topics:
+  - housing
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does housing mean?
+- candidate_id: q0008
+  relevant_topics:
+  - housing
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does housing matter?
+- candidate_id: q0009
+  relevant_topics:
+  - housing
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use housing?
+- candidate_id: q0010
+  relevant_topics:
+  - housing
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of housing?
+- candidate_id: q0011
+  relevant_topics:
+  - american community survey
+  family: entry
+  pattern: What is {x}?
+  question_text: What is american community survey?
+- candidate_id: q0012
+  relevant_topics:
+  - american community survey
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does american community survey mean?
+- candidate_id: q0013
+  relevant_topics:
+  - american community survey
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does american community survey matter?
+- candidate_id: q0014
+  relevant_topics:
+  - american community survey
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use american community survey?
+- candidate_id: q0015
+  relevant_topics:
+  - american community survey
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of american community survey?
+- candidate_id: q0016
+  relevant_topics:
+  - measuring segregation
+  family: entry
+  pattern: What is {x}?
+  question_text: What is measuring segregation?
+- candidate_id: q0017
+  relevant_topics:
+  - measuring segregation
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does measuring segregation mean?
+- candidate_id: q0018
+  relevant_topics:
+  - measuring segregation
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does measuring segregation matter?
+- candidate_id: q0019
+  relevant_topics:
+  - measuring segregation
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use measuring segregation?
+- candidate_id: q0020
+  relevant_topics:
+  - measuring segregation
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of measuring segregation?
+- candidate_id: q0021
+  relevant_topics:
+  - exploring census topics
+  family: entry
+  pattern: What is {x}?
+  question_text: What is exploring census topics?
+- candidate_id: q0022
+  relevant_topics:
+  - exploring census topics
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does exploring census topics mean?
+- candidate_id: q0023
+  relevant_topics:
+  - exploring census topics
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does exploring census topics matter?
+- candidate_id: q0024
+  relevant_topics:
+  - exploring census topics
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use exploring census topics?
+- candidate_id: q0025
+  relevant_topics:
+  - exploring census topics
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of exploring census topics?
+- candidate_id: q0026
+  relevant_topics:
+  - decennial census of population
+  - housing
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is decennial census of population different from housing?
+- candidate_id: q0027
+  relevant_topics:
+  - decennial census of population
+  - american community survey
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is decennial census of population different from american community
+    survey?
+- candidate_id: q0028
+  relevant_topics:
+  - decennial census of population
+  - measuring segregation
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is decennial census of population different from measuring segregation?
+- candidate_id: q0029
+  relevant_topics:
+  - decennial census of population
+  - exploring census topics
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is decennial census of population different from exploring census
+    topics?
+- candidate_id: q0030
+  relevant_topics:
+  - housing
+  - american community survey
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is housing different from american community survey?
+- candidate_id: q0031
+  relevant_topics:
+  - housing
+  - measuring segregation
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is housing different from measuring segregation?
+- candidate_id: q0032
+  relevant_topics:
+  - housing
+  - exploring census topics
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is housing different from exploring census topics?
+- candidate_id: q0033
+  relevant_topics:
+  - american community survey
+  - measuring segregation
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is american community survey different from measuring segregation?
+- candidate_id: q0034
+  relevant_topics:
+  - american community survey
+  - exploring census topics
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is american community survey different from exploring census
+    topics?
+- candidate_id: q0035
+  relevant_topics:
+  - measuring segregation
+  - exploring census topics
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is measuring segregation different from exploring census topics?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is decennial census of population?
+  final_text: What is decennial census of population?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does decennial census of population mean?
+  final_text: What does decennial census of population mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does decennial census of population matter?
+  final_text: Why does decennial census of population matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use decennial census of population?
+  final_text: Why does decennial census of population?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of decennial census of population?
+  final_text: What is a simple example of decennial census of population?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is housing?
+  final_text: What is housing?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does housing mean?
+  final_text: What does housing mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does housing matter?
+  final_text: Why does housing matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use housing?
+  final_text: Why does housing?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of housing?
+  final_text: What is a simple example of housing?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is american community survey?
+  final_text: What is american community survey?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does american community survey mean?
+  final_text: What does american community survey mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does american community survey matter?
+  final_text: Why does american community survey matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use american community survey?
+  final_text: Why does american community survey?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of american community survey?
+  final_text: What is a simple example of american community survey?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is measuring segregation?
+  final_text: What is measuring segregation?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does measuring segregation mean?
+  final_text: What does measuring segregation mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does measuring segregation matter?
+  final_text: Why does measuring segregation matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use measuring segregation?
+  final_text: Why does measuring segregation?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of measuring segregation?
+  final_text: What is a simple example of measuring segregation?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: What is exploring census topics?
+  final_text: What is exploring census topics?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: What does exploring census topics mean?
+  final_text: What does exploring census topics mean?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: Why does exploring census topics matter?
+  final_text: Why does exploring census topics matter?
+  reject_reason: null
+- candidate_id: q0024
+  status: repaired
+  original_text: Why do we use exploring census topics?
+  final_text: Why does exploring census topics?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: What is a simple example of exploring census topics?
+  final_text: What is a simple example of exploring census topics?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: How is decennial census of population different from housing?
+  final_text: How is decennial census of population different from housing?
+  reject_reason: null
+- candidate_id: q0027
+  status: accepted
+  original_text: How is decennial census of population different from american community
+    survey?
+  final_text: How is decennial census of population different from american community
+    survey?
+  reject_reason: null
+- candidate_id: q0028
+  status: accepted
+  original_text: How is decennial census of population different from measuring segregation?
+  final_text: How is decennial census of population different from measuring segregation?
+  reject_reason: null
+- candidate_id: q0029
+  status: accepted
+  original_text: How is decennial census of population different from exploring census
+    topics?
+  final_text: How is decennial census of population different from exploring census
+    topics?
+  reject_reason: null
+- candidate_id: q0030
+  status: accepted
+  original_text: How is housing different from american community survey?
+  final_text: How is housing different from american community survey?
+  reject_reason: null
+- candidate_id: q0031
+  status: accepted
+  original_text: How is housing different from measuring segregation?
+  final_text: How is housing different from measuring segregation?
+  reject_reason: null
+- candidate_id: q0032
+  status: accepted
+  original_text: How is housing different from exploring census topics?
+  final_text: How is housing different from exploring census topics?
+  reject_reason: null
+- candidate_id: q0033
+  status: accepted
+  original_text: How is american community survey different from measuring segregation?
+  final_text: How is american community survey different from measuring segregation?
+  reject_reason: null
+- candidate_id: q0034
+  status: accepted
+  original_text: How is american community survey different from exploring census
+    topics?
+  final_text: How is american community survey different from exploring census topics?
+  reject_reason: null
+- candidate_id: q0035
+  status: accepted
+  original_text: How is measuring segregation different from exploring census topics?
+  final_text: How is measuring segregation different from exploring census topics?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is decennial census of population?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does decennial census of population mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does decennial census of population matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does decennial census of population?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of decennial census of population?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is housing?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does housing mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does housing matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does housing?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of housing?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is american community survey?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does american community survey mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does american community survey matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does american community survey?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of american community survey?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is measuring segregation?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does measuring segregation mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does measuring segregation matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does measuring segregation?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of measuring segregation?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: What is exploring census topics?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: What does exploring census topics mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: Why does exploring census topics matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: Why does exploring census topics?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: What is a simple example of exploring census topics?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: How is decennial census of population different from housing?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0027
+  question_text: How is decennial census of population different from american community
+    survey?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0028
+  question_text: How is decennial census of population different from measuring segregation?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0029
+  question_text: How is decennial census of population different from exploring census
+    topics?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0030
+  question_text: How is housing different from american community survey?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0031
+  question_text: How is housing different from measuring segregation?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0032
+  question_text: How is housing different from exploring census topics?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0033
+  question_text: How is american community survey different from measuring segregation?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0034
+  question_text: How is american community survey different from exploring census
+    topics?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0035
+  question_text: How is measuring segregation different from exploring census topics?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24657'
+    title: Analyzing US Census Data in Python
+  relevant_topics:
+  - decennial census of population
+  question_text: What is decennial census of population?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24657'
+    title: Analyzing US Census Data in Python
+  relevant_topics:
+  - decennial census of population
+  question_text: What does decennial census of population mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24657'
+    title: Analyzing US Census Data in Python
+  relevant_topics:
+  - decennial census of population
+  question_text: Why does decennial census of population matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24657'
+    title: Analyzing US Census Data in Python
+  relevant_topics:
+  - decennial census of population
+  question_text: Why does decennial census of population?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24657'
+    title: Analyzing US Census Data in Python
+  relevant_topics:
+  - decennial census of population
+  question_text: What is a simple example of decennial census of population?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24657'
+    title: Analyzing US Census Data in Python
+  relevant_topics:
+  - housing
+  question_text: What is housing?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24657'
+    title: Analyzing US Census Data in Python
+  relevant_topics:
+  - housing
+  question_text: What does housing mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24657'
+    title: Analyzing US Census Data in Python
+  relevant_topics:
+  - housing
+  question_text: Why does housing matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24657'
+    title: Analyzing US Census Data in Python
+  relevant_topics:
+  - housing
+  question_text: Why does housing?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24657'
+    title: Analyzing US Census Data in Python
+  relevant_topics:
+  - housing
+  question_text: What is a simple example of housing?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24657'
+    title: Analyzing US Census Data in Python
+  relevant_topics:
+  - american community survey
+  question_text: What is american community survey?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24657'
+    title: Analyzing US Census Data in Python
+  relevant_topics:
+  - american community survey
+  question_text: What does american community survey mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24657'
+    title: Analyzing US Census Data in Python
+  relevant_topics:
+  - american community survey
+  question_text: Why does american community survey matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24657'
+    title: Analyzing US Census Data in Python
+  relevant_topics:
+  - american community survey
+  question_text: Why does american community survey?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24657'
+    title: Analyzing US Census Data in Python
+  relevant_topics:
+  - american community survey
+  question_text: What is a simple example of american community survey?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24657'
+    title: Analyzing US Census Data in Python
+  relevant_topics:
+  - measuring segregation
+  question_text: What is measuring segregation?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24657'
+    title: Analyzing US Census Data in Python
+  relevant_topics:
+  - measuring segregation
+  question_text: What does measuring segregation mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24657'
+    title: Analyzing US Census Data in Python
+  relevant_topics:
+  - measuring segregation
+  question_text: Why does measuring segregation matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24657'
+    title: Analyzing US Census Data in Python
+  relevant_topics:
+  - measuring segregation
+  question_text: Why does measuring segregation?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24657'
+    title: Analyzing US Census Data in Python
+  relevant_topics:
+  - measuring segregation
+  question_text: What is a simple example of measuring segregation?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24657'
+    title: Analyzing US Census Data in Python
+  relevant_topics:
+  - exploring census topics
+  question_text: What is exploring census topics?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24657'
+    title: Analyzing US Census Data in Python
+  relevant_topics:
+  - exploring census topics
+  question_text: What does exploring census topics mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24657'
+    title: Analyzing US Census Data in Python
+  relevant_topics:
+  - exploring census topics
+  question_text: Why does exploring census topics matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24657'
+    title: Analyzing US Census Data in Python
+  relevant_topics:
+  - exploring census topics
+  question_text: Why does exploring census topics?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24657'
+    title: Analyzing US Census Data in Python
+  relevant_topics:
+  - exploring census topics
+  question_text: What is a simple example of exploring census topics?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24657'
+    title: Analyzing US Census Data in Python
+  relevant_topics:
+  - decennial census of population
+  - housing
+  question_text: How is decennial census of population different from housing?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000027
+  course:
+    course_id: '24657'
+    title: Analyzing US Census Data in Python
+  relevant_topics:
+  - decennial census of population
+  - american community survey
+  question_text: How is decennial census of population different from american community
+    survey?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000028
+  course:
+    course_id: '24657'
+    title: Analyzing US Census Data in Python
+  relevant_topics:
+  - decennial census of population
+  - measuring segregation
+  question_text: How is decennial census of population different from measuring segregation?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000029
+  course:
+    course_id: '24657'
+    title: Analyzing US Census Data in Python
+  relevant_topics:
+  - decennial census of population
+  - exploring census topics
+  question_text: How is decennial census of population different from exploring census
+    topics?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000030
+  course:
+    course_id: '24657'
+    title: Analyzing US Census Data in Python
+  relevant_topics:
+  - housing
+  - american community survey
+  question_text: How is housing different from american community survey?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000031
+  course:
+    course_id: '24657'
+    title: Analyzing US Census Data in Python
+  relevant_topics:
+  - housing
+  - measuring segregation
+  question_text: How is housing different from measuring segregation?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000032
+  course:
+    course_id: '24657'
+    title: Analyzing US Census Data in Python
+  relevant_topics:
+  - housing
+  - exploring census topics
+  question_text: How is housing different from exploring census topics?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000033
+  course:
+    course_id: '24657'
+    title: Analyzing US Census Data in Python
+  relevant_topics:
+  - american community survey
+  - measuring segregation
+  question_text: How is american community survey different from measuring segregation?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000034
+  course:
+    course_id: '24657'
+    title: Analyzing US Census Data in Python
+  relevant_topics:
+  - american community survey
+  - exploring census topics
+  question_text: How is american community survey different from exploring census
+    topics?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000035
+  course:
+    course_id: '24657'
+    title: Analyzing US Census Data in Python
+  relevant_topics:
+  - measuring segregation
+  - exploring census topics
+  question_text: How is measuring segregation different from exploring census topics?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 5
+  canonical_topic_count: 5
+  candidate_count: 35
+  accepted_count: 35
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 35

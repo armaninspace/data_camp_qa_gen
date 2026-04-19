@@ -1,0 +1,1088 @@
+course_id: '24652'
+title: Hyperparameter Tuning in R
+normalized_course:
+  course_id: '24652'
+  title: Hyperparameter Tuning in R
+  provider: DataCamp
+  summary: 'Learn how to tune your model''s hyperparameters to get the best predictive
+
+    results.'
+  overview: 'Introduction to hyperparameters
+
+
+    Why do we use the strange word "hyperparameter"? What makes it hyper? Here,
+
+    you will understand what model parameters are, and why they are different
+
+    from hyperparameters in machine learning. You will then see why we would
+
+    want to tune them and how the default setting of caret automatically
+
+    includes hyperparameter tuning.
+
+
+    Hyperparameter tuning with caret
+
+
+    In this chapter, you will learn how to tune hyperparameters with a Cartesian
+
+    grid. Then, you will implement faster and more efficient approaches. You
+
+    will use Random Search and adaptive resampling to tune the parameter grid,
+
+    in a way that concentrates on values in the neighborhood of the optimal
+
+    settings.
+
+
+    Hyperparameter tuning with mlr
+
+
+    Here, you will use another package for machine learning that has very
+
+    convenient hyperparameter tuning functions. You will define a Cartesian grid
+
+    or perform Random Search, as well as advanced techniques. You will also
+
+    learn different ways to plot and evaluate models with different
+
+    hyperparameters.
+
+
+    Hyperparameter tuning with h2o
+
+
+    In this final chapter, you will use h2o, another package for machine
+
+    learning with very convenient hyperparameter tuning functions. You will use
+
+    it to train different models and define a Cartesian grid. Then, You will
+
+    implement a Random Search use stopping criteria. Finally, you will learn
+
+    AutoML, an h2o interface which allows for very fast and convenient model and
+
+    hyperparameter tuning with just one function.'
+  chapters:
+  - chapter_index: 1
+    title: Introduction to hyperparameters
+    summary: 'Why do we use the strange word "hyperparameter"? What makes it
+
+      hyper? Here, you will understand what model parameters are, and why
+
+      they are different from hyperparameters in machine learning. You
+
+      will then see why we would want to tune them and how the default
+
+      setting of caret automatically includes hyperparameter tuning.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 2
+    title: Hyperparameter tuning with caret
+    summary: 'In this chapter, you will learn how to tune hyperparameters with a
+
+      Cartesian grid. Then, you will implement faster and more efficient
+
+      approaches. You will use Random Search and adaptive resampling to
+
+      tune the parameter grid, in a way that concentrates on values in the
+
+      neighborhood of the optimal settings.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 3
+    title: Hyperparameter tuning with mlr
+    summary: 'Here, you will use another package for machine learning that has
+
+      very convenient hyperparameter tuning functions. You will define a
+
+      Cartesian grid or perform Random Search, as well as advanced
+
+      techniques. You will also learn different ways to plot and evaluate
+
+      models with different hyperparameters.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 4
+    title: Hyperparameter tuning with h2o
+    summary: 'In this final chapter, you will use h2o, another package for machine
+
+      learning with very convenient hyperparameter tuning functions. You
+
+      will use it to train different models and define a Cartesian grid.
+
+      Then, You will implement a Random Search use stopping criteria.
+
+      Finally, you will learn AutoML, an h2o interface which allows for
+
+      very fast and convenient model and hyperparameter tuning with just
+
+      one function.'
+    source: syllabus
+    confidence: 1.0
+  metadata:
+    level: Intermediate
+    duration_hours: 4 hours
+    subjects:
+    - Hyperparameter Optimization
+    - Machine Learning
+    - R Programming
+    - Supervised Learning
+    - AutoML
+    - Random Forests
+    - Hyperparameter Tuning
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: introduction to hyperparameters
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: introduction to hyperparameters'
+  evidence:
+  - source: syllabus
+    text: Introduction to hyperparameters
+  confidence: 0.45
+- topic_id: t002
+  label: hyperparameter tuning with caret
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: hyperparameter tuning with caret'
+  evidence:
+  - source: syllabus
+    text: Hyperparameter tuning with caret
+  confidence: 0.45
+- topic_id: t003
+  label: hyperparameter tuning with mlr
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: hyperparameter tuning with mlr'
+  evidence:
+  - source: syllabus
+    text: Hyperparameter tuning with mlr
+  confidence: 0.45
+- topic_id: t004
+  label: hyperparameter tuning with h2o
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: hyperparameter tuning with h2o'
+  evidence:
+  - source: syllabus
+    text: Hyperparameter tuning with h2o
+  confidence: 0.45
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: introduction to hyperparameters
+  aliases:
+  - introduction to hyperparameters
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: hyperparameter tuning with caret
+  aliases:
+  - hyperparameter tuning with caret
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: hyperparameter tuning with mlr
+  aliases:
+  - hyperparameter tuning with mlr
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: hyperparameter tuning with h2o
+  aliases:
+  - hyperparameter tuning with h2o
+  member_topic_ids:
+  - t004
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - introduction to hyperparameters
+  family: entry
+  pattern: What is {x}?
+  question_text: What is introduction to hyperparameters?
+- candidate_id: q0002
+  relevant_topics:
+  - introduction to hyperparameters
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does introduction to hyperparameters mean?
+- candidate_id: q0003
+  relevant_topics:
+  - introduction to hyperparameters
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does introduction to hyperparameters matter?
+- candidate_id: q0004
+  relevant_topics:
+  - introduction to hyperparameters
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use introduction to hyperparameters?
+- candidate_id: q0005
+  relevant_topics:
+  - introduction to hyperparameters
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of introduction to hyperparameters?
+- candidate_id: q0006
+  relevant_topics:
+  - hyperparameter tuning with caret
+  family: entry
+  pattern: What is {x}?
+  question_text: What is hyperparameter tuning with caret?
+- candidate_id: q0007
+  relevant_topics:
+  - hyperparameter tuning with caret
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does hyperparameter tuning with caret mean?
+- candidate_id: q0008
+  relevant_topics:
+  - hyperparameter tuning with caret
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does hyperparameter tuning with caret matter?
+- candidate_id: q0009
+  relevant_topics:
+  - hyperparameter tuning with caret
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use hyperparameter tuning with caret?
+- candidate_id: q0010
+  relevant_topics:
+  - hyperparameter tuning with caret
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of hyperparameter tuning with caret?
+- candidate_id: q0011
+  relevant_topics:
+  - hyperparameter tuning with mlr
+  family: entry
+  pattern: What is {x}?
+  question_text: What is hyperparameter tuning with mlr?
+- candidate_id: q0012
+  relevant_topics:
+  - hyperparameter tuning with mlr
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does hyperparameter tuning with mlr mean?
+- candidate_id: q0013
+  relevant_topics:
+  - hyperparameter tuning with mlr
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does hyperparameter tuning with mlr matter?
+- candidate_id: q0014
+  relevant_topics:
+  - hyperparameter tuning with mlr
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use hyperparameter tuning with mlr?
+- candidate_id: q0015
+  relevant_topics:
+  - hyperparameter tuning with mlr
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of hyperparameter tuning with mlr?
+- candidate_id: q0016
+  relevant_topics:
+  - hyperparameter tuning with h2o
+  family: entry
+  pattern: What is {x}?
+  question_text: What is hyperparameter tuning with h2o?
+- candidate_id: q0017
+  relevant_topics:
+  - hyperparameter tuning with h2o
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does hyperparameter tuning with h2o mean?
+- candidate_id: q0018
+  relevant_topics:
+  - hyperparameter tuning with h2o
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does hyperparameter tuning with h2o matter?
+- candidate_id: q0019
+  relevant_topics:
+  - hyperparameter tuning with h2o
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use hyperparameter tuning with h2o?
+- candidate_id: q0020
+  relevant_topics:
+  - hyperparameter tuning with h2o
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of hyperparameter tuning with h2o?
+- candidate_id: q0021
+  relevant_topics:
+  - introduction to hyperparameters
+  - hyperparameter tuning with caret
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to hyperparameters different from hyperparameter
+    tuning with caret?
+- candidate_id: q0022
+  relevant_topics:
+  - introduction to hyperparameters
+  - hyperparameter tuning with mlr
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to hyperparameters different from hyperparameter
+    tuning with mlr?
+- candidate_id: q0023
+  relevant_topics:
+  - introduction to hyperparameters
+  - hyperparameter tuning with h2o
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to hyperparameters different from hyperparameter
+    tuning with h2o?
+- candidate_id: q0024
+  relevant_topics:
+  - hyperparameter tuning with caret
+  - hyperparameter tuning with mlr
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is hyperparameter tuning with caret different from hyperparameter
+    tuning with mlr?
+- candidate_id: q0025
+  relevant_topics:
+  - hyperparameter tuning with caret
+  - hyperparameter tuning with h2o
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is hyperparameter tuning with caret different from hyperparameter
+    tuning with h2o?
+- candidate_id: q0026
+  relevant_topics:
+  - hyperparameter tuning with mlr
+  - hyperparameter tuning with h2o
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is hyperparameter tuning with mlr different from hyperparameter
+    tuning with h2o?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is introduction to hyperparameters?
+  final_text: What is introduction to hyperparameters?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does introduction to hyperparameters mean?
+  final_text: What does introduction to hyperparameters mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does introduction to hyperparameters matter?
+  final_text: Why does introduction to hyperparameters matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use introduction to hyperparameters?
+  final_text: Why does introduction to hyperparameters?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of introduction to hyperparameters?
+  final_text: What is a simple example of introduction to hyperparameters?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is hyperparameter tuning with caret?
+  final_text: What is hyperparameter tuning with caret?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does hyperparameter tuning with caret mean?
+  final_text: What does hyperparameter tuning with caret mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does hyperparameter tuning with caret matter?
+  final_text: Why does hyperparameter tuning with caret matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use hyperparameter tuning with caret?
+  final_text: Why does hyperparameter tuning with caret?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of hyperparameter tuning with caret?
+  final_text: What is a simple example of hyperparameter tuning with caret?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is hyperparameter tuning with mlr?
+  final_text: What is hyperparameter tuning with mlr?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does hyperparameter tuning with mlr mean?
+  final_text: What does hyperparameter tuning with mlr mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does hyperparameter tuning with mlr matter?
+  final_text: Why does hyperparameter tuning with mlr matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use hyperparameter tuning with mlr?
+  final_text: Why does hyperparameter tuning with mlr?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of hyperparameter tuning with mlr?
+  final_text: What is a simple example of hyperparameter tuning with mlr?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is hyperparameter tuning with h2o?
+  final_text: What is hyperparameter tuning with h2o?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does hyperparameter tuning with h2o mean?
+  final_text: What does hyperparameter tuning with h2o mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does hyperparameter tuning with h2o matter?
+  final_text: Why does hyperparameter tuning with h2o matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use hyperparameter tuning with h2o?
+  final_text: Why does hyperparameter tuning with h2o?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of hyperparameter tuning with h2o?
+  final_text: What is a simple example of hyperparameter tuning with h2o?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: How is introduction to hyperparameters different from hyperparameter
+    tuning with caret?
+  final_text: How is introduction to hyperparameters different from hyperparameter
+    tuning with caret?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: How is introduction to hyperparameters different from hyperparameter
+    tuning with mlr?
+  final_text: How is introduction to hyperparameters different from hyperparameter
+    tuning with mlr?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: How is introduction to hyperparameters different from hyperparameter
+    tuning with h2o?
+  final_text: How is introduction to hyperparameters different from hyperparameter
+    tuning with h2o?
+  reject_reason: null
+- candidate_id: q0024
+  status: accepted
+  original_text: How is hyperparameter tuning with caret different from hyperparameter
+    tuning with mlr?
+  final_text: How is hyperparameter tuning with caret different from hyperparameter
+    tuning with mlr?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: How is hyperparameter tuning with caret different from hyperparameter
+    tuning with h2o?
+  final_text: How is hyperparameter tuning with caret different from hyperparameter
+    tuning with h2o?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: How is hyperparameter tuning with mlr different from hyperparameter
+    tuning with h2o?
+  final_text: How is hyperparameter tuning with mlr different from hyperparameter
+    tuning with h2o?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is introduction to hyperparameters?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does introduction to hyperparameters mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does introduction to hyperparameters matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does introduction to hyperparameters?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of introduction to hyperparameters?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is hyperparameter tuning with caret?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does hyperparameter tuning with caret mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does hyperparameter tuning with caret matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does hyperparameter tuning with caret?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of hyperparameter tuning with caret?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is hyperparameter tuning with mlr?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does hyperparameter tuning with mlr mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does hyperparameter tuning with mlr matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does hyperparameter tuning with mlr?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of hyperparameter tuning with mlr?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is hyperparameter tuning with h2o?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does hyperparameter tuning with h2o mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does hyperparameter tuning with h2o matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does hyperparameter tuning with h2o?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of hyperparameter tuning with h2o?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: How is introduction to hyperparameters different from hyperparameter
+    tuning with caret?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: How is introduction to hyperparameters different from hyperparameter
+    tuning with mlr?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: How is introduction to hyperparameters different from hyperparameter
+    tuning with h2o?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: How is hyperparameter tuning with caret different from hyperparameter
+    tuning with mlr?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: How is hyperparameter tuning with caret different from hyperparameter
+    tuning with h2o?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: How is hyperparameter tuning with mlr different from hyperparameter
+    tuning with h2o?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24652'
+    title: Hyperparameter Tuning in R
+  relevant_topics:
+  - introduction to hyperparameters
+  question_text: What is introduction to hyperparameters?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24652'
+    title: Hyperparameter Tuning in R
+  relevant_topics:
+  - introduction to hyperparameters
+  question_text: What does introduction to hyperparameters mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24652'
+    title: Hyperparameter Tuning in R
+  relevant_topics:
+  - introduction to hyperparameters
+  question_text: Why does introduction to hyperparameters matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24652'
+    title: Hyperparameter Tuning in R
+  relevant_topics:
+  - introduction to hyperparameters
+  question_text: Why does introduction to hyperparameters?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24652'
+    title: Hyperparameter Tuning in R
+  relevant_topics:
+  - introduction to hyperparameters
+  question_text: What is a simple example of introduction to hyperparameters?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24652'
+    title: Hyperparameter Tuning in R
+  relevant_topics:
+  - hyperparameter tuning with caret
+  question_text: What is hyperparameter tuning with caret?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24652'
+    title: Hyperparameter Tuning in R
+  relevant_topics:
+  - hyperparameter tuning with caret
+  question_text: What does hyperparameter tuning with caret mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24652'
+    title: Hyperparameter Tuning in R
+  relevant_topics:
+  - hyperparameter tuning with caret
+  question_text: Why does hyperparameter tuning with caret matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24652'
+    title: Hyperparameter Tuning in R
+  relevant_topics:
+  - hyperparameter tuning with caret
+  question_text: Why does hyperparameter tuning with caret?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24652'
+    title: Hyperparameter Tuning in R
+  relevant_topics:
+  - hyperparameter tuning with caret
+  question_text: What is a simple example of hyperparameter tuning with caret?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24652'
+    title: Hyperparameter Tuning in R
+  relevant_topics:
+  - hyperparameter tuning with mlr
+  question_text: What is hyperparameter tuning with mlr?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24652'
+    title: Hyperparameter Tuning in R
+  relevant_topics:
+  - hyperparameter tuning with mlr
+  question_text: What does hyperparameter tuning with mlr mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24652'
+    title: Hyperparameter Tuning in R
+  relevant_topics:
+  - hyperparameter tuning with mlr
+  question_text: Why does hyperparameter tuning with mlr matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24652'
+    title: Hyperparameter Tuning in R
+  relevant_topics:
+  - hyperparameter tuning with mlr
+  question_text: Why does hyperparameter tuning with mlr?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24652'
+    title: Hyperparameter Tuning in R
+  relevant_topics:
+  - hyperparameter tuning with mlr
+  question_text: What is a simple example of hyperparameter tuning with mlr?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24652'
+    title: Hyperparameter Tuning in R
+  relevant_topics:
+  - hyperparameter tuning with h2o
+  question_text: What is hyperparameter tuning with h2o?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24652'
+    title: Hyperparameter Tuning in R
+  relevant_topics:
+  - hyperparameter tuning with h2o
+  question_text: What does hyperparameter tuning with h2o mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24652'
+    title: Hyperparameter Tuning in R
+  relevant_topics:
+  - hyperparameter tuning with h2o
+  question_text: Why does hyperparameter tuning with h2o matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24652'
+    title: Hyperparameter Tuning in R
+  relevant_topics:
+  - hyperparameter tuning with h2o
+  question_text: Why does hyperparameter tuning with h2o?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24652'
+    title: Hyperparameter Tuning in R
+  relevant_topics:
+  - hyperparameter tuning with h2o
+  question_text: What is a simple example of hyperparameter tuning with h2o?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24652'
+    title: Hyperparameter Tuning in R
+  relevant_topics:
+  - introduction to hyperparameters
+  - hyperparameter tuning with caret
+  question_text: How is introduction to hyperparameters different from hyperparameter
+    tuning with caret?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24652'
+    title: Hyperparameter Tuning in R
+  relevant_topics:
+  - introduction to hyperparameters
+  - hyperparameter tuning with mlr
+  question_text: How is introduction to hyperparameters different from hyperparameter
+    tuning with mlr?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24652'
+    title: Hyperparameter Tuning in R
+  relevant_topics:
+  - introduction to hyperparameters
+  - hyperparameter tuning with h2o
+  question_text: How is introduction to hyperparameters different from hyperparameter
+    tuning with h2o?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24652'
+    title: Hyperparameter Tuning in R
+  relevant_topics:
+  - hyperparameter tuning with caret
+  - hyperparameter tuning with mlr
+  question_text: How is hyperparameter tuning with caret different from hyperparameter
+    tuning with mlr?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24652'
+    title: Hyperparameter Tuning in R
+  relevant_topics:
+  - hyperparameter tuning with caret
+  - hyperparameter tuning with h2o
+  question_text: How is hyperparameter tuning with caret different from hyperparameter
+    tuning with h2o?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24652'
+    title: Hyperparameter Tuning in R
+  relevant_topics:
+  - hyperparameter tuning with mlr
+  - hyperparameter tuning with h2o
+  question_text: How is hyperparameter tuning with mlr different from hyperparameter
+    tuning with h2o?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 4
+  canonical_topic_count: 4
+  candidate_count: 26
+  accepted_count: 26
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 26

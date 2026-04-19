@@ -1,0 +1,3294 @@
+course_id: '24378'
+title: Explore the Machine Learning Basics
+normalized_course:
+  course_id: '24378'
+  title: Explore the Machine Learning Basics
+  provider: DataCamp
+  summary: An introduction to machine learning with no coding involved.
+  overview: 'An introduction to machine learning with no coding involved.
+
+
+    Gain an Introduction to Machine Learning Concepts
+
+
+    What''s behind the machine learning hype? In this non-technical course,
+
+    you’ll learn everything you’ve been too afraid to ask about machine
+
+    learning. There’s no coding required.
+
+
+    You will explore basic yet essential concepts to start your machine learning
+
+    journey, using hands-on exercises to cement your knowledge. This includes
+
+    developing an understanding beyond the jargon and learning how this exciting
+
+    technology powers everything from self-driving cars to your personal Amazon
+
+    shopping suggestions.
+
+
+    Explore the Machine Learning Basics
+
+
+    How does machine learning work, when can you use it, and what is the
+
+    difference between AI and machine learning? This course covers all of these
+
+    topics.
+
+
+    You’ll start by unpacking what machine learning is, exploring its basic
+
+    definition and its relation to data science and artificial intelligence.
+
+    Then, you will familiarize yourself with its vocabulary and end with the
+
+    machine learning workflow for building models.
+
+
+    We wrap up the course by digging deeper into deep learning. You will explore
+
+    two common use cases for deep learning: computer vision and natural language
+
+    processing (NLP), and acknowledge the limits and dangers of machine
+
+    learning.'
+  chapters:
+  - chapter_index: 1
+    title: Gain an Introduction to Machine Learning Concepts
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 2
+    title: What's behind the machine learning hype? In this non-technical course,
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 3
+    title: you’ll learn everything you’ve been too afraid to ask about machine
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 4
+    title: You will explore basic yet essential concepts to start your machine learning
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 5
+    title: journey, using hands-on exercises to cement your knowledge. This includes
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 6
+    title: developing an understanding beyond the jargon and learning how this exciting
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 7
+    title: technology powers everything from self-driving cars to your personal Amazon
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 8
+    title: Explore the Machine Learning Basics
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  metadata:
+    level: Beginner
+    duration_hours: 2 hours
+    subjects:
+    - Machine Learning
+    - Artificial Intelligence
+    - Data Science
+    - Deep Learning
+    - Computer Vision
+    - Neural Networks
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: gain an introduction to machine learning concepts
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: gain an introduction to machine
+    learning concepts'
+  evidence:
+  - source: overview_inferred
+    text: Gain an Introduction to Machine Learning Concepts
+  confidence: 0.45
+- topic_id: t002
+  label: what's behind the machine learning hype? in this non-technical course,
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: what''s behind the machine learning
+    hype? in this non-technical course,'
+  evidence:
+  - source: overview_inferred
+    text: What's behind the machine learning hype? In this non-technical course,
+  confidence: 0.45
+- topic_id: t003
+  label: you’ll learn everything you’ve been too afraid to ask about machine
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: you’ll learn everything you’ve
+    been too afraid to ask about machine'
+  evidence:
+  - source: overview_inferred
+    text: you’ll learn everything you’ve been too afraid to ask about machine
+  confidence: 0.45
+- topic_id: t004
+  label: you will explore basic yet essential concepts to start your machine learning
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: you will explore basic yet essential
+    concepts to start your machine learning'
+  evidence:
+  - source: overview_inferred
+    text: You will explore basic yet essential concepts to start your machine learning
+  confidence: 0.45
+- topic_id: t005
+  label: journey, using hands-on exercises to cement your knowledge. this includes
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: journey, using hands-on exercises
+    to cement your knowledge. this includes'
+  evidence:
+  - source: overview_inferred
+    text: journey, using hands-on exercises to cement your knowledge. This includes
+  confidence: 0.45
+- topic_id: t006
+  label: developing an understanding beyond the jargon
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: developing an understanding beyond
+    the jargon'
+  evidence:
+  - source: overview_inferred
+    text: developing an understanding beyond the jargon and learning how this exciting
+  confidence: 0.55
+- topic_id: t007
+  label: learning how this exciting
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: learning how this exciting'
+  evidence:
+  - source: overview_inferred
+    text: developing an understanding beyond the jargon and learning how this exciting
+  confidence: 0.55
+- topic_id: t008
+  label: technology powers everything from self-driving cars to your personal amazon
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: technology powers everything
+    from self-driving cars to your personal amazon'
+  evidence:
+  - source: overview_inferred
+    text: technology powers everything from self-driving cars to your personal Amazon
+  confidence: 0.45
+- topic_id: t009
+  label: explore the machine learning basics
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: explore the machine learning
+    basics'
+  evidence:
+  - source: overview_inferred
+    text: Explore the Machine Learning Basics
+  confidence: 0.45
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: gain an introduction to machine learning concepts
+  aliases:
+  - gain an introduction to machine learning concepts
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: what's behind machine learning hype? in this non-technical course,
+  aliases:
+  - what's behind the machine learning hype? in this non-technical course,
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: you’ll learn everything you’ve been too afraid to ask about machine
+  aliases:
+  - you’ll learn everything you’ve been too afraid to ask about machine
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: you will explore basic yet essential concepts to start your machine learning
+  aliases:
+  - you will explore basic yet essential concepts to start your machine learning
+  member_topic_ids:
+  - t004
+  topic_type: concept
+- canonical_topic_id: ct_005
+  label: journey, using hands-on exercises to cement your knowledge. this includes
+  aliases:
+  - journey, using hands-on exercises to cement your knowledge. this includes
+  member_topic_ids:
+  - t005
+  topic_type: concept
+- canonical_topic_id: ct_006
+  label: developing an understanding beyond jargon
+  aliases:
+  - developing an understanding beyond the jargon
+  member_topic_ids:
+  - t006
+  topic_type: concept
+- canonical_topic_id: ct_007
+  label: learning how this exciting
+  aliases:
+  - learning how this exciting
+  member_topic_ids:
+  - t007
+  topic_type: concept
+- canonical_topic_id: ct_008
+  label: technology powers everything from self-driving cars to your personal amazon
+  aliases:
+  - technology powers everything from self-driving cars to your personal amazon
+  member_topic_ids:
+  - t008
+  topic_type: concept
+- canonical_topic_id: ct_009
+  label: explore machine learning basics
+  aliases:
+  - explore the machine learning basics
+  member_topic_ids:
+  - t009
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - gain an introduction to machine learning concepts
+  family: entry
+  pattern: What is {x}?
+  question_text: What is gain an introduction to machine learning concepts?
+- candidate_id: q0002
+  relevant_topics:
+  - gain an introduction to machine learning concepts
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does gain an introduction to machine learning concepts mean?
+- candidate_id: q0003
+  relevant_topics:
+  - gain an introduction to machine learning concepts
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does gain an introduction to machine learning concepts matter?
+- candidate_id: q0004
+  relevant_topics:
+  - gain an introduction to machine learning concepts
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use gain an introduction to machine learning concepts?
+- candidate_id: q0005
+  relevant_topics:
+  - gain an introduction to machine learning concepts
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of gain an introduction to machine learning
+    concepts?
+- candidate_id: q0006
+  relevant_topics:
+  - what's behind machine learning hype? in this non-technical course,
+  family: entry
+  pattern: What is {x}?
+  question_text: What is what's behind machine learning hype? in this non-technical
+    course,?
+- candidate_id: q0007
+  relevant_topics:
+  - what's behind machine learning hype? in this non-technical course,
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does what's behind machine learning hype? in this non-technical
+    course, mean?
+- candidate_id: q0008
+  relevant_topics:
+  - what's behind machine learning hype? in this non-technical course,
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does what's behind machine learning hype? in this non-technical
+    course, matter?
+- candidate_id: q0009
+  relevant_topics:
+  - what's behind machine learning hype? in this non-technical course,
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use what's behind machine learning hype? in this non-technical
+    course,?
+- candidate_id: q0010
+  relevant_topics:
+  - what's behind machine learning hype? in this non-technical course,
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of what's behind machine learning hype?
+    in this non-technical course,?
+- candidate_id: q0011
+  relevant_topics:
+  - you’ll learn everything you’ve been too afraid to ask about machine
+  family: entry
+  pattern: What is {x}?
+  question_text: What is you’ll learn everything you’ve been too afraid to ask about
+    machine?
+- candidate_id: q0012
+  relevant_topics:
+  - you’ll learn everything you’ve been too afraid to ask about machine
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does you’ll learn everything you’ve been too afraid to ask about
+    machine mean?
+- candidate_id: q0013
+  relevant_topics:
+  - you’ll learn everything you’ve been too afraid to ask about machine
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does you’ll learn everything you’ve been too afraid to ask about
+    machine matter?
+- candidate_id: q0014
+  relevant_topics:
+  - you’ll learn everything you’ve been too afraid to ask about machine
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use you’ll learn everything you’ve been too afraid to ask
+    about machine?
+- candidate_id: q0015
+  relevant_topics:
+  - you’ll learn everything you’ve been too afraid to ask about machine
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of you’ll learn everything you’ve been too
+    afraid to ask about machine?
+- candidate_id: q0016
+  relevant_topics:
+  - you will explore basic yet essential concepts to start your machine learning
+  family: entry
+  pattern: What is {x}?
+  question_text: What is you will explore basic yet essential concepts to start your
+    machine learning?
+- candidate_id: q0017
+  relevant_topics:
+  - you will explore basic yet essential concepts to start your machine learning
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does you will explore basic yet essential concepts to start
+    your machine learning mean?
+- candidate_id: q0018
+  relevant_topics:
+  - you will explore basic yet essential concepts to start your machine learning
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does you will explore basic yet essential concepts to start your
+    machine learning matter?
+- candidate_id: q0019
+  relevant_topics:
+  - you will explore basic yet essential concepts to start your machine learning
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use you will explore basic yet essential concepts to start
+    your machine learning?
+- candidate_id: q0020
+  relevant_topics:
+  - you will explore basic yet essential concepts to start your machine learning
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of you will explore basic yet essential
+    concepts to start your machine learning?
+- candidate_id: q0021
+  relevant_topics:
+  - journey, using hands-on exercises to cement your knowledge. this includes
+  family: entry
+  pattern: What is {x}?
+  question_text: What is journey, using hands-on exercises to cement your knowledge.
+    this includes?
+- candidate_id: q0022
+  relevant_topics:
+  - journey, using hands-on exercises to cement your knowledge. this includes
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does journey, using hands-on exercises to cement your knowledge.
+    this includes mean?
+- candidate_id: q0023
+  relevant_topics:
+  - journey, using hands-on exercises to cement your knowledge. this includes
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does journey, using hands-on exercises to cement your knowledge.
+    this includes matter?
+- candidate_id: q0024
+  relevant_topics:
+  - journey, using hands-on exercises to cement your knowledge. this includes
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use journey, using hands-on exercises to cement your knowledge.
+    this includes?
+- candidate_id: q0025
+  relevant_topics:
+  - journey, using hands-on exercises to cement your knowledge. this includes
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of journey, using hands-on exercises to
+    cement your knowledge. this includes?
+- candidate_id: q0026
+  relevant_topics:
+  - developing an understanding beyond jargon
+  family: entry
+  pattern: What is {x}?
+  question_text: What is developing an understanding beyond jargon?
+- candidate_id: q0027
+  relevant_topics:
+  - developing an understanding beyond jargon
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does developing an understanding beyond jargon mean?
+- candidate_id: q0028
+  relevant_topics:
+  - developing an understanding beyond jargon
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does developing an understanding beyond jargon matter?
+- candidate_id: q0029
+  relevant_topics:
+  - developing an understanding beyond jargon
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use developing an understanding beyond jargon?
+- candidate_id: q0030
+  relevant_topics:
+  - developing an understanding beyond jargon
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of developing an understanding beyond jargon?
+- candidate_id: q0031
+  relevant_topics:
+  - learning how this exciting
+  family: entry
+  pattern: What is {x}?
+  question_text: What is learning how this exciting?
+- candidate_id: q0032
+  relevant_topics:
+  - learning how this exciting
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does learning how this exciting mean?
+- candidate_id: q0033
+  relevant_topics:
+  - learning how this exciting
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does learning how this exciting matter?
+- candidate_id: q0034
+  relevant_topics:
+  - learning how this exciting
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use learning how this exciting?
+- candidate_id: q0035
+  relevant_topics:
+  - learning how this exciting
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of learning how this exciting?
+- candidate_id: q0036
+  relevant_topics:
+  - technology powers everything from self-driving cars to your personal amazon
+  family: entry
+  pattern: What is {x}?
+  question_text: What is technology powers everything from self-driving cars to your
+    personal amazon?
+- candidate_id: q0037
+  relevant_topics:
+  - technology powers everything from self-driving cars to your personal amazon
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does technology powers everything from self-driving cars to
+    your personal amazon mean?
+- candidate_id: q0038
+  relevant_topics:
+  - technology powers everything from self-driving cars to your personal amazon
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does technology powers everything from self-driving cars to your
+    personal amazon matter?
+- candidate_id: q0039
+  relevant_topics:
+  - technology powers everything from self-driving cars to your personal amazon
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use technology powers everything from self-driving cars
+    to your personal amazon?
+- candidate_id: q0040
+  relevant_topics:
+  - technology powers everything from self-driving cars to your personal amazon
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of technology powers everything from self-driving
+    cars to your personal amazon?
+- candidate_id: q0041
+  relevant_topics:
+  - explore machine learning basics
+  family: entry
+  pattern: What is {x}?
+  question_text: What is explore machine learning basics?
+- candidate_id: q0042
+  relevant_topics:
+  - explore machine learning basics
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does explore machine learning basics mean?
+- candidate_id: q0043
+  relevant_topics:
+  - explore machine learning basics
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does explore machine learning basics matter?
+- candidate_id: q0044
+  relevant_topics:
+  - explore machine learning basics
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use explore machine learning basics?
+- candidate_id: q0045
+  relevant_topics:
+  - explore machine learning basics
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of explore machine learning basics?
+- candidate_id: q0046
+  relevant_topics:
+  - gain an introduction to machine learning concepts
+  - what's behind machine learning hype? in this non-technical course,
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is gain an introduction to machine learning concepts different
+    from what's behind machine learning hype? in this non-technical course,?
+- candidate_id: q0047
+  relevant_topics:
+  - gain an introduction to machine learning concepts
+  - you’ll learn everything you’ve been too afraid to ask about machine
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is gain an introduction to machine learning concepts different
+    from you’ll learn everything you’ve been too afraid to ask about machine?
+- candidate_id: q0048
+  relevant_topics:
+  - gain an introduction to machine learning concepts
+  - you will explore basic yet essential concepts to start your machine learning
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is gain an introduction to machine learning concepts different
+    from you will explore basic yet essential concepts to start your machine learning?
+- candidate_id: q0049
+  relevant_topics:
+  - gain an introduction to machine learning concepts
+  - journey, using hands-on exercises to cement your knowledge. this includes
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is gain an introduction to machine learning concepts different
+    from journey, using hands-on exercises to cement your knowledge. this includes?
+- candidate_id: q0050
+  relevant_topics:
+  - gain an introduction to machine learning concepts
+  - developing an understanding beyond jargon
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is gain an introduction to machine learning concepts different
+    from developing an understanding beyond jargon?
+- candidate_id: q0051
+  relevant_topics:
+  - gain an introduction to machine learning concepts
+  - learning how this exciting
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is gain an introduction to machine learning concepts different
+    from learning how this exciting?
+- candidate_id: q0052
+  relevant_topics:
+  - gain an introduction to machine learning concepts
+  - technology powers everything from self-driving cars to your personal amazon
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is gain an introduction to machine learning concepts different
+    from technology powers everything from self-driving cars to your personal amazon?
+- candidate_id: q0053
+  relevant_topics:
+  - gain an introduction to machine learning concepts
+  - explore machine learning basics
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is gain an introduction to machine learning concepts different
+    from explore machine learning basics?
+- candidate_id: q0054
+  relevant_topics:
+  - what's behind machine learning hype? in this non-technical course,
+  - you’ll learn everything you’ve been too afraid to ask about machine
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is what's behind machine learning hype? in this non-technical
+    course, different from you’ll learn everything you’ve been too afraid to ask about
+    machine?
+- candidate_id: q0055
+  relevant_topics:
+  - what's behind machine learning hype? in this non-technical course,
+  - you will explore basic yet essential concepts to start your machine learning
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is what's behind machine learning hype? in this non-technical
+    course, different from you will explore basic yet essential concepts to start
+    your machine learning?
+- candidate_id: q0056
+  relevant_topics:
+  - what's behind machine learning hype? in this non-technical course,
+  - journey, using hands-on exercises to cement your knowledge. this includes
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is what's behind machine learning hype? in this non-technical
+    course, different from journey, using hands-on exercises to cement your knowledge.
+    this includes?
+- candidate_id: q0057
+  relevant_topics:
+  - what's behind machine learning hype? in this non-technical course,
+  - developing an understanding beyond jargon
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is what's behind machine learning hype? in this non-technical
+    course, different from developing an understanding beyond jargon?
+- candidate_id: q0058
+  relevant_topics:
+  - what's behind machine learning hype? in this non-technical course,
+  - learning how this exciting
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is what's behind machine learning hype? in this non-technical
+    course, different from learning how this exciting?
+- candidate_id: q0059
+  relevant_topics:
+  - what's behind machine learning hype? in this non-technical course,
+  - technology powers everything from self-driving cars to your personal amazon
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is what's behind machine learning hype? in this non-technical
+    course, different from technology powers everything from self-driving cars to
+    your personal amazon?
+- candidate_id: q0060
+  relevant_topics:
+  - what's behind machine learning hype? in this non-technical course,
+  - explore machine learning basics
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is what's behind machine learning hype? in this non-technical
+    course, different from explore machine learning basics?
+- candidate_id: q0061
+  relevant_topics:
+  - you’ll learn everything you’ve been too afraid to ask about machine
+  - you will explore basic yet essential concepts to start your machine learning
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is you’ll learn everything you’ve been too afraid to ask about
+    machine different from you will explore basic yet essential concepts to start
+    your machine learning?
+- candidate_id: q0062
+  relevant_topics:
+  - you’ll learn everything you’ve been too afraid to ask about machine
+  - journey, using hands-on exercises to cement your knowledge. this includes
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is you’ll learn everything you’ve been too afraid to ask about
+    machine different from journey, using hands-on exercises to cement your knowledge.
+    this includes?
+- candidate_id: q0063
+  relevant_topics:
+  - you’ll learn everything you’ve been too afraid to ask about machine
+  - developing an understanding beyond jargon
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is you’ll learn everything you’ve been too afraid to ask about
+    machine different from developing an understanding beyond jargon?
+- candidate_id: q0064
+  relevant_topics:
+  - you’ll learn everything you’ve been too afraid to ask about machine
+  - learning how this exciting
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is you’ll learn everything you’ve been too afraid to ask about
+    machine different from learning how this exciting?
+- candidate_id: q0065
+  relevant_topics:
+  - you’ll learn everything you’ve been too afraid to ask about machine
+  - technology powers everything from self-driving cars to your personal amazon
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is you’ll learn everything you’ve been too afraid to ask about
+    machine different from technology powers everything from self-driving cars to
+    your personal amazon?
+- candidate_id: q0066
+  relevant_topics:
+  - you’ll learn everything you’ve been too afraid to ask about machine
+  - explore machine learning basics
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is you’ll learn everything you’ve been too afraid to ask about
+    machine different from explore machine learning basics?
+- candidate_id: q0067
+  relevant_topics:
+  - you will explore basic yet essential concepts to start your machine learning
+  - journey, using hands-on exercises to cement your knowledge. this includes
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is you will explore basic yet essential concepts to start your
+    machine learning different from journey, using hands-on exercises to cement your
+    knowledge. this includes?
+- candidate_id: q0068
+  relevant_topics:
+  - you will explore basic yet essential concepts to start your machine learning
+  - developing an understanding beyond jargon
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is you will explore basic yet essential concepts to start your
+    machine learning different from developing an understanding beyond jargon?
+- candidate_id: q0069
+  relevant_topics:
+  - you will explore basic yet essential concepts to start your machine learning
+  - learning how this exciting
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is you will explore basic yet essential concepts to start your
+    machine learning different from learning how this exciting?
+- candidate_id: q0070
+  relevant_topics:
+  - you will explore basic yet essential concepts to start your machine learning
+  - technology powers everything from self-driving cars to your personal amazon
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is you will explore basic yet essential concepts to start your
+    machine learning different from technology powers everything from self-driving
+    cars to your personal amazon?
+- candidate_id: q0071
+  relevant_topics:
+  - you will explore basic yet essential concepts to start your machine learning
+  - explore machine learning basics
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is you will explore basic yet essential concepts to start your
+    machine learning different from explore machine learning basics?
+- candidate_id: q0072
+  relevant_topics:
+  - journey, using hands-on exercises to cement your knowledge. this includes
+  - developing an understanding beyond jargon
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is journey, using hands-on exercises to cement your knowledge.
+    this includes different from developing an understanding beyond jargon?
+- candidate_id: q0073
+  relevant_topics:
+  - journey, using hands-on exercises to cement your knowledge. this includes
+  - learning how this exciting
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is journey, using hands-on exercises to cement your knowledge.
+    this includes different from learning how this exciting?
+- candidate_id: q0074
+  relevant_topics:
+  - journey, using hands-on exercises to cement your knowledge. this includes
+  - technology powers everything from self-driving cars to your personal amazon
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is journey, using hands-on exercises to cement your knowledge.
+    this includes different from technology powers everything from self-driving cars
+    to your personal amazon?
+- candidate_id: q0075
+  relevant_topics:
+  - journey, using hands-on exercises to cement your knowledge. this includes
+  - explore machine learning basics
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is journey, using hands-on exercises to cement your knowledge.
+    this includes different from explore machine learning basics?
+- candidate_id: q0076
+  relevant_topics:
+  - developing an understanding beyond jargon
+  - learning how this exciting
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is developing an understanding beyond jargon different from learning
+    how this exciting?
+- candidate_id: q0077
+  relevant_topics:
+  - developing an understanding beyond jargon
+  - technology powers everything from self-driving cars to your personal amazon
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is developing an understanding beyond jargon different from technology
+    powers everything from self-driving cars to your personal amazon?
+- candidate_id: q0078
+  relevant_topics:
+  - developing an understanding beyond jargon
+  - explore machine learning basics
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is developing an understanding beyond jargon different from explore
+    machine learning basics?
+- candidate_id: q0079
+  relevant_topics:
+  - learning how this exciting
+  - technology powers everything from self-driving cars to your personal amazon
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is learning how this exciting different from technology powers
+    everything from self-driving cars to your personal amazon?
+- candidate_id: q0080
+  relevant_topics:
+  - learning how this exciting
+  - explore machine learning basics
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is learning how this exciting different from explore machine
+    learning basics?
+- candidate_id: q0081
+  relevant_topics:
+  - technology powers everything from self-driving cars to your personal amazon
+  - explore machine learning basics
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is technology powers everything from self-driving cars to your
+    personal amazon different from explore machine learning basics?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is gain an introduction to machine learning concepts?
+  final_text: What is gain an introduction to machine learning concepts?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does gain an introduction to machine learning concepts mean?
+  final_text: What does gain an introduction to machine learning concepts mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does gain an introduction to machine learning concepts matter?
+  final_text: Why does gain an introduction to machine learning concepts matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use gain an introduction to machine learning concepts?
+  final_text: Why does gain an introduction to machine learning concepts?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of gain an introduction to machine learning
+    concepts?
+  final_text: What is a simple example of gain an introduction to machine learning
+    concepts?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is what's behind machine learning hype? in this non-technical
+    course,?
+  final_text: What is what's behind machine learning hype? in this non-technical course,?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does what's behind machine learning hype? in this non-technical
+    course, mean?
+  final_text: What does what's behind machine learning hype? in this non-technical
+    course, mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does what's behind machine learning hype? in this non-technical
+    course, matter?
+  final_text: Why does what's behind machine learning hype? in this non-technical
+    course, matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use what's behind machine learning hype? in this non-technical
+    course,?
+  final_text: Why does what's behind machine learning hype? in this non-technical
+    course,?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of what's behind machine learning hype?
+    in this non-technical course,?
+  final_text: What is a simple example of what's behind machine learning hype? in
+    this non-technical course,?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is you’ll learn everything you’ve been too afraid to ask about
+    machine?
+  final_text: What is you’ll learn everything you’ve been too afraid to ask about
+    machine?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does you’ll learn everything you’ve been too afraid to ask about
+    machine mean?
+  final_text: What does you’ll learn everything you’ve been too afraid to ask about
+    machine mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does you’ll learn everything you’ve been too afraid to ask about
+    machine matter?
+  final_text: Why does you’ll learn everything you’ve been too afraid to ask about
+    machine matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use you’ll learn everything you’ve been too afraid to ask
+    about machine?
+  final_text: Why does you’ll learn everything you’ve been too afraid to ask about
+    machine?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of you’ll learn everything you’ve been too
+    afraid to ask about machine?
+  final_text: What is a simple example of you’ll learn everything you’ve been too
+    afraid to ask about machine?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is you will explore basic yet essential concepts to start your
+    machine learning?
+  final_text: What is you will explore basic yet essential concepts to start your
+    machine learning?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does you will explore basic yet essential concepts to start
+    your machine learning mean?
+  final_text: What does you will explore basic yet essential concepts to start your
+    machine learning mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does you will explore basic yet essential concepts to start your
+    machine learning matter?
+  final_text: Why does you will explore basic yet essential concepts to start your
+    machine learning matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use you will explore basic yet essential concepts to start
+    your machine learning?
+  final_text: Why does you will explore basic yet essential concepts to start your
+    machine learning?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of you will explore basic yet essential
+    concepts to start your machine learning?
+  final_text: What is a simple example of you will explore basic yet essential concepts
+    to start your machine learning?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: What is journey, using hands-on exercises to cement your knowledge.
+    this includes?
+  final_text: What is journey, using hands-on exercises to cement your knowledge.
+    this includes?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: What does journey, using hands-on exercises to cement your knowledge.
+    this includes mean?
+  final_text: What does journey, using hands-on exercises to cement your knowledge.
+    this includes mean?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: Why does journey, using hands-on exercises to cement your knowledge.
+    this includes matter?
+  final_text: Why does journey, using hands-on exercises to cement your knowledge.
+    this includes matter?
+  reject_reason: null
+- candidate_id: q0024
+  status: repaired
+  original_text: Why do we use journey, using hands-on exercises to cement your knowledge.
+    this includes?
+  final_text: Why does journey, using hands-on exercises to cement your knowledge.
+    this includes?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: What is a simple example of journey, using hands-on exercises to
+    cement your knowledge. this includes?
+  final_text: What is a simple example of journey, using hands-on exercises to cement
+    your knowledge. this includes?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: What is developing an understanding beyond jargon?
+  final_text: What is developing an understanding beyond jargon?
+  reject_reason: null
+- candidate_id: q0027
+  status: accepted
+  original_text: What does developing an understanding beyond jargon mean?
+  final_text: What does developing an understanding beyond jargon mean?
+  reject_reason: null
+- candidate_id: q0028
+  status: accepted
+  original_text: Why does developing an understanding beyond jargon matter?
+  final_text: Why does developing an understanding beyond jargon matter?
+  reject_reason: null
+- candidate_id: q0029
+  status: repaired
+  original_text: Why do we use developing an understanding beyond jargon?
+  final_text: Why does developing an understanding beyond jargon?
+  reject_reason: null
+- candidate_id: q0030
+  status: accepted
+  original_text: What is a simple example of developing an understanding beyond jargon?
+  final_text: What is a simple example of developing an understanding beyond jargon?
+  reject_reason: null
+- candidate_id: q0031
+  status: accepted
+  original_text: What is learning how this exciting?
+  final_text: What is learning how this exciting?
+  reject_reason: null
+- candidate_id: q0032
+  status: accepted
+  original_text: What does learning how this exciting mean?
+  final_text: What does learning how this exciting mean?
+  reject_reason: null
+- candidate_id: q0033
+  status: accepted
+  original_text: Why does learning how this exciting matter?
+  final_text: Why does learning how this exciting matter?
+  reject_reason: null
+- candidate_id: q0034
+  status: repaired
+  original_text: Why do we use learning how this exciting?
+  final_text: Why does learning how this exciting?
+  reject_reason: null
+- candidate_id: q0035
+  status: accepted
+  original_text: What is a simple example of learning how this exciting?
+  final_text: What is a simple example of learning how this exciting?
+  reject_reason: null
+- candidate_id: q0036
+  status: accepted
+  original_text: What is technology powers everything from self-driving cars to your
+    personal amazon?
+  final_text: What is technology powers everything from self-driving cars to your
+    personal amazon?
+  reject_reason: null
+- candidate_id: q0037
+  status: accepted
+  original_text: What does technology powers everything from self-driving cars to
+    your personal amazon mean?
+  final_text: What does technology powers everything from self-driving cars to your
+    personal amazon mean?
+  reject_reason: null
+- candidate_id: q0038
+  status: accepted
+  original_text: Why does technology powers everything from self-driving cars to your
+    personal amazon matter?
+  final_text: Why does technology powers everything from self-driving cars to your
+    personal amazon matter?
+  reject_reason: null
+- candidate_id: q0039
+  status: repaired
+  original_text: Why do we use technology powers everything from self-driving cars
+    to your personal amazon?
+  final_text: Why does technology powers everything from self-driving cars to your
+    personal amazon?
+  reject_reason: null
+- candidate_id: q0040
+  status: accepted
+  original_text: What is a simple example of technology powers everything from self-driving
+    cars to your personal amazon?
+  final_text: What is a simple example of technology powers everything from self-driving
+    cars to your personal amazon?
+  reject_reason: null
+- candidate_id: q0041
+  status: accepted
+  original_text: What is explore machine learning basics?
+  final_text: What is explore machine learning basics?
+  reject_reason: null
+- candidate_id: q0042
+  status: accepted
+  original_text: What does explore machine learning basics mean?
+  final_text: What does explore machine learning basics mean?
+  reject_reason: null
+- candidate_id: q0043
+  status: accepted
+  original_text: Why does explore machine learning basics matter?
+  final_text: Why does explore machine learning basics matter?
+  reject_reason: null
+- candidate_id: q0044
+  status: repaired
+  original_text: Why do we use explore machine learning basics?
+  final_text: Why does explore machine learning basics?
+  reject_reason: null
+- candidate_id: q0045
+  status: accepted
+  original_text: What is a simple example of explore machine learning basics?
+  final_text: What is a simple example of explore machine learning basics?
+  reject_reason: null
+- candidate_id: q0046
+  status: accepted
+  original_text: How is gain an introduction to machine learning concepts different
+    from what's behind machine learning hype? in this non-technical course,?
+  final_text: How is gain an introduction to machine learning concepts different from
+    what's behind machine learning hype? in this non-technical course,?
+  reject_reason: null
+- candidate_id: q0047
+  status: accepted
+  original_text: How is gain an introduction to machine learning concepts different
+    from you’ll learn everything you’ve been too afraid to ask about machine?
+  final_text: How is gain an introduction to machine learning concepts different from
+    you’ll learn everything you’ve been too afraid to ask about machine?
+  reject_reason: null
+- candidate_id: q0048
+  status: accepted
+  original_text: How is gain an introduction to machine learning concepts different
+    from you will explore basic yet essential concepts to start your machine learning?
+  final_text: How is gain an introduction to machine learning concepts different from
+    you will explore basic yet essential concepts to start your machine learning?
+  reject_reason: null
+- candidate_id: q0049
+  status: accepted
+  original_text: How is gain an introduction to machine learning concepts different
+    from journey, using hands-on exercises to cement your knowledge. this includes?
+  final_text: How is gain an introduction to machine learning concepts different from
+    journey, using hands-on exercises to cement your knowledge. this includes?
+  reject_reason: null
+- candidate_id: q0050
+  status: accepted
+  original_text: How is gain an introduction to machine learning concepts different
+    from developing an understanding beyond jargon?
+  final_text: How is gain an introduction to machine learning concepts different from
+    developing an understanding beyond jargon?
+  reject_reason: null
+- candidate_id: q0051
+  status: accepted
+  original_text: How is gain an introduction to machine learning concepts different
+    from learning how this exciting?
+  final_text: How is gain an introduction to machine learning concepts different from
+    learning how this exciting?
+  reject_reason: null
+- candidate_id: q0052
+  status: accepted
+  original_text: How is gain an introduction to machine learning concepts different
+    from technology powers everything from self-driving cars to your personal amazon?
+  final_text: How is gain an introduction to machine learning concepts different from
+    technology powers everything from self-driving cars to your personal amazon?
+  reject_reason: null
+- candidate_id: q0053
+  status: accepted
+  original_text: How is gain an introduction to machine learning concepts different
+    from explore machine learning basics?
+  final_text: How is gain an introduction to machine learning concepts different from
+    explore machine learning basics?
+  reject_reason: null
+- candidate_id: q0054
+  status: accepted
+  original_text: How is what's behind machine learning hype? in this non-technical
+    course, different from you’ll learn everything you’ve been too afraid to ask about
+    machine?
+  final_text: How is what's behind machine learning hype? in this non-technical course,
+    different from you’ll learn everything you’ve been too afraid to ask about machine?
+  reject_reason: null
+- candidate_id: q0055
+  status: accepted
+  original_text: How is what's behind machine learning hype? in this non-technical
+    course, different from you will explore basic yet essential concepts to start
+    your machine learning?
+  final_text: How is what's behind machine learning hype? in this non-technical course,
+    different from you will explore basic yet essential concepts to start your machine
+    learning?
+  reject_reason: null
+- candidate_id: q0056
+  status: accepted
+  original_text: How is what's behind machine learning hype? in this non-technical
+    course, different from journey, using hands-on exercises to cement your knowledge.
+    this includes?
+  final_text: How is what's behind machine learning hype? in this non-technical course,
+    different from journey, using hands-on exercises to cement your knowledge. this
+    includes?
+  reject_reason: null
+- candidate_id: q0057
+  status: accepted
+  original_text: How is what's behind machine learning hype? in this non-technical
+    course, different from developing an understanding beyond jargon?
+  final_text: How is what's behind machine learning hype? in this non-technical course,
+    different from developing an understanding beyond jargon?
+  reject_reason: null
+- candidate_id: q0058
+  status: accepted
+  original_text: How is what's behind machine learning hype? in this non-technical
+    course, different from learning how this exciting?
+  final_text: How is what's behind machine learning hype? in this non-technical course,
+    different from learning how this exciting?
+  reject_reason: null
+- candidate_id: q0059
+  status: accepted
+  original_text: How is what's behind machine learning hype? in this non-technical
+    course, different from technology powers everything from self-driving cars to
+    your personal amazon?
+  final_text: How is what's behind machine learning hype? in this non-technical course,
+    different from technology powers everything from self-driving cars to your personal
+    amazon?
+  reject_reason: null
+- candidate_id: q0060
+  status: accepted
+  original_text: How is what's behind machine learning hype? in this non-technical
+    course, different from explore machine learning basics?
+  final_text: How is what's behind machine learning hype? in this non-technical course,
+    different from explore machine learning basics?
+  reject_reason: null
+- candidate_id: q0061
+  status: accepted
+  original_text: How is you’ll learn everything you’ve been too afraid to ask about
+    machine different from you will explore basic yet essential concepts to start
+    your machine learning?
+  final_text: How is you’ll learn everything you’ve been too afraid to ask about machine
+    different from you will explore basic yet essential concepts to start your machine
+    learning?
+  reject_reason: null
+- candidate_id: q0062
+  status: accepted
+  original_text: How is you’ll learn everything you’ve been too afraid to ask about
+    machine different from journey, using hands-on exercises to cement your knowledge.
+    this includes?
+  final_text: How is you’ll learn everything you’ve been too afraid to ask about machine
+    different from journey, using hands-on exercises to cement your knowledge. this
+    includes?
+  reject_reason: null
+- candidate_id: q0063
+  status: accepted
+  original_text: How is you’ll learn everything you’ve been too afraid to ask about
+    machine different from developing an understanding beyond jargon?
+  final_text: How is you’ll learn everything you’ve been too afraid to ask about machine
+    different from developing an understanding beyond jargon?
+  reject_reason: null
+- candidate_id: q0064
+  status: accepted
+  original_text: How is you’ll learn everything you’ve been too afraid to ask about
+    machine different from learning how this exciting?
+  final_text: How is you’ll learn everything you’ve been too afraid to ask about machine
+    different from learning how this exciting?
+  reject_reason: null
+- candidate_id: q0065
+  status: accepted
+  original_text: How is you’ll learn everything you’ve been too afraid to ask about
+    machine different from technology powers everything from self-driving cars to
+    your personal amazon?
+  final_text: How is you’ll learn everything you’ve been too afraid to ask about machine
+    different from technology powers everything from self-driving cars to your personal
+    amazon?
+  reject_reason: null
+- candidate_id: q0066
+  status: accepted
+  original_text: How is you’ll learn everything you’ve been too afraid to ask about
+    machine different from explore machine learning basics?
+  final_text: How is you’ll learn everything you’ve been too afraid to ask about machine
+    different from explore machine learning basics?
+  reject_reason: null
+- candidate_id: q0067
+  status: accepted
+  original_text: How is you will explore basic yet essential concepts to start your
+    machine learning different from journey, using hands-on exercises to cement your
+    knowledge. this includes?
+  final_text: How is you will explore basic yet essential concepts to start your machine
+    learning different from journey, using hands-on exercises to cement your knowledge.
+    this includes?
+  reject_reason: null
+- candidate_id: q0068
+  status: accepted
+  original_text: How is you will explore basic yet essential concepts to start your
+    machine learning different from developing an understanding beyond jargon?
+  final_text: How is you will explore basic yet essential concepts to start your machine
+    learning different from developing an understanding beyond jargon?
+  reject_reason: null
+- candidate_id: q0069
+  status: accepted
+  original_text: How is you will explore basic yet essential concepts to start your
+    machine learning different from learning how this exciting?
+  final_text: How is you will explore basic yet essential concepts to start your machine
+    learning different from learning how this exciting?
+  reject_reason: null
+- candidate_id: q0070
+  status: accepted
+  original_text: How is you will explore basic yet essential concepts to start your
+    machine learning different from technology powers everything from self-driving
+    cars to your personal amazon?
+  final_text: How is you will explore basic yet essential concepts to start your machine
+    learning different from technology powers everything from self-driving cars to
+    your personal amazon?
+  reject_reason: null
+- candidate_id: q0071
+  status: accepted
+  original_text: How is you will explore basic yet essential concepts to start your
+    machine learning different from explore machine learning basics?
+  final_text: How is you will explore basic yet essential concepts to start your machine
+    learning different from explore machine learning basics?
+  reject_reason: null
+- candidate_id: q0072
+  status: accepted
+  original_text: How is journey, using hands-on exercises to cement your knowledge.
+    this includes different from developing an understanding beyond jargon?
+  final_text: How is journey, using hands-on exercises to cement your knowledge. this
+    includes different from developing an understanding beyond jargon?
+  reject_reason: null
+- candidate_id: q0073
+  status: accepted
+  original_text: How is journey, using hands-on exercises to cement your knowledge.
+    this includes different from learning how this exciting?
+  final_text: How is journey, using hands-on exercises to cement your knowledge. this
+    includes different from learning how this exciting?
+  reject_reason: null
+- candidate_id: q0074
+  status: accepted
+  original_text: How is journey, using hands-on exercises to cement your knowledge.
+    this includes different from technology powers everything from self-driving cars
+    to your personal amazon?
+  final_text: How is journey, using hands-on exercises to cement your knowledge. this
+    includes different from technology powers everything from self-driving cars to
+    your personal amazon?
+  reject_reason: null
+- candidate_id: q0075
+  status: accepted
+  original_text: How is journey, using hands-on exercises to cement your knowledge.
+    this includes different from explore machine learning basics?
+  final_text: How is journey, using hands-on exercises to cement your knowledge. this
+    includes different from explore machine learning basics?
+  reject_reason: null
+- candidate_id: q0076
+  status: accepted
+  original_text: How is developing an understanding beyond jargon different from learning
+    how this exciting?
+  final_text: How is developing an understanding beyond jargon different from learning
+    how this exciting?
+  reject_reason: null
+- candidate_id: q0077
+  status: accepted
+  original_text: How is developing an understanding beyond jargon different from technology
+    powers everything from self-driving cars to your personal amazon?
+  final_text: How is developing an understanding beyond jargon different from technology
+    powers everything from self-driving cars to your personal amazon?
+  reject_reason: null
+- candidate_id: q0078
+  status: accepted
+  original_text: How is developing an understanding beyond jargon different from explore
+    machine learning basics?
+  final_text: How is developing an understanding beyond jargon different from explore
+    machine learning basics?
+  reject_reason: null
+- candidate_id: q0079
+  status: accepted
+  original_text: How is learning how this exciting different from technology powers
+    everything from self-driving cars to your personal amazon?
+  final_text: How is learning how this exciting different from technology powers everything
+    from self-driving cars to your personal amazon?
+  reject_reason: null
+- candidate_id: q0080
+  status: accepted
+  original_text: How is learning how this exciting different from explore machine
+    learning basics?
+  final_text: How is learning how this exciting different from explore machine learning
+    basics?
+  reject_reason: null
+- candidate_id: q0081
+  status: accepted
+  original_text: How is technology powers everything from self-driving cars to your
+    personal amazon different from explore machine learning basics?
+  final_text: How is technology powers everything from self-driving cars to your personal
+    amazon different from explore machine learning basics?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is gain an introduction to machine learning concepts?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does gain an introduction to machine learning concepts mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does gain an introduction to machine learning concepts matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does gain an introduction to machine learning concepts?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of gain an introduction to machine learning
+    concepts?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is what's behind machine learning hype? in this non-technical
+    course,?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does what's behind machine learning hype? in this non-technical
+    course, mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does what's behind machine learning hype? in this non-technical
+    course, matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does what's behind machine learning hype? in this non-technical
+    course,?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of what's behind machine learning hype?
+    in this non-technical course,?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is you’ll learn everything you’ve been too afraid to ask about
+    machine?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does you’ll learn everything you’ve been too afraid to ask about
+    machine mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does you’ll learn everything you’ve been too afraid to ask about
+    machine matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does you’ll learn everything you’ve been too afraid to ask about
+    machine?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of you’ll learn everything you’ve been too
+    afraid to ask about machine?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is you will explore basic yet essential concepts to start your
+    machine learning?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does you will explore basic yet essential concepts to start
+    your machine learning mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does you will explore basic yet essential concepts to start your
+    machine learning matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does you will explore basic yet essential concepts to start your
+    machine learning?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of you will explore basic yet essential
+    concepts to start your machine learning?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: What is journey, using hands-on exercises to cement your knowledge.
+    this includes?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: What does journey, using hands-on exercises to cement your knowledge.
+    this includes mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: Why does journey, using hands-on exercises to cement your knowledge.
+    this includes matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: Why does journey, using hands-on exercises to cement your knowledge.
+    this includes?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: What is a simple example of journey, using hands-on exercises to
+    cement your knowledge. this includes?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: What is developing an understanding beyond jargon?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0027
+  question_text: What does developing an understanding beyond jargon mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0028
+  question_text: Why does developing an understanding beyond jargon matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0029
+  question_text: Why does developing an understanding beyond jargon?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0030
+  question_text: What is a simple example of developing an understanding beyond jargon?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0031
+  question_text: What is learning how this exciting?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0032
+  question_text: What does learning how this exciting mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0033
+  question_text: Why does learning how this exciting matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0034
+  question_text: Why does learning how this exciting?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0035
+  question_text: What is a simple example of learning how this exciting?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0036
+  question_text: What is technology powers everything from self-driving cars to your
+    personal amazon?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0037
+  question_text: What does technology powers everything from self-driving cars to
+    your personal amazon mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0038
+  question_text: Why does technology powers everything from self-driving cars to your
+    personal amazon matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0039
+  question_text: Why does technology powers everything from self-driving cars to your
+    personal amazon?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0040
+  question_text: What is a simple example of technology powers everything from self-driving
+    cars to your personal amazon?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0041
+  question_text: What is explore machine learning basics?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0042
+  question_text: What does explore machine learning basics mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0043
+  question_text: Why does explore machine learning basics matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0044
+  question_text: Why does explore machine learning basics?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0045
+  question_text: What is a simple example of explore machine learning basics?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0046
+  question_text: How is gain an introduction to machine learning concepts different
+    from what's behind machine learning hype? in this non-technical course,?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0047
+  question_text: How is gain an introduction to machine learning concepts different
+    from you’ll learn everything you’ve been too afraid to ask about machine?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0048
+  question_text: How is gain an introduction to machine learning concepts different
+    from you will explore basic yet essential concepts to start your machine learning?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0049
+  question_text: How is gain an introduction to machine learning concepts different
+    from journey, using hands-on exercises to cement your knowledge. this includes?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0050
+  question_text: How is gain an introduction to machine learning concepts different
+    from developing an understanding beyond jargon?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0051
+  question_text: How is gain an introduction to machine learning concepts different
+    from learning how this exciting?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0052
+  question_text: How is gain an introduction to machine learning concepts different
+    from technology powers everything from self-driving cars to your personal amazon?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0053
+  question_text: How is gain an introduction to machine learning concepts different
+    from explore machine learning basics?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0054
+  question_text: How is what's behind machine learning hype? in this non-technical
+    course, different from you’ll learn everything you’ve been too afraid to ask about
+    machine?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0055
+  question_text: How is what's behind machine learning hype? in this non-technical
+    course, different from you will explore basic yet essential concepts to start
+    your machine learning?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0056
+  question_text: How is what's behind machine learning hype? in this non-technical
+    course, different from journey, using hands-on exercises to cement your knowledge.
+    this includes?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0057
+  question_text: How is what's behind machine learning hype? in this non-technical
+    course, different from developing an understanding beyond jargon?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0058
+  question_text: How is what's behind machine learning hype? in this non-technical
+    course, different from learning how this exciting?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0059
+  question_text: How is what's behind machine learning hype? in this non-technical
+    course, different from technology powers everything from self-driving cars to
+    your personal amazon?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0060
+  question_text: How is what's behind machine learning hype? in this non-technical
+    course, different from explore machine learning basics?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0061
+  question_text: How is you’ll learn everything you’ve been too afraid to ask about
+    machine different from you will explore basic yet essential concepts to start
+    your machine learning?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0062
+  question_text: How is you’ll learn everything you’ve been too afraid to ask about
+    machine different from journey, using hands-on exercises to cement your knowledge.
+    this includes?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0063
+  question_text: How is you’ll learn everything you’ve been too afraid to ask about
+    machine different from developing an understanding beyond jargon?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0064
+  question_text: How is you’ll learn everything you’ve been too afraid to ask about
+    machine different from learning how this exciting?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0065
+  question_text: How is you’ll learn everything you’ve been too afraid to ask about
+    machine different from technology powers everything from self-driving cars to
+    your personal amazon?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0066
+  question_text: How is you’ll learn everything you’ve been too afraid to ask about
+    machine different from explore machine learning basics?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0067
+  question_text: How is you will explore basic yet essential concepts to start your
+    machine learning different from journey, using hands-on exercises to cement your
+    knowledge. this includes?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0068
+  question_text: How is you will explore basic yet essential concepts to start your
+    machine learning different from developing an understanding beyond jargon?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0069
+  question_text: How is you will explore basic yet essential concepts to start your
+    machine learning different from learning how this exciting?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0070
+  question_text: How is you will explore basic yet essential concepts to start your
+    machine learning different from technology powers everything from self-driving
+    cars to your personal amazon?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0071
+  question_text: How is you will explore basic yet essential concepts to start your
+    machine learning different from explore machine learning basics?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0072
+  question_text: How is journey, using hands-on exercises to cement your knowledge.
+    this includes different from developing an understanding beyond jargon?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0073
+  question_text: How is journey, using hands-on exercises to cement your knowledge.
+    this includes different from learning how this exciting?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0074
+  question_text: How is journey, using hands-on exercises to cement your knowledge.
+    this includes different from technology powers everything from self-driving cars
+    to your personal amazon?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0075
+  question_text: How is journey, using hands-on exercises to cement your knowledge.
+    this includes different from explore machine learning basics?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0076
+  question_text: How is developing an understanding beyond jargon different from learning
+    how this exciting?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0077
+  question_text: How is developing an understanding beyond jargon different from technology
+    powers everything from self-driving cars to your personal amazon?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0078
+  question_text: How is developing an understanding beyond jargon different from explore
+    machine learning basics?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0079
+  question_text: How is learning how this exciting different from technology powers
+    everything from self-driving cars to your personal amazon?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0080
+  question_text: How is learning how this exciting different from explore machine
+    learning basics?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0081
+  question_text: How is technology powers everything from self-driving cars to your
+    personal amazon different from explore machine learning basics?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - gain an introduction to machine learning concepts
+  question_text: What is gain an introduction to machine learning concepts?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - gain an introduction to machine learning concepts
+  question_text: What does gain an introduction to machine learning concepts mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - gain an introduction to machine learning concepts
+  question_text: Why does gain an introduction to machine learning concepts matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - gain an introduction to machine learning concepts
+  question_text: Why does gain an introduction to machine learning concepts?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - gain an introduction to machine learning concepts
+  question_text: What is a simple example of gain an introduction to machine learning
+    concepts?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - what's behind machine learning hype? in this non-technical course,
+  question_text: What is what's behind machine learning hype? in this non-technical
+    course,?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - what's behind machine learning hype? in this non-technical course,
+  question_text: What does what's behind machine learning hype? in this non-technical
+    course, mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - what's behind machine learning hype? in this non-technical course,
+  question_text: Why does what's behind machine learning hype? in this non-technical
+    course, matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - what's behind machine learning hype? in this non-technical course,
+  question_text: Why does what's behind machine learning hype? in this non-technical
+    course,?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - what's behind machine learning hype? in this non-technical course,
+  question_text: What is a simple example of what's behind machine learning hype?
+    in this non-technical course,?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - you’ll learn everything you’ve been too afraid to ask about machine
+  question_text: What is you’ll learn everything you’ve been too afraid to ask about
+    machine?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - you’ll learn everything you’ve been too afraid to ask about machine
+  question_text: What does you’ll learn everything you’ve been too afraid to ask about
+    machine mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - you’ll learn everything you’ve been too afraid to ask about machine
+  question_text: Why does you’ll learn everything you’ve been too afraid to ask about
+    machine matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - you’ll learn everything you’ve been too afraid to ask about machine
+  question_text: Why does you’ll learn everything you’ve been too afraid to ask about
+    machine?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - you’ll learn everything you’ve been too afraid to ask about machine
+  question_text: What is a simple example of you’ll learn everything you’ve been too
+    afraid to ask about machine?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - you will explore basic yet essential concepts to start your machine learning
+  question_text: What is you will explore basic yet essential concepts to start your
+    machine learning?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - you will explore basic yet essential concepts to start your machine learning
+  question_text: What does you will explore basic yet essential concepts to start
+    your machine learning mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - you will explore basic yet essential concepts to start your machine learning
+  question_text: Why does you will explore basic yet essential concepts to start your
+    machine learning matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - you will explore basic yet essential concepts to start your machine learning
+  question_text: Why does you will explore basic yet essential concepts to start your
+    machine learning?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - you will explore basic yet essential concepts to start your machine learning
+  question_text: What is a simple example of you will explore basic yet essential
+    concepts to start your machine learning?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - journey, using hands-on exercises to cement your knowledge. this includes
+  question_text: What is journey, using hands-on exercises to cement your knowledge.
+    this includes?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - journey, using hands-on exercises to cement your knowledge. this includes
+  question_text: What does journey, using hands-on exercises to cement your knowledge.
+    this includes mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - journey, using hands-on exercises to cement your knowledge. this includes
+  question_text: Why does journey, using hands-on exercises to cement your knowledge.
+    this includes matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - journey, using hands-on exercises to cement your knowledge. this includes
+  question_text: Why does journey, using hands-on exercises to cement your knowledge.
+    this includes?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - journey, using hands-on exercises to cement your knowledge. this includes
+  question_text: What is a simple example of journey, using hands-on exercises to
+    cement your knowledge. this includes?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - developing an understanding beyond jargon
+  question_text: What is developing an understanding beyond jargon?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000027
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - developing an understanding beyond jargon
+  question_text: What does developing an understanding beyond jargon mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000028
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - developing an understanding beyond jargon
+  question_text: Why does developing an understanding beyond jargon matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000029
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - developing an understanding beyond jargon
+  question_text: Why does developing an understanding beyond jargon?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000030
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - developing an understanding beyond jargon
+  question_text: What is a simple example of developing an understanding beyond jargon?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000031
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - learning how this exciting
+  question_text: What is learning how this exciting?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000032
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - learning how this exciting
+  question_text: What does learning how this exciting mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000033
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - learning how this exciting
+  question_text: Why does learning how this exciting matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000034
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - learning how this exciting
+  question_text: Why does learning how this exciting?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000035
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - learning how this exciting
+  question_text: What is a simple example of learning how this exciting?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000036
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - technology powers everything from self-driving cars to your personal amazon
+  question_text: What is technology powers everything from self-driving cars to your
+    personal amazon?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000037
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - technology powers everything from self-driving cars to your personal amazon
+  question_text: What does technology powers everything from self-driving cars to
+    your personal amazon mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000038
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - technology powers everything from self-driving cars to your personal amazon
+  question_text: Why does technology powers everything from self-driving cars to your
+    personal amazon matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000039
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - technology powers everything from self-driving cars to your personal amazon
+  question_text: Why does technology powers everything from self-driving cars to your
+    personal amazon?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000040
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - technology powers everything from self-driving cars to your personal amazon
+  question_text: What is a simple example of technology powers everything from self-driving
+    cars to your personal amazon?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000041
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - explore machine learning basics
+  question_text: What is explore machine learning basics?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000042
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - explore machine learning basics
+  question_text: What does explore machine learning basics mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000043
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - explore machine learning basics
+  question_text: Why does explore machine learning basics matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000044
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - explore machine learning basics
+  question_text: Why does explore machine learning basics?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000045
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - explore machine learning basics
+  question_text: What is a simple example of explore machine learning basics?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000046
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - gain an introduction to machine learning concepts
+  - what's behind machine learning hype? in this non-technical course,
+  question_text: How is gain an introduction to machine learning concepts different
+    from what's behind machine learning hype? in this non-technical course,?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000047
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - gain an introduction to machine learning concepts
+  - you’ll learn everything you’ve been too afraid to ask about machine
+  question_text: How is gain an introduction to machine learning concepts different
+    from you’ll learn everything you’ve been too afraid to ask about machine?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000048
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - gain an introduction to machine learning concepts
+  - you will explore basic yet essential concepts to start your machine learning
+  question_text: How is gain an introduction to machine learning concepts different
+    from you will explore basic yet essential concepts to start your machine learning?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000049
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - gain an introduction to machine learning concepts
+  - journey, using hands-on exercises to cement your knowledge. this includes
+  question_text: How is gain an introduction to machine learning concepts different
+    from journey, using hands-on exercises to cement your knowledge. this includes?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000050
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - gain an introduction to machine learning concepts
+  - developing an understanding beyond jargon
+  question_text: How is gain an introduction to machine learning concepts different
+    from developing an understanding beyond jargon?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000051
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - gain an introduction to machine learning concepts
+  - learning how this exciting
+  question_text: How is gain an introduction to machine learning concepts different
+    from learning how this exciting?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000052
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - gain an introduction to machine learning concepts
+  - technology powers everything from self-driving cars to your personal amazon
+  question_text: How is gain an introduction to machine learning concepts different
+    from technology powers everything from self-driving cars to your personal amazon?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000053
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - gain an introduction to machine learning concepts
+  - explore machine learning basics
+  question_text: How is gain an introduction to machine learning concepts different
+    from explore machine learning basics?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000054
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - what's behind machine learning hype? in this non-technical course,
+  - you’ll learn everything you’ve been too afraid to ask about machine
+  question_text: How is what's behind machine learning hype? in this non-technical
+    course, different from you’ll learn everything you’ve been too afraid to ask about
+    machine?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000055
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - what's behind machine learning hype? in this non-technical course,
+  - you will explore basic yet essential concepts to start your machine learning
+  question_text: How is what's behind machine learning hype? in this non-technical
+    course, different from you will explore basic yet essential concepts to start
+    your machine learning?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000056
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - what's behind machine learning hype? in this non-technical course,
+  - journey, using hands-on exercises to cement your knowledge. this includes
+  question_text: How is what's behind machine learning hype? in this non-technical
+    course, different from journey, using hands-on exercises to cement your knowledge.
+    this includes?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000057
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - what's behind machine learning hype? in this non-technical course,
+  - developing an understanding beyond jargon
+  question_text: How is what's behind machine learning hype? in this non-technical
+    course, different from developing an understanding beyond jargon?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000058
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - what's behind machine learning hype? in this non-technical course,
+  - learning how this exciting
+  question_text: How is what's behind machine learning hype? in this non-technical
+    course, different from learning how this exciting?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000059
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - what's behind machine learning hype? in this non-technical course,
+  - technology powers everything from self-driving cars to your personal amazon
+  question_text: How is what's behind machine learning hype? in this non-technical
+    course, different from technology powers everything from self-driving cars to
+    your personal amazon?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000060
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - what's behind machine learning hype? in this non-technical course,
+  - explore machine learning basics
+  question_text: How is what's behind machine learning hype? in this non-technical
+    course, different from explore machine learning basics?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000061
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - you’ll learn everything you’ve been too afraid to ask about machine
+  - you will explore basic yet essential concepts to start your machine learning
+  question_text: How is you’ll learn everything you’ve been too afraid to ask about
+    machine different from you will explore basic yet essential concepts to start
+    your machine learning?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000062
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - you’ll learn everything you’ve been too afraid to ask about machine
+  - journey, using hands-on exercises to cement your knowledge. this includes
+  question_text: How is you’ll learn everything you’ve been too afraid to ask about
+    machine different from journey, using hands-on exercises to cement your knowledge.
+    this includes?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000063
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - you’ll learn everything you’ve been too afraid to ask about machine
+  - developing an understanding beyond jargon
+  question_text: How is you’ll learn everything you’ve been too afraid to ask about
+    machine different from developing an understanding beyond jargon?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000064
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - you’ll learn everything you’ve been too afraid to ask about machine
+  - learning how this exciting
+  question_text: How is you’ll learn everything you’ve been too afraid to ask about
+    machine different from learning how this exciting?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000065
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - you’ll learn everything you’ve been too afraid to ask about machine
+  - technology powers everything from self-driving cars to your personal amazon
+  question_text: How is you’ll learn everything you’ve been too afraid to ask about
+    machine different from technology powers everything from self-driving cars to
+    your personal amazon?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000066
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - you’ll learn everything you’ve been too afraid to ask about machine
+  - explore machine learning basics
+  question_text: How is you’ll learn everything you’ve been too afraid to ask about
+    machine different from explore machine learning basics?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000067
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - you will explore basic yet essential concepts to start your machine learning
+  - journey, using hands-on exercises to cement your knowledge. this includes
+  question_text: How is you will explore basic yet essential concepts to start your
+    machine learning different from journey, using hands-on exercises to cement your
+    knowledge. this includes?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000068
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - you will explore basic yet essential concepts to start your machine learning
+  - developing an understanding beyond jargon
+  question_text: How is you will explore basic yet essential concepts to start your
+    machine learning different from developing an understanding beyond jargon?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000069
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - you will explore basic yet essential concepts to start your machine learning
+  - learning how this exciting
+  question_text: How is you will explore basic yet essential concepts to start your
+    machine learning different from learning how this exciting?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000070
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - you will explore basic yet essential concepts to start your machine learning
+  - technology powers everything from self-driving cars to your personal amazon
+  question_text: How is you will explore basic yet essential concepts to start your
+    machine learning different from technology powers everything from self-driving
+    cars to your personal amazon?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000071
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - you will explore basic yet essential concepts to start your machine learning
+  - explore machine learning basics
+  question_text: How is you will explore basic yet essential concepts to start your
+    machine learning different from explore machine learning basics?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000072
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - journey, using hands-on exercises to cement your knowledge. this includes
+  - developing an understanding beyond jargon
+  question_text: How is journey, using hands-on exercises to cement your knowledge.
+    this includes different from developing an understanding beyond jargon?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000073
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - journey, using hands-on exercises to cement your knowledge. this includes
+  - learning how this exciting
+  question_text: How is journey, using hands-on exercises to cement your knowledge.
+    this includes different from learning how this exciting?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000074
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - journey, using hands-on exercises to cement your knowledge. this includes
+  - technology powers everything from self-driving cars to your personal amazon
+  question_text: How is journey, using hands-on exercises to cement your knowledge.
+    this includes different from technology powers everything from self-driving cars
+    to your personal amazon?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000075
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - journey, using hands-on exercises to cement your knowledge. this includes
+  - explore machine learning basics
+  question_text: How is journey, using hands-on exercises to cement your knowledge.
+    this includes different from explore machine learning basics?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000076
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - developing an understanding beyond jargon
+  - learning how this exciting
+  question_text: How is developing an understanding beyond jargon different from learning
+    how this exciting?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000077
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - developing an understanding beyond jargon
+  - technology powers everything from self-driving cars to your personal amazon
+  question_text: How is developing an understanding beyond jargon different from technology
+    powers everything from self-driving cars to your personal amazon?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000078
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - developing an understanding beyond jargon
+  - explore machine learning basics
+  question_text: How is developing an understanding beyond jargon different from explore
+    machine learning basics?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000079
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - learning how this exciting
+  - technology powers everything from self-driving cars to your personal amazon
+  question_text: How is learning how this exciting different from technology powers
+    everything from self-driving cars to your personal amazon?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000080
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - learning how this exciting
+  - explore machine learning basics
+  question_text: How is learning how this exciting different from explore machine
+    learning basics?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000081
+  course:
+    course_id: '24378'
+    title: Explore the Machine Learning Basics
+  relevant_topics:
+  - technology powers everything from self-driving cars to your personal amazon
+  - explore machine learning basics
+  question_text: How is technology powers everything from self-driving cars to your
+    personal amazon different from explore machine learning basics?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 9
+  canonical_topic_count: 9
+  candidate_count: 81
+  accepted_count: 81
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 81

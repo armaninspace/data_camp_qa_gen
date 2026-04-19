@@ -1,0 +1,1061 @@
+course_id: '24658'
+title: Intermediate Network Analysis in Python
+normalized_course:
+  course_id: '24658'
+  title: Intermediate Network Analysis in Python
+  provider: DataCamp
+  summary: 'Analyze time series graphs, use bipartite graphs, and gain the skills
+    to
+
+    tackle advanced problems in network analytics.'
+  overview: 'Analyze time series graphs, use bipartite graphs, and gain the skills
+    to
+
+    tackle advanced problems in network analytics.
+
+
+    Have you taken DataCamp''s Introduction to Network Analysis in Python course
+
+    and are yearning to learn more sophisticated techniques to analyze your
+
+    networks, whether they be social, transportation, or biological? Then this
+
+    is the course for you! Herein, you''ll build on your knowledge and skills to
+
+    tackle more advanced problems in network analytics! You''ll gain the
+
+    conceptual and practical skills to analyze evolving time series of networks,
+
+    learn about bipartite graphs, and how to use bipartite graphs in product
+
+    recommendation systems. You''ll also learn about graph projections, why
+
+    they''re so useful in Data Science, and figure out the best ways to store and
+
+    load graph data from files. You''ll consolidate all of this knowledge in a
+
+    final chapter case study, in which you''ll analyze a forum dataset and come
+
+    out of this course a Pythonista Network Analyst ninja!'
+  chapters:
+  - chapter_index: 1
+    title: Bipartite graphs & product recommendation systems
+    summary: 'In this chapter, you will learn about bipartite graphs and how they
+
+      are used in recommendation systems. You will explore the GitHub
+
+      dataset from the previous course, this time analyzing the underlying
+
+      bipartite graph that was used to create the graph that you used
+
+      earlier. Finally, you will get a chance to build the basic
+
+      components of a recommendation system using the GitHub data!'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 2
+    title: Graph projections
+    summary: 'In this chapter, you will use a famous American Revolution dataset
+
+      to dive deeper into exploration of bipartite graphs. Here, you will
+
+      learn how to create the unipartite projection of a bipartite graph,
+
+      a very useful method for simplifying a complex network for further
+
+      analysis. Additionally, you will learn how to use matrices to
+
+      manipulate and analyze graphs - with many computing routines
+
+      optimized for matrices, you''ll be able to analyze many large graphs
+
+      quickly and efficiently!'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 3
+    title: Comparing graphs & time-dynamic graphs
+    summary: 'In this chapter, you will delve into the fundamental ways that you
+
+      can analyze graphs that change over time. You will explore a dataset
+
+      describing messaging frequency between students, and learn how to
+
+      visualize important evolving graph statistics.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 4
+    title: Tying it up!
+    summary: 'In this chapter, you will apply everything you''ve learned in the
+
+      previous three chapters to a forum posting dataset. You will analyze
+
+      the temporal changes in forum user connectivity patterns, and make
+
+      visualizations of evolving graph statistics over time.'
+    source: syllabus
+    confidence: 1.0
+  metadata:
+    level: Intermediate
+    duration_hours: 4 hours
+    subjects:
+    - Python
+    - Network Analysis
+    - Recommendation Systems
+    - Bipartite Graphs
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: bipartite graphs & product recommendation systems
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: bipartite graphs & product recommendation
+    systems'
+  evidence:
+  - source: syllabus
+    text: Bipartite graphs & product recommendation systems
+  confidence: 0.45
+- topic_id: t002
+  label: graph projections
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: graph projections'
+  evidence:
+  - source: syllabus
+    text: Graph projections
+  confidence: 0.45
+- topic_id: t003
+  label: comparing graphs & time-dynamic graphs
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: comparing graphs & time-dynamic
+    graphs'
+  evidence:
+  - source: syllabus
+    text: Comparing graphs & time-dynamic graphs
+  confidence: 0.45
+- topic_id: t004
+  label: tying it up!
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: tying it up!'
+  evidence:
+  - source: syllabus
+    text: Tying it up!
+  confidence: 0.45
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: bipartite graphs & product recommendation systems
+  aliases:
+  - bipartite graphs & product recommendation systems
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: graph projections
+  aliases:
+  - graph projections
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: comparing graphs & time-dynamic graphs
+  aliases:
+  - comparing graphs & time-dynamic graphs
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: tying it up!
+  aliases:
+  - tying it up!
+  member_topic_ids:
+  - t004
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - bipartite graphs & product recommendation systems
+  family: entry
+  pattern: What is {x}?
+  question_text: What is bipartite graphs & product recommendation systems?
+- candidate_id: q0002
+  relevant_topics:
+  - bipartite graphs & product recommendation systems
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does bipartite graphs & product recommendation systems mean?
+- candidate_id: q0003
+  relevant_topics:
+  - bipartite graphs & product recommendation systems
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does bipartite graphs & product recommendation systems matter?
+- candidate_id: q0004
+  relevant_topics:
+  - bipartite graphs & product recommendation systems
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use bipartite graphs & product recommendation systems?
+- candidate_id: q0005
+  relevant_topics:
+  - bipartite graphs & product recommendation systems
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of bipartite graphs & product recommendation
+    systems?
+- candidate_id: q0006
+  relevant_topics:
+  - graph projections
+  family: entry
+  pattern: What is {x}?
+  question_text: What is graph projections?
+- candidate_id: q0007
+  relevant_topics:
+  - graph projections
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does graph projections mean?
+- candidate_id: q0008
+  relevant_topics:
+  - graph projections
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does graph projections matter?
+- candidate_id: q0009
+  relevant_topics:
+  - graph projections
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use graph projections?
+- candidate_id: q0010
+  relevant_topics:
+  - graph projections
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of graph projections?
+- candidate_id: q0011
+  relevant_topics:
+  - comparing graphs & time-dynamic graphs
+  family: entry
+  pattern: What is {x}?
+  question_text: What is comparing graphs & time-dynamic graphs?
+- candidate_id: q0012
+  relevant_topics:
+  - comparing graphs & time-dynamic graphs
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does comparing graphs & time-dynamic graphs mean?
+- candidate_id: q0013
+  relevant_topics:
+  - comparing graphs & time-dynamic graphs
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does comparing graphs & time-dynamic graphs matter?
+- candidate_id: q0014
+  relevant_topics:
+  - comparing graphs & time-dynamic graphs
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use comparing graphs & time-dynamic graphs?
+- candidate_id: q0015
+  relevant_topics:
+  - comparing graphs & time-dynamic graphs
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of comparing graphs & time-dynamic graphs?
+- candidate_id: q0016
+  relevant_topics:
+  - tying it up!
+  family: entry
+  pattern: What is {x}?
+  question_text: What is tying it up!?
+- candidate_id: q0017
+  relevant_topics:
+  - tying it up!
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does tying it up! mean?
+- candidate_id: q0018
+  relevant_topics:
+  - tying it up!
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does tying it up! matter?
+- candidate_id: q0019
+  relevant_topics:
+  - tying it up!
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use tying it up!?
+- candidate_id: q0020
+  relevant_topics:
+  - tying it up!
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of tying it up!?
+- candidate_id: q0021
+  relevant_topics:
+  - bipartite graphs & product recommendation systems
+  - graph projections
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is bipartite graphs & product recommendation systems different
+    from graph projections?
+- candidate_id: q0022
+  relevant_topics:
+  - bipartite graphs & product recommendation systems
+  - comparing graphs & time-dynamic graphs
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is bipartite graphs & product recommendation systems different
+    from comparing graphs & time-dynamic graphs?
+- candidate_id: q0023
+  relevant_topics:
+  - bipartite graphs & product recommendation systems
+  - tying it up!
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is bipartite graphs & product recommendation systems different
+    from tying it up!?
+- candidate_id: q0024
+  relevant_topics:
+  - graph projections
+  - comparing graphs & time-dynamic graphs
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is graph projections different from comparing graphs & time-dynamic
+    graphs?
+- candidate_id: q0025
+  relevant_topics:
+  - graph projections
+  - tying it up!
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is graph projections different from tying it up!?
+- candidate_id: q0026
+  relevant_topics:
+  - comparing graphs & time-dynamic graphs
+  - tying it up!
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is comparing graphs & time-dynamic graphs different from tying
+    it up!?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is bipartite graphs & product recommendation systems?
+  final_text: What is bipartite graphs & product recommendation systems?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does bipartite graphs & product recommendation systems mean?
+  final_text: What does bipartite graphs & product recommendation systems mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does bipartite graphs & product recommendation systems matter?
+  final_text: Why does bipartite graphs & product recommendation systems matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use bipartite graphs & product recommendation systems?
+  final_text: Why does bipartite graphs & product recommendation systems?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of bipartite graphs & product recommendation
+    systems?
+  final_text: What is a simple example of bipartite graphs & product recommendation
+    systems?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is graph projections?
+  final_text: What is graph projections?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does graph projections mean?
+  final_text: What does graph projections mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does graph projections matter?
+  final_text: Why does graph projections matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use graph projections?
+  final_text: Why does graph projections?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of graph projections?
+  final_text: What is a simple example of graph projections?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is comparing graphs & time-dynamic graphs?
+  final_text: What is comparing graphs & time-dynamic graphs?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does comparing graphs & time-dynamic graphs mean?
+  final_text: What does comparing graphs & time-dynamic graphs mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does comparing graphs & time-dynamic graphs matter?
+  final_text: Why does comparing graphs & time-dynamic graphs matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use comparing graphs & time-dynamic graphs?
+  final_text: Why does comparing graphs & time-dynamic graphs?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of comparing graphs & time-dynamic graphs?
+  final_text: What is a simple example of comparing graphs & time-dynamic graphs?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is tying it up!?
+  final_text: What is tying it up!?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does tying it up! mean?
+  final_text: What does tying it up! mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does tying it up! matter?
+  final_text: Why does tying it up! matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use tying it up!?
+  final_text: Why does tying it up!?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of tying it up!?
+  final_text: What is a simple example of tying it up!?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: How is bipartite graphs & product recommendation systems different
+    from graph projections?
+  final_text: How is bipartite graphs & product recommendation systems different from
+    graph projections?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: How is bipartite graphs & product recommendation systems different
+    from comparing graphs & time-dynamic graphs?
+  final_text: How is bipartite graphs & product recommendation systems different from
+    comparing graphs & time-dynamic graphs?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: How is bipartite graphs & product recommendation systems different
+    from tying it up!?
+  final_text: How is bipartite graphs & product recommendation systems different from
+    tying it up!?
+  reject_reason: null
+- candidate_id: q0024
+  status: accepted
+  original_text: How is graph projections different from comparing graphs & time-dynamic
+    graphs?
+  final_text: How is graph projections different from comparing graphs & time-dynamic
+    graphs?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: How is graph projections different from tying it up!?
+  final_text: How is graph projections different from tying it up!?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: How is comparing graphs & time-dynamic graphs different from tying
+    it up!?
+  final_text: How is comparing graphs & time-dynamic graphs different from tying it
+    up!?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is bipartite graphs & product recommendation systems?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does bipartite graphs & product recommendation systems mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does bipartite graphs & product recommendation systems matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does bipartite graphs & product recommendation systems?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of bipartite graphs & product recommendation
+    systems?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is graph projections?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does graph projections mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does graph projections matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does graph projections?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of graph projections?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is comparing graphs & time-dynamic graphs?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does comparing graphs & time-dynamic graphs mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does comparing graphs & time-dynamic graphs matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does comparing graphs & time-dynamic graphs?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of comparing graphs & time-dynamic graphs?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is tying it up!?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does tying it up! mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does tying it up! matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does tying it up!?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of tying it up!?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: How is bipartite graphs & product recommendation systems different
+    from graph projections?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: How is bipartite graphs & product recommendation systems different
+    from comparing graphs & time-dynamic graphs?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: How is bipartite graphs & product recommendation systems different
+    from tying it up!?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: How is graph projections different from comparing graphs & time-dynamic
+    graphs?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: How is graph projections different from tying it up!?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: How is comparing graphs & time-dynamic graphs different from tying
+    it up!?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24658'
+    title: Intermediate Network Analysis in Python
+  relevant_topics:
+  - bipartite graphs & product recommendation systems
+  question_text: What is bipartite graphs & product recommendation systems?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24658'
+    title: Intermediate Network Analysis in Python
+  relevant_topics:
+  - bipartite graphs & product recommendation systems
+  question_text: What does bipartite graphs & product recommendation systems mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24658'
+    title: Intermediate Network Analysis in Python
+  relevant_topics:
+  - bipartite graphs & product recommendation systems
+  question_text: Why does bipartite graphs & product recommendation systems matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24658'
+    title: Intermediate Network Analysis in Python
+  relevant_topics:
+  - bipartite graphs & product recommendation systems
+  question_text: Why does bipartite graphs & product recommendation systems?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24658'
+    title: Intermediate Network Analysis in Python
+  relevant_topics:
+  - bipartite graphs & product recommendation systems
+  question_text: What is a simple example of bipartite graphs & product recommendation
+    systems?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24658'
+    title: Intermediate Network Analysis in Python
+  relevant_topics:
+  - graph projections
+  question_text: What is graph projections?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24658'
+    title: Intermediate Network Analysis in Python
+  relevant_topics:
+  - graph projections
+  question_text: What does graph projections mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24658'
+    title: Intermediate Network Analysis in Python
+  relevant_topics:
+  - graph projections
+  question_text: Why does graph projections matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24658'
+    title: Intermediate Network Analysis in Python
+  relevant_topics:
+  - graph projections
+  question_text: Why does graph projections?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24658'
+    title: Intermediate Network Analysis in Python
+  relevant_topics:
+  - graph projections
+  question_text: What is a simple example of graph projections?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24658'
+    title: Intermediate Network Analysis in Python
+  relevant_topics:
+  - comparing graphs & time-dynamic graphs
+  question_text: What is comparing graphs & time-dynamic graphs?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24658'
+    title: Intermediate Network Analysis in Python
+  relevant_topics:
+  - comparing graphs & time-dynamic graphs
+  question_text: What does comparing graphs & time-dynamic graphs mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24658'
+    title: Intermediate Network Analysis in Python
+  relevant_topics:
+  - comparing graphs & time-dynamic graphs
+  question_text: Why does comparing graphs & time-dynamic graphs matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24658'
+    title: Intermediate Network Analysis in Python
+  relevant_topics:
+  - comparing graphs & time-dynamic graphs
+  question_text: Why does comparing graphs & time-dynamic graphs?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24658'
+    title: Intermediate Network Analysis in Python
+  relevant_topics:
+  - comparing graphs & time-dynamic graphs
+  question_text: What is a simple example of comparing graphs & time-dynamic graphs?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24658'
+    title: Intermediate Network Analysis in Python
+  relevant_topics:
+  - tying it up!
+  question_text: What is tying it up!?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24658'
+    title: Intermediate Network Analysis in Python
+  relevant_topics:
+  - tying it up!
+  question_text: What does tying it up! mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24658'
+    title: Intermediate Network Analysis in Python
+  relevant_topics:
+  - tying it up!
+  question_text: Why does tying it up! matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24658'
+    title: Intermediate Network Analysis in Python
+  relevant_topics:
+  - tying it up!
+  question_text: Why does tying it up!?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24658'
+    title: Intermediate Network Analysis in Python
+  relevant_topics:
+  - tying it up!
+  question_text: What is a simple example of tying it up!?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24658'
+    title: Intermediate Network Analysis in Python
+  relevant_topics:
+  - bipartite graphs & product recommendation systems
+  - graph projections
+  question_text: How is bipartite graphs & product recommendation systems different
+    from graph projections?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24658'
+    title: Intermediate Network Analysis in Python
+  relevant_topics:
+  - bipartite graphs & product recommendation systems
+  - comparing graphs & time-dynamic graphs
+  question_text: How is bipartite graphs & product recommendation systems different
+    from comparing graphs & time-dynamic graphs?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24658'
+    title: Intermediate Network Analysis in Python
+  relevant_topics:
+  - bipartite graphs & product recommendation systems
+  - tying it up!
+  question_text: How is bipartite graphs & product recommendation systems different
+    from tying it up!?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24658'
+    title: Intermediate Network Analysis in Python
+  relevant_topics:
+  - graph projections
+  - comparing graphs & time-dynamic graphs
+  question_text: How is graph projections different from comparing graphs & time-dynamic
+    graphs?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24658'
+    title: Intermediate Network Analysis in Python
+  relevant_topics:
+  - graph projections
+  - tying it up!
+  question_text: How is graph projections different from tying it up!?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24658'
+    title: Intermediate Network Analysis in Python
+  relevant_topics:
+  - comparing graphs & time-dynamic graphs
+  - tying it up!
+  question_text: How is comparing graphs & time-dynamic graphs different from tying
+    it up!?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 4
+  canonical_topic_count: 4
+  candidate_count: 26
+  accepted_count: 26
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 26

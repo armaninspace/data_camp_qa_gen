@@ -1,0 +1,4546 @@
+course_id: '24370'
+title: Statistician in R
+normalized_course:
+  course_id: '24370'
+  title: Statistician in R
+  provider: DataCamp
+  summary: 'A statistician collects and analyzes data and helps companies make sense
+    of
+
+    quantitative data, including spotting trends and making predictions.'
+  overview: '## Unlock the Power of Statistics with R
+
+
+    Become a statistician and help solve real-world problems across industries
+
+    by mastering statistical methods and tools in R. In this Track, you''ll learn
+
+    how to collect, analyze, and draw accurate conclusions from a wide variety
+
+    of datasets. Gain hands-on experience in exploring and modeling data,
+
+    interpreting results, and effectively communicating your findings.
+
+
+    ## Essential Skills for a Statistician Throughout the Track, you''ll develop
+
+    a strong foundation in key areas of statistics, including:
+
+
+    * Probability theory and random variables * Regression analysis and
+
+    predictive modeling * Sampling techniques and survey design * Hypothesis
+
+    testing and inference * Experimental design and analysis * Bayesian data
+
+    analysis * Factor analysis and latent variables
+
+
+    ## Solve Complex Problems with Real-World Data Apply your statistical
+
+    knowledge to tackle authentic challenges across business, engineering, and
+
+    scientific domains. Learn to identify trends, make data-driven predictions,
+
+    and provide actionable insights to stakeholders. By working with diverse
+
+    datasets, you''ll gain the practical experience needed to excel in a
+
+    statistician role.
+
+
+    ## Leverage R for Statistical Analysis R is the go-to programming language
+
+    for statisticians due to its extensive collection of statistical packages
+
+    and tools. In this Track, you''ll learn to utilize R''s capabilities to
+
+    streamline your workflow and perform advanced analyses. From data
+
+    manipulation with dplyr to creating visualizations with ggplot2, you''ll
+
+    master the essential tools of the trade.
+
+
+    ## Advance Your Career as a Statistician Statisticians are in high demand
+
+    across industries, with opportunities in finance, healthcare, technology,
+
+    and more. By completing this Track, you''ll have the skills and portfolio to:
+
+
+    * Apply for statistician positions at top companies * Collaborate with
+
+    cross-functional teams to drive data-informed decisions * Communicate
+
+    statistical findings to both technical and non-technical audiences *
+
+    Contribute to cutting-edge research and innovation * Advance your career
+
+    with sought-after expertise
+
+
+    Whether you''re an aspiring statistician or a professional looking to enhance
+
+    your skills, this Track will equip you with the knowledge and practical
+
+    experience to succeed in the field.'
+  chapters:
+  - chapter_index: 1
+    title: Introduction to Statistics in R
+    summary: 'Grow your statistical skills and learn how to collect, analyze, and
+
+      draw accurate conclusions from data.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 2
+    title: Foundations of Probability in R
+    summary: 'In this course, you''ll learn about the concepts of random variables,
+
+      distributions, and conditioning.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 3
+    title: Introduction to Regression in R
+    summary: 'Predict housing prices and ad click-through rate by implementing,
+
+      analyzing, and interpreting regression analysis in R.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 4
+    title: Intermediate Regression in R
+    summary: 'Learn to perform linear and logistic regression with multiple
+
+      explanatory variables.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 5
+    title: Sampling in R
+    summary: Master sampling to get more accurate statistics with less data.
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 6
+    title: Hypothesis Testing in R
+    summary: 'Learn how and when to use hypothesis testing in R, including
+
+      t-tests, proportion tests, and chi-square tests.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 7
+    title: Experimental Design in R
+    summary: 'In this course you''ll learn about basic experimental design, a
+
+      crucial part of any data analysis.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 8
+    title: Analyzing Survey Data in R
+    summary: 'Learn survey design using common design structures followed by
+
+      visualizing and analyzing survey results.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 9
+    title: Hierarchical and Mixed Effects Models in R
+    summary: 'In this course you will learn to fit hierarchical models with random
+
+      effects.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 10
+    title: Survival Analysis in R
+    summary: 'Learn to work with time-to-event data. The event may be death or
+
+      finding a job after unemployment. Learn to estimate, visualize, and
+
+      interpret survival models!'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 11
+    title: Fundamentals of Bayesian Data Analysis in R
+    summary: 'Learn what Bayesian data analysis is, how it works, and why it is a
+
+      useful tool to have in your data science toolbox.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 12
+    title: Factor Analysis in R
+    summary: 'Explore latent variables, such as personality, using exploratory and
+
+      confirmatory factor analyses.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 13
+    title: Foundations of Inference in R
+    summary: 'Learn how to draw conclusions about a population from a sample of
+
+      data via a process known as statistical inference.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 14
+    title: How Environmental Factors Influence Wildlife Populations
+    summary: null
+    source: syllabus
+    confidence: 1.0
+  metadata:
+    level: Beginner
+    duration_hours: 2 days 4 hours
+    subjects:
+    - SQL
+    - Data Analysis
+    - MySQL
+    - PostgreSQL
+    - Relational Databases
+    - Data Summarization
+    - Aggregate Functions
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: introduction to statistics in r
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: introduction to statistics in
+    r'
+  evidence:
+  - source: syllabus
+    text: Introduction to Statistics in R
+  confidence: 0.45
+- topic_id: t002
+  label: foundations of probability in r
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: foundations of probability in
+    r'
+  evidence:
+  - source: syllabus
+    text: Foundations of Probability in R
+  confidence: 0.45
+- topic_id: t003
+  label: introduction to regression in r
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: introduction to regression in
+    r'
+  evidence:
+  - source: syllabus
+    text: Introduction to Regression in R
+  confidence: 0.45
+- topic_id: t004
+  label: intermediate regression in r
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: intermediate regression in r'
+  evidence:
+  - source: syllabus
+    text: Intermediate Regression in R
+  confidence: 0.45
+- topic_id: t005
+  label: sampling in r
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: sampling in r'
+  evidence:
+  - source: syllabus
+    text: Sampling in R
+  confidence: 0.45
+- topic_id: t006
+  label: hypothesis testing in r
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: hypothesis testing in r'
+  evidence:
+  - source: syllabus
+    text: Hypothesis Testing in R
+  confidence: 0.45
+- topic_id: t007
+  label: experimental design in r
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: experimental design in r'
+  evidence:
+  - source: syllabus
+    text: Experimental Design in R
+  confidence: 0.45
+- topic_id: t008
+  label: analyzing survey data in r
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: analyzing survey data in r'
+  evidence:
+  - source: syllabus
+    text: Analyzing Survey Data in R
+  confidence: 0.45
+- topic_id: t009
+  label: hierarchical
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: hierarchical'
+  evidence:
+  - source: syllabus
+    text: Hierarchical and Mixed Effects Models in R
+  confidence: 0.55
+- topic_id: t010
+  label: mixed effects models in r
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: mixed effects models in r'
+  evidence:
+  - source: syllabus
+    text: Hierarchical and Mixed Effects Models in R
+  confidence: 0.55
+- topic_id: t011
+  label: survival analysis in r
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: survival analysis in r'
+  evidence:
+  - source: syllabus
+    text: Survival Analysis in R
+  confidence: 0.45
+- topic_id: t012
+  label: fundamentals of bayesian data analysis in r
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: fundamentals of bayesian data
+    analysis in r'
+  evidence:
+  - source: syllabus
+    text: Fundamentals of Bayesian Data Analysis in R
+  confidence: 0.45
+- topic_id: t013
+  label: factor analysis in r
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: factor analysis in r'
+  evidence:
+  - source: syllabus
+    text: Factor Analysis in R
+  confidence: 0.45
+- topic_id: t014
+  label: foundations of inference in r
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: foundations of inference in r'
+  evidence:
+  - source: syllabus
+    text: Foundations of Inference in R
+  confidence: 0.45
+- topic_id: t015
+  label: how environmental factors influence wildlife populations
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: how environmental factors influence
+    wildlife populations'
+  evidence:
+  - source: syllabus
+    text: How Environmental Factors Influence Wildlife Populations
+  confidence: 0.45
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: introduction to statistics in r
+  aliases:
+  - introduction to statistics in r
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: foundations of probability in r
+  aliases:
+  - foundations of probability in r
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: introduction to regression in r
+  aliases:
+  - introduction to regression in r
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: intermediate regression in r
+  aliases:
+  - intermediate regression in r
+  member_topic_ids:
+  - t004
+  topic_type: concept
+- canonical_topic_id: ct_005
+  label: sampling in r
+  aliases:
+  - sampling in r
+  member_topic_ids:
+  - t005
+  topic_type: concept
+- canonical_topic_id: ct_006
+  label: hypothesis testing in r
+  aliases:
+  - hypothesis testing in r
+  member_topic_ids:
+  - t006
+  topic_type: concept
+- canonical_topic_id: ct_007
+  label: experimental design in r
+  aliases:
+  - experimental design in r
+  member_topic_ids:
+  - t007
+  topic_type: concept
+- canonical_topic_id: ct_008
+  label: analyzing survey data in r
+  aliases:
+  - analyzing survey data in r
+  member_topic_ids:
+  - t008
+  topic_type: concept
+- canonical_topic_id: ct_009
+  label: hierarchical
+  aliases:
+  - hierarchical
+  member_topic_ids:
+  - t009
+  topic_type: concept
+- canonical_topic_id: ct_010
+  label: mixed effects models in r
+  aliases:
+  - mixed effects models in r
+  member_topic_ids:
+  - t010
+  topic_type: concept
+- canonical_topic_id: ct_011
+  label: survival analysis in r
+  aliases:
+  - survival analysis in r
+  member_topic_ids:
+  - t011
+  topic_type: concept
+- canonical_topic_id: ct_012
+  label: fundamentals of bayesian data analysis in r
+  aliases:
+  - fundamentals of bayesian data analysis in r
+  member_topic_ids:
+  - t012
+  topic_type: concept
+- canonical_topic_id: ct_013
+  label: factor analysis in r
+  aliases:
+  - factor analysis in r
+  member_topic_ids:
+  - t013
+  topic_type: concept
+- canonical_topic_id: ct_014
+  label: foundations of inference in r
+  aliases:
+  - foundations of inference in r
+  member_topic_ids:
+  - t014
+  topic_type: concept
+- canonical_topic_id: ct_015
+  label: how environmental factors influence wildlife populations
+  aliases:
+  - how environmental factors influence wildlife populations
+  member_topic_ids:
+  - t015
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - introduction to statistics in r
+  family: entry
+  pattern: What is {x}?
+  question_text: What is introduction to statistics in r?
+- candidate_id: q0002
+  relevant_topics:
+  - introduction to statistics in r
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does introduction to statistics in r mean?
+- candidate_id: q0003
+  relevant_topics:
+  - introduction to statistics in r
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does introduction to statistics in r matter?
+- candidate_id: q0004
+  relevant_topics:
+  - introduction to statistics in r
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use introduction to statistics in r?
+- candidate_id: q0005
+  relevant_topics:
+  - introduction to statistics in r
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of introduction to statistics in r?
+- candidate_id: q0006
+  relevant_topics:
+  - foundations of probability in r
+  family: entry
+  pattern: What is {x}?
+  question_text: What is foundations of probability in r?
+- candidate_id: q0007
+  relevant_topics:
+  - foundations of probability in r
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does foundations of probability in r mean?
+- candidate_id: q0008
+  relevant_topics:
+  - foundations of probability in r
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does foundations of probability in r matter?
+- candidate_id: q0009
+  relevant_topics:
+  - foundations of probability in r
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use foundations of probability in r?
+- candidate_id: q0010
+  relevant_topics:
+  - foundations of probability in r
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of foundations of probability in r?
+- candidate_id: q0011
+  relevant_topics:
+  - introduction to regression in r
+  family: entry
+  pattern: What is {x}?
+  question_text: What is introduction to regression in r?
+- candidate_id: q0012
+  relevant_topics:
+  - introduction to regression in r
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does introduction to regression in r mean?
+- candidate_id: q0013
+  relevant_topics:
+  - introduction to regression in r
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does introduction to regression in r matter?
+- candidate_id: q0014
+  relevant_topics:
+  - introduction to regression in r
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use introduction to regression in r?
+- candidate_id: q0015
+  relevant_topics:
+  - introduction to regression in r
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of introduction to regression in r?
+- candidate_id: q0016
+  relevant_topics:
+  - intermediate regression in r
+  family: entry
+  pattern: What is {x}?
+  question_text: What is intermediate regression in r?
+- candidate_id: q0017
+  relevant_topics:
+  - intermediate regression in r
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does intermediate regression in r mean?
+- candidate_id: q0018
+  relevant_topics:
+  - intermediate regression in r
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does intermediate regression in r matter?
+- candidate_id: q0019
+  relevant_topics:
+  - intermediate regression in r
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use intermediate regression in r?
+- candidate_id: q0020
+  relevant_topics:
+  - intermediate regression in r
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of intermediate regression in r?
+- candidate_id: q0021
+  relevant_topics:
+  - sampling in r
+  family: entry
+  pattern: What is {x}?
+  question_text: What is sampling in r?
+- candidate_id: q0022
+  relevant_topics:
+  - sampling in r
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does sampling in r mean?
+- candidate_id: q0023
+  relevant_topics:
+  - sampling in r
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does sampling in r matter?
+- candidate_id: q0024
+  relevant_topics:
+  - sampling in r
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use sampling in r?
+- candidate_id: q0025
+  relevant_topics:
+  - sampling in r
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of sampling in r?
+- candidate_id: q0026
+  relevant_topics:
+  - hypothesis testing in r
+  family: entry
+  pattern: What is {x}?
+  question_text: What is hypothesis testing in r?
+- candidate_id: q0027
+  relevant_topics:
+  - hypothesis testing in r
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does hypothesis testing in r mean?
+- candidate_id: q0028
+  relevant_topics:
+  - hypothesis testing in r
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does hypothesis testing in r matter?
+- candidate_id: q0029
+  relevant_topics:
+  - hypothesis testing in r
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use hypothesis testing in r?
+- candidate_id: q0030
+  relevant_topics:
+  - hypothesis testing in r
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of hypothesis testing in r?
+- candidate_id: q0031
+  relevant_topics:
+  - experimental design in r
+  family: entry
+  pattern: What is {x}?
+  question_text: What is experimental design in r?
+- candidate_id: q0032
+  relevant_topics:
+  - experimental design in r
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does experimental design in r mean?
+- candidate_id: q0033
+  relevant_topics:
+  - experimental design in r
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does experimental design in r matter?
+- candidate_id: q0034
+  relevant_topics:
+  - experimental design in r
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use experimental design in r?
+- candidate_id: q0035
+  relevant_topics:
+  - experimental design in r
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of experimental design in r?
+- candidate_id: q0036
+  relevant_topics:
+  - analyzing survey data in r
+  family: entry
+  pattern: What is {x}?
+  question_text: What is analyzing survey data in r?
+- candidate_id: q0037
+  relevant_topics:
+  - analyzing survey data in r
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does analyzing survey data in r mean?
+- candidate_id: q0038
+  relevant_topics:
+  - analyzing survey data in r
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does analyzing survey data in r matter?
+- candidate_id: q0039
+  relevant_topics:
+  - analyzing survey data in r
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use analyzing survey data in r?
+- candidate_id: q0040
+  relevant_topics:
+  - analyzing survey data in r
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of analyzing survey data in r?
+- candidate_id: q0041
+  relevant_topics:
+  - hierarchical
+  family: entry
+  pattern: What is {x}?
+  question_text: What is hierarchical?
+- candidate_id: q0042
+  relevant_topics:
+  - hierarchical
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does hierarchical mean?
+- candidate_id: q0043
+  relevant_topics:
+  - hierarchical
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does hierarchical matter?
+- candidate_id: q0044
+  relevant_topics:
+  - hierarchical
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use hierarchical?
+- candidate_id: q0045
+  relevant_topics:
+  - hierarchical
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of hierarchical?
+- candidate_id: q0046
+  relevant_topics:
+  - mixed effects models in r
+  family: entry
+  pattern: What is {x}?
+  question_text: What is mixed effects models in r?
+- candidate_id: q0047
+  relevant_topics:
+  - mixed effects models in r
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does mixed effects models in r mean?
+- candidate_id: q0048
+  relevant_topics:
+  - mixed effects models in r
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does mixed effects models in r matter?
+- candidate_id: q0049
+  relevant_topics:
+  - mixed effects models in r
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use mixed effects models in r?
+- candidate_id: q0050
+  relevant_topics:
+  - mixed effects models in r
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of mixed effects models in r?
+- candidate_id: q0051
+  relevant_topics:
+  - survival analysis in r
+  family: entry
+  pattern: What is {x}?
+  question_text: What is survival analysis in r?
+- candidate_id: q0052
+  relevant_topics:
+  - survival analysis in r
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does survival analysis in r mean?
+- candidate_id: q0053
+  relevant_topics:
+  - survival analysis in r
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does survival analysis in r matter?
+- candidate_id: q0054
+  relevant_topics:
+  - survival analysis in r
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use survival analysis in r?
+- candidate_id: q0055
+  relevant_topics:
+  - survival analysis in r
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of survival analysis in r?
+- candidate_id: q0056
+  relevant_topics:
+  - fundamentals of bayesian data analysis in r
+  family: entry
+  pattern: What is {x}?
+  question_text: What is fundamentals of bayesian data analysis in r?
+- candidate_id: q0057
+  relevant_topics:
+  - fundamentals of bayesian data analysis in r
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does fundamentals of bayesian data analysis in r mean?
+- candidate_id: q0058
+  relevant_topics:
+  - fundamentals of bayesian data analysis in r
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does fundamentals of bayesian data analysis in r matter?
+- candidate_id: q0059
+  relevant_topics:
+  - fundamentals of bayesian data analysis in r
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use fundamentals of bayesian data analysis in r?
+- candidate_id: q0060
+  relevant_topics:
+  - fundamentals of bayesian data analysis in r
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of fundamentals of bayesian data analysis
+    in r?
+- candidate_id: q0061
+  relevant_topics:
+  - factor analysis in r
+  family: entry
+  pattern: What is {x}?
+  question_text: What is factor analysis in r?
+- candidate_id: q0062
+  relevant_topics:
+  - factor analysis in r
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does factor analysis in r mean?
+- candidate_id: q0063
+  relevant_topics:
+  - factor analysis in r
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does factor analysis in r matter?
+- candidate_id: q0064
+  relevant_topics:
+  - factor analysis in r
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use factor analysis in r?
+- candidate_id: q0065
+  relevant_topics:
+  - factor analysis in r
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of factor analysis in r?
+- candidate_id: q0066
+  relevant_topics:
+  - foundations of inference in r
+  family: entry
+  pattern: What is {x}?
+  question_text: What is foundations of inference in r?
+- candidate_id: q0067
+  relevant_topics:
+  - foundations of inference in r
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does foundations of inference in r mean?
+- candidate_id: q0068
+  relevant_topics:
+  - foundations of inference in r
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does foundations of inference in r matter?
+- candidate_id: q0069
+  relevant_topics:
+  - foundations of inference in r
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use foundations of inference in r?
+- candidate_id: q0070
+  relevant_topics:
+  - foundations of inference in r
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of foundations of inference in r?
+- candidate_id: q0071
+  relevant_topics:
+  - how environmental factors influence wildlife populations
+  family: entry
+  pattern: What is {x}?
+  question_text: What is how environmental factors influence wildlife populations?
+- candidate_id: q0072
+  relevant_topics:
+  - how environmental factors influence wildlife populations
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does how environmental factors influence wildlife populations
+    mean?
+- candidate_id: q0073
+  relevant_topics:
+  - how environmental factors influence wildlife populations
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does how environmental factors influence wildlife populations
+    matter?
+- candidate_id: q0074
+  relevant_topics:
+  - how environmental factors influence wildlife populations
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use how environmental factors influence wildlife populations?
+- candidate_id: q0075
+  relevant_topics:
+  - how environmental factors influence wildlife populations
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of how environmental factors influence wildlife
+    populations?
+- candidate_id: q0076
+  relevant_topics:
+  - introduction to statistics in r
+  - foundations of probability in r
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to statistics in r different from foundations
+    of probability in r?
+- candidate_id: q0077
+  relevant_topics:
+  - introduction to statistics in r
+  - introduction to regression in r
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to statistics in r different from introduction
+    to regression in r?
+- candidate_id: q0078
+  relevant_topics:
+  - introduction to statistics in r
+  - intermediate regression in r
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to statistics in r different from intermediate
+    regression in r?
+- candidate_id: q0079
+  relevant_topics:
+  - introduction to statistics in r
+  - sampling in r
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to statistics in r different from sampling in
+    r?
+- candidate_id: q0080
+  relevant_topics:
+  - introduction to statistics in r
+  - hypothesis testing in r
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to statistics in r different from hypothesis
+    testing in r?
+- candidate_id: q0081
+  relevant_topics:
+  - introduction to statistics in r
+  - experimental design in r
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to statistics in r different from experimental
+    design in r?
+- candidate_id: q0082
+  relevant_topics:
+  - introduction to statistics in r
+  - analyzing survey data in r
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to statistics in r different from analyzing survey
+    data in r?
+- candidate_id: q0083
+  relevant_topics:
+  - introduction to statistics in r
+  - hierarchical
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to statistics in r different from hierarchical?
+- candidate_id: q0084
+  relevant_topics:
+  - introduction to statistics in r
+  - mixed effects models in r
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to statistics in r different from mixed effects
+    models in r?
+- candidate_id: q0085
+  relevant_topics:
+  - foundations of probability in r
+  - introduction to regression in r
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is foundations of probability in r different from introduction
+    to regression in r?
+- candidate_id: q0086
+  relevant_topics:
+  - foundations of probability in r
+  - intermediate regression in r
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is foundations of probability in r different from intermediate
+    regression in r?
+- candidate_id: q0087
+  relevant_topics:
+  - foundations of probability in r
+  - sampling in r
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is foundations of probability in r different from sampling in
+    r?
+- candidate_id: q0088
+  relevant_topics:
+  - foundations of probability in r
+  - hypothesis testing in r
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is foundations of probability in r different from hypothesis
+    testing in r?
+- candidate_id: q0089
+  relevant_topics:
+  - foundations of probability in r
+  - experimental design in r
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is foundations of probability in r different from experimental
+    design in r?
+- candidate_id: q0090
+  relevant_topics:
+  - foundations of probability in r
+  - analyzing survey data in r
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is foundations of probability in r different from analyzing survey
+    data in r?
+- candidate_id: q0091
+  relevant_topics:
+  - foundations of probability in r
+  - hierarchical
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is foundations of probability in r different from hierarchical?
+- candidate_id: q0092
+  relevant_topics:
+  - foundations of probability in r
+  - mixed effects models in r
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is foundations of probability in r different from mixed effects
+    models in r?
+- candidate_id: q0093
+  relevant_topics:
+  - introduction to regression in r
+  - intermediate regression in r
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to regression in r different from intermediate
+    regression in r?
+- candidate_id: q0094
+  relevant_topics:
+  - introduction to regression in r
+  - sampling in r
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to regression in r different from sampling in
+    r?
+- candidate_id: q0095
+  relevant_topics:
+  - introduction to regression in r
+  - hypothesis testing in r
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to regression in r different from hypothesis
+    testing in r?
+- candidate_id: q0096
+  relevant_topics:
+  - introduction to regression in r
+  - experimental design in r
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to regression in r different from experimental
+    design in r?
+- candidate_id: q0097
+  relevant_topics:
+  - introduction to regression in r
+  - analyzing survey data in r
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to regression in r different from analyzing survey
+    data in r?
+- candidate_id: q0098
+  relevant_topics:
+  - introduction to regression in r
+  - hierarchical
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to regression in r different from hierarchical?
+- candidate_id: q0099
+  relevant_topics:
+  - introduction to regression in r
+  - mixed effects models in r
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to regression in r different from mixed effects
+    models in r?
+- candidate_id: q0100
+  relevant_topics:
+  - intermediate regression in r
+  - sampling in r
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is intermediate regression in r different from sampling in r?
+- candidate_id: q0101
+  relevant_topics:
+  - intermediate regression in r
+  - hypothesis testing in r
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is intermediate regression in r different from hypothesis testing
+    in r?
+- candidate_id: q0102
+  relevant_topics:
+  - intermediate regression in r
+  - experimental design in r
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is intermediate regression in r different from experimental design
+    in r?
+- candidate_id: q0103
+  relevant_topics:
+  - intermediate regression in r
+  - analyzing survey data in r
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is intermediate regression in r different from analyzing survey
+    data in r?
+- candidate_id: q0104
+  relevant_topics:
+  - intermediate regression in r
+  - hierarchical
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is intermediate regression in r different from hierarchical?
+- candidate_id: q0105
+  relevant_topics:
+  - intermediate regression in r
+  - mixed effects models in r
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is intermediate regression in r different from mixed effects
+    models in r?
+- candidate_id: q0106
+  relevant_topics:
+  - sampling in r
+  - hypothesis testing in r
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is sampling in r different from hypothesis testing in r?
+- candidate_id: q0107
+  relevant_topics:
+  - sampling in r
+  - experimental design in r
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is sampling in r different from experimental design in r?
+- candidate_id: q0108
+  relevant_topics:
+  - sampling in r
+  - analyzing survey data in r
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is sampling in r different from analyzing survey data in r?
+- candidate_id: q0109
+  relevant_topics:
+  - sampling in r
+  - hierarchical
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is sampling in r different from hierarchical?
+- candidate_id: q0110
+  relevant_topics:
+  - sampling in r
+  - mixed effects models in r
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is sampling in r different from mixed effects models in r?
+- candidate_id: q0111
+  relevant_topics:
+  - hypothesis testing in r
+  - experimental design in r
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is hypothesis testing in r different from experimental design
+    in r?
+- candidate_id: q0112
+  relevant_topics:
+  - hypothesis testing in r
+  - analyzing survey data in r
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is hypothesis testing in r different from analyzing survey data
+    in r?
+- candidate_id: q0113
+  relevant_topics:
+  - hypothesis testing in r
+  - hierarchical
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is hypothesis testing in r different from hierarchical?
+- candidate_id: q0114
+  relevant_topics:
+  - hypothesis testing in r
+  - mixed effects models in r
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is hypothesis testing in r different from mixed effects models
+    in r?
+- candidate_id: q0115
+  relevant_topics:
+  - experimental design in r
+  - analyzing survey data in r
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is experimental design in r different from analyzing survey data
+    in r?
+- candidate_id: q0116
+  relevant_topics:
+  - experimental design in r
+  - hierarchical
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is experimental design in r different from hierarchical?
+- candidate_id: q0117
+  relevant_topics:
+  - experimental design in r
+  - mixed effects models in r
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is experimental design in r different from mixed effects models
+    in r?
+- candidate_id: q0118
+  relevant_topics:
+  - analyzing survey data in r
+  - hierarchical
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is analyzing survey data in r different from hierarchical?
+- candidate_id: q0119
+  relevant_topics:
+  - analyzing survey data in r
+  - mixed effects models in r
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is analyzing survey data in r different from mixed effects models
+    in r?
+- candidate_id: q0120
+  relevant_topics:
+  - hierarchical
+  - mixed effects models in r
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is hierarchical different from mixed effects models in r?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is introduction to statistics in r?
+  final_text: What is introduction to statistics in r?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does introduction to statistics in r mean?
+  final_text: What does introduction to statistics in r mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does introduction to statistics in r matter?
+  final_text: Why does introduction to statistics in r matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use introduction to statistics in r?
+  final_text: Why does introduction to statistics in r?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of introduction to statistics in r?
+  final_text: What is a simple example of introduction to statistics in r?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is foundations of probability in r?
+  final_text: What is foundations of probability in r?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does foundations of probability in r mean?
+  final_text: What does foundations of probability in r mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does foundations of probability in r matter?
+  final_text: Why does foundations of probability in r matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use foundations of probability in r?
+  final_text: Why does foundations of probability in r?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of foundations of probability in r?
+  final_text: What is a simple example of foundations of probability in r?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is introduction to regression in r?
+  final_text: What is introduction to regression in r?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does introduction to regression in r mean?
+  final_text: What does introduction to regression in r mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does introduction to regression in r matter?
+  final_text: Why does introduction to regression in r matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use introduction to regression in r?
+  final_text: Why does introduction to regression in r?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of introduction to regression in r?
+  final_text: What is a simple example of introduction to regression in r?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is intermediate regression in r?
+  final_text: What is intermediate regression in r?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does intermediate regression in r mean?
+  final_text: What does intermediate regression in r mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does intermediate regression in r matter?
+  final_text: Why does intermediate regression in r matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use intermediate regression in r?
+  final_text: Why does intermediate regression in r?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of intermediate regression in r?
+  final_text: What is a simple example of intermediate regression in r?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: What is sampling in r?
+  final_text: What is sampling in r?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: What does sampling in r mean?
+  final_text: What does sampling in r mean?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: Why does sampling in r matter?
+  final_text: Why does sampling in r matter?
+  reject_reason: null
+- candidate_id: q0024
+  status: repaired
+  original_text: Why do we use sampling in r?
+  final_text: Why does sampling in r?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: What is a simple example of sampling in r?
+  final_text: What is a simple example of sampling in r?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: What is hypothesis testing in r?
+  final_text: What is hypothesis testing in r?
+  reject_reason: null
+- candidate_id: q0027
+  status: accepted
+  original_text: What does hypothesis testing in r mean?
+  final_text: What does hypothesis testing in r mean?
+  reject_reason: null
+- candidate_id: q0028
+  status: accepted
+  original_text: Why does hypothesis testing in r matter?
+  final_text: Why does hypothesis testing in r matter?
+  reject_reason: null
+- candidate_id: q0029
+  status: repaired
+  original_text: Why do we use hypothesis testing in r?
+  final_text: Why does hypothesis testing in r?
+  reject_reason: null
+- candidate_id: q0030
+  status: accepted
+  original_text: What is a simple example of hypothesis testing in r?
+  final_text: What is a simple example of hypothesis testing in r?
+  reject_reason: null
+- candidate_id: q0031
+  status: accepted
+  original_text: What is experimental design in r?
+  final_text: What is experimental design in r?
+  reject_reason: null
+- candidate_id: q0032
+  status: accepted
+  original_text: What does experimental design in r mean?
+  final_text: What does experimental design in r mean?
+  reject_reason: null
+- candidate_id: q0033
+  status: accepted
+  original_text: Why does experimental design in r matter?
+  final_text: Why does experimental design in r matter?
+  reject_reason: null
+- candidate_id: q0034
+  status: repaired
+  original_text: Why do we use experimental design in r?
+  final_text: Why does experimental design in r?
+  reject_reason: null
+- candidate_id: q0035
+  status: accepted
+  original_text: What is a simple example of experimental design in r?
+  final_text: What is a simple example of experimental design in r?
+  reject_reason: null
+- candidate_id: q0036
+  status: accepted
+  original_text: What is analyzing survey data in r?
+  final_text: What is analyzing survey data in r?
+  reject_reason: null
+- candidate_id: q0037
+  status: accepted
+  original_text: What does analyzing survey data in r mean?
+  final_text: What does analyzing survey data in r mean?
+  reject_reason: null
+- candidate_id: q0038
+  status: accepted
+  original_text: Why does analyzing survey data in r matter?
+  final_text: Why does analyzing survey data in r matter?
+  reject_reason: null
+- candidate_id: q0039
+  status: repaired
+  original_text: Why do we use analyzing survey data in r?
+  final_text: Why does analyzing survey data in r?
+  reject_reason: null
+- candidate_id: q0040
+  status: accepted
+  original_text: What is a simple example of analyzing survey data in r?
+  final_text: What is a simple example of analyzing survey data in r?
+  reject_reason: null
+- candidate_id: q0041
+  status: accepted
+  original_text: What is hierarchical?
+  final_text: What is hierarchical?
+  reject_reason: null
+- candidate_id: q0042
+  status: accepted
+  original_text: What does hierarchical mean?
+  final_text: What does hierarchical mean?
+  reject_reason: null
+- candidate_id: q0043
+  status: accepted
+  original_text: Why does hierarchical matter?
+  final_text: Why does hierarchical matter?
+  reject_reason: null
+- candidate_id: q0044
+  status: repaired
+  original_text: Why do we use hierarchical?
+  final_text: Why does hierarchical?
+  reject_reason: null
+- candidate_id: q0045
+  status: accepted
+  original_text: What is a simple example of hierarchical?
+  final_text: What is a simple example of hierarchical?
+  reject_reason: null
+- candidate_id: q0046
+  status: accepted
+  original_text: What is mixed effects models in r?
+  final_text: What is mixed effects models in r?
+  reject_reason: null
+- candidate_id: q0047
+  status: accepted
+  original_text: What does mixed effects models in r mean?
+  final_text: What does mixed effects models in r mean?
+  reject_reason: null
+- candidate_id: q0048
+  status: accepted
+  original_text: Why does mixed effects models in r matter?
+  final_text: Why does mixed effects models in r matter?
+  reject_reason: null
+- candidate_id: q0049
+  status: repaired
+  original_text: Why do we use mixed effects models in r?
+  final_text: Why does mixed effects models in r?
+  reject_reason: null
+- candidate_id: q0050
+  status: accepted
+  original_text: What is a simple example of mixed effects models in r?
+  final_text: What is a simple example of mixed effects models in r?
+  reject_reason: null
+- candidate_id: q0051
+  status: accepted
+  original_text: What is survival analysis in r?
+  final_text: What is survival analysis in r?
+  reject_reason: null
+- candidate_id: q0052
+  status: accepted
+  original_text: What does survival analysis in r mean?
+  final_text: What does survival analysis in r mean?
+  reject_reason: null
+- candidate_id: q0053
+  status: accepted
+  original_text: Why does survival analysis in r matter?
+  final_text: Why does survival analysis in r matter?
+  reject_reason: null
+- candidate_id: q0054
+  status: repaired
+  original_text: Why do we use survival analysis in r?
+  final_text: Why does survival analysis in r?
+  reject_reason: null
+- candidate_id: q0055
+  status: accepted
+  original_text: What is a simple example of survival analysis in r?
+  final_text: What is a simple example of survival analysis in r?
+  reject_reason: null
+- candidate_id: q0056
+  status: accepted
+  original_text: What is fundamentals of bayesian data analysis in r?
+  final_text: What is fundamentals of bayesian data analysis in r?
+  reject_reason: null
+- candidate_id: q0057
+  status: accepted
+  original_text: What does fundamentals of bayesian data analysis in r mean?
+  final_text: What does fundamentals of bayesian data analysis in r mean?
+  reject_reason: null
+- candidate_id: q0058
+  status: accepted
+  original_text: Why does fundamentals of bayesian data analysis in r matter?
+  final_text: Why does fundamentals of bayesian data analysis in r matter?
+  reject_reason: null
+- candidate_id: q0059
+  status: repaired
+  original_text: Why do we use fundamentals of bayesian data analysis in r?
+  final_text: Why does fundamentals of bayesian data analysis in r?
+  reject_reason: null
+- candidate_id: q0060
+  status: accepted
+  original_text: What is a simple example of fundamentals of bayesian data analysis
+    in r?
+  final_text: What is a simple example of fundamentals of bayesian data analysis in
+    r?
+  reject_reason: null
+- candidate_id: q0061
+  status: accepted
+  original_text: What is factor analysis in r?
+  final_text: What is factor analysis in r?
+  reject_reason: null
+- candidate_id: q0062
+  status: accepted
+  original_text: What does factor analysis in r mean?
+  final_text: What does factor analysis in r mean?
+  reject_reason: null
+- candidate_id: q0063
+  status: accepted
+  original_text: Why does factor analysis in r matter?
+  final_text: Why does factor analysis in r matter?
+  reject_reason: null
+- candidate_id: q0064
+  status: repaired
+  original_text: Why do we use factor analysis in r?
+  final_text: Why does factor analysis in r?
+  reject_reason: null
+- candidate_id: q0065
+  status: accepted
+  original_text: What is a simple example of factor analysis in r?
+  final_text: What is a simple example of factor analysis in r?
+  reject_reason: null
+- candidate_id: q0066
+  status: accepted
+  original_text: What is foundations of inference in r?
+  final_text: What is foundations of inference in r?
+  reject_reason: null
+- candidate_id: q0067
+  status: accepted
+  original_text: What does foundations of inference in r mean?
+  final_text: What does foundations of inference in r mean?
+  reject_reason: null
+- candidate_id: q0068
+  status: accepted
+  original_text: Why does foundations of inference in r matter?
+  final_text: Why does foundations of inference in r matter?
+  reject_reason: null
+- candidate_id: q0069
+  status: repaired
+  original_text: Why do we use foundations of inference in r?
+  final_text: Why does foundations of inference in r?
+  reject_reason: null
+- candidate_id: q0070
+  status: accepted
+  original_text: What is a simple example of foundations of inference in r?
+  final_text: What is a simple example of foundations of inference in r?
+  reject_reason: null
+- candidate_id: q0071
+  status: accepted
+  original_text: What is how environmental factors influence wildlife populations?
+  final_text: What is how environmental factors influence wildlife populations?
+  reject_reason: null
+- candidate_id: q0072
+  status: accepted
+  original_text: What does how environmental factors influence wildlife populations
+    mean?
+  final_text: What does how environmental factors influence wildlife populations mean?
+  reject_reason: null
+- candidate_id: q0073
+  status: accepted
+  original_text: Why does how environmental factors influence wildlife populations
+    matter?
+  final_text: Why does how environmental factors influence wildlife populations matter?
+  reject_reason: null
+- candidate_id: q0074
+  status: repaired
+  original_text: Why do we use how environmental factors influence wildlife populations?
+  final_text: Why does how environmental factors influence wildlife populations?
+  reject_reason: null
+- candidate_id: q0075
+  status: accepted
+  original_text: What is a simple example of how environmental factors influence wildlife
+    populations?
+  final_text: What is a simple example of how environmental factors influence wildlife
+    populations?
+  reject_reason: null
+- candidate_id: q0076
+  status: accepted
+  original_text: How is introduction to statistics in r different from foundations
+    of probability in r?
+  final_text: How is introduction to statistics in r different from foundations of
+    probability in r?
+  reject_reason: null
+- candidate_id: q0077
+  status: accepted
+  original_text: How is introduction to statistics in r different from introduction
+    to regression in r?
+  final_text: How is introduction to statistics in r different from introduction to
+    regression in r?
+  reject_reason: null
+- candidate_id: q0078
+  status: accepted
+  original_text: How is introduction to statistics in r different from intermediate
+    regression in r?
+  final_text: How is introduction to statistics in r different from intermediate regression
+    in r?
+  reject_reason: null
+- candidate_id: q0079
+  status: accepted
+  original_text: How is introduction to statistics in r different from sampling in
+    r?
+  final_text: How is introduction to statistics in r different from sampling in r?
+  reject_reason: null
+- candidate_id: q0080
+  status: accepted
+  original_text: How is introduction to statistics in r different from hypothesis
+    testing in r?
+  final_text: How is introduction to statistics in r different from hypothesis testing
+    in r?
+  reject_reason: null
+- candidate_id: q0081
+  status: accepted
+  original_text: How is introduction to statistics in r different from experimental
+    design in r?
+  final_text: How is introduction to statistics in r different from experimental design
+    in r?
+  reject_reason: null
+- candidate_id: q0082
+  status: accepted
+  original_text: How is introduction to statistics in r different from analyzing survey
+    data in r?
+  final_text: How is introduction to statistics in r different from analyzing survey
+    data in r?
+  reject_reason: null
+- candidate_id: q0083
+  status: accepted
+  original_text: How is introduction to statistics in r different from hierarchical?
+  final_text: How is introduction to statistics in r different from hierarchical?
+  reject_reason: null
+- candidate_id: q0084
+  status: accepted
+  original_text: How is introduction to statistics in r different from mixed effects
+    models in r?
+  final_text: How is introduction to statistics in r different from mixed effects
+    models in r?
+  reject_reason: null
+- candidate_id: q0085
+  status: accepted
+  original_text: How is foundations of probability in r different from introduction
+    to regression in r?
+  final_text: How is foundations of probability in r different from introduction to
+    regression in r?
+  reject_reason: null
+- candidate_id: q0086
+  status: accepted
+  original_text: How is foundations of probability in r different from intermediate
+    regression in r?
+  final_text: How is foundations of probability in r different from intermediate regression
+    in r?
+  reject_reason: null
+- candidate_id: q0087
+  status: accepted
+  original_text: How is foundations of probability in r different from sampling in
+    r?
+  final_text: How is foundations of probability in r different from sampling in r?
+  reject_reason: null
+- candidate_id: q0088
+  status: accepted
+  original_text: How is foundations of probability in r different from hypothesis
+    testing in r?
+  final_text: How is foundations of probability in r different from hypothesis testing
+    in r?
+  reject_reason: null
+- candidate_id: q0089
+  status: accepted
+  original_text: How is foundations of probability in r different from experimental
+    design in r?
+  final_text: How is foundations of probability in r different from experimental design
+    in r?
+  reject_reason: null
+- candidate_id: q0090
+  status: accepted
+  original_text: How is foundations of probability in r different from analyzing survey
+    data in r?
+  final_text: How is foundations of probability in r different from analyzing survey
+    data in r?
+  reject_reason: null
+- candidate_id: q0091
+  status: accepted
+  original_text: How is foundations of probability in r different from hierarchical?
+  final_text: How is foundations of probability in r different from hierarchical?
+  reject_reason: null
+- candidate_id: q0092
+  status: accepted
+  original_text: How is foundations of probability in r different from mixed effects
+    models in r?
+  final_text: How is foundations of probability in r different from mixed effects
+    models in r?
+  reject_reason: null
+- candidate_id: q0093
+  status: accepted
+  original_text: How is introduction to regression in r different from intermediate
+    regression in r?
+  final_text: How is introduction to regression in r different from intermediate regression
+    in r?
+  reject_reason: null
+- candidate_id: q0094
+  status: accepted
+  original_text: How is introduction to regression in r different from sampling in
+    r?
+  final_text: How is introduction to regression in r different from sampling in r?
+  reject_reason: null
+- candidate_id: q0095
+  status: accepted
+  original_text: How is introduction to regression in r different from hypothesis
+    testing in r?
+  final_text: How is introduction to regression in r different from hypothesis testing
+    in r?
+  reject_reason: null
+- candidate_id: q0096
+  status: accepted
+  original_text: How is introduction to regression in r different from experimental
+    design in r?
+  final_text: How is introduction to regression in r different from experimental design
+    in r?
+  reject_reason: null
+- candidate_id: q0097
+  status: accepted
+  original_text: How is introduction to regression in r different from analyzing survey
+    data in r?
+  final_text: How is introduction to regression in r different from analyzing survey
+    data in r?
+  reject_reason: null
+- candidate_id: q0098
+  status: accepted
+  original_text: How is introduction to regression in r different from hierarchical?
+  final_text: How is introduction to regression in r different from hierarchical?
+  reject_reason: null
+- candidate_id: q0099
+  status: accepted
+  original_text: How is introduction to regression in r different from mixed effects
+    models in r?
+  final_text: How is introduction to regression in r different from mixed effects
+    models in r?
+  reject_reason: null
+- candidate_id: q0100
+  status: accepted
+  original_text: How is intermediate regression in r different from sampling in r?
+  final_text: How is intermediate regression in r different from sampling in r?
+  reject_reason: null
+- candidate_id: q0101
+  status: accepted
+  original_text: How is intermediate regression in r different from hypothesis testing
+    in r?
+  final_text: How is intermediate regression in r different from hypothesis testing
+    in r?
+  reject_reason: null
+- candidate_id: q0102
+  status: accepted
+  original_text: How is intermediate regression in r different from experimental design
+    in r?
+  final_text: How is intermediate regression in r different from experimental design
+    in r?
+  reject_reason: null
+- candidate_id: q0103
+  status: accepted
+  original_text: How is intermediate regression in r different from analyzing survey
+    data in r?
+  final_text: How is intermediate regression in r different from analyzing survey
+    data in r?
+  reject_reason: null
+- candidate_id: q0104
+  status: accepted
+  original_text: How is intermediate regression in r different from hierarchical?
+  final_text: How is intermediate regression in r different from hierarchical?
+  reject_reason: null
+- candidate_id: q0105
+  status: accepted
+  original_text: How is intermediate regression in r different from mixed effects
+    models in r?
+  final_text: How is intermediate regression in r different from mixed effects models
+    in r?
+  reject_reason: null
+- candidate_id: q0106
+  status: accepted
+  original_text: How is sampling in r different from hypothesis testing in r?
+  final_text: How is sampling in r different from hypothesis testing in r?
+  reject_reason: null
+- candidate_id: q0107
+  status: accepted
+  original_text: How is sampling in r different from experimental design in r?
+  final_text: How is sampling in r different from experimental design in r?
+  reject_reason: null
+- candidate_id: q0108
+  status: accepted
+  original_text: How is sampling in r different from analyzing survey data in r?
+  final_text: How is sampling in r different from analyzing survey data in r?
+  reject_reason: null
+- candidate_id: q0109
+  status: accepted
+  original_text: How is sampling in r different from hierarchical?
+  final_text: How is sampling in r different from hierarchical?
+  reject_reason: null
+- candidate_id: q0110
+  status: accepted
+  original_text: How is sampling in r different from mixed effects models in r?
+  final_text: How is sampling in r different from mixed effects models in r?
+  reject_reason: null
+- candidate_id: q0111
+  status: accepted
+  original_text: How is hypothesis testing in r different from experimental design
+    in r?
+  final_text: How is hypothesis testing in r different from experimental design in
+    r?
+  reject_reason: null
+- candidate_id: q0112
+  status: accepted
+  original_text: How is hypothesis testing in r different from analyzing survey data
+    in r?
+  final_text: How is hypothesis testing in r different from analyzing survey data
+    in r?
+  reject_reason: null
+- candidate_id: q0113
+  status: accepted
+  original_text: How is hypothesis testing in r different from hierarchical?
+  final_text: How is hypothesis testing in r different from hierarchical?
+  reject_reason: null
+- candidate_id: q0114
+  status: accepted
+  original_text: How is hypothesis testing in r different from mixed effects models
+    in r?
+  final_text: How is hypothesis testing in r different from mixed effects models in
+    r?
+  reject_reason: null
+- candidate_id: q0115
+  status: accepted
+  original_text: How is experimental design in r different from analyzing survey data
+    in r?
+  final_text: How is experimental design in r different from analyzing survey data
+    in r?
+  reject_reason: null
+- candidate_id: q0116
+  status: accepted
+  original_text: How is experimental design in r different from hierarchical?
+  final_text: How is experimental design in r different from hierarchical?
+  reject_reason: null
+- candidate_id: q0117
+  status: accepted
+  original_text: How is experimental design in r different from mixed effects models
+    in r?
+  final_text: How is experimental design in r different from mixed effects models
+    in r?
+  reject_reason: null
+- candidate_id: q0118
+  status: accepted
+  original_text: How is analyzing survey data in r different from hierarchical?
+  final_text: How is analyzing survey data in r different from hierarchical?
+  reject_reason: null
+- candidate_id: q0119
+  status: accepted
+  original_text: How is analyzing survey data in r different from mixed effects models
+    in r?
+  final_text: How is analyzing survey data in r different from mixed effects models
+    in r?
+  reject_reason: null
+- candidate_id: q0120
+  status: accepted
+  original_text: How is hierarchical different from mixed effects models in r?
+  final_text: How is hierarchical different from mixed effects models in r?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is introduction to statistics in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does introduction to statistics in r mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does introduction to statistics in r matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does introduction to statistics in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of introduction to statistics in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is foundations of probability in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does foundations of probability in r mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does foundations of probability in r matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does foundations of probability in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of foundations of probability in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is introduction to regression in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does introduction to regression in r mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does introduction to regression in r matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does introduction to regression in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of introduction to regression in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is intermediate regression in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does intermediate regression in r mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does intermediate regression in r matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does intermediate regression in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of intermediate regression in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: What is sampling in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: What does sampling in r mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: Why does sampling in r matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: Why does sampling in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: What is a simple example of sampling in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: What is hypothesis testing in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0027
+  question_text: What does hypothesis testing in r mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0028
+  question_text: Why does hypothesis testing in r matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0029
+  question_text: Why does hypothesis testing in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0030
+  question_text: What is a simple example of hypothesis testing in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0031
+  question_text: What is experimental design in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0032
+  question_text: What does experimental design in r mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0033
+  question_text: Why does experimental design in r matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0034
+  question_text: Why does experimental design in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0035
+  question_text: What is a simple example of experimental design in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0036
+  question_text: What is analyzing survey data in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0037
+  question_text: What does analyzing survey data in r mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0038
+  question_text: Why does analyzing survey data in r matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0039
+  question_text: Why does analyzing survey data in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0040
+  question_text: What is a simple example of analyzing survey data in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0041
+  question_text: What is hierarchical?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0042
+  question_text: What does hierarchical mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0043
+  question_text: Why does hierarchical matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0044
+  question_text: Why does hierarchical?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0045
+  question_text: What is a simple example of hierarchical?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0046
+  question_text: What is mixed effects models in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0047
+  question_text: What does mixed effects models in r mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0048
+  question_text: Why does mixed effects models in r matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0049
+  question_text: Why does mixed effects models in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0050
+  question_text: What is a simple example of mixed effects models in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0051
+  question_text: What is survival analysis in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0052
+  question_text: What does survival analysis in r mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0053
+  question_text: Why does survival analysis in r matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0054
+  question_text: Why does survival analysis in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0055
+  question_text: What is a simple example of survival analysis in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0056
+  question_text: What is fundamentals of bayesian data analysis in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0057
+  question_text: What does fundamentals of bayesian data analysis in r mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0058
+  question_text: Why does fundamentals of bayesian data analysis in r matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0059
+  question_text: Why does fundamentals of bayesian data analysis in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0060
+  question_text: What is a simple example of fundamentals of bayesian data analysis
+    in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0061
+  question_text: What is factor analysis in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0062
+  question_text: What does factor analysis in r mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0063
+  question_text: Why does factor analysis in r matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0064
+  question_text: Why does factor analysis in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0065
+  question_text: What is a simple example of factor analysis in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0066
+  question_text: What is foundations of inference in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0067
+  question_text: What does foundations of inference in r mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0068
+  question_text: Why does foundations of inference in r matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0069
+  question_text: Why does foundations of inference in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0070
+  question_text: What is a simple example of foundations of inference in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0071
+  question_text: What is how environmental factors influence wildlife populations?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0072
+  question_text: What does how environmental factors influence wildlife populations
+    mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0073
+  question_text: Why does how environmental factors influence wildlife populations
+    matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0074
+  question_text: Why does how environmental factors influence wildlife populations?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0075
+  question_text: What is a simple example of how environmental factors influence wildlife
+    populations?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0076
+  question_text: How is introduction to statistics in r different from foundations
+    of probability in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0077
+  question_text: How is introduction to statistics in r different from introduction
+    to regression in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0078
+  question_text: How is introduction to statistics in r different from intermediate
+    regression in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0079
+  question_text: How is introduction to statistics in r different from sampling in
+    r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0080
+  question_text: How is introduction to statistics in r different from hypothesis
+    testing in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0081
+  question_text: How is introduction to statistics in r different from experimental
+    design in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0082
+  question_text: How is introduction to statistics in r different from analyzing survey
+    data in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0083
+  question_text: How is introduction to statistics in r different from hierarchical?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0084
+  question_text: How is introduction to statistics in r different from mixed effects
+    models in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0085
+  question_text: How is foundations of probability in r different from introduction
+    to regression in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0086
+  question_text: How is foundations of probability in r different from intermediate
+    regression in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0087
+  question_text: How is foundations of probability in r different from sampling in
+    r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0088
+  question_text: How is foundations of probability in r different from hypothesis
+    testing in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0089
+  question_text: How is foundations of probability in r different from experimental
+    design in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0090
+  question_text: How is foundations of probability in r different from analyzing survey
+    data in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0091
+  question_text: How is foundations of probability in r different from hierarchical?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0092
+  question_text: How is foundations of probability in r different from mixed effects
+    models in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0093
+  question_text: How is introduction to regression in r different from intermediate
+    regression in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0094
+  question_text: How is introduction to regression in r different from sampling in
+    r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0095
+  question_text: How is introduction to regression in r different from hypothesis
+    testing in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0096
+  question_text: How is introduction to regression in r different from experimental
+    design in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0097
+  question_text: How is introduction to regression in r different from analyzing survey
+    data in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0098
+  question_text: How is introduction to regression in r different from hierarchical?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0099
+  question_text: How is introduction to regression in r different from mixed effects
+    models in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0100
+  question_text: How is intermediate regression in r different from sampling in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0101
+  question_text: How is intermediate regression in r different from hypothesis testing
+    in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0102
+  question_text: How is intermediate regression in r different from experimental design
+    in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0103
+  question_text: How is intermediate regression in r different from analyzing survey
+    data in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0104
+  question_text: How is intermediate regression in r different from hierarchical?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0105
+  question_text: How is intermediate regression in r different from mixed effects
+    models in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0106
+  question_text: How is sampling in r different from hypothesis testing in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0107
+  question_text: How is sampling in r different from experimental design in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0108
+  question_text: How is sampling in r different from analyzing survey data in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0109
+  question_text: How is sampling in r different from hierarchical?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0110
+  question_text: How is sampling in r different from mixed effects models in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0111
+  question_text: How is hypothesis testing in r different from experimental design
+    in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0112
+  question_text: How is hypothesis testing in r different from analyzing survey data
+    in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0113
+  question_text: How is hypothesis testing in r different from hierarchical?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0114
+  question_text: How is hypothesis testing in r different from mixed effects models
+    in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0115
+  question_text: How is experimental design in r different from analyzing survey data
+    in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0116
+  question_text: How is experimental design in r different from hierarchical?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0117
+  question_text: How is experimental design in r different from mixed effects models
+    in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0118
+  question_text: How is analyzing survey data in r different from hierarchical?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0119
+  question_text: How is analyzing survey data in r different from mixed effects models
+    in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0120
+  question_text: How is hierarchical different from mixed effects models in r?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - introduction to statistics in r
+  question_text: What is introduction to statistics in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - introduction to statistics in r
+  question_text: What does introduction to statistics in r mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - introduction to statistics in r
+  question_text: Why does introduction to statistics in r matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - introduction to statistics in r
+  question_text: Why does introduction to statistics in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - introduction to statistics in r
+  question_text: What is a simple example of introduction to statistics in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - foundations of probability in r
+  question_text: What is foundations of probability in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - foundations of probability in r
+  question_text: What does foundations of probability in r mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - foundations of probability in r
+  question_text: Why does foundations of probability in r matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - foundations of probability in r
+  question_text: Why does foundations of probability in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - foundations of probability in r
+  question_text: What is a simple example of foundations of probability in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - introduction to regression in r
+  question_text: What is introduction to regression in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - introduction to regression in r
+  question_text: What does introduction to regression in r mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - introduction to regression in r
+  question_text: Why does introduction to regression in r matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - introduction to regression in r
+  question_text: Why does introduction to regression in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - introduction to regression in r
+  question_text: What is a simple example of introduction to regression in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - intermediate regression in r
+  question_text: What is intermediate regression in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - intermediate regression in r
+  question_text: What does intermediate regression in r mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - intermediate regression in r
+  question_text: Why does intermediate regression in r matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - intermediate regression in r
+  question_text: Why does intermediate regression in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - intermediate regression in r
+  question_text: What is a simple example of intermediate regression in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - sampling in r
+  question_text: What is sampling in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - sampling in r
+  question_text: What does sampling in r mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - sampling in r
+  question_text: Why does sampling in r matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - sampling in r
+  question_text: Why does sampling in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - sampling in r
+  question_text: What is a simple example of sampling in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - hypothesis testing in r
+  question_text: What is hypothesis testing in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000027
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - hypothesis testing in r
+  question_text: What does hypothesis testing in r mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000028
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - hypothesis testing in r
+  question_text: Why does hypothesis testing in r matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000029
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - hypothesis testing in r
+  question_text: Why does hypothesis testing in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000030
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - hypothesis testing in r
+  question_text: What is a simple example of hypothesis testing in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000031
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - experimental design in r
+  question_text: What is experimental design in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000032
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - experimental design in r
+  question_text: What does experimental design in r mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000033
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - experimental design in r
+  question_text: Why does experimental design in r matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000034
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - experimental design in r
+  question_text: Why does experimental design in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000035
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - experimental design in r
+  question_text: What is a simple example of experimental design in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000036
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - analyzing survey data in r
+  question_text: What is analyzing survey data in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000037
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - analyzing survey data in r
+  question_text: What does analyzing survey data in r mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000038
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - analyzing survey data in r
+  question_text: Why does analyzing survey data in r matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000039
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - analyzing survey data in r
+  question_text: Why does analyzing survey data in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000040
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - analyzing survey data in r
+  question_text: What is a simple example of analyzing survey data in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000041
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - hierarchical
+  question_text: What is hierarchical?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000042
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - hierarchical
+  question_text: What does hierarchical mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000043
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - hierarchical
+  question_text: Why does hierarchical matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000044
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - hierarchical
+  question_text: Why does hierarchical?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000045
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - hierarchical
+  question_text: What is a simple example of hierarchical?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000046
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - mixed effects models in r
+  question_text: What is mixed effects models in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000047
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - mixed effects models in r
+  question_text: What does mixed effects models in r mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000048
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - mixed effects models in r
+  question_text: Why does mixed effects models in r matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000049
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - mixed effects models in r
+  question_text: Why does mixed effects models in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000050
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - mixed effects models in r
+  question_text: What is a simple example of mixed effects models in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000051
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - survival analysis in r
+  question_text: What is survival analysis in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000052
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - survival analysis in r
+  question_text: What does survival analysis in r mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000053
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - survival analysis in r
+  question_text: Why does survival analysis in r matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000054
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - survival analysis in r
+  question_text: Why does survival analysis in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000055
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - survival analysis in r
+  question_text: What is a simple example of survival analysis in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000056
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - fundamentals of bayesian data analysis in r
+  question_text: What is fundamentals of bayesian data analysis in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000057
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - fundamentals of bayesian data analysis in r
+  question_text: What does fundamentals of bayesian data analysis in r mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000058
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - fundamentals of bayesian data analysis in r
+  question_text: Why does fundamentals of bayesian data analysis in r matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000059
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - fundamentals of bayesian data analysis in r
+  question_text: Why does fundamentals of bayesian data analysis in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000060
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - fundamentals of bayesian data analysis in r
+  question_text: What is a simple example of fundamentals of bayesian data analysis
+    in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000061
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - factor analysis in r
+  question_text: What is factor analysis in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000062
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - factor analysis in r
+  question_text: What does factor analysis in r mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000063
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - factor analysis in r
+  question_text: Why does factor analysis in r matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000064
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - factor analysis in r
+  question_text: Why does factor analysis in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000065
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - factor analysis in r
+  question_text: What is a simple example of factor analysis in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000066
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - foundations of inference in r
+  question_text: What is foundations of inference in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000067
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - foundations of inference in r
+  question_text: What does foundations of inference in r mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000068
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - foundations of inference in r
+  question_text: Why does foundations of inference in r matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000069
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - foundations of inference in r
+  question_text: Why does foundations of inference in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000070
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - foundations of inference in r
+  question_text: What is a simple example of foundations of inference in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000071
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - how environmental factors influence wildlife populations
+  question_text: What is how environmental factors influence wildlife populations?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000072
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - how environmental factors influence wildlife populations
+  question_text: What does how environmental factors influence wildlife populations
+    mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000073
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - how environmental factors influence wildlife populations
+  question_text: Why does how environmental factors influence wildlife populations
+    matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000074
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - how environmental factors influence wildlife populations
+  question_text: Why does how environmental factors influence wildlife populations?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000075
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - how environmental factors influence wildlife populations
+  question_text: What is a simple example of how environmental factors influence wildlife
+    populations?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000076
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - introduction to statistics in r
+  - foundations of probability in r
+  question_text: How is introduction to statistics in r different from foundations
+    of probability in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000077
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - introduction to statistics in r
+  - introduction to regression in r
+  question_text: How is introduction to statistics in r different from introduction
+    to regression in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000078
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - introduction to statistics in r
+  - intermediate regression in r
+  question_text: How is introduction to statistics in r different from intermediate
+    regression in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000079
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - introduction to statistics in r
+  - sampling in r
+  question_text: How is introduction to statistics in r different from sampling in
+    r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000080
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - introduction to statistics in r
+  - hypothesis testing in r
+  question_text: How is introduction to statistics in r different from hypothesis
+    testing in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000081
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - introduction to statistics in r
+  - experimental design in r
+  question_text: How is introduction to statistics in r different from experimental
+    design in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000082
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - introduction to statistics in r
+  - analyzing survey data in r
+  question_text: How is introduction to statistics in r different from analyzing survey
+    data in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000083
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - introduction to statistics in r
+  - hierarchical
+  question_text: How is introduction to statistics in r different from hierarchical?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000084
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - introduction to statistics in r
+  - mixed effects models in r
+  question_text: How is introduction to statistics in r different from mixed effects
+    models in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000085
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - foundations of probability in r
+  - introduction to regression in r
+  question_text: How is foundations of probability in r different from introduction
+    to regression in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000086
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - foundations of probability in r
+  - intermediate regression in r
+  question_text: How is foundations of probability in r different from intermediate
+    regression in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000087
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - foundations of probability in r
+  - sampling in r
+  question_text: How is foundations of probability in r different from sampling in
+    r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000088
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - foundations of probability in r
+  - hypothesis testing in r
+  question_text: How is foundations of probability in r different from hypothesis
+    testing in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000089
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - foundations of probability in r
+  - experimental design in r
+  question_text: How is foundations of probability in r different from experimental
+    design in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000090
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - foundations of probability in r
+  - analyzing survey data in r
+  question_text: How is foundations of probability in r different from analyzing survey
+    data in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000091
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - foundations of probability in r
+  - hierarchical
+  question_text: How is foundations of probability in r different from hierarchical?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000092
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - foundations of probability in r
+  - mixed effects models in r
+  question_text: How is foundations of probability in r different from mixed effects
+    models in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000093
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - introduction to regression in r
+  - intermediate regression in r
+  question_text: How is introduction to regression in r different from intermediate
+    regression in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000094
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - introduction to regression in r
+  - sampling in r
+  question_text: How is introduction to regression in r different from sampling in
+    r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000095
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - introduction to regression in r
+  - hypothesis testing in r
+  question_text: How is introduction to regression in r different from hypothesis
+    testing in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000096
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - introduction to regression in r
+  - experimental design in r
+  question_text: How is introduction to regression in r different from experimental
+    design in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000097
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - introduction to regression in r
+  - analyzing survey data in r
+  question_text: How is introduction to regression in r different from analyzing survey
+    data in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000098
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - introduction to regression in r
+  - hierarchical
+  question_text: How is introduction to regression in r different from hierarchical?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000099
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - introduction to regression in r
+  - mixed effects models in r
+  question_text: How is introduction to regression in r different from mixed effects
+    models in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000100
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - intermediate regression in r
+  - sampling in r
+  question_text: How is intermediate regression in r different from sampling in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000101
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - intermediate regression in r
+  - hypothesis testing in r
+  question_text: How is intermediate regression in r different from hypothesis testing
+    in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000102
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - intermediate regression in r
+  - experimental design in r
+  question_text: How is intermediate regression in r different from experimental design
+    in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000103
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - intermediate regression in r
+  - analyzing survey data in r
+  question_text: How is intermediate regression in r different from analyzing survey
+    data in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000104
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - intermediate regression in r
+  - hierarchical
+  question_text: How is intermediate regression in r different from hierarchical?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000105
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - intermediate regression in r
+  - mixed effects models in r
+  question_text: How is intermediate regression in r different from mixed effects
+    models in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000106
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - sampling in r
+  - hypothesis testing in r
+  question_text: How is sampling in r different from hypothesis testing in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000107
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - sampling in r
+  - experimental design in r
+  question_text: How is sampling in r different from experimental design in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000108
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - sampling in r
+  - analyzing survey data in r
+  question_text: How is sampling in r different from analyzing survey data in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000109
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - sampling in r
+  - hierarchical
+  question_text: How is sampling in r different from hierarchical?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000110
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - sampling in r
+  - mixed effects models in r
+  question_text: How is sampling in r different from mixed effects models in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000111
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - hypothesis testing in r
+  - experimental design in r
+  question_text: How is hypothesis testing in r different from experimental design
+    in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000112
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - hypothesis testing in r
+  - analyzing survey data in r
+  question_text: How is hypothesis testing in r different from analyzing survey data
+    in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000113
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - hypothesis testing in r
+  - hierarchical
+  question_text: How is hypothesis testing in r different from hierarchical?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000114
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - hypothesis testing in r
+  - mixed effects models in r
+  question_text: How is hypothesis testing in r different from mixed effects models
+    in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000115
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - experimental design in r
+  - analyzing survey data in r
+  question_text: How is experimental design in r different from analyzing survey data
+    in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000116
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - experimental design in r
+  - hierarchical
+  question_text: How is experimental design in r different from hierarchical?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000117
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - experimental design in r
+  - mixed effects models in r
+  question_text: How is experimental design in r different from mixed effects models
+    in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000118
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - analyzing survey data in r
+  - hierarchical
+  question_text: How is analyzing survey data in r different from hierarchical?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000119
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - analyzing survey data in r
+  - mixed effects models in r
+  question_text: How is analyzing survey data in r different from mixed effects models
+    in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000120
+  course:
+    course_id: '24370'
+    title: Statistician in R
+  relevant_topics:
+  - hierarchical
+  - mixed effects models in r
+  question_text: How is hierarchical different from mixed effects models in r?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 15
+  canonical_topic_count: 15
+  candidate_count: 120
+  accepted_count: 120
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 120

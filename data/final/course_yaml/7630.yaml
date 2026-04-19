@@ -1,0 +1,2570 @@
+course_id: '7630'
+title: Introduction to R
+normalized_course:
+  course_id: '7630'
+  title: Introduction to R
+  provider: DataCamp
+  summary: 'Master the basics of data analysis in R, including vectors, lists, and
+    data
+
+    frames, and practice R with real data sets.'
+  overview: 'Master the basics of data analysis in R, including vectors, lists, and
+    data
+
+    frames, and practice R with real data sets.
+
+
+    Learn R Programming
+
+
+    R programming language is a useful tool for data scientists, analysts, and
+
+    statisticians, especially those working in academic settings. R''s ability to
+
+    handle complex analyses such as machine learning, financial modeling, and
+
+    more makes it a valuable asset for a wide range of data-related tasks.
+
+
+    This introduction to R course covers the basics of this open source
+
+    language, including vectors, factors, lists, and data frames. You’ll gain
+
+    useful coding skills and be ready to start your own data analysis in R.
+
+
+    Gain an Introduction to R
+
+
+    You’ll get started with basic operations, like using the console as a
+
+    calculator and understanding basic data types in R. Once you’ve had a chance
+
+    to practice, you’ll move on to creating vectors and try out your new R
+
+    skills on a data set based on betting in Las Vegas.
+
+
+    Next, you’ll learn how to work with matrices in R, learning how to create
+
+    them, and perform calculations with them. You’ll also examine how R uses
+
+    factors to store categorical data. Finally, you’ll explore how to work with
+
+    R data frames and lists.
+
+
+    Master the R Basics for Data Analysis
+
+
+    By the time you’ve completed our Introduction to R course, you’ll be able to
+
+    use R for your own data analysis. These sought-after skills can help you
+
+    progress in your career and set you up for further learning. This course is
+
+    part of several tracks, including Data Analyst with R, Data Scientist with
+
+    R, and R Programming, all of which can help you develop your knowledge.'
+  chapters:
+  - chapter_index: 1
+    title: Intro to basics
+    summary: 'Take your first steps with R. In this chapter, you will learn how to
+
+      use the console as a calculator and how to assign variables. You
+
+      will also get to know the basic data types in R. Let''s get started.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 2
+    title: Vectors
+    summary: 'We take you on a trip to Vegas, where you will learn how to analyze
+
+      your gambling results using vectors in R. After completing this
+
+      chapter, you will be able to create vectors in R, name them, select
+
+      elements from them, and compare different vectors.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 3
+    title: Matrices
+    summary: 'In this chapter, you will learn how to work with matrices in R. By
+
+      the end of the chapter, you will be able to create matrices and
+
+      understand how to do basic computations with them. You will analyze
+
+      the box office numbers of the Star Wars movies and learn how to use
+
+      matrices in R. May the force be with you!'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 4
+    title: Factors
+    summary: 'Data often falls into a limited number of categories. For example,
+
+      human hair color can be categorized as black, brown, blond, red,
+
+      grey, or white—and perhaps a few more options for people who color
+
+      their hair. In R, categorical data is stored in factors. Factors are
+
+      very important in data analysis, so start learning how to create,
+
+      subset, and compare them now.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 5
+    title: Data frames
+    summary: 'Most datasets you will be working with will be stored as data
+
+      frames. By the end of this chapter, you will be able to create a
+
+      data frame, select interesting parts of a data frame, and order a
+
+      data frame according to certain variables.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 6
+    title: Lists
+    summary: 'As opposed to vectors, lists can hold components of different types,
+
+      just as your to-do lists can contain different categories of tasks.
+
+      This chapter will teach you how to create, name, and subset these
+
+      lists.'
+    source: syllabus
+    confidence: 1.0
+  metadata:
+    level: Beginner
+    duration_hours: 4 hours
+    subjects:
+    - Data Science
+    - Statistics & Probability
+    - Data Analysis
+    - R Programming
+    - Vectors
+    - Matrices
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: intro to basics
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: intro to basics'
+  evidence:
+  - source: syllabus
+    text: Intro to basics
+  confidence: 0.45
+- topic_id: t002
+  label: vectors
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: vectors'
+  evidence:
+  - source: syllabus
+    text: Vectors
+  confidence: 0.45
+- topic_id: t003
+  label: matrices
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: matrices'
+  evidence:
+  - source: syllabus
+    text: Matrices
+  confidence: 0.45
+- topic_id: t004
+  label: factors
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: factors'
+  evidence:
+  - source: syllabus
+    text: Factors
+  confidence: 0.45
+- topic_id: t005
+  label: data frames
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: data frames'
+  evidence:
+  - source: syllabus
+    text: Data frames
+  confidence: 0.45
+- topic_id: t006
+  label: lists
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: lists'
+  evidence:
+  - source: syllabus
+    text: Lists
+  confidence: 0.45
+- topic_id: t007
+  label: data types
+  topic_type: concept
+  description: 'Topic mined from course text: data types'
+  evidence:
+  - source: overview
+    text: data types
+  confidence: 0.75
+- topic_id: t008
+  label: categorical data
+  topic_type: concept
+  description: 'Topic mined from course text: categorical data'
+  evidence:
+  - source: overview
+    text: categorical data
+  confidence: 0.75
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: intro to basics
+  aliases:
+  - intro to basics
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: vectors
+  aliases:
+  - vectors
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: matrices
+  aliases:
+  - matrices
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: factors
+  aliases:
+  - factors
+  member_topic_ids:
+  - t004
+  topic_type: concept
+- canonical_topic_id: ct_005
+  label: data frames
+  aliases:
+  - data frames
+  member_topic_ids:
+  - t005
+  topic_type: concept
+- canonical_topic_id: ct_006
+  label: lists
+  aliases:
+  - lists
+  member_topic_ids:
+  - t006
+  topic_type: concept
+- canonical_topic_id: ct_007
+  label: data types
+  aliases:
+  - data types
+  member_topic_ids:
+  - t007
+  topic_type: concept
+- canonical_topic_id: ct_008
+  label: categorical data
+  aliases:
+  - categorical data
+  member_topic_ids:
+  - t008
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - intro to basics
+  family: entry
+  pattern: What is {x}?
+  question_text: What is intro to basics?
+- candidate_id: q0002
+  relevant_topics:
+  - intro to basics
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does intro to basics mean?
+- candidate_id: q0003
+  relevant_topics:
+  - intro to basics
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does intro to basics matter?
+- candidate_id: q0004
+  relevant_topics:
+  - intro to basics
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use intro to basics?
+- candidate_id: q0005
+  relevant_topics:
+  - intro to basics
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of intro to basics?
+- candidate_id: q0006
+  relevant_topics:
+  - vectors
+  family: entry
+  pattern: What is {x}?
+  question_text: What is vectors?
+- candidate_id: q0007
+  relevant_topics:
+  - vectors
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does vectors mean?
+- candidate_id: q0008
+  relevant_topics:
+  - vectors
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does vectors matter?
+- candidate_id: q0009
+  relevant_topics:
+  - vectors
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use vectors?
+- candidate_id: q0010
+  relevant_topics:
+  - vectors
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of vectors?
+- candidate_id: q0011
+  relevant_topics:
+  - matrices
+  family: entry
+  pattern: What is {x}?
+  question_text: What is matrices?
+- candidate_id: q0012
+  relevant_topics:
+  - matrices
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does matrices mean?
+- candidate_id: q0013
+  relevant_topics:
+  - matrices
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does matrices matter?
+- candidate_id: q0014
+  relevant_topics:
+  - matrices
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use matrices?
+- candidate_id: q0015
+  relevant_topics:
+  - matrices
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of matrices?
+- candidate_id: q0016
+  relevant_topics:
+  - factors
+  family: entry
+  pattern: What is {x}?
+  question_text: What is factors?
+- candidate_id: q0017
+  relevant_topics:
+  - factors
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does factors mean?
+- candidate_id: q0018
+  relevant_topics:
+  - factors
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does factors matter?
+- candidate_id: q0019
+  relevant_topics:
+  - factors
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use factors?
+- candidate_id: q0020
+  relevant_topics:
+  - factors
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of factors?
+- candidate_id: q0021
+  relevant_topics:
+  - data frames
+  family: entry
+  pattern: What is {x}?
+  question_text: What is data frames?
+- candidate_id: q0022
+  relevant_topics:
+  - data frames
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does data frames mean?
+- candidate_id: q0023
+  relevant_topics:
+  - data frames
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does data frames matter?
+- candidate_id: q0024
+  relevant_topics:
+  - data frames
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use data frames?
+- candidate_id: q0025
+  relevant_topics:
+  - data frames
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of data frames?
+- candidate_id: q0026
+  relevant_topics:
+  - lists
+  family: entry
+  pattern: What is {x}?
+  question_text: What is lists?
+- candidate_id: q0027
+  relevant_topics:
+  - lists
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does lists mean?
+- candidate_id: q0028
+  relevant_topics:
+  - lists
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does lists matter?
+- candidate_id: q0029
+  relevant_topics:
+  - lists
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use lists?
+- candidate_id: q0030
+  relevant_topics:
+  - lists
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of lists?
+- candidate_id: q0031
+  relevant_topics:
+  - data types
+  family: entry
+  pattern: What is {x}?
+  question_text: What is data types?
+- candidate_id: q0032
+  relevant_topics:
+  - data types
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does data types mean?
+- candidate_id: q0033
+  relevant_topics:
+  - data types
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does data types matter?
+- candidate_id: q0034
+  relevant_topics:
+  - data types
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use data types?
+- candidate_id: q0035
+  relevant_topics:
+  - data types
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of data types?
+- candidate_id: q0036
+  relevant_topics:
+  - categorical data
+  family: entry
+  pattern: What is {x}?
+  question_text: What is categorical data?
+- candidate_id: q0037
+  relevant_topics:
+  - categorical data
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does categorical data mean?
+- candidate_id: q0038
+  relevant_topics:
+  - categorical data
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does categorical data matter?
+- candidate_id: q0039
+  relevant_topics:
+  - categorical data
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use categorical data?
+- candidate_id: q0040
+  relevant_topics:
+  - categorical data
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of categorical data?
+- candidate_id: q0041
+  relevant_topics:
+  - intro to basics
+  - vectors
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is intro to basics different from vectors?
+- candidate_id: q0042
+  relevant_topics:
+  - intro to basics
+  - matrices
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is intro to basics different from matrices?
+- candidate_id: q0043
+  relevant_topics:
+  - intro to basics
+  - factors
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is intro to basics different from factors?
+- candidate_id: q0044
+  relevant_topics:
+  - intro to basics
+  - data frames
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is intro to basics different from data frames?
+- candidate_id: q0045
+  relevant_topics:
+  - intro to basics
+  - lists
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is intro to basics different from lists?
+- candidate_id: q0046
+  relevant_topics:
+  - intro to basics
+  - data types
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is intro to basics different from data types?
+- candidate_id: q0047
+  relevant_topics:
+  - intro to basics
+  - categorical data
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is intro to basics different from categorical data?
+- candidate_id: q0048
+  relevant_topics:
+  - vectors
+  - matrices
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is vectors different from matrices?
+- candidate_id: q0049
+  relevant_topics:
+  - vectors
+  - factors
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is vectors different from factors?
+- candidate_id: q0050
+  relevant_topics:
+  - vectors
+  - data frames
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is vectors different from data frames?
+- candidate_id: q0051
+  relevant_topics:
+  - vectors
+  - lists
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is vectors different from lists?
+- candidate_id: q0052
+  relevant_topics:
+  - vectors
+  - data types
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is vectors different from data types?
+- candidate_id: q0053
+  relevant_topics:
+  - vectors
+  - categorical data
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is vectors different from categorical data?
+- candidate_id: q0054
+  relevant_topics:
+  - matrices
+  - factors
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is matrices different from factors?
+- candidate_id: q0055
+  relevant_topics:
+  - matrices
+  - data frames
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is matrices different from data frames?
+- candidate_id: q0056
+  relevant_topics:
+  - matrices
+  - lists
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is matrices different from lists?
+- candidate_id: q0057
+  relevant_topics:
+  - matrices
+  - data types
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is matrices different from data types?
+- candidate_id: q0058
+  relevant_topics:
+  - matrices
+  - categorical data
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is matrices different from categorical data?
+- candidate_id: q0059
+  relevant_topics:
+  - factors
+  - data frames
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is factors different from data frames?
+- candidate_id: q0060
+  relevant_topics:
+  - factors
+  - lists
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is factors different from lists?
+- candidate_id: q0061
+  relevant_topics:
+  - factors
+  - data types
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is factors different from data types?
+- candidate_id: q0062
+  relevant_topics:
+  - factors
+  - categorical data
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is factors different from categorical data?
+- candidate_id: q0063
+  relevant_topics:
+  - data frames
+  - lists
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is data frames different from lists?
+- candidate_id: q0064
+  relevant_topics:
+  - data frames
+  - data types
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is data frames different from data types?
+- candidate_id: q0065
+  relevant_topics:
+  - data frames
+  - categorical data
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is data frames different from categorical data?
+- candidate_id: q0066
+  relevant_topics:
+  - lists
+  - data types
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is lists different from data types?
+- candidate_id: q0067
+  relevant_topics:
+  - lists
+  - categorical data
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is lists different from categorical data?
+- candidate_id: q0068
+  relevant_topics:
+  - data types
+  - categorical data
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is data types different from categorical data?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is intro to basics?
+  final_text: What is intro to basics?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does intro to basics mean?
+  final_text: What does intro to basics mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does intro to basics matter?
+  final_text: Why does intro to basics matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use intro to basics?
+  final_text: Why does intro to basics?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of intro to basics?
+  final_text: What is a simple example of intro to basics?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is vectors?
+  final_text: What is vectors?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does vectors mean?
+  final_text: What does vectors mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does vectors matter?
+  final_text: Why does vectors matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use vectors?
+  final_text: Why does vectors?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of vectors?
+  final_text: What is a simple example of vectors?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is matrices?
+  final_text: What is matrices?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does matrices mean?
+  final_text: What does matrices mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does matrices matter?
+  final_text: Why does matrices matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use matrices?
+  final_text: Why does matrices?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of matrices?
+  final_text: What is a simple example of matrices?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is factors?
+  final_text: What is factors?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does factors mean?
+  final_text: What does factors mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does factors matter?
+  final_text: Why does factors matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use factors?
+  final_text: Why does factors?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of factors?
+  final_text: What is a simple example of factors?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: What is data frames?
+  final_text: What is data frames?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: What does data frames mean?
+  final_text: What does data frames mean?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: Why does data frames matter?
+  final_text: Why does data frames matter?
+  reject_reason: null
+- candidate_id: q0024
+  status: repaired
+  original_text: Why do we use data frames?
+  final_text: Why does data frames?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: What is a simple example of data frames?
+  final_text: What is a simple example of data frames?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: What is lists?
+  final_text: What is lists?
+  reject_reason: null
+- candidate_id: q0027
+  status: accepted
+  original_text: What does lists mean?
+  final_text: What does lists mean?
+  reject_reason: null
+- candidate_id: q0028
+  status: accepted
+  original_text: Why does lists matter?
+  final_text: Why does lists matter?
+  reject_reason: null
+- candidate_id: q0029
+  status: repaired
+  original_text: Why do we use lists?
+  final_text: Why does lists?
+  reject_reason: null
+- candidate_id: q0030
+  status: accepted
+  original_text: What is a simple example of lists?
+  final_text: What is a simple example of lists?
+  reject_reason: null
+- candidate_id: q0031
+  status: accepted
+  original_text: What is data types?
+  final_text: What is data types?
+  reject_reason: null
+- candidate_id: q0032
+  status: accepted
+  original_text: What does data types mean?
+  final_text: What does data types mean?
+  reject_reason: null
+- candidate_id: q0033
+  status: accepted
+  original_text: Why does data types matter?
+  final_text: Why does data types matter?
+  reject_reason: null
+- candidate_id: q0034
+  status: repaired
+  original_text: Why do we use data types?
+  final_text: Why does data types?
+  reject_reason: null
+- candidate_id: q0035
+  status: accepted
+  original_text: What is a simple example of data types?
+  final_text: What is a simple example of data types?
+  reject_reason: null
+- candidate_id: q0036
+  status: accepted
+  original_text: What is categorical data?
+  final_text: What is categorical data?
+  reject_reason: null
+- candidate_id: q0037
+  status: accepted
+  original_text: What does categorical data mean?
+  final_text: What does categorical data mean?
+  reject_reason: null
+- candidate_id: q0038
+  status: accepted
+  original_text: Why does categorical data matter?
+  final_text: Why does categorical data matter?
+  reject_reason: null
+- candidate_id: q0039
+  status: repaired
+  original_text: Why do we use categorical data?
+  final_text: Why does categorical data?
+  reject_reason: null
+- candidate_id: q0040
+  status: accepted
+  original_text: What is a simple example of categorical data?
+  final_text: What is a simple example of categorical data?
+  reject_reason: null
+- candidate_id: q0041
+  status: accepted
+  original_text: How is intro to basics different from vectors?
+  final_text: How is intro to basics different from vectors?
+  reject_reason: null
+- candidate_id: q0042
+  status: accepted
+  original_text: How is intro to basics different from matrices?
+  final_text: How is intro to basics different from matrices?
+  reject_reason: null
+- candidate_id: q0043
+  status: accepted
+  original_text: How is intro to basics different from factors?
+  final_text: How is intro to basics different from factors?
+  reject_reason: null
+- candidate_id: q0044
+  status: accepted
+  original_text: How is intro to basics different from data frames?
+  final_text: How is intro to basics different from data frames?
+  reject_reason: null
+- candidate_id: q0045
+  status: accepted
+  original_text: How is intro to basics different from lists?
+  final_text: How is intro to basics different from lists?
+  reject_reason: null
+- candidate_id: q0046
+  status: accepted
+  original_text: How is intro to basics different from data types?
+  final_text: How is intro to basics different from data types?
+  reject_reason: null
+- candidate_id: q0047
+  status: accepted
+  original_text: How is intro to basics different from categorical data?
+  final_text: How is intro to basics different from categorical data?
+  reject_reason: null
+- candidate_id: q0048
+  status: accepted
+  original_text: How is vectors different from matrices?
+  final_text: How is vectors different from matrices?
+  reject_reason: null
+- candidate_id: q0049
+  status: accepted
+  original_text: How is vectors different from factors?
+  final_text: How is vectors different from factors?
+  reject_reason: null
+- candidate_id: q0050
+  status: accepted
+  original_text: How is vectors different from data frames?
+  final_text: How is vectors different from data frames?
+  reject_reason: null
+- candidate_id: q0051
+  status: accepted
+  original_text: How is vectors different from lists?
+  final_text: How is vectors different from lists?
+  reject_reason: null
+- candidate_id: q0052
+  status: accepted
+  original_text: How is vectors different from data types?
+  final_text: How is vectors different from data types?
+  reject_reason: null
+- candidate_id: q0053
+  status: accepted
+  original_text: How is vectors different from categorical data?
+  final_text: How is vectors different from categorical data?
+  reject_reason: null
+- candidate_id: q0054
+  status: accepted
+  original_text: How is matrices different from factors?
+  final_text: How is matrices different from factors?
+  reject_reason: null
+- candidate_id: q0055
+  status: accepted
+  original_text: How is matrices different from data frames?
+  final_text: How is matrices different from data frames?
+  reject_reason: null
+- candidate_id: q0056
+  status: accepted
+  original_text: How is matrices different from lists?
+  final_text: How is matrices different from lists?
+  reject_reason: null
+- candidate_id: q0057
+  status: accepted
+  original_text: How is matrices different from data types?
+  final_text: How is matrices different from data types?
+  reject_reason: null
+- candidate_id: q0058
+  status: accepted
+  original_text: How is matrices different from categorical data?
+  final_text: How is matrices different from categorical data?
+  reject_reason: null
+- candidate_id: q0059
+  status: accepted
+  original_text: How is factors different from data frames?
+  final_text: How is factors different from data frames?
+  reject_reason: null
+- candidate_id: q0060
+  status: accepted
+  original_text: How is factors different from lists?
+  final_text: How is factors different from lists?
+  reject_reason: null
+- candidate_id: q0061
+  status: accepted
+  original_text: How is factors different from data types?
+  final_text: How is factors different from data types?
+  reject_reason: null
+- candidate_id: q0062
+  status: accepted
+  original_text: How is factors different from categorical data?
+  final_text: How is factors different from categorical data?
+  reject_reason: null
+- candidate_id: q0063
+  status: accepted
+  original_text: How is data frames different from lists?
+  final_text: How is data frames different from lists?
+  reject_reason: null
+- candidate_id: q0064
+  status: accepted
+  original_text: How is data frames different from data types?
+  final_text: How is data frames different from data types?
+  reject_reason: null
+- candidate_id: q0065
+  status: accepted
+  original_text: How is data frames different from categorical data?
+  final_text: How is data frames different from categorical data?
+  reject_reason: null
+- candidate_id: q0066
+  status: accepted
+  original_text: How is lists different from data types?
+  final_text: How is lists different from data types?
+  reject_reason: null
+- candidate_id: q0067
+  status: accepted
+  original_text: How is lists different from categorical data?
+  final_text: How is lists different from categorical data?
+  reject_reason: null
+- candidate_id: q0068
+  status: accepted
+  original_text: How is data types different from categorical data?
+  final_text: How is data types different from categorical data?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is intro to basics?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does intro to basics mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does intro to basics matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does intro to basics?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of intro to basics?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is vectors?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does vectors mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does vectors matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does vectors?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of vectors?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is matrices?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does matrices mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does matrices matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does matrices?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of matrices?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is factors?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does factors mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does factors matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does factors?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of factors?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: What is data frames?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: What does data frames mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: Why does data frames matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: Why does data frames?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: What is a simple example of data frames?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: What is lists?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0027
+  question_text: What does lists mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0028
+  question_text: Why does lists matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0029
+  question_text: Why does lists?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0030
+  question_text: What is a simple example of lists?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0031
+  question_text: What is data types?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0032
+  question_text: What does data types mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0033
+  question_text: Why does data types matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0034
+  question_text: Why does data types?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0035
+  question_text: What is a simple example of data types?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0036
+  question_text: What is categorical data?
+  answer_text: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  confidence: 0.82
+  evidence:
+  - source: overview
+    text: category labels
+- question_id: q0037
+  question_text: What does categorical data mean?
+  answer_text: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  confidence: 0.82
+  evidence:
+  - source: overview
+    text: category labels
+- question_id: q0038
+  question_text: Why does categorical data matter?
+  answer_text: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  confidence: 0.82
+  evidence:
+  - source: overview
+    text: category labels
+- question_id: q0039
+  question_text: Why does categorical data?
+  answer_text: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  confidence: 0.82
+  evidence:
+  - source: overview
+    text: category labels
+- question_id: q0040
+  question_text: What is a simple example of categorical data?
+  answer_text: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  confidence: 0.82
+  evidence:
+  - source: overview
+    text: category labels
+- question_id: q0041
+  question_text: How is intro to basics different from vectors?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0042
+  question_text: How is intro to basics different from matrices?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0043
+  question_text: How is intro to basics different from factors?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0044
+  question_text: How is intro to basics different from data frames?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0045
+  question_text: How is intro to basics different from lists?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0046
+  question_text: How is intro to basics different from data types?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0047
+  question_text: How is intro to basics different from categorical data?
+  answer_text: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  confidence: 0.82
+  evidence:
+  - source: overview
+    text: category labels
+- question_id: q0048
+  question_text: How is vectors different from matrices?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0049
+  question_text: How is vectors different from factors?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0050
+  question_text: How is vectors different from data frames?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0051
+  question_text: How is vectors different from lists?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0052
+  question_text: How is vectors different from data types?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0053
+  question_text: How is vectors different from categorical data?
+  answer_text: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  confidence: 0.82
+  evidence:
+  - source: overview
+    text: category labels
+- question_id: q0054
+  question_text: How is matrices different from factors?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0055
+  question_text: How is matrices different from data frames?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0056
+  question_text: How is matrices different from lists?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0057
+  question_text: How is matrices different from data types?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0058
+  question_text: How is matrices different from categorical data?
+  answer_text: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  confidence: 0.82
+  evidence:
+  - source: overview
+    text: category labels
+- question_id: q0059
+  question_text: How is factors different from data frames?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0060
+  question_text: How is factors different from lists?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0061
+  question_text: How is factors different from data types?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0062
+  question_text: How is factors different from categorical data?
+  answer_text: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  confidence: 0.82
+  evidence:
+  - source: overview
+    text: category labels
+- question_id: q0063
+  question_text: How is data frames different from lists?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0064
+  question_text: How is data frames different from data types?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0065
+  question_text: How is data frames different from categorical data?
+  answer_text: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  confidence: 0.82
+  evidence:
+  - source: overview
+    text: category labels
+- question_id: q0066
+  question_text: How is lists different from data types?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0067
+  question_text: How is lists different from categorical data?
+  answer_text: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  confidence: 0.82
+  evidence:
+  - source: overview
+    text: category labels
+- question_id: q0068
+  question_text: How is data types different from categorical data?
+  answer_text: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  confidence: 0.82
+  evidence:
+  - source: overview
+    text: category labels
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - intro to basics
+  question_text: What is intro to basics?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - intro to basics
+  question_text: What does intro to basics mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - intro to basics
+  question_text: Why does intro to basics matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - intro to basics
+  question_text: Why does intro to basics?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - intro to basics
+  question_text: What is a simple example of intro to basics?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - vectors
+  question_text: What is vectors?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - vectors
+  question_text: What does vectors mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - vectors
+  question_text: Why does vectors matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - vectors
+  question_text: Why does vectors?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - vectors
+  question_text: What is a simple example of vectors?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - matrices
+  question_text: What is matrices?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - matrices
+  question_text: What does matrices mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - matrices
+  question_text: Why does matrices matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - matrices
+  question_text: Why does matrices?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - matrices
+  question_text: What is a simple example of matrices?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - factors
+  question_text: What is factors?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - factors
+  question_text: What does factors mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - factors
+  question_text: Why does factors matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - factors
+  question_text: Why does factors?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - factors
+  question_text: What is a simple example of factors?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - data frames
+  question_text: What is data frames?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - data frames
+  question_text: What does data frames mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - data frames
+  question_text: Why does data frames matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - data frames
+  question_text: Why does data frames?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - data frames
+  question_text: What is a simple example of data frames?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - lists
+  question_text: What is lists?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000027
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - lists
+  question_text: What does lists mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000028
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - lists
+  question_text: Why does lists matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000029
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - lists
+  question_text: Why does lists?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000030
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - lists
+  question_text: What is a simple example of lists?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000031
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - data types
+  question_text: What is data types?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000032
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - data types
+  question_text: What does data types mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000033
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - data types
+  question_text: Why does data types matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000034
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - data types
+  question_text: Why does data types?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000035
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - data types
+  question_text: What is a simple example of data types?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000036
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - categorical data
+  question_text: What is categorical data?
+  question_answer: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: category labels
+- row_id: r_000037
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - categorical data
+  question_text: What does categorical data mean?
+  question_answer: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: category labels
+- row_id: r_000038
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - categorical data
+  question_text: Why does categorical data matter?
+  question_answer: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: category labels
+- row_id: r_000039
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - categorical data
+  question_text: Why does categorical data?
+  question_answer: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: category labels
+- row_id: r_000040
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - categorical data
+  question_text: What is a simple example of categorical data?
+  question_answer: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: category labels
+- row_id: r_000041
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - intro to basics
+  - vectors
+  question_text: How is intro to basics different from vectors?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000042
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - intro to basics
+  - matrices
+  question_text: How is intro to basics different from matrices?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000043
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - intro to basics
+  - factors
+  question_text: How is intro to basics different from factors?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000044
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - intro to basics
+  - data frames
+  question_text: How is intro to basics different from data frames?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000045
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - intro to basics
+  - lists
+  question_text: How is intro to basics different from lists?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000046
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - intro to basics
+  - data types
+  question_text: How is intro to basics different from data types?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000047
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - intro to basics
+  - categorical data
+  question_text: How is intro to basics different from categorical data?
+  question_answer: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: category labels
+- row_id: r_000048
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - vectors
+  - matrices
+  question_text: How is vectors different from matrices?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000049
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - vectors
+  - factors
+  question_text: How is vectors different from factors?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000050
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - vectors
+  - data frames
+  question_text: How is vectors different from data frames?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000051
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - vectors
+  - lists
+  question_text: How is vectors different from lists?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000052
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - vectors
+  - data types
+  question_text: How is vectors different from data types?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000053
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - vectors
+  - categorical data
+  question_text: How is vectors different from categorical data?
+  question_answer: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: category labels
+- row_id: r_000054
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - matrices
+  - factors
+  question_text: How is matrices different from factors?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000055
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - matrices
+  - data frames
+  question_text: How is matrices different from data frames?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000056
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - matrices
+  - lists
+  question_text: How is matrices different from lists?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000057
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - matrices
+  - data types
+  question_text: How is matrices different from data types?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000058
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - matrices
+  - categorical data
+  question_text: How is matrices different from categorical data?
+  question_answer: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: category labels
+- row_id: r_000059
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - factors
+  - data frames
+  question_text: How is factors different from data frames?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000060
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - factors
+  - lists
+  question_text: How is factors different from lists?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000061
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - factors
+  - data types
+  question_text: How is factors different from data types?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000062
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - factors
+  - categorical data
+  question_text: How is factors different from categorical data?
+  question_answer: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: category labels
+- row_id: r_000063
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - data frames
+  - lists
+  question_text: How is data frames different from lists?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000064
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - data frames
+  - data types
+  question_text: How is data frames different from data types?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000065
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - data frames
+  - categorical data
+  question_text: How is data frames different from categorical data?
+  question_answer: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: category labels
+- row_id: r_000066
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - lists
+  - data types
+  question_text: How is lists different from data types?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000067
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - lists
+  - categorical data
+  question_text: How is lists different from categorical data?
+  question_answer: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: category labels
+- row_id: r_000068
+  course:
+    course_id: '7630'
+    title: Introduction to R
+  relevant_topics:
+  - data types
+  - categorical data
+  question_text: How is data types different from categorical data?
+  question_answer: Categorical data is data represented by labels or categories rather
+    than free-form values.
+  correctness: correct
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: category labels
+summary:
+  topic_count: 8
+  canonical_topic_count: 8
+  candidate_count: 68
+  accepted_count: 68
+  rejected_count: 0
+  correct_count: 12
+  uncertain_count: 56

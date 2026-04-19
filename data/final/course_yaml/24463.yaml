@@ -1,0 +1,2136 @@
+course_id: '24463'
+title: Introduction to Databases in Python
+normalized_course:
+  course_id: '24463'
+  title: Introduction to Databases in Python
+  provider: DataCamp
+  summary: 'In this course, you''ll learn the basics of relational databases and how
+    to
+
+    interact with them.'
+  overview: 'Basics of Relational Databases
+
+
+    In this chapter, you’ll get acquainted with the fundamentals of relational
+
+    databases and the relational model for database management. You will learn
+
+    how to connect to a database and interact with it by writing basic SQL
+
+    queries, both in raw SQL as well as SQLAlchemy, which provides a Pythonic
+
+    way of interacting with databases.
+
+
+    Applying Filtering, Ordering and Grouping to Queries
+
+
+    In this chapter, you will build on your database knowledge by writing more
+
+    nuanced queries that allow you to filter, order, and count your data—all
+
+    within the Pythonic framework provided by SQLAlchemy.
+
+
+    Advanced SQLAlchemy Queries
+
+
+    In this chapter, you will learn to perform advanced—and incredibly
+
+    useful—queries that enable you to interact with your data in powerful ways.
+
+
+    Creating and Manipulating your own Databases
+
+
+    In the previous chapters, you interacted with existing databases and queried
+
+    them in different ways. Now, you will learn how to build your own databases
+
+    and keep them updated.
+
+
+    Putting it all together
+
+
+    Bring together all of the skills you acquired in the previous chapters to
+
+    work on a real-life project. From connecting to a database and populating
+
+    it, to reading and querying it.'
+  chapters:
+  - chapter_index: 1
+    title: Basics of Relational Databases
+    summary: 'In this chapter, you’ll get acquainted with the fundamentals of
+
+      relational databases and the relational model for database
+
+      management. You will learn how to connect to a database and interact
+
+      with it by writing basic SQL queries, both in raw SQL as well as
+
+      SQLAlchemy, which provides a Pythonic way of interacting with
+
+      databases.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 2
+    title: Applying Filtering, Ordering and Grouping to Queries
+    summary: 'In this chapter, you will build on your database knowledge by
+
+      writing more nuanced queries that allow you to filter, order, and
+
+      count your data—all within the Pythonic framework provided by
+
+      SQLAlchemy.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 3
+    title: Advanced SQLAlchemy Queries
+    summary: 'In this chapter, you will learn to perform advanced—and incredibly
+
+      useful—queries that enable you to interact with your data in
+
+      powerful ways.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 4
+    title: Creating and Manipulating your own Databases
+    summary: 'In the previous chapters, you interacted with existing databases and
+
+      queried them in different ways. Now, you will learn how to build
+
+      your own databases and keep them updated.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 5
+    title: Putting it all together
+    summary: 'Bring together all of the skills you acquired in the previous
+
+      chapters to work on a real-life project. From connecting to a
+
+      database and populating it, to reading and querying it.'
+    source: syllabus
+    confidence: 1.0
+  metadata:
+    level: Beginner
+    duration_hours: 4 hours
+    subjects:
+    - Python
+    - SQL
+    - Relational Databases
+    - Data Filtering
+    - Database Management
+    - SQLAlchemy
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: basics of relational databases
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: basics of relational databases'
+  evidence:
+  - source: syllabus
+    text: Basics of Relational Databases
+  confidence: 0.45
+- topic_id: t002
+  label: applying filtering, ordering
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: applying filtering, ordering'
+  evidence:
+  - source: syllabus
+    text: Applying Filtering, Ordering and Grouping to Queries
+  confidence: 0.55
+- topic_id: t003
+  label: grouping to queries
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: grouping to queries'
+  evidence:
+  - source: syllabus
+    text: Applying Filtering, Ordering and Grouping to Queries
+  confidence: 0.55
+- topic_id: t004
+  label: advanced sqlalchemy queries
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: advanced sqlalchemy queries'
+  evidence:
+  - source: syllabus
+    text: Advanced SQLAlchemy Queries
+  confidence: 0.45
+- topic_id: t005
+  label: creating
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: creating'
+  evidence:
+  - source: syllabus
+    text: Creating and Manipulating your own Databases
+  confidence: 0.55
+- topic_id: t006
+  label: manipulating your own databases
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: manipulating your own databases'
+  evidence:
+  - source: syllabus
+    text: Creating and Manipulating your own Databases
+  confidence: 0.55
+- topic_id: t007
+  label: putting it all together
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: putting it all together'
+  evidence:
+  - source: syllabus
+    text: Putting it all together
+  confidence: 0.45
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: basics of relational databases
+  aliases:
+  - basics of relational databases
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: applying filtering, ordering
+  aliases:
+  - applying filtering, ordering
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: grouping to queries
+  aliases:
+  - grouping to queries
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: advanced sqlalchemy queries
+  aliases:
+  - advanced sqlalchemy queries
+  member_topic_ids:
+  - t004
+  topic_type: concept
+- canonical_topic_id: ct_005
+  label: creating
+  aliases:
+  - creating
+  member_topic_ids:
+  - t005
+  topic_type: concept
+- canonical_topic_id: ct_006
+  label: manipulating your own databases
+  aliases:
+  - manipulating your own databases
+  member_topic_ids:
+  - t006
+  topic_type: concept
+- canonical_topic_id: ct_007
+  label: putting it all together
+  aliases:
+  - putting it all together
+  member_topic_ids:
+  - t007
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - basics of relational databases
+  family: entry
+  pattern: What is {x}?
+  question_text: What is basics of relational databases?
+- candidate_id: q0002
+  relevant_topics:
+  - basics of relational databases
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does basics of relational databases mean?
+- candidate_id: q0003
+  relevant_topics:
+  - basics of relational databases
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does basics of relational databases matter?
+- candidate_id: q0004
+  relevant_topics:
+  - basics of relational databases
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use basics of relational databases?
+- candidate_id: q0005
+  relevant_topics:
+  - basics of relational databases
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of basics of relational databases?
+- candidate_id: q0006
+  relevant_topics:
+  - applying filtering, ordering
+  family: entry
+  pattern: What is {x}?
+  question_text: What is applying filtering, ordering?
+- candidate_id: q0007
+  relevant_topics:
+  - applying filtering, ordering
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does applying filtering, ordering mean?
+- candidate_id: q0008
+  relevant_topics:
+  - applying filtering, ordering
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does applying filtering, ordering matter?
+- candidate_id: q0009
+  relevant_topics:
+  - applying filtering, ordering
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use applying filtering, ordering?
+- candidate_id: q0010
+  relevant_topics:
+  - applying filtering, ordering
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of applying filtering, ordering?
+- candidate_id: q0011
+  relevant_topics:
+  - grouping to queries
+  family: entry
+  pattern: What is {x}?
+  question_text: What is grouping to queries?
+- candidate_id: q0012
+  relevant_topics:
+  - grouping to queries
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does grouping to queries mean?
+- candidate_id: q0013
+  relevant_topics:
+  - grouping to queries
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does grouping to queries matter?
+- candidate_id: q0014
+  relevant_topics:
+  - grouping to queries
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use grouping to queries?
+- candidate_id: q0015
+  relevant_topics:
+  - grouping to queries
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of grouping to queries?
+- candidate_id: q0016
+  relevant_topics:
+  - advanced sqlalchemy queries
+  family: entry
+  pattern: What is {x}?
+  question_text: What is advanced sqlalchemy queries?
+- candidate_id: q0017
+  relevant_topics:
+  - advanced sqlalchemy queries
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does advanced sqlalchemy queries mean?
+- candidate_id: q0018
+  relevant_topics:
+  - advanced sqlalchemy queries
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does advanced sqlalchemy queries matter?
+- candidate_id: q0019
+  relevant_topics:
+  - advanced sqlalchemy queries
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use advanced sqlalchemy queries?
+- candidate_id: q0020
+  relevant_topics:
+  - advanced sqlalchemy queries
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of advanced sqlalchemy queries?
+- candidate_id: q0021
+  relevant_topics:
+  - creating
+  family: entry
+  pattern: What is {x}?
+  question_text: What is creating?
+- candidate_id: q0022
+  relevant_topics:
+  - creating
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does creating mean?
+- candidate_id: q0023
+  relevant_topics:
+  - creating
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does creating matter?
+- candidate_id: q0024
+  relevant_topics:
+  - creating
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use creating?
+- candidate_id: q0025
+  relevant_topics:
+  - creating
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of creating?
+- candidate_id: q0026
+  relevant_topics:
+  - manipulating your own databases
+  family: entry
+  pattern: What is {x}?
+  question_text: What is manipulating your own databases?
+- candidate_id: q0027
+  relevant_topics:
+  - manipulating your own databases
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does manipulating your own databases mean?
+- candidate_id: q0028
+  relevant_topics:
+  - manipulating your own databases
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does manipulating your own databases matter?
+- candidate_id: q0029
+  relevant_topics:
+  - manipulating your own databases
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use manipulating your own databases?
+- candidate_id: q0030
+  relevant_topics:
+  - manipulating your own databases
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of manipulating your own databases?
+- candidate_id: q0031
+  relevant_topics:
+  - putting it all together
+  family: entry
+  pattern: What is {x}?
+  question_text: What is putting it all together?
+- candidate_id: q0032
+  relevant_topics:
+  - putting it all together
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does putting it all together mean?
+- candidate_id: q0033
+  relevant_topics:
+  - putting it all together
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does putting it all together matter?
+- candidate_id: q0034
+  relevant_topics:
+  - putting it all together
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use putting it all together?
+- candidate_id: q0035
+  relevant_topics:
+  - putting it all together
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of putting it all together?
+- candidate_id: q0036
+  relevant_topics:
+  - basics of relational databases
+  - applying filtering, ordering
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is basics of relational databases different from applying filtering,
+    ordering?
+- candidate_id: q0037
+  relevant_topics:
+  - basics of relational databases
+  - grouping to queries
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is basics of relational databases different from grouping to
+    queries?
+- candidate_id: q0038
+  relevant_topics:
+  - basics of relational databases
+  - advanced sqlalchemy queries
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is basics of relational databases different from advanced sqlalchemy
+    queries?
+- candidate_id: q0039
+  relevant_topics:
+  - basics of relational databases
+  - creating
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is basics of relational databases different from creating?
+- candidate_id: q0040
+  relevant_topics:
+  - basics of relational databases
+  - manipulating your own databases
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is basics of relational databases different from manipulating
+    your own databases?
+- candidate_id: q0041
+  relevant_topics:
+  - basics of relational databases
+  - putting it all together
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is basics of relational databases different from putting it all
+    together?
+- candidate_id: q0042
+  relevant_topics:
+  - applying filtering, ordering
+  - grouping to queries
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is applying filtering, ordering different from grouping to queries?
+- candidate_id: q0043
+  relevant_topics:
+  - applying filtering, ordering
+  - advanced sqlalchemy queries
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is applying filtering, ordering different from advanced sqlalchemy
+    queries?
+- candidate_id: q0044
+  relevant_topics:
+  - applying filtering, ordering
+  - creating
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is applying filtering, ordering different from creating?
+- candidate_id: q0045
+  relevant_topics:
+  - applying filtering, ordering
+  - manipulating your own databases
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is applying filtering, ordering different from manipulating your
+    own databases?
+- candidate_id: q0046
+  relevant_topics:
+  - applying filtering, ordering
+  - putting it all together
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is applying filtering, ordering different from putting it all
+    together?
+- candidate_id: q0047
+  relevant_topics:
+  - grouping to queries
+  - advanced sqlalchemy queries
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is grouping to queries different from advanced sqlalchemy queries?
+- candidate_id: q0048
+  relevant_topics:
+  - grouping to queries
+  - creating
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is grouping to queries different from creating?
+- candidate_id: q0049
+  relevant_topics:
+  - grouping to queries
+  - manipulating your own databases
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is grouping to queries different from manipulating your own databases?
+- candidate_id: q0050
+  relevant_topics:
+  - grouping to queries
+  - putting it all together
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is grouping to queries different from putting it all together?
+- candidate_id: q0051
+  relevant_topics:
+  - advanced sqlalchemy queries
+  - creating
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is advanced sqlalchemy queries different from creating?
+- candidate_id: q0052
+  relevant_topics:
+  - advanced sqlalchemy queries
+  - manipulating your own databases
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is advanced sqlalchemy queries different from manipulating your
+    own databases?
+- candidate_id: q0053
+  relevant_topics:
+  - advanced sqlalchemy queries
+  - putting it all together
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is advanced sqlalchemy queries different from putting it all
+    together?
+- candidate_id: q0054
+  relevant_topics:
+  - creating
+  - manipulating your own databases
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is creating different from manipulating your own databases?
+- candidate_id: q0055
+  relevant_topics:
+  - creating
+  - putting it all together
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is creating different from putting it all together?
+- candidate_id: q0056
+  relevant_topics:
+  - manipulating your own databases
+  - putting it all together
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is manipulating your own databases different from putting it
+    all together?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is basics of relational databases?
+  final_text: What is basics of relational databases?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does basics of relational databases mean?
+  final_text: What does basics of relational databases mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does basics of relational databases matter?
+  final_text: Why does basics of relational databases matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use basics of relational databases?
+  final_text: Why does basics of relational databases?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of basics of relational databases?
+  final_text: What is a simple example of basics of relational databases?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is applying filtering, ordering?
+  final_text: What is applying filtering, ordering?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does applying filtering, ordering mean?
+  final_text: What does applying filtering, ordering mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does applying filtering, ordering matter?
+  final_text: Why does applying filtering, ordering matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use applying filtering, ordering?
+  final_text: Why does applying filtering, ordering?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of applying filtering, ordering?
+  final_text: What is a simple example of applying filtering, ordering?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is grouping to queries?
+  final_text: What is grouping to queries?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does grouping to queries mean?
+  final_text: What does grouping to queries mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does grouping to queries matter?
+  final_text: Why does grouping to queries matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use grouping to queries?
+  final_text: Why does grouping to queries?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of grouping to queries?
+  final_text: What is a simple example of grouping to queries?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is advanced sqlalchemy queries?
+  final_text: What is advanced sqlalchemy queries?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does advanced sqlalchemy queries mean?
+  final_text: What does advanced sqlalchemy queries mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does advanced sqlalchemy queries matter?
+  final_text: Why does advanced sqlalchemy queries matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use advanced sqlalchemy queries?
+  final_text: Why does advanced sqlalchemy queries?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of advanced sqlalchemy queries?
+  final_text: What is a simple example of advanced sqlalchemy queries?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: What is creating?
+  final_text: What is creating?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: What does creating mean?
+  final_text: What does creating mean?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: Why does creating matter?
+  final_text: Why does creating matter?
+  reject_reason: null
+- candidate_id: q0024
+  status: repaired
+  original_text: Why do we use creating?
+  final_text: Why does creating?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: What is a simple example of creating?
+  final_text: What is a simple example of creating?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: What is manipulating your own databases?
+  final_text: What is manipulating your own databases?
+  reject_reason: null
+- candidate_id: q0027
+  status: accepted
+  original_text: What does manipulating your own databases mean?
+  final_text: What does manipulating your own databases mean?
+  reject_reason: null
+- candidate_id: q0028
+  status: accepted
+  original_text: Why does manipulating your own databases matter?
+  final_text: Why does manipulating your own databases matter?
+  reject_reason: null
+- candidate_id: q0029
+  status: repaired
+  original_text: Why do we use manipulating your own databases?
+  final_text: Why does manipulating your own databases?
+  reject_reason: null
+- candidate_id: q0030
+  status: accepted
+  original_text: What is a simple example of manipulating your own databases?
+  final_text: What is a simple example of manipulating your own databases?
+  reject_reason: null
+- candidate_id: q0031
+  status: accepted
+  original_text: What is putting it all together?
+  final_text: What is putting it all together?
+  reject_reason: null
+- candidate_id: q0032
+  status: accepted
+  original_text: What does putting it all together mean?
+  final_text: What does putting it all together mean?
+  reject_reason: null
+- candidate_id: q0033
+  status: accepted
+  original_text: Why does putting it all together matter?
+  final_text: Why does putting it all together matter?
+  reject_reason: null
+- candidate_id: q0034
+  status: repaired
+  original_text: Why do we use putting it all together?
+  final_text: Why does putting it all together?
+  reject_reason: null
+- candidate_id: q0035
+  status: accepted
+  original_text: What is a simple example of putting it all together?
+  final_text: What is a simple example of putting it all together?
+  reject_reason: null
+- candidate_id: q0036
+  status: accepted
+  original_text: How is basics of relational databases different from applying filtering,
+    ordering?
+  final_text: How is basics of relational databases different from applying filtering,
+    ordering?
+  reject_reason: null
+- candidate_id: q0037
+  status: accepted
+  original_text: How is basics of relational databases different from grouping to
+    queries?
+  final_text: How is basics of relational databases different from grouping to queries?
+  reject_reason: null
+- candidate_id: q0038
+  status: accepted
+  original_text: How is basics of relational databases different from advanced sqlalchemy
+    queries?
+  final_text: How is basics of relational databases different from advanced sqlalchemy
+    queries?
+  reject_reason: null
+- candidate_id: q0039
+  status: accepted
+  original_text: How is basics of relational databases different from creating?
+  final_text: How is basics of relational databases different from creating?
+  reject_reason: null
+- candidate_id: q0040
+  status: accepted
+  original_text: How is basics of relational databases different from manipulating
+    your own databases?
+  final_text: How is basics of relational databases different from manipulating your
+    own databases?
+  reject_reason: null
+- candidate_id: q0041
+  status: accepted
+  original_text: How is basics of relational databases different from putting it all
+    together?
+  final_text: How is basics of relational databases different from putting it all
+    together?
+  reject_reason: null
+- candidate_id: q0042
+  status: accepted
+  original_text: How is applying filtering, ordering different from grouping to queries?
+  final_text: How is applying filtering, ordering different from grouping to queries?
+  reject_reason: null
+- candidate_id: q0043
+  status: accepted
+  original_text: How is applying filtering, ordering different from advanced sqlalchemy
+    queries?
+  final_text: How is applying filtering, ordering different from advanced sqlalchemy
+    queries?
+  reject_reason: null
+- candidate_id: q0044
+  status: accepted
+  original_text: How is applying filtering, ordering different from creating?
+  final_text: How is applying filtering, ordering different from creating?
+  reject_reason: null
+- candidate_id: q0045
+  status: accepted
+  original_text: How is applying filtering, ordering different from manipulating your
+    own databases?
+  final_text: How is applying filtering, ordering different from manipulating your
+    own databases?
+  reject_reason: null
+- candidate_id: q0046
+  status: accepted
+  original_text: How is applying filtering, ordering different from putting it all
+    together?
+  final_text: How is applying filtering, ordering different from putting it all together?
+  reject_reason: null
+- candidate_id: q0047
+  status: accepted
+  original_text: How is grouping to queries different from advanced sqlalchemy queries?
+  final_text: How is grouping to queries different from advanced sqlalchemy queries?
+  reject_reason: null
+- candidate_id: q0048
+  status: accepted
+  original_text: How is grouping to queries different from creating?
+  final_text: How is grouping to queries different from creating?
+  reject_reason: null
+- candidate_id: q0049
+  status: accepted
+  original_text: How is grouping to queries different from manipulating your own databases?
+  final_text: How is grouping to queries different from manipulating your own databases?
+  reject_reason: null
+- candidate_id: q0050
+  status: accepted
+  original_text: How is grouping to queries different from putting it all together?
+  final_text: How is grouping to queries different from putting it all together?
+  reject_reason: null
+- candidate_id: q0051
+  status: accepted
+  original_text: How is advanced sqlalchemy queries different from creating?
+  final_text: How is advanced sqlalchemy queries different from creating?
+  reject_reason: null
+- candidate_id: q0052
+  status: accepted
+  original_text: How is advanced sqlalchemy queries different from manipulating your
+    own databases?
+  final_text: How is advanced sqlalchemy queries different from manipulating your
+    own databases?
+  reject_reason: null
+- candidate_id: q0053
+  status: accepted
+  original_text: How is advanced sqlalchemy queries different from putting it all
+    together?
+  final_text: How is advanced sqlalchemy queries different from putting it all together?
+  reject_reason: null
+- candidate_id: q0054
+  status: accepted
+  original_text: How is creating different from manipulating your own databases?
+  final_text: How is creating different from manipulating your own databases?
+  reject_reason: null
+- candidate_id: q0055
+  status: accepted
+  original_text: How is creating different from putting it all together?
+  final_text: How is creating different from putting it all together?
+  reject_reason: null
+- candidate_id: q0056
+  status: accepted
+  original_text: How is manipulating your own databases different from putting it
+    all together?
+  final_text: How is manipulating your own databases different from putting it all
+    together?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is basics of relational databases?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does basics of relational databases mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does basics of relational databases matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does basics of relational databases?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of basics of relational databases?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is applying filtering, ordering?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does applying filtering, ordering mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does applying filtering, ordering matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does applying filtering, ordering?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of applying filtering, ordering?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is grouping to queries?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does grouping to queries mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does grouping to queries matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does grouping to queries?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of grouping to queries?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is advanced sqlalchemy queries?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does advanced sqlalchemy queries mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does advanced sqlalchemy queries matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does advanced sqlalchemy queries?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of advanced sqlalchemy queries?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: What is creating?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: What does creating mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: Why does creating matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: Why does creating?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: What is a simple example of creating?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: What is manipulating your own databases?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0027
+  question_text: What does manipulating your own databases mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0028
+  question_text: Why does manipulating your own databases matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0029
+  question_text: Why does manipulating your own databases?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0030
+  question_text: What is a simple example of manipulating your own databases?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0031
+  question_text: What is putting it all together?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0032
+  question_text: What does putting it all together mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0033
+  question_text: Why does putting it all together matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0034
+  question_text: Why does putting it all together?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0035
+  question_text: What is a simple example of putting it all together?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0036
+  question_text: How is basics of relational databases different from applying filtering,
+    ordering?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0037
+  question_text: How is basics of relational databases different from grouping to
+    queries?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0038
+  question_text: How is basics of relational databases different from advanced sqlalchemy
+    queries?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0039
+  question_text: How is basics of relational databases different from creating?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0040
+  question_text: How is basics of relational databases different from manipulating
+    your own databases?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0041
+  question_text: How is basics of relational databases different from putting it all
+    together?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0042
+  question_text: How is applying filtering, ordering different from grouping to queries?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0043
+  question_text: How is applying filtering, ordering different from advanced sqlalchemy
+    queries?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0044
+  question_text: How is applying filtering, ordering different from creating?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0045
+  question_text: How is applying filtering, ordering different from manipulating your
+    own databases?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0046
+  question_text: How is applying filtering, ordering different from putting it all
+    together?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0047
+  question_text: How is grouping to queries different from advanced sqlalchemy queries?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0048
+  question_text: How is grouping to queries different from creating?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0049
+  question_text: How is grouping to queries different from manipulating your own databases?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0050
+  question_text: How is grouping to queries different from putting it all together?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0051
+  question_text: How is advanced sqlalchemy queries different from creating?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0052
+  question_text: How is advanced sqlalchemy queries different from manipulating your
+    own databases?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0053
+  question_text: How is advanced sqlalchemy queries different from putting it all
+    together?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0054
+  question_text: How is creating different from manipulating your own databases?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0055
+  question_text: How is creating different from putting it all together?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0056
+  question_text: How is manipulating your own databases different from putting it
+    all together?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - basics of relational databases
+  question_text: What is basics of relational databases?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - basics of relational databases
+  question_text: What does basics of relational databases mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - basics of relational databases
+  question_text: Why does basics of relational databases matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - basics of relational databases
+  question_text: Why does basics of relational databases?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - basics of relational databases
+  question_text: What is a simple example of basics of relational databases?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - applying filtering, ordering
+  question_text: What is applying filtering, ordering?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - applying filtering, ordering
+  question_text: What does applying filtering, ordering mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - applying filtering, ordering
+  question_text: Why does applying filtering, ordering matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - applying filtering, ordering
+  question_text: Why does applying filtering, ordering?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - applying filtering, ordering
+  question_text: What is a simple example of applying filtering, ordering?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - grouping to queries
+  question_text: What is grouping to queries?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - grouping to queries
+  question_text: What does grouping to queries mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - grouping to queries
+  question_text: Why does grouping to queries matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - grouping to queries
+  question_text: Why does grouping to queries?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - grouping to queries
+  question_text: What is a simple example of grouping to queries?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - advanced sqlalchemy queries
+  question_text: What is advanced sqlalchemy queries?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - advanced sqlalchemy queries
+  question_text: What does advanced sqlalchemy queries mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - advanced sqlalchemy queries
+  question_text: Why does advanced sqlalchemy queries matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - advanced sqlalchemy queries
+  question_text: Why does advanced sqlalchemy queries?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - advanced sqlalchemy queries
+  question_text: What is a simple example of advanced sqlalchemy queries?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - creating
+  question_text: What is creating?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - creating
+  question_text: What does creating mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - creating
+  question_text: Why does creating matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - creating
+  question_text: Why does creating?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - creating
+  question_text: What is a simple example of creating?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - manipulating your own databases
+  question_text: What is manipulating your own databases?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000027
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - manipulating your own databases
+  question_text: What does manipulating your own databases mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000028
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - manipulating your own databases
+  question_text: Why does manipulating your own databases matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000029
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - manipulating your own databases
+  question_text: Why does manipulating your own databases?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000030
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - manipulating your own databases
+  question_text: What is a simple example of manipulating your own databases?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000031
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - putting it all together
+  question_text: What is putting it all together?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000032
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - putting it all together
+  question_text: What does putting it all together mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000033
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - putting it all together
+  question_text: Why does putting it all together matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000034
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - putting it all together
+  question_text: Why does putting it all together?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000035
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - putting it all together
+  question_text: What is a simple example of putting it all together?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000036
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - basics of relational databases
+  - applying filtering, ordering
+  question_text: How is basics of relational databases different from applying filtering,
+    ordering?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000037
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - basics of relational databases
+  - grouping to queries
+  question_text: How is basics of relational databases different from grouping to
+    queries?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000038
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - basics of relational databases
+  - advanced sqlalchemy queries
+  question_text: How is basics of relational databases different from advanced sqlalchemy
+    queries?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000039
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - basics of relational databases
+  - creating
+  question_text: How is basics of relational databases different from creating?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000040
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - basics of relational databases
+  - manipulating your own databases
+  question_text: How is basics of relational databases different from manipulating
+    your own databases?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000041
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - basics of relational databases
+  - putting it all together
+  question_text: How is basics of relational databases different from putting it all
+    together?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000042
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - applying filtering, ordering
+  - grouping to queries
+  question_text: How is applying filtering, ordering different from grouping to queries?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000043
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - applying filtering, ordering
+  - advanced sqlalchemy queries
+  question_text: How is applying filtering, ordering different from advanced sqlalchemy
+    queries?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000044
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - applying filtering, ordering
+  - creating
+  question_text: How is applying filtering, ordering different from creating?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000045
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - applying filtering, ordering
+  - manipulating your own databases
+  question_text: How is applying filtering, ordering different from manipulating your
+    own databases?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000046
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - applying filtering, ordering
+  - putting it all together
+  question_text: How is applying filtering, ordering different from putting it all
+    together?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000047
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - grouping to queries
+  - advanced sqlalchemy queries
+  question_text: How is grouping to queries different from advanced sqlalchemy queries?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000048
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - grouping to queries
+  - creating
+  question_text: How is grouping to queries different from creating?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000049
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - grouping to queries
+  - manipulating your own databases
+  question_text: How is grouping to queries different from manipulating your own databases?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000050
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - grouping to queries
+  - putting it all together
+  question_text: How is grouping to queries different from putting it all together?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000051
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - advanced sqlalchemy queries
+  - creating
+  question_text: How is advanced sqlalchemy queries different from creating?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000052
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - advanced sqlalchemy queries
+  - manipulating your own databases
+  question_text: How is advanced sqlalchemy queries different from manipulating your
+    own databases?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000053
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - advanced sqlalchemy queries
+  - putting it all together
+  question_text: How is advanced sqlalchemy queries different from putting it all
+    together?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000054
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - creating
+  - manipulating your own databases
+  question_text: How is creating different from manipulating your own databases?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000055
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - creating
+  - putting it all together
+  question_text: How is creating different from putting it all together?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000056
+  course:
+    course_id: '24463'
+    title: Introduction to Databases in Python
+  relevant_topics:
+  - manipulating your own databases
+  - putting it all together
+  question_text: How is manipulating your own databases different from putting it
+    all together?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 7
+  canonical_topic_count: 7
+  candidate_count: 56
+  accepted_count: 56
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 56

@@ -1,0 +1,4268 @@
+course_id: '24508'
+title: ways to extract data using time phrases, and conclude with how to do basic
+normalized_course:
+  course_id: '24508'
+  title: ways to extract data using time phrases, and conclude with how to do basic
+  provider: DataCamp
+  summary: 'The xts and zoo packages make the task of managing and manipulating ordered
+
+    observations fast and mistake free.'
+  overview: 'Introduction to eXtensible Time Series, using xts and zoo for time series
+
+
+    -xts and zoo are just two of the many different types of objects that exist
+
+    in R. This chapter will introduce the basic objects in xts and zoo and their
+
+    components, and offers examples of how to construct and examine the data.
+
+
+    First Order of Business - Basic Manipulations
+
+
+    -Now that you can create basic xts objects, it''s time to see how powerful
+
+    they can be. This chapter will cover the basics of one of the most useful
+
+    features of xts: time based subsetting. From there you''ll explore additional
+
+    ways to extract data using time phrases, and conclude with how to do basic
+
+    operations like adding and subtracting your xts objects.
+
+
+    Merging and modifying time series
+
+
+    -One of the most important parts of working with time series data involves
+
+    creating derived time series. To do this effectively, it is critical to keep
+
+    track of dates and times. In this chapter you will look at how xts handles
+
+    merging new columns and rows into existing data, how to deal with the
+
+    inevitable missing observations in time series, and how to shift your series
+
+    in time.
+
+
+    Apply and aggregate by time
+
+
+    -Now the fun begins! A very common usage pattern for time series is to
+
+    calculate values for disjoint periods of time or aggregate values from a
+
+    higher frequency to a lower frequency. For most series, you''ll often want to
+
+    see the weekly mean of a price or measurement. You may even find yourself
+
+    looking at data that has different frequencies and you need to normalize to
+
+    the lowest frequency. This chapter is where it all happens. Hang tight, and
+
+    lets get going!
+
+
+    Extra features of xts
+
+
+    -Now that you are comfortable with most of the core features, its time to
+
+    explore some of the lesser known (but powerful!) aspects of working with
+
+    xts. In this final chapter you will use the internals of the index to find
+
+    repeating itervals, see how xts provides intuitive time zone support, and
+
+    experiment with ways to explore your data by time - including identifying
+
+    frequency and coverage in time. Let''s finish this course!'
+  chapters:
+  - chapter_index: 1
+    title: Introduction to eXtensible Time Series, using xts and zoo for time series
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 2
+    title: -xts and zoo are just two of the many different types of objects that exist
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 3
+    title: in R. This chapter will introduce the basic objects in xts and zoo and
+      their
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 4
+    title: First Order of Business - Basic Manipulations
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 5
+    title: -Now that you can create basic xts objects, it's time to see how powerful
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 6
+    title: they can be. This chapter will cover the basics of one of the most useful
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 7
+    title: 'features of xts: time based subsetting. From there you''ll explore additional'
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 8
+    title: ways to extract data using time phrases, and conclude with how to do basic
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  metadata:
+    level: Intermediate
+    duration_hours: 4 hours
+    subjects:
+    - Time Series Analysis
+    - Data Analysis
+    - R Programming
+    - Data Manipulation
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: introduction to extensible time series, using xts
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: introduction to extensible time
+    series, using xts'
+  evidence:
+  - source: overview_inferred
+    text: Introduction to eXtensible Time Series, using xts and zoo for time series
+  confidence: 0.55
+- topic_id: t002
+  label: zoo for time series
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: zoo for time series'
+  evidence:
+  - source: overview_inferred
+    text: Introduction to eXtensible Time Series, using xts and zoo for time series
+  confidence: 0.55
+- topic_id: t003
+  label: -xts
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: -xts'
+  evidence:
+  - source: overview_inferred
+    text: -xts and zoo are just two of the many different types of objects that exist
+  confidence: 0.55
+- topic_id: t004
+  label: zoo are just two of the many different types of objects that exist
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: zoo are just two of the many
+    different types of objects that exist'
+  evidence:
+  - source: overview_inferred
+    text: -xts and zoo are just two of the many different types of objects that exist
+  confidence: 0.55
+- topic_id: t005
+  label: in r. this chapter will introduce the basic objects in xts
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: in r. this chapter will introduce
+    the basic objects in xts'
+  evidence:
+  - source: overview_inferred
+    text: in R. This chapter will introduce the basic objects in xts and zoo and their
+  confidence: 0.55
+- topic_id: t006
+  label: zoo
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: zoo'
+  evidence:
+  - source: overview_inferred
+    text: in R. This chapter will introduce the basic objects in xts and zoo and their
+  confidence: 0.55
+- topic_id: t007
+  label: their
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: their'
+  evidence:
+  - source: overview_inferred
+    text: in R. This chapter will introduce the basic objects in xts and zoo and their
+  confidence: 0.55
+- topic_id: t008
+  label: first order of business - basic manipulations
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: first order of business - basic
+    manipulations'
+  evidence:
+  - source: overview_inferred
+    text: First Order of Business - Basic Manipulations
+  confidence: 0.45
+- topic_id: t009
+  label: -now that you can create basic xts objects, it's time to see how powerful
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: -now that you can create basic
+    xts objects, it''s time to see how powerful'
+  evidence:
+  - source: overview_inferred
+    text: -Now that you can create basic xts objects, it's time to see how powerful
+  confidence: 0.45
+- topic_id: t010
+  label: they can be. this chapter will cover the basics of one of the most useful
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: they can be. this chapter will
+    cover the basics of one of the most useful'
+  evidence:
+  - source: overview_inferred
+    text: they can be. This chapter will cover the basics of one of the most useful
+  confidence: 0.45
+- topic_id: t011
+  label: 'features of xts: time based subsetting. from there you''ll explore additional'
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: features of xts: time based subsetting.
+    from there you''ll explore additional'
+  evidence:
+  - source: overview_inferred
+    text: 'features of xts: time based subsetting. From there you''ll explore additional'
+  confidence: 0.45
+- topic_id: t012
+  label: ways to extract data using time phrases
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: ways to extract data using time
+    phrases'
+  evidence:
+  - source: overview_inferred
+    text: ways to extract data using time phrases, and conclude with how to do basic
+  confidence: 0.55
+- topic_id: t013
+  label: conclude with how to do basic
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: conclude with how to do basic'
+  evidence:
+  - source: overview_inferred
+    text: ways to extract data using time phrases, and conclude with how to do basic
+  confidence: 0.55
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: introduction to extensible time series, using xts
+  aliases:
+  - introduction to extensible time series, using xts
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: zoo for time series
+  aliases:
+  - zoo for time series
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: -xts
+  aliases:
+  - -xts
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: zoo are just two of many different types of objects that exist
+  aliases:
+  - zoo are just two of the many different types of objects that exist
+  member_topic_ids:
+  - t004
+  topic_type: concept
+- canonical_topic_id: ct_005
+  label: in r. this chapter will introduce basic objects in xts
+  aliases:
+  - in r. this chapter will introduce the basic objects in xts
+  member_topic_ids:
+  - t005
+  topic_type: concept
+- canonical_topic_id: ct_006
+  label: zoo
+  aliases:
+  - zoo
+  member_topic_ids:
+  - t006
+  topic_type: concept
+- canonical_topic_id: ct_007
+  label: their
+  aliases:
+  - their
+  member_topic_ids:
+  - t007
+  topic_type: concept
+- canonical_topic_id: ct_008
+  label: first order of business - basic manipulations
+  aliases:
+  - first order of business - basic manipulations
+  member_topic_ids:
+  - t008
+  topic_type: concept
+- canonical_topic_id: ct_009
+  label: -now that you can create basic xts objects, it's time to see how powerful
+  aliases:
+  - -now that you can create basic xts objects, it's time to see how powerful
+  member_topic_ids:
+  - t009
+  topic_type: concept
+- canonical_topic_id: ct_010
+  label: they can be. this chapter will cover basics of one of most useful
+  aliases:
+  - they can be. this chapter will cover the basics of one of the most useful
+  member_topic_ids:
+  - t010
+  topic_type: concept
+- canonical_topic_id: ct_011
+  label: 'features of xts: time based subsetting. from there you''ll explore additional'
+  aliases:
+  - 'features of xts: time based subsetting. from there you''ll explore additional'
+  member_topic_ids:
+  - t011
+  topic_type: concept
+- canonical_topic_id: ct_012
+  label: ways to extract data using time phrases
+  aliases:
+  - ways to extract data using time phrases
+  member_topic_ids:
+  - t012
+  topic_type: concept
+- canonical_topic_id: ct_013
+  label: conclude with how to do basic
+  aliases:
+  - conclude with how to do basic
+  member_topic_ids:
+  - t013
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - introduction to extensible time series, using xts
+  family: entry
+  pattern: What is {x}?
+  question_text: What is introduction to extensible time series, using xts?
+- candidate_id: q0002
+  relevant_topics:
+  - introduction to extensible time series, using xts
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does introduction to extensible time series, using xts mean?
+- candidate_id: q0003
+  relevant_topics:
+  - introduction to extensible time series, using xts
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does introduction to extensible time series, using xts matter?
+- candidate_id: q0004
+  relevant_topics:
+  - introduction to extensible time series, using xts
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use introduction to extensible time series, using xts?
+- candidate_id: q0005
+  relevant_topics:
+  - introduction to extensible time series, using xts
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of introduction to extensible time series,
+    using xts?
+- candidate_id: q0006
+  relevant_topics:
+  - zoo for time series
+  family: entry
+  pattern: What is {x}?
+  question_text: What is zoo for time series?
+- candidate_id: q0007
+  relevant_topics:
+  - zoo for time series
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does zoo for time series mean?
+- candidate_id: q0008
+  relevant_topics:
+  - zoo for time series
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does zoo for time series matter?
+- candidate_id: q0009
+  relevant_topics:
+  - zoo for time series
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use zoo for time series?
+- candidate_id: q0010
+  relevant_topics:
+  - zoo for time series
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of zoo for time series?
+- candidate_id: q0011
+  relevant_topics:
+  - -xts
+  family: entry
+  pattern: What is {x}?
+  question_text: What is -xts?
+- candidate_id: q0012
+  relevant_topics:
+  - -xts
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does -xts mean?
+- candidate_id: q0013
+  relevant_topics:
+  - -xts
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does -xts matter?
+- candidate_id: q0014
+  relevant_topics:
+  - -xts
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use -xts?
+- candidate_id: q0015
+  relevant_topics:
+  - -xts
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of -xts?
+- candidate_id: q0016
+  relevant_topics:
+  - zoo are just two of many different types of objects that exist
+  family: entry
+  pattern: What is {x}?
+  question_text: What is zoo are just two of many different types of objects that
+    exist?
+- candidate_id: q0017
+  relevant_topics:
+  - zoo are just two of many different types of objects that exist
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does zoo are just two of many different types of objects that
+    exist mean?
+- candidate_id: q0018
+  relevant_topics:
+  - zoo are just two of many different types of objects that exist
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does zoo are just two of many different types of objects that
+    exist matter?
+- candidate_id: q0019
+  relevant_topics:
+  - zoo are just two of many different types of objects that exist
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use zoo are just two of many different types of objects
+    that exist?
+- candidate_id: q0020
+  relevant_topics:
+  - zoo are just two of many different types of objects that exist
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of zoo are just two of many different types
+    of objects that exist?
+- candidate_id: q0021
+  relevant_topics:
+  - in r. this chapter will introduce basic objects in xts
+  family: entry
+  pattern: What is {x}?
+  question_text: What is in r. this chapter will introduce basic objects in xts?
+- candidate_id: q0022
+  relevant_topics:
+  - in r. this chapter will introduce basic objects in xts
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does in r. this chapter will introduce basic objects in xts
+    mean?
+- candidate_id: q0023
+  relevant_topics:
+  - in r. this chapter will introduce basic objects in xts
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does in r. this chapter will introduce basic objects in xts matter?
+- candidate_id: q0024
+  relevant_topics:
+  - in r. this chapter will introduce basic objects in xts
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use in r. this chapter will introduce basic objects in
+    xts?
+- candidate_id: q0025
+  relevant_topics:
+  - in r. this chapter will introduce basic objects in xts
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of in r. this chapter will introduce basic
+    objects in xts?
+- candidate_id: q0026
+  relevant_topics:
+  - zoo
+  family: entry
+  pattern: What is {x}?
+  question_text: What is zoo?
+- candidate_id: q0027
+  relevant_topics:
+  - zoo
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does zoo mean?
+- candidate_id: q0028
+  relevant_topics:
+  - zoo
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does zoo matter?
+- candidate_id: q0029
+  relevant_topics:
+  - zoo
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use zoo?
+- candidate_id: q0030
+  relevant_topics:
+  - zoo
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of zoo?
+- candidate_id: q0031
+  relevant_topics:
+  - their
+  family: entry
+  pattern: What is {x}?
+  question_text: What is their?
+- candidate_id: q0032
+  relevant_topics:
+  - their
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does their mean?
+- candidate_id: q0033
+  relevant_topics:
+  - their
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does their matter?
+- candidate_id: q0034
+  relevant_topics:
+  - their
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use their?
+- candidate_id: q0035
+  relevant_topics:
+  - their
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of their?
+- candidate_id: q0036
+  relevant_topics:
+  - first order of business - basic manipulations
+  family: entry
+  pattern: What is {x}?
+  question_text: What is first order of business - basic manipulations?
+- candidate_id: q0037
+  relevant_topics:
+  - first order of business - basic manipulations
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does first order of business - basic manipulations mean?
+- candidate_id: q0038
+  relevant_topics:
+  - first order of business - basic manipulations
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does first order of business - basic manipulations matter?
+- candidate_id: q0039
+  relevant_topics:
+  - first order of business - basic manipulations
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use first order of business - basic manipulations?
+- candidate_id: q0040
+  relevant_topics:
+  - first order of business - basic manipulations
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of first order of business - basic manipulations?
+- candidate_id: q0041
+  relevant_topics:
+  - -now that you can create basic xts objects, it's time to see how powerful
+  family: entry
+  pattern: What is {x}?
+  question_text: What is -now that you can create basic xts objects, it's time to
+    see how powerful?
+- candidate_id: q0042
+  relevant_topics:
+  - -now that you can create basic xts objects, it's time to see how powerful
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does -now that you can create basic xts objects, it's time to
+    see how powerful mean?
+- candidate_id: q0043
+  relevant_topics:
+  - -now that you can create basic xts objects, it's time to see how powerful
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does -now that you can create basic xts objects, it's time to
+    see how powerful matter?
+- candidate_id: q0044
+  relevant_topics:
+  - -now that you can create basic xts objects, it's time to see how powerful
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use -now that you can create basic xts objects, it's time
+    to see how powerful?
+- candidate_id: q0045
+  relevant_topics:
+  - -now that you can create basic xts objects, it's time to see how powerful
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of -now that you can create basic xts objects,
+    it's time to see how powerful?
+- candidate_id: q0046
+  relevant_topics:
+  - they can be. this chapter will cover basics of one of most useful
+  family: entry
+  pattern: What is {x}?
+  question_text: What is they can be. this chapter will cover basics of one of most
+    useful?
+- candidate_id: q0047
+  relevant_topics:
+  - they can be. this chapter will cover basics of one of most useful
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does they can be. this chapter will cover basics of one of most
+    useful mean?
+- candidate_id: q0048
+  relevant_topics:
+  - they can be. this chapter will cover basics of one of most useful
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does they can be. this chapter will cover basics of one of most
+    useful matter?
+- candidate_id: q0049
+  relevant_topics:
+  - they can be. this chapter will cover basics of one of most useful
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use they can be. this chapter will cover basics of one
+    of most useful?
+- candidate_id: q0050
+  relevant_topics:
+  - they can be. this chapter will cover basics of one of most useful
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of they can be. this chapter will cover
+    basics of one of most useful?
+- candidate_id: q0051
+  relevant_topics:
+  - 'features of xts: time based subsetting. from there you''ll explore additional'
+  family: entry
+  pattern: What is {x}?
+  question_text: 'What is features of xts: time based subsetting. from there you''ll
+    explore additional?'
+- candidate_id: q0052
+  relevant_topics:
+  - 'features of xts: time based subsetting. from there you''ll explore additional'
+  family: entry
+  pattern: What does {x} mean?
+  question_text: 'What does features of xts: time based subsetting. from there you''ll
+    explore additional mean?'
+- candidate_id: q0053
+  relevant_topics:
+  - 'features of xts: time based subsetting. from there you''ll explore additional'
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: 'Why does features of xts: time based subsetting. from there you''ll
+    explore additional matter?'
+- candidate_id: q0054
+  relevant_topics:
+  - 'features of xts: time based subsetting. from there you''ll explore additional'
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: 'Why do we use features of xts: time based subsetting. from there
+    you''ll explore additional?'
+- candidate_id: q0055
+  relevant_topics:
+  - 'features of xts: time based subsetting. from there you''ll explore additional'
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: 'What is a simple example of features of xts: time based subsetting.
+    from there you''ll explore additional?'
+- candidate_id: q0056
+  relevant_topics:
+  - ways to extract data using time phrases
+  family: entry
+  pattern: What is {x}?
+  question_text: What is ways to extract data using time phrases?
+- candidate_id: q0057
+  relevant_topics:
+  - ways to extract data using time phrases
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does ways to extract data using time phrases mean?
+- candidate_id: q0058
+  relevant_topics:
+  - ways to extract data using time phrases
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does ways to extract data using time phrases matter?
+- candidate_id: q0059
+  relevant_topics:
+  - ways to extract data using time phrases
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use ways to extract data using time phrases?
+- candidate_id: q0060
+  relevant_topics:
+  - ways to extract data using time phrases
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of ways to extract data using time phrases?
+- candidate_id: q0061
+  relevant_topics:
+  - conclude with how to do basic
+  family: entry
+  pattern: What is {x}?
+  question_text: What is conclude with how to do basic?
+- candidate_id: q0062
+  relevant_topics:
+  - conclude with how to do basic
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does conclude with how to do basic mean?
+- candidate_id: q0063
+  relevant_topics:
+  - conclude with how to do basic
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does conclude with how to do basic matter?
+- candidate_id: q0064
+  relevant_topics:
+  - conclude with how to do basic
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use conclude with how to do basic?
+- candidate_id: q0065
+  relevant_topics:
+  - conclude with how to do basic
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of conclude with how to do basic?
+- candidate_id: q0066
+  relevant_topics:
+  - introduction to extensible time series, using xts
+  - zoo for time series
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to extensible time series, using xts different
+    from zoo for time series?
+- candidate_id: q0067
+  relevant_topics:
+  - introduction to extensible time series, using xts
+  - -xts
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to extensible time series, using xts different
+    from -xts?
+- candidate_id: q0068
+  relevant_topics:
+  - introduction to extensible time series, using xts
+  - zoo are just two of many different types of objects that exist
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to extensible time series, using xts different
+    from zoo are just two of many different types of objects that exist?
+- candidate_id: q0069
+  relevant_topics:
+  - introduction to extensible time series, using xts
+  - in r. this chapter will introduce basic objects in xts
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to extensible time series, using xts different
+    from in r. this chapter will introduce basic objects in xts?
+- candidate_id: q0070
+  relevant_topics:
+  - introduction to extensible time series, using xts
+  - zoo
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to extensible time series, using xts different
+    from zoo?
+- candidate_id: q0071
+  relevant_topics:
+  - introduction to extensible time series, using xts
+  - their
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to extensible time series, using xts different
+    from their?
+- candidate_id: q0072
+  relevant_topics:
+  - introduction to extensible time series, using xts
+  - first order of business - basic manipulations
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to extensible time series, using xts different
+    from first order of business - basic manipulations?
+- candidate_id: q0073
+  relevant_topics:
+  - introduction to extensible time series, using xts
+  - -now that you can create basic xts objects, it's time to see how powerful
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to extensible time series, using xts different
+    from -now that you can create basic xts objects, it's time to see how powerful?
+- candidate_id: q0074
+  relevant_topics:
+  - introduction to extensible time series, using xts
+  - they can be. this chapter will cover basics of one of most useful
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to extensible time series, using xts different
+    from they can be. this chapter will cover basics of one of most useful?
+- candidate_id: q0075
+  relevant_topics:
+  - zoo for time series
+  - -xts
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is zoo for time series different from -xts?
+- candidate_id: q0076
+  relevant_topics:
+  - zoo for time series
+  - zoo are just two of many different types of objects that exist
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is zoo for time series different from zoo are just two of many
+    different types of objects that exist?
+- candidate_id: q0077
+  relevant_topics:
+  - zoo for time series
+  - in r. this chapter will introduce basic objects in xts
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is zoo for time series different from in r. this chapter will
+    introduce basic objects in xts?
+- candidate_id: q0078
+  relevant_topics:
+  - zoo for time series
+  - zoo
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is zoo for time series different from zoo?
+- candidate_id: q0079
+  relevant_topics:
+  - zoo for time series
+  - their
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is zoo for time series different from their?
+- candidate_id: q0080
+  relevant_topics:
+  - zoo for time series
+  - first order of business - basic manipulations
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is zoo for time series different from first order of business
+    - basic manipulations?
+- candidate_id: q0081
+  relevant_topics:
+  - zoo for time series
+  - -now that you can create basic xts objects, it's time to see how powerful
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is zoo for time series different from -now that you can create
+    basic xts objects, it's time to see how powerful?
+- candidate_id: q0082
+  relevant_topics:
+  - zoo for time series
+  - they can be. this chapter will cover basics of one of most useful
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is zoo for time series different from they can be. this chapter
+    will cover basics of one of most useful?
+- candidate_id: q0083
+  relevant_topics:
+  - -xts
+  - zoo are just two of many different types of objects that exist
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -xts different from zoo are just two of many different types
+    of objects that exist?
+- candidate_id: q0084
+  relevant_topics:
+  - -xts
+  - in r. this chapter will introduce basic objects in xts
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -xts different from in r. this chapter will introduce basic
+    objects in xts?
+- candidate_id: q0085
+  relevant_topics:
+  - -xts
+  - zoo
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -xts different from zoo?
+- candidate_id: q0086
+  relevant_topics:
+  - -xts
+  - their
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -xts different from their?
+- candidate_id: q0087
+  relevant_topics:
+  - -xts
+  - first order of business - basic manipulations
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -xts different from first order of business - basic manipulations?
+- candidate_id: q0088
+  relevant_topics:
+  - -xts
+  - -now that you can create basic xts objects, it's time to see how powerful
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -xts different from -now that you can create basic xts objects,
+    it's time to see how powerful?
+- candidate_id: q0089
+  relevant_topics:
+  - -xts
+  - they can be. this chapter will cover basics of one of most useful
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -xts different from they can be. this chapter will cover basics
+    of one of most useful?
+- candidate_id: q0090
+  relevant_topics:
+  - zoo are just two of many different types of objects that exist
+  - in r. this chapter will introduce basic objects in xts
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is zoo are just two of many different types of objects that exist
+    different from in r. this chapter will introduce basic objects in xts?
+- candidate_id: q0091
+  relevant_topics:
+  - zoo are just two of many different types of objects that exist
+  - zoo
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is zoo are just two of many different types of objects that exist
+    different from zoo?
+- candidate_id: q0092
+  relevant_topics:
+  - zoo are just two of many different types of objects that exist
+  - their
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is zoo are just two of many different types of objects that exist
+    different from their?
+- candidate_id: q0093
+  relevant_topics:
+  - zoo are just two of many different types of objects that exist
+  - first order of business - basic manipulations
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is zoo are just two of many different types of objects that exist
+    different from first order of business - basic manipulations?
+- candidate_id: q0094
+  relevant_topics:
+  - zoo are just two of many different types of objects that exist
+  - -now that you can create basic xts objects, it's time to see how powerful
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is zoo are just two of many different types of objects that exist
+    different from -now that you can create basic xts objects, it's time to see how
+    powerful?
+- candidate_id: q0095
+  relevant_topics:
+  - zoo are just two of many different types of objects that exist
+  - they can be. this chapter will cover basics of one of most useful
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is zoo are just two of many different types of objects that exist
+    different from they can be. this chapter will cover basics of one of most useful?
+- candidate_id: q0096
+  relevant_topics:
+  - in r. this chapter will introduce basic objects in xts
+  - zoo
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is in r. this chapter will introduce basic objects in xts different
+    from zoo?
+- candidate_id: q0097
+  relevant_topics:
+  - in r. this chapter will introduce basic objects in xts
+  - their
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is in r. this chapter will introduce basic objects in xts different
+    from their?
+- candidate_id: q0098
+  relevant_topics:
+  - in r. this chapter will introduce basic objects in xts
+  - first order of business - basic manipulations
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is in r. this chapter will introduce basic objects in xts different
+    from first order of business - basic manipulations?
+- candidate_id: q0099
+  relevant_topics:
+  - in r. this chapter will introduce basic objects in xts
+  - -now that you can create basic xts objects, it's time to see how powerful
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is in r. this chapter will introduce basic objects in xts different
+    from -now that you can create basic xts objects, it's time to see how powerful?
+- candidate_id: q0100
+  relevant_topics:
+  - in r. this chapter will introduce basic objects in xts
+  - they can be. this chapter will cover basics of one of most useful
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is in r. this chapter will introduce basic objects in xts different
+    from they can be. this chapter will cover basics of one of most useful?
+- candidate_id: q0101
+  relevant_topics:
+  - zoo
+  - their
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is zoo different from their?
+- candidate_id: q0102
+  relevant_topics:
+  - zoo
+  - first order of business - basic manipulations
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is zoo different from first order of business - basic manipulations?
+- candidate_id: q0103
+  relevant_topics:
+  - zoo
+  - -now that you can create basic xts objects, it's time to see how powerful
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is zoo different from -now that you can create basic xts objects,
+    it's time to see how powerful?
+- candidate_id: q0104
+  relevant_topics:
+  - zoo
+  - they can be. this chapter will cover basics of one of most useful
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is zoo different from they can be. this chapter will cover basics
+    of one of most useful?
+- candidate_id: q0105
+  relevant_topics:
+  - their
+  - first order of business - basic manipulations
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is their different from first order of business - basic manipulations?
+- candidate_id: q0106
+  relevant_topics:
+  - their
+  - -now that you can create basic xts objects, it's time to see how powerful
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is their different from -now that you can create basic xts objects,
+    it's time to see how powerful?
+- candidate_id: q0107
+  relevant_topics:
+  - their
+  - they can be. this chapter will cover basics of one of most useful
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is their different from they can be. this chapter will cover
+    basics of one of most useful?
+- candidate_id: q0108
+  relevant_topics:
+  - first order of business - basic manipulations
+  - -now that you can create basic xts objects, it's time to see how powerful
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is first order of business - basic manipulations different from
+    -now that you can create basic xts objects, it's time to see how powerful?
+- candidate_id: q0109
+  relevant_topics:
+  - first order of business - basic manipulations
+  - they can be. this chapter will cover basics of one of most useful
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is first order of business - basic manipulations different from
+    they can be. this chapter will cover basics of one of most useful?
+- candidate_id: q0110
+  relevant_topics:
+  - -now that you can create basic xts objects, it's time to see how powerful
+  - they can be. this chapter will cover basics of one of most useful
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -now that you can create basic xts objects, it's time to see
+    how powerful different from they can be. this chapter will cover basics of one
+    of most useful?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is introduction to extensible time series, using xts?
+  final_text: What is introduction to extensible time series, using xts?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does introduction to extensible time series, using xts mean?
+  final_text: What does introduction to extensible time series, using xts mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does introduction to extensible time series, using xts matter?
+  final_text: Why does introduction to extensible time series, using xts matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use introduction to extensible time series, using xts?
+  final_text: Why does introduction to extensible time series, using xts?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of introduction to extensible time series,
+    using xts?
+  final_text: What is a simple example of introduction to extensible time series,
+    using xts?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is zoo for time series?
+  final_text: What is zoo for time series?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does zoo for time series mean?
+  final_text: What does zoo for time series mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does zoo for time series matter?
+  final_text: Why does zoo for time series matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use zoo for time series?
+  final_text: Why does zoo for time series?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of zoo for time series?
+  final_text: What is a simple example of zoo for time series?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is -xts?
+  final_text: What is -xts?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does -xts mean?
+  final_text: What does -xts mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does -xts matter?
+  final_text: Why does -xts matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use -xts?
+  final_text: Why does -xts?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of -xts?
+  final_text: What is a simple example of -xts?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is zoo are just two of many different types of objects that
+    exist?
+  final_text: What is zoo are just two of many different types of objects that exist?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does zoo are just two of many different types of objects that
+    exist mean?
+  final_text: What does zoo are just two of many different types of objects that exist
+    mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does zoo are just two of many different types of objects that
+    exist matter?
+  final_text: Why does zoo are just two of many different types of objects that exist
+    matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use zoo are just two of many different types of objects
+    that exist?
+  final_text: Why does zoo are just two of many different types of objects that exist?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of zoo are just two of many different types
+    of objects that exist?
+  final_text: What is a simple example of zoo are just two of many different types
+    of objects that exist?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: What is in r. this chapter will introduce basic objects in xts?
+  final_text: What is in r. this chapter will introduce basic objects in xts?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: What does in r. this chapter will introduce basic objects in xts
+    mean?
+  final_text: What does in r. this chapter will introduce basic objects in xts mean?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: Why does in r. this chapter will introduce basic objects in xts matter?
+  final_text: Why does in r. this chapter will introduce basic objects in xts matter?
+  reject_reason: null
+- candidate_id: q0024
+  status: repaired
+  original_text: Why do we use in r. this chapter will introduce basic objects in
+    xts?
+  final_text: Why does in r. this chapter will introduce basic objects in xts?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: What is a simple example of in r. this chapter will introduce basic
+    objects in xts?
+  final_text: What is a simple example of in r. this chapter will introduce basic
+    objects in xts?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: What is zoo?
+  final_text: What is zoo?
+  reject_reason: null
+- candidate_id: q0027
+  status: accepted
+  original_text: What does zoo mean?
+  final_text: What does zoo mean?
+  reject_reason: null
+- candidate_id: q0028
+  status: accepted
+  original_text: Why does zoo matter?
+  final_text: Why does zoo matter?
+  reject_reason: null
+- candidate_id: q0029
+  status: repaired
+  original_text: Why do we use zoo?
+  final_text: Why does zoo?
+  reject_reason: null
+- candidate_id: q0030
+  status: accepted
+  original_text: What is a simple example of zoo?
+  final_text: What is a simple example of zoo?
+  reject_reason: null
+- candidate_id: q0031
+  status: accepted
+  original_text: What is their?
+  final_text: What is their?
+  reject_reason: null
+- candidate_id: q0032
+  status: accepted
+  original_text: What does their mean?
+  final_text: What does their mean?
+  reject_reason: null
+- candidate_id: q0033
+  status: accepted
+  original_text: Why does their matter?
+  final_text: Why does their matter?
+  reject_reason: null
+- candidate_id: q0034
+  status: repaired
+  original_text: Why do we use their?
+  final_text: Why does their?
+  reject_reason: null
+- candidate_id: q0035
+  status: accepted
+  original_text: What is a simple example of their?
+  final_text: What is a simple example of their?
+  reject_reason: null
+- candidate_id: q0036
+  status: accepted
+  original_text: What is first order of business - basic manipulations?
+  final_text: What is first order of business - basic manipulations?
+  reject_reason: null
+- candidate_id: q0037
+  status: accepted
+  original_text: What does first order of business - basic manipulations mean?
+  final_text: What does first order of business - basic manipulations mean?
+  reject_reason: null
+- candidate_id: q0038
+  status: accepted
+  original_text: Why does first order of business - basic manipulations matter?
+  final_text: Why does first order of business - basic manipulations matter?
+  reject_reason: null
+- candidate_id: q0039
+  status: repaired
+  original_text: Why do we use first order of business - basic manipulations?
+  final_text: Why does first order of business - basic manipulations?
+  reject_reason: null
+- candidate_id: q0040
+  status: accepted
+  original_text: What is a simple example of first order of business - basic manipulations?
+  final_text: What is a simple example of first order of business - basic manipulations?
+  reject_reason: null
+- candidate_id: q0041
+  status: accepted
+  original_text: What is -now that you can create basic xts objects, it's time to
+    see how powerful?
+  final_text: What is -now that you can create basic xts objects, it's time to see
+    how powerful?
+  reject_reason: null
+- candidate_id: q0042
+  status: accepted
+  original_text: What does -now that you can create basic xts objects, it's time to
+    see how powerful mean?
+  final_text: What does -now that you can create basic xts objects, it's time to see
+    how powerful mean?
+  reject_reason: null
+- candidate_id: q0043
+  status: accepted
+  original_text: Why does -now that you can create basic xts objects, it's time to
+    see how powerful matter?
+  final_text: Why does -now that you can create basic xts objects, it's time to see
+    how powerful matter?
+  reject_reason: null
+- candidate_id: q0044
+  status: repaired
+  original_text: Why do we use -now that you can create basic xts objects, it's time
+    to see how powerful?
+  final_text: Why does -now that you can create basic xts objects, it's time to see
+    how powerful?
+  reject_reason: null
+- candidate_id: q0045
+  status: accepted
+  original_text: What is a simple example of -now that you can create basic xts objects,
+    it's time to see how powerful?
+  final_text: What is a simple example of -now that you can create basic xts objects,
+    it's time to see how powerful?
+  reject_reason: null
+- candidate_id: q0046
+  status: accepted
+  original_text: What is they can be. this chapter will cover basics of one of most
+    useful?
+  final_text: What is they can be. this chapter will cover basics of one of most useful?
+  reject_reason: null
+- candidate_id: q0047
+  status: accepted
+  original_text: What does they can be. this chapter will cover basics of one of most
+    useful mean?
+  final_text: What does they can be. this chapter will cover basics of one of most
+    useful mean?
+  reject_reason: null
+- candidate_id: q0048
+  status: accepted
+  original_text: Why does they can be. this chapter will cover basics of one of most
+    useful matter?
+  final_text: Why does they can be. this chapter will cover basics of one of most
+    useful matter?
+  reject_reason: null
+- candidate_id: q0049
+  status: repaired
+  original_text: Why do we use they can be. this chapter will cover basics of one
+    of most useful?
+  final_text: Why does they can be. this chapter will cover basics of one of most
+    useful?
+  reject_reason: null
+- candidate_id: q0050
+  status: accepted
+  original_text: What is a simple example of they can be. this chapter will cover
+    basics of one of most useful?
+  final_text: What is a simple example of they can be. this chapter will cover basics
+    of one of most useful?
+  reject_reason: null
+- candidate_id: q0051
+  status: accepted
+  original_text: 'What is features of xts: time based subsetting. from there you''ll
+    explore additional?'
+  final_text: 'What is features of xts: time based subsetting. from there you''ll
+    explore additional?'
+  reject_reason: null
+- candidate_id: q0052
+  status: accepted
+  original_text: 'What does features of xts: time based subsetting. from there you''ll
+    explore additional mean?'
+  final_text: 'What does features of xts: time based subsetting. from there you''ll
+    explore additional mean?'
+  reject_reason: null
+- candidate_id: q0053
+  status: accepted
+  original_text: 'Why does features of xts: time based subsetting. from there you''ll
+    explore additional matter?'
+  final_text: 'Why does features of xts: time based subsetting. from there you''ll
+    explore additional matter?'
+  reject_reason: null
+- candidate_id: q0054
+  status: repaired
+  original_text: 'Why do we use features of xts: time based subsetting. from there
+    you''ll explore additional?'
+  final_text: 'Why does features of xts: time based subsetting. from there you''ll
+    explore additional?'
+  reject_reason: null
+- candidate_id: q0055
+  status: accepted
+  original_text: 'What is a simple example of features of xts: time based subsetting.
+    from there you''ll explore additional?'
+  final_text: 'What is a simple example of features of xts: time based subsetting.
+    from there you''ll explore additional?'
+  reject_reason: null
+- candidate_id: q0056
+  status: accepted
+  original_text: What is ways to extract data using time phrases?
+  final_text: What is ways to extract data using time phrases?
+  reject_reason: null
+- candidate_id: q0057
+  status: accepted
+  original_text: What does ways to extract data using time phrases mean?
+  final_text: What does ways to extract data using time phrases mean?
+  reject_reason: null
+- candidate_id: q0058
+  status: accepted
+  original_text: Why does ways to extract data using time phrases matter?
+  final_text: Why does ways to extract data using time phrases matter?
+  reject_reason: null
+- candidate_id: q0059
+  status: repaired
+  original_text: Why do we use ways to extract data using time phrases?
+  final_text: Why does ways to extract data using time phrases?
+  reject_reason: null
+- candidate_id: q0060
+  status: accepted
+  original_text: What is a simple example of ways to extract data using time phrases?
+  final_text: What is a simple example of ways to extract data using time phrases?
+  reject_reason: null
+- candidate_id: q0061
+  status: accepted
+  original_text: What is conclude with how to do basic?
+  final_text: What is conclude with how to do basic?
+  reject_reason: null
+- candidate_id: q0062
+  status: accepted
+  original_text: What does conclude with how to do basic mean?
+  final_text: What does conclude with how to do basic mean?
+  reject_reason: null
+- candidate_id: q0063
+  status: accepted
+  original_text: Why does conclude with how to do basic matter?
+  final_text: Why does conclude with how to do basic matter?
+  reject_reason: null
+- candidate_id: q0064
+  status: repaired
+  original_text: Why do we use conclude with how to do basic?
+  final_text: Why does conclude with how to do basic?
+  reject_reason: null
+- candidate_id: q0065
+  status: accepted
+  original_text: What is a simple example of conclude with how to do basic?
+  final_text: What is a simple example of conclude with how to do basic?
+  reject_reason: null
+- candidate_id: q0066
+  status: accepted
+  original_text: How is introduction to extensible time series, using xts different
+    from zoo for time series?
+  final_text: How is introduction to extensible time series, using xts different from
+    zoo for time series?
+  reject_reason: null
+- candidate_id: q0067
+  status: accepted
+  original_text: How is introduction to extensible time series, using xts different
+    from -xts?
+  final_text: How is introduction to extensible time series, using xts different from
+    -xts?
+  reject_reason: null
+- candidate_id: q0068
+  status: accepted
+  original_text: How is introduction to extensible time series, using xts different
+    from zoo are just two of many different types of objects that exist?
+  final_text: How is introduction to extensible time series, using xts different from
+    zoo are just two of many different types of objects that exist?
+  reject_reason: null
+- candidate_id: q0069
+  status: accepted
+  original_text: How is introduction to extensible time series, using xts different
+    from in r. this chapter will introduce basic objects in xts?
+  final_text: How is introduction to extensible time series, using xts different from
+    in r. this chapter will introduce basic objects in xts?
+  reject_reason: null
+- candidate_id: q0070
+  status: accepted
+  original_text: How is introduction to extensible time series, using xts different
+    from zoo?
+  final_text: How is introduction to extensible time series, using xts different from
+    zoo?
+  reject_reason: null
+- candidate_id: q0071
+  status: accepted
+  original_text: How is introduction to extensible time series, using xts different
+    from their?
+  final_text: How is introduction to extensible time series, using xts different from
+    their?
+  reject_reason: null
+- candidate_id: q0072
+  status: accepted
+  original_text: How is introduction to extensible time series, using xts different
+    from first order of business - basic manipulations?
+  final_text: How is introduction to extensible time series, using xts different from
+    first order of business - basic manipulations?
+  reject_reason: null
+- candidate_id: q0073
+  status: accepted
+  original_text: How is introduction to extensible time series, using xts different
+    from -now that you can create basic xts objects, it's time to see how powerful?
+  final_text: How is introduction to extensible time series, using xts different from
+    -now that you can create basic xts objects, it's time to see how powerful?
+  reject_reason: null
+- candidate_id: q0074
+  status: accepted
+  original_text: How is introduction to extensible time series, using xts different
+    from they can be. this chapter will cover basics of one of most useful?
+  final_text: How is introduction to extensible time series, using xts different from
+    they can be. this chapter will cover basics of one of most useful?
+  reject_reason: null
+- candidate_id: q0075
+  status: accepted
+  original_text: How is zoo for time series different from -xts?
+  final_text: How is zoo for time series different from -xts?
+  reject_reason: null
+- candidate_id: q0076
+  status: accepted
+  original_text: How is zoo for time series different from zoo are just two of many
+    different types of objects that exist?
+  final_text: How is zoo for time series different from zoo are just two of many different
+    types of objects that exist?
+  reject_reason: null
+- candidate_id: q0077
+  status: accepted
+  original_text: How is zoo for time series different from in r. this chapter will
+    introduce basic objects in xts?
+  final_text: How is zoo for time series different from in r. this chapter will introduce
+    basic objects in xts?
+  reject_reason: null
+- candidate_id: q0078
+  status: accepted
+  original_text: How is zoo for time series different from zoo?
+  final_text: How is zoo for time series different from zoo?
+  reject_reason: null
+- candidate_id: q0079
+  status: accepted
+  original_text: How is zoo for time series different from their?
+  final_text: How is zoo for time series different from their?
+  reject_reason: null
+- candidate_id: q0080
+  status: accepted
+  original_text: How is zoo for time series different from first order of business
+    - basic manipulations?
+  final_text: How is zoo for time series different from first order of business -
+    basic manipulations?
+  reject_reason: null
+- candidate_id: q0081
+  status: accepted
+  original_text: How is zoo for time series different from -now that you can create
+    basic xts objects, it's time to see how powerful?
+  final_text: How is zoo for time series different from -now that you can create basic
+    xts objects, it's time to see how powerful?
+  reject_reason: null
+- candidate_id: q0082
+  status: accepted
+  original_text: How is zoo for time series different from they can be. this chapter
+    will cover basics of one of most useful?
+  final_text: How is zoo for time series different from they can be. this chapter
+    will cover basics of one of most useful?
+  reject_reason: null
+- candidate_id: q0083
+  status: accepted
+  original_text: How is -xts different from zoo are just two of many different types
+    of objects that exist?
+  final_text: How is -xts different from zoo are just two of many different types
+    of objects that exist?
+  reject_reason: null
+- candidate_id: q0084
+  status: accepted
+  original_text: How is -xts different from in r. this chapter will introduce basic
+    objects in xts?
+  final_text: How is -xts different from in r. this chapter will introduce basic objects
+    in xts?
+  reject_reason: null
+- candidate_id: q0085
+  status: accepted
+  original_text: How is -xts different from zoo?
+  final_text: How is -xts different from zoo?
+  reject_reason: null
+- candidate_id: q0086
+  status: accepted
+  original_text: How is -xts different from their?
+  final_text: How is -xts different from their?
+  reject_reason: null
+- candidate_id: q0087
+  status: accepted
+  original_text: How is -xts different from first order of business - basic manipulations?
+  final_text: How is -xts different from first order of business - basic manipulations?
+  reject_reason: null
+- candidate_id: q0088
+  status: accepted
+  original_text: How is -xts different from -now that you can create basic xts objects,
+    it's time to see how powerful?
+  final_text: How is -xts different from -now that you can create basic xts objects,
+    it's time to see how powerful?
+  reject_reason: null
+- candidate_id: q0089
+  status: accepted
+  original_text: How is -xts different from they can be. this chapter will cover basics
+    of one of most useful?
+  final_text: How is -xts different from they can be. this chapter will cover basics
+    of one of most useful?
+  reject_reason: null
+- candidate_id: q0090
+  status: accepted
+  original_text: How is zoo are just two of many different types of objects that exist
+    different from in r. this chapter will introduce basic objects in xts?
+  final_text: How is zoo are just two of many different types of objects that exist
+    different from in r. this chapter will introduce basic objects in xts?
+  reject_reason: null
+- candidate_id: q0091
+  status: accepted
+  original_text: How is zoo are just two of many different types of objects that exist
+    different from zoo?
+  final_text: How is zoo are just two of many different types of objects that exist
+    different from zoo?
+  reject_reason: null
+- candidate_id: q0092
+  status: accepted
+  original_text: How is zoo are just two of many different types of objects that exist
+    different from their?
+  final_text: How is zoo are just two of many different types of objects that exist
+    different from their?
+  reject_reason: null
+- candidate_id: q0093
+  status: accepted
+  original_text: How is zoo are just two of many different types of objects that exist
+    different from first order of business - basic manipulations?
+  final_text: How is zoo are just two of many different types of objects that exist
+    different from first order of business - basic manipulations?
+  reject_reason: null
+- candidate_id: q0094
+  status: accepted
+  original_text: How is zoo are just two of many different types of objects that exist
+    different from -now that you can create basic xts objects, it's time to see how
+    powerful?
+  final_text: How is zoo are just two of many different types of objects that exist
+    different from -now that you can create basic xts objects, it's time to see how
+    powerful?
+  reject_reason: null
+- candidate_id: q0095
+  status: accepted
+  original_text: How is zoo are just two of many different types of objects that exist
+    different from they can be. this chapter will cover basics of one of most useful?
+  final_text: How is zoo are just two of many different types of objects that exist
+    different from they can be. this chapter will cover basics of one of most useful?
+  reject_reason: null
+- candidate_id: q0096
+  status: accepted
+  original_text: How is in r. this chapter will introduce basic objects in xts different
+    from zoo?
+  final_text: How is in r. this chapter will introduce basic objects in xts different
+    from zoo?
+  reject_reason: null
+- candidate_id: q0097
+  status: accepted
+  original_text: How is in r. this chapter will introduce basic objects in xts different
+    from their?
+  final_text: How is in r. this chapter will introduce basic objects in xts different
+    from their?
+  reject_reason: null
+- candidate_id: q0098
+  status: accepted
+  original_text: How is in r. this chapter will introduce basic objects in xts different
+    from first order of business - basic manipulations?
+  final_text: How is in r. this chapter will introduce basic objects in xts different
+    from first order of business - basic manipulations?
+  reject_reason: null
+- candidate_id: q0099
+  status: accepted
+  original_text: How is in r. this chapter will introduce basic objects in xts different
+    from -now that you can create basic xts objects, it's time to see how powerful?
+  final_text: How is in r. this chapter will introduce basic objects in xts different
+    from -now that you can create basic xts objects, it's time to see how powerful?
+  reject_reason: null
+- candidate_id: q0100
+  status: accepted
+  original_text: How is in r. this chapter will introduce basic objects in xts different
+    from they can be. this chapter will cover basics of one of most useful?
+  final_text: How is in r. this chapter will introduce basic objects in xts different
+    from they can be. this chapter will cover basics of one of most useful?
+  reject_reason: null
+- candidate_id: q0101
+  status: accepted
+  original_text: How is zoo different from their?
+  final_text: How is zoo different from their?
+  reject_reason: null
+- candidate_id: q0102
+  status: accepted
+  original_text: How is zoo different from first order of business - basic manipulations?
+  final_text: How is zoo different from first order of business - basic manipulations?
+  reject_reason: null
+- candidate_id: q0103
+  status: accepted
+  original_text: How is zoo different from -now that you can create basic xts objects,
+    it's time to see how powerful?
+  final_text: How is zoo different from -now that you can create basic xts objects,
+    it's time to see how powerful?
+  reject_reason: null
+- candidate_id: q0104
+  status: accepted
+  original_text: How is zoo different from they can be. this chapter will cover basics
+    of one of most useful?
+  final_text: How is zoo different from they can be. this chapter will cover basics
+    of one of most useful?
+  reject_reason: null
+- candidate_id: q0105
+  status: accepted
+  original_text: How is their different from first order of business - basic manipulations?
+  final_text: How is their different from first order of business - basic manipulations?
+  reject_reason: null
+- candidate_id: q0106
+  status: accepted
+  original_text: How is their different from -now that you can create basic xts objects,
+    it's time to see how powerful?
+  final_text: How is their different from -now that you can create basic xts objects,
+    it's time to see how powerful?
+  reject_reason: null
+- candidate_id: q0107
+  status: accepted
+  original_text: How is their different from they can be. this chapter will cover
+    basics of one of most useful?
+  final_text: How is their different from they can be. this chapter will cover basics
+    of one of most useful?
+  reject_reason: null
+- candidate_id: q0108
+  status: accepted
+  original_text: How is first order of business - basic manipulations different from
+    -now that you can create basic xts objects, it's time to see how powerful?
+  final_text: How is first order of business - basic manipulations different from
+    -now that you can create basic xts objects, it's time to see how powerful?
+  reject_reason: null
+- candidate_id: q0109
+  status: accepted
+  original_text: How is first order of business - basic manipulations different from
+    they can be. this chapter will cover basics of one of most useful?
+  final_text: How is first order of business - basic manipulations different from
+    they can be. this chapter will cover basics of one of most useful?
+  reject_reason: null
+- candidate_id: q0110
+  status: accepted
+  original_text: How is -now that you can create basic xts objects, it's time to see
+    how powerful different from they can be. this chapter will cover basics of one
+    of most useful?
+  final_text: How is -now that you can create basic xts objects, it's time to see
+    how powerful different from they can be. this chapter will cover basics of one
+    of most useful?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is introduction to extensible time series, using xts?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does introduction to extensible time series, using xts mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does introduction to extensible time series, using xts matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does introduction to extensible time series, using xts?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of introduction to extensible time series,
+    using xts?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is zoo for time series?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does zoo for time series mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does zoo for time series matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does zoo for time series?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of zoo for time series?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is -xts?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does -xts mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does -xts matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does -xts?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of -xts?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is zoo are just two of many different types of objects that
+    exist?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does zoo are just two of many different types of objects that
+    exist mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does zoo are just two of many different types of objects that
+    exist matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does zoo are just two of many different types of objects that
+    exist?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of zoo are just two of many different types
+    of objects that exist?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: What is in r. this chapter will introduce basic objects in xts?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: What does in r. this chapter will introduce basic objects in xts
+    mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: Why does in r. this chapter will introduce basic objects in xts matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: Why does in r. this chapter will introduce basic objects in xts?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: What is a simple example of in r. this chapter will introduce basic
+    objects in xts?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: What is zoo?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0027
+  question_text: What does zoo mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0028
+  question_text: Why does zoo matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0029
+  question_text: Why does zoo?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0030
+  question_text: What is a simple example of zoo?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0031
+  question_text: What is their?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0032
+  question_text: What does their mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0033
+  question_text: Why does their matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0034
+  question_text: Why does their?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0035
+  question_text: What is a simple example of their?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0036
+  question_text: What is first order of business - basic manipulations?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0037
+  question_text: What does first order of business - basic manipulations mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0038
+  question_text: Why does first order of business - basic manipulations matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0039
+  question_text: Why does first order of business - basic manipulations?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0040
+  question_text: What is a simple example of first order of business - basic manipulations?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0041
+  question_text: What is -now that you can create basic xts objects, it's time to
+    see how powerful?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0042
+  question_text: What does -now that you can create basic xts objects, it's time to
+    see how powerful mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0043
+  question_text: Why does -now that you can create basic xts objects, it's time to
+    see how powerful matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0044
+  question_text: Why does -now that you can create basic xts objects, it's time to
+    see how powerful?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0045
+  question_text: What is a simple example of -now that you can create basic xts objects,
+    it's time to see how powerful?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0046
+  question_text: What is they can be. this chapter will cover basics of one of most
+    useful?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0047
+  question_text: What does they can be. this chapter will cover basics of one of most
+    useful mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0048
+  question_text: Why does they can be. this chapter will cover basics of one of most
+    useful matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0049
+  question_text: Why does they can be. this chapter will cover basics of one of most
+    useful?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0050
+  question_text: What is a simple example of they can be. this chapter will cover
+    basics of one of most useful?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0051
+  question_text: 'What is features of xts: time based subsetting. from there you''ll
+    explore additional?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0052
+  question_text: 'What does features of xts: time based subsetting. from there you''ll
+    explore additional mean?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0053
+  question_text: 'Why does features of xts: time based subsetting. from there you''ll
+    explore additional matter?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0054
+  question_text: 'Why does features of xts: time based subsetting. from there you''ll
+    explore additional?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0055
+  question_text: 'What is a simple example of features of xts: time based subsetting.
+    from there you''ll explore additional?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0056
+  question_text: What is ways to extract data using time phrases?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0057
+  question_text: What does ways to extract data using time phrases mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0058
+  question_text: Why does ways to extract data using time phrases matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0059
+  question_text: Why does ways to extract data using time phrases?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0060
+  question_text: What is a simple example of ways to extract data using time phrases?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0061
+  question_text: What is conclude with how to do basic?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0062
+  question_text: What does conclude with how to do basic mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0063
+  question_text: Why does conclude with how to do basic matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0064
+  question_text: Why does conclude with how to do basic?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0065
+  question_text: What is a simple example of conclude with how to do basic?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0066
+  question_text: How is introduction to extensible time series, using xts different
+    from zoo for time series?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0067
+  question_text: How is introduction to extensible time series, using xts different
+    from -xts?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0068
+  question_text: How is introduction to extensible time series, using xts different
+    from zoo are just two of many different types of objects that exist?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0069
+  question_text: How is introduction to extensible time series, using xts different
+    from in r. this chapter will introduce basic objects in xts?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0070
+  question_text: How is introduction to extensible time series, using xts different
+    from zoo?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0071
+  question_text: How is introduction to extensible time series, using xts different
+    from their?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0072
+  question_text: How is introduction to extensible time series, using xts different
+    from first order of business - basic manipulations?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0073
+  question_text: How is introduction to extensible time series, using xts different
+    from -now that you can create basic xts objects, it's time to see how powerful?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0074
+  question_text: How is introduction to extensible time series, using xts different
+    from they can be. this chapter will cover basics of one of most useful?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0075
+  question_text: How is zoo for time series different from -xts?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0076
+  question_text: How is zoo for time series different from zoo are just two of many
+    different types of objects that exist?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0077
+  question_text: How is zoo for time series different from in r. this chapter will
+    introduce basic objects in xts?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0078
+  question_text: How is zoo for time series different from zoo?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0079
+  question_text: How is zoo for time series different from their?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0080
+  question_text: How is zoo for time series different from first order of business
+    - basic manipulations?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0081
+  question_text: How is zoo for time series different from -now that you can create
+    basic xts objects, it's time to see how powerful?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0082
+  question_text: How is zoo for time series different from they can be. this chapter
+    will cover basics of one of most useful?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0083
+  question_text: How is -xts different from zoo are just two of many different types
+    of objects that exist?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0084
+  question_text: How is -xts different from in r. this chapter will introduce basic
+    objects in xts?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0085
+  question_text: How is -xts different from zoo?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0086
+  question_text: How is -xts different from their?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0087
+  question_text: How is -xts different from first order of business - basic manipulations?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0088
+  question_text: How is -xts different from -now that you can create basic xts objects,
+    it's time to see how powerful?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0089
+  question_text: How is -xts different from they can be. this chapter will cover basics
+    of one of most useful?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0090
+  question_text: How is zoo are just two of many different types of objects that exist
+    different from in r. this chapter will introduce basic objects in xts?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0091
+  question_text: How is zoo are just two of many different types of objects that exist
+    different from zoo?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0092
+  question_text: How is zoo are just two of many different types of objects that exist
+    different from their?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0093
+  question_text: How is zoo are just two of many different types of objects that exist
+    different from first order of business - basic manipulations?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0094
+  question_text: How is zoo are just two of many different types of objects that exist
+    different from -now that you can create basic xts objects, it's time to see how
+    powerful?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0095
+  question_text: How is zoo are just two of many different types of objects that exist
+    different from they can be. this chapter will cover basics of one of most useful?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0096
+  question_text: How is in r. this chapter will introduce basic objects in xts different
+    from zoo?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0097
+  question_text: How is in r. this chapter will introduce basic objects in xts different
+    from their?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0098
+  question_text: How is in r. this chapter will introduce basic objects in xts different
+    from first order of business - basic manipulations?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0099
+  question_text: How is in r. this chapter will introduce basic objects in xts different
+    from -now that you can create basic xts objects, it's time to see how powerful?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0100
+  question_text: How is in r. this chapter will introduce basic objects in xts different
+    from they can be. this chapter will cover basics of one of most useful?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0101
+  question_text: How is zoo different from their?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0102
+  question_text: How is zoo different from first order of business - basic manipulations?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0103
+  question_text: How is zoo different from -now that you can create basic xts objects,
+    it's time to see how powerful?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0104
+  question_text: How is zoo different from they can be. this chapter will cover basics
+    of one of most useful?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0105
+  question_text: How is their different from first order of business - basic manipulations?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0106
+  question_text: How is their different from -now that you can create basic xts objects,
+    it's time to see how powerful?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0107
+  question_text: How is their different from they can be. this chapter will cover
+    basics of one of most useful?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0108
+  question_text: How is first order of business - basic manipulations different from
+    -now that you can create basic xts objects, it's time to see how powerful?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0109
+  question_text: How is first order of business - basic manipulations different from
+    they can be. this chapter will cover basics of one of most useful?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0110
+  question_text: How is -now that you can create basic xts objects, it's time to see
+    how powerful different from they can be. this chapter will cover basics of one
+    of most useful?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - introduction to extensible time series, using xts
+  question_text: What is introduction to extensible time series, using xts?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - introduction to extensible time series, using xts
+  question_text: What does introduction to extensible time series, using xts mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - introduction to extensible time series, using xts
+  question_text: Why does introduction to extensible time series, using xts matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - introduction to extensible time series, using xts
+  question_text: Why does introduction to extensible time series, using xts?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - introduction to extensible time series, using xts
+  question_text: What is a simple example of introduction to extensible time series,
+    using xts?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - zoo for time series
+  question_text: What is zoo for time series?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - zoo for time series
+  question_text: What does zoo for time series mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - zoo for time series
+  question_text: Why does zoo for time series matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - zoo for time series
+  question_text: Why does zoo for time series?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - zoo for time series
+  question_text: What is a simple example of zoo for time series?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - -xts
+  question_text: What is -xts?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - -xts
+  question_text: What does -xts mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - -xts
+  question_text: Why does -xts matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - -xts
+  question_text: Why does -xts?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - -xts
+  question_text: What is a simple example of -xts?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - zoo are just two of many different types of objects that exist
+  question_text: What is zoo are just two of many different types of objects that
+    exist?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - zoo are just two of many different types of objects that exist
+  question_text: What does zoo are just two of many different types of objects that
+    exist mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - zoo are just two of many different types of objects that exist
+  question_text: Why does zoo are just two of many different types of objects that
+    exist matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - zoo are just two of many different types of objects that exist
+  question_text: Why does zoo are just two of many different types of objects that
+    exist?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - zoo are just two of many different types of objects that exist
+  question_text: What is a simple example of zoo are just two of many different types
+    of objects that exist?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - in r. this chapter will introduce basic objects in xts
+  question_text: What is in r. this chapter will introduce basic objects in xts?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - in r. this chapter will introduce basic objects in xts
+  question_text: What does in r. this chapter will introduce basic objects in xts
+    mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - in r. this chapter will introduce basic objects in xts
+  question_text: Why does in r. this chapter will introduce basic objects in xts matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - in r. this chapter will introduce basic objects in xts
+  question_text: Why does in r. this chapter will introduce basic objects in xts?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - in r. this chapter will introduce basic objects in xts
+  question_text: What is a simple example of in r. this chapter will introduce basic
+    objects in xts?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - zoo
+  question_text: What is zoo?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000027
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - zoo
+  question_text: What does zoo mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000028
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - zoo
+  question_text: Why does zoo matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000029
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - zoo
+  question_text: Why does zoo?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000030
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - zoo
+  question_text: What is a simple example of zoo?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000031
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - their
+  question_text: What is their?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000032
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - their
+  question_text: What does their mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000033
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - their
+  question_text: Why does their matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000034
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - their
+  question_text: Why does their?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000035
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - their
+  question_text: What is a simple example of their?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000036
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - first order of business - basic manipulations
+  question_text: What is first order of business - basic manipulations?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000037
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - first order of business - basic manipulations
+  question_text: What does first order of business - basic manipulations mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000038
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - first order of business - basic manipulations
+  question_text: Why does first order of business - basic manipulations matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000039
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - first order of business - basic manipulations
+  question_text: Why does first order of business - basic manipulations?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000040
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - first order of business - basic manipulations
+  question_text: What is a simple example of first order of business - basic manipulations?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000041
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - -now that you can create basic xts objects, it's time to see how powerful
+  question_text: What is -now that you can create basic xts objects, it's time to
+    see how powerful?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000042
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - -now that you can create basic xts objects, it's time to see how powerful
+  question_text: What does -now that you can create basic xts objects, it's time to
+    see how powerful mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000043
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - -now that you can create basic xts objects, it's time to see how powerful
+  question_text: Why does -now that you can create basic xts objects, it's time to
+    see how powerful matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000044
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - -now that you can create basic xts objects, it's time to see how powerful
+  question_text: Why does -now that you can create basic xts objects, it's time to
+    see how powerful?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000045
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - -now that you can create basic xts objects, it's time to see how powerful
+  question_text: What is a simple example of -now that you can create basic xts objects,
+    it's time to see how powerful?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000046
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - they can be. this chapter will cover basics of one of most useful
+  question_text: What is they can be. this chapter will cover basics of one of most
+    useful?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000047
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - they can be. this chapter will cover basics of one of most useful
+  question_text: What does they can be. this chapter will cover basics of one of most
+    useful mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000048
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - they can be. this chapter will cover basics of one of most useful
+  question_text: Why does they can be. this chapter will cover basics of one of most
+    useful matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000049
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - they can be. this chapter will cover basics of one of most useful
+  question_text: Why does they can be. this chapter will cover basics of one of most
+    useful?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000050
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - they can be. this chapter will cover basics of one of most useful
+  question_text: What is a simple example of they can be. this chapter will cover
+    basics of one of most useful?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000051
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - 'features of xts: time based subsetting. from there you''ll explore additional'
+  question_text: 'What is features of xts: time based subsetting. from there you''ll
+    explore additional?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000052
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - 'features of xts: time based subsetting. from there you''ll explore additional'
+  question_text: 'What does features of xts: time based subsetting. from there you''ll
+    explore additional mean?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000053
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - 'features of xts: time based subsetting. from there you''ll explore additional'
+  question_text: 'Why does features of xts: time based subsetting. from there you''ll
+    explore additional matter?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000054
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - 'features of xts: time based subsetting. from there you''ll explore additional'
+  question_text: 'Why does features of xts: time based subsetting. from there you''ll
+    explore additional?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000055
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - 'features of xts: time based subsetting. from there you''ll explore additional'
+  question_text: 'What is a simple example of features of xts: time based subsetting.
+    from there you''ll explore additional?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000056
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - ways to extract data using time phrases
+  question_text: What is ways to extract data using time phrases?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000057
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - ways to extract data using time phrases
+  question_text: What does ways to extract data using time phrases mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000058
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - ways to extract data using time phrases
+  question_text: Why does ways to extract data using time phrases matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000059
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - ways to extract data using time phrases
+  question_text: Why does ways to extract data using time phrases?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000060
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - ways to extract data using time phrases
+  question_text: What is a simple example of ways to extract data using time phrases?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000061
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - conclude with how to do basic
+  question_text: What is conclude with how to do basic?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000062
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - conclude with how to do basic
+  question_text: What does conclude with how to do basic mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000063
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - conclude with how to do basic
+  question_text: Why does conclude with how to do basic matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000064
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - conclude with how to do basic
+  question_text: Why does conclude with how to do basic?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000065
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - conclude with how to do basic
+  question_text: What is a simple example of conclude with how to do basic?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000066
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - introduction to extensible time series, using xts
+  - zoo for time series
+  question_text: How is introduction to extensible time series, using xts different
+    from zoo for time series?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000067
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - introduction to extensible time series, using xts
+  - -xts
+  question_text: How is introduction to extensible time series, using xts different
+    from -xts?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000068
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - introduction to extensible time series, using xts
+  - zoo are just two of many different types of objects that exist
+  question_text: How is introduction to extensible time series, using xts different
+    from zoo are just two of many different types of objects that exist?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000069
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - introduction to extensible time series, using xts
+  - in r. this chapter will introduce basic objects in xts
+  question_text: How is introduction to extensible time series, using xts different
+    from in r. this chapter will introduce basic objects in xts?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000070
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - introduction to extensible time series, using xts
+  - zoo
+  question_text: How is introduction to extensible time series, using xts different
+    from zoo?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000071
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - introduction to extensible time series, using xts
+  - their
+  question_text: How is introduction to extensible time series, using xts different
+    from their?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000072
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - introduction to extensible time series, using xts
+  - first order of business - basic manipulations
+  question_text: How is introduction to extensible time series, using xts different
+    from first order of business - basic manipulations?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000073
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - introduction to extensible time series, using xts
+  - -now that you can create basic xts objects, it's time to see how powerful
+  question_text: How is introduction to extensible time series, using xts different
+    from -now that you can create basic xts objects, it's time to see how powerful?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000074
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - introduction to extensible time series, using xts
+  - they can be. this chapter will cover basics of one of most useful
+  question_text: How is introduction to extensible time series, using xts different
+    from they can be. this chapter will cover basics of one of most useful?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000075
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - zoo for time series
+  - -xts
+  question_text: How is zoo for time series different from -xts?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000076
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - zoo for time series
+  - zoo are just two of many different types of objects that exist
+  question_text: How is zoo for time series different from zoo are just two of many
+    different types of objects that exist?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000077
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - zoo for time series
+  - in r. this chapter will introduce basic objects in xts
+  question_text: How is zoo for time series different from in r. this chapter will
+    introduce basic objects in xts?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000078
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - zoo for time series
+  - zoo
+  question_text: How is zoo for time series different from zoo?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000079
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - zoo for time series
+  - their
+  question_text: How is zoo for time series different from their?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000080
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - zoo for time series
+  - first order of business - basic manipulations
+  question_text: How is zoo for time series different from first order of business
+    - basic manipulations?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000081
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - zoo for time series
+  - -now that you can create basic xts objects, it's time to see how powerful
+  question_text: How is zoo for time series different from -now that you can create
+    basic xts objects, it's time to see how powerful?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000082
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - zoo for time series
+  - they can be. this chapter will cover basics of one of most useful
+  question_text: How is zoo for time series different from they can be. this chapter
+    will cover basics of one of most useful?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000083
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - -xts
+  - zoo are just two of many different types of objects that exist
+  question_text: How is -xts different from zoo are just two of many different types
+    of objects that exist?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000084
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - -xts
+  - in r. this chapter will introduce basic objects in xts
+  question_text: How is -xts different from in r. this chapter will introduce basic
+    objects in xts?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000085
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - -xts
+  - zoo
+  question_text: How is -xts different from zoo?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000086
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - -xts
+  - their
+  question_text: How is -xts different from their?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000087
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - -xts
+  - first order of business - basic manipulations
+  question_text: How is -xts different from first order of business - basic manipulations?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000088
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - -xts
+  - -now that you can create basic xts objects, it's time to see how powerful
+  question_text: How is -xts different from -now that you can create basic xts objects,
+    it's time to see how powerful?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000089
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - -xts
+  - they can be. this chapter will cover basics of one of most useful
+  question_text: How is -xts different from they can be. this chapter will cover basics
+    of one of most useful?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000090
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - zoo are just two of many different types of objects that exist
+  - in r. this chapter will introduce basic objects in xts
+  question_text: How is zoo are just two of many different types of objects that exist
+    different from in r. this chapter will introduce basic objects in xts?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000091
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - zoo are just two of many different types of objects that exist
+  - zoo
+  question_text: How is zoo are just two of many different types of objects that exist
+    different from zoo?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000092
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - zoo are just two of many different types of objects that exist
+  - their
+  question_text: How is zoo are just two of many different types of objects that exist
+    different from their?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000093
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - zoo are just two of many different types of objects that exist
+  - first order of business - basic manipulations
+  question_text: How is zoo are just two of many different types of objects that exist
+    different from first order of business - basic manipulations?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000094
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - zoo are just two of many different types of objects that exist
+  - -now that you can create basic xts objects, it's time to see how powerful
+  question_text: How is zoo are just two of many different types of objects that exist
+    different from -now that you can create basic xts objects, it's time to see how
+    powerful?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000095
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - zoo are just two of many different types of objects that exist
+  - they can be. this chapter will cover basics of one of most useful
+  question_text: How is zoo are just two of many different types of objects that exist
+    different from they can be. this chapter will cover basics of one of most useful?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000096
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - in r. this chapter will introduce basic objects in xts
+  - zoo
+  question_text: How is in r. this chapter will introduce basic objects in xts different
+    from zoo?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000097
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - in r. this chapter will introduce basic objects in xts
+  - their
+  question_text: How is in r. this chapter will introduce basic objects in xts different
+    from their?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000098
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - in r. this chapter will introduce basic objects in xts
+  - first order of business - basic manipulations
+  question_text: How is in r. this chapter will introduce basic objects in xts different
+    from first order of business - basic manipulations?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000099
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - in r. this chapter will introduce basic objects in xts
+  - -now that you can create basic xts objects, it's time to see how powerful
+  question_text: How is in r. this chapter will introduce basic objects in xts different
+    from -now that you can create basic xts objects, it's time to see how powerful?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000100
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - in r. this chapter will introduce basic objects in xts
+  - they can be. this chapter will cover basics of one of most useful
+  question_text: How is in r. this chapter will introduce basic objects in xts different
+    from they can be. this chapter will cover basics of one of most useful?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000101
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - zoo
+  - their
+  question_text: How is zoo different from their?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000102
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - zoo
+  - first order of business - basic manipulations
+  question_text: How is zoo different from first order of business - basic manipulations?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000103
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - zoo
+  - -now that you can create basic xts objects, it's time to see how powerful
+  question_text: How is zoo different from -now that you can create basic xts objects,
+    it's time to see how powerful?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000104
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - zoo
+  - they can be. this chapter will cover basics of one of most useful
+  question_text: How is zoo different from they can be. this chapter will cover basics
+    of one of most useful?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000105
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - their
+  - first order of business - basic manipulations
+  question_text: How is their different from first order of business - basic manipulations?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000106
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - their
+  - -now that you can create basic xts objects, it's time to see how powerful
+  question_text: How is their different from -now that you can create basic xts objects,
+    it's time to see how powerful?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000107
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - their
+  - they can be. this chapter will cover basics of one of most useful
+  question_text: How is their different from they can be. this chapter will cover
+    basics of one of most useful?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000108
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - first order of business - basic manipulations
+  - -now that you can create basic xts objects, it's time to see how powerful
+  question_text: How is first order of business - basic manipulations different from
+    -now that you can create basic xts objects, it's time to see how powerful?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000109
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - first order of business - basic manipulations
+  - they can be. this chapter will cover basics of one of most useful
+  question_text: How is first order of business - basic manipulations different from
+    they can be. this chapter will cover basics of one of most useful?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000110
+  course:
+    course_id: '24508'
+    title: ways to extract data using time phrases, and conclude with how to do basic
+  relevant_topics:
+  - -now that you can create basic xts objects, it's time to see how powerful
+  - they can be. this chapter will cover basics of one of most useful
+  question_text: How is -now that you can create basic xts objects, it's time to see
+    how powerful different from they can be. this chapter will cover basics of one
+    of most useful?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 13
+  canonical_topic_count: 13
+  candidate_count: 110
+  accepted_count: 110
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 110

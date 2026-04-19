@@ -1,0 +1,1080 @@
+course_id: '24663'
+title: Loan Amortization in Google Sheets
+normalized_course:
+  course_id: '24663'
+  title: Loan Amortization in Google Sheets
+  provider: DataCamp
+  summary: 'Learn how to build an amortization dashboard in Google Sheets with financial
+
+    and conditional formulas.'
+  overview: 'Learn how to build an amortization dashboard in Google Sheets with financial
+
+    and conditional formulas.
+
+
+    A loan amortization schedule is often perceived as a tool exclusively for
+
+    bankers and financial traders. However, this course aims to debunk this
+
+    misconception by introducing the practical applications of amortization
+
+    schedules in everyday life. We will explore the fundamental concepts of loan
+
+    amortization and its relevance not just in the banking sector, but for
+
+    individual financial management as well.
+
+
+    Mastering Financial Formulas in Google Sheets
+
+
+    This course delves deep into the world of key financial formulas within
+
+    Google Sheets. Participants will learn how to utilize these formulas to
+
+    examine and manage various types of personal loans, such as student loans,
+
+    car loans, and mortgages. The focus will be on empowering users with the
+
+    skills to make informed decisions about their loans and financial health by
+
+    leveraging the powerful features of Google Sheets.
+
+
+    Creating a Dynamic Loan Dashboard
+
+
+    One of the highlights of this course is the development of a comprehensive
+
+    dashboard in Google Sheets. This dashboard will incorporate advanced
+
+    techniques such as visualizations and conditional formulas. Participants
+
+    will gain hands-on experience in creating presentation-ready spreadsheets
+
+    that are not only functional but also visually appealing. These skills are
+
+    designed to impress finance managers and elevate your understanding of
+
+    financial management to a professional level.'
+  chapters:
+  - chapter_index: 1
+    title: Introduction to Financial Concepts in Google Sheets
+    summary: 'In this first chapter, you will learn all the basic financial
+
+      formulas in Google Sheets that are needed to build up your first
+
+      loan amortization spreadsheet for a student loan. This chapter will
+
+      introduce calculations for principal payment, interest and principal
+
+      at a given point in time.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 2
+    title: Creating an Amortization Schedule
+    summary: 'This chapter is focused on extending the payment formulas to the
+
+      full length of a loan. By the end of the chapter, you will be able
+
+      to create a fully functional schedule and will be able to verify the
+
+      accuracy of the calculations on the schedule.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 3
+    title: Making a Loan Amortization Dashboard
+    summary: 'This chapter is about taking the amortization schedule that you
+
+      created in Chapter 2 and converting it into a fully functional loan
+
+      dashboard which can be used by end users. You will create line and
+
+      bar graphs, as well as using input controls and cell protection to
+
+      ensure that end users will only be able to change what you want them
+
+      to change!'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 4
+    title: Non-standard amortization schedules
+    summary: 'The final chapter introduces real-world adjustments which are made
+
+      to amortization schedules. These sorts of adjustments include
+
+      upfront fees and lump sum payments. The course finishes by talking
+
+      about floating rate mortgages, the maximum interest rate on floating
+
+      loans and negative amortization.'
+    source: syllabus
+    confidence: 1.0
+  metadata:
+    level: Intermediate
+    duration_hours: 4 hours
+    subjects:
+    - Accounting
+    - Google Sheets
+    - Financial Analysis
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: introduction to financial concepts in google sheets
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: introduction to financial concepts
+    in google sheets'
+  evidence:
+  - source: syllabus
+    text: Introduction to Financial Concepts in Google Sheets
+  confidence: 0.45
+- topic_id: t002
+  label: creating an amortization schedule
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: creating an amortization schedule'
+  evidence:
+  - source: syllabus
+    text: Creating an Amortization Schedule
+  confidence: 0.45
+- topic_id: t003
+  label: making a loan amortization dashboard
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: making a loan amortization dashboard'
+  evidence:
+  - source: syllabus
+    text: Making a Loan Amortization Dashboard
+  confidence: 0.45
+- topic_id: t004
+  label: non-standard amortization schedules
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: non-standard amortization schedules'
+  evidence:
+  - source: syllabus
+    text: Non-standard amortization schedules
+  confidence: 0.45
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: introduction to financial concepts in google sheets
+  aliases:
+  - introduction to financial concepts in google sheets
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: creating an amortization schedule
+  aliases:
+  - creating an amortization schedule
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: making a loan amortization dashboard
+  aliases:
+  - making a loan amortization dashboard
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: non-standard amortization schedules
+  aliases:
+  - non-standard amortization schedules
+  member_topic_ids:
+  - t004
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - introduction to financial concepts in google sheets
+  family: entry
+  pattern: What is {x}?
+  question_text: What is introduction to financial concepts in google sheets?
+- candidate_id: q0002
+  relevant_topics:
+  - introduction to financial concepts in google sheets
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does introduction to financial concepts in google sheets mean?
+- candidate_id: q0003
+  relevant_topics:
+  - introduction to financial concepts in google sheets
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does introduction to financial concepts in google sheets matter?
+- candidate_id: q0004
+  relevant_topics:
+  - introduction to financial concepts in google sheets
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use introduction to financial concepts in google sheets?
+- candidate_id: q0005
+  relevant_topics:
+  - introduction to financial concepts in google sheets
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of introduction to financial concepts in
+    google sheets?
+- candidate_id: q0006
+  relevant_topics:
+  - creating an amortization schedule
+  family: entry
+  pattern: What is {x}?
+  question_text: What is creating an amortization schedule?
+- candidate_id: q0007
+  relevant_topics:
+  - creating an amortization schedule
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does creating an amortization schedule mean?
+- candidate_id: q0008
+  relevant_topics:
+  - creating an amortization schedule
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does creating an amortization schedule matter?
+- candidate_id: q0009
+  relevant_topics:
+  - creating an amortization schedule
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use creating an amortization schedule?
+- candidate_id: q0010
+  relevant_topics:
+  - creating an amortization schedule
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of creating an amortization schedule?
+- candidate_id: q0011
+  relevant_topics:
+  - making a loan amortization dashboard
+  family: entry
+  pattern: What is {x}?
+  question_text: What is making a loan amortization dashboard?
+- candidate_id: q0012
+  relevant_topics:
+  - making a loan amortization dashboard
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does making a loan amortization dashboard mean?
+- candidate_id: q0013
+  relevant_topics:
+  - making a loan amortization dashboard
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does making a loan amortization dashboard matter?
+- candidate_id: q0014
+  relevant_topics:
+  - making a loan amortization dashboard
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use making a loan amortization dashboard?
+- candidate_id: q0015
+  relevant_topics:
+  - making a loan amortization dashboard
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of making a loan amortization dashboard?
+- candidate_id: q0016
+  relevant_topics:
+  - non-standard amortization schedules
+  family: entry
+  pattern: What is {x}?
+  question_text: What is non-standard amortization schedules?
+- candidate_id: q0017
+  relevant_topics:
+  - non-standard amortization schedules
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does non-standard amortization schedules mean?
+- candidate_id: q0018
+  relevant_topics:
+  - non-standard amortization schedules
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does non-standard amortization schedules matter?
+- candidate_id: q0019
+  relevant_topics:
+  - non-standard amortization schedules
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use non-standard amortization schedules?
+- candidate_id: q0020
+  relevant_topics:
+  - non-standard amortization schedules
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of non-standard amortization schedules?
+- candidate_id: q0021
+  relevant_topics:
+  - introduction to financial concepts in google sheets
+  - creating an amortization schedule
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to financial concepts in google sheets different
+    from creating an amortization schedule?
+- candidate_id: q0022
+  relevant_topics:
+  - introduction to financial concepts in google sheets
+  - making a loan amortization dashboard
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to financial concepts in google sheets different
+    from making a loan amortization dashboard?
+- candidate_id: q0023
+  relevant_topics:
+  - introduction to financial concepts in google sheets
+  - non-standard amortization schedules
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to financial concepts in google sheets different
+    from non-standard amortization schedules?
+- candidate_id: q0024
+  relevant_topics:
+  - creating an amortization schedule
+  - making a loan amortization dashboard
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is creating an amortization schedule different from making a
+    loan amortization dashboard?
+- candidate_id: q0025
+  relevant_topics:
+  - creating an amortization schedule
+  - non-standard amortization schedules
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is creating an amortization schedule different from non-standard
+    amortization schedules?
+- candidate_id: q0026
+  relevant_topics:
+  - making a loan amortization dashboard
+  - non-standard amortization schedules
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is making a loan amortization dashboard different from non-standard
+    amortization schedules?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is introduction to financial concepts in google sheets?
+  final_text: What is introduction to financial concepts in google sheets?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does introduction to financial concepts in google sheets mean?
+  final_text: What does introduction to financial concepts in google sheets mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does introduction to financial concepts in google sheets matter?
+  final_text: Why does introduction to financial concepts in google sheets matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use introduction to financial concepts in google sheets?
+  final_text: Why does introduction to financial concepts in google sheets?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of introduction to financial concepts in
+    google sheets?
+  final_text: What is a simple example of introduction to financial concepts in google
+    sheets?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is creating an amortization schedule?
+  final_text: What is creating an amortization schedule?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does creating an amortization schedule mean?
+  final_text: What does creating an amortization schedule mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does creating an amortization schedule matter?
+  final_text: Why does creating an amortization schedule matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use creating an amortization schedule?
+  final_text: Why does creating an amortization schedule?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of creating an amortization schedule?
+  final_text: What is a simple example of creating an amortization schedule?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is making a loan amortization dashboard?
+  final_text: What is making a loan amortization dashboard?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does making a loan amortization dashboard mean?
+  final_text: What does making a loan amortization dashboard mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does making a loan amortization dashboard matter?
+  final_text: Why does making a loan amortization dashboard matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use making a loan amortization dashboard?
+  final_text: Why does making a loan amortization dashboard?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of making a loan amortization dashboard?
+  final_text: What is a simple example of making a loan amortization dashboard?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is non-standard amortization schedules?
+  final_text: What is non-standard amortization schedules?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does non-standard amortization schedules mean?
+  final_text: What does non-standard amortization schedules mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does non-standard amortization schedules matter?
+  final_text: Why does non-standard amortization schedules matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use non-standard amortization schedules?
+  final_text: Why does non-standard amortization schedules?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of non-standard amortization schedules?
+  final_text: What is a simple example of non-standard amortization schedules?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: How is introduction to financial concepts in google sheets different
+    from creating an amortization schedule?
+  final_text: How is introduction to financial concepts in google sheets different
+    from creating an amortization schedule?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: How is introduction to financial concepts in google sheets different
+    from making a loan amortization dashboard?
+  final_text: How is introduction to financial concepts in google sheets different
+    from making a loan amortization dashboard?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: How is introduction to financial concepts in google sheets different
+    from non-standard amortization schedules?
+  final_text: How is introduction to financial concepts in google sheets different
+    from non-standard amortization schedules?
+  reject_reason: null
+- candidate_id: q0024
+  status: accepted
+  original_text: How is creating an amortization schedule different from making a
+    loan amortization dashboard?
+  final_text: How is creating an amortization schedule different from making a loan
+    amortization dashboard?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: How is creating an amortization schedule different from non-standard
+    amortization schedules?
+  final_text: How is creating an amortization schedule different from non-standard
+    amortization schedules?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: How is making a loan amortization dashboard different from non-standard
+    amortization schedules?
+  final_text: How is making a loan amortization dashboard different from non-standard
+    amortization schedules?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is introduction to financial concepts in google sheets?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does introduction to financial concepts in google sheets mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does introduction to financial concepts in google sheets matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does introduction to financial concepts in google sheets?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of introduction to financial concepts in
+    google sheets?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is creating an amortization schedule?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does creating an amortization schedule mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does creating an amortization schedule matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does creating an amortization schedule?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of creating an amortization schedule?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is making a loan amortization dashboard?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does making a loan amortization dashboard mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does making a loan amortization dashboard matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does making a loan amortization dashboard?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of making a loan amortization dashboard?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is non-standard amortization schedules?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does non-standard amortization schedules mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does non-standard amortization schedules matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does non-standard amortization schedules?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of non-standard amortization schedules?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: How is introduction to financial concepts in google sheets different
+    from creating an amortization schedule?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: How is introduction to financial concepts in google sheets different
+    from making a loan amortization dashboard?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: How is introduction to financial concepts in google sheets different
+    from non-standard amortization schedules?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: How is creating an amortization schedule different from making a
+    loan amortization dashboard?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: How is creating an amortization schedule different from non-standard
+    amortization schedules?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: How is making a loan amortization dashboard different from non-standard
+    amortization schedules?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24663'
+    title: Loan Amortization in Google Sheets
+  relevant_topics:
+  - introduction to financial concepts in google sheets
+  question_text: What is introduction to financial concepts in google sheets?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24663'
+    title: Loan Amortization in Google Sheets
+  relevant_topics:
+  - introduction to financial concepts in google sheets
+  question_text: What does introduction to financial concepts in google sheets mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24663'
+    title: Loan Amortization in Google Sheets
+  relevant_topics:
+  - introduction to financial concepts in google sheets
+  question_text: Why does introduction to financial concepts in google sheets matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24663'
+    title: Loan Amortization in Google Sheets
+  relevant_topics:
+  - introduction to financial concepts in google sheets
+  question_text: Why does introduction to financial concepts in google sheets?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24663'
+    title: Loan Amortization in Google Sheets
+  relevant_topics:
+  - introduction to financial concepts in google sheets
+  question_text: What is a simple example of introduction to financial concepts in
+    google sheets?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24663'
+    title: Loan Amortization in Google Sheets
+  relevant_topics:
+  - creating an amortization schedule
+  question_text: What is creating an amortization schedule?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24663'
+    title: Loan Amortization in Google Sheets
+  relevant_topics:
+  - creating an amortization schedule
+  question_text: What does creating an amortization schedule mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24663'
+    title: Loan Amortization in Google Sheets
+  relevant_topics:
+  - creating an amortization schedule
+  question_text: Why does creating an amortization schedule matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24663'
+    title: Loan Amortization in Google Sheets
+  relevant_topics:
+  - creating an amortization schedule
+  question_text: Why does creating an amortization schedule?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24663'
+    title: Loan Amortization in Google Sheets
+  relevant_topics:
+  - creating an amortization schedule
+  question_text: What is a simple example of creating an amortization schedule?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24663'
+    title: Loan Amortization in Google Sheets
+  relevant_topics:
+  - making a loan amortization dashboard
+  question_text: What is making a loan amortization dashboard?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24663'
+    title: Loan Amortization in Google Sheets
+  relevant_topics:
+  - making a loan amortization dashboard
+  question_text: What does making a loan amortization dashboard mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24663'
+    title: Loan Amortization in Google Sheets
+  relevant_topics:
+  - making a loan amortization dashboard
+  question_text: Why does making a loan amortization dashboard matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24663'
+    title: Loan Amortization in Google Sheets
+  relevant_topics:
+  - making a loan amortization dashboard
+  question_text: Why does making a loan amortization dashboard?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24663'
+    title: Loan Amortization in Google Sheets
+  relevant_topics:
+  - making a loan amortization dashboard
+  question_text: What is a simple example of making a loan amortization dashboard?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24663'
+    title: Loan Amortization in Google Sheets
+  relevant_topics:
+  - non-standard amortization schedules
+  question_text: What is non-standard amortization schedules?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24663'
+    title: Loan Amortization in Google Sheets
+  relevant_topics:
+  - non-standard amortization schedules
+  question_text: What does non-standard amortization schedules mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24663'
+    title: Loan Amortization in Google Sheets
+  relevant_topics:
+  - non-standard amortization schedules
+  question_text: Why does non-standard amortization schedules matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24663'
+    title: Loan Amortization in Google Sheets
+  relevant_topics:
+  - non-standard amortization schedules
+  question_text: Why does non-standard amortization schedules?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24663'
+    title: Loan Amortization in Google Sheets
+  relevant_topics:
+  - non-standard amortization schedules
+  question_text: What is a simple example of non-standard amortization schedules?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24663'
+    title: Loan Amortization in Google Sheets
+  relevant_topics:
+  - introduction to financial concepts in google sheets
+  - creating an amortization schedule
+  question_text: How is introduction to financial concepts in google sheets different
+    from creating an amortization schedule?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24663'
+    title: Loan Amortization in Google Sheets
+  relevant_topics:
+  - introduction to financial concepts in google sheets
+  - making a loan amortization dashboard
+  question_text: How is introduction to financial concepts in google sheets different
+    from making a loan amortization dashboard?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24663'
+    title: Loan Amortization in Google Sheets
+  relevant_topics:
+  - introduction to financial concepts in google sheets
+  - non-standard amortization schedules
+  question_text: How is introduction to financial concepts in google sheets different
+    from non-standard amortization schedules?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24663'
+    title: Loan Amortization in Google Sheets
+  relevant_topics:
+  - creating an amortization schedule
+  - making a loan amortization dashboard
+  question_text: How is creating an amortization schedule different from making a
+    loan amortization dashboard?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24663'
+    title: Loan Amortization in Google Sheets
+  relevant_topics:
+  - creating an amortization schedule
+  - non-standard amortization schedules
+  question_text: How is creating an amortization schedule different from non-standard
+    amortization schedules?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24663'
+    title: Loan Amortization in Google Sheets
+  relevant_topics:
+  - making a loan amortization dashboard
+  - non-standard amortization schedules
+  question_text: How is making a loan amortization dashboard different from non-standard
+    amortization schedules?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 4
+  canonical_topic_count: 4
+  candidate_count: 26
+  accepted_count: 26
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 26

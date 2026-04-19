@@ -1,0 +1,1031 @@
+course_id: '24659'
+title: Life Insurance Products Valuation in R
+normalized_course:
+  course_id: '24659'
+  title: Life Insurance Products Valuation in R
+  provider: DataCamp
+  summary: 'Learn the basics of cash flow valuation, work with human mortality data
+    and
+
+    build life insurance products in R.'
+  overview: 'Valuation of Cash Flows
+
+
+    Learn the basics of cash flow vectors and their valuation with discount
+
+    factors. You will then evaluate investments based on their net present value
+
+    and build your own mortgage calculator. Finally, you will learn about fixed
+
+    and variable interest rates; and annual and monthly rates.
+
+
+    Life Tables
+
+
+    Life tables play a vital role in life insurance products. In this chapter
+
+    you will work with data sets from the Human Mortality Database by building
+
+    meaningful visualizations to study the evolution of mortality data over age
+
+    and time. You will also use survival and death probabilities.
+
+
+    Life Annuities
+
+
+    You will now act as an actuary working in a life insurance company. Learn
+
+    about the basics of life annuity products and their valuation by working on
+
+    cases ranging from simple life annuities to retirement plans.
+
+
+    Life Insurances
+
+
+    You will now deal with life insurance contracts. Learn how these products
+
+    are relevant in your financial planning by designing whole life, temporary
+
+    and endowment insurances.'
+  chapters:
+  - chapter_index: 1
+    title: Valuation of Cash Flows
+    summary: 'Learn the basics of cash flow vectors and their valuation with
+
+      discount factors. You will then evaluate investments based on their
+
+      net present value and build your own mortgage calculator. Finally,
+
+      you will learn about fixed and variable interest rates; and annual
+
+      and monthly rates.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 2
+    title: Life Tables
+    summary: 'Life tables play a vital role in life insurance products. In this
+
+      chapter you will work with data sets from the Human Mortality
+
+      Database by building meaningful visualizations to study the
+
+      evolution of mortality data over age and time. You will also use
+
+      survival and death probabilities.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 3
+    title: Life Annuities
+    summary: 'You will now act as an actuary working in a life insurance company.
+
+      Learn about the basics of life annuity products and their valuation
+
+      by working on cases ranging from simple life annuities to retirement
+
+      plans.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 4
+    title: Life Insurances
+    summary: 'You will now deal with life insurance contracts. Learn how these
+
+      products are relevant in your financial planning by designing whole
+
+      life, temporary and endowment insurances.'
+    source: syllabus
+    confidence: 1.0
+  metadata:
+    level: Intermediate
+    duration_hours: 4 hours
+    subjects:
+    - R Programming
+    - Actuarial science
+    - Time Value of Money
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: valuation of cash flows
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: valuation of cash flows'
+  evidence:
+  - source: syllabus
+    text: Valuation of Cash Flows
+  confidence: 0.45
+- topic_id: t002
+  label: life tables
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: life tables'
+  evidence:
+  - source: syllabus
+    text: Life Tables
+  confidence: 0.45
+- topic_id: t003
+  label: life annuities
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: life annuities'
+  evidence:
+  - source: syllabus
+    text: Life Annuities
+  confidence: 0.45
+- topic_id: t004
+  label: life insurances
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: life insurances'
+  evidence:
+  - source: syllabus
+    text: Life Insurances
+  confidence: 0.45
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: valuation of cash flows
+  aliases:
+  - valuation of cash flows
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: life tables
+  aliases:
+  - life tables
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: life annuities
+  aliases:
+  - life annuities
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: life insurances
+  aliases:
+  - life insurances
+  member_topic_ids:
+  - t004
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - valuation of cash flows
+  family: entry
+  pattern: What is {x}?
+  question_text: What is valuation of cash flows?
+- candidate_id: q0002
+  relevant_topics:
+  - valuation of cash flows
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does valuation of cash flows mean?
+- candidate_id: q0003
+  relevant_topics:
+  - valuation of cash flows
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does valuation of cash flows matter?
+- candidate_id: q0004
+  relevant_topics:
+  - valuation of cash flows
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use valuation of cash flows?
+- candidate_id: q0005
+  relevant_topics:
+  - valuation of cash flows
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of valuation of cash flows?
+- candidate_id: q0006
+  relevant_topics:
+  - life tables
+  family: entry
+  pattern: What is {x}?
+  question_text: What is life tables?
+- candidate_id: q0007
+  relevant_topics:
+  - life tables
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does life tables mean?
+- candidate_id: q0008
+  relevant_topics:
+  - life tables
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does life tables matter?
+- candidate_id: q0009
+  relevant_topics:
+  - life tables
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use life tables?
+- candidate_id: q0010
+  relevant_topics:
+  - life tables
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of life tables?
+- candidate_id: q0011
+  relevant_topics:
+  - life annuities
+  family: entry
+  pattern: What is {x}?
+  question_text: What is life annuities?
+- candidate_id: q0012
+  relevant_topics:
+  - life annuities
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does life annuities mean?
+- candidate_id: q0013
+  relevant_topics:
+  - life annuities
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does life annuities matter?
+- candidate_id: q0014
+  relevant_topics:
+  - life annuities
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use life annuities?
+- candidate_id: q0015
+  relevant_topics:
+  - life annuities
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of life annuities?
+- candidate_id: q0016
+  relevant_topics:
+  - life insurances
+  family: entry
+  pattern: What is {x}?
+  question_text: What is life insurances?
+- candidate_id: q0017
+  relevant_topics:
+  - life insurances
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does life insurances mean?
+- candidate_id: q0018
+  relevant_topics:
+  - life insurances
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does life insurances matter?
+- candidate_id: q0019
+  relevant_topics:
+  - life insurances
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use life insurances?
+- candidate_id: q0020
+  relevant_topics:
+  - life insurances
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of life insurances?
+- candidate_id: q0021
+  relevant_topics:
+  - valuation of cash flows
+  - life tables
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is valuation of cash flows different from life tables?
+- candidate_id: q0022
+  relevant_topics:
+  - valuation of cash flows
+  - life annuities
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is valuation of cash flows different from life annuities?
+- candidate_id: q0023
+  relevant_topics:
+  - valuation of cash flows
+  - life insurances
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is valuation of cash flows different from life insurances?
+- candidate_id: q0024
+  relevant_topics:
+  - life tables
+  - life annuities
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is life tables different from life annuities?
+- candidate_id: q0025
+  relevant_topics:
+  - life tables
+  - life insurances
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is life tables different from life insurances?
+- candidate_id: q0026
+  relevant_topics:
+  - life annuities
+  - life insurances
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is life annuities different from life insurances?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is valuation of cash flows?
+  final_text: What is valuation of cash flows?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does valuation of cash flows mean?
+  final_text: What does valuation of cash flows mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does valuation of cash flows matter?
+  final_text: Why does valuation of cash flows matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use valuation of cash flows?
+  final_text: Why does valuation of cash flows?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of valuation of cash flows?
+  final_text: What is a simple example of valuation of cash flows?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is life tables?
+  final_text: What is life tables?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does life tables mean?
+  final_text: What does life tables mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does life tables matter?
+  final_text: Why does life tables matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use life tables?
+  final_text: Why does life tables?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of life tables?
+  final_text: What is a simple example of life tables?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is life annuities?
+  final_text: What is life annuities?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does life annuities mean?
+  final_text: What does life annuities mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does life annuities matter?
+  final_text: Why does life annuities matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use life annuities?
+  final_text: Why does life annuities?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of life annuities?
+  final_text: What is a simple example of life annuities?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is life insurances?
+  final_text: What is life insurances?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does life insurances mean?
+  final_text: What does life insurances mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does life insurances matter?
+  final_text: Why does life insurances matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use life insurances?
+  final_text: Why does life insurances?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of life insurances?
+  final_text: What is a simple example of life insurances?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: How is valuation of cash flows different from life tables?
+  final_text: How is valuation of cash flows different from life tables?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: How is valuation of cash flows different from life annuities?
+  final_text: How is valuation of cash flows different from life annuities?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: How is valuation of cash flows different from life insurances?
+  final_text: How is valuation of cash flows different from life insurances?
+  reject_reason: null
+- candidate_id: q0024
+  status: accepted
+  original_text: How is life tables different from life annuities?
+  final_text: How is life tables different from life annuities?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: How is life tables different from life insurances?
+  final_text: How is life tables different from life insurances?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: How is life annuities different from life insurances?
+  final_text: How is life annuities different from life insurances?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is valuation of cash flows?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does valuation of cash flows mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does valuation of cash flows matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does valuation of cash flows?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of valuation of cash flows?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is life tables?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does life tables mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does life tables matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does life tables?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of life tables?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is life annuities?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does life annuities mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does life annuities matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does life annuities?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of life annuities?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is life insurances?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does life insurances mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does life insurances matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does life insurances?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of life insurances?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: How is valuation of cash flows different from life tables?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: How is valuation of cash flows different from life annuities?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: How is valuation of cash flows different from life insurances?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: How is life tables different from life annuities?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: How is life tables different from life insurances?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: How is life annuities different from life insurances?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24659'
+    title: Life Insurance Products Valuation in R
+  relevant_topics:
+  - valuation of cash flows
+  question_text: What is valuation of cash flows?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24659'
+    title: Life Insurance Products Valuation in R
+  relevant_topics:
+  - valuation of cash flows
+  question_text: What does valuation of cash flows mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24659'
+    title: Life Insurance Products Valuation in R
+  relevant_topics:
+  - valuation of cash flows
+  question_text: Why does valuation of cash flows matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24659'
+    title: Life Insurance Products Valuation in R
+  relevant_topics:
+  - valuation of cash flows
+  question_text: Why does valuation of cash flows?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24659'
+    title: Life Insurance Products Valuation in R
+  relevant_topics:
+  - valuation of cash flows
+  question_text: What is a simple example of valuation of cash flows?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24659'
+    title: Life Insurance Products Valuation in R
+  relevant_topics:
+  - life tables
+  question_text: What is life tables?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24659'
+    title: Life Insurance Products Valuation in R
+  relevant_topics:
+  - life tables
+  question_text: What does life tables mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24659'
+    title: Life Insurance Products Valuation in R
+  relevant_topics:
+  - life tables
+  question_text: Why does life tables matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24659'
+    title: Life Insurance Products Valuation in R
+  relevant_topics:
+  - life tables
+  question_text: Why does life tables?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24659'
+    title: Life Insurance Products Valuation in R
+  relevant_topics:
+  - life tables
+  question_text: What is a simple example of life tables?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24659'
+    title: Life Insurance Products Valuation in R
+  relevant_topics:
+  - life annuities
+  question_text: What is life annuities?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24659'
+    title: Life Insurance Products Valuation in R
+  relevant_topics:
+  - life annuities
+  question_text: What does life annuities mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24659'
+    title: Life Insurance Products Valuation in R
+  relevant_topics:
+  - life annuities
+  question_text: Why does life annuities matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24659'
+    title: Life Insurance Products Valuation in R
+  relevant_topics:
+  - life annuities
+  question_text: Why does life annuities?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24659'
+    title: Life Insurance Products Valuation in R
+  relevant_topics:
+  - life annuities
+  question_text: What is a simple example of life annuities?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24659'
+    title: Life Insurance Products Valuation in R
+  relevant_topics:
+  - life insurances
+  question_text: What is life insurances?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24659'
+    title: Life Insurance Products Valuation in R
+  relevant_topics:
+  - life insurances
+  question_text: What does life insurances mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24659'
+    title: Life Insurance Products Valuation in R
+  relevant_topics:
+  - life insurances
+  question_text: Why does life insurances matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24659'
+    title: Life Insurance Products Valuation in R
+  relevant_topics:
+  - life insurances
+  question_text: Why does life insurances?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24659'
+    title: Life Insurance Products Valuation in R
+  relevant_topics:
+  - life insurances
+  question_text: What is a simple example of life insurances?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24659'
+    title: Life Insurance Products Valuation in R
+  relevant_topics:
+  - valuation of cash flows
+  - life tables
+  question_text: How is valuation of cash flows different from life tables?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24659'
+    title: Life Insurance Products Valuation in R
+  relevant_topics:
+  - valuation of cash flows
+  - life annuities
+  question_text: How is valuation of cash flows different from life annuities?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24659'
+    title: Life Insurance Products Valuation in R
+  relevant_topics:
+  - valuation of cash flows
+  - life insurances
+  question_text: How is valuation of cash flows different from life insurances?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24659'
+    title: Life Insurance Products Valuation in R
+  relevant_topics:
+  - life tables
+  - life annuities
+  question_text: How is life tables different from life annuities?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24659'
+    title: Life Insurance Products Valuation in R
+  relevant_topics:
+  - life tables
+  - life insurances
+  question_text: How is life tables different from life insurances?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24659'
+    title: Life Insurance Products Valuation in R
+  relevant_topics:
+  - life annuities
+  - life insurances
+  question_text: How is life annuities different from life insurances?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 4
+  canonical_topic_count: 4
+  candidate_count: 26
+  accepted_count: 26
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 26

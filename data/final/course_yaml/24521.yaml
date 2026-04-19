@@ -1,0 +1,2082 @@
+course_id: '24521'
+title: Introduction to Statistics in Python
+normalized_course:
+  course_id: '24521'
+  title: Introduction to Statistics in Python
+  provider: DataCamp
+  summary: 'Grow your statistical skills and learn how to collect, analyze, and draw
+
+    accurate conclusions from data using Python.'
+  overview: 'Grow your statistical skills and learn how to collect, analyze, and draw
+
+    accurate conclusions from data using Python.
+
+
+    Statistics is the study of how to collect, analyze, and draw conclusions
+
+    from data. It’s a hugely valuable tool that you can use to bring the future
+
+    into focus and infer the answer to tons of questions. For example, what is
+
+    the likelihood of someone purchasing your product, how many calls will your
+
+    support team receive, and how many jeans sizes should you manufacture to fit
+
+    95% of the population? In this course, you''ll discover how to answer
+
+    questions like these as you grow your statistical skills and learn how to
+
+    calculate averages, use scatterplots to show the relationship between
+
+    numeric values, and calculate correlation. You''ll also tackle probability,
+
+    the backbone of statistical reasoning, and learn how to use Python to
+
+    conduct a well-designed study to draw your own conclusions from data.
+
+
+    The videos contain live transcripts you can reveal by clicking "Show
+
+    transcript" at the bottom left of the videos.
+
+
+    The course glossary can be found on the right in the resources section.
+
+
+    To obtain CPE credits you need to complete the course and reach a score of
+
+    70% on the qualified assessment. You can navigate to the assessment by
+
+    clicking on the CPE credits callout on the right.'
+  chapters:
+  - chapter_index: 1
+    title: Summary Statistics
+    summary: 'Summary statistics gives you the tools you need to boil down massive
+
+      datasets to reveal the highlights. In this chapter, you''ll explore
+
+      summary statistics including mean, median, and standard deviation,
+
+      and learn how to accurately interpret them. You''ll also develop your
+
+      critical thinking skills, allowing you to choose the best summary
+
+      statistics for your data.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 2
+    title: Random Numbers and Probability
+    summary: 'In this chapter, you''ll learn how to generate random samples and
+
+      measure chance using probability. You''ll work with real-world sales
+
+      data to calculate the probability of a salesperson being successful.
+
+      Finally, you’ll use the binomial distribution to model events with
+
+      binary outcomes.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 3
+    title: More Distributions and the Central Limit Theorem
+    summary: 'It’s time to explore one of the most important probability
+
+      distributions in statistics, normal distribution. You’ll create
+
+      histograms to plot normal distributions and gain an understanding of
+
+      the central limit theorem, before expanding your knowledge of
+
+      statistical functions by adding the Poisson, exponential, and
+
+      t-distributions to your repertoire.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 4
+    title: Correlation and Experimental Design
+    summary: 'In this chapter, you''ll learn how to quantify the strength of a
+
+      linear relationship between two variables, and explore how
+
+      confounding variables can affect the relationship between two other
+
+      variables. You''ll also see how a study’s design can influence its
+
+      results, change how the data should be analyzed, and potentially
+
+      affect the reliability of your conclusions.'
+    source: syllabus
+    confidence: 1.0
+  metadata:
+    level: Beginner
+    duration_hours: 4 hours
+    subjects:
+    - Python
+    - Statistics & Probability
+    - Data Analysis
+    - Probability
+    - Central Limit Theorem
+    - Normal Distribution
+    - Summary Statistics
+    - Correlation
+    - Experimental Design
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: summary statistics
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: summary statistics'
+  evidence:
+  - source: syllabus
+    text: Summary Statistics
+  confidence: 0.45
+- topic_id: t002
+  label: random numbers
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: random numbers'
+  evidence:
+  - source: syllabus
+    text: Random Numbers and Probability
+  confidence: 0.55
+- topic_id: t003
+  label: probability
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: probability'
+  evidence:
+  - source: syllabus
+    text: Random Numbers and Probability
+  confidence: 0.55
+- topic_id: t004
+  label: more distributions
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: more distributions'
+  evidence:
+  - source: syllabus
+    text: More Distributions and the Central Limit Theorem
+  confidence: 0.55
+- topic_id: t005
+  label: the central limit theorem
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: the central limit theorem'
+  evidence:
+  - source: syllabus
+    text: More Distributions and the Central Limit Theorem
+  confidence: 0.55
+- topic_id: t006
+  label: correlation
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: correlation'
+  evidence:
+  - source: syllabus
+    text: Correlation and Experimental Design
+  confidence: 0.55
+- topic_id: t007
+  label: experimental design
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: experimental design'
+  evidence:
+  - source: syllabus
+    text: Correlation and Experimental Design
+  confidence: 0.55
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: summary statistics
+  aliases:
+  - summary statistics
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: random numbers
+  aliases:
+  - random numbers
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: probability
+  aliases:
+  - probability
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: more distributions
+  aliases:
+  - more distributions
+  member_topic_ids:
+  - t004
+  topic_type: concept
+- canonical_topic_id: ct_005
+  label: central limit theorem
+  aliases:
+  - the central limit theorem
+  member_topic_ids:
+  - t005
+  topic_type: concept
+- canonical_topic_id: ct_006
+  label: correlation
+  aliases:
+  - correlation
+  member_topic_ids:
+  - t006
+  topic_type: concept
+- canonical_topic_id: ct_007
+  label: experimental design
+  aliases:
+  - experimental design
+  member_topic_ids:
+  - t007
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - summary statistics
+  family: entry
+  pattern: What is {x}?
+  question_text: What is summary statistics?
+- candidate_id: q0002
+  relevant_topics:
+  - summary statistics
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does summary statistics mean?
+- candidate_id: q0003
+  relevant_topics:
+  - summary statistics
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does summary statistics matter?
+- candidate_id: q0004
+  relevant_topics:
+  - summary statistics
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use summary statistics?
+- candidate_id: q0005
+  relevant_topics:
+  - summary statistics
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of summary statistics?
+- candidate_id: q0006
+  relevant_topics:
+  - random numbers
+  family: entry
+  pattern: What is {x}?
+  question_text: What is random numbers?
+- candidate_id: q0007
+  relevant_topics:
+  - random numbers
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does random numbers mean?
+- candidate_id: q0008
+  relevant_topics:
+  - random numbers
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does random numbers matter?
+- candidate_id: q0009
+  relevant_topics:
+  - random numbers
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use random numbers?
+- candidate_id: q0010
+  relevant_topics:
+  - random numbers
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of random numbers?
+- candidate_id: q0011
+  relevant_topics:
+  - probability
+  family: entry
+  pattern: What is {x}?
+  question_text: What is probability?
+- candidate_id: q0012
+  relevant_topics:
+  - probability
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does probability mean?
+- candidate_id: q0013
+  relevant_topics:
+  - probability
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does probability matter?
+- candidate_id: q0014
+  relevant_topics:
+  - probability
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use probability?
+- candidate_id: q0015
+  relevant_topics:
+  - probability
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of probability?
+- candidate_id: q0016
+  relevant_topics:
+  - more distributions
+  family: entry
+  pattern: What is {x}?
+  question_text: What is more distributions?
+- candidate_id: q0017
+  relevant_topics:
+  - more distributions
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does more distributions mean?
+- candidate_id: q0018
+  relevant_topics:
+  - more distributions
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does more distributions matter?
+- candidate_id: q0019
+  relevant_topics:
+  - more distributions
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use more distributions?
+- candidate_id: q0020
+  relevant_topics:
+  - more distributions
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of more distributions?
+- candidate_id: q0021
+  relevant_topics:
+  - central limit theorem
+  family: entry
+  pattern: What is {x}?
+  question_text: What is central limit theorem?
+- candidate_id: q0022
+  relevant_topics:
+  - central limit theorem
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does central limit theorem mean?
+- candidate_id: q0023
+  relevant_topics:
+  - central limit theorem
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does central limit theorem matter?
+- candidate_id: q0024
+  relevant_topics:
+  - central limit theorem
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use central limit theorem?
+- candidate_id: q0025
+  relevant_topics:
+  - central limit theorem
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of central limit theorem?
+- candidate_id: q0026
+  relevant_topics:
+  - correlation
+  family: entry
+  pattern: What is {x}?
+  question_text: What is correlation?
+- candidate_id: q0027
+  relevant_topics:
+  - correlation
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does correlation mean?
+- candidate_id: q0028
+  relevant_topics:
+  - correlation
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does correlation matter?
+- candidate_id: q0029
+  relevant_topics:
+  - correlation
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use correlation?
+- candidate_id: q0030
+  relevant_topics:
+  - correlation
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of correlation?
+- candidate_id: q0031
+  relevant_topics:
+  - experimental design
+  family: entry
+  pattern: What is {x}?
+  question_text: What is experimental design?
+- candidate_id: q0032
+  relevant_topics:
+  - experimental design
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does experimental design mean?
+- candidate_id: q0033
+  relevant_topics:
+  - experimental design
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does experimental design matter?
+- candidate_id: q0034
+  relevant_topics:
+  - experimental design
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use experimental design?
+- candidate_id: q0035
+  relevant_topics:
+  - experimental design
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of experimental design?
+- candidate_id: q0036
+  relevant_topics:
+  - summary statistics
+  - random numbers
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is summary statistics different from random numbers?
+- candidate_id: q0037
+  relevant_topics:
+  - summary statistics
+  - probability
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is summary statistics different from probability?
+- candidate_id: q0038
+  relevant_topics:
+  - summary statistics
+  - more distributions
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is summary statistics different from more distributions?
+- candidate_id: q0039
+  relevant_topics:
+  - summary statistics
+  - central limit theorem
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is summary statistics different from central limit theorem?
+- candidate_id: q0040
+  relevant_topics:
+  - summary statistics
+  - correlation
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is summary statistics different from correlation?
+- candidate_id: q0041
+  relevant_topics:
+  - summary statistics
+  - experimental design
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is summary statistics different from experimental design?
+- candidate_id: q0042
+  relevant_topics:
+  - random numbers
+  - probability
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is random numbers different from probability?
+- candidate_id: q0043
+  relevant_topics:
+  - random numbers
+  - more distributions
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is random numbers different from more distributions?
+- candidate_id: q0044
+  relevant_topics:
+  - random numbers
+  - central limit theorem
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is random numbers different from central limit theorem?
+- candidate_id: q0045
+  relevant_topics:
+  - random numbers
+  - correlation
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is random numbers different from correlation?
+- candidate_id: q0046
+  relevant_topics:
+  - random numbers
+  - experimental design
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is random numbers different from experimental design?
+- candidate_id: q0047
+  relevant_topics:
+  - probability
+  - more distributions
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is probability different from more distributions?
+- candidate_id: q0048
+  relevant_topics:
+  - probability
+  - central limit theorem
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is probability different from central limit theorem?
+- candidate_id: q0049
+  relevant_topics:
+  - probability
+  - correlation
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is probability different from correlation?
+- candidate_id: q0050
+  relevant_topics:
+  - probability
+  - experimental design
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is probability different from experimental design?
+- candidate_id: q0051
+  relevant_topics:
+  - more distributions
+  - central limit theorem
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is more distributions different from central limit theorem?
+- candidate_id: q0052
+  relevant_topics:
+  - more distributions
+  - correlation
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is more distributions different from correlation?
+- candidate_id: q0053
+  relevant_topics:
+  - more distributions
+  - experimental design
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is more distributions different from experimental design?
+- candidate_id: q0054
+  relevant_topics:
+  - central limit theorem
+  - correlation
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is central limit theorem different from correlation?
+- candidate_id: q0055
+  relevant_topics:
+  - central limit theorem
+  - experimental design
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is central limit theorem different from experimental design?
+- candidate_id: q0056
+  relevant_topics:
+  - correlation
+  - experimental design
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is correlation different from experimental design?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is summary statistics?
+  final_text: What is summary statistics?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does summary statistics mean?
+  final_text: What does summary statistics mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does summary statistics matter?
+  final_text: Why does summary statistics matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use summary statistics?
+  final_text: Why does summary statistics?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of summary statistics?
+  final_text: What is a simple example of summary statistics?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is random numbers?
+  final_text: What is random numbers?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does random numbers mean?
+  final_text: What does random numbers mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does random numbers matter?
+  final_text: Why does random numbers matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use random numbers?
+  final_text: Why does random numbers?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of random numbers?
+  final_text: What is a simple example of random numbers?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is probability?
+  final_text: What is probability?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does probability mean?
+  final_text: What does probability mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does probability matter?
+  final_text: Why does probability matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use probability?
+  final_text: Why does probability?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of probability?
+  final_text: What is a simple example of probability?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is more distributions?
+  final_text: What is more distributions?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does more distributions mean?
+  final_text: What does more distributions mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does more distributions matter?
+  final_text: Why does more distributions matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use more distributions?
+  final_text: Why does more distributions?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of more distributions?
+  final_text: What is a simple example of more distributions?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: What is central limit theorem?
+  final_text: What is central limit theorem?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: What does central limit theorem mean?
+  final_text: What does central limit theorem mean?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: Why does central limit theorem matter?
+  final_text: Why does central limit theorem matter?
+  reject_reason: null
+- candidate_id: q0024
+  status: repaired
+  original_text: Why do we use central limit theorem?
+  final_text: Why does central limit theorem?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: What is a simple example of central limit theorem?
+  final_text: What is a simple example of central limit theorem?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: What is correlation?
+  final_text: What is correlation?
+  reject_reason: null
+- candidate_id: q0027
+  status: accepted
+  original_text: What does correlation mean?
+  final_text: What does correlation mean?
+  reject_reason: null
+- candidate_id: q0028
+  status: accepted
+  original_text: Why does correlation matter?
+  final_text: Why does correlation matter?
+  reject_reason: null
+- candidate_id: q0029
+  status: repaired
+  original_text: Why do we use correlation?
+  final_text: Why does correlation?
+  reject_reason: null
+- candidate_id: q0030
+  status: accepted
+  original_text: What is a simple example of correlation?
+  final_text: What is a simple example of correlation?
+  reject_reason: null
+- candidate_id: q0031
+  status: accepted
+  original_text: What is experimental design?
+  final_text: What is experimental design?
+  reject_reason: null
+- candidate_id: q0032
+  status: accepted
+  original_text: What does experimental design mean?
+  final_text: What does experimental design mean?
+  reject_reason: null
+- candidate_id: q0033
+  status: accepted
+  original_text: Why does experimental design matter?
+  final_text: Why does experimental design matter?
+  reject_reason: null
+- candidate_id: q0034
+  status: repaired
+  original_text: Why do we use experimental design?
+  final_text: Why does experimental design?
+  reject_reason: null
+- candidate_id: q0035
+  status: accepted
+  original_text: What is a simple example of experimental design?
+  final_text: What is a simple example of experimental design?
+  reject_reason: null
+- candidate_id: q0036
+  status: accepted
+  original_text: How is summary statistics different from random numbers?
+  final_text: How is summary statistics different from random numbers?
+  reject_reason: null
+- candidate_id: q0037
+  status: accepted
+  original_text: How is summary statistics different from probability?
+  final_text: How is summary statistics different from probability?
+  reject_reason: null
+- candidate_id: q0038
+  status: accepted
+  original_text: How is summary statistics different from more distributions?
+  final_text: How is summary statistics different from more distributions?
+  reject_reason: null
+- candidate_id: q0039
+  status: accepted
+  original_text: How is summary statistics different from central limit theorem?
+  final_text: How is summary statistics different from central limit theorem?
+  reject_reason: null
+- candidate_id: q0040
+  status: accepted
+  original_text: How is summary statistics different from correlation?
+  final_text: How is summary statistics different from correlation?
+  reject_reason: null
+- candidate_id: q0041
+  status: accepted
+  original_text: How is summary statistics different from experimental design?
+  final_text: How is summary statistics different from experimental design?
+  reject_reason: null
+- candidate_id: q0042
+  status: accepted
+  original_text: How is random numbers different from probability?
+  final_text: How is random numbers different from probability?
+  reject_reason: null
+- candidate_id: q0043
+  status: accepted
+  original_text: How is random numbers different from more distributions?
+  final_text: How is random numbers different from more distributions?
+  reject_reason: null
+- candidate_id: q0044
+  status: accepted
+  original_text: How is random numbers different from central limit theorem?
+  final_text: How is random numbers different from central limit theorem?
+  reject_reason: null
+- candidate_id: q0045
+  status: accepted
+  original_text: How is random numbers different from correlation?
+  final_text: How is random numbers different from correlation?
+  reject_reason: null
+- candidate_id: q0046
+  status: accepted
+  original_text: How is random numbers different from experimental design?
+  final_text: How is random numbers different from experimental design?
+  reject_reason: null
+- candidate_id: q0047
+  status: accepted
+  original_text: How is probability different from more distributions?
+  final_text: How is probability different from more distributions?
+  reject_reason: null
+- candidate_id: q0048
+  status: accepted
+  original_text: How is probability different from central limit theorem?
+  final_text: How is probability different from central limit theorem?
+  reject_reason: null
+- candidate_id: q0049
+  status: accepted
+  original_text: How is probability different from correlation?
+  final_text: How is probability different from correlation?
+  reject_reason: null
+- candidate_id: q0050
+  status: accepted
+  original_text: How is probability different from experimental design?
+  final_text: How is probability different from experimental design?
+  reject_reason: null
+- candidate_id: q0051
+  status: accepted
+  original_text: How is more distributions different from central limit theorem?
+  final_text: How is more distributions different from central limit theorem?
+  reject_reason: null
+- candidate_id: q0052
+  status: accepted
+  original_text: How is more distributions different from correlation?
+  final_text: How is more distributions different from correlation?
+  reject_reason: null
+- candidate_id: q0053
+  status: accepted
+  original_text: How is more distributions different from experimental design?
+  final_text: How is more distributions different from experimental design?
+  reject_reason: null
+- candidate_id: q0054
+  status: accepted
+  original_text: How is central limit theorem different from correlation?
+  final_text: How is central limit theorem different from correlation?
+  reject_reason: null
+- candidate_id: q0055
+  status: accepted
+  original_text: How is central limit theorem different from experimental design?
+  final_text: How is central limit theorem different from experimental design?
+  reject_reason: null
+- candidate_id: q0056
+  status: accepted
+  original_text: How is correlation different from experimental design?
+  final_text: How is correlation different from experimental design?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is summary statistics?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does summary statistics mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does summary statistics matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does summary statistics?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of summary statistics?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is random numbers?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does random numbers mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does random numbers matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does random numbers?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of random numbers?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is probability?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does probability mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does probability matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does probability?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of probability?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is more distributions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does more distributions mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does more distributions matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does more distributions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of more distributions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: What is central limit theorem?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: What does central limit theorem mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: Why does central limit theorem matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: Why does central limit theorem?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: What is a simple example of central limit theorem?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: What is correlation?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0027
+  question_text: What does correlation mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0028
+  question_text: Why does correlation matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0029
+  question_text: Why does correlation?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0030
+  question_text: What is a simple example of correlation?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0031
+  question_text: What is experimental design?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0032
+  question_text: What does experimental design mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0033
+  question_text: Why does experimental design matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0034
+  question_text: Why does experimental design?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0035
+  question_text: What is a simple example of experimental design?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0036
+  question_text: How is summary statistics different from random numbers?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0037
+  question_text: How is summary statistics different from probability?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0038
+  question_text: How is summary statistics different from more distributions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0039
+  question_text: How is summary statistics different from central limit theorem?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0040
+  question_text: How is summary statistics different from correlation?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0041
+  question_text: How is summary statistics different from experimental design?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0042
+  question_text: How is random numbers different from probability?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0043
+  question_text: How is random numbers different from more distributions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0044
+  question_text: How is random numbers different from central limit theorem?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0045
+  question_text: How is random numbers different from correlation?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0046
+  question_text: How is random numbers different from experimental design?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0047
+  question_text: How is probability different from more distributions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0048
+  question_text: How is probability different from central limit theorem?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0049
+  question_text: How is probability different from correlation?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0050
+  question_text: How is probability different from experimental design?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0051
+  question_text: How is more distributions different from central limit theorem?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0052
+  question_text: How is more distributions different from correlation?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0053
+  question_text: How is more distributions different from experimental design?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0054
+  question_text: How is central limit theorem different from correlation?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0055
+  question_text: How is central limit theorem different from experimental design?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0056
+  question_text: How is correlation different from experimental design?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - summary statistics
+  question_text: What is summary statistics?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - summary statistics
+  question_text: What does summary statistics mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - summary statistics
+  question_text: Why does summary statistics matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - summary statistics
+  question_text: Why does summary statistics?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - summary statistics
+  question_text: What is a simple example of summary statistics?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - random numbers
+  question_text: What is random numbers?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - random numbers
+  question_text: What does random numbers mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - random numbers
+  question_text: Why does random numbers matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - random numbers
+  question_text: Why does random numbers?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - random numbers
+  question_text: What is a simple example of random numbers?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - probability
+  question_text: What is probability?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - probability
+  question_text: What does probability mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - probability
+  question_text: Why does probability matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - probability
+  question_text: Why does probability?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - probability
+  question_text: What is a simple example of probability?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - more distributions
+  question_text: What is more distributions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - more distributions
+  question_text: What does more distributions mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - more distributions
+  question_text: Why does more distributions matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - more distributions
+  question_text: Why does more distributions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - more distributions
+  question_text: What is a simple example of more distributions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - central limit theorem
+  question_text: What is central limit theorem?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - central limit theorem
+  question_text: What does central limit theorem mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - central limit theorem
+  question_text: Why does central limit theorem matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - central limit theorem
+  question_text: Why does central limit theorem?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - central limit theorem
+  question_text: What is a simple example of central limit theorem?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - correlation
+  question_text: What is correlation?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000027
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - correlation
+  question_text: What does correlation mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000028
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - correlation
+  question_text: Why does correlation matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000029
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - correlation
+  question_text: Why does correlation?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000030
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - correlation
+  question_text: What is a simple example of correlation?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000031
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - experimental design
+  question_text: What is experimental design?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000032
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - experimental design
+  question_text: What does experimental design mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000033
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - experimental design
+  question_text: Why does experimental design matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000034
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - experimental design
+  question_text: Why does experimental design?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000035
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - experimental design
+  question_text: What is a simple example of experimental design?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000036
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - summary statistics
+  - random numbers
+  question_text: How is summary statistics different from random numbers?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000037
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - summary statistics
+  - probability
+  question_text: How is summary statistics different from probability?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000038
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - summary statistics
+  - more distributions
+  question_text: How is summary statistics different from more distributions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000039
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - summary statistics
+  - central limit theorem
+  question_text: How is summary statistics different from central limit theorem?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000040
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - summary statistics
+  - correlation
+  question_text: How is summary statistics different from correlation?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000041
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - summary statistics
+  - experimental design
+  question_text: How is summary statistics different from experimental design?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000042
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - random numbers
+  - probability
+  question_text: How is random numbers different from probability?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000043
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - random numbers
+  - more distributions
+  question_text: How is random numbers different from more distributions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000044
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - random numbers
+  - central limit theorem
+  question_text: How is random numbers different from central limit theorem?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000045
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - random numbers
+  - correlation
+  question_text: How is random numbers different from correlation?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000046
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - random numbers
+  - experimental design
+  question_text: How is random numbers different from experimental design?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000047
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - probability
+  - more distributions
+  question_text: How is probability different from more distributions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000048
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - probability
+  - central limit theorem
+  question_text: How is probability different from central limit theorem?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000049
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - probability
+  - correlation
+  question_text: How is probability different from correlation?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000050
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - probability
+  - experimental design
+  question_text: How is probability different from experimental design?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000051
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - more distributions
+  - central limit theorem
+  question_text: How is more distributions different from central limit theorem?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000052
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - more distributions
+  - correlation
+  question_text: How is more distributions different from correlation?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000053
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - more distributions
+  - experimental design
+  question_text: How is more distributions different from experimental design?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000054
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - central limit theorem
+  - correlation
+  question_text: How is central limit theorem different from correlation?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000055
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - central limit theorem
+  - experimental design
+  question_text: How is central limit theorem different from experimental design?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000056
+  course:
+    course_id: '24521'
+    title: Introduction to Statistics in Python
+  relevant_topics:
+  - correlation
+  - experimental design
+  question_text: How is correlation different from experimental design?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 7
+  canonical_topic_count: 7
+  candidate_count: 56
+  accepted_count: 56
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 56

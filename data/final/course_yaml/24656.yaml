@@ -1,0 +1,1441 @@
+course_id: '24656'
+title: Error and Uncertainty in Google Sheets
+normalized_course:
+  course_id: '24656'
+  title: Error and Uncertainty in Google Sheets
+  provider: DataCamp
+  summary: 'Learn to distinguish real differences from random noise, and explore
+
+    psychological crutches we use that interfere with our rational decision
+
+    making.'
+  overview: 'Learn to distinguish real differences from random noise, and explore
+
+    psychological crutches we use that interfere with our rational decision
+
+    making.
+
+
+    In a world where predictions shape our daily decisions, from choosing
+
+    outfits based on weather forecasts to planning commutes with a glance at
+
+    traffic conditions, understanding the accuracy and intricacies of
+
+    predictions becomes paramount. Whether you''re an individual making personal
+
+    choices or someone steering the strategy of an entire organization into the
+
+    future, questions about the reliability of predictions, the ability to
+
+    foresee events, and the occasional inaccuracies in forecasts may have
+
+    crossed your mind. If you''ve ever wondered why the weatherman seems to miss
+
+    the mark, our illuminating online course on Error and Uncertainty is
+
+    designed for you.
+
+
+    Unraveling the Fabric of Predictions
+
+
+    Dive into the fascinating realm of predictions in our Error and Uncertainty
+
+    course, where you''ll not only explore the accuracy of forecasts but also
+
+    actively engage in making predictions yourself. Gain the skills to
+
+    differentiate genuine patterns from random noise, equipping you with the
+
+    tools to make informed decisions in the face of uncertainty. This course
+
+    goes beyond the surface, delving into the psychological crutches that often
+
+    cloud our rational decision-making processes. Whether you''re examining
+
+    patterns in Seattle crime data, predicting students'' final grades,
+
+    preventing traffic accidents in Nashville, or assessing the need for changes
+
+    in a bakery''s menu, you''ll emerge from this course with a heightened ability
+
+    to navigate the complexities of error and uncertainty.
+
+
+    Hands-On Learning for Practical Insight
+
+
+    Join us on a captivating learning journey as we guide you through real-world
+
+    applications of error and uncertainty analysis. Through engaging exercises,
+
+    you''ll apply your newfound knowledge to predict outcomes, identify potential
+
+    pitfalls, and enhance your decision-making capabilities. From decoding crime
+
+    trends to forecasting academic performance and mitigating traffic risks, our
+
+    course provides a dynamic learning experience that promises not only insight
+
+    but also practical skills applicable in a variety of scenarios. Embrace the
+
+    challenge of understanding error and uncertainty, and join a community of
+
+    learners who are certain to find joy in unraveling the mysteries of
+
+    predictions.'
+  chapters:
+  - chapter_index: 1
+    title: Defining error, uncertainty, and risk
+    summary: 'The first chapter presents common terminology, introduces methods
+
+      for determining significant differences between groups, and outlines
+
+      the kinds of error and uncertainty involved. We will specifically
+
+      look at Seattle crime data and evaluate crime rate differences
+
+      between precincts and neighborhoods. This chapter will equip
+
+      learners to identify threats to the validity and accuracy of their
+
+      conclusions.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 2
+    title: Making accurate predictions
+    summary: 'The second chapter outlines both rudimentary (e.g., moving average,
+
+      seasonal average, yearly average) and more complicated methods
+
+      (e.g., linear regression) for making predictions and outlines the
+
+      kinds of error and uncertainty involved. We will specifically look
+
+      at anonymized student grades data and evaluate the accuracy of our
+
+      predictions for given students. Throughout the chapter, we will
+
+      identify threats to the validity and accuracy of our predictions.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 3
+    title: Poking holes in predictions
+    summary: 'Chapter 3 encourages learners to test the assumptions of their
+
+      predictions using data on car crashes. Specifically, they will
+
+      determine how to allocate resources to reduce injuries and
+
+      fatalities from auto accidents. Learners will discuss the impact of
+
+      outliers in prediction accuracy, evaluate the importance of normally
+
+      distributed data in making predictions, employ
+
+      consequence-likelihood matrices in risk management, and adapt
+
+      psychological heuristics to discussions of numerical uncertainty and
+
+      risk.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 4
+    title: 'Case study: Should you change your bakery''s menu?'
+    summary: 'The final chapter integrates all the previous lessons into a
+
+      constructed-world scenario. Learners are tasked with updating the
+
+      menu at their small business: the Risky Business Bakery. They need
+
+      to figure out whether to add or drop menu items based on whether
+
+      there are significant differences in sales by baked good; whether
+
+      their predicted sales figures from their accountant are accurate.'
+    source: syllabus
+    confidence: 1.0
+  metadata:
+    level: Intermediate
+    duration_hours: 4 hours
+    subjects:
+    - Business Software
+    - Data Analysis
+    - Risk Management
+    - Google Sheets
+    - Linear Regression
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: defining error, uncertainty
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: defining error, uncertainty'
+  evidence:
+  - source: syllabus
+    text: Defining error, uncertainty, and risk
+  confidence: 0.55
+- topic_id: t002
+  label: risk
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: risk'
+  evidence:
+  - source: syllabus
+    text: Defining error, uncertainty, and risk
+  confidence: 0.55
+- topic_id: t003
+  label: making accurate predictions
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: making accurate predictions'
+  evidence:
+  - source: syllabus
+    text: Making accurate predictions
+  confidence: 0.45
+- topic_id: t004
+  label: poking holes in predictions
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: poking holes in predictions'
+  evidence:
+  - source: syllabus
+    text: Poking holes in predictions
+  confidence: 0.45
+- topic_id: t005
+  label: 'case study: should you change your bakery''s menu?'
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: case study: should you change
+    your bakery''s menu?'
+  evidence:
+  - source: syllabus
+    text: 'Case study: Should you change your bakery''s menu?'
+  confidence: 0.45
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: defining error, uncertainty
+  aliases:
+  - defining error, uncertainty
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: risk
+  aliases:
+  - risk
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: making accurate predictions
+  aliases:
+  - making accurate predictions
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: poking holes in predictions
+  aliases:
+  - poking holes in predictions
+  member_topic_ids:
+  - t004
+  topic_type: concept
+- canonical_topic_id: ct_005
+  label: 'case study: should you change your bakery''s menu?'
+  aliases:
+  - 'case study: should you change your bakery''s menu?'
+  member_topic_ids:
+  - t005
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - defining error, uncertainty
+  family: entry
+  pattern: What is {x}?
+  question_text: What is defining error, uncertainty?
+- candidate_id: q0002
+  relevant_topics:
+  - defining error, uncertainty
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does defining error, uncertainty mean?
+- candidate_id: q0003
+  relevant_topics:
+  - defining error, uncertainty
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does defining error, uncertainty matter?
+- candidate_id: q0004
+  relevant_topics:
+  - defining error, uncertainty
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use defining error, uncertainty?
+- candidate_id: q0005
+  relevant_topics:
+  - defining error, uncertainty
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of defining error, uncertainty?
+- candidate_id: q0006
+  relevant_topics:
+  - risk
+  family: entry
+  pattern: What is {x}?
+  question_text: What is risk?
+- candidate_id: q0007
+  relevant_topics:
+  - risk
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does risk mean?
+- candidate_id: q0008
+  relevant_topics:
+  - risk
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does risk matter?
+- candidate_id: q0009
+  relevant_topics:
+  - risk
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use risk?
+- candidate_id: q0010
+  relevant_topics:
+  - risk
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of risk?
+- candidate_id: q0011
+  relevant_topics:
+  - making accurate predictions
+  family: entry
+  pattern: What is {x}?
+  question_text: What is making accurate predictions?
+- candidate_id: q0012
+  relevant_topics:
+  - making accurate predictions
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does making accurate predictions mean?
+- candidate_id: q0013
+  relevant_topics:
+  - making accurate predictions
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does making accurate predictions matter?
+- candidate_id: q0014
+  relevant_topics:
+  - making accurate predictions
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use making accurate predictions?
+- candidate_id: q0015
+  relevant_topics:
+  - making accurate predictions
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of making accurate predictions?
+- candidate_id: q0016
+  relevant_topics:
+  - poking holes in predictions
+  family: entry
+  pattern: What is {x}?
+  question_text: What is poking holes in predictions?
+- candidate_id: q0017
+  relevant_topics:
+  - poking holes in predictions
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does poking holes in predictions mean?
+- candidate_id: q0018
+  relevant_topics:
+  - poking holes in predictions
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does poking holes in predictions matter?
+- candidate_id: q0019
+  relevant_topics:
+  - poking holes in predictions
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use poking holes in predictions?
+- candidate_id: q0020
+  relevant_topics:
+  - poking holes in predictions
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of poking holes in predictions?
+- candidate_id: q0021
+  relevant_topics:
+  - 'case study: should you change your bakery''s menu?'
+  family: entry
+  pattern: What is {x}?
+  question_text: 'What is case study: should you change your bakery''s menu??'
+- candidate_id: q0022
+  relevant_topics:
+  - 'case study: should you change your bakery''s menu?'
+  family: entry
+  pattern: What does {x} mean?
+  question_text: 'What does case study: should you change your bakery''s menu? mean?'
+- candidate_id: q0023
+  relevant_topics:
+  - 'case study: should you change your bakery''s menu?'
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: 'Why does case study: should you change your bakery''s menu? matter?'
+- candidate_id: q0024
+  relevant_topics:
+  - 'case study: should you change your bakery''s menu?'
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: 'Why do we use case study: should you change your bakery''s menu??'
+- candidate_id: q0025
+  relevant_topics:
+  - 'case study: should you change your bakery''s menu?'
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: 'What is a simple example of case study: should you change your bakery''s
+    menu??'
+- candidate_id: q0026
+  relevant_topics:
+  - defining error, uncertainty
+  - risk
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is defining error, uncertainty different from risk?
+- candidate_id: q0027
+  relevant_topics:
+  - defining error, uncertainty
+  - making accurate predictions
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is defining error, uncertainty different from making accurate
+    predictions?
+- candidate_id: q0028
+  relevant_topics:
+  - defining error, uncertainty
+  - poking holes in predictions
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is defining error, uncertainty different from poking holes in
+    predictions?
+- candidate_id: q0029
+  relevant_topics:
+  - defining error, uncertainty
+  - 'case study: should you change your bakery''s menu?'
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: 'How is defining error, uncertainty different from case study: should
+    you change your bakery''s menu??'
+- candidate_id: q0030
+  relevant_topics:
+  - risk
+  - making accurate predictions
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is risk different from making accurate predictions?
+- candidate_id: q0031
+  relevant_topics:
+  - risk
+  - poking holes in predictions
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is risk different from poking holes in predictions?
+- candidate_id: q0032
+  relevant_topics:
+  - risk
+  - 'case study: should you change your bakery''s menu?'
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: 'How is risk different from case study: should you change your bakery''s
+    menu??'
+- candidate_id: q0033
+  relevant_topics:
+  - making accurate predictions
+  - poking holes in predictions
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is making accurate predictions different from poking holes in
+    predictions?
+- candidate_id: q0034
+  relevant_topics:
+  - making accurate predictions
+  - 'case study: should you change your bakery''s menu?'
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: 'How is making accurate predictions different from case study: should
+    you change your bakery''s menu??'
+- candidate_id: q0035
+  relevant_topics:
+  - poking holes in predictions
+  - 'case study: should you change your bakery''s menu?'
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: 'How is poking holes in predictions different from case study: should
+    you change your bakery''s menu??'
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is defining error, uncertainty?
+  final_text: What is defining error, uncertainty?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does defining error, uncertainty mean?
+  final_text: What does defining error, uncertainty mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does defining error, uncertainty matter?
+  final_text: Why does defining error, uncertainty matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use defining error, uncertainty?
+  final_text: Why does defining error, uncertainty?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of defining error, uncertainty?
+  final_text: What is a simple example of defining error, uncertainty?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is risk?
+  final_text: What is risk?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does risk mean?
+  final_text: What does risk mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does risk matter?
+  final_text: Why does risk matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use risk?
+  final_text: Why does risk?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of risk?
+  final_text: What is a simple example of risk?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is making accurate predictions?
+  final_text: What is making accurate predictions?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does making accurate predictions mean?
+  final_text: What does making accurate predictions mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does making accurate predictions matter?
+  final_text: Why does making accurate predictions matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use making accurate predictions?
+  final_text: Why does making accurate predictions?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of making accurate predictions?
+  final_text: What is a simple example of making accurate predictions?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is poking holes in predictions?
+  final_text: What is poking holes in predictions?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does poking holes in predictions mean?
+  final_text: What does poking holes in predictions mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does poking holes in predictions matter?
+  final_text: Why does poking holes in predictions matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use poking holes in predictions?
+  final_text: Why does poking holes in predictions?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of poking holes in predictions?
+  final_text: What is a simple example of poking holes in predictions?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: 'What is case study: should you change your bakery''s menu??'
+  final_text: 'What is case study: should you change your bakery''s menu??'
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: 'What does case study: should you change your bakery''s menu? mean?'
+  final_text: 'What does case study: should you change your bakery''s menu? mean?'
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: 'Why does case study: should you change your bakery''s menu? matter?'
+  final_text: 'Why does case study: should you change your bakery''s menu? matter?'
+  reject_reason: null
+- candidate_id: q0024
+  status: repaired
+  original_text: 'Why do we use case study: should you change your bakery''s menu??'
+  final_text: 'Why does case study: should you change your bakery''s menu??'
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: 'What is a simple example of case study: should you change your bakery''s
+    menu??'
+  final_text: 'What is a simple example of case study: should you change your bakery''s
+    menu??'
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: How is defining error, uncertainty different from risk?
+  final_text: How is defining error, uncertainty different from risk?
+  reject_reason: null
+- candidate_id: q0027
+  status: accepted
+  original_text: How is defining error, uncertainty different from making accurate
+    predictions?
+  final_text: How is defining error, uncertainty different from making accurate predictions?
+  reject_reason: null
+- candidate_id: q0028
+  status: accepted
+  original_text: How is defining error, uncertainty different from poking holes in
+    predictions?
+  final_text: How is defining error, uncertainty different from poking holes in predictions?
+  reject_reason: null
+- candidate_id: q0029
+  status: accepted
+  original_text: 'How is defining error, uncertainty different from case study: should
+    you change your bakery''s menu??'
+  final_text: 'How is defining error, uncertainty different from case study: should
+    you change your bakery''s menu??'
+  reject_reason: null
+- candidate_id: q0030
+  status: accepted
+  original_text: How is risk different from making accurate predictions?
+  final_text: How is risk different from making accurate predictions?
+  reject_reason: null
+- candidate_id: q0031
+  status: accepted
+  original_text: How is risk different from poking holes in predictions?
+  final_text: How is risk different from poking holes in predictions?
+  reject_reason: null
+- candidate_id: q0032
+  status: accepted
+  original_text: 'How is risk different from case study: should you change your bakery''s
+    menu??'
+  final_text: 'How is risk different from case study: should you change your bakery''s
+    menu??'
+  reject_reason: null
+- candidate_id: q0033
+  status: accepted
+  original_text: How is making accurate predictions different from poking holes in
+    predictions?
+  final_text: How is making accurate predictions different from poking holes in predictions?
+  reject_reason: null
+- candidate_id: q0034
+  status: accepted
+  original_text: 'How is making accurate predictions different from case study: should
+    you change your bakery''s menu??'
+  final_text: 'How is making accurate predictions different from case study: should
+    you change your bakery''s menu??'
+  reject_reason: null
+- candidate_id: q0035
+  status: accepted
+  original_text: 'How is poking holes in predictions different from case study: should
+    you change your bakery''s menu??'
+  final_text: 'How is poking holes in predictions different from case study: should
+    you change your bakery''s menu??'
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is defining error, uncertainty?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does defining error, uncertainty mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does defining error, uncertainty matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does defining error, uncertainty?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of defining error, uncertainty?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is risk?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does risk mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does risk matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does risk?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of risk?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is making accurate predictions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does making accurate predictions mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does making accurate predictions matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does making accurate predictions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of making accurate predictions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is poking holes in predictions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does poking holes in predictions mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does poking holes in predictions matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does poking holes in predictions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of poking holes in predictions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: 'What is case study: should you change your bakery''s menu??'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: 'What does case study: should you change your bakery''s menu? mean?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: 'Why does case study: should you change your bakery''s menu? matter?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: 'Why does case study: should you change your bakery''s menu??'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: 'What is a simple example of case study: should you change your bakery''s
+    menu??'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: How is defining error, uncertainty different from risk?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0027
+  question_text: How is defining error, uncertainty different from making accurate
+    predictions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0028
+  question_text: How is defining error, uncertainty different from poking holes in
+    predictions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0029
+  question_text: 'How is defining error, uncertainty different from case study: should
+    you change your bakery''s menu??'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0030
+  question_text: How is risk different from making accurate predictions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0031
+  question_text: How is risk different from poking holes in predictions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0032
+  question_text: 'How is risk different from case study: should you change your bakery''s
+    menu??'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0033
+  question_text: How is making accurate predictions different from poking holes in
+    predictions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0034
+  question_text: 'How is making accurate predictions different from case study: should
+    you change your bakery''s menu??'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0035
+  question_text: 'How is poking holes in predictions different from case study: should
+    you change your bakery''s menu??'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24656'
+    title: Error and Uncertainty in Google Sheets
+  relevant_topics:
+  - defining error, uncertainty
+  question_text: What is defining error, uncertainty?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24656'
+    title: Error and Uncertainty in Google Sheets
+  relevant_topics:
+  - defining error, uncertainty
+  question_text: What does defining error, uncertainty mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24656'
+    title: Error and Uncertainty in Google Sheets
+  relevant_topics:
+  - defining error, uncertainty
+  question_text: Why does defining error, uncertainty matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24656'
+    title: Error and Uncertainty in Google Sheets
+  relevant_topics:
+  - defining error, uncertainty
+  question_text: Why does defining error, uncertainty?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24656'
+    title: Error and Uncertainty in Google Sheets
+  relevant_topics:
+  - defining error, uncertainty
+  question_text: What is a simple example of defining error, uncertainty?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24656'
+    title: Error and Uncertainty in Google Sheets
+  relevant_topics:
+  - risk
+  question_text: What is risk?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24656'
+    title: Error and Uncertainty in Google Sheets
+  relevant_topics:
+  - risk
+  question_text: What does risk mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24656'
+    title: Error and Uncertainty in Google Sheets
+  relevant_topics:
+  - risk
+  question_text: Why does risk matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24656'
+    title: Error and Uncertainty in Google Sheets
+  relevant_topics:
+  - risk
+  question_text: Why does risk?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24656'
+    title: Error and Uncertainty in Google Sheets
+  relevant_topics:
+  - risk
+  question_text: What is a simple example of risk?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24656'
+    title: Error and Uncertainty in Google Sheets
+  relevant_topics:
+  - making accurate predictions
+  question_text: What is making accurate predictions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24656'
+    title: Error and Uncertainty in Google Sheets
+  relevant_topics:
+  - making accurate predictions
+  question_text: What does making accurate predictions mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24656'
+    title: Error and Uncertainty in Google Sheets
+  relevant_topics:
+  - making accurate predictions
+  question_text: Why does making accurate predictions matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24656'
+    title: Error and Uncertainty in Google Sheets
+  relevant_topics:
+  - making accurate predictions
+  question_text: Why does making accurate predictions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24656'
+    title: Error and Uncertainty in Google Sheets
+  relevant_topics:
+  - making accurate predictions
+  question_text: What is a simple example of making accurate predictions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24656'
+    title: Error and Uncertainty in Google Sheets
+  relevant_topics:
+  - poking holes in predictions
+  question_text: What is poking holes in predictions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24656'
+    title: Error and Uncertainty in Google Sheets
+  relevant_topics:
+  - poking holes in predictions
+  question_text: What does poking holes in predictions mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24656'
+    title: Error and Uncertainty in Google Sheets
+  relevant_topics:
+  - poking holes in predictions
+  question_text: Why does poking holes in predictions matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24656'
+    title: Error and Uncertainty in Google Sheets
+  relevant_topics:
+  - poking holes in predictions
+  question_text: Why does poking holes in predictions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24656'
+    title: Error and Uncertainty in Google Sheets
+  relevant_topics:
+  - poking holes in predictions
+  question_text: What is a simple example of poking holes in predictions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24656'
+    title: Error and Uncertainty in Google Sheets
+  relevant_topics:
+  - 'case study: should you change your bakery''s menu?'
+  question_text: 'What is case study: should you change your bakery''s menu??'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24656'
+    title: Error and Uncertainty in Google Sheets
+  relevant_topics:
+  - 'case study: should you change your bakery''s menu?'
+  question_text: 'What does case study: should you change your bakery''s menu? mean?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24656'
+    title: Error and Uncertainty in Google Sheets
+  relevant_topics:
+  - 'case study: should you change your bakery''s menu?'
+  question_text: 'Why does case study: should you change your bakery''s menu? matter?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24656'
+    title: Error and Uncertainty in Google Sheets
+  relevant_topics:
+  - 'case study: should you change your bakery''s menu?'
+  question_text: 'Why does case study: should you change your bakery''s menu??'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24656'
+    title: Error and Uncertainty in Google Sheets
+  relevant_topics:
+  - 'case study: should you change your bakery''s menu?'
+  question_text: 'What is a simple example of case study: should you change your bakery''s
+    menu??'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24656'
+    title: Error and Uncertainty in Google Sheets
+  relevant_topics:
+  - defining error, uncertainty
+  - risk
+  question_text: How is defining error, uncertainty different from risk?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000027
+  course:
+    course_id: '24656'
+    title: Error and Uncertainty in Google Sheets
+  relevant_topics:
+  - defining error, uncertainty
+  - making accurate predictions
+  question_text: How is defining error, uncertainty different from making accurate
+    predictions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000028
+  course:
+    course_id: '24656'
+    title: Error and Uncertainty in Google Sheets
+  relevant_topics:
+  - defining error, uncertainty
+  - poking holes in predictions
+  question_text: How is defining error, uncertainty different from poking holes in
+    predictions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000029
+  course:
+    course_id: '24656'
+    title: Error and Uncertainty in Google Sheets
+  relevant_topics:
+  - defining error, uncertainty
+  - 'case study: should you change your bakery''s menu?'
+  question_text: 'How is defining error, uncertainty different from case study: should
+    you change your bakery''s menu??'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000030
+  course:
+    course_id: '24656'
+    title: Error and Uncertainty in Google Sheets
+  relevant_topics:
+  - risk
+  - making accurate predictions
+  question_text: How is risk different from making accurate predictions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000031
+  course:
+    course_id: '24656'
+    title: Error and Uncertainty in Google Sheets
+  relevant_topics:
+  - risk
+  - poking holes in predictions
+  question_text: How is risk different from poking holes in predictions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000032
+  course:
+    course_id: '24656'
+    title: Error and Uncertainty in Google Sheets
+  relevant_topics:
+  - risk
+  - 'case study: should you change your bakery''s menu?'
+  question_text: 'How is risk different from case study: should you change your bakery''s
+    menu??'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000033
+  course:
+    course_id: '24656'
+    title: Error and Uncertainty in Google Sheets
+  relevant_topics:
+  - making accurate predictions
+  - poking holes in predictions
+  question_text: How is making accurate predictions different from poking holes in
+    predictions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000034
+  course:
+    course_id: '24656'
+    title: Error and Uncertainty in Google Sheets
+  relevant_topics:
+  - making accurate predictions
+  - 'case study: should you change your bakery''s menu?'
+  question_text: 'How is making accurate predictions different from case study: should
+    you change your bakery''s menu??'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000035
+  course:
+    course_id: '24656'
+    title: Error and Uncertainty in Google Sheets
+  relevant_topics:
+  - poking holes in predictions
+  - 'case study: should you change your bakery''s menu?'
+  question_text: 'How is poking holes in predictions different from case study: should
+    you change your bakery''s menu??'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 5
+  canonical_topic_count: 5
+  candidate_count: 35
+  accepted_count: 35
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 35

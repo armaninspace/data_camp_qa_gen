@@ -1,0 +1,3978 @@
+course_id: '24375'
+title: continuous outcome? Regression is best suited to solving such problems. You
+normalized_course:
+  course_id: '24375'
+  title: continuous outcome? Regression is best suited to solving such problems. You
+  provider: DataCamp
+  summary: 'Learn how to build and tune predictive models and evaluate how well they''ll
+
+    perform on unseen data.'
+  overview: 'Classification
+
+
+    -In this chapter, you will be introduced to classification problems and
+
+    learn how to solve them using supervised learning techniques. And you’ll
+
+    apply what you learn to a political dataset, where you classify the party
+
+    affiliation of United States congressmen based on their voting records.
+
+
+    Regression
+
+
+    -In the previous chapter, you used image and political datasets to predict
+
+    binary and multiclass outcomes. But what if your problem requires a
+
+    continuous outcome? Regression is best suited to solving such problems. You
+
+    will learn about fundamental concepts in regression and apply them to
+
+    predict the life expectancy in a given country using Gapminder data.
+
+
+    Fine-tuning your model
+
+
+    -Having trained your model, your next task is to evaluate its performance.
+
+    In this chapter, you will learn about some of the other metrics available in
+
+    scikit-learn that will allow you to assess your model''s performance in a
+
+    more nuanced manner. Next, learn to optimize your classification and
+
+    regression models using hyperparameter tuning.
+
+
+    Preprocessing and pipelines
+
+
+    -This chapter introduces pipelines, and how scikit-learn allows for
+
+    transformers and estimators to be chained together and used as a single
+
+    unit. Preprocessing techniques will be introduced as a way to enhance model
+
+    performance, and pipelines will tie together concepts from previous
+
+    chapters.'
+  chapters:
+  - chapter_index: 1
+    title: Classification
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 2
+    title: -In this chapter, you will be introduced to classification problems and
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 3
+    title: learn how to solve them using supervised learning techniques. And you’ll
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 4
+    title: apply what you learn to a political dataset, where you classify the party
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 5
+    title: Regression
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 6
+    title: -In the previous chapter, you used image and political datasets to predict
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 7
+    title: binary and multiclass outcomes. But what if your problem requires a
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 8
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  metadata:
+    level: Intermediate
+    duration_hours: 4 hours
+    subjects:
+    - scikit-learn
+    - Machine Learning
+    - Supervised Learning
+    - Classification
+    - Hyperparameter Tuning
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: classification
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: classification'
+  evidence:
+  - source: overview_inferred
+    text: Classification
+  confidence: 0.45
+- topic_id: t002
+  label: -in this chapter, you will be introduced to classification problems and
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: -in this chapter, you will be
+    introduced to classification problems and'
+  evidence:
+  - source: overview_inferred
+    text: -In this chapter, you will be introduced to classification problems and
+  confidence: 0.45
+- topic_id: t003
+  label: learn how to solve them using supervised learning techniques
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: learn how to solve them using
+    supervised learning techniques'
+  evidence:
+  - source: overview_inferred
+    text: learn how to solve them using supervised learning techniques. And you’ll
+  confidence: 0.55
+- topic_id: t004
+  label: you’ll
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: you’ll'
+  evidence:
+  - source: overview_inferred
+    text: learn how to solve them using supervised learning techniques. And you’ll
+  confidence: 0.55
+- topic_id: t005
+  label: apply what you learn to a political dataset, where you classify the party
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: apply what you learn to a political
+    dataset, where you classify the party'
+  evidence:
+  - source: overview_inferred
+    text: apply what you learn to a political dataset, where you classify the party
+  confidence: 0.45
+- topic_id: t006
+  label: regression
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: regression'
+  evidence:
+  - source: overview_inferred
+    text: Regression
+  confidence: 0.45
+- topic_id: t007
+  label: -in the previous chapter, you used image
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: -in the previous chapter, you
+    used image'
+  evidence:
+  - source: overview_inferred
+    text: -In the previous chapter, you used image and political datasets to predict
+  confidence: 0.55
+- topic_id: t008
+  label: political datasets to predict
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: political datasets to predict'
+  evidence:
+  - source: overview_inferred
+    text: -In the previous chapter, you used image and political datasets to predict
+  confidence: 0.55
+- topic_id: t009
+  label: binary
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: binary'
+  evidence:
+  - source: overview_inferred
+    text: binary and multiclass outcomes. But what if your problem requires a
+  confidence: 0.55
+- topic_id: t010
+  label: multiclass outcomes. but what if your problem requires a
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: multiclass outcomes. but what
+    if your problem requires a'
+  evidence:
+  - source: overview_inferred
+    text: binary and multiclass outcomes. But what if your problem requires a
+  confidence: 0.55
+- topic_id: t011
+  label: continuous outcome? regression is best suited to solving such problems. you
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: continuous outcome? regression
+    is best suited to solving such problems. you'
+  evidence:
+  - source: overview_inferred
+    text: continuous outcome? Regression is best suited to solving such problems.
+      You
+  confidence: 0.45
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: classification
+  aliases:
+  - classification
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: -in this chapter, you will be introduced to classification problems and
+  aliases:
+  - -in this chapter, you will be introduced to classification problems and
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: learn how to solve them using supervised learning techniques
+  aliases:
+  - learn how to solve them using supervised learning techniques
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: you’ll
+  aliases:
+  - you’ll
+  member_topic_ids:
+  - t004
+  topic_type: concept
+- canonical_topic_id: ct_005
+  label: apply what you learn to a political dataset, where you classify party
+  aliases:
+  - apply what you learn to a political dataset, where you classify the party
+  member_topic_ids:
+  - t005
+  topic_type: concept
+- canonical_topic_id: ct_006
+  label: regression
+  aliases:
+  - regression
+  member_topic_ids:
+  - t006
+  topic_type: concept
+- canonical_topic_id: ct_007
+  label: -in previous chapter, you used image
+  aliases:
+  - -in the previous chapter, you used image
+  member_topic_ids:
+  - t007
+  topic_type: concept
+- canonical_topic_id: ct_008
+  label: political datasets to predict
+  aliases:
+  - political datasets to predict
+  member_topic_ids:
+  - t008
+  topic_type: concept
+- canonical_topic_id: ct_009
+  label: binary
+  aliases:
+  - binary
+  member_topic_ids:
+  - t009
+  topic_type: concept
+- canonical_topic_id: ct_010
+  label: multiclass outcomes. but what if your problem requires a
+  aliases:
+  - multiclass outcomes. but what if your problem requires a
+  member_topic_ids:
+  - t010
+  topic_type: concept
+- canonical_topic_id: ct_011
+  label: continuous outcome? regression is best suited to solving such problems. you
+  aliases:
+  - continuous outcome? regression is best suited to solving such problems. you
+  member_topic_ids:
+  - t011
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - classification
+  family: entry
+  pattern: What is {x}?
+  question_text: What is classification?
+- candidate_id: q0002
+  relevant_topics:
+  - classification
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does classification mean?
+- candidate_id: q0003
+  relevant_topics:
+  - classification
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does classification matter?
+- candidate_id: q0004
+  relevant_topics:
+  - classification
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use classification?
+- candidate_id: q0005
+  relevant_topics:
+  - classification
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of classification?
+- candidate_id: q0006
+  relevant_topics:
+  - -in this chapter, you will be introduced to classification problems and
+  family: entry
+  pattern: What is {x}?
+  question_text: What is -in this chapter, you will be introduced to classification
+    problems and?
+- candidate_id: q0007
+  relevant_topics:
+  - -in this chapter, you will be introduced to classification problems and
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does -in this chapter, you will be introduced to classification
+    problems and mean?
+- candidate_id: q0008
+  relevant_topics:
+  - -in this chapter, you will be introduced to classification problems and
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does -in this chapter, you will be introduced to classification
+    problems and matter?
+- candidate_id: q0009
+  relevant_topics:
+  - -in this chapter, you will be introduced to classification problems and
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use -in this chapter, you will be introduced to classification
+    problems and?
+- candidate_id: q0010
+  relevant_topics:
+  - -in this chapter, you will be introduced to classification problems and
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of -in this chapter, you will be introduced
+    to classification problems and?
+- candidate_id: q0011
+  relevant_topics:
+  - learn how to solve them using supervised learning techniques
+  family: entry
+  pattern: What is {x}?
+  question_text: What is learn how to solve them using supervised learning techniques?
+- candidate_id: q0012
+  relevant_topics:
+  - learn how to solve them using supervised learning techniques
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does learn how to solve them using supervised learning techniques
+    mean?
+- candidate_id: q0013
+  relevant_topics:
+  - learn how to solve them using supervised learning techniques
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does learn how to solve them using supervised learning techniques
+    matter?
+- candidate_id: q0014
+  relevant_topics:
+  - learn how to solve them using supervised learning techniques
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use learn how to solve them using supervised learning techniques?
+- candidate_id: q0015
+  relevant_topics:
+  - learn how to solve them using supervised learning techniques
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of learn how to solve them using supervised
+    learning techniques?
+- candidate_id: q0016
+  relevant_topics:
+  - you’ll
+  family: entry
+  pattern: What is {x}?
+  question_text: What is you’ll?
+- candidate_id: q0017
+  relevant_topics:
+  - you’ll
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does you’ll mean?
+- candidate_id: q0018
+  relevant_topics:
+  - you’ll
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does you’ll matter?
+- candidate_id: q0019
+  relevant_topics:
+  - you’ll
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use you’ll?
+- candidate_id: q0020
+  relevant_topics:
+  - you’ll
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of you’ll?
+- candidate_id: q0021
+  relevant_topics:
+  - apply what you learn to a political dataset, where you classify party
+  family: entry
+  pattern: What is {x}?
+  question_text: What is apply what you learn to a political dataset, where you classify
+    party?
+- candidate_id: q0022
+  relevant_topics:
+  - apply what you learn to a political dataset, where you classify party
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does apply what you learn to a political dataset, where you
+    classify party mean?
+- candidate_id: q0023
+  relevant_topics:
+  - apply what you learn to a political dataset, where you classify party
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does apply what you learn to a political dataset, where you classify
+    party matter?
+- candidate_id: q0024
+  relevant_topics:
+  - apply what you learn to a political dataset, where you classify party
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use apply what you learn to a political dataset, where
+    you classify party?
+- candidate_id: q0025
+  relevant_topics:
+  - apply what you learn to a political dataset, where you classify party
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of apply what you learn to a political dataset,
+    where you classify party?
+- candidate_id: q0026
+  relevant_topics:
+  - regression
+  family: entry
+  pattern: What is {x}?
+  question_text: What is regression?
+- candidate_id: q0027
+  relevant_topics:
+  - regression
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does regression mean?
+- candidate_id: q0028
+  relevant_topics:
+  - regression
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does regression matter?
+- candidate_id: q0029
+  relevant_topics:
+  - regression
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use regression?
+- candidate_id: q0030
+  relevant_topics:
+  - regression
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of regression?
+- candidate_id: q0031
+  relevant_topics:
+  - -in previous chapter, you used image
+  family: entry
+  pattern: What is {x}?
+  question_text: What is -in previous chapter, you used image?
+- candidate_id: q0032
+  relevant_topics:
+  - -in previous chapter, you used image
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does -in previous chapter, you used image mean?
+- candidate_id: q0033
+  relevant_topics:
+  - -in previous chapter, you used image
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does -in previous chapter, you used image matter?
+- candidate_id: q0034
+  relevant_topics:
+  - -in previous chapter, you used image
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use -in previous chapter, you used image?
+- candidate_id: q0035
+  relevant_topics:
+  - -in previous chapter, you used image
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of -in previous chapter, you used image?
+- candidate_id: q0036
+  relevant_topics:
+  - political datasets to predict
+  family: entry
+  pattern: What is {x}?
+  question_text: What is political datasets to predict?
+- candidate_id: q0037
+  relevant_topics:
+  - political datasets to predict
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does political datasets to predict mean?
+- candidate_id: q0038
+  relevant_topics:
+  - political datasets to predict
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does political datasets to predict matter?
+- candidate_id: q0039
+  relevant_topics:
+  - political datasets to predict
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use political datasets to predict?
+- candidate_id: q0040
+  relevant_topics:
+  - political datasets to predict
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of political datasets to predict?
+- candidate_id: q0041
+  relevant_topics:
+  - binary
+  family: entry
+  pattern: What is {x}?
+  question_text: What is binary?
+- candidate_id: q0042
+  relevant_topics:
+  - binary
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does binary mean?
+- candidate_id: q0043
+  relevant_topics:
+  - binary
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does binary matter?
+- candidate_id: q0044
+  relevant_topics:
+  - binary
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use binary?
+- candidate_id: q0045
+  relevant_topics:
+  - binary
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of binary?
+- candidate_id: q0046
+  relevant_topics:
+  - multiclass outcomes. but what if your problem requires a
+  family: entry
+  pattern: What is {x}?
+  question_text: What is multiclass outcomes. but what if your problem requires a?
+- candidate_id: q0047
+  relevant_topics:
+  - multiclass outcomes. but what if your problem requires a
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does multiclass outcomes. but what if your problem requires
+    a mean?
+- candidate_id: q0048
+  relevant_topics:
+  - multiclass outcomes. but what if your problem requires a
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does multiclass outcomes. but what if your problem requires a
+    matter?
+- candidate_id: q0049
+  relevant_topics:
+  - multiclass outcomes. but what if your problem requires a
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use multiclass outcomes. but what if your problem requires
+    a?
+- candidate_id: q0050
+  relevant_topics:
+  - multiclass outcomes. but what if your problem requires a
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of multiclass outcomes. but what if your
+    problem requires a?
+- candidate_id: q0051
+  relevant_topics:
+  - continuous outcome? regression is best suited to solving such problems. you
+  family: entry
+  pattern: What is {x}?
+  question_text: What is continuous outcome? regression is best suited to solving
+    such problems. you?
+- candidate_id: q0052
+  relevant_topics:
+  - continuous outcome? regression is best suited to solving such problems. you
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does continuous outcome? regression is best suited to solving
+    such problems. you mean?
+- candidate_id: q0053
+  relevant_topics:
+  - continuous outcome? regression is best suited to solving such problems. you
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does continuous outcome? regression is best suited to solving
+    such problems. you matter?
+- candidate_id: q0054
+  relevant_topics:
+  - continuous outcome? regression is best suited to solving such problems. you
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use continuous outcome? regression is best suited to solving
+    such problems. you?
+- candidate_id: q0055
+  relevant_topics:
+  - continuous outcome? regression is best suited to solving such problems. you
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of continuous outcome? regression is best
+    suited to solving such problems. you?
+- candidate_id: q0056
+  relevant_topics:
+  - classification
+  - -in this chapter, you will be introduced to classification problems and
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is classification different from -in this chapter, you will be
+    introduced to classification problems and?
+- candidate_id: q0057
+  relevant_topics:
+  - classification
+  - learn how to solve them using supervised learning techniques
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is classification different from learn how to solve them using
+    supervised learning techniques?
+- candidate_id: q0058
+  relevant_topics:
+  - classification
+  - you’ll
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is classification different from you’ll?
+- candidate_id: q0059
+  relevant_topics:
+  - classification
+  - apply what you learn to a political dataset, where you classify party
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is classification different from apply what you learn to a political
+    dataset, where you classify party?
+- candidate_id: q0060
+  relevant_topics:
+  - classification
+  - regression
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is classification different from regression?
+- candidate_id: q0061
+  relevant_topics:
+  - classification
+  - -in previous chapter, you used image
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is classification different from -in previous chapter, you used
+    image?
+- candidate_id: q0062
+  relevant_topics:
+  - classification
+  - political datasets to predict
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is classification different from political datasets to predict?
+- candidate_id: q0063
+  relevant_topics:
+  - classification
+  - binary
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is classification different from binary?
+- candidate_id: q0064
+  relevant_topics:
+  - classification
+  - multiclass outcomes. but what if your problem requires a
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is classification different from multiclass outcomes. but what
+    if your problem requires a?
+- candidate_id: q0065
+  relevant_topics:
+  - -in this chapter, you will be introduced to classification problems and
+  - learn how to solve them using supervised learning techniques
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter, you will be introduced to classification
+    problems and different from learn how to solve them using supervised learning
+    techniques?
+- candidate_id: q0066
+  relevant_topics:
+  - -in this chapter, you will be introduced to classification problems and
+  - you’ll
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter, you will be introduced to classification
+    problems and different from you’ll?
+- candidate_id: q0067
+  relevant_topics:
+  - -in this chapter, you will be introduced to classification problems and
+  - apply what you learn to a political dataset, where you classify party
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter, you will be introduced to classification
+    problems and different from apply what you learn to a political dataset, where
+    you classify party?
+- candidate_id: q0068
+  relevant_topics:
+  - -in this chapter, you will be introduced to classification problems and
+  - regression
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter, you will be introduced to classification
+    problems and different from regression?
+- candidate_id: q0069
+  relevant_topics:
+  - -in this chapter, you will be introduced to classification problems and
+  - -in previous chapter, you used image
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter, you will be introduced to classification
+    problems and different from -in previous chapter, you used image?
+- candidate_id: q0070
+  relevant_topics:
+  - -in this chapter, you will be introduced to classification problems and
+  - political datasets to predict
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter, you will be introduced to classification
+    problems and different from political datasets to predict?
+- candidate_id: q0071
+  relevant_topics:
+  - -in this chapter, you will be introduced to classification problems and
+  - binary
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter, you will be introduced to classification
+    problems and different from binary?
+- candidate_id: q0072
+  relevant_topics:
+  - -in this chapter, you will be introduced to classification problems and
+  - multiclass outcomes. but what if your problem requires a
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter, you will be introduced to classification
+    problems and different from multiclass outcomes. but what if your problem requires
+    a?
+- candidate_id: q0073
+  relevant_topics:
+  - learn how to solve them using supervised learning techniques
+  - you’ll
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is learn how to solve them using supervised learning techniques
+    different from you’ll?
+- candidate_id: q0074
+  relevant_topics:
+  - learn how to solve them using supervised learning techniques
+  - apply what you learn to a political dataset, where you classify party
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is learn how to solve them using supervised learning techniques
+    different from apply what you learn to a political dataset, where you classify
+    party?
+- candidate_id: q0075
+  relevant_topics:
+  - learn how to solve them using supervised learning techniques
+  - regression
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is learn how to solve them using supervised learning techniques
+    different from regression?
+- candidate_id: q0076
+  relevant_topics:
+  - learn how to solve them using supervised learning techniques
+  - -in previous chapter, you used image
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is learn how to solve them using supervised learning techniques
+    different from -in previous chapter, you used image?
+- candidate_id: q0077
+  relevant_topics:
+  - learn how to solve them using supervised learning techniques
+  - political datasets to predict
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is learn how to solve them using supervised learning techniques
+    different from political datasets to predict?
+- candidate_id: q0078
+  relevant_topics:
+  - learn how to solve them using supervised learning techniques
+  - binary
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is learn how to solve them using supervised learning techniques
+    different from binary?
+- candidate_id: q0079
+  relevant_topics:
+  - learn how to solve them using supervised learning techniques
+  - multiclass outcomes. but what if your problem requires a
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is learn how to solve them using supervised learning techniques
+    different from multiclass outcomes. but what if your problem requires a?
+- candidate_id: q0080
+  relevant_topics:
+  - you’ll
+  - apply what you learn to a political dataset, where you classify party
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is you’ll different from apply what you learn to a political
+    dataset, where you classify party?
+- candidate_id: q0081
+  relevant_topics:
+  - you’ll
+  - regression
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is you’ll different from regression?
+- candidate_id: q0082
+  relevant_topics:
+  - you’ll
+  - -in previous chapter, you used image
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is you’ll different from -in previous chapter, you used image?
+- candidate_id: q0083
+  relevant_topics:
+  - you’ll
+  - political datasets to predict
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is you’ll different from political datasets to predict?
+- candidate_id: q0084
+  relevant_topics:
+  - you’ll
+  - binary
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is you’ll different from binary?
+- candidate_id: q0085
+  relevant_topics:
+  - you’ll
+  - multiclass outcomes. but what if your problem requires a
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is you’ll different from multiclass outcomes. but what if your
+    problem requires a?
+- candidate_id: q0086
+  relevant_topics:
+  - apply what you learn to a political dataset, where you classify party
+  - regression
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is apply what you learn to a political dataset, where you classify
+    party different from regression?
+- candidate_id: q0087
+  relevant_topics:
+  - apply what you learn to a political dataset, where you classify party
+  - -in previous chapter, you used image
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is apply what you learn to a political dataset, where you classify
+    party different from -in previous chapter, you used image?
+- candidate_id: q0088
+  relevant_topics:
+  - apply what you learn to a political dataset, where you classify party
+  - political datasets to predict
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is apply what you learn to a political dataset, where you classify
+    party different from political datasets to predict?
+- candidate_id: q0089
+  relevant_topics:
+  - apply what you learn to a political dataset, where you classify party
+  - binary
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is apply what you learn to a political dataset, where you classify
+    party different from binary?
+- candidate_id: q0090
+  relevant_topics:
+  - apply what you learn to a political dataset, where you classify party
+  - multiclass outcomes. but what if your problem requires a
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is apply what you learn to a political dataset, where you classify
+    party different from multiclass outcomes. but what if your problem requires a?
+- candidate_id: q0091
+  relevant_topics:
+  - regression
+  - -in previous chapter, you used image
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is regression different from -in previous chapter, you used image?
+- candidate_id: q0092
+  relevant_topics:
+  - regression
+  - political datasets to predict
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is regression different from political datasets to predict?
+- candidate_id: q0093
+  relevant_topics:
+  - regression
+  - binary
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is regression different from binary?
+- candidate_id: q0094
+  relevant_topics:
+  - regression
+  - multiclass outcomes. but what if your problem requires a
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is regression different from multiclass outcomes. but what if
+    your problem requires a?
+- candidate_id: q0095
+  relevant_topics:
+  - -in previous chapter, you used image
+  - political datasets to predict
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in previous chapter, you used image different from political
+    datasets to predict?
+- candidate_id: q0096
+  relevant_topics:
+  - -in previous chapter, you used image
+  - binary
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in previous chapter, you used image different from binary?
+- candidate_id: q0097
+  relevant_topics:
+  - -in previous chapter, you used image
+  - multiclass outcomes. but what if your problem requires a
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in previous chapter, you used image different from multiclass
+    outcomes. but what if your problem requires a?
+- candidate_id: q0098
+  relevant_topics:
+  - political datasets to predict
+  - binary
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is political datasets to predict different from binary?
+- candidate_id: q0099
+  relevant_topics:
+  - political datasets to predict
+  - multiclass outcomes. but what if your problem requires a
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is political datasets to predict different from multiclass outcomes.
+    but what if your problem requires a?
+- candidate_id: q0100
+  relevant_topics:
+  - binary
+  - multiclass outcomes. but what if your problem requires a
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is binary different from multiclass outcomes. but what if your
+    problem requires a?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is classification?
+  final_text: What is classification?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does classification mean?
+  final_text: What does classification mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does classification matter?
+  final_text: Why does classification matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use classification?
+  final_text: Why does classification?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of classification?
+  final_text: What is a simple example of classification?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is -in this chapter, you will be introduced to classification
+    problems and?
+  final_text: What is -in this chapter, you will be introduced to classification problems
+    and?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does -in this chapter, you will be introduced to classification
+    problems and mean?
+  final_text: What does -in this chapter, you will be introduced to classification
+    problems and mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does -in this chapter, you will be introduced to classification
+    problems and matter?
+  final_text: Why does -in this chapter, you will be introduced to classification
+    problems and matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use -in this chapter, you will be introduced to classification
+    problems and?
+  final_text: Why does -in this chapter, you will be introduced to classification
+    problems and?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of -in this chapter, you will be introduced
+    to classification problems and?
+  final_text: What is a simple example of -in this chapter, you will be introduced
+    to classification problems and?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is learn how to solve them using supervised learning techniques?
+  final_text: What is learn how to solve them using supervised learning techniques?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does learn how to solve them using supervised learning techniques
+    mean?
+  final_text: What does learn how to solve them using supervised learning techniques
+    mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does learn how to solve them using supervised learning techniques
+    matter?
+  final_text: Why does learn how to solve them using supervised learning techniques
+    matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use learn how to solve them using supervised learning techniques?
+  final_text: Why does learn how to solve them using supervised learning techniques?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of learn how to solve them using supervised
+    learning techniques?
+  final_text: What is a simple example of learn how to solve them using supervised
+    learning techniques?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is you’ll?
+  final_text: What is you’ll?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does you’ll mean?
+  final_text: What does you’ll mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does you’ll matter?
+  final_text: Why does you’ll matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use you’ll?
+  final_text: Why does you’ll?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of you’ll?
+  final_text: What is a simple example of you’ll?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: What is apply what you learn to a political dataset, where you classify
+    party?
+  final_text: What is apply what you learn to a political dataset, where you classify
+    party?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: What does apply what you learn to a political dataset, where you
+    classify party mean?
+  final_text: What does apply what you learn to a political dataset, where you classify
+    party mean?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: Why does apply what you learn to a political dataset, where you classify
+    party matter?
+  final_text: Why does apply what you learn to a political dataset, where you classify
+    party matter?
+  reject_reason: null
+- candidate_id: q0024
+  status: repaired
+  original_text: Why do we use apply what you learn to a political dataset, where
+    you classify party?
+  final_text: Why does apply what you learn to a political dataset, where you classify
+    party?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: What is a simple example of apply what you learn to a political dataset,
+    where you classify party?
+  final_text: What is a simple example of apply what you learn to a political dataset,
+    where you classify party?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: What is regression?
+  final_text: What is regression?
+  reject_reason: null
+- candidate_id: q0027
+  status: accepted
+  original_text: What does regression mean?
+  final_text: What does regression mean?
+  reject_reason: null
+- candidate_id: q0028
+  status: accepted
+  original_text: Why does regression matter?
+  final_text: Why does regression matter?
+  reject_reason: null
+- candidate_id: q0029
+  status: repaired
+  original_text: Why do we use regression?
+  final_text: Why does regression?
+  reject_reason: null
+- candidate_id: q0030
+  status: accepted
+  original_text: What is a simple example of regression?
+  final_text: What is a simple example of regression?
+  reject_reason: null
+- candidate_id: q0031
+  status: accepted
+  original_text: What is -in previous chapter, you used image?
+  final_text: What is -in previous chapter, you used image?
+  reject_reason: null
+- candidate_id: q0032
+  status: accepted
+  original_text: What does -in previous chapter, you used image mean?
+  final_text: What does -in previous chapter, you used image mean?
+  reject_reason: null
+- candidate_id: q0033
+  status: accepted
+  original_text: Why does -in previous chapter, you used image matter?
+  final_text: Why does -in previous chapter, you used image matter?
+  reject_reason: null
+- candidate_id: q0034
+  status: repaired
+  original_text: Why do we use -in previous chapter, you used image?
+  final_text: Why does -in previous chapter, you used image?
+  reject_reason: null
+- candidate_id: q0035
+  status: accepted
+  original_text: What is a simple example of -in previous chapter, you used image?
+  final_text: What is a simple example of -in previous chapter, you used image?
+  reject_reason: null
+- candidate_id: q0036
+  status: accepted
+  original_text: What is political datasets to predict?
+  final_text: What is political datasets to predict?
+  reject_reason: null
+- candidate_id: q0037
+  status: accepted
+  original_text: What does political datasets to predict mean?
+  final_text: What does political datasets to predict mean?
+  reject_reason: null
+- candidate_id: q0038
+  status: accepted
+  original_text: Why does political datasets to predict matter?
+  final_text: Why does political datasets to predict matter?
+  reject_reason: null
+- candidate_id: q0039
+  status: repaired
+  original_text: Why do we use political datasets to predict?
+  final_text: Why does political datasets to predict?
+  reject_reason: null
+- candidate_id: q0040
+  status: accepted
+  original_text: What is a simple example of political datasets to predict?
+  final_text: What is a simple example of political datasets to predict?
+  reject_reason: null
+- candidate_id: q0041
+  status: accepted
+  original_text: What is binary?
+  final_text: What is binary?
+  reject_reason: null
+- candidate_id: q0042
+  status: accepted
+  original_text: What does binary mean?
+  final_text: What does binary mean?
+  reject_reason: null
+- candidate_id: q0043
+  status: accepted
+  original_text: Why does binary matter?
+  final_text: Why does binary matter?
+  reject_reason: null
+- candidate_id: q0044
+  status: repaired
+  original_text: Why do we use binary?
+  final_text: Why does binary?
+  reject_reason: null
+- candidate_id: q0045
+  status: accepted
+  original_text: What is a simple example of binary?
+  final_text: What is a simple example of binary?
+  reject_reason: null
+- candidate_id: q0046
+  status: accepted
+  original_text: What is multiclass outcomes. but what if your problem requires a?
+  final_text: What is multiclass outcomes. but what if your problem requires a?
+  reject_reason: null
+- candidate_id: q0047
+  status: accepted
+  original_text: What does multiclass outcomes. but what if your problem requires
+    a mean?
+  final_text: What does multiclass outcomes. but what if your problem requires a mean?
+  reject_reason: null
+- candidate_id: q0048
+  status: accepted
+  original_text: Why does multiclass outcomes. but what if your problem requires a
+    matter?
+  final_text: Why does multiclass outcomes. but what if your problem requires a matter?
+  reject_reason: null
+- candidate_id: q0049
+  status: repaired
+  original_text: Why do we use multiclass outcomes. but what if your problem requires
+    a?
+  final_text: Why does multiclass outcomes. but what if your problem requires a?
+  reject_reason: null
+- candidate_id: q0050
+  status: accepted
+  original_text: What is a simple example of multiclass outcomes. but what if your
+    problem requires a?
+  final_text: What is a simple example of multiclass outcomes. but what if your problem
+    requires a?
+  reject_reason: null
+- candidate_id: q0051
+  status: accepted
+  original_text: What is continuous outcome? regression is best suited to solving
+    such problems. you?
+  final_text: What is continuous outcome? regression is best suited to solving such
+    problems. you?
+  reject_reason: null
+- candidate_id: q0052
+  status: accepted
+  original_text: What does continuous outcome? regression is best suited to solving
+    such problems. you mean?
+  final_text: What does continuous outcome? regression is best suited to solving such
+    problems. you mean?
+  reject_reason: null
+- candidate_id: q0053
+  status: accepted
+  original_text: Why does continuous outcome? regression is best suited to solving
+    such problems. you matter?
+  final_text: Why does continuous outcome? regression is best suited to solving such
+    problems. you matter?
+  reject_reason: null
+- candidate_id: q0054
+  status: repaired
+  original_text: Why do we use continuous outcome? regression is best suited to solving
+    such problems. you?
+  final_text: Why does continuous outcome? regression is best suited to solving such
+    problems. you?
+  reject_reason: null
+- candidate_id: q0055
+  status: accepted
+  original_text: What is a simple example of continuous outcome? regression is best
+    suited to solving such problems. you?
+  final_text: What is a simple example of continuous outcome? regression is best suited
+    to solving such problems. you?
+  reject_reason: null
+- candidate_id: q0056
+  status: accepted
+  original_text: How is classification different from -in this chapter, you will be
+    introduced to classification problems and?
+  final_text: How is classification different from -in this chapter, you will be introduced
+    to classification problems and?
+  reject_reason: null
+- candidate_id: q0057
+  status: accepted
+  original_text: How is classification different from learn how to solve them using
+    supervised learning techniques?
+  final_text: How is classification different from learn how to solve them using supervised
+    learning techniques?
+  reject_reason: null
+- candidate_id: q0058
+  status: accepted
+  original_text: How is classification different from you’ll?
+  final_text: How is classification different from you’ll?
+  reject_reason: null
+- candidate_id: q0059
+  status: accepted
+  original_text: How is classification different from apply what you learn to a political
+    dataset, where you classify party?
+  final_text: How is classification different from apply what you learn to a political
+    dataset, where you classify party?
+  reject_reason: null
+- candidate_id: q0060
+  status: accepted
+  original_text: How is classification different from regression?
+  final_text: How is classification different from regression?
+  reject_reason: null
+- candidate_id: q0061
+  status: accepted
+  original_text: How is classification different from -in previous chapter, you used
+    image?
+  final_text: How is classification different from -in previous chapter, you used
+    image?
+  reject_reason: null
+- candidate_id: q0062
+  status: accepted
+  original_text: How is classification different from political datasets to predict?
+  final_text: How is classification different from political datasets to predict?
+  reject_reason: null
+- candidate_id: q0063
+  status: accepted
+  original_text: How is classification different from binary?
+  final_text: How is classification different from binary?
+  reject_reason: null
+- candidate_id: q0064
+  status: accepted
+  original_text: How is classification different from multiclass outcomes. but what
+    if your problem requires a?
+  final_text: How is classification different from multiclass outcomes. but what if
+    your problem requires a?
+  reject_reason: null
+- candidate_id: q0065
+  status: accepted
+  original_text: How is -in this chapter, you will be introduced to classification
+    problems and different from learn how to solve them using supervised learning
+    techniques?
+  final_text: How is -in this chapter, you will be introduced to classification problems
+    and different from learn how to solve them using supervised learning techniques?
+  reject_reason: null
+- candidate_id: q0066
+  status: accepted
+  original_text: How is -in this chapter, you will be introduced to classification
+    problems and different from you’ll?
+  final_text: How is -in this chapter, you will be introduced to classification problems
+    and different from you’ll?
+  reject_reason: null
+- candidate_id: q0067
+  status: accepted
+  original_text: How is -in this chapter, you will be introduced to classification
+    problems and different from apply what you learn to a political dataset, where
+    you classify party?
+  final_text: How is -in this chapter, you will be introduced to classification problems
+    and different from apply what you learn to a political dataset, where you classify
+    party?
+  reject_reason: null
+- candidate_id: q0068
+  status: accepted
+  original_text: How is -in this chapter, you will be introduced to classification
+    problems and different from regression?
+  final_text: How is -in this chapter, you will be introduced to classification problems
+    and different from regression?
+  reject_reason: null
+- candidate_id: q0069
+  status: accepted
+  original_text: How is -in this chapter, you will be introduced to classification
+    problems and different from -in previous chapter, you used image?
+  final_text: How is -in this chapter, you will be introduced to classification problems
+    and different from -in previous chapter, you used image?
+  reject_reason: null
+- candidate_id: q0070
+  status: accepted
+  original_text: How is -in this chapter, you will be introduced to classification
+    problems and different from political datasets to predict?
+  final_text: How is -in this chapter, you will be introduced to classification problems
+    and different from political datasets to predict?
+  reject_reason: null
+- candidate_id: q0071
+  status: accepted
+  original_text: How is -in this chapter, you will be introduced to classification
+    problems and different from binary?
+  final_text: How is -in this chapter, you will be introduced to classification problems
+    and different from binary?
+  reject_reason: null
+- candidate_id: q0072
+  status: accepted
+  original_text: How is -in this chapter, you will be introduced to classification
+    problems and different from multiclass outcomes. but what if your problem requires
+    a?
+  final_text: How is -in this chapter, you will be introduced to classification problems
+    and different from multiclass outcomes. but what if your problem requires a?
+  reject_reason: null
+- candidate_id: q0073
+  status: accepted
+  original_text: How is learn how to solve them using supervised learning techniques
+    different from you’ll?
+  final_text: How is learn how to solve them using supervised learning techniques
+    different from you’ll?
+  reject_reason: null
+- candidate_id: q0074
+  status: accepted
+  original_text: How is learn how to solve them using supervised learning techniques
+    different from apply what you learn to a political dataset, where you classify
+    party?
+  final_text: How is learn how to solve them using supervised learning techniques
+    different from apply what you learn to a political dataset, where you classify
+    party?
+  reject_reason: null
+- candidate_id: q0075
+  status: accepted
+  original_text: How is learn how to solve them using supervised learning techniques
+    different from regression?
+  final_text: How is learn how to solve them using supervised learning techniques
+    different from regression?
+  reject_reason: null
+- candidate_id: q0076
+  status: accepted
+  original_text: How is learn how to solve them using supervised learning techniques
+    different from -in previous chapter, you used image?
+  final_text: How is learn how to solve them using supervised learning techniques
+    different from -in previous chapter, you used image?
+  reject_reason: null
+- candidate_id: q0077
+  status: accepted
+  original_text: How is learn how to solve them using supervised learning techniques
+    different from political datasets to predict?
+  final_text: How is learn how to solve them using supervised learning techniques
+    different from political datasets to predict?
+  reject_reason: null
+- candidate_id: q0078
+  status: accepted
+  original_text: How is learn how to solve them using supervised learning techniques
+    different from binary?
+  final_text: How is learn how to solve them using supervised learning techniques
+    different from binary?
+  reject_reason: null
+- candidate_id: q0079
+  status: accepted
+  original_text: How is learn how to solve them using supervised learning techniques
+    different from multiclass outcomes. but what if your problem requires a?
+  final_text: How is learn how to solve them using supervised learning techniques
+    different from multiclass outcomes. but what if your problem requires a?
+  reject_reason: null
+- candidate_id: q0080
+  status: accepted
+  original_text: How is you’ll different from apply what you learn to a political
+    dataset, where you classify party?
+  final_text: How is you’ll different from apply what you learn to a political dataset,
+    where you classify party?
+  reject_reason: null
+- candidate_id: q0081
+  status: accepted
+  original_text: How is you’ll different from regression?
+  final_text: How is you’ll different from regression?
+  reject_reason: null
+- candidate_id: q0082
+  status: accepted
+  original_text: How is you’ll different from -in previous chapter, you used image?
+  final_text: How is you’ll different from -in previous chapter, you used image?
+  reject_reason: null
+- candidate_id: q0083
+  status: accepted
+  original_text: How is you’ll different from political datasets to predict?
+  final_text: How is you’ll different from political datasets to predict?
+  reject_reason: null
+- candidate_id: q0084
+  status: accepted
+  original_text: How is you’ll different from binary?
+  final_text: How is you’ll different from binary?
+  reject_reason: null
+- candidate_id: q0085
+  status: accepted
+  original_text: How is you’ll different from multiclass outcomes. but what if your
+    problem requires a?
+  final_text: How is you’ll different from multiclass outcomes. but what if your problem
+    requires a?
+  reject_reason: null
+- candidate_id: q0086
+  status: accepted
+  original_text: How is apply what you learn to a political dataset, where you classify
+    party different from regression?
+  final_text: How is apply what you learn to a political dataset, where you classify
+    party different from regression?
+  reject_reason: null
+- candidate_id: q0087
+  status: accepted
+  original_text: How is apply what you learn to a political dataset, where you classify
+    party different from -in previous chapter, you used image?
+  final_text: How is apply what you learn to a political dataset, where you classify
+    party different from -in previous chapter, you used image?
+  reject_reason: null
+- candidate_id: q0088
+  status: accepted
+  original_text: How is apply what you learn to a political dataset, where you classify
+    party different from political datasets to predict?
+  final_text: How is apply what you learn to a political dataset, where you classify
+    party different from political datasets to predict?
+  reject_reason: null
+- candidate_id: q0089
+  status: accepted
+  original_text: How is apply what you learn to a political dataset, where you classify
+    party different from binary?
+  final_text: How is apply what you learn to a political dataset, where you classify
+    party different from binary?
+  reject_reason: null
+- candidate_id: q0090
+  status: accepted
+  original_text: How is apply what you learn to a political dataset, where you classify
+    party different from multiclass outcomes. but what if your problem requires a?
+  final_text: How is apply what you learn to a political dataset, where you classify
+    party different from multiclass outcomes. but what if your problem requires a?
+  reject_reason: null
+- candidate_id: q0091
+  status: accepted
+  original_text: How is regression different from -in previous chapter, you used image?
+  final_text: How is regression different from -in previous chapter, you used image?
+  reject_reason: null
+- candidate_id: q0092
+  status: accepted
+  original_text: How is regression different from political datasets to predict?
+  final_text: How is regression different from political datasets to predict?
+  reject_reason: null
+- candidate_id: q0093
+  status: accepted
+  original_text: How is regression different from binary?
+  final_text: How is regression different from binary?
+  reject_reason: null
+- candidate_id: q0094
+  status: accepted
+  original_text: How is regression different from multiclass outcomes. but what if
+    your problem requires a?
+  final_text: How is regression different from multiclass outcomes. but what if your
+    problem requires a?
+  reject_reason: null
+- candidate_id: q0095
+  status: accepted
+  original_text: How is -in previous chapter, you used image different from political
+    datasets to predict?
+  final_text: How is -in previous chapter, you used image different from political
+    datasets to predict?
+  reject_reason: null
+- candidate_id: q0096
+  status: accepted
+  original_text: How is -in previous chapter, you used image different from binary?
+  final_text: How is -in previous chapter, you used image different from binary?
+  reject_reason: null
+- candidate_id: q0097
+  status: accepted
+  original_text: How is -in previous chapter, you used image different from multiclass
+    outcomes. but what if your problem requires a?
+  final_text: How is -in previous chapter, you used image different from multiclass
+    outcomes. but what if your problem requires a?
+  reject_reason: null
+- candidate_id: q0098
+  status: accepted
+  original_text: How is political datasets to predict different from binary?
+  final_text: How is political datasets to predict different from binary?
+  reject_reason: null
+- candidate_id: q0099
+  status: accepted
+  original_text: How is political datasets to predict different from multiclass outcomes.
+    but what if your problem requires a?
+  final_text: How is political datasets to predict different from multiclass outcomes.
+    but what if your problem requires a?
+  reject_reason: null
+- candidate_id: q0100
+  status: accepted
+  original_text: How is binary different from multiclass outcomes. but what if your
+    problem requires a?
+  final_text: How is binary different from multiclass outcomes. but what if your problem
+    requires a?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is classification?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does classification mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does classification matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does classification?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of classification?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is -in this chapter, you will be introduced to classification
+    problems and?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does -in this chapter, you will be introduced to classification
+    problems and mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does -in this chapter, you will be introduced to classification
+    problems and matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does -in this chapter, you will be introduced to classification
+    problems and?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of -in this chapter, you will be introduced
+    to classification problems and?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is learn how to solve them using supervised learning techniques?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does learn how to solve them using supervised learning techniques
+    mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does learn how to solve them using supervised learning techniques
+    matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does learn how to solve them using supervised learning techniques?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of learn how to solve them using supervised
+    learning techniques?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is you’ll?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does you’ll mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does you’ll matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does you’ll?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of you’ll?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: What is apply what you learn to a political dataset, where you classify
+    party?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: What does apply what you learn to a political dataset, where you
+    classify party mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: Why does apply what you learn to a political dataset, where you classify
+    party matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: Why does apply what you learn to a political dataset, where you classify
+    party?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: What is a simple example of apply what you learn to a political dataset,
+    where you classify party?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: What is regression?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0027
+  question_text: What does regression mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0028
+  question_text: Why does regression matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0029
+  question_text: Why does regression?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0030
+  question_text: What is a simple example of regression?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0031
+  question_text: What is -in previous chapter, you used image?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0032
+  question_text: What does -in previous chapter, you used image mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0033
+  question_text: Why does -in previous chapter, you used image matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0034
+  question_text: Why does -in previous chapter, you used image?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0035
+  question_text: What is a simple example of -in previous chapter, you used image?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0036
+  question_text: What is political datasets to predict?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0037
+  question_text: What does political datasets to predict mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0038
+  question_text: Why does political datasets to predict matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0039
+  question_text: Why does political datasets to predict?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0040
+  question_text: What is a simple example of political datasets to predict?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0041
+  question_text: What is binary?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0042
+  question_text: What does binary mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0043
+  question_text: Why does binary matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0044
+  question_text: Why does binary?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0045
+  question_text: What is a simple example of binary?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0046
+  question_text: What is multiclass outcomes. but what if your problem requires a?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0047
+  question_text: What does multiclass outcomes. but what if your problem requires
+    a mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0048
+  question_text: Why does multiclass outcomes. but what if your problem requires a
+    matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0049
+  question_text: Why does multiclass outcomes. but what if your problem requires a?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0050
+  question_text: What is a simple example of multiclass outcomes. but what if your
+    problem requires a?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0051
+  question_text: What is continuous outcome? regression is best suited to solving
+    such problems. you?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0052
+  question_text: What does continuous outcome? regression is best suited to solving
+    such problems. you mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0053
+  question_text: Why does continuous outcome? regression is best suited to solving
+    such problems. you matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0054
+  question_text: Why does continuous outcome? regression is best suited to solving
+    such problems. you?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0055
+  question_text: What is a simple example of continuous outcome? regression is best
+    suited to solving such problems. you?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0056
+  question_text: How is classification different from -in this chapter, you will be
+    introduced to classification problems and?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0057
+  question_text: How is classification different from learn how to solve them using
+    supervised learning techniques?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0058
+  question_text: How is classification different from you’ll?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0059
+  question_text: How is classification different from apply what you learn to a political
+    dataset, where you classify party?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0060
+  question_text: How is classification different from regression?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0061
+  question_text: How is classification different from -in previous chapter, you used
+    image?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0062
+  question_text: How is classification different from political datasets to predict?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0063
+  question_text: How is classification different from binary?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0064
+  question_text: How is classification different from multiclass outcomes. but what
+    if your problem requires a?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0065
+  question_text: How is -in this chapter, you will be introduced to classification
+    problems and different from learn how to solve them using supervised learning
+    techniques?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0066
+  question_text: How is -in this chapter, you will be introduced to classification
+    problems and different from you’ll?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0067
+  question_text: How is -in this chapter, you will be introduced to classification
+    problems and different from apply what you learn to a political dataset, where
+    you classify party?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0068
+  question_text: How is -in this chapter, you will be introduced to classification
+    problems and different from regression?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0069
+  question_text: How is -in this chapter, you will be introduced to classification
+    problems and different from -in previous chapter, you used image?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0070
+  question_text: How is -in this chapter, you will be introduced to classification
+    problems and different from political datasets to predict?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0071
+  question_text: How is -in this chapter, you will be introduced to classification
+    problems and different from binary?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0072
+  question_text: How is -in this chapter, you will be introduced to classification
+    problems and different from multiclass outcomes. but what if your problem requires
+    a?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0073
+  question_text: How is learn how to solve them using supervised learning techniques
+    different from you’ll?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0074
+  question_text: How is learn how to solve them using supervised learning techniques
+    different from apply what you learn to a political dataset, where you classify
+    party?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0075
+  question_text: How is learn how to solve them using supervised learning techniques
+    different from regression?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0076
+  question_text: How is learn how to solve them using supervised learning techniques
+    different from -in previous chapter, you used image?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0077
+  question_text: How is learn how to solve them using supervised learning techniques
+    different from political datasets to predict?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0078
+  question_text: How is learn how to solve them using supervised learning techniques
+    different from binary?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0079
+  question_text: How is learn how to solve them using supervised learning techniques
+    different from multiclass outcomes. but what if your problem requires a?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0080
+  question_text: How is you’ll different from apply what you learn to a political
+    dataset, where you classify party?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0081
+  question_text: How is you’ll different from regression?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0082
+  question_text: How is you’ll different from -in previous chapter, you used image?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0083
+  question_text: How is you’ll different from political datasets to predict?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0084
+  question_text: How is you’ll different from binary?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0085
+  question_text: How is you’ll different from multiclass outcomes. but what if your
+    problem requires a?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0086
+  question_text: How is apply what you learn to a political dataset, where you classify
+    party different from regression?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0087
+  question_text: How is apply what you learn to a political dataset, where you classify
+    party different from -in previous chapter, you used image?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0088
+  question_text: How is apply what you learn to a political dataset, where you classify
+    party different from political datasets to predict?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0089
+  question_text: How is apply what you learn to a political dataset, where you classify
+    party different from binary?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0090
+  question_text: How is apply what you learn to a political dataset, where you classify
+    party different from multiclass outcomes. but what if your problem requires a?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0091
+  question_text: How is regression different from -in previous chapter, you used image?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0092
+  question_text: How is regression different from political datasets to predict?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0093
+  question_text: How is regression different from binary?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0094
+  question_text: How is regression different from multiclass outcomes. but what if
+    your problem requires a?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0095
+  question_text: How is -in previous chapter, you used image different from political
+    datasets to predict?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0096
+  question_text: How is -in previous chapter, you used image different from binary?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0097
+  question_text: How is -in previous chapter, you used image different from multiclass
+    outcomes. but what if your problem requires a?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0098
+  question_text: How is political datasets to predict different from binary?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0099
+  question_text: How is political datasets to predict different from multiclass outcomes.
+    but what if your problem requires a?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0100
+  question_text: How is binary different from multiclass outcomes. but what if your
+    problem requires a?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - classification
+  question_text: What is classification?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - classification
+  question_text: What does classification mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - classification
+  question_text: Why does classification matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - classification
+  question_text: Why does classification?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - classification
+  question_text: What is a simple example of classification?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - -in this chapter, you will be introduced to classification problems and
+  question_text: What is -in this chapter, you will be introduced to classification
+    problems and?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - -in this chapter, you will be introduced to classification problems and
+  question_text: What does -in this chapter, you will be introduced to classification
+    problems and mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - -in this chapter, you will be introduced to classification problems and
+  question_text: Why does -in this chapter, you will be introduced to classification
+    problems and matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - -in this chapter, you will be introduced to classification problems and
+  question_text: Why does -in this chapter, you will be introduced to classification
+    problems and?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - -in this chapter, you will be introduced to classification problems and
+  question_text: What is a simple example of -in this chapter, you will be introduced
+    to classification problems and?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - learn how to solve them using supervised learning techniques
+  question_text: What is learn how to solve them using supervised learning techniques?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - learn how to solve them using supervised learning techniques
+  question_text: What does learn how to solve them using supervised learning techniques
+    mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - learn how to solve them using supervised learning techniques
+  question_text: Why does learn how to solve them using supervised learning techniques
+    matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - learn how to solve them using supervised learning techniques
+  question_text: Why does learn how to solve them using supervised learning techniques?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - learn how to solve them using supervised learning techniques
+  question_text: What is a simple example of learn how to solve them using supervised
+    learning techniques?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - you’ll
+  question_text: What is you’ll?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - you’ll
+  question_text: What does you’ll mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - you’ll
+  question_text: Why does you’ll matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - you’ll
+  question_text: Why does you’ll?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - you’ll
+  question_text: What is a simple example of you’ll?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - apply what you learn to a political dataset, where you classify party
+  question_text: What is apply what you learn to a political dataset, where you classify
+    party?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - apply what you learn to a political dataset, where you classify party
+  question_text: What does apply what you learn to a political dataset, where you
+    classify party mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - apply what you learn to a political dataset, where you classify party
+  question_text: Why does apply what you learn to a political dataset, where you classify
+    party matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - apply what you learn to a political dataset, where you classify party
+  question_text: Why does apply what you learn to a political dataset, where you classify
+    party?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - apply what you learn to a political dataset, where you classify party
+  question_text: What is a simple example of apply what you learn to a political dataset,
+    where you classify party?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - regression
+  question_text: What is regression?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000027
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - regression
+  question_text: What does regression mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000028
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - regression
+  question_text: Why does regression matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000029
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - regression
+  question_text: Why does regression?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000030
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - regression
+  question_text: What is a simple example of regression?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000031
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - -in previous chapter, you used image
+  question_text: What is -in previous chapter, you used image?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000032
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - -in previous chapter, you used image
+  question_text: What does -in previous chapter, you used image mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000033
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - -in previous chapter, you used image
+  question_text: Why does -in previous chapter, you used image matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000034
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - -in previous chapter, you used image
+  question_text: Why does -in previous chapter, you used image?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000035
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - -in previous chapter, you used image
+  question_text: What is a simple example of -in previous chapter, you used image?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000036
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - political datasets to predict
+  question_text: What is political datasets to predict?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000037
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - political datasets to predict
+  question_text: What does political datasets to predict mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000038
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - political datasets to predict
+  question_text: Why does political datasets to predict matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000039
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - political datasets to predict
+  question_text: Why does political datasets to predict?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000040
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - political datasets to predict
+  question_text: What is a simple example of political datasets to predict?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000041
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - binary
+  question_text: What is binary?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000042
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - binary
+  question_text: What does binary mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000043
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - binary
+  question_text: Why does binary matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000044
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - binary
+  question_text: Why does binary?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000045
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - binary
+  question_text: What is a simple example of binary?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000046
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - multiclass outcomes. but what if your problem requires a
+  question_text: What is multiclass outcomes. but what if your problem requires a?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000047
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - multiclass outcomes. but what if your problem requires a
+  question_text: What does multiclass outcomes. but what if your problem requires
+    a mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000048
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - multiclass outcomes. but what if your problem requires a
+  question_text: Why does multiclass outcomes. but what if your problem requires a
+    matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000049
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - multiclass outcomes. but what if your problem requires a
+  question_text: Why does multiclass outcomes. but what if your problem requires a?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000050
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - multiclass outcomes. but what if your problem requires a
+  question_text: What is a simple example of multiclass outcomes. but what if your
+    problem requires a?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000051
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - continuous outcome? regression is best suited to solving such problems. you
+  question_text: What is continuous outcome? regression is best suited to solving
+    such problems. you?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000052
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - continuous outcome? regression is best suited to solving such problems. you
+  question_text: What does continuous outcome? regression is best suited to solving
+    such problems. you mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000053
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - continuous outcome? regression is best suited to solving such problems. you
+  question_text: Why does continuous outcome? regression is best suited to solving
+    such problems. you matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000054
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - continuous outcome? regression is best suited to solving such problems. you
+  question_text: Why does continuous outcome? regression is best suited to solving
+    such problems. you?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000055
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - continuous outcome? regression is best suited to solving such problems. you
+  question_text: What is a simple example of continuous outcome? regression is best
+    suited to solving such problems. you?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000056
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - classification
+  - -in this chapter, you will be introduced to classification problems and
+  question_text: How is classification different from -in this chapter, you will be
+    introduced to classification problems and?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000057
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - classification
+  - learn how to solve them using supervised learning techniques
+  question_text: How is classification different from learn how to solve them using
+    supervised learning techniques?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000058
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - classification
+  - you’ll
+  question_text: How is classification different from you’ll?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000059
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - classification
+  - apply what you learn to a political dataset, where you classify party
+  question_text: How is classification different from apply what you learn to a political
+    dataset, where you classify party?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000060
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - classification
+  - regression
+  question_text: How is classification different from regression?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000061
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - classification
+  - -in previous chapter, you used image
+  question_text: How is classification different from -in previous chapter, you used
+    image?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000062
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - classification
+  - political datasets to predict
+  question_text: How is classification different from political datasets to predict?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000063
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - classification
+  - binary
+  question_text: How is classification different from binary?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000064
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - classification
+  - multiclass outcomes. but what if your problem requires a
+  question_text: How is classification different from multiclass outcomes. but what
+    if your problem requires a?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000065
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - -in this chapter, you will be introduced to classification problems and
+  - learn how to solve them using supervised learning techniques
+  question_text: How is -in this chapter, you will be introduced to classification
+    problems and different from learn how to solve them using supervised learning
+    techniques?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000066
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - -in this chapter, you will be introduced to classification problems and
+  - you’ll
+  question_text: How is -in this chapter, you will be introduced to classification
+    problems and different from you’ll?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000067
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - -in this chapter, you will be introduced to classification problems and
+  - apply what you learn to a political dataset, where you classify party
+  question_text: How is -in this chapter, you will be introduced to classification
+    problems and different from apply what you learn to a political dataset, where
+    you classify party?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000068
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - -in this chapter, you will be introduced to classification problems and
+  - regression
+  question_text: How is -in this chapter, you will be introduced to classification
+    problems and different from regression?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000069
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - -in this chapter, you will be introduced to classification problems and
+  - -in previous chapter, you used image
+  question_text: How is -in this chapter, you will be introduced to classification
+    problems and different from -in previous chapter, you used image?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000070
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - -in this chapter, you will be introduced to classification problems and
+  - political datasets to predict
+  question_text: How is -in this chapter, you will be introduced to classification
+    problems and different from political datasets to predict?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000071
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - -in this chapter, you will be introduced to classification problems and
+  - binary
+  question_text: How is -in this chapter, you will be introduced to classification
+    problems and different from binary?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000072
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - -in this chapter, you will be introduced to classification problems and
+  - multiclass outcomes. but what if your problem requires a
+  question_text: How is -in this chapter, you will be introduced to classification
+    problems and different from multiclass outcomes. but what if your problem requires
+    a?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000073
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - learn how to solve them using supervised learning techniques
+  - you’ll
+  question_text: How is learn how to solve them using supervised learning techniques
+    different from you’ll?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000074
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - learn how to solve them using supervised learning techniques
+  - apply what you learn to a political dataset, where you classify party
+  question_text: How is learn how to solve them using supervised learning techniques
+    different from apply what you learn to a political dataset, where you classify
+    party?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000075
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - learn how to solve them using supervised learning techniques
+  - regression
+  question_text: How is learn how to solve them using supervised learning techniques
+    different from regression?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000076
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - learn how to solve them using supervised learning techniques
+  - -in previous chapter, you used image
+  question_text: How is learn how to solve them using supervised learning techniques
+    different from -in previous chapter, you used image?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000077
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - learn how to solve them using supervised learning techniques
+  - political datasets to predict
+  question_text: How is learn how to solve them using supervised learning techniques
+    different from political datasets to predict?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000078
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - learn how to solve them using supervised learning techniques
+  - binary
+  question_text: How is learn how to solve them using supervised learning techniques
+    different from binary?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000079
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - learn how to solve them using supervised learning techniques
+  - multiclass outcomes. but what if your problem requires a
+  question_text: How is learn how to solve them using supervised learning techniques
+    different from multiclass outcomes. but what if your problem requires a?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000080
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - you’ll
+  - apply what you learn to a political dataset, where you classify party
+  question_text: How is you’ll different from apply what you learn to a political
+    dataset, where you classify party?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000081
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - you’ll
+  - regression
+  question_text: How is you’ll different from regression?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000082
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - you’ll
+  - -in previous chapter, you used image
+  question_text: How is you’ll different from -in previous chapter, you used image?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000083
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - you’ll
+  - political datasets to predict
+  question_text: How is you’ll different from political datasets to predict?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000084
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - you’ll
+  - binary
+  question_text: How is you’ll different from binary?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000085
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - you’ll
+  - multiclass outcomes. but what if your problem requires a
+  question_text: How is you’ll different from multiclass outcomes. but what if your
+    problem requires a?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000086
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - apply what you learn to a political dataset, where you classify party
+  - regression
+  question_text: How is apply what you learn to a political dataset, where you classify
+    party different from regression?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000087
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - apply what you learn to a political dataset, where you classify party
+  - -in previous chapter, you used image
+  question_text: How is apply what you learn to a political dataset, where you classify
+    party different from -in previous chapter, you used image?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000088
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - apply what you learn to a political dataset, where you classify party
+  - political datasets to predict
+  question_text: How is apply what you learn to a political dataset, where you classify
+    party different from political datasets to predict?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000089
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - apply what you learn to a political dataset, where you classify party
+  - binary
+  question_text: How is apply what you learn to a political dataset, where you classify
+    party different from binary?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000090
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - apply what you learn to a political dataset, where you classify party
+  - multiclass outcomes. but what if your problem requires a
+  question_text: How is apply what you learn to a political dataset, where you classify
+    party different from multiclass outcomes. but what if your problem requires a?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000091
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - regression
+  - -in previous chapter, you used image
+  question_text: How is regression different from -in previous chapter, you used image?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000092
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - regression
+  - political datasets to predict
+  question_text: How is regression different from political datasets to predict?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000093
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - regression
+  - binary
+  question_text: How is regression different from binary?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000094
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - regression
+  - multiclass outcomes. but what if your problem requires a
+  question_text: How is regression different from multiclass outcomes. but what if
+    your problem requires a?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000095
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - -in previous chapter, you used image
+  - political datasets to predict
+  question_text: How is -in previous chapter, you used image different from political
+    datasets to predict?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000096
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - -in previous chapter, you used image
+  - binary
+  question_text: How is -in previous chapter, you used image different from binary?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000097
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - -in previous chapter, you used image
+  - multiclass outcomes. but what if your problem requires a
+  question_text: How is -in previous chapter, you used image different from multiclass
+    outcomes. but what if your problem requires a?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000098
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - political datasets to predict
+  - binary
+  question_text: How is political datasets to predict different from binary?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000099
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - political datasets to predict
+  - multiclass outcomes. but what if your problem requires a
+  question_text: How is political datasets to predict different from multiclass outcomes.
+    but what if your problem requires a?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000100
+  course:
+    course_id: '24375'
+    title: continuous outcome? Regression is best suited to solving such problems.
+      You
+  relevant_topics:
+  - binary
+  - multiclass outcomes. but what if your problem requires a
+  question_text: How is binary different from multiclass outcomes. but what if your
+    problem requires a?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 11
+  canonical_topic_count: 11
+  candidate_count: 100
+  accepted_count: 100
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 100

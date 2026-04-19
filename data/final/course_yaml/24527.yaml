@@ -1,0 +1,2068 @@
+course_id: '24527'
+title: Practicing Coding Interview Questions in Python
+normalized_course:
+  course_id: '24527'
+  title: Practicing Coding Interview Questions in Python
+  provider: DataCamp
+  summary: Prepare for your next coding interviews in Python.
+  overview: 'Prepare for your next coding interviews in Python.
+
+
+    Coding interviews can be challenging. You might be asked questions to test
+
+    your knowledge of a programming language. On the other side, you can be
+
+    given a task to solve in order to check how you think. And when you are
+
+    interviewed for a data scientist position, it''s likely you can be asked on
+
+    the corresponding tools available for the language. In either of the cases,
+
+    to get a cool position as a data scientist, you need to do a little work to
+
+    perform the best. That''s why it''s very important to practice in order to
+
+    prove your expertise! This course serves as a guide for those who just start
+
+    their path to become a professional data scientist and as a refresher for
+
+    those who seek for other opportunities. We''ll go through fundamental as well
+
+    as advanced topics that aim to prepare you for a coding interview in Python.
+
+    Since it is not a normal step-by-step course, some exercises can be quite
+
+    complex. But who said that interviews are easy to pass, right?'
+  chapters:
+  - chapter_index: 1
+    title: Python Data Structures and String Manipulation
+    summary: 'In this chapter, we''ll refresh our knowledge of the main data
+
+      structures used in Python. We''ll cover how to deal with lists,
+
+      tuples, sets, and dictionaries. We''ll also consider strings and how
+
+      to write regular expressions to retrieve specific character
+
+      sequences from a given text.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 2
+    title: Iterable objects and representatives
+    summary: 'This chapter focuses on iterable objects. We''ll refresh the
+
+      definition of iterable objects and explain, how to identify one.
+
+      Next, we''ll cover list comprehensions, which is a very special
+
+      feature of Python programming language to define lists. Then, we''ll
+
+      recall how to combine several iterable objects into one. Finally,
+
+      we''ll cover how to create custom iterable objects using generators.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 3
+    title: Functions and lambda expressions
+    summary: 'This chapter will focus on the functional aspects of Python. We''ll
+
+      start by defining functions with a variable amount of positional as
+
+      well as keyword arguments. Next, we''ll cover lambda functions and in
+
+      which cases they can be helpful. Especially, we''ll see how to use
+
+      them with such functions as map(), filter(), and reduce(). Finally,
+
+      we''ll recall what is recursion and how to correctly implement one.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 4
+    title: Python for scientific computing
+    summary: 'This chapter will cover topics on scientific computing in Python.
+
+      We''ll start by explaining the difference between NumPy arrays and
+
+      lists. We''ll define why the former ones suit better for complex
+
+      calculations. Next, we''ll cover some useful techniques to manipulate
+
+      with pandas DataFrames. Finally, we''ll do some data visualization
+
+      using scatterplots, histograms, and boxplots.'
+    source: syllabus
+    confidence: 1.0
+  metadata:
+    level: Intermediate
+    duration_hours: 4 hours
+    subjects:
+    - Python
+    - Regular Expressions
+    - Data Structures
+    - Scientific Computing
+    - String Manipulation
+    - Lambda Expressions
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: python data structures
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: python data structures'
+  evidence:
+  - source: syllabus
+    text: Python Data Structures and String Manipulation
+  confidence: 0.55
+- topic_id: t002
+  label: string manipulation
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: string manipulation'
+  evidence:
+  - source: syllabus
+    text: Python Data Structures and String Manipulation
+  confidence: 0.55
+- topic_id: t003
+  label: iterable objects
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: iterable objects'
+  evidence:
+  - source: syllabus
+    text: Iterable objects and representatives
+  confidence: 0.55
+- topic_id: t004
+  label: representatives
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: representatives'
+  evidence:
+  - source: syllabus
+    text: Iterable objects and representatives
+  confidence: 0.55
+- topic_id: t005
+  label: functions
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: functions'
+  evidence:
+  - source: syllabus
+    text: Functions and lambda expressions
+  confidence: 0.55
+- topic_id: t006
+  label: lambda expressions
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: lambda expressions'
+  evidence:
+  - source: syllabus
+    text: Functions and lambda expressions
+  confidence: 0.55
+- topic_id: t007
+  label: python for scientific computing
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: python for scientific computing'
+  evidence:
+  - source: syllabus
+    text: Python for scientific computing
+  confidence: 0.45
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: python data structures
+  aliases:
+  - python data structures
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: string manipulation
+  aliases:
+  - string manipulation
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: iterable objects
+  aliases:
+  - iterable objects
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: representatives
+  aliases:
+  - representatives
+  member_topic_ids:
+  - t004
+  topic_type: concept
+- canonical_topic_id: ct_005
+  label: functions
+  aliases:
+  - functions
+  member_topic_ids:
+  - t005
+  topic_type: concept
+- canonical_topic_id: ct_006
+  label: lambda expressions
+  aliases:
+  - lambda expressions
+  member_topic_ids:
+  - t006
+  topic_type: concept
+- canonical_topic_id: ct_007
+  label: python for scientific computing
+  aliases:
+  - python for scientific computing
+  member_topic_ids:
+  - t007
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - python data structures
+  family: entry
+  pattern: What is {x}?
+  question_text: What is python data structures?
+- candidate_id: q0002
+  relevant_topics:
+  - python data structures
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does python data structures mean?
+- candidate_id: q0003
+  relevant_topics:
+  - python data structures
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does python data structures matter?
+- candidate_id: q0004
+  relevant_topics:
+  - python data structures
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use python data structures?
+- candidate_id: q0005
+  relevant_topics:
+  - python data structures
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of python data structures?
+- candidate_id: q0006
+  relevant_topics:
+  - string manipulation
+  family: entry
+  pattern: What is {x}?
+  question_text: What is string manipulation?
+- candidate_id: q0007
+  relevant_topics:
+  - string manipulation
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does string manipulation mean?
+- candidate_id: q0008
+  relevant_topics:
+  - string manipulation
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does string manipulation matter?
+- candidate_id: q0009
+  relevant_topics:
+  - string manipulation
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use string manipulation?
+- candidate_id: q0010
+  relevant_topics:
+  - string manipulation
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of string manipulation?
+- candidate_id: q0011
+  relevant_topics:
+  - iterable objects
+  family: entry
+  pattern: What is {x}?
+  question_text: What is iterable objects?
+- candidate_id: q0012
+  relevant_topics:
+  - iterable objects
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does iterable objects mean?
+- candidate_id: q0013
+  relevant_topics:
+  - iterable objects
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does iterable objects matter?
+- candidate_id: q0014
+  relevant_topics:
+  - iterable objects
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use iterable objects?
+- candidate_id: q0015
+  relevant_topics:
+  - iterable objects
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of iterable objects?
+- candidate_id: q0016
+  relevant_topics:
+  - representatives
+  family: entry
+  pattern: What is {x}?
+  question_text: What is representatives?
+- candidate_id: q0017
+  relevant_topics:
+  - representatives
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does representatives mean?
+- candidate_id: q0018
+  relevant_topics:
+  - representatives
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does representatives matter?
+- candidate_id: q0019
+  relevant_topics:
+  - representatives
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use representatives?
+- candidate_id: q0020
+  relevant_topics:
+  - representatives
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of representatives?
+- candidate_id: q0021
+  relevant_topics:
+  - functions
+  family: entry
+  pattern: What is {x}?
+  question_text: What is functions?
+- candidate_id: q0022
+  relevant_topics:
+  - functions
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does functions mean?
+- candidate_id: q0023
+  relevant_topics:
+  - functions
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does functions matter?
+- candidate_id: q0024
+  relevant_topics:
+  - functions
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use functions?
+- candidate_id: q0025
+  relevant_topics:
+  - functions
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of functions?
+- candidate_id: q0026
+  relevant_topics:
+  - lambda expressions
+  family: entry
+  pattern: What is {x}?
+  question_text: What is lambda expressions?
+- candidate_id: q0027
+  relevant_topics:
+  - lambda expressions
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does lambda expressions mean?
+- candidate_id: q0028
+  relevant_topics:
+  - lambda expressions
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does lambda expressions matter?
+- candidate_id: q0029
+  relevant_topics:
+  - lambda expressions
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use lambda expressions?
+- candidate_id: q0030
+  relevant_topics:
+  - lambda expressions
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of lambda expressions?
+- candidate_id: q0031
+  relevant_topics:
+  - python for scientific computing
+  family: entry
+  pattern: What is {x}?
+  question_text: What is python for scientific computing?
+- candidate_id: q0032
+  relevant_topics:
+  - python for scientific computing
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does python for scientific computing mean?
+- candidate_id: q0033
+  relevant_topics:
+  - python for scientific computing
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does python for scientific computing matter?
+- candidate_id: q0034
+  relevant_topics:
+  - python for scientific computing
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use python for scientific computing?
+- candidate_id: q0035
+  relevant_topics:
+  - python for scientific computing
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of python for scientific computing?
+- candidate_id: q0036
+  relevant_topics:
+  - python data structures
+  - string manipulation
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is python data structures different from string manipulation?
+- candidate_id: q0037
+  relevant_topics:
+  - python data structures
+  - iterable objects
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is python data structures different from iterable objects?
+- candidate_id: q0038
+  relevant_topics:
+  - python data structures
+  - representatives
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is python data structures different from representatives?
+- candidate_id: q0039
+  relevant_topics:
+  - python data structures
+  - functions
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is python data structures different from functions?
+- candidate_id: q0040
+  relevant_topics:
+  - python data structures
+  - lambda expressions
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is python data structures different from lambda expressions?
+- candidate_id: q0041
+  relevant_topics:
+  - python data structures
+  - python for scientific computing
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is python data structures different from python for scientific
+    computing?
+- candidate_id: q0042
+  relevant_topics:
+  - string manipulation
+  - iterable objects
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is string manipulation different from iterable objects?
+- candidate_id: q0043
+  relevant_topics:
+  - string manipulation
+  - representatives
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is string manipulation different from representatives?
+- candidate_id: q0044
+  relevant_topics:
+  - string manipulation
+  - functions
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is string manipulation different from functions?
+- candidate_id: q0045
+  relevant_topics:
+  - string manipulation
+  - lambda expressions
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is string manipulation different from lambda expressions?
+- candidate_id: q0046
+  relevant_topics:
+  - string manipulation
+  - python for scientific computing
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is string manipulation different from python for scientific computing?
+- candidate_id: q0047
+  relevant_topics:
+  - iterable objects
+  - representatives
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is iterable objects different from representatives?
+- candidate_id: q0048
+  relevant_topics:
+  - iterable objects
+  - functions
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is iterable objects different from functions?
+- candidate_id: q0049
+  relevant_topics:
+  - iterable objects
+  - lambda expressions
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is iterable objects different from lambda expressions?
+- candidate_id: q0050
+  relevant_topics:
+  - iterable objects
+  - python for scientific computing
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is iterable objects different from python for scientific computing?
+- candidate_id: q0051
+  relevant_topics:
+  - representatives
+  - functions
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is representatives different from functions?
+- candidate_id: q0052
+  relevant_topics:
+  - representatives
+  - lambda expressions
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is representatives different from lambda expressions?
+- candidate_id: q0053
+  relevant_topics:
+  - representatives
+  - python for scientific computing
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is representatives different from python for scientific computing?
+- candidate_id: q0054
+  relevant_topics:
+  - functions
+  - lambda expressions
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is functions different from lambda expressions?
+- candidate_id: q0055
+  relevant_topics:
+  - functions
+  - python for scientific computing
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is functions different from python for scientific computing?
+- candidate_id: q0056
+  relevant_topics:
+  - lambda expressions
+  - python for scientific computing
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is lambda expressions different from python for scientific computing?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is python data structures?
+  final_text: What is python data structures?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does python data structures mean?
+  final_text: What does python data structures mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does python data structures matter?
+  final_text: Why does python data structures matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use python data structures?
+  final_text: Why does python data structures?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of python data structures?
+  final_text: What is a simple example of python data structures?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is string manipulation?
+  final_text: What is string manipulation?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does string manipulation mean?
+  final_text: What does string manipulation mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does string manipulation matter?
+  final_text: Why does string manipulation matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use string manipulation?
+  final_text: Why does string manipulation?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of string manipulation?
+  final_text: What is a simple example of string manipulation?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is iterable objects?
+  final_text: What is iterable objects?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does iterable objects mean?
+  final_text: What does iterable objects mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does iterable objects matter?
+  final_text: Why does iterable objects matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use iterable objects?
+  final_text: Why does iterable objects?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of iterable objects?
+  final_text: What is a simple example of iterable objects?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is representatives?
+  final_text: What is representatives?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does representatives mean?
+  final_text: What does representatives mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does representatives matter?
+  final_text: Why does representatives matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use representatives?
+  final_text: Why does representatives?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of representatives?
+  final_text: What is a simple example of representatives?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: What is functions?
+  final_text: What is functions?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: What does functions mean?
+  final_text: What does functions mean?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: Why does functions matter?
+  final_text: Why does functions matter?
+  reject_reason: null
+- candidate_id: q0024
+  status: repaired
+  original_text: Why do we use functions?
+  final_text: Why does functions?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: What is a simple example of functions?
+  final_text: What is a simple example of functions?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: What is lambda expressions?
+  final_text: What is lambda expressions?
+  reject_reason: null
+- candidate_id: q0027
+  status: accepted
+  original_text: What does lambda expressions mean?
+  final_text: What does lambda expressions mean?
+  reject_reason: null
+- candidate_id: q0028
+  status: accepted
+  original_text: Why does lambda expressions matter?
+  final_text: Why does lambda expressions matter?
+  reject_reason: null
+- candidate_id: q0029
+  status: repaired
+  original_text: Why do we use lambda expressions?
+  final_text: Why does lambda expressions?
+  reject_reason: null
+- candidate_id: q0030
+  status: accepted
+  original_text: What is a simple example of lambda expressions?
+  final_text: What is a simple example of lambda expressions?
+  reject_reason: null
+- candidate_id: q0031
+  status: accepted
+  original_text: What is python for scientific computing?
+  final_text: What is python for scientific computing?
+  reject_reason: null
+- candidate_id: q0032
+  status: accepted
+  original_text: What does python for scientific computing mean?
+  final_text: What does python for scientific computing mean?
+  reject_reason: null
+- candidate_id: q0033
+  status: accepted
+  original_text: Why does python for scientific computing matter?
+  final_text: Why does python for scientific computing matter?
+  reject_reason: null
+- candidate_id: q0034
+  status: repaired
+  original_text: Why do we use python for scientific computing?
+  final_text: Why does python for scientific computing?
+  reject_reason: null
+- candidate_id: q0035
+  status: accepted
+  original_text: What is a simple example of python for scientific computing?
+  final_text: What is a simple example of python for scientific computing?
+  reject_reason: null
+- candidate_id: q0036
+  status: accepted
+  original_text: How is python data structures different from string manipulation?
+  final_text: How is python data structures different from string manipulation?
+  reject_reason: null
+- candidate_id: q0037
+  status: accepted
+  original_text: How is python data structures different from iterable objects?
+  final_text: How is python data structures different from iterable objects?
+  reject_reason: null
+- candidate_id: q0038
+  status: accepted
+  original_text: How is python data structures different from representatives?
+  final_text: How is python data structures different from representatives?
+  reject_reason: null
+- candidate_id: q0039
+  status: accepted
+  original_text: How is python data structures different from functions?
+  final_text: How is python data structures different from functions?
+  reject_reason: null
+- candidate_id: q0040
+  status: accepted
+  original_text: How is python data structures different from lambda expressions?
+  final_text: How is python data structures different from lambda expressions?
+  reject_reason: null
+- candidate_id: q0041
+  status: accepted
+  original_text: How is python data structures different from python for scientific
+    computing?
+  final_text: How is python data structures different from python for scientific computing?
+  reject_reason: null
+- candidate_id: q0042
+  status: accepted
+  original_text: How is string manipulation different from iterable objects?
+  final_text: How is string manipulation different from iterable objects?
+  reject_reason: null
+- candidate_id: q0043
+  status: accepted
+  original_text: How is string manipulation different from representatives?
+  final_text: How is string manipulation different from representatives?
+  reject_reason: null
+- candidate_id: q0044
+  status: accepted
+  original_text: How is string manipulation different from functions?
+  final_text: How is string manipulation different from functions?
+  reject_reason: null
+- candidate_id: q0045
+  status: accepted
+  original_text: How is string manipulation different from lambda expressions?
+  final_text: How is string manipulation different from lambda expressions?
+  reject_reason: null
+- candidate_id: q0046
+  status: accepted
+  original_text: How is string manipulation different from python for scientific computing?
+  final_text: How is string manipulation different from python for scientific computing?
+  reject_reason: null
+- candidate_id: q0047
+  status: accepted
+  original_text: How is iterable objects different from representatives?
+  final_text: How is iterable objects different from representatives?
+  reject_reason: null
+- candidate_id: q0048
+  status: accepted
+  original_text: How is iterable objects different from functions?
+  final_text: How is iterable objects different from functions?
+  reject_reason: null
+- candidate_id: q0049
+  status: accepted
+  original_text: How is iterable objects different from lambda expressions?
+  final_text: How is iterable objects different from lambda expressions?
+  reject_reason: null
+- candidate_id: q0050
+  status: accepted
+  original_text: How is iterable objects different from python for scientific computing?
+  final_text: How is iterable objects different from python for scientific computing?
+  reject_reason: null
+- candidate_id: q0051
+  status: accepted
+  original_text: How is representatives different from functions?
+  final_text: How is representatives different from functions?
+  reject_reason: null
+- candidate_id: q0052
+  status: accepted
+  original_text: How is representatives different from lambda expressions?
+  final_text: How is representatives different from lambda expressions?
+  reject_reason: null
+- candidate_id: q0053
+  status: accepted
+  original_text: How is representatives different from python for scientific computing?
+  final_text: How is representatives different from python for scientific computing?
+  reject_reason: null
+- candidate_id: q0054
+  status: accepted
+  original_text: How is functions different from lambda expressions?
+  final_text: How is functions different from lambda expressions?
+  reject_reason: null
+- candidate_id: q0055
+  status: accepted
+  original_text: How is functions different from python for scientific computing?
+  final_text: How is functions different from python for scientific computing?
+  reject_reason: null
+- candidate_id: q0056
+  status: accepted
+  original_text: How is lambda expressions different from python for scientific computing?
+  final_text: How is lambda expressions different from python for scientific computing?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is python data structures?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does python data structures mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does python data structures matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does python data structures?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of python data structures?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is string manipulation?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does string manipulation mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does string manipulation matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does string manipulation?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of string manipulation?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is iterable objects?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does iterable objects mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does iterable objects matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does iterable objects?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of iterable objects?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is representatives?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does representatives mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does representatives matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does representatives?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of representatives?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: What is functions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: What does functions mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: Why does functions matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: Why does functions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: What is a simple example of functions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: What is lambda expressions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0027
+  question_text: What does lambda expressions mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0028
+  question_text: Why does lambda expressions matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0029
+  question_text: Why does lambda expressions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0030
+  question_text: What is a simple example of lambda expressions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0031
+  question_text: What is python for scientific computing?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0032
+  question_text: What does python for scientific computing mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0033
+  question_text: Why does python for scientific computing matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0034
+  question_text: Why does python for scientific computing?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0035
+  question_text: What is a simple example of python for scientific computing?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0036
+  question_text: How is python data structures different from string manipulation?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0037
+  question_text: How is python data structures different from iterable objects?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0038
+  question_text: How is python data structures different from representatives?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0039
+  question_text: How is python data structures different from functions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0040
+  question_text: How is python data structures different from lambda expressions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0041
+  question_text: How is python data structures different from python for scientific
+    computing?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0042
+  question_text: How is string manipulation different from iterable objects?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0043
+  question_text: How is string manipulation different from representatives?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0044
+  question_text: How is string manipulation different from functions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0045
+  question_text: How is string manipulation different from lambda expressions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0046
+  question_text: How is string manipulation different from python for scientific computing?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0047
+  question_text: How is iterable objects different from representatives?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0048
+  question_text: How is iterable objects different from functions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0049
+  question_text: How is iterable objects different from lambda expressions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0050
+  question_text: How is iterable objects different from python for scientific computing?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0051
+  question_text: How is representatives different from functions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0052
+  question_text: How is representatives different from lambda expressions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0053
+  question_text: How is representatives different from python for scientific computing?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0054
+  question_text: How is functions different from lambda expressions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0055
+  question_text: How is functions different from python for scientific computing?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0056
+  question_text: How is lambda expressions different from python for scientific computing?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - python data structures
+  question_text: What is python data structures?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - python data structures
+  question_text: What does python data structures mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - python data structures
+  question_text: Why does python data structures matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - python data structures
+  question_text: Why does python data structures?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - python data structures
+  question_text: What is a simple example of python data structures?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - string manipulation
+  question_text: What is string manipulation?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - string manipulation
+  question_text: What does string manipulation mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - string manipulation
+  question_text: Why does string manipulation matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - string manipulation
+  question_text: Why does string manipulation?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - string manipulation
+  question_text: What is a simple example of string manipulation?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - iterable objects
+  question_text: What is iterable objects?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - iterable objects
+  question_text: What does iterable objects mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - iterable objects
+  question_text: Why does iterable objects matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - iterable objects
+  question_text: Why does iterable objects?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - iterable objects
+  question_text: What is a simple example of iterable objects?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - representatives
+  question_text: What is representatives?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - representatives
+  question_text: What does representatives mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - representatives
+  question_text: Why does representatives matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - representatives
+  question_text: Why does representatives?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - representatives
+  question_text: What is a simple example of representatives?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - functions
+  question_text: What is functions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - functions
+  question_text: What does functions mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - functions
+  question_text: Why does functions matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - functions
+  question_text: Why does functions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - functions
+  question_text: What is a simple example of functions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - lambda expressions
+  question_text: What is lambda expressions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000027
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - lambda expressions
+  question_text: What does lambda expressions mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000028
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - lambda expressions
+  question_text: Why does lambda expressions matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000029
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - lambda expressions
+  question_text: Why does lambda expressions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000030
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - lambda expressions
+  question_text: What is a simple example of lambda expressions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000031
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - python for scientific computing
+  question_text: What is python for scientific computing?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000032
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - python for scientific computing
+  question_text: What does python for scientific computing mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000033
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - python for scientific computing
+  question_text: Why does python for scientific computing matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000034
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - python for scientific computing
+  question_text: Why does python for scientific computing?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000035
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - python for scientific computing
+  question_text: What is a simple example of python for scientific computing?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000036
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - python data structures
+  - string manipulation
+  question_text: How is python data structures different from string manipulation?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000037
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - python data structures
+  - iterable objects
+  question_text: How is python data structures different from iterable objects?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000038
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - python data structures
+  - representatives
+  question_text: How is python data structures different from representatives?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000039
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - python data structures
+  - functions
+  question_text: How is python data structures different from functions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000040
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - python data structures
+  - lambda expressions
+  question_text: How is python data structures different from lambda expressions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000041
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - python data structures
+  - python for scientific computing
+  question_text: How is python data structures different from python for scientific
+    computing?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000042
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - string manipulation
+  - iterable objects
+  question_text: How is string manipulation different from iterable objects?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000043
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - string manipulation
+  - representatives
+  question_text: How is string manipulation different from representatives?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000044
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - string manipulation
+  - functions
+  question_text: How is string manipulation different from functions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000045
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - string manipulation
+  - lambda expressions
+  question_text: How is string manipulation different from lambda expressions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000046
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - string manipulation
+  - python for scientific computing
+  question_text: How is string manipulation different from python for scientific computing?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000047
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - iterable objects
+  - representatives
+  question_text: How is iterable objects different from representatives?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000048
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - iterable objects
+  - functions
+  question_text: How is iterable objects different from functions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000049
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - iterable objects
+  - lambda expressions
+  question_text: How is iterable objects different from lambda expressions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000050
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - iterable objects
+  - python for scientific computing
+  question_text: How is iterable objects different from python for scientific computing?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000051
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - representatives
+  - functions
+  question_text: How is representatives different from functions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000052
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - representatives
+  - lambda expressions
+  question_text: How is representatives different from lambda expressions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000053
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - representatives
+  - python for scientific computing
+  question_text: How is representatives different from python for scientific computing?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000054
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - functions
+  - lambda expressions
+  question_text: How is functions different from lambda expressions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000055
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - functions
+  - python for scientific computing
+  question_text: How is functions different from python for scientific computing?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000056
+  course:
+    course_id: '24527'
+    title: Practicing Coding Interview Questions in Python
+  relevant_topics:
+  - lambda expressions
+  - python for scientific computing
+  question_text: How is lambda expressions different from python for scientific computing?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 7
+  canonical_topic_count: 7
+  candidate_count: 56
+  accepted_count: 56
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 56

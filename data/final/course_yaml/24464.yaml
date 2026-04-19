@@ -1,0 +1,4108 @@
+course_id: '24464'
+title: also get an introduction into the robust full-text search capabilities which
+normalized_course:
+  course_id: '24464'
+  title: also get an introduction into the robust full-text search capabilities which
+  provider: DataCamp
+  summary: 'Learn the most important PostgreSQL functions for manipulating, processing,
+
+    and transforming data.'
+  overview: 'Learn the most important PostgreSQL functions for manipulating, processing,
+
+    and transforming data.
+
+
+    This course will provide you an understanding of how to use built-in
+
+    PostgreSQL functions in your SQL queries to manipulate different types of
+
+    data including strings, character, numeric and date/time. We''ll travel back
+
+    to a time where Blockbuster video stores were on every corner and if you
+
+    wanted to
+
+
+    watch a movie, you actually had to leave your house to rent a DVD! You''ll
+
+    also get an introduction into the robust full-text search capabilities which
+
+    provides a powerful tool for indexing and matching keywords in a PostgreSQL
+
+    document. And finally, you''ll learn how to extend these features by using
+
+    PostgreSQL extensions.
+
+
+    The videos contain live transcripts you can reveal by clicking "Show
+
+    transcript" at the bottom left of the videos.
+
+
+    The course glossary can be found on the right in the resources section.
+
+
+    To obtain CPE credits you need to complete the course and reach a score of
+
+    70% on the qualified assessment. You can navigate to the assessment by
+
+    clicking on the CPE credits callout on the right.'
+  chapters:
+  - chapter_index: 1
+    title: Learn the most important PostgreSQL functions for manipulating, processing,
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 2
+    title: This course will provide you an understanding of how to use built-in
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 3
+    title: PostgreSQL functions in your SQL queries to manipulate different types
+      of
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 4
+    title: data including strings, character, numeric and date/time. We'll travel
+      back
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 5
+    title: to a time where Blockbuster video stores were on every corner and if you
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 6
+    title: wanted to
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 7
+    title: watch a movie, you actually had to leave your house to rent a DVD! You'll
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 8
+    title: also get an introduction into the robust full-text search capabilities
+      which
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  metadata:
+    level: Beginner
+    duration_hours: 4 hours
+    subjects:
+    - PostgreSQL
+    - Data Manipulation
+    - String Manipulation
+    - Full-Text Search
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: learn the most important postgresql functions for manipulating, processing,
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: learn the most important postgresql
+    functions for manipulating, processing,'
+  evidence:
+  - source: overview_inferred
+    text: Learn the most important PostgreSQL functions for manipulating, processing,
+  confidence: 0.45
+- topic_id: t002
+  label: this course will provide you an understanding of how to use built-in
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: this course will provide you
+    an understanding of how to use built-in'
+  evidence:
+  - source: overview_inferred
+    text: This course will provide you an understanding of how to use built-in
+  confidence: 0.45
+- topic_id: t003
+  label: postgresql functions in your sql queries to manipulate different types of
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: postgresql functions in your
+    sql queries to manipulate different types of'
+  evidence:
+  - source: overview_inferred
+    text: PostgreSQL functions in your SQL queries to manipulate different types of
+  confidence: 0.45
+- topic_id: t004
+  label: data including strings, character, numeric
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: data including strings, character,
+    numeric'
+  evidence:
+  - source: overview_inferred
+    text: data including strings, character, numeric and date/time. We'll travel back
+  confidence: 0.55
+- topic_id: t005
+  label: date/time. we'll travel back
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: date/time. we''ll travel back'
+  evidence:
+  - source: overview_inferred
+    text: data including strings, character, numeric and date/time. We'll travel back
+  confidence: 0.55
+- topic_id: t006
+  label: to a time where blockbuster video stores were on every corner
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: to a time where blockbuster video
+    stores were on every corner'
+  evidence:
+  - source: overview_inferred
+    text: to a time where Blockbuster video stores were on every corner and if you
+  confidence: 0.55
+- topic_id: t007
+  label: if you
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: if you'
+  evidence:
+  - source: overview_inferred
+    text: to a time where Blockbuster video stores were on every corner and if you
+  confidence: 0.55
+- topic_id: t008
+  label: wanted to
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: wanted to'
+  evidence:
+  - source: overview_inferred
+    text: wanted to
+  confidence: 0.45
+- topic_id: t009
+  label: watch a movie, you actually had to leave your house to rent a dvd! you'll
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: watch a movie, you actually had
+    to leave your house to rent a dvd! you''ll'
+  evidence:
+  - source: overview_inferred
+    text: watch a movie, you actually had to leave your house to rent a DVD! You'll
+  confidence: 0.45
+- topic_id: t010
+  label: also get an introduction into the robust full-text search capabilities which
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: also get an introduction into
+    the robust full-text search capabilities which'
+  evidence:
+  - source: overview_inferred
+    text: also get an introduction into the robust full-text search capabilities which
+  confidence: 0.45
+- topic_id: t011
+  label: strings
+  topic_type: concept
+  description: 'Topic mined from course text: strings'
+  evidence:
+  - source: overview
+    text: strings
+  confidence: 0.75
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: learn most important postgresql functions for manipulating, processing,
+  aliases:
+  - learn the most important postgresql functions for manipulating, processing,
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: this course will provide you an understanding of how to use built-in
+  aliases:
+  - this course will provide you an understanding of how to use built-in
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: postgresql functions in your sql queries to manipulate different types of
+  aliases:
+  - postgresql functions in your sql queries to manipulate different types of
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: data including strings, character, numeric
+  aliases:
+  - data including strings, character, numeric
+  member_topic_ids:
+  - t004
+  topic_type: concept
+- canonical_topic_id: ct_005
+  label: date/time. we'll travel back
+  aliases:
+  - date/time. we'll travel back
+  member_topic_ids:
+  - t005
+  topic_type: concept
+- canonical_topic_id: ct_006
+  label: to a time where blockbuster video stores were on every corner
+  aliases:
+  - to a time where blockbuster video stores were on every corner
+  member_topic_ids:
+  - t006
+  topic_type: concept
+- canonical_topic_id: ct_007
+  label: if you
+  aliases:
+  - if you
+  member_topic_ids:
+  - t007
+  topic_type: concept
+- canonical_topic_id: ct_008
+  label: wanted to
+  aliases:
+  - wanted to
+  member_topic_ids:
+  - t008
+  topic_type: concept
+- canonical_topic_id: ct_009
+  label: watch a movie, you actually had to leave your house to rent a dvd! you'll
+  aliases:
+  - watch a movie, you actually had to leave your house to rent a dvd! you'll
+  member_topic_ids:
+  - t009
+  topic_type: concept
+- canonical_topic_id: ct_010
+  label: also get an introduction into robust full-text search capabilities which
+  aliases:
+  - also get an introduction into the robust full-text search capabilities which
+  member_topic_ids:
+  - t010
+  topic_type: concept
+- canonical_topic_id: ct_011
+  label: strings
+  aliases:
+  - strings
+  member_topic_ids:
+  - t011
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - learn most important postgresql functions for manipulating, processing,
+  family: entry
+  pattern: What is {x}?
+  question_text: What is learn most important postgresql functions for manipulating,
+    processing,?
+- candidate_id: q0002
+  relevant_topics:
+  - learn most important postgresql functions for manipulating, processing,
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does learn most important postgresql functions for manipulating,
+    processing, mean?
+- candidate_id: q0003
+  relevant_topics:
+  - learn most important postgresql functions for manipulating, processing,
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does learn most important postgresql functions for manipulating,
+    processing, matter?
+- candidate_id: q0004
+  relevant_topics:
+  - learn most important postgresql functions for manipulating, processing,
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use learn most important postgresql functions for manipulating,
+    processing,?
+- candidate_id: q0005
+  relevant_topics:
+  - learn most important postgresql functions for manipulating, processing,
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of learn most important postgresql functions
+    for manipulating, processing,?
+- candidate_id: q0006
+  relevant_topics:
+  - this course will provide you an understanding of how to use built-in
+  family: entry
+  pattern: What is {x}?
+  question_text: What is this course will provide you an understanding of how to use
+    built-in?
+- candidate_id: q0007
+  relevant_topics:
+  - this course will provide you an understanding of how to use built-in
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does this course will provide you an understanding of how to
+    use built-in mean?
+- candidate_id: q0008
+  relevant_topics:
+  - this course will provide you an understanding of how to use built-in
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does this course will provide you an understanding of how to
+    use built-in matter?
+- candidate_id: q0009
+  relevant_topics:
+  - this course will provide you an understanding of how to use built-in
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use this course will provide you an understanding of how
+    to use built-in?
+- candidate_id: q0010
+  relevant_topics:
+  - this course will provide you an understanding of how to use built-in
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of this course will provide you an understanding
+    of how to use built-in?
+- candidate_id: q0011
+  relevant_topics:
+  - postgresql functions in your sql queries to manipulate different types of
+  family: entry
+  pattern: What is {x}?
+  question_text: What is postgresql functions in your sql queries to manipulate different
+    types of?
+- candidate_id: q0012
+  relevant_topics:
+  - postgresql functions in your sql queries to manipulate different types of
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does postgresql functions in your sql queries to manipulate
+    different types of mean?
+- candidate_id: q0013
+  relevant_topics:
+  - postgresql functions in your sql queries to manipulate different types of
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does postgresql functions in your sql queries to manipulate different
+    types of matter?
+- candidate_id: q0014
+  relevant_topics:
+  - postgresql functions in your sql queries to manipulate different types of
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use postgresql functions in your sql queries to manipulate
+    different types of?
+- candidate_id: q0015
+  relevant_topics:
+  - postgresql functions in your sql queries to manipulate different types of
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of postgresql functions in your sql queries
+    to manipulate different types of?
+- candidate_id: q0016
+  relevant_topics:
+  - data including strings, character, numeric
+  family: entry
+  pattern: What is {x}?
+  question_text: What is data including strings, character, numeric?
+- candidate_id: q0017
+  relevant_topics:
+  - data including strings, character, numeric
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does data including strings, character, numeric mean?
+- candidate_id: q0018
+  relevant_topics:
+  - data including strings, character, numeric
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does data including strings, character, numeric matter?
+- candidate_id: q0019
+  relevant_topics:
+  - data including strings, character, numeric
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use data including strings, character, numeric?
+- candidate_id: q0020
+  relevant_topics:
+  - data including strings, character, numeric
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of data including strings, character, numeric?
+- candidate_id: q0021
+  relevant_topics:
+  - date/time. we'll travel back
+  family: entry
+  pattern: What is {x}?
+  question_text: What is date/time. we'll travel back?
+- candidate_id: q0022
+  relevant_topics:
+  - date/time. we'll travel back
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does date/time. we'll travel back mean?
+- candidate_id: q0023
+  relevant_topics:
+  - date/time. we'll travel back
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does date/time. we'll travel back matter?
+- candidate_id: q0024
+  relevant_topics:
+  - date/time. we'll travel back
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use date/time. we'll travel back?
+- candidate_id: q0025
+  relevant_topics:
+  - date/time. we'll travel back
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of date/time. we'll travel back?
+- candidate_id: q0026
+  relevant_topics:
+  - to a time where blockbuster video stores were on every corner
+  family: entry
+  pattern: What is {x}?
+  question_text: What is to a time where blockbuster video stores were on every corner?
+- candidate_id: q0027
+  relevant_topics:
+  - to a time where blockbuster video stores were on every corner
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does to a time where blockbuster video stores were on every
+    corner mean?
+- candidate_id: q0028
+  relevant_topics:
+  - to a time where blockbuster video stores were on every corner
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does to a time where blockbuster video stores were on every corner
+    matter?
+- candidate_id: q0029
+  relevant_topics:
+  - to a time where blockbuster video stores were on every corner
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use to a time where blockbuster video stores were on every
+    corner?
+- candidate_id: q0030
+  relevant_topics:
+  - to a time where blockbuster video stores were on every corner
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of to a time where blockbuster video stores
+    were on every corner?
+- candidate_id: q0031
+  relevant_topics:
+  - if you
+  family: entry
+  pattern: What is {x}?
+  question_text: What is if you?
+- candidate_id: q0032
+  relevant_topics:
+  - if you
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does if you mean?
+- candidate_id: q0033
+  relevant_topics:
+  - if you
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does if you matter?
+- candidate_id: q0034
+  relevant_topics:
+  - if you
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use if you?
+- candidate_id: q0035
+  relevant_topics:
+  - if you
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of if you?
+- candidate_id: q0036
+  relevant_topics:
+  - wanted to
+  family: entry
+  pattern: What is {x}?
+  question_text: What is wanted to?
+- candidate_id: q0037
+  relevant_topics:
+  - wanted to
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does wanted to mean?
+- candidate_id: q0038
+  relevant_topics:
+  - wanted to
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does wanted to matter?
+- candidate_id: q0039
+  relevant_topics:
+  - wanted to
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use wanted to?
+- candidate_id: q0040
+  relevant_topics:
+  - wanted to
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of wanted to?
+- candidate_id: q0041
+  relevant_topics:
+  - watch a movie, you actually had to leave your house to rent a dvd! you'll
+  family: entry
+  pattern: What is {x}?
+  question_text: What is watch a movie, you actually had to leave your house to rent
+    a dvd! you'll?
+- candidate_id: q0042
+  relevant_topics:
+  - watch a movie, you actually had to leave your house to rent a dvd! you'll
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does watch a movie, you actually had to leave your house to
+    rent a dvd! you'll mean?
+- candidate_id: q0043
+  relevant_topics:
+  - watch a movie, you actually had to leave your house to rent a dvd! you'll
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does watch a movie, you actually had to leave your house to rent
+    a dvd! you'll matter?
+- candidate_id: q0044
+  relevant_topics:
+  - watch a movie, you actually had to leave your house to rent a dvd! you'll
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use watch a movie, you actually had to leave your house
+    to rent a dvd! you'll?
+- candidate_id: q0045
+  relevant_topics:
+  - watch a movie, you actually had to leave your house to rent a dvd! you'll
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of watch a movie, you actually had to leave
+    your house to rent a dvd! you'll?
+- candidate_id: q0046
+  relevant_topics:
+  - also get an introduction into robust full-text search capabilities which
+  family: entry
+  pattern: What is {x}?
+  question_text: What is also get an introduction into robust full-text search capabilities
+    which?
+- candidate_id: q0047
+  relevant_topics:
+  - also get an introduction into robust full-text search capabilities which
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does also get an introduction into robust full-text search capabilities
+    which mean?
+- candidate_id: q0048
+  relevant_topics:
+  - also get an introduction into robust full-text search capabilities which
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does also get an introduction into robust full-text search capabilities
+    which matter?
+- candidate_id: q0049
+  relevant_topics:
+  - also get an introduction into robust full-text search capabilities which
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use also get an introduction into robust full-text search
+    capabilities which?
+- candidate_id: q0050
+  relevant_topics:
+  - also get an introduction into robust full-text search capabilities which
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of also get an introduction into robust
+    full-text search capabilities which?
+- candidate_id: q0051
+  relevant_topics:
+  - strings
+  family: entry
+  pattern: What is {x}?
+  question_text: What is strings?
+- candidate_id: q0052
+  relevant_topics:
+  - strings
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does strings mean?
+- candidate_id: q0053
+  relevant_topics:
+  - strings
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does strings matter?
+- candidate_id: q0054
+  relevant_topics:
+  - strings
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use strings?
+- candidate_id: q0055
+  relevant_topics:
+  - strings
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of strings?
+- candidate_id: q0056
+  relevant_topics:
+  - learn most important postgresql functions for manipulating, processing,
+  - this course will provide you an understanding of how to use built-in
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is learn most important postgresql functions for manipulating,
+    processing, different from this course will provide you an understanding of how
+    to use built-in?
+- candidate_id: q0057
+  relevant_topics:
+  - learn most important postgresql functions for manipulating, processing,
+  - postgresql functions in your sql queries to manipulate different types of
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is learn most important postgresql functions for manipulating,
+    processing, different from postgresql functions in your sql queries to manipulate
+    different types of?
+- candidate_id: q0058
+  relevant_topics:
+  - learn most important postgresql functions for manipulating, processing,
+  - data including strings, character, numeric
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is learn most important postgresql functions for manipulating,
+    processing, different from data including strings, character, numeric?
+- candidate_id: q0059
+  relevant_topics:
+  - learn most important postgresql functions for manipulating, processing,
+  - date/time. we'll travel back
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is learn most important postgresql functions for manipulating,
+    processing, different from date/time. we'll travel back?
+- candidate_id: q0060
+  relevant_topics:
+  - learn most important postgresql functions for manipulating, processing,
+  - to a time where blockbuster video stores were on every corner
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is learn most important postgresql functions for manipulating,
+    processing, different from to a time where blockbuster video stores were on every
+    corner?
+- candidate_id: q0061
+  relevant_topics:
+  - learn most important postgresql functions for manipulating, processing,
+  - if you
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is learn most important postgresql functions for manipulating,
+    processing, different from if you?
+- candidate_id: q0062
+  relevant_topics:
+  - learn most important postgresql functions for manipulating, processing,
+  - wanted to
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is learn most important postgresql functions for manipulating,
+    processing, different from wanted to?
+- candidate_id: q0063
+  relevant_topics:
+  - learn most important postgresql functions for manipulating, processing,
+  - watch a movie, you actually had to leave your house to rent a dvd! you'll
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is learn most important postgresql functions for manipulating,
+    processing, different from watch a movie, you actually had to leave your house
+    to rent a dvd! you'll?
+- candidate_id: q0064
+  relevant_topics:
+  - learn most important postgresql functions for manipulating, processing,
+  - also get an introduction into robust full-text search capabilities which
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is learn most important postgresql functions for manipulating,
+    processing, different from also get an introduction into robust full-text search
+    capabilities which?
+- candidate_id: q0065
+  relevant_topics:
+  - this course will provide you an understanding of how to use built-in
+  - postgresql functions in your sql queries to manipulate different types of
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is this course will provide you an understanding of how to use
+    built-in different from postgresql functions in your sql queries to manipulate
+    different types of?
+- candidate_id: q0066
+  relevant_topics:
+  - this course will provide you an understanding of how to use built-in
+  - data including strings, character, numeric
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is this course will provide you an understanding of how to use
+    built-in different from data including strings, character, numeric?
+- candidate_id: q0067
+  relevant_topics:
+  - this course will provide you an understanding of how to use built-in
+  - date/time. we'll travel back
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is this course will provide you an understanding of how to use
+    built-in different from date/time. we'll travel back?
+- candidate_id: q0068
+  relevant_topics:
+  - this course will provide you an understanding of how to use built-in
+  - to a time where blockbuster video stores were on every corner
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is this course will provide you an understanding of how to use
+    built-in different from to a time where blockbuster video stores were on every
+    corner?
+- candidate_id: q0069
+  relevant_topics:
+  - this course will provide you an understanding of how to use built-in
+  - if you
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is this course will provide you an understanding of how to use
+    built-in different from if you?
+- candidate_id: q0070
+  relevant_topics:
+  - this course will provide you an understanding of how to use built-in
+  - wanted to
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is this course will provide you an understanding of how to use
+    built-in different from wanted to?
+- candidate_id: q0071
+  relevant_topics:
+  - this course will provide you an understanding of how to use built-in
+  - watch a movie, you actually had to leave your house to rent a dvd! you'll
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is this course will provide you an understanding of how to use
+    built-in different from watch a movie, you actually had to leave your house to
+    rent a dvd! you'll?
+- candidate_id: q0072
+  relevant_topics:
+  - this course will provide you an understanding of how to use built-in
+  - also get an introduction into robust full-text search capabilities which
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is this course will provide you an understanding of how to use
+    built-in different from also get an introduction into robust full-text search
+    capabilities which?
+- candidate_id: q0073
+  relevant_topics:
+  - postgresql functions in your sql queries to manipulate different types of
+  - data including strings, character, numeric
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is postgresql functions in your sql queries to manipulate different
+    types of different from data including strings, character, numeric?
+- candidate_id: q0074
+  relevant_topics:
+  - postgresql functions in your sql queries to manipulate different types of
+  - date/time. we'll travel back
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is postgresql functions in your sql queries to manipulate different
+    types of different from date/time. we'll travel back?
+- candidate_id: q0075
+  relevant_topics:
+  - postgresql functions in your sql queries to manipulate different types of
+  - to a time where blockbuster video stores were on every corner
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is postgresql functions in your sql queries to manipulate different
+    types of different from to a time where blockbuster video stores were on every
+    corner?
+- candidate_id: q0076
+  relevant_topics:
+  - postgresql functions in your sql queries to manipulate different types of
+  - if you
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is postgresql functions in your sql queries to manipulate different
+    types of different from if you?
+- candidate_id: q0077
+  relevant_topics:
+  - postgresql functions in your sql queries to manipulate different types of
+  - wanted to
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is postgresql functions in your sql queries to manipulate different
+    types of different from wanted to?
+- candidate_id: q0078
+  relevant_topics:
+  - postgresql functions in your sql queries to manipulate different types of
+  - watch a movie, you actually had to leave your house to rent a dvd! you'll
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is postgresql functions in your sql queries to manipulate different
+    types of different from watch a movie, you actually had to leave your house to
+    rent a dvd! you'll?
+- candidate_id: q0079
+  relevant_topics:
+  - postgresql functions in your sql queries to manipulate different types of
+  - also get an introduction into robust full-text search capabilities which
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is postgresql functions in your sql queries to manipulate different
+    types of different from also get an introduction into robust full-text search
+    capabilities which?
+- candidate_id: q0080
+  relevant_topics:
+  - data including strings, character, numeric
+  - date/time. we'll travel back
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is data including strings, character, numeric different from
+    date/time. we'll travel back?
+- candidate_id: q0081
+  relevant_topics:
+  - data including strings, character, numeric
+  - to a time where blockbuster video stores were on every corner
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is data including strings, character, numeric different from
+    to a time where blockbuster video stores were on every corner?
+- candidate_id: q0082
+  relevant_topics:
+  - data including strings, character, numeric
+  - if you
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is data including strings, character, numeric different from
+    if you?
+- candidate_id: q0083
+  relevant_topics:
+  - data including strings, character, numeric
+  - wanted to
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is data including strings, character, numeric different from
+    wanted to?
+- candidate_id: q0084
+  relevant_topics:
+  - data including strings, character, numeric
+  - watch a movie, you actually had to leave your house to rent a dvd! you'll
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is data including strings, character, numeric different from
+    watch a movie, you actually had to leave your house to rent a dvd! you'll?
+- candidate_id: q0085
+  relevant_topics:
+  - data including strings, character, numeric
+  - also get an introduction into robust full-text search capabilities which
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is data including strings, character, numeric different from
+    also get an introduction into robust full-text search capabilities which?
+- candidate_id: q0086
+  relevant_topics:
+  - date/time. we'll travel back
+  - to a time where blockbuster video stores were on every corner
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is date/time. we'll travel back different from to a time where
+    blockbuster video stores were on every corner?
+- candidate_id: q0087
+  relevant_topics:
+  - date/time. we'll travel back
+  - if you
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is date/time. we'll travel back different from if you?
+- candidate_id: q0088
+  relevant_topics:
+  - date/time. we'll travel back
+  - wanted to
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is date/time. we'll travel back different from wanted to?
+- candidate_id: q0089
+  relevant_topics:
+  - date/time. we'll travel back
+  - watch a movie, you actually had to leave your house to rent a dvd! you'll
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is date/time. we'll travel back different from watch a movie,
+    you actually had to leave your house to rent a dvd! you'll?
+- candidate_id: q0090
+  relevant_topics:
+  - date/time. we'll travel back
+  - also get an introduction into robust full-text search capabilities which
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is date/time. we'll travel back different from also get an introduction
+    into robust full-text search capabilities which?
+- candidate_id: q0091
+  relevant_topics:
+  - to a time where blockbuster video stores were on every corner
+  - if you
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is to a time where blockbuster video stores were on every corner
+    different from if you?
+- candidate_id: q0092
+  relevant_topics:
+  - to a time where blockbuster video stores were on every corner
+  - wanted to
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is to a time where blockbuster video stores were on every corner
+    different from wanted to?
+- candidate_id: q0093
+  relevant_topics:
+  - to a time where blockbuster video stores were on every corner
+  - watch a movie, you actually had to leave your house to rent a dvd! you'll
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is to a time where blockbuster video stores were on every corner
+    different from watch a movie, you actually had to leave your house to rent a dvd!
+    you'll?
+- candidate_id: q0094
+  relevant_topics:
+  - to a time where blockbuster video stores were on every corner
+  - also get an introduction into robust full-text search capabilities which
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is to a time where blockbuster video stores were on every corner
+    different from also get an introduction into robust full-text search capabilities
+    which?
+- candidate_id: q0095
+  relevant_topics:
+  - if you
+  - wanted to
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is if you different from wanted to?
+- candidate_id: q0096
+  relevant_topics:
+  - if you
+  - watch a movie, you actually had to leave your house to rent a dvd! you'll
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is if you different from watch a movie, you actually had to leave
+    your house to rent a dvd! you'll?
+- candidate_id: q0097
+  relevant_topics:
+  - if you
+  - also get an introduction into robust full-text search capabilities which
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is if you different from also get an introduction into robust
+    full-text search capabilities which?
+- candidate_id: q0098
+  relevant_topics:
+  - wanted to
+  - watch a movie, you actually had to leave your house to rent a dvd! you'll
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is wanted to different from watch a movie, you actually had to
+    leave your house to rent a dvd! you'll?
+- candidate_id: q0099
+  relevant_topics:
+  - wanted to
+  - also get an introduction into robust full-text search capabilities which
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is wanted to different from also get an introduction into robust
+    full-text search capabilities which?
+- candidate_id: q0100
+  relevant_topics:
+  - watch a movie, you actually had to leave your house to rent a dvd! you'll
+  - also get an introduction into robust full-text search capabilities which
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is watch a movie, you actually had to leave your house to rent
+    a dvd! you'll different from also get an introduction into robust full-text search
+    capabilities which?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is learn most important postgresql functions for manipulating,
+    processing,?
+  final_text: What is learn most important postgresql functions for manipulating,
+    processing,?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does learn most important postgresql functions for manipulating,
+    processing, mean?
+  final_text: What does learn most important postgresql functions for manipulating,
+    processing, mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does learn most important postgresql functions for manipulating,
+    processing, matter?
+  final_text: Why does learn most important postgresql functions for manipulating,
+    processing, matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use learn most important postgresql functions for manipulating,
+    processing,?
+  final_text: Why does learn most important postgresql functions for manipulating,
+    processing,?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of learn most important postgresql functions
+    for manipulating, processing,?
+  final_text: What is a simple example of learn most important postgresql functions
+    for manipulating, processing,?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is this course will provide you an understanding of how to use
+    built-in?
+  final_text: What is this course will provide you an understanding of how to use
+    built-in?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does this course will provide you an understanding of how to
+    use built-in mean?
+  final_text: What does this course will provide you an understanding of how to use
+    built-in mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does this course will provide you an understanding of how to
+    use built-in matter?
+  final_text: Why does this course will provide you an understanding of how to use
+    built-in matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use this course will provide you an understanding of how
+    to use built-in?
+  final_text: Why does this course will provide you an understanding of how to use
+    built-in?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of this course will provide you an understanding
+    of how to use built-in?
+  final_text: What is a simple example of this course will provide you an understanding
+    of how to use built-in?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is postgresql functions in your sql queries to manipulate different
+    types of?
+  final_text: What is postgresql functions in your sql queries to manipulate different
+    types of?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does postgresql functions in your sql queries to manipulate
+    different types of mean?
+  final_text: What does postgresql functions in your sql queries to manipulate different
+    types of mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does postgresql functions in your sql queries to manipulate different
+    types of matter?
+  final_text: Why does postgresql functions in your sql queries to manipulate different
+    types of matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use postgresql functions in your sql queries to manipulate
+    different types of?
+  final_text: Why does postgresql functions in your sql queries to manipulate different
+    types of?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of postgresql functions in your sql queries
+    to manipulate different types of?
+  final_text: What is a simple example of postgresql functions in your sql queries
+    to manipulate different types of?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is data including strings, character, numeric?
+  final_text: What is data including strings, character, numeric?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does data including strings, character, numeric mean?
+  final_text: What does data including strings, character, numeric mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does data including strings, character, numeric matter?
+  final_text: Why does data including strings, character, numeric matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use data including strings, character, numeric?
+  final_text: Why does data including strings, character, numeric?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of data including strings, character, numeric?
+  final_text: What is a simple example of data including strings, character, numeric?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: What is date/time. we'll travel back?
+  final_text: What is date/time. we'll travel back?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: What does date/time. we'll travel back mean?
+  final_text: What does date/time. we'll travel back mean?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: Why does date/time. we'll travel back matter?
+  final_text: Why does date/time. we'll travel back matter?
+  reject_reason: null
+- candidate_id: q0024
+  status: repaired
+  original_text: Why do we use date/time. we'll travel back?
+  final_text: Why does date/time. we'll travel back?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: What is a simple example of date/time. we'll travel back?
+  final_text: What is a simple example of date/time. we'll travel back?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: What is to a time where blockbuster video stores were on every corner?
+  final_text: What is to a time where blockbuster video stores were on every corner?
+  reject_reason: null
+- candidate_id: q0027
+  status: accepted
+  original_text: What does to a time where blockbuster video stores were on every
+    corner mean?
+  final_text: What does to a time where blockbuster video stores were on every corner
+    mean?
+  reject_reason: null
+- candidate_id: q0028
+  status: accepted
+  original_text: Why does to a time where blockbuster video stores were on every corner
+    matter?
+  final_text: Why does to a time where blockbuster video stores were on every corner
+    matter?
+  reject_reason: null
+- candidate_id: q0029
+  status: repaired
+  original_text: Why do we use to a time where blockbuster video stores were on every
+    corner?
+  final_text: Why does to a time where blockbuster video stores were on every corner?
+  reject_reason: null
+- candidate_id: q0030
+  status: accepted
+  original_text: What is a simple example of to a time where blockbuster video stores
+    were on every corner?
+  final_text: What is a simple example of to a time where blockbuster video stores
+    were on every corner?
+  reject_reason: null
+- candidate_id: q0031
+  status: accepted
+  original_text: What is if you?
+  final_text: What is if you?
+  reject_reason: null
+- candidate_id: q0032
+  status: accepted
+  original_text: What does if you mean?
+  final_text: What does if you mean?
+  reject_reason: null
+- candidate_id: q0033
+  status: accepted
+  original_text: Why does if you matter?
+  final_text: Why does if you matter?
+  reject_reason: null
+- candidate_id: q0034
+  status: repaired
+  original_text: Why do we use if you?
+  final_text: Why does if you?
+  reject_reason: null
+- candidate_id: q0035
+  status: accepted
+  original_text: What is a simple example of if you?
+  final_text: What is a simple example of if you?
+  reject_reason: null
+- candidate_id: q0036
+  status: accepted
+  original_text: What is wanted to?
+  final_text: What is wanted to?
+  reject_reason: null
+- candidate_id: q0037
+  status: accepted
+  original_text: What does wanted to mean?
+  final_text: What does wanted to mean?
+  reject_reason: null
+- candidate_id: q0038
+  status: accepted
+  original_text: Why does wanted to matter?
+  final_text: Why does wanted to matter?
+  reject_reason: null
+- candidate_id: q0039
+  status: repaired
+  original_text: Why do we use wanted to?
+  final_text: Why does wanted to?
+  reject_reason: null
+- candidate_id: q0040
+  status: accepted
+  original_text: What is a simple example of wanted to?
+  final_text: What is a simple example of wanted to?
+  reject_reason: null
+- candidate_id: q0041
+  status: accepted
+  original_text: What is watch a movie, you actually had to leave your house to rent
+    a dvd! you'll?
+  final_text: What is watch a movie, you actually had to leave your house to rent
+    a dvd! you'll?
+  reject_reason: null
+- candidate_id: q0042
+  status: accepted
+  original_text: What does watch a movie, you actually had to leave your house to
+    rent a dvd! you'll mean?
+  final_text: What does watch a movie, you actually had to leave your house to rent
+    a dvd! you'll mean?
+  reject_reason: null
+- candidate_id: q0043
+  status: accepted
+  original_text: Why does watch a movie, you actually had to leave your house to rent
+    a dvd! you'll matter?
+  final_text: Why does watch a movie, you actually had to leave your house to rent
+    a dvd! you'll matter?
+  reject_reason: null
+- candidate_id: q0044
+  status: repaired
+  original_text: Why do we use watch a movie, you actually had to leave your house
+    to rent a dvd! you'll?
+  final_text: Why does watch a movie, you actually had to leave your house to rent
+    a dvd! you'll?
+  reject_reason: null
+- candidate_id: q0045
+  status: accepted
+  original_text: What is a simple example of watch a movie, you actually had to leave
+    your house to rent a dvd! you'll?
+  final_text: What is a simple example of watch a movie, you actually had to leave
+    your house to rent a dvd! you'll?
+  reject_reason: null
+- candidate_id: q0046
+  status: accepted
+  original_text: What is also get an introduction into robust full-text search capabilities
+    which?
+  final_text: What is also get an introduction into robust full-text search capabilities
+    which?
+  reject_reason: null
+- candidate_id: q0047
+  status: accepted
+  original_text: What does also get an introduction into robust full-text search capabilities
+    which mean?
+  final_text: What does also get an introduction into robust full-text search capabilities
+    which mean?
+  reject_reason: null
+- candidate_id: q0048
+  status: accepted
+  original_text: Why does also get an introduction into robust full-text search capabilities
+    which matter?
+  final_text: Why does also get an introduction into robust full-text search capabilities
+    which matter?
+  reject_reason: null
+- candidate_id: q0049
+  status: repaired
+  original_text: Why do we use also get an introduction into robust full-text search
+    capabilities which?
+  final_text: Why does also get an introduction into robust full-text search capabilities
+    which?
+  reject_reason: null
+- candidate_id: q0050
+  status: accepted
+  original_text: What is a simple example of also get an introduction into robust
+    full-text search capabilities which?
+  final_text: What is a simple example of also get an introduction into robust full-text
+    search capabilities which?
+  reject_reason: null
+- candidate_id: q0051
+  status: accepted
+  original_text: What is strings?
+  final_text: What is strings?
+  reject_reason: null
+- candidate_id: q0052
+  status: accepted
+  original_text: What does strings mean?
+  final_text: What does strings mean?
+  reject_reason: null
+- candidate_id: q0053
+  status: accepted
+  original_text: Why does strings matter?
+  final_text: Why does strings matter?
+  reject_reason: null
+- candidate_id: q0054
+  status: repaired
+  original_text: Why do we use strings?
+  final_text: Why does strings?
+  reject_reason: null
+- candidate_id: q0055
+  status: accepted
+  original_text: What is a simple example of strings?
+  final_text: What is a simple example of strings?
+  reject_reason: null
+- candidate_id: q0056
+  status: accepted
+  original_text: How is learn most important postgresql functions for manipulating,
+    processing, different from this course will provide you an understanding of how
+    to use built-in?
+  final_text: How is learn most important postgresql functions for manipulating, processing,
+    different from this course will provide you an understanding of how to use built-in?
+  reject_reason: null
+- candidate_id: q0057
+  status: accepted
+  original_text: How is learn most important postgresql functions for manipulating,
+    processing, different from postgresql functions in your sql queries to manipulate
+    different types of?
+  final_text: How is learn most important postgresql functions for manipulating, processing,
+    different from postgresql functions in your sql queries to manipulate different
+    types of?
+  reject_reason: null
+- candidate_id: q0058
+  status: accepted
+  original_text: How is learn most important postgresql functions for manipulating,
+    processing, different from data including strings, character, numeric?
+  final_text: How is learn most important postgresql functions for manipulating, processing,
+    different from data including strings, character, numeric?
+  reject_reason: null
+- candidate_id: q0059
+  status: accepted
+  original_text: How is learn most important postgresql functions for manipulating,
+    processing, different from date/time. we'll travel back?
+  final_text: How is learn most important postgresql functions for manipulating, processing,
+    different from date/time. we'll travel back?
+  reject_reason: null
+- candidate_id: q0060
+  status: accepted
+  original_text: How is learn most important postgresql functions for manipulating,
+    processing, different from to a time where blockbuster video stores were on every
+    corner?
+  final_text: How is learn most important postgresql functions for manipulating, processing,
+    different from to a time where blockbuster video stores were on every corner?
+  reject_reason: null
+- candidate_id: q0061
+  status: accepted
+  original_text: How is learn most important postgresql functions for manipulating,
+    processing, different from if you?
+  final_text: How is learn most important postgresql functions for manipulating, processing,
+    different from if you?
+  reject_reason: null
+- candidate_id: q0062
+  status: accepted
+  original_text: How is learn most important postgresql functions for manipulating,
+    processing, different from wanted to?
+  final_text: How is learn most important postgresql functions for manipulating, processing,
+    different from wanted to?
+  reject_reason: null
+- candidate_id: q0063
+  status: accepted
+  original_text: How is learn most important postgresql functions for manipulating,
+    processing, different from watch a movie, you actually had to leave your house
+    to rent a dvd! you'll?
+  final_text: How is learn most important postgresql functions for manipulating, processing,
+    different from watch a movie, you actually had to leave your house to rent a dvd!
+    you'll?
+  reject_reason: null
+- candidate_id: q0064
+  status: accepted
+  original_text: How is learn most important postgresql functions for manipulating,
+    processing, different from also get an introduction into robust full-text search
+    capabilities which?
+  final_text: How is learn most important postgresql functions for manipulating, processing,
+    different from also get an introduction into robust full-text search capabilities
+    which?
+  reject_reason: null
+- candidate_id: q0065
+  status: accepted
+  original_text: How is this course will provide you an understanding of how to use
+    built-in different from postgresql functions in your sql queries to manipulate
+    different types of?
+  final_text: How is this course will provide you an understanding of how to use built-in
+    different from postgresql functions in your sql queries to manipulate different
+    types of?
+  reject_reason: null
+- candidate_id: q0066
+  status: accepted
+  original_text: How is this course will provide you an understanding of how to use
+    built-in different from data including strings, character, numeric?
+  final_text: How is this course will provide you an understanding of how to use built-in
+    different from data including strings, character, numeric?
+  reject_reason: null
+- candidate_id: q0067
+  status: accepted
+  original_text: How is this course will provide you an understanding of how to use
+    built-in different from date/time. we'll travel back?
+  final_text: How is this course will provide you an understanding of how to use built-in
+    different from date/time. we'll travel back?
+  reject_reason: null
+- candidate_id: q0068
+  status: accepted
+  original_text: How is this course will provide you an understanding of how to use
+    built-in different from to a time where blockbuster video stores were on every
+    corner?
+  final_text: How is this course will provide you an understanding of how to use built-in
+    different from to a time where blockbuster video stores were on every corner?
+  reject_reason: null
+- candidate_id: q0069
+  status: accepted
+  original_text: How is this course will provide you an understanding of how to use
+    built-in different from if you?
+  final_text: How is this course will provide you an understanding of how to use built-in
+    different from if you?
+  reject_reason: null
+- candidate_id: q0070
+  status: accepted
+  original_text: How is this course will provide you an understanding of how to use
+    built-in different from wanted to?
+  final_text: How is this course will provide you an understanding of how to use built-in
+    different from wanted to?
+  reject_reason: null
+- candidate_id: q0071
+  status: accepted
+  original_text: How is this course will provide you an understanding of how to use
+    built-in different from watch a movie, you actually had to leave your house to
+    rent a dvd! you'll?
+  final_text: How is this course will provide you an understanding of how to use built-in
+    different from watch a movie, you actually had to leave your house to rent a dvd!
+    you'll?
+  reject_reason: null
+- candidate_id: q0072
+  status: accepted
+  original_text: How is this course will provide you an understanding of how to use
+    built-in different from also get an introduction into robust full-text search
+    capabilities which?
+  final_text: How is this course will provide you an understanding of how to use built-in
+    different from also get an introduction into robust full-text search capabilities
+    which?
+  reject_reason: null
+- candidate_id: q0073
+  status: accepted
+  original_text: How is postgresql functions in your sql queries to manipulate different
+    types of different from data including strings, character, numeric?
+  final_text: How is postgresql functions in your sql queries to manipulate different
+    types of different from data including strings, character, numeric?
+  reject_reason: null
+- candidate_id: q0074
+  status: accepted
+  original_text: How is postgresql functions in your sql queries to manipulate different
+    types of different from date/time. we'll travel back?
+  final_text: How is postgresql functions in your sql queries to manipulate different
+    types of different from date/time. we'll travel back?
+  reject_reason: null
+- candidate_id: q0075
+  status: accepted
+  original_text: How is postgresql functions in your sql queries to manipulate different
+    types of different from to a time where blockbuster video stores were on every
+    corner?
+  final_text: How is postgresql functions in your sql queries to manipulate different
+    types of different from to a time where blockbuster video stores were on every
+    corner?
+  reject_reason: null
+- candidate_id: q0076
+  status: accepted
+  original_text: How is postgresql functions in your sql queries to manipulate different
+    types of different from if you?
+  final_text: How is postgresql functions in your sql queries to manipulate different
+    types of different from if you?
+  reject_reason: null
+- candidate_id: q0077
+  status: accepted
+  original_text: How is postgresql functions in your sql queries to manipulate different
+    types of different from wanted to?
+  final_text: How is postgresql functions in your sql queries to manipulate different
+    types of different from wanted to?
+  reject_reason: null
+- candidate_id: q0078
+  status: accepted
+  original_text: How is postgresql functions in your sql queries to manipulate different
+    types of different from watch a movie, you actually had to leave your house to
+    rent a dvd! you'll?
+  final_text: How is postgresql functions in your sql queries to manipulate different
+    types of different from watch a movie, you actually had to leave your house to
+    rent a dvd! you'll?
+  reject_reason: null
+- candidate_id: q0079
+  status: accepted
+  original_text: How is postgresql functions in your sql queries to manipulate different
+    types of different from also get an introduction into robust full-text search
+    capabilities which?
+  final_text: How is postgresql functions in your sql queries to manipulate different
+    types of different from also get an introduction into robust full-text search
+    capabilities which?
+  reject_reason: null
+- candidate_id: q0080
+  status: accepted
+  original_text: How is data including strings, character, numeric different from
+    date/time. we'll travel back?
+  final_text: How is data including strings, character, numeric different from date/time.
+    we'll travel back?
+  reject_reason: null
+- candidate_id: q0081
+  status: accepted
+  original_text: How is data including strings, character, numeric different from
+    to a time where blockbuster video stores were on every corner?
+  final_text: How is data including strings, character, numeric different from to
+    a time where blockbuster video stores were on every corner?
+  reject_reason: null
+- candidate_id: q0082
+  status: accepted
+  original_text: How is data including strings, character, numeric different from
+    if you?
+  final_text: How is data including strings, character, numeric different from if
+    you?
+  reject_reason: null
+- candidate_id: q0083
+  status: accepted
+  original_text: How is data including strings, character, numeric different from
+    wanted to?
+  final_text: How is data including strings, character, numeric different from wanted
+    to?
+  reject_reason: null
+- candidate_id: q0084
+  status: accepted
+  original_text: How is data including strings, character, numeric different from
+    watch a movie, you actually had to leave your house to rent a dvd! you'll?
+  final_text: How is data including strings, character, numeric different from watch
+    a movie, you actually had to leave your house to rent a dvd! you'll?
+  reject_reason: null
+- candidate_id: q0085
+  status: accepted
+  original_text: How is data including strings, character, numeric different from
+    also get an introduction into robust full-text search capabilities which?
+  final_text: How is data including strings, character, numeric different from also
+    get an introduction into robust full-text search capabilities which?
+  reject_reason: null
+- candidate_id: q0086
+  status: accepted
+  original_text: How is date/time. we'll travel back different from to a time where
+    blockbuster video stores were on every corner?
+  final_text: How is date/time. we'll travel back different from to a time where blockbuster
+    video stores were on every corner?
+  reject_reason: null
+- candidate_id: q0087
+  status: accepted
+  original_text: How is date/time. we'll travel back different from if you?
+  final_text: How is date/time. we'll travel back different from if you?
+  reject_reason: null
+- candidate_id: q0088
+  status: accepted
+  original_text: How is date/time. we'll travel back different from wanted to?
+  final_text: How is date/time. we'll travel back different from wanted to?
+  reject_reason: null
+- candidate_id: q0089
+  status: accepted
+  original_text: How is date/time. we'll travel back different from watch a movie,
+    you actually had to leave your house to rent a dvd! you'll?
+  final_text: How is date/time. we'll travel back different from watch a movie, you
+    actually had to leave your house to rent a dvd! you'll?
+  reject_reason: null
+- candidate_id: q0090
+  status: accepted
+  original_text: How is date/time. we'll travel back different from also get an introduction
+    into robust full-text search capabilities which?
+  final_text: How is date/time. we'll travel back different from also get an introduction
+    into robust full-text search capabilities which?
+  reject_reason: null
+- candidate_id: q0091
+  status: accepted
+  original_text: How is to a time where blockbuster video stores were on every corner
+    different from if you?
+  final_text: How is to a time where blockbuster video stores were on every corner
+    different from if you?
+  reject_reason: null
+- candidate_id: q0092
+  status: accepted
+  original_text: How is to a time where blockbuster video stores were on every corner
+    different from wanted to?
+  final_text: How is to a time where blockbuster video stores were on every corner
+    different from wanted to?
+  reject_reason: null
+- candidate_id: q0093
+  status: accepted
+  original_text: How is to a time where blockbuster video stores were on every corner
+    different from watch a movie, you actually had to leave your house to rent a dvd!
+    you'll?
+  final_text: How is to a time where blockbuster video stores were on every corner
+    different from watch a movie, you actually had to leave your house to rent a dvd!
+    you'll?
+  reject_reason: null
+- candidate_id: q0094
+  status: accepted
+  original_text: How is to a time where blockbuster video stores were on every corner
+    different from also get an introduction into robust full-text search capabilities
+    which?
+  final_text: How is to a time where blockbuster video stores were on every corner
+    different from also get an introduction into robust full-text search capabilities
+    which?
+  reject_reason: null
+- candidate_id: q0095
+  status: accepted
+  original_text: How is if you different from wanted to?
+  final_text: How is if you different from wanted to?
+  reject_reason: null
+- candidate_id: q0096
+  status: accepted
+  original_text: How is if you different from watch a movie, you actually had to leave
+    your house to rent a dvd! you'll?
+  final_text: How is if you different from watch a movie, you actually had to leave
+    your house to rent a dvd! you'll?
+  reject_reason: null
+- candidate_id: q0097
+  status: accepted
+  original_text: How is if you different from also get an introduction into robust
+    full-text search capabilities which?
+  final_text: How is if you different from also get an introduction into robust full-text
+    search capabilities which?
+  reject_reason: null
+- candidate_id: q0098
+  status: accepted
+  original_text: How is wanted to different from watch a movie, you actually had to
+    leave your house to rent a dvd! you'll?
+  final_text: How is wanted to different from watch a movie, you actually had to leave
+    your house to rent a dvd! you'll?
+  reject_reason: null
+- candidate_id: q0099
+  status: accepted
+  original_text: How is wanted to different from also get an introduction into robust
+    full-text search capabilities which?
+  final_text: How is wanted to different from also get an introduction into robust
+    full-text search capabilities which?
+  reject_reason: null
+- candidate_id: q0100
+  status: accepted
+  original_text: How is watch a movie, you actually had to leave your house to rent
+    a dvd! you'll different from also get an introduction into robust full-text search
+    capabilities which?
+  final_text: How is watch a movie, you actually had to leave your house to rent a
+    dvd! you'll different from also get an introduction into robust full-text search
+    capabilities which?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is learn most important postgresql functions for manipulating,
+    processing,?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does learn most important postgresql functions for manipulating,
+    processing, mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does learn most important postgresql functions for manipulating,
+    processing, matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does learn most important postgresql functions for manipulating,
+    processing,?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of learn most important postgresql functions
+    for manipulating, processing,?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is this course will provide you an understanding of how to use
+    built-in?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does this course will provide you an understanding of how to
+    use built-in mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does this course will provide you an understanding of how to
+    use built-in matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does this course will provide you an understanding of how to
+    use built-in?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of this course will provide you an understanding
+    of how to use built-in?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is postgresql functions in your sql queries to manipulate different
+    types of?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does postgresql functions in your sql queries to manipulate
+    different types of mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does postgresql functions in your sql queries to manipulate different
+    types of matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does postgresql functions in your sql queries to manipulate different
+    types of?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of postgresql functions in your sql queries
+    to manipulate different types of?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is data including strings, character, numeric?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does data including strings, character, numeric mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does data including strings, character, numeric matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does data including strings, character, numeric?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of data including strings, character, numeric?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: What is date/time. we'll travel back?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: What does date/time. we'll travel back mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: Why does date/time. we'll travel back matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: Why does date/time. we'll travel back?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: What is a simple example of date/time. we'll travel back?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: What is to a time where blockbuster video stores were on every corner?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0027
+  question_text: What does to a time where blockbuster video stores were on every
+    corner mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0028
+  question_text: Why does to a time where blockbuster video stores were on every corner
+    matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0029
+  question_text: Why does to a time where blockbuster video stores were on every corner?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0030
+  question_text: What is a simple example of to a time where blockbuster video stores
+    were on every corner?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0031
+  question_text: What is if you?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0032
+  question_text: What does if you mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0033
+  question_text: Why does if you matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0034
+  question_text: Why does if you?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0035
+  question_text: What is a simple example of if you?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0036
+  question_text: What is wanted to?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0037
+  question_text: What does wanted to mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0038
+  question_text: Why does wanted to matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0039
+  question_text: Why does wanted to?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0040
+  question_text: What is a simple example of wanted to?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0041
+  question_text: What is watch a movie, you actually had to leave your house to rent
+    a dvd! you'll?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0042
+  question_text: What does watch a movie, you actually had to leave your house to
+    rent a dvd! you'll mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0043
+  question_text: Why does watch a movie, you actually had to leave your house to rent
+    a dvd! you'll matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0044
+  question_text: Why does watch a movie, you actually had to leave your house to rent
+    a dvd! you'll?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0045
+  question_text: What is a simple example of watch a movie, you actually had to leave
+    your house to rent a dvd! you'll?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0046
+  question_text: What is also get an introduction into robust full-text search capabilities
+    which?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0047
+  question_text: What does also get an introduction into robust full-text search capabilities
+    which mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0048
+  question_text: Why does also get an introduction into robust full-text search capabilities
+    which matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0049
+  question_text: Why does also get an introduction into robust full-text search capabilities
+    which?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0050
+  question_text: What is a simple example of also get an introduction into robust
+    full-text search capabilities which?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0051
+  question_text: What is strings?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0052
+  question_text: What does strings mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0053
+  question_text: Why does strings matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0054
+  question_text: Why does strings?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0055
+  question_text: What is a simple example of strings?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0056
+  question_text: How is learn most important postgresql functions for manipulating,
+    processing, different from this course will provide you an understanding of how
+    to use built-in?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0057
+  question_text: How is learn most important postgresql functions for manipulating,
+    processing, different from postgresql functions in your sql queries to manipulate
+    different types of?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0058
+  question_text: How is learn most important postgresql functions for manipulating,
+    processing, different from data including strings, character, numeric?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0059
+  question_text: How is learn most important postgresql functions for manipulating,
+    processing, different from date/time. we'll travel back?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0060
+  question_text: How is learn most important postgresql functions for manipulating,
+    processing, different from to a time where blockbuster video stores were on every
+    corner?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0061
+  question_text: How is learn most important postgresql functions for manipulating,
+    processing, different from if you?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0062
+  question_text: How is learn most important postgresql functions for manipulating,
+    processing, different from wanted to?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0063
+  question_text: How is learn most important postgresql functions for manipulating,
+    processing, different from watch a movie, you actually had to leave your house
+    to rent a dvd! you'll?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0064
+  question_text: How is learn most important postgresql functions for manipulating,
+    processing, different from also get an introduction into robust full-text search
+    capabilities which?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0065
+  question_text: How is this course will provide you an understanding of how to use
+    built-in different from postgresql functions in your sql queries to manipulate
+    different types of?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0066
+  question_text: How is this course will provide you an understanding of how to use
+    built-in different from data including strings, character, numeric?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0067
+  question_text: How is this course will provide you an understanding of how to use
+    built-in different from date/time. we'll travel back?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0068
+  question_text: How is this course will provide you an understanding of how to use
+    built-in different from to a time where blockbuster video stores were on every
+    corner?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0069
+  question_text: How is this course will provide you an understanding of how to use
+    built-in different from if you?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0070
+  question_text: How is this course will provide you an understanding of how to use
+    built-in different from wanted to?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0071
+  question_text: How is this course will provide you an understanding of how to use
+    built-in different from watch a movie, you actually had to leave your house to
+    rent a dvd! you'll?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0072
+  question_text: How is this course will provide you an understanding of how to use
+    built-in different from also get an introduction into robust full-text search
+    capabilities which?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0073
+  question_text: How is postgresql functions in your sql queries to manipulate different
+    types of different from data including strings, character, numeric?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0074
+  question_text: How is postgresql functions in your sql queries to manipulate different
+    types of different from date/time. we'll travel back?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0075
+  question_text: How is postgresql functions in your sql queries to manipulate different
+    types of different from to a time where blockbuster video stores were on every
+    corner?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0076
+  question_text: How is postgresql functions in your sql queries to manipulate different
+    types of different from if you?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0077
+  question_text: How is postgresql functions in your sql queries to manipulate different
+    types of different from wanted to?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0078
+  question_text: How is postgresql functions in your sql queries to manipulate different
+    types of different from watch a movie, you actually had to leave your house to
+    rent a dvd! you'll?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0079
+  question_text: How is postgresql functions in your sql queries to manipulate different
+    types of different from also get an introduction into robust full-text search
+    capabilities which?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0080
+  question_text: How is data including strings, character, numeric different from
+    date/time. we'll travel back?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0081
+  question_text: How is data including strings, character, numeric different from
+    to a time where blockbuster video stores were on every corner?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0082
+  question_text: How is data including strings, character, numeric different from
+    if you?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0083
+  question_text: How is data including strings, character, numeric different from
+    wanted to?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0084
+  question_text: How is data including strings, character, numeric different from
+    watch a movie, you actually had to leave your house to rent a dvd! you'll?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0085
+  question_text: How is data including strings, character, numeric different from
+    also get an introduction into robust full-text search capabilities which?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0086
+  question_text: How is date/time. we'll travel back different from to a time where
+    blockbuster video stores were on every corner?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0087
+  question_text: How is date/time. we'll travel back different from if you?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0088
+  question_text: How is date/time. we'll travel back different from wanted to?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0089
+  question_text: How is date/time. we'll travel back different from watch a movie,
+    you actually had to leave your house to rent a dvd! you'll?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0090
+  question_text: How is date/time. we'll travel back different from also get an introduction
+    into robust full-text search capabilities which?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0091
+  question_text: How is to a time where blockbuster video stores were on every corner
+    different from if you?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0092
+  question_text: How is to a time where blockbuster video stores were on every corner
+    different from wanted to?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0093
+  question_text: How is to a time where blockbuster video stores were on every corner
+    different from watch a movie, you actually had to leave your house to rent a dvd!
+    you'll?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0094
+  question_text: How is to a time where blockbuster video stores were on every corner
+    different from also get an introduction into robust full-text search capabilities
+    which?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0095
+  question_text: How is if you different from wanted to?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0096
+  question_text: How is if you different from watch a movie, you actually had to leave
+    your house to rent a dvd! you'll?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0097
+  question_text: How is if you different from also get an introduction into robust
+    full-text search capabilities which?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0098
+  question_text: How is wanted to different from watch a movie, you actually had to
+    leave your house to rent a dvd! you'll?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0099
+  question_text: How is wanted to different from also get an introduction into robust
+    full-text search capabilities which?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0100
+  question_text: How is watch a movie, you actually had to leave your house to rent
+    a dvd! you'll different from also get an introduction into robust full-text search
+    capabilities which?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - learn most important postgresql functions for manipulating, processing,
+  question_text: What is learn most important postgresql functions for manipulating,
+    processing,?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - learn most important postgresql functions for manipulating, processing,
+  question_text: What does learn most important postgresql functions for manipulating,
+    processing, mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - learn most important postgresql functions for manipulating, processing,
+  question_text: Why does learn most important postgresql functions for manipulating,
+    processing, matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - learn most important postgresql functions for manipulating, processing,
+  question_text: Why does learn most important postgresql functions for manipulating,
+    processing,?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - learn most important postgresql functions for manipulating, processing,
+  question_text: What is a simple example of learn most important postgresql functions
+    for manipulating, processing,?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - this course will provide you an understanding of how to use built-in
+  question_text: What is this course will provide you an understanding of how to use
+    built-in?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - this course will provide you an understanding of how to use built-in
+  question_text: What does this course will provide you an understanding of how to
+    use built-in mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - this course will provide you an understanding of how to use built-in
+  question_text: Why does this course will provide you an understanding of how to
+    use built-in matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - this course will provide you an understanding of how to use built-in
+  question_text: Why does this course will provide you an understanding of how to
+    use built-in?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - this course will provide you an understanding of how to use built-in
+  question_text: What is a simple example of this course will provide you an understanding
+    of how to use built-in?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - postgresql functions in your sql queries to manipulate different types of
+  question_text: What is postgresql functions in your sql queries to manipulate different
+    types of?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - postgresql functions in your sql queries to manipulate different types of
+  question_text: What does postgresql functions in your sql queries to manipulate
+    different types of mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - postgresql functions in your sql queries to manipulate different types of
+  question_text: Why does postgresql functions in your sql queries to manipulate different
+    types of matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - postgresql functions in your sql queries to manipulate different types of
+  question_text: Why does postgresql functions in your sql queries to manipulate different
+    types of?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - postgresql functions in your sql queries to manipulate different types of
+  question_text: What is a simple example of postgresql functions in your sql queries
+    to manipulate different types of?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - data including strings, character, numeric
+  question_text: What is data including strings, character, numeric?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - data including strings, character, numeric
+  question_text: What does data including strings, character, numeric mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - data including strings, character, numeric
+  question_text: Why does data including strings, character, numeric matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - data including strings, character, numeric
+  question_text: Why does data including strings, character, numeric?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - data including strings, character, numeric
+  question_text: What is a simple example of data including strings, character, numeric?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - date/time. we'll travel back
+  question_text: What is date/time. we'll travel back?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - date/time. we'll travel back
+  question_text: What does date/time. we'll travel back mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - date/time. we'll travel back
+  question_text: Why does date/time. we'll travel back matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - date/time. we'll travel back
+  question_text: Why does date/time. we'll travel back?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - date/time. we'll travel back
+  question_text: What is a simple example of date/time. we'll travel back?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - to a time where blockbuster video stores were on every corner
+  question_text: What is to a time where blockbuster video stores were on every corner?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000027
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - to a time where blockbuster video stores were on every corner
+  question_text: What does to a time where blockbuster video stores were on every
+    corner mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000028
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - to a time where blockbuster video stores were on every corner
+  question_text: Why does to a time where blockbuster video stores were on every corner
+    matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000029
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - to a time where blockbuster video stores were on every corner
+  question_text: Why does to a time where blockbuster video stores were on every corner?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000030
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - to a time where blockbuster video stores were on every corner
+  question_text: What is a simple example of to a time where blockbuster video stores
+    were on every corner?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000031
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - if you
+  question_text: What is if you?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000032
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - if you
+  question_text: What does if you mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000033
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - if you
+  question_text: Why does if you matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000034
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - if you
+  question_text: Why does if you?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000035
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - if you
+  question_text: What is a simple example of if you?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000036
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - wanted to
+  question_text: What is wanted to?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000037
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - wanted to
+  question_text: What does wanted to mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000038
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - wanted to
+  question_text: Why does wanted to matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000039
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - wanted to
+  question_text: Why does wanted to?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000040
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - wanted to
+  question_text: What is a simple example of wanted to?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000041
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - watch a movie, you actually had to leave your house to rent a dvd! you'll
+  question_text: What is watch a movie, you actually had to leave your house to rent
+    a dvd! you'll?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000042
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - watch a movie, you actually had to leave your house to rent a dvd! you'll
+  question_text: What does watch a movie, you actually had to leave your house to
+    rent a dvd! you'll mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000043
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - watch a movie, you actually had to leave your house to rent a dvd! you'll
+  question_text: Why does watch a movie, you actually had to leave your house to rent
+    a dvd! you'll matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000044
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - watch a movie, you actually had to leave your house to rent a dvd! you'll
+  question_text: Why does watch a movie, you actually had to leave your house to rent
+    a dvd! you'll?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000045
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - watch a movie, you actually had to leave your house to rent a dvd! you'll
+  question_text: What is a simple example of watch a movie, you actually had to leave
+    your house to rent a dvd! you'll?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000046
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - also get an introduction into robust full-text search capabilities which
+  question_text: What is also get an introduction into robust full-text search capabilities
+    which?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000047
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - also get an introduction into robust full-text search capabilities which
+  question_text: What does also get an introduction into robust full-text search capabilities
+    which mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000048
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - also get an introduction into robust full-text search capabilities which
+  question_text: Why does also get an introduction into robust full-text search capabilities
+    which matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000049
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - also get an introduction into robust full-text search capabilities which
+  question_text: Why does also get an introduction into robust full-text search capabilities
+    which?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000050
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - also get an introduction into robust full-text search capabilities which
+  question_text: What is a simple example of also get an introduction into robust
+    full-text search capabilities which?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000051
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - strings
+  question_text: What is strings?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000052
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - strings
+  question_text: What does strings mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000053
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - strings
+  question_text: Why does strings matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000054
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - strings
+  question_text: Why does strings?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000055
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - strings
+  question_text: What is a simple example of strings?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000056
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - learn most important postgresql functions for manipulating, processing,
+  - this course will provide you an understanding of how to use built-in
+  question_text: How is learn most important postgresql functions for manipulating,
+    processing, different from this course will provide you an understanding of how
+    to use built-in?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000057
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - learn most important postgresql functions for manipulating, processing,
+  - postgresql functions in your sql queries to manipulate different types of
+  question_text: How is learn most important postgresql functions for manipulating,
+    processing, different from postgresql functions in your sql queries to manipulate
+    different types of?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000058
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - learn most important postgresql functions for manipulating, processing,
+  - data including strings, character, numeric
+  question_text: How is learn most important postgresql functions for manipulating,
+    processing, different from data including strings, character, numeric?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000059
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - learn most important postgresql functions for manipulating, processing,
+  - date/time. we'll travel back
+  question_text: How is learn most important postgresql functions for manipulating,
+    processing, different from date/time. we'll travel back?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000060
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - learn most important postgresql functions for manipulating, processing,
+  - to a time where blockbuster video stores were on every corner
+  question_text: How is learn most important postgresql functions for manipulating,
+    processing, different from to a time where blockbuster video stores were on every
+    corner?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000061
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - learn most important postgresql functions for manipulating, processing,
+  - if you
+  question_text: How is learn most important postgresql functions for manipulating,
+    processing, different from if you?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000062
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - learn most important postgresql functions for manipulating, processing,
+  - wanted to
+  question_text: How is learn most important postgresql functions for manipulating,
+    processing, different from wanted to?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000063
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - learn most important postgresql functions for manipulating, processing,
+  - watch a movie, you actually had to leave your house to rent a dvd! you'll
+  question_text: How is learn most important postgresql functions for manipulating,
+    processing, different from watch a movie, you actually had to leave your house
+    to rent a dvd! you'll?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000064
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - learn most important postgresql functions for manipulating, processing,
+  - also get an introduction into robust full-text search capabilities which
+  question_text: How is learn most important postgresql functions for manipulating,
+    processing, different from also get an introduction into robust full-text search
+    capabilities which?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000065
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - this course will provide you an understanding of how to use built-in
+  - postgresql functions in your sql queries to manipulate different types of
+  question_text: How is this course will provide you an understanding of how to use
+    built-in different from postgresql functions in your sql queries to manipulate
+    different types of?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000066
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - this course will provide you an understanding of how to use built-in
+  - data including strings, character, numeric
+  question_text: How is this course will provide you an understanding of how to use
+    built-in different from data including strings, character, numeric?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000067
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - this course will provide you an understanding of how to use built-in
+  - date/time. we'll travel back
+  question_text: How is this course will provide you an understanding of how to use
+    built-in different from date/time. we'll travel back?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000068
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - this course will provide you an understanding of how to use built-in
+  - to a time where blockbuster video stores were on every corner
+  question_text: How is this course will provide you an understanding of how to use
+    built-in different from to a time where blockbuster video stores were on every
+    corner?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000069
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - this course will provide you an understanding of how to use built-in
+  - if you
+  question_text: How is this course will provide you an understanding of how to use
+    built-in different from if you?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000070
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - this course will provide you an understanding of how to use built-in
+  - wanted to
+  question_text: How is this course will provide you an understanding of how to use
+    built-in different from wanted to?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000071
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - this course will provide you an understanding of how to use built-in
+  - watch a movie, you actually had to leave your house to rent a dvd! you'll
+  question_text: How is this course will provide you an understanding of how to use
+    built-in different from watch a movie, you actually had to leave your house to
+    rent a dvd! you'll?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000072
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - this course will provide you an understanding of how to use built-in
+  - also get an introduction into robust full-text search capabilities which
+  question_text: How is this course will provide you an understanding of how to use
+    built-in different from also get an introduction into robust full-text search
+    capabilities which?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000073
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - postgresql functions in your sql queries to manipulate different types of
+  - data including strings, character, numeric
+  question_text: How is postgresql functions in your sql queries to manipulate different
+    types of different from data including strings, character, numeric?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000074
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - postgresql functions in your sql queries to manipulate different types of
+  - date/time. we'll travel back
+  question_text: How is postgresql functions in your sql queries to manipulate different
+    types of different from date/time. we'll travel back?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000075
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - postgresql functions in your sql queries to manipulate different types of
+  - to a time where blockbuster video stores were on every corner
+  question_text: How is postgresql functions in your sql queries to manipulate different
+    types of different from to a time where blockbuster video stores were on every
+    corner?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000076
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - postgresql functions in your sql queries to manipulate different types of
+  - if you
+  question_text: How is postgresql functions in your sql queries to manipulate different
+    types of different from if you?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000077
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - postgresql functions in your sql queries to manipulate different types of
+  - wanted to
+  question_text: How is postgresql functions in your sql queries to manipulate different
+    types of different from wanted to?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000078
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - postgresql functions in your sql queries to manipulate different types of
+  - watch a movie, you actually had to leave your house to rent a dvd! you'll
+  question_text: How is postgresql functions in your sql queries to manipulate different
+    types of different from watch a movie, you actually had to leave your house to
+    rent a dvd! you'll?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000079
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - postgresql functions in your sql queries to manipulate different types of
+  - also get an introduction into robust full-text search capabilities which
+  question_text: How is postgresql functions in your sql queries to manipulate different
+    types of different from also get an introduction into robust full-text search
+    capabilities which?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000080
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - data including strings, character, numeric
+  - date/time. we'll travel back
+  question_text: How is data including strings, character, numeric different from
+    date/time. we'll travel back?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000081
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - data including strings, character, numeric
+  - to a time where blockbuster video stores were on every corner
+  question_text: How is data including strings, character, numeric different from
+    to a time where blockbuster video stores were on every corner?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000082
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - data including strings, character, numeric
+  - if you
+  question_text: How is data including strings, character, numeric different from
+    if you?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000083
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - data including strings, character, numeric
+  - wanted to
+  question_text: How is data including strings, character, numeric different from
+    wanted to?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000084
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - data including strings, character, numeric
+  - watch a movie, you actually had to leave your house to rent a dvd! you'll
+  question_text: How is data including strings, character, numeric different from
+    watch a movie, you actually had to leave your house to rent a dvd! you'll?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000085
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - data including strings, character, numeric
+  - also get an introduction into robust full-text search capabilities which
+  question_text: How is data including strings, character, numeric different from
+    also get an introduction into robust full-text search capabilities which?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000086
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - date/time. we'll travel back
+  - to a time where blockbuster video stores were on every corner
+  question_text: How is date/time. we'll travel back different from to a time where
+    blockbuster video stores were on every corner?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000087
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - date/time. we'll travel back
+  - if you
+  question_text: How is date/time. we'll travel back different from if you?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000088
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - date/time. we'll travel back
+  - wanted to
+  question_text: How is date/time. we'll travel back different from wanted to?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000089
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - date/time. we'll travel back
+  - watch a movie, you actually had to leave your house to rent a dvd! you'll
+  question_text: How is date/time. we'll travel back different from watch a movie,
+    you actually had to leave your house to rent a dvd! you'll?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000090
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - date/time. we'll travel back
+  - also get an introduction into robust full-text search capabilities which
+  question_text: How is date/time. we'll travel back different from also get an introduction
+    into robust full-text search capabilities which?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000091
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - to a time where blockbuster video stores were on every corner
+  - if you
+  question_text: How is to a time where blockbuster video stores were on every corner
+    different from if you?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000092
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - to a time where blockbuster video stores were on every corner
+  - wanted to
+  question_text: How is to a time where blockbuster video stores were on every corner
+    different from wanted to?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000093
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - to a time where blockbuster video stores were on every corner
+  - watch a movie, you actually had to leave your house to rent a dvd! you'll
+  question_text: How is to a time where blockbuster video stores were on every corner
+    different from watch a movie, you actually had to leave your house to rent a dvd!
+    you'll?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000094
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - to a time where blockbuster video stores were on every corner
+  - also get an introduction into robust full-text search capabilities which
+  question_text: How is to a time where blockbuster video stores were on every corner
+    different from also get an introduction into robust full-text search capabilities
+    which?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000095
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - if you
+  - wanted to
+  question_text: How is if you different from wanted to?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000096
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - if you
+  - watch a movie, you actually had to leave your house to rent a dvd! you'll
+  question_text: How is if you different from watch a movie, you actually had to leave
+    your house to rent a dvd! you'll?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000097
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - if you
+  - also get an introduction into robust full-text search capabilities which
+  question_text: How is if you different from also get an introduction into robust
+    full-text search capabilities which?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000098
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - wanted to
+  - watch a movie, you actually had to leave your house to rent a dvd! you'll
+  question_text: How is wanted to different from watch a movie, you actually had to
+    leave your house to rent a dvd! you'll?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000099
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - wanted to
+  - also get an introduction into robust full-text search capabilities which
+  question_text: How is wanted to different from also get an introduction into robust
+    full-text search capabilities which?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000100
+  course:
+    course_id: '24464'
+    title: also get an introduction into the robust full-text search capabilities
+      which
+  relevant_topics:
+  - watch a movie, you actually had to leave your house to rent a dvd! you'll
+  - also get an introduction into robust full-text search capabilities which
+  question_text: How is watch a movie, you actually had to leave your house to rent
+    a dvd! you'll different from also get an introduction into robust full-text search
+    capabilities which?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 11
+  canonical_topic_count: 11
+  candidate_count: 100
+  accepted_count: 100
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 100

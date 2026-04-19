@@ -1,0 +1,3419 @@
+course_id: '24646'
+title: strategies, or combinations of option contracts designed to profit from your
+normalized_course:
+  course_id: '24646'
+  title: strategies, or combinations of option contracts designed to profit from your
+  provider: DataCamp
+  summary: 'Learn how to price options contracts and visualize payout of various options
+
+    strategies using spreadsheets.'
+  overview: 'Introduction to options
+
+
+    -In this chapter, you''ll take your first steps on the path to mastering
+
+    option valuation models in spreadsheets. In this chapter, you will learn the
+
+    basics of derivative contracts known as options. You will find out how to
+
+    use spreadsheets to perform basic operations to compute the value of
+
+    different types of option contracts.
+
+
+    Options (and Strategies), Illustrated
+
+
+    -Things get slightly more complex in this chapter. You will learn option
+
+    strategies, or combinations of option contracts designed to profit from your
+
+    view of the markets. By the end of the chapter, you will gain knowledge of
+
+    some of the most popular strategies such as bull and bear spreads and learn
+
+    how to use spreadsheets to visualize possible outcomes of your strategies,
+
+    while learning several useful spreadsheet functions along the way!
+
+
+    Option Greeks
+
+
+    -In the third chapter, you will take a trip to the United States and then to
+
+    Greece to learn the main elements of the Black-Scholes model, which enables
+
+    you to calculate the fair value of an option contract and to work out its
+
+    sensitivities to various factors, such as changes in the price of the
+
+    underlying asset and time decay.
+
+
+    Binomial Model for Option Pricing
+
+
+    -In the final chapter of the course, you will master the binomial option
+
+    pricing model. It is a very useful tool, which enables you to compute the
+
+    present value of an option contract based on the likelihood and magnitude of
+
+    changes in the price of the underlying asset. You will utilize advanced
+
+    spreadsheet formulas to build the model and expand it by an additional
+
+    period.'
+  chapters:
+  - chapter_index: 1
+    title: Introduction to options
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 2
+    title: -In this chapter, you'll take your first steps on the path to mastering
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 3
+    title: option valuation models in spreadsheets. In this chapter, you will learn
+      the
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 4
+    title: basics of derivative contracts known as options. You will find out how
+      to
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 5
+    title: use spreadsheets to perform basic operations to compute the value of
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 6
+    title: Options (and Strategies), Illustrated
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 7
+    title: -Things get slightly more complex in this chapter. You will learn option
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 8
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  metadata:
+    level: Intermediate
+    duration_hours: 4 hours
+    subjects:
+    - Business Software
+    - Data Analysis
+    - Options Trading
+    - Black-Scholes Model
+    - Spreadsheets
+    - Valuation Models
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: introduction to options
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: introduction to options'
+  evidence:
+  - source: overview_inferred
+    text: Introduction to options
+  confidence: 0.45
+- topic_id: t002
+  label: -in this chapter, you'll take your first steps on the path to mastering
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: -in this chapter, you''ll take
+    your first steps on the path to mastering'
+  evidence:
+  - source: overview_inferred
+    text: -In this chapter, you'll take your first steps on the path to mastering
+  confidence: 0.45
+- topic_id: t003
+  label: option valuation models in spreadsheets. in this chapter, you will learn
+    the
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: option valuation models in spreadsheets.
+    in this chapter, you will learn the'
+  evidence:
+  - source: overview_inferred
+    text: option valuation models in spreadsheets. In this chapter, you will learn
+      the
+  confidence: 0.45
+- topic_id: t004
+  label: basics of derivative contracts known as options. you will find out how to
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: basics of derivative contracts
+    known as options. you will find out how to'
+  evidence:
+  - source: overview_inferred
+    text: basics of derivative contracts known as options. You will find out how to
+  confidence: 0.45
+- topic_id: t005
+  label: use spreadsheets to perform basic operations to compute the value of
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: use spreadsheets to perform basic
+    operations to compute the value of'
+  evidence:
+  - source: overview_inferred
+    text: use spreadsheets to perform basic operations to compute the value of
+  confidence: 0.45
+- topic_id: t006
+  label: options (
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: options ('
+  evidence:
+  - source: overview_inferred
+    text: Options (and Strategies), Illustrated
+  confidence: 0.55
+- topic_id: t007
+  label: strategies), illustrated
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: strategies), illustrated'
+  evidence:
+  - source: overview_inferred
+    text: Options (and Strategies), Illustrated
+  confidence: 0.55
+- topic_id: t008
+  label: -things get slightly more complex in this chapter. you will learn option
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: -things get slightly more complex
+    in this chapter. you will learn option'
+  evidence:
+  - source: overview_inferred
+    text: -Things get slightly more complex in this chapter. You will learn option
+  confidence: 0.45
+- topic_id: t009
+  label: strategies, or combinations of option contracts designed to profit from your
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: strategies, or combinations of
+    option contracts designed to profit from your'
+  evidence:
+  - source: overview_inferred
+    text: strategies, or combinations of option contracts designed to profit from
+      your
+  confidence: 0.45
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: introduction to options
+  aliases:
+  - introduction to options
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: -in this chapter, you'll take your first steps on path to mastering
+  aliases:
+  - -in this chapter, you'll take your first steps on the path to mastering
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: option valuation models in spreadsheets. in this chapter, you will learn
+    the
+  aliases:
+  - option valuation models in spreadsheets. in this chapter, you will learn the
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: basics of derivative contracts known as options. you will find out how to
+  aliases:
+  - basics of derivative contracts known as options. you will find out how to
+  member_topic_ids:
+  - t004
+  topic_type: concept
+- canonical_topic_id: ct_005
+  label: use spreadsheets to perform basic operations to compute value of
+  aliases:
+  - use spreadsheets to perform basic operations to compute the value of
+  member_topic_ids:
+  - t005
+  topic_type: concept
+- canonical_topic_id: ct_006
+  label: options (
+  aliases:
+  - options (
+  member_topic_ids:
+  - t006
+  topic_type: concept
+- canonical_topic_id: ct_007
+  label: strategies), illustrated
+  aliases:
+  - strategies), illustrated
+  member_topic_ids:
+  - t007
+  topic_type: concept
+- canonical_topic_id: ct_008
+  label: -things get slightly more complex in this chapter. you will learn option
+  aliases:
+  - -things get slightly more complex in this chapter. you will learn option
+  member_topic_ids:
+  - t008
+  topic_type: concept
+- canonical_topic_id: ct_009
+  label: strategies, or combinations of option contracts designed to profit from your
+  aliases:
+  - strategies, or combinations of option contracts designed to profit from your
+  member_topic_ids:
+  - t009
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - introduction to options
+  family: entry
+  pattern: What is {x}?
+  question_text: What is introduction to options?
+- candidate_id: q0002
+  relevant_topics:
+  - introduction to options
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does introduction to options mean?
+- candidate_id: q0003
+  relevant_topics:
+  - introduction to options
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does introduction to options matter?
+- candidate_id: q0004
+  relevant_topics:
+  - introduction to options
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use introduction to options?
+- candidate_id: q0005
+  relevant_topics:
+  - introduction to options
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of introduction to options?
+- candidate_id: q0006
+  relevant_topics:
+  - -in this chapter, you'll take your first steps on path to mastering
+  family: entry
+  pattern: What is {x}?
+  question_text: What is -in this chapter, you'll take your first steps on path to
+    mastering?
+- candidate_id: q0007
+  relevant_topics:
+  - -in this chapter, you'll take your first steps on path to mastering
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does -in this chapter, you'll take your first steps on path
+    to mastering mean?
+- candidate_id: q0008
+  relevant_topics:
+  - -in this chapter, you'll take your first steps on path to mastering
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does -in this chapter, you'll take your first steps on path to
+    mastering matter?
+- candidate_id: q0009
+  relevant_topics:
+  - -in this chapter, you'll take your first steps on path to mastering
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use -in this chapter, you'll take your first steps on path
+    to mastering?
+- candidate_id: q0010
+  relevant_topics:
+  - -in this chapter, you'll take your first steps on path to mastering
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of -in this chapter, you'll take your first
+    steps on path to mastering?
+- candidate_id: q0011
+  relevant_topics:
+  - option valuation models in spreadsheets. in this chapter, you will learn the
+  family: entry
+  pattern: What is {x}?
+  question_text: What is option valuation models in spreadsheets. in this chapter,
+    you will learn the?
+- candidate_id: q0012
+  relevant_topics:
+  - option valuation models in spreadsheets. in this chapter, you will learn the
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does option valuation models in spreadsheets. in this chapter,
+    you will learn the mean?
+- candidate_id: q0013
+  relevant_topics:
+  - option valuation models in spreadsheets. in this chapter, you will learn the
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does option valuation models in spreadsheets. in this chapter,
+    you will learn the matter?
+- candidate_id: q0014
+  relevant_topics:
+  - option valuation models in spreadsheets. in this chapter, you will learn the
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use option valuation models in spreadsheets. in this chapter,
+    you will learn the?
+- candidate_id: q0015
+  relevant_topics:
+  - option valuation models in spreadsheets. in this chapter, you will learn the
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of option valuation models in spreadsheets.
+    in this chapter, you will learn the?
+- candidate_id: q0016
+  relevant_topics:
+  - basics of derivative contracts known as options. you will find out how to
+  family: entry
+  pattern: What is {x}?
+  question_text: What is basics of derivative contracts known as options. you will
+    find out how to?
+- candidate_id: q0017
+  relevant_topics:
+  - basics of derivative contracts known as options. you will find out how to
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does basics of derivative contracts known as options. you will
+    find out how to mean?
+- candidate_id: q0018
+  relevant_topics:
+  - basics of derivative contracts known as options. you will find out how to
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does basics of derivative contracts known as options. you will
+    find out how to matter?
+- candidate_id: q0019
+  relevant_topics:
+  - basics of derivative contracts known as options. you will find out how to
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use basics of derivative contracts known as options. you
+    will find out how to?
+- candidate_id: q0020
+  relevant_topics:
+  - basics of derivative contracts known as options. you will find out how to
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of basics of derivative contracts known
+    as options. you will find out how to?
+- candidate_id: q0021
+  relevant_topics:
+  - use spreadsheets to perform basic operations to compute value of
+  family: entry
+  pattern: What is {x}?
+  question_text: What is use spreadsheets to perform basic operations to compute value
+    of?
+- candidate_id: q0022
+  relevant_topics:
+  - use spreadsheets to perform basic operations to compute value of
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does use spreadsheets to perform basic operations to compute
+    value of mean?
+- candidate_id: q0023
+  relevant_topics:
+  - use spreadsheets to perform basic operations to compute value of
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does use spreadsheets to perform basic operations to compute
+    value of matter?
+- candidate_id: q0024
+  relevant_topics:
+  - use spreadsheets to perform basic operations to compute value of
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use use spreadsheets to perform basic operations to compute
+    value of?
+- candidate_id: q0025
+  relevant_topics:
+  - use spreadsheets to perform basic operations to compute value of
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of use spreadsheets to perform basic operations
+    to compute value of?
+- candidate_id: q0026
+  relevant_topics:
+  - options (
+  family: entry
+  pattern: What is {x}?
+  question_text: What is options (?
+- candidate_id: q0027
+  relevant_topics:
+  - options (
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does options ( mean?
+- candidate_id: q0028
+  relevant_topics:
+  - options (
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does options ( matter?
+- candidate_id: q0029
+  relevant_topics:
+  - options (
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use options (?
+- candidate_id: q0030
+  relevant_topics:
+  - options (
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of options (?
+- candidate_id: q0031
+  relevant_topics:
+  - strategies), illustrated
+  family: entry
+  pattern: What is {x}?
+  question_text: What is strategies), illustrated?
+- candidate_id: q0032
+  relevant_topics:
+  - strategies), illustrated
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does strategies), illustrated mean?
+- candidate_id: q0033
+  relevant_topics:
+  - strategies), illustrated
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does strategies), illustrated matter?
+- candidate_id: q0034
+  relevant_topics:
+  - strategies), illustrated
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use strategies), illustrated?
+- candidate_id: q0035
+  relevant_topics:
+  - strategies), illustrated
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of strategies), illustrated?
+- candidate_id: q0036
+  relevant_topics:
+  - -things get slightly more complex in this chapter. you will learn option
+  family: entry
+  pattern: What is {x}?
+  question_text: What is -things get slightly more complex in this chapter. you will
+    learn option?
+- candidate_id: q0037
+  relevant_topics:
+  - -things get slightly more complex in this chapter. you will learn option
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does -things get slightly more complex in this chapter. you
+    will learn option mean?
+- candidate_id: q0038
+  relevant_topics:
+  - -things get slightly more complex in this chapter. you will learn option
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does -things get slightly more complex in this chapter. you will
+    learn option matter?
+- candidate_id: q0039
+  relevant_topics:
+  - -things get slightly more complex in this chapter. you will learn option
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use -things get slightly more complex in this chapter.
+    you will learn option?
+- candidate_id: q0040
+  relevant_topics:
+  - -things get slightly more complex in this chapter. you will learn option
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of -things get slightly more complex in
+    this chapter. you will learn option?
+- candidate_id: q0041
+  relevant_topics:
+  - strategies, or combinations of option contracts designed to profit from your
+  family: entry
+  pattern: What is {x}?
+  question_text: What is strategies, or combinations of option contracts designed
+    to profit from your?
+- candidate_id: q0042
+  relevant_topics:
+  - strategies, or combinations of option contracts designed to profit from your
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does strategies, or combinations of option contracts designed
+    to profit from your mean?
+- candidate_id: q0043
+  relevant_topics:
+  - strategies, or combinations of option contracts designed to profit from your
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does strategies, or combinations of option contracts designed
+    to profit from your matter?
+- candidate_id: q0044
+  relevant_topics:
+  - strategies, or combinations of option contracts designed to profit from your
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use strategies, or combinations of option contracts designed
+    to profit from your?
+- candidate_id: q0045
+  relevant_topics:
+  - strategies, or combinations of option contracts designed to profit from your
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of strategies, or combinations of option
+    contracts designed to profit from your?
+- candidate_id: q0046
+  relevant_topics:
+  - introduction to options
+  - -in this chapter, you'll take your first steps on path to mastering
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to options different from -in this chapter, you'll
+    take your first steps on path to mastering?
+- candidate_id: q0047
+  relevant_topics:
+  - introduction to options
+  - option valuation models in spreadsheets. in this chapter, you will learn the
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to options different from option valuation models
+    in spreadsheets. in this chapter, you will learn the?
+- candidate_id: q0048
+  relevant_topics:
+  - introduction to options
+  - basics of derivative contracts known as options. you will find out how to
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to options different from basics of derivative
+    contracts known as options. you will find out how to?
+- candidate_id: q0049
+  relevant_topics:
+  - introduction to options
+  - use spreadsheets to perform basic operations to compute value of
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to options different from use spreadsheets to
+    perform basic operations to compute value of?
+- candidate_id: q0050
+  relevant_topics:
+  - introduction to options
+  - options (
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to options different from options (?
+- candidate_id: q0051
+  relevant_topics:
+  - introduction to options
+  - strategies), illustrated
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to options different from strategies), illustrated?
+- candidate_id: q0052
+  relevant_topics:
+  - introduction to options
+  - -things get slightly more complex in this chapter. you will learn option
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to options different from -things get slightly
+    more complex in this chapter. you will learn option?
+- candidate_id: q0053
+  relevant_topics:
+  - introduction to options
+  - strategies, or combinations of option contracts designed to profit from your
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to options different from strategies, or combinations
+    of option contracts designed to profit from your?
+- candidate_id: q0054
+  relevant_topics:
+  - -in this chapter, you'll take your first steps on path to mastering
+  - option valuation models in spreadsheets. in this chapter, you will learn the
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter, you'll take your first steps on path to
+    mastering different from option valuation models in spreadsheets. in this chapter,
+    you will learn the?
+- candidate_id: q0055
+  relevant_topics:
+  - -in this chapter, you'll take your first steps on path to mastering
+  - basics of derivative contracts known as options. you will find out how to
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter, you'll take your first steps on path to
+    mastering different from basics of derivative contracts known as options. you
+    will find out how to?
+- candidate_id: q0056
+  relevant_topics:
+  - -in this chapter, you'll take your first steps on path to mastering
+  - use spreadsheets to perform basic operations to compute value of
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter, you'll take your first steps on path to
+    mastering different from use spreadsheets to perform basic operations to compute
+    value of?
+- candidate_id: q0057
+  relevant_topics:
+  - -in this chapter, you'll take your first steps on path to mastering
+  - options (
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter, you'll take your first steps on path to
+    mastering different from options (?
+- candidate_id: q0058
+  relevant_topics:
+  - -in this chapter, you'll take your first steps on path to mastering
+  - strategies), illustrated
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter, you'll take your first steps on path to
+    mastering different from strategies), illustrated?
+- candidate_id: q0059
+  relevant_topics:
+  - -in this chapter, you'll take your first steps on path to mastering
+  - -things get slightly more complex in this chapter. you will learn option
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter, you'll take your first steps on path to
+    mastering different from -things get slightly more complex in this chapter. you
+    will learn option?
+- candidate_id: q0060
+  relevant_topics:
+  - -in this chapter, you'll take your first steps on path to mastering
+  - strategies, or combinations of option contracts designed to profit from your
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter, you'll take your first steps on path to
+    mastering different from strategies, or combinations of option contracts designed
+    to profit from your?
+- candidate_id: q0061
+  relevant_topics:
+  - option valuation models in spreadsheets. in this chapter, you will learn the
+  - basics of derivative contracts known as options. you will find out how to
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is option valuation models in spreadsheets. in this chapter,
+    you will learn the different from basics of derivative contracts known as options.
+    you will find out how to?
+- candidate_id: q0062
+  relevant_topics:
+  - option valuation models in spreadsheets. in this chapter, you will learn the
+  - use spreadsheets to perform basic operations to compute value of
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is option valuation models in spreadsheets. in this chapter,
+    you will learn the different from use spreadsheets to perform basic operations
+    to compute value of?
+- candidate_id: q0063
+  relevant_topics:
+  - option valuation models in spreadsheets. in this chapter, you will learn the
+  - options (
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is option valuation models in spreadsheets. in this chapter,
+    you will learn the different from options (?
+- candidate_id: q0064
+  relevant_topics:
+  - option valuation models in spreadsheets. in this chapter, you will learn the
+  - strategies), illustrated
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is option valuation models in spreadsheets. in this chapter,
+    you will learn the different from strategies), illustrated?
+- candidate_id: q0065
+  relevant_topics:
+  - option valuation models in spreadsheets. in this chapter, you will learn the
+  - -things get slightly more complex in this chapter. you will learn option
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is option valuation models in spreadsheets. in this chapter,
+    you will learn the different from -things get slightly more complex in this chapter.
+    you will learn option?
+- candidate_id: q0066
+  relevant_topics:
+  - option valuation models in spreadsheets. in this chapter, you will learn the
+  - strategies, or combinations of option contracts designed to profit from your
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is option valuation models in spreadsheets. in this chapter,
+    you will learn the different from strategies, or combinations of option contracts
+    designed to profit from your?
+- candidate_id: q0067
+  relevant_topics:
+  - basics of derivative contracts known as options. you will find out how to
+  - use spreadsheets to perform basic operations to compute value of
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is basics of derivative contracts known as options. you will
+    find out how to different from use spreadsheets to perform basic operations to
+    compute value of?
+- candidate_id: q0068
+  relevant_topics:
+  - basics of derivative contracts known as options. you will find out how to
+  - options (
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is basics of derivative contracts known as options. you will
+    find out how to different from options (?
+- candidate_id: q0069
+  relevant_topics:
+  - basics of derivative contracts known as options. you will find out how to
+  - strategies), illustrated
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is basics of derivative contracts known as options. you will
+    find out how to different from strategies), illustrated?
+- candidate_id: q0070
+  relevant_topics:
+  - basics of derivative contracts known as options. you will find out how to
+  - -things get slightly more complex in this chapter. you will learn option
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is basics of derivative contracts known as options. you will
+    find out how to different from -things get slightly more complex in this chapter.
+    you will learn option?
+- candidate_id: q0071
+  relevant_topics:
+  - basics of derivative contracts known as options. you will find out how to
+  - strategies, or combinations of option contracts designed to profit from your
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is basics of derivative contracts known as options. you will
+    find out how to different from strategies, or combinations of option contracts
+    designed to profit from your?
+- candidate_id: q0072
+  relevant_topics:
+  - use spreadsheets to perform basic operations to compute value of
+  - options (
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is use spreadsheets to perform basic operations to compute value
+    of different from options (?
+- candidate_id: q0073
+  relevant_topics:
+  - use spreadsheets to perform basic operations to compute value of
+  - strategies), illustrated
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is use spreadsheets to perform basic operations to compute value
+    of different from strategies), illustrated?
+- candidate_id: q0074
+  relevant_topics:
+  - use spreadsheets to perform basic operations to compute value of
+  - -things get slightly more complex in this chapter. you will learn option
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is use spreadsheets to perform basic operations to compute value
+    of different from -things get slightly more complex in this chapter. you will
+    learn option?
+- candidate_id: q0075
+  relevant_topics:
+  - use spreadsheets to perform basic operations to compute value of
+  - strategies, or combinations of option contracts designed to profit from your
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is use spreadsheets to perform basic operations to compute value
+    of different from strategies, or combinations of option contracts designed to
+    profit from your?
+- candidate_id: q0076
+  relevant_topics:
+  - options (
+  - strategies), illustrated
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is options ( different from strategies), illustrated?
+- candidate_id: q0077
+  relevant_topics:
+  - options (
+  - -things get slightly more complex in this chapter. you will learn option
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is options ( different from -things get slightly more complex
+    in this chapter. you will learn option?
+- candidate_id: q0078
+  relevant_topics:
+  - options (
+  - strategies, or combinations of option contracts designed to profit from your
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is options ( different from strategies, or combinations of option
+    contracts designed to profit from your?
+- candidate_id: q0079
+  relevant_topics:
+  - strategies), illustrated
+  - -things get slightly more complex in this chapter. you will learn option
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is strategies), illustrated different from -things get slightly
+    more complex in this chapter. you will learn option?
+- candidate_id: q0080
+  relevant_topics:
+  - strategies), illustrated
+  - strategies, or combinations of option contracts designed to profit from your
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is strategies), illustrated different from strategies, or combinations
+    of option contracts designed to profit from your?
+- candidate_id: q0081
+  relevant_topics:
+  - -things get slightly more complex in this chapter. you will learn option
+  - strategies, or combinations of option contracts designed to profit from your
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -things get slightly more complex in this chapter. you will
+    learn option different from strategies, or combinations of option contracts designed
+    to profit from your?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is introduction to options?
+  final_text: What is introduction to options?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does introduction to options mean?
+  final_text: What does introduction to options mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does introduction to options matter?
+  final_text: Why does introduction to options matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use introduction to options?
+  final_text: Why does introduction to options?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of introduction to options?
+  final_text: What is a simple example of introduction to options?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is -in this chapter, you'll take your first steps on path to
+    mastering?
+  final_text: What is -in this chapter, you'll take your first steps on path to mastering?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does -in this chapter, you'll take your first steps on path
+    to mastering mean?
+  final_text: What does -in this chapter, you'll take your first steps on path to
+    mastering mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does -in this chapter, you'll take your first steps on path to
+    mastering matter?
+  final_text: Why does -in this chapter, you'll take your first steps on path to mastering
+    matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use -in this chapter, you'll take your first steps on path
+    to mastering?
+  final_text: Why does -in this chapter, you'll take your first steps on path to mastering?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of -in this chapter, you'll take your first
+    steps on path to mastering?
+  final_text: What is a simple example of -in this chapter, you'll take your first
+    steps on path to mastering?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is option valuation models in spreadsheets. in this chapter,
+    you will learn the?
+  final_text: What is option valuation models in spreadsheets. in this chapter, you
+    will learn the?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does option valuation models in spreadsheets. in this chapter,
+    you will learn the mean?
+  final_text: What does option valuation models in spreadsheets. in this chapter,
+    you will learn the mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does option valuation models in spreadsheets. in this chapter,
+    you will learn the matter?
+  final_text: Why does option valuation models in spreadsheets. in this chapter, you
+    will learn the matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use option valuation models in spreadsheets. in this chapter,
+    you will learn the?
+  final_text: Why does option valuation models in spreadsheets. in this chapter, you
+    will learn the?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of option valuation models in spreadsheets.
+    in this chapter, you will learn the?
+  final_text: What is a simple example of option valuation models in spreadsheets.
+    in this chapter, you will learn the?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is basics of derivative contracts known as options. you will
+    find out how to?
+  final_text: What is basics of derivative contracts known as options. you will find
+    out how to?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does basics of derivative contracts known as options. you will
+    find out how to mean?
+  final_text: What does basics of derivative contracts known as options. you will
+    find out how to mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does basics of derivative contracts known as options. you will
+    find out how to matter?
+  final_text: Why does basics of derivative contracts known as options. you will find
+    out how to matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use basics of derivative contracts known as options. you
+    will find out how to?
+  final_text: Why does basics of derivative contracts known as options. you will find
+    out how to?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of basics of derivative contracts known
+    as options. you will find out how to?
+  final_text: What is a simple example of basics of derivative contracts known as
+    options. you will find out how to?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: What is use spreadsheets to perform basic operations to compute value
+    of?
+  final_text: What is use spreadsheets to perform basic operations to compute value
+    of?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: What does use spreadsheets to perform basic operations to compute
+    value of mean?
+  final_text: What does use spreadsheets to perform basic operations to compute value
+    of mean?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: Why does use spreadsheets to perform basic operations to compute
+    value of matter?
+  final_text: Why does use spreadsheets to perform basic operations to compute value
+    of matter?
+  reject_reason: null
+- candidate_id: q0024
+  status: repaired
+  original_text: Why do we use use spreadsheets to perform basic operations to compute
+    value of?
+  final_text: Why does use spreadsheets to perform basic operations to compute value
+    of?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: What is a simple example of use spreadsheets to perform basic operations
+    to compute value of?
+  final_text: What is a simple example of use spreadsheets to perform basic operations
+    to compute value of?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: What is options (?
+  final_text: What is options (?
+  reject_reason: null
+- candidate_id: q0027
+  status: accepted
+  original_text: What does options ( mean?
+  final_text: What does options ( mean?
+  reject_reason: null
+- candidate_id: q0028
+  status: accepted
+  original_text: Why does options ( matter?
+  final_text: Why does options ( matter?
+  reject_reason: null
+- candidate_id: q0029
+  status: repaired
+  original_text: Why do we use options (?
+  final_text: Why does options (?
+  reject_reason: null
+- candidate_id: q0030
+  status: accepted
+  original_text: What is a simple example of options (?
+  final_text: What is a simple example of options (?
+  reject_reason: null
+- candidate_id: q0031
+  status: accepted
+  original_text: What is strategies), illustrated?
+  final_text: What is strategies), illustrated?
+  reject_reason: null
+- candidate_id: q0032
+  status: accepted
+  original_text: What does strategies), illustrated mean?
+  final_text: What does strategies), illustrated mean?
+  reject_reason: null
+- candidate_id: q0033
+  status: accepted
+  original_text: Why does strategies), illustrated matter?
+  final_text: Why does strategies), illustrated matter?
+  reject_reason: null
+- candidate_id: q0034
+  status: repaired
+  original_text: Why do we use strategies), illustrated?
+  final_text: Why does strategies), illustrated?
+  reject_reason: null
+- candidate_id: q0035
+  status: accepted
+  original_text: What is a simple example of strategies), illustrated?
+  final_text: What is a simple example of strategies), illustrated?
+  reject_reason: null
+- candidate_id: q0036
+  status: accepted
+  original_text: What is -things get slightly more complex in this chapter. you will
+    learn option?
+  final_text: What is -things get slightly more complex in this chapter. you will
+    learn option?
+  reject_reason: null
+- candidate_id: q0037
+  status: accepted
+  original_text: What does -things get slightly more complex in this chapter. you
+    will learn option mean?
+  final_text: What does -things get slightly more complex in this chapter. you will
+    learn option mean?
+  reject_reason: null
+- candidate_id: q0038
+  status: accepted
+  original_text: Why does -things get slightly more complex in this chapter. you will
+    learn option matter?
+  final_text: Why does -things get slightly more complex in this chapter. you will
+    learn option matter?
+  reject_reason: null
+- candidate_id: q0039
+  status: repaired
+  original_text: Why do we use -things get slightly more complex in this chapter.
+    you will learn option?
+  final_text: Why does -things get slightly more complex in this chapter. you will
+    learn option?
+  reject_reason: null
+- candidate_id: q0040
+  status: accepted
+  original_text: What is a simple example of -things get slightly more complex in
+    this chapter. you will learn option?
+  final_text: What is a simple example of -things get slightly more complex in this
+    chapter. you will learn option?
+  reject_reason: null
+- candidate_id: q0041
+  status: accepted
+  original_text: What is strategies, or combinations of option contracts designed
+    to profit from your?
+  final_text: What is strategies, or combinations of option contracts designed to
+    profit from your?
+  reject_reason: null
+- candidate_id: q0042
+  status: accepted
+  original_text: What does strategies, or combinations of option contracts designed
+    to profit from your mean?
+  final_text: What does strategies, or combinations of option contracts designed to
+    profit from your mean?
+  reject_reason: null
+- candidate_id: q0043
+  status: accepted
+  original_text: Why does strategies, or combinations of option contracts designed
+    to profit from your matter?
+  final_text: Why does strategies, or combinations of option contracts designed to
+    profit from your matter?
+  reject_reason: null
+- candidate_id: q0044
+  status: repaired
+  original_text: Why do we use strategies, or combinations of option contracts designed
+    to profit from your?
+  final_text: Why does strategies, or combinations of option contracts designed to
+    profit from your?
+  reject_reason: null
+- candidate_id: q0045
+  status: accepted
+  original_text: What is a simple example of strategies, or combinations of option
+    contracts designed to profit from your?
+  final_text: What is a simple example of strategies, or combinations of option contracts
+    designed to profit from your?
+  reject_reason: null
+- candidate_id: q0046
+  status: accepted
+  original_text: How is introduction to options different from -in this chapter, you'll
+    take your first steps on path to mastering?
+  final_text: How is introduction to options different from -in this chapter, you'll
+    take your first steps on path to mastering?
+  reject_reason: null
+- candidate_id: q0047
+  status: accepted
+  original_text: How is introduction to options different from option valuation models
+    in spreadsheets. in this chapter, you will learn the?
+  final_text: How is introduction to options different from option valuation models
+    in spreadsheets. in this chapter, you will learn the?
+  reject_reason: null
+- candidate_id: q0048
+  status: accepted
+  original_text: How is introduction to options different from basics of derivative
+    contracts known as options. you will find out how to?
+  final_text: How is introduction to options different from basics of derivative contracts
+    known as options. you will find out how to?
+  reject_reason: null
+- candidate_id: q0049
+  status: accepted
+  original_text: How is introduction to options different from use spreadsheets to
+    perform basic operations to compute value of?
+  final_text: How is introduction to options different from use spreadsheets to perform
+    basic operations to compute value of?
+  reject_reason: null
+- candidate_id: q0050
+  status: accepted
+  original_text: How is introduction to options different from options (?
+  final_text: How is introduction to options different from options (?
+  reject_reason: null
+- candidate_id: q0051
+  status: accepted
+  original_text: How is introduction to options different from strategies), illustrated?
+  final_text: How is introduction to options different from strategies), illustrated?
+  reject_reason: null
+- candidate_id: q0052
+  status: accepted
+  original_text: How is introduction to options different from -things get slightly
+    more complex in this chapter. you will learn option?
+  final_text: How is introduction to options different from -things get slightly more
+    complex in this chapter. you will learn option?
+  reject_reason: null
+- candidate_id: q0053
+  status: accepted
+  original_text: How is introduction to options different from strategies, or combinations
+    of option contracts designed to profit from your?
+  final_text: How is introduction to options different from strategies, or combinations
+    of option contracts designed to profit from your?
+  reject_reason: null
+- candidate_id: q0054
+  status: accepted
+  original_text: How is -in this chapter, you'll take your first steps on path to
+    mastering different from option valuation models in spreadsheets. in this chapter,
+    you will learn the?
+  final_text: How is -in this chapter, you'll take your first steps on path to mastering
+    different from option valuation models in spreadsheets. in this chapter, you will
+    learn the?
+  reject_reason: null
+- candidate_id: q0055
+  status: accepted
+  original_text: How is -in this chapter, you'll take your first steps on path to
+    mastering different from basics of derivative contracts known as options. you
+    will find out how to?
+  final_text: How is -in this chapter, you'll take your first steps on path to mastering
+    different from basics of derivative contracts known as options. you will find
+    out how to?
+  reject_reason: null
+- candidate_id: q0056
+  status: accepted
+  original_text: How is -in this chapter, you'll take your first steps on path to
+    mastering different from use spreadsheets to perform basic operations to compute
+    value of?
+  final_text: How is -in this chapter, you'll take your first steps on path to mastering
+    different from use spreadsheets to perform basic operations to compute value of?
+  reject_reason: null
+- candidate_id: q0057
+  status: accepted
+  original_text: How is -in this chapter, you'll take your first steps on path to
+    mastering different from options (?
+  final_text: How is -in this chapter, you'll take your first steps on path to mastering
+    different from options (?
+  reject_reason: null
+- candidate_id: q0058
+  status: accepted
+  original_text: How is -in this chapter, you'll take your first steps on path to
+    mastering different from strategies), illustrated?
+  final_text: How is -in this chapter, you'll take your first steps on path to mastering
+    different from strategies), illustrated?
+  reject_reason: null
+- candidate_id: q0059
+  status: accepted
+  original_text: How is -in this chapter, you'll take your first steps on path to
+    mastering different from -things get slightly more complex in this chapter. you
+    will learn option?
+  final_text: How is -in this chapter, you'll take your first steps on path to mastering
+    different from -things get slightly more complex in this chapter. you will learn
+    option?
+  reject_reason: null
+- candidate_id: q0060
+  status: accepted
+  original_text: How is -in this chapter, you'll take your first steps on path to
+    mastering different from strategies, or combinations of option contracts designed
+    to profit from your?
+  final_text: How is -in this chapter, you'll take your first steps on path to mastering
+    different from strategies, or combinations of option contracts designed to profit
+    from your?
+  reject_reason: null
+- candidate_id: q0061
+  status: accepted
+  original_text: How is option valuation models in spreadsheets. in this chapter,
+    you will learn the different from basics of derivative contracts known as options.
+    you will find out how to?
+  final_text: How is option valuation models in spreadsheets. in this chapter, you
+    will learn the different from basics of derivative contracts known as options.
+    you will find out how to?
+  reject_reason: null
+- candidate_id: q0062
+  status: accepted
+  original_text: How is option valuation models in spreadsheets. in this chapter,
+    you will learn the different from use spreadsheets to perform basic operations
+    to compute value of?
+  final_text: How is option valuation models in spreadsheets. in this chapter, you
+    will learn the different from use spreadsheets to perform basic operations to
+    compute value of?
+  reject_reason: null
+- candidate_id: q0063
+  status: accepted
+  original_text: How is option valuation models in spreadsheets. in this chapter,
+    you will learn the different from options (?
+  final_text: How is option valuation models in spreadsheets. in this chapter, you
+    will learn the different from options (?
+  reject_reason: null
+- candidate_id: q0064
+  status: accepted
+  original_text: How is option valuation models in spreadsheets. in this chapter,
+    you will learn the different from strategies), illustrated?
+  final_text: How is option valuation models in spreadsheets. in this chapter, you
+    will learn the different from strategies), illustrated?
+  reject_reason: null
+- candidate_id: q0065
+  status: accepted
+  original_text: How is option valuation models in spreadsheets. in this chapter,
+    you will learn the different from -things get slightly more complex in this chapter.
+    you will learn option?
+  final_text: How is option valuation models in spreadsheets. in this chapter, you
+    will learn the different from -things get slightly more complex in this chapter.
+    you will learn option?
+  reject_reason: null
+- candidate_id: q0066
+  status: accepted
+  original_text: How is option valuation models in spreadsheets. in this chapter,
+    you will learn the different from strategies, or combinations of option contracts
+    designed to profit from your?
+  final_text: How is option valuation models in spreadsheets. in this chapter, you
+    will learn the different from strategies, or combinations of option contracts
+    designed to profit from your?
+  reject_reason: null
+- candidate_id: q0067
+  status: accepted
+  original_text: How is basics of derivative contracts known as options. you will
+    find out how to different from use spreadsheets to perform basic operations to
+    compute value of?
+  final_text: How is basics of derivative contracts known as options. you will find
+    out how to different from use spreadsheets to perform basic operations to compute
+    value of?
+  reject_reason: null
+- candidate_id: q0068
+  status: accepted
+  original_text: How is basics of derivative contracts known as options. you will
+    find out how to different from options (?
+  final_text: How is basics of derivative contracts known as options. you will find
+    out how to different from options (?
+  reject_reason: null
+- candidate_id: q0069
+  status: accepted
+  original_text: How is basics of derivative contracts known as options. you will
+    find out how to different from strategies), illustrated?
+  final_text: How is basics of derivative contracts known as options. you will find
+    out how to different from strategies), illustrated?
+  reject_reason: null
+- candidate_id: q0070
+  status: accepted
+  original_text: How is basics of derivative contracts known as options. you will
+    find out how to different from -things get slightly more complex in this chapter.
+    you will learn option?
+  final_text: How is basics of derivative contracts known as options. you will find
+    out how to different from -things get slightly more complex in this chapter. you
+    will learn option?
+  reject_reason: null
+- candidate_id: q0071
+  status: accepted
+  original_text: How is basics of derivative contracts known as options. you will
+    find out how to different from strategies, or combinations of option contracts
+    designed to profit from your?
+  final_text: How is basics of derivative contracts known as options. you will find
+    out how to different from strategies, or combinations of option contracts designed
+    to profit from your?
+  reject_reason: null
+- candidate_id: q0072
+  status: accepted
+  original_text: How is use spreadsheets to perform basic operations to compute value
+    of different from options (?
+  final_text: How is use spreadsheets to perform basic operations to compute value
+    of different from options (?
+  reject_reason: null
+- candidate_id: q0073
+  status: accepted
+  original_text: How is use spreadsheets to perform basic operations to compute value
+    of different from strategies), illustrated?
+  final_text: How is use spreadsheets to perform basic operations to compute value
+    of different from strategies), illustrated?
+  reject_reason: null
+- candidate_id: q0074
+  status: accepted
+  original_text: How is use spreadsheets to perform basic operations to compute value
+    of different from -things get slightly more complex in this chapter. you will
+    learn option?
+  final_text: How is use spreadsheets to perform basic operations to compute value
+    of different from -things get slightly more complex in this chapter. you will
+    learn option?
+  reject_reason: null
+- candidate_id: q0075
+  status: accepted
+  original_text: How is use spreadsheets to perform basic operations to compute value
+    of different from strategies, or combinations of option contracts designed to
+    profit from your?
+  final_text: How is use spreadsheets to perform basic operations to compute value
+    of different from strategies, or combinations of option contracts designed to
+    profit from your?
+  reject_reason: null
+- candidate_id: q0076
+  status: accepted
+  original_text: How is options ( different from strategies), illustrated?
+  final_text: How is options ( different from strategies), illustrated?
+  reject_reason: null
+- candidate_id: q0077
+  status: accepted
+  original_text: How is options ( different from -things get slightly more complex
+    in this chapter. you will learn option?
+  final_text: How is options ( different from -things get slightly more complex in
+    this chapter. you will learn option?
+  reject_reason: null
+- candidate_id: q0078
+  status: accepted
+  original_text: How is options ( different from strategies, or combinations of option
+    contracts designed to profit from your?
+  final_text: How is options ( different from strategies, or combinations of option
+    contracts designed to profit from your?
+  reject_reason: null
+- candidate_id: q0079
+  status: accepted
+  original_text: How is strategies), illustrated different from -things get slightly
+    more complex in this chapter. you will learn option?
+  final_text: How is strategies), illustrated different from -things get slightly
+    more complex in this chapter. you will learn option?
+  reject_reason: null
+- candidate_id: q0080
+  status: accepted
+  original_text: How is strategies), illustrated different from strategies, or combinations
+    of option contracts designed to profit from your?
+  final_text: How is strategies), illustrated different from strategies, or combinations
+    of option contracts designed to profit from your?
+  reject_reason: null
+- candidate_id: q0081
+  status: accepted
+  original_text: How is -things get slightly more complex in this chapter. you will
+    learn option different from strategies, or combinations of option contracts designed
+    to profit from your?
+  final_text: How is -things get slightly more complex in this chapter. you will learn
+    option different from strategies, or combinations of option contracts designed
+    to profit from your?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is introduction to options?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does introduction to options mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does introduction to options matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does introduction to options?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of introduction to options?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is -in this chapter, you'll take your first steps on path to
+    mastering?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does -in this chapter, you'll take your first steps on path
+    to mastering mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does -in this chapter, you'll take your first steps on path to
+    mastering matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does -in this chapter, you'll take your first steps on path to
+    mastering?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of -in this chapter, you'll take your first
+    steps on path to mastering?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is option valuation models in spreadsheets. in this chapter,
+    you will learn the?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does option valuation models in spreadsheets. in this chapter,
+    you will learn the mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does option valuation models in spreadsheets. in this chapter,
+    you will learn the matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does option valuation models in spreadsheets. in this chapter,
+    you will learn the?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of option valuation models in spreadsheets.
+    in this chapter, you will learn the?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is basics of derivative contracts known as options. you will
+    find out how to?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does basics of derivative contracts known as options. you will
+    find out how to mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does basics of derivative contracts known as options. you will
+    find out how to matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does basics of derivative contracts known as options. you will
+    find out how to?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of basics of derivative contracts known
+    as options. you will find out how to?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: What is use spreadsheets to perform basic operations to compute value
+    of?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: What does use spreadsheets to perform basic operations to compute
+    value of mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: Why does use spreadsheets to perform basic operations to compute
+    value of matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: Why does use spreadsheets to perform basic operations to compute
+    value of?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: What is a simple example of use spreadsheets to perform basic operations
+    to compute value of?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: What is options (?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0027
+  question_text: What does options ( mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0028
+  question_text: Why does options ( matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0029
+  question_text: Why does options (?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0030
+  question_text: What is a simple example of options (?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0031
+  question_text: What is strategies), illustrated?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0032
+  question_text: What does strategies), illustrated mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0033
+  question_text: Why does strategies), illustrated matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0034
+  question_text: Why does strategies), illustrated?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0035
+  question_text: What is a simple example of strategies), illustrated?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0036
+  question_text: What is -things get slightly more complex in this chapter. you will
+    learn option?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0037
+  question_text: What does -things get slightly more complex in this chapter. you
+    will learn option mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0038
+  question_text: Why does -things get slightly more complex in this chapter. you will
+    learn option matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0039
+  question_text: Why does -things get slightly more complex in this chapter. you will
+    learn option?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0040
+  question_text: What is a simple example of -things get slightly more complex in
+    this chapter. you will learn option?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0041
+  question_text: What is strategies, or combinations of option contracts designed
+    to profit from your?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0042
+  question_text: What does strategies, or combinations of option contracts designed
+    to profit from your mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0043
+  question_text: Why does strategies, or combinations of option contracts designed
+    to profit from your matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0044
+  question_text: Why does strategies, or combinations of option contracts designed
+    to profit from your?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0045
+  question_text: What is a simple example of strategies, or combinations of option
+    contracts designed to profit from your?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0046
+  question_text: How is introduction to options different from -in this chapter, you'll
+    take your first steps on path to mastering?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0047
+  question_text: How is introduction to options different from option valuation models
+    in spreadsheets. in this chapter, you will learn the?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0048
+  question_text: How is introduction to options different from basics of derivative
+    contracts known as options. you will find out how to?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0049
+  question_text: How is introduction to options different from use spreadsheets to
+    perform basic operations to compute value of?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0050
+  question_text: How is introduction to options different from options (?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0051
+  question_text: How is introduction to options different from strategies), illustrated?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0052
+  question_text: How is introduction to options different from -things get slightly
+    more complex in this chapter. you will learn option?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0053
+  question_text: How is introduction to options different from strategies, or combinations
+    of option contracts designed to profit from your?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0054
+  question_text: How is -in this chapter, you'll take your first steps on path to
+    mastering different from option valuation models in spreadsheets. in this chapter,
+    you will learn the?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0055
+  question_text: How is -in this chapter, you'll take your first steps on path to
+    mastering different from basics of derivative contracts known as options. you
+    will find out how to?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0056
+  question_text: How is -in this chapter, you'll take your first steps on path to
+    mastering different from use spreadsheets to perform basic operations to compute
+    value of?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0057
+  question_text: How is -in this chapter, you'll take your first steps on path to
+    mastering different from options (?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0058
+  question_text: How is -in this chapter, you'll take your first steps on path to
+    mastering different from strategies), illustrated?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0059
+  question_text: How is -in this chapter, you'll take your first steps on path to
+    mastering different from -things get slightly more complex in this chapter. you
+    will learn option?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0060
+  question_text: How is -in this chapter, you'll take your first steps on path to
+    mastering different from strategies, or combinations of option contracts designed
+    to profit from your?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0061
+  question_text: How is option valuation models in spreadsheets. in this chapter,
+    you will learn the different from basics of derivative contracts known as options.
+    you will find out how to?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0062
+  question_text: How is option valuation models in spreadsheets. in this chapter,
+    you will learn the different from use spreadsheets to perform basic operations
+    to compute value of?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0063
+  question_text: How is option valuation models in spreadsheets. in this chapter,
+    you will learn the different from options (?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0064
+  question_text: How is option valuation models in spreadsheets. in this chapter,
+    you will learn the different from strategies), illustrated?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0065
+  question_text: How is option valuation models in spreadsheets. in this chapter,
+    you will learn the different from -things get slightly more complex in this chapter.
+    you will learn option?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0066
+  question_text: How is option valuation models in spreadsheets. in this chapter,
+    you will learn the different from strategies, or combinations of option contracts
+    designed to profit from your?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0067
+  question_text: How is basics of derivative contracts known as options. you will
+    find out how to different from use spreadsheets to perform basic operations to
+    compute value of?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0068
+  question_text: How is basics of derivative contracts known as options. you will
+    find out how to different from options (?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0069
+  question_text: How is basics of derivative contracts known as options. you will
+    find out how to different from strategies), illustrated?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0070
+  question_text: How is basics of derivative contracts known as options. you will
+    find out how to different from -things get slightly more complex in this chapter.
+    you will learn option?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0071
+  question_text: How is basics of derivative contracts known as options. you will
+    find out how to different from strategies, or combinations of option contracts
+    designed to profit from your?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0072
+  question_text: How is use spreadsheets to perform basic operations to compute value
+    of different from options (?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0073
+  question_text: How is use spreadsheets to perform basic operations to compute value
+    of different from strategies), illustrated?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0074
+  question_text: How is use spreadsheets to perform basic operations to compute value
+    of different from -things get slightly more complex in this chapter. you will
+    learn option?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0075
+  question_text: How is use spreadsheets to perform basic operations to compute value
+    of different from strategies, or combinations of option contracts designed to
+    profit from your?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0076
+  question_text: How is options ( different from strategies), illustrated?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0077
+  question_text: How is options ( different from -things get slightly more complex
+    in this chapter. you will learn option?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0078
+  question_text: How is options ( different from strategies, or combinations of option
+    contracts designed to profit from your?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0079
+  question_text: How is strategies), illustrated different from -things get slightly
+    more complex in this chapter. you will learn option?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0080
+  question_text: How is strategies), illustrated different from strategies, or combinations
+    of option contracts designed to profit from your?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0081
+  question_text: How is -things get slightly more complex in this chapter. you will
+    learn option different from strategies, or combinations of option contracts designed
+    to profit from your?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - introduction to options
+  question_text: What is introduction to options?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - introduction to options
+  question_text: What does introduction to options mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - introduction to options
+  question_text: Why does introduction to options matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - introduction to options
+  question_text: Why does introduction to options?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - introduction to options
+  question_text: What is a simple example of introduction to options?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - -in this chapter, you'll take your first steps on path to mastering
+  question_text: What is -in this chapter, you'll take your first steps on path to
+    mastering?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - -in this chapter, you'll take your first steps on path to mastering
+  question_text: What does -in this chapter, you'll take your first steps on path
+    to mastering mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - -in this chapter, you'll take your first steps on path to mastering
+  question_text: Why does -in this chapter, you'll take your first steps on path to
+    mastering matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - -in this chapter, you'll take your first steps on path to mastering
+  question_text: Why does -in this chapter, you'll take your first steps on path to
+    mastering?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - -in this chapter, you'll take your first steps on path to mastering
+  question_text: What is a simple example of -in this chapter, you'll take your first
+    steps on path to mastering?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - option valuation models in spreadsheets. in this chapter, you will learn the
+  question_text: What is option valuation models in spreadsheets. in this chapter,
+    you will learn the?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - option valuation models in spreadsheets. in this chapter, you will learn the
+  question_text: What does option valuation models in spreadsheets. in this chapter,
+    you will learn the mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - option valuation models in spreadsheets. in this chapter, you will learn the
+  question_text: Why does option valuation models in spreadsheets. in this chapter,
+    you will learn the matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - option valuation models in spreadsheets. in this chapter, you will learn the
+  question_text: Why does option valuation models in spreadsheets. in this chapter,
+    you will learn the?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - option valuation models in spreadsheets. in this chapter, you will learn the
+  question_text: What is a simple example of option valuation models in spreadsheets.
+    in this chapter, you will learn the?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - basics of derivative contracts known as options. you will find out how to
+  question_text: What is basics of derivative contracts known as options. you will
+    find out how to?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - basics of derivative contracts known as options. you will find out how to
+  question_text: What does basics of derivative contracts known as options. you will
+    find out how to mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - basics of derivative contracts known as options. you will find out how to
+  question_text: Why does basics of derivative contracts known as options. you will
+    find out how to matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - basics of derivative contracts known as options. you will find out how to
+  question_text: Why does basics of derivative contracts known as options. you will
+    find out how to?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - basics of derivative contracts known as options. you will find out how to
+  question_text: What is a simple example of basics of derivative contracts known
+    as options. you will find out how to?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - use spreadsheets to perform basic operations to compute value of
+  question_text: What is use spreadsheets to perform basic operations to compute value
+    of?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - use spreadsheets to perform basic operations to compute value of
+  question_text: What does use spreadsheets to perform basic operations to compute
+    value of mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - use spreadsheets to perform basic operations to compute value of
+  question_text: Why does use spreadsheets to perform basic operations to compute
+    value of matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - use spreadsheets to perform basic operations to compute value of
+  question_text: Why does use spreadsheets to perform basic operations to compute
+    value of?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - use spreadsheets to perform basic operations to compute value of
+  question_text: What is a simple example of use spreadsheets to perform basic operations
+    to compute value of?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - options (
+  question_text: What is options (?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000027
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - options (
+  question_text: What does options ( mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000028
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - options (
+  question_text: Why does options ( matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000029
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - options (
+  question_text: Why does options (?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000030
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - options (
+  question_text: What is a simple example of options (?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000031
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - strategies), illustrated
+  question_text: What is strategies), illustrated?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000032
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - strategies), illustrated
+  question_text: What does strategies), illustrated mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000033
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - strategies), illustrated
+  question_text: Why does strategies), illustrated matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000034
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - strategies), illustrated
+  question_text: Why does strategies), illustrated?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000035
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - strategies), illustrated
+  question_text: What is a simple example of strategies), illustrated?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000036
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - -things get slightly more complex in this chapter. you will learn option
+  question_text: What is -things get slightly more complex in this chapter. you will
+    learn option?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000037
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - -things get slightly more complex in this chapter. you will learn option
+  question_text: What does -things get slightly more complex in this chapter. you
+    will learn option mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000038
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - -things get slightly more complex in this chapter. you will learn option
+  question_text: Why does -things get slightly more complex in this chapter. you will
+    learn option matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000039
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - -things get slightly more complex in this chapter. you will learn option
+  question_text: Why does -things get slightly more complex in this chapter. you will
+    learn option?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000040
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - -things get slightly more complex in this chapter. you will learn option
+  question_text: What is a simple example of -things get slightly more complex in
+    this chapter. you will learn option?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000041
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - strategies, or combinations of option contracts designed to profit from your
+  question_text: What is strategies, or combinations of option contracts designed
+    to profit from your?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000042
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - strategies, or combinations of option contracts designed to profit from your
+  question_text: What does strategies, or combinations of option contracts designed
+    to profit from your mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000043
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - strategies, or combinations of option contracts designed to profit from your
+  question_text: Why does strategies, or combinations of option contracts designed
+    to profit from your matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000044
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - strategies, or combinations of option contracts designed to profit from your
+  question_text: Why does strategies, or combinations of option contracts designed
+    to profit from your?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000045
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - strategies, or combinations of option contracts designed to profit from your
+  question_text: What is a simple example of strategies, or combinations of option
+    contracts designed to profit from your?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000046
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - introduction to options
+  - -in this chapter, you'll take your first steps on path to mastering
+  question_text: How is introduction to options different from -in this chapter, you'll
+    take your first steps on path to mastering?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000047
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - introduction to options
+  - option valuation models in spreadsheets. in this chapter, you will learn the
+  question_text: How is introduction to options different from option valuation models
+    in spreadsheets. in this chapter, you will learn the?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000048
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - introduction to options
+  - basics of derivative contracts known as options. you will find out how to
+  question_text: How is introduction to options different from basics of derivative
+    contracts known as options. you will find out how to?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000049
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - introduction to options
+  - use spreadsheets to perform basic operations to compute value of
+  question_text: How is introduction to options different from use spreadsheets to
+    perform basic operations to compute value of?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000050
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - introduction to options
+  - options (
+  question_text: How is introduction to options different from options (?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000051
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - introduction to options
+  - strategies), illustrated
+  question_text: How is introduction to options different from strategies), illustrated?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000052
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - introduction to options
+  - -things get slightly more complex in this chapter. you will learn option
+  question_text: How is introduction to options different from -things get slightly
+    more complex in this chapter. you will learn option?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000053
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - introduction to options
+  - strategies, or combinations of option contracts designed to profit from your
+  question_text: How is introduction to options different from strategies, or combinations
+    of option contracts designed to profit from your?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000054
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - -in this chapter, you'll take your first steps on path to mastering
+  - option valuation models in spreadsheets. in this chapter, you will learn the
+  question_text: How is -in this chapter, you'll take your first steps on path to
+    mastering different from option valuation models in spreadsheets. in this chapter,
+    you will learn the?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000055
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - -in this chapter, you'll take your first steps on path to mastering
+  - basics of derivative contracts known as options. you will find out how to
+  question_text: How is -in this chapter, you'll take your first steps on path to
+    mastering different from basics of derivative contracts known as options. you
+    will find out how to?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000056
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - -in this chapter, you'll take your first steps on path to mastering
+  - use spreadsheets to perform basic operations to compute value of
+  question_text: How is -in this chapter, you'll take your first steps on path to
+    mastering different from use spreadsheets to perform basic operations to compute
+    value of?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000057
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - -in this chapter, you'll take your first steps on path to mastering
+  - options (
+  question_text: How is -in this chapter, you'll take your first steps on path to
+    mastering different from options (?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000058
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - -in this chapter, you'll take your first steps on path to mastering
+  - strategies), illustrated
+  question_text: How is -in this chapter, you'll take your first steps on path to
+    mastering different from strategies), illustrated?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000059
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - -in this chapter, you'll take your first steps on path to mastering
+  - -things get slightly more complex in this chapter. you will learn option
+  question_text: How is -in this chapter, you'll take your first steps on path to
+    mastering different from -things get slightly more complex in this chapter. you
+    will learn option?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000060
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - -in this chapter, you'll take your first steps on path to mastering
+  - strategies, or combinations of option contracts designed to profit from your
+  question_text: How is -in this chapter, you'll take your first steps on path to
+    mastering different from strategies, or combinations of option contracts designed
+    to profit from your?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000061
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - option valuation models in spreadsheets. in this chapter, you will learn the
+  - basics of derivative contracts known as options. you will find out how to
+  question_text: How is option valuation models in spreadsheets. in this chapter,
+    you will learn the different from basics of derivative contracts known as options.
+    you will find out how to?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000062
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - option valuation models in spreadsheets. in this chapter, you will learn the
+  - use spreadsheets to perform basic operations to compute value of
+  question_text: How is option valuation models in spreadsheets. in this chapter,
+    you will learn the different from use spreadsheets to perform basic operations
+    to compute value of?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000063
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - option valuation models in spreadsheets. in this chapter, you will learn the
+  - options (
+  question_text: How is option valuation models in spreadsheets. in this chapter,
+    you will learn the different from options (?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000064
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - option valuation models in spreadsheets. in this chapter, you will learn the
+  - strategies), illustrated
+  question_text: How is option valuation models in spreadsheets. in this chapter,
+    you will learn the different from strategies), illustrated?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000065
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - option valuation models in spreadsheets. in this chapter, you will learn the
+  - -things get slightly more complex in this chapter. you will learn option
+  question_text: How is option valuation models in spreadsheets. in this chapter,
+    you will learn the different from -things get slightly more complex in this chapter.
+    you will learn option?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000066
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - option valuation models in spreadsheets. in this chapter, you will learn the
+  - strategies, or combinations of option contracts designed to profit from your
+  question_text: How is option valuation models in spreadsheets. in this chapter,
+    you will learn the different from strategies, or combinations of option contracts
+    designed to profit from your?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000067
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - basics of derivative contracts known as options. you will find out how to
+  - use spreadsheets to perform basic operations to compute value of
+  question_text: How is basics of derivative contracts known as options. you will
+    find out how to different from use spreadsheets to perform basic operations to
+    compute value of?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000068
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - basics of derivative contracts known as options. you will find out how to
+  - options (
+  question_text: How is basics of derivative contracts known as options. you will
+    find out how to different from options (?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000069
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - basics of derivative contracts known as options. you will find out how to
+  - strategies), illustrated
+  question_text: How is basics of derivative contracts known as options. you will
+    find out how to different from strategies), illustrated?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000070
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - basics of derivative contracts known as options. you will find out how to
+  - -things get slightly more complex in this chapter. you will learn option
+  question_text: How is basics of derivative contracts known as options. you will
+    find out how to different from -things get slightly more complex in this chapter.
+    you will learn option?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000071
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - basics of derivative contracts known as options. you will find out how to
+  - strategies, or combinations of option contracts designed to profit from your
+  question_text: How is basics of derivative contracts known as options. you will
+    find out how to different from strategies, or combinations of option contracts
+    designed to profit from your?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000072
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - use spreadsheets to perform basic operations to compute value of
+  - options (
+  question_text: How is use spreadsheets to perform basic operations to compute value
+    of different from options (?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000073
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - use spreadsheets to perform basic operations to compute value of
+  - strategies), illustrated
+  question_text: How is use spreadsheets to perform basic operations to compute value
+    of different from strategies), illustrated?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000074
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - use spreadsheets to perform basic operations to compute value of
+  - -things get slightly more complex in this chapter. you will learn option
+  question_text: How is use spreadsheets to perform basic operations to compute value
+    of different from -things get slightly more complex in this chapter. you will
+    learn option?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000075
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - use spreadsheets to perform basic operations to compute value of
+  - strategies, or combinations of option contracts designed to profit from your
+  question_text: How is use spreadsheets to perform basic operations to compute value
+    of different from strategies, or combinations of option contracts designed to
+    profit from your?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000076
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - options (
+  - strategies), illustrated
+  question_text: How is options ( different from strategies), illustrated?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000077
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - options (
+  - -things get slightly more complex in this chapter. you will learn option
+  question_text: How is options ( different from -things get slightly more complex
+    in this chapter. you will learn option?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000078
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - options (
+  - strategies, or combinations of option contracts designed to profit from your
+  question_text: How is options ( different from strategies, or combinations of option
+    contracts designed to profit from your?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000079
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - strategies), illustrated
+  - -things get slightly more complex in this chapter. you will learn option
+  question_text: How is strategies), illustrated different from -things get slightly
+    more complex in this chapter. you will learn option?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000080
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - strategies), illustrated
+  - strategies, or combinations of option contracts designed to profit from your
+  question_text: How is strategies), illustrated different from strategies, or combinations
+    of option contracts designed to profit from your?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000081
+  course:
+    course_id: '24646'
+    title: strategies, or combinations of option contracts designed to profit from
+      your
+  relevant_topics:
+  - -things get slightly more complex in this chapter. you will learn option
+  - strategies, or combinations of option contracts designed to profit from your
+  question_text: How is -things get slightly more complex in this chapter. you will
+    learn option different from strategies, or combinations of option contracts designed
+    to profit from your?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 9
+  canonical_topic_count: 9
+  candidate_count: 81
+  accepted_count: 81
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 81

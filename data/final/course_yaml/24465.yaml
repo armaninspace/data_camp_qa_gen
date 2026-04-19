@@ -1,0 +1,1360 @@
+course_id: '24465'
+title: Building Web Applications with Shiny in R
+normalized_course:
+  course_id: '24465'
+  title: Building Web Applications with Shiny in R
+  provider: DataCamp
+  summary: 'Shiny is an R package that makes it easy to build interactive web apps
+
+    directly in R, allowing your team to explore your data as dashboards or
+
+    visualizations.'
+  overview: 'Get Started with Shiny
+
+
+    To kick off the course you''ll learn what a web app is and when you should
+
+    build one, plus build a few apps of your own! You''ll first learn to make
+
+    text inputs and outputs in a few ways, including exploring the popularity of
+
+    certain names over time.
+
+
+    Inputs, Outputs, and Layouts
+
+
+    In this chapter you will learn how to take advantage of different input and
+
+    output options in shiny. You''''ll learn the syntax for taking inputs from
+
+    users and rendering different kinds of outputs, including text, plots, and
+
+    tables.
+
+
+    Reactive Programming
+
+
+    In this chapter, you will learn about reactive programming. You will learn
+
+    about reactive sources, conductors and endpoints and how they come together
+
+    to drive the magic behind Shiny. You will also learn how to utilize your
+
+    understanding of reactivity to build performant Shiny apps.
+
+
+    Build Shiny Apps
+
+
+    It’s time to build your own Shiny apps. You’ll make several apps from
+
+    scratch, including one that allows you to gather insights from the Mental
+
+    Health in Tech Survey and another that uses recipe ingredients as its input
+
+    to accurately categorize different cuisines of the world. Along the way,
+
+    you’ll also learn about more advanced input and output widgets, such as
+
+    input validation, word clouds, and interactive maps.'
+  chapters:
+  - chapter_index: 1
+    title: Get Started with Shiny
+    summary: 'To kick off the course you''ll learn what a web app is and when you
+
+      should build one, plus build a few apps of your own! You''ll first
+
+      learn to make text inputs and outputs in a few ways, including
+
+      exploring the popularity of certain names over time.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 2
+    title: Inputs, Outputs, and Layouts
+    summary: 'In this chapter you will learn how to take advantage of different
+
+      input and output options in shiny. You''''ll learn the syntax for
+
+      taking inputs from users and rendering different kinds of outputs,
+
+      including text, plots, and tables.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 3
+    title: Reactive Programming
+    summary: 'In this chapter, you will learn about reactive programming. You will
+
+      learn about reactive sources, conductors and endpoints and how they
+
+      come together to drive the magic behind Shiny. You will also learn
+
+      how to utilize your understanding of reactivity to build performant
+
+      Shiny apps.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 4
+    title: Build Shiny Apps
+    summary: 'It’s time to build your own Shiny apps. You’ll make several apps
+
+      from scratch, including one that allows you to gather insights from
+
+      the Mental Health in Tech Survey and another that uses recipe
+
+      ingredients as its input to accurately categorize different cuisines
+
+      of the world. Along the way, you’ll also learn about more advanced
+
+      input and output widgets, such as input validation, word clouds, and
+
+      interactive maps.'
+    source: syllabus
+    confidence: 1.0
+  metadata:
+    level: Intermediate
+    duration_hours: 4 hours
+    subjects:
+    - Shiny
+    - Data Analysis
+    - Data Visualization
+    - R Programming
+    - Web Application Development
+    - Reactive Programming
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: get started with shiny
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: get started with shiny'
+  evidence:
+  - source: syllabus
+    text: Get Started with Shiny
+  confidence: 0.45
+- topic_id: t002
+  label: inputs, outputs
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: inputs, outputs'
+  evidence:
+  - source: syllabus
+    text: Inputs, Outputs, and Layouts
+  confidence: 0.55
+- topic_id: t003
+  label: layouts
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: layouts'
+  evidence:
+  - source: syllabus
+    text: Inputs, Outputs, and Layouts
+  confidence: 0.55
+- topic_id: t004
+  label: reactive programming
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: reactive programming'
+  evidence:
+  - source: syllabus
+    text: Reactive Programming
+  confidence: 0.45
+- topic_id: t005
+  label: build shiny apps
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: build shiny apps'
+  evidence:
+  - source: syllabus
+    text: Build Shiny Apps
+  confidence: 0.45
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: get started with shiny
+  aliases:
+  - get started with shiny
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: inputs, outputs
+  aliases:
+  - inputs, outputs
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: layouts
+  aliases:
+  - layouts
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: reactive programming
+  aliases:
+  - reactive programming
+  member_topic_ids:
+  - t004
+  topic_type: concept
+- canonical_topic_id: ct_005
+  label: build shiny apps
+  aliases:
+  - build shiny apps
+  member_topic_ids:
+  - t005
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - get started with shiny
+  family: entry
+  pattern: What is {x}?
+  question_text: What is get started with shiny?
+- candidate_id: q0002
+  relevant_topics:
+  - get started with shiny
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does get started with shiny mean?
+- candidate_id: q0003
+  relevant_topics:
+  - get started with shiny
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does get started with shiny matter?
+- candidate_id: q0004
+  relevant_topics:
+  - get started with shiny
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use get started with shiny?
+- candidate_id: q0005
+  relevant_topics:
+  - get started with shiny
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of get started with shiny?
+- candidate_id: q0006
+  relevant_topics:
+  - inputs, outputs
+  family: entry
+  pattern: What is {x}?
+  question_text: What is inputs, outputs?
+- candidate_id: q0007
+  relevant_topics:
+  - inputs, outputs
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does inputs, outputs mean?
+- candidate_id: q0008
+  relevant_topics:
+  - inputs, outputs
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does inputs, outputs matter?
+- candidate_id: q0009
+  relevant_topics:
+  - inputs, outputs
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use inputs, outputs?
+- candidate_id: q0010
+  relevant_topics:
+  - inputs, outputs
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of inputs, outputs?
+- candidate_id: q0011
+  relevant_topics:
+  - layouts
+  family: entry
+  pattern: What is {x}?
+  question_text: What is layouts?
+- candidate_id: q0012
+  relevant_topics:
+  - layouts
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does layouts mean?
+- candidate_id: q0013
+  relevant_topics:
+  - layouts
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does layouts matter?
+- candidate_id: q0014
+  relevant_topics:
+  - layouts
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use layouts?
+- candidate_id: q0015
+  relevant_topics:
+  - layouts
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of layouts?
+- candidate_id: q0016
+  relevant_topics:
+  - reactive programming
+  family: entry
+  pattern: What is {x}?
+  question_text: What is reactive programming?
+- candidate_id: q0017
+  relevant_topics:
+  - reactive programming
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does reactive programming mean?
+- candidate_id: q0018
+  relevant_topics:
+  - reactive programming
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does reactive programming matter?
+- candidate_id: q0019
+  relevant_topics:
+  - reactive programming
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use reactive programming?
+- candidate_id: q0020
+  relevant_topics:
+  - reactive programming
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of reactive programming?
+- candidate_id: q0021
+  relevant_topics:
+  - build shiny apps
+  family: entry
+  pattern: What is {x}?
+  question_text: What is build shiny apps?
+- candidate_id: q0022
+  relevant_topics:
+  - build shiny apps
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does build shiny apps mean?
+- candidate_id: q0023
+  relevant_topics:
+  - build shiny apps
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does build shiny apps matter?
+- candidate_id: q0024
+  relevant_topics:
+  - build shiny apps
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use build shiny apps?
+- candidate_id: q0025
+  relevant_topics:
+  - build shiny apps
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of build shiny apps?
+- candidate_id: q0026
+  relevant_topics:
+  - get started with shiny
+  - inputs, outputs
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is get started with shiny different from inputs, outputs?
+- candidate_id: q0027
+  relevant_topics:
+  - get started with shiny
+  - layouts
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is get started with shiny different from layouts?
+- candidate_id: q0028
+  relevant_topics:
+  - get started with shiny
+  - reactive programming
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is get started with shiny different from reactive programming?
+- candidate_id: q0029
+  relevant_topics:
+  - get started with shiny
+  - build shiny apps
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is get started with shiny different from build shiny apps?
+- candidate_id: q0030
+  relevant_topics:
+  - inputs, outputs
+  - layouts
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is inputs, outputs different from layouts?
+- candidate_id: q0031
+  relevant_topics:
+  - inputs, outputs
+  - reactive programming
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is inputs, outputs different from reactive programming?
+- candidate_id: q0032
+  relevant_topics:
+  - inputs, outputs
+  - build shiny apps
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is inputs, outputs different from build shiny apps?
+- candidate_id: q0033
+  relevant_topics:
+  - layouts
+  - reactive programming
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is layouts different from reactive programming?
+- candidate_id: q0034
+  relevant_topics:
+  - layouts
+  - build shiny apps
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is layouts different from build shiny apps?
+- candidate_id: q0035
+  relevant_topics:
+  - reactive programming
+  - build shiny apps
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is reactive programming different from build shiny apps?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is get started with shiny?
+  final_text: What is get started with shiny?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does get started with shiny mean?
+  final_text: What does get started with shiny mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does get started with shiny matter?
+  final_text: Why does get started with shiny matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use get started with shiny?
+  final_text: Why does get started with shiny?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of get started with shiny?
+  final_text: What is a simple example of get started with shiny?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is inputs, outputs?
+  final_text: What is inputs, outputs?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does inputs, outputs mean?
+  final_text: What does inputs, outputs mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does inputs, outputs matter?
+  final_text: Why does inputs, outputs matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use inputs, outputs?
+  final_text: Why does inputs, outputs?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of inputs, outputs?
+  final_text: What is a simple example of inputs, outputs?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is layouts?
+  final_text: What is layouts?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does layouts mean?
+  final_text: What does layouts mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does layouts matter?
+  final_text: Why does layouts matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use layouts?
+  final_text: Why does layouts?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of layouts?
+  final_text: What is a simple example of layouts?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is reactive programming?
+  final_text: What is reactive programming?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does reactive programming mean?
+  final_text: What does reactive programming mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does reactive programming matter?
+  final_text: Why does reactive programming matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use reactive programming?
+  final_text: Why does reactive programming?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of reactive programming?
+  final_text: What is a simple example of reactive programming?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: What is build shiny apps?
+  final_text: What is build shiny apps?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: What does build shiny apps mean?
+  final_text: What does build shiny apps mean?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: Why does build shiny apps matter?
+  final_text: Why does build shiny apps matter?
+  reject_reason: null
+- candidate_id: q0024
+  status: repaired
+  original_text: Why do we use build shiny apps?
+  final_text: Why does build shiny apps?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: What is a simple example of build shiny apps?
+  final_text: What is a simple example of build shiny apps?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: How is get started with shiny different from inputs, outputs?
+  final_text: How is get started with shiny different from inputs, outputs?
+  reject_reason: null
+- candidate_id: q0027
+  status: accepted
+  original_text: How is get started with shiny different from layouts?
+  final_text: How is get started with shiny different from layouts?
+  reject_reason: null
+- candidate_id: q0028
+  status: accepted
+  original_text: How is get started with shiny different from reactive programming?
+  final_text: How is get started with shiny different from reactive programming?
+  reject_reason: null
+- candidate_id: q0029
+  status: accepted
+  original_text: How is get started with shiny different from build shiny apps?
+  final_text: How is get started with shiny different from build shiny apps?
+  reject_reason: null
+- candidate_id: q0030
+  status: accepted
+  original_text: How is inputs, outputs different from layouts?
+  final_text: How is inputs, outputs different from layouts?
+  reject_reason: null
+- candidate_id: q0031
+  status: accepted
+  original_text: How is inputs, outputs different from reactive programming?
+  final_text: How is inputs, outputs different from reactive programming?
+  reject_reason: null
+- candidate_id: q0032
+  status: accepted
+  original_text: How is inputs, outputs different from build shiny apps?
+  final_text: How is inputs, outputs different from build shiny apps?
+  reject_reason: null
+- candidate_id: q0033
+  status: accepted
+  original_text: How is layouts different from reactive programming?
+  final_text: How is layouts different from reactive programming?
+  reject_reason: null
+- candidate_id: q0034
+  status: accepted
+  original_text: How is layouts different from build shiny apps?
+  final_text: How is layouts different from build shiny apps?
+  reject_reason: null
+- candidate_id: q0035
+  status: accepted
+  original_text: How is reactive programming different from build shiny apps?
+  final_text: How is reactive programming different from build shiny apps?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is get started with shiny?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does get started with shiny mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does get started with shiny matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does get started with shiny?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of get started with shiny?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is inputs, outputs?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does inputs, outputs mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does inputs, outputs matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does inputs, outputs?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of inputs, outputs?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is layouts?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does layouts mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does layouts matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does layouts?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of layouts?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is reactive programming?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does reactive programming mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does reactive programming matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does reactive programming?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of reactive programming?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: What is build shiny apps?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: What does build shiny apps mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: Why does build shiny apps matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: Why does build shiny apps?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: What is a simple example of build shiny apps?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: How is get started with shiny different from inputs, outputs?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0027
+  question_text: How is get started with shiny different from layouts?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0028
+  question_text: How is get started with shiny different from reactive programming?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0029
+  question_text: How is get started with shiny different from build shiny apps?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0030
+  question_text: How is inputs, outputs different from layouts?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0031
+  question_text: How is inputs, outputs different from reactive programming?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0032
+  question_text: How is inputs, outputs different from build shiny apps?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0033
+  question_text: How is layouts different from reactive programming?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0034
+  question_text: How is layouts different from build shiny apps?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0035
+  question_text: How is reactive programming different from build shiny apps?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24465'
+    title: Building Web Applications with Shiny in R
+  relevant_topics:
+  - get started with shiny
+  question_text: What is get started with shiny?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24465'
+    title: Building Web Applications with Shiny in R
+  relevant_topics:
+  - get started with shiny
+  question_text: What does get started with shiny mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24465'
+    title: Building Web Applications with Shiny in R
+  relevant_topics:
+  - get started with shiny
+  question_text: Why does get started with shiny matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24465'
+    title: Building Web Applications with Shiny in R
+  relevant_topics:
+  - get started with shiny
+  question_text: Why does get started with shiny?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24465'
+    title: Building Web Applications with Shiny in R
+  relevant_topics:
+  - get started with shiny
+  question_text: What is a simple example of get started with shiny?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24465'
+    title: Building Web Applications with Shiny in R
+  relevant_topics:
+  - inputs, outputs
+  question_text: What is inputs, outputs?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24465'
+    title: Building Web Applications with Shiny in R
+  relevant_topics:
+  - inputs, outputs
+  question_text: What does inputs, outputs mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24465'
+    title: Building Web Applications with Shiny in R
+  relevant_topics:
+  - inputs, outputs
+  question_text: Why does inputs, outputs matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24465'
+    title: Building Web Applications with Shiny in R
+  relevant_topics:
+  - inputs, outputs
+  question_text: Why does inputs, outputs?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24465'
+    title: Building Web Applications with Shiny in R
+  relevant_topics:
+  - inputs, outputs
+  question_text: What is a simple example of inputs, outputs?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24465'
+    title: Building Web Applications with Shiny in R
+  relevant_topics:
+  - layouts
+  question_text: What is layouts?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24465'
+    title: Building Web Applications with Shiny in R
+  relevant_topics:
+  - layouts
+  question_text: What does layouts mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24465'
+    title: Building Web Applications with Shiny in R
+  relevant_topics:
+  - layouts
+  question_text: Why does layouts matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24465'
+    title: Building Web Applications with Shiny in R
+  relevant_topics:
+  - layouts
+  question_text: Why does layouts?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24465'
+    title: Building Web Applications with Shiny in R
+  relevant_topics:
+  - layouts
+  question_text: What is a simple example of layouts?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24465'
+    title: Building Web Applications with Shiny in R
+  relevant_topics:
+  - reactive programming
+  question_text: What is reactive programming?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24465'
+    title: Building Web Applications with Shiny in R
+  relevant_topics:
+  - reactive programming
+  question_text: What does reactive programming mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24465'
+    title: Building Web Applications with Shiny in R
+  relevant_topics:
+  - reactive programming
+  question_text: Why does reactive programming matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24465'
+    title: Building Web Applications with Shiny in R
+  relevant_topics:
+  - reactive programming
+  question_text: Why does reactive programming?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24465'
+    title: Building Web Applications with Shiny in R
+  relevant_topics:
+  - reactive programming
+  question_text: What is a simple example of reactive programming?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24465'
+    title: Building Web Applications with Shiny in R
+  relevant_topics:
+  - build shiny apps
+  question_text: What is build shiny apps?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24465'
+    title: Building Web Applications with Shiny in R
+  relevant_topics:
+  - build shiny apps
+  question_text: What does build shiny apps mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24465'
+    title: Building Web Applications with Shiny in R
+  relevant_topics:
+  - build shiny apps
+  question_text: Why does build shiny apps matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24465'
+    title: Building Web Applications with Shiny in R
+  relevant_topics:
+  - build shiny apps
+  question_text: Why does build shiny apps?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24465'
+    title: Building Web Applications with Shiny in R
+  relevant_topics:
+  - build shiny apps
+  question_text: What is a simple example of build shiny apps?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24465'
+    title: Building Web Applications with Shiny in R
+  relevant_topics:
+  - get started with shiny
+  - inputs, outputs
+  question_text: How is get started with shiny different from inputs, outputs?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000027
+  course:
+    course_id: '24465'
+    title: Building Web Applications with Shiny in R
+  relevant_topics:
+  - get started with shiny
+  - layouts
+  question_text: How is get started with shiny different from layouts?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000028
+  course:
+    course_id: '24465'
+    title: Building Web Applications with Shiny in R
+  relevant_topics:
+  - get started with shiny
+  - reactive programming
+  question_text: How is get started with shiny different from reactive programming?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000029
+  course:
+    course_id: '24465'
+    title: Building Web Applications with Shiny in R
+  relevant_topics:
+  - get started with shiny
+  - build shiny apps
+  question_text: How is get started with shiny different from build shiny apps?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000030
+  course:
+    course_id: '24465'
+    title: Building Web Applications with Shiny in R
+  relevant_topics:
+  - inputs, outputs
+  - layouts
+  question_text: How is inputs, outputs different from layouts?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000031
+  course:
+    course_id: '24465'
+    title: Building Web Applications with Shiny in R
+  relevant_topics:
+  - inputs, outputs
+  - reactive programming
+  question_text: How is inputs, outputs different from reactive programming?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000032
+  course:
+    course_id: '24465'
+    title: Building Web Applications with Shiny in R
+  relevant_topics:
+  - inputs, outputs
+  - build shiny apps
+  question_text: How is inputs, outputs different from build shiny apps?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000033
+  course:
+    course_id: '24465'
+    title: Building Web Applications with Shiny in R
+  relevant_topics:
+  - layouts
+  - reactive programming
+  question_text: How is layouts different from reactive programming?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000034
+  course:
+    course_id: '24465'
+    title: Building Web Applications with Shiny in R
+  relevant_topics:
+  - layouts
+  - build shiny apps
+  question_text: How is layouts different from build shiny apps?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000035
+  course:
+    course_id: '24465'
+    title: Building Web Applications with Shiny in R
+  relevant_topics:
+  - reactive programming
+  - build shiny apps
+  question_text: How is reactive programming different from build shiny apps?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 5
+  canonical_topic_count: 5
+  candidate_count: 35
+  accepted_count: 35
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 35

@@ -1,0 +1,1758 @@
+course_id: '24653'
+title: Multivariate Probability Distributions in R
+normalized_course:
+  course_id: '24653'
+  title: Multivariate Probability Distributions in R
+  provider: DataCamp
+  summary: Learn to analyze, plot, and model multivariate data.
+  overview: 'Reading and plotting multivariate data
+
+
+    In this introduction to multivariate data, you will learn how to read and
+
+    summarize it. You will learn how to summarize multivariate data using
+
+    descriptive statistics, such as the mean vector, variance-covariance, and
+
+    correlation matrices. You''ll then explore plotting techniques to provide
+
+    insights into multivariate data.
+
+
+    Multivariate Normal Distribution
+
+
+    This chapter will introduce you to the most important and widely used
+
+    multivariate probability distribution, the multivariate normal. You will
+
+    learn how to generate random samples from a multivariate normal distribution
+
+    and how to calculate and plot the densities and probabilities under this
+
+    distribution. You will also learn how to test if a dataset follows
+
+    multivariate normality.
+
+
+    Other Multivariate Distributions
+
+
+    This chapter introduces a host of probability distributions to model
+
+    non-normal data. In particular, you will be introduced to multivariate
+
+    t-distributions, which can model heavier tails and are a generalization of
+
+    the univariate Student''s t-distribution. You will be introduced to various
+
+    skew distributions, which are specifically designed to model data that are
+
+    right or left skewed.
+
+
+    Principal Component Analysis and Multidimensional Scaling
+
+
+    In the final chapter, you will be introduced to techniques for analyzing
+
+    high dimensional data, including principal component analysis (PCA) and
+
+    multidimensional scaling (MDS). You will also learn to implement these
+
+    techniques by analyzing data.'
+  chapters:
+  - chapter_index: 1
+    title: Reading and plotting multivariate data
+    summary: 'In this introduction to multivariate data, you will learn how to
+
+      read and summarize it. You will learn how to summarize multivariate
+
+      data using descriptive statistics, such as the mean vector,
+
+      variance-covariance, and correlation matrices. You''ll then explore
+
+      plotting techniques to provide insights into multivariate data.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 2
+    title: Multivariate Normal Distribution
+    summary: 'This chapter will introduce you to the most important and widely
+
+      used multivariate probability distribution, the multivariate normal.
+
+      You will learn how to generate random samples from a multivariate
+
+      normal distribution and how to calculate and plot the densities and
+
+      probabilities under this distribution. You will also learn how to
+
+      test if a dataset follows multivariate normality.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 3
+    title: Other Multivariate Distributions
+    summary: 'This chapter introduces a host of probability distributions to model
+
+      non-normal data. In particular, you will be introduced to
+
+      multivariate t-distributions, which can model heavier tails and are
+
+      a generalization of the univariate Student''s t-distribution. You
+
+      will be introduced to various skew distributions, which are
+
+      specifically designed to model data that are right or left skewed.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 4
+    title: Principal Component Analysis and Multidimensional Scaling
+    summary: 'In the final chapter, you will be introduced to techniques for
+
+      analyzing high dimensional data, including principal component
+
+      analysis (PCA) and multidimensional scaling (MDS). You will also
+
+      learn to implement these techniques by analyzing data.'
+    source: syllabus
+    confidence: 1.0
+  metadata:
+    level: Advanced
+    duration_hours: 4 hours
+    subjects:
+    - Multivariate Analysis
+    - Data Analysis
+    - R Programming
+    - Descriptive Statistics
+    - Probability Distributions
+    - Principal Component Analysis
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: reading
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: reading'
+  evidence:
+  - source: syllabus
+    text: Reading and plotting multivariate data
+  confidence: 0.55
+- topic_id: t002
+  label: plotting multivariate data
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: plotting multivariate data'
+  evidence:
+  - source: syllabus
+    text: Reading and plotting multivariate data
+  confidence: 0.55
+- topic_id: t003
+  label: multivariate normal distribution
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: multivariate normal distribution'
+  evidence:
+  - source: syllabus
+    text: Multivariate Normal Distribution
+  confidence: 0.45
+- topic_id: t004
+  label: other multivariate distributions
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: other multivariate distributions'
+  evidence:
+  - source: syllabus
+    text: Other Multivariate Distributions
+  confidence: 0.45
+- topic_id: t005
+  label: principal component analysis
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: principal component analysis'
+  evidence:
+  - source: syllabus
+    text: Principal Component Analysis and Multidimensional Scaling
+  confidence: 0.55
+- topic_id: t006
+  label: multidimensional scaling
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: multidimensional scaling'
+  evidence:
+  - source: syllabus
+    text: Principal Component Analysis and Multidimensional Scaling
+  confidence: 0.55
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: reading
+  aliases:
+  - reading
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: plotting multivariate data
+  aliases:
+  - plotting multivariate data
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: multivariate normal distribution
+  aliases:
+  - multivariate normal distribution
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: other multivariate distributions
+  aliases:
+  - other multivariate distributions
+  member_topic_ids:
+  - t004
+  topic_type: concept
+- canonical_topic_id: ct_005
+  label: principal component analysis
+  aliases:
+  - principal component analysis
+  member_topic_ids:
+  - t005
+  topic_type: concept
+- canonical_topic_id: ct_006
+  label: multidimensional scaling
+  aliases:
+  - multidimensional scaling
+  member_topic_ids:
+  - t006
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - reading
+  family: entry
+  pattern: What is {x}?
+  question_text: What is reading?
+- candidate_id: q0002
+  relevant_topics:
+  - reading
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does reading mean?
+- candidate_id: q0003
+  relevant_topics:
+  - reading
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does reading matter?
+- candidate_id: q0004
+  relevant_topics:
+  - reading
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use reading?
+- candidate_id: q0005
+  relevant_topics:
+  - reading
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of reading?
+- candidate_id: q0006
+  relevant_topics:
+  - plotting multivariate data
+  family: entry
+  pattern: What is {x}?
+  question_text: What is plotting multivariate data?
+- candidate_id: q0007
+  relevant_topics:
+  - plotting multivariate data
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does plotting multivariate data mean?
+- candidate_id: q0008
+  relevant_topics:
+  - plotting multivariate data
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does plotting multivariate data matter?
+- candidate_id: q0009
+  relevant_topics:
+  - plotting multivariate data
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use plotting multivariate data?
+- candidate_id: q0010
+  relevant_topics:
+  - plotting multivariate data
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of plotting multivariate data?
+- candidate_id: q0011
+  relevant_topics:
+  - multivariate normal distribution
+  family: entry
+  pattern: What is {x}?
+  question_text: What is multivariate normal distribution?
+- candidate_id: q0012
+  relevant_topics:
+  - multivariate normal distribution
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does multivariate normal distribution mean?
+- candidate_id: q0013
+  relevant_topics:
+  - multivariate normal distribution
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does multivariate normal distribution matter?
+- candidate_id: q0014
+  relevant_topics:
+  - multivariate normal distribution
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use multivariate normal distribution?
+- candidate_id: q0015
+  relevant_topics:
+  - multivariate normal distribution
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of multivariate normal distribution?
+- candidate_id: q0016
+  relevant_topics:
+  - other multivariate distributions
+  family: entry
+  pattern: What is {x}?
+  question_text: What is other multivariate distributions?
+- candidate_id: q0017
+  relevant_topics:
+  - other multivariate distributions
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does other multivariate distributions mean?
+- candidate_id: q0018
+  relevant_topics:
+  - other multivariate distributions
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does other multivariate distributions matter?
+- candidate_id: q0019
+  relevant_topics:
+  - other multivariate distributions
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use other multivariate distributions?
+- candidate_id: q0020
+  relevant_topics:
+  - other multivariate distributions
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of other multivariate distributions?
+- candidate_id: q0021
+  relevant_topics:
+  - principal component analysis
+  family: entry
+  pattern: What is {x}?
+  question_text: What is principal component analysis?
+- candidate_id: q0022
+  relevant_topics:
+  - principal component analysis
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does principal component analysis mean?
+- candidate_id: q0023
+  relevant_topics:
+  - principal component analysis
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does principal component analysis matter?
+- candidate_id: q0024
+  relevant_topics:
+  - principal component analysis
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use principal component analysis?
+- candidate_id: q0025
+  relevant_topics:
+  - principal component analysis
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of principal component analysis?
+- candidate_id: q0026
+  relevant_topics:
+  - multidimensional scaling
+  family: entry
+  pattern: What is {x}?
+  question_text: What is multidimensional scaling?
+- candidate_id: q0027
+  relevant_topics:
+  - multidimensional scaling
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does multidimensional scaling mean?
+- candidate_id: q0028
+  relevant_topics:
+  - multidimensional scaling
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does multidimensional scaling matter?
+- candidate_id: q0029
+  relevant_topics:
+  - multidimensional scaling
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use multidimensional scaling?
+- candidate_id: q0030
+  relevant_topics:
+  - multidimensional scaling
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of multidimensional scaling?
+- candidate_id: q0031
+  relevant_topics:
+  - reading
+  - plotting multivariate data
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is reading different from plotting multivariate data?
+- candidate_id: q0032
+  relevant_topics:
+  - reading
+  - multivariate normal distribution
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is reading different from multivariate normal distribution?
+- candidate_id: q0033
+  relevant_topics:
+  - reading
+  - other multivariate distributions
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is reading different from other multivariate distributions?
+- candidate_id: q0034
+  relevant_topics:
+  - reading
+  - principal component analysis
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is reading different from principal component analysis?
+- candidate_id: q0035
+  relevant_topics:
+  - reading
+  - multidimensional scaling
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is reading different from multidimensional scaling?
+- candidate_id: q0036
+  relevant_topics:
+  - plotting multivariate data
+  - multivariate normal distribution
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is plotting multivariate data different from multivariate normal
+    distribution?
+- candidate_id: q0037
+  relevant_topics:
+  - plotting multivariate data
+  - other multivariate distributions
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is plotting multivariate data different from other multivariate
+    distributions?
+- candidate_id: q0038
+  relevant_topics:
+  - plotting multivariate data
+  - principal component analysis
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is plotting multivariate data different from principal component
+    analysis?
+- candidate_id: q0039
+  relevant_topics:
+  - plotting multivariate data
+  - multidimensional scaling
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is plotting multivariate data different from multidimensional
+    scaling?
+- candidate_id: q0040
+  relevant_topics:
+  - multivariate normal distribution
+  - other multivariate distributions
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is multivariate normal distribution different from other multivariate
+    distributions?
+- candidate_id: q0041
+  relevant_topics:
+  - multivariate normal distribution
+  - principal component analysis
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is multivariate normal distribution different from principal
+    component analysis?
+- candidate_id: q0042
+  relevant_topics:
+  - multivariate normal distribution
+  - multidimensional scaling
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is multivariate normal distribution different from multidimensional
+    scaling?
+- candidate_id: q0043
+  relevant_topics:
+  - other multivariate distributions
+  - principal component analysis
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is other multivariate distributions different from principal
+    component analysis?
+- candidate_id: q0044
+  relevant_topics:
+  - other multivariate distributions
+  - multidimensional scaling
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is other multivariate distributions different from multidimensional
+    scaling?
+- candidate_id: q0045
+  relevant_topics:
+  - principal component analysis
+  - multidimensional scaling
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is principal component analysis different from multidimensional
+    scaling?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is reading?
+  final_text: What is reading?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does reading mean?
+  final_text: What does reading mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does reading matter?
+  final_text: Why does reading matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use reading?
+  final_text: Why does reading?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of reading?
+  final_text: What is a simple example of reading?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is plotting multivariate data?
+  final_text: What is plotting multivariate data?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does plotting multivariate data mean?
+  final_text: What does plotting multivariate data mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does plotting multivariate data matter?
+  final_text: Why does plotting multivariate data matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use plotting multivariate data?
+  final_text: Why does plotting multivariate data?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of plotting multivariate data?
+  final_text: What is a simple example of plotting multivariate data?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is multivariate normal distribution?
+  final_text: What is multivariate normal distribution?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does multivariate normal distribution mean?
+  final_text: What does multivariate normal distribution mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does multivariate normal distribution matter?
+  final_text: Why does multivariate normal distribution matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use multivariate normal distribution?
+  final_text: Why does multivariate normal distribution?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of multivariate normal distribution?
+  final_text: What is a simple example of multivariate normal distribution?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is other multivariate distributions?
+  final_text: What is other multivariate distributions?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does other multivariate distributions mean?
+  final_text: What does other multivariate distributions mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does other multivariate distributions matter?
+  final_text: Why does other multivariate distributions matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use other multivariate distributions?
+  final_text: Why does other multivariate distributions?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of other multivariate distributions?
+  final_text: What is a simple example of other multivariate distributions?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: What is principal component analysis?
+  final_text: What is principal component analysis?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: What does principal component analysis mean?
+  final_text: What does principal component analysis mean?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: Why does principal component analysis matter?
+  final_text: Why does principal component analysis matter?
+  reject_reason: null
+- candidate_id: q0024
+  status: repaired
+  original_text: Why do we use principal component analysis?
+  final_text: Why does principal component analysis?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: What is a simple example of principal component analysis?
+  final_text: What is a simple example of principal component analysis?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: What is multidimensional scaling?
+  final_text: What is multidimensional scaling?
+  reject_reason: null
+- candidate_id: q0027
+  status: accepted
+  original_text: What does multidimensional scaling mean?
+  final_text: What does multidimensional scaling mean?
+  reject_reason: null
+- candidate_id: q0028
+  status: accepted
+  original_text: Why does multidimensional scaling matter?
+  final_text: Why does multidimensional scaling matter?
+  reject_reason: null
+- candidate_id: q0029
+  status: repaired
+  original_text: Why do we use multidimensional scaling?
+  final_text: Why does multidimensional scaling?
+  reject_reason: null
+- candidate_id: q0030
+  status: accepted
+  original_text: What is a simple example of multidimensional scaling?
+  final_text: What is a simple example of multidimensional scaling?
+  reject_reason: null
+- candidate_id: q0031
+  status: accepted
+  original_text: How is reading different from plotting multivariate data?
+  final_text: How is reading different from plotting multivariate data?
+  reject_reason: null
+- candidate_id: q0032
+  status: accepted
+  original_text: How is reading different from multivariate normal distribution?
+  final_text: How is reading different from multivariate normal distribution?
+  reject_reason: null
+- candidate_id: q0033
+  status: accepted
+  original_text: How is reading different from other multivariate distributions?
+  final_text: How is reading different from other multivariate distributions?
+  reject_reason: null
+- candidate_id: q0034
+  status: accepted
+  original_text: How is reading different from principal component analysis?
+  final_text: How is reading different from principal component analysis?
+  reject_reason: null
+- candidate_id: q0035
+  status: accepted
+  original_text: How is reading different from multidimensional scaling?
+  final_text: How is reading different from multidimensional scaling?
+  reject_reason: null
+- candidate_id: q0036
+  status: accepted
+  original_text: How is plotting multivariate data different from multivariate normal
+    distribution?
+  final_text: How is plotting multivariate data different from multivariate normal
+    distribution?
+  reject_reason: null
+- candidate_id: q0037
+  status: accepted
+  original_text: How is plotting multivariate data different from other multivariate
+    distributions?
+  final_text: How is plotting multivariate data different from other multivariate
+    distributions?
+  reject_reason: null
+- candidate_id: q0038
+  status: accepted
+  original_text: How is plotting multivariate data different from principal component
+    analysis?
+  final_text: How is plotting multivariate data different from principal component
+    analysis?
+  reject_reason: null
+- candidate_id: q0039
+  status: accepted
+  original_text: How is plotting multivariate data different from multidimensional
+    scaling?
+  final_text: How is plotting multivariate data different from multidimensional scaling?
+  reject_reason: null
+- candidate_id: q0040
+  status: accepted
+  original_text: How is multivariate normal distribution different from other multivariate
+    distributions?
+  final_text: How is multivariate normal distribution different from other multivariate
+    distributions?
+  reject_reason: null
+- candidate_id: q0041
+  status: accepted
+  original_text: How is multivariate normal distribution different from principal
+    component analysis?
+  final_text: How is multivariate normal distribution different from principal component
+    analysis?
+  reject_reason: null
+- candidate_id: q0042
+  status: accepted
+  original_text: How is multivariate normal distribution different from multidimensional
+    scaling?
+  final_text: How is multivariate normal distribution different from multidimensional
+    scaling?
+  reject_reason: null
+- candidate_id: q0043
+  status: accepted
+  original_text: How is other multivariate distributions different from principal
+    component analysis?
+  final_text: How is other multivariate distributions different from principal component
+    analysis?
+  reject_reason: null
+- candidate_id: q0044
+  status: accepted
+  original_text: How is other multivariate distributions different from multidimensional
+    scaling?
+  final_text: How is other multivariate distributions different from multidimensional
+    scaling?
+  reject_reason: null
+- candidate_id: q0045
+  status: accepted
+  original_text: How is principal component analysis different from multidimensional
+    scaling?
+  final_text: How is principal component analysis different from multidimensional
+    scaling?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is reading?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does reading mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does reading matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does reading?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of reading?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is plotting multivariate data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does plotting multivariate data mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does plotting multivariate data matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does plotting multivariate data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of plotting multivariate data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is multivariate normal distribution?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does multivariate normal distribution mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does multivariate normal distribution matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does multivariate normal distribution?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of multivariate normal distribution?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is other multivariate distributions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does other multivariate distributions mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does other multivariate distributions matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does other multivariate distributions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of other multivariate distributions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: What is principal component analysis?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: What does principal component analysis mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: Why does principal component analysis matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: Why does principal component analysis?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: What is a simple example of principal component analysis?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: What is multidimensional scaling?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0027
+  question_text: What does multidimensional scaling mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0028
+  question_text: Why does multidimensional scaling matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0029
+  question_text: Why does multidimensional scaling?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0030
+  question_text: What is a simple example of multidimensional scaling?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0031
+  question_text: How is reading different from plotting multivariate data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0032
+  question_text: How is reading different from multivariate normal distribution?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0033
+  question_text: How is reading different from other multivariate distributions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0034
+  question_text: How is reading different from principal component analysis?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0035
+  question_text: How is reading different from multidimensional scaling?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0036
+  question_text: How is plotting multivariate data different from multivariate normal
+    distribution?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0037
+  question_text: How is plotting multivariate data different from other multivariate
+    distributions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0038
+  question_text: How is plotting multivariate data different from principal component
+    analysis?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0039
+  question_text: How is plotting multivariate data different from multidimensional
+    scaling?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0040
+  question_text: How is multivariate normal distribution different from other multivariate
+    distributions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0041
+  question_text: How is multivariate normal distribution different from principal
+    component analysis?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0042
+  question_text: How is multivariate normal distribution different from multidimensional
+    scaling?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0043
+  question_text: How is other multivariate distributions different from principal
+    component analysis?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0044
+  question_text: How is other multivariate distributions different from multidimensional
+    scaling?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0045
+  question_text: How is principal component analysis different from multidimensional
+    scaling?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - reading
+  question_text: What is reading?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - reading
+  question_text: What does reading mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - reading
+  question_text: Why does reading matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - reading
+  question_text: Why does reading?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - reading
+  question_text: What is a simple example of reading?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - plotting multivariate data
+  question_text: What is plotting multivariate data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - plotting multivariate data
+  question_text: What does plotting multivariate data mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - plotting multivariate data
+  question_text: Why does plotting multivariate data matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - plotting multivariate data
+  question_text: Why does plotting multivariate data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - plotting multivariate data
+  question_text: What is a simple example of plotting multivariate data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - multivariate normal distribution
+  question_text: What is multivariate normal distribution?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - multivariate normal distribution
+  question_text: What does multivariate normal distribution mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - multivariate normal distribution
+  question_text: Why does multivariate normal distribution matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - multivariate normal distribution
+  question_text: Why does multivariate normal distribution?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - multivariate normal distribution
+  question_text: What is a simple example of multivariate normal distribution?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - other multivariate distributions
+  question_text: What is other multivariate distributions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - other multivariate distributions
+  question_text: What does other multivariate distributions mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - other multivariate distributions
+  question_text: Why does other multivariate distributions matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - other multivariate distributions
+  question_text: Why does other multivariate distributions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - other multivariate distributions
+  question_text: What is a simple example of other multivariate distributions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - principal component analysis
+  question_text: What is principal component analysis?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - principal component analysis
+  question_text: What does principal component analysis mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - principal component analysis
+  question_text: Why does principal component analysis matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - principal component analysis
+  question_text: Why does principal component analysis?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - principal component analysis
+  question_text: What is a simple example of principal component analysis?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - multidimensional scaling
+  question_text: What is multidimensional scaling?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000027
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - multidimensional scaling
+  question_text: What does multidimensional scaling mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000028
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - multidimensional scaling
+  question_text: Why does multidimensional scaling matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000029
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - multidimensional scaling
+  question_text: Why does multidimensional scaling?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000030
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - multidimensional scaling
+  question_text: What is a simple example of multidimensional scaling?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000031
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - reading
+  - plotting multivariate data
+  question_text: How is reading different from plotting multivariate data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000032
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - reading
+  - multivariate normal distribution
+  question_text: How is reading different from multivariate normal distribution?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000033
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - reading
+  - other multivariate distributions
+  question_text: How is reading different from other multivariate distributions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000034
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - reading
+  - principal component analysis
+  question_text: How is reading different from principal component analysis?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000035
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - reading
+  - multidimensional scaling
+  question_text: How is reading different from multidimensional scaling?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000036
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - plotting multivariate data
+  - multivariate normal distribution
+  question_text: How is plotting multivariate data different from multivariate normal
+    distribution?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000037
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - plotting multivariate data
+  - other multivariate distributions
+  question_text: How is plotting multivariate data different from other multivariate
+    distributions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000038
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - plotting multivariate data
+  - principal component analysis
+  question_text: How is plotting multivariate data different from principal component
+    analysis?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000039
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - plotting multivariate data
+  - multidimensional scaling
+  question_text: How is plotting multivariate data different from multidimensional
+    scaling?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000040
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - multivariate normal distribution
+  - other multivariate distributions
+  question_text: How is multivariate normal distribution different from other multivariate
+    distributions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000041
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - multivariate normal distribution
+  - principal component analysis
+  question_text: How is multivariate normal distribution different from principal
+    component analysis?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000042
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - multivariate normal distribution
+  - multidimensional scaling
+  question_text: How is multivariate normal distribution different from multidimensional
+    scaling?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000043
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - other multivariate distributions
+  - principal component analysis
+  question_text: How is other multivariate distributions different from principal
+    component analysis?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000044
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - other multivariate distributions
+  - multidimensional scaling
+  question_text: How is other multivariate distributions different from multidimensional
+    scaling?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000045
+  course:
+    course_id: '24653'
+    title: Multivariate Probability Distributions in R
+  relevant_topics:
+  - principal component analysis
+  - multidimensional scaling
+  question_text: How is principal component analysis different from multidimensional
+    scaling?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 6
+  canonical_topic_count: 6
+  candidate_count: 45
+  accepted_count: 45
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 45

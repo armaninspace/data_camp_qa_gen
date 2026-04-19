@@ -1,0 +1,2086 @@
+course_id: '24518'
+title: Feature Engineering for NLP in Python
+normalized_course:
+  course_id: '24518'
+  title: Feature Engineering for NLP in Python
+  provider: DataCamp
+  summary: 'Learn techniques to extract useful information from text and process them
+
+    into a format suitable for machine learning.'
+  overview: 'Basic features and readability scores
+
+
+    Learn to compute basic features such as number of words, number of
+
+    characters, average word length and number of special characters (such as
+
+    Twitter hashtags and mentions). You will also learn to compute readability
+
+    scores and determine the amount of education required to comprehend a piece
+
+    of text.
+
+
+    Text preprocessing, POS tagging and NER
+
+
+    In this chapter, you will learn about tokenization and lemmatization. You
+
+    will then learn how to perform text cleaning, part-of-speech tagging, and
+
+    named entity recognition using the spaCy library. Upon mastering these
+
+    concepts, you will proceed to make the Gettysburg address machine-friendly,
+
+    analyze noun usage in fake news, and identify people mentioned in a
+
+    TechCrunch article.
+
+
+    N-Gram models
+
+
+    Learn about n-gram modeling and use it to perform sentiment analysis on
+
+    movie reviews.
+
+
+    TF-IDF and similarity scores
+
+
+    Learn how to compute tf-idf weights and the cosine similarity score between
+
+    two vectors. You will use these concepts to build a movie and a TED Talk
+
+    recommender. Finally, you will also learn about word embeddings and using
+
+    word vector representations, you will compute similarities between various
+
+    Pink Floyd songs.'
+  chapters:
+  - chapter_index: 1
+    title: Basic features and readability scores
+    summary: 'Learn to compute basic features such as number of words, number of
+
+      characters, average word length and number of special characters
+
+      (such as Twitter hashtags and mentions). You will also learn to
+
+      compute readability scores and determine the amount of education
+
+      required to comprehend a piece of text.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 2
+    title: Text preprocessing, POS tagging and NER
+    summary: 'In this chapter, you will learn about tokenization and
+
+      lemmatization. You will then learn how to perform text cleaning,
+
+      part-of-speech tagging, and named entity recognition using the spaCy
+
+      library. Upon mastering these concepts, you will proceed to make the
+
+      Gettysburg address machine-friendly, analyze noun usage in fake
+
+      news, and identify people mentioned in a TechCrunch article.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 3
+    title: N-Gram models
+    summary: 'Learn about n-gram modeling and use it to perform sentiment analysis
+
+      on movie reviews.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 4
+    title: TF-IDF and similarity scores
+    summary: 'Learn how to compute tf-idf weights and the cosine similarity score
+
+      between two vectors. You will use these concepts to build a movie
+
+      and a TED Talk recommender. Finally, you will also learn about word
+
+      embeddings and using word vector representations, you will compute
+
+      similarities between various Pink Floyd songs.'
+    source: syllabus
+    confidence: 1.0
+  metadata:
+    level: Intermediate
+    duration_hours: 4 hours
+    subjects:
+    - Python
+    - Machine Learning
+    - Named Entity Recognition
+    - Feature Engineering
+    - Text Preprocessing
+    - TF-IDF
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: basic features
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: basic features'
+  evidence:
+  - source: syllabus
+    text: Basic features and readability scores
+  confidence: 0.55
+- topic_id: t002
+  label: readability scores
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: readability scores'
+  evidence:
+  - source: syllabus
+    text: Basic features and readability scores
+  confidence: 0.55
+- topic_id: t003
+  label: text preprocessing, pos tagging
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: text preprocessing, pos tagging'
+  evidence:
+  - source: syllabus
+    text: Text preprocessing, POS tagging and NER
+  confidence: 0.55
+- topic_id: t004
+  label: ner
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: ner'
+  evidence:
+  - source: syllabus
+    text: Text preprocessing, POS tagging and NER
+  confidence: 0.55
+- topic_id: t005
+  label: n-gram models
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: n-gram models'
+  evidence:
+  - source: syllabus
+    text: N-Gram models
+  confidence: 0.45
+- topic_id: t006
+  label: tf-idf
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: tf-idf'
+  evidence:
+  - source: syllabus
+    text: TF-IDF and similarity scores
+  confidence: 0.55
+- topic_id: t007
+  label: similarity scores
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: similarity scores'
+  evidence:
+  - source: syllabus
+    text: TF-IDF and similarity scores
+  confidence: 0.55
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: basic features
+  aliases:
+  - basic features
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: readability scores
+  aliases:
+  - readability scores
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: text preprocessing, pos tagging
+  aliases:
+  - text preprocessing, pos tagging
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: ner
+  aliases:
+  - ner
+  member_topic_ids:
+  - t004
+  topic_type: concept
+- canonical_topic_id: ct_005
+  label: n-gram model
+  aliases:
+  - n-gram models
+  member_topic_ids:
+  - t005
+  topic_type: concept
+- canonical_topic_id: ct_006
+  label: tf-idf
+  aliases:
+  - tf-idf
+  member_topic_ids:
+  - t006
+  topic_type: concept
+- canonical_topic_id: ct_007
+  label: similarity scores
+  aliases:
+  - similarity scores
+  member_topic_ids:
+  - t007
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - basic features
+  family: entry
+  pattern: What is {x}?
+  question_text: What is basic features?
+- candidate_id: q0002
+  relevant_topics:
+  - basic features
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does basic features mean?
+- candidate_id: q0003
+  relevant_topics:
+  - basic features
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does basic features matter?
+- candidate_id: q0004
+  relevant_topics:
+  - basic features
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use basic features?
+- candidate_id: q0005
+  relevant_topics:
+  - basic features
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of basic features?
+- candidate_id: q0006
+  relevant_topics:
+  - readability scores
+  family: entry
+  pattern: What is {x}?
+  question_text: What is readability scores?
+- candidate_id: q0007
+  relevant_topics:
+  - readability scores
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does readability scores mean?
+- candidate_id: q0008
+  relevant_topics:
+  - readability scores
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does readability scores matter?
+- candidate_id: q0009
+  relevant_topics:
+  - readability scores
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use readability scores?
+- candidate_id: q0010
+  relevant_topics:
+  - readability scores
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of readability scores?
+- candidate_id: q0011
+  relevant_topics:
+  - text preprocessing, pos tagging
+  family: entry
+  pattern: What is {x}?
+  question_text: What is text preprocessing, pos tagging?
+- candidate_id: q0012
+  relevant_topics:
+  - text preprocessing, pos tagging
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does text preprocessing, pos tagging mean?
+- candidate_id: q0013
+  relevant_topics:
+  - text preprocessing, pos tagging
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does text preprocessing, pos tagging matter?
+- candidate_id: q0014
+  relevant_topics:
+  - text preprocessing, pos tagging
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use text preprocessing, pos tagging?
+- candidate_id: q0015
+  relevant_topics:
+  - text preprocessing, pos tagging
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of text preprocessing, pos tagging?
+- candidate_id: q0016
+  relevant_topics:
+  - ner
+  family: entry
+  pattern: What is {x}?
+  question_text: What is ner?
+- candidate_id: q0017
+  relevant_topics:
+  - ner
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does ner mean?
+- candidate_id: q0018
+  relevant_topics:
+  - ner
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does ner matter?
+- candidate_id: q0019
+  relevant_topics:
+  - ner
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use ner?
+- candidate_id: q0020
+  relevant_topics:
+  - ner
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of ner?
+- candidate_id: q0021
+  relevant_topics:
+  - n-gram model
+  family: entry
+  pattern: What is {x}?
+  question_text: What is n-gram model?
+- candidate_id: q0022
+  relevant_topics:
+  - n-gram model
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does n-gram model mean?
+- candidate_id: q0023
+  relevant_topics:
+  - n-gram model
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does n-gram model matter?
+- candidate_id: q0024
+  relevant_topics:
+  - n-gram model
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use n-gram model?
+- candidate_id: q0025
+  relevant_topics:
+  - n-gram model
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of n-gram model?
+- candidate_id: q0026
+  relevant_topics:
+  - tf-idf
+  family: entry
+  pattern: What is {x}?
+  question_text: What is tf-idf?
+- candidate_id: q0027
+  relevant_topics:
+  - tf-idf
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does tf-idf mean?
+- candidate_id: q0028
+  relevant_topics:
+  - tf-idf
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does tf-idf matter?
+- candidate_id: q0029
+  relevant_topics:
+  - tf-idf
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use tf-idf?
+- candidate_id: q0030
+  relevant_topics:
+  - tf-idf
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of tf-idf?
+- candidate_id: q0031
+  relevant_topics:
+  - similarity scores
+  family: entry
+  pattern: What is {x}?
+  question_text: What is similarity scores?
+- candidate_id: q0032
+  relevant_topics:
+  - similarity scores
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does similarity scores mean?
+- candidate_id: q0033
+  relevant_topics:
+  - similarity scores
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does similarity scores matter?
+- candidate_id: q0034
+  relevant_topics:
+  - similarity scores
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use similarity scores?
+- candidate_id: q0035
+  relevant_topics:
+  - similarity scores
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of similarity scores?
+- candidate_id: q0036
+  relevant_topics:
+  - basic features
+  - readability scores
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is basic features different from readability scores?
+- candidate_id: q0037
+  relevant_topics:
+  - basic features
+  - text preprocessing, pos tagging
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is basic features different from text preprocessing, pos tagging?
+- candidate_id: q0038
+  relevant_topics:
+  - basic features
+  - ner
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is basic features different from ner?
+- candidate_id: q0039
+  relevant_topics:
+  - basic features
+  - n-gram model
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is basic features different from n-gram model?
+- candidate_id: q0040
+  relevant_topics:
+  - basic features
+  - tf-idf
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is basic features different from tf-idf?
+- candidate_id: q0041
+  relevant_topics:
+  - basic features
+  - similarity scores
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is basic features different from similarity scores?
+- candidate_id: q0042
+  relevant_topics:
+  - readability scores
+  - text preprocessing, pos tagging
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is readability scores different from text preprocessing, pos
+    tagging?
+- candidate_id: q0043
+  relevant_topics:
+  - readability scores
+  - ner
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is readability scores different from ner?
+- candidate_id: q0044
+  relevant_topics:
+  - readability scores
+  - n-gram model
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is readability scores different from n-gram model?
+- candidate_id: q0045
+  relevant_topics:
+  - readability scores
+  - tf-idf
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is readability scores different from tf-idf?
+- candidate_id: q0046
+  relevant_topics:
+  - readability scores
+  - similarity scores
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is readability scores different from similarity scores?
+- candidate_id: q0047
+  relevant_topics:
+  - text preprocessing, pos tagging
+  - ner
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is text preprocessing, pos tagging different from ner?
+- candidate_id: q0048
+  relevant_topics:
+  - text preprocessing, pos tagging
+  - n-gram model
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is text preprocessing, pos tagging different from n-gram model?
+- candidate_id: q0049
+  relevant_topics:
+  - text preprocessing, pos tagging
+  - tf-idf
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is text preprocessing, pos tagging different from tf-idf?
+- candidate_id: q0050
+  relevant_topics:
+  - text preprocessing, pos tagging
+  - similarity scores
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is text preprocessing, pos tagging different from similarity
+    scores?
+- candidate_id: q0051
+  relevant_topics:
+  - ner
+  - n-gram model
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is ner different from n-gram model?
+- candidate_id: q0052
+  relevant_topics:
+  - ner
+  - tf-idf
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is ner different from tf-idf?
+- candidate_id: q0053
+  relevant_topics:
+  - ner
+  - similarity scores
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is ner different from similarity scores?
+- candidate_id: q0054
+  relevant_topics:
+  - n-gram model
+  - tf-idf
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is n-gram model different from tf-idf?
+- candidate_id: q0055
+  relevant_topics:
+  - n-gram model
+  - similarity scores
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is n-gram model different from similarity scores?
+- candidate_id: q0056
+  relevant_topics:
+  - tf-idf
+  - similarity scores
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is tf-idf different from similarity scores?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is basic features?
+  final_text: What is basic features?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does basic features mean?
+  final_text: What does basic features mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does basic features matter?
+  final_text: Why does basic features matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use basic features?
+  final_text: Why does basic features?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of basic features?
+  final_text: What is a simple example of basic features?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is readability scores?
+  final_text: What is readability scores?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does readability scores mean?
+  final_text: What does readability scores mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does readability scores matter?
+  final_text: Why does readability scores matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use readability scores?
+  final_text: Why does readability scores?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of readability scores?
+  final_text: What is a simple example of readability scores?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is text preprocessing, pos tagging?
+  final_text: What is text preprocessing, pos tagging?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does text preprocessing, pos tagging mean?
+  final_text: What does text preprocessing, pos tagging mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does text preprocessing, pos tagging matter?
+  final_text: Why does text preprocessing, pos tagging matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use text preprocessing, pos tagging?
+  final_text: Why does text preprocessing, pos tagging?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of text preprocessing, pos tagging?
+  final_text: What is a simple example of text preprocessing, pos tagging?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is ner?
+  final_text: What is ner?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does ner mean?
+  final_text: What does ner mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does ner matter?
+  final_text: Why does ner matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use ner?
+  final_text: Why does ner?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of ner?
+  final_text: What is a simple example of ner?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: What is n-gram model?
+  final_text: What is n-gram model?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: What does n-gram model mean?
+  final_text: What does n-gram model mean?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: Why does n-gram model matter?
+  final_text: Why does n-gram model matter?
+  reject_reason: null
+- candidate_id: q0024
+  status: repaired
+  original_text: Why do we use n-gram model?
+  final_text: Why does n-gram model?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: What is a simple example of n-gram model?
+  final_text: What is a simple example of n-gram model?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: What is tf-idf?
+  final_text: What is tf-idf?
+  reject_reason: null
+- candidate_id: q0027
+  status: accepted
+  original_text: What does tf-idf mean?
+  final_text: What does tf-idf mean?
+  reject_reason: null
+- candidate_id: q0028
+  status: accepted
+  original_text: Why does tf-idf matter?
+  final_text: Why does tf-idf matter?
+  reject_reason: null
+- candidate_id: q0029
+  status: repaired
+  original_text: Why do we use tf-idf?
+  final_text: Why does tf-idf?
+  reject_reason: null
+- candidate_id: q0030
+  status: accepted
+  original_text: What is a simple example of tf-idf?
+  final_text: What is a simple example of tf-idf?
+  reject_reason: null
+- candidate_id: q0031
+  status: accepted
+  original_text: What is similarity scores?
+  final_text: What is similarity scores?
+  reject_reason: null
+- candidate_id: q0032
+  status: accepted
+  original_text: What does similarity scores mean?
+  final_text: What does similarity scores mean?
+  reject_reason: null
+- candidate_id: q0033
+  status: accepted
+  original_text: Why does similarity scores matter?
+  final_text: Why does similarity scores matter?
+  reject_reason: null
+- candidate_id: q0034
+  status: repaired
+  original_text: Why do we use similarity scores?
+  final_text: Why does similarity scores?
+  reject_reason: null
+- candidate_id: q0035
+  status: accepted
+  original_text: What is a simple example of similarity scores?
+  final_text: What is a simple example of similarity scores?
+  reject_reason: null
+- candidate_id: q0036
+  status: accepted
+  original_text: How is basic features different from readability scores?
+  final_text: How is basic features different from readability scores?
+  reject_reason: null
+- candidate_id: q0037
+  status: accepted
+  original_text: How is basic features different from text preprocessing, pos tagging?
+  final_text: How is basic features different from text preprocessing, pos tagging?
+  reject_reason: null
+- candidate_id: q0038
+  status: accepted
+  original_text: How is basic features different from ner?
+  final_text: How is basic features different from ner?
+  reject_reason: null
+- candidate_id: q0039
+  status: accepted
+  original_text: How is basic features different from n-gram model?
+  final_text: How is basic features different from n-gram model?
+  reject_reason: null
+- candidate_id: q0040
+  status: accepted
+  original_text: How is basic features different from tf-idf?
+  final_text: How is basic features different from tf-idf?
+  reject_reason: null
+- candidate_id: q0041
+  status: accepted
+  original_text: How is basic features different from similarity scores?
+  final_text: How is basic features different from similarity scores?
+  reject_reason: null
+- candidate_id: q0042
+  status: accepted
+  original_text: How is readability scores different from text preprocessing, pos
+    tagging?
+  final_text: How is readability scores different from text preprocessing, pos tagging?
+  reject_reason: null
+- candidate_id: q0043
+  status: accepted
+  original_text: How is readability scores different from ner?
+  final_text: How is readability scores different from ner?
+  reject_reason: null
+- candidate_id: q0044
+  status: accepted
+  original_text: How is readability scores different from n-gram model?
+  final_text: How is readability scores different from n-gram model?
+  reject_reason: null
+- candidate_id: q0045
+  status: accepted
+  original_text: How is readability scores different from tf-idf?
+  final_text: How is readability scores different from tf-idf?
+  reject_reason: null
+- candidate_id: q0046
+  status: accepted
+  original_text: How is readability scores different from similarity scores?
+  final_text: How is readability scores different from similarity scores?
+  reject_reason: null
+- candidate_id: q0047
+  status: accepted
+  original_text: How is text preprocessing, pos tagging different from ner?
+  final_text: How is text preprocessing, pos tagging different from ner?
+  reject_reason: null
+- candidate_id: q0048
+  status: accepted
+  original_text: How is text preprocessing, pos tagging different from n-gram model?
+  final_text: How is text preprocessing, pos tagging different from n-gram model?
+  reject_reason: null
+- candidate_id: q0049
+  status: accepted
+  original_text: How is text preprocessing, pos tagging different from tf-idf?
+  final_text: How is text preprocessing, pos tagging different from tf-idf?
+  reject_reason: null
+- candidate_id: q0050
+  status: accepted
+  original_text: How is text preprocessing, pos tagging different from similarity
+    scores?
+  final_text: How is text preprocessing, pos tagging different from similarity scores?
+  reject_reason: null
+- candidate_id: q0051
+  status: accepted
+  original_text: How is ner different from n-gram model?
+  final_text: How is ner different from n-gram model?
+  reject_reason: null
+- candidate_id: q0052
+  status: accepted
+  original_text: How is ner different from tf-idf?
+  final_text: How is ner different from tf-idf?
+  reject_reason: null
+- candidate_id: q0053
+  status: accepted
+  original_text: How is ner different from similarity scores?
+  final_text: How is ner different from similarity scores?
+  reject_reason: null
+- candidate_id: q0054
+  status: accepted
+  original_text: How is n-gram model different from tf-idf?
+  final_text: How is n-gram model different from tf-idf?
+  reject_reason: null
+- candidate_id: q0055
+  status: accepted
+  original_text: How is n-gram model different from similarity scores?
+  final_text: How is n-gram model different from similarity scores?
+  reject_reason: null
+- candidate_id: q0056
+  status: accepted
+  original_text: How is tf-idf different from similarity scores?
+  final_text: How is tf-idf different from similarity scores?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is basic features?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does basic features mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does basic features matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does basic features?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of basic features?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is readability scores?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does readability scores mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does readability scores matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does readability scores?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of readability scores?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is text preprocessing, pos tagging?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does text preprocessing, pos tagging mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does text preprocessing, pos tagging matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does text preprocessing, pos tagging?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of text preprocessing, pos tagging?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is ner?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does ner mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does ner matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does ner?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of ner?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: What is n-gram model?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: What does n-gram model mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: Why does n-gram model matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: Why does n-gram model?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: What is a simple example of n-gram model?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: What is tf-idf?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0027
+  question_text: What does tf-idf mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0028
+  question_text: Why does tf-idf matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0029
+  question_text: Why does tf-idf?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0030
+  question_text: What is a simple example of tf-idf?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0031
+  question_text: What is similarity scores?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0032
+  question_text: What does similarity scores mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0033
+  question_text: Why does similarity scores matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0034
+  question_text: Why does similarity scores?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0035
+  question_text: What is a simple example of similarity scores?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0036
+  question_text: How is basic features different from readability scores?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0037
+  question_text: How is basic features different from text preprocessing, pos tagging?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0038
+  question_text: How is basic features different from ner?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0039
+  question_text: How is basic features different from n-gram model?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0040
+  question_text: How is basic features different from tf-idf?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0041
+  question_text: How is basic features different from similarity scores?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0042
+  question_text: How is readability scores different from text preprocessing, pos
+    tagging?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0043
+  question_text: How is readability scores different from ner?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0044
+  question_text: How is readability scores different from n-gram model?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0045
+  question_text: How is readability scores different from tf-idf?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0046
+  question_text: How is readability scores different from similarity scores?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0047
+  question_text: How is text preprocessing, pos tagging different from ner?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0048
+  question_text: How is text preprocessing, pos tagging different from n-gram model?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0049
+  question_text: How is text preprocessing, pos tagging different from tf-idf?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0050
+  question_text: How is text preprocessing, pos tagging different from similarity
+    scores?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0051
+  question_text: How is ner different from n-gram model?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0052
+  question_text: How is ner different from tf-idf?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0053
+  question_text: How is ner different from similarity scores?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0054
+  question_text: How is n-gram model different from tf-idf?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0055
+  question_text: How is n-gram model different from similarity scores?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0056
+  question_text: How is tf-idf different from similarity scores?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - basic features
+  question_text: What is basic features?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - basic features
+  question_text: What does basic features mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - basic features
+  question_text: Why does basic features matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - basic features
+  question_text: Why does basic features?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - basic features
+  question_text: What is a simple example of basic features?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - readability scores
+  question_text: What is readability scores?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - readability scores
+  question_text: What does readability scores mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - readability scores
+  question_text: Why does readability scores matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - readability scores
+  question_text: Why does readability scores?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - readability scores
+  question_text: What is a simple example of readability scores?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - text preprocessing, pos tagging
+  question_text: What is text preprocessing, pos tagging?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - text preprocessing, pos tagging
+  question_text: What does text preprocessing, pos tagging mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - text preprocessing, pos tagging
+  question_text: Why does text preprocessing, pos tagging matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - text preprocessing, pos tagging
+  question_text: Why does text preprocessing, pos tagging?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - text preprocessing, pos tagging
+  question_text: What is a simple example of text preprocessing, pos tagging?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - ner
+  question_text: What is ner?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - ner
+  question_text: What does ner mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - ner
+  question_text: Why does ner matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - ner
+  question_text: Why does ner?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - ner
+  question_text: What is a simple example of ner?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - n-gram model
+  question_text: What is n-gram model?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - n-gram model
+  question_text: What does n-gram model mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - n-gram model
+  question_text: Why does n-gram model matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - n-gram model
+  question_text: Why does n-gram model?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - n-gram model
+  question_text: What is a simple example of n-gram model?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - tf-idf
+  question_text: What is tf-idf?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000027
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - tf-idf
+  question_text: What does tf-idf mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000028
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - tf-idf
+  question_text: Why does tf-idf matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000029
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - tf-idf
+  question_text: Why does tf-idf?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000030
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - tf-idf
+  question_text: What is a simple example of tf-idf?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000031
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - similarity scores
+  question_text: What is similarity scores?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000032
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - similarity scores
+  question_text: What does similarity scores mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000033
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - similarity scores
+  question_text: Why does similarity scores matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000034
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - similarity scores
+  question_text: Why does similarity scores?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000035
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - similarity scores
+  question_text: What is a simple example of similarity scores?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000036
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - basic features
+  - readability scores
+  question_text: How is basic features different from readability scores?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000037
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - basic features
+  - text preprocessing, pos tagging
+  question_text: How is basic features different from text preprocessing, pos tagging?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000038
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - basic features
+  - ner
+  question_text: How is basic features different from ner?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000039
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - basic features
+  - n-gram model
+  question_text: How is basic features different from n-gram model?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000040
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - basic features
+  - tf-idf
+  question_text: How is basic features different from tf-idf?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000041
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - basic features
+  - similarity scores
+  question_text: How is basic features different from similarity scores?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000042
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - readability scores
+  - text preprocessing, pos tagging
+  question_text: How is readability scores different from text preprocessing, pos
+    tagging?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000043
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - readability scores
+  - ner
+  question_text: How is readability scores different from ner?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000044
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - readability scores
+  - n-gram model
+  question_text: How is readability scores different from n-gram model?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000045
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - readability scores
+  - tf-idf
+  question_text: How is readability scores different from tf-idf?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000046
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - readability scores
+  - similarity scores
+  question_text: How is readability scores different from similarity scores?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000047
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - text preprocessing, pos tagging
+  - ner
+  question_text: How is text preprocessing, pos tagging different from ner?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000048
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - text preprocessing, pos tagging
+  - n-gram model
+  question_text: How is text preprocessing, pos tagging different from n-gram model?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000049
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - text preprocessing, pos tagging
+  - tf-idf
+  question_text: How is text preprocessing, pos tagging different from tf-idf?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000050
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - text preprocessing, pos tagging
+  - similarity scores
+  question_text: How is text preprocessing, pos tagging different from similarity
+    scores?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000051
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - ner
+  - n-gram model
+  question_text: How is ner different from n-gram model?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000052
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - ner
+  - tf-idf
+  question_text: How is ner different from tf-idf?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000053
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - ner
+  - similarity scores
+  question_text: How is ner different from similarity scores?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000054
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - n-gram model
+  - tf-idf
+  question_text: How is n-gram model different from tf-idf?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000055
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - n-gram model
+  - similarity scores
+  question_text: How is n-gram model different from similarity scores?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000056
+  course:
+    course_id: '24518'
+    title: Feature Engineering for NLP in Python
+  relevant_topics:
+  - tf-idf
+  - similarity scores
+  question_text: How is tf-idf different from similarity scores?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 7
+  canonical_topic_count: 7
+  candidate_count: 56
+  accepted_count: 56
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 56

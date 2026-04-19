@@ -1,0 +1,2236 @@
+course_id: '24474'
+title: Feature Engineering for Machine Learning in Python
+normalized_course:
+  course_id: '24474'
+  title: Feature Engineering for Machine Learning in Python
+  provider: DataCamp
+  summary: 'Create new features to improve the performance of your Machine Learning
+
+    models.'
+  overview: 'Creating Features
+
+
+    In this chapter, you will explore what feature engineering is and how to get
+
+    started with applying it to real-world data. You will load, explore and
+
+    visualize a survey response dataset, and in doing so you will learn about
+
+    its underlying data types and why they have an influence on how you should
+
+    engineer your features. Using the pandas package you will create new
+
+    features from both categorical and continuous columns.
+
+
+    Dealing with Messy Data
+
+
+    This chapter introduces you to the reality of messy and incomplete data. You
+
+    will learn how to find where your data has missing values and explore
+
+    multiple approaches on how to deal with them. You will also use string
+
+    manipulation techniques to deal with unwanted characters in your dataset.
+
+
+    Conforming to Statistical Assumptions
+
+
+    In this chapter, you will focus on analyzing the underlying distribution of
+
+    your data and whether it will impact your machine learning pipeline. You
+
+    will learn how to deal with skewed data and situations where outliers may be
+
+    negatively impacting your analysis.
+
+
+    Dealing with Text Data
+
+
+    Finally, in this chapter, you will work with unstructured text data,
+
+    understanding ways in which you can engineer columnar features out of a text
+
+    corpus. You will compare how different approaches may impact how much
+
+    context is being extracted from a text, and how to balance the need for
+
+    context, without too many features being created.'
+  chapters:
+  - chapter_index: 1
+    title: Creating Features
+    summary: 'In this chapter, you will explore what feature engineering is and
+
+      how to get started with applying it to real-world data. You will
+
+      load, explore and visualize a survey response dataset, and in doing
+
+      so you will learn about its underlying data types and why they have
+
+      an influence on how you should engineer your features. Using the
+
+      pandas package you will create new features from both categorical
+
+      and continuous columns.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 2
+    title: Dealing with Messy Data
+    summary: 'This chapter introduces you to the reality of messy and incomplete
+
+      data. You will learn how to find where your data has missing values
+
+      and explore multiple approaches on how to deal with them. You will
+
+      also use string manipulation techniques to deal with unwanted
+
+      characters in your dataset.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 3
+    title: Conforming to Statistical Assumptions
+    summary: 'In this chapter, you will focus on analyzing the underlying
+
+      distribution of your data and whether it will impact your machine
+
+      learning pipeline. You will learn how to deal with skewed data and
+
+      situations where outliers may be negatively impacting your analysis.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 4
+    title: Dealing with Text Data
+    summary: 'Finally, in this chapter, you will work with unstructured text data,
+
+      understanding ways in which you can engineer columnar features out
+
+      of a text corpus. You will compare how different approaches may
+
+      impact how much context is being extracted from a text, and how to
+
+      balance the need for context, without too many features being
+
+      created.'
+    source: syllabus
+    confidence: 1.0
+  metadata:
+    level: Intermediate
+    duration_hours: 4 hours
+    subjects:
+    - Python
+    - Machine Learning
+    - pandas
+    - Data Preprocessing
+    - Categorical data
+    - Unstructured Data
+    - Feature Engineering
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: creating features
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: creating features'
+  evidence:
+  - source: syllabus
+    text: Creating Features
+  confidence: 0.45
+- topic_id: t002
+  label: dealing with messy data
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: dealing with messy data'
+  evidence:
+  - source: syllabus
+    text: Dealing with Messy Data
+  confidence: 0.45
+- topic_id: t003
+  label: conforming to statistical assumptions
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: conforming to statistical assumptions'
+  evidence:
+  - source: syllabus
+    text: Conforming to Statistical Assumptions
+  confidence: 0.45
+- topic_id: t004
+  label: dealing with text data
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: dealing with text data'
+  evidence:
+  - source: syllabus
+    text: Dealing with Text Data
+  confidence: 0.45
+- topic_id: t005
+  label: missing values
+  topic_type: concept
+  description: 'Topic mined from course text: missing values'
+  evidence:
+  - source: overview
+    text: missing values
+  confidence: 0.75
+- topic_id: t006
+  label: data types
+  topic_type: concept
+  description: 'Topic mined from course text: data types'
+  evidence:
+  - source: overview
+    text: data types
+  confidence: 0.75
+- topic_id: t007
+  label: text data
+  topic_type: concept
+  description: 'Topic mined from course text: text data'
+  evidence:
+  - source: overview
+    text: text data
+  confidence: 0.75
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: creating features
+  aliases:
+  - creating features
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: dealing with messy data
+  aliases:
+  - dealing with messy data
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: conforming to statistical assumptions
+  aliases:
+  - conforming to statistical assumptions
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: dealing with text data
+  aliases:
+  - dealing with text data
+  member_topic_ids:
+  - t004
+  topic_type: concept
+- canonical_topic_id: ct_005
+  label: missing values
+  aliases:
+  - missing values
+  member_topic_ids:
+  - t005
+  topic_type: concept
+- canonical_topic_id: ct_006
+  label: data types
+  aliases:
+  - data types
+  member_topic_ids:
+  - t006
+  topic_type: concept
+- canonical_topic_id: ct_007
+  label: text data
+  aliases:
+  - text data
+  member_topic_ids:
+  - t007
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - creating features
+  family: entry
+  pattern: What is {x}?
+  question_text: What is creating features?
+- candidate_id: q0002
+  relevant_topics:
+  - creating features
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does creating features mean?
+- candidate_id: q0003
+  relevant_topics:
+  - creating features
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does creating features matter?
+- candidate_id: q0004
+  relevant_topics:
+  - creating features
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use creating features?
+- candidate_id: q0005
+  relevant_topics:
+  - creating features
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of creating features?
+- candidate_id: q0006
+  relevant_topics:
+  - dealing with messy data
+  family: entry
+  pattern: What is {x}?
+  question_text: What is dealing with messy data?
+- candidate_id: q0007
+  relevant_topics:
+  - dealing with messy data
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does dealing with messy data mean?
+- candidate_id: q0008
+  relevant_topics:
+  - dealing with messy data
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does dealing with messy data matter?
+- candidate_id: q0009
+  relevant_topics:
+  - dealing with messy data
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use dealing with messy data?
+- candidate_id: q0010
+  relevant_topics:
+  - dealing with messy data
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of dealing with messy data?
+- candidate_id: q0011
+  relevant_topics:
+  - conforming to statistical assumptions
+  family: entry
+  pattern: What is {x}?
+  question_text: What is conforming to statistical assumptions?
+- candidate_id: q0012
+  relevant_topics:
+  - conforming to statistical assumptions
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does conforming to statistical assumptions mean?
+- candidate_id: q0013
+  relevant_topics:
+  - conforming to statistical assumptions
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does conforming to statistical assumptions matter?
+- candidate_id: q0014
+  relevant_topics:
+  - conforming to statistical assumptions
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use conforming to statistical assumptions?
+- candidate_id: q0015
+  relevant_topics:
+  - conforming to statistical assumptions
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of conforming to statistical assumptions?
+- candidate_id: q0016
+  relevant_topics:
+  - dealing with text data
+  family: entry
+  pattern: What is {x}?
+  question_text: What is dealing with text data?
+- candidate_id: q0017
+  relevant_topics:
+  - dealing with text data
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does dealing with text data mean?
+- candidate_id: q0018
+  relevant_topics:
+  - dealing with text data
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does dealing with text data matter?
+- candidate_id: q0019
+  relevant_topics:
+  - dealing with text data
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use dealing with text data?
+- candidate_id: q0020
+  relevant_topics:
+  - dealing with text data
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of dealing with text data?
+- candidate_id: q0021
+  relevant_topics:
+  - missing values
+  family: entry
+  pattern: What is {x}?
+  question_text: What is missing values?
+- candidate_id: q0022
+  relevant_topics:
+  - missing values
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does missing values mean?
+- candidate_id: q0023
+  relevant_topics:
+  - missing values
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does missing values matter?
+- candidate_id: q0024
+  relevant_topics:
+  - missing values
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use missing values?
+- candidate_id: q0025
+  relevant_topics:
+  - missing values
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of missing values?
+- candidate_id: q0026
+  relevant_topics:
+  - data types
+  family: entry
+  pattern: What is {x}?
+  question_text: What is data types?
+- candidate_id: q0027
+  relevant_topics:
+  - data types
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does data types mean?
+- candidate_id: q0028
+  relevant_topics:
+  - data types
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does data types matter?
+- candidate_id: q0029
+  relevant_topics:
+  - data types
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use data types?
+- candidate_id: q0030
+  relevant_topics:
+  - data types
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of data types?
+- candidate_id: q0031
+  relevant_topics:
+  - text data
+  family: entry
+  pattern: What is {x}?
+  question_text: What is text data?
+- candidate_id: q0032
+  relevant_topics:
+  - text data
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does text data mean?
+- candidate_id: q0033
+  relevant_topics:
+  - text data
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does text data matter?
+- candidate_id: q0034
+  relevant_topics:
+  - text data
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use text data?
+- candidate_id: q0035
+  relevant_topics:
+  - text data
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of text data?
+- candidate_id: q0036
+  relevant_topics:
+  - creating features
+  - dealing with messy data
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is creating features different from dealing with messy data?
+- candidate_id: q0037
+  relevant_topics:
+  - creating features
+  - conforming to statistical assumptions
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is creating features different from conforming to statistical
+    assumptions?
+- candidate_id: q0038
+  relevant_topics:
+  - creating features
+  - dealing with text data
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is creating features different from dealing with text data?
+- candidate_id: q0039
+  relevant_topics:
+  - creating features
+  - missing values
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is creating features different from missing values?
+- candidate_id: q0040
+  relevant_topics:
+  - creating features
+  - data types
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is creating features different from data types?
+- candidate_id: q0041
+  relevant_topics:
+  - creating features
+  - text data
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is creating features different from text data?
+- candidate_id: q0042
+  relevant_topics:
+  - dealing with messy data
+  - conforming to statistical assumptions
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is dealing with messy data different from conforming to statistical
+    assumptions?
+- candidate_id: q0043
+  relevant_topics:
+  - dealing with messy data
+  - dealing with text data
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is dealing with messy data different from dealing with text data?
+- candidate_id: q0044
+  relevant_topics:
+  - dealing with messy data
+  - missing values
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is dealing with messy data different from missing values?
+- candidate_id: q0045
+  relevant_topics:
+  - dealing with messy data
+  - data types
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is dealing with messy data different from data types?
+- candidate_id: q0046
+  relevant_topics:
+  - dealing with messy data
+  - text data
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is dealing with messy data different from text data?
+- candidate_id: q0047
+  relevant_topics:
+  - conforming to statistical assumptions
+  - dealing with text data
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is conforming to statistical assumptions different from dealing
+    with text data?
+- candidate_id: q0048
+  relevant_topics:
+  - conforming to statistical assumptions
+  - missing values
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is conforming to statistical assumptions different from missing
+    values?
+- candidate_id: q0049
+  relevant_topics:
+  - conforming to statistical assumptions
+  - data types
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is conforming to statistical assumptions different from data
+    types?
+- candidate_id: q0050
+  relevant_topics:
+  - conforming to statistical assumptions
+  - text data
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is conforming to statistical assumptions different from text
+    data?
+- candidate_id: q0051
+  relevant_topics:
+  - dealing with text data
+  - missing values
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is dealing with text data different from missing values?
+- candidate_id: q0052
+  relevant_topics:
+  - dealing with text data
+  - data types
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is dealing with text data different from data types?
+- candidate_id: q0053
+  relevant_topics:
+  - dealing with text data
+  - text data
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is dealing with text data different from text data?
+- candidate_id: q0054
+  relevant_topics:
+  - missing values
+  - data types
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is missing values different from data types?
+- candidate_id: q0055
+  relevant_topics:
+  - missing values
+  - text data
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is missing values different from text data?
+- candidate_id: q0056
+  relevant_topics:
+  - data types
+  - text data
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is data types different from text data?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is creating features?
+  final_text: What is creating features?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does creating features mean?
+  final_text: What does creating features mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does creating features matter?
+  final_text: Why does creating features matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use creating features?
+  final_text: Why does creating features?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of creating features?
+  final_text: What is a simple example of creating features?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is dealing with messy data?
+  final_text: What is dealing with messy data?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does dealing with messy data mean?
+  final_text: What does dealing with messy data mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does dealing with messy data matter?
+  final_text: Why does dealing with messy data matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use dealing with messy data?
+  final_text: Why does dealing with messy data?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of dealing with messy data?
+  final_text: What is a simple example of dealing with messy data?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is conforming to statistical assumptions?
+  final_text: What is conforming to statistical assumptions?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does conforming to statistical assumptions mean?
+  final_text: What does conforming to statistical assumptions mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does conforming to statistical assumptions matter?
+  final_text: Why does conforming to statistical assumptions matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use conforming to statistical assumptions?
+  final_text: Why does conforming to statistical assumptions?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of conforming to statistical assumptions?
+  final_text: What is a simple example of conforming to statistical assumptions?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is dealing with text data?
+  final_text: What is dealing with text data?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does dealing with text data mean?
+  final_text: What does dealing with text data mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does dealing with text data matter?
+  final_text: Why does dealing with text data matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use dealing with text data?
+  final_text: Why does dealing with text data?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of dealing with text data?
+  final_text: What is a simple example of dealing with text data?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: What is missing values?
+  final_text: What is missing values?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: What does missing values mean?
+  final_text: What does missing values mean?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: Why does missing values matter?
+  final_text: Why does missing values matter?
+  reject_reason: null
+- candidate_id: q0024
+  status: repaired
+  original_text: Why do we use missing values?
+  final_text: Why does missing values?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: What is a simple example of missing values?
+  final_text: What is a simple example of missing values?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: What is data types?
+  final_text: What is data types?
+  reject_reason: null
+- candidate_id: q0027
+  status: accepted
+  original_text: What does data types mean?
+  final_text: What does data types mean?
+  reject_reason: null
+- candidate_id: q0028
+  status: accepted
+  original_text: Why does data types matter?
+  final_text: Why does data types matter?
+  reject_reason: null
+- candidate_id: q0029
+  status: repaired
+  original_text: Why do we use data types?
+  final_text: Why does data types?
+  reject_reason: null
+- candidate_id: q0030
+  status: accepted
+  original_text: What is a simple example of data types?
+  final_text: What is a simple example of data types?
+  reject_reason: null
+- candidate_id: q0031
+  status: accepted
+  original_text: What is text data?
+  final_text: What is text data?
+  reject_reason: null
+- candidate_id: q0032
+  status: accepted
+  original_text: What does text data mean?
+  final_text: What does text data mean?
+  reject_reason: null
+- candidate_id: q0033
+  status: accepted
+  original_text: Why does text data matter?
+  final_text: Why does text data matter?
+  reject_reason: null
+- candidate_id: q0034
+  status: repaired
+  original_text: Why do we use text data?
+  final_text: Why does text data?
+  reject_reason: null
+- candidate_id: q0035
+  status: accepted
+  original_text: What is a simple example of text data?
+  final_text: What is a simple example of text data?
+  reject_reason: null
+- candidate_id: q0036
+  status: accepted
+  original_text: How is creating features different from dealing with messy data?
+  final_text: How is creating features different from dealing with messy data?
+  reject_reason: null
+- candidate_id: q0037
+  status: accepted
+  original_text: How is creating features different from conforming to statistical
+    assumptions?
+  final_text: How is creating features different from conforming to statistical assumptions?
+  reject_reason: null
+- candidate_id: q0038
+  status: accepted
+  original_text: How is creating features different from dealing with text data?
+  final_text: How is creating features different from dealing with text data?
+  reject_reason: null
+- candidate_id: q0039
+  status: accepted
+  original_text: How is creating features different from missing values?
+  final_text: How is creating features different from missing values?
+  reject_reason: null
+- candidate_id: q0040
+  status: accepted
+  original_text: How is creating features different from data types?
+  final_text: How is creating features different from data types?
+  reject_reason: null
+- candidate_id: q0041
+  status: accepted
+  original_text: How is creating features different from text data?
+  final_text: How is creating features different from text data?
+  reject_reason: null
+- candidate_id: q0042
+  status: accepted
+  original_text: How is dealing with messy data different from conforming to statistical
+    assumptions?
+  final_text: How is dealing with messy data different from conforming to statistical
+    assumptions?
+  reject_reason: null
+- candidate_id: q0043
+  status: accepted
+  original_text: How is dealing with messy data different from dealing with text data?
+  final_text: How is dealing with messy data different from dealing with text data?
+  reject_reason: null
+- candidate_id: q0044
+  status: accepted
+  original_text: How is dealing with messy data different from missing values?
+  final_text: How is dealing with messy data different from missing values?
+  reject_reason: null
+- candidate_id: q0045
+  status: accepted
+  original_text: How is dealing with messy data different from data types?
+  final_text: How is dealing with messy data different from data types?
+  reject_reason: null
+- candidate_id: q0046
+  status: accepted
+  original_text: How is dealing with messy data different from text data?
+  final_text: How is dealing with messy data different from text data?
+  reject_reason: null
+- candidate_id: q0047
+  status: accepted
+  original_text: How is conforming to statistical assumptions different from dealing
+    with text data?
+  final_text: How is conforming to statistical assumptions different from dealing
+    with text data?
+  reject_reason: null
+- candidate_id: q0048
+  status: accepted
+  original_text: How is conforming to statistical assumptions different from missing
+    values?
+  final_text: How is conforming to statistical assumptions different from missing
+    values?
+  reject_reason: null
+- candidate_id: q0049
+  status: accepted
+  original_text: How is conforming to statistical assumptions different from data
+    types?
+  final_text: How is conforming to statistical assumptions different from data types?
+  reject_reason: null
+- candidate_id: q0050
+  status: accepted
+  original_text: How is conforming to statistical assumptions different from text
+    data?
+  final_text: How is conforming to statistical assumptions different from text data?
+  reject_reason: null
+- candidate_id: q0051
+  status: accepted
+  original_text: How is dealing with text data different from missing values?
+  final_text: How is dealing with text data different from missing values?
+  reject_reason: null
+- candidate_id: q0052
+  status: accepted
+  original_text: How is dealing with text data different from data types?
+  final_text: How is dealing with text data different from data types?
+  reject_reason: null
+- candidate_id: q0053
+  status: accepted
+  original_text: How is dealing with text data different from text data?
+  final_text: How is dealing with text data different from text data?
+  reject_reason: null
+- candidate_id: q0054
+  status: accepted
+  original_text: How is missing values different from data types?
+  final_text: How is missing values different from data types?
+  reject_reason: null
+- candidate_id: q0055
+  status: accepted
+  original_text: How is missing values different from text data?
+  final_text: How is missing values different from text data?
+  reject_reason: null
+- candidate_id: q0056
+  status: accepted
+  original_text: How is data types different from text data?
+  final_text: How is data types different from text data?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is creating features?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does creating features mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does creating features matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does creating features?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of creating features?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is dealing with messy data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does dealing with messy data mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does dealing with messy data matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does dealing with messy data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of dealing with messy data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is conforming to statistical assumptions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does conforming to statistical assumptions mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does conforming to statistical assumptions matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does conforming to statistical assumptions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of conforming to statistical assumptions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is dealing with text data?
+  answer_text: Text data is string-based or unstructured data that often needs cleaning
+    for consistency.
+  correctness: correct
+  confidence: 0.85
+  evidence:
+  - source: overview
+    text: text data
+- question_id: q0017
+  question_text: What does dealing with text data mean?
+  answer_text: Text data is string-based or unstructured data that often needs cleaning
+    for consistency.
+  correctness: correct
+  confidence: 0.85
+  evidence:
+  - source: overview
+    text: text data
+- question_id: q0018
+  question_text: Why does dealing with text data matter?
+  answer_text: Text data is string-based or unstructured data that often needs cleaning
+    for consistency.
+  correctness: correct
+  confidence: 0.85
+  evidence:
+  - source: overview
+    text: text data
+- question_id: q0019
+  question_text: Why does dealing with text data?
+  answer_text: Text data is string-based or unstructured data that often needs cleaning
+    for consistency.
+  correctness: correct
+  confidence: 0.85
+  evidence:
+  - source: overview
+    text: text data
+- question_id: q0020
+  question_text: What is a simple example of dealing with text data?
+  answer_text: Text data is string-based or unstructured data that often needs cleaning
+    for consistency.
+  correctness: correct
+  confidence: 0.85
+  evidence:
+  - source: overview
+    text: text data
+- question_id: q0021
+  question_text: What is missing values?
+  answer_text: Missing values are absent entries in data that can affect analysis
+    if they are not handled carefully.
+  correctness: correct
+  confidence: 0.88
+  evidence:
+  - source: overview
+    text: missing values
+- question_id: q0022
+  question_text: What does missing values mean?
+  answer_text: Missing values are absent entries in data that can affect analysis
+    if they are not handled carefully.
+  correctness: correct
+  confidence: 0.88
+  evidence:
+  - source: overview
+    text: missing values
+- question_id: q0023
+  question_text: Why does missing values matter?
+  answer_text: Missing values are absent entries in data that can affect analysis
+    if they are not handled carefully.
+  correctness: correct
+  confidence: 0.88
+  evidence:
+  - source: overview
+    text: missing values
+- question_id: q0024
+  question_text: Why does missing values?
+  answer_text: Missing values are absent entries in data that can affect analysis
+    if they are not handled carefully.
+  correctness: correct
+  confidence: 0.88
+  evidence:
+  - source: overview
+    text: missing values
+- question_id: q0025
+  question_text: What is a simple example of missing values?
+  answer_text: Missing values are absent entries in data that can affect analysis
+    if they are not handled carefully.
+  correctness: correct
+  confidence: 0.88
+  evidence:
+  - source: overview
+    text: missing values
+- question_id: q0026
+  question_text: What is data types?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0027
+  question_text: What does data types mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0028
+  question_text: Why does data types matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0029
+  question_text: Why does data types?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0030
+  question_text: What is a simple example of data types?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0031
+  question_text: What is text data?
+  answer_text: Text data is string-based or unstructured data that often needs cleaning
+    for consistency.
+  correctness: correct
+  confidence: 0.85
+  evidence:
+  - source: overview
+    text: text data
+- question_id: q0032
+  question_text: What does text data mean?
+  answer_text: Text data is string-based or unstructured data that often needs cleaning
+    for consistency.
+  correctness: correct
+  confidence: 0.85
+  evidence:
+  - source: overview
+    text: text data
+- question_id: q0033
+  question_text: Why does text data matter?
+  answer_text: Text data is string-based or unstructured data that often needs cleaning
+    for consistency.
+  correctness: correct
+  confidence: 0.85
+  evidence:
+  - source: overview
+    text: text data
+- question_id: q0034
+  question_text: Why does text data?
+  answer_text: Text data is string-based or unstructured data that often needs cleaning
+    for consistency.
+  correctness: correct
+  confidence: 0.85
+  evidence:
+  - source: overview
+    text: text data
+- question_id: q0035
+  question_text: What is a simple example of text data?
+  answer_text: Text data is string-based or unstructured data that often needs cleaning
+    for consistency.
+  correctness: correct
+  confidence: 0.85
+  evidence:
+  - source: overview
+    text: text data
+- question_id: q0036
+  question_text: How is creating features different from dealing with messy data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0037
+  question_text: How is creating features different from conforming to statistical
+    assumptions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0038
+  question_text: How is creating features different from dealing with text data?
+  answer_text: Text data is string-based or unstructured data that often needs cleaning
+    for consistency.
+  correctness: correct
+  confidence: 0.85
+  evidence:
+  - source: overview
+    text: text data
+- question_id: q0039
+  question_text: How is creating features different from missing values?
+  answer_text: Missing values are absent entries in data that can affect analysis
+    if they are not handled carefully.
+  correctness: correct
+  confidence: 0.88
+  evidence:
+  - source: overview
+    text: missing values
+- question_id: q0040
+  question_text: How is creating features different from data types?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0041
+  question_text: How is creating features different from text data?
+  answer_text: Text data is string-based or unstructured data that often needs cleaning
+    for consistency.
+  correctness: correct
+  confidence: 0.85
+  evidence:
+  - source: overview
+    text: text data
+- question_id: q0042
+  question_text: How is dealing with messy data different from conforming to statistical
+    assumptions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0043
+  question_text: How is dealing with messy data different from dealing with text data?
+  answer_text: Text data is string-based or unstructured data that often needs cleaning
+    for consistency.
+  correctness: correct
+  confidence: 0.85
+  evidence:
+  - source: overview
+    text: text data
+- question_id: q0044
+  question_text: How is dealing with messy data different from missing values?
+  answer_text: Missing values are absent entries in data that can affect analysis
+    if they are not handled carefully.
+  correctness: correct
+  confidence: 0.88
+  evidence:
+  - source: overview
+    text: missing values
+- question_id: q0045
+  question_text: How is dealing with messy data different from data types?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0046
+  question_text: How is dealing with messy data different from text data?
+  answer_text: Text data is string-based or unstructured data that often needs cleaning
+    for consistency.
+  correctness: correct
+  confidence: 0.85
+  evidence:
+  - source: overview
+    text: text data
+- question_id: q0047
+  question_text: How is conforming to statistical assumptions different from dealing
+    with text data?
+  answer_text: Text data is string-based or unstructured data that often needs cleaning
+    for consistency.
+  correctness: correct
+  confidence: 0.85
+  evidence:
+  - source: overview
+    text: text data
+- question_id: q0048
+  question_text: How is conforming to statistical assumptions different from missing
+    values?
+  answer_text: Missing values are absent entries in data that can affect analysis
+    if they are not handled carefully.
+  correctness: correct
+  confidence: 0.88
+  evidence:
+  - source: overview
+    text: missing values
+- question_id: q0049
+  question_text: How is conforming to statistical assumptions different from data
+    types?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0050
+  question_text: How is conforming to statistical assumptions different from text
+    data?
+  answer_text: Text data is string-based or unstructured data that often needs cleaning
+    for consistency.
+  correctness: correct
+  confidence: 0.85
+  evidence:
+  - source: overview
+    text: text data
+- question_id: q0051
+  question_text: How is dealing with text data different from missing values?
+  answer_text: Text data is string-based or unstructured data that often needs cleaning
+    for consistency.
+  correctness: correct
+  confidence: 0.85
+  evidence:
+  - source: overview
+    text: text data
+- question_id: q0052
+  question_text: How is dealing with text data different from data types?
+  answer_text: Text data is string-based or unstructured data that often needs cleaning
+    for consistency.
+  correctness: correct
+  confidence: 0.85
+  evidence:
+  - source: overview
+    text: text data
+- question_id: q0053
+  question_text: How is dealing with text data different from text data?
+  answer_text: Text data is string-based or unstructured data that often needs cleaning
+    for consistency.
+  correctness: correct
+  confidence: 0.85
+  evidence:
+  - source: overview
+    text: text data
+- question_id: q0054
+  question_text: How is missing values different from data types?
+  answer_text: Missing values are absent entries in data that can affect analysis
+    if they are not handled carefully.
+  correctness: correct
+  confidence: 0.88
+  evidence:
+  - source: overview
+    text: missing values
+- question_id: q0055
+  question_text: How is missing values different from text data?
+  answer_text: Text data is string-based or unstructured data that often needs cleaning
+    for consistency.
+  correctness: correct
+  confidence: 0.85
+  evidence:
+  - source: overview
+    text: text data
+- question_id: q0056
+  question_text: How is data types different from text data?
+  answer_text: Text data is string-based or unstructured data that often needs cleaning
+    for consistency.
+  correctness: correct
+  confidence: 0.85
+  evidence:
+  - source: overview
+    text: text data
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - creating features
+  question_text: What is creating features?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - creating features
+  question_text: What does creating features mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - creating features
+  question_text: Why does creating features matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - creating features
+  question_text: Why does creating features?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - creating features
+  question_text: What is a simple example of creating features?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - dealing with messy data
+  question_text: What is dealing with messy data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - dealing with messy data
+  question_text: What does dealing with messy data mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - dealing with messy data
+  question_text: Why does dealing with messy data matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - dealing with messy data
+  question_text: Why does dealing with messy data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - dealing with messy data
+  question_text: What is a simple example of dealing with messy data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - conforming to statistical assumptions
+  question_text: What is conforming to statistical assumptions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - conforming to statistical assumptions
+  question_text: What does conforming to statistical assumptions mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - conforming to statistical assumptions
+  question_text: Why does conforming to statistical assumptions matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - conforming to statistical assumptions
+  question_text: Why does conforming to statistical assumptions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - conforming to statistical assumptions
+  question_text: What is a simple example of conforming to statistical assumptions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - dealing with text data
+  question_text: What is dealing with text data?
+  question_answer: Text data is string-based or unstructured data that often needs
+    cleaning for consistency.
+  correctness: correct
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: text data
+- row_id: r_000017
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - dealing with text data
+  question_text: What does dealing with text data mean?
+  question_answer: Text data is string-based or unstructured data that often needs
+    cleaning for consistency.
+  correctness: correct
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: text data
+- row_id: r_000018
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - dealing with text data
+  question_text: Why does dealing with text data matter?
+  question_answer: Text data is string-based or unstructured data that often needs
+    cleaning for consistency.
+  correctness: correct
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: text data
+- row_id: r_000019
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - dealing with text data
+  question_text: Why does dealing with text data?
+  question_answer: Text data is string-based or unstructured data that often needs
+    cleaning for consistency.
+  correctness: correct
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: text data
+- row_id: r_000020
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - dealing with text data
+  question_text: What is a simple example of dealing with text data?
+  question_answer: Text data is string-based or unstructured data that often needs
+    cleaning for consistency.
+  correctness: correct
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: text data
+- row_id: r_000021
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - missing values
+  question_text: What is missing values?
+  question_answer: Missing values are absent entries in data that can affect analysis
+    if they are not handled carefully.
+  correctness: correct
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: missing values
+- row_id: r_000022
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - missing values
+  question_text: What does missing values mean?
+  question_answer: Missing values are absent entries in data that can affect analysis
+    if they are not handled carefully.
+  correctness: correct
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: missing values
+- row_id: r_000023
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - missing values
+  question_text: Why does missing values matter?
+  question_answer: Missing values are absent entries in data that can affect analysis
+    if they are not handled carefully.
+  correctness: correct
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: missing values
+- row_id: r_000024
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - missing values
+  question_text: Why does missing values?
+  question_answer: Missing values are absent entries in data that can affect analysis
+    if they are not handled carefully.
+  correctness: correct
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: missing values
+- row_id: r_000025
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - missing values
+  question_text: What is a simple example of missing values?
+  question_answer: Missing values are absent entries in data that can affect analysis
+    if they are not handled carefully.
+  correctness: correct
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: missing values
+- row_id: r_000026
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - data types
+  question_text: What is data types?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000027
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - data types
+  question_text: What does data types mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000028
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - data types
+  question_text: Why does data types matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000029
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - data types
+  question_text: Why does data types?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000030
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - data types
+  question_text: What is a simple example of data types?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000031
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - text data
+  question_text: What is text data?
+  question_answer: Text data is string-based or unstructured data that often needs
+    cleaning for consistency.
+  correctness: correct
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: text data
+- row_id: r_000032
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - text data
+  question_text: What does text data mean?
+  question_answer: Text data is string-based or unstructured data that often needs
+    cleaning for consistency.
+  correctness: correct
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: text data
+- row_id: r_000033
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - text data
+  question_text: Why does text data matter?
+  question_answer: Text data is string-based or unstructured data that often needs
+    cleaning for consistency.
+  correctness: correct
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: text data
+- row_id: r_000034
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - text data
+  question_text: Why does text data?
+  question_answer: Text data is string-based or unstructured data that often needs
+    cleaning for consistency.
+  correctness: correct
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: text data
+- row_id: r_000035
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - text data
+  question_text: What is a simple example of text data?
+  question_answer: Text data is string-based or unstructured data that often needs
+    cleaning for consistency.
+  correctness: correct
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: text data
+- row_id: r_000036
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - creating features
+  - dealing with messy data
+  question_text: How is creating features different from dealing with messy data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000037
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - creating features
+  - conforming to statistical assumptions
+  question_text: How is creating features different from conforming to statistical
+    assumptions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000038
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - creating features
+  - dealing with text data
+  question_text: How is creating features different from dealing with text data?
+  question_answer: Text data is string-based or unstructured data that often needs
+    cleaning for consistency.
+  correctness: correct
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: text data
+- row_id: r_000039
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - creating features
+  - missing values
+  question_text: How is creating features different from missing values?
+  question_answer: Missing values are absent entries in data that can affect analysis
+    if they are not handled carefully.
+  correctness: correct
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: missing values
+- row_id: r_000040
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - creating features
+  - data types
+  question_text: How is creating features different from data types?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000041
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - creating features
+  - text data
+  question_text: How is creating features different from text data?
+  question_answer: Text data is string-based or unstructured data that often needs
+    cleaning for consistency.
+  correctness: correct
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: text data
+- row_id: r_000042
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - dealing with messy data
+  - conforming to statistical assumptions
+  question_text: How is dealing with messy data different from conforming to statistical
+    assumptions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000043
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - dealing with messy data
+  - dealing with text data
+  question_text: How is dealing with messy data different from dealing with text data?
+  question_answer: Text data is string-based or unstructured data that often needs
+    cleaning for consistency.
+  correctness: correct
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: text data
+- row_id: r_000044
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - dealing with messy data
+  - missing values
+  question_text: How is dealing with messy data different from missing values?
+  question_answer: Missing values are absent entries in data that can affect analysis
+    if they are not handled carefully.
+  correctness: correct
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: missing values
+- row_id: r_000045
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - dealing with messy data
+  - data types
+  question_text: How is dealing with messy data different from data types?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000046
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - dealing with messy data
+  - text data
+  question_text: How is dealing with messy data different from text data?
+  question_answer: Text data is string-based or unstructured data that often needs
+    cleaning for consistency.
+  correctness: correct
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: text data
+- row_id: r_000047
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - conforming to statistical assumptions
+  - dealing with text data
+  question_text: How is conforming to statistical assumptions different from dealing
+    with text data?
+  question_answer: Text data is string-based or unstructured data that often needs
+    cleaning for consistency.
+  correctness: correct
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: text data
+- row_id: r_000048
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - conforming to statistical assumptions
+  - missing values
+  question_text: How is conforming to statistical assumptions different from missing
+    values?
+  question_answer: Missing values are absent entries in data that can affect analysis
+    if they are not handled carefully.
+  correctness: correct
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: missing values
+- row_id: r_000049
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - conforming to statistical assumptions
+  - data types
+  question_text: How is conforming to statistical assumptions different from data
+    types?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000050
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - conforming to statistical assumptions
+  - text data
+  question_text: How is conforming to statistical assumptions different from text
+    data?
+  question_answer: Text data is string-based or unstructured data that often needs
+    cleaning for consistency.
+  correctness: correct
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: text data
+- row_id: r_000051
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - dealing with text data
+  - missing values
+  question_text: How is dealing with text data different from missing values?
+  question_answer: Text data is string-based or unstructured data that often needs
+    cleaning for consistency.
+  correctness: correct
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: text data
+- row_id: r_000052
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - dealing with text data
+  - data types
+  question_text: How is dealing with text data different from data types?
+  question_answer: Text data is string-based or unstructured data that often needs
+    cleaning for consistency.
+  correctness: correct
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: text data
+- row_id: r_000053
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - dealing with text data
+  - text data
+  question_text: How is dealing with text data different from text data?
+  question_answer: Text data is string-based or unstructured data that often needs
+    cleaning for consistency.
+  correctness: correct
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: text data
+- row_id: r_000054
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - missing values
+  - data types
+  question_text: How is missing values different from data types?
+  question_answer: Missing values are absent entries in data that can affect analysis
+    if they are not handled carefully.
+  correctness: correct
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: missing values
+- row_id: r_000055
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - missing values
+  - text data
+  question_text: How is missing values different from text data?
+  question_answer: Text data is string-based or unstructured data that often needs
+    cleaning for consistency.
+  correctness: correct
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: text data
+- row_id: r_000056
+  course:
+    course_id: '24474'
+    title: Feature Engineering for Machine Learning in Python
+  relevant_topics:
+  - data types
+  - text data
+  question_text: How is data types different from text data?
+  question_answer: Text data is string-based or unstructured data that often needs
+    cleaning for consistency.
+  correctness: correct
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: text data
+summary:
+  topic_count: 7
+  canonical_topic_count: 7
+  candidate_count: 56
+  accepted_count: 56
+  rejected_count: 0
+  correct_count: 30
+  uncertain_count: 26

@@ -1,0 +1,3290 @@
+course_id: '24472'
+title: DataFrames. In particular, you'll learn about appending and concatenating
+normalized_course:
+  course_id: '24472'
+  title: DataFrames. In particular, you'll learn about appending and concatenating
+  provider: DataCamp
+  summary: 'This course is all about the act of combining, or merging, DataFrames,
+    an
+
+    essential part your Data Scientist''s toolbox.'
+  overview: 'Preparing data
+
+
+    -In this chapter, you''ll learn about different techniques you can use to
+
+    import multiple files into DataFrames. Having imported your data into
+
+    individual DataFrames, you''ll then learn how to share information between
+
+    DataFrames using their indexes. Understanding how indexes work is essential
+
+    to merging DataFrames, which you’ll learn later in the course.
+
+
+    Concatenating data
+
+
+    -You''ll learn how to perform database-style operations to combine
+
+    DataFrames. In particular, you''ll learn about appending and concatenating
+
+    DataFrames while working with a variety of real-world datasets.
+
+
+    Merging data
+
+
+    -You''ll learn all about merging pandas DataFrames. You''ll explore different
+
+    techniques for merging, and learn about left joins, right joins, inner
+
+    joins, and outer joins, as well as when to use which. You''ll also learn
+
+    about ordered merging, which is useful when you want to merge DataFrames
+
+    with columns that have natural orderings, like date-time columns.
+
+
+    Case Study - Summer Olympics
+
+
+    -To reinforce your new skills, you''ll apply them to an in-depth case study
+
+    using Olympic medal data. The analysis involves integrating your
+
+    multi-DataFrame skills from this course and skills you''ve gained in previous
+
+    pandas courses. This is a rich dataset that will allow you to fully leverage
+
+    your pandas data manipulation skills.'
+  chapters:
+  - chapter_index: 1
+    title: Preparing data
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 2
+    title: -In this chapter, you'll learn about different techniques you can use to
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 3
+    title: import multiple files into DataFrames. Having imported your data into
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 4
+    title: individual DataFrames, you'll then learn how to share information between
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 5
+    title: DataFrames using their indexes. Understanding how indexes work is essential
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 6
+    title: Concatenating data
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 7
+    title: -You'll learn how to perform database-style operations to combine
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 8
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  metadata:
+    level: Intermediate
+    duration_hours: 4 hours
+    subjects:
+    - pandas
+    - Data Analysis
+    - Data Manipulation
+    - DataFrames
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: preparing data
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: preparing data'
+  evidence:
+  - source: overview_inferred
+    text: Preparing data
+  confidence: 0.45
+- topic_id: t002
+  label: -in this chapter, you'll learn about different techniques you can use to
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: -in this chapter, you''ll learn
+    about different techniques you can use to'
+  evidence:
+  - source: overview_inferred
+    text: -In this chapter, you'll learn about different techniques you can use to
+  confidence: 0.45
+- topic_id: t003
+  label: import multiple files into dataframes. having imported your data into
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: import multiple files into dataframes.
+    having imported your data into'
+  evidence:
+  - source: overview_inferred
+    text: import multiple files into DataFrames. Having imported your data into
+  confidence: 0.45
+- topic_id: t004
+  label: individual dataframes, you'll then learn how to share information between
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: individual dataframes, you''ll
+    then learn how to share information between'
+  evidence:
+  - source: overview_inferred
+    text: individual DataFrames, you'll then learn how to share information between
+  confidence: 0.45
+- topic_id: t005
+  label: dataframes using their indexes. understanding how indexes work is essential
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: dataframes using their indexes.
+    understanding how indexes work is essential'
+  evidence:
+  - source: overview_inferred
+    text: DataFrames using their indexes. Understanding how indexes work is essential
+  confidence: 0.45
+- topic_id: t006
+  label: concatenating data
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: concatenating data'
+  evidence:
+  - source: overview_inferred
+    text: Concatenating data
+  confidence: 0.45
+- topic_id: t007
+  label: -you'll learn how to perform database-style operations to combine
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: -you''ll learn how to perform
+    database-style operations to combine'
+  evidence:
+  - source: overview_inferred
+    text: -You'll learn how to perform database-style operations to combine
+  confidence: 0.45
+- topic_id: t008
+  label: dataframes. in particular, you'll learn about appending
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: dataframes. in particular, you''ll
+    learn about appending'
+  evidence:
+  - source: overview_inferred
+    text: DataFrames. In particular, you'll learn about appending and concatenating
+  confidence: 0.55
+- topic_id: t009
+  label: concatenating
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: concatenating'
+  evidence:
+  - source: overview_inferred
+    text: DataFrames. In particular, you'll learn about appending and concatenating
+  confidence: 0.55
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: preparing data
+  aliases:
+  - preparing data
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: -in this chapter, you'll learn about different techniques you can use to
+  aliases:
+  - -in this chapter, you'll learn about different techniques you can use to
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: import multiple files into dataframes. having imported your data into
+  aliases:
+  - import multiple files into dataframes. having imported your data into
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: individual dataframes, you'll then learn how to share information between
+  aliases:
+  - individual dataframes, you'll then learn how to share information between
+  member_topic_ids:
+  - t004
+  topic_type: concept
+- canonical_topic_id: ct_005
+  label: dataframes using their indexes. understanding how indexes work is essential
+  aliases:
+  - dataframes using their indexes. understanding how indexes work is essential
+  member_topic_ids:
+  - t005
+  topic_type: concept
+- canonical_topic_id: ct_006
+  label: concatenating data
+  aliases:
+  - concatenating data
+  member_topic_ids:
+  - t006
+  topic_type: concept
+- canonical_topic_id: ct_007
+  label: -you'll learn how to perform database-style operations to combine
+  aliases:
+  - -you'll learn how to perform database-style operations to combine
+  member_topic_ids:
+  - t007
+  topic_type: concept
+- canonical_topic_id: ct_008
+  label: dataframes. in particular, you'll learn about appending
+  aliases:
+  - dataframes. in particular, you'll learn about appending
+  member_topic_ids:
+  - t008
+  topic_type: concept
+- canonical_topic_id: ct_009
+  label: concatenating
+  aliases:
+  - concatenating
+  member_topic_ids:
+  - t009
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - preparing data
+  family: entry
+  pattern: What is {x}?
+  question_text: What is preparing data?
+- candidate_id: q0002
+  relevant_topics:
+  - preparing data
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does preparing data mean?
+- candidate_id: q0003
+  relevant_topics:
+  - preparing data
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does preparing data matter?
+- candidate_id: q0004
+  relevant_topics:
+  - preparing data
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use preparing data?
+- candidate_id: q0005
+  relevant_topics:
+  - preparing data
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of preparing data?
+- candidate_id: q0006
+  relevant_topics:
+  - -in this chapter, you'll learn about different techniques you can use to
+  family: entry
+  pattern: What is {x}?
+  question_text: What is -in this chapter, you'll learn about different techniques
+    you can use to?
+- candidate_id: q0007
+  relevant_topics:
+  - -in this chapter, you'll learn about different techniques you can use to
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does -in this chapter, you'll learn about different techniques
+    you can use to mean?
+- candidate_id: q0008
+  relevant_topics:
+  - -in this chapter, you'll learn about different techniques you can use to
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does -in this chapter, you'll learn about different techniques
+    you can use to matter?
+- candidate_id: q0009
+  relevant_topics:
+  - -in this chapter, you'll learn about different techniques you can use to
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use -in this chapter, you'll learn about different techniques
+    you can use to?
+- candidate_id: q0010
+  relevant_topics:
+  - -in this chapter, you'll learn about different techniques you can use to
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of -in this chapter, you'll learn about
+    different techniques you can use to?
+- candidate_id: q0011
+  relevant_topics:
+  - import multiple files into dataframes. having imported your data into
+  family: entry
+  pattern: What is {x}?
+  question_text: What is import multiple files into dataframes. having imported your
+    data into?
+- candidate_id: q0012
+  relevant_topics:
+  - import multiple files into dataframes. having imported your data into
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does import multiple files into dataframes. having imported
+    your data into mean?
+- candidate_id: q0013
+  relevant_topics:
+  - import multiple files into dataframes. having imported your data into
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does import multiple files into dataframes. having imported your
+    data into matter?
+- candidate_id: q0014
+  relevant_topics:
+  - import multiple files into dataframes. having imported your data into
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use import multiple files into dataframes. having imported
+    your data into?
+- candidate_id: q0015
+  relevant_topics:
+  - import multiple files into dataframes. having imported your data into
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of import multiple files into dataframes.
+    having imported your data into?
+- candidate_id: q0016
+  relevant_topics:
+  - individual dataframes, you'll then learn how to share information between
+  family: entry
+  pattern: What is {x}?
+  question_text: What is individual dataframes, you'll then learn how to share information
+    between?
+- candidate_id: q0017
+  relevant_topics:
+  - individual dataframes, you'll then learn how to share information between
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does individual dataframes, you'll then learn how to share information
+    between mean?
+- candidate_id: q0018
+  relevant_topics:
+  - individual dataframes, you'll then learn how to share information between
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does individual dataframes, you'll then learn how to share information
+    between matter?
+- candidate_id: q0019
+  relevant_topics:
+  - individual dataframes, you'll then learn how to share information between
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use individual dataframes, you'll then learn how to share
+    information between?
+- candidate_id: q0020
+  relevant_topics:
+  - individual dataframes, you'll then learn how to share information between
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of individual dataframes, you'll then learn
+    how to share information between?
+- candidate_id: q0021
+  relevant_topics:
+  - dataframes using their indexes. understanding how indexes work is essential
+  family: entry
+  pattern: What is {x}?
+  question_text: What is dataframes using their indexes. understanding how indexes
+    work is essential?
+- candidate_id: q0022
+  relevant_topics:
+  - dataframes using their indexes. understanding how indexes work is essential
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does dataframes using their indexes. understanding how indexes
+    work is essential mean?
+- candidate_id: q0023
+  relevant_topics:
+  - dataframes using their indexes. understanding how indexes work is essential
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does dataframes using their indexes. understanding how indexes
+    work is essential matter?
+- candidate_id: q0024
+  relevant_topics:
+  - dataframes using their indexes. understanding how indexes work is essential
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use dataframes using their indexes. understanding how indexes
+    work is essential?
+- candidate_id: q0025
+  relevant_topics:
+  - dataframes using their indexes. understanding how indexes work is essential
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of dataframes using their indexes. understanding
+    how indexes work is essential?
+- candidate_id: q0026
+  relevant_topics:
+  - concatenating data
+  family: entry
+  pattern: What is {x}?
+  question_text: What is concatenating data?
+- candidate_id: q0027
+  relevant_topics:
+  - concatenating data
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does concatenating data mean?
+- candidate_id: q0028
+  relevant_topics:
+  - concatenating data
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does concatenating data matter?
+- candidate_id: q0029
+  relevant_topics:
+  - concatenating data
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use concatenating data?
+- candidate_id: q0030
+  relevant_topics:
+  - concatenating data
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of concatenating data?
+- candidate_id: q0031
+  relevant_topics:
+  - -you'll learn how to perform database-style operations to combine
+  family: entry
+  pattern: What is {x}?
+  question_text: What is -you'll learn how to perform database-style operations to
+    combine?
+- candidate_id: q0032
+  relevant_topics:
+  - -you'll learn how to perform database-style operations to combine
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does -you'll learn how to perform database-style operations
+    to combine mean?
+- candidate_id: q0033
+  relevant_topics:
+  - -you'll learn how to perform database-style operations to combine
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does -you'll learn how to perform database-style operations to
+    combine matter?
+- candidate_id: q0034
+  relevant_topics:
+  - -you'll learn how to perform database-style operations to combine
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use -you'll learn how to perform database-style operations
+    to combine?
+- candidate_id: q0035
+  relevant_topics:
+  - -you'll learn how to perform database-style operations to combine
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of -you'll learn how to perform database-style
+    operations to combine?
+- candidate_id: q0036
+  relevant_topics:
+  - dataframes. in particular, you'll learn about appending
+  family: entry
+  pattern: What is {x}?
+  question_text: What is dataframes. in particular, you'll learn about appending?
+- candidate_id: q0037
+  relevant_topics:
+  - dataframes. in particular, you'll learn about appending
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does dataframes. in particular, you'll learn about appending
+    mean?
+- candidate_id: q0038
+  relevant_topics:
+  - dataframes. in particular, you'll learn about appending
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does dataframes. in particular, you'll learn about appending
+    matter?
+- candidate_id: q0039
+  relevant_topics:
+  - dataframes. in particular, you'll learn about appending
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use dataframes. in particular, you'll learn about appending?
+- candidate_id: q0040
+  relevant_topics:
+  - dataframes. in particular, you'll learn about appending
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of dataframes. in particular, you'll learn
+    about appending?
+- candidate_id: q0041
+  relevant_topics:
+  - concatenating
+  family: entry
+  pattern: What is {x}?
+  question_text: What is concatenating?
+- candidate_id: q0042
+  relevant_topics:
+  - concatenating
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does concatenating mean?
+- candidate_id: q0043
+  relevant_topics:
+  - concatenating
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does concatenating matter?
+- candidate_id: q0044
+  relevant_topics:
+  - concatenating
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use concatenating?
+- candidate_id: q0045
+  relevant_topics:
+  - concatenating
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of concatenating?
+- candidate_id: q0046
+  relevant_topics:
+  - preparing data
+  - -in this chapter, you'll learn about different techniques you can use to
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is preparing data different from -in this chapter, you'll learn
+    about different techniques you can use to?
+- candidate_id: q0047
+  relevant_topics:
+  - preparing data
+  - import multiple files into dataframes. having imported your data into
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is preparing data different from import multiple files into dataframes.
+    having imported your data into?
+- candidate_id: q0048
+  relevant_topics:
+  - preparing data
+  - individual dataframes, you'll then learn how to share information between
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is preparing data different from individual dataframes, you'll
+    then learn how to share information between?
+- candidate_id: q0049
+  relevant_topics:
+  - preparing data
+  - dataframes using their indexes. understanding how indexes work is essential
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is preparing data different from dataframes using their indexes.
+    understanding how indexes work is essential?
+- candidate_id: q0050
+  relevant_topics:
+  - preparing data
+  - concatenating data
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is preparing data different from concatenating data?
+- candidate_id: q0051
+  relevant_topics:
+  - preparing data
+  - -you'll learn how to perform database-style operations to combine
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is preparing data different from -you'll learn how to perform
+    database-style operations to combine?
+- candidate_id: q0052
+  relevant_topics:
+  - preparing data
+  - dataframes. in particular, you'll learn about appending
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is preparing data different from dataframes. in particular, you'll
+    learn about appending?
+- candidate_id: q0053
+  relevant_topics:
+  - preparing data
+  - concatenating
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is preparing data different from concatenating?
+- candidate_id: q0054
+  relevant_topics:
+  - -in this chapter, you'll learn about different techniques you can use to
+  - import multiple files into dataframes. having imported your data into
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter, you'll learn about different techniques
+    you can use to different from import multiple files into dataframes. having imported
+    your data into?
+- candidate_id: q0055
+  relevant_topics:
+  - -in this chapter, you'll learn about different techniques you can use to
+  - individual dataframes, you'll then learn how to share information between
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter, you'll learn about different techniques
+    you can use to different from individual dataframes, you'll then learn how to
+    share information between?
+- candidate_id: q0056
+  relevant_topics:
+  - -in this chapter, you'll learn about different techniques you can use to
+  - dataframes using their indexes. understanding how indexes work is essential
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter, you'll learn about different techniques
+    you can use to different from dataframes using their indexes. understanding how
+    indexes work is essential?
+- candidate_id: q0057
+  relevant_topics:
+  - -in this chapter, you'll learn about different techniques you can use to
+  - concatenating data
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter, you'll learn about different techniques
+    you can use to different from concatenating data?
+- candidate_id: q0058
+  relevant_topics:
+  - -in this chapter, you'll learn about different techniques you can use to
+  - -you'll learn how to perform database-style operations to combine
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter, you'll learn about different techniques
+    you can use to different from -you'll learn how to perform database-style operations
+    to combine?
+- candidate_id: q0059
+  relevant_topics:
+  - -in this chapter, you'll learn about different techniques you can use to
+  - dataframes. in particular, you'll learn about appending
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter, you'll learn about different techniques
+    you can use to different from dataframes. in particular, you'll learn about appending?
+- candidate_id: q0060
+  relevant_topics:
+  - -in this chapter, you'll learn about different techniques you can use to
+  - concatenating
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter, you'll learn about different techniques
+    you can use to different from concatenating?
+- candidate_id: q0061
+  relevant_topics:
+  - import multiple files into dataframes. having imported your data into
+  - individual dataframes, you'll then learn how to share information between
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is import multiple files into dataframes. having imported your
+    data into different from individual dataframes, you'll then learn how to share
+    information between?
+- candidate_id: q0062
+  relevant_topics:
+  - import multiple files into dataframes. having imported your data into
+  - dataframes using their indexes. understanding how indexes work is essential
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is import multiple files into dataframes. having imported your
+    data into different from dataframes using their indexes. understanding how indexes
+    work is essential?
+- candidate_id: q0063
+  relevant_topics:
+  - import multiple files into dataframes. having imported your data into
+  - concatenating data
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is import multiple files into dataframes. having imported your
+    data into different from concatenating data?
+- candidate_id: q0064
+  relevant_topics:
+  - import multiple files into dataframes. having imported your data into
+  - -you'll learn how to perform database-style operations to combine
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is import multiple files into dataframes. having imported your
+    data into different from -you'll learn how to perform database-style operations
+    to combine?
+- candidate_id: q0065
+  relevant_topics:
+  - import multiple files into dataframes. having imported your data into
+  - dataframes. in particular, you'll learn about appending
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is import multiple files into dataframes. having imported your
+    data into different from dataframes. in particular, you'll learn about appending?
+- candidate_id: q0066
+  relevant_topics:
+  - import multiple files into dataframes. having imported your data into
+  - concatenating
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is import multiple files into dataframes. having imported your
+    data into different from concatenating?
+- candidate_id: q0067
+  relevant_topics:
+  - individual dataframes, you'll then learn how to share information between
+  - dataframes using their indexes. understanding how indexes work is essential
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is individual dataframes, you'll then learn how to share information
+    between different from dataframes using their indexes. understanding how indexes
+    work is essential?
+- candidate_id: q0068
+  relevant_topics:
+  - individual dataframes, you'll then learn how to share information between
+  - concatenating data
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is individual dataframes, you'll then learn how to share information
+    between different from concatenating data?
+- candidate_id: q0069
+  relevant_topics:
+  - individual dataframes, you'll then learn how to share information between
+  - -you'll learn how to perform database-style operations to combine
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is individual dataframes, you'll then learn how to share information
+    between different from -you'll learn how to perform database-style operations
+    to combine?
+- candidate_id: q0070
+  relevant_topics:
+  - individual dataframes, you'll then learn how to share information between
+  - dataframes. in particular, you'll learn about appending
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is individual dataframes, you'll then learn how to share information
+    between different from dataframes. in particular, you'll learn about appending?
+- candidate_id: q0071
+  relevant_topics:
+  - individual dataframes, you'll then learn how to share information between
+  - concatenating
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is individual dataframes, you'll then learn how to share information
+    between different from concatenating?
+- candidate_id: q0072
+  relevant_topics:
+  - dataframes using their indexes. understanding how indexes work is essential
+  - concatenating data
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is dataframes using their indexes. understanding how indexes
+    work is essential different from concatenating data?
+- candidate_id: q0073
+  relevant_topics:
+  - dataframes using their indexes. understanding how indexes work is essential
+  - -you'll learn how to perform database-style operations to combine
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is dataframes using their indexes. understanding how indexes
+    work is essential different from -you'll learn how to perform database-style operations
+    to combine?
+- candidate_id: q0074
+  relevant_topics:
+  - dataframes using their indexes. understanding how indexes work is essential
+  - dataframes. in particular, you'll learn about appending
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is dataframes using their indexes. understanding how indexes
+    work is essential different from dataframes. in particular, you'll learn about
+    appending?
+- candidate_id: q0075
+  relevant_topics:
+  - dataframes using their indexes. understanding how indexes work is essential
+  - concatenating
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is dataframes using their indexes. understanding how indexes
+    work is essential different from concatenating?
+- candidate_id: q0076
+  relevant_topics:
+  - concatenating data
+  - -you'll learn how to perform database-style operations to combine
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is concatenating data different from -you'll learn how to perform
+    database-style operations to combine?
+- candidate_id: q0077
+  relevant_topics:
+  - concatenating data
+  - dataframes. in particular, you'll learn about appending
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is concatenating data different from dataframes. in particular,
+    you'll learn about appending?
+- candidate_id: q0078
+  relevant_topics:
+  - concatenating data
+  - concatenating
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is concatenating data different from concatenating?
+- candidate_id: q0079
+  relevant_topics:
+  - -you'll learn how to perform database-style operations to combine
+  - dataframes. in particular, you'll learn about appending
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -you'll learn how to perform database-style operations to
+    combine different from dataframes. in particular, you'll learn about appending?
+- candidate_id: q0080
+  relevant_topics:
+  - -you'll learn how to perform database-style operations to combine
+  - concatenating
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -you'll learn how to perform database-style operations to
+    combine different from concatenating?
+- candidate_id: q0081
+  relevant_topics:
+  - dataframes. in particular, you'll learn about appending
+  - concatenating
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is dataframes. in particular, you'll learn about appending different
+    from concatenating?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is preparing data?
+  final_text: What is preparing data?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does preparing data mean?
+  final_text: What does preparing data mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does preparing data matter?
+  final_text: Why does preparing data matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use preparing data?
+  final_text: Why does preparing data?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of preparing data?
+  final_text: What is a simple example of preparing data?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is -in this chapter, you'll learn about different techniques
+    you can use to?
+  final_text: What is -in this chapter, you'll learn about different techniques you
+    can use to?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does -in this chapter, you'll learn about different techniques
+    you can use to mean?
+  final_text: What does -in this chapter, you'll learn about different techniques
+    you can use to mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does -in this chapter, you'll learn about different techniques
+    you can use to matter?
+  final_text: Why does -in this chapter, you'll learn about different techniques you
+    can use to matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use -in this chapter, you'll learn about different techniques
+    you can use to?
+  final_text: Why does -in this chapter, you'll learn about different techniques you
+    can use to?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of -in this chapter, you'll learn about
+    different techniques you can use to?
+  final_text: What is a simple example of -in this chapter, you'll learn about different
+    techniques you can use to?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is import multiple files into dataframes. having imported your
+    data into?
+  final_text: What is import multiple files into dataframes. having imported your
+    data into?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does import multiple files into dataframes. having imported
+    your data into mean?
+  final_text: What does import multiple files into dataframes. having imported your
+    data into mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does import multiple files into dataframes. having imported your
+    data into matter?
+  final_text: Why does import multiple files into dataframes. having imported your
+    data into matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use import multiple files into dataframes. having imported
+    your data into?
+  final_text: Why does import multiple files into dataframes. having imported your
+    data into?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of import multiple files into dataframes.
+    having imported your data into?
+  final_text: What is a simple example of import multiple files into dataframes. having
+    imported your data into?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is individual dataframes, you'll then learn how to share information
+    between?
+  final_text: What is individual dataframes, you'll then learn how to share information
+    between?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does individual dataframes, you'll then learn how to share information
+    between mean?
+  final_text: What does individual dataframes, you'll then learn how to share information
+    between mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does individual dataframes, you'll then learn how to share information
+    between matter?
+  final_text: Why does individual dataframes, you'll then learn how to share information
+    between matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use individual dataframes, you'll then learn how to share
+    information between?
+  final_text: Why does individual dataframes, you'll then learn how to share information
+    between?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of individual dataframes, you'll then learn
+    how to share information between?
+  final_text: What is a simple example of individual dataframes, you'll then learn
+    how to share information between?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: What is dataframes using their indexes. understanding how indexes
+    work is essential?
+  final_text: What is dataframes using their indexes. understanding how indexes work
+    is essential?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: What does dataframes using their indexes. understanding how indexes
+    work is essential mean?
+  final_text: What does dataframes using their indexes. understanding how indexes
+    work is essential mean?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: Why does dataframes using their indexes. understanding how indexes
+    work is essential matter?
+  final_text: Why does dataframes using their indexes. understanding how indexes work
+    is essential matter?
+  reject_reason: null
+- candidate_id: q0024
+  status: repaired
+  original_text: Why do we use dataframes using their indexes. understanding how indexes
+    work is essential?
+  final_text: Why does dataframes using their indexes. understanding how indexes work
+    is essential?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: What is a simple example of dataframes using their indexes. understanding
+    how indexes work is essential?
+  final_text: What is a simple example of dataframes using their indexes. understanding
+    how indexes work is essential?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: What is concatenating data?
+  final_text: What is concatenating data?
+  reject_reason: null
+- candidate_id: q0027
+  status: accepted
+  original_text: What does concatenating data mean?
+  final_text: What does concatenating data mean?
+  reject_reason: null
+- candidate_id: q0028
+  status: accepted
+  original_text: Why does concatenating data matter?
+  final_text: Why does concatenating data matter?
+  reject_reason: null
+- candidate_id: q0029
+  status: repaired
+  original_text: Why do we use concatenating data?
+  final_text: Why does concatenating data?
+  reject_reason: null
+- candidate_id: q0030
+  status: accepted
+  original_text: What is a simple example of concatenating data?
+  final_text: What is a simple example of concatenating data?
+  reject_reason: null
+- candidate_id: q0031
+  status: accepted
+  original_text: What is -you'll learn how to perform database-style operations to
+    combine?
+  final_text: What is -you'll learn how to perform database-style operations to combine?
+  reject_reason: null
+- candidate_id: q0032
+  status: accepted
+  original_text: What does -you'll learn how to perform database-style operations
+    to combine mean?
+  final_text: What does -you'll learn how to perform database-style operations to
+    combine mean?
+  reject_reason: null
+- candidate_id: q0033
+  status: accepted
+  original_text: Why does -you'll learn how to perform database-style operations to
+    combine matter?
+  final_text: Why does -you'll learn how to perform database-style operations to combine
+    matter?
+  reject_reason: null
+- candidate_id: q0034
+  status: repaired
+  original_text: Why do we use -you'll learn how to perform database-style operations
+    to combine?
+  final_text: Why does -you'll learn how to perform database-style operations to combine?
+  reject_reason: null
+- candidate_id: q0035
+  status: accepted
+  original_text: What is a simple example of -you'll learn how to perform database-style
+    operations to combine?
+  final_text: What is a simple example of -you'll learn how to perform database-style
+    operations to combine?
+  reject_reason: null
+- candidate_id: q0036
+  status: accepted
+  original_text: What is dataframes. in particular, you'll learn about appending?
+  final_text: What is dataframes. in particular, you'll learn about appending?
+  reject_reason: null
+- candidate_id: q0037
+  status: accepted
+  original_text: What does dataframes. in particular, you'll learn about appending
+    mean?
+  final_text: What does dataframes. in particular, you'll learn about appending mean?
+  reject_reason: null
+- candidate_id: q0038
+  status: accepted
+  original_text: Why does dataframes. in particular, you'll learn about appending
+    matter?
+  final_text: Why does dataframes. in particular, you'll learn about appending matter?
+  reject_reason: null
+- candidate_id: q0039
+  status: repaired
+  original_text: Why do we use dataframes. in particular, you'll learn about appending?
+  final_text: Why does dataframes. in particular, you'll learn about appending?
+  reject_reason: null
+- candidate_id: q0040
+  status: accepted
+  original_text: What is a simple example of dataframes. in particular, you'll learn
+    about appending?
+  final_text: What is a simple example of dataframes. in particular, you'll learn
+    about appending?
+  reject_reason: null
+- candidate_id: q0041
+  status: accepted
+  original_text: What is concatenating?
+  final_text: What is concatenating?
+  reject_reason: null
+- candidate_id: q0042
+  status: accepted
+  original_text: What does concatenating mean?
+  final_text: What does concatenating mean?
+  reject_reason: null
+- candidate_id: q0043
+  status: accepted
+  original_text: Why does concatenating matter?
+  final_text: Why does concatenating matter?
+  reject_reason: null
+- candidate_id: q0044
+  status: repaired
+  original_text: Why do we use concatenating?
+  final_text: Why does concatenating?
+  reject_reason: null
+- candidate_id: q0045
+  status: accepted
+  original_text: What is a simple example of concatenating?
+  final_text: What is a simple example of concatenating?
+  reject_reason: null
+- candidate_id: q0046
+  status: accepted
+  original_text: How is preparing data different from -in this chapter, you'll learn
+    about different techniques you can use to?
+  final_text: How is preparing data different from -in this chapter, you'll learn
+    about different techniques you can use to?
+  reject_reason: null
+- candidate_id: q0047
+  status: accepted
+  original_text: How is preparing data different from import multiple files into dataframes.
+    having imported your data into?
+  final_text: How is preparing data different from import multiple files into dataframes.
+    having imported your data into?
+  reject_reason: null
+- candidate_id: q0048
+  status: accepted
+  original_text: How is preparing data different from individual dataframes, you'll
+    then learn how to share information between?
+  final_text: How is preparing data different from individual dataframes, you'll then
+    learn how to share information between?
+  reject_reason: null
+- candidate_id: q0049
+  status: accepted
+  original_text: How is preparing data different from dataframes using their indexes.
+    understanding how indexes work is essential?
+  final_text: How is preparing data different from dataframes using their indexes.
+    understanding how indexes work is essential?
+  reject_reason: null
+- candidate_id: q0050
+  status: accepted
+  original_text: How is preparing data different from concatenating data?
+  final_text: How is preparing data different from concatenating data?
+  reject_reason: null
+- candidate_id: q0051
+  status: accepted
+  original_text: How is preparing data different from -you'll learn how to perform
+    database-style operations to combine?
+  final_text: How is preparing data different from -you'll learn how to perform database-style
+    operations to combine?
+  reject_reason: null
+- candidate_id: q0052
+  status: accepted
+  original_text: How is preparing data different from dataframes. in particular, you'll
+    learn about appending?
+  final_text: How is preparing data different from dataframes. in particular, you'll
+    learn about appending?
+  reject_reason: null
+- candidate_id: q0053
+  status: accepted
+  original_text: How is preparing data different from concatenating?
+  final_text: How is preparing data different from concatenating?
+  reject_reason: null
+- candidate_id: q0054
+  status: accepted
+  original_text: How is -in this chapter, you'll learn about different techniques
+    you can use to different from import multiple files into dataframes. having imported
+    your data into?
+  final_text: How is -in this chapter, you'll learn about different techniques you
+    can use to different from import multiple files into dataframes. having imported
+    your data into?
+  reject_reason: null
+- candidate_id: q0055
+  status: accepted
+  original_text: How is -in this chapter, you'll learn about different techniques
+    you can use to different from individual dataframes, you'll then learn how to
+    share information between?
+  final_text: How is -in this chapter, you'll learn about different techniques you
+    can use to different from individual dataframes, you'll then learn how to share
+    information between?
+  reject_reason: null
+- candidate_id: q0056
+  status: accepted
+  original_text: How is -in this chapter, you'll learn about different techniques
+    you can use to different from dataframes using their indexes. understanding how
+    indexes work is essential?
+  final_text: How is -in this chapter, you'll learn about different techniques you
+    can use to different from dataframes using their indexes. understanding how indexes
+    work is essential?
+  reject_reason: null
+- candidate_id: q0057
+  status: accepted
+  original_text: How is -in this chapter, you'll learn about different techniques
+    you can use to different from concatenating data?
+  final_text: How is -in this chapter, you'll learn about different techniques you
+    can use to different from concatenating data?
+  reject_reason: null
+- candidate_id: q0058
+  status: accepted
+  original_text: How is -in this chapter, you'll learn about different techniques
+    you can use to different from -you'll learn how to perform database-style operations
+    to combine?
+  final_text: How is -in this chapter, you'll learn about different techniques you
+    can use to different from -you'll learn how to perform database-style operations
+    to combine?
+  reject_reason: null
+- candidate_id: q0059
+  status: accepted
+  original_text: How is -in this chapter, you'll learn about different techniques
+    you can use to different from dataframes. in particular, you'll learn about appending?
+  final_text: How is -in this chapter, you'll learn about different techniques you
+    can use to different from dataframes. in particular, you'll learn about appending?
+  reject_reason: null
+- candidate_id: q0060
+  status: accepted
+  original_text: How is -in this chapter, you'll learn about different techniques
+    you can use to different from concatenating?
+  final_text: How is -in this chapter, you'll learn about different techniques you
+    can use to different from concatenating?
+  reject_reason: null
+- candidate_id: q0061
+  status: accepted
+  original_text: How is import multiple files into dataframes. having imported your
+    data into different from individual dataframes, you'll then learn how to share
+    information between?
+  final_text: How is import multiple files into dataframes. having imported your data
+    into different from individual dataframes, you'll then learn how to share information
+    between?
+  reject_reason: null
+- candidate_id: q0062
+  status: accepted
+  original_text: How is import multiple files into dataframes. having imported your
+    data into different from dataframes using their indexes. understanding how indexes
+    work is essential?
+  final_text: How is import multiple files into dataframes. having imported your data
+    into different from dataframes using their indexes. understanding how indexes
+    work is essential?
+  reject_reason: null
+- candidate_id: q0063
+  status: accepted
+  original_text: How is import multiple files into dataframes. having imported your
+    data into different from concatenating data?
+  final_text: How is import multiple files into dataframes. having imported your data
+    into different from concatenating data?
+  reject_reason: null
+- candidate_id: q0064
+  status: accepted
+  original_text: How is import multiple files into dataframes. having imported your
+    data into different from -you'll learn how to perform database-style operations
+    to combine?
+  final_text: How is import multiple files into dataframes. having imported your data
+    into different from -you'll learn how to perform database-style operations to
+    combine?
+  reject_reason: null
+- candidate_id: q0065
+  status: accepted
+  original_text: How is import multiple files into dataframes. having imported your
+    data into different from dataframes. in particular, you'll learn about appending?
+  final_text: How is import multiple files into dataframes. having imported your data
+    into different from dataframes. in particular, you'll learn about appending?
+  reject_reason: null
+- candidate_id: q0066
+  status: accepted
+  original_text: How is import multiple files into dataframes. having imported your
+    data into different from concatenating?
+  final_text: How is import multiple files into dataframes. having imported your data
+    into different from concatenating?
+  reject_reason: null
+- candidate_id: q0067
+  status: accepted
+  original_text: How is individual dataframes, you'll then learn how to share information
+    between different from dataframes using their indexes. understanding how indexes
+    work is essential?
+  final_text: How is individual dataframes, you'll then learn how to share information
+    between different from dataframes using their indexes. understanding how indexes
+    work is essential?
+  reject_reason: null
+- candidate_id: q0068
+  status: accepted
+  original_text: How is individual dataframes, you'll then learn how to share information
+    between different from concatenating data?
+  final_text: How is individual dataframes, you'll then learn how to share information
+    between different from concatenating data?
+  reject_reason: null
+- candidate_id: q0069
+  status: accepted
+  original_text: How is individual dataframes, you'll then learn how to share information
+    between different from -you'll learn how to perform database-style operations
+    to combine?
+  final_text: How is individual dataframes, you'll then learn how to share information
+    between different from -you'll learn how to perform database-style operations
+    to combine?
+  reject_reason: null
+- candidate_id: q0070
+  status: accepted
+  original_text: How is individual dataframes, you'll then learn how to share information
+    between different from dataframes. in particular, you'll learn about appending?
+  final_text: How is individual dataframes, you'll then learn how to share information
+    between different from dataframes. in particular, you'll learn about appending?
+  reject_reason: null
+- candidate_id: q0071
+  status: accepted
+  original_text: How is individual dataframes, you'll then learn how to share information
+    between different from concatenating?
+  final_text: How is individual dataframes, you'll then learn how to share information
+    between different from concatenating?
+  reject_reason: null
+- candidate_id: q0072
+  status: accepted
+  original_text: How is dataframes using their indexes. understanding how indexes
+    work is essential different from concatenating data?
+  final_text: How is dataframes using their indexes. understanding how indexes work
+    is essential different from concatenating data?
+  reject_reason: null
+- candidate_id: q0073
+  status: accepted
+  original_text: How is dataframes using their indexes. understanding how indexes
+    work is essential different from -you'll learn how to perform database-style operations
+    to combine?
+  final_text: How is dataframes using their indexes. understanding how indexes work
+    is essential different from -you'll learn how to perform database-style operations
+    to combine?
+  reject_reason: null
+- candidate_id: q0074
+  status: accepted
+  original_text: How is dataframes using their indexes. understanding how indexes
+    work is essential different from dataframes. in particular, you'll learn about
+    appending?
+  final_text: How is dataframes using their indexes. understanding how indexes work
+    is essential different from dataframes. in particular, you'll learn about appending?
+  reject_reason: null
+- candidate_id: q0075
+  status: accepted
+  original_text: How is dataframes using their indexes. understanding how indexes
+    work is essential different from concatenating?
+  final_text: How is dataframes using their indexes. understanding how indexes work
+    is essential different from concatenating?
+  reject_reason: null
+- candidate_id: q0076
+  status: accepted
+  original_text: How is concatenating data different from -you'll learn how to perform
+    database-style operations to combine?
+  final_text: How is concatenating data different from -you'll learn how to perform
+    database-style operations to combine?
+  reject_reason: null
+- candidate_id: q0077
+  status: accepted
+  original_text: How is concatenating data different from dataframes. in particular,
+    you'll learn about appending?
+  final_text: How is concatenating data different from dataframes. in particular,
+    you'll learn about appending?
+  reject_reason: null
+- candidate_id: q0078
+  status: accepted
+  original_text: How is concatenating data different from concatenating?
+  final_text: How is concatenating data different from concatenating?
+  reject_reason: null
+- candidate_id: q0079
+  status: accepted
+  original_text: How is -you'll learn how to perform database-style operations to
+    combine different from dataframes. in particular, you'll learn about appending?
+  final_text: How is -you'll learn how to perform database-style operations to combine
+    different from dataframes. in particular, you'll learn about appending?
+  reject_reason: null
+- candidate_id: q0080
+  status: accepted
+  original_text: How is -you'll learn how to perform database-style operations to
+    combine different from concatenating?
+  final_text: How is -you'll learn how to perform database-style operations to combine
+    different from concatenating?
+  reject_reason: null
+- candidate_id: q0081
+  status: accepted
+  original_text: How is dataframes. in particular, you'll learn about appending different
+    from concatenating?
+  final_text: How is dataframes. in particular, you'll learn about appending different
+    from concatenating?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is preparing data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does preparing data mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does preparing data matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does preparing data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of preparing data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is -in this chapter, you'll learn about different techniques
+    you can use to?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does -in this chapter, you'll learn about different techniques
+    you can use to mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does -in this chapter, you'll learn about different techniques
+    you can use to matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does -in this chapter, you'll learn about different techniques
+    you can use to?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of -in this chapter, you'll learn about
+    different techniques you can use to?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is import multiple files into dataframes. having imported your
+    data into?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does import multiple files into dataframes. having imported
+    your data into mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does import multiple files into dataframes. having imported your
+    data into matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does import multiple files into dataframes. having imported your
+    data into?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of import multiple files into dataframes.
+    having imported your data into?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is individual dataframes, you'll then learn how to share information
+    between?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does individual dataframes, you'll then learn how to share information
+    between mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does individual dataframes, you'll then learn how to share information
+    between matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does individual dataframes, you'll then learn how to share information
+    between?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of individual dataframes, you'll then learn
+    how to share information between?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: What is dataframes using their indexes. understanding how indexes
+    work is essential?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: What does dataframes using their indexes. understanding how indexes
+    work is essential mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: Why does dataframes using their indexes. understanding how indexes
+    work is essential matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: Why does dataframes using their indexes. understanding how indexes
+    work is essential?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: What is a simple example of dataframes using their indexes. understanding
+    how indexes work is essential?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: What is concatenating data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0027
+  question_text: What does concatenating data mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0028
+  question_text: Why does concatenating data matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0029
+  question_text: Why does concatenating data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0030
+  question_text: What is a simple example of concatenating data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0031
+  question_text: What is -you'll learn how to perform database-style operations to
+    combine?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0032
+  question_text: What does -you'll learn how to perform database-style operations
+    to combine mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0033
+  question_text: Why does -you'll learn how to perform database-style operations to
+    combine matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0034
+  question_text: Why does -you'll learn how to perform database-style operations to
+    combine?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0035
+  question_text: What is a simple example of -you'll learn how to perform database-style
+    operations to combine?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0036
+  question_text: What is dataframes. in particular, you'll learn about appending?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0037
+  question_text: What does dataframes. in particular, you'll learn about appending
+    mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0038
+  question_text: Why does dataframes. in particular, you'll learn about appending
+    matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0039
+  question_text: Why does dataframes. in particular, you'll learn about appending?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0040
+  question_text: What is a simple example of dataframes. in particular, you'll learn
+    about appending?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0041
+  question_text: What is concatenating?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0042
+  question_text: What does concatenating mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0043
+  question_text: Why does concatenating matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0044
+  question_text: Why does concatenating?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0045
+  question_text: What is a simple example of concatenating?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0046
+  question_text: How is preparing data different from -in this chapter, you'll learn
+    about different techniques you can use to?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0047
+  question_text: How is preparing data different from import multiple files into dataframes.
+    having imported your data into?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0048
+  question_text: How is preparing data different from individual dataframes, you'll
+    then learn how to share information between?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0049
+  question_text: How is preparing data different from dataframes using their indexes.
+    understanding how indexes work is essential?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0050
+  question_text: How is preparing data different from concatenating data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0051
+  question_text: How is preparing data different from -you'll learn how to perform
+    database-style operations to combine?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0052
+  question_text: How is preparing data different from dataframes. in particular, you'll
+    learn about appending?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0053
+  question_text: How is preparing data different from concatenating?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0054
+  question_text: How is -in this chapter, you'll learn about different techniques
+    you can use to different from import multiple files into dataframes. having imported
+    your data into?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0055
+  question_text: How is -in this chapter, you'll learn about different techniques
+    you can use to different from individual dataframes, you'll then learn how to
+    share information between?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0056
+  question_text: How is -in this chapter, you'll learn about different techniques
+    you can use to different from dataframes using their indexes. understanding how
+    indexes work is essential?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0057
+  question_text: How is -in this chapter, you'll learn about different techniques
+    you can use to different from concatenating data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0058
+  question_text: How is -in this chapter, you'll learn about different techniques
+    you can use to different from -you'll learn how to perform database-style operations
+    to combine?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0059
+  question_text: How is -in this chapter, you'll learn about different techniques
+    you can use to different from dataframes. in particular, you'll learn about appending?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0060
+  question_text: How is -in this chapter, you'll learn about different techniques
+    you can use to different from concatenating?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0061
+  question_text: How is import multiple files into dataframes. having imported your
+    data into different from individual dataframes, you'll then learn how to share
+    information between?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0062
+  question_text: How is import multiple files into dataframes. having imported your
+    data into different from dataframes using their indexes. understanding how indexes
+    work is essential?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0063
+  question_text: How is import multiple files into dataframes. having imported your
+    data into different from concatenating data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0064
+  question_text: How is import multiple files into dataframes. having imported your
+    data into different from -you'll learn how to perform database-style operations
+    to combine?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0065
+  question_text: How is import multiple files into dataframes. having imported your
+    data into different from dataframes. in particular, you'll learn about appending?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0066
+  question_text: How is import multiple files into dataframes. having imported your
+    data into different from concatenating?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0067
+  question_text: How is individual dataframes, you'll then learn how to share information
+    between different from dataframes using their indexes. understanding how indexes
+    work is essential?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0068
+  question_text: How is individual dataframes, you'll then learn how to share information
+    between different from concatenating data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0069
+  question_text: How is individual dataframes, you'll then learn how to share information
+    between different from -you'll learn how to perform database-style operations
+    to combine?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0070
+  question_text: How is individual dataframes, you'll then learn how to share information
+    between different from dataframes. in particular, you'll learn about appending?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0071
+  question_text: How is individual dataframes, you'll then learn how to share information
+    between different from concatenating?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0072
+  question_text: How is dataframes using their indexes. understanding how indexes
+    work is essential different from concatenating data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0073
+  question_text: How is dataframes using their indexes. understanding how indexes
+    work is essential different from -you'll learn how to perform database-style operations
+    to combine?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0074
+  question_text: How is dataframes using their indexes. understanding how indexes
+    work is essential different from dataframes. in particular, you'll learn about
+    appending?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0075
+  question_text: How is dataframes using their indexes. understanding how indexes
+    work is essential different from concatenating?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0076
+  question_text: How is concatenating data different from -you'll learn how to perform
+    database-style operations to combine?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0077
+  question_text: How is concatenating data different from dataframes. in particular,
+    you'll learn about appending?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0078
+  question_text: How is concatenating data different from concatenating?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0079
+  question_text: How is -you'll learn how to perform database-style operations to
+    combine different from dataframes. in particular, you'll learn about appending?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0080
+  question_text: How is -you'll learn how to perform database-style operations to
+    combine different from concatenating?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0081
+  question_text: How is dataframes. in particular, you'll learn about appending different
+    from concatenating?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - preparing data
+  question_text: What is preparing data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - preparing data
+  question_text: What does preparing data mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - preparing data
+  question_text: Why does preparing data matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - preparing data
+  question_text: Why does preparing data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - preparing data
+  question_text: What is a simple example of preparing data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - -in this chapter, you'll learn about different techniques you can use to
+  question_text: What is -in this chapter, you'll learn about different techniques
+    you can use to?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - -in this chapter, you'll learn about different techniques you can use to
+  question_text: What does -in this chapter, you'll learn about different techniques
+    you can use to mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - -in this chapter, you'll learn about different techniques you can use to
+  question_text: Why does -in this chapter, you'll learn about different techniques
+    you can use to matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - -in this chapter, you'll learn about different techniques you can use to
+  question_text: Why does -in this chapter, you'll learn about different techniques
+    you can use to?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - -in this chapter, you'll learn about different techniques you can use to
+  question_text: What is a simple example of -in this chapter, you'll learn about
+    different techniques you can use to?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - import multiple files into dataframes. having imported your data into
+  question_text: What is import multiple files into dataframes. having imported your
+    data into?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - import multiple files into dataframes. having imported your data into
+  question_text: What does import multiple files into dataframes. having imported
+    your data into mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - import multiple files into dataframes. having imported your data into
+  question_text: Why does import multiple files into dataframes. having imported your
+    data into matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - import multiple files into dataframes. having imported your data into
+  question_text: Why does import multiple files into dataframes. having imported your
+    data into?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - import multiple files into dataframes. having imported your data into
+  question_text: What is a simple example of import multiple files into dataframes.
+    having imported your data into?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - individual dataframes, you'll then learn how to share information between
+  question_text: What is individual dataframes, you'll then learn how to share information
+    between?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - individual dataframes, you'll then learn how to share information between
+  question_text: What does individual dataframes, you'll then learn how to share information
+    between mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - individual dataframes, you'll then learn how to share information between
+  question_text: Why does individual dataframes, you'll then learn how to share information
+    between matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - individual dataframes, you'll then learn how to share information between
+  question_text: Why does individual dataframes, you'll then learn how to share information
+    between?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - individual dataframes, you'll then learn how to share information between
+  question_text: What is a simple example of individual dataframes, you'll then learn
+    how to share information between?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - dataframes using their indexes. understanding how indexes work is essential
+  question_text: What is dataframes using their indexes. understanding how indexes
+    work is essential?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - dataframes using their indexes. understanding how indexes work is essential
+  question_text: What does dataframes using their indexes. understanding how indexes
+    work is essential mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - dataframes using their indexes. understanding how indexes work is essential
+  question_text: Why does dataframes using their indexes. understanding how indexes
+    work is essential matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - dataframes using their indexes. understanding how indexes work is essential
+  question_text: Why does dataframes using their indexes. understanding how indexes
+    work is essential?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - dataframes using their indexes. understanding how indexes work is essential
+  question_text: What is a simple example of dataframes using their indexes. understanding
+    how indexes work is essential?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - concatenating data
+  question_text: What is concatenating data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000027
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - concatenating data
+  question_text: What does concatenating data mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000028
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - concatenating data
+  question_text: Why does concatenating data matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000029
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - concatenating data
+  question_text: Why does concatenating data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000030
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - concatenating data
+  question_text: What is a simple example of concatenating data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000031
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - -you'll learn how to perform database-style operations to combine
+  question_text: What is -you'll learn how to perform database-style operations to
+    combine?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000032
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - -you'll learn how to perform database-style operations to combine
+  question_text: What does -you'll learn how to perform database-style operations
+    to combine mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000033
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - -you'll learn how to perform database-style operations to combine
+  question_text: Why does -you'll learn how to perform database-style operations to
+    combine matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000034
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - -you'll learn how to perform database-style operations to combine
+  question_text: Why does -you'll learn how to perform database-style operations to
+    combine?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000035
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - -you'll learn how to perform database-style operations to combine
+  question_text: What is a simple example of -you'll learn how to perform database-style
+    operations to combine?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000036
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - dataframes. in particular, you'll learn about appending
+  question_text: What is dataframes. in particular, you'll learn about appending?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000037
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - dataframes. in particular, you'll learn about appending
+  question_text: What does dataframes. in particular, you'll learn about appending
+    mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000038
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - dataframes. in particular, you'll learn about appending
+  question_text: Why does dataframes. in particular, you'll learn about appending
+    matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000039
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - dataframes. in particular, you'll learn about appending
+  question_text: Why does dataframes. in particular, you'll learn about appending?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000040
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - dataframes. in particular, you'll learn about appending
+  question_text: What is a simple example of dataframes. in particular, you'll learn
+    about appending?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000041
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - concatenating
+  question_text: What is concatenating?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000042
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - concatenating
+  question_text: What does concatenating mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000043
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - concatenating
+  question_text: Why does concatenating matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000044
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - concatenating
+  question_text: Why does concatenating?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000045
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - concatenating
+  question_text: What is a simple example of concatenating?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000046
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - preparing data
+  - -in this chapter, you'll learn about different techniques you can use to
+  question_text: How is preparing data different from -in this chapter, you'll learn
+    about different techniques you can use to?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000047
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - preparing data
+  - import multiple files into dataframes. having imported your data into
+  question_text: How is preparing data different from import multiple files into dataframes.
+    having imported your data into?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000048
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - preparing data
+  - individual dataframes, you'll then learn how to share information between
+  question_text: How is preparing data different from individual dataframes, you'll
+    then learn how to share information between?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000049
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - preparing data
+  - dataframes using their indexes. understanding how indexes work is essential
+  question_text: How is preparing data different from dataframes using their indexes.
+    understanding how indexes work is essential?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000050
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - preparing data
+  - concatenating data
+  question_text: How is preparing data different from concatenating data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000051
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - preparing data
+  - -you'll learn how to perform database-style operations to combine
+  question_text: How is preparing data different from -you'll learn how to perform
+    database-style operations to combine?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000052
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - preparing data
+  - dataframes. in particular, you'll learn about appending
+  question_text: How is preparing data different from dataframes. in particular, you'll
+    learn about appending?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000053
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - preparing data
+  - concatenating
+  question_text: How is preparing data different from concatenating?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000054
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - -in this chapter, you'll learn about different techniques you can use to
+  - import multiple files into dataframes. having imported your data into
+  question_text: How is -in this chapter, you'll learn about different techniques
+    you can use to different from import multiple files into dataframes. having imported
+    your data into?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000055
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - -in this chapter, you'll learn about different techniques you can use to
+  - individual dataframes, you'll then learn how to share information between
+  question_text: How is -in this chapter, you'll learn about different techniques
+    you can use to different from individual dataframes, you'll then learn how to
+    share information between?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000056
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - -in this chapter, you'll learn about different techniques you can use to
+  - dataframes using their indexes. understanding how indexes work is essential
+  question_text: How is -in this chapter, you'll learn about different techniques
+    you can use to different from dataframes using their indexes. understanding how
+    indexes work is essential?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000057
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - -in this chapter, you'll learn about different techniques you can use to
+  - concatenating data
+  question_text: How is -in this chapter, you'll learn about different techniques
+    you can use to different from concatenating data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000058
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - -in this chapter, you'll learn about different techniques you can use to
+  - -you'll learn how to perform database-style operations to combine
+  question_text: How is -in this chapter, you'll learn about different techniques
+    you can use to different from -you'll learn how to perform database-style operations
+    to combine?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000059
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - -in this chapter, you'll learn about different techniques you can use to
+  - dataframes. in particular, you'll learn about appending
+  question_text: How is -in this chapter, you'll learn about different techniques
+    you can use to different from dataframes. in particular, you'll learn about appending?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000060
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - -in this chapter, you'll learn about different techniques you can use to
+  - concatenating
+  question_text: How is -in this chapter, you'll learn about different techniques
+    you can use to different from concatenating?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000061
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - import multiple files into dataframes. having imported your data into
+  - individual dataframes, you'll then learn how to share information between
+  question_text: How is import multiple files into dataframes. having imported your
+    data into different from individual dataframes, you'll then learn how to share
+    information between?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000062
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - import multiple files into dataframes. having imported your data into
+  - dataframes using their indexes. understanding how indexes work is essential
+  question_text: How is import multiple files into dataframes. having imported your
+    data into different from dataframes using their indexes. understanding how indexes
+    work is essential?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000063
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - import multiple files into dataframes. having imported your data into
+  - concatenating data
+  question_text: How is import multiple files into dataframes. having imported your
+    data into different from concatenating data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000064
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - import multiple files into dataframes. having imported your data into
+  - -you'll learn how to perform database-style operations to combine
+  question_text: How is import multiple files into dataframes. having imported your
+    data into different from -you'll learn how to perform database-style operations
+    to combine?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000065
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - import multiple files into dataframes. having imported your data into
+  - dataframes. in particular, you'll learn about appending
+  question_text: How is import multiple files into dataframes. having imported your
+    data into different from dataframes. in particular, you'll learn about appending?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000066
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - import multiple files into dataframes. having imported your data into
+  - concatenating
+  question_text: How is import multiple files into dataframes. having imported your
+    data into different from concatenating?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000067
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - individual dataframes, you'll then learn how to share information between
+  - dataframes using their indexes. understanding how indexes work is essential
+  question_text: How is individual dataframes, you'll then learn how to share information
+    between different from dataframes using their indexes. understanding how indexes
+    work is essential?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000068
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - individual dataframes, you'll then learn how to share information between
+  - concatenating data
+  question_text: How is individual dataframes, you'll then learn how to share information
+    between different from concatenating data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000069
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - individual dataframes, you'll then learn how to share information between
+  - -you'll learn how to perform database-style operations to combine
+  question_text: How is individual dataframes, you'll then learn how to share information
+    between different from -you'll learn how to perform database-style operations
+    to combine?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000070
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - individual dataframes, you'll then learn how to share information between
+  - dataframes. in particular, you'll learn about appending
+  question_text: How is individual dataframes, you'll then learn how to share information
+    between different from dataframes. in particular, you'll learn about appending?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000071
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - individual dataframes, you'll then learn how to share information between
+  - concatenating
+  question_text: How is individual dataframes, you'll then learn how to share information
+    between different from concatenating?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000072
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - dataframes using their indexes. understanding how indexes work is essential
+  - concatenating data
+  question_text: How is dataframes using their indexes. understanding how indexes
+    work is essential different from concatenating data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000073
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - dataframes using their indexes. understanding how indexes work is essential
+  - -you'll learn how to perform database-style operations to combine
+  question_text: How is dataframes using their indexes. understanding how indexes
+    work is essential different from -you'll learn how to perform database-style operations
+    to combine?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000074
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - dataframes using their indexes. understanding how indexes work is essential
+  - dataframes. in particular, you'll learn about appending
+  question_text: How is dataframes using their indexes. understanding how indexes
+    work is essential different from dataframes. in particular, you'll learn about
+    appending?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000075
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - dataframes using their indexes. understanding how indexes work is essential
+  - concatenating
+  question_text: How is dataframes using their indexes. understanding how indexes
+    work is essential different from concatenating?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000076
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - concatenating data
+  - -you'll learn how to perform database-style operations to combine
+  question_text: How is concatenating data different from -you'll learn how to perform
+    database-style operations to combine?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000077
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - concatenating data
+  - dataframes. in particular, you'll learn about appending
+  question_text: How is concatenating data different from dataframes. in particular,
+    you'll learn about appending?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000078
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - concatenating data
+  - concatenating
+  question_text: How is concatenating data different from concatenating?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000079
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - -you'll learn how to perform database-style operations to combine
+  - dataframes. in particular, you'll learn about appending
+  question_text: How is -you'll learn how to perform database-style operations to
+    combine different from dataframes. in particular, you'll learn about appending?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000080
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - -you'll learn how to perform database-style operations to combine
+  - concatenating
+  question_text: How is -you'll learn how to perform database-style operations to
+    combine different from concatenating?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000081
+  course:
+    course_id: '24472'
+    title: DataFrames. In particular, you'll learn about appending and concatenating
+  relevant_topics:
+  - dataframes. in particular, you'll learn about appending
+  - concatenating
+  question_text: How is dataframes. in particular, you'll learn about appending different
+    from concatenating?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 9
+  canonical_topic_count: 9
+  candidate_count: 81
+  accepted_count: 81
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 81

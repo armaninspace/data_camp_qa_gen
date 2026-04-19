@@ -1,0 +1,1399 @@
+course_id: '24524'
+title: Dealing with Missing Data in Python
+normalized_course:
+  course_id: '24524'
+  title: Dealing with Missing Data in Python
+  provider: DataCamp
+  summary: Learn how to identify, analyze, remove and impute missing data in Python.
+  overview: 'The Problem With Missing Data
+
+
+    Get familiar with missing data and how it impacts your analysis! Learn about
+
+    different null value operations in your dataset, how to find missing data
+
+    and summarizing missingness in your data.
+
+
+    Does Missingness Have A Pattern?
+
+
+    Analyzing the type of missingness in your dataset is a very important step
+
+    towards treating missing values. In this chapter, you''ll learn in detail how
+
+    to establish patterns in your missing and non-missing data, and how to
+
+    appropriately treat the missingness using simple techniques such as listwise
+
+    deletion.
+
+
+    Imputation Techniques
+
+
+    Embark on the world of data imputation! In this chapter, you will apply
+
+    basic imputation techniques to fill in missing data and visualize your
+
+    imputations to be able to evaluate your imputations'' performance.
+
+
+    Advanced Imputation Techniques
+
+
+    Finally, go beyond simple imputation techniques and make the most of your
+
+    dataset by using advanced imputation techniques that rely on machine
+
+    learning models, to be able to accurately impute and evaluate your missing
+
+    data. You will be using methods such as KNN and MICE in order to get the
+
+    most out of your missing data!'
+  chapters:
+  - chapter_index: 1
+    title: The Problem With Missing Data
+    summary: 'Get familiar with missing data and how it impacts your analysis!
+
+      Learn about different null value operations in your dataset, how to
+
+      find missing data and summarizing missingness in your data.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 2
+    title: Does Missingness Have A Pattern?
+    summary: 'Analyzing the type of missingness in your dataset is a very
+
+      important step towards treating missing values. In this chapter,
+
+      you''ll learn in detail how to establish patterns in your missing and
+
+      non-missing data, and how to appropriately treat the missingness
+
+      using simple techniques such as listwise deletion.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 3
+    title: Imputation Techniques
+    summary: 'Embark on the world of data imputation! In this chapter, you will
+
+      apply basic imputation techniques to fill in missing data and
+
+      visualize your imputations to be able to evaluate your imputations''
+
+      performance.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 4
+    title: Advanced Imputation Techniques
+    summary: 'Finally, go beyond simple imputation techniques and make the most of
+
+      your dataset by using advanced imputation techniques that rely on
+
+      machine learning models, to be able to accurately impute and
+
+      evaluate your missing data. You will be using methods such as KNN
+
+      and MICE in order to get the most out of your missing data!'
+    source: syllabus
+    confidence: 1.0
+  metadata:
+    level: Intermediate
+    duration_hours: 4 hours
+    subjects:
+    - Python
+    - Data Visualization
+    - Machine Learning
+    - Data Cleaning
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: the problem with missing data
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: the problem with missing data'
+  evidence:
+  - source: syllabus
+    text: The Problem With Missing Data
+  confidence: 0.45
+- topic_id: t002
+  label: does missingness have a pattern?
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: does missingness have a pattern?'
+  evidence:
+  - source: syllabus
+    text: Does Missingness Have A Pattern?
+  confidence: 0.45
+- topic_id: t003
+  label: imputation techniques
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: imputation techniques'
+  evidence:
+  - source: syllabus
+    text: Imputation Techniques
+  confidence: 0.45
+- topic_id: t004
+  label: advanced imputation techniques
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: advanced imputation techniques'
+  evidence:
+  - source: syllabus
+    text: Advanced Imputation Techniques
+  confidence: 0.45
+- topic_id: t005
+  label: missing values
+  topic_type: concept
+  description: 'Topic mined from course text: missing values'
+  evidence:
+  - source: overview
+    text: missing values
+  confidence: 0.75
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: problem with missing data
+  aliases:
+  - the problem with missing data
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: does missingness have a pattern?
+  aliases:
+  - does missingness have a pattern?
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: imputation techniques
+  aliases:
+  - imputation techniques
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: advanced imputation techniques
+  aliases:
+  - advanced imputation techniques
+  member_topic_ids:
+  - t004
+  topic_type: concept
+- canonical_topic_id: ct_005
+  label: missing values
+  aliases:
+  - missing values
+  member_topic_ids:
+  - t005
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - problem with missing data
+  family: entry
+  pattern: What is {x}?
+  question_text: What is problem with missing data?
+- candidate_id: q0002
+  relevant_topics:
+  - problem with missing data
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does problem with missing data mean?
+- candidate_id: q0003
+  relevant_topics:
+  - problem with missing data
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does problem with missing data matter?
+- candidate_id: q0004
+  relevant_topics:
+  - problem with missing data
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use problem with missing data?
+- candidate_id: q0005
+  relevant_topics:
+  - problem with missing data
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of problem with missing data?
+- candidate_id: q0006
+  relevant_topics:
+  - does missingness have a pattern?
+  family: entry
+  pattern: What is {x}?
+  question_text: What is does missingness have a pattern??
+- candidate_id: q0007
+  relevant_topics:
+  - does missingness have a pattern?
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does does missingness have a pattern? mean?
+- candidate_id: q0008
+  relevant_topics:
+  - does missingness have a pattern?
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does does missingness have a pattern? matter?
+- candidate_id: q0009
+  relevant_topics:
+  - does missingness have a pattern?
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use does missingness have a pattern??
+- candidate_id: q0010
+  relevant_topics:
+  - does missingness have a pattern?
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of does missingness have a pattern??
+- candidate_id: q0011
+  relevant_topics:
+  - imputation techniques
+  family: entry
+  pattern: What is {x}?
+  question_text: What is imputation techniques?
+- candidate_id: q0012
+  relevant_topics:
+  - imputation techniques
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does imputation techniques mean?
+- candidate_id: q0013
+  relevant_topics:
+  - imputation techniques
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does imputation techniques matter?
+- candidate_id: q0014
+  relevant_topics:
+  - imputation techniques
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use imputation techniques?
+- candidate_id: q0015
+  relevant_topics:
+  - imputation techniques
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of imputation techniques?
+- candidate_id: q0016
+  relevant_topics:
+  - advanced imputation techniques
+  family: entry
+  pattern: What is {x}?
+  question_text: What is advanced imputation techniques?
+- candidate_id: q0017
+  relevant_topics:
+  - advanced imputation techniques
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does advanced imputation techniques mean?
+- candidate_id: q0018
+  relevant_topics:
+  - advanced imputation techniques
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does advanced imputation techniques matter?
+- candidate_id: q0019
+  relevant_topics:
+  - advanced imputation techniques
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use advanced imputation techniques?
+- candidate_id: q0020
+  relevant_topics:
+  - advanced imputation techniques
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of advanced imputation techniques?
+- candidate_id: q0021
+  relevant_topics:
+  - missing values
+  family: entry
+  pattern: What is {x}?
+  question_text: What is missing values?
+- candidate_id: q0022
+  relevant_topics:
+  - missing values
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does missing values mean?
+- candidate_id: q0023
+  relevant_topics:
+  - missing values
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does missing values matter?
+- candidate_id: q0024
+  relevant_topics:
+  - missing values
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use missing values?
+- candidate_id: q0025
+  relevant_topics:
+  - missing values
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of missing values?
+- candidate_id: q0026
+  relevant_topics:
+  - problem with missing data
+  - does missingness have a pattern?
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is problem with missing data different from does missingness
+    have a pattern??
+- candidate_id: q0027
+  relevant_topics:
+  - problem with missing data
+  - imputation techniques
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is problem with missing data different from imputation techniques?
+- candidate_id: q0028
+  relevant_topics:
+  - problem with missing data
+  - advanced imputation techniques
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is problem with missing data different from advanced imputation
+    techniques?
+- candidate_id: q0029
+  relevant_topics:
+  - problem with missing data
+  - missing values
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is problem with missing data different from missing values?
+- candidate_id: q0030
+  relevant_topics:
+  - does missingness have a pattern?
+  - imputation techniques
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is does missingness have a pattern? different from imputation
+    techniques?
+- candidate_id: q0031
+  relevant_topics:
+  - does missingness have a pattern?
+  - advanced imputation techniques
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is does missingness have a pattern? different from advanced imputation
+    techniques?
+- candidate_id: q0032
+  relevant_topics:
+  - does missingness have a pattern?
+  - missing values
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is does missingness have a pattern? different from missing values?
+- candidate_id: q0033
+  relevant_topics:
+  - imputation techniques
+  - advanced imputation techniques
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is imputation techniques different from advanced imputation techniques?
+- candidate_id: q0034
+  relevant_topics:
+  - imputation techniques
+  - missing values
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is imputation techniques different from missing values?
+- candidate_id: q0035
+  relevant_topics:
+  - advanced imputation techniques
+  - missing values
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is advanced imputation techniques different from missing values?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is problem with missing data?
+  final_text: What is problem with missing data?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does problem with missing data mean?
+  final_text: What does problem with missing data mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does problem with missing data matter?
+  final_text: Why does problem with missing data matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use problem with missing data?
+  final_text: Why does problem with missing data?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of problem with missing data?
+  final_text: What is a simple example of problem with missing data?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is does missingness have a pattern??
+  final_text: What is does missingness have a pattern??
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does does missingness have a pattern? mean?
+  final_text: What does does missingness have a pattern? mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does does missingness have a pattern? matter?
+  final_text: Why does does missingness have a pattern? matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use does missingness have a pattern??
+  final_text: Why does does missingness have a pattern??
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of does missingness have a pattern??
+  final_text: What is a simple example of does missingness have a pattern??
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is imputation techniques?
+  final_text: What is imputation techniques?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does imputation techniques mean?
+  final_text: What does imputation techniques mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does imputation techniques matter?
+  final_text: Why does imputation techniques matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use imputation techniques?
+  final_text: Why does imputation techniques?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of imputation techniques?
+  final_text: What is a simple example of imputation techniques?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is advanced imputation techniques?
+  final_text: What is advanced imputation techniques?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does advanced imputation techniques mean?
+  final_text: What does advanced imputation techniques mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does advanced imputation techniques matter?
+  final_text: Why does advanced imputation techniques matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use advanced imputation techniques?
+  final_text: Why does advanced imputation techniques?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of advanced imputation techniques?
+  final_text: What is a simple example of advanced imputation techniques?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: What is missing values?
+  final_text: What is missing values?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: What does missing values mean?
+  final_text: What does missing values mean?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: Why does missing values matter?
+  final_text: Why does missing values matter?
+  reject_reason: null
+- candidate_id: q0024
+  status: repaired
+  original_text: Why do we use missing values?
+  final_text: Why does missing values?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: What is a simple example of missing values?
+  final_text: What is a simple example of missing values?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: How is problem with missing data different from does missingness
+    have a pattern??
+  final_text: How is problem with missing data different from does missingness have
+    a pattern??
+  reject_reason: null
+- candidate_id: q0027
+  status: accepted
+  original_text: How is problem with missing data different from imputation techniques?
+  final_text: How is problem with missing data different from imputation techniques?
+  reject_reason: null
+- candidate_id: q0028
+  status: accepted
+  original_text: How is problem with missing data different from advanced imputation
+    techniques?
+  final_text: How is problem with missing data different from advanced imputation
+    techniques?
+  reject_reason: null
+- candidate_id: q0029
+  status: accepted
+  original_text: How is problem with missing data different from missing values?
+  final_text: How is problem with missing data different from missing values?
+  reject_reason: null
+- candidate_id: q0030
+  status: accepted
+  original_text: How is does missingness have a pattern? different from imputation
+    techniques?
+  final_text: How is does missingness have a pattern? different from imputation techniques?
+  reject_reason: null
+- candidate_id: q0031
+  status: accepted
+  original_text: How is does missingness have a pattern? different from advanced imputation
+    techniques?
+  final_text: How is does missingness have a pattern? different from advanced imputation
+    techniques?
+  reject_reason: null
+- candidate_id: q0032
+  status: accepted
+  original_text: How is does missingness have a pattern? different from missing values?
+  final_text: How is does missingness have a pattern? different from missing values?
+  reject_reason: null
+- candidate_id: q0033
+  status: accepted
+  original_text: How is imputation techniques different from advanced imputation techniques?
+  final_text: How is imputation techniques different from advanced imputation techniques?
+  reject_reason: null
+- candidate_id: q0034
+  status: accepted
+  original_text: How is imputation techniques different from missing values?
+  final_text: How is imputation techniques different from missing values?
+  reject_reason: null
+- candidate_id: q0035
+  status: accepted
+  original_text: How is advanced imputation techniques different from missing values?
+  final_text: How is advanced imputation techniques different from missing values?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is problem with missing data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does problem with missing data mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does problem with missing data matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does problem with missing data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of problem with missing data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is does missingness have a pattern??
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does does missingness have a pattern? mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does does missingness have a pattern? matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does does missingness have a pattern??
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of does missingness have a pattern??
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is imputation techniques?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does imputation techniques mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does imputation techniques matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does imputation techniques?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of imputation techniques?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is advanced imputation techniques?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does advanced imputation techniques mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does advanced imputation techniques matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does advanced imputation techniques?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of advanced imputation techniques?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: What is missing values?
+  answer_text: Missing values are absent entries in data that can affect analysis
+    if they are not handled carefully.
+  correctness: correct
+  confidence: 0.88
+  evidence:
+  - source: overview
+    text: missing values
+- question_id: q0022
+  question_text: What does missing values mean?
+  answer_text: Missing values are absent entries in data that can affect analysis
+    if they are not handled carefully.
+  correctness: correct
+  confidence: 0.88
+  evidence:
+  - source: overview
+    text: missing values
+- question_id: q0023
+  question_text: Why does missing values matter?
+  answer_text: Missing values are absent entries in data that can affect analysis
+    if they are not handled carefully.
+  correctness: correct
+  confidence: 0.88
+  evidence:
+  - source: overview
+    text: missing values
+- question_id: q0024
+  question_text: Why does missing values?
+  answer_text: Missing values are absent entries in data that can affect analysis
+    if they are not handled carefully.
+  correctness: correct
+  confidence: 0.88
+  evidence:
+  - source: overview
+    text: missing values
+- question_id: q0025
+  question_text: What is a simple example of missing values?
+  answer_text: Missing values are absent entries in data that can affect analysis
+    if they are not handled carefully.
+  correctness: correct
+  confidence: 0.88
+  evidence:
+  - source: overview
+    text: missing values
+- question_id: q0026
+  question_text: How is problem with missing data different from does missingness
+    have a pattern??
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0027
+  question_text: How is problem with missing data different from imputation techniques?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0028
+  question_text: How is problem with missing data different from advanced imputation
+    techniques?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0029
+  question_text: How is problem with missing data different from missing values?
+  answer_text: Missing values are absent entries in data that can affect analysis
+    if they are not handled carefully.
+  correctness: correct
+  confidence: 0.88
+  evidence:
+  - source: overview
+    text: missing values
+- question_id: q0030
+  question_text: How is does missingness have a pattern? different from imputation
+    techniques?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0031
+  question_text: How is does missingness have a pattern? different from advanced imputation
+    techniques?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0032
+  question_text: How is does missingness have a pattern? different from missing values?
+  answer_text: Missing values are absent entries in data that can affect analysis
+    if they are not handled carefully.
+  correctness: correct
+  confidence: 0.88
+  evidence:
+  - source: overview
+    text: missing values
+- question_id: q0033
+  question_text: How is imputation techniques different from advanced imputation techniques?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0034
+  question_text: How is imputation techniques different from missing values?
+  answer_text: Missing values are absent entries in data that can affect analysis
+    if they are not handled carefully.
+  correctness: correct
+  confidence: 0.88
+  evidence:
+  - source: overview
+    text: missing values
+- question_id: q0035
+  question_text: How is advanced imputation techniques different from missing values?
+  answer_text: Missing values are absent entries in data that can affect analysis
+    if they are not handled carefully.
+  correctness: correct
+  confidence: 0.88
+  evidence:
+  - source: overview
+    text: missing values
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24524'
+    title: Dealing with Missing Data in Python
+  relevant_topics:
+  - problem with missing data
+  question_text: What is problem with missing data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24524'
+    title: Dealing with Missing Data in Python
+  relevant_topics:
+  - problem with missing data
+  question_text: What does problem with missing data mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24524'
+    title: Dealing with Missing Data in Python
+  relevant_topics:
+  - problem with missing data
+  question_text: Why does problem with missing data matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24524'
+    title: Dealing with Missing Data in Python
+  relevant_topics:
+  - problem with missing data
+  question_text: Why does problem with missing data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24524'
+    title: Dealing with Missing Data in Python
+  relevant_topics:
+  - problem with missing data
+  question_text: What is a simple example of problem with missing data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24524'
+    title: Dealing with Missing Data in Python
+  relevant_topics:
+  - does missingness have a pattern?
+  question_text: What is does missingness have a pattern??
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24524'
+    title: Dealing with Missing Data in Python
+  relevant_topics:
+  - does missingness have a pattern?
+  question_text: What does does missingness have a pattern? mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24524'
+    title: Dealing with Missing Data in Python
+  relevant_topics:
+  - does missingness have a pattern?
+  question_text: Why does does missingness have a pattern? matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24524'
+    title: Dealing with Missing Data in Python
+  relevant_topics:
+  - does missingness have a pattern?
+  question_text: Why does does missingness have a pattern??
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24524'
+    title: Dealing with Missing Data in Python
+  relevant_topics:
+  - does missingness have a pattern?
+  question_text: What is a simple example of does missingness have a pattern??
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24524'
+    title: Dealing with Missing Data in Python
+  relevant_topics:
+  - imputation techniques
+  question_text: What is imputation techniques?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24524'
+    title: Dealing with Missing Data in Python
+  relevant_topics:
+  - imputation techniques
+  question_text: What does imputation techniques mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24524'
+    title: Dealing with Missing Data in Python
+  relevant_topics:
+  - imputation techniques
+  question_text: Why does imputation techniques matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24524'
+    title: Dealing with Missing Data in Python
+  relevant_topics:
+  - imputation techniques
+  question_text: Why does imputation techniques?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24524'
+    title: Dealing with Missing Data in Python
+  relevant_topics:
+  - imputation techniques
+  question_text: What is a simple example of imputation techniques?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24524'
+    title: Dealing with Missing Data in Python
+  relevant_topics:
+  - advanced imputation techniques
+  question_text: What is advanced imputation techniques?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24524'
+    title: Dealing with Missing Data in Python
+  relevant_topics:
+  - advanced imputation techniques
+  question_text: What does advanced imputation techniques mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24524'
+    title: Dealing with Missing Data in Python
+  relevant_topics:
+  - advanced imputation techniques
+  question_text: Why does advanced imputation techniques matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24524'
+    title: Dealing with Missing Data in Python
+  relevant_topics:
+  - advanced imputation techniques
+  question_text: Why does advanced imputation techniques?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24524'
+    title: Dealing with Missing Data in Python
+  relevant_topics:
+  - advanced imputation techniques
+  question_text: What is a simple example of advanced imputation techniques?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24524'
+    title: Dealing with Missing Data in Python
+  relevant_topics:
+  - missing values
+  question_text: What is missing values?
+  question_answer: Missing values are absent entries in data that can affect analysis
+    if they are not handled carefully.
+  correctness: correct
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: missing values
+- row_id: r_000022
+  course:
+    course_id: '24524'
+    title: Dealing with Missing Data in Python
+  relevant_topics:
+  - missing values
+  question_text: What does missing values mean?
+  question_answer: Missing values are absent entries in data that can affect analysis
+    if they are not handled carefully.
+  correctness: correct
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: missing values
+- row_id: r_000023
+  course:
+    course_id: '24524'
+    title: Dealing with Missing Data in Python
+  relevant_topics:
+  - missing values
+  question_text: Why does missing values matter?
+  question_answer: Missing values are absent entries in data that can affect analysis
+    if they are not handled carefully.
+  correctness: correct
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: missing values
+- row_id: r_000024
+  course:
+    course_id: '24524'
+    title: Dealing with Missing Data in Python
+  relevant_topics:
+  - missing values
+  question_text: Why does missing values?
+  question_answer: Missing values are absent entries in data that can affect analysis
+    if they are not handled carefully.
+  correctness: correct
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: missing values
+- row_id: r_000025
+  course:
+    course_id: '24524'
+    title: Dealing with Missing Data in Python
+  relevant_topics:
+  - missing values
+  question_text: What is a simple example of missing values?
+  question_answer: Missing values are absent entries in data that can affect analysis
+    if they are not handled carefully.
+  correctness: correct
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: missing values
+- row_id: r_000026
+  course:
+    course_id: '24524'
+    title: Dealing with Missing Data in Python
+  relevant_topics:
+  - problem with missing data
+  - does missingness have a pattern?
+  question_text: How is problem with missing data different from does missingness
+    have a pattern??
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000027
+  course:
+    course_id: '24524'
+    title: Dealing with Missing Data in Python
+  relevant_topics:
+  - problem with missing data
+  - imputation techniques
+  question_text: How is problem with missing data different from imputation techniques?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000028
+  course:
+    course_id: '24524'
+    title: Dealing with Missing Data in Python
+  relevant_topics:
+  - problem with missing data
+  - advanced imputation techniques
+  question_text: How is problem with missing data different from advanced imputation
+    techniques?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000029
+  course:
+    course_id: '24524'
+    title: Dealing with Missing Data in Python
+  relevant_topics:
+  - problem with missing data
+  - missing values
+  question_text: How is problem with missing data different from missing values?
+  question_answer: Missing values are absent entries in data that can affect analysis
+    if they are not handled carefully.
+  correctness: correct
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: missing values
+- row_id: r_000030
+  course:
+    course_id: '24524'
+    title: Dealing with Missing Data in Python
+  relevant_topics:
+  - does missingness have a pattern?
+  - imputation techniques
+  question_text: How is does missingness have a pattern? different from imputation
+    techniques?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000031
+  course:
+    course_id: '24524'
+    title: Dealing with Missing Data in Python
+  relevant_topics:
+  - does missingness have a pattern?
+  - advanced imputation techniques
+  question_text: How is does missingness have a pattern? different from advanced imputation
+    techniques?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000032
+  course:
+    course_id: '24524'
+    title: Dealing with Missing Data in Python
+  relevant_topics:
+  - does missingness have a pattern?
+  - missing values
+  question_text: How is does missingness have a pattern? different from missing values?
+  question_answer: Missing values are absent entries in data that can affect analysis
+    if they are not handled carefully.
+  correctness: correct
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: missing values
+- row_id: r_000033
+  course:
+    course_id: '24524'
+    title: Dealing with Missing Data in Python
+  relevant_topics:
+  - imputation techniques
+  - advanced imputation techniques
+  question_text: How is imputation techniques different from advanced imputation techniques?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000034
+  course:
+    course_id: '24524'
+    title: Dealing with Missing Data in Python
+  relevant_topics:
+  - imputation techniques
+  - missing values
+  question_text: How is imputation techniques different from missing values?
+  question_answer: Missing values are absent entries in data that can affect analysis
+    if they are not handled carefully.
+  correctness: correct
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: missing values
+- row_id: r_000035
+  course:
+    course_id: '24524'
+    title: Dealing with Missing Data in Python
+  relevant_topics:
+  - advanced imputation techniques
+  - missing values
+  question_text: How is advanced imputation techniques different from missing values?
+  question_answer: Missing values are absent entries in data that can affect analysis
+    if they are not handled carefully.
+  correctness: correct
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: missing values
+summary:
+  topic_count: 5
+  canonical_topic_count: 5
+  candidate_count: 35
+  accepted_count: 35
+  rejected_count: 0
+  correct_count: 9
+  uncertain_count: 26

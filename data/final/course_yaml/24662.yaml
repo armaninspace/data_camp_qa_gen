@@ -1,0 +1,1044 @@
+course_id: '24662'
+title: Intermediate Functional Programming with purrr
+normalized_course:
+  course_id: '24662'
+  title: Intermediate Functional Programming with purrr
+  provider: DataCamp
+  summary: 'Continue learning with purrr to create robust, clean, and easy to maintain
+
+    iterative code.'
+  overview: 'Continue learning with purrr to create robust, clean, and easy to maintain
+
+    iterative code.
+
+
+    Have you ever been wondering what the purrr description (“A functional
+
+    programming toolkit for R”) refers to? Then, you’ve come to the right place!
+
+    This course will walk you through the functional programming part of purrr -
+
+    in other words, you will learn how to take full advantage of the flexibility
+
+    offered by the .f in map(.x, .f) to iterate other lists, vectors and
+
+    data.frame with a robust, clean, and easy to maintain code. During this
+
+    course, you will learn how to write your own mappers (or lambda functions),
+
+    and how to use predicates and adverbs. Finally, this new knowledge will be
+
+    applied to a use case, so that you’ll be able to see how you can use this
+
+    newly acquired knowledge on a concrete example of a simple nested list, how
+
+    to extract, keep or discard elements, how to compose functions to manipulate
+
+    and parse results from this list, how to integrate purrr workflow inside
+
+    other functions, how to avoid copy and pasting with purrr functional tools.'
+  chapters:
+  - chapter_index: 1
+    title: Programming with purrr
+    summary: 'Do lambda functions, mappers, and predicates sound scary to you?
+
+      Fear no more! After refreshing your purrr memory, we will dive into
+
+      functional programming 101, discover anonymous functions and
+
+      predicates, and see how we can use them to clean and explore data.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 2
+    title: 'Functional programming: from theory to practice'
+    summary: 'Ready to go deeper with functional programming and purrr? In this
+
+      chapter, we''ll discover the concept of functional programming,
+
+      explore error handling using including safely() and possibly(), and
+
+      introduce the function compact() for cleaning your code.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 3
+    title: Better code with purrr
+    summary: 'In this chapter, we''ll use purrr to write code that is clearer,
+
+      cleaner, and easier to maintain. We''ll learn how to write clean
+
+      functions with compose() and negate(). We''ll also use partial() to
+
+      compose functions by "prefilling" arguments from existing functions.
+
+      Lastly, we''ll introduce list-columns, which are a convenient data
+
+      structure that helps us write clean code using the Tidyverse.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 4
+    title: Case study
+    summary: 'We''ll wrap up everything we know about purrr in a case study. Here,
+
+      we''ll use purrr to analyze data that has been scraped from Twitter.
+
+      We''ll use clean code to organize the data and then we''ll identify
+
+      Twitter influencers from the 2018 RStudio conference.'
+    source: syllabus
+    confidence: 1.0
+  metadata:
+    level: Intermediate
+    duration_hours: 4 hours
+    subjects:
+    - R Programming
+    - Tidyverse
+    - Functional Programming
+    - Data Manipulation
+    - Code Efficiency
+    - Lambda Functions
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: programming with purrr
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: programming with purrr'
+  evidence:
+  - source: syllabus
+    text: Programming with purrr
+  confidence: 0.45
+- topic_id: t002
+  label: 'functional programming: from theory to practice'
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: functional programming: from
+    theory to practice'
+  evidence:
+  - source: syllabus
+    text: 'Functional programming: from theory to practice'
+  confidence: 0.45
+- topic_id: t003
+  label: better code with purrr
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: better code with purrr'
+  evidence:
+  - source: syllabus
+    text: Better code with purrr
+  confidence: 0.45
+- topic_id: t004
+  label: case study
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: case study'
+  evidence:
+  - source: syllabus
+    text: Case study
+  confidence: 0.45
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: programming with purrr
+  aliases:
+  - programming with purrr
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: 'functional programming: from theory to practice'
+  aliases:
+  - 'functional programming: from theory to practice'
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: better code with purrr
+  aliases:
+  - better code with purrr
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: case study
+  aliases:
+  - case study
+  member_topic_ids:
+  - t004
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - programming with purrr
+  family: entry
+  pattern: What is {x}?
+  question_text: What is programming with purrr?
+- candidate_id: q0002
+  relevant_topics:
+  - programming with purrr
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does programming with purrr mean?
+- candidate_id: q0003
+  relevant_topics:
+  - programming with purrr
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does programming with purrr matter?
+- candidate_id: q0004
+  relevant_topics:
+  - programming with purrr
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use programming with purrr?
+- candidate_id: q0005
+  relevant_topics:
+  - programming with purrr
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of programming with purrr?
+- candidate_id: q0006
+  relevant_topics:
+  - 'functional programming: from theory to practice'
+  family: entry
+  pattern: What is {x}?
+  question_text: 'What is functional programming: from theory to practice?'
+- candidate_id: q0007
+  relevant_topics:
+  - 'functional programming: from theory to practice'
+  family: entry
+  pattern: What does {x} mean?
+  question_text: 'What does functional programming: from theory to practice mean?'
+- candidate_id: q0008
+  relevant_topics:
+  - 'functional programming: from theory to practice'
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: 'Why does functional programming: from theory to practice matter?'
+- candidate_id: q0009
+  relevant_topics:
+  - 'functional programming: from theory to practice'
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: 'Why do we use functional programming: from theory to practice?'
+- candidate_id: q0010
+  relevant_topics:
+  - 'functional programming: from theory to practice'
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: 'What is a simple example of functional programming: from theory
+    to practice?'
+- candidate_id: q0011
+  relevant_topics:
+  - better code with purrr
+  family: entry
+  pattern: What is {x}?
+  question_text: What is better code with purrr?
+- candidate_id: q0012
+  relevant_topics:
+  - better code with purrr
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does better code with purrr mean?
+- candidate_id: q0013
+  relevant_topics:
+  - better code with purrr
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does better code with purrr matter?
+- candidate_id: q0014
+  relevant_topics:
+  - better code with purrr
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use better code with purrr?
+- candidate_id: q0015
+  relevant_topics:
+  - better code with purrr
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of better code with purrr?
+- candidate_id: q0016
+  relevant_topics:
+  - case study
+  family: entry
+  pattern: What is {x}?
+  question_text: What is case study?
+- candidate_id: q0017
+  relevant_topics:
+  - case study
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does case study mean?
+- candidate_id: q0018
+  relevant_topics:
+  - case study
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does case study matter?
+- candidate_id: q0019
+  relevant_topics:
+  - case study
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use case study?
+- candidate_id: q0020
+  relevant_topics:
+  - case study
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of case study?
+- candidate_id: q0021
+  relevant_topics:
+  - programming with purrr
+  - 'functional programming: from theory to practice'
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: 'How is programming with purrr different from functional programming:
+    from theory to practice?'
+- candidate_id: q0022
+  relevant_topics:
+  - programming with purrr
+  - better code with purrr
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is programming with purrr different from better code with purrr?
+- candidate_id: q0023
+  relevant_topics:
+  - programming with purrr
+  - case study
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is programming with purrr different from case study?
+- candidate_id: q0024
+  relevant_topics:
+  - 'functional programming: from theory to practice'
+  - better code with purrr
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: 'How is functional programming: from theory to practice different
+    from better code with purrr?'
+- candidate_id: q0025
+  relevant_topics:
+  - 'functional programming: from theory to practice'
+  - case study
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: 'How is functional programming: from theory to practice different
+    from case study?'
+- candidate_id: q0026
+  relevant_topics:
+  - better code with purrr
+  - case study
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is better code with purrr different from case study?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is programming with purrr?
+  final_text: What is programming with purrr?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does programming with purrr mean?
+  final_text: What does programming with purrr mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does programming with purrr matter?
+  final_text: Why does programming with purrr matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use programming with purrr?
+  final_text: Why does programming with purrr?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of programming with purrr?
+  final_text: What is a simple example of programming with purrr?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: 'What is functional programming: from theory to practice?'
+  final_text: 'What is functional programming: from theory to practice?'
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: 'What does functional programming: from theory to practice mean?'
+  final_text: 'What does functional programming: from theory to practice mean?'
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: 'Why does functional programming: from theory to practice matter?'
+  final_text: 'Why does functional programming: from theory to practice matter?'
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: 'Why do we use functional programming: from theory to practice?'
+  final_text: 'Why does functional programming: from theory to practice?'
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: 'What is a simple example of functional programming: from theory
+    to practice?'
+  final_text: 'What is a simple example of functional programming: from theory to
+    practice?'
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is better code with purrr?
+  final_text: What is better code with purrr?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does better code with purrr mean?
+  final_text: What does better code with purrr mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does better code with purrr matter?
+  final_text: Why does better code with purrr matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use better code with purrr?
+  final_text: Why does better code with purrr?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of better code with purrr?
+  final_text: What is a simple example of better code with purrr?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is case study?
+  final_text: What is case study?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does case study mean?
+  final_text: What does case study mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does case study matter?
+  final_text: Why does case study matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use case study?
+  final_text: Why does case study?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of case study?
+  final_text: What is a simple example of case study?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: 'How is programming with purrr different from functional programming:
+    from theory to practice?'
+  final_text: 'How is programming with purrr different from functional programming:
+    from theory to practice?'
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: How is programming with purrr different from better code with purrr?
+  final_text: How is programming with purrr different from better code with purrr?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: How is programming with purrr different from case study?
+  final_text: How is programming with purrr different from case study?
+  reject_reason: null
+- candidate_id: q0024
+  status: accepted
+  original_text: 'How is functional programming: from theory to practice different
+    from better code with purrr?'
+  final_text: 'How is functional programming: from theory to practice different from
+    better code with purrr?'
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: 'How is functional programming: from theory to practice different
+    from case study?'
+  final_text: 'How is functional programming: from theory to practice different from
+    case study?'
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: How is better code with purrr different from case study?
+  final_text: How is better code with purrr different from case study?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is programming with purrr?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does programming with purrr mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does programming with purrr matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does programming with purrr?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of programming with purrr?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: 'What is functional programming: from theory to practice?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: 'What does functional programming: from theory to practice mean?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: 'Why does functional programming: from theory to practice matter?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: 'Why does functional programming: from theory to practice?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: 'What is a simple example of functional programming: from theory
+    to practice?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is better code with purrr?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does better code with purrr mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does better code with purrr matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does better code with purrr?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of better code with purrr?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is case study?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does case study mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does case study matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does case study?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of case study?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: 'How is programming with purrr different from functional programming:
+    from theory to practice?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: How is programming with purrr different from better code with purrr?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: How is programming with purrr different from case study?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: 'How is functional programming: from theory to practice different
+    from better code with purrr?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: 'How is functional programming: from theory to practice different
+    from case study?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: How is better code with purrr different from case study?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24662'
+    title: Intermediate Functional Programming with purrr
+  relevant_topics:
+  - programming with purrr
+  question_text: What is programming with purrr?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24662'
+    title: Intermediate Functional Programming with purrr
+  relevant_topics:
+  - programming with purrr
+  question_text: What does programming with purrr mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24662'
+    title: Intermediate Functional Programming with purrr
+  relevant_topics:
+  - programming with purrr
+  question_text: Why does programming with purrr matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24662'
+    title: Intermediate Functional Programming with purrr
+  relevant_topics:
+  - programming with purrr
+  question_text: Why does programming with purrr?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24662'
+    title: Intermediate Functional Programming with purrr
+  relevant_topics:
+  - programming with purrr
+  question_text: What is a simple example of programming with purrr?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24662'
+    title: Intermediate Functional Programming with purrr
+  relevant_topics:
+  - 'functional programming: from theory to practice'
+  question_text: 'What is functional programming: from theory to practice?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24662'
+    title: Intermediate Functional Programming with purrr
+  relevant_topics:
+  - 'functional programming: from theory to practice'
+  question_text: 'What does functional programming: from theory to practice mean?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24662'
+    title: Intermediate Functional Programming with purrr
+  relevant_topics:
+  - 'functional programming: from theory to practice'
+  question_text: 'Why does functional programming: from theory to practice matter?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24662'
+    title: Intermediate Functional Programming with purrr
+  relevant_topics:
+  - 'functional programming: from theory to practice'
+  question_text: 'Why does functional programming: from theory to practice?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24662'
+    title: Intermediate Functional Programming with purrr
+  relevant_topics:
+  - 'functional programming: from theory to practice'
+  question_text: 'What is a simple example of functional programming: from theory
+    to practice?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24662'
+    title: Intermediate Functional Programming with purrr
+  relevant_topics:
+  - better code with purrr
+  question_text: What is better code with purrr?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24662'
+    title: Intermediate Functional Programming with purrr
+  relevant_topics:
+  - better code with purrr
+  question_text: What does better code with purrr mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24662'
+    title: Intermediate Functional Programming with purrr
+  relevant_topics:
+  - better code with purrr
+  question_text: Why does better code with purrr matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24662'
+    title: Intermediate Functional Programming with purrr
+  relevant_topics:
+  - better code with purrr
+  question_text: Why does better code with purrr?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24662'
+    title: Intermediate Functional Programming with purrr
+  relevant_topics:
+  - better code with purrr
+  question_text: What is a simple example of better code with purrr?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24662'
+    title: Intermediate Functional Programming with purrr
+  relevant_topics:
+  - case study
+  question_text: What is case study?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24662'
+    title: Intermediate Functional Programming with purrr
+  relevant_topics:
+  - case study
+  question_text: What does case study mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24662'
+    title: Intermediate Functional Programming with purrr
+  relevant_topics:
+  - case study
+  question_text: Why does case study matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24662'
+    title: Intermediate Functional Programming with purrr
+  relevant_topics:
+  - case study
+  question_text: Why does case study?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24662'
+    title: Intermediate Functional Programming with purrr
+  relevant_topics:
+  - case study
+  question_text: What is a simple example of case study?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24662'
+    title: Intermediate Functional Programming with purrr
+  relevant_topics:
+  - programming with purrr
+  - 'functional programming: from theory to practice'
+  question_text: 'How is programming with purrr different from functional programming:
+    from theory to practice?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24662'
+    title: Intermediate Functional Programming with purrr
+  relevant_topics:
+  - programming with purrr
+  - better code with purrr
+  question_text: How is programming with purrr different from better code with purrr?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24662'
+    title: Intermediate Functional Programming with purrr
+  relevant_topics:
+  - programming with purrr
+  - case study
+  question_text: How is programming with purrr different from case study?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24662'
+    title: Intermediate Functional Programming with purrr
+  relevant_topics:
+  - 'functional programming: from theory to practice'
+  - better code with purrr
+  question_text: 'How is functional programming: from theory to practice different
+    from better code with purrr?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24662'
+    title: Intermediate Functional Programming with purrr
+  relevant_topics:
+  - 'functional programming: from theory to practice'
+  - case study
+  question_text: 'How is functional programming: from theory to practice different
+    from case study?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24662'
+    title: Intermediate Functional Programming with purrr
+  relevant_topics:
+  - better code with purrr
+  - case study
+  question_text: How is better code with purrr different from case study?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 4
+  canonical_topic_count: 4
+  candidate_count: 26
+  accepted_count: 26
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 26

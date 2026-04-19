@@ -1,0 +1,1706 @@
+course_id: '24460'
+title: 'Case Study: Exploratory Data Analysis in R'
+normalized_course:
+  course_id: '24460'
+  title: 'Case Study: Exploratory Data Analysis in R'
+  provider: DataCamp
+  summary: 'Use data manipulation and visualization skills to explore the historical
+
+    voting of the United Nations General Assembly.'
+  overview: 'Data cleaning and summarizing with dplyr
+
+
+    The best way to learn data wrangling skills is to apply them to a specific
+
+    case study. Here you''ll learn how to clean and filter the United Nations
+
+    voting dataset using the dplyr package, and how to summarize it into
+
+    smaller, interpretable units.
+
+
+    Data visualization with ggplot2
+
+
+    Once you''ve cleaned and summarized data, you''ll want to visualize them to
+
+    understand trends and extract insights. Here you''ll use the ggplot2 package
+
+    to explore trends in United Nations voting within each country over time.
+
+
+    Tidy modeling with broom
+
+
+    While visualization helps you understand one country at a time, statistical
+
+    modeling lets you quantify trends across many countries and interpret them
+
+    together. Here you''ll learn to use the tidyr, purrr, and broom packages to
+
+    fit linear models to each country, and understand and compare their outputs.
+
+
+    Joining and tidying
+
+
+    In this chapter, you''ll learn to combine multiple related datasets, such as
+
+    incorporating information about each resolution''s topic into your vote
+
+    analysis. You''ll also learn how to turn untidy data into tidy data, and see
+
+    how tidy data can guide your exploration of topics and countries over time.'
+  chapters:
+  - chapter_index: 1
+    title: Data cleaning and summarizing with dplyr
+    summary: 'The best way to learn data wrangling skills is to apply them to a
+
+      specific case study. Here you''ll learn how to clean and filter the
+
+      United Nations voting dataset using the dplyr package, and how to
+
+      summarize it into smaller, interpretable units.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 2
+    title: Data visualization with ggplot2
+    summary: 'Once you''ve cleaned and summarized data, you''ll want to visualize
+
+      them to understand trends and extract insights. Here you''ll use the
+
+      ggplot2 package to explore trends in United Nations voting within
+
+      each country over time.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 3
+    title: Tidy modeling with broom
+    summary: 'While visualization helps you understand one country at a time,
+
+      statistical modeling lets you quantify trends across many countries
+
+      and interpret them together. Here you''ll learn to use the tidyr,
+
+      purrr, and broom packages to fit linear models to each country, and
+
+      understand and compare their outputs.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 4
+    title: Joining and tidying
+    summary: 'In this chapter, you''ll learn to combine multiple related datasets,
+
+      such as incorporating information about each resolution''s topic into
+
+      your vote analysis. You''ll also learn how to turn untidy data into
+
+      tidy data, and see how tidy data can guide your exploration of
+
+      topics and countries over time.'
+    source: syllabus
+    confidence: 1.0
+  metadata:
+    level: Intermediate
+    duration_hours: 4 hours
+    subjects:
+    - R Programming
+    - Data Visualization
+    - Data Cleaning
+    - Statistical Modeling
+    - Data Manipulation
+    - Exploratory Data Analysis
+    - Linear Models
+    - ggplot2
+    - dplyr
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: data cleaning
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: data cleaning'
+  evidence:
+  - source: syllabus
+    text: Data cleaning and summarizing with dplyr
+  confidence: 0.55
+- topic_id: t002
+  label: summarizing with dplyr
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: summarizing with dplyr'
+  evidence:
+  - source: syllabus
+    text: Data cleaning and summarizing with dplyr
+  confidence: 0.55
+- topic_id: t003
+  label: data visualization with ggplot2
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: data visualization with ggplot2'
+  evidence:
+  - source: syllabus
+    text: Data visualization with ggplot2
+  confidence: 0.45
+- topic_id: t004
+  label: tidy modeling with broom
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: tidy modeling with broom'
+  evidence:
+  - source: syllabus
+    text: Tidy modeling with broom
+  confidence: 0.45
+- topic_id: t005
+  label: joining
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: joining'
+  evidence:
+  - source: syllabus
+    text: Joining and tidying
+  confidence: 0.55
+- topic_id: t006
+  label: tidying
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: tidying'
+  evidence:
+  - source: syllabus
+    text: Joining and tidying
+  confidence: 0.55
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: data cleaning
+  aliases:
+  - data cleaning
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: summarizing with dplyr
+  aliases:
+  - summarizing with dplyr
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: data visualization with ggplot2
+  aliases:
+  - data visualization with ggplot2
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: tidy modeling with broom
+  aliases:
+  - tidy modeling with broom
+  member_topic_ids:
+  - t004
+  topic_type: concept
+- canonical_topic_id: ct_005
+  label: joining
+  aliases:
+  - joining
+  member_topic_ids:
+  - t005
+  topic_type: concept
+- canonical_topic_id: ct_006
+  label: tidying
+  aliases:
+  - tidying
+  member_topic_ids:
+  - t006
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - data cleaning
+  family: entry
+  pattern: What is {x}?
+  question_text: What is data cleaning?
+- candidate_id: q0002
+  relevant_topics:
+  - data cleaning
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does data cleaning mean?
+- candidate_id: q0003
+  relevant_topics:
+  - data cleaning
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does data cleaning matter?
+- candidate_id: q0004
+  relevant_topics:
+  - data cleaning
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use data cleaning?
+- candidate_id: q0005
+  relevant_topics:
+  - data cleaning
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of data cleaning?
+- candidate_id: q0006
+  relevant_topics:
+  - summarizing with dplyr
+  family: entry
+  pattern: What is {x}?
+  question_text: What is summarizing with dplyr?
+- candidate_id: q0007
+  relevant_topics:
+  - summarizing with dplyr
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does summarizing with dplyr mean?
+- candidate_id: q0008
+  relevant_topics:
+  - summarizing with dplyr
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does summarizing with dplyr matter?
+- candidate_id: q0009
+  relevant_topics:
+  - summarizing with dplyr
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use summarizing with dplyr?
+- candidate_id: q0010
+  relevant_topics:
+  - summarizing with dplyr
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of summarizing with dplyr?
+- candidate_id: q0011
+  relevant_topics:
+  - data visualization with ggplot2
+  family: entry
+  pattern: What is {x}?
+  question_text: What is data visualization with ggplot2?
+- candidate_id: q0012
+  relevant_topics:
+  - data visualization with ggplot2
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does data visualization with ggplot2 mean?
+- candidate_id: q0013
+  relevant_topics:
+  - data visualization with ggplot2
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does data visualization with ggplot2 matter?
+- candidate_id: q0014
+  relevant_topics:
+  - data visualization with ggplot2
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use data visualization with ggplot2?
+- candidate_id: q0015
+  relevant_topics:
+  - data visualization with ggplot2
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of data visualization with ggplot2?
+- candidate_id: q0016
+  relevant_topics:
+  - tidy modeling with broom
+  family: entry
+  pattern: What is {x}?
+  question_text: What is tidy modeling with broom?
+- candidate_id: q0017
+  relevant_topics:
+  - tidy modeling with broom
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does tidy modeling with broom mean?
+- candidate_id: q0018
+  relevant_topics:
+  - tidy modeling with broom
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does tidy modeling with broom matter?
+- candidate_id: q0019
+  relevant_topics:
+  - tidy modeling with broom
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use tidy modeling with broom?
+- candidate_id: q0020
+  relevant_topics:
+  - tidy modeling with broom
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of tidy modeling with broom?
+- candidate_id: q0021
+  relevant_topics:
+  - joining
+  family: entry
+  pattern: What is {x}?
+  question_text: What is joining?
+- candidate_id: q0022
+  relevant_topics:
+  - joining
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does joining mean?
+- candidate_id: q0023
+  relevant_topics:
+  - joining
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does joining matter?
+- candidate_id: q0024
+  relevant_topics:
+  - joining
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use joining?
+- candidate_id: q0025
+  relevant_topics:
+  - joining
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of joining?
+- candidate_id: q0026
+  relevant_topics:
+  - tidying
+  family: entry
+  pattern: What is {x}?
+  question_text: What is tidying?
+- candidate_id: q0027
+  relevant_topics:
+  - tidying
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does tidying mean?
+- candidate_id: q0028
+  relevant_topics:
+  - tidying
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does tidying matter?
+- candidate_id: q0029
+  relevant_topics:
+  - tidying
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use tidying?
+- candidate_id: q0030
+  relevant_topics:
+  - tidying
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of tidying?
+- candidate_id: q0031
+  relevant_topics:
+  - data cleaning
+  - summarizing with dplyr
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is data cleaning different from summarizing with dplyr?
+- candidate_id: q0032
+  relevant_topics:
+  - data cleaning
+  - data visualization with ggplot2
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is data cleaning different from data visualization with ggplot2?
+- candidate_id: q0033
+  relevant_topics:
+  - data cleaning
+  - tidy modeling with broom
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is data cleaning different from tidy modeling with broom?
+- candidate_id: q0034
+  relevant_topics:
+  - data cleaning
+  - joining
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is data cleaning different from joining?
+- candidate_id: q0035
+  relevant_topics:
+  - data cleaning
+  - tidying
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is data cleaning different from tidying?
+- candidate_id: q0036
+  relevant_topics:
+  - summarizing with dplyr
+  - data visualization with ggplot2
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is summarizing with dplyr different from data visualization with
+    ggplot2?
+- candidate_id: q0037
+  relevant_topics:
+  - summarizing with dplyr
+  - tidy modeling with broom
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is summarizing with dplyr different from tidy modeling with broom?
+- candidate_id: q0038
+  relevant_topics:
+  - summarizing with dplyr
+  - joining
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is summarizing with dplyr different from joining?
+- candidate_id: q0039
+  relevant_topics:
+  - summarizing with dplyr
+  - tidying
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is summarizing with dplyr different from tidying?
+- candidate_id: q0040
+  relevant_topics:
+  - data visualization with ggplot2
+  - tidy modeling with broom
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is data visualization with ggplot2 different from tidy modeling
+    with broom?
+- candidate_id: q0041
+  relevant_topics:
+  - data visualization with ggplot2
+  - joining
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is data visualization with ggplot2 different from joining?
+- candidate_id: q0042
+  relevant_topics:
+  - data visualization with ggplot2
+  - tidying
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is data visualization with ggplot2 different from tidying?
+- candidate_id: q0043
+  relevant_topics:
+  - tidy modeling with broom
+  - joining
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is tidy modeling with broom different from joining?
+- candidate_id: q0044
+  relevant_topics:
+  - tidy modeling with broom
+  - tidying
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is tidy modeling with broom different from tidying?
+- candidate_id: q0045
+  relevant_topics:
+  - joining
+  - tidying
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is joining different from tidying?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is data cleaning?
+  final_text: What is data cleaning?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does data cleaning mean?
+  final_text: What does data cleaning mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does data cleaning matter?
+  final_text: Why does data cleaning matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use data cleaning?
+  final_text: Why does data cleaning?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of data cleaning?
+  final_text: What is a simple example of data cleaning?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is summarizing with dplyr?
+  final_text: What is summarizing with dplyr?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does summarizing with dplyr mean?
+  final_text: What does summarizing with dplyr mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does summarizing with dplyr matter?
+  final_text: Why does summarizing with dplyr matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use summarizing with dplyr?
+  final_text: Why does summarizing with dplyr?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of summarizing with dplyr?
+  final_text: What is a simple example of summarizing with dplyr?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is data visualization with ggplot2?
+  final_text: What is data visualization with ggplot2?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does data visualization with ggplot2 mean?
+  final_text: What does data visualization with ggplot2 mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does data visualization with ggplot2 matter?
+  final_text: Why does data visualization with ggplot2 matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use data visualization with ggplot2?
+  final_text: Why does data visualization with ggplot2?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of data visualization with ggplot2?
+  final_text: What is a simple example of data visualization with ggplot2?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is tidy modeling with broom?
+  final_text: What is tidy modeling with broom?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does tidy modeling with broom mean?
+  final_text: What does tidy modeling with broom mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does tidy modeling with broom matter?
+  final_text: Why does tidy modeling with broom matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use tidy modeling with broom?
+  final_text: Why does tidy modeling with broom?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of tidy modeling with broom?
+  final_text: What is a simple example of tidy modeling with broom?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: What is joining?
+  final_text: What is joining?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: What does joining mean?
+  final_text: What does joining mean?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: Why does joining matter?
+  final_text: Why does joining matter?
+  reject_reason: null
+- candidate_id: q0024
+  status: repaired
+  original_text: Why do we use joining?
+  final_text: Why does joining?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: What is a simple example of joining?
+  final_text: What is a simple example of joining?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: What is tidying?
+  final_text: What is tidying?
+  reject_reason: null
+- candidate_id: q0027
+  status: accepted
+  original_text: What does tidying mean?
+  final_text: What does tidying mean?
+  reject_reason: null
+- candidate_id: q0028
+  status: accepted
+  original_text: Why does tidying matter?
+  final_text: Why does tidying matter?
+  reject_reason: null
+- candidate_id: q0029
+  status: repaired
+  original_text: Why do we use tidying?
+  final_text: Why does tidying?
+  reject_reason: null
+- candidate_id: q0030
+  status: accepted
+  original_text: What is a simple example of tidying?
+  final_text: What is a simple example of tidying?
+  reject_reason: null
+- candidate_id: q0031
+  status: accepted
+  original_text: How is data cleaning different from summarizing with dplyr?
+  final_text: How is data cleaning different from summarizing with dplyr?
+  reject_reason: null
+- candidate_id: q0032
+  status: accepted
+  original_text: How is data cleaning different from data visualization with ggplot2?
+  final_text: How is data cleaning different from data visualization with ggplot2?
+  reject_reason: null
+- candidate_id: q0033
+  status: accepted
+  original_text: How is data cleaning different from tidy modeling with broom?
+  final_text: How is data cleaning different from tidy modeling with broom?
+  reject_reason: null
+- candidate_id: q0034
+  status: accepted
+  original_text: How is data cleaning different from joining?
+  final_text: How is data cleaning different from joining?
+  reject_reason: null
+- candidate_id: q0035
+  status: accepted
+  original_text: How is data cleaning different from tidying?
+  final_text: How is data cleaning different from tidying?
+  reject_reason: null
+- candidate_id: q0036
+  status: accepted
+  original_text: How is summarizing with dplyr different from data visualization with
+    ggplot2?
+  final_text: How is summarizing with dplyr different from data visualization with
+    ggplot2?
+  reject_reason: null
+- candidate_id: q0037
+  status: accepted
+  original_text: How is summarizing with dplyr different from tidy modeling with broom?
+  final_text: How is summarizing with dplyr different from tidy modeling with broom?
+  reject_reason: null
+- candidate_id: q0038
+  status: accepted
+  original_text: How is summarizing with dplyr different from joining?
+  final_text: How is summarizing with dplyr different from joining?
+  reject_reason: null
+- candidate_id: q0039
+  status: accepted
+  original_text: How is summarizing with dplyr different from tidying?
+  final_text: How is summarizing with dplyr different from tidying?
+  reject_reason: null
+- candidate_id: q0040
+  status: accepted
+  original_text: How is data visualization with ggplot2 different from tidy modeling
+    with broom?
+  final_text: How is data visualization with ggplot2 different from tidy modeling
+    with broom?
+  reject_reason: null
+- candidate_id: q0041
+  status: accepted
+  original_text: How is data visualization with ggplot2 different from joining?
+  final_text: How is data visualization with ggplot2 different from joining?
+  reject_reason: null
+- candidate_id: q0042
+  status: accepted
+  original_text: How is data visualization with ggplot2 different from tidying?
+  final_text: How is data visualization with ggplot2 different from tidying?
+  reject_reason: null
+- candidate_id: q0043
+  status: accepted
+  original_text: How is tidy modeling with broom different from joining?
+  final_text: How is tidy modeling with broom different from joining?
+  reject_reason: null
+- candidate_id: q0044
+  status: accepted
+  original_text: How is tidy modeling with broom different from tidying?
+  final_text: How is tidy modeling with broom different from tidying?
+  reject_reason: null
+- candidate_id: q0045
+  status: accepted
+  original_text: How is joining different from tidying?
+  final_text: How is joining different from tidying?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is data cleaning?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does data cleaning mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does data cleaning matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does data cleaning?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of data cleaning?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is summarizing with dplyr?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does summarizing with dplyr mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does summarizing with dplyr matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does summarizing with dplyr?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of summarizing with dplyr?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is data visualization with ggplot2?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does data visualization with ggplot2 mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does data visualization with ggplot2 matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does data visualization with ggplot2?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of data visualization with ggplot2?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is tidy modeling with broom?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does tidy modeling with broom mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does tidy modeling with broom matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does tidy modeling with broom?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of tidy modeling with broom?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: What is joining?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: What does joining mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: Why does joining matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: Why does joining?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: What is a simple example of joining?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: What is tidying?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0027
+  question_text: What does tidying mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0028
+  question_text: Why does tidying matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0029
+  question_text: Why does tidying?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0030
+  question_text: What is a simple example of tidying?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0031
+  question_text: How is data cleaning different from summarizing with dplyr?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0032
+  question_text: How is data cleaning different from data visualization with ggplot2?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0033
+  question_text: How is data cleaning different from tidy modeling with broom?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0034
+  question_text: How is data cleaning different from joining?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0035
+  question_text: How is data cleaning different from tidying?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0036
+  question_text: How is summarizing with dplyr different from data visualization with
+    ggplot2?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0037
+  question_text: How is summarizing with dplyr different from tidy modeling with broom?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0038
+  question_text: How is summarizing with dplyr different from joining?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0039
+  question_text: How is summarizing with dplyr different from tidying?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0040
+  question_text: How is data visualization with ggplot2 different from tidy modeling
+    with broom?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0041
+  question_text: How is data visualization with ggplot2 different from joining?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0042
+  question_text: How is data visualization with ggplot2 different from tidying?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0043
+  question_text: How is tidy modeling with broom different from joining?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0044
+  question_text: How is tidy modeling with broom different from tidying?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0045
+  question_text: How is joining different from tidying?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - data cleaning
+  question_text: What is data cleaning?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - data cleaning
+  question_text: What does data cleaning mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - data cleaning
+  question_text: Why does data cleaning matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - data cleaning
+  question_text: Why does data cleaning?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - data cleaning
+  question_text: What is a simple example of data cleaning?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - summarizing with dplyr
+  question_text: What is summarizing with dplyr?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - summarizing with dplyr
+  question_text: What does summarizing with dplyr mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - summarizing with dplyr
+  question_text: Why does summarizing with dplyr matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - summarizing with dplyr
+  question_text: Why does summarizing with dplyr?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - summarizing with dplyr
+  question_text: What is a simple example of summarizing with dplyr?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - data visualization with ggplot2
+  question_text: What is data visualization with ggplot2?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - data visualization with ggplot2
+  question_text: What does data visualization with ggplot2 mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - data visualization with ggplot2
+  question_text: Why does data visualization with ggplot2 matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - data visualization with ggplot2
+  question_text: Why does data visualization with ggplot2?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - data visualization with ggplot2
+  question_text: What is a simple example of data visualization with ggplot2?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - tidy modeling with broom
+  question_text: What is tidy modeling with broom?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - tidy modeling with broom
+  question_text: What does tidy modeling with broom mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - tidy modeling with broom
+  question_text: Why does tidy modeling with broom matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - tidy modeling with broom
+  question_text: Why does tidy modeling with broom?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - tidy modeling with broom
+  question_text: What is a simple example of tidy modeling with broom?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - joining
+  question_text: What is joining?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - joining
+  question_text: What does joining mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - joining
+  question_text: Why does joining matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - joining
+  question_text: Why does joining?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - joining
+  question_text: What is a simple example of joining?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - tidying
+  question_text: What is tidying?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000027
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - tidying
+  question_text: What does tidying mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000028
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - tidying
+  question_text: Why does tidying matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000029
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - tidying
+  question_text: Why does tidying?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000030
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - tidying
+  question_text: What is a simple example of tidying?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000031
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - data cleaning
+  - summarizing with dplyr
+  question_text: How is data cleaning different from summarizing with dplyr?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000032
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - data cleaning
+  - data visualization with ggplot2
+  question_text: How is data cleaning different from data visualization with ggplot2?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000033
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - data cleaning
+  - tidy modeling with broom
+  question_text: How is data cleaning different from tidy modeling with broom?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000034
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - data cleaning
+  - joining
+  question_text: How is data cleaning different from joining?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000035
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - data cleaning
+  - tidying
+  question_text: How is data cleaning different from tidying?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000036
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - summarizing with dplyr
+  - data visualization with ggplot2
+  question_text: How is summarizing with dplyr different from data visualization with
+    ggplot2?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000037
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - summarizing with dplyr
+  - tidy modeling with broom
+  question_text: How is summarizing with dplyr different from tidy modeling with broom?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000038
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - summarizing with dplyr
+  - joining
+  question_text: How is summarizing with dplyr different from joining?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000039
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - summarizing with dplyr
+  - tidying
+  question_text: How is summarizing with dplyr different from tidying?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000040
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - data visualization with ggplot2
+  - tidy modeling with broom
+  question_text: How is data visualization with ggplot2 different from tidy modeling
+    with broom?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000041
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - data visualization with ggplot2
+  - joining
+  question_text: How is data visualization with ggplot2 different from joining?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000042
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - data visualization with ggplot2
+  - tidying
+  question_text: How is data visualization with ggplot2 different from tidying?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000043
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - tidy modeling with broom
+  - joining
+  question_text: How is tidy modeling with broom different from joining?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000044
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - tidy modeling with broom
+  - tidying
+  question_text: How is tidy modeling with broom different from tidying?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000045
+  course:
+    course_id: '24460'
+    title: 'Case Study: Exploratory Data Analysis in R'
+  relevant_topics:
+  - joining
+  - tidying
+  question_text: How is joining different from tidying?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 6
+  canonical_topic_count: 6
+  candidate_count: 45
+  accepted_count: 45
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 45

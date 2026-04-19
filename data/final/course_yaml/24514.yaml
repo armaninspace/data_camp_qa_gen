@@ -1,0 +1,1384 @@
+course_id: '24514'
+title: Hyperparameter Tuning in Python
+normalized_course:
+  course_id: '24514'
+  title: Hyperparameter Tuning in Python
+  provider: DataCamp
+  summary: 'Learn techniques for automated hyperparameter tuning in Python, including
+
+    Grid, Random, and Informed Search.'
+  overview: 'Learn techniques for automated hyperparameter tuning in Python, including
+
+    Grid, Random, and Informed Search.
+
+
+    As a data or machine learning scientist, building powerful machine learning
+
+    models depends heavily on the set of hyperparameters used. But with
+
+    increasingly complex models with lots of options, how do you efficiently
+
+    find the best settings for your particular problem? The answer is
+
+    hyperparameter tuning!
+
+
+    Hyperparameters vs. parameters
+
+
+    Gain practical experience using various methodologies for automated
+
+    hyperparameter tuning in Python with Scikit-Learn.
+
+
+    Learn the difference between hyperparameters and parameters and best
+
+    practices for setting and analyzing hyperparameter values. This foundation
+
+    will prepare you to understand the significance of hyperparameters in
+
+    machine learning models.
+
+
+    Grid search
+
+
+    Master several hyperparameter tuning techniques, starting with Grid Search.
+
+    Using credit card default data, you will practice conducting Grid Search to
+
+    exhaustively search for the best hyperparameter combinations and interpret
+
+    the results.
+
+
+    You will be introduced to Random Search, and learn about its advantages over
+
+    Grid Search, such as efficiency in large parameter spaces.​
+
+
+    Informed search
+
+
+    In the final part of the course, you will explore advanced optimization
+
+    methods, such as Bayesian and Genetic algorithms.
+
+
+    These informed search techniques are demonstrated through practical
+
+    examples, allowing you to compare and contrast them with uninformed search
+
+    methods. By the end, you will have a comprehensive understanding of how to
+
+    optimize hyperparameters effectively to improve model performance​.'
+  chapters:
+  - chapter_index: 1
+    title: Hyperparameters and Parameters
+    summary: 'In this introductory chapter you will learn the difference between
+
+      hyperparameters and parameters. You will practice extracting and
+
+      analyzing parameters, setting hyperparameter values for several
+
+      popular machine learning algorithms. Along the way you will learn
+
+      some best practice tips & tricks for choosing which hyperparameters
+
+      to tune and what values to set & build learning curves to analyze
+
+      your hyperparameter choices.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 2
+    title: Grid search
+    summary: 'This chapter introduces you to a popular automated hyperparameter
+
+      tuning methodology called Grid Search. You will learn what it is,
+
+      how it works and practice undertaking a Grid Search using Scikit
+
+      Learn. You will then learn how to analyze the output of a Grid
+
+      Search & gain practical experience doing this.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 3
+    title: Random Search
+    summary: 'In this chapter you will be introduced to another popular automated
+
+      hyperparameter tuning methodology called Random Search. You will
+
+      learn what it is, how it works and importantly how it differs from
+
+      grid search. You will learn some advantages and disadvantages of
+
+      this method and when to choose this method compared to Grid Search.
+
+      You will practice undertaking a Random Search with Scikit Learn as
+
+      well as visualizing & interpreting the output.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 4
+    title: Informed Search
+    summary: 'In this final chapter you will be given a taste of more advanced
+
+      hyperparameter tuning methodologies known as ''''informed search''''.
+
+      This includes a methodology known as Coarse To Fine as well as
+
+      Bayesian & Genetic hyperparameter tuning algorithms. You will learn
+
+      how informed search differs from uninformed search and gain
+
+      practical skills with each of the mentioned methodologies, comparing
+
+      and contrasting them as you go.'
+    source: syllabus
+    confidence: 1.0
+  metadata:
+    level: Intermediate
+    duration_hours: 4 hours
+    subjects:
+    - Hyperparameter Optimization
+    - Machine Learning
+    - Python
+    - Genetic Algorithms
+    - Hyperparameter Tuning
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: hyperparameters
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: hyperparameters'
+  evidence:
+  - source: syllabus
+    text: Hyperparameters and Parameters
+  confidence: 0.55
+- topic_id: t002
+  label: parameters
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: parameters'
+  evidence:
+  - source: syllabus
+    text: Hyperparameters and Parameters
+  confidence: 0.55
+- topic_id: t003
+  label: grid search
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: grid search'
+  evidence:
+  - source: syllabus
+    text: Grid search
+  confidence: 0.45
+- topic_id: t004
+  label: random search
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: random search'
+  evidence:
+  - source: syllabus
+    text: Random Search
+  confidence: 0.45
+- topic_id: t005
+  label: informed search
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: informed search'
+  evidence:
+  - source: syllabus
+    text: Informed Search
+  confidence: 0.45
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: hyperparameters
+  aliases:
+  - hyperparameters
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: parameters
+  aliases:
+  - parameters
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: grid search
+  aliases:
+  - grid search
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: random search
+  aliases:
+  - random search
+  member_topic_ids:
+  - t004
+  topic_type: concept
+- canonical_topic_id: ct_005
+  label: informed search
+  aliases:
+  - informed search
+  member_topic_ids:
+  - t005
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - hyperparameters
+  family: entry
+  pattern: What is {x}?
+  question_text: What is hyperparameters?
+- candidate_id: q0002
+  relevant_topics:
+  - hyperparameters
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does hyperparameters mean?
+- candidate_id: q0003
+  relevant_topics:
+  - hyperparameters
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does hyperparameters matter?
+- candidate_id: q0004
+  relevant_topics:
+  - hyperparameters
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use hyperparameters?
+- candidate_id: q0005
+  relevant_topics:
+  - hyperparameters
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of hyperparameters?
+- candidate_id: q0006
+  relevant_topics:
+  - parameters
+  family: entry
+  pattern: What is {x}?
+  question_text: What is parameters?
+- candidate_id: q0007
+  relevant_topics:
+  - parameters
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does parameters mean?
+- candidate_id: q0008
+  relevant_topics:
+  - parameters
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does parameters matter?
+- candidate_id: q0009
+  relevant_topics:
+  - parameters
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use parameters?
+- candidate_id: q0010
+  relevant_topics:
+  - parameters
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of parameters?
+- candidate_id: q0011
+  relevant_topics:
+  - grid search
+  family: entry
+  pattern: What is {x}?
+  question_text: What is grid search?
+- candidate_id: q0012
+  relevant_topics:
+  - grid search
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does grid search mean?
+- candidate_id: q0013
+  relevant_topics:
+  - grid search
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does grid search matter?
+- candidate_id: q0014
+  relevant_topics:
+  - grid search
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use grid search?
+- candidate_id: q0015
+  relevant_topics:
+  - grid search
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of grid search?
+- candidate_id: q0016
+  relevant_topics:
+  - random search
+  family: entry
+  pattern: What is {x}?
+  question_text: What is random search?
+- candidate_id: q0017
+  relevant_topics:
+  - random search
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does random search mean?
+- candidate_id: q0018
+  relevant_topics:
+  - random search
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does random search matter?
+- candidate_id: q0019
+  relevant_topics:
+  - random search
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use random search?
+- candidate_id: q0020
+  relevant_topics:
+  - random search
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of random search?
+- candidate_id: q0021
+  relevant_topics:
+  - informed search
+  family: entry
+  pattern: What is {x}?
+  question_text: What is informed search?
+- candidate_id: q0022
+  relevant_topics:
+  - informed search
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does informed search mean?
+- candidate_id: q0023
+  relevant_topics:
+  - informed search
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does informed search matter?
+- candidate_id: q0024
+  relevant_topics:
+  - informed search
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use informed search?
+- candidate_id: q0025
+  relevant_topics:
+  - informed search
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of informed search?
+- candidate_id: q0026
+  relevant_topics:
+  - hyperparameters
+  - parameters
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is hyperparameters different from parameters?
+- candidate_id: q0027
+  relevant_topics:
+  - hyperparameters
+  - grid search
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is hyperparameters different from grid search?
+- candidate_id: q0028
+  relevant_topics:
+  - hyperparameters
+  - random search
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is hyperparameters different from random search?
+- candidate_id: q0029
+  relevant_topics:
+  - hyperparameters
+  - informed search
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is hyperparameters different from informed search?
+- candidate_id: q0030
+  relevant_topics:
+  - parameters
+  - grid search
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is parameters different from grid search?
+- candidate_id: q0031
+  relevant_topics:
+  - parameters
+  - random search
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is parameters different from random search?
+- candidate_id: q0032
+  relevant_topics:
+  - parameters
+  - informed search
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is parameters different from informed search?
+- candidate_id: q0033
+  relevant_topics:
+  - grid search
+  - random search
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is grid search different from random search?
+- candidate_id: q0034
+  relevant_topics:
+  - grid search
+  - informed search
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is grid search different from informed search?
+- candidate_id: q0035
+  relevant_topics:
+  - random search
+  - informed search
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is random search different from informed search?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is hyperparameters?
+  final_text: What is hyperparameters?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does hyperparameters mean?
+  final_text: What does hyperparameters mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does hyperparameters matter?
+  final_text: Why does hyperparameters matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use hyperparameters?
+  final_text: Why does hyperparameters?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of hyperparameters?
+  final_text: What is a simple example of hyperparameters?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is parameters?
+  final_text: What is parameters?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does parameters mean?
+  final_text: What does parameters mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does parameters matter?
+  final_text: Why does parameters matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use parameters?
+  final_text: Why does parameters?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of parameters?
+  final_text: What is a simple example of parameters?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is grid search?
+  final_text: What is grid search?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does grid search mean?
+  final_text: What does grid search mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does grid search matter?
+  final_text: Why does grid search matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use grid search?
+  final_text: Why does grid search?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of grid search?
+  final_text: What is a simple example of grid search?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is random search?
+  final_text: What is random search?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does random search mean?
+  final_text: What does random search mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does random search matter?
+  final_text: Why does random search matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use random search?
+  final_text: Why does random search?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of random search?
+  final_text: What is a simple example of random search?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: What is informed search?
+  final_text: What is informed search?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: What does informed search mean?
+  final_text: What does informed search mean?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: Why does informed search matter?
+  final_text: Why does informed search matter?
+  reject_reason: null
+- candidate_id: q0024
+  status: repaired
+  original_text: Why do we use informed search?
+  final_text: Why does informed search?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: What is a simple example of informed search?
+  final_text: What is a simple example of informed search?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: How is hyperparameters different from parameters?
+  final_text: How is hyperparameters different from parameters?
+  reject_reason: null
+- candidate_id: q0027
+  status: accepted
+  original_text: How is hyperparameters different from grid search?
+  final_text: How is hyperparameters different from grid search?
+  reject_reason: null
+- candidate_id: q0028
+  status: accepted
+  original_text: How is hyperparameters different from random search?
+  final_text: How is hyperparameters different from random search?
+  reject_reason: null
+- candidate_id: q0029
+  status: accepted
+  original_text: How is hyperparameters different from informed search?
+  final_text: How is hyperparameters different from informed search?
+  reject_reason: null
+- candidate_id: q0030
+  status: accepted
+  original_text: How is parameters different from grid search?
+  final_text: How is parameters different from grid search?
+  reject_reason: null
+- candidate_id: q0031
+  status: accepted
+  original_text: How is parameters different from random search?
+  final_text: How is parameters different from random search?
+  reject_reason: null
+- candidate_id: q0032
+  status: accepted
+  original_text: How is parameters different from informed search?
+  final_text: How is parameters different from informed search?
+  reject_reason: null
+- candidate_id: q0033
+  status: accepted
+  original_text: How is grid search different from random search?
+  final_text: How is grid search different from random search?
+  reject_reason: null
+- candidate_id: q0034
+  status: accepted
+  original_text: How is grid search different from informed search?
+  final_text: How is grid search different from informed search?
+  reject_reason: null
+- candidate_id: q0035
+  status: accepted
+  original_text: How is random search different from informed search?
+  final_text: How is random search different from informed search?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is hyperparameters?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does hyperparameters mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does hyperparameters matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does hyperparameters?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of hyperparameters?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is parameters?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does parameters mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does parameters matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does parameters?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of parameters?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is grid search?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does grid search mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does grid search matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does grid search?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of grid search?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is random search?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does random search mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does random search matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does random search?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of random search?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: What is informed search?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: What does informed search mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: Why does informed search matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: Why does informed search?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: What is a simple example of informed search?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: How is hyperparameters different from parameters?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0027
+  question_text: How is hyperparameters different from grid search?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0028
+  question_text: How is hyperparameters different from random search?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0029
+  question_text: How is hyperparameters different from informed search?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0030
+  question_text: How is parameters different from grid search?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0031
+  question_text: How is parameters different from random search?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0032
+  question_text: How is parameters different from informed search?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0033
+  question_text: How is grid search different from random search?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0034
+  question_text: How is grid search different from informed search?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0035
+  question_text: How is random search different from informed search?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24514'
+    title: Hyperparameter Tuning in Python
+  relevant_topics:
+  - hyperparameters
+  question_text: What is hyperparameters?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24514'
+    title: Hyperparameter Tuning in Python
+  relevant_topics:
+  - hyperparameters
+  question_text: What does hyperparameters mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24514'
+    title: Hyperparameter Tuning in Python
+  relevant_topics:
+  - hyperparameters
+  question_text: Why does hyperparameters matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24514'
+    title: Hyperparameter Tuning in Python
+  relevant_topics:
+  - hyperparameters
+  question_text: Why does hyperparameters?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24514'
+    title: Hyperparameter Tuning in Python
+  relevant_topics:
+  - hyperparameters
+  question_text: What is a simple example of hyperparameters?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24514'
+    title: Hyperparameter Tuning in Python
+  relevant_topics:
+  - parameters
+  question_text: What is parameters?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24514'
+    title: Hyperparameter Tuning in Python
+  relevant_topics:
+  - parameters
+  question_text: What does parameters mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24514'
+    title: Hyperparameter Tuning in Python
+  relevant_topics:
+  - parameters
+  question_text: Why does parameters matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24514'
+    title: Hyperparameter Tuning in Python
+  relevant_topics:
+  - parameters
+  question_text: Why does parameters?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24514'
+    title: Hyperparameter Tuning in Python
+  relevant_topics:
+  - parameters
+  question_text: What is a simple example of parameters?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24514'
+    title: Hyperparameter Tuning in Python
+  relevant_topics:
+  - grid search
+  question_text: What is grid search?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24514'
+    title: Hyperparameter Tuning in Python
+  relevant_topics:
+  - grid search
+  question_text: What does grid search mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24514'
+    title: Hyperparameter Tuning in Python
+  relevant_topics:
+  - grid search
+  question_text: Why does grid search matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24514'
+    title: Hyperparameter Tuning in Python
+  relevant_topics:
+  - grid search
+  question_text: Why does grid search?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24514'
+    title: Hyperparameter Tuning in Python
+  relevant_topics:
+  - grid search
+  question_text: What is a simple example of grid search?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24514'
+    title: Hyperparameter Tuning in Python
+  relevant_topics:
+  - random search
+  question_text: What is random search?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24514'
+    title: Hyperparameter Tuning in Python
+  relevant_topics:
+  - random search
+  question_text: What does random search mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24514'
+    title: Hyperparameter Tuning in Python
+  relevant_topics:
+  - random search
+  question_text: Why does random search matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24514'
+    title: Hyperparameter Tuning in Python
+  relevant_topics:
+  - random search
+  question_text: Why does random search?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24514'
+    title: Hyperparameter Tuning in Python
+  relevant_topics:
+  - random search
+  question_text: What is a simple example of random search?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24514'
+    title: Hyperparameter Tuning in Python
+  relevant_topics:
+  - informed search
+  question_text: What is informed search?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24514'
+    title: Hyperparameter Tuning in Python
+  relevant_topics:
+  - informed search
+  question_text: What does informed search mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24514'
+    title: Hyperparameter Tuning in Python
+  relevant_topics:
+  - informed search
+  question_text: Why does informed search matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24514'
+    title: Hyperparameter Tuning in Python
+  relevant_topics:
+  - informed search
+  question_text: Why does informed search?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24514'
+    title: Hyperparameter Tuning in Python
+  relevant_topics:
+  - informed search
+  question_text: What is a simple example of informed search?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24514'
+    title: Hyperparameter Tuning in Python
+  relevant_topics:
+  - hyperparameters
+  - parameters
+  question_text: How is hyperparameters different from parameters?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000027
+  course:
+    course_id: '24514'
+    title: Hyperparameter Tuning in Python
+  relevant_topics:
+  - hyperparameters
+  - grid search
+  question_text: How is hyperparameters different from grid search?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000028
+  course:
+    course_id: '24514'
+    title: Hyperparameter Tuning in Python
+  relevant_topics:
+  - hyperparameters
+  - random search
+  question_text: How is hyperparameters different from random search?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000029
+  course:
+    course_id: '24514'
+    title: Hyperparameter Tuning in Python
+  relevant_topics:
+  - hyperparameters
+  - informed search
+  question_text: How is hyperparameters different from informed search?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000030
+  course:
+    course_id: '24514'
+    title: Hyperparameter Tuning in Python
+  relevant_topics:
+  - parameters
+  - grid search
+  question_text: How is parameters different from grid search?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000031
+  course:
+    course_id: '24514'
+    title: Hyperparameter Tuning in Python
+  relevant_topics:
+  - parameters
+  - random search
+  question_text: How is parameters different from random search?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000032
+  course:
+    course_id: '24514'
+    title: Hyperparameter Tuning in Python
+  relevant_topics:
+  - parameters
+  - informed search
+  question_text: How is parameters different from informed search?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000033
+  course:
+    course_id: '24514'
+    title: Hyperparameter Tuning in Python
+  relevant_topics:
+  - grid search
+  - random search
+  question_text: How is grid search different from random search?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000034
+  course:
+    course_id: '24514'
+    title: Hyperparameter Tuning in Python
+  relevant_topics:
+  - grid search
+  - informed search
+  question_text: How is grid search different from informed search?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000035
+  course:
+    course_id: '24514'
+    title: Hyperparameter Tuning in Python
+  relevant_topics:
+  - random search
+  - informed search
+  question_text: How is random search different from informed search?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 5
+  canonical_topic_count: 5
+  candidate_count: 35
+  accepted_count: 35
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 35

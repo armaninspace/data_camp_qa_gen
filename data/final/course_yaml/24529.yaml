@@ -1,0 +1,1035 @@
+course_id: '24529'
+title: Introduction to Linear Modeling in Python
+normalized_course:
+  course_id: '24529'
+  title: Introduction to Linear Modeling in Python
+  provider: DataCamp
+  summary: 'Explore the concepts and applications of linear models with python and
+    build
+
+    models to describe, predict, and extract insight from data patterns.'
+  overview: 'Explore the concepts and applications of linear models with python and
+    build
+
+    models to describe, predict, and extract insight from data patterns.
+
+
+    One of the primary goals of any scientist is to find patterns in data and
+
+    build models to describe, predict, and extract insight from those patterns.
+
+    The most fundamental of these patterns is a linear relationship between two
+
+    variables. This course provides an introduction to exploring, quantifying,
+
+    and modeling linear relationships in data, by demonstrating techniques such
+
+    as least-squares, linear regression, estimatation, and bootstrap resampling.
+
+    Here you will apply the most powerful modeling tools in the python data
+
+    science ecosystem, including scipy, statsmodels, and scikit-learn, to build
+
+    and evaluate linear models. By exploring the concepts and applications of
+
+    linear models with python, this course serves as both a practical
+
+    introduction to modeling, and as a foundation for learning more advanced
+
+    modeling techniques and tools in statistics and machine learning.'
+  chapters:
+  - chapter_index: 1
+    title: Exploring Linear Trends
+    summary: 'We start the course with an initial exploration of linear
+
+      relationships, including some motivating examples of how linear
+
+      models are used, and demonstrations of data visualization methods
+
+      from matplotlib. We then use descriptive statistics to quantify the
+
+      shape of our data and use correlation to quantify the strength of
+
+      linear relationships between two variables.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 2
+    title: Building Linear Models
+    summary: 'Here we look at the parts that go into building a linear model.
+
+      Using the concept of a Taylor Series, we focus on the parameters
+
+      slope and intercept, how they define the model, and how to interpret
+
+      the them in several applied contexts. We apply a variety of python
+
+      modules to find the model that best fits the data, by computing the
+
+      optimal values of slope and intercept, using least-squares, numpy,
+
+      statsmodels, and scikit-learn.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 3
+    title: Making Model Predictions
+    summary: 'Next we will apply models to real data and make predictions. We will
+
+      explore some of the most common pit-falls and limitations of
+
+      predictions, and we evaluate and compare models by quantifying and
+
+      contrasting several measures of goodness-of-fit, including RMSE and
+
+      R-squared.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 4
+    title: Estimating Model Parameters
+    summary: 'In our final chapter, we introduce concepts from inferential
+
+      statistics, and use them to explore how maximum likelihood
+
+      estimation and bootstrap resampling can be used to estimate linear
+
+      model parameters. We then apply these methods to make probabilistic
+
+      statements about our confidence in the model parameters.'
+    source: syllabus
+    confidence: 1.0
+  metadata:
+    level: Intermediate
+    duration_hours: 4 hours
+    subjects:
+    - Python
+    - Data Visualization
+    - NumPy
+    - scikit-learn
+    - Taylor Series
+    - Descriptive Statistics
+    - Correlation
+    - Statsmodels
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: exploring linear trends
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: exploring linear trends'
+  evidence:
+  - source: syllabus
+    text: Exploring Linear Trends
+  confidence: 0.45
+- topic_id: t002
+  label: building linear models
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: building linear models'
+  evidence:
+  - source: syllabus
+    text: Building Linear Models
+  confidence: 0.45
+- topic_id: t003
+  label: making model predictions
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: making model predictions'
+  evidence:
+  - source: syllabus
+    text: Making Model Predictions
+  confidence: 0.45
+- topic_id: t004
+  label: estimating model parameters
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: estimating model parameters'
+  evidence:
+  - source: syllabus
+    text: Estimating Model Parameters
+  confidence: 0.45
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: exploring linear trends
+  aliases:
+  - exploring linear trends
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: building linear model
+  aliases:
+  - building linear models
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: making model predictions
+  aliases:
+  - making model predictions
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: estimating model parameters
+  aliases:
+  - estimating model parameters
+  member_topic_ids:
+  - t004
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - exploring linear trends
+  family: entry
+  pattern: What is {x}?
+  question_text: What is exploring linear trends?
+- candidate_id: q0002
+  relevant_topics:
+  - exploring linear trends
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does exploring linear trends mean?
+- candidate_id: q0003
+  relevant_topics:
+  - exploring linear trends
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does exploring linear trends matter?
+- candidate_id: q0004
+  relevant_topics:
+  - exploring linear trends
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use exploring linear trends?
+- candidate_id: q0005
+  relevant_topics:
+  - exploring linear trends
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of exploring linear trends?
+- candidate_id: q0006
+  relevant_topics:
+  - building linear model
+  family: entry
+  pattern: What is {x}?
+  question_text: What is building linear model?
+- candidate_id: q0007
+  relevant_topics:
+  - building linear model
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does building linear model mean?
+- candidate_id: q0008
+  relevant_topics:
+  - building linear model
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does building linear model matter?
+- candidate_id: q0009
+  relevant_topics:
+  - building linear model
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use building linear model?
+- candidate_id: q0010
+  relevant_topics:
+  - building linear model
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of building linear model?
+- candidate_id: q0011
+  relevant_topics:
+  - making model predictions
+  family: entry
+  pattern: What is {x}?
+  question_text: What is making model predictions?
+- candidate_id: q0012
+  relevant_topics:
+  - making model predictions
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does making model predictions mean?
+- candidate_id: q0013
+  relevant_topics:
+  - making model predictions
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does making model predictions matter?
+- candidate_id: q0014
+  relevant_topics:
+  - making model predictions
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use making model predictions?
+- candidate_id: q0015
+  relevant_topics:
+  - making model predictions
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of making model predictions?
+- candidate_id: q0016
+  relevant_topics:
+  - estimating model parameters
+  family: entry
+  pattern: What is {x}?
+  question_text: What is estimating model parameters?
+- candidate_id: q0017
+  relevant_topics:
+  - estimating model parameters
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does estimating model parameters mean?
+- candidate_id: q0018
+  relevant_topics:
+  - estimating model parameters
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does estimating model parameters matter?
+- candidate_id: q0019
+  relevant_topics:
+  - estimating model parameters
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use estimating model parameters?
+- candidate_id: q0020
+  relevant_topics:
+  - estimating model parameters
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of estimating model parameters?
+- candidate_id: q0021
+  relevant_topics:
+  - exploring linear trends
+  - building linear model
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is exploring linear trends different from building linear model?
+- candidate_id: q0022
+  relevant_topics:
+  - exploring linear trends
+  - making model predictions
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is exploring linear trends different from making model predictions?
+- candidate_id: q0023
+  relevant_topics:
+  - exploring linear trends
+  - estimating model parameters
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is exploring linear trends different from estimating model parameters?
+- candidate_id: q0024
+  relevant_topics:
+  - building linear model
+  - making model predictions
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is building linear model different from making model predictions?
+- candidate_id: q0025
+  relevant_topics:
+  - building linear model
+  - estimating model parameters
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is building linear model different from estimating model parameters?
+- candidate_id: q0026
+  relevant_topics:
+  - making model predictions
+  - estimating model parameters
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is making model predictions different from estimating model parameters?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is exploring linear trends?
+  final_text: What is exploring linear trends?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does exploring linear trends mean?
+  final_text: What does exploring linear trends mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does exploring linear trends matter?
+  final_text: Why does exploring linear trends matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use exploring linear trends?
+  final_text: Why does exploring linear trends?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of exploring linear trends?
+  final_text: What is a simple example of exploring linear trends?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is building linear model?
+  final_text: What is building linear model?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does building linear model mean?
+  final_text: What does building linear model mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does building linear model matter?
+  final_text: Why does building linear model matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use building linear model?
+  final_text: Why does building linear model?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of building linear model?
+  final_text: What is a simple example of building linear model?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is making model predictions?
+  final_text: What is making model predictions?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does making model predictions mean?
+  final_text: What does making model predictions mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does making model predictions matter?
+  final_text: Why does making model predictions matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use making model predictions?
+  final_text: Why does making model predictions?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of making model predictions?
+  final_text: What is a simple example of making model predictions?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is estimating model parameters?
+  final_text: What is estimating model parameters?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does estimating model parameters mean?
+  final_text: What does estimating model parameters mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does estimating model parameters matter?
+  final_text: Why does estimating model parameters matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use estimating model parameters?
+  final_text: Why does estimating model parameters?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of estimating model parameters?
+  final_text: What is a simple example of estimating model parameters?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: How is exploring linear trends different from building linear model?
+  final_text: How is exploring linear trends different from building linear model?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: How is exploring linear trends different from making model predictions?
+  final_text: How is exploring linear trends different from making model predictions?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: How is exploring linear trends different from estimating model parameters?
+  final_text: How is exploring linear trends different from estimating model parameters?
+  reject_reason: null
+- candidate_id: q0024
+  status: accepted
+  original_text: How is building linear model different from making model predictions?
+  final_text: How is building linear model different from making model predictions?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: How is building linear model different from estimating model parameters?
+  final_text: How is building linear model different from estimating model parameters?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: How is making model predictions different from estimating model parameters?
+  final_text: How is making model predictions different from estimating model parameters?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is exploring linear trends?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does exploring linear trends mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does exploring linear trends matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does exploring linear trends?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of exploring linear trends?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is building linear model?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does building linear model mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does building linear model matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does building linear model?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of building linear model?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is making model predictions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does making model predictions mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does making model predictions matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does making model predictions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of making model predictions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is estimating model parameters?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does estimating model parameters mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does estimating model parameters matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does estimating model parameters?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of estimating model parameters?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: How is exploring linear trends different from building linear model?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: How is exploring linear trends different from making model predictions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: How is exploring linear trends different from estimating model parameters?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: How is building linear model different from making model predictions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: How is building linear model different from estimating model parameters?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: How is making model predictions different from estimating model parameters?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24529'
+    title: Introduction to Linear Modeling in Python
+  relevant_topics:
+  - exploring linear trends
+  question_text: What is exploring linear trends?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24529'
+    title: Introduction to Linear Modeling in Python
+  relevant_topics:
+  - exploring linear trends
+  question_text: What does exploring linear trends mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24529'
+    title: Introduction to Linear Modeling in Python
+  relevant_topics:
+  - exploring linear trends
+  question_text: Why does exploring linear trends matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24529'
+    title: Introduction to Linear Modeling in Python
+  relevant_topics:
+  - exploring linear trends
+  question_text: Why does exploring linear trends?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24529'
+    title: Introduction to Linear Modeling in Python
+  relevant_topics:
+  - exploring linear trends
+  question_text: What is a simple example of exploring linear trends?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24529'
+    title: Introduction to Linear Modeling in Python
+  relevant_topics:
+  - building linear model
+  question_text: What is building linear model?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24529'
+    title: Introduction to Linear Modeling in Python
+  relevant_topics:
+  - building linear model
+  question_text: What does building linear model mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24529'
+    title: Introduction to Linear Modeling in Python
+  relevant_topics:
+  - building linear model
+  question_text: Why does building linear model matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24529'
+    title: Introduction to Linear Modeling in Python
+  relevant_topics:
+  - building linear model
+  question_text: Why does building linear model?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24529'
+    title: Introduction to Linear Modeling in Python
+  relevant_topics:
+  - building linear model
+  question_text: What is a simple example of building linear model?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24529'
+    title: Introduction to Linear Modeling in Python
+  relevant_topics:
+  - making model predictions
+  question_text: What is making model predictions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24529'
+    title: Introduction to Linear Modeling in Python
+  relevant_topics:
+  - making model predictions
+  question_text: What does making model predictions mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24529'
+    title: Introduction to Linear Modeling in Python
+  relevant_topics:
+  - making model predictions
+  question_text: Why does making model predictions matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24529'
+    title: Introduction to Linear Modeling in Python
+  relevant_topics:
+  - making model predictions
+  question_text: Why does making model predictions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24529'
+    title: Introduction to Linear Modeling in Python
+  relevant_topics:
+  - making model predictions
+  question_text: What is a simple example of making model predictions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24529'
+    title: Introduction to Linear Modeling in Python
+  relevant_topics:
+  - estimating model parameters
+  question_text: What is estimating model parameters?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24529'
+    title: Introduction to Linear Modeling in Python
+  relevant_topics:
+  - estimating model parameters
+  question_text: What does estimating model parameters mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24529'
+    title: Introduction to Linear Modeling in Python
+  relevant_topics:
+  - estimating model parameters
+  question_text: Why does estimating model parameters matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24529'
+    title: Introduction to Linear Modeling in Python
+  relevant_topics:
+  - estimating model parameters
+  question_text: Why does estimating model parameters?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24529'
+    title: Introduction to Linear Modeling in Python
+  relevant_topics:
+  - estimating model parameters
+  question_text: What is a simple example of estimating model parameters?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24529'
+    title: Introduction to Linear Modeling in Python
+  relevant_topics:
+  - exploring linear trends
+  - building linear model
+  question_text: How is exploring linear trends different from building linear model?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24529'
+    title: Introduction to Linear Modeling in Python
+  relevant_topics:
+  - exploring linear trends
+  - making model predictions
+  question_text: How is exploring linear trends different from making model predictions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24529'
+    title: Introduction to Linear Modeling in Python
+  relevant_topics:
+  - exploring linear trends
+  - estimating model parameters
+  question_text: How is exploring linear trends different from estimating model parameters?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24529'
+    title: Introduction to Linear Modeling in Python
+  relevant_topics:
+  - building linear model
+  - making model predictions
+  question_text: How is building linear model different from making model predictions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24529'
+    title: Introduction to Linear Modeling in Python
+  relevant_topics:
+  - building linear model
+  - estimating model parameters
+  question_text: How is building linear model different from estimating model parameters?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24529'
+    title: Introduction to Linear Modeling in Python
+  relevant_topics:
+  - making model predictions
+  - estimating model parameters
+  question_text: How is making model predictions different from estimating model parameters?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 4
+  canonical_topic_count: 4
+  candidate_count: 26
+  accepted_count: 26
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 26

@@ -1,0 +1,2481 @@
+course_id: '24516'
+title: Improving Query Performance in SQL Server
+normalized_course:
+  course_id: '24516'
+  title: Improving Query Performance in SQL Server
+  provider: DataCamp
+  summary: 'In this course, students will learn to write queries that are both efficient
+
+    and easy to read and understand.'
+  overview: 'Introduction, Review and The Order of Things
+
+
+    In this chapter, students will learn how SQL code formatting, commenting,
+
+    and aliasing is used to make queries easy to read and understand. Students
+
+    will also be introduced to query processing order in the database versus the
+
+    order of the SQL syntax in a query.
+
+
+    Filtering and Data Interrogation
+
+
+    This chapter introduces filtering with WHERE and HAVING and some best
+
+    practices for how (and how not) to use these keywords. Next, it explains the
+
+    methods used to interrogate data and the effects these may have on
+
+    performance. Finally, the chapter goes over the roles of DISTINCT() and
+
+    UNION in removing duplicates and their potential effects on performance.
+
+
+    Sub-queries and presence or absence
+
+
+    This chapter is an introduction to sub-queries and their potential impacts
+
+    on query performance. It also examines the different methods used to
+
+    determine if the data in one table is present, or absent, in a related
+
+    table.
+
+
+    Query performance tuning
+
+
+    Students are introduced to how STATISTICS TIME, STATISTICS IO, indexes, and
+
+    executions plans can be used in SQL Server to help analyze and tune query
+
+    performance.'
+  chapters:
+  - chapter_index: 1
+    title: Introduction, Review and The Order of Things
+    summary: 'In this chapter, students will learn how SQL code formatting,
+
+      commenting, and aliasing is used to make queries easy to read and
+
+      understand. Students will also be introduced to query processing
+
+      order in the database versus the order of the SQL syntax in a query.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 2
+    title: Filtering and Data Interrogation
+    summary: 'This chapter introduces filtering with WHERE and HAVING and some
+
+      best practices for how (and how not) to use these keywords. Next, it
+
+      explains the methods used to interrogate data and the effects these
+
+      may have on performance. Finally, the chapter goes over the roles of
+
+      DISTINCT() and UNION in removing duplicates and their potential
+
+      effects on performance.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 3
+    title: Sub-queries and presence or absence
+    summary: 'This chapter is an introduction to sub-queries and their potential
+
+      impacts on query performance. It also examines the different methods
+
+      used to determine if the data in one table is present, or absent, in
+
+      a related table.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 4
+    title: Query performance tuning
+    summary: 'Students are introduced to how STATISTICS TIME, STATISTICS IO,
+
+      indexes, and executions plans can be used in SQL Server to help
+
+      analyze and tune query performance.'
+    source: syllabus
+    confidence: 1.0
+  metadata:
+    level: Intermediate
+    duration_hours: 4 hours
+    subjects:
+    - SQL
+    - Relational Databases
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: introduction, review
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: introduction, review'
+  evidence:
+  - source: syllabus
+    text: Introduction, Review and The Order of Things
+  confidence: 0.55
+- topic_id: t002
+  label: the order of things
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: the order of things'
+  evidence:
+  - source: syllabus
+    text: Introduction, Review and The Order of Things
+  confidence: 0.55
+- topic_id: t003
+  label: filtering
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: filtering'
+  evidence:
+  - source: syllabus
+    text: Filtering and Data Interrogation
+  confidence: 0.55
+- topic_id: t004
+  label: data interrogation
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: data interrogation'
+  evidence:
+  - source: syllabus
+    text: Filtering and Data Interrogation
+  confidence: 0.55
+- topic_id: t005
+  label: sub-queries
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: sub-queries'
+  evidence:
+  - source: syllabus
+    text: Sub-queries and presence or absence
+  confidence: 0.55
+- topic_id: t006
+  label: presence or absence
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: presence or absence'
+  evidence:
+  - source: syllabus
+    text: Sub-queries and presence or absence
+  confidence: 0.55
+- topic_id: t007
+  label: query performance tuning
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: query performance tuning'
+  evidence:
+  - source: syllabus
+    text: Query performance tuning
+  confidence: 0.45
+- topic_id: t008
+  label: duplicates
+  topic_type: concept
+  description: 'Topic mined from course text: duplicates'
+  evidence:
+  - source: overview
+    text: duplicates
+  confidence: 0.75
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: introduction, review
+  aliases:
+  - introduction, review
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: order of things
+  aliases:
+  - the order of things
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: filtering
+  aliases:
+  - filtering
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: data interrogation
+  aliases:
+  - data interrogation
+  member_topic_ids:
+  - t004
+  topic_type: concept
+- canonical_topic_id: ct_005
+  label: sub-queries
+  aliases:
+  - sub-queries
+  member_topic_ids:
+  - t005
+  topic_type: concept
+- canonical_topic_id: ct_006
+  label: presence or absence
+  aliases:
+  - presence or absence
+  member_topic_ids:
+  - t006
+  topic_type: concept
+- canonical_topic_id: ct_007
+  label: query performance tuning
+  aliases:
+  - query performance tuning
+  member_topic_ids:
+  - t007
+  topic_type: concept
+- canonical_topic_id: ct_008
+  label: duplicates
+  aliases:
+  - duplicates
+  member_topic_ids:
+  - t008
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - introduction, review
+  family: entry
+  pattern: What is {x}?
+  question_text: What is introduction, review?
+- candidate_id: q0002
+  relevant_topics:
+  - introduction, review
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does introduction, review mean?
+- candidate_id: q0003
+  relevant_topics:
+  - introduction, review
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does introduction, review matter?
+- candidate_id: q0004
+  relevant_topics:
+  - introduction, review
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use introduction, review?
+- candidate_id: q0005
+  relevant_topics:
+  - introduction, review
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of introduction, review?
+- candidate_id: q0006
+  relevant_topics:
+  - order of things
+  family: entry
+  pattern: What is {x}?
+  question_text: What is order of things?
+- candidate_id: q0007
+  relevant_topics:
+  - order of things
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does order of things mean?
+- candidate_id: q0008
+  relevant_topics:
+  - order of things
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does order of things matter?
+- candidate_id: q0009
+  relevant_topics:
+  - order of things
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use order of things?
+- candidate_id: q0010
+  relevant_topics:
+  - order of things
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of order of things?
+- candidate_id: q0011
+  relevant_topics:
+  - filtering
+  family: entry
+  pattern: What is {x}?
+  question_text: What is filtering?
+- candidate_id: q0012
+  relevant_topics:
+  - filtering
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does filtering mean?
+- candidate_id: q0013
+  relevant_topics:
+  - filtering
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does filtering matter?
+- candidate_id: q0014
+  relevant_topics:
+  - filtering
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use filtering?
+- candidate_id: q0015
+  relevant_topics:
+  - filtering
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of filtering?
+- candidate_id: q0016
+  relevant_topics:
+  - data interrogation
+  family: entry
+  pattern: What is {x}?
+  question_text: What is data interrogation?
+- candidate_id: q0017
+  relevant_topics:
+  - data interrogation
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does data interrogation mean?
+- candidate_id: q0018
+  relevant_topics:
+  - data interrogation
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does data interrogation matter?
+- candidate_id: q0019
+  relevant_topics:
+  - data interrogation
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use data interrogation?
+- candidate_id: q0020
+  relevant_topics:
+  - data interrogation
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of data interrogation?
+- candidate_id: q0021
+  relevant_topics:
+  - sub-queries
+  family: entry
+  pattern: What is {x}?
+  question_text: What is sub-queries?
+- candidate_id: q0022
+  relevant_topics:
+  - sub-queries
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does sub-queries mean?
+- candidate_id: q0023
+  relevant_topics:
+  - sub-queries
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does sub-queries matter?
+- candidate_id: q0024
+  relevant_topics:
+  - sub-queries
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use sub-queries?
+- candidate_id: q0025
+  relevant_topics:
+  - sub-queries
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of sub-queries?
+- candidate_id: q0026
+  relevant_topics:
+  - presence or absence
+  family: entry
+  pattern: What is {x}?
+  question_text: What is presence or absence?
+- candidate_id: q0027
+  relevant_topics:
+  - presence or absence
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does presence or absence mean?
+- candidate_id: q0028
+  relevant_topics:
+  - presence or absence
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does presence or absence matter?
+- candidate_id: q0029
+  relevant_topics:
+  - presence or absence
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use presence or absence?
+- candidate_id: q0030
+  relevant_topics:
+  - presence or absence
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of presence or absence?
+- candidate_id: q0031
+  relevant_topics:
+  - query performance tuning
+  family: entry
+  pattern: What is {x}?
+  question_text: What is query performance tuning?
+- candidate_id: q0032
+  relevant_topics:
+  - query performance tuning
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does query performance tuning mean?
+- candidate_id: q0033
+  relevant_topics:
+  - query performance tuning
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does query performance tuning matter?
+- candidate_id: q0034
+  relevant_topics:
+  - query performance tuning
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use query performance tuning?
+- candidate_id: q0035
+  relevant_topics:
+  - query performance tuning
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of query performance tuning?
+- candidate_id: q0036
+  relevant_topics:
+  - duplicates
+  family: entry
+  pattern: What is {x}?
+  question_text: What is duplicates?
+- candidate_id: q0037
+  relevant_topics:
+  - duplicates
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does duplicates mean?
+- candidate_id: q0038
+  relevant_topics:
+  - duplicates
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does duplicates matter?
+- candidate_id: q0039
+  relevant_topics:
+  - duplicates
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use duplicates?
+- candidate_id: q0040
+  relevant_topics:
+  - duplicates
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of duplicates?
+- candidate_id: q0041
+  relevant_topics:
+  - introduction, review
+  - order of things
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction, review different from order of things?
+- candidate_id: q0042
+  relevant_topics:
+  - introduction, review
+  - filtering
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction, review different from filtering?
+- candidate_id: q0043
+  relevant_topics:
+  - introduction, review
+  - data interrogation
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction, review different from data interrogation?
+- candidate_id: q0044
+  relevant_topics:
+  - introduction, review
+  - sub-queries
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction, review different from sub-queries?
+- candidate_id: q0045
+  relevant_topics:
+  - introduction, review
+  - presence or absence
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction, review different from presence or absence?
+- candidate_id: q0046
+  relevant_topics:
+  - introduction, review
+  - query performance tuning
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction, review different from query performance tuning?
+- candidate_id: q0047
+  relevant_topics:
+  - introduction, review
+  - duplicates
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction, review different from duplicates?
+- candidate_id: q0048
+  relevant_topics:
+  - order of things
+  - filtering
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is order of things different from filtering?
+- candidate_id: q0049
+  relevant_topics:
+  - order of things
+  - data interrogation
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is order of things different from data interrogation?
+- candidate_id: q0050
+  relevant_topics:
+  - order of things
+  - sub-queries
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is order of things different from sub-queries?
+- candidate_id: q0051
+  relevant_topics:
+  - order of things
+  - presence or absence
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is order of things different from presence or absence?
+- candidate_id: q0052
+  relevant_topics:
+  - order of things
+  - query performance tuning
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is order of things different from query performance tuning?
+- candidate_id: q0053
+  relevant_topics:
+  - order of things
+  - duplicates
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is order of things different from duplicates?
+- candidate_id: q0054
+  relevant_topics:
+  - filtering
+  - data interrogation
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is filtering different from data interrogation?
+- candidate_id: q0055
+  relevant_topics:
+  - filtering
+  - sub-queries
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is filtering different from sub-queries?
+- candidate_id: q0056
+  relevant_topics:
+  - filtering
+  - presence or absence
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is filtering different from presence or absence?
+- candidate_id: q0057
+  relevant_topics:
+  - filtering
+  - query performance tuning
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is filtering different from query performance tuning?
+- candidate_id: q0058
+  relevant_topics:
+  - filtering
+  - duplicates
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is filtering different from duplicates?
+- candidate_id: q0059
+  relevant_topics:
+  - data interrogation
+  - sub-queries
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is data interrogation different from sub-queries?
+- candidate_id: q0060
+  relevant_topics:
+  - data interrogation
+  - presence or absence
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is data interrogation different from presence or absence?
+- candidate_id: q0061
+  relevant_topics:
+  - data interrogation
+  - query performance tuning
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is data interrogation different from query performance tuning?
+- candidate_id: q0062
+  relevant_topics:
+  - data interrogation
+  - duplicates
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is data interrogation different from duplicates?
+- candidate_id: q0063
+  relevant_topics:
+  - sub-queries
+  - presence or absence
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is sub-queries different from presence or absence?
+- candidate_id: q0064
+  relevant_topics:
+  - sub-queries
+  - query performance tuning
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is sub-queries different from query performance tuning?
+- candidate_id: q0065
+  relevant_topics:
+  - sub-queries
+  - duplicates
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is sub-queries different from duplicates?
+- candidate_id: q0066
+  relevant_topics:
+  - presence or absence
+  - query performance tuning
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is presence or absence different from query performance tuning?
+- candidate_id: q0067
+  relevant_topics:
+  - presence or absence
+  - duplicates
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is presence or absence different from duplicates?
+- candidate_id: q0068
+  relevant_topics:
+  - query performance tuning
+  - duplicates
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is query performance tuning different from duplicates?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is introduction, review?
+  final_text: What is introduction, review?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does introduction, review mean?
+  final_text: What does introduction, review mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does introduction, review matter?
+  final_text: Why does introduction, review matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use introduction, review?
+  final_text: Why does introduction, review?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of introduction, review?
+  final_text: What is a simple example of introduction, review?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is order of things?
+  final_text: What is order of things?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does order of things mean?
+  final_text: What does order of things mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does order of things matter?
+  final_text: Why does order of things matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use order of things?
+  final_text: Why does order of things?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of order of things?
+  final_text: What is a simple example of order of things?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is filtering?
+  final_text: What is filtering?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does filtering mean?
+  final_text: What does filtering mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does filtering matter?
+  final_text: Why does filtering matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use filtering?
+  final_text: Why does filtering?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of filtering?
+  final_text: What is a simple example of filtering?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is data interrogation?
+  final_text: What is data interrogation?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does data interrogation mean?
+  final_text: What does data interrogation mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does data interrogation matter?
+  final_text: Why does data interrogation matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use data interrogation?
+  final_text: Why does data interrogation?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of data interrogation?
+  final_text: What is a simple example of data interrogation?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: What is sub-queries?
+  final_text: What is sub-queries?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: What does sub-queries mean?
+  final_text: What does sub-queries mean?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: Why does sub-queries matter?
+  final_text: Why does sub-queries matter?
+  reject_reason: null
+- candidate_id: q0024
+  status: repaired
+  original_text: Why do we use sub-queries?
+  final_text: Why does sub-queries?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: What is a simple example of sub-queries?
+  final_text: What is a simple example of sub-queries?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: What is presence or absence?
+  final_text: What is presence or absence?
+  reject_reason: null
+- candidate_id: q0027
+  status: accepted
+  original_text: What does presence or absence mean?
+  final_text: What does presence or absence mean?
+  reject_reason: null
+- candidate_id: q0028
+  status: accepted
+  original_text: Why does presence or absence matter?
+  final_text: Why does presence or absence matter?
+  reject_reason: null
+- candidate_id: q0029
+  status: repaired
+  original_text: Why do we use presence or absence?
+  final_text: Why does presence or absence?
+  reject_reason: null
+- candidate_id: q0030
+  status: accepted
+  original_text: What is a simple example of presence or absence?
+  final_text: What is a simple example of presence or absence?
+  reject_reason: null
+- candidate_id: q0031
+  status: accepted
+  original_text: What is query performance tuning?
+  final_text: What is query performance tuning?
+  reject_reason: null
+- candidate_id: q0032
+  status: accepted
+  original_text: What does query performance tuning mean?
+  final_text: What does query performance tuning mean?
+  reject_reason: null
+- candidate_id: q0033
+  status: accepted
+  original_text: Why does query performance tuning matter?
+  final_text: Why does query performance tuning matter?
+  reject_reason: null
+- candidate_id: q0034
+  status: repaired
+  original_text: Why do we use query performance tuning?
+  final_text: Why does query performance tuning?
+  reject_reason: null
+- candidate_id: q0035
+  status: accepted
+  original_text: What is a simple example of query performance tuning?
+  final_text: What is a simple example of query performance tuning?
+  reject_reason: null
+- candidate_id: q0036
+  status: accepted
+  original_text: What is duplicates?
+  final_text: What is duplicates?
+  reject_reason: null
+- candidate_id: q0037
+  status: accepted
+  original_text: What does duplicates mean?
+  final_text: What does duplicates mean?
+  reject_reason: null
+- candidate_id: q0038
+  status: accepted
+  original_text: Why does duplicates matter?
+  final_text: Why does duplicates matter?
+  reject_reason: null
+- candidate_id: q0039
+  status: repaired
+  original_text: Why do we use duplicates?
+  final_text: Why does duplicates?
+  reject_reason: null
+- candidate_id: q0040
+  status: accepted
+  original_text: What is a simple example of duplicates?
+  final_text: What is a simple example of duplicates?
+  reject_reason: null
+- candidate_id: q0041
+  status: accepted
+  original_text: How is introduction, review different from order of things?
+  final_text: How is introduction, review different from order of things?
+  reject_reason: null
+- candidate_id: q0042
+  status: accepted
+  original_text: How is introduction, review different from filtering?
+  final_text: How is introduction, review different from filtering?
+  reject_reason: null
+- candidate_id: q0043
+  status: accepted
+  original_text: How is introduction, review different from data interrogation?
+  final_text: How is introduction, review different from data interrogation?
+  reject_reason: null
+- candidate_id: q0044
+  status: accepted
+  original_text: How is introduction, review different from sub-queries?
+  final_text: How is introduction, review different from sub-queries?
+  reject_reason: null
+- candidate_id: q0045
+  status: accepted
+  original_text: How is introduction, review different from presence or absence?
+  final_text: How is introduction, review different from presence or absence?
+  reject_reason: null
+- candidate_id: q0046
+  status: accepted
+  original_text: How is introduction, review different from query performance tuning?
+  final_text: How is introduction, review different from query performance tuning?
+  reject_reason: null
+- candidate_id: q0047
+  status: accepted
+  original_text: How is introduction, review different from duplicates?
+  final_text: How is introduction, review different from duplicates?
+  reject_reason: null
+- candidate_id: q0048
+  status: accepted
+  original_text: How is order of things different from filtering?
+  final_text: How is order of things different from filtering?
+  reject_reason: null
+- candidate_id: q0049
+  status: accepted
+  original_text: How is order of things different from data interrogation?
+  final_text: How is order of things different from data interrogation?
+  reject_reason: null
+- candidate_id: q0050
+  status: accepted
+  original_text: How is order of things different from sub-queries?
+  final_text: How is order of things different from sub-queries?
+  reject_reason: null
+- candidate_id: q0051
+  status: accepted
+  original_text: How is order of things different from presence or absence?
+  final_text: How is order of things different from presence or absence?
+  reject_reason: null
+- candidate_id: q0052
+  status: accepted
+  original_text: How is order of things different from query performance tuning?
+  final_text: How is order of things different from query performance tuning?
+  reject_reason: null
+- candidate_id: q0053
+  status: accepted
+  original_text: How is order of things different from duplicates?
+  final_text: How is order of things different from duplicates?
+  reject_reason: null
+- candidate_id: q0054
+  status: accepted
+  original_text: How is filtering different from data interrogation?
+  final_text: How is filtering different from data interrogation?
+  reject_reason: null
+- candidate_id: q0055
+  status: accepted
+  original_text: How is filtering different from sub-queries?
+  final_text: How is filtering different from sub-queries?
+  reject_reason: null
+- candidate_id: q0056
+  status: accepted
+  original_text: How is filtering different from presence or absence?
+  final_text: How is filtering different from presence or absence?
+  reject_reason: null
+- candidate_id: q0057
+  status: accepted
+  original_text: How is filtering different from query performance tuning?
+  final_text: How is filtering different from query performance tuning?
+  reject_reason: null
+- candidate_id: q0058
+  status: accepted
+  original_text: How is filtering different from duplicates?
+  final_text: How is filtering different from duplicates?
+  reject_reason: null
+- candidate_id: q0059
+  status: accepted
+  original_text: How is data interrogation different from sub-queries?
+  final_text: How is data interrogation different from sub-queries?
+  reject_reason: null
+- candidate_id: q0060
+  status: accepted
+  original_text: How is data interrogation different from presence or absence?
+  final_text: How is data interrogation different from presence or absence?
+  reject_reason: null
+- candidate_id: q0061
+  status: accepted
+  original_text: How is data interrogation different from query performance tuning?
+  final_text: How is data interrogation different from query performance tuning?
+  reject_reason: null
+- candidate_id: q0062
+  status: accepted
+  original_text: How is data interrogation different from duplicates?
+  final_text: How is data interrogation different from duplicates?
+  reject_reason: null
+- candidate_id: q0063
+  status: accepted
+  original_text: How is sub-queries different from presence or absence?
+  final_text: How is sub-queries different from presence or absence?
+  reject_reason: null
+- candidate_id: q0064
+  status: accepted
+  original_text: How is sub-queries different from query performance tuning?
+  final_text: How is sub-queries different from query performance tuning?
+  reject_reason: null
+- candidate_id: q0065
+  status: accepted
+  original_text: How is sub-queries different from duplicates?
+  final_text: How is sub-queries different from duplicates?
+  reject_reason: null
+- candidate_id: q0066
+  status: accepted
+  original_text: How is presence or absence different from query performance tuning?
+  final_text: How is presence or absence different from query performance tuning?
+  reject_reason: null
+- candidate_id: q0067
+  status: accepted
+  original_text: How is presence or absence different from duplicates?
+  final_text: How is presence or absence different from duplicates?
+  reject_reason: null
+- candidate_id: q0068
+  status: accepted
+  original_text: How is query performance tuning different from duplicates?
+  final_text: How is query performance tuning different from duplicates?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is introduction, review?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does introduction, review mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does introduction, review matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does introduction, review?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of introduction, review?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is order of things?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does order of things mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does order of things matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does order of things?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of order of things?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is filtering?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does filtering mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does filtering matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does filtering?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of filtering?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is data interrogation?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does data interrogation mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does data interrogation matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does data interrogation?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of data interrogation?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: What is sub-queries?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: What does sub-queries mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: Why does sub-queries matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: Why does sub-queries?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: What is a simple example of sub-queries?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: What is presence or absence?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0027
+  question_text: What does presence or absence mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0028
+  question_text: Why does presence or absence matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0029
+  question_text: Why does presence or absence?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0030
+  question_text: What is a simple example of presence or absence?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0031
+  question_text: What is query performance tuning?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0032
+  question_text: What does query performance tuning mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0033
+  question_text: Why does query performance tuning matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0034
+  question_text: Why does query performance tuning?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0035
+  question_text: What is a simple example of query performance tuning?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0036
+  question_text: What is duplicates?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0037
+  question_text: What does duplicates mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0038
+  question_text: Why does duplicates matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0039
+  question_text: Why does duplicates?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0040
+  question_text: What is a simple example of duplicates?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0041
+  question_text: How is introduction, review different from order of things?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0042
+  question_text: How is introduction, review different from filtering?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0043
+  question_text: How is introduction, review different from data interrogation?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0044
+  question_text: How is introduction, review different from sub-queries?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0045
+  question_text: How is introduction, review different from presence or absence?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0046
+  question_text: How is introduction, review different from query performance tuning?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0047
+  question_text: How is introduction, review different from duplicates?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0048
+  question_text: How is order of things different from filtering?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0049
+  question_text: How is order of things different from data interrogation?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0050
+  question_text: How is order of things different from sub-queries?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0051
+  question_text: How is order of things different from presence or absence?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0052
+  question_text: How is order of things different from query performance tuning?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0053
+  question_text: How is order of things different from duplicates?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0054
+  question_text: How is filtering different from data interrogation?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0055
+  question_text: How is filtering different from sub-queries?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0056
+  question_text: How is filtering different from presence or absence?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0057
+  question_text: How is filtering different from query performance tuning?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0058
+  question_text: How is filtering different from duplicates?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0059
+  question_text: How is data interrogation different from sub-queries?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0060
+  question_text: How is data interrogation different from presence or absence?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0061
+  question_text: How is data interrogation different from query performance tuning?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0062
+  question_text: How is data interrogation different from duplicates?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0063
+  question_text: How is sub-queries different from presence or absence?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0064
+  question_text: How is sub-queries different from query performance tuning?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0065
+  question_text: How is sub-queries different from duplicates?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0066
+  question_text: How is presence or absence different from query performance tuning?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0067
+  question_text: How is presence or absence different from duplicates?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0068
+  question_text: How is query performance tuning different from duplicates?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - introduction, review
+  question_text: What is introduction, review?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - introduction, review
+  question_text: What does introduction, review mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - introduction, review
+  question_text: Why does introduction, review matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - introduction, review
+  question_text: Why does introduction, review?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - introduction, review
+  question_text: What is a simple example of introduction, review?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - order of things
+  question_text: What is order of things?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - order of things
+  question_text: What does order of things mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - order of things
+  question_text: Why does order of things matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - order of things
+  question_text: Why does order of things?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - order of things
+  question_text: What is a simple example of order of things?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - filtering
+  question_text: What is filtering?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - filtering
+  question_text: What does filtering mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - filtering
+  question_text: Why does filtering matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - filtering
+  question_text: Why does filtering?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - filtering
+  question_text: What is a simple example of filtering?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - data interrogation
+  question_text: What is data interrogation?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - data interrogation
+  question_text: What does data interrogation mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - data interrogation
+  question_text: Why does data interrogation matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - data interrogation
+  question_text: Why does data interrogation?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - data interrogation
+  question_text: What is a simple example of data interrogation?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - sub-queries
+  question_text: What is sub-queries?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - sub-queries
+  question_text: What does sub-queries mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - sub-queries
+  question_text: Why does sub-queries matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - sub-queries
+  question_text: Why does sub-queries?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - sub-queries
+  question_text: What is a simple example of sub-queries?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - presence or absence
+  question_text: What is presence or absence?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000027
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - presence or absence
+  question_text: What does presence or absence mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000028
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - presence or absence
+  question_text: Why does presence or absence matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000029
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - presence or absence
+  question_text: Why does presence or absence?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000030
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - presence or absence
+  question_text: What is a simple example of presence or absence?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000031
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - query performance tuning
+  question_text: What is query performance tuning?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000032
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - query performance tuning
+  question_text: What does query performance tuning mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000033
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - query performance tuning
+  question_text: Why does query performance tuning matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000034
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - query performance tuning
+  question_text: Why does query performance tuning?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000035
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - query performance tuning
+  question_text: What is a simple example of query performance tuning?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000036
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - duplicates
+  question_text: What is duplicates?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000037
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - duplicates
+  question_text: What does duplicates mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000038
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - duplicates
+  question_text: Why does duplicates matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000039
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - duplicates
+  question_text: Why does duplicates?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000040
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - duplicates
+  question_text: What is a simple example of duplicates?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000041
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - introduction, review
+  - order of things
+  question_text: How is introduction, review different from order of things?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000042
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - introduction, review
+  - filtering
+  question_text: How is introduction, review different from filtering?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000043
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - introduction, review
+  - data interrogation
+  question_text: How is introduction, review different from data interrogation?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000044
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - introduction, review
+  - sub-queries
+  question_text: How is introduction, review different from sub-queries?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000045
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - introduction, review
+  - presence or absence
+  question_text: How is introduction, review different from presence or absence?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000046
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - introduction, review
+  - query performance tuning
+  question_text: How is introduction, review different from query performance tuning?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000047
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - introduction, review
+  - duplicates
+  question_text: How is introduction, review different from duplicates?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000048
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - order of things
+  - filtering
+  question_text: How is order of things different from filtering?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000049
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - order of things
+  - data interrogation
+  question_text: How is order of things different from data interrogation?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000050
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - order of things
+  - sub-queries
+  question_text: How is order of things different from sub-queries?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000051
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - order of things
+  - presence or absence
+  question_text: How is order of things different from presence or absence?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000052
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - order of things
+  - query performance tuning
+  question_text: How is order of things different from query performance tuning?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000053
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - order of things
+  - duplicates
+  question_text: How is order of things different from duplicates?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000054
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - filtering
+  - data interrogation
+  question_text: How is filtering different from data interrogation?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000055
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - filtering
+  - sub-queries
+  question_text: How is filtering different from sub-queries?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000056
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - filtering
+  - presence or absence
+  question_text: How is filtering different from presence or absence?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000057
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - filtering
+  - query performance tuning
+  question_text: How is filtering different from query performance tuning?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000058
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - filtering
+  - duplicates
+  question_text: How is filtering different from duplicates?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000059
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - data interrogation
+  - sub-queries
+  question_text: How is data interrogation different from sub-queries?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000060
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - data interrogation
+  - presence or absence
+  question_text: How is data interrogation different from presence or absence?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000061
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - data interrogation
+  - query performance tuning
+  question_text: How is data interrogation different from query performance tuning?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000062
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - data interrogation
+  - duplicates
+  question_text: How is data interrogation different from duplicates?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000063
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - sub-queries
+  - presence or absence
+  question_text: How is sub-queries different from presence or absence?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000064
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - sub-queries
+  - query performance tuning
+  question_text: How is sub-queries different from query performance tuning?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000065
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - sub-queries
+  - duplicates
+  question_text: How is sub-queries different from duplicates?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000066
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - presence or absence
+  - query performance tuning
+  question_text: How is presence or absence different from query performance tuning?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000067
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - presence or absence
+  - duplicates
+  question_text: How is presence or absence different from duplicates?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000068
+  course:
+    course_id: '24516'
+    title: Improving Query Performance in SQL Server
+  relevant_topics:
+  - query performance tuning
+  - duplicates
+  question_text: How is query performance tuning different from duplicates?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 8
+  canonical_topic_count: 8
+  candidate_count: 68
+  accepted_count: 68
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 68

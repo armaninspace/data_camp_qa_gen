@@ -1,0 +1,1370 @@
+course_id: '24649'
+title: Bond Valuation and Analysis in R
+normalized_course:
+  course_id: '24649'
+  title: Bond Valuation and Analysis in R
+  provider: DataCamp
+  summary: 'Learn to use R to develop models to evaluate and analyze bonds as well
+    as
+
+    protect them from interest rate changes.'
+  overview: 'Introduction and Plain Vanilla Bond Valuation
+
+
+    The fixed income market is large and filled with complex instruments. In
+
+    this course, we focus on plain vanilla bonds to build solid fundamentals you
+
+    will need to tackle more complex fixed income instruments. In this chapter,
+
+    we demonstrate the mechanics of valuing bonds by focusing on an annual
+
+    coupon, fixed rate, fixed maturity, and option-free bond.
+
+
+    Yield to Maturity
+
+
+    Estimating Yield To Maturity - The YTM measures the expected return to bond
+
+    investors if they hold the bond until maturity. This number summarizes the
+
+    compensation investors demand for the risk they are bearing by investing in
+
+    a particular bond. We will discuss how one can estimate YTM of a bond.
+
+
+    Duration and Convexity
+
+
+    Interest rate risk is the biggest risk that bond investors face. When
+
+    interest rates rise, bond prices fall. Because of this, much attention is
+
+    paid to how sensitive a particular bond''s price is to changes in interest
+
+    rates. In this chapter, we start the discussion with a simple measure of
+
+    bond price volatility - the Price Value of a Basis Point. Then, we discuss
+
+    duration and convexity, which are two common measures that are used to
+
+    manage interest rate risk.
+
+
+    Comprehensive Example
+
+
+    We will put all of the techniques that the student has learned from Chapters
+
+    One through Three into one comprehensive example. The student will be asked
+
+    to value a bond by using the yield on a comparable bond and estimate the
+
+    bond''s duration and convexity.'
+  chapters:
+  - chapter_index: 1
+    title: Introduction and Plain Vanilla Bond Valuation
+    summary: 'The fixed income market is large and filled with complex
+
+      instruments. In this course, we focus on plain vanilla bonds to
+
+      build solid fundamentals you will need to tackle more complex fixed
+
+      income instruments. In this chapter, we demonstrate the mechanics of
+
+      valuing bonds by focusing on an annual coupon, fixed rate, fixed
+
+      maturity, and option-free bond.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 2
+    title: Yield to Maturity
+    summary: 'Estimating Yield To Maturity - The YTM measures the expected return
+
+      to bond investors if they hold the bond until maturity. This number
+
+      summarizes the compensation investors demand for the risk they are
+
+      bearing by investing in a particular bond. We will discuss how one
+
+      can estimate YTM of a bond.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 3
+    title: Duration and Convexity
+    summary: 'Interest rate risk is the biggest risk that bond investors face.
+
+      When interest rates rise, bond prices fall. Because of this, much
+
+      attention is paid to how sensitive a particular bond''s price is to
+
+      changes in interest rates. In this chapter, we start the discussion
+
+      with a simple measure of bond price volatility - the Price Value of
+
+      a Basis Point. Then, we discuss duration and convexity, which are
+
+      two common measures that are used to manage interest rate risk.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 4
+    title: Comprehensive Example
+    summary: 'We will put all of the techniques that the student has learned from
+
+      Chapters One through Three into one comprehensive example. The
+
+      student will be asked to value a bond by using the yield on a
+
+      comparable bond and estimate the bond''s duration and convexity.'
+    source: syllabus
+    confidence: 1.0
+  metadata:
+    level: Intermediate
+    duration_hours: 4 hours
+    subjects:
+    - R Programming
+    - Quantitative Finance
+    - Fixed Income Securities
+    - Convexity
+    - Bond Valuation
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: plain vanilla bond valuation
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: plain vanilla bond valuation'
+  evidence:
+  - source: syllabus
+    text: Introduction and Plain Vanilla Bond Valuation
+  confidence: 0.55
+- topic_id: t002
+  label: yield to maturity
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: yield to maturity'
+  evidence:
+  - source: syllabus
+    text: Yield to Maturity
+  confidence: 0.45
+- topic_id: t003
+  label: duration
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: duration'
+  evidence:
+  - source: syllabus
+    text: Duration and Convexity
+  confidence: 0.55
+- topic_id: t004
+  label: convexity
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: convexity'
+  evidence:
+  - source: syllabus
+    text: Duration and Convexity
+  confidence: 0.55
+- topic_id: t005
+  label: comprehensive example
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: comprehensive example'
+  evidence:
+  - source: syllabus
+    text: Comprehensive Example
+  confidence: 0.45
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: plain vanilla bond valuation
+  aliases:
+  - plain vanilla bond valuation
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: yield to maturity
+  aliases:
+  - yield to maturity
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: duration
+  aliases:
+  - duration
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: convexity
+  aliases:
+  - convexity
+  member_topic_ids:
+  - t004
+  topic_type: concept
+- canonical_topic_id: ct_005
+  label: comprehensive example
+  aliases:
+  - comprehensive example
+  member_topic_ids:
+  - t005
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - plain vanilla bond valuation
+  family: entry
+  pattern: What is {x}?
+  question_text: What is plain vanilla bond valuation?
+- candidate_id: q0002
+  relevant_topics:
+  - plain vanilla bond valuation
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does plain vanilla bond valuation mean?
+- candidate_id: q0003
+  relevant_topics:
+  - plain vanilla bond valuation
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does plain vanilla bond valuation matter?
+- candidate_id: q0004
+  relevant_topics:
+  - plain vanilla bond valuation
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use plain vanilla bond valuation?
+- candidate_id: q0005
+  relevant_topics:
+  - plain vanilla bond valuation
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of plain vanilla bond valuation?
+- candidate_id: q0006
+  relevant_topics:
+  - yield to maturity
+  family: entry
+  pattern: What is {x}?
+  question_text: What is yield to maturity?
+- candidate_id: q0007
+  relevant_topics:
+  - yield to maturity
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does yield to maturity mean?
+- candidate_id: q0008
+  relevant_topics:
+  - yield to maturity
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does yield to maturity matter?
+- candidate_id: q0009
+  relevant_topics:
+  - yield to maturity
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use yield to maturity?
+- candidate_id: q0010
+  relevant_topics:
+  - yield to maturity
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of yield to maturity?
+- candidate_id: q0011
+  relevant_topics:
+  - duration
+  family: entry
+  pattern: What is {x}?
+  question_text: What is duration?
+- candidate_id: q0012
+  relevant_topics:
+  - duration
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does duration mean?
+- candidate_id: q0013
+  relevant_topics:
+  - duration
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does duration matter?
+- candidate_id: q0014
+  relevant_topics:
+  - duration
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use duration?
+- candidate_id: q0015
+  relevant_topics:
+  - duration
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of duration?
+- candidate_id: q0016
+  relevant_topics:
+  - convexity
+  family: entry
+  pattern: What is {x}?
+  question_text: What is convexity?
+- candidate_id: q0017
+  relevant_topics:
+  - convexity
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does convexity mean?
+- candidate_id: q0018
+  relevant_topics:
+  - convexity
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does convexity matter?
+- candidate_id: q0019
+  relevant_topics:
+  - convexity
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use convexity?
+- candidate_id: q0020
+  relevant_topics:
+  - convexity
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of convexity?
+- candidate_id: q0021
+  relevant_topics:
+  - comprehensive example
+  family: entry
+  pattern: What is {x}?
+  question_text: What is comprehensive example?
+- candidate_id: q0022
+  relevant_topics:
+  - comprehensive example
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does comprehensive example mean?
+- candidate_id: q0023
+  relevant_topics:
+  - comprehensive example
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does comprehensive example matter?
+- candidate_id: q0024
+  relevant_topics:
+  - comprehensive example
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use comprehensive example?
+- candidate_id: q0025
+  relevant_topics:
+  - comprehensive example
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of comprehensive example?
+- candidate_id: q0026
+  relevant_topics:
+  - plain vanilla bond valuation
+  - yield to maturity
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is plain vanilla bond valuation different from yield to maturity?
+- candidate_id: q0027
+  relevant_topics:
+  - plain vanilla bond valuation
+  - duration
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is plain vanilla bond valuation different from duration?
+- candidate_id: q0028
+  relevant_topics:
+  - plain vanilla bond valuation
+  - convexity
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is plain vanilla bond valuation different from convexity?
+- candidate_id: q0029
+  relevant_topics:
+  - plain vanilla bond valuation
+  - comprehensive example
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is plain vanilla bond valuation different from comprehensive
+    example?
+- candidate_id: q0030
+  relevant_topics:
+  - yield to maturity
+  - duration
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is yield to maturity different from duration?
+- candidate_id: q0031
+  relevant_topics:
+  - yield to maturity
+  - convexity
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is yield to maturity different from convexity?
+- candidate_id: q0032
+  relevant_topics:
+  - yield to maturity
+  - comprehensive example
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is yield to maturity different from comprehensive example?
+- candidate_id: q0033
+  relevant_topics:
+  - duration
+  - convexity
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is duration different from convexity?
+- candidate_id: q0034
+  relevant_topics:
+  - duration
+  - comprehensive example
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is duration different from comprehensive example?
+- candidate_id: q0035
+  relevant_topics:
+  - convexity
+  - comprehensive example
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is convexity different from comprehensive example?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is plain vanilla bond valuation?
+  final_text: What is plain vanilla bond valuation?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does plain vanilla bond valuation mean?
+  final_text: What does plain vanilla bond valuation mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does plain vanilla bond valuation matter?
+  final_text: Why does plain vanilla bond valuation matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use plain vanilla bond valuation?
+  final_text: Why does plain vanilla bond valuation?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of plain vanilla bond valuation?
+  final_text: What is a simple example of plain vanilla bond valuation?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is yield to maturity?
+  final_text: What is yield to maturity?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does yield to maturity mean?
+  final_text: What does yield to maturity mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does yield to maturity matter?
+  final_text: Why does yield to maturity matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use yield to maturity?
+  final_text: Why does yield to maturity?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of yield to maturity?
+  final_text: What is a simple example of yield to maturity?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is duration?
+  final_text: What is duration?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does duration mean?
+  final_text: What does duration mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does duration matter?
+  final_text: Why does duration matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use duration?
+  final_text: Why does duration?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of duration?
+  final_text: What is a simple example of duration?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is convexity?
+  final_text: What is convexity?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does convexity mean?
+  final_text: What does convexity mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does convexity matter?
+  final_text: Why does convexity matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use convexity?
+  final_text: Why does convexity?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of convexity?
+  final_text: What is a simple example of convexity?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: What is comprehensive example?
+  final_text: What is comprehensive example?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: What does comprehensive example mean?
+  final_text: What does comprehensive example mean?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: Why does comprehensive example matter?
+  final_text: Why does comprehensive example matter?
+  reject_reason: null
+- candidate_id: q0024
+  status: repaired
+  original_text: Why do we use comprehensive example?
+  final_text: Why does comprehensive example?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: What is a simple example of comprehensive example?
+  final_text: What is a simple example of comprehensive example?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: How is plain vanilla bond valuation different from yield to maturity?
+  final_text: How is plain vanilla bond valuation different from yield to maturity?
+  reject_reason: null
+- candidate_id: q0027
+  status: accepted
+  original_text: How is plain vanilla bond valuation different from duration?
+  final_text: How is plain vanilla bond valuation different from duration?
+  reject_reason: null
+- candidate_id: q0028
+  status: accepted
+  original_text: How is plain vanilla bond valuation different from convexity?
+  final_text: How is plain vanilla bond valuation different from convexity?
+  reject_reason: null
+- candidate_id: q0029
+  status: accepted
+  original_text: How is plain vanilla bond valuation different from comprehensive
+    example?
+  final_text: How is plain vanilla bond valuation different from comprehensive example?
+  reject_reason: null
+- candidate_id: q0030
+  status: accepted
+  original_text: How is yield to maturity different from duration?
+  final_text: How is yield to maturity different from duration?
+  reject_reason: null
+- candidate_id: q0031
+  status: accepted
+  original_text: How is yield to maturity different from convexity?
+  final_text: How is yield to maturity different from convexity?
+  reject_reason: null
+- candidate_id: q0032
+  status: accepted
+  original_text: How is yield to maturity different from comprehensive example?
+  final_text: How is yield to maturity different from comprehensive example?
+  reject_reason: null
+- candidate_id: q0033
+  status: accepted
+  original_text: How is duration different from convexity?
+  final_text: How is duration different from convexity?
+  reject_reason: null
+- candidate_id: q0034
+  status: accepted
+  original_text: How is duration different from comprehensive example?
+  final_text: How is duration different from comprehensive example?
+  reject_reason: null
+- candidate_id: q0035
+  status: accepted
+  original_text: How is convexity different from comprehensive example?
+  final_text: How is convexity different from comprehensive example?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is plain vanilla bond valuation?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does plain vanilla bond valuation mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does plain vanilla bond valuation matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does plain vanilla bond valuation?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of plain vanilla bond valuation?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is yield to maturity?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does yield to maturity mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does yield to maturity matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does yield to maturity?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of yield to maturity?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is duration?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does duration mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does duration matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does duration?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of duration?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is convexity?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does convexity mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does convexity matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does convexity?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of convexity?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: What is comprehensive example?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: What does comprehensive example mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: Why does comprehensive example matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: Why does comprehensive example?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: What is a simple example of comprehensive example?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: How is plain vanilla bond valuation different from yield to maturity?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0027
+  question_text: How is plain vanilla bond valuation different from duration?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0028
+  question_text: How is plain vanilla bond valuation different from convexity?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0029
+  question_text: How is plain vanilla bond valuation different from comprehensive
+    example?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0030
+  question_text: How is yield to maturity different from duration?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0031
+  question_text: How is yield to maturity different from convexity?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0032
+  question_text: How is yield to maturity different from comprehensive example?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0033
+  question_text: How is duration different from convexity?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0034
+  question_text: How is duration different from comprehensive example?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0035
+  question_text: How is convexity different from comprehensive example?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24649'
+    title: Bond Valuation and Analysis in R
+  relevant_topics:
+  - plain vanilla bond valuation
+  question_text: What is plain vanilla bond valuation?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24649'
+    title: Bond Valuation and Analysis in R
+  relevant_topics:
+  - plain vanilla bond valuation
+  question_text: What does plain vanilla bond valuation mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24649'
+    title: Bond Valuation and Analysis in R
+  relevant_topics:
+  - plain vanilla bond valuation
+  question_text: Why does plain vanilla bond valuation matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24649'
+    title: Bond Valuation and Analysis in R
+  relevant_topics:
+  - plain vanilla bond valuation
+  question_text: Why does plain vanilla bond valuation?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24649'
+    title: Bond Valuation and Analysis in R
+  relevant_topics:
+  - plain vanilla bond valuation
+  question_text: What is a simple example of plain vanilla bond valuation?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24649'
+    title: Bond Valuation and Analysis in R
+  relevant_topics:
+  - yield to maturity
+  question_text: What is yield to maturity?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24649'
+    title: Bond Valuation and Analysis in R
+  relevant_topics:
+  - yield to maturity
+  question_text: What does yield to maturity mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24649'
+    title: Bond Valuation and Analysis in R
+  relevant_topics:
+  - yield to maturity
+  question_text: Why does yield to maturity matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24649'
+    title: Bond Valuation and Analysis in R
+  relevant_topics:
+  - yield to maturity
+  question_text: Why does yield to maturity?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24649'
+    title: Bond Valuation and Analysis in R
+  relevant_topics:
+  - yield to maturity
+  question_text: What is a simple example of yield to maturity?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24649'
+    title: Bond Valuation and Analysis in R
+  relevant_topics:
+  - duration
+  question_text: What is duration?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24649'
+    title: Bond Valuation and Analysis in R
+  relevant_topics:
+  - duration
+  question_text: What does duration mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24649'
+    title: Bond Valuation and Analysis in R
+  relevant_topics:
+  - duration
+  question_text: Why does duration matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24649'
+    title: Bond Valuation and Analysis in R
+  relevant_topics:
+  - duration
+  question_text: Why does duration?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24649'
+    title: Bond Valuation and Analysis in R
+  relevant_topics:
+  - duration
+  question_text: What is a simple example of duration?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24649'
+    title: Bond Valuation and Analysis in R
+  relevant_topics:
+  - convexity
+  question_text: What is convexity?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24649'
+    title: Bond Valuation and Analysis in R
+  relevant_topics:
+  - convexity
+  question_text: What does convexity mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24649'
+    title: Bond Valuation and Analysis in R
+  relevant_topics:
+  - convexity
+  question_text: Why does convexity matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24649'
+    title: Bond Valuation and Analysis in R
+  relevant_topics:
+  - convexity
+  question_text: Why does convexity?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24649'
+    title: Bond Valuation and Analysis in R
+  relevant_topics:
+  - convexity
+  question_text: What is a simple example of convexity?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24649'
+    title: Bond Valuation and Analysis in R
+  relevant_topics:
+  - comprehensive example
+  question_text: What is comprehensive example?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24649'
+    title: Bond Valuation and Analysis in R
+  relevant_topics:
+  - comprehensive example
+  question_text: What does comprehensive example mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24649'
+    title: Bond Valuation and Analysis in R
+  relevant_topics:
+  - comprehensive example
+  question_text: Why does comprehensive example matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24649'
+    title: Bond Valuation and Analysis in R
+  relevant_topics:
+  - comprehensive example
+  question_text: Why does comprehensive example?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24649'
+    title: Bond Valuation and Analysis in R
+  relevant_topics:
+  - comprehensive example
+  question_text: What is a simple example of comprehensive example?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24649'
+    title: Bond Valuation and Analysis in R
+  relevant_topics:
+  - plain vanilla bond valuation
+  - yield to maturity
+  question_text: How is plain vanilla bond valuation different from yield to maturity?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000027
+  course:
+    course_id: '24649'
+    title: Bond Valuation and Analysis in R
+  relevant_topics:
+  - plain vanilla bond valuation
+  - duration
+  question_text: How is plain vanilla bond valuation different from duration?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000028
+  course:
+    course_id: '24649'
+    title: Bond Valuation and Analysis in R
+  relevant_topics:
+  - plain vanilla bond valuation
+  - convexity
+  question_text: How is plain vanilla bond valuation different from convexity?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000029
+  course:
+    course_id: '24649'
+    title: Bond Valuation and Analysis in R
+  relevant_topics:
+  - plain vanilla bond valuation
+  - comprehensive example
+  question_text: How is plain vanilla bond valuation different from comprehensive
+    example?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000030
+  course:
+    course_id: '24649'
+    title: Bond Valuation and Analysis in R
+  relevant_topics:
+  - yield to maturity
+  - duration
+  question_text: How is yield to maturity different from duration?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000031
+  course:
+    course_id: '24649'
+    title: Bond Valuation and Analysis in R
+  relevant_topics:
+  - yield to maturity
+  - convexity
+  question_text: How is yield to maturity different from convexity?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000032
+  course:
+    course_id: '24649'
+    title: Bond Valuation and Analysis in R
+  relevant_topics:
+  - yield to maturity
+  - comprehensive example
+  question_text: How is yield to maturity different from comprehensive example?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000033
+  course:
+    course_id: '24649'
+    title: Bond Valuation and Analysis in R
+  relevant_topics:
+  - duration
+  - convexity
+  question_text: How is duration different from convexity?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000034
+  course:
+    course_id: '24649'
+    title: Bond Valuation and Analysis in R
+  relevant_topics:
+  - duration
+  - comprehensive example
+  question_text: How is duration different from comprehensive example?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000035
+  course:
+    course_id: '24649'
+    title: Bond Valuation and Analysis in R
+  relevant_topics:
+  - convexity
+  - comprehensive example
+  question_text: How is convexity different from comprehensive example?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 5
+  canonical_topic_count: 5
+  candidate_count: 35
+  accepted_count: 35
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 35

@@ -1,0 +1,3727 @@
+course_id: '24454'
+title: Multiple Regression
+normalized_course:
+  course_id: '24454'
+  title: Multiple Regression
+  provider: DataCamp
+  summary: 'In this course you''ll learn to add multiple variables to linear models
+    and
+
+    to use logistic regression for classification.'
+  overview: 'Parallel Slopes
+
+
+    -In this chapter you''ll learn about the class of linear models called
+
+    "parallel slopes models." These include one numeric and one categorical
+
+    explanatory variable.
+
+
+    Evaluating and extending parallel slopes model
+
+
+    -This chapter covers model evaluation. By looking at different properties of
+
+    the model, including the adjusted R-squared, you''ll learn to compare models
+
+    so that you can select the best one. You''ll also learn about interaction
+
+    terms in linear models.
+
+
+    Multiple Regression
+
+
+    -This chapter will show you how to add two, three, and even more numeric
+
+    explanatory variables to a linear model.
+
+
+    Logistic Regression
+
+
+    -In this chapter you''ll learn about using logistic regression, a generalized
+
+    linear model (GLM), to predict a binary outcome and classify observations.
+
+
+    Case Study: Italian restaurants in NYC
+
+
+    -Explore the relationship between price and the quality of food, service,
+
+    and decor for Italian restaurants in NYC.'
+  chapters:
+  - chapter_index: 1
+    title: Parallel Slopes
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 2
+    title: -In this chapter you'll learn about the class of linear models called
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 3
+    title: '"parallel slopes models." These include one numeric and one categorical'
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 4
+    title: Evaluating and extending parallel slopes model
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 5
+    title: -This chapter covers model evaluation. By looking at different properties
+      of
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 6
+    title: the model, including the adjusted R-squared, you'll learn to compare models
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 7
+    title: so that you can select the best one. You'll also learn about interaction
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 8
+    title: Multiple Regression
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  metadata:
+    level: Intermediate
+    duration_hours: 4 hours
+    subjects:
+    - R Programming
+    - Classification
+    - Predictive Modeling
+    - Logistic Regression
+    - Linear Models
+    - Model Evaluation
+    - Multiple Regression
+    - Generalized Linear Models
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: parallel slopes
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: parallel slopes'
+  evidence:
+  - source: overview_inferred
+    text: Parallel Slopes
+  confidence: 0.45
+- topic_id: t002
+  label: -in this chapter you'll learn about the class of linear models called
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: -in this chapter you''ll learn
+    about the class of linear models called'
+  evidence:
+  - source: overview_inferred
+    text: -In this chapter you'll learn about the class of linear models called
+  confidence: 0.45
+- topic_id: t003
+  label: '"parallel slopes models." these include one numeric'
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: "parallel slopes models." these
+    include one numeric'
+  evidence:
+  - source: overview_inferred
+    text: '"parallel slopes models." These include one numeric and one categorical'
+  confidence: 0.55
+- topic_id: t004
+  label: one categorical
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: one categorical'
+  evidence:
+  - source: overview_inferred
+    text: '"parallel slopes models." These include one numeric and one categorical'
+  confidence: 0.55
+- topic_id: t005
+  label: evaluating
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: evaluating'
+  evidence:
+  - source: overview_inferred
+    text: Evaluating and extending parallel slopes model
+  confidence: 0.55
+- topic_id: t006
+  label: extending parallel slopes model
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: extending parallel slopes model'
+  evidence:
+  - source: overview_inferred
+    text: Evaluating and extending parallel slopes model
+  confidence: 0.55
+- topic_id: t007
+  label: -this chapter covers model evaluation. by looking at different properties
+    of
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: -this chapter covers model evaluation.
+    by looking at different properties of'
+  evidence:
+  - source: overview_inferred
+    text: -This chapter covers model evaluation. By looking at different properties
+      of
+  confidence: 0.45
+- topic_id: t008
+  label: the model, including the adjusted r-squared, you'll learn to compare models
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: the model, including the adjusted
+    r-squared, you''ll learn to compare models'
+  evidence:
+  - source: overview_inferred
+    text: the model, including the adjusted R-squared, you'll learn to compare models
+  confidence: 0.45
+- topic_id: t009
+  label: so that you can select the best one. you'll also learn about interaction
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: so that you can select the best
+    one. you''ll also learn about interaction'
+  evidence:
+  - source: overview_inferred
+    text: so that you can select the best one. You'll also learn about interaction
+  confidence: 0.45
+- topic_id: t010
+  label: multiple regression
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: multiple regression'
+  evidence:
+  - source: overview_inferred
+    text: Multiple Regression
+  confidence: 0.45
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: parallel slopes
+  aliases:
+  - parallel slopes
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: -in this chapter you'll learn about class of linear models called
+  aliases:
+  - -in this chapter you'll learn about the class of linear models called
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: '"parallel slopes models." these include one numeric'
+  aliases:
+  - '"parallel slopes models." these include one numeric'
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: one categorical
+  aliases:
+  - one categorical
+  member_topic_ids:
+  - t004
+  topic_type: concept
+- canonical_topic_id: ct_005
+  label: evaluating
+  aliases:
+  - evaluating
+  member_topic_ids:
+  - t005
+  topic_type: concept
+- canonical_topic_id: ct_006
+  label: extending parallel slopes model
+  aliases:
+  - extending parallel slopes model
+  member_topic_ids:
+  - t006
+  topic_type: concept
+- canonical_topic_id: ct_007
+  label: -this chapter covers model evaluation. by looking at different properties
+    of
+  aliases:
+  - -this chapter covers model evaluation. by looking at different properties of
+  member_topic_ids:
+  - t007
+  topic_type: concept
+- canonical_topic_id: ct_008
+  label: model, including adjusted r-squared, you'll learn to compare model
+  aliases:
+  - the model, including the adjusted r-squared, you'll learn to compare models
+  member_topic_ids:
+  - t008
+  topic_type: concept
+- canonical_topic_id: ct_009
+  label: so that you can select best one. you'll also learn about interaction
+  aliases:
+  - so that you can select the best one. you'll also learn about interaction
+  member_topic_ids:
+  - t009
+  topic_type: concept
+- canonical_topic_id: ct_010
+  label: multiple regression
+  aliases:
+  - multiple regression
+  member_topic_ids:
+  - t010
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - parallel slopes
+  family: entry
+  pattern: What is {x}?
+  question_text: What is parallel slopes?
+- candidate_id: q0002
+  relevant_topics:
+  - parallel slopes
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does parallel slopes mean?
+- candidate_id: q0003
+  relevant_topics:
+  - parallel slopes
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does parallel slopes matter?
+- candidate_id: q0004
+  relevant_topics:
+  - parallel slopes
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use parallel slopes?
+- candidate_id: q0005
+  relevant_topics:
+  - parallel slopes
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of parallel slopes?
+- candidate_id: q0006
+  relevant_topics:
+  - -in this chapter you'll learn about class of linear models called
+  family: entry
+  pattern: What is {x}?
+  question_text: What is -in this chapter you'll learn about class of linear models
+    called?
+- candidate_id: q0007
+  relevant_topics:
+  - -in this chapter you'll learn about class of linear models called
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does -in this chapter you'll learn about class of linear models
+    called mean?
+- candidate_id: q0008
+  relevant_topics:
+  - -in this chapter you'll learn about class of linear models called
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does -in this chapter you'll learn about class of linear models
+    called matter?
+- candidate_id: q0009
+  relevant_topics:
+  - -in this chapter you'll learn about class of linear models called
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use -in this chapter you'll learn about class of linear
+    models called?
+- candidate_id: q0010
+  relevant_topics:
+  - -in this chapter you'll learn about class of linear models called
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of -in this chapter you'll learn about class
+    of linear models called?
+- candidate_id: q0011
+  relevant_topics:
+  - '"parallel slopes models." these include one numeric'
+  family: entry
+  pattern: What is {x}?
+  question_text: What is "parallel slopes models." these include one numeric?
+- candidate_id: q0012
+  relevant_topics:
+  - '"parallel slopes models." these include one numeric'
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does "parallel slopes models." these include one numeric mean?
+- candidate_id: q0013
+  relevant_topics:
+  - '"parallel slopes models." these include one numeric'
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does "parallel slopes models." these include one numeric matter?
+- candidate_id: q0014
+  relevant_topics:
+  - '"parallel slopes models." these include one numeric'
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use "parallel slopes models." these include one numeric?
+- candidate_id: q0015
+  relevant_topics:
+  - '"parallel slopes models." these include one numeric'
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of "parallel slopes models." these include
+    one numeric?
+- candidate_id: q0016
+  relevant_topics:
+  - one categorical
+  family: entry
+  pattern: What is {x}?
+  question_text: What is one categorical?
+- candidate_id: q0017
+  relevant_topics:
+  - one categorical
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does one categorical mean?
+- candidate_id: q0018
+  relevant_topics:
+  - one categorical
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does one categorical matter?
+- candidate_id: q0019
+  relevant_topics:
+  - one categorical
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use one categorical?
+- candidate_id: q0020
+  relevant_topics:
+  - one categorical
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of one categorical?
+- candidate_id: q0021
+  relevant_topics:
+  - evaluating
+  family: entry
+  pattern: What is {x}?
+  question_text: What is evaluating?
+- candidate_id: q0022
+  relevant_topics:
+  - evaluating
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does evaluating mean?
+- candidate_id: q0023
+  relevant_topics:
+  - evaluating
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does evaluating matter?
+- candidate_id: q0024
+  relevant_topics:
+  - evaluating
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use evaluating?
+- candidate_id: q0025
+  relevant_topics:
+  - evaluating
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of evaluating?
+- candidate_id: q0026
+  relevant_topics:
+  - extending parallel slopes model
+  family: entry
+  pattern: What is {x}?
+  question_text: What is extending parallel slopes model?
+- candidate_id: q0027
+  relevant_topics:
+  - extending parallel slopes model
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does extending parallel slopes model mean?
+- candidate_id: q0028
+  relevant_topics:
+  - extending parallel slopes model
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does extending parallel slopes model matter?
+- candidate_id: q0029
+  relevant_topics:
+  - extending parallel slopes model
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use extending parallel slopes model?
+- candidate_id: q0030
+  relevant_topics:
+  - extending parallel slopes model
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of extending parallel slopes model?
+- candidate_id: q0031
+  relevant_topics:
+  - -this chapter covers model evaluation. by looking at different properties of
+  family: entry
+  pattern: What is {x}?
+  question_text: What is -this chapter covers model evaluation. by looking at different
+    properties of?
+- candidate_id: q0032
+  relevant_topics:
+  - -this chapter covers model evaluation. by looking at different properties of
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does -this chapter covers model evaluation. by looking at different
+    properties of mean?
+- candidate_id: q0033
+  relevant_topics:
+  - -this chapter covers model evaluation. by looking at different properties of
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does -this chapter covers model evaluation. by looking at different
+    properties of matter?
+- candidate_id: q0034
+  relevant_topics:
+  - -this chapter covers model evaluation. by looking at different properties of
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use -this chapter covers model evaluation. by looking at
+    different properties of?
+- candidate_id: q0035
+  relevant_topics:
+  - -this chapter covers model evaluation. by looking at different properties of
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of -this chapter covers model evaluation.
+    by looking at different properties of?
+- candidate_id: q0036
+  relevant_topics:
+  - model, including adjusted r-squared, you'll learn to compare model
+  family: entry
+  pattern: What is {x}?
+  question_text: What is model, including adjusted r-squared, you'll learn to compare
+    model?
+- candidate_id: q0037
+  relevant_topics:
+  - model, including adjusted r-squared, you'll learn to compare model
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does model, including adjusted r-squared, you'll learn to compare
+    model mean?
+- candidate_id: q0038
+  relevant_topics:
+  - model, including adjusted r-squared, you'll learn to compare model
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does model, including adjusted r-squared, you'll learn to compare
+    model matter?
+- candidate_id: q0039
+  relevant_topics:
+  - model, including adjusted r-squared, you'll learn to compare model
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use model, including adjusted r-squared, you'll learn to
+    compare model?
+- candidate_id: q0040
+  relevant_topics:
+  - model, including adjusted r-squared, you'll learn to compare model
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of model, including adjusted r-squared,
+    you'll learn to compare model?
+- candidate_id: q0041
+  relevant_topics:
+  - so that you can select best one. you'll also learn about interaction
+  family: entry
+  pattern: What is {x}?
+  question_text: What is so that you can select best one. you'll also learn about
+    interaction?
+- candidate_id: q0042
+  relevant_topics:
+  - so that you can select best one. you'll also learn about interaction
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does so that you can select best one. you'll also learn about
+    interaction mean?
+- candidate_id: q0043
+  relevant_topics:
+  - so that you can select best one. you'll also learn about interaction
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does so that you can select best one. you'll also learn about
+    interaction matter?
+- candidate_id: q0044
+  relevant_topics:
+  - so that you can select best one. you'll also learn about interaction
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use so that you can select best one. you'll also learn
+    about interaction?
+- candidate_id: q0045
+  relevant_topics:
+  - so that you can select best one. you'll also learn about interaction
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of so that you can select best one. you'll
+    also learn about interaction?
+- candidate_id: q0046
+  relevant_topics:
+  - multiple regression
+  family: entry
+  pattern: What is {x}?
+  question_text: What is multiple regression?
+- candidate_id: q0047
+  relevant_topics:
+  - multiple regression
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does multiple regression mean?
+- candidate_id: q0048
+  relevant_topics:
+  - multiple regression
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does multiple regression matter?
+- candidate_id: q0049
+  relevant_topics:
+  - multiple regression
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use multiple regression?
+- candidate_id: q0050
+  relevant_topics:
+  - multiple regression
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of multiple regression?
+- candidate_id: q0051
+  relevant_topics:
+  - parallel slopes
+  - -in this chapter you'll learn about class of linear models called
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is parallel slopes different from -in this chapter you'll learn
+    about class of linear models called?
+- candidate_id: q0052
+  relevant_topics:
+  - parallel slopes
+  - '"parallel slopes models." these include one numeric'
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is parallel slopes different from "parallel slopes models." these
+    include one numeric?
+- candidate_id: q0053
+  relevant_topics:
+  - parallel slopes
+  - one categorical
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is parallel slopes different from one categorical?
+- candidate_id: q0054
+  relevant_topics:
+  - parallel slopes
+  - evaluating
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is parallel slopes different from evaluating?
+- candidate_id: q0055
+  relevant_topics:
+  - parallel slopes
+  - extending parallel slopes model
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is parallel slopes different from extending parallel slopes model?
+- candidate_id: q0056
+  relevant_topics:
+  - parallel slopes
+  - -this chapter covers model evaluation. by looking at different properties of
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is parallel slopes different from -this chapter covers model
+    evaluation. by looking at different properties of?
+- candidate_id: q0057
+  relevant_topics:
+  - parallel slopes
+  - model, including adjusted r-squared, you'll learn to compare model
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is parallel slopes different from model, including adjusted r-squared,
+    you'll learn to compare model?
+- candidate_id: q0058
+  relevant_topics:
+  - parallel slopes
+  - so that you can select best one. you'll also learn about interaction
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is parallel slopes different from so that you can select best
+    one. you'll also learn about interaction?
+- candidate_id: q0059
+  relevant_topics:
+  - parallel slopes
+  - multiple regression
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is parallel slopes different from multiple regression?
+- candidate_id: q0060
+  relevant_topics:
+  - -in this chapter you'll learn about class of linear models called
+  - '"parallel slopes models." these include one numeric'
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter you'll learn about class of linear models
+    called different from "parallel slopes models." these include one numeric?
+- candidate_id: q0061
+  relevant_topics:
+  - -in this chapter you'll learn about class of linear models called
+  - one categorical
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter you'll learn about class of linear models
+    called different from one categorical?
+- candidate_id: q0062
+  relevant_topics:
+  - -in this chapter you'll learn about class of linear models called
+  - evaluating
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter you'll learn about class of linear models
+    called different from evaluating?
+- candidate_id: q0063
+  relevant_topics:
+  - -in this chapter you'll learn about class of linear models called
+  - extending parallel slopes model
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter you'll learn about class of linear models
+    called different from extending parallel slopes model?
+- candidate_id: q0064
+  relevant_topics:
+  - -in this chapter you'll learn about class of linear models called
+  - -this chapter covers model evaluation. by looking at different properties of
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter you'll learn about class of linear models
+    called different from -this chapter covers model evaluation. by looking at different
+    properties of?
+- candidate_id: q0065
+  relevant_topics:
+  - -in this chapter you'll learn about class of linear models called
+  - model, including adjusted r-squared, you'll learn to compare model
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter you'll learn about class of linear models
+    called different from model, including adjusted r-squared, you'll learn to compare
+    model?
+- candidate_id: q0066
+  relevant_topics:
+  - -in this chapter you'll learn about class of linear models called
+  - so that you can select best one. you'll also learn about interaction
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter you'll learn about class of linear models
+    called different from so that you can select best one. you'll also learn about
+    interaction?
+- candidate_id: q0067
+  relevant_topics:
+  - -in this chapter you'll learn about class of linear models called
+  - multiple regression
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter you'll learn about class of linear models
+    called different from multiple regression?
+- candidate_id: q0068
+  relevant_topics:
+  - '"parallel slopes models." these include one numeric'
+  - one categorical
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is "parallel slopes models." these include one numeric different
+    from one categorical?
+- candidate_id: q0069
+  relevant_topics:
+  - '"parallel slopes models." these include one numeric'
+  - evaluating
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is "parallel slopes models." these include one numeric different
+    from evaluating?
+- candidate_id: q0070
+  relevant_topics:
+  - '"parallel slopes models." these include one numeric'
+  - extending parallel slopes model
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is "parallel slopes models." these include one numeric different
+    from extending parallel slopes model?
+- candidate_id: q0071
+  relevant_topics:
+  - '"parallel slopes models." these include one numeric'
+  - -this chapter covers model evaluation. by looking at different properties of
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is "parallel slopes models." these include one numeric different
+    from -this chapter covers model evaluation. by looking at different properties
+    of?
+- candidate_id: q0072
+  relevant_topics:
+  - '"parallel slopes models." these include one numeric'
+  - model, including adjusted r-squared, you'll learn to compare model
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is "parallel slopes models." these include one numeric different
+    from model, including adjusted r-squared, you'll learn to compare model?
+- candidate_id: q0073
+  relevant_topics:
+  - '"parallel slopes models." these include one numeric'
+  - so that you can select best one. you'll also learn about interaction
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is "parallel slopes models." these include one numeric different
+    from so that you can select best one. you'll also learn about interaction?
+- candidate_id: q0074
+  relevant_topics:
+  - '"parallel slopes models." these include one numeric'
+  - multiple regression
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is "parallel slopes models." these include one numeric different
+    from multiple regression?
+- candidate_id: q0075
+  relevant_topics:
+  - one categorical
+  - evaluating
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is one categorical different from evaluating?
+- candidate_id: q0076
+  relevant_topics:
+  - one categorical
+  - extending parallel slopes model
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is one categorical different from extending parallel slopes model?
+- candidate_id: q0077
+  relevant_topics:
+  - one categorical
+  - -this chapter covers model evaluation. by looking at different properties of
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is one categorical different from -this chapter covers model
+    evaluation. by looking at different properties of?
+- candidate_id: q0078
+  relevant_topics:
+  - one categorical
+  - model, including adjusted r-squared, you'll learn to compare model
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is one categorical different from model, including adjusted r-squared,
+    you'll learn to compare model?
+- candidate_id: q0079
+  relevant_topics:
+  - one categorical
+  - so that you can select best one. you'll also learn about interaction
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is one categorical different from so that you can select best
+    one. you'll also learn about interaction?
+- candidate_id: q0080
+  relevant_topics:
+  - one categorical
+  - multiple regression
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is one categorical different from multiple regression?
+- candidate_id: q0081
+  relevant_topics:
+  - evaluating
+  - extending parallel slopes model
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is evaluating different from extending parallel slopes model?
+- candidate_id: q0082
+  relevant_topics:
+  - evaluating
+  - -this chapter covers model evaluation. by looking at different properties of
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is evaluating different from -this chapter covers model evaluation.
+    by looking at different properties of?
+- candidate_id: q0083
+  relevant_topics:
+  - evaluating
+  - model, including adjusted r-squared, you'll learn to compare model
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is evaluating different from model, including adjusted r-squared,
+    you'll learn to compare model?
+- candidate_id: q0084
+  relevant_topics:
+  - evaluating
+  - so that you can select best one. you'll also learn about interaction
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is evaluating different from so that you can select best one.
+    you'll also learn about interaction?
+- candidate_id: q0085
+  relevant_topics:
+  - evaluating
+  - multiple regression
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is evaluating different from multiple regression?
+- candidate_id: q0086
+  relevant_topics:
+  - extending parallel slopes model
+  - -this chapter covers model evaluation. by looking at different properties of
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is extending parallel slopes model different from -this chapter
+    covers model evaluation. by looking at different properties of?
+- candidate_id: q0087
+  relevant_topics:
+  - extending parallel slopes model
+  - model, including adjusted r-squared, you'll learn to compare model
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is extending parallel slopes model different from model, including
+    adjusted r-squared, you'll learn to compare model?
+- candidate_id: q0088
+  relevant_topics:
+  - extending parallel slopes model
+  - so that you can select best one. you'll also learn about interaction
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is extending parallel slopes model different from so that you
+    can select best one. you'll also learn about interaction?
+- candidate_id: q0089
+  relevant_topics:
+  - extending parallel slopes model
+  - multiple regression
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is extending parallel slopes model different from multiple regression?
+- candidate_id: q0090
+  relevant_topics:
+  - -this chapter covers model evaluation. by looking at different properties of
+  - model, including adjusted r-squared, you'll learn to compare model
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -this chapter covers model evaluation. by looking at different
+    properties of different from model, including adjusted r-squared, you'll learn
+    to compare model?
+- candidate_id: q0091
+  relevant_topics:
+  - -this chapter covers model evaluation. by looking at different properties of
+  - so that you can select best one. you'll also learn about interaction
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -this chapter covers model evaluation. by looking at different
+    properties of different from so that you can select best one. you'll also learn
+    about interaction?
+- candidate_id: q0092
+  relevant_topics:
+  - -this chapter covers model evaluation. by looking at different properties of
+  - multiple regression
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -this chapter covers model evaluation. by looking at different
+    properties of different from multiple regression?
+- candidate_id: q0093
+  relevant_topics:
+  - model, including adjusted r-squared, you'll learn to compare model
+  - so that you can select best one. you'll also learn about interaction
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is model, including adjusted r-squared, you'll learn to compare
+    model different from so that you can select best one. you'll also learn about
+    interaction?
+- candidate_id: q0094
+  relevant_topics:
+  - model, including adjusted r-squared, you'll learn to compare model
+  - multiple regression
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is model, including adjusted r-squared, you'll learn to compare
+    model different from multiple regression?
+- candidate_id: q0095
+  relevant_topics:
+  - so that you can select best one. you'll also learn about interaction
+  - multiple regression
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is so that you can select best one. you'll also learn about interaction
+    different from multiple regression?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is parallel slopes?
+  final_text: What is parallel slopes?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does parallel slopes mean?
+  final_text: What does parallel slopes mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does parallel slopes matter?
+  final_text: Why does parallel slopes matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use parallel slopes?
+  final_text: Why does parallel slopes?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of parallel slopes?
+  final_text: What is a simple example of parallel slopes?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is -in this chapter you'll learn about class of linear models
+    called?
+  final_text: What is -in this chapter you'll learn about class of linear models called?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does -in this chapter you'll learn about class of linear models
+    called mean?
+  final_text: What does -in this chapter you'll learn about class of linear models
+    called mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does -in this chapter you'll learn about class of linear models
+    called matter?
+  final_text: Why does -in this chapter you'll learn about class of linear models
+    called matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use -in this chapter you'll learn about class of linear
+    models called?
+  final_text: Why does -in this chapter you'll learn about class of linear models
+    called?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of -in this chapter you'll learn about class
+    of linear models called?
+  final_text: What is a simple example of -in this chapter you'll learn about class
+    of linear models called?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is "parallel slopes models." these include one numeric?
+  final_text: What is "parallel slopes models." these include one numeric?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does "parallel slopes models." these include one numeric mean?
+  final_text: What does "parallel slopes models." these include one numeric mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does "parallel slopes models." these include one numeric matter?
+  final_text: Why does "parallel slopes models." these include one numeric matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use "parallel slopes models." these include one numeric?
+  final_text: Why does "parallel slopes models." these include one numeric?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of "parallel slopes models." these include
+    one numeric?
+  final_text: What is a simple example of "parallel slopes models." these include
+    one numeric?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is one categorical?
+  final_text: What is one categorical?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does one categorical mean?
+  final_text: What does one categorical mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does one categorical matter?
+  final_text: Why does one categorical matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use one categorical?
+  final_text: Why does one categorical?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of one categorical?
+  final_text: What is a simple example of one categorical?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: What is evaluating?
+  final_text: What is evaluating?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: What does evaluating mean?
+  final_text: What does evaluating mean?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: Why does evaluating matter?
+  final_text: Why does evaluating matter?
+  reject_reason: null
+- candidate_id: q0024
+  status: repaired
+  original_text: Why do we use evaluating?
+  final_text: Why does evaluating?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: What is a simple example of evaluating?
+  final_text: What is a simple example of evaluating?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: What is extending parallel slopes model?
+  final_text: What is extending parallel slopes model?
+  reject_reason: null
+- candidate_id: q0027
+  status: accepted
+  original_text: What does extending parallel slopes model mean?
+  final_text: What does extending parallel slopes model mean?
+  reject_reason: null
+- candidate_id: q0028
+  status: accepted
+  original_text: Why does extending parallel slopes model matter?
+  final_text: Why does extending parallel slopes model matter?
+  reject_reason: null
+- candidate_id: q0029
+  status: repaired
+  original_text: Why do we use extending parallel slopes model?
+  final_text: Why does extending parallel slopes model?
+  reject_reason: null
+- candidate_id: q0030
+  status: accepted
+  original_text: What is a simple example of extending parallel slopes model?
+  final_text: What is a simple example of extending parallel slopes model?
+  reject_reason: null
+- candidate_id: q0031
+  status: accepted
+  original_text: What is -this chapter covers model evaluation. by looking at different
+    properties of?
+  final_text: What is -this chapter covers model evaluation. by looking at different
+    properties of?
+  reject_reason: null
+- candidate_id: q0032
+  status: accepted
+  original_text: What does -this chapter covers model evaluation. by looking at different
+    properties of mean?
+  final_text: What does -this chapter covers model evaluation. by looking at different
+    properties of mean?
+  reject_reason: null
+- candidate_id: q0033
+  status: accepted
+  original_text: Why does -this chapter covers model evaluation. by looking at different
+    properties of matter?
+  final_text: Why does -this chapter covers model evaluation. by looking at different
+    properties of matter?
+  reject_reason: null
+- candidate_id: q0034
+  status: repaired
+  original_text: Why do we use -this chapter covers model evaluation. by looking at
+    different properties of?
+  final_text: Why does -this chapter covers model evaluation. by looking at different
+    properties of?
+  reject_reason: null
+- candidate_id: q0035
+  status: accepted
+  original_text: What is a simple example of -this chapter covers model evaluation.
+    by looking at different properties of?
+  final_text: What is a simple example of -this chapter covers model evaluation. by
+    looking at different properties of?
+  reject_reason: null
+- candidate_id: q0036
+  status: accepted
+  original_text: What is model, including adjusted r-squared, you'll learn to compare
+    model?
+  final_text: What is model, including adjusted r-squared, you'll learn to compare
+    model?
+  reject_reason: null
+- candidate_id: q0037
+  status: accepted
+  original_text: What does model, including adjusted r-squared, you'll learn to compare
+    model mean?
+  final_text: What does model, including adjusted r-squared, you'll learn to compare
+    model mean?
+  reject_reason: null
+- candidate_id: q0038
+  status: accepted
+  original_text: Why does model, including adjusted r-squared, you'll learn to compare
+    model matter?
+  final_text: Why does model, including adjusted r-squared, you'll learn to compare
+    model matter?
+  reject_reason: null
+- candidate_id: q0039
+  status: repaired
+  original_text: Why do we use model, including adjusted r-squared, you'll learn to
+    compare model?
+  final_text: Why does model, including adjusted r-squared, you'll learn to compare
+    model?
+  reject_reason: null
+- candidate_id: q0040
+  status: accepted
+  original_text: What is a simple example of model, including adjusted r-squared,
+    you'll learn to compare model?
+  final_text: What is a simple example of model, including adjusted r-squared, you'll
+    learn to compare model?
+  reject_reason: null
+- candidate_id: q0041
+  status: accepted
+  original_text: What is so that you can select best one. you'll also learn about
+    interaction?
+  final_text: What is so that you can select best one. you'll also learn about interaction?
+  reject_reason: null
+- candidate_id: q0042
+  status: accepted
+  original_text: What does so that you can select best one. you'll also learn about
+    interaction mean?
+  final_text: What does so that you can select best one. you'll also learn about interaction
+    mean?
+  reject_reason: null
+- candidate_id: q0043
+  status: accepted
+  original_text: Why does so that you can select best one. you'll also learn about
+    interaction matter?
+  final_text: Why does so that you can select best one. you'll also learn about interaction
+    matter?
+  reject_reason: null
+- candidate_id: q0044
+  status: repaired
+  original_text: Why do we use so that you can select best one. you'll also learn
+    about interaction?
+  final_text: Why does so that you can select best one. you'll also learn about interaction?
+  reject_reason: null
+- candidate_id: q0045
+  status: accepted
+  original_text: What is a simple example of so that you can select best one. you'll
+    also learn about interaction?
+  final_text: What is a simple example of so that you can select best one. you'll
+    also learn about interaction?
+  reject_reason: null
+- candidate_id: q0046
+  status: accepted
+  original_text: What is multiple regression?
+  final_text: What is multiple regression?
+  reject_reason: null
+- candidate_id: q0047
+  status: accepted
+  original_text: What does multiple regression mean?
+  final_text: What does multiple regression mean?
+  reject_reason: null
+- candidate_id: q0048
+  status: accepted
+  original_text: Why does multiple regression matter?
+  final_text: Why does multiple regression matter?
+  reject_reason: null
+- candidate_id: q0049
+  status: repaired
+  original_text: Why do we use multiple regression?
+  final_text: Why does multiple regression?
+  reject_reason: null
+- candidate_id: q0050
+  status: accepted
+  original_text: What is a simple example of multiple regression?
+  final_text: What is a simple example of multiple regression?
+  reject_reason: null
+- candidate_id: q0051
+  status: accepted
+  original_text: How is parallel slopes different from -in this chapter you'll learn
+    about class of linear models called?
+  final_text: How is parallel slopes different from -in this chapter you'll learn
+    about class of linear models called?
+  reject_reason: null
+- candidate_id: q0052
+  status: accepted
+  original_text: How is parallel slopes different from "parallel slopes models." these
+    include one numeric?
+  final_text: How is parallel slopes different from "parallel slopes models." these
+    include one numeric?
+  reject_reason: null
+- candidate_id: q0053
+  status: accepted
+  original_text: How is parallel slopes different from one categorical?
+  final_text: How is parallel slopes different from one categorical?
+  reject_reason: null
+- candidate_id: q0054
+  status: accepted
+  original_text: How is parallel slopes different from evaluating?
+  final_text: How is parallel slopes different from evaluating?
+  reject_reason: null
+- candidate_id: q0055
+  status: accepted
+  original_text: How is parallel slopes different from extending parallel slopes model?
+  final_text: How is parallel slopes different from extending parallel slopes model?
+  reject_reason: null
+- candidate_id: q0056
+  status: accepted
+  original_text: How is parallel slopes different from -this chapter covers model
+    evaluation. by looking at different properties of?
+  final_text: How is parallel slopes different from -this chapter covers model evaluation.
+    by looking at different properties of?
+  reject_reason: null
+- candidate_id: q0057
+  status: accepted
+  original_text: How is parallel slopes different from model, including adjusted r-squared,
+    you'll learn to compare model?
+  final_text: How is parallel slopes different from model, including adjusted r-squared,
+    you'll learn to compare model?
+  reject_reason: null
+- candidate_id: q0058
+  status: accepted
+  original_text: How is parallel slopes different from so that you can select best
+    one. you'll also learn about interaction?
+  final_text: How is parallel slopes different from so that you can select best one.
+    you'll also learn about interaction?
+  reject_reason: null
+- candidate_id: q0059
+  status: accepted
+  original_text: How is parallel slopes different from multiple regression?
+  final_text: How is parallel slopes different from multiple regression?
+  reject_reason: null
+- candidate_id: q0060
+  status: accepted
+  original_text: How is -in this chapter you'll learn about class of linear models
+    called different from "parallel slopes models." these include one numeric?
+  final_text: How is -in this chapter you'll learn about class of linear models called
+    different from "parallel slopes models." these include one numeric?
+  reject_reason: null
+- candidate_id: q0061
+  status: accepted
+  original_text: How is -in this chapter you'll learn about class of linear models
+    called different from one categorical?
+  final_text: How is -in this chapter you'll learn about class of linear models called
+    different from one categorical?
+  reject_reason: null
+- candidate_id: q0062
+  status: accepted
+  original_text: How is -in this chapter you'll learn about class of linear models
+    called different from evaluating?
+  final_text: How is -in this chapter you'll learn about class of linear models called
+    different from evaluating?
+  reject_reason: null
+- candidate_id: q0063
+  status: accepted
+  original_text: How is -in this chapter you'll learn about class of linear models
+    called different from extending parallel slopes model?
+  final_text: How is -in this chapter you'll learn about class of linear models called
+    different from extending parallel slopes model?
+  reject_reason: null
+- candidate_id: q0064
+  status: accepted
+  original_text: How is -in this chapter you'll learn about class of linear models
+    called different from -this chapter covers model evaluation. by looking at different
+    properties of?
+  final_text: How is -in this chapter you'll learn about class of linear models called
+    different from -this chapter covers model evaluation. by looking at different
+    properties of?
+  reject_reason: null
+- candidate_id: q0065
+  status: accepted
+  original_text: How is -in this chapter you'll learn about class of linear models
+    called different from model, including adjusted r-squared, you'll learn to compare
+    model?
+  final_text: How is -in this chapter you'll learn about class of linear models called
+    different from model, including adjusted r-squared, you'll learn to compare model?
+  reject_reason: null
+- candidate_id: q0066
+  status: accepted
+  original_text: How is -in this chapter you'll learn about class of linear models
+    called different from so that you can select best one. you'll also learn about
+    interaction?
+  final_text: How is -in this chapter you'll learn about class of linear models called
+    different from so that you can select best one. you'll also learn about interaction?
+  reject_reason: null
+- candidate_id: q0067
+  status: accepted
+  original_text: How is -in this chapter you'll learn about class of linear models
+    called different from multiple regression?
+  final_text: How is -in this chapter you'll learn about class of linear models called
+    different from multiple regression?
+  reject_reason: null
+- candidate_id: q0068
+  status: accepted
+  original_text: How is "parallel slopes models." these include one numeric different
+    from one categorical?
+  final_text: How is "parallel slopes models." these include one numeric different
+    from one categorical?
+  reject_reason: null
+- candidate_id: q0069
+  status: accepted
+  original_text: How is "parallel slopes models." these include one numeric different
+    from evaluating?
+  final_text: How is "parallel slopes models." these include one numeric different
+    from evaluating?
+  reject_reason: null
+- candidate_id: q0070
+  status: accepted
+  original_text: How is "parallel slopes models." these include one numeric different
+    from extending parallel slopes model?
+  final_text: How is "parallel slopes models." these include one numeric different
+    from extending parallel slopes model?
+  reject_reason: null
+- candidate_id: q0071
+  status: accepted
+  original_text: How is "parallel slopes models." these include one numeric different
+    from -this chapter covers model evaluation. by looking at different properties
+    of?
+  final_text: How is "parallel slopes models." these include one numeric different
+    from -this chapter covers model evaluation. by looking at different properties
+    of?
+  reject_reason: null
+- candidate_id: q0072
+  status: accepted
+  original_text: How is "parallel slopes models." these include one numeric different
+    from model, including adjusted r-squared, you'll learn to compare model?
+  final_text: How is "parallel slopes models." these include one numeric different
+    from model, including adjusted r-squared, you'll learn to compare model?
+  reject_reason: null
+- candidate_id: q0073
+  status: accepted
+  original_text: How is "parallel slopes models." these include one numeric different
+    from so that you can select best one. you'll also learn about interaction?
+  final_text: How is "parallel slopes models." these include one numeric different
+    from so that you can select best one. you'll also learn about interaction?
+  reject_reason: null
+- candidate_id: q0074
+  status: accepted
+  original_text: How is "parallel slopes models." these include one numeric different
+    from multiple regression?
+  final_text: How is "parallel slopes models." these include one numeric different
+    from multiple regression?
+  reject_reason: null
+- candidate_id: q0075
+  status: accepted
+  original_text: How is one categorical different from evaluating?
+  final_text: How is one categorical different from evaluating?
+  reject_reason: null
+- candidate_id: q0076
+  status: accepted
+  original_text: How is one categorical different from extending parallel slopes model?
+  final_text: How is one categorical different from extending parallel slopes model?
+  reject_reason: null
+- candidate_id: q0077
+  status: accepted
+  original_text: How is one categorical different from -this chapter covers model
+    evaluation. by looking at different properties of?
+  final_text: How is one categorical different from -this chapter covers model evaluation.
+    by looking at different properties of?
+  reject_reason: null
+- candidate_id: q0078
+  status: accepted
+  original_text: How is one categorical different from model, including adjusted r-squared,
+    you'll learn to compare model?
+  final_text: How is one categorical different from model, including adjusted r-squared,
+    you'll learn to compare model?
+  reject_reason: null
+- candidate_id: q0079
+  status: accepted
+  original_text: How is one categorical different from so that you can select best
+    one. you'll also learn about interaction?
+  final_text: How is one categorical different from so that you can select best one.
+    you'll also learn about interaction?
+  reject_reason: null
+- candidate_id: q0080
+  status: accepted
+  original_text: How is one categorical different from multiple regression?
+  final_text: How is one categorical different from multiple regression?
+  reject_reason: null
+- candidate_id: q0081
+  status: accepted
+  original_text: How is evaluating different from extending parallel slopes model?
+  final_text: How is evaluating different from extending parallel slopes model?
+  reject_reason: null
+- candidate_id: q0082
+  status: accepted
+  original_text: How is evaluating different from -this chapter covers model evaluation.
+    by looking at different properties of?
+  final_text: How is evaluating different from -this chapter covers model evaluation.
+    by looking at different properties of?
+  reject_reason: null
+- candidate_id: q0083
+  status: accepted
+  original_text: How is evaluating different from model, including adjusted r-squared,
+    you'll learn to compare model?
+  final_text: How is evaluating different from model, including adjusted r-squared,
+    you'll learn to compare model?
+  reject_reason: null
+- candidate_id: q0084
+  status: accepted
+  original_text: How is evaluating different from so that you can select best one.
+    you'll also learn about interaction?
+  final_text: How is evaluating different from so that you can select best one. you'll
+    also learn about interaction?
+  reject_reason: null
+- candidate_id: q0085
+  status: accepted
+  original_text: How is evaluating different from multiple regression?
+  final_text: How is evaluating different from multiple regression?
+  reject_reason: null
+- candidate_id: q0086
+  status: accepted
+  original_text: How is extending parallel slopes model different from -this chapter
+    covers model evaluation. by looking at different properties of?
+  final_text: How is extending parallel slopes model different from -this chapter
+    covers model evaluation. by looking at different properties of?
+  reject_reason: null
+- candidate_id: q0087
+  status: accepted
+  original_text: How is extending parallel slopes model different from model, including
+    adjusted r-squared, you'll learn to compare model?
+  final_text: How is extending parallel slopes model different from model, including
+    adjusted r-squared, you'll learn to compare model?
+  reject_reason: null
+- candidate_id: q0088
+  status: accepted
+  original_text: How is extending parallel slopes model different from so that you
+    can select best one. you'll also learn about interaction?
+  final_text: How is extending parallel slopes model different from so that you can
+    select best one. you'll also learn about interaction?
+  reject_reason: null
+- candidate_id: q0089
+  status: accepted
+  original_text: How is extending parallel slopes model different from multiple regression?
+  final_text: How is extending parallel slopes model different from multiple regression?
+  reject_reason: null
+- candidate_id: q0090
+  status: accepted
+  original_text: How is -this chapter covers model evaluation. by looking at different
+    properties of different from model, including adjusted r-squared, you'll learn
+    to compare model?
+  final_text: How is -this chapter covers model evaluation. by looking at different
+    properties of different from model, including adjusted r-squared, you'll learn
+    to compare model?
+  reject_reason: null
+- candidate_id: q0091
+  status: accepted
+  original_text: How is -this chapter covers model evaluation. by looking at different
+    properties of different from so that you can select best one. you'll also learn
+    about interaction?
+  final_text: How is -this chapter covers model evaluation. by looking at different
+    properties of different from so that you can select best one. you'll also learn
+    about interaction?
+  reject_reason: null
+- candidate_id: q0092
+  status: accepted
+  original_text: How is -this chapter covers model evaluation. by looking at different
+    properties of different from multiple regression?
+  final_text: How is -this chapter covers model evaluation. by looking at different
+    properties of different from multiple regression?
+  reject_reason: null
+- candidate_id: q0093
+  status: accepted
+  original_text: How is model, including adjusted r-squared, you'll learn to compare
+    model different from so that you can select best one. you'll also learn about
+    interaction?
+  final_text: How is model, including adjusted r-squared, you'll learn to compare
+    model different from so that you can select best one. you'll also learn about
+    interaction?
+  reject_reason: null
+- candidate_id: q0094
+  status: accepted
+  original_text: How is model, including adjusted r-squared, you'll learn to compare
+    model different from multiple regression?
+  final_text: How is model, including adjusted r-squared, you'll learn to compare
+    model different from multiple regression?
+  reject_reason: null
+- candidate_id: q0095
+  status: accepted
+  original_text: How is so that you can select best one. you'll also learn about interaction
+    different from multiple regression?
+  final_text: How is so that you can select best one. you'll also learn about interaction
+    different from multiple regression?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is parallel slopes?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does parallel slopes mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does parallel slopes matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does parallel slopes?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of parallel slopes?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is -in this chapter you'll learn about class of linear models
+    called?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does -in this chapter you'll learn about class of linear models
+    called mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does -in this chapter you'll learn about class of linear models
+    called matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does -in this chapter you'll learn about class of linear models
+    called?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of -in this chapter you'll learn about class
+    of linear models called?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is "parallel slopes models." these include one numeric?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does "parallel slopes models." these include one numeric mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does "parallel slopes models." these include one numeric matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does "parallel slopes models." these include one numeric?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of "parallel slopes models." these include
+    one numeric?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is one categorical?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does one categorical mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does one categorical matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does one categorical?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of one categorical?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: What is evaluating?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: What does evaluating mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: Why does evaluating matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: Why does evaluating?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: What is a simple example of evaluating?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: What is extending parallel slopes model?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0027
+  question_text: What does extending parallel slopes model mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0028
+  question_text: Why does extending parallel slopes model matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0029
+  question_text: Why does extending parallel slopes model?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0030
+  question_text: What is a simple example of extending parallel slopes model?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0031
+  question_text: What is -this chapter covers model evaluation. by looking at different
+    properties of?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0032
+  question_text: What does -this chapter covers model evaluation. by looking at different
+    properties of mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0033
+  question_text: Why does -this chapter covers model evaluation. by looking at different
+    properties of matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0034
+  question_text: Why does -this chapter covers model evaluation. by looking at different
+    properties of?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0035
+  question_text: What is a simple example of -this chapter covers model evaluation.
+    by looking at different properties of?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0036
+  question_text: What is model, including adjusted r-squared, you'll learn to compare
+    model?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0037
+  question_text: What does model, including adjusted r-squared, you'll learn to compare
+    model mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0038
+  question_text: Why does model, including adjusted r-squared, you'll learn to compare
+    model matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0039
+  question_text: Why does model, including adjusted r-squared, you'll learn to compare
+    model?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0040
+  question_text: What is a simple example of model, including adjusted r-squared,
+    you'll learn to compare model?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0041
+  question_text: What is so that you can select best one. you'll also learn about
+    interaction?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0042
+  question_text: What does so that you can select best one. you'll also learn about
+    interaction mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0043
+  question_text: Why does so that you can select best one. you'll also learn about
+    interaction matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0044
+  question_text: Why does so that you can select best one. you'll also learn about
+    interaction?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0045
+  question_text: What is a simple example of so that you can select best one. you'll
+    also learn about interaction?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0046
+  question_text: What is multiple regression?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0047
+  question_text: What does multiple regression mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0048
+  question_text: Why does multiple regression matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0049
+  question_text: Why does multiple regression?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0050
+  question_text: What is a simple example of multiple regression?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0051
+  question_text: How is parallel slopes different from -in this chapter you'll learn
+    about class of linear models called?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0052
+  question_text: How is parallel slopes different from "parallel slopes models." these
+    include one numeric?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0053
+  question_text: How is parallel slopes different from one categorical?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0054
+  question_text: How is parallel slopes different from evaluating?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0055
+  question_text: How is parallel slopes different from extending parallel slopes model?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0056
+  question_text: How is parallel slopes different from -this chapter covers model
+    evaluation. by looking at different properties of?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0057
+  question_text: How is parallel slopes different from model, including adjusted r-squared,
+    you'll learn to compare model?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0058
+  question_text: How is parallel slopes different from so that you can select best
+    one. you'll also learn about interaction?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0059
+  question_text: How is parallel slopes different from multiple regression?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0060
+  question_text: How is -in this chapter you'll learn about class of linear models
+    called different from "parallel slopes models." these include one numeric?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0061
+  question_text: How is -in this chapter you'll learn about class of linear models
+    called different from one categorical?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0062
+  question_text: How is -in this chapter you'll learn about class of linear models
+    called different from evaluating?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0063
+  question_text: How is -in this chapter you'll learn about class of linear models
+    called different from extending parallel slopes model?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0064
+  question_text: How is -in this chapter you'll learn about class of linear models
+    called different from -this chapter covers model evaluation. by looking at different
+    properties of?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0065
+  question_text: How is -in this chapter you'll learn about class of linear models
+    called different from model, including adjusted r-squared, you'll learn to compare
+    model?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0066
+  question_text: How is -in this chapter you'll learn about class of linear models
+    called different from so that you can select best one. you'll also learn about
+    interaction?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0067
+  question_text: How is -in this chapter you'll learn about class of linear models
+    called different from multiple regression?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0068
+  question_text: How is "parallel slopes models." these include one numeric different
+    from one categorical?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0069
+  question_text: How is "parallel slopes models." these include one numeric different
+    from evaluating?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0070
+  question_text: How is "parallel slopes models." these include one numeric different
+    from extending parallel slopes model?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0071
+  question_text: How is "parallel slopes models." these include one numeric different
+    from -this chapter covers model evaluation. by looking at different properties
+    of?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0072
+  question_text: How is "parallel slopes models." these include one numeric different
+    from model, including adjusted r-squared, you'll learn to compare model?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0073
+  question_text: How is "parallel slopes models." these include one numeric different
+    from so that you can select best one. you'll also learn about interaction?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0074
+  question_text: How is "parallel slopes models." these include one numeric different
+    from multiple regression?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0075
+  question_text: How is one categorical different from evaluating?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0076
+  question_text: How is one categorical different from extending parallel slopes model?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0077
+  question_text: How is one categorical different from -this chapter covers model
+    evaluation. by looking at different properties of?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0078
+  question_text: How is one categorical different from model, including adjusted r-squared,
+    you'll learn to compare model?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0079
+  question_text: How is one categorical different from so that you can select best
+    one. you'll also learn about interaction?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0080
+  question_text: How is one categorical different from multiple regression?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0081
+  question_text: How is evaluating different from extending parallel slopes model?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0082
+  question_text: How is evaluating different from -this chapter covers model evaluation.
+    by looking at different properties of?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0083
+  question_text: How is evaluating different from model, including adjusted r-squared,
+    you'll learn to compare model?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0084
+  question_text: How is evaluating different from so that you can select best one.
+    you'll also learn about interaction?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0085
+  question_text: How is evaluating different from multiple regression?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0086
+  question_text: How is extending parallel slopes model different from -this chapter
+    covers model evaluation. by looking at different properties of?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0087
+  question_text: How is extending parallel slopes model different from model, including
+    adjusted r-squared, you'll learn to compare model?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0088
+  question_text: How is extending parallel slopes model different from so that you
+    can select best one. you'll also learn about interaction?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0089
+  question_text: How is extending parallel slopes model different from multiple regression?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0090
+  question_text: How is -this chapter covers model evaluation. by looking at different
+    properties of different from model, including adjusted r-squared, you'll learn
+    to compare model?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0091
+  question_text: How is -this chapter covers model evaluation. by looking at different
+    properties of different from so that you can select best one. you'll also learn
+    about interaction?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0092
+  question_text: How is -this chapter covers model evaluation. by looking at different
+    properties of different from multiple regression?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0093
+  question_text: How is model, including adjusted r-squared, you'll learn to compare
+    model different from so that you can select best one. you'll also learn about
+    interaction?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0094
+  question_text: How is model, including adjusted r-squared, you'll learn to compare
+    model different from multiple regression?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0095
+  question_text: How is so that you can select best one. you'll also learn about interaction
+    different from multiple regression?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - parallel slopes
+  question_text: What is parallel slopes?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - parallel slopes
+  question_text: What does parallel slopes mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - parallel slopes
+  question_text: Why does parallel slopes matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - parallel slopes
+  question_text: Why does parallel slopes?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - parallel slopes
+  question_text: What is a simple example of parallel slopes?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - -in this chapter you'll learn about class of linear models called
+  question_text: What is -in this chapter you'll learn about class of linear models
+    called?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - -in this chapter you'll learn about class of linear models called
+  question_text: What does -in this chapter you'll learn about class of linear models
+    called mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - -in this chapter you'll learn about class of linear models called
+  question_text: Why does -in this chapter you'll learn about class of linear models
+    called matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - -in this chapter you'll learn about class of linear models called
+  question_text: Why does -in this chapter you'll learn about class of linear models
+    called?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - -in this chapter you'll learn about class of linear models called
+  question_text: What is a simple example of -in this chapter you'll learn about class
+    of linear models called?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - '"parallel slopes models." these include one numeric'
+  question_text: What is "parallel slopes models." these include one numeric?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - '"parallel slopes models." these include one numeric'
+  question_text: What does "parallel slopes models." these include one numeric mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - '"parallel slopes models." these include one numeric'
+  question_text: Why does "parallel slopes models." these include one numeric matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - '"parallel slopes models." these include one numeric'
+  question_text: Why does "parallel slopes models." these include one numeric?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - '"parallel slopes models." these include one numeric'
+  question_text: What is a simple example of "parallel slopes models." these include
+    one numeric?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - one categorical
+  question_text: What is one categorical?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - one categorical
+  question_text: What does one categorical mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - one categorical
+  question_text: Why does one categorical matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - one categorical
+  question_text: Why does one categorical?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - one categorical
+  question_text: What is a simple example of one categorical?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - evaluating
+  question_text: What is evaluating?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - evaluating
+  question_text: What does evaluating mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - evaluating
+  question_text: Why does evaluating matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - evaluating
+  question_text: Why does evaluating?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - evaluating
+  question_text: What is a simple example of evaluating?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - extending parallel slopes model
+  question_text: What is extending parallel slopes model?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000027
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - extending parallel slopes model
+  question_text: What does extending parallel slopes model mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000028
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - extending parallel slopes model
+  question_text: Why does extending parallel slopes model matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000029
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - extending parallel slopes model
+  question_text: Why does extending parallel slopes model?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000030
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - extending parallel slopes model
+  question_text: What is a simple example of extending parallel slopes model?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000031
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - -this chapter covers model evaluation. by looking at different properties of
+  question_text: What is -this chapter covers model evaluation. by looking at different
+    properties of?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000032
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - -this chapter covers model evaluation. by looking at different properties of
+  question_text: What does -this chapter covers model evaluation. by looking at different
+    properties of mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000033
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - -this chapter covers model evaluation. by looking at different properties of
+  question_text: Why does -this chapter covers model evaluation. by looking at different
+    properties of matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000034
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - -this chapter covers model evaluation. by looking at different properties of
+  question_text: Why does -this chapter covers model evaluation. by looking at different
+    properties of?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000035
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - -this chapter covers model evaluation. by looking at different properties of
+  question_text: What is a simple example of -this chapter covers model evaluation.
+    by looking at different properties of?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000036
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - model, including adjusted r-squared, you'll learn to compare model
+  question_text: What is model, including adjusted r-squared, you'll learn to compare
+    model?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000037
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - model, including adjusted r-squared, you'll learn to compare model
+  question_text: What does model, including adjusted r-squared, you'll learn to compare
+    model mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000038
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - model, including adjusted r-squared, you'll learn to compare model
+  question_text: Why does model, including adjusted r-squared, you'll learn to compare
+    model matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000039
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - model, including adjusted r-squared, you'll learn to compare model
+  question_text: Why does model, including adjusted r-squared, you'll learn to compare
+    model?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000040
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - model, including adjusted r-squared, you'll learn to compare model
+  question_text: What is a simple example of model, including adjusted r-squared,
+    you'll learn to compare model?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000041
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - so that you can select best one. you'll also learn about interaction
+  question_text: What is so that you can select best one. you'll also learn about
+    interaction?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000042
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - so that you can select best one. you'll also learn about interaction
+  question_text: What does so that you can select best one. you'll also learn about
+    interaction mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000043
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - so that you can select best one. you'll also learn about interaction
+  question_text: Why does so that you can select best one. you'll also learn about
+    interaction matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000044
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - so that you can select best one. you'll also learn about interaction
+  question_text: Why does so that you can select best one. you'll also learn about
+    interaction?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000045
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - so that you can select best one. you'll also learn about interaction
+  question_text: What is a simple example of so that you can select best one. you'll
+    also learn about interaction?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000046
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - multiple regression
+  question_text: What is multiple regression?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000047
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - multiple regression
+  question_text: What does multiple regression mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000048
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - multiple regression
+  question_text: Why does multiple regression matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000049
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - multiple regression
+  question_text: Why does multiple regression?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000050
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - multiple regression
+  question_text: What is a simple example of multiple regression?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000051
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - parallel slopes
+  - -in this chapter you'll learn about class of linear models called
+  question_text: How is parallel slopes different from -in this chapter you'll learn
+    about class of linear models called?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000052
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - parallel slopes
+  - '"parallel slopes models." these include one numeric'
+  question_text: How is parallel slopes different from "parallel slopes models." these
+    include one numeric?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000053
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - parallel slopes
+  - one categorical
+  question_text: How is parallel slopes different from one categorical?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000054
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - parallel slopes
+  - evaluating
+  question_text: How is parallel slopes different from evaluating?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000055
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - parallel slopes
+  - extending parallel slopes model
+  question_text: How is parallel slopes different from extending parallel slopes model?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000056
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - parallel slopes
+  - -this chapter covers model evaluation. by looking at different properties of
+  question_text: How is parallel slopes different from -this chapter covers model
+    evaluation. by looking at different properties of?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000057
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - parallel slopes
+  - model, including adjusted r-squared, you'll learn to compare model
+  question_text: How is parallel slopes different from model, including adjusted r-squared,
+    you'll learn to compare model?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000058
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - parallel slopes
+  - so that you can select best one. you'll also learn about interaction
+  question_text: How is parallel slopes different from so that you can select best
+    one. you'll also learn about interaction?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000059
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - parallel slopes
+  - multiple regression
+  question_text: How is parallel slopes different from multiple regression?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000060
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - -in this chapter you'll learn about class of linear models called
+  - '"parallel slopes models." these include one numeric'
+  question_text: How is -in this chapter you'll learn about class of linear models
+    called different from "parallel slopes models." these include one numeric?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000061
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - -in this chapter you'll learn about class of linear models called
+  - one categorical
+  question_text: How is -in this chapter you'll learn about class of linear models
+    called different from one categorical?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000062
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - -in this chapter you'll learn about class of linear models called
+  - evaluating
+  question_text: How is -in this chapter you'll learn about class of linear models
+    called different from evaluating?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000063
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - -in this chapter you'll learn about class of linear models called
+  - extending parallel slopes model
+  question_text: How is -in this chapter you'll learn about class of linear models
+    called different from extending parallel slopes model?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000064
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - -in this chapter you'll learn about class of linear models called
+  - -this chapter covers model evaluation. by looking at different properties of
+  question_text: How is -in this chapter you'll learn about class of linear models
+    called different from -this chapter covers model evaluation. by looking at different
+    properties of?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000065
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - -in this chapter you'll learn about class of linear models called
+  - model, including adjusted r-squared, you'll learn to compare model
+  question_text: How is -in this chapter you'll learn about class of linear models
+    called different from model, including adjusted r-squared, you'll learn to compare
+    model?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000066
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - -in this chapter you'll learn about class of linear models called
+  - so that you can select best one. you'll also learn about interaction
+  question_text: How is -in this chapter you'll learn about class of linear models
+    called different from so that you can select best one. you'll also learn about
+    interaction?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000067
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - -in this chapter you'll learn about class of linear models called
+  - multiple regression
+  question_text: How is -in this chapter you'll learn about class of linear models
+    called different from multiple regression?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000068
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - '"parallel slopes models." these include one numeric'
+  - one categorical
+  question_text: How is "parallel slopes models." these include one numeric different
+    from one categorical?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000069
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - '"parallel slopes models." these include one numeric'
+  - evaluating
+  question_text: How is "parallel slopes models." these include one numeric different
+    from evaluating?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000070
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - '"parallel slopes models." these include one numeric'
+  - extending parallel slopes model
+  question_text: How is "parallel slopes models." these include one numeric different
+    from extending parallel slopes model?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000071
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - '"parallel slopes models." these include one numeric'
+  - -this chapter covers model evaluation. by looking at different properties of
+  question_text: How is "parallel slopes models." these include one numeric different
+    from -this chapter covers model evaluation. by looking at different properties
+    of?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000072
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - '"parallel slopes models." these include one numeric'
+  - model, including adjusted r-squared, you'll learn to compare model
+  question_text: How is "parallel slopes models." these include one numeric different
+    from model, including adjusted r-squared, you'll learn to compare model?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000073
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - '"parallel slopes models." these include one numeric'
+  - so that you can select best one. you'll also learn about interaction
+  question_text: How is "parallel slopes models." these include one numeric different
+    from so that you can select best one. you'll also learn about interaction?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000074
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - '"parallel slopes models." these include one numeric'
+  - multiple regression
+  question_text: How is "parallel slopes models." these include one numeric different
+    from multiple regression?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000075
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - one categorical
+  - evaluating
+  question_text: How is one categorical different from evaluating?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000076
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - one categorical
+  - extending parallel slopes model
+  question_text: How is one categorical different from extending parallel slopes model?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000077
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - one categorical
+  - -this chapter covers model evaluation. by looking at different properties of
+  question_text: How is one categorical different from -this chapter covers model
+    evaluation. by looking at different properties of?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000078
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - one categorical
+  - model, including adjusted r-squared, you'll learn to compare model
+  question_text: How is one categorical different from model, including adjusted r-squared,
+    you'll learn to compare model?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000079
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - one categorical
+  - so that you can select best one. you'll also learn about interaction
+  question_text: How is one categorical different from so that you can select best
+    one. you'll also learn about interaction?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000080
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - one categorical
+  - multiple regression
+  question_text: How is one categorical different from multiple regression?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000081
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - evaluating
+  - extending parallel slopes model
+  question_text: How is evaluating different from extending parallel slopes model?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000082
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - evaluating
+  - -this chapter covers model evaluation. by looking at different properties of
+  question_text: How is evaluating different from -this chapter covers model evaluation.
+    by looking at different properties of?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000083
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - evaluating
+  - model, including adjusted r-squared, you'll learn to compare model
+  question_text: How is evaluating different from model, including adjusted r-squared,
+    you'll learn to compare model?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000084
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - evaluating
+  - so that you can select best one. you'll also learn about interaction
+  question_text: How is evaluating different from so that you can select best one.
+    you'll also learn about interaction?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000085
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - evaluating
+  - multiple regression
+  question_text: How is evaluating different from multiple regression?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000086
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - extending parallel slopes model
+  - -this chapter covers model evaluation. by looking at different properties of
+  question_text: How is extending parallel slopes model different from -this chapter
+    covers model evaluation. by looking at different properties of?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000087
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - extending parallel slopes model
+  - model, including adjusted r-squared, you'll learn to compare model
+  question_text: How is extending parallel slopes model different from model, including
+    adjusted r-squared, you'll learn to compare model?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000088
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - extending parallel slopes model
+  - so that you can select best one. you'll also learn about interaction
+  question_text: How is extending parallel slopes model different from so that you
+    can select best one. you'll also learn about interaction?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000089
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - extending parallel slopes model
+  - multiple regression
+  question_text: How is extending parallel slopes model different from multiple regression?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000090
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - -this chapter covers model evaluation. by looking at different properties of
+  - model, including adjusted r-squared, you'll learn to compare model
+  question_text: How is -this chapter covers model evaluation. by looking at different
+    properties of different from model, including adjusted r-squared, you'll learn
+    to compare model?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000091
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - -this chapter covers model evaluation. by looking at different properties of
+  - so that you can select best one. you'll also learn about interaction
+  question_text: How is -this chapter covers model evaluation. by looking at different
+    properties of different from so that you can select best one. you'll also learn
+    about interaction?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000092
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - -this chapter covers model evaluation. by looking at different properties of
+  - multiple regression
+  question_text: How is -this chapter covers model evaluation. by looking at different
+    properties of different from multiple regression?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000093
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - model, including adjusted r-squared, you'll learn to compare model
+  - so that you can select best one. you'll also learn about interaction
+  question_text: How is model, including adjusted r-squared, you'll learn to compare
+    model different from so that you can select best one. you'll also learn about
+    interaction?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000094
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - model, including adjusted r-squared, you'll learn to compare model
+  - multiple regression
+  question_text: How is model, including adjusted r-squared, you'll learn to compare
+    model different from multiple regression?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000095
+  course:
+    course_id: '24454'
+    title: Multiple Regression
+  relevant_topics:
+  - so that you can select best one. you'll also learn about interaction
+  - multiple regression
+  question_text: How is so that you can select best one. you'll also learn about interaction
+    different from multiple regression?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 10
+  canonical_topic_count: 10
+  candidate_count: 95
+  accepted_count: 95
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 95

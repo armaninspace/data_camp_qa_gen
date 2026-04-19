@@ -1,0 +1,3717 @@
+course_id: '24473'
+title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+normalized_course:
+  course_id: '24473'
+  title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  provider: DataCamp
+  summary: 'Learn to work with data using tools from the tidyverse, and master the
+
+    important skills of taming and tidying your data.'
+  overview: 'Explore your data
+
+
+    -You will start this course by learning how to read data into R. We''ll begin
+
+    with the readr package, and use it to read in data files organized in rows
+
+    and columns. In the rest of the chapter, you''ll learn how to explore your
+
+    data using tools to help you view, summarize, and count values effectively.
+
+    You''ll see how each of these steps gives you more insights into your data.
+
+
+    Tame your data
+
+
+    -In this chapter, you will learn some basics of data taming, like how to
+
+    tame your variable types, names, and values.
+
+
+    Tidy your data
+
+
+    -Now that your data has been tamed, it is time to get tidy. In this chapter,
+
+    you will get hands-on experience tidying data and combining multiple tidying
+
+    functions together in a chain using the pipe operator.
+
+
+    Transform your data
+
+
+    -In this chapter, you will learn how to tame specific types of variables
+
+    that are known to be tricky to work with, such as dates, strings, and
+
+    factors.'
+  chapters:
+  - chapter_index: 1
+    title: Explore your data
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 2
+    title: -You will start this course by learning how to read data into R. We'll
+      begin
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 3
+    title: with the readr package, and use it to read in data files organized in rows
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 4
+    title: and columns. In the rest of the chapter, you'll learn how to explore your
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 5
+    title: Tame your data
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 6
+    title: -In this chapter, you will learn some basics of data taming, like how to
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 7
+    title: Tidy your data
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 8
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  metadata:
+    level: Intermediate
+    duration_hours: 4 hours
+    subjects:
+    - Tidyverse
+    - Data Analysis
+    - Data Visualization
+    - R Programming
+    - Data Transformation
+    - Data Exploration
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: explore your data
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: explore your data'
+  evidence:
+  - source: overview_inferred
+    text: Explore your data
+  confidence: 0.45
+- topic_id: t002
+  label: -you will start this course by learning how to read data into r. we'll begin
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: -you will start this course by
+    learning how to read data into r. we''ll begin'
+  evidence:
+  - source: overview_inferred
+    text: -You will start this course by learning how to read data into R. We'll begin
+  confidence: 0.45
+- topic_id: t003
+  label: with the readr package
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: with the readr package'
+  evidence:
+  - source: overview_inferred
+    text: with the readr package, and use it to read in data files organized in rows
+  confidence: 0.55
+- topic_id: t004
+  label: use it to read in data files organized in rows
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: use it to read in data files
+    organized in rows'
+  evidence:
+  - source: overview_inferred
+    text: with the readr package, and use it to read in data files organized in rows
+  confidence: 0.55
+- topic_id: t005
+  label: and columns. in the rest of the chapter, you'll learn how to explore your
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: and columns. in the rest of the
+    chapter, you''ll learn how to explore your'
+  evidence:
+  - source: overview_inferred
+    text: and columns. In the rest of the chapter, you'll learn how to explore your
+  confidence: 0.45
+- topic_id: t006
+  label: tame your data
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: tame your data'
+  evidence:
+  - source: overview_inferred
+    text: Tame your data
+  confidence: 0.45
+- topic_id: t007
+  label: -in this chapter, you will learn some basics of data taming, like how to
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: -in this chapter, you will learn
+    some basics of data taming, like how to'
+  evidence:
+  - source: overview_inferred
+    text: -In this chapter, you will learn some basics of data taming, like how to
+  confidence: 0.45
+- topic_id: t008
+  label: tidy your data
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: tidy your data'
+  evidence:
+  - source: overview_inferred
+    text: Tidy your data
+  confidence: 0.45
+- topic_id: t009
+  label: -now that your data has been tamed, it is time to get tidy. in this chapter,
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: -now that your data has been
+    tamed, it is time to get tidy. in this chapter,'
+  evidence:
+  - source: overview_inferred
+    text: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  confidence: 0.45
+- topic_id: t010
+  label: strings
+  topic_type: concept
+  description: 'Topic mined from course text: strings'
+  evidence:
+  - source: overview
+    text: strings
+  confidence: 0.75
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: explore your data
+  aliases:
+  - explore your data
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: -you will start this course by learning how to read data into r. we'll begin
+  aliases:
+  - -you will start this course by learning how to read data into r. we'll begin
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: with readr package
+  aliases:
+  - with the readr package
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: use it to read in data files organized in rows
+  aliases:
+  - use it to read in data files organized in rows
+  member_topic_ids:
+  - t004
+  topic_type: concept
+- canonical_topic_id: ct_005
+  label: and columns. in rest of chapter, you'll learn how to explore your
+  aliases:
+  - and columns. in the rest of the chapter, you'll learn how to explore your
+  member_topic_ids:
+  - t005
+  topic_type: concept
+- canonical_topic_id: ct_006
+  label: tame your data
+  aliases:
+  - tame your data
+  member_topic_ids:
+  - t006
+  topic_type: concept
+- canonical_topic_id: ct_007
+  label: -in this chapter, you will learn some basics of data taming, like how to
+  aliases:
+  - -in this chapter, you will learn some basics of data taming, like how to
+  member_topic_ids:
+  - t007
+  topic_type: concept
+- canonical_topic_id: ct_008
+  label: tidy your data
+  aliases:
+  - tidy your data
+  member_topic_ids:
+  - t008
+  topic_type: concept
+- canonical_topic_id: ct_009
+  label: -now that your data has been tamed, it is time to get tidy. in this chapter,
+  aliases:
+  - -now that your data has been tamed, it is time to get tidy. in this chapter,
+  member_topic_ids:
+  - t009
+  topic_type: concept
+- canonical_topic_id: ct_010
+  label: strings
+  aliases:
+  - strings
+  member_topic_ids:
+  - t010
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - explore your data
+  family: entry
+  pattern: What is {x}?
+  question_text: What is explore your data?
+- candidate_id: q0002
+  relevant_topics:
+  - explore your data
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does explore your data mean?
+- candidate_id: q0003
+  relevant_topics:
+  - explore your data
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does explore your data matter?
+- candidate_id: q0004
+  relevant_topics:
+  - explore your data
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use explore your data?
+- candidate_id: q0005
+  relevant_topics:
+  - explore your data
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of explore your data?
+- candidate_id: q0006
+  relevant_topics:
+  - -you will start this course by learning how to read data into r. we'll begin
+  family: entry
+  pattern: What is {x}?
+  question_text: What is -you will start this course by learning how to read data
+    into r. we'll begin?
+- candidate_id: q0007
+  relevant_topics:
+  - -you will start this course by learning how to read data into r. we'll begin
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does -you will start this course by learning how to read data
+    into r. we'll begin mean?
+- candidate_id: q0008
+  relevant_topics:
+  - -you will start this course by learning how to read data into r. we'll begin
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does -you will start this course by learning how to read data
+    into r. we'll begin matter?
+- candidate_id: q0009
+  relevant_topics:
+  - -you will start this course by learning how to read data into r. we'll begin
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use -you will start this course by learning how to read
+    data into r. we'll begin?
+- candidate_id: q0010
+  relevant_topics:
+  - -you will start this course by learning how to read data into r. we'll begin
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of -you will start this course by learning
+    how to read data into r. we'll begin?
+- candidate_id: q0011
+  relevant_topics:
+  - with readr package
+  family: entry
+  pattern: What is {x}?
+  question_text: What is with readr package?
+- candidate_id: q0012
+  relevant_topics:
+  - with readr package
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does with readr package mean?
+- candidate_id: q0013
+  relevant_topics:
+  - with readr package
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does with readr package matter?
+- candidate_id: q0014
+  relevant_topics:
+  - with readr package
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use with readr package?
+- candidate_id: q0015
+  relevant_topics:
+  - with readr package
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of with readr package?
+- candidate_id: q0016
+  relevant_topics:
+  - use it to read in data files organized in rows
+  family: entry
+  pattern: What is {x}?
+  question_text: What is use it to read in data files organized in rows?
+- candidate_id: q0017
+  relevant_topics:
+  - use it to read in data files organized in rows
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does use it to read in data files organized in rows mean?
+- candidate_id: q0018
+  relevant_topics:
+  - use it to read in data files organized in rows
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does use it to read in data files organized in rows matter?
+- candidate_id: q0019
+  relevant_topics:
+  - use it to read in data files organized in rows
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use use it to read in data files organized in rows?
+- candidate_id: q0020
+  relevant_topics:
+  - use it to read in data files organized in rows
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of use it to read in data files organized
+    in rows?
+- candidate_id: q0021
+  relevant_topics:
+  - and columns. in rest of chapter, you'll learn how to explore your
+  family: entry
+  pattern: What is {x}?
+  question_text: What is and columns. in rest of chapter, you'll learn how to explore
+    your?
+- candidate_id: q0022
+  relevant_topics:
+  - and columns. in rest of chapter, you'll learn how to explore your
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does and columns. in rest of chapter, you'll learn how to explore
+    your mean?
+- candidate_id: q0023
+  relevant_topics:
+  - and columns. in rest of chapter, you'll learn how to explore your
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does and columns. in rest of chapter, you'll learn how to explore
+    your matter?
+- candidate_id: q0024
+  relevant_topics:
+  - and columns. in rest of chapter, you'll learn how to explore your
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use and columns. in rest of chapter, you'll learn how to
+    explore your?
+- candidate_id: q0025
+  relevant_topics:
+  - and columns. in rest of chapter, you'll learn how to explore your
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of and columns. in rest of chapter, you'll
+    learn how to explore your?
+- candidate_id: q0026
+  relevant_topics:
+  - tame your data
+  family: entry
+  pattern: What is {x}?
+  question_text: What is tame your data?
+- candidate_id: q0027
+  relevant_topics:
+  - tame your data
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does tame your data mean?
+- candidate_id: q0028
+  relevant_topics:
+  - tame your data
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does tame your data matter?
+- candidate_id: q0029
+  relevant_topics:
+  - tame your data
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use tame your data?
+- candidate_id: q0030
+  relevant_topics:
+  - tame your data
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of tame your data?
+- candidate_id: q0031
+  relevant_topics:
+  - -in this chapter, you will learn some basics of data taming, like how to
+  family: entry
+  pattern: What is {x}?
+  question_text: What is -in this chapter, you will learn some basics of data taming,
+    like how to?
+- candidate_id: q0032
+  relevant_topics:
+  - -in this chapter, you will learn some basics of data taming, like how to
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does -in this chapter, you will learn some basics of data taming,
+    like how to mean?
+- candidate_id: q0033
+  relevant_topics:
+  - -in this chapter, you will learn some basics of data taming, like how to
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does -in this chapter, you will learn some basics of data taming,
+    like how to matter?
+- candidate_id: q0034
+  relevant_topics:
+  - -in this chapter, you will learn some basics of data taming, like how to
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use -in this chapter, you will learn some basics of data
+    taming, like how to?
+- candidate_id: q0035
+  relevant_topics:
+  - -in this chapter, you will learn some basics of data taming, like how to
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of -in this chapter, you will learn some
+    basics of data taming, like how to?
+- candidate_id: q0036
+  relevant_topics:
+  - tidy your data
+  family: entry
+  pattern: What is {x}?
+  question_text: What is tidy your data?
+- candidate_id: q0037
+  relevant_topics:
+  - tidy your data
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does tidy your data mean?
+- candidate_id: q0038
+  relevant_topics:
+  - tidy your data
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does tidy your data matter?
+- candidate_id: q0039
+  relevant_topics:
+  - tidy your data
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use tidy your data?
+- candidate_id: q0040
+  relevant_topics:
+  - tidy your data
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of tidy your data?
+- candidate_id: q0041
+  relevant_topics:
+  - -now that your data has been tamed, it is time to get tidy. in this chapter,
+  family: entry
+  pattern: What is {x}?
+  question_text: What is -now that your data has been tamed, it is time to get tidy.
+    in this chapter,?
+- candidate_id: q0042
+  relevant_topics:
+  - -now that your data has been tamed, it is time to get tidy. in this chapter,
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does -now that your data has been tamed, it is time to get tidy.
+    in this chapter, mean?
+- candidate_id: q0043
+  relevant_topics:
+  - -now that your data has been tamed, it is time to get tidy. in this chapter,
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does -now that your data has been tamed, it is time to get tidy.
+    in this chapter, matter?
+- candidate_id: q0044
+  relevant_topics:
+  - -now that your data has been tamed, it is time to get tidy. in this chapter,
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use -now that your data has been tamed, it is time to get
+    tidy. in this chapter,?
+- candidate_id: q0045
+  relevant_topics:
+  - -now that your data has been tamed, it is time to get tidy. in this chapter,
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of -now that your data has been tamed, it
+    is time to get tidy. in this chapter,?
+- candidate_id: q0046
+  relevant_topics:
+  - strings
+  family: entry
+  pattern: What is {x}?
+  question_text: What is strings?
+- candidate_id: q0047
+  relevant_topics:
+  - strings
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does strings mean?
+- candidate_id: q0048
+  relevant_topics:
+  - strings
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does strings matter?
+- candidate_id: q0049
+  relevant_topics:
+  - strings
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use strings?
+- candidate_id: q0050
+  relevant_topics:
+  - strings
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of strings?
+- candidate_id: q0051
+  relevant_topics:
+  - explore your data
+  - -you will start this course by learning how to read data into r. we'll begin
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is explore your data different from -you will start this course
+    by learning how to read data into r. we'll begin?
+- candidate_id: q0052
+  relevant_topics:
+  - explore your data
+  - with readr package
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is explore your data different from with readr package?
+- candidate_id: q0053
+  relevant_topics:
+  - explore your data
+  - use it to read in data files organized in rows
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is explore your data different from use it to read in data files
+    organized in rows?
+- candidate_id: q0054
+  relevant_topics:
+  - explore your data
+  - and columns. in rest of chapter, you'll learn how to explore your
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is explore your data different from and columns. in rest of chapter,
+    you'll learn how to explore your?
+- candidate_id: q0055
+  relevant_topics:
+  - explore your data
+  - tame your data
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is explore your data different from tame your data?
+- candidate_id: q0056
+  relevant_topics:
+  - explore your data
+  - -in this chapter, you will learn some basics of data taming, like how to
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is explore your data different from -in this chapter, you will
+    learn some basics of data taming, like how to?
+- candidate_id: q0057
+  relevant_topics:
+  - explore your data
+  - tidy your data
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is explore your data different from tidy your data?
+- candidate_id: q0058
+  relevant_topics:
+  - explore your data
+  - -now that your data has been tamed, it is time to get tidy. in this chapter,
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is explore your data different from -now that your data has been
+    tamed, it is time to get tidy. in this chapter,?
+- candidate_id: q0059
+  relevant_topics:
+  - explore your data
+  - strings
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is explore your data different from strings?
+- candidate_id: q0060
+  relevant_topics:
+  - -you will start this course by learning how to read data into r. we'll begin
+  - with readr package
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -you will start this course by learning how to read data into
+    r. we'll begin different from with readr package?
+- candidate_id: q0061
+  relevant_topics:
+  - -you will start this course by learning how to read data into r. we'll begin
+  - use it to read in data files organized in rows
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -you will start this course by learning how to read data into
+    r. we'll begin different from use it to read in data files organized in rows?
+- candidate_id: q0062
+  relevant_topics:
+  - -you will start this course by learning how to read data into r. we'll begin
+  - and columns. in rest of chapter, you'll learn how to explore your
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -you will start this course by learning how to read data into
+    r. we'll begin different from and columns. in rest of chapter, you'll learn how
+    to explore your?
+- candidate_id: q0063
+  relevant_topics:
+  - -you will start this course by learning how to read data into r. we'll begin
+  - tame your data
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -you will start this course by learning how to read data into
+    r. we'll begin different from tame your data?
+- candidate_id: q0064
+  relevant_topics:
+  - -you will start this course by learning how to read data into r. we'll begin
+  - -in this chapter, you will learn some basics of data taming, like how to
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -you will start this course by learning how to read data into
+    r. we'll begin different from -in this chapter, you will learn some basics of
+    data taming, like how to?
+- candidate_id: q0065
+  relevant_topics:
+  - -you will start this course by learning how to read data into r. we'll begin
+  - tidy your data
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -you will start this course by learning how to read data into
+    r. we'll begin different from tidy your data?
+- candidate_id: q0066
+  relevant_topics:
+  - -you will start this course by learning how to read data into r. we'll begin
+  - -now that your data has been tamed, it is time to get tidy. in this chapter,
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -you will start this course by learning how to read data into
+    r. we'll begin different from -now that your data has been tamed, it is time to
+    get tidy. in this chapter,?
+- candidate_id: q0067
+  relevant_topics:
+  - -you will start this course by learning how to read data into r. we'll begin
+  - strings
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -you will start this course by learning how to read data into
+    r. we'll begin different from strings?
+- candidate_id: q0068
+  relevant_topics:
+  - with readr package
+  - use it to read in data files organized in rows
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is with readr package different from use it to read in data files
+    organized in rows?
+- candidate_id: q0069
+  relevant_topics:
+  - with readr package
+  - and columns. in rest of chapter, you'll learn how to explore your
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is with readr package different from and columns. in rest of
+    chapter, you'll learn how to explore your?
+- candidate_id: q0070
+  relevant_topics:
+  - with readr package
+  - tame your data
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is with readr package different from tame your data?
+- candidate_id: q0071
+  relevant_topics:
+  - with readr package
+  - -in this chapter, you will learn some basics of data taming, like how to
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is with readr package different from -in this chapter, you will
+    learn some basics of data taming, like how to?
+- candidate_id: q0072
+  relevant_topics:
+  - with readr package
+  - tidy your data
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is with readr package different from tidy your data?
+- candidate_id: q0073
+  relevant_topics:
+  - with readr package
+  - -now that your data has been tamed, it is time to get tidy. in this chapter,
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is with readr package different from -now that your data has
+    been tamed, it is time to get tidy. in this chapter,?
+- candidate_id: q0074
+  relevant_topics:
+  - with readr package
+  - strings
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is with readr package different from strings?
+- candidate_id: q0075
+  relevant_topics:
+  - use it to read in data files organized in rows
+  - and columns. in rest of chapter, you'll learn how to explore your
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is use it to read in data files organized in rows different from
+    and columns. in rest of chapter, you'll learn how to explore your?
+- candidate_id: q0076
+  relevant_topics:
+  - use it to read in data files organized in rows
+  - tame your data
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is use it to read in data files organized in rows different from
+    tame your data?
+- candidate_id: q0077
+  relevant_topics:
+  - use it to read in data files organized in rows
+  - -in this chapter, you will learn some basics of data taming, like how to
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is use it to read in data files organized in rows different from
+    -in this chapter, you will learn some basics of data taming, like how to?
+- candidate_id: q0078
+  relevant_topics:
+  - use it to read in data files organized in rows
+  - tidy your data
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is use it to read in data files organized in rows different from
+    tidy your data?
+- candidate_id: q0079
+  relevant_topics:
+  - use it to read in data files organized in rows
+  - -now that your data has been tamed, it is time to get tidy. in this chapter,
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is use it to read in data files organized in rows different from
+    -now that your data has been tamed, it is time to get tidy. in this chapter,?
+- candidate_id: q0080
+  relevant_topics:
+  - use it to read in data files organized in rows
+  - strings
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is use it to read in data files organized in rows different from
+    strings?
+- candidate_id: q0081
+  relevant_topics:
+  - and columns. in rest of chapter, you'll learn how to explore your
+  - tame your data
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is and columns. in rest of chapter, you'll learn how to explore
+    your different from tame your data?
+- candidate_id: q0082
+  relevant_topics:
+  - and columns. in rest of chapter, you'll learn how to explore your
+  - -in this chapter, you will learn some basics of data taming, like how to
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is and columns. in rest of chapter, you'll learn how to explore
+    your different from -in this chapter, you will learn some basics of data taming,
+    like how to?
+- candidate_id: q0083
+  relevant_topics:
+  - and columns. in rest of chapter, you'll learn how to explore your
+  - tidy your data
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is and columns. in rest of chapter, you'll learn how to explore
+    your different from tidy your data?
+- candidate_id: q0084
+  relevant_topics:
+  - and columns. in rest of chapter, you'll learn how to explore your
+  - -now that your data has been tamed, it is time to get tidy. in this chapter,
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is and columns. in rest of chapter, you'll learn how to explore
+    your different from -now that your data has been tamed, it is time to get tidy.
+    in this chapter,?
+- candidate_id: q0085
+  relevant_topics:
+  - and columns. in rest of chapter, you'll learn how to explore your
+  - strings
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is and columns. in rest of chapter, you'll learn how to explore
+    your different from strings?
+- candidate_id: q0086
+  relevant_topics:
+  - tame your data
+  - -in this chapter, you will learn some basics of data taming, like how to
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is tame your data different from -in this chapter, you will learn
+    some basics of data taming, like how to?
+- candidate_id: q0087
+  relevant_topics:
+  - tame your data
+  - tidy your data
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is tame your data different from tidy your data?
+- candidate_id: q0088
+  relevant_topics:
+  - tame your data
+  - -now that your data has been tamed, it is time to get tidy. in this chapter,
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is tame your data different from -now that your data has been
+    tamed, it is time to get tidy. in this chapter,?
+- candidate_id: q0089
+  relevant_topics:
+  - tame your data
+  - strings
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is tame your data different from strings?
+- candidate_id: q0090
+  relevant_topics:
+  - -in this chapter, you will learn some basics of data taming, like how to
+  - tidy your data
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter, you will learn some basics of data taming,
+    like how to different from tidy your data?
+- candidate_id: q0091
+  relevant_topics:
+  - -in this chapter, you will learn some basics of data taming, like how to
+  - -now that your data has been tamed, it is time to get tidy. in this chapter,
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter, you will learn some basics of data taming,
+    like how to different from -now that your data has been tamed, it is time to get
+    tidy. in this chapter,?
+- candidate_id: q0092
+  relevant_topics:
+  - -in this chapter, you will learn some basics of data taming, like how to
+  - strings
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter, you will learn some basics of data taming,
+    like how to different from strings?
+- candidate_id: q0093
+  relevant_topics:
+  - tidy your data
+  - -now that your data has been tamed, it is time to get tidy. in this chapter,
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is tidy your data different from -now that your data has been
+    tamed, it is time to get tidy. in this chapter,?
+- candidate_id: q0094
+  relevant_topics:
+  - tidy your data
+  - strings
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is tidy your data different from strings?
+- candidate_id: q0095
+  relevant_topics:
+  - -now that your data has been tamed, it is time to get tidy. in this chapter,
+  - strings
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -now that your data has been tamed, it is time to get tidy.
+    in this chapter, different from strings?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is explore your data?
+  final_text: What is explore your data?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does explore your data mean?
+  final_text: What does explore your data mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does explore your data matter?
+  final_text: Why does explore your data matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use explore your data?
+  final_text: Why does explore your data?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of explore your data?
+  final_text: What is a simple example of explore your data?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is -you will start this course by learning how to read data
+    into r. we'll begin?
+  final_text: What is -you will start this course by learning how to read data into
+    r. we'll begin?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does -you will start this course by learning how to read data
+    into r. we'll begin mean?
+  final_text: What does -you will start this course by learning how to read data into
+    r. we'll begin mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does -you will start this course by learning how to read data
+    into r. we'll begin matter?
+  final_text: Why does -you will start this course by learning how to read data into
+    r. we'll begin matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use -you will start this course by learning how to read
+    data into r. we'll begin?
+  final_text: Why does -you will start this course by learning how to read data into
+    r. we'll begin?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of -you will start this course by learning
+    how to read data into r. we'll begin?
+  final_text: What is a simple example of -you will start this course by learning
+    how to read data into r. we'll begin?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is with readr package?
+  final_text: What is with readr package?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does with readr package mean?
+  final_text: What does with readr package mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does with readr package matter?
+  final_text: Why does with readr package matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use with readr package?
+  final_text: Why does with readr package?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of with readr package?
+  final_text: What is a simple example of with readr package?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is use it to read in data files organized in rows?
+  final_text: What is use it to read in data files organized in rows?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does use it to read in data files organized in rows mean?
+  final_text: What does use it to read in data files organized in rows mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does use it to read in data files organized in rows matter?
+  final_text: Why does use it to read in data files organized in rows matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use use it to read in data files organized in rows?
+  final_text: Why does use it to read in data files organized in rows?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of use it to read in data files organized
+    in rows?
+  final_text: What is a simple example of use it to read in data files organized in
+    rows?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: What is and columns. in rest of chapter, you'll learn how to explore
+    your?
+  final_text: What is and columns. in rest of chapter, you'll learn how to explore
+    your?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: What does and columns. in rest of chapter, you'll learn how to explore
+    your mean?
+  final_text: What does and columns. in rest of chapter, you'll learn how to explore
+    your mean?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: Why does and columns. in rest of chapter, you'll learn how to explore
+    your matter?
+  final_text: Why does and columns. in rest of chapter, you'll learn how to explore
+    your matter?
+  reject_reason: null
+- candidate_id: q0024
+  status: repaired
+  original_text: Why do we use and columns. in rest of chapter, you'll learn how to
+    explore your?
+  final_text: Why does and columns. in rest of chapter, you'll learn how to explore
+    your?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: What is a simple example of and columns. in rest of chapter, you'll
+    learn how to explore your?
+  final_text: What is a simple example of and columns. in rest of chapter, you'll
+    learn how to explore your?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: What is tame your data?
+  final_text: What is tame your data?
+  reject_reason: null
+- candidate_id: q0027
+  status: accepted
+  original_text: What does tame your data mean?
+  final_text: What does tame your data mean?
+  reject_reason: null
+- candidate_id: q0028
+  status: accepted
+  original_text: Why does tame your data matter?
+  final_text: Why does tame your data matter?
+  reject_reason: null
+- candidate_id: q0029
+  status: repaired
+  original_text: Why do we use tame your data?
+  final_text: Why does tame your data?
+  reject_reason: null
+- candidate_id: q0030
+  status: accepted
+  original_text: What is a simple example of tame your data?
+  final_text: What is a simple example of tame your data?
+  reject_reason: null
+- candidate_id: q0031
+  status: accepted
+  original_text: What is -in this chapter, you will learn some basics of data taming,
+    like how to?
+  final_text: What is -in this chapter, you will learn some basics of data taming,
+    like how to?
+  reject_reason: null
+- candidate_id: q0032
+  status: accepted
+  original_text: What does -in this chapter, you will learn some basics of data taming,
+    like how to mean?
+  final_text: What does -in this chapter, you will learn some basics of data taming,
+    like how to mean?
+  reject_reason: null
+- candidate_id: q0033
+  status: accepted
+  original_text: Why does -in this chapter, you will learn some basics of data taming,
+    like how to matter?
+  final_text: Why does -in this chapter, you will learn some basics of data taming,
+    like how to matter?
+  reject_reason: null
+- candidate_id: q0034
+  status: repaired
+  original_text: Why do we use -in this chapter, you will learn some basics of data
+    taming, like how to?
+  final_text: Why does -in this chapter, you will learn some basics of data taming,
+    like how to?
+  reject_reason: null
+- candidate_id: q0035
+  status: accepted
+  original_text: What is a simple example of -in this chapter, you will learn some
+    basics of data taming, like how to?
+  final_text: What is a simple example of -in this chapter, you will learn some basics
+    of data taming, like how to?
+  reject_reason: null
+- candidate_id: q0036
+  status: accepted
+  original_text: What is tidy your data?
+  final_text: What is tidy your data?
+  reject_reason: null
+- candidate_id: q0037
+  status: accepted
+  original_text: What does tidy your data mean?
+  final_text: What does tidy your data mean?
+  reject_reason: null
+- candidate_id: q0038
+  status: accepted
+  original_text: Why does tidy your data matter?
+  final_text: Why does tidy your data matter?
+  reject_reason: null
+- candidate_id: q0039
+  status: repaired
+  original_text: Why do we use tidy your data?
+  final_text: Why does tidy your data?
+  reject_reason: null
+- candidate_id: q0040
+  status: accepted
+  original_text: What is a simple example of tidy your data?
+  final_text: What is a simple example of tidy your data?
+  reject_reason: null
+- candidate_id: q0041
+  status: accepted
+  original_text: What is -now that your data has been tamed, it is time to get tidy.
+    in this chapter,?
+  final_text: What is -now that your data has been tamed, it is time to get tidy.
+    in this chapter,?
+  reject_reason: null
+- candidate_id: q0042
+  status: accepted
+  original_text: What does -now that your data has been tamed, it is time to get tidy.
+    in this chapter, mean?
+  final_text: What does -now that your data has been tamed, it is time to get tidy.
+    in this chapter, mean?
+  reject_reason: null
+- candidate_id: q0043
+  status: accepted
+  original_text: Why does -now that your data has been tamed, it is time to get tidy.
+    in this chapter, matter?
+  final_text: Why does -now that your data has been tamed, it is time to get tidy.
+    in this chapter, matter?
+  reject_reason: null
+- candidate_id: q0044
+  status: repaired
+  original_text: Why do we use -now that your data has been tamed, it is time to get
+    tidy. in this chapter,?
+  final_text: Why does -now that your data has been tamed, it is time to get tidy.
+    in this chapter,?
+  reject_reason: null
+- candidate_id: q0045
+  status: accepted
+  original_text: What is a simple example of -now that your data has been tamed, it
+    is time to get tidy. in this chapter,?
+  final_text: What is a simple example of -now that your data has been tamed, it is
+    time to get tidy. in this chapter,?
+  reject_reason: null
+- candidate_id: q0046
+  status: accepted
+  original_text: What is strings?
+  final_text: What is strings?
+  reject_reason: null
+- candidate_id: q0047
+  status: accepted
+  original_text: What does strings mean?
+  final_text: What does strings mean?
+  reject_reason: null
+- candidate_id: q0048
+  status: accepted
+  original_text: Why does strings matter?
+  final_text: Why does strings matter?
+  reject_reason: null
+- candidate_id: q0049
+  status: repaired
+  original_text: Why do we use strings?
+  final_text: Why does strings?
+  reject_reason: null
+- candidate_id: q0050
+  status: accepted
+  original_text: What is a simple example of strings?
+  final_text: What is a simple example of strings?
+  reject_reason: null
+- candidate_id: q0051
+  status: accepted
+  original_text: How is explore your data different from -you will start this course
+    by learning how to read data into r. we'll begin?
+  final_text: How is explore your data different from -you will start this course
+    by learning how to read data into r. we'll begin?
+  reject_reason: null
+- candidate_id: q0052
+  status: accepted
+  original_text: How is explore your data different from with readr package?
+  final_text: How is explore your data different from with readr package?
+  reject_reason: null
+- candidate_id: q0053
+  status: accepted
+  original_text: How is explore your data different from use it to read in data files
+    organized in rows?
+  final_text: How is explore your data different from use it to read in data files
+    organized in rows?
+  reject_reason: null
+- candidate_id: q0054
+  status: accepted
+  original_text: How is explore your data different from and columns. in rest of chapter,
+    you'll learn how to explore your?
+  final_text: How is explore your data different from and columns. in rest of chapter,
+    you'll learn how to explore your?
+  reject_reason: null
+- candidate_id: q0055
+  status: accepted
+  original_text: How is explore your data different from tame your data?
+  final_text: How is explore your data different from tame your data?
+  reject_reason: null
+- candidate_id: q0056
+  status: accepted
+  original_text: How is explore your data different from -in this chapter, you will
+    learn some basics of data taming, like how to?
+  final_text: How is explore your data different from -in this chapter, you will learn
+    some basics of data taming, like how to?
+  reject_reason: null
+- candidate_id: q0057
+  status: accepted
+  original_text: How is explore your data different from tidy your data?
+  final_text: How is explore your data different from tidy your data?
+  reject_reason: null
+- candidate_id: q0058
+  status: accepted
+  original_text: How is explore your data different from -now that your data has been
+    tamed, it is time to get tidy. in this chapter,?
+  final_text: How is explore your data different from -now that your data has been
+    tamed, it is time to get tidy. in this chapter,?
+  reject_reason: null
+- candidate_id: q0059
+  status: accepted
+  original_text: How is explore your data different from strings?
+  final_text: How is explore your data different from strings?
+  reject_reason: null
+- candidate_id: q0060
+  status: accepted
+  original_text: How is -you will start this course by learning how to read data into
+    r. we'll begin different from with readr package?
+  final_text: How is -you will start this course by learning how to read data into
+    r. we'll begin different from with readr package?
+  reject_reason: null
+- candidate_id: q0061
+  status: accepted
+  original_text: How is -you will start this course by learning how to read data into
+    r. we'll begin different from use it to read in data files organized in rows?
+  final_text: How is -you will start this course by learning how to read data into
+    r. we'll begin different from use it to read in data files organized in rows?
+  reject_reason: null
+- candidate_id: q0062
+  status: accepted
+  original_text: How is -you will start this course by learning how to read data into
+    r. we'll begin different from and columns. in rest of chapter, you'll learn how
+    to explore your?
+  final_text: How is -you will start this course by learning how to read data into
+    r. we'll begin different from and columns. in rest of chapter, you'll learn how
+    to explore your?
+  reject_reason: null
+- candidate_id: q0063
+  status: accepted
+  original_text: How is -you will start this course by learning how to read data into
+    r. we'll begin different from tame your data?
+  final_text: How is -you will start this course by learning how to read data into
+    r. we'll begin different from tame your data?
+  reject_reason: null
+- candidate_id: q0064
+  status: accepted
+  original_text: How is -you will start this course by learning how to read data into
+    r. we'll begin different from -in this chapter, you will learn some basics of
+    data taming, like how to?
+  final_text: How is -you will start this course by learning how to read data into
+    r. we'll begin different from -in this chapter, you will learn some basics of
+    data taming, like how to?
+  reject_reason: null
+- candidate_id: q0065
+  status: accepted
+  original_text: How is -you will start this course by learning how to read data into
+    r. we'll begin different from tidy your data?
+  final_text: How is -you will start this course by learning how to read data into
+    r. we'll begin different from tidy your data?
+  reject_reason: null
+- candidate_id: q0066
+  status: accepted
+  original_text: How is -you will start this course by learning how to read data into
+    r. we'll begin different from -now that your data has been tamed, it is time to
+    get tidy. in this chapter,?
+  final_text: How is -you will start this course by learning how to read data into
+    r. we'll begin different from -now that your data has been tamed, it is time to
+    get tidy. in this chapter,?
+  reject_reason: null
+- candidate_id: q0067
+  status: accepted
+  original_text: How is -you will start this course by learning how to read data into
+    r. we'll begin different from strings?
+  final_text: How is -you will start this course by learning how to read data into
+    r. we'll begin different from strings?
+  reject_reason: null
+- candidate_id: q0068
+  status: accepted
+  original_text: How is with readr package different from use it to read in data files
+    organized in rows?
+  final_text: How is with readr package different from use it to read in data files
+    organized in rows?
+  reject_reason: null
+- candidate_id: q0069
+  status: accepted
+  original_text: How is with readr package different from and columns. in rest of
+    chapter, you'll learn how to explore your?
+  final_text: How is with readr package different from and columns. in rest of chapter,
+    you'll learn how to explore your?
+  reject_reason: null
+- candidate_id: q0070
+  status: accepted
+  original_text: How is with readr package different from tame your data?
+  final_text: How is with readr package different from tame your data?
+  reject_reason: null
+- candidate_id: q0071
+  status: accepted
+  original_text: How is with readr package different from -in this chapter, you will
+    learn some basics of data taming, like how to?
+  final_text: How is with readr package different from -in this chapter, you will
+    learn some basics of data taming, like how to?
+  reject_reason: null
+- candidate_id: q0072
+  status: accepted
+  original_text: How is with readr package different from tidy your data?
+  final_text: How is with readr package different from tidy your data?
+  reject_reason: null
+- candidate_id: q0073
+  status: accepted
+  original_text: How is with readr package different from -now that your data has
+    been tamed, it is time to get tidy. in this chapter,?
+  final_text: How is with readr package different from -now that your data has been
+    tamed, it is time to get tidy. in this chapter,?
+  reject_reason: null
+- candidate_id: q0074
+  status: accepted
+  original_text: How is with readr package different from strings?
+  final_text: How is with readr package different from strings?
+  reject_reason: null
+- candidate_id: q0075
+  status: accepted
+  original_text: How is use it to read in data files organized in rows different from
+    and columns. in rest of chapter, you'll learn how to explore your?
+  final_text: How is use it to read in data files organized in rows different from
+    and columns. in rest of chapter, you'll learn how to explore your?
+  reject_reason: null
+- candidate_id: q0076
+  status: accepted
+  original_text: How is use it to read in data files organized in rows different from
+    tame your data?
+  final_text: How is use it to read in data files organized in rows different from
+    tame your data?
+  reject_reason: null
+- candidate_id: q0077
+  status: accepted
+  original_text: How is use it to read in data files organized in rows different from
+    -in this chapter, you will learn some basics of data taming, like how to?
+  final_text: How is use it to read in data files organized in rows different from
+    -in this chapter, you will learn some basics of data taming, like how to?
+  reject_reason: null
+- candidate_id: q0078
+  status: accepted
+  original_text: How is use it to read in data files organized in rows different from
+    tidy your data?
+  final_text: How is use it to read in data files organized in rows different from
+    tidy your data?
+  reject_reason: null
+- candidate_id: q0079
+  status: accepted
+  original_text: How is use it to read in data files organized in rows different from
+    -now that your data has been tamed, it is time to get tidy. in this chapter,?
+  final_text: How is use it to read in data files organized in rows different from
+    -now that your data has been tamed, it is time to get tidy. in this chapter,?
+  reject_reason: null
+- candidate_id: q0080
+  status: accepted
+  original_text: How is use it to read in data files organized in rows different from
+    strings?
+  final_text: How is use it to read in data files organized in rows different from
+    strings?
+  reject_reason: null
+- candidate_id: q0081
+  status: accepted
+  original_text: How is and columns. in rest of chapter, you'll learn how to explore
+    your different from tame your data?
+  final_text: How is and columns. in rest of chapter, you'll learn how to explore
+    your different from tame your data?
+  reject_reason: null
+- candidate_id: q0082
+  status: accepted
+  original_text: How is and columns. in rest of chapter, you'll learn how to explore
+    your different from -in this chapter, you will learn some basics of data taming,
+    like how to?
+  final_text: How is and columns. in rest of chapter, you'll learn how to explore
+    your different from -in this chapter, you will learn some basics of data taming,
+    like how to?
+  reject_reason: null
+- candidate_id: q0083
+  status: accepted
+  original_text: How is and columns. in rest of chapter, you'll learn how to explore
+    your different from tidy your data?
+  final_text: How is and columns. in rest of chapter, you'll learn how to explore
+    your different from tidy your data?
+  reject_reason: null
+- candidate_id: q0084
+  status: accepted
+  original_text: How is and columns. in rest of chapter, you'll learn how to explore
+    your different from -now that your data has been tamed, it is time to get tidy.
+    in this chapter,?
+  final_text: How is and columns. in rest of chapter, you'll learn how to explore
+    your different from -now that your data has been tamed, it is time to get tidy.
+    in this chapter,?
+  reject_reason: null
+- candidate_id: q0085
+  status: accepted
+  original_text: How is and columns. in rest of chapter, you'll learn how to explore
+    your different from strings?
+  final_text: How is and columns. in rest of chapter, you'll learn how to explore
+    your different from strings?
+  reject_reason: null
+- candidate_id: q0086
+  status: accepted
+  original_text: How is tame your data different from -in this chapter, you will learn
+    some basics of data taming, like how to?
+  final_text: How is tame your data different from -in this chapter, you will learn
+    some basics of data taming, like how to?
+  reject_reason: null
+- candidate_id: q0087
+  status: accepted
+  original_text: How is tame your data different from tidy your data?
+  final_text: How is tame your data different from tidy your data?
+  reject_reason: null
+- candidate_id: q0088
+  status: accepted
+  original_text: How is tame your data different from -now that your data has been
+    tamed, it is time to get tidy. in this chapter,?
+  final_text: How is tame your data different from -now that your data has been tamed,
+    it is time to get tidy. in this chapter,?
+  reject_reason: null
+- candidate_id: q0089
+  status: accepted
+  original_text: How is tame your data different from strings?
+  final_text: How is tame your data different from strings?
+  reject_reason: null
+- candidate_id: q0090
+  status: accepted
+  original_text: How is -in this chapter, you will learn some basics of data taming,
+    like how to different from tidy your data?
+  final_text: How is -in this chapter, you will learn some basics of data taming,
+    like how to different from tidy your data?
+  reject_reason: null
+- candidate_id: q0091
+  status: accepted
+  original_text: How is -in this chapter, you will learn some basics of data taming,
+    like how to different from -now that your data has been tamed, it is time to get
+    tidy. in this chapter,?
+  final_text: How is -in this chapter, you will learn some basics of data taming,
+    like how to different from -now that your data has been tamed, it is time to get
+    tidy. in this chapter,?
+  reject_reason: null
+- candidate_id: q0092
+  status: accepted
+  original_text: How is -in this chapter, you will learn some basics of data taming,
+    like how to different from strings?
+  final_text: How is -in this chapter, you will learn some basics of data taming,
+    like how to different from strings?
+  reject_reason: null
+- candidate_id: q0093
+  status: accepted
+  original_text: How is tidy your data different from -now that your data has been
+    tamed, it is time to get tidy. in this chapter,?
+  final_text: How is tidy your data different from -now that your data has been tamed,
+    it is time to get tidy. in this chapter,?
+  reject_reason: null
+- candidate_id: q0094
+  status: accepted
+  original_text: How is tidy your data different from strings?
+  final_text: How is tidy your data different from strings?
+  reject_reason: null
+- candidate_id: q0095
+  status: accepted
+  original_text: How is -now that your data has been tamed, it is time to get tidy.
+    in this chapter, different from strings?
+  final_text: How is -now that your data has been tamed, it is time to get tidy. in
+    this chapter, different from strings?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is explore your data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does explore your data mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does explore your data matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does explore your data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of explore your data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is -you will start this course by learning how to read data
+    into r. we'll begin?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does -you will start this course by learning how to read data
+    into r. we'll begin mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does -you will start this course by learning how to read data
+    into r. we'll begin matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does -you will start this course by learning how to read data
+    into r. we'll begin?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of -you will start this course by learning
+    how to read data into r. we'll begin?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is with readr package?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does with readr package mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does with readr package matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does with readr package?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of with readr package?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is use it to read in data files organized in rows?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does use it to read in data files organized in rows mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does use it to read in data files organized in rows matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does use it to read in data files organized in rows?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of use it to read in data files organized
+    in rows?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: What is and columns. in rest of chapter, you'll learn how to explore
+    your?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: What does and columns. in rest of chapter, you'll learn how to explore
+    your mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: Why does and columns. in rest of chapter, you'll learn how to explore
+    your matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: Why does and columns. in rest of chapter, you'll learn how to explore
+    your?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: What is a simple example of and columns. in rest of chapter, you'll
+    learn how to explore your?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: What is tame your data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0027
+  question_text: What does tame your data mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0028
+  question_text: Why does tame your data matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0029
+  question_text: Why does tame your data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0030
+  question_text: What is a simple example of tame your data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0031
+  question_text: What is -in this chapter, you will learn some basics of data taming,
+    like how to?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0032
+  question_text: What does -in this chapter, you will learn some basics of data taming,
+    like how to mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0033
+  question_text: Why does -in this chapter, you will learn some basics of data taming,
+    like how to matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0034
+  question_text: Why does -in this chapter, you will learn some basics of data taming,
+    like how to?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0035
+  question_text: What is a simple example of -in this chapter, you will learn some
+    basics of data taming, like how to?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0036
+  question_text: What is tidy your data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0037
+  question_text: What does tidy your data mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0038
+  question_text: Why does tidy your data matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0039
+  question_text: Why does tidy your data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0040
+  question_text: What is a simple example of tidy your data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0041
+  question_text: What is -now that your data has been tamed, it is time to get tidy.
+    in this chapter,?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0042
+  question_text: What does -now that your data has been tamed, it is time to get tidy.
+    in this chapter, mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0043
+  question_text: Why does -now that your data has been tamed, it is time to get tidy.
+    in this chapter, matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0044
+  question_text: Why does -now that your data has been tamed, it is time to get tidy.
+    in this chapter,?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0045
+  question_text: What is a simple example of -now that your data has been tamed, it
+    is time to get tidy. in this chapter,?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0046
+  question_text: What is strings?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0047
+  question_text: What does strings mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0048
+  question_text: Why does strings matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0049
+  question_text: Why does strings?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0050
+  question_text: What is a simple example of strings?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0051
+  question_text: How is explore your data different from -you will start this course
+    by learning how to read data into r. we'll begin?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0052
+  question_text: How is explore your data different from with readr package?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0053
+  question_text: How is explore your data different from use it to read in data files
+    organized in rows?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0054
+  question_text: How is explore your data different from and columns. in rest of chapter,
+    you'll learn how to explore your?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0055
+  question_text: How is explore your data different from tame your data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0056
+  question_text: How is explore your data different from -in this chapter, you will
+    learn some basics of data taming, like how to?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0057
+  question_text: How is explore your data different from tidy your data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0058
+  question_text: How is explore your data different from -now that your data has been
+    tamed, it is time to get tidy. in this chapter,?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0059
+  question_text: How is explore your data different from strings?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0060
+  question_text: How is -you will start this course by learning how to read data into
+    r. we'll begin different from with readr package?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0061
+  question_text: How is -you will start this course by learning how to read data into
+    r. we'll begin different from use it to read in data files organized in rows?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0062
+  question_text: How is -you will start this course by learning how to read data into
+    r. we'll begin different from and columns. in rest of chapter, you'll learn how
+    to explore your?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0063
+  question_text: How is -you will start this course by learning how to read data into
+    r. we'll begin different from tame your data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0064
+  question_text: How is -you will start this course by learning how to read data into
+    r. we'll begin different from -in this chapter, you will learn some basics of
+    data taming, like how to?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0065
+  question_text: How is -you will start this course by learning how to read data into
+    r. we'll begin different from tidy your data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0066
+  question_text: How is -you will start this course by learning how to read data into
+    r. we'll begin different from -now that your data has been tamed, it is time to
+    get tidy. in this chapter,?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0067
+  question_text: How is -you will start this course by learning how to read data into
+    r. we'll begin different from strings?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0068
+  question_text: How is with readr package different from use it to read in data files
+    organized in rows?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0069
+  question_text: How is with readr package different from and columns. in rest of
+    chapter, you'll learn how to explore your?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0070
+  question_text: How is with readr package different from tame your data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0071
+  question_text: How is with readr package different from -in this chapter, you will
+    learn some basics of data taming, like how to?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0072
+  question_text: How is with readr package different from tidy your data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0073
+  question_text: How is with readr package different from -now that your data has
+    been tamed, it is time to get tidy. in this chapter,?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0074
+  question_text: How is with readr package different from strings?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0075
+  question_text: How is use it to read in data files organized in rows different from
+    and columns. in rest of chapter, you'll learn how to explore your?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0076
+  question_text: How is use it to read in data files organized in rows different from
+    tame your data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0077
+  question_text: How is use it to read in data files organized in rows different from
+    -in this chapter, you will learn some basics of data taming, like how to?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0078
+  question_text: How is use it to read in data files organized in rows different from
+    tidy your data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0079
+  question_text: How is use it to read in data files organized in rows different from
+    -now that your data has been tamed, it is time to get tidy. in this chapter,?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0080
+  question_text: How is use it to read in data files organized in rows different from
+    strings?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0081
+  question_text: How is and columns. in rest of chapter, you'll learn how to explore
+    your different from tame your data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0082
+  question_text: How is and columns. in rest of chapter, you'll learn how to explore
+    your different from -in this chapter, you will learn some basics of data taming,
+    like how to?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0083
+  question_text: How is and columns. in rest of chapter, you'll learn how to explore
+    your different from tidy your data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0084
+  question_text: How is and columns. in rest of chapter, you'll learn how to explore
+    your different from -now that your data has been tamed, it is time to get tidy.
+    in this chapter,?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0085
+  question_text: How is and columns. in rest of chapter, you'll learn how to explore
+    your different from strings?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0086
+  question_text: How is tame your data different from -in this chapter, you will learn
+    some basics of data taming, like how to?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0087
+  question_text: How is tame your data different from tidy your data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0088
+  question_text: How is tame your data different from -now that your data has been
+    tamed, it is time to get tidy. in this chapter,?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0089
+  question_text: How is tame your data different from strings?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0090
+  question_text: How is -in this chapter, you will learn some basics of data taming,
+    like how to different from tidy your data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0091
+  question_text: How is -in this chapter, you will learn some basics of data taming,
+    like how to different from -now that your data has been tamed, it is time to get
+    tidy. in this chapter,?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0092
+  question_text: How is -in this chapter, you will learn some basics of data taming,
+    like how to different from strings?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0093
+  question_text: How is tidy your data different from -now that your data has been
+    tamed, it is time to get tidy. in this chapter,?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0094
+  question_text: How is tidy your data different from strings?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0095
+  question_text: How is -now that your data has been tamed, it is time to get tidy.
+    in this chapter, different from strings?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - explore your data
+  question_text: What is explore your data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - explore your data
+  question_text: What does explore your data mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - explore your data
+  question_text: Why does explore your data matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - explore your data
+  question_text: Why does explore your data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - explore your data
+  question_text: What is a simple example of explore your data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - -you will start this course by learning how to read data into r. we'll begin
+  question_text: What is -you will start this course by learning how to read data
+    into r. we'll begin?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - -you will start this course by learning how to read data into r. we'll begin
+  question_text: What does -you will start this course by learning how to read data
+    into r. we'll begin mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - -you will start this course by learning how to read data into r. we'll begin
+  question_text: Why does -you will start this course by learning how to read data
+    into r. we'll begin matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - -you will start this course by learning how to read data into r. we'll begin
+  question_text: Why does -you will start this course by learning how to read data
+    into r. we'll begin?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - -you will start this course by learning how to read data into r. we'll begin
+  question_text: What is a simple example of -you will start this course by learning
+    how to read data into r. we'll begin?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - with readr package
+  question_text: What is with readr package?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - with readr package
+  question_text: What does with readr package mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - with readr package
+  question_text: Why does with readr package matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - with readr package
+  question_text: Why does with readr package?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - with readr package
+  question_text: What is a simple example of with readr package?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - use it to read in data files organized in rows
+  question_text: What is use it to read in data files organized in rows?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - use it to read in data files organized in rows
+  question_text: What does use it to read in data files organized in rows mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - use it to read in data files organized in rows
+  question_text: Why does use it to read in data files organized in rows matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - use it to read in data files organized in rows
+  question_text: Why does use it to read in data files organized in rows?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - use it to read in data files organized in rows
+  question_text: What is a simple example of use it to read in data files organized
+    in rows?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - and columns. in rest of chapter, you'll learn how to explore your
+  question_text: What is and columns. in rest of chapter, you'll learn how to explore
+    your?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - and columns. in rest of chapter, you'll learn how to explore your
+  question_text: What does and columns. in rest of chapter, you'll learn how to explore
+    your mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - and columns. in rest of chapter, you'll learn how to explore your
+  question_text: Why does and columns. in rest of chapter, you'll learn how to explore
+    your matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - and columns. in rest of chapter, you'll learn how to explore your
+  question_text: Why does and columns. in rest of chapter, you'll learn how to explore
+    your?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - and columns. in rest of chapter, you'll learn how to explore your
+  question_text: What is a simple example of and columns. in rest of chapter, you'll
+    learn how to explore your?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - tame your data
+  question_text: What is tame your data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000027
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - tame your data
+  question_text: What does tame your data mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000028
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - tame your data
+  question_text: Why does tame your data matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000029
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - tame your data
+  question_text: Why does tame your data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000030
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - tame your data
+  question_text: What is a simple example of tame your data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000031
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - -in this chapter, you will learn some basics of data taming, like how to
+  question_text: What is -in this chapter, you will learn some basics of data taming,
+    like how to?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000032
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - -in this chapter, you will learn some basics of data taming, like how to
+  question_text: What does -in this chapter, you will learn some basics of data taming,
+    like how to mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000033
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - -in this chapter, you will learn some basics of data taming, like how to
+  question_text: Why does -in this chapter, you will learn some basics of data taming,
+    like how to matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000034
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - -in this chapter, you will learn some basics of data taming, like how to
+  question_text: Why does -in this chapter, you will learn some basics of data taming,
+    like how to?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000035
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - -in this chapter, you will learn some basics of data taming, like how to
+  question_text: What is a simple example of -in this chapter, you will learn some
+    basics of data taming, like how to?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000036
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - tidy your data
+  question_text: What is tidy your data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000037
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - tidy your data
+  question_text: What does tidy your data mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000038
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - tidy your data
+  question_text: Why does tidy your data matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000039
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - tidy your data
+  question_text: Why does tidy your data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000040
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - tidy your data
+  question_text: What is a simple example of tidy your data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000041
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - -now that your data has been tamed, it is time to get tidy. in this chapter,
+  question_text: What is -now that your data has been tamed, it is time to get tidy.
+    in this chapter,?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000042
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - -now that your data has been tamed, it is time to get tidy. in this chapter,
+  question_text: What does -now that your data has been tamed, it is time to get tidy.
+    in this chapter, mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000043
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - -now that your data has been tamed, it is time to get tidy. in this chapter,
+  question_text: Why does -now that your data has been tamed, it is time to get tidy.
+    in this chapter, matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000044
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - -now that your data has been tamed, it is time to get tidy. in this chapter,
+  question_text: Why does -now that your data has been tamed, it is time to get tidy.
+    in this chapter,?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000045
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - -now that your data has been tamed, it is time to get tidy. in this chapter,
+  question_text: What is a simple example of -now that your data has been tamed, it
+    is time to get tidy. in this chapter,?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000046
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - strings
+  question_text: What is strings?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000047
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - strings
+  question_text: What does strings mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000048
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - strings
+  question_text: Why does strings matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000049
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - strings
+  question_text: Why does strings?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000050
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - strings
+  question_text: What is a simple example of strings?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000051
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - explore your data
+  - -you will start this course by learning how to read data into r. we'll begin
+  question_text: How is explore your data different from -you will start this course
+    by learning how to read data into r. we'll begin?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000052
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - explore your data
+  - with readr package
+  question_text: How is explore your data different from with readr package?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000053
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - explore your data
+  - use it to read in data files organized in rows
+  question_text: How is explore your data different from use it to read in data files
+    organized in rows?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000054
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - explore your data
+  - and columns. in rest of chapter, you'll learn how to explore your
+  question_text: How is explore your data different from and columns. in rest of chapter,
+    you'll learn how to explore your?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000055
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - explore your data
+  - tame your data
+  question_text: How is explore your data different from tame your data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000056
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - explore your data
+  - -in this chapter, you will learn some basics of data taming, like how to
+  question_text: How is explore your data different from -in this chapter, you will
+    learn some basics of data taming, like how to?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000057
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - explore your data
+  - tidy your data
+  question_text: How is explore your data different from tidy your data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000058
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - explore your data
+  - -now that your data has been tamed, it is time to get tidy. in this chapter,
+  question_text: How is explore your data different from -now that your data has been
+    tamed, it is time to get tidy. in this chapter,?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000059
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - explore your data
+  - strings
+  question_text: How is explore your data different from strings?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000060
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - -you will start this course by learning how to read data into r. we'll begin
+  - with readr package
+  question_text: How is -you will start this course by learning how to read data into
+    r. we'll begin different from with readr package?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000061
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - -you will start this course by learning how to read data into r. we'll begin
+  - use it to read in data files organized in rows
+  question_text: How is -you will start this course by learning how to read data into
+    r. we'll begin different from use it to read in data files organized in rows?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000062
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - -you will start this course by learning how to read data into r. we'll begin
+  - and columns. in rest of chapter, you'll learn how to explore your
+  question_text: How is -you will start this course by learning how to read data into
+    r. we'll begin different from and columns. in rest of chapter, you'll learn how
+    to explore your?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000063
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - -you will start this course by learning how to read data into r. we'll begin
+  - tame your data
+  question_text: How is -you will start this course by learning how to read data into
+    r. we'll begin different from tame your data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000064
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - -you will start this course by learning how to read data into r. we'll begin
+  - -in this chapter, you will learn some basics of data taming, like how to
+  question_text: How is -you will start this course by learning how to read data into
+    r. we'll begin different from -in this chapter, you will learn some basics of
+    data taming, like how to?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000065
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - -you will start this course by learning how to read data into r. we'll begin
+  - tidy your data
+  question_text: How is -you will start this course by learning how to read data into
+    r. we'll begin different from tidy your data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000066
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - -you will start this course by learning how to read data into r. we'll begin
+  - -now that your data has been tamed, it is time to get tidy. in this chapter,
+  question_text: How is -you will start this course by learning how to read data into
+    r. we'll begin different from -now that your data has been tamed, it is time to
+    get tidy. in this chapter,?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000067
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - -you will start this course by learning how to read data into r. we'll begin
+  - strings
+  question_text: How is -you will start this course by learning how to read data into
+    r. we'll begin different from strings?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000068
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - with readr package
+  - use it to read in data files organized in rows
+  question_text: How is with readr package different from use it to read in data files
+    organized in rows?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000069
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - with readr package
+  - and columns. in rest of chapter, you'll learn how to explore your
+  question_text: How is with readr package different from and columns. in rest of
+    chapter, you'll learn how to explore your?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000070
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - with readr package
+  - tame your data
+  question_text: How is with readr package different from tame your data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000071
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - with readr package
+  - -in this chapter, you will learn some basics of data taming, like how to
+  question_text: How is with readr package different from -in this chapter, you will
+    learn some basics of data taming, like how to?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000072
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - with readr package
+  - tidy your data
+  question_text: How is with readr package different from tidy your data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000073
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - with readr package
+  - -now that your data has been tamed, it is time to get tidy. in this chapter,
+  question_text: How is with readr package different from -now that your data has
+    been tamed, it is time to get tidy. in this chapter,?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000074
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - with readr package
+  - strings
+  question_text: How is with readr package different from strings?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000075
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - use it to read in data files organized in rows
+  - and columns. in rest of chapter, you'll learn how to explore your
+  question_text: How is use it to read in data files organized in rows different from
+    and columns. in rest of chapter, you'll learn how to explore your?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000076
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - use it to read in data files organized in rows
+  - tame your data
+  question_text: How is use it to read in data files organized in rows different from
+    tame your data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000077
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - use it to read in data files organized in rows
+  - -in this chapter, you will learn some basics of data taming, like how to
+  question_text: How is use it to read in data files organized in rows different from
+    -in this chapter, you will learn some basics of data taming, like how to?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000078
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - use it to read in data files organized in rows
+  - tidy your data
+  question_text: How is use it to read in data files organized in rows different from
+    tidy your data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000079
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - use it to read in data files organized in rows
+  - -now that your data has been tamed, it is time to get tidy. in this chapter,
+  question_text: How is use it to read in data files organized in rows different from
+    -now that your data has been tamed, it is time to get tidy. in this chapter,?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000080
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - use it to read in data files organized in rows
+  - strings
+  question_text: How is use it to read in data files organized in rows different from
+    strings?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000081
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - and columns. in rest of chapter, you'll learn how to explore your
+  - tame your data
+  question_text: How is and columns. in rest of chapter, you'll learn how to explore
+    your different from tame your data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000082
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - and columns. in rest of chapter, you'll learn how to explore your
+  - -in this chapter, you will learn some basics of data taming, like how to
+  question_text: How is and columns. in rest of chapter, you'll learn how to explore
+    your different from -in this chapter, you will learn some basics of data taming,
+    like how to?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000083
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - and columns. in rest of chapter, you'll learn how to explore your
+  - tidy your data
+  question_text: How is and columns. in rest of chapter, you'll learn how to explore
+    your different from tidy your data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000084
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - and columns. in rest of chapter, you'll learn how to explore your
+  - -now that your data has been tamed, it is time to get tidy. in this chapter,
+  question_text: How is and columns. in rest of chapter, you'll learn how to explore
+    your different from -now that your data has been tamed, it is time to get tidy.
+    in this chapter,?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000085
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - and columns. in rest of chapter, you'll learn how to explore your
+  - strings
+  question_text: How is and columns. in rest of chapter, you'll learn how to explore
+    your different from strings?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000086
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - tame your data
+  - -in this chapter, you will learn some basics of data taming, like how to
+  question_text: How is tame your data different from -in this chapter, you will learn
+    some basics of data taming, like how to?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000087
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - tame your data
+  - tidy your data
+  question_text: How is tame your data different from tidy your data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000088
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - tame your data
+  - -now that your data has been tamed, it is time to get tidy. in this chapter,
+  question_text: How is tame your data different from -now that your data has been
+    tamed, it is time to get tidy. in this chapter,?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000089
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - tame your data
+  - strings
+  question_text: How is tame your data different from strings?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000090
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - -in this chapter, you will learn some basics of data taming, like how to
+  - tidy your data
+  question_text: How is -in this chapter, you will learn some basics of data taming,
+    like how to different from tidy your data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000091
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - -in this chapter, you will learn some basics of data taming, like how to
+  - -now that your data has been tamed, it is time to get tidy. in this chapter,
+  question_text: How is -in this chapter, you will learn some basics of data taming,
+    like how to different from -now that your data has been tamed, it is time to get
+    tidy. in this chapter,?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000092
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - -in this chapter, you will learn some basics of data taming, like how to
+  - strings
+  question_text: How is -in this chapter, you will learn some basics of data taming,
+    like how to different from strings?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000093
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - tidy your data
+  - -now that your data has been tamed, it is time to get tidy. in this chapter,
+  question_text: How is tidy your data different from -now that your data has been
+    tamed, it is time to get tidy. in this chapter,?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000094
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - tidy your data
+  - strings
+  question_text: How is tidy your data different from strings?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000095
+  course:
+    course_id: '24473'
+    title: -Now that your data has been tamed, it is time to get tidy. In this chapter,
+  relevant_topics:
+  - -now that your data has been tamed, it is time to get tidy. in this chapter,
+  - strings
+  question_text: How is -now that your data has been tamed, it is time to get tidy.
+    in this chapter, different from strings?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 10
+  canonical_topic_count: 10
+  candidate_count: 95
+  accepted_count: 95
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 95

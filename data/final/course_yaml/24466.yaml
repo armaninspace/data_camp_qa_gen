@@ -1,0 +1,1075 @@
+course_id: '24466'
+title: Big Data Fundamentals with PySpark
+normalized_course:
+  course_id: '24466'
+  title: Big Data Fundamentals with PySpark
+  provider: DataCamp
+  summary: Learn the fundamentals of working with big data with PySpark.
+  overview: 'Introduction to Big Data analysis with Spark
+
+
+    This chapter introduces the exciting world of Big Data, as well as the
+
+    various concepts and different frameworks for processing Big Data. You will
+
+    understand why Apache Spark is considered the best framework for BigData.
+
+
+    Programming in PySpark RDD’s
+
+
+    The main abstraction Spark provides is a resilient distributed dataset
+
+    (RDD), which is the fundamental and backbone data type of this engine. This
+
+    chapter introduces RDDs and shows how RDDs can be created and executed using
+
+    RDD Transformations and Actions.
+
+
+    PySpark SQL & DataFrames
+
+
+    In this chapter, you''ll learn about Spark SQL which is a Spark module for
+
+    structured data processing. It provides a programming abstraction called
+
+    DataFrames and can also act as a distributed SQL query engine. This chapter
+
+    shows how Spark SQL allows you to use DataFrames in Python.
+
+
+    Machine Learning with PySpark MLlib
+
+
+    PySpark MLlib is the Apache Spark scalable machine learning library in
+
+    Python consisting of common learning algorithms and utilities. Throughout
+
+    this last chapter, you''ll learn important Machine Learning algorithms. You
+
+    will build a movie recommendation engine and a spam filter, and use k-means
+
+    clustering.'
+  chapters:
+  - chapter_index: 1
+    title: Introduction to Big Data analysis with Spark
+    summary: 'This chapter introduces the exciting world of Big Data, as well as
+
+      the various concepts and different frameworks for processing Big
+
+      Data. You will understand why Apache Spark is considered the best
+
+      framework for BigData.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 2
+    title: Programming in PySpark RDD’s
+    summary: 'The main abstraction Spark provides is a resilient distributed
+
+      dataset (RDD), which is the fundamental and backbone data type of
+
+      this engine. This chapter introduces RDDs and shows how RDDs can be
+
+      created and executed using RDD Transformations and Actions.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 3
+    title: PySpark SQL & DataFrames
+    summary: 'In this chapter, you''ll learn about Spark SQL which is a Spark
+
+      module for structured data processing. It provides a programming
+
+      abstraction called DataFrames and can also act as a distributed SQL
+
+      query engine. This chapter shows how Spark SQL allows you to use
+
+      DataFrames in Python.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 4
+    title: Machine Learning with PySpark MLlib
+    summary: 'PySpark MLlib is the Apache Spark scalable machine learning library
+
+      in Python consisting of common learning algorithms and utilities.
+
+      Throughout this last chapter, you''ll learn important Machine
+
+      Learning algorithms. You will build a movie recommendation engine
+
+      and a spam filter, and use k-means clustering.'
+    source: syllabus
+    confidence: 1.0
+  metadata:
+    level: Intermediate
+    duration_hours: 4 hours
+    subjects:
+    - Big Data
+    - Programming
+    - Data Analysis
+    - Machine Learning
+    - PySpark
+    - Algorithms
+    - DataFrames
+    - Spark SQL
+    - MLlib
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: introduction to big data analysis with spark
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: introduction to big data analysis
+    with spark'
+  evidence:
+  - source: syllabus
+    text: Introduction to Big Data analysis with Spark
+  confidence: 0.45
+- topic_id: t002
+  label: programming in pyspark rdd’s
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: programming in pyspark rdd’s'
+  evidence:
+  - source: syllabus
+    text: Programming in PySpark RDD’s
+  confidence: 0.45
+- topic_id: t003
+  label: pyspark sql & dataframes
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: pyspark sql & dataframes'
+  evidence:
+  - source: syllabus
+    text: PySpark SQL & DataFrames
+  confidence: 0.45
+- topic_id: t004
+  label: machine learning with pyspark mllib
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: machine learning with pyspark
+    mllib'
+  evidence:
+  - source: syllabus
+    text: Machine Learning with PySpark MLlib
+  confidence: 0.45
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: introduction to big data analysis with spark
+  aliases:
+  - introduction to big data analysis with spark
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: programming in pyspark rdd’s
+  aliases:
+  - programming in pyspark rdd’s
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: pyspark sql & dataframes
+  aliases:
+  - pyspark sql & dataframes
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: machine learning with pyspark mllib
+  aliases:
+  - machine learning with pyspark mllib
+  member_topic_ids:
+  - t004
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - introduction to big data analysis with spark
+  family: entry
+  pattern: What is {x}?
+  question_text: What is introduction to big data analysis with spark?
+- candidate_id: q0002
+  relevant_topics:
+  - introduction to big data analysis with spark
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does introduction to big data analysis with spark mean?
+- candidate_id: q0003
+  relevant_topics:
+  - introduction to big data analysis with spark
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does introduction to big data analysis with spark matter?
+- candidate_id: q0004
+  relevant_topics:
+  - introduction to big data analysis with spark
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use introduction to big data analysis with spark?
+- candidate_id: q0005
+  relevant_topics:
+  - introduction to big data analysis with spark
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of introduction to big data analysis with
+    spark?
+- candidate_id: q0006
+  relevant_topics:
+  - programming in pyspark rdd’s
+  family: entry
+  pattern: What is {x}?
+  question_text: What is programming in pyspark rdd’s?
+- candidate_id: q0007
+  relevant_topics:
+  - programming in pyspark rdd’s
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does programming in pyspark rdd’s mean?
+- candidate_id: q0008
+  relevant_topics:
+  - programming in pyspark rdd’s
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does programming in pyspark rdd’s matter?
+- candidate_id: q0009
+  relevant_topics:
+  - programming in pyspark rdd’s
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use programming in pyspark rdd’s?
+- candidate_id: q0010
+  relevant_topics:
+  - programming in pyspark rdd’s
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of programming in pyspark rdd’s?
+- candidate_id: q0011
+  relevant_topics:
+  - pyspark sql & dataframes
+  family: entry
+  pattern: What is {x}?
+  question_text: What is pyspark sql & dataframes?
+- candidate_id: q0012
+  relevant_topics:
+  - pyspark sql & dataframes
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does pyspark sql & dataframes mean?
+- candidate_id: q0013
+  relevant_topics:
+  - pyspark sql & dataframes
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does pyspark sql & dataframes matter?
+- candidate_id: q0014
+  relevant_topics:
+  - pyspark sql & dataframes
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use pyspark sql & dataframes?
+- candidate_id: q0015
+  relevant_topics:
+  - pyspark sql & dataframes
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of pyspark sql & dataframes?
+- candidate_id: q0016
+  relevant_topics:
+  - machine learning with pyspark mllib
+  family: entry
+  pattern: What is {x}?
+  question_text: What is machine learning with pyspark mllib?
+- candidate_id: q0017
+  relevant_topics:
+  - machine learning with pyspark mllib
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does machine learning with pyspark mllib mean?
+- candidate_id: q0018
+  relevant_topics:
+  - machine learning with pyspark mllib
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does machine learning with pyspark mllib matter?
+- candidate_id: q0019
+  relevant_topics:
+  - machine learning with pyspark mllib
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use machine learning with pyspark mllib?
+- candidate_id: q0020
+  relevant_topics:
+  - machine learning with pyspark mllib
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of machine learning with pyspark mllib?
+- candidate_id: q0021
+  relevant_topics:
+  - introduction to big data analysis with spark
+  - programming in pyspark rdd’s
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to big data analysis with spark different from
+    programming in pyspark rdd’s?
+- candidate_id: q0022
+  relevant_topics:
+  - introduction to big data analysis with spark
+  - pyspark sql & dataframes
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to big data analysis with spark different from
+    pyspark sql & dataframes?
+- candidate_id: q0023
+  relevant_topics:
+  - introduction to big data analysis with spark
+  - machine learning with pyspark mllib
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is introduction to big data analysis with spark different from
+    machine learning with pyspark mllib?
+- candidate_id: q0024
+  relevant_topics:
+  - programming in pyspark rdd’s
+  - pyspark sql & dataframes
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is programming in pyspark rdd’s different from pyspark sql &
+    dataframes?
+- candidate_id: q0025
+  relevant_topics:
+  - programming in pyspark rdd’s
+  - machine learning with pyspark mllib
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is programming in pyspark rdd’s different from machine learning
+    with pyspark mllib?
+- candidate_id: q0026
+  relevant_topics:
+  - pyspark sql & dataframes
+  - machine learning with pyspark mllib
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is pyspark sql & dataframes different from machine learning with
+    pyspark mllib?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is introduction to big data analysis with spark?
+  final_text: What is introduction to big data analysis with spark?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does introduction to big data analysis with spark mean?
+  final_text: What does introduction to big data analysis with spark mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does introduction to big data analysis with spark matter?
+  final_text: Why does introduction to big data analysis with spark matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use introduction to big data analysis with spark?
+  final_text: Why does introduction to big data analysis with spark?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of introduction to big data analysis with
+    spark?
+  final_text: What is a simple example of introduction to big data analysis with spark?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is programming in pyspark rdd’s?
+  final_text: What is programming in pyspark rdd’s?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does programming in pyspark rdd’s mean?
+  final_text: What does programming in pyspark rdd’s mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does programming in pyspark rdd’s matter?
+  final_text: Why does programming in pyspark rdd’s matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use programming in pyspark rdd’s?
+  final_text: Why does programming in pyspark rdd’s?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of programming in pyspark rdd’s?
+  final_text: What is a simple example of programming in pyspark rdd’s?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is pyspark sql & dataframes?
+  final_text: What is pyspark sql & dataframes?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does pyspark sql & dataframes mean?
+  final_text: What does pyspark sql & dataframes mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does pyspark sql & dataframes matter?
+  final_text: Why does pyspark sql & dataframes matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use pyspark sql & dataframes?
+  final_text: Why does pyspark sql & dataframes?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of pyspark sql & dataframes?
+  final_text: What is a simple example of pyspark sql & dataframes?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is machine learning with pyspark mllib?
+  final_text: What is machine learning with pyspark mllib?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does machine learning with pyspark mllib mean?
+  final_text: What does machine learning with pyspark mllib mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does machine learning with pyspark mllib matter?
+  final_text: Why does machine learning with pyspark mllib matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use machine learning with pyspark mllib?
+  final_text: Why does machine learning with pyspark mllib?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of machine learning with pyspark mllib?
+  final_text: What is a simple example of machine learning with pyspark mllib?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: How is introduction to big data analysis with spark different from
+    programming in pyspark rdd’s?
+  final_text: How is introduction to big data analysis with spark different from programming
+    in pyspark rdd’s?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: How is introduction to big data analysis with spark different from
+    pyspark sql & dataframes?
+  final_text: How is introduction to big data analysis with spark different from pyspark
+    sql & dataframes?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: How is introduction to big data analysis with spark different from
+    machine learning with pyspark mllib?
+  final_text: How is introduction to big data analysis with spark different from machine
+    learning with pyspark mllib?
+  reject_reason: null
+- candidate_id: q0024
+  status: accepted
+  original_text: How is programming in pyspark rdd’s different from pyspark sql &
+    dataframes?
+  final_text: How is programming in pyspark rdd’s different from pyspark sql & dataframes?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: How is programming in pyspark rdd’s different from machine learning
+    with pyspark mllib?
+  final_text: How is programming in pyspark rdd’s different from machine learning
+    with pyspark mllib?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: How is pyspark sql & dataframes different from machine learning with
+    pyspark mllib?
+  final_text: How is pyspark sql & dataframes different from machine learning with
+    pyspark mllib?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is introduction to big data analysis with spark?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does introduction to big data analysis with spark mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does introduction to big data analysis with spark matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does introduction to big data analysis with spark?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of introduction to big data analysis with
+    spark?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is programming in pyspark rdd’s?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does programming in pyspark rdd’s mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does programming in pyspark rdd’s matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does programming in pyspark rdd’s?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of programming in pyspark rdd’s?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is pyspark sql & dataframes?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does pyspark sql & dataframes mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does pyspark sql & dataframes matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does pyspark sql & dataframes?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of pyspark sql & dataframes?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is machine learning with pyspark mllib?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does machine learning with pyspark mllib mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does machine learning with pyspark mllib matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does machine learning with pyspark mllib?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of machine learning with pyspark mllib?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: How is introduction to big data analysis with spark different from
+    programming in pyspark rdd’s?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: How is introduction to big data analysis with spark different from
+    pyspark sql & dataframes?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: How is introduction to big data analysis with spark different from
+    machine learning with pyspark mllib?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: How is programming in pyspark rdd’s different from pyspark sql &
+    dataframes?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: How is programming in pyspark rdd’s different from machine learning
+    with pyspark mllib?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: How is pyspark sql & dataframes different from machine learning with
+    pyspark mllib?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24466'
+    title: Big Data Fundamentals with PySpark
+  relevant_topics:
+  - introduction to big data analysis with spark
+  question_text: What is introduction to big data analysis with spark?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24466'
+    title: Big Data Fundamentals with PySpark
+  relevant_topics:
+  - introduction to big data analysis with spark
+  question_text: What does introduction to big data analysis with spark mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24466'
+    title: Big Data Fundamentals with PySpark
+  relevant_topics:
+  - introduction to big data analysis with spark
+  question_text: Why does introduction to big data analysis with spark matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24466'
+    title: Big Data Fundamentals with PySpark
+  relevant_topics:
+  - introduction to big data analysis with spark
+  question_text: Why does introduction to big data analysis with spark?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24466'
+    title: Big Data Fundamentals with PySpark
+  relevant_topics:
+  - introduction to big data analysis with spark
+  question_text: What is a simple example of introduction to big data analysis with
+    spark?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24466'
+    title: Big Data Fundamentals with PySpark
+  relevant_topics:
+  - programming in pyspark rdd’s
+  question_text: What is programming in pyspark rdd’s?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24466'
+    title: Big Data Fundamentals with PySpark
+  relevant_topics:
+  - programming in pyspark rdd’s
+  question_text: What does programming in pyspark rdd’s mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24466'
+    title: Big Data Fundamentals with PySpark
+  relevant_topics:
+  - programming in pyspark rdd’s
+  question_text: Why does programming in pyspark rdd’s matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24466'
+    title: Big Data Fundamentals with PySpark
+  relevant_topics:
+  - programming in pyspark rdd’s
+  question_text: Why does programming in pyspark rdd’s?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24466'
+    title: Big Data Fundamentals with PySpark
+  relevant_topics:
+  - programming in pyspark rdd’s
+  question_text: What is a simple example of programming in pyspark rdd’s?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24466'
+    title: Big Data Fundamentals with PySpark
+  relevant_topics:
+  - pyspark sql & dataframes
+  question_text: What is pyspark sql & dataframes?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24466'
+    title: Big Data Fundamentals with PySpark
+  relevant_topics:
+  - pyspark sql & dataframes
+  question_text: What does pyspark sql & dataframes mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24466'
+    title: Big Data Fundamentals with PySpark
+  relevant_topics:
+  - pyspark sql & dataframes
+  question_text: Why does pyspark sql & dataframes matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24466'
+    title: Big Data Fundamentals with PySpark
+  relevant_topics:
+  - pyspark sql & dataframes
+  question_text: Why does pyspark sql & dataframes?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24466'
+    title: Big Data Fundamentals with PySpark
+  relevant_topics:
+  - pyspark sql & dataframes
+  question_text: What is a simple example of pyspark sql & dataframes?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24466'
+    title: Big Data Fundamentals with PySpark
+  relevant_topics:
+  - machine learning with pyspark mllib
+  question_text: What is machine learning with pyspark mllib?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24466'
+    title: Big Data Fundamentals with PySpark
+  relevant_topics:
+  - machine learning with pyspark mllib
+  question_text: What does machine learning with pyspark mllib mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24466'
+    title: Big Data Fundamentals with PySpark
+  relevant_topics:
+  - machine learning with pyspark mllib
+  question_text: Why does machine learning with pyspark mllib matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24466'
+    title: Big Data Fundamentals with PySpark
+  relevant_topics:
+  - machine learning with pyspark mllib
+  question_text: Why does machine learning with pyspark mllib?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24466'
+    title: Big Data Fundamentals with PySpark
+  relevant_topics:
+  - machine learning with pyspark mllib
+  question_text: What is a simple example of machine learning with pyspark mllib?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24466'
+    title: Big Data Fundamentals with PySpark
+  relevant_topics:
+  - introduction to big data analysis with spark
+  - programming in pyspark rdd’s
+  question_text: How is introduction to big data analysis with spark different from
+    programming in pyspark rdd’s?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24466'
+    title: Big Data Fundamentals with PySpark
+  relevant_topics:
+  - introduction to big data analysis with spark
+  - pyspark sql & dataframes
+  question_text: How is introduction to big data analysis with spark different from
+    pyspark sql & dataframes?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24466'
+    title: Big Data Fundamentals with PySpark
+  relevant_topics:
+  - introduction to big data analysis with spark
+  - machine learning with pyspark mllib
+  question_text: How is introduction to big data analysis with spark different from
+    machine learning with pyspark mllib?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24466'
+    title: Big Data Fundamentals with PySpark
+  relevant_topics:
+  - programming in pyspark rdd’s
+  - pyspark sql & dataframes
+  question_text: How is programming in pyspark rdd’s different from pyspark sql &
+    dataframes?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24466'
+    title: Big Data Fundamentals with PySpark
+  relevant_topics:
+  - programming in pyspark rdd’s
+  - machine learning with pyspark mllib
+  question_text: How is programming in pyspark rdd’s different from machine learning
+    with pyspark mllib?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24466'
+    title: Big Data Fundamentals with PySpark
+  relevant_topics:
+  - pyspark sql & dataframes
+  - machine learning with pyspark mllib
+  question_text: How is pyspark sql & dataframes different from machine learning with
+    pyspark mllib?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 4
+  canonical_topic_count: 4
+  candidate_count: 26
+  accepted_count: 26
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 26

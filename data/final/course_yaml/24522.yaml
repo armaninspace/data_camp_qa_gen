@@ -1,0 +1,3400 @@
+course_id: '24522'
+title: can be completed rapidly. Many of these data sets were originally several
+normalized_course:
+  course_id: '24522'
+  title: can be completed rapidly. Many of these data sets were originally several
+  provider: DataCamp
+  summary: 'Learn how to take the Python workflows you currently have and easily scale
+
+    them up to large datasets without the need for distributed computing
+
+    environments.'
+  overview: 'Working with Big Data
+
+
+    -In this chapter you''ll learn how to leverage traditional Python techniques
+
+    for reading and processing large datasets stored in either a single file or
+
+    in multiple files. Finally, you''ll learn how the Dask library can be used to
+
+    execute a pipeline of Python functions in parallel with the added goal of
+
+    being able to process large amounts of data on modest computational
+
+    resources.
+
+
+    For this course, the data set sizes have been reduced so that the exercises
+
+    can be completed rapidly. Many of these data sets were originally several
+
+    Gigabytes in size.
+
+
+    Working with Dask Arrays
+
+
+    -In this chapter we''ll explore how we can use `dask.array` to read multiple
+
+    data sources and perform computations with them as a single data array.
+
+    We''ll learn some advanced uses of NumPy arrays when dealing with high
+
+    dimensional data that also work on Dask arrays. Finally, we''ll examine
+
+    climate patterns in the US from monthly weather data in the US.
+
+
+    Working with Dask DataFrames
+
+
+    -The Dask DataFrame is built upon the Pandas DataFrame. Dask provides the
+
+    ability to scale your Pandas workflows to large data sets stored in either a
+
+    single file or separated across multiple files. In this chapter you''ll learn
+
+    how to build a pipeline of delayed computation with Dask DataFrame, and
+
+    you''ll use these skills to study how much NYC taxi riders tip their drivers.
+
+
+    Working with Dask Bags for Unstructured Data
+
+
+    -Datasets that have not already been standardized and provided as CSV files
+
+    can be challenging to work with. In this chapter you''ll use the Dask Bag to
+
+    read raw text files and perform simple text processing workflows over large
+
+    datasets in parallel. Conceptually, the Dask Bag is a parallel list that can
+
+    store any Python datatype with convenient functions that map over all of the
+
+    elements.
+
+
+    Case Study: Analyzing Flight Delays
+
+
+    -Now that you''ve learned how to utilize Dask to read and process large data
+
+    sets in parallel, you''ll put these skills together to search for
+
+    correlations between flight delays and reported weather events at selected
+
+    airports. You''ll read files in multiple directories containing flight
+
+    statistics for selected airports from the Bureau of Transportation
+
+    Statistics and merge them with daily weather data from wunderground.com into
+
+    a single Dask DataFrame.'
+  chapters:
+  - chapter_index: 1
+    title: Working with Big Data
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 2
+    title: -In this chapter you'll learn how to leverage traditional Python techniques
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 3
+    title: for reading and processing large datasets stored in either a single file
+      or
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 4
+    title: in multiple files. Finally, you'll learn how the Dask library can be used
+      to
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 5
+    title: execute a pipeline of Python functions in parallel with the added goal
+      of
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 6
+    title: being able to process large amounts of data on modest computational
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 7
+    title: For this course, the data set sizes have been reduced so that the exercises
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 8
+    title: can be completed rapidly. Many of these data sets were originally several
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  metadata:
+    level: Intermediate
+    duration_hours: 4 hours
+    subjects:
+    - Python
+    - Big Data
+    - Data Analysis
+    - pandas
+    - NumPy
+    - Parallel Computing
+    - Dask
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: working with big data
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: working with big data'
+  evidence:
+  - source: overview_inferred
+    text: Working with Big Data
+  confidence: 0.45
+- topic_id: t002
+  label: -in this chapter you'll learn how to leverage traditional python techniques
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: -in this chapter you''ll learn
+    how to leverage traditional python techniques'
+  evidence:
+  - source: overview_inferred
+    text: -In this chapter you'll learn how to leverage traditional Python techniques
+  confidence: 0.45
+- topic_id: t003
+  label: for reading
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: for reading'
+  evidence:
+  - source: overview_inferred
+    text: for reading and processing large datasets stored in either a single file
+      or
+  confidence: 0.55
+- topic_id: t004
+  label: processing large datasets stored in either a single file or
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: processing large datasets stored
+    in either a single file or'
+  evidence:
+  - source: overview_inferred
+    text: for reading and processing large datasets stored in either a single file
+      or
+  confidence: 0.55
+- topic_id: t005
+  label: in multiple files. finally, you'll learn how the dask library can be used
+    to
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: in multiple files. finally, you''ll
+    learn how the dask library can be used to'
+  evidence:
+  - source: overview_inferred
+    text: in multiple files. Finally, you'll learn how the Dask library can be used
+      to
+  confidence: 0.45
+- topic_id: t006
+  label: execute a pipeline of python functions in parallel with the added goal of
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: execute a pipeline of python
+    functions in parallel with the added goal of'
+  evidence:
+  - source: overview_inferred
+    text: execute a pipeline of Python functions in parallel with the added goal of
+  confidence: 0.45
+- topic_id: t007
+  label: being able to process large amounts of data on modest computational
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: being able to process large amounts
+    of data on modest computational'
+  evidence:
+  - source: overview_inferred
+    text: being able to process large amounts of data on modest computational
+  confidence: 0.45
+- topic_id: t008
+  label: for this course, the data set sizes have been reduced so that the exercises
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: for this course, the data set
+    sizes have been reduced so that the exercises'
+  evidence:
+  - source: overview_inferred
+    text: For this course, the data set sizes have been reduced so that the exercises
+  confidence: 0.45
+- topic_id: t009
+  label: can be completed rapidly. many of these data sets were originally several
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: can be completed rapidly. many
+    of these data sets were originally several'
+  evidence:
+  - source: overview_inferred
+    text: can be completed rapidly. Many of these data sets were originally several
+  confidence: 0.45
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: working with big data
+  aliases:
+  - working with big data
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: -in this chapter you'll learn how to leverage traditional python techniques
+  aliases:
+  - -in this chapter you'll learn how to leverage traditional python techniques
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: for reading
+  aliases:
+  - for reading
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: processing large datasets stored in either a single file or
+  aliases:
+  - processing large datasets stored in either a single file or
+  member_topic_ids:
+  - t004
+  topic_type: concept
+- canonical_topic_id: ct_005
+  label: in multiple files. finally, you'll learn how dask library can be used to
+  aliases:
+  - in multiple files. finally, you'll learn how the dask library can be used to
+  member_topic_ids:
+  - t005
+  topic_type: concept
+- canonical_topic_id: ct_006
+  label: execute a pipeline of python functions in parallel with added goal of
+  aliases:
+  - execute a pipeline of python functions in parallel with the added goal of
+  member_topic_ids:
+  - t006
+  topic_type: concept
+- canonical_topic_id: ct_007
+  label: being able to process large amounts of data on modest computational
+  aliases:
+  - being able to process large amounts of data on modest computational
+  member_topic_ids:
+  - t007
+  topic_type: concept
+- canonical_topic_id: ct_008
+  label: for this course, data set sizes have been reduced so that exercises
+  aliases:
+  - for this course, the data set sizes have been reduced so that the exercises
+  member_topic_ids:
+  - t008
+  topic_type: concept
+- canonical_topic_id: ct_009
+  label: can be completed rapidly. many of these data sets were originally several
+  aliases:
+  - can be completed rapidly. many of these data sets were originally several
+  member_topic_ids:
+  - t009
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - working with big data
+  family: entry
+  pattern: What is {x}?
+  question_text: What is working with big data?
+- candidate_id: q0002
+  relevant_topics:
+  - working with big data
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does working with big data mean?
+- candidate_id: q0003
+  relevant_topics:
+  - working with big data
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does working with big data matter?
+- candidate_id: q0004
+  relevant_topics:
+  - working with big data
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use working with big data?
+- candidate_id: q0005
+  relevant_topics:
+  - working with big data
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of working with big data?
+- candidate_id: q0006
+  relevant_topics:
+  - -in this chapter you'll learn how to leverage traditional python techniques
+  family: entry
+  pattern: What is {x}?
+  question_text: What is -in this chapter you'll learn how to leverage traditional
+    python techniques?
+- candidate_id: q0007
+  relevant_topics:
+  - -in this chapter you'll learn how to leverage traditional python techniques
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does -in this chapter you'll learn how to leverage traditional
+    python techniques mean?
+- candidate_id: q0008
+  relevant_topics:
+  - -in this chapter you'll learn how to leverage traditional python techniques
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does -in this chapter you'll learn how to leverage traditional
+    python techniques matter?
+- candidate_id: q0009
+  relevant_topics:
+  - -in this chapter you'll learn how to leverage traditional python techniques
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use -in this chapter you'll learn how to leverage traditional
+    python techniques?
+- candidate_id: q0010
+  relevant_topics:
+  - -in this chapter you'll learn how to leverage traditional python techniques
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of -in this chapter you'll learn how to
+    leverage traditional python techniques?
+- candidate_id: q0011
+  relevant_topics:
+  - for reading
+  family: entry
+  pattern: What is {x}?
+  question_text: What is for reading?
+- candidate_id: q0012
+  relevant_topics:
+  - for reading
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does for reading mean?
+- candidate_id: q0013
+  relevant_topics:
+  - for reading
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does for reading matter?
+- candidate_id: q0014
+  relevant_topics:
+  - for reading
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use for reading?
+- candidate_id: q0015
+  relevant_topics:
+  - for reading
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of for reading?
+- candidate_id: q0016
+  relevant_topics:
+  - processing large datasets stored in either a single file or
+  family: entry
+  pattern: What is {x}?
+  question_text: What is processing large datasets stored in either a single file
+    or?
+- candidate_id: q0017
+  relevant_topics:
+  - processing large datasets stored in either a single file or
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does processing large datasets stored in either a single file
+    or mean?
+- candidate_id: q0018
+  relevant_topics:
+  - processing large datasets stored in either a single file or
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does processing large datasets stored in either a single file
+    or matter?
+- candidate_id: q0019
+  relevant_topics:
+  - processing large datasets stored in either a single file or
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use processing large datasets stored in either a single
+    file or?
+- candidate_id: q0020
+  relevant_topics:
+  - processing large datasets stored in either a single file or
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of processing large datasets stored in either
+    a single file or?
+- candidate_id: q0021
+  relevant_topics:
+  - in multiple files. finally, you'll learn how dask library can be used to
+  family: entry
+  pattern: What is {x}?
+  question_text: What is in multiple files. finally, you'll learn how dask library
+    can be used to?
+- candidate_id: q0022
+  relevant_topics:
+  - in multiple files. finally, you'll learn how dask library can be used to
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does in multiple files. finally, you'll learn how dask library
+    can be used to mean?
+- candidate_id: q0023
+  relevant_topics:
+  - in multiple files. finally, you'll learn how dask library can be used to
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does in multiple files. finally, you'll learn how dask library
+    can be used to matter?
+- candidate_id: q0024
+  relevant_topics:
+  - in multiple files. finally, you'll learn how dask library can be used to
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use in multiple files. finally, you'll learn how dask library
+    can be used to?
+- candidate_id: q0025
+  relevant_topics:
+  - in multiple files. finally, you'll learn how dask library can be used to
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of in multiple files. finally, you'll learn
+    how dask library can be used to?
+- candidate_id: q0026
+  relevant_topics:
+  - execute a pipeline of python functions in parallel with added goal of
+  family: entry
+  pattern: What is {x}?
+  question_text: What is execute a pipeline of python functions in parallel with added
+    goal of?
+- candidate_id: q0027
+  relevant_topics:
+  - execute a pipeline of python functions in parallel with added goal of
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does execute a pipeline of python functions in parallel with
+    added goal of mean?
+- candidate_id: q0028
+  relevant_topics:
+  - execute a pipeline of python functions in parallel with added goal of
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does execute a pipeline of python functions in parallel with
+    added goal of matter?
+- candidate_id: q0029
+  relevant_topics:
+  - execute a pipeline of python functions in parallel with added goal of
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use execute a pipeline of python functions in parallel
+    with added goal of?
+- candidate_id: q0030
+  relevant_topics:
+  - execute a pipeline of python functions in parallel with added goal of
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of execute a pipeline of python functions
+    in parallel with added goal of?
+- candidate_id: q0031
+  relevant_topics:
+  - being able to process large amounts of data on modest computational
+  family: entry
+  pattern: What is {x}?
+  question_text: What is being able to process large amounts of data on modest computational?
+- candidate_id: q0032
+  relevant_topics:
+  - being able to process large amounts of data on modest computational
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does being able to process large amounts of data on modest computational
+    mean?
+- candidate_id: q0033
+  relevant_topics:
+  - being able to process large amounts of data on modest computational
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does being able to process large amounts of data on modest computational
+    matter?
+- candidate_id: q0034
+  relevant_topics:
+  - being able to process large amounts of data on modest computational
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use being able to process large amounts of data on modest
+    computational?
+- candidate_id: q0035
+  relevant_topics:
+  - being able to process large amounts of data on modest computational
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of being able to process large amounts of
+    data on modest computational?
+- candidate_id: q0036
+  relevant_topics:
+  - for this course, data set sizes have been reduced so that exercises
+  family: entry
+  pattern: What is {x}?
+  question_text: What is for this course, data set sizes have been reduced so that
+    exercises?
+- candidate_id: q0037
+  relevant_topics:
+  - for this course, data set sizes have been reduced so that exercises
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does for this course, data set sizes have been reduced so that
+    exercises mean?
+- candidate_id: q0038
+  relevant_topics:
+  - for this course, data set sizes have been reduced so that exercises
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does for this course, data set sizes have been reduced so that
+    exercises matter?
+- candidate_id: q0039
+  relevant_topics:
+  - for this course, data set sizes have been reduced so that exercises
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use for this course, data set sizes have been reduced so
+    that exercises?
+- candidate_id: q0040
+  relevant_topics:
+  - for this course, data set sizes have been reduced so that exercises
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of for this course, data set sizes have
+    been reduced so that exercises?
+- candidate_id: q0041
+  relevant_topics:
+  - can be completed rapidly. many of these data sets were originally several
+  family: entry
+  pattern: What is {x}?
+  question_text: What is can be completed rapidly. many of these data sets were originally
+    several?
+- candidate_id: q0042
+  relevant_topics:
+  - can be completed rapidly. many of these data sets were originally several
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does can be completed rapidly. many of these data sets were
+    originally several mean?
+- candidate_id: q0043
+  relevant_topics:
+  - can be completed rapidly. many of these data sets were originally several
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does can be completed rapidly. many of these data sets were originally
+    several matter?
+- candidate_id: q0044
+  relevant_topics:
+  - can be completed rapidly. many of these data sets were originally several
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use can be completed rapidly. many of these data sets were
+    originally several?
+- candidate_id: q0045
+  relevant_topics:
+  - can be completed rapidly. many of these data sets were originally several
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of can be completed rapidly. many of these
+    data sets were originally several?
+- candidate_id: q0046
+  relevant_topics:
+  - working with big data
+  - -in this chapter you'll learn how to leverage traditional python techniques
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is working with big data different from -in this chapter you'll
+    learn how to leverage traditional python techniques?
+- candidate_id: q0047
+  relevant_topics:
+  - working with big data
+  - for reading
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is working with big data different from for reading?
+- candidate_id: q0048
+  relevant_topics:
+  - working with big data
+  - processing large datasets stored in either a single file or
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is working with big data different from processing large datasets
+    stored in either a single file or?
+- candidate_id: q0049
+  relevant_topics:
+  - working with big data
+  - in multiple files. finally, you'll learn how dask library can be used to
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is working with big data different from in multiple files. finally,
+    you'll learn how dask library can be used to?
+- candidate_id: q0050
+  relevant_topics:
+  - working with big data
+  - execute a pipeline of python functions in parallel with added goal of
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is working with big data different from execute a pipeline of
+    python functions in parallel with added goal of?
+- candidate_id: q0051
+  relevant_topics:
+  - working with big data
+  - being able to process large amounts of data on modest computational
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is working with big data different from being able to process
+    large amounts of data on modest computational?
+- candidate_id: q0052
+  relevant_topics:
+  - working with big data
+  - for this course, data set sizes have been reduced so that exercises
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is working with big data different from for this course, data
+    set sizes have been reduced so that exercises?
+- candidate_id: q0053
+  relevant_topics:
+  - working with big data
+  - can be completed rapidly. many of these data sets were originally several
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is working with big data different from can be completed rapidly.
+    many of these data sets were originally several?
+- candidate_id: q0054
+  relevant_topics:
+  - -in this chapter you'll learn how to leverage traditional python techniques
+  - for reading
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter you'll learn how to leverage traditional
+    python techniques different from for reading?
+- candidate_id: q0055
+  relevant_topics:
+  - -in this chapter you'll learn how to leverage traditional python techniques
+  - processing large datasets stored in either a single file or
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter you'll learn how to leverage traditional
+    python techniques different from processing large datasets stored in either a
+    single file or?
+- candidate_id: q0056
+  relevant_topics:
+  - -in this chapter you'll learn how to leverage traditional python techniques
+  - in multiple files. finally, you'll learn how dask library can be used to
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter you'll learn how to leverage traditional
+    python techniques different from in multiple files. finally, you'll learn how
+    dask library can be used to?
+- candidate_id: q0057
+  relevant_topics:
+  - -in this chapter you'll learn how to leverage traditional python techniques
+  - execute a pipeline of python functions in parallel with added goal of
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter you'll learn how to leverage traditional
+    python techniques different from execute a pipeline of python functions in parallel
+    with added goal of?
+- candidate_id: q0058
+  relevant_topics:
+  - -in this chapter you'll learn how to leverage traditional python techniques
+  - being able to process large amounts of data on modest computational
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter you'll learn how to leverage traditional
+    python techniques different from being able to process large amounts of data on
+    modest computational?
+- candidate_id: q0059
+  relevant_topics:
+  - -in this chapter you'll learn how to leverage traditional python techniques
+  - for this course, data set sizes have been reduced so that exercises
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter you'll learn how to leverage traditional
+    python techniques different from for this course, data set sizes have been reduced
+    so that exercises?
+- candidate_id: q0060
+  relevant_topics:
+  - -in this chapter you'll learn how to leverage traditional python techniques
+  - can be completed rapidly. many of these data sets were originally several
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter you'll learn how to leverage traditional
+    python techniques different from can be completed rapidly. many of these data
+    sets were originally several?
+- candidate_id: q0061
+  relevant_topics:
+  - for reading
+  - processing large datasets stored in either a single file or
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is for reading different from processing large datasets stored
+    in either a single file or?
+- candidate_id: q0062
+  relevant_topics:
+  - for reading
+  - in multiple files. finally, you'll learn how dask library can be used to
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is for reading different from in multiple files. finally, you'll
+    learn how dask library can be used to?
+- candidate_id: q0063
+  relevant_topics:
+  - for reading
+  - execute a pipeline of python functions in parallel with added goal of
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is for reading different from execute a pipeline of python functions
+    in parallel with added goal of?
+- candidate_id: q0064
+  relevant_topics:
+  - for reading
+  - being able to process large amounts of data on modest computational
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is for reading different from being able to process large amounts
+    of data on modest computational?
+- candidate_id: q0065
+  relevant_topics:
+  - for reading
+  - for this course, data set sizes have been reduced so that exercises
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is for reading different from for this course, data set sizes
+    have been reduced so that exercises?
+- candidate_id: q0066
+  relevant_topics:
+  - for reading
+  - can be completed rapidly. many of these data sets were originally several
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is for reading different from can be completed rapidly. many
+    of these data sets were originally several?
+- candidate_id: q0067
+  relevant_topics:
+  - processing large datasets stored in either a single file or
+  - in multiple files. finally, you'll learn how dask library can be used to
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is processing large datasets stored in either a single file or
+    different from in multiple files. finally, you'll learn how dask library can be
+    used to?
+- candidate_id: q0068
+  relevant_topics:
+  - processing large datasets stored in either a single file or
+  - execute a pipeline of python functions in parallel with added goal of
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is processing large datasets stored in either a single file or
+    different from execute a pipeline of python functions in parallel with added goal
+    of?
+- candidate_id: q0069
+  relevant_topics:
+  - processing large datasets stored in either a single file or
+  - being able to process large amounts of data on modest computational
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is processing large datasets stored in either a single file or
+    different from being able to process large amounts of data on modest computational?
+- candidate_id: q0070
+  relevant_topics:
+  - processing large datasets stored in either a single file or
+  - for this course, data set sizes have been reduced so that exercises
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is processing large datasets stored in either a single file or
+    different from for this course, data set sizes have been reduced so that exercises?
+- candidate_id: q0071
+  relevant_topics:
+  - processing large datasets stored in either a single file or
+  - can be completed rapidly. many of these data sets were originally several
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is processing large datasets stored in either a single file or
+    different from can be completed rapidly. many of these data sets were originally
+    several?
+- candidate_id: q0072
+  relevant_topics:
+  - in multiple files. finally, you'll learn how dask library can be used to
+  - execute a pipeline of python functions in parallel with added goal of
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is in multiple files. finally, you'll learn how dask library
+    can be used to different from execute a pipeline of python functions in parallel
+    with added goal of?
+- candidate_id: q0073
+  relevant_topics:
+  - in multiple files. finally, you'll learn how dask library can be used to
+  - being able to process large amounts of data on modest computational
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is in multiple files. finally, you'll learn how dask library
+    can be used to different from being able to process large amounts of data on modest
+    computational?
+- candidate_id: q0074
+  relevant_topics:
+  - in multiple files. finally, you'll learn how dask library can be used to
+  - for this course, data set sizes have been reduced so that exercises
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is in multiple files. finally, you'll learn how dask library
+    can be used to different from for this course, data set sizes have been reduced
+    so that exercises?
+- candidate_id: q0075
+  relevant_topics:
+  - in multiple files. finally, you'll learn how dask library can be used to
+  - can be completed rapidly. many of these data sets were originally several
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is in multiple files. finally, you'll learn how dask library
+    can be used to different from can be completed rapidly. many of these data sets
+    were originally several?
+- candidate_id: q0076
+  relevant_topics:
+  - execute a pipeline of python functions in parallel with added goal of
+  - being able to process large amounts of data on modest computational
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is execute a pipeline of python functions in parallel with added
+    goal of different from being able to process large amounts of data on modest computational?
+- candidate_id: q0077
+  relevant_topics:
+  - execute a pipeline of python functions in parallel with added goal of
+  - for this course, data set sizes have been reduced so that exercises
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is execute a pipeline of python functions in parallel with added
+    goal of different from for this course, data set sizes have been reduced so that
+    exercises?
+- candidate_id: q0078
+  relevant_topics:
+  - execute a pipeline of python functions in parallel with added goal of
+  - can be completed rapidly. many of these data sets were originally several
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is execute a pipeline of python functions in parallel with added
+    goal of different from can be completed rapidly. many of these data sets were
+    originally several?
+- candidate_id: q0079
+  relevant_topics:
+  - being able to process large amounts of data on modest computational
+  - for this course, data set sizes have been reduced so that exercises
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is being able to process large amounts of data on modest computational
+    different from for this course, data set sizes have been reduced so that exercises?
+- candidate_id: q0080
+  relevant_topics:
+  - being able to process large amounts of data on modest computational
+  - can be completed rapidly. many of these data sets were originally several
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is being able to process large amounts of data on modest computational
+    different from can be completed rapidly. many of these data sets were originally
+    several?
+- candidate_id: q0081
+  relevant_topics:
+  - for this course, data set sizes have been reduced so that exercises
+  - can be completed rapidly. many of these data sets were originally several
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is for this course, data set sizes have been reduced so that
+    exercises different from can be completed rapidly. many of these data sets were
+    originally several?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is working with big data?
+  final_text: What is working with big data?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does working with big data mean?
+  final_text: What does working with big data mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does working with big data matter?
+  final_text: Why does working with big data matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use working with big data?
+  final_text: Why does working with big data?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of working with big data?
+  final_text: What is a simple example of working with big data?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is -in this chapter you'll learn how to leverage traditional
+    python techniques?
+  final_text: What is -in this chapter you'll learn how to leverage traditional python
+    techniques?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does -in this chapter you'll learn how to leverage traditional
+    python techniques mean?
+  final_text: What does -in this chapter you'll learn how to leverage traditional
+    python techniques mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does -in this chapter you'll learn how to leverage traditional
+    python techniques matter?
+  final_text: Why does -in this chapter you'll learn how to leverage traditional python
+    techniques matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use -in this chapter you'll learn how to leverage traditional
+    python techniques?
+  final_text: Why does -in this chapter you'll learn how to leverage traditional python
+    techniques?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of -in this chapter you'll learn how to
+    leverage traditional python techniques?
+  final_text: What is a simple example of -in this chapter you'll learn how to leverage
+    traditional python techniques?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is for reading?
+  final_text: What is for reading?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does for reading mean?
+  final_text: What does for reading mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does for reading matter?
+  final_text: Why does for reading matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use for reading?
+  final_text: Why does for reading?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of for reading?
+  final_text: What is a simple example of for reading?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is processing large datasets stored in either a single file
+    or?
+  final_text: What is processing large datasets stored in either a single file or?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does processing large datasets stored in either a single file
+    or mean?
+  final_text: What does processing large datasets stored in either a single file or
+    mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does processing large datasets stored in either a single file
+    or matter?
+  final_text: Why does processing large datasets stored in either a single file or
+    matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use processing large datasets stored in either a single
+    file or?
+  final_text: Why does processing large datasets stored in either a single file or?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of processing large datasets stored in either
+    a single file or?
+  final_text: What is a simple example of processing large datasets stored in either
+    a single file or?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: What is in multiple files. finally, you'll learn how dask library
+    can be used to?
+  final_text: What is in multiple files. finally, you'll learn how dask library can
+    be used to?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: What does in multiple files. finally, you'll learn how dask library
+    can be used to mean?
+  final_text: What does in multiple files. finally, you'll learn how dask library
+    can be used to mean?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: Why does in multiple files. finally, you'll learn how dask library
+    can be used to matter?
+  final_text: Why does in multiple files. finally, you'll learn how dask library can
+    be used to matter?
+  reject_reason: null
+- candidate_id: q0024
+  status: repaired
+  original_text: Why do we use in multiple files. finally, you'll learn how dask library
+    can be used to?
+  final_text: Why does in multiple files. finally, you'll learn how dask library can
+    be used to?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: What is a simple example of in multiple files. finally, you'll learn
+    how dask library can be used to?
+  final_text: What is a simple example of in multiple files. finally, you'll learn
+    how dask library can be used to?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: What is execute a pipeline of python functions in parallel with added
+    goal of?
+  final_text: What is execute a pipeline of python functions in parallel with added
+    goal of?
+  reject_reason: null
+- candidate_id: q0027
+  status: accepted
+  original_text: What does execute a pipeline of python functions in parallel with
+    added goal of mean?
+  final_text: What does execute a pipeline of python functions in parallel with added
+    goal of mean?
+  reject_reason: null
+- candidate_id: q0028
+  status: accepted
+  original_text: Why does execute a pipeline of python functions in parallel with
+    added goal of matter?
+  final_text: Why does execute a pipeline of python functions in parallel with added
+    goal of matter?
+  reject_reason: null
+- candidate_id: q0029
+  status: repaired
+  original_text: Why do we use execute a pipeline of python functions in parallel
+    with added goal of?
+  final_text: Why does execute a pipeline of python functions in parallel with added
+    goal of?
+  reject_reason: null
+- candidate_id: q0030
+  status: accepted
+  original_text: What is a simple example of execute a pipeline of python functions
+    in parallel with added goal of?
+  final_text: What is a simple example of execute a pipeline of python functions in
+    parallel with added goal of?
+  reject_reason: null
+- candidate_id: q0031
+  status: accepted
+  original_text: What is being able to process large amounts of data on modest computational?
+  final_text: What is being able to process large amounts of data on modest computational?
+  reject_reason: null
+- candidate_id: q0032
+  status: accepted
+  original_text: What does being able to process large amounts of data on modest computational
+    mean?
+  final_text: What does being able to process large amounts of data on modest computational
+    mean?
+  reject_reason: null
+- candidate_id: q0033
+  status: accepted
+  original_text: Why does being able to process large amounts of data on modest computational
+    matter?
+  final_text: Why does being able to process large amounts of data on modest computational
+    matter?
+  reject_reason: null
+- candidate_id: q0034
+  status: repaired
+  original_text: Why do we use being able to process large amounts of data on modest
+    computational?
+  final_text: Why does being able to process large amounts of data on modest computational?
+  reject_reason: null
+- candidate_id: q0035
+  status: accepted
+  original_text: What is a simple example of being able to process large amounts of
+    data on modest computational?
+  final_text: What is a simple example of being able to process large amounts of data
+    on modest computational?
+  reject_reason: null
+- candidate_id: q0036
+  status: accepted
+  original_text: What is for this course, data set sizes have been reduced so that
+    exercises?
+  final_text: What is for this course, data set sizes have been reduced so that exercises?
+  reject_reason: null
+- candidate_id: q0037
+  status: accepted
+  original_text: What does for this course, data set sizes have been reduced so that
+    exercises mean?
+  final_text: What does for this course, data set sizes have been reduced so that
+    exercises mean?
+  reject_reason: null
+- candidate_id: q0038
+  status: accepted
+  original_text: Why does for this course, data set sizes have been reduced so that
+    exercises matter?
+  final_text: Why does for this course, data set sizes have been reduced so that exercises
+    matter?
+  reject_reason: null
+- candidate_id: q0039
+  status: repaired
+  original_text: Why do we use for this course, data set sizes have been reduced so
+    that exercises?
+  final_text: Why does for this course, data set sizes have been reduced so that exercises?
+  reject_reason: null
+- candidate_id: q0040
+  status: accepted
+  original_text: What is a simple example of for this course, data set sizes have
+    been reduced so that exercises?
+  final_text: What is a simple example of for this course, data set sizes have been
+    reduced so that exercises?
+  reject_reason: null
+- candidate_id: q0041
+  status: accepted
+  original_text: What is can be completed rapidly. many of these data sets were originally
+    several?
+  final_text: What is can be completed rapidly. many of these data sets were originally
+    several?
+  reject_reason: null
+- candidate_id: q0042
+  status: accepted
+  original_text: What does can be completed rapidly. many of these data sets were
+    originally several mean?
+  final_text: What does can be completed rapidly. many of these data sets were originally
+    several mean?
+  reject_reason: null
+- candidate_id: q0043
+  status: accepted
+  original_text: Why does can be completed rapidly. many of these data sets were originally
+    several matter?
+  final_text: Why does can be completed rapidly. many of these data sets were originally
+    several matter?
+  reject_reason: null
+- candidate_id: q0044
+  status: repaired
+  original_text: Why do we use can be completed rapidly. many of these data sets were
+    originally several?
+  final_text: Why does can be completed rapidly. many of these data sets were originally
+    several?
+  reject_reason: null
+- candidate_id: q0045
+  status: accepted
+  original_text: What is a simple example of can be completed rapidly. many of these
+    data sets were originally several?
+  final_text: What is a simple example of can be completed rapidly. many of these
+    data sets were originally several?
+  reject_reason: null
+- candidate_id: q0046
+  status: accepted
+  original_text: How is working with big data different from -in this chapter you'll
+    learn how to leverage traditional python techniques?
+  final_text: How is working with big data different from -in this chapter you'll
+    learn how to leverage traditional python techniques?
+  reject_reason: null
+- candidate_id: q0047
+  status: accepted
+  original_text: How is working with big data different from for reading?
+  final_text: How is working with big data different from for reading?
+  reject_reason: null
+- candidate_id: q0048
+  status: accepted
+  original_text: How is working with big data different from processing large datasets
+    stored in either a single file or?
+  final_text: How is working with big data different from processing large datasets
+    stored in either a single file or?
+  reject_reason: null
+- candidate_id: q0049
+  status: accepted
+  original_text: How is working with big data different from in multiple files. finally,
+    you'll learn how dask library can be used to?
+  final_text: How is working with big data different from in multiple files. finally,
+    you'll learn how dask library can be used to?
+  reject_reason: null
+- candidate_id: q0050
+  status: accepted
+  original_text: How is working with big data different from execute a pipeline of
+    python functions in parallel with added goal of?
+  final_text: How is working with big data different from execute a pipeline of python
+    functions in parallel with added goal of?
+  reject_reason: null
+- candidate_id: q0051
+  status: accepted
+  original_text: How is working with big data different from being able to process
+    large amounts of data on modest computational?
+  final_text: How is working with big data different from being able to process large
+    amounts of data on modest computational?
+  reject_reason: null
+- candidate_id: q0052
+  status: accepted
+  original_text: How is working with big data different from for this course, data
+    set sizes have been reduced so that exercises?
+  final_text: How is working with big data different from for this course, data set
+    sizes have been reduced so that exercises?
+  reject_reason: null
+- candidate_id: q0053
+  status: accepted
+  original_text: How is working with big data different from can be completed rapidly.
+    many of these data sets were originally several?
+  final_text: How is working with big data different from can be completed rapidly.
+    many of these data sets were originally several?
+  reject_reason: null
+- candidate_id: q0054
+  status: accepted
+  original_text: How is -in this chapter you'll learn how to leverage traditional
+    python techniques different from for reading?
+  final_text: How is -in this chapter you'll learn how to leverage traditional python
+    techniques different from for reading?
+  reject_reason: null
+- candidate_id: q0055
+  status: accepted
+  original_text: How is -in this chapter you'll learn how to leverage traditional
+    python techniques different from processing large datasets stored in either a
+    single file or?
+  final_text: How is -in this chapter you'll learn how to leverage traditional python
+    techniques different from processing large datasets stored in either a single
+    file or?
+  reject_reason: null
+- candidate_id: q0056
+  status: accepted
+  original_text: How is -in this chapter you'll learn how to leverage traditional
+    python techniques different from in multiple files. finally, you'll learn how
+    dask library can be used to?
+  final_text: How is -in this chapter you'll learn how to leverage traditional python
+    techniques different from in multiple files. finally, you'll learn how dask library
+    can be used to?
+  reject_reason: null
+- candidate_id: q0057
+  status: accepted
+  original_text: How is -in this chapter you'll learn how to leverage traditional
+    python techniques different from execute a pipeline of python functions in parallel
+    with added goal of?
+  final_text: How is -in this chapter you'll learn how to leverage traditional python
+    techniques different from execute a pipeline of python functions in parallel with
+    added goal of?
+  reject_reason: null
+- candidate_id: q0058
+  status: accepted
+  original_text: How is -in this chapter you'll learn how to leverage traditional
+    python techniques different from being able to process large amounts of data on
+    modest computational?
+  final_text: How is -in this chapter you'll learn how to leverage traditional python
+    techniques different from being able to process large amounts of data on modest
+    computational?
+  reject_reason: null
+- candidate_id: q0059
+  status: accepted
+  original_text: How is -in this chapter you'll learn how to leverage traditional
+    python techniques different from for this course, data set sizes have been reduced
+    so that exercises?
+  final_text: How is -in this chapter you'll learn how to leverage traditional python
+    techniques different from for this course, data set sizes have been reduced so
+    that exercises?
+  reject_reason: null
+- candidate_id: q0060
+  status: accepted
+  original_text: How is -in this chapter you'll learn how to leverage traditional
+    python techniques different from can be completed rapidly. many of these data
+    sets were originally several?
+  final_text: How is -in this chapter you'll learn how to leverage traditional python
+    techniques different from can be completed rapidly. many of these data sets were
+    originally several?
+  reject_reason: null
+- candidate_id: q0061
+  status: accepted
+  original_text: How is for reading different from processing large datasets stored
+    in either a single file or?
+  final_text: How is for reading different from processing large datasets stored in
+    either a single file or?
+  reject_reason: null
+- candidate_id: q0062
+  status: accepted
+  original_text: How is for reading different from in multiple files. finally, you'll
+    learn how dask library can be used to?
+  final_text: How is for reading different from in multiple files. finally, you'll
+    learn how dask library can be used to?
+  reject_reason: null
+- candidate_id: q0063
+  status: accepted
+  original_text: How is for reading different from execute a pipeline of python functions
+    in parallel with added goal of?
+  final_text: How is for reading different from execute a pipeline of python functions
+    in parallel with added goal of?
+  reject_reason: null
+- candidate_id: q0064
+  status: accepted
+  original_text: How is for reading different from being able to process large amounts
+    of data on modest computational?
+  final_text: How is for reading different from being able to process large amounts
+    of data on modest computational?
+  reject_reason: null
+- candidate_id: q0065
+  status: accepted
+  original_text: How is for reading different from for this course, data set sizes
+    have been reduced so that exercises?
+  final_text: How is for reading different from for this course, data set sizes have
+    been reduced so that exercises?
+  reject_reason: null
+- candidate_id: q0066
+  status: accepted
+  original_text: How is for reading different from can be completed rapidly. many
+    of these data sets were originally several?
+  final_text: How is for reading different from can be completed rapidly. many of
+    these data sets were originally several?
+  reject_reason: null
+- candidate_id: q0067
+  status: accepted
+  original_text: How is processing large datasets stored in either a single file or
+    different from in multiple files. finally, you'll learn how dask library can be
+    used to?
+  final_text: How is processing large datasets stored in either a single file or different
+    from in multiple files. finally, you'll learn how dask library can be used to?
+  reject_reason: null
+- candidate_id: q0068
+  status: accepted
+  original_text: How is processing large datasets stored in either a single file or
+    different from execute a pipeline of python functions in parallel with added goal
+    of?
+  final_text: How is processing large datasets stored in either a single file or different
+    from execute a pipeline of python functions in parallel with added goal of?
+  reject_reason: null
+- candidate_id: q0069
+  status: accepted
+  original_text: How is processing large datasets stored in either a single file or
+    different from being able to process large amounts of data on modest computational?
+  final_text: How is processing large datasets stored in either a single file or different
+    from being able to process large amounts of data on modest computational?
+  reject_reason: null
+- candidate_id: q0070
+  status: accepted
+  original_text: How is processing large datasets stored in either a single file or
+    different from for this course, data set sizes have been reduced so that exercises?
+  final_text: How is processing large datasets stored in either a single file or different
+    from for this course, data set sizes have been reduced so that exercises?
+  reject_reason: null
+- candidate_id: q0071
+  status: accepted
+  original_text: How is processing large datasets stored in either a single file or
+    different from can be completed rapidly. many of these data sets were originally
+    several?
+  final_text: How is processing large datasets stored in either a single file or different
+    from can be completed rapidly. many of these data sets were originally several?
+  reject_reason: null
+- candidate_id: q0072
+  status: accepted
+  original_text: How is in multiple files. finally, you'll learn how dask library
+    can be used to different from execute a pipeline of python functions in parallel
+    with added goal of?
+  final_text: How is in multiple files. finally, you'll learn how dask library can
+    be used to different from execute a pipeline of python functions in parallel with
+    added goal of?
+  reject_reason: null
+- candidate_id: q0073
+  status: accepted
+  original_text: How is in multiple files. finally, you'll learn how dask library
+    can be used to different from being able to process large amounts of data on modest
+    computational?
+  final_text: How is in multiple files. finally, you'll learn how dask library can
+    be used to different from being able to process large amounts of data on modest
+    computational?
+  reject_reason: null
+- candidate_id: q0074
+  status: accepted
+  original_text: How is in multiple files. finally, you'll learn how dask library
+    can be used to different from for this course, data set sizes have been reduced
+    so that exercises?
+  final_text: How is in multiple files. finally, you'll learn how dask library can
+    be used to different from for this course, data set sizes have been reduced so
+    that exercises?
+  reject_reason: null
+- candidate_id: q0075
+  status: accepted
+  original_text: How is in multiple files. finally, you'll learn how dask library
+    can be used to different from can be completed rapidly. many of these data sets
+    were originally several?
+  final_text: How is in multiple files. finally, you'll learn how dask library can
+    be used to different from can be completed rapidly. many of these data sets were
+    originally several?
+  reject_reason: null
+- candidate_id: q0076
+  status: accepted
+  original_text: How is execute a pipeline of python functions in parallel with added
+    goal of different from being able to process large amounts of data on modest computational?
+  final_text: How is execute a pipeline of python functions in parallel with added
+    goal of different from being able to process large amounts of data on modest computational?
+  reject_reason: null
+- candidate_id: q0077
+  status: accepted
+  original_text: How is execute a pipeline of python functions in parallel with added
+    goal of different from for this course, data set sizes have been reduced so that
+    exercises?
+  final_text: How is execute a pipeline of python functions in parallel with added
+    goal of different from for this course, data set sizes have been reduced so that
+    exercises?
+  reject_reason: null
+- candidate_id: q0078
+  status: accepted
+  original_text: How is execute a pipeline of python functions in parallel with added
+    goal of different from can be completed rapidly. many of these data sets were
+    originally several?
+  final_text: How is execute a pipeline of python functions in parallel with added
+    goal of different from can be completed rapidly. many of these data sets were
+    originally several?
+  reject_reason: null
+- candidate_id: q0079
+  status: accepted
+  original_text: How is being able to process large amounts of data on modest computational
+    different from for this course, data set sizes have been reduced so that exercises?
+  final_text: How is being able to process large amounts of data on modest computational
+    different from for this course, data set sizes have been reduced so that exercises?
+  reject_reason: null
+- candidate_id: q0080
+  status: accepted
+  original_text: How is being able to process large amounts of data on modest computational
+    different from can be completed rapidly. many of these data sets were originally
+    several?
+  final_text: How is being able to process large amounts of data on modest computational
+    different from can be completed rapidly. many of these data sets were originally
+    several?
+  reject_reason: null
+- candidate_id: q0081
+  status: accepted
+  original_text: How is for this course, data set sizes have been reduced so that
+    exercises different from can be completed rapidly. many of these data sets were
+    originally several?
+  final_text: How is for this course, data set sizes have been reduced so that exercises
+    different from can be completed rapidly. many of these data sets were originally
+    several?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is working with big data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does working with big data mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does working with big data matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does working with big data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of working with big data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is -in this chapter you'll learn how to leverage traditional
+    python techniques?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does -in this chapter you'll learn how to leverage traditional
+    python techniques mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does -in this chapter you'll learn how to leverage traditional
+    python techniques matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does -in this chapter you'll learn how to leverage traditional
+    python techniques?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of -in this chapter you'll learn how to
+    leverage traditional python techniques?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is for reading?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does for reading mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does for reading matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does for reading?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of for reading?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is processing large datasets stored in either a single file
+    or?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does processing large datasets stored in either a single file
+    or mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does processing large datasets stored in either a single file
+    or matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does processing large datasets stored in either a single file
+    or?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of processing large datasets stored in either
+    a single file or?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: What is in multiple files. finally, you'll learn how dask library
+    can be used to?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: What does in multiple files. finally, you'll learn how dask library
+    can be used to mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: Why does in multiple files. finally, you'll learn how dask library
+    can be used to matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: Why does in multiple files. finally, you'll learn how dask library
+    can be used to?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: What is a simple example of in multiple files. finally, you'll learn
+    how dask library can be used to?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: What is execute a pipeline of python functions in parallel with added
+    goal of?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0027
+  question_text: What does execute a pipeline of python functions in parallel with
+    added goal of mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0028
+  question_text: Why does execute a pipeline of python functions in parallel with
+    added goal of matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0029
+  question_text: Why does execute a pipeline of python functions in parallel with
+    added goal of?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0030
+  question_text: What is a simple example of execute a pipeline of python functions
+    in parallel with added goal of?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0031
+  question_text: What is being able to process large amounts of data on modest computational?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0032
+  question_text: What does being able to process large amounts of data on modest computational
+    mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0033
+  question_text: Why does being able to process large amounts of data on modest computational
+    matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0034
+  question_text: Why does being able to process large amounts of data on modest computational?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0035
+  question_text: What is a simple example of being able to process large amounts of
+    data on modest computational?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0036
+  question_text: What is for this course, data set sizes have been reduced so that
+    exercises?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0037
+  question_text: What does for this course, data set sizes have been reduced so that
+    exercises mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0038
+  question_text: Why does for this course, data set sizes have been reduced so that
+    exercises matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0039
+  question_text: Why does for this course, data set sizes have been reduced so that
+    exercises?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0040
+  question_text: What is a simple example of for this course, data set sizes have
+    been reduced so that exercises?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0041
+  question_text: What is can be completed rapidly. many of these data sets were originally
+    several?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0042
+  question_text: What does can be completed rapidly. many of these data sets were
+    originally several mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0043
+  question_text: Why does can be completed rapidly. many of these data sets were originally
+    several matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0044
+  question_text: Why does can be completed rapidly. many of these data sets were originally
+    several?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0045
+  question_text: What is a simple example of can be completed rapidly. many of these
+    data sets were originally several?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0046
+  question_text: How is working with big data different from -in this chapter you'll
+    learn how to leverage traditional python techniques?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0047
+  question_text: How is working with big data different from for reading?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0048
+  question_text: How is working with big data different from processing large datasets
+    stored in either a single file or?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0049
+  question_text: How is working with big data different from in multiple files. finally,
+    you'll learn how dask library can be used to?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0050
+  question_text: How is working with big data different from execute a pipeline of
+    python functions in parallel with added goal of?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0051
+  question_text: How is working with big data different from being able to process
+    large amounts of data on modest computational?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0052
+  question_text: How is working with big data different from for this course, data
+    set sizes have been reduced so that exercises?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0053
+  question_text: How is working with big data different from can be completed rapidly.
+    many of these data sets were originally several?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0054
+  question_text: How is -in this chapter you'll learn how to leverage traditional
+    python techniques different from for reading?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0055
+  question_text: How is -in this chapter you'll learn how to leverage traditional
+    python techniques different from processing large datasets stored in either a
+    single file or?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0056
+  question_text: How is -in this chapter you'll learn how to leverage traditional
+    python techniques different from in multiple files. finally, you'll learn how
+    dask library can be used to?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0057
+  question_text: How is -in this chapter you'll learn how to leverage traditional
+    python techniques different from execute a pipeline of python functions in parallel
+    with added goal of?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0058
+  question_text: How is -in this chapter you'll learn how to leverage traditional
+    python techniques different from being able to process large amounts of data on
+    modest computational?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0059
+  question_text: How is -in this chapter you'll learn how to leverage traditional
+    python techniques different from for this course, data set sizes have been reduced
+    so that exercises?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0060
+  question_text: How is -in this chapter you'll learn how to leverage traditional
+    python techniques different from can be completed rapidly. many of these data
+    sets were originally several?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0061
+  question_text: How is for reading different from processing large datasets stored
+    in either a single file or?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0062
+  question_text: How is for reading different from in multiple files. finally, you'll
+    learn how dask library can be used to?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0063
+  question_text: How is for reading different from execute a pipeline of python functions
+    in parallel with added goal of?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0064
+  question_text: How is for reading different from being able to process large amounts
+    of data on modest computational?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0065
+  question_text: How is for reading different from for this course, data set sizes
+    have been reduced so that exercises?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0066
+  question_text: How is for reading different from can be completed rapidly. many
+    of these data sets were originally several?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0067
+  question_text: How is processing large datasets stored in either a single file or
+    different from in multiple files. finally, you'll learn how dask library can be
+    used to?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0068
+  question_text: How is processing large datasets stored in either a single file or
+    different from execute a pipeline of python functions in parallel with added goal
+    of?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0069
+  question_text: How is processing large datasets stored in either a single file or
+    different from being able to process large amounts of data on modest computational?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0070
+  question_text: How is processing large datasets stored in either a single file or
+    different from for this course, data set sizes have been reduced so that exercises?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0071
+  question_text: How is processing large datasets stored in either a single file or
+    different from can be completed rapidly. many of these data sets were originally
+    several?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0072
+  question_text: How is in multiple files. finally, you'll learn how dask library
+    can be used to different from execute a pipeline of python functions in parallel
+    with added goal of?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0073
+  question_text: How is in multiple files. finally, you'll learn how dask library
+    can be used to different from being able to process large amounts of data on modest
+    computational?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0074
+  question_text: How is in multiple files. finally, you'll learn how dask library
+    can be used to different from for this course, data set sizes have been reduced
+    so that exercises?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0075
+  question_text: How is in multiple files. finally, you'll learn how dask library
+    can be used to different from can be completed rapidly. many of these data sets
+    were originally several?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0076
+  question_text: How is execute a pipeline of python functions in parallel with added
+    goal of different from being able to process large amounts of data on modest computational?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0077
+  question_text: How is execute a pipeline of python functions in parallel with added
+    goal of different from for this course, data set sizes have been reduced so that
+    exercises?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0078
+  question_text: How is execute a pipeline of python functions in parallel with added
+    goal of different from can be completed rapidly. many of these data sets were
+    originally several?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0079
+  question_text: How is being able to process large amounts of data on modest computational
+    different from for this course, data set sizes have been reduced so that exercises?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0080
+  question_text: How is being able to process large amounts of data on modest computational
+    different from can be completed rapidly. many of these data sets were originally
+    several?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0081
+  question_text: How is for this course, data set sizes have been reduced so that
+    exercises different from can be completed rapidly. many of these data sets were
+    originally several?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - working with big data
+  question_text: What is working with big data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - working with big data
+  question_text: What does working with big data mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - working with big data
+  question_text: Why does working with big data matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - working with big data
+  question_text: Why does working with big data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - working with big data
+  question_text: What is a simple example of working with big data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - -in this chapter you'll learn how to leverage traditional python techniques
+  question_text: What is -in this chapter you'll learn how to leverage traditional
+    python techniques?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - -in this chapter you'll learn how to leverage traditional python techniques
+  question_text: What does -in this chapter you'll learn how to leverage traditional
+    python techniques mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - -in this chapter you'll learn how to leverage traditional python techniques
+  question_text: Why does -in this chapter you'll learn how to leverage traditional
+    python techniques matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - -in this chapter you'll learn how to leverage traditional python techniques
+  question_text: Why does -in this chapter you'll learn how to leverage traditional
+    python techniques?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - -in this chapter you'll learn how to leverage traditional python techniques
+  question_text: What is a simple example of -in this chapter you'll learn how to
+    leverage traditional python techniques?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - for reading
+  question_text: What is for reading?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - for reading
+  question_text: What does for reading mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - for reading
+  question_text: Why does for reading matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - for reading
+  question_text: Why does for reading?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - for reading
+  question_text: What is a simple example of for reading?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - processing large datasets stored in either a single file or
+  question_text: What is processing large datasets stored in either a single file
+    or?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - processing large datasets stored in either a single file or
+  question_text: What does processing large datasets stored in either a single file
+    or mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - processing large datasets stored in either a single file or
+  question_text: Why does processing large datasets stored in either a single file
+    or matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - processing large datasets stored in either a single file or
+  question_text: Why does processing large datasets stored in either a single file
+    or?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - processing large datasets stored in either a single file or
+  question_text: What is a simple example of processing large datasets stored in either
+    a single file or?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - in multiple files. finally, you'll learn how dask library can be used to
+  question_text: What is in multiple files. finally, you'll learn how dask library
+    can be used to?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - in multiple files. finally, you'll learn how dask library can be used to
+  question_text: What does in multiple files. finally, you'll learn how dask library
+    can be used to mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - in multiple files. finally, you'll learn how dask library can be used to
+  question_text: Why does in multiple files. finally, you'll learn how dask library
+    can be used to matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - in multiple files. finally, you'll learn how dask library can be used to
+  question_text: Why does in multiple files. finally, you'll learn how dask library
+    can be used to?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - in multiple files. finally, you'll learn how dask library can be used to
+  question_text: What is a simple example of in multiple files. finally, you'll learn
+    how dask library can be used to?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - execute a pipeline of python functions in parallel with added goal of
+  question_text: What is execute a pipeline of python functions in parallel with added
+    goal of?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000027
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - execute a pipeline of python functions in parallel with added goal of
+  question_text: What does execute a pipeline of python functions in parallel with
+    added goal of mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000028
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - execute a pipeline of python functions in parallel with added goal of
+  question_text: Why does execute a pipeline of python functions in parallel with
+    added goal of matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000029
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - execute a pipeline of python functions in parallel with added goal of
+  question_text: Why does execute a pipeline of python functions in parallel with
+    added goal of?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000030
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - execute a pipeline of python functions in parallel with added goal of
+  question_text: What is a simple example of execute a pipeline of python functions
+    in parallel with added goal of?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000031
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - being able to process large amounts of data on modest computational
+  question_text: What is being able to process large amounts of data on modest computational?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000032
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - being able to process large amounts of data on modest computational
+  question_text: What does being able to process large amounts of data on modest computational
+    mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000033
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - being able to process large amounts of data on modest computational
+  question_text: Why does being able to process large amounts of data on modest computational
+    matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000034
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - being able to process large amounts of data on modest computational
+  question_text: Why does being able to process large amounts of data on modest computational?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000035
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - being able to process large amounts of data on modest computational
+  question_text: What is a simple example of being able to process large amounts of
+    data on modest computational?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000036
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - for this course, data set sizes have been reduced so that exercises
+  question_text: What is for this course, data set sizes have been reduced so that
+    exercises?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000037
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - for this course, data set sizes have been reduced so that exercises
+  question_text: What does for this course, data set sizes have been reduced so that
+    exercises mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000038
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - for this course, data set sizes have been reduced so that exercises
+  question_text: Why does for this course, data set sizes have been reduced so that
+    exercises matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000039
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - for this course, data set sizes have been reduced so that exercises
+  question_text: Why does for this course, data set sizes have been reduced so that
+    exercises?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000040
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - for this course, data set sizes have been reduced so that exercises
+  question_text: What is a simple example of for this course, data set sizes have
+    been reduced so that exercises?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000041
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - can be completed rapidly. many of these data sets were originally several
+  question_text: What is can be completed rapidly. many of these data sets were originally
+    several?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000042
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - can be completed rapidly. many of these data sets were originally several
+  question_text: What does can be completed rapidly. many of these data sets were
+    originally several mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000043
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - can be completed rapidly. many of these data sets were originally several
+  question_text: Why does can be completed rapidly. many of these data sets were originally
+    several matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000044
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - can be completed rapidly. many of these data sets were originally several
+  question_text: Why does can be completed rapidly. many of these data sets were originally
+    several?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000045
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - can be completed rapidly. many of these data sets were originally several
+  question_text: What is a simple example of can be completed rapidly. many of these
+    data sets were originally several?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000046
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - working with big data
+  - -in this chapter you'll learn how to leverage traditional python techniques
+  question_text: How is working with big data different from -in this chapter you'll
+    learn how to leverage traditional python techniques?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000047
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - working with big data
+  - for reading
+  question_text: How is working with big data different from for reading?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000048
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - working with big data
+  - processing large datasets stored in either a single file or
+  question_text: How is working with big data different from processing large datasets
+    stored in either a single file or?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000049
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - working with big data
+  - in multiple files. finally, you'll learn how dask library can be used to
+  question_text: How is working with big data different from in multiple files. finally,
+    you'll learn how dask library can be used to?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000050
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - working with big data
+  - execute a pipeline of python functions in parallel with added goal of
+  question_text: How is working with big data different from execute a pipeline of
+    python functions in parallel with added goal of?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000051
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - working with big data
+  - being able to process large amounts of data on modest computational
+  question_text: How is working with big data different from being able to process
+    large amounts of data on modest computational?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000052
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - working with big data
+  - for this course, data set sizes have been reduced so that exercises
+  question_text: How is working with big data different from for this course, data
+    set sizes have been reduced so that exercises?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000053
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - working with big data
+  - can be completed rapidly. many of these data sets were originally several
+  question_text: How is working with big data different from can be completed rapidly.
+    many of these data sets were originally several?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000054
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - -in this chapter you'll learn how to leverage traditional python techniques
+  - for reading
+  question_text: How is -in this chapter you'll learn how to leverage traditional
+    python techniques different from for reading?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000055
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - -in this chapter you'll learn how to leverage traditional python techniques
+  - processing large datasets stored in either a single file or
+  question_text: How is -in this chapter you'll learn how to leverage traditional
+    python techniques different from processing large datasets stored in either a
+    single file or?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000056
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - -in this chapter you'll learn how to leverage traditional python techniques
+  - in multiple files. finally, you'll learn how dask library can be used to
+  question_text: How is -in this chapter you'll learn how to leverage traditional
+    python techniques different from in multiple files. finally, you'll learn how
+    dask library can be used to?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000057
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - -in this chapter you'll learn how to leverage traditional python techniques
+  - execute a pipeline of python functions in parallel with added goal of
+  question_text: How is -in this chapter you'll learn how to leverage traditional
+    python techniques different from execute a pipeline of python functions in parallel
+    with added goal of?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000058
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - -in this chapter you'll learn how to leverage traditional python techniques
+  - being able to process large amounts of data on modest computational
+  question_text: How is -in this chapter you'll learn how to leverage traditional
+    python techniques different from being able to process large amounts of data on
+    modest computational?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000059
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - -in this chapter you'll learn how to leverage traditional python techniques
+  - for this course, data set sizes have been reduced so that exercises
+  question_text: How is -in this chapter you'll learn how to leverage traditional
+    python techniques different from for this course, data set sizes have been reduced
+    so that exercises?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000060
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - -in this chapter you'll learn how to leverage traditional python techniques
+  - can be completed rapidly. many of these data sets were originally several
+  question_text: How is -in this chapter you'll learn how to leverage traditional
+    python techniques different from can be completed rapidly. many of these data
+    sets were originally several?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000061
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - for reading
+  - processing large datasets stored in either a single file or
+  question_text: How is for reading different from processing large datasets stored
+    in either a single file or?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000062
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - for reading
+  - in multiple files. finally, you'll learn how dask library can be used to
+  question_text: How is for reading different from in multiple files. finally, you'll
+    learn how dask library can be used to?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000063
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - for reading
+  - execute a pipeline of python functions in parallel with added goal of
+  question_text: How is for reading different from execute a pipeline of python functions
+    in parallel with added goal of?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000064
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - for reading
+  - being able to process large amounts of data on modest computational
+  question_text: How is for reading different from being able to process large amounts
+    of data on modest computational?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000065
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - for reading
+  - for this course, data set sizes have been reduced so that exercises
+  question_text: How is for reading different from for this course, data set sizes
+    have been reduced so that exercises?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000066
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - for reading
+  - can be completed rapidly. many of these data sets were originally several
+  question_text: How is for reading different from can be completed rapidly. many
+    of these data sets were originally several?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000067
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - processing large datasets stored in either a single file or
+  - in multiple files. finally, you'll learn how dask library can be used to
+  question_text: How is processing large datasets stored in either a single file or
+    different from in multiple files. finally, you'll learn how dask library can be
+    used to?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000068
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - processing large datasets stored in either a single file or
+  - execute a pipeline of python functions in parallel with added goal of
+  question_text: How is processing large datasets stored in either a single file or
+    different from execute a pipeline of python functions in parallel with added goal
+    of?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000069
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - processing large datasets stored in either a single file or
+  - being able to process large amounts of data on modest computational
+  question_text: How is processing large datasets stored in either a single file or
+    different from being able to process large amounts of data on modest computational?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000070
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - processing large datasets stored in either a single file or
+  - for this course, data set sizes have been reduced so that exercises
+  question_text: How is processing large datasets stored in either a single file or
+    different from for this course, data set sizes have been reduced so that exercises?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000071
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - processing large datasets stored in either a single file or
+  - can be completed rapidly. many of these data sets were originally several
+  question_text: How is processing large datasets stored in either a single file or
+    different from can be completed rapidly. many of these data sets were originally
+    several?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000072
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - in multiple files. finally, you'll learn how dask library can be used to
+  - execute a pipeline of python functions in parallel with added goal of
+  question_text: How is in multiple files. finally, you'll learn how dask library
+    can be used to different from execute a pipeline of python functions in parallel
+    with added goal of?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000073
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - in multiple files. finally, you'll learn how dask library can be used to
+  - being able to process large amounts of data on modest computational
+  question_text: How is in multiple files. finally, you'll learn how dask library
+    can be used to different from being able to process large amounts of data on modest
+    computational?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000074
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - in multiple files. finally, you'll learn how dask library can be used to
+  - for this course, data set sizes have been reduced so that exercises
+  question_text: How is in multiple files. finally, you'll learn how dask library
+    can be used to different from for this course, data set sizes have been reduced
+    so that exercises?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000075
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - in multiple files. finally, you'll learn how dask library can be used to
+  - can be completed rapidly. many of these data sets were originally several
+  question_text: How is in multiple files. finally, you'll learn how dask library
+    can be used to different from can be completed rapidly. many of these data sets
+    were originally several?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000076
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - execute a pipeline of python functions in parallel with added goal of
+  - being able to process large amounts of data on modest computational
+  question_text: How is execute a pipeline of python functions in parallel with added
+    goal of different from being able to process large amounts of data on modest computational?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000077
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - execute a pipeline of python functions in parallel with added goal of
+  - for this course, data set sizes have been reduced so that exercises
+  question_text: How is execute a pipeline of python functions in parallel with added
+    goal of different from for this course, data set sizes have been reduced so that
+    exercises?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000078
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - execute a pipeline of python functions in parallel with added goal of
+  - can be completed rapidly. many of these data sets were originally several
+  question_text: How is execute a pipeline of python functions in parallel with added
+    goal of different from can be completed rapidly. many of these data sets were
+    originally several?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000079
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - being able to process large amounts of data on modest computational
+  - for this course, data set sizes have been reduced so that exercises
+  question_text: How is being able to process large amounts of data on modest computational
+    different from for this course, data set sizes have been reduced so that exercises?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000080
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - being able to process large amounts of data on modest computational
+  - can be completed rapidly. many of these data sets were originally several
+  question_text: How is being able to process large amounts of data on modest computational
+    different from can be completed rapidly. many of these data sets were originally
+    several?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000081
+  course:
+    course_id: '24522'
+    title: can be completed rapidly. Many of these data sets were originally several
+  relevant_topics:
+  - for this course, data set sizes have been reduced so that exercises
+  - can be completed rapidly. many of these data sets were originally several
+  question_text: How is for this course, data set sizes have been reduced so that
+    exercises different from can be completed rapidly. many of these data sets were
+    originally several?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 9
+  canonical_topic_count: 9
+  candidate_count: 81
+  accepted_count: 81
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 81

@@ -1,0 +1,3942 @@
+course_id: '24452'
+title: testing complicated data types like NumPy arrays to testing exception
+normalized_course:
+  course_id: '24452'
+  title: testing complicated data types like NumPy arrays to testing exception
+  provider: DataCamp
+  summary: 'Learn how to write unit tests for your Data Science projects in Python
+    using
+
+    pytest.'
+  overview: 'Unit testing basics
+
+
+    -In this chapter, you will get introduced to the pytest package and use it
+
+    to write simple unit tests. You''ll run the tests, interpret the test result
+
+    reports and fix bugs. Throughout the chapter, we will use examples
+
+    exclusively from the data preprocessing module of a linear regression
+
+    project, making sure you learn unit testing in the context of data science.
+
+
+    Intermediate unit testing
+
+
+    -In this chapter, you will write more advanced unit tests. Starting from
+
+    testing complicated data types like NumPy arrays to testing exception
+
+    handling, you''ll do it all. Once you have mastered the science of testing,
+
+    we will also focus on the arts. For example, we will learn how to find the
+
+    balance between writing too many tests and too few tests. In the last
+
+    lesson, you will get introduced to a radically new programming methodology
+
+    called Test Driven Development (TDD) and put it to practice. This might
+
+    actually change the way you code forever!
+
+
+    Test Organization and Execution
+
+
+    -In any data science project, you quickly reach a point when it becomes
+
+    impossible to organize and manage unit tests. In this chapter, we will learn
+
+    about how to structure your test suite well, how to effortlessly execute any
+
+    subset of tests and how to mark problematic tests so that your test suite
+
+    always stays green. The last lesson will even enable you to add the
+
+    trust-inspiring build status and code coverage badges to your own project.
+
+    Complete this chapter and become a unit testing wizard!
+
+
+    Testing Models, Plots and Much More
+
+
+    -In this chapter, You will pick up advanced unit testing skills like setup,
+
+    teardown and mocking. You will also learn how to write sanity tests for your
+
+    data science models and how to test matplotlib plots. By the end of this
+
+    chapter, you will be ready to test real world data science projects!'
+  chapters:
+  - chapter_index: 1
+    title: Unit testing basics
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 2
+    title: -In this chapter, you will get introduced to the pytest package and use
+      it
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 3
+    title: to write simple unit tests. You'll run the tests, interpret the test result
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 4
+    title: reports and fix bugs. Throughout the chapter, we will use examples
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 5
+    title: exclusively from the data preprocessing module of a linear regression
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 6
+    title: Intermediate unit testing
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 7
+    title: -In this chapter, you will write more advanced unit tests. Starting from
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 8
+    title: testing complicated data types like NumPy arrays to testing exception
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  metadata:
+    level: Intermediate
+    duration_hours: 4 hours
+    subjects:
+    - Python
+    - Data Science
+    - NumPy
+    - Unit Testing
+    - Test-Driven Development
+    - Data Preprocessing
+    - Mocking
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: unit testing basics
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: unit testing basics'
+  evidence:
+  - source: overview_inferred
+    text: Unit testing basics
+  confidence: 0.45
+- topic_id: t002
+  label: -in this chapter, you will get introduced to the pytest package
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: -in this chapter, you will get
+    introduced to the pytest package'
+  evidence:
+  - source: overview_inferred
+    text: -In this chapter, you will get introduced to the pytest package and use
+      it
+  confidence: 0.55
+- topic_id: t003
+  label: use it
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: use it'
+  evidence:
+  - source: overview_inferred
+    text: -In this chapter, you will get introduced to the pytest package and use
+      it
+  confidence: 0.55
+- topic_id: t004
+  label: to write simple unit tests. you'll run the tests, interpret the test result
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: to write simple unit tests. you''ll
+    run the tests, interpret the test result'
+  evidence:
+  - source: overview_inferred
+    text: to write simple unit tests. You'll run the tests, interpret the test result
+  confidence: 0.45
+- topic_id: t005
+  label: reports
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: reports'
+  evidence:
+  - source: overview_inferred
+    text: reports and fix bugs. Throughout the chapter, we will use examples
+  confidence: 0.55
+- topic_id: t006
+  label: fix bugs. throughout the chapter, we will use examples
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: fix bugs. throughout the chapter,
+    we will use examples'
+  evidence:
+  - source: overview_inferred
+    text: reports and fix bugs. Throughout the chapter, we will use examples
+  confidence: 0.55
+- topic_id: t007
+  label: exclusively from the data preprocessing module of a linear regression
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: exclusively from the data preprocessing
+    module of a linear regression'
+  evidence:
+  - source: overview_inferred
+    text: exclusively from the data preprocessing module of a linear regression
+  confidence: 0.45
+- topic_id: t008
+  label: intermediate unit testing
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: intermediate unit testing'
+  evidence:
+  - source: overview_inferred
+    text: Intermediate unit testing
+  confidence: 0.45
+- topic_id: t009
+  label: -in this chapter, you will write more advanced unit tests. starting from
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: -in this chapter, you will write
+    more advanced unit tests. starting from'
+  evidence:
+  - source: overview_inferred
+    text: -In this chapter, you will write more advanced unit tests. Starting from
+  confidence: 0.45
+- topic_id: t010
+  label: testing complicated data types like numpy arrays to testing exception
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: testing complicated data types
+    like numpy arrays to testing exception'
+  evidence:
+  - source: overview_inferred
+    text: testing complicated data types like NumPy arrays to testing exception
+  confidence: 0.45
+- topic_id: t011
+  label: data types
+  topic_type: concept
+  description: 'Topic mined from course text: data types'
+  evidence:
+  - source: overview
+    text: data types
+  confidence: 0.75
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: unit testing basics
+  aliases:
+  - unit testing basics
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: -in this chapter, you will get introduced to pytest package
+  aliases:
+  - -in this chapter, you will get introduced to the pytest package
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: use it
+  aliases:
+  - use it
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: to write simple unit tests. you'll run tests, interpret test result
+  aliases:
+  - to write simple unit tests. you'll run the tests, interpret the test result
+  member_topic_ids:
+  - t004
+  topic_type: concept
+- canonical_topic_id: ct_005
+  label: reports
+  aliases:
+  - reports
+  member_topic_ids:
+  - t005
+  topic_type: concept
+- canonical_topic_id: ct_006
+  label: fix bugs. throughout chapter, we will use examples
+  aliases:
+  - fix bugs. throughout the chapter, we will use examples
+  member_topic_ids:
+  - t006
+  topic_type: concept
+- canonical_topic_id: ct_007
+  label: exclusively from data preprocessing module of a linear regression
+  aliases:
+  - exclusively from the data preprocessing module of a linear regression
+  member_topic_ids:
+  - t007
+  topic_type: concept
+- canonical_topic_id: ct_008
+  label: intermediate unit testing
+  aliases:
+  - intermediate unit testing
+  member_topic_ids:
+  - t008
+  topic_type: concept
+- canonical_topic_id: ct_009
+  label: -in this chapter, you will write more advanced unit tests. starting from
+  aliases:
+  - -in this chapter, you will write more advanced unit tests. starting from
+  member_topic_ids:
+  - t009
+  topic_type: concept
+- canonical_topic_id: ct_010
+  label: testing complicated data types like numpy arrays to testing exception
+  aliases:
+  - testing complicated data types like numpy arrays to testing exception
+  member_topic_ids:
+  - t010
+  topic_type: concept
+- canonical_topic_id: ct_011
+  label: data types
+  aliases:
+  - data types
+  member_topic_ids:
+  - t011
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - unit testing basics
+  family: entry
+  pattern: What is {x}?
+  question_text: What is unit testing basics?
+- candidate_id: q0002
+  relevant_topics:
+  - unit testing basics
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does unit testing basics mean?
+- candidate_id: q0003
+  relevant_topics:
+  - unit testing basics
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does unit testing basics matter?
+- candidate_id: q0004
+  relevant_topics:
+  - unit testing basics
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use unit testing basics?
+- candidate_id: q0005
+  relevant_topics:
+  - unit testing basics
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of unit testing basics?
+- candidate_id: q0006
+  relevant_topics:
+  - -in this chapter, you will get introduced to pytest package
+  family: entry
+  pattern: What is {x}?
+  question_text: What is -in this chapter, you will get introduced to pytest package?
+- candidate_id: q0007
+  relevant_topics:
+  - -in this chapter, you will get introduced to pytest package
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does -in this chapter, you will get introduced to pytest package
+    mean?
+- candidate_id: q0008
+  relevant_topics:
+  - -in this chapter, you will get introduced to pytest package
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does -in this chapter, you will get introduced to pytest package
+    matter?
+- candidate_id: q0009
+  relevant_topics:
+  - -in this chapter, you will get introduced to pytest package
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use -in this chapter, you will get introduced to pytest
+    package?
+- candidate_id: q0010
+  relevant_topics:
+  - -in this chapter, you will get introduced to pytest package
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of -in this chapter, you will get introduced
+    to pytest package?
+- candidate_id: q0011
+  relevant_topics:
+  - use it
+  family: entry
+  pattern: What is {x}?
+  question_text: What is use it?
+- candidate_id: q0012
+  relevant_topics:
+  - use it
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does use it mean?
+- candidate_id: q0013
+  relevant_topics:
+  - use it
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does use it matter?
+- candidate_id: q0014
+  relevant_topics:
+  - use it
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use use it?
+- candidate_id: q0015
+  relevant_topics:
+  - use it
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of use it?
+- candidate_id: q0016
+  relevant_topics:
+  - to write simple unit tests. you'll run tests, interpret test result
+  family: entry
+  pattern: What is {x}?
+  question_text: What is to write simple unit tests. you'll run tests, interpret test
+    result?
+- candidate_id: q0017
+  relevant_topics:
+  - to write simple unit tests. you'll run tests, interpret test result
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does to write simple unit tests. you'll run tests, interpret
+    test result mean?
+- candidate_id: q0018
+  relevant_topics:
+  - to write simple unit tests. you'll run tests, interpret test result
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does to write simple unit tests. you'll run tests, interpret
+    test result matter?
+- candidate_id: q0019
+  relevant_topics:
+  - to write simple unit tests. you'll run tests, interpret test result
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use to write simple unit tests. you'll run tests, interpret
+    test result?
+- candidate_id: q0020
+  relevant_topics:
+  - to write simple unit tests. you'll run tests, interpret test result
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of to write simple unit tests. you'll run
+    tests, interpret test result?
+- candidate_id: q0021
+  relevant_topics:
+  - reports
+  family: entry
+  pattern: What is {x}?
+  question_text: What is reports?
+- candidate_id: q0022
+  relevant_topics:
+  - reports
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does reports mean?
+- candidate_id: q0023
+  relevant_topics:
+  - reports
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does reports matter?
+- candidate_id: q0024
+  relevant_topics:
+  - reports
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use reports?
+- candidate_id: q0025
+  relevant_topics:
+  - reports
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of reports?
+- candidate_id: q0026
+  relevant_topics:
+  - fix bugs. throughout chapter, we will use examples
+  family: entry
+  pattern: What is {x}?
+  question_text: What is fix bugs. throughout chapter, we will use examples?
+- candidate_id: q0027
+  relevant_topics:
+  - fix bugs. throughout chapter, we will use examples
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does fix bugs. throughout chapter, we will use examples mean?
+- candidate_id: q0028
+  relevant_topics:
+  - fix bugs. throughout chapter, we will use examples
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does fix bugs. throughout chapter, we will use examples matter?
+- candidate_id: q0029
+  relevant_topics:
+  - fix bugs. throughout chapter, we will use examples
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use fix bugs. throughout chapter, we will use examples?
+- candidate_id: q0030
+  relevant_topics:
+  - fix bugs. throughout chapter, we will use examples
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of fix bugs. throughout chapter, we will
+    use examples?
+- candidate_id: q0031
+  relevant_topics:
+  - exclusively from data preprocessing module of a linear regression
+  family: entry
+  pattern: What is {x}?
+  question_text: What is exclusively from data preprocessing module of a linear regression?
+- candidate_id: q0032
+  relevant_topics:
+  - exclusively from data preprocessing module of a linear regression
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does exclusively from data preprocessing module of a linear
+    regression mean?
+- candidate_id: q0033
+  relevant_topics:
+  - exclusively from data preprocessing module of a linear regression
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does exclusively from data preprocessing module of a linear regression
+    matter?
+- candidate_id: q0034
+  relevant_topics:
+  - exclusively from data preprocessing module of a linear regression
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use exclusively from data preprocessing module of a linear
+    regression?
+- candidate_id: q0035
+  relevant_topics:
+  - exclusively from data preprocessing module of a linear regression
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of exclusively from data preprocessing module
+    of a linear regression?
+- candidate_id: q0036
+  relevant_topics:
+  - intermediate unit testing
+  family: entry
+  pattern: What is {x}?
+  question_text: What is intermediate unit testing?
+- candidate_id: q0037
+  relevant_topics:
+  - intermediate unit testing
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does intermediate unit testing mean?
+- candidate_id: q0038
+  relevant_topics:
+  - intermediate unit testing
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does intermediate unit testing matter?
+- candidate_id: q0039
+  relevant_topics:
+  - intermediate unit testing
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use intermediate unit testing?
+- candidate_id: q0040
+  relevant_topics:
+  - intermediate unit testing
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of intermediate unit testing?
+- candidate_id: q0041
+  relevant_topics:
+  - -in this chapter, you will write more advanced unit tests. starting from
+  family: entry
+  pattern: What is {x}?
+  question_text: What is -in this chapter, you will write more advanced unit tests.
+    starting from?
+- candidate_id: q0042
+  relevant_topics:
+  - -in this chapter, you will write more advanced unit tests. starting from
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does -in this chapter, you will write more advanced unit tests.
+    starting from mean?
+- candidate_id: q0043
+  relevant_topics:
+  - -in this chapter, you will write more advanced unit tests. starting from
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does -in this chapter, you will write more advanced unit tests.
+    starting from matter?
+- candidate_id: q0044
+  relevant_topics:
+  - -in this chapter, you will write more advanced unit tests. starting from
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use -in this chapter, you will write more advanced unit
+    tests. starting from?
+- candidate_id: q0045
+  relevant_topics:
+  - -in this chapter, you will write more advanced unit tests. starting from
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of -in this chapter, you will write more
+    advanced unit tests. starting from?
+- candidate_id: q0046
+  relevant_topics:
+  - testing complicated data types like numpy arrays to testing exception
+  family: entry
+  pattern: What is {x}?
+  question_text: What is testing complicated data types like numpy arrays to testing
+    exception?
+- candidate_id: q0047
+  relevant_topics:
+  - testing complicated data types like numpy arrays to testing exception
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does testing complicated data types like numpy arrays to testing
+    exception mean?
+- candidate_id: q0048
+  relevant_topics:
+  - testing complicated data types like numpy arrays to testing exception
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does testing complicated data types like numpy arrays to testing
+    exception matter?
+- candidate_id: q0049
+  relevant_topics:
+  - testing complicated data types like numpy arrays to testing exception
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use testing complicated data types like numpy arrays to
+    testing exception?
+- candidate_id: q0050
+  relevant_topics:
+  - testing complicated data types like numpy arrays to testing exception
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of testing complicated data types like numpy
+    arrays to testing exception?
+- candidate_id: q0051
+  relevant_topics:
+  - data types
+  family: entry
+  pattern: What is {x}?
+  question_text: What is data types?
+- candidate_id: q0052
+  relevant_topics:
+  - data types
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does data types mean?
+- candidate_id: q0053
+  relevant_topics:
+  - data types
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does data types matter?
+- candidate_id: q0054
+  relevant_topics:
+  - data types
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use data types?
+- candidate_id: q0055
+  relevant_topics:
+  - data types
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of data types?
+- candidate_id: q0056
+  relevant_topics:
+  - unit testing basics
+  - -in this chapter, you will get introduced to pytest package
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is unit testing basics different from -in this chapter, you will
+    get introduced to pytest package?
+- candidate_id: q0057
+  relevant_topics:
+  - unit testing basics
+  - use it
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is unit testing basics different from use it?
+- candidate_id: q0058
+  relevant_topics:
+  - unit testing basics
+  - to write simple unit tests. you'll run tests, interpret test result
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is unit testing basics different from to write simple unit tests.
+    you'll run tests, interpret test result?
+- candidate_id: q0059
+  relevant_topics:
+  - unit testing basics
+  - reports
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is unit testing basics different from reports?
+- candidate_id: q0060
+  relevant_topics:
+  - unit testing basics
+  - fix bugs. throughout chapter, we will use examples
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is unit testing basics different from fix bugs. throughout chapter,
+    we will use examples?
+- candidate_id: q0061
+  relevant_topics:
+  - unit testing basics
+  - exclusively from data preprocessing module of a linear regression
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is unit testing basics different from exclusively from data preprocessing
+    module of a linear regression?
+- candidate_id: q0062
+  relevant_topics:
+  - unit testing basics
+  - intermediate unit testing
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is unit testing basics different from intermediate unit testing?
+- candidate_id: q0063
+  relevant_topics:
+  - unit testing basics
+  - -in this chapter, you will write more advanced unit tests. starting from
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is unit testing basics different from -in this chapter, you will
+    write more advanced unit tests. starting from?
+- candidate_id: q0064
+  relevant_topics:
+  - unit testing basics
+  - testing complicated data types like numpy arrays to testing exception
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is unit testing basics different from testing complicated data
+    types like numpy arrays to testing exception?
+- candidate_id: q0065
+  relevant_topics:
+  - -in this chapter, you will get introduced to pytest package
+  - use it
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter, you will get introduced to pytest package
+    different from use it?
+- candidate_id: q0066
+  relevant_topics:
+  - -in this chapter, you will get introduced to pytest package
+  - to write simple unit tests. you'll run tests, interpret test result
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter, you will get introduced to pytest package
+    different from to write simple unit tests. you'll run tests, interpret test result?
+- candidate_id: q0067
+  relevant_topics:
+  - -in this chapter, you will get introduced to pytest package
+  - reports
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter, you will get introduced to pytest package
+    different from reports?
+- candidate_id: q0068
+  relevant_topics:
+  - -in this chapter, you will get introduced to pytest package
+  - fix bugs. throughout chapter, we will use examples
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter, you will get introduced to pytest package
+    different from fix bugs. throughout chapter, we will use examples?
+- candidate_id: q0069
+  relevant_topics:
+  - -in this chapter, you will get introduced to pytest package
+  - exclusively from data preprocessing module of a linear regression
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter, you will get introduced to pytest package
+    different from exclusively from data preprocessing module of a linear regression?
+- candidate_id: q0070
+  relevant_topics:
+  - -in this chapter, you will get introduced to pytest package
+  - intermediate unit testing
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter, you will get introduced to pytest package
+    different from intermediate unit testing?
+- candidate_id: q0071
+  relevant_topics:
+  - -in this chapter, you will get introduced to pytest package
+  - -in this chapter, you will write more advanced unit tests. starting from
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter, you will get introduced to pytest package
+    different from -in this chapter, you will write more advanced unit tests. starting
+    from?
+- candidate_id: q0072
+  relevant_topics:
+  - -in this chapter, you will get introduced to pytest package
+  - testing complicated data types like numpy arrays to testing exception
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter, you will get introduced to pytest package
+    different from testing complicated data types like numpy arrays to testing exception?
+- candidate_id: q0073
+  relevant_topics:
+  - use it
+  - to write simple unit tests. you'll run tests, interpret test result
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is use it different from to write simple unit tests. you'll run
+    tests, interpret test result?
+- candidate_id: q0074
+  relevant_topics:
+  - use it
+  - reports
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is use it different from reports?
+- candidate_id: q0075
+  relevant_topics:
+  - use it
+  - fix bugs. throughout chapter, we will use examples
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is use it different from fix bugs. throughout chapter, we will
+    use examples?
+- candidate_id: q0076
+  relevant_topics:
+  - use it
+  - exclusively from data preprocessing module of a linear regression
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is use it different from exclusively from data preprocessing
+    module of a linear regression?
+- candidate_id: q0077
+  relevant_topics:
+  - use it
+  - intermediate unit testing
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is use it different from intermediate unit testing?
+- candidate_id: q0078
+  relevant_topics:
+  - use it
+  - -in this chapter, you will write more advanced unit tests. starting from
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is use it different from -in this chapter, you will write more
+    advanced unit tests. starting from?
+- candidate_id: q0079
+  relevant_topics:
+  - use it
+  - testing complicated data types like numpy arrays to testing exception
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is use it different from testing complicated data types like
+    numpy arrays to testing exception?
+- candidate_id: q0080
+  relevant_topics:
+  - to write simple unit tests. you'll run tests, interpret test result
+  - reports
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is to write simple unit tests. you'll run tests, interpret test
+    result different from reports?
+- candidate_id: q0081
+  relevant_topics:
+  - to write simple unit tests. you'll run tests, interpret test result
+  - fix bugs. throughout chapter, we will use examples
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is to write simple unit tests. you'll run tests, interpret test
+    result different from fix bugs. throughout chapter, we will use examples?
+- candidate_id: q0082
+  relevant_topics:
+  - to write simple unit tests. you'll run tests, interpret test result
+  - exclusively from data preprocessing module of a linear regression
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is to write simple unit tests. you'll run tests, interpret test
+    result different from exclusively from data preprocessing module of a linear regression?
+- candidate_id: q0083
+  relevant_topics:
+  - to write simple unit tests. you'll run tests, interpret test result
+  - intermediate unit testing
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is to write simple unit tests. you'll run tests, interpret test
+    result different from intermediate unit testing?
+- candidate_id: q0084
+  relevant_topics:
+  - to write simple unit tests. you'll run tests, interpret test result
+  - -in this chapter, you will write more advanced unit tests. starting from
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is to write simple unit tests. you'll run tests, interpret test
+    result different from -in this chapter, you will write more advanced unit tests.
+    starting from?
+- candidate_id: q0085
+  relevant_topics:
+  - to write simple unit tests. you'll run tests, interpret test result
+  - testing complicated data types like numpy arrays to testing exception
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is to write simple unit tests. you'll run tests, interpret test
+    result different from testing complicated data types like numpy arrays to testing
+    exception?
+- candidate_id: q0086
+  relevant_topics:
+  - reports
+  - fix bugs. throughout chapter, we will use examples
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is reports different from fix bugs. throughout chapter, we will
+    use examples?
+- candidate_id: q0087
+  relevant_topics:
+  - reports
+  - exclusively from data preprocessing module of a linear regression
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is reports different from exclusively from data preprocessing
+    module of a linear regression?
+- candidate_id: q0088
+  relevant_topics:
+  - reports
+  - intermediate unit testing
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is reports different from intermediate unit testing?
+- candidate_id: q0089
+  relevant_topics:
+  - reports
+  - -in this chapter, you will write more advanced unit tests. starting from
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is reports different from -in this chapter, you will write more
+    advanced unit tests. starting from?
+- candidate_id: q0090
+  relevant_topics:
+  - reports
+  - testing complicated data types like numpy arrays to testing exception
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is reports different from testing complicated data types like
+    numpy arrays to testing exception?
+- candidate_id: q0091
+  relevant_topics:
+  - fix bugs. throughout chapter, we will use examples
+  - exclusively from data preprocessing module of a linear regression
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is fix bugs. throughout chapter, we will use examples different
+    from exclusively from data preprocessing module of a linear regression?
+- candidate_id: q0092
+  relevant_topics:
+  - fix bugs. throughout chapter, we will use examples
+  - intermediate unit testing
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is fix bugs. throughout chapter, we will use examples different
+    from intermediate unit testing?
+- candidate_id: q0093
+  relevant_topics:
+  - fix bugs. throughout chapter, we will use examples
+  - -in this chapter, you will write more advanced unit tests. starting from
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is fix bugs. throughout chapter, we will use examples different
+    from -in this chapter, you will write more advanced unit tests. starting from?
+- candidate_id: q0094
+  relevant_topics:
+  - fix bugs. throughout chapter, we will use examples
+  - testing complicated data types like numpy arrays to testing exception
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is fix bugs. throughout chapter, we will use examples different
+    from testing complicated data types like numpy arrays to testing exception?
+- candidate_id: q0095
+  relevant_topics:
+  - exclusively from data preprocessing module of a linear regression
+  - intermediate unit testing
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is exclusively from data preprocessing module of a linear regression
+    different from intermediate unit testing?
+- candidate_id: q0096
+  relevant_topics:
+  - exclusively from data preprocessing module of a linear regression
+  - -in this chapter, you will write more advanced unit tests. starting from
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is exclusively from data preprocessing module of a linear regression
+    different from -in this chapter, you will write more advanced unit tests. starting
+    from?
+- candidate_id: q0097
+  relevant_topics:
+  - exclusively from data preprocessing module of a linear regression
+  - testing complicated data types like numpy arrays to testing exception
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is exclusively from data preprocessing module of a linear regression
+    different from testing complicated data types like numpy arrays to testing exception?
+- candidate_id: q0098
+  relevant_topics:
+  - intermediate unit testing
+  - -in this chapter, you will write more advanced unit tests. starting from
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is intermediate unit testing different from -in this chapter,
+    you will write more advanced unit tests. starting from?
+- candidate_id: q0099
+  relevant_topics:
+  - intermediate unit testing
+  - testing complicated data types like numpy arrays to testing exception
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is intermediate unit testing different from testing complicated
+    data types like numpy arrays to testing exception?
+- candidate_id: q0100
+  relevant_topics:
+  - -in this chapter, you will write more advanced unit tests. starting from
+  - testing complicated data types like numpy arrays to testing exception
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is -in this chapter, you will write more advanced unit tests.
+    starting from different from testing complicated data types like numpy arrays
+    to testing exception?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is unit testing basics?
+  final_text: What is unit testing basics?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does unit testing basics mean?
+  final_text: What does unit testing basics mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does unit testing basics matter?
+  final_text: Why does unit testing basics matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use unit testing basics?
+  final_text: Why does unit testing basics?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of unit testing basics?
+  final_text: What is a simple example of unit testing basics?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is -in this chapter, you will get introduced to pytest package?
+  final_text: What is -in this chapter, you will get introduced to pytest package?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does -in this chapter, you will get introduced to pytest package
+    mean?
+  final_text: What does -in this chapter, you will get introduced to pytest package
+    mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does -in this chapter, you will get introduced to pytest package
+    matter?
+  final_text: Why does -in this chapter, you will get introduced to pytest package
+    matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use -in this chapter, you will get introduced to pytest
+    package?
+  final_text: Why does -in this chapter, you will get introduced to pytest package?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of -in this chapter, you will get introduced
+    to pytest package?
+  final_text: What is a simple example of -in this chapter, you will get introduced
+    to pytest package?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is use it?
+  final_text: What is use it?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does use it mean?
+  final_text: What does use it mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does use it matter?
+  final_text: Why does use it matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use use it?
+  final_text: Why does use it?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of use it?
+  final_text: What is a simple example of use it?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is to write simple unit tests. you'll run tests, interpret test
+    result?
+  final_text: What is to write simple unit tests. you'll run tests, interpret test
+    result?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does to write simple unit tests. you'll run tests, interpret
+    test result mean?
+  final_text: What does to write simple unit tests. you'll run tests, interpret test
+    result mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does to write simple unit tests. you'll run tests, interpret
+    test result matter?
+  final_text: Why does to write simple unit tests. you'll run tests, interpret test
+    result matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use to write simple unit tests. you'll run tests, interpret
+    test result?
+  final_text: Why does to write simple unit tests. you'll run tests, interpret test
+    result?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of to write simple unit tests. you'll run
+    tests, interpret test result?
+  final_text: What is a simple example of to write simple unit tests. you'll run tests,
+    interpret test result?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: What is reports?
+  final_text: What is reports?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: What does reports mean?
+  final_text: What does reports mean?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: Why does reports matter?
+  final_text: Why does reports matter?
+  reject_reason: null
+- candidate_id: q0024
+  status: repaired
+  original_text: Why do we use reports?
+  final_text: Why does reports?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: What is a simple example of reports?
+  final_text: What is a simple example of reports?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: What is fix bugs. throughout chapter, we will use examples?
+  final_text: What is fix bugs. throughout chapter, we will use examples?
+  reject_reason: null
+- candidate_id: q0027
+  status: accepted
+  original_text: What does fix bugs. throughout chapter, we will use examples mean?
+  final_text: What does fix bugs. throughout chapter, we will use examples mean?
+  reject_reason: null
+- candidate_id: q0028
+  status: accepted
+  original_text: Why does fix bugs. throughout chapter, we will use examples matter?
+  final_text: Why does fix bugs. throughout chapter, we will use examples matter?
+  reject_reason: null
+- candidate_id: q0029
+  status: repaired
+  original_text: Why do we use fix bugs. throughout chapter, we will use examples?
+  final_text: Why does fix bugs. throughout chapter, we will use examples?
+  reject_reason: null
+- candidate_id: q0030
+  status: accepted
+  original_text: What is a simple example of fix bugs. throughout chapter, we will
+    use examples?
+  final_text: What is a simple example of fix bugs. throughout chapter, we will use
+    examples?
+  reject_reason: null
+- candidate_id: q0031
+  status: accepted
+  original_text: What is exclusively from data preprocessing module of a linear regression?
+  final_text: What is exclusively from data preprocessing module of a linear regression?
+  reject_reason: null
+- candidate_id: q0032
+  status: accepted
+  original_text: What does exclusively from data preprocessing module of a linear
+    regression mean?
+  final_text: What does exclusively from data preprocessing module of a linear regression
+    mean?
+  reject_reason: null
+- candidate_id: q0033
+  status: accepted
+  original_text: Why does exclusively from data preprocessing module of a linear regression
+    matter?
+  final_text: Why does exclusively from data preprocessing module of a linear regression
+    matter?
+  reject_reason: null
+- candidate_id: q0034
+  status: repaired
+  original_text: Why do we use exclusively from data preprocessing module of a linear
+    regression?
+  final_text: Why does exclusively from data preprocessing module of a linear regression?
+  reject_reason: null
+- candidate_id: q0035
+  status: accepted
+  original_text: What is a simple example of exclusively from data preprocessing module
+    of a linear regression?
+  final_text: What is a simple example of exclusively from data preprocessing module
+    of a linear regression?
+  reject_reason: null
+- candidate_id: q0036
+  status: accepted
+  original_text: What is intermediate unit testing?
+  final_text: What is intermediate unit testing?
+  reject_reason: null
+- candidate_id: q0037
+  status: accepted
+  original_text: What does intermediate unit testing mean?
+  final_text: What does intermediate unit testing mean?
+  reject_reason: null
+- candidate_id: q0038
+  status: accepted
+  original_text: Why does intermediate unit testing matter?
+  final_text: Why does intermediate unit testing matter?
+  reject_reason: null
+- candidate_id: q0039
+  status: repaired
+  original_text: Why do we use intermediate unit testing?
+  final_text: Why does intermediate unit testing?
+  reject_reason: null
+- candidate_id: q0040
+  status: accepted
+  original_text: What is a simple example of intermediate unit testing?
+  final_text: What is a simple example of intermediate unit testing?
+  reject_reason: null
+- candidate_id: q0041
+  status: accepted
+  original_text: What is -in this chapter, you will write more advanced unit tests.
+    starting from?
+  final_text: What is -in this chapter, you will write more advanced unit tests. starting
+    from?
+  reject_reason: null
+- candidate_id: q0042
+  status: accepted
+  original_text: What does -in this chapter, you will write more advanced unit tests.
+    starting from mean?
+  final_text: What does -in this chapter, you will write more advanced unit tests.
+    starting from mean?
+  reject_reason: null
+- candidate_id: q0043
+  status: accepted
+  original_text: Why does -in this chapter, you will write more advanced unit tests.
+    starting from matter?
+  final_text: Why does -in this chapter, you will write more advanced unit tests.
+    starting from matter?
+  reject_reason: null
+- candidate_id: q0044
+  status: repaired
+  original_text: Why do we use -in this chapter, you will write more advanced unit
+    tests. starting from?
+  final_text: Why does -in this chapter, you will write more advanced unit tests.
+    starting from?
+  reject_reason: null
+- candidate_id: q0045
+  status: accepted
+  original_text: What is a simple example of -in this chapter, you will write more
+    advanced unit tests. starting from?
+  final_text: What is a simple example of -in this chapter, you will write more advanced
+    unit tests. starting from?
+  reject_reason: null
+- candidate_id: q0046
+  status: accepted
+  original_text: What is testing complicated data types like numpy arrays to testing
+    exception?
+  final_text: What is testing complicated data types like numpy arrays to testing
+    exception?
+  reject_reason: null
+- candidate_id: q0047
+  status: accepted
+  original_text: What does testing complicated data types like numpy arrays to testing
+    exception mean?
+  final_text: What does testing complicated data types like numpy arrays to testing
+    exception mean?
+  reject_reason: null
+- candidate_id: q0048
+  status: accepted
+  original_text: Why does testing complicated data types like numpy arrays to testing
+    exception matter?
+  final_text: Why does testing complicated data types like numpy arrays to testing
+    exception matter?
+  reject_reason: null
+- candidate_id: q0049
+  status: repaired
+  original_text: Why do we use testing complicated data types like numpy arrays to
+    testing exception?
+  final_text: Why does testing complicated data types like numpy arrays to testing
+    exception?
+  reject_reason: null
+- candidate_id: q0050
+  status: accepted
+  original_text: What is a simple example of testing complicated data types like numpy
+    arrays to testing exception?
+  final_text: What is a simple example of testing complicated data types like numpy
+    arrays to testing exception?
+  reject_reason: null
+- candidate_id: q0051
+  status: accepted
+  original_text: What is data types?
+  final_text: What is data types?
+  reject_reason: null
+- candidate_id: q0052
+  status: accepted
+  original_text: What does data types mean?
+  final_text: What does data types mean?
+  reject_reason: null
+- candidate_id: q0053
+  status: accepted
+  original_text: Why does data types matter?
+  final_text: Why does data types matter?
+  reject_reason: null
+- candidate_id: q0054
+  status: repaired
+  original_text: Why do we use data types?
+  final_text: Why does data types?
+  reject_reason: null
+- candidate_id: q0055
+  status: accepted
+  original_text: What is a simple example of data types?
+  final_text: What is a simple example of data types?
+  reject_reason: null
+- candidate_id: q0056
+  status: accepted
+  original_text: How is unit testing basics different from -in this chapter, you will
+    get introduced to pytest package?
+  final_text: How is unit testing basics different from -in this chapter, you will
+    get introduced to pytest package?
+  reject_reason: null
+- candidate_id: q0057
+  status: accepted
+  original_text: How is unit testing basics different from use it?
+  final_text: How is unit testing basics different from use it?
+  reject_reason: null
+- candidate_id: q0058
+  status: accepted
+  original_text: How is unit testing basics different from to write simple unit tests.
+    you'll run tests, interpret test result?
+  final_text: How is unit testing basics different from to write simple unit tests.
+    you'll run tests, interpret test result?
+  reject_reason: null
+- candidate_id: q0059
+  status: accepted
+  original_text: How is unit testing basics different from reports?
+  final_text: How is unit testing basics different from reports?
+  reject_reason: null
+- candidate_id: q0060
+  status: accepted
+  original_text: How is unit testing basics different from fix bugs. throughout chapter,
+    we will use examples?
+  final_text: How is unit testing basics different from fix bugs. throughout chapter,
+    we will use examples?
+  reject_reason: null
+- candidate_id: q0061
+  status: accepted
+  original_text: How is unit testing basics different from exclusively from data preprocessing
+    module of a linear regression?
+  final_text: How is unit testing basics different from exclusively from data preprocessing
+    module of a linear regression?
+  reject_reason: null
+- candidate_id: q0062
+  status: accepted
+  original_text: How is unit testing basics different from intermediate unit testing?
+  final_text: How is unit testing basics different from intermediate unit testing?
+  reject_reason: null
+- candidate_id: q0063
+  status: accepted
+  original_text: How is unit testing basics different from -in this chapter, you will
+    write more advanced unit tests. starting from?
+  final_text: How is unit testing basics different from -in this chapter, you will
+    write more advanced unit tests. starting from?
+  reject_reason: null
+- candidate_id: q0064
+  status: accepted
+  original_text: How is unit testing basics different from testing complicated data
+    types like numpy arrays to testing exception?
+  final_text: How is unit testing basics different from testing complicated data types
+    like numpy arrays to testing exception?
+  reject_reason: null
+- candidate_id: q0065
+  status: accepted
+  original_text: How is -in this chapter, you will get introduced to pytest package
+    different from use it?
+  final_text: How is -in this chapter, you will get introduced to pytest package different
+    from use it?
+  reject_reason: null
+- candidate_id: q0066
+  status: accepted
+  original_text: How is -in this chapter, you will get introduced to pytest package
+    different from to write simple unit tests. you'll run tests, interpret test result?
+  final_text: How is -in this chapter, you will get introduced to pytest package different
+    from to write simple unit tests. you'll run tests, interpret test result?
+  reject_reason: null
+- candidate_id: q0067
+  status: accepted
+  original_text: How is -in this chapter, you will get introduced to pytest package
+    different from reports?
+  final_text: How is -in this chapter, you will get introduced to pytest package different
+    from reports?
+  reject_reason: null
+- candidate_id: q0068
+  status: accepted
+  original_text: How is -in this chapter, you will get introduced to pytest package
+    different from fix bugs. throughout chapter, we will use examples?
+  final_text: How is -in this chapter, you will get introduced to pytest package different
+    from fix bugs. throughout chapter, we will use examples?
+  reject_reason: null
+- candidate_id: q0069
+  status: accepted
+  original_text: How is -in this chapter, you will get introduced to pytest package
+    different from exclusively from data preprocessing module of a linear regression?
+  final_text: How is -in this chapter, you will get introduced to pytest package different
+    from exclusively from data preprocessing module of a linear regression?
+  reject_reason: null
+- candidate_id: q0070
+  status: accepted
+  original_text: How is -in this chapter, you will get introduced to pytest package
+    different from intermediate unit testing?
+  final_text: How is -in this chapter, you will get introduced to pytest package different
+    from intermediate unit testing?
+  reject_reason: null
+- candidate_id: q0071
+  status: accepted
+  original_text: How is -in this chapter, you will get introduced to pytest package
+    different from -in this chapter, you will write more advanced unit tests. starting
+    from?
+  final_text: How is -in this chapter, you will get introduced to pytest package different
+    from -in this chapter, you will write more advanced unit tests. starting from?
+  reject_reason: null
+- candidate_id: q0072
+  status: accepted
+  original_text: How is -in this chapter, you will get introduced to pytest package
+    different from testing complicated data types like numpy arrays to testing exception?
+  final_text: How is -in this chapter, you will get introduced to pytest package different
+    from testing complicated data types like numpy arrays to testing exception?
+  reject_reason: null
+- candidate_id: q0073
+  status: accepted
+  original_text: How is use it different from to write simple unit tests. you'll run
+    tests, interpret test result?
+  final_text: How is use it different from to write simple unit tests. you'll run
+    tests, interpret test result?
+  reject_reason: null
+- candidate_id: q0074
+  status: accepted
+  original_text: How is use it different from reports?
+  final_text: How is use it different from reports?
+  reject_reason: null
+- candidate_id: q0075
+  status: accepted
+  original_text: How is use it different from fix bugs. throughout chapter, we will
+    use examples?
+  final_text: How is use it different from fix bugs. throughout chapter, we will use
+    examples?
+  reject_reason: null
+- candidate_id: q0076
+  status: accepted
+  original_text: How is use it different from exclusively from data preprocessing
+    module of a linear regression?
+  final_text: How is use it different from exclusively from data preprocessing module
+    of a linear regression?
+  reject_reason: null
+- candidate_id: q0077
+  status: accepted
+  original_text: How is use it different from intermediate unit testing?
+  final_text: How is use it different from intermediate unit testing?
+  reject_reason: null
+- candidate_id: q0078
+  status: accepted
+  original_text: How is use it different from -in this chapter, you will write more
+    advanced unit tests. starting from?
+  final_text: How is use it different from -in this chapter, you will write more advanced
+    unit tests. starting from?
+  reject_reason: null
+- candidate_id: q0079
+  status: accepted
+  original_text: How is use it different from testing complicated data types like
+    numpy arrays to testing exception?
+  final_text: How is use it different from testing complicated data types like numpy
+    arrays to testing exception?
+  reject_reason: null
+- candidate_id: q0080
+  status: accepted
+  original_text: How is to write simple unit tests. you'll run tests, interpret test
+    result different from reports?
+  final_text: How is to write simple unit tests. you'll run tests, interpret test
+    result different from reports?
+  reject_reason: null
+- candidate_id: q0081
+  status: accepted
+  original_text: How is to write simple unit tests. you'll run tests, interpret test
+    result different from fix bugs. throughout chapter, we will use examples?
+  final_text: How is to write simple unit tests. you'll run tests, interpret test
+    result different from fix bugs. throughout chapter, we will use examples?
+  reject_reason: null
+- candidate_id: q0082
+  status: accepted
+  original_text: How is to write simple unit tests. you'll run tests, interpret test
+    result different from exclusively from data preprocessing module of a linear regression?
+  final_text: How is to write simple unit tests. you'll run tests, interpret test
+    result different from exclusively from data preprocessing module of a linear regression?
+  reject_reason: null
+- candidate_id: q0083
+  status: accepted
+  original_text: How is to write simple unit tests. you'll run tests, interpret test
+    result different from intermediate unit testing?
+  final_text: How is to write simple unit tests. you'll run tests, interpret test
+    result different from intermediate unit testing?
+  reject_reason: null
+- candidate_id: q0084
+  status: accepted
+  original_text: How is to write simple unit tests. you'll run tests, interpret test
+    result different from -in this chapter, you will write more advanced unit tests.
+    starting from?
+  final_text: How is to write simple unit tests. you'll run tests, interpret test
+    result different from -in this chapter, you will write more advanced unit tests.
+    starting from?
+  reject_reason: null
+- candidate_id: q0085
+  status: accepted
+  original_text: How is to write simple unit tests. you'll run tests, interpret test
+    result different from testing complicated data types like numpy arrays to testing
+    exception?
+  final_text: How is to write simple unit tests. you'll run tests, interpret test
+    result different from testing complicated data types like numpy arrays to testing
+    exception?
+  reject_reason: null
+- candidate_id: q0086
+  status: accepted
+  original_text: How is reports different from fix bugs. throughout chapter, we will
+    use examples?
+  final_text: How is reports different from fix bugs. throughout chapter, we will
+    use examples?
+  reject_reason: null
+- candidate_id: q0087
+  status: accepted
+  original_text: How is reports different from exclusively from data preprocessing
+    module of a linear regression?
+  final_text: How is reports different from exclusively from data preprocessing module
+    of a linear regression?
+  reject_reason: null
+- candidate_id: q0088
+  status: accepted
+  original_text: How is reports different from intermediate unit testing?
+  final_text: How is reports different from intermediate unit testing?
+  reject_reason: null
+- candidate_id: q0089
+  status: accepted
+  original_text: How is reports different from -in this chapter, you will write more
+    advanced unit tests. starting from?
+  final_text: How is reports different from -in this chapter, you will write more
+    advanced unit tests. starting from?
+  reject_reason: null
+- candidate_id: q0090
+  status: accepted
+  original_text: How is reports different from testing complicated data types like
+    numpy arrays to testing exception?
+  final_text: How is reports different from testing complicated data types like numpy
+    arrays to testing exception?
+  reject_reason: null
+- candidate_id: q0091
+  status: accepted
+  original_text: How is fix bugs. throughout chapter, we will use examples different
+    from exclusively from data preprocessing module of a linear regression?
+  final_text: How is fix bugs. throughout chapter, we will use examples different
+    from exclusively from data preprocessing module of a linear regression?
+  reject_reason: null
+- candidate_id: q0092
+  status: accepted
+  original_text: How is fix bugs. throughout chapter, we will use examples different
+    from intermediate unit testing?
+  final_text: How is fix bugs. throughout chapter, we will use examples different
+    from intermediate unit testing?
+  reject_reason: null
+- candidate_id: q0093
+  status: accepted
+  original_text: How is fix bugs. throughout chapter, we will use examples different
+    from -in this chapter, you will write more advanced unit tests. starting from?
+  final_text: How is fix bugs. throughout chapter, we will use examples different
+    from -in this chapter, you will write more advanced unit tests. starting from?
+  reject_reason: null
+- candidate_id: q0094
+  status: accepted
+  original_text: How is fix bugs. throughout chapter, we will use examples different
+    from testing complicated data types like numpy arrays to testing exception?
+  final_text: How is fix bugs. throughout chapter, we will use examples different
+    from testing complicated data types like numpy arrays to testing exception?
+  reject_reason: null
+- candidate_id: q0095
+  status: accepted
+  original_text: How is exclusively from data preprocessing module of a linear regression
+    different from intermediate unit testing?
+  final_text: How is exclusively from data preprocessing module of a linear regression
+    different from intermediate unit testing?
+  reject_reason: null
+- candidate_id: q0096
+  status: accepted
+  original_text: How is exclusively from data preprocessing module of a linear regression
+    different from -in this chapter, you will write more advanced unit tests. starting
+    from?
+  final_text: How is exclusively from data preprocessing module of a linear regression
+    different from -in this chapter, you will write more advanced unit tests. starting
+    from?
+  reject_reason: null
+- candidate_id: q0097
+  status: accepted
+  original_text: How is exclusively from data preprocessing module of a linear regression
+    different from testing complicated data types like numpy arrays to testing exception?
+  final_text: How is exclusively from data preprocessing module of a linear regression
+    different from testing complicated data types like numpy arrays to testing exception?
+  reject_reason: null
+- candidate_id: q0098
+  status: accepted
+  original_text: How is intermediate unit testing different from -in this chapter,
+    you will write more advanced unit tests. starting from?
+  final_text: How is intermediate unit testing different from -in this chapter, you
+    will write more advanced unit tests. starting from?
+  reject_reason: null
+- candidate_id: q0099
+  status: accepted
+  original_text: How is intermediate unit testing different from testing complicated
+    data types like numpy arrays to testing exception?
+  final_text: How is intermediate unit testing different from testing complicated
+    data types like numpy arrays to testing exception?
+  reject_reason: null
+- candidate_id: q0100
+  status: accepted
+  original_text: How is -in this chapter, you will write more advanced unit tests.
+    starting from different from testing complicated data types like numpy arrays
+    to testing exception?
+  final_text: How is -in this chapter, you will write more advanced unit tests. starting
+    from different from testing complicated data types like numpy arrays to testing
+    exception?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is unit testing basics?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does unit testing basics mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does unit testing basics matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does unit testing basics?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of unit testing basics?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is -in this chapter, you will get introduced to pytest package?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does -in this chapter, you will get introduced to pytest package
+    mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does -in this chapter, you will get introduced to pytest package
+    matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does -in this chapter, you will get introduced to pytest package?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of -in this chapter, you will get introduced
+    to pytest package?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is use it?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does use it mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does use it matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does use it?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of use it?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is to write simple unit tests. you'll run tests, interpret test
+    result?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does to write simple unit tests. you'll run tests, interpret
+    test result mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does to write simple unit tests. you'll run tests, interpret
+    test result matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does to write simple unit tests. you'll run tests, interpret
+    test result?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of to write simple unit tests. you'll run
+    tests, interpret test result?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: What is reports?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: What does reports mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: Why does reports matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: Why does reports?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: What is a simple example of reports?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: What is fix bugs. throughout chapter, we will use examples?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0027
+  question_text: What does fix bugs. throughout chapter, we will use examples mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0028
+  question_text: Why does fix bugs. throughout chapter, we will use examples matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0029
+  question_text: Why does fix bugs. throughout chapter, we will use examples?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0030
+  question_text: What is a simple example of fix bugs. throughout chapter, we will
+    use examples?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0031
+  question_text: What is exclusively from data preprocessing module of a linear regression?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0032
+  question_text: What does exclusively from data preprocessing module of a linear
+    regression mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0033
+  question_text: Why does exclusively from data preprocessing module of a linear regression
+    matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0034
+  question_text: Why does exclusively from data preprocessing module of a linear regression?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0035
+  question_text: What is a simple example of exclusively from data preprocessing module
+    of a linear regression?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0036
+  question_text: What is intermediate unit testing?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0037
+  question_text: What does intermediate unit testing mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0038
+  question_text: Why does intermediate unit testing matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0039
+  question_text: Why does intermediate unit testing?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0040
+  question_text: What is a simple example of intermediate unit testing?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0041
+  question_text: What is -in this chapter, you will write more advanced unit tests.
+    starting from?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0042
+  question_text: What does -in this chapter, you will write more advanced unit tests.
+    starting from mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0043
+  question_text: Why does -in this chapter, you will write more advanced unit tests.
+    starting from matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0044
+  question_text: Why does -in this chapter, you will write more advanced unit tests.
+    starting from?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0045
+  question_text: What is a simple example of -in this chapter, you will write more
+    advanced unit tests. starting from?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0046
+  question_text: What is testing complicated data types like numpy arrays to testing
+    exception?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0047
+  question_text: What does testing complicated data types like numpy arrays to testing
+    exception mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0048
+  question_text: Why does testing complicated data types like numpy arrays to testing
+    exception matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0049
+  question_text: Why does testing complicated data types like numpy arrays to testing
+    exception?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0050
+  question_text: What is a simple example of testing complicated data types like numpy
+    arrays to testing exception?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0051
+  question_text: What is data types?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0052
+  question_text: What does data types mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0053
+  question_text: Why does data types matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0054
+  question_text: Why does data types?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0055
+  question_text: What is a simple example of data types?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0056
+  question_text: How is unit testing basics different from -in this chapter, you will
+    get introduced to pytest package?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0057
+  question_text: How is unit testing basics different from use it?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0058
+  question_text: How is unit testing basics different from to write simple unit tests.
+    you'll run tests, interpret test result?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0059
+  question_text: How is unit testing basics different from reports?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0060
+  question_text: How is unit testing basics different from fix bugs. throughout chapter,
+    we will use examples?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0061
+  question_text: How is unit testing basics different from exclusively from data preprocessing
+    module of a linear regression?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0062
+  question_text: How is unit testing basics different from intermediate unit testing?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0063
+  question_text: How is unit testing basics different from -in this chapter, you will
+    write more advanced unit tests. starting from?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0064
+  question_text: How is unit testing basics different from testing complicated data
+    types like numpy arrays to testing exception?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0065
+  question_text: How is -in this chapter, you will get introduced to pytest package
+    different from use it?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0066
+  question_text: How is -in this chapter, you will get introduced to pytest package
+    different from to write simple unit tests. you'll run tests, interpret test result?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0067
+  question_text: How is -in this chapter, you will get introduced to pytest package
+    different from reports?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0068
+  question_text: How is -in this chapter, you will get introduced to pytest package
+    different from fix bugs. throughout chapter, we will use examples?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0069
+  question_text: How is -in this chapter, you will get introduced to pytest package
+    different from exclusively from data preprocessing module of a linear regression?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0070
+  question_text: How is -in this chapter, you will get introduced to pytest package
+    different from intermediate unit testing?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0071
+  question_text: How is -in this chapter, you will get introduced to pytest package
+    different from -in this chapter, you will write more advanced unit tests. starting
+    from?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0072
+  question_text: How is -in this chapter, you will get introduced to pytest package
+    different from testing complicated data types like numpy arrays to testing exception?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0073
+  question_text: How is use it different from to write simple unit tests. you'll run
+    tests, interpret test result?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0074
+  question_text: How is use it different from reports?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0075
+  question_text: How is use it different from fix bugs. throughout chapter, we will
+    use examples?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0076
+  question_text: How is use it different from exclusively from data preprocessing
+    module of a linear regression?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0077
+  question_text: How is use it different from intermediate unit testing?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0078
+  question_text: How is use it different from -in this chapter, you will write more
+    advanced unit tests. starting from?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0079
+  question_text: How is use it different from testing complicated data types like
+    numpy arrays to testing exception?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0080
+  question_text: How is to write simple unit tests. you'll run tests, interpret test
+    result different from reports?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0081
+  question_text: How is to write simple unit tests. you'll run tests, interpret test
+    result different from fix bugs. throughout chapter, we will use examples?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0082
+  question_text: How is to write simple unit tests. you'll run tests, interpret test
+    result different from exclusively from data preprocessing module of a linear regression?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0083
+  question_text: How is to write simple unit tests. you'll run tests, interpret test
+    result different from intermediate unit testing?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0084
+  question_text: How is to write simple unit tests. you'll run tests, interpret test
+    result different from -in this chapter, you will write more advanced unit tests.
+    starting from?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0085
+  question_text: How is to write simple unit tests. you'll run tests, interpret test
+    result different from testing complicated data types like numpy arrays to testing
+    exception?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0086
+  question_text: How is reports different from fix bugs. throughout chapter, we will
+    use examples?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0087
+  question_text: How is reports different from exclusively from data preprocessing
+    module of a linear regression?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0088
+  question_text: How is reports different from intermediate unit testing?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0089
+  question_text: How is reports different from -in this chapter, you will write more
+    advanced unit tests. starting from?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0090
+  question_text: How is reports different from testing complicated data types like
+    numpy arrays to testing exception?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0091
+  question_text: How is fix bugs. throughout chapter, we will use examples different
+    from exclusively from data preprocessing module of a linear regression?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0092
+  question_text: How is fix bugs. throughout chapter, we will use examples different
+    from intermediate unit testing?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0093
+  question_text: How is fix bugs. throughout chapter, we will use examples different
+    from -in this chapter, you will write more advanced unit tests. starting from?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0094
+  question_text: How is fix bugs. throughout chapter, we will use examples different
+    from testing complicated data types like numpy arrays to testing exception?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0095
+  question_text: How is exclusively from data preprocessing module of a linear regression
+    different from intermediate unit testing?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0096
+  question_text: How is exclusively from data preprocessing module of a linear regression
+    different from -in this chapter, you will write more advanced unit tests. starting
+    from?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0097
+  question_text: How is exclusively from data preprocessing module of a linear regression
+    different from testing complicated data types like numpy arrays to testing exception?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0098
+  question_text: How is intermediate unit testing different from -in this chapter,
+    you will write more advanced unit tests. starting from?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0099
+  question_text: How is intermediate unit testing different from testing complicated
+    data types like numpy arrays to testing exception?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0100
+  question_text: How is -in this chapter, you will write more advanced unit tests.
+    starting from different from testing complicated data types like numpy arrays
+    to testing exception?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - unit testing basics
+  question_text: What is unit testing basics?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - unit testing basics
+  question_text: What does unit testing basics mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - unit testing basics
+  question_text: Why does unit testing basics matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - unit testing basics
+  question_text: Why does unit testing basics?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - unit testing basics
+  question_text: What is a simple example of unit testing basics?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - -in this chapter, you will get introduced to pytest package
+  question_text: What is -in this chapter, you will get introduced to pytest package?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - -in this chapter, you will get introduced to pytest package
+  question_text: What does -in this chapter, you will get introduced to pytest package
+    mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - -in this chapter, you will get introduced to pytest package
+  question_text: Why does -in this chapter, you will get introduced to pytest package
+    matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - -in this chapter, you will get introduced to pytest package
+  question_text: Why does -in this chapter, you will get introduced to pytest package?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - -in this chapter, you will get introduced to pytest package
+  question_text: What is a simple example of -in this chapter, you will get introduced
+    to pytest package?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - use it
+  question_text: What is use it?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - use it
+  question_text: What does use it mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - use it
+  question_text: Why does use it matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - use it
+  question_text: Why does use it?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - use it
+  question_text: What is a simple example of use it?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - to write simple unit tests. you'll run tests, interpret test result
+  question_text: What is to write simple unit tests. you'll run tests, interpret test
+    result?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - to write simple unit tests. you'll run tests, interpret test result
+  question_text: What does to write simple unit tests. you'll run tests, interpret
+    test result mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - to write simple unit tests. you'll run tests, interpret test result
+  question_text: Why does to write simple unit tests. you'll run tests, interpret
+    test result matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - to write simple unit tests. you'll run tests, interpret test result
+  question_text: Why does to write simple unit tests. you'll run tests, interpret
+    test result?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - to write simple unit tests. you'll run tests, interpret test result
+  question_text: What is a simple example of to write simple unit tests. you'll run
+    tests, interpret test result?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - reports
+  question_text: What is reports?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - reports
+  question_text: What does reports mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - reports
+  question_text: Why does reports matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - reports
+  question_text: Why does reports?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - reports
+  question_text: What is a simple example of reports?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - fix bugs. throughout chapter, we will use examples
+  question_text: What is fix bugs. throughout chapter, we will use examples?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000027
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - fix bugs. throughout chapter, we will use examples
+  question_text: What does fix bugs. throughout chapter, we will use examples mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000028
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - fix bugs. throughout chapter, we will use examples
+  question_text: Why does fix bugs. throughout chapter, we will use examples matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000029
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - fix bugs. throughout chapter, we will use examples
+  question_text: Why does fix bugs. throughout chapter, we will use examples?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000030
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - fix bugs. throughout chapter, we will use examples
+  question_text: What is a simple example of fix bugs. throughout chapter, we will
+    use examples?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000031
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - exclusively from data preprocessing module of a linear regression
+  question_text: What is exclusively from data preprocessing module of a linear regression?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000032
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - exclusively from data preprocessing module of a linear regression
+  question_text: What does exclusively from data preprocessing module of a linear
+    regression mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000033
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - exclusively from data preprocessing module of a linear regression
+  question_text: Why does exclusively from data preprocessing module of a linear regression
+    matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000034
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - exclusively from data preprocessing module of a linear regression
+  question_text: Why does exclusively from data preprocessing module of a linear regression?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000035
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - exclusively from data preprocessing module of a linear regression
+  question_text: What is a simple example of exclusively from data preprocessing module
+    of a linear regression?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000036
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - intermediate unit testing
+  question_text: What is intermediate unit testing?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000037
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - intermediate unit testing
+  question_text: What does intermediate unit testing mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000038
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - intermediate unit testing
+  question_text: Why does intermediate unit testing matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000039
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - intermediate unit testing
+  question_text: Why does intermediate unit testing?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000040
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - intermediate unit testing
+  question_text: What is a simple example of intermediate unit testing?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000041
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - -in this chapter, you will write more advanced unit tests. starting from
+  question_text: What is -in this chapter, you will write more advanced unit tests.
+    starting from?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000042
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - -in this chapter, you will write more advanced unit tests. starting from
+  question_text: What does -in this chapter, you will write more advanced unit tests.
+    starting from mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000043
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - -in this chapter, you will write more advanced unit tests. starting from
+  question_text: Why does -in this chapter, you will write more advanced unit tests.
+    starting from matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000044
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - -in this chapter, you will write more advanced unit tests. starting from
+  question_text: Why does -in this chapter, you will write more advanced unit tests.
+    starting from?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000045
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - -in this chapter, you will write more advanced unit tests. starting from
+  question_text: What is a simple example of -in this chapter, you will write more
+    advanced unit tests. starting from?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000046
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - testing complicated data types like numpy arrays to testing exception
+  question_text: What is testing complicated data types like numpy arrays to testing
+    exception?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000047
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - testing complicated data types like numpy arrays to testing exception
+  question_text: What does testing complicated data types like numpy arrays to testing
+    exception mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000048
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - testing complicated data types like numpy arrays to testing exception
+  question_text: Why does testing complicated data types like numpy arrays to testing
+    exception matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000049
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - testing complicated data types like numpy arrays to testing exception
+  question_text: Why does testing complicated data types like numpy arrays to testing
+    exception?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000050
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - testing complicated data types like numpy arrays to testing exception
+  question_text: What is a simple example of testing complicated data types like numpy
+    arrays to testing exception?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000051
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - data types
+  question_text: What is data types?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000052
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - data types
+  question_text: What does data types mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000053
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - data types
+  question_text: Why does data types matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000054
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - data types
+  question_text: Why does data types?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000055
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - data types
+  question_text: What is a simple example of data types?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000056
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - unit testing basics
+  - -in this chapter, you will get introduced to pytest package
+  question_text: How is unit testing basics different from -in this chapter, you will
+    get introduced to pytest package?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000057
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - unit testing basics
+  - use it
+  question_text: How is unit testing basics different from use it?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000058
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - unit testing basics
+  - to write simple unit tests. you'll run tests, interpret test result
+  question_text: How is unit testing basics different from to write simple unit tests.
+    you'll run tests, interpret test result?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000059
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - unit testing basics
+  - reports
+  question_text: How is unit testing basics different from reports?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000060
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - unit testing basics
+  - fix bugs. throughout chapter, we will use examples
+  question_text: How is unit testing basics different from fix bugs. throughout chapter,
+    we will use examples?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000061
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - unit testing basics
+  - exclusively from data preprocessing module of a linear regression
+  question_text: How is unit testing basics different from exclusively from data preprocessing
+    module of a linear regression?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000062
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - unit testing basics
+  - intermediate unit testing
+  question_text: How is unit testing basics different from intermediate unit testing?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000063
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - unit testing basics
+  - -in this chapter, you will write more advanced unit tests. starting from
+  question_text: How is unit testing basics different from -in this chapter, you will
+    write more advanced unit tests. starting from?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000064
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - unit testing basics
+  - testing complicated data types like numpy arrays to testing exception
+  question_text: How is unit testing basics different from testing complicated data
+    types like numpy arrays to testing exception?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000065
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - -in this chapter, you will get introduced to pytest package
+  - use it
+  question_text: How is -in this chapter, you will get introduced to pytest package
+    different from use it?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000066
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - -in this chapter, you will get introduced to pytest package
+  - to write simple unit tests. you'll run tests, interpret test result
+  question_text: How is -in this chapter, you will get introduced to pytest package
+    different from to write simple unit tests. you'll run tests, interpret test result?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000067
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - -in this chapter, you will get introduced to pytest package
+  - reports
+  question_text: How is -in this chapter, you will get introduced to pytest package
+    different from reports?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000068
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - -in this chapter, you will get introduced to pytest package
+  - fix bugs. throughout chapter, we will use examples
+  question_text: How is -in this chapter, you will get introduced to pytest package
+    different from fix bugs. throughout chapter, we will use examples?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000069
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - -in this chapter, you will get introduced to pytest package
+  - exclusively from data preprocessing module of a linear regression
+  question_text: How is -in this chapter, you will get introduced to pytest package
+    different from exclusively from data preprocessing module of a linear regression?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000070
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - -in this chapter, you will get introduced to pytest package
+  - intermediate unit testing
+  question_text: How is -in this chapter, you will get introduced to pytest package
+    different from intermediate unit testing?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000071
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - -in this chapter, you will get introduced to pytest package
+  - -in this chapter, you will write more advanced unit tests. starting from
+  question_text: How is -in this chapter, you will get introduced to pytest package
+    different from -in this chapter, you will write more advanced unit tests. starting
+    from?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000072
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - -in this chapter, you will get introduced to pytest package
+  - testing complicated data types like numpy arrays to testing exception
+  question_text: How is -in this chapter, you will get introduced to pytest package
+    different from testing complicated data types like numpy arrays to testing exception?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000073
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - use it
+  - to write simple unit tests. you'll run tests, interpret test result
+  question_text: How is use it different from to write simple unit tests. you'll run
+    tests, interpret test result?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000074
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - use it
+  - reports
+  question_text: How is use it different from reports?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000075
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - use it
+  - fix bugs. throughout chapter, we will use examples
+  question_text: How is use it different from fix bugs. throughout chapter, we will
+    use examples?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000076
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - use it
+  - exclusively from data preprocessing module of a linear regression
+  question_text: How is use it different from exclusively from data preprocessing
+    module of a linear regression?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000077
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - use it
+  - intermediate unit testing
+  question_text: How is use it different from intermediate unit testing?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000078
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - use it
+  - -in this chapter, you will write more advanced unit tests. starting from
+  question_text: How is use it different from -in this chapter, you will write more
+    advanced unit tests. starting from?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000079
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - use it
+  - testing complicated data types like numpy arrays to testing exception
+  question_text: How is use it different from testing complicated data types like
+    numpy arrays to testing exception?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000080
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - to write simple unit tests. you'll run tests, interpret test result
+  - reports
+  question_text: How is to write simple unit tests. you'll run tests, interpret test
+    result different from reports?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000081
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - to write simple unit tests. you'll run tests, interpret test result
+  - fix bugs. throughout chapter, we will use examples
+  question_text: How is to write simple unit tests. you'll run tests, interpret test
+    result different from fix bugs. throughout chapter, we will use examples?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000082
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - to write simple unit tests. you'll run tests, interpret test result
+  - exclusively from data preprocessing module of a linear regression
+  question_text: How is to write simple unit tests. you'll run tests, interpret test
+    result different from exclusively from data preprocessing module of a linear regression?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000083
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - to write simple unit tests. you'll run tests, interpret test result
+  - intermediate unit testing
+  question_text: How is to write simple unit tests. you'll run tests, interpret test
+    result different from intermediate unit testing?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000084
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - to write simple unit tests. you'll run tests, interpret test result
+  - -in this chapter, you will write more advanced unit tests. starting from
+  question_text: How is to write simple unit tests. you'll run tests, interpret test
+    result different from -in this chapter, you will write more advanced unit tests.
+    starting from?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000085
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - to write simple unit tests. you'll run tests, interpret test result
+  - testing complicated data types like numpy arrays to testing exception
+  question_text: How is to write simple unit tests. you'll run tests, interpret test
+    result different from testing complicated data types like numpy arrays to testing
+    exception?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000086
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - reports
+  - fix bugs. throughout chapter, we will use examples
+  question_text: How is reports different from fix bugs. throughout chapter, we will
+    use examples?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000087
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - reports
+  - exclusively from data preprocessing module of a linear regression
+  question_text: How is reports different from exclusively from data preprocessing
+    module of a linear regression?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000088
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - reports
+  - intermediate unit testing
+  question_text: How is reports different from intermediate unit testing?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000089
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - reports
+  - -in this chapter, you will write more advanced unit tests. starting from
+  question_text: How is reports different from -in this chapter, you will write more
+    advanced unit tests. starting from?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000090
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - reports
+  - testing complicated data types like numpy arrays to testing exception
+  question_text: How is reports different from testing complicated data types like
+    numpy arrays to testing exception?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000091
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - fix bugs. throughout chapter, we will use examples
+  - exclusively from data preprocessing module of a linear regression
+  question_text: How is fix bugs. throughout chapter, we will use examples different
+    from exclusively from data preprocessing module of a linear regression?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000092
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - fix bugs. throughout chapter, we will use examples
+  - intermediate unit testing
+  question_text: How is fix bugs. throughout chapter, we will use examples different
+    from intermediate unit testing?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000093
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - fix bugs. throughout chapter, we will use examples
+  - -in this chapter, you will write more advanced unit tests. starting from
+  question_text: How is fix bugs. throughout chapter, we will use examples different
+    from -in this chapter, you will write more advanced unit tests. starting from?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000094
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - fix bugs. throughout chapter, we will use examples
+  - testing complicated data types like numpy arrays to testing exception
+  question_text: How is fix bugs. throughout chapter, we will use examples different
+    from testing complicated data types like numpy arrays to testing exception?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000095
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - exclusively from data preprocessing module of a linear regression
+  - intermediate unit testing
+  question_text: How is exclusively from data preprocessing module of a linear regression
+    different from intermediate unit testing?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000096
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - exclusively from data preprocessing module of a linear regression
+  - -in this chapter, you will write more advanced unit tests. starting from
+  question_text: How is exclusively from data preprocessing module of a linear regression
+    different from -in this chapter, you will write more advanced unit tests. starting
+    from?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000097
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - exclusively from data preprocessing module of a linear regression
+  - testing complicated data types like numpy arrays to testing exception
+  question_text: How is exclusively from data preprocessing module of a linear regression
+    different from testing complicated data types like numpy arrays to testing exception?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000098
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - intermediate unit testing
+  - -in this chapter, you will write more advanced unit tests. starting from
+  question_text: How is intermediate unit testing different from -in this chapter,
+    you will write more advanced unit tests. starting from?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000099
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - intermediate unit testing
+  - testing complicated data types like numpy arrays to testing exception
+  question_text: How is intermediate unit testing different from testing complicated
+    data types like numpy arrays to testing exception?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000100
+  course:
+    course_id: '24452'
+    title: testing complicated data types like NumPy arrays to testing exception
+  relevant_topics:
+  - -in this chapter, you will write more advanced unit tests. starting from
+  - testing complicated data types like numpy arrays to testing exception
+  question_text: How is -in this chapter, you will write more advanced unit tests.
+    starting from different from testing complicated data types like numpy arrays
+    to testing exception?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 11
+  canonical_topic_count: 11
+  candidate_count: 100
+  accepted_count: 100
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 100

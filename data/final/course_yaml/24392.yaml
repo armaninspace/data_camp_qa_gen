@@ -1,0 +1,1080 @@
+course_id: '24392'
+title: Statistical Thinking in Python (Part 1)
+normalized_course:
+  course_id: '24392'
+  title: Statistical Thinking in Python (Part 1)
+  provider: DataCamp
+  summary: 'Build the foundation you need to think statistically and to speak the
+
+    language of your data.'
+  overview: 'Graphical Exploratory Data Analysis
+
+
+    Before diving into sophisticated statistical inference techniques, you
+
+    should first explore your data by plotting them and computing simple summary
+
+    statistics. This process, called exploratory data analysis, is a crucial
+
+    first step in statistical analysis of data.
+
+
+    Quantitative Exploratory Data Analysis
+
+
+    In this chapter, you will compute useful summary statistics, which serve to
+
+    concisely describe salient features of a dataset with a few numbers.
+
+
+    Thinking Probabilistically-- Discrete Variables
+
+
+    Statistical inference rests upon probability. Because we can very rarely say
+
+    anything meaningful with absolute certainty from data, we use probabilistic
+
+    language to make quantitative statements about data. In this chapter, you
+
+    will learn how to think probabilistically about discrete quantities: those
+
+    that can only take certain values, like integers.
+
+
+    Thinking Probabilistically-- Continuous Variables
+
+
+    It’s time to move onto continuous variables, such as those that can take on
+
+    any fractional value. Many of the principles are the same, but there are
+
+    some subtleties. At the end of this final chapter, you will be speaking the
+
+    probabilistic language you need to launch into the inference techniques
+
+    covered in the sequel to this course.'
+  chapters:
+  - chapter_index: 1
+    title: Graphical Exploratory Data Analysis
+    summary: 'Before diving into sophisticated statistical inference techniques,
+
+      you should first explore your data by plotting them and computing
+
+      simple summary statistics. This process, called exploratory data
+
+      analysis, is a crucial first step in statistical analysis of data.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 2
+    title: Quantitative Exploratory Data Analysis
+    summary: 'In this chapter, you will compute useful summary statistics, which
+
+      serve to concisely describe salient features of a dataset with a few
+
+      numbers.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 3
+    title: Thinking Probabilistically-- Discrete Variables
+    summary: 'Statistical inference rests upon probability. Because we can very
+
+      rarely say anything meaningful with absolute certainty from data, we
+
+      use probabilistic language to make quantitative statements about
+
+      data. In this chapter, you will learn how to think probabilistically
+
+      about discrete quantities: those that can only take certain values,
+
+      like integers.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 4
+    title: Thinking Probabilistically-- Continuous Variables
+    summary: 'It’s time to move onto continuous variables, such as those that can
+
+      take on any fractional value. Many of the principles are the same,
+
+      but there are some subtleties. At the end of this final chapter, you
+
+      will be speaking the probabilistic language you need to launch into
+
+      the inference techniques covered in the sequel to this course.'
+    source: syllabus
+    confidence: 1.0
+  metadata:
+    level: Beginner
+    duration_hours: 3 hours
+    subjects:
+    - Python
+    - Data Analysis
+    - Probability
+    - Statistical Inference
+    - Exploratory Data Analysis
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: graphical exploratory data analysis
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: graphical exploratory data analysis'
+  evidence:
+  - source: syllabus
+    text: Graphical Exploratory Data Analysis
+  confidence: 0.45
+- topic_id: t002
+  label: quantitative exploratory data analysis
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: quantitative exploratory data
+    analysis'
+  evidence:
+  - source: syllabus
+    text: Quantitative Exploratory Data Analysis
+  confidence: 0.45
+- topic_id: t003
+  label: thinking probabilistically-- discrete variables
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: thinking probabilistically--
+    discrete variables'
+  evidence:
+  - source: syllabus
+    text: Thinking Probabilistically-- Discrete Variables
+  confidence: 0.45
+- topic_id: t004
+  label: thinking probabilistically-- continuous variables
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: thinking probabilistically--
+    continuous variables'
+  evidence:
+  - source: syllabus
+    text: Thinking Probabilistically-- Continuous Variables
+  confidence: 0.45
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: graphical exploratory data analysis
+  aliases:
+  - graphical exploratory data analysis
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: quantitative exploratory data analysis
+  aliases:
+  - quantitative exploratory data analysis
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: thinking probabilistically-- discrete variables
+  aliases:
+  - thinking probabilistically-- discrete variables
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: thinking probabilistically-- continuous variables
+  aliases:
+  - thinking probabilistically-- continuous variables
+  member_topic_ids:
+  - t004
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - graphical exploratory data analysis
+  family: entry
+  pattern: What is {x}?
+  question_text: What is graphical exploratory data analysis?
+- candidate_id: q0002
+  relevant_topics:
+  - graphical exploratory data analysis
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does graphical exploratory data analysis mean?
+- candidate_id: q0003
+  relevant_topics:
+  - graphical exploratory data analysis
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does graphical exploratory data analysis matter?
+- candidate_id: q0004
+  relevant_topics:
+  - graphical exploratory data analysis
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use graphical exploratory data analysis?
+- candidate_id: q0005
+  relevant_topics:
+  - graphical exploratory data analysis
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of graphical exploratory data analysis?
+- candidate_id: q0006
+  relevant_topics:
+  - quantitative exploratory data analysis
+  family: entry
+  pattern: What is {x}?
+  question_text: What is quantitative exploratory data analysis?
+- candidate_id: q0007
+  relevant_topics:
+  - quantitative exploratory data analysis
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does quantitative exploratory data analysis mean?
+- candidate_id: q0008
+  relevant_topics:
+  - quantitative exploratory data analysis
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does quantitative exploratory data analysis matter?
+- candidate_id: q0009
+  relevant_topics:
+  - quantitative exploratory data analysis
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use quantitative exploratory data analysis?
+- candidate_id: q0010
+  relevant_topics:
+  - quantitative exploratory data analysis
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of quantitative exploratory data analysis?
+- candidate_id: q0011
+  relevant_topics:
+  - thinking probabilistically-- discrete variables
+  family: entry
+  pattern: What is {x}?
+  question_text: What is thinking probabilistically-- discrete variables?
+- candidate_id: q0012
+  relevant_topics:
+  - thinking probabilistically-- discrete variables
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does thinking probabilistically-- discrete variables mean?
+- candidate_id: q0013
+  relevant_topics:
+  - thinking probabilistically-- discrete variables
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does thinking probabilistically-- discrete variables matter?
+- candidate_id: q0014
+  relevant_topics:
+  - thinking probabilistically-- discrete variables
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use thinking probabilistically-- discrete variables?
+- candidate_id: q0015
+  relevant_topics:
+  - thinking probabilistically-- discrete variables
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of thinking probabilistically-- discrete
+    variables?
+- candidate_id: q0016
+  relevant_topics:
+  - thinking probabilistically-- continuous variables
+  family: entry
+  pattern: What is {x}?
+  question_text: What is thinking probabilistically-- continuous variables?
+- candidate_id: q0017
+  relevant_topics:
+  - thinking probabilistically-- continuous variables
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does thinking probabilistically-- continuous variables mean?
+- candidate_id: q0018
+  relevant_topics:
+  - thinking probabilistically-- continuous variables
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does thinking probabilistically-- continuous variables matter?
+- candidate_id: q0019
+  relevant_topics:
+  - thinking probabilistically-- continuous variables
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use thinking probabilistically-- continuous variables?
+- candidate_id: q0020
+  relevant_topics:
+  - thinking probabilistically-- continuous variables
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of thinking probabilistically-- continuous
+    variables?
+- candidate_id: q0021
+  relevant_topics:
+  - graphical exploratory data analysis
+  - quantitative exploratory data analysis
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is graphical exploratory data analysis different from quantitative
+    exploratory data analysis?
+- candidate_id: q0022
+  relevant_topics:
+  - graphical exploratory data analysis
+  - thinking probabilistically-- discrete variables
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is graphical exploratory data analysis different from thinking
+    probabilistically-- discrete variables?
+- candidate_id: q0023
+  relevant_topics:
+  - graphical exploratory data analysis
+  - thinking probabilistically-- continuous variables
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is graphical exploratory data analysis different from thinking
+    probabilistically-- continuous variables?
+- candidate_id: q0024
+  relevant_topics:
+  - quantitative exploratory data analysis
+  - thinking probabilistically-- discrete variables
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is quantitative exploratory data analysis different from thinking
+    probabilistically-- discrete variables?
+- candidate_id: q0025
+  relevant_topics:
+  - quantitative exploratory data analysis
+  - thinking probabilistically-- continuous variables
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is quantitative exploratory data analysis different from thinking
+    probabilistically-- continuous variables?
+- candidate_id: q0026
+  relevant_topics:
+  - thinking probabilistically-- discrete variables
+  - thinking probabilistically-- continuous variables
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is thinking probabilistically-- discrete variables different
+    from thinking probabilistically-- continuous variables?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is graphical exploratory data analysis?
+  final_text: What is graphical exploratory data analysis?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does graphical exploratory data analysis mean?
+  final_text: What does graphical exploratory data analysis mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does graphical exploratory data analysis matter?
+  final_text: Why does graphical exploratory data analysis matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use graphical exploratory data analysis?
+  final_text: Why does graphical exploratory data analysis?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of graphical exploratory data analysis?
+  final_text: What is a simple example of graphical exploratory data analysis?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is quantitative exploratory data analysis?
+  final_text: What is quantitative exploratory data analysis?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does quantitative exploratory data analysis mean?
+  final_text: What does quantitative exploratory data analysis mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does quantitative exploratory data analysis matter?
+  final_text: Why does quantitative exploratory data analysis matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use quantitative exploratory data analysis?
+  final_text: Why does quantitative exploratory data analysis?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of quantitative exploratory data analysis?
+  final_text: What is a simple example of quantitative exploratory data analysis?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is thinking probabilistically-- discrete variables?
+  final_text: What is thinking probabilistically-- discrete variables?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does thinking probabilistically-- discrete variables mean?
+  final_text: What does thinking probabilistically-- discrete variables mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does thinking probabilistically-- discrete variables matter?
+  final_text: Why does thinking probabilistically-- discrete variables matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use thinking probabilistically-- discrete variables?
+  final_text: Why does thinking probabilistically-- discrete variables?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of thinking probabilistically-- discrete
+    variables?
+  final_text: What is a simple example of thinking probabilistically-- discrete variables?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is thinking probabilistically-- continuous variables?
+  final_text: What is thinking probabilistically-- continuous variables?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does thinking probabilistically-- continuous variables mean?
+  final_text: What does thinking probabilistically-- continuous variables mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does thinking probabilistically-- continuous variables matter?
+  final_text: Why does thinking probabilistically-- continuous variables matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use thinking probabilistically-- continuous variables?
+  final_text: Why does thinking probabilistically-- continuous variables?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of thinking probabilistically-- continuous
+    variables?
+  final_text: What is a simple example of thinking probabilistically-- continuous
+    variables?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: How is graphical exploratory data analysis different from quantitative
+    exploratory data analysis?
+  final_text: How is graphical exploratory data analysis different from quantitative
+    exploratory data analysis?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: How is graphical exploratory data analysis different from thinking
+    probabilistically-- discrete variables?
+  final_text: How is graphical exploratory data analysis different from thinking probabilistically--
+    discrete variables?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: How is graphical exploratory data analysis different from thinking
+    probabilistically-- continuous variables?
+  final_text: How is graphical exploratory data analysis different from thinking probabilistically--
+    continuous variables?
+  reject_reason: null
+- candidate_id: q0024
+  status: accepted
+  original_text: How is quantitative exploratory data analysis different from thinking
+    probabilistically-- discrete variables?
+  final_text: How is quantitative exploratory data analysis different from thinking
+    probabilistically-- discrete variables?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: How is quantitative exploratory data analysis different from thinking
+    probabilistically-- continuous variables?
+  final_text: How is quantitative exploratory data analysis different from thinking
+    probabilistically-- continuous variables?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: How is thinking probabilistically-- discrete variables different
+    from thinking probabilistically-- continuous variables?
+  final_text: How is thinking probabilistically-- discrete variables different from
+    thinking probabilistically-- continuous variables?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is graphical exploratory data analysis?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does graphical exploratory data analysis mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does graphical exploratory data analysis matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does graphical exploratory data analysis?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of graphical exploratory data analysis?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is quantitative exploratory data analysis?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does quantitative exploratory data analysis mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does quantitative exploratory data analysis matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does quantitative exploratory data analysis?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of quantitative exploratory data analysis?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is thinking probabilistically-- discrete variables?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does thinking probabilistically-- discrete variables mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does thinking probabilistically-- discrete variables matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does thinking probabilistically-- discrete variables?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of thinking probabilistically-- discrete
+    variables?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is thinking probabilistically-- continuous variables?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does thinking probabilistically-- continuous variables mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does thinking probabilistically-- continuous variables matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does thinking probabilistically-- continuous variables?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of thinking probabilistically-- continuous
+    variables?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: How is graphical exploratory data analysis different from quantitative
+    exploratory data analysis?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: How is graphical exploratory data analysis different from thinking
+    probabilistically-- discrete variables?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: How is graphical exploratory data analysis different from thinking
+    probabilistically-- continuous variables?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: How is quantitative exploratory data analysis different from thinking
+    probabilistically-- discrete variables?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: How is quantitative exploratory data analysis different from thinking
+    probabilistically-- continuous variables?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: How is thinking probabilistically-- discrete variables different
+    from thinking probabilistically-- continuous variables?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24392'
+    title: Statistical Thinking in Python (Part 1)
+  relevant_topics:
+  - graphical exploratory data analysis
+  question_text: What is graphical exploratory data analysis?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24392'
+    title: Statistical Thinking in Python (Part 1)
+  relevant_topics:
+  - graphical exploratory data analysis
+  question_text: What does graphical exploratory data analysis mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24392'
+    title: Statistical Thinking in Python (Part 1)
+  relevant_topics:
+  - graphical exploratory data analysis
+  question_text: Why does graphical exploratory data analysis matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24392'
+    title: Statistical Thinking in Python (Part 1)
+  relevant_topics:
+  - graphical exploratory data analysis
+  question_text: Why does graphical exploratory data analysis?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24392'
+    title: Statistical Thinking in Python (Part 1)
+  relevant_topics:
+  - graphical exploratory data analysis
+  question_text: What is a simple example of graphical exploratory data analysis?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24392'
+    title: Statistical Thinking in Python (Part 1)
+  relevant_topics:
+  - quantitative exploratory data analysis
+  question_text: What is quantitative exploratory data analysis?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24392'
+    title: Statistical Thinking in Python (Part 1)
+  relevant_topics:
+  - quantitative exploratory data analysis
+  question_text: What does quantitative exploratory data analysis mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24392'
+    title: Statistical Thinking in Python (Part 1)
+  relevant_topics:
+  - quantitative exploratory data analysis
+  question_text: Why does quantitative exploratory data analysis matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24392'
+    title: Statistical Thinking in Python (Part 1)
+  relevant_topics:
+  - quantitative exploratory data analysis
+  question_text: Why does quantitative exploratory data analysis?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24392'
+    title: Statistical Thinking in Python (Part 1)
+  relevant_topics:
+  - quantitative exploratory data analysis
+  question_text: What is a simple example of quantitative exploratory data analysis?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24392'
+    title: Statistical Thinking in Python (Part 1)
+  relevant_topics:
+  - thinking probabilistically-- discrete variables
+  question_text: What is thinking probabilistically-- discrete variables?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24392'
+    title: Statistical Thinking in Python (Part 1)
+  relevant_topics:
+  - thinking probabilistically-- discrete variables
+  question_text: What does thinking probabilistically-- discrete variables mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24392'
+    title: Statistical Thinking in Python (Part 1)
+  relevant_topics:
+  - thinking probabilistically-- discrete variables
+  question_text: Why does thinking probabilistically-- discrete variables matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24392'
+    title: Statistical Thinking in Python (Part 1)
+  relevant_topics:
+  - thinking probabilistically-- discrete variables
+  question_text: Why does thinking probabilistically-- discrete variables?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24392'
+    title: Statistical Thinking in Python (Part 1)
+  relevant_topics:
+  - thinking probabilistically-- discrete variables
+  question_text: What is a simple example of thinking probabilistically-- discrete
+    variables?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24392'
+    title: Statistical Thinking in Python (Part 1)
+  relevant_topics:
+  - thinking probabilistically-- continuous variables
+  question_text: What is thinking probabilistically-- continuous variables?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24392'
+    title: Statistical Thinking in Python (Part 1)
+  relevant_topics:
+  - thinking probabilistically-- continuous variables
+  question_text: What does thinking probabilistically-- continuous variables mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24392'
+    title: Statistical Thinking in Python (Part 1)
+  relevant_topics:
+  - thinking probabilistically-- continuous variables
+  question_text: Why does thinking probabilistically-- continuous variables matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24392'
+    title: Statistical Thinking in Python (Part 1)
+  relevant_topics:
+  - thinking probabilistically-- continuous variables
+  question_text: Why does thinking probabilistically-- continuous variables?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24392'
+    title: Statistical Thinking in Python (Part 1)
+  relevant_topics:
+  - thinking probabilistically-- continuous variables
+  question_text: What is a simple example of thinking probabilistically-- continuous
+    variables?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24392'
+    title: Statistical Thinking in Python (Part 1)
+  relevant_topics:
+  - graphical exploratory data analysis
+  - quantitative exploratory data analysis
+  question_text: How is graphical exploratory data analysis different from quantitative
+    exploratory data analysis?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24392'
+    title: Statistical Thinking in Python (Part 1)
+  relevant_topics:
+  - graphical exploratory data analysis
+  - thinking probabilistically-- discrete variables
+  question_text: How is graphical exploratory data analysis different from thinking
+    probabilistically-- discrete variables?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24392'
+    title: Statistical Thinking in Python (Part 1)
+  relevant_topics:
+  - graphical exploratory data analysis
+  - thinking probabilistically-- continuous variables
+  question_text: How is graphical exploratory data analysis different from thinking
+    probabilistically-- continuous variables?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24392'
+    title: Statistical Thinking in Python (Part 1)
+  relevant_topics:
+  - quantitative exploratory data analysis
+  - thinking probabilistically-- discrete variables
+  question_text: How is quantitative exploratory data analysis different from thinking
+    probabilistically-- discrete variables?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24392'
+    title: Statistical Thinking in Python (Part 1)
+  relevant_topics:
+  - quantitative exploratory data analysis
+  - thinking probabilistically-- continuous variables
+  question_text: How is quantitative exploratory data analysis different from thinking
+    probabilistically-- continuous variables?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24392'
+    title: Statistical Thinking in Python (Part 1)
+  relevant_topics:
+  - thinking probabilistically-- discrete variables
+  - thinking probabilistically-- continuous variables
+  question_text: How is thinking probabilistically-- discrete variables different
+    from thinking probabilistically-- continuous variables?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 4
+  canonical_topic_count: 4
+  candidate_count: 26
+  accepted_count: 26
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 26

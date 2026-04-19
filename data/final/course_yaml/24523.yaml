@@ -1,0 +1,1715 @@
+course_id: '24523'
+title: Intermediate R for Finance
+normalized_course:
+  course_id: '24523'
+  title: Intermediate R for Finance
+  provider: DataCamp
+  summary: 'Learn about how dates work in R, and explore the world of if statements,
+
+    loops, and functions using financial examples.'
+  overview: 'Dates
+
+
+    Welcome! Before we go deeper into the world of R, it will be nice to have an
+
+    understanding of how dates and times are created. This chapter will teach
+
+    you enough to begin working with dates, but only scratches the surface of
+
+    what you can do with them.
+
+
+    If Statements and Operators
+
+
+    Imagine you own stock in a company. If the stock goes above a certain price,
+
+    you might want to sell. If the stock drops below a certain price, you might
+
+    want to buy it while it''s cheap! This kind of thinking can be implemented
+
+    using operators and if statements. In this chapter, you will learn all about
+
+    them, and create a program that tells you to buy or sell a stock.
+
+
+    Loops
+
+
+    Loops can be useful for doing the same operation to each element of your
+
+    data structure. In this chapter you will learn all about repeat, while, and
+
+    for loops!
+
+
+    Functions
+
+
+    If data structures like data frames and vectors are how you hold your data,
+
+    functions are how you tell R what to do with your data. In this chapter, you
+
+    will learn about using built-in functions, creating your own unique
+
+    functions, and you will finish off with a brief introduction to packages.
+
+
+    Apply
+
+
+    A popular alternative to loops in R are the apply functions. These are often
+
+    more readable than loops, and are incredibly useful for scaling the data
+
+    science workflow to perform a complicated calculation on any number of
+
+    observations. Learn about them here!'
+  chapters:
+  - chapter_index: 1
+    title: Dates
+    summary: 'Welcome! Before we go deeper into the world of R, it will be nice to
+
+      have an understanding of how dates and times are created. This
+
+      chapter will teach you enough to begin working with dates, but only
+
+      scratches the surface of what you can do with them.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 2
+    title: If Statements and Operators
+    summary: 'Imagine you own stock in a company. If the stock goes above a
+
+      certain price, you might want to sell. If the stock drops below a
+
+      certain price, you might want to buy it while it''s cheap! This kind
+
+      of thinking can be implemented using operators and if statements. In
+
+      this chapter, you will learn all about them, and create a program
+
+      that tells you to buy or sell a stock.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 3
+    title: Loops
+    summary: 'Loops can be useful for doing the same operation to each element of
+
+      your data structure. In this chapter you will learn all about
+
+      repeat, while, and for loops!'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 4
+    title: Functions
+    summary: 'If data structures like data frames and vectors are how you hold
+
+      your data, functions are how you tell R what to do with your data.
+
+      In this chapter, you will learn about using built-in functions,
+
+      creating your own unique functions, and you will finish off with a
+
+      brief introduction to packages.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 5
+    title: Apply
+    summary: 'A popular alternative to loops in R are the apply functions. These
+
+      are often more readable than loops, and are incredibly useful for
+
+      scaling the data science workflow to perform a complicated
+
+      calculation on any number of observations. Learn about them here!'
+    source: syllabus
+    confidence: 1.0
+  metadata:
+    level: Intermediate
+    duration_hours: 5 hours
+    subjects:
+    - R Programming
+    - Finance
+    - Financial Data Analysis
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: dates
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: dates'
+  evidence:
+  - source: syllabus
+    text: Dates
+  confidence: 0.45
+- topic_id: t002
+  label: if statements
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: if statements'
+  evidence:
+  - source: syllabus
+    text: If Statements and Operators
+  confidence: 0.55
+- topic_id: t003
+  label: operators
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: operators'
+  evidence:
+  - source: syllabus
+    text: If Statements and Operators
+  confidence: 0.55
+- topic_id: t004
+  label: loops
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: loops'
+  evidence:
+  - source: syllabus
+    text: Loops
+  confidence: 0.45
+- topic_id: t005
+  label: functions
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: functions'
+  evidence:
+  - source: syllabus
+    text: Functions
+  confidence: 0.45
+- topic_id: t006
+  label: apply
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: apply'
+  evidence:
+  - source: syllabus
+    text: Apply
+  confidence: 0.45
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: dates
+  aliases:
+  - dates
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: if statements
+  aliases:
+  - if statements
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: operators
+  aliases:
+  - operators
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: loops
+  aliases:
+  - loops
+  member_topic_ids:
+  - t004
+  topic_type: concept
+- canonical_topic_id: ct_005
+  label: functions
+  aliases:
+  - functions
+  member_topic_ids:
+  - t005
+  topic_type: concept
+- canonical_topic_id: ct_006
+  label: apply
+  aliases:
+  - apply
+  member_topic_ids:
+  - t006
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - dates
+  family: entry
+  pattern: What is {x}?
+  question_text: What is dates?
+- candidate_id: q0002
+  relevant_topics:
+  - dates
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does dates mean?
+- candidate_id: q0003
+  relevant_topics:
+  - dates
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does dates matter?
+- candidate_id: q0004
+  relevant_topics:
+  - dates
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use dates?
+- candidate_id: q0005
+  relevant_topics:
+  - dates
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of dates?
+- candidate_id: q0006
+  relevant_topics:
+  - if statements
+  family: entry
+  pattern: What is {x}?
+  question_text: What is if statements?
+- candidate_id: q0007
+  relevant_topics:
+  - if statements
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does if statements mean?
+- candidate_id: q0008
+  relevant_topics:
+  - if statements
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does if statements matter?
+- candidate_id: q0009
+  relevant_topics:
+  - if statements
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use if statements?
+- candidate_id: q0010
+  relevant_topics:
+  - if statements
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of if statements?
+- candidate_id: q0011
+  relevant_topics:
+  - operators
+  family: entry
+  pattern: What is {x}?
+  question_text: What is operators?
+- candidate_id: q0012
+  relevant_topics:
+  - operators
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does operators mean?
+- candidate_id: q0013
+  relevant_topics:
+  - operators
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does operators matter?
+- candidate_id: q0014
+  relevant_topics:
+  - operators
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use operators?
+- candidate_id: q0015
+  relevant_topics:
+  - operators
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of operators?
+- candidate_id: q0016
+  relevant_topics:
+  - loops
+  family: entry
+  pattern: What is {x}?
+  question_text: What is loops?
+- candidate_id: q0017
+  relevant_topics:
+  - loops
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does loops mean?
+- candidate_id: q0018
+  relevant_topics:
+  - loops
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does loops matter?
+- candidate_id: q0019
+  relevant_topics:
+  - loops
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use loops?
+- candidate_id: q0020
+  relevant_topics:
+  - loops
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of loops?
+- candidate_id: q0021
+  relevant_topics:
+  - functions
+  family: entry
+  pattern: What is {x}?
+  question_text: What is functions?
+- candidate_id: q0022
+  relevant_topics:
+  - functions
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does functions mean?
+- candidate_id: q0023
+  relevant_topics:
+  - functions
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does functions matter?
+- candidate_id: q0024
+  relevant_topics:
+  - functions
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use functions?
+- candidate_id: q0025
+  relevant_topics:
+  - functions
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of functions?
+- candidate_id: q0026
+  relevant_topics:
+  - apply
+  family: entry
+  pattern: What is {x}?
+  question_text: What is apply?
+- candidate_id: q0027
+  relevant_topics:
+  - apply
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does apply mean?
+- candidate_id: q0028
+  relevant_topics:
+  - apply
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does apply matter?
+- candidate_id: q0029
+  relevant_topics:
+  - apply
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use apply?
+- candidate_id: q0030
+  relevant_topics:
+  - apply
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of apply?
+- candidate_id: q0031
+  relevant_topics:
+  - dates
+  - if statements
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is dates different from if statements?
+- candidate_id: q0032
+  relevant_topics:
+  - dates
+  - operators
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is dates different from operators?
+- candidate_id: q0033
+  relevant_topics:
+  - dates
+  - loops
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is dates different from loops?
+- candidate_id: q0034
+  relevant_topics:
+  - dates
+  - functions
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is dates different from functions?
+- candidate_id: q0035
+  relevant_topics:
+  - dates
+  - apply
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is dates different from apply?
+- candidate_id: q0036
+  relevant_topics:
+  - if statements
+  - operators
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is if statements different from operators?
+- candidate_id: q0037
+  relevant_topics:
+  - if statements
+  - loops
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is if statements different from loops?
+- candidate_id: q0038
+  relevant_topics:
+  - if statements
+  - functions
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is if statements different from functions?
+- candidate_id: q0039
+  relevant_topics:
+  - if statements
+  - apply
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is if statements different from apply?
+- candidate_id: q0040
+  relevant_topics:
+  - operators
+  - loops
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is operators different from loops?
+- candidate_id: q0041
+  relevant_topics:
+  - operators
+  - functions
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is operators different from functions?
+- candidate_id: q0042
+  relevant_topics:
+  - operators
+  - apply
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is operators different from apply?
+- candidate_id: q0043
+  relevant_topics:
+  - loops
+  - functions
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is loops different from functions?
+- candidate_id: q0044
+  relevant_topics:
+  - loops
+  - apply
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is loops different from apply?
+- candidate_id: q0045
+  relevant_topics:
+  - functions
+  - apply
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is functions different from apply?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is dates?
+  final_text: What is dates?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does dates mean?
+  final_text: What does dates mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does dates matter?
+  final_text: Why does dates matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use dates?
+  final_text: Why does dates?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of dates?
+  final_text: What is a simple example of dates?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is if statements?
+  final_text: What is if statements?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does if statements mean?
+  final_text: What does if statements mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does if statements matter?
+  final_text: Why does if statements matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use if statements?
+  final_text: Why does if statements?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of if statements?
+  final_text: What is a simple example of if statements?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is operators?
+  final_text: What is operators?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does operators mean?
+  final_text: What does operators mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does operators matter?
+  final_text: Why does operators matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use operators?
+  final_text: Why does operators?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of operators?
+  final_text: What is a simple example of operators?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is loops?
+  final_text: What is loops?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does loops mean?
+  final_text: What does loops mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does loops matter?
+  final_text: Why does loops matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use loops?
+  final_text: Why does loops?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of loops?
+  final_text: What is a simple example of loops?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: What is functions?
+  final_text: What is functions?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: What does functions mean?
+  final_text: What does functions mean?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: Why does functions matter?
+  final_text: Why does functions matter?
+  reject_reason: null
+- candidate_id: q0024
+  status: repaired
+  original_text: Why do we use functions?
+  final_text: Why does functions?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: What is a simple example of functions?
+  final_text: What is a simple example of functions?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: What is apply?
+  final_text: What is apply?
+  reject_reason: null
+- candidate_id: q0027
+  status: accepted
+  original_text: What does apply mean?
+  final_text: What does apply mean?
+  reject_reason: null
+- candidate_id: q0028
+  status: accepted
+  original_text: Why does apply matter?
+  final_text: Why does apply matter?
+  reject_reason: null
+- candidate_id: q0029
+  status: repaired
+  original_text: Why do we use apply?
+  final_text: Why does apply?
+  reject_reason: null
+- candidate_id: q0030
+  status: accepted
+  original_text: What is a simple example of apply?
+  final_text: What is a simple example of apply?
+  reject_reason: null
+- candidate_id: q0031
+  status: accepted
+  original_text: How is dates different from if statements?
+  final_text: How is dates different from if statements?
+  reject_reason: null
+- candidate_id: q0032
+  status: accepted
+  original_text: How is dates different from operators?
+  final_text: How is dates different from operators?
+  reject_reason: null
+- candidate_id: q0033
+  status: accepted
+  original_text: How is dates different from loops?
+  final_text: How is dates different from loops?
+  reject_reason: null
+- candidate_id: q0034
+  status: accepted
+  original_text: How is dates different from functions?
+  final_text: How is dates different from functions?
+  reject_reason: null
+- candidate_id: q0035
+  status: accepted
+  original_text: How is dates different from apply?
+  final_text: How is dates different from apply?
+  reject_reason: null
+- candidate_id: q0036
+  status: accepted
+  original_text: How is if statements different from operators?
+  final_text: How is if statements different from operators?
+  reject_reason: null
+- candidate_id: q0037
+  status: accepted
+  original_text: How is if statements different from loops?
+  final_text: How is if statements different from loops?
+  reject_reason: null
+- candidate_id: q0038
+  status: accepted
+  original_text: How is if statements different from functions?
+  final_text: How is if statements different from functions?
+  reject_reason: null
+- candidate_id: q0039
+  status: accepted
+  original_text: How is if statements different from apply?
+  final_text: How is if statements different from apply?
+  reject_reason: null
+- candidate_id: q0040
+  status: accepted
+  original_text: How is operators different from loops?
+  final_text: How is operators different from loops?
+  reject_reason: null
+- candidate_id: q0041
+  status: accepted
+  original_text: How is operators different from functions?
+  final_text: How is operators different from functions?
+  reject_reason: null
+- candidate_id: q0042
+  status: accepted
+  original_text: How is operators different from apply?
+  final_text: How is operators different from apply?
+  reject_reason: null
+- candidate_id: q0043
+  status: accepted
+  original_text: How is loops different from functions?
+  final_text: How is loops different from functions?
+  reject_reason: null
+- candidate_id: q0044
+  status: accepted
+  original_text: How is loops different from apply?
+  final_text: How is loops different from apply?
+  reject_reason: null
+- candidate_id: q0045
+  status: accepted
+  original_text: How is functions different from apply?
+  final_text: How is functions different from apply?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is dates?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does dates mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does dates matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does dates?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of dates?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is if statements?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does if statements mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does if statements matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does if statements?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of if statements?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is operators?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does operators mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does operators matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does operators?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of operators?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is loops?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does loops mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does loops matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does loops?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of loops?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: What is functions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: What does functions mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: Why does functions matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: Why does functions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: What is a simple example of functions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: What is apply?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0027
+  question_text: What does apply mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0028
+  question_text: Why does apply matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0029
+  question_text: Why does apply?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0030
+  question_text: What is a simple example of apply?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0031
+  question_text: How is dates different from if statements?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0032
+  question_text: How is dates different from operators?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0033
+  question_text: How is dates different from loops?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0034
+  question_text: How is dates different from functions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0035
+  question_text: How is dates different from apply?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0036
+  question_text: How is if statements different from operators?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0037
+  question_text: How is if statements different from loops?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0038
+  question_text: How is if statements different from functions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0039
+  question_text: How is if statements different from apply?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0040
+  question_text: How is operators different from loops?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0041
+  question_text: How is operators different from functions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0042
+  question_text: How is operators different from apply?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0043
+  question_text: How is loops different from functions?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0044
+  question_text: How is loops different from apply?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0045
+  question_text: How is functions different from apply?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - dates
+  question_text: What is dates?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - dates
+  question_text: What does dates mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - dates
+  question_text: Why does dates matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - dates
+  question_text: Why does dates?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - dates
+  question_text: What is a simple example of dates?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - if statements
+  question_text: What is if statements?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - if statements
+  question_text: What does if statements mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - if statements
+  question_text: Why does if statements matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - if statements
+  question_text: Why does if statements?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - if statements
+  question_text: What is a simple example of if statements?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - operators
+  question_text: What is operators?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - operators
+  question_text: What does operators mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - operators
+  question_text: Why does operators matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - operators
+  question_text: Why does operators?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - operators
+  question_text: What is a simple example of operators?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - loops
+  question_text: What is loops?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - loops
+  question_text: What does loops mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - loops
+  question_text: Why does loops matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - loops
+  question_text: Why does loops?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - loops
+  question_text: What is a simple example of loops?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - functions
+  question_text: What is functions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - functions
+  question_text: What does functions mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - functions
+  question_text: Why does functions matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - functions
+  question_text: Why does functions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - functions
+  question_text: What is a simple example of functions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - apply
+  question_text: What is apply?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000027
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - apply
+  question_text: What does apply mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000028
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - apply
+  question_text: Why does apply matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000029
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - apply
+  question_text: Why does apply?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000030
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - apply
+  question_text: What is a simple example of apply?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000031
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - dates
+  - if statements
+  question_text: How is dates different from if statements?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000032
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - dates
+  - operators
+  question_text: How is dates different from operators?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000033
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - dates
+  - loops
+  question_text: How is dates different from loops?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000034
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - dates
+  - functions
+  question_text: How is dates different from functions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000035
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - dates
+  - apply
+  question_text: How is dates different from apply?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000036
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - if statements
+  - operators
+  question_text: How is if statements different from operators?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000037
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - if statements
+  - loops
+  question_text: How is if statements different from loops?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000038
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - if statements
+  - functions
+  question_text: How is if statements different from functions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000039
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - if statements
+  - apply
+  question_text: How is if statements different from apply?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000040
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - operators
+  - loops
+  question_text: How is operators different from loops?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000041
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - operators
+  - functions
+  question_text: How is operators different from functions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000042
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - operators
+  - apply
+  question_text: How is operators different from apply?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000043
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - loops
+  - functions
+  question_text: How is loops different from functions?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000044
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - loops
+  - apply
+  question_text: How is loops different from apply?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000045
+  course:
+    course_id: '24523'
+    title: Intermediate R for Finance
+  relevant_topics:
+  - functions
+  - apply
+  question_text: How is functions different from apply?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 6
+  canonical_topic_count: 6
+  candidate_count: 45
+  accepted_count: 45
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 45

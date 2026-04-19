@@ -1,0 +1,1383 @@
+course_id: '24525'
+title: Data Processing in Shell
+normalized_course:
+  course_id: '24525'
+  title: Data Processing in Shell
+  provider: DataCamp
+  summary: 'Learn powerful command-line skills to download, process,  and transform
+
+    data, including machine learning pipeline.'
+  overview: 'Downloading Data on the Command Line
+
+
+    In this chapter, we learn how to download data files from web servers via
+
+    the command line. In the process, we also learn about documentation manuals,
+
+    option flags, and multi-file processing.
+
+
+    Data Cleaning and Munging on the Command Line
+
+
+    We continue our data journey from data downloading to data processing. In
+
+    this chapter, we utilize the command line library csvkit to convert,
+
+    preview, filter and manipulate files to prepare our data for further
+
+    analyses.
+
+
+    Database Operations on the Command Line
+
+
+    In this chapter, we dig deeper into all that csvkit library has to offer. In
+
+    particular, we focus on database operations we can do on the command line,
+
+    including table creation, data pull, and various ETL transformation.
+
+
+    Data Pipeline on the Command Line
+
+
+    In the last chapter, we bridge the connection between command line and other
+
+    data science languages and learn how they can work together. Using Python as
+
+    a case study, we learn to execute Python on the command line, to install
+
+    dependencies using the package manager pip, and to build an entire model
+
+    pipeline using the command line.'
+  chapters:
+  - chapter_index: 1
+    title: Downloading Data on the Command Line
+    summary: 'In this chapter, we learn how to download data files from web
+
+      servers via the command line. In the process, we also learn about
+
+      documentation manuals, option flags, and multi-file processing.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 2
+    title: Data Cleaning and Munging on the Command Line
+    summary: 'We continue our data journey from data downloading to data
+
+      processing. In this chapter, we utilize the command line library
+
+      csvkit to convert, preview, filter and manipulate files to prepare
+
+      our data for further analyses.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 3
+    title: Database Operations on the Command Line
+    summary: 'In this chapter, we dig deeper into all that csvkit library has to
+
+      offer. In particular, we focus on database operations we can do on
+
+      the command line, including table creation, data pull, and various
+
+      ETL transformation.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 4
+    title: Data Pipeline on the Command Line
+    summary: 'In the last chapter, we bridge the connection between command line
+
+      and other data science languages and learn how they can work
+
+      together. Using Python as a case study, we learn to execute Python
+
+      on the command line, to install dependencies using the package
+
+      manager pip, and to build an entire model pipeline using the command
+
+      line.'
+    source: syllabus
+    confidence: 1.0
+  metadata:
+    level: Intermediate
+    duration_hours: 4 hours
+    subjects:
+    - Bash
+    - Python
+    - Data Cleaning
+    - Data Processing
+    - Data Pipelines
+    - Machine Learning Pipelines
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: downloading data on the command line
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: downloading data on the command
+    line'
+  evidence:
+  - source: syllabus
+    text: Downloading Data on the Command Line
+  confidence: 0.45
+- topic_id: t002
+  label: data cleaning
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: data cleaning'
+  evidence:
+  - source: syllabus
+    text: Data Cleaning and Munging on the Command Line
+  confidence: 0.55
+- topic_id: t003
+  label: munging on the command line
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: munging on the command line'
+  evidence:
+  - source: syllabus
+    text: Data Cleaning and Munging on the Command Line
+  confidence: 0.55
+- topic_id: t004
+  label: database operations on the command line
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: database operations on the command
+    line'
+  evidence:
+  - source: syllabus
+    text: Database Operations on the Command Line
+  confidence: 0.45
+- topic_id: t005
+  label: data pipeline on the command line
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: data pipeline on the command
+    line'
+  evidence:
+  - source: syllabus
+    text: Data Pipeline on the Command Line
+  confidence: 0.45
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: downloading data on command line
+  aliases:
+  - downloading data on the command line
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: data cleaning
+  aliases:
+  - data cleaning
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: munging on command line
+  aliases:
+  - munging on the command line
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: database operations on command line
+  aliases:
+  - database operations on the command line
+  member_topic_ids:
+  - t004
+  topic_type: concept
+- canonical_topic_id: ct_005
+  label: data pipeline on command line
+  aliases:
+  - data pipeline on the command line
+  member_topic_ids:
+  - t005
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - downloading data on command line
+  family: entry
+  pattern: What is {x}?
+  question_text: What is downloading data on command line?
+- candidate_id: q0002
+  relevant_topics:
+  - downloading data on command line
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does downloading data on command line mean?
+- candidate_id: q0003
+  relevant_topics:
+  - downloading data on command line
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does downloading data on command line matter?
+- candidate_id: q0004
+  relevant_topics:
+  - downloading data on command line
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use downloading data on command line?
+- candidate_id: q0005
+  relevant_topics:
+  - downloading data on command line
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of downloading data on command line?
+- candidate_id: q0006
+  relevant_topics:
+  - data cleaning
+  family: entry
+  pattern: What is {x}?
+  question_text: What is data cleaning?
+- candidate_id: q0007
+  relevant_topics:
+  - data cleaning
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does data cleaning mean?
+- candidate_id: q0008
+  relevant_topics:
+  - data cleaning
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does data cleaning matter?
+- candidate_id: q0009
+  relevant_topics:
+  - data cleaning
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use data cleaning?
+- candidate_id: q0010
+  relevant_topics:
+  - data cleaning
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of data cleaning?
+- candidate_id: q0011
+  relevant_topics:
+  - munging on command line
+  family: entry
+  pattern: What is {x}?
+  question_text: What is munging on command line?
+- candidate_id: q0012
+  relevant_topics:
+  - munging on command line
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does munging on command line mean?
+- candidate_id: q0013
+  relevant_topics:
+  - munging on command line
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does munging on command line matter?
+- candidate_id: q0014
+  relevant_topics:
+  - munging on command line
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use munging on command line?
+- candidate_id: q0015
+  relevant_topics:
+  - munging on command line
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of munging on command line?
+- candidate_id: q0016
+  relevant_topics:
+  - database operations on command line
+  family: entry
+  pattern: What is {x}?
+  question_text: What is database operations on command line?
+- candidate_id: q0017
+  relevant_topics:
+  - database operations on command line
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does database operations on command line mean?
+- candidate_id: q0018
+  relevant_topics:
+  - database operations on command line
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does database operations on command line matter?
+- candidate_id: q0019
+  relevant_topics:
+  - database operations on command line
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use database operations on command line?
+- candidate_id: q0020
+  relevant_topics:
+  - database operations on command line
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of database operations on command line?
+- candidate_id: q0021
+  relevant_topics:
+  - data pipeline on command line
+  family: entry
+  pattern: What is {x}?
+  question_text: What is data pipeline on command line?
+- candidate_id: q0022
+  relevant_topics:
+  - data pipeline on command line
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does data pipeline on command line mean?
+- candidate_id: q0023
+  relevant_topics:
+  - data pipeline on command line
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does data pipeline on command line matter?
+- candidate_id: q0024
+  relevant_topics:
+  - data pipeline on command line
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use data pipeline on command line?
+- candidate_id: q0025
+  relevant_topics:
+  - data pipeline on command line
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of data pipeline on command line?
+- candidate_id: q0026
+  relevant_topics:
+  - downloading data on command line
+  - data cleaning
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is downloading data on command line different from data cleaning?
+- candidate_id: q0027
+  relevant_topics:
+  - downloading data on command line
+  - munging on command line
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is downloading data on command line different from munging on
+    command line?
+- candidate_id: q0028
+  relevant_topics:
+  - downloading data on command line
+  - database operations on command line
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is downloading data on command line different from database operations
+    on command line?
+- candidate_id: q0029
+  relevant_topics:
+  - downloading data on command line
+  - data pipeline on command line
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is downloading data on command line different from data pipeline
+    on command line?
+- candidate_id: q0030
+  relevant_topics:
+  - data cleaning
+  - munging on command line
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is data cleaning different from munging on command line?
+- candidate_id: q0031
+  relevant_topics:
+  - data cleaning
+  - database operations on command line
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is data cleaning different from database operations on command
+    line?
+- candidate_id: q0032
+  relevant_topics:
+  - data cleaning
+  - data pipeline on command line
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is data cleaning different from data pipeline on command line?
+- candidate_id: q0033
+  relevant_topics:
+  - munging on command line
+  - database operations on command line
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is munging on command line different from database operations
+    on command line?
+- candidate_id: q0034
+  relevant_topics:
+  - munging on command line
+  - data pipeline on command line
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is munging on command line different from data pipeline on command
+    line?
+- candidate_id: q0035
+  relevant_topics:
+  - database operations on command line
+  - data pipeline on command line
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is database operations on command line different from data pipeline
+    on command line?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is downloading data on command line?
+  final_text: What is downloading data on command line?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does downloading data on command line mean?
+  final_text: What does downloading data on command line mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does downloading data on command line matter?
+  final_text: Why does downloading data on command line matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use downloading data on command line?
+  final_text: Why does downloading data on command line?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of downloading data on command line?
+  final_text: What is a simple example of downloading data on command line?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is data cleaning?
+  final_text: What is data cleaning?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does data cleaning mean?
+  final_text: What does data cleaning mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does data cleaning matter?
+  final_text: Why does data cleaning matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use data cleaning?
+  final_text: Why does data cleaning?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of data cleaning?
+  final_text: What is a simple example of data cleaning?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is munging on command line?
+  final_text: What is munging on command line?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does munging on command line mean?
+  final_text: What does munging on command line mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does munging on command line matter?
+  final_text: Why does munging on command line matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use munging on command line?
+  final_text: Why does munging on command line?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of munging on command line?
+  final_text: What is a simple example of munging on command line?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is database operations on command line?
+  final_text: What is database operations on command line?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does database operations on command line mean?
+  final_text: What does database operations on command line mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does database operations on command line matter?
+  final_text: Why does database operations on command line matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use database operations on command line?
+  final_text: Why does database operations on command line?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of database operations on command line?
+  final_text: What is a simple example of database operations on command line?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: What is data pipeline on command line?
+  final_text: What is data pipeline on command line?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: What does data pipeline on command line mean?
+  final_text: What does data pipeline on command line mean?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: Why does data pipeline on command line matter?
+  final_text: Why does data pipeline on command line matter?
+  reject_reason: null
+- candidate_id: q0024
+  status: repaired
+  original_text: Why do we use data pipeline on command line?
+  final_text: Why does data pipeline on command line?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: What is a simple example of data pipeline on command line?
+  final_text: What is a simple example of data pipeline on command line?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: How is downloading data on command line different from data cleaning?
+  final_text: How is downloading data on command line different from data cleaning?
+  reject_reason: null
+- candidate_id: q0027
+  status: accepted
+  original_text: How is downloading data on command line different from munging on
+    command line?
+  final_text: How is downloading data on command line different from munging on command
+    line?
+  reject_reason: null
+- candidate_id: q0028
+  status: accepted
+  original_text: How is downloading data on command line different from database operations
+    on command line?
+  final_text: How is downloading data on command line different from database operations
+    on command line?
+  reject_reason: null
+- candidate_id: q0029
+  status: accepted
+  original_text: How is downloading data on command line different from data pipeline
+    on command line?
+  final_text: How is downloading data on command line different from data pipeline
+    on command line?
+  reject_reason: null
+- candidate_id: q0030
+  status: accepted
+  original_text: How is data cleaning different from munging on command line?
+  final_text: How is data cleaning different from munging on command line?
+  reject_reason: null
+- candidate_id: q0031
+  status: accepted
+  original_text: How is data cleaning different from database operations on command
+    line?
+  final_text: How is data cleaning different from database operations on command line?
+  reject_reason: null
+- candidate_id: q0032
+  status: accepted
+  original_text: How is data cleaning different from data pipeline on command line?
+  final_text: How is data cleaning different from data pipeline on command line?
+  reject_reason: null
+- candidate_id: q0033
+  status: accepted
+  original_text: How is munging on command line different from database operations
+    on command line?
+  final_text: How is munging on command line different from database operations on
+    command line?
+  reject_reason: null
+- candidate_id: q0034
+  status: accepted
+  original_text: How is munging on command line different from data pipeline on command
+    line?
+  final_text: How is munging on command line different from data pipeline on command
+    line?
+  reject_reason: null
+- candidate_id: q0035
+  status: accepted
+  original_text: How is database operations on command line different from data pipeline
+    on command line?
+  final_text: How is database operations on command line different from data pipeline
+    on command line?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is downloading data on command line?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does downloading data on command line mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does downloading data on command line matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does downloading data on command line?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of downloading data on command line?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is data cleaning?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does data cleaning mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does data cleaning matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does data cleaning?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of data cleaning?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is munging on command line?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does munging on command line mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does munging on command line matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does munging on command line?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of munging on command line?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is database operations on command line?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does database operations on command line mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does database operations on command line matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does database operations on command line?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of database operations on command line?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: What is data pipeline on command line?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: What does data pipeline on command line mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: Why does data pipeline on command line matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: Why does data pipeline on command line?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: What is a simple example of data pipeline on command line?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: How is downloading data on command line different from data cleaning?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0027
+  question_text: How is downloading data on command line different from munging on
+    command line?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0028
+  question_text: How is downloading data on command line different from database operations
+    on command line?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0029
+  question_text: How is downloading data on command line different from data pipeline
+    on command line?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0030
+  question_text: How is data cleaning different from munging on command line?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0031
+  question_text: How is data cleaning different from database operations on command
+    line?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0032
+  question_text: How is data cleaning different from data pipeline on command line?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0033
+  question_text: How is munging on command line different from database operations
+    on command line?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0034
+  question_text: How is munging on command line different from data pipeline on command
+    line?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0035
+  question_text: How is database operations on command line different from data pipeline
+    on command line?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24525'
+    title: Data Processing in Shell
+  relevant_topics:
+  - downloading data on command line
+  question_text: What is downloading data on command line?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24525'
+    title: Data Processing in Shell
+  relevant_topics:
+  - downloading data on command line
+  question_text: What does downloading data on command line mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24525'
+    title: Data Processing in Shell
+  relevant_topics:
+  - downloading data on command line
+  question_text: Why does downloading data on command line matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24525'
+    title: Data Processing in Shell
+  relevant_topics:
+  - downloading data on command line
+  question_text: Why does downloading data on command line?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24525'
+    title: Data Processing in Shell
+  relevant_topics:
+  - downloading data on command line
+  question_text: What is a simple example of downloading data on command line?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24525'
+    title: Data Processing in Shell
+  relevant_topics:
+  - data cleaning
+  question_text: What is data cleaning?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24525'
+    title: Data Processing in Shell
+  relevant_topics:
+  - data cleaning
+  question_text: What does data cleaning mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24525'
+    title: Data Processing in Shell
+  relevant_topics:
+  - data cleaning
+  question_text: Why does data cleaning matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24525'
+    title: Data Processing in Shell
+  relevant_topics:
+  - data cleaning
+  question_text: Why does data cleaning?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24525'
+    title: Data Processing in Shell
+  relevant_topics:
+  - data cleaning
+  question_text: What is a simple example of data cleaning?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24525'
+    title: Data Processing in Shell
+  relevant_topics:
+  - munging on command line
+  question_text: What is munging on command line?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24525'
+    title: Data Processing in Shell
+  relevant_topics:
+  - munging on command line
+  question_text: What does munging on command line mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24525'
+    title: Data Processing in Shell
+  relevant_topics:
+  - munging on command line
+  question_text: Why does munging on command line matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24525'
+    title: Data Processing in Shell
+  relevant_topics:
+  - munging on command line
+  question_text: Why does munging on command line?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24525'
+    title: Data Processing in Shell
+  relevant_topics:
+  - munging on command line
+  question_text: What is a simple example of munging on command line?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24525'
+    title: Data Processing in Shell
+  relevant_topics:
+  - database operations on command line
+  question_text: What is database operations on command line?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24525'
+    title: Data Processing in Shell
+  relevant_topics:
+  - database operations on command line
+  question_text: What does database operations on command line mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24525'
+    title: Data Processing in Shell
+  relevant_topics:
+  - database operations on command line
+  question_text: Why does database operations on command line matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24525'
+    title: Data Processing in Shell
+  relevant_topics:
+  - database operations on command line
+  question_text: Why does database operations on command line?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24525'
+    title: Data Processing in Shell
+  relevant_topics:
+  - database operations on command line
+  question_text: What is a simple example of database operations on command line?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24525'
+    title: Data Processing in Shell
+  relevant_topics:
+  - data pipeline on command line
+  question_text: What is data pipeline on command line?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24525'
+    title: Data Processing in Shell
+  relevant_topics:
+  - data pipeline on command line
+  question_text: What does data pipeline on command line mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24525'
+    title: Data Processing in Shell
+  relevant_topics:
+  - data pipeline on command line
+  question_text: Why does data pipeline on command line matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24525'
+    title: Data Processing in Shell
+  relevant_topics:
+  - data pipeline on command line
+  question_text: Why does data pipeline on command line?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24525'
+    title: Data Processing in Shell
+  relevant_topics:
+  - data pipeline on command line
+  question_text: What is a simple example of data pipeline on command line?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24525'
+    title: Data Processing in Shell
+  relevant_topics:
+  - downloading data on command line
+  - data cleaning
+  question_text: How is downloading data on command line different from data cleaning?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000027
+  course:
+    course_id: '24525'
+    title: Data Processing in Shell
+  relevant_topics:
+  - downloading data on command line
+  - munging on command line
+  question_text: How is downloading data on command line different from munging on
+    command line?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000028
+  course:
+    course_id: '24525'
+    title: Data Processing in Shell
+  relevant_topics:
+  - downloading data on command line
+  - database operations on command line
+  question_text: How is downloading data on command line different from database operations
+    on command line?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000029
+  course:
+    course_id: '24525'
+    title: Data Processing in Shell
+  relevant_topics:
+  - downloading data on command line
+  - data pipeline on command line
+  question_text: How is downloading data on command line different from data pipeline
+    on command line?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000030
+  course:
+    course_id: '24525'
+    title: Data Processing in Shell
+  relevant_topics:
+  - data cleaning
+  - munging on command line
+  question_text: How is data cleaning different from munging on command line?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000031
+  course:
+    course_id: '24525'
+    title: Data Processing in Shell
+  relevant_topics:
+  - data cleaning
+  - database operations on command line
+  question_text: How is data cleaning different from database operations on command
+    line?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000032
+  course:
+    course_id: '24525'
+    title: Data Processing in Shell
+  relevant_topics:
+  - data cleaning
+  - data pipeline on command line
+  question_text: How is data cleaning different from data pipeline on command line?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000033
+  course:
+    course_id: '24525'
+    title: Data Processing in Shell
+  relevant_topics:
+  - munging on command line
+  - database operations on command line
+  question_text: How is munging on command line different from database operations
+    on command line?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000034
+  course:
+    course_id: '24525'
+    title: Data Processing in Shell
+  relevant_topics:
+  - munging on command line
+  - data pipeline on command line
+  question_text: How is munging on command line different from data pipeline on command
+    line?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000035
+  course:
+    course_id: '24525'
+    title: Data Processing in Shell
+  relevant_topics:
+  - database operations on command line
+  - data pipeline on command line
+  question_text: How is database operations on command line different from data pipeline
+    on command line?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 5
+  canonical_topic_count: 5
+  candidate_count: 35
+  accepted_count: 35
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 35

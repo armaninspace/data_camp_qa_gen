@@ -1,0 +1,3883 @@
+course_id: '24639'
+title: Use Tidytext to Perform Sentiment Analysis
+normalized_course:
+  course_id: '24639'
+  title: Use Tidytext to Perform Sentiment Analysis
+  provider: DataCamp
+  summary: 'Learn sentiment analysis by identifying positive and negative language,
+
+    specific emotional intent and making compelling visualizations.'
+  overview: 'Learn sentiment analysis by identifying positive and negative language,
+
+    specific emotional intent and making compelling visualizations.
+
+
+    Expand Your Text Mining Skill Set
+
+
+    Add sentiment analysis to your text mining toolkit! Sentiment analysis is
+
+    used by text miners in marketing, politics, customer service, and elsewhere.
+
+    In this course you will learn to identify positive and negative language,
+
+    specific emotional intent, and make compelling visualizations. You’ll start
+
+    with an introduction to polarity scoring using qdap’s sentiment function,
+
+    and will build your understanding of Zipf’s law and subjectivity lexicons
+
+    along the way.
+
+
+    Use Tidytext to Perform Sentiment Analysis
+
+
+    Sentiment, and the language used to express it, is complicated and nuanced.
+
+    It’s based on linguistics, sociology, and psychology, as well as culture and
+
+    slang. The second chapter in this course helps you navigate those
+
+    difficulties using Plutchik’s wheel of emotion, and organizes your work
+
+    using Tidytext from the Tidyverse.
+
+
+    Bolster Your Insights with Sentiment Analysis Visualizations
+
+
+    Turning your sentiment analysis into clear data visualizations will help you
+
+    create a clearer narrative and share your insights with the rest of the
+
+    business. The third chapter of this course shows you how to visualize your
+
+    sentiment analysis, and takes you beyond word clouds to create simple and
+
+    impactful graphics that tell the full story of your data.
+
+
+    You’ll finish off the course by putting all of your knowledge to the test
+
+    with a case study. Using Airbnb reviews, you’ll explore what people really
+
+    look for in a good rental.'
+  chapters:
+  - chapter_index: 1
+    title: Learn sentiment analysis by identifying positive and negative language,
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 2
+    title: Expand Your Text Mining Skill Set
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 3
+    title: Add sentiment analysis to your text mining toolkit! Sentiment analysis
+      is
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 4
+    title: In this course you will learn to identify positive and negative language,
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 5
+    title: specific emotional intent, and make compelling visualizations. You’ll start
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 6
+    title: with an introduction to polarity scoring using qdap’s sentiment function,
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 7
+    title: and will build your understanding of Zipf’s law and subjectivity lexicons
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  - chapter_index: 8
+    title: Use Tidytext to Perform Sentiment Analysis
+    summary: null
+    source: overview_inferred
+    confidence: 0.4
+  metadata:
+    level: Intermediate
+    duration_hours: 4 hours
+    subjects:
+    - R Programming
+    - Data Visualization
+    - Sentiment Analysis
+    - Text Mining
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: learn sentiment analysis by identifying positive
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: learn sentiment analysis by identifying
+    positive'
+  evidence:
+  - source: overview_inferred
+    text: Learn sentiment analysis by identifying positive and negative language,
+  confidence: 0.55
+- topic_id: t002
+  label: negative language
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: negative language'
+  evidence:
+  - source: overview_inferred
+    text: Learn sentiment analysis by identifying positive and negative language,
+  confidence: 0.55
+- topic_id: t003
+  label: expand your text mining skill set
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: expand your text mining skill
+    set'
+  evidence:
+  - source: overview_inferred
+    text: Expand Your Text Mining Skill Set
+  confidence: 0.45
+- topic_id: t004
+  label: add sentiment analysis to your text mining toolkit! sentiment analysis is
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: add sentiment analysis to your
+    text mining toolkit! sentiment analysis is'
+  evidence:
+  - source: overview_inferred
+    text: Add sentiment analysis to your text mining toolkit! Sentiment analysis is
+  confidence: 0.45
+- topic_id: t005
+  label: in this course you will learn to identify positive
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: in this course you will learn
+    to identify positive'
+  evidence:
+  - source: overview_inferred
+    text: In this course you will learn to identify positive and negative language,
+  confidence: 0.55
+- topic_id: t006
+  label: specific emotional intent
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: specific emotional intent'
+  evidence:
+  - source: overview_inferred
+    text: specific emotional intent, and make compelling visualizations. You’ll start
+  confidence: 0.55
+- topic_id: t007
+  label: make compelling visualizations. you’ll start
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: make compelling visualizations.
+    you’ll start'
+  evidence:
+  - source: overview_inferred
+    text: specific emotional intent, and make compelling visualizations. You’ll start
+  confidence: 0.55
+- topic_id: t008
+  label: with an introduction to polarity scoring using qdap’s sentiment function,
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: with an introduction to polarity
+    scoring using qdap’s sentiment function,'
+  evidence:
+  - source: overview_inferred
+    text: with an introduction to polarity scoring using qdap’s sentiment function,
+  confidence: 0.45
+- topic_id: t009
+  label: will build your understanding of zipf’s law
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: will build your understanding
+    of zipf’s law'
+  evidence:
+  - source: overview_inferred
+    text: and will build your understanding of Zipf’s law and subjectivity lexicons
+  confidence: 0.55
+- topic_id: t010
+  label: subjectivity lexicons
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: subjectivity lexicons'
+  evidence:
+  - source: overview_inferred
+    text: and will build your understanding of Zipf’s law and subjectivity lexicons
+  confidence: 0.55
+- topic_id: t011
+  label: use tidytext to perform sentiment analysis
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: use tidytext to perform sentiment
+    analysis'
+  evidence:
+  - source: overview_inferred
+    text: Use Tidytext to Perform Sentiment Analysis
+  confidence: 0.45
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: learn sentiment analysis by identifying positive
+  aliases:
+  - learn sentiment analysis by identifying positive
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: negative language
+  aliases:
+  - negative language
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: expand your text mining skill set
+  aliases:
+  - expand your text mining skill set
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: add sentiment analysis to your text mining toolkit! sentiment analysis is
+  aliases:
+  - add sentiment analysis to your text mining toolkit! sentiment analysis is
+  member_topic_ids:
+  - t004
+  topic_type: concept
+- canonical_topic_id: ct_005
+  label: in this course you will learn to identify positive
+  aliases:
+  - in this course you will learn to identify positive
+  member_topic_ids:
+  - t005
+  topic_type: concept
+- canonical_topic_id: ct_006
+  label: specific emotional intent
+  aliases:
+  - specific emotional intent
+  member_topic_ids:
+  - t006
+  topic_type: concept
+- canonical_topic_id: ct_007
+  label: make compelling visualizations. you’ll start
+  aliases:
+  - make compelling visualizations. you’ll start
+  member_topic_ids:
+  - t007
+  topic_type: concept
+- canonical_topic_id: ct_008
+  label: with an introduction to polarity scoring using qdap’s sentiment function,
+  aliases:
+  - with an introduction to polarity scoring using qdap’s sentiment function,
+  member_topic_ids:
+  - t008
+  topic_type: concept
+- canonical_topic_id: ct_009
+  label: will build your understanding of zipf’s law
+  aliases:
+  - will build your understanding of zipf’s law
+  member_topic_ids:
+  - t009
+  topic_type: concept
+- canonical_topic_id: ct_010
+  label: subjectivity lexicons
+  aliases:
+  - subjectivity lexicons
+  member_topic_ids:
+  - t010
+  topic_type: concept
+- canonical_topic_id: ct_011
+  label: use tidytext to perform sentiment analysis
+  aliases:
+  - use tidytext to perform sentiment analysis
+  member_topic_ids:
+  - t011
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - learn sentiment analysis by identifying positive
+  family: entry
+  pattern: What is {x}?
+  question_text: What is learn sentiment analysis by identifying positive?
+- candidate_id: q0002
+  relevant_topics:
+  - learn sentiment analysis by identifying positive
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does learn sentiment analysis by identifying positive mean?
+- candidate_id: q0003
+  relevant_topics:
+  - learn sentiment analysis by identifying positive
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does learn sentiment analysis by identifying positive matter?
+- candidate_id: q0004
+  relevant_topics:
+  - learn sentiment analysis by identifying positive
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use learn sentiment analysis by identifying positive?
+- candidate_id: q0005
+  relevant_topics:
+  - learn sentiment analysis by identifying positive
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of learn sentiment analysis by identifying
+    positive?
+- candidate_id: q0006
+  relevant_topics:
+  - negative language
+  family: entry
+  pattern: What is {x}?
+  question_text: What is negative language?
+- candidate_id: q0007
+  relevant_topics:
+  - negative language
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does negative language mean?
+- candidate_id: q0008
+  relevant_topics:
+  - negative language
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does negative language matter?
+- candidate_id: q0009
+  relevant_topics:
+  - negative language
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use negative language?
+- candidate_id: q0010
+  relevant_topics:
+  - negative language
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of negative language?
+- candidate_id: q0011
+  relevant_topics:
+  - expand your text mining skill set
+  family: entry
+  pattern: What is {x}?
+  question_text: What is expand your text mining skill set?
+- candidate_id: q0012
+  relevant_topics:
+  - expand your text mining skill set
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does expand your text mining skill set mean?
+- candidate_id: q0013
+  relevant_topics:
+  - expand your text mining skill set
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does expand your text mining skill set matter?
+- candidate_id: q0014
+  relevant_topics:
+  - expand your text mining skill set
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use expand your text mining skill set?
+- candidate_id: q0015
+  relevant_topics:
+  - expand your text mining skill set
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of expand your text mining skill set?
+- candidate_id: q0016
+  relevant_topics:
+  - add sentiment analysis to your text mining toolkit! sentiment analysis is
+  family: entry
+  pattern: What is {x}?
+  question_text: What is add sentiment analysis to your text mining toolkit! sentiment
+    analysis is?
+- candidate_id: q0017
+  relevant_topics:
+  - add sentiment analysis to your text mining toolkit! sentiment analysis is
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does add sentiment analysis to your text mining toolkit! sentiment
+    analysis is mean?
+- candidate_id: q0018
+  relevant_topics:
+  - add sentiment analysis to your text mining toolkit! sentiment analysis is
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does add sentiment analysis to your text mining toolkit! sentiment
+    analysis is matter?
+- candidate_id: q0019
+  relevant_topics:
+  - add sentiment analysis to your text mining toolkit! sentiment analysis is
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use add sentiment analysis to your text mining toolkit!
+    sentiment analysis is?
+- candidate_id: q0020
+  relevant_topics:
+  - add sentiment analysis to your text mining toolkit! sentiment analysis is
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of add sentiment analysis to your text mining
+    toolkit! sentiment analysis is?
+- candidate_id: q0021
+  relevant_topics:
+  - in this course you will learn to identify positive
+  family: entry
+  pattern: What is {x}?
+  question_text: What is in this course you will learn to identify positive?
+- candidate_id: q0022
+  relevant_topics:
+  - in this course you will learn to identify positive
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does in this course you will learn to identify positive mean?
+- candidate_id: q0023
+  relevant_topics:
+  - in this course you will learn to identify positive
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does in this course you will learn to identify positive matter?
+- candidate_id: q0024
+  relevant_topics:
+  - in this course you will learn to identify positive
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use in this course you will learn to identify positive?
+- candidate_id: q0025
+  relevant_topics:
+  - in this course you will learn to identify positive
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of in this course you will learn to identify
+    positive?
+- candidate_id: q0026
+  relevant_topics:
+  - specific emotional intent
+  family: entry
+  pattern: What is {x}?
+  question_text: What is specific emotional intent?
+- candidate_id: q0027
+  relevant_topics:
+  - specific emotional intent
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does specific emotional intent mean?
+- candidate_id: q0028
+  relevant_topics:
+  - specific emotional intent
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does specific emotional intent matter?
+- candidate_id: q0029
+  relevant_topics:
+  - specific emotional intent
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use specific emotional intent?
+- candidate_id: q0030
+  relevant_topics:
+  - specific emotional intent
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of specific emotional intent?
+- candidate_id: q0031
+  relevant_topics:
+  - make compelling visualizations. you’ll start
+  family: entry
+  pattern: What is {x}?
+  question_text: What is make compelling visualizations. you’ll start?
+- candidate_id: q0032
+  relevant_topics:
+  - make compelling visualizations. you’ll start
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does make compelling visualizations. you’ll start mean?
+- candidate_id: q0033
+  relevant_topics:
+  - make compelling visualizations. you’ll start
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does make compelling visualizations. you’ll start matter?
+- candidate_id: q0034
+  relevant_topics:
+  - make compelling visualizations. you’ll start
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use make compelling visualizations. you’ll start?
+- candidate_id: q0035
+  relevant_topics:
+  - make compelling visualizations. you’ll start
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of make compelling visualizations. you’ll
+    start?
+- candidate_id: q0036
+  relevant_topics:
+  - with an introduction to polarity scoring using qdap’s sentiment function,
+  family: entry
+  pattern: What is {x}?
+  question_text: What is with an introduction to polarity scoring using qdap’s sentiment
+    function,?
+- candidate_id: q0037
+  relevant_topics:
+  - with an introduction to polarity scoring using qdap’s sentiment function,
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does with an introduction to polarity scoring using qdap’s sentiment
+    function, mean?
+- candidate_id: q0038
+  relevant_topics:
+  - with an introduction to polarity scoring using qdap’s sentiment function,
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does with an introduction to polarity scoring using qdap’s sentiment
+    function, matter?
+- candidate_id: q0039
+  relevant_topics:
+  - with an introduction to polarity scoring using qdap’s sentiment function,
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use with an introduction to polarity scoring using qdap’s
+    sentiment function,?
+- candidate_id: q0040
+  relevant_topics:
+  - with an introduction to polarity scoring using qdap’s sentiment function,
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of with an introduction to polarity scoring
+    using qdap’s sentiment function,?
+- candidate_id: q0041
+  relevant_topics:
+  - will build your understanding of zipf’s law
+  family: entry
+  pattern: What is {x}?
+  question_text: What is will build your understanding of zipf’s law?
+- candidate_id: q0042
+  relevant_topics:
+  - will build your understanding of zipf’s law
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does will build your understanding of zipf’s law mean?
+- candidate_id: q0043
+  relevant_topics:
+  - will build your understanding of zipf’s law
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does will build your understanding of zipf’s law matter?
+- candidate_id: q0044
+  relevant_topics:
+  - will build your understanding of zipf’s law
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use will build your understanding of zipf’s law?
+- candidate_id: q0045
+  relevant_topics:
+  - will build your understanding of zipf’s law
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of will build your understanding of zipf’s
+    law?
+- candidate_id: q0046
+  relevant_topics:
+  - subjectivity lexicons
+  family: entry
+  pattern: What is {x}?
+  question_text: What is subjectivity lexicons?
+- candidate_id: q0047
+  relevant_topics:
+  - subjectivity lexicons
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does subjectivity lexicons mean?
+- candidate_id: q0048
+  relevant_topics:
+  - subjectivity lexicons
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does subjectivity lexicons matter?
+- candidate_id: q0049
+  relevant_topics:
+  - subjectivity lexicons
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use subjectivity lexicons?
+- candidate_id: q0050
+  relevant_topics:
+  - subjectivity lexicons
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of subjectivity lexicons?
+- candidate_id: q0051
+  relevant_topics:
+  - use tidytext to perform sentiment analysis
+  family: entry
+  pattern: What is {x}?
+  question_text: What is use tidytext to perform sentiment analysis?
+- candidate_id: q0052
+  relevant_topics:
+  - use tidytext to perform sentiment analysis
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does use tidytext to perform sentiment analysis mean?
+- candidate_id: q0053
+  relevant_topics:
+  - use tidytext to perform sentiment analysis
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does use tidytext to perform sentiment analysis matter?
+- candidate_id: q0054
+  relevant_topics:
+  - use tidytext to perform sentiment analysis
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use use tidytext to perform sentiment analysis?
+- candidate_id: q0055
+  relevant_topics:
+  - use tidytext to perform sentiment analysis
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of use tidytext to perform sentiment analysis?
+- candidate_id: q0056
+  relevant_topics:
+  - learn sentiment analysis by identifying positive
+  - negative language
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is learn sentiment analysis by identifying positive different
+    from negative language?
+- candidate_id: q0057
+  relevant_topics:
+  - learn sentiment analysis by identifying positive
+  - expand your text mining skill set
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is learn sentiment analysis by identifying positive different
+    from expand your text mining skill set?
+- candidate_id: q0058
+  relevant_topics:
+  - learn sentiment analysis by identifying positive
+  - add sentiment analysis to your text mining toolkit! sentiment analysis is
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is learn sentiment analysis by identifying positive different
+    from add sentiment analysis to your text mining toolkit! sentiment analysis is?
+- candidate_id: q0059
+  relevant_topics:
+  - learn sentiment analysis by identifying positive
+  - in this course you will learn to identify positive
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is learn sentiment analysis by identifying positive different
+    from in this course you will learn to identify positive?
+- candidate_id: q0060
+  relevant_topics:
+  - learn sentiment analysis by identifying positive
+  - specific emotional intent
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is learn sentiment analysis by identifying positive different
+    from specific emotional intent?
+- candidate_id: q0061
+  relevant_topics:
+  - learn sentiment analysis by identifying positive
+  - make compelling visualizations. you’ll start
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is learn sentiment analysis by identifying positive different
+    from make compelling visualizations. you’ll start?
+- candidate_id: q0062
+  relevant_topics:
+  - learn sentiment analysis by identifying positive
+  - with an introduction to polarity scoring using qdap’s sentiment function,
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is learn sentiment analysis by identifying positive different
+    from with an introduction to polarity scoring using qdap’s sentiment function,?
+- candidate_id: q0063
+  relevant_topics:
+  - learn sentiment analysis by identifying positive
+  - will build your understanding of zipf’s law
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is learn sentiment analysis by identifying positive different
+    from will build your understanding of zipf’s law?
+- candidate_id: q0064
+  relevant_topics:
+  - learn sentiment analysis by identifying positive
+  - subjectivity lexicons
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is learn sentiment analysis by identifying positive different
+    from subjectivity lexicons?
+- candidate_id: q0065
+  relevant_topics:
+  - negative language
+  - expand your text mining skill set
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is negative language different from expand your text mining skill
+    set?
+- candidate_id: q0066
+  relevant_topics:
+  - negative language
+  - add sentiment analysis to your text mining toolkit! sentiment analysis is
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is negative language different from add sentiment analysis to
+    your text mining toolkit! sentiment analysis is?
+- candidate_id: q0067
+  relevant_topics:
+  - negative language
+  - in this course you will learn to identify positive
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is negative language different from in this course you will learn
+    to identify positive?
+- candidate_id: q0068
+  relevant_topics:
+  - negative language
+  - specific emotional intent
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is negative language different from specific emotional intent?
+- candidate_id: q0069
+  relevant_topics:
+  - negative language
+  - make compelling visualizations. you’ll start
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is negative language different from make compelling visualizations.
+    you’ll start?
+- candidate_id: q0070
+  relevant_topics:
+  - negative language
+  - with an introduction to polarity scoring using qdap’s sentiment function,
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is negative language different from with an introduction to polarity
+    scoring using qdap’s sentiment function,?
+- candidate_id: q0071
+  relevant_topics:
+  - negative language
+  - will build your understanding of zipf’s law
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is negative language different from will build your understanding
+    of zipf’s law?
+- candidate_id: q0072
+  relevant_topics:
+  - negative language
+  - subjectivity lexicons
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is negative language different from subjectivity lexicons?
+- candidate_id: q0073
+  relevant_topics:
+  - expand your text mining skill set
+  - add sentiment analysis to your text mining toolkit! sentiment analysis is
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is expand your text mining skill set different from add sentiment
+    analysis to your text mining toolkit! sentiment analysis is?
+- candidate_id: q0074
+  relevant_topics:
+  - expand your text mining skill set
+  - in this course you will learn to identify positive
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is expand your text mining skill set different from in this course
+    you will learn to identify positive?
+- candidate_id: q0075
+  relevant_topics:
+  - expand your text mining skill set
+  - specific emotional intent
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is expand your text mining skill set different from specific
+    emotional intent?
+- candidate_id: q0076
+  relevant_topics:
+  - expand your text mining skill set
+  - make compelling visualizations. you’ll start
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is expand your text mining skill set different from make compelling
+    visualizations. you’ll start?
+- candidate_id: q0077
+  relevant_topics:
+  - expand your text mining skill set
+  - with an introduction to polarity scoring using qdap’s sentiment function,
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is expand your text mining skill set different from with an introduction
+    to polarity scoring using qdap’s sentiment function,?
+- candidate_id: q0078
+  relevant_topics:
+  - expand your text mining skill set
+  - will build your understanding of zipf’s law
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is expand your text mining skill set different from will build
+    your understanding of zipf’s law?
+- candidate_id: q0079
+  relevant_topics:
+  - expand your text mining skill set
+  - subjectivity lexicons
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is expand your text mining skill set different from subjectivity
+    lexicons?
+- candidate_id: q0080
+  relevant_topics:
+  - add sentiment analysis to your text mining toolkit! sentiment analysis is
+  - in this course you will learn to identify positive
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is add sentiment analysis to your text mining toolkit! sentiment
+    analysis is different from in this course you will learn to identify positive?
+- candidate_id: q0081
+  relevant_topics:
+  - add sentiment analysis to your text mining toolkit! sentiment analysis is
+  - specific emotional intent
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is add sentiment analysis to your text mining toolkit! sentiment
+    analysis is different from specific emotional intent?
+- candidate_id: q0082
+  relevant_topics:
+  - add sentiment analysis to your text mining toolkit! sentiment analysis is
+  - make compelling visualizations. you’ll start
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is add sentiment analysis to your text mining toolkit! sentiment
+    analysis is different from make compelling visualizations. you’ll start?
+- candidate_id: q0083
+  relevant_topics:
+  - add sentiment analysis to your text mining toolkit! sentiment analysis is
+  - with an introduction to polarity scoring using qdap’s sentiment function,
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is add sentiment analysis to your text mining toolkit! sentiment
+    analysis is different from with an introduction to polarity scoring using qdap’s
+    sentiment function,?
+- candidate_id: q0084
+  relevant_topics:
+  - add sentiment analysis to your text mining toolkit! sentiment analysis is
+  - will build your understanding of zipf’s law
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is add sentiment analysis to your text mining toolkit! sentiment
+    analysis is different from will build your understanding of zipf’s law?
+- candidate_id: q0085
+  relevant_topics:
+  - add sentiment analysis to your text mining toolkit! sentiment analysis is
+  - subjectivity lexicons
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is add sentiment analysis to your text mining toolkit! sentiment
+    analysis is different from subjectivity lexicons?
+- candidate_id: q0086
+  relevant_topics:
+  - in this course you will learn to identify positive
+  - specific emotional intent
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is in this course you will learn to identify positive different
+    from specific emotional intent?
+- candidate_id: q0087
+  relevant_topics:
+  - in this course you will learn to identify positive
+  - make compelling visualizations. you’ll start
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is in this course you will learn to identify positive different
+    from make compelling visualizations. you’ll start?
+- candidate_id: q0088
+  relevant_topics:
+  - in this course you will learn to identify positive
+  - with an introduction to polarity scoring using qdap’s sentiment function,
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is in this course you will learn to identify positive different
+    from with an introduction to polarity scoring using qdap’s sentiment function,?
+- candidate_id: q0089
+  relevant_topics:
+  - in this course you will learn to identify positive
+  - will build your understanding of zipf’s law
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is in this course you will learn to identify positive different
+    from will build your understanding of zipf’s law?
+- candidate_id: q0090
+  relevant_topics:
+  - in this course you will learn to identify positive
+  - subjectivity lexicons
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is in this course you will learn to identify positive different
+    from subjectivity lexicons?
+- candidate_id: q0091
+  relevant_topics:
+  - specific emotional intent
+  - make compelling visualizations. you’ll start
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is specific emotional intent different from make compelling visualizations.
+    you’ll start?
+- candidate_id: q0092
+  relevant_topics:
+  - specific emotional intent
+  - with an introduction to polarity scoring using qdap’s sentiment function,
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is specific emotional intent different from with an introduction
+    to polarity scoring using qdap’s sentiment function,?
+- candidate_id: q0093
+  relevant_topics:
+  - specific emotional intent
+  - will build your understanding of zipf’s law
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is specific emotional intent different from will build your understanding
+    of zipf’s law?
+- candidate_id: q0094
+  relevant_topics:
+  - specific emotional intent
+  - subjectivity lexicons
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is specific emotional intent different from subjectivity lexicons?
+- candidate_id: q0095
+  relevant_topics:
+  - make compelling visualizations. you’ll start
+  - with an introduction to polarity scoring using qdap’s sentiment function,
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is make compelling visualizations. you’ll start different from
+    with an introduction to polarity scoring using qdap’s sentiment function,?
+- candidate_id: q0096
+  relevant_topics:
+  - make compelling visualizations. you’ll start
+  - will build your understanding of zipf’s law
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is make compelling visualizations. you’ll start different from
+    will build your understanding of zipf’s law?
+- candidate_id: q0097
+  relevant_topics:
+  - make compelling visualizations. you’ll start
+  - subjectivity lexicons
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is make compelling visualizations. you’ll start different from
+    subjectivity lexicons?
+- candidate_id: q0098
+  relevant_topics:
+  - with an introduction to polarity scoring using qdap’s sentiment function,
+  - will build your understanding of zipf’s law
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is with an introduction to polarity scoring using qdap’s sentiment
+    function, different from will build your understanding of zipf’s law?
+- candidate_id: q0099
+  relevant_topics:
+  - with an introduction to polarity scoring using qdap’s sentiment function,
+  - subjectivity lexicons
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is with an introduction to polarity scoring using qdap’s sentiment
+    function, different from subjectivity lexicons?
+- candidate_id: q0100
+  relevant_topics:
+  - will build your understanding of zipf’s law
+  - subjectivity lexicons
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is will build your understanding of zipf’s law different from
+    subjectivity lexicons?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is learn sentiment analysis by identifying positive?
+  final_text: What is learn sentiment analysis by identifying positive?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does learn sentiment analysis by identifying positive mean?
+  final_text: What does learn sentiment analysis by identifying positive mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does learn sentiment analysis by identifying positive matter?
+  final_text: Why does learn sentiment analysis by identifying positive matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use learn sentiment analysis by identifying positive?
+  final_text: Why does learn sentiment analysis by identifying positive?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of learn sentiment analysis by identifying
+    positive?
+  final_text: What is a simple example of learn sentiment analysis by identifying
+    positive?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is negative language?
+  final_text: What is negative language?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does negative language mean?
+  final_text: What does negative language mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does negative language matter?
+  final_text: Why does negative language matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use negative language?
+  final_text: Why does negative language?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of negative language?
+  final_text: What is a simple example of negative language?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is expand your text mining skill set?
+  final_text: What is expand your text mining skill set?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does expand your text mining skill set mean?
+  final_text: What does expand your text mining skill set mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does expand your text mining skill set matter?
+  final_text: Why does expand your text mining skill set matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use expand your text mining skill set?
+  final_text: Why does expand your text mining skill set?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of expand your text mining skill set?
+  final_text: What is a simple example of expand your text mining skill set?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is add sentiment analysis to your text mining toolkit! sentiment
+    analysis is?
+  final_text: What is add sentiment analysis to your text mining toolkit! sentiment
+    analysis is?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does add sentiment analysis to your text mining toolkit! sentiment
+    analysis is mean?
+  final_text: What does add sentiment analysis to your text mining toolkit! sentiment
+    analysis is mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does add sentiment analysis to your text mining toolkit! sentiment
+    analysis is matter?
+  final_text: Why does add sentiment analysis to your text mining toolkit! sentiment
+    analysis is matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use add sentiment analysis to your text mining toolkit!
+    sentiment analysis is?
+  final_text: Why does add sentiment analysis to your text mining toolkit! sentiment
+    analysis is?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of add sentiment analysis to your text mining
+    toolkit! sentiment analysis is?
+  final_text: What is a simple example of add sentiment analysis to your text mining
+    toolkit! sentiment analysis is?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: What is in this course you will learn to identify positive?
+  final_text: What is in this course you will learn to identify positive?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: What does in this course you will learn to identify positive mean?
+  final_text: What does in this course you will learn to identify positive mean?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: Why does in this course you will learn to identify positive matter?
+  final_text: Why does in this course you will learn to identify positive matter?
+  reject_reason: null
+- candidate_id: q0024
+  status: repaired
+  original_text: Why do we use in this course you will learn to identify positive?
+  final_text: Why does in this course you will learn to identify positive?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: What is a simple example of in this course you will learn to identify
+    positive?
+  final_text: What is a simple example of in this course you will learn to identify
+    positive?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: What is specific emotional intent?
+  final_text: What is specific emotional intent?
+  reject_reason: null
+- candidate_id: q0027
+  status: accepted
+  original_text: What does specific emotional intent mean?
+  final_text: What does specific emotional intent mean?
+  reject_reason: null
+- candidate_id: q0028
+  status: accepted
+  original_text: Why does specific emotional intent matter?
+  final_text: Why does specific emotional intent matter?
+  reject_reason: null
+- candidate_id: q0029
+  status: repaired
+  original_text: Why do we use specific emotional intent?
+  final_text: Why does specific emotional intent?
+  reject_reason: null
+- candidate_id: q0030
+  status: accepted
+  original_text: What is a simple example of specific emotional intent?
+  final_text: What is a simple example of specific emotional intent?
+  reject_reason: null
+- candidate_id: q0031
+  status: accepted
+  original_text: What is make compelling visualizations. you’ll start?
+  final_text: What is make compelling visualizations. you’ll start?
+  reject_reason: null
+- candidate_id: q0032
+  status: accepted
+  original_text: What does make compelling visualizations. you’ll start mean?
+  final_text: What does make compelling visualizations. you’ll start mean?
+  reject_reason: null
+- candidate_id: q0033
+  status: accepted
+  original_text: Why does make compelling visualizations. you’ll start matter?
+  final_text: Why does make compelling visualizations. you’ll start matter?
+  reject_reason: null
+- candidate_id: q0034
+  status: repaired
+  original_text: Why do we use make compelling visualizations. you’ll start?
+  final_text: Why does make compelling visualizations. you’ll start?
+  reject_reason: null
+- candidate_id: q0035
+  status: accepted
+  original_text: What is a simple example of make compelling visualizations. you’ll
+    start?
+  final_text: What is a simple example of make compelling visualizations. you’ll start?
+  reject_reason: null
+- candidate_id: q0036
+  status: accepted
+  original_text: What is with an introduction to polarity scoring using qdap’s sentiment
+    function,?
+  final_text: What is with an introduction to polarity scoring using qdap’s sentiment
+    function,?
+  reject_reason: null
+- candidate_id: q0037
+  status: accepted
+  original_text: What does with an introduction to polarity scoring using qdap’s sentiment
+    function, mean?
+  final_text: What does with an introduction to polarity scoring using qdap’s sentiment
+    function, mean?
+  reject_reason: null
+- candidate_id: q0038
+  status: accepted
+  original_text: Why does with an introduction to polarity scoring using qdap’s sentiment
+    function, matter?
+  final_text: Why does with an introduction to polarity scoring using qdap’s sentiment
+    function, matter?
+  reject_reason: null
+- candidate_id: q0039
+  status: repaired
+  original_text: Why do we use with an introduction to polarity scoring using qdap’s
+    sentiment function,?
+  final_text: Why does with an introduction to polarity scoring using qdap’s sentiment
+    function,?
+  reject_reason: null
+- candidate_id: q0040
+  status: accepted
+  original_text: What is a simple example of with an introduction to polarity scoring
+    using qdap’s sentiment function,?
+  final_text: What is a simple example of with an introduction to polarity scoring
+    using qdap’s sentiment function,?
+  reject_reason: null
+- candidate_id: q0041
+  status: accepted
+  original_text: What is will build your understanding of zipf’s law?
+  final_text: What is will build your understanding of zipf’s law?
+  reject_reason: null
+- candidate_id: q0042
+  status: accepted
+  original_text: What does will build your understanding of zipf’s law mean?
+  final_text: What does will build your understanding of zipf’s law mean?
+  reject_reason: null
+- candidate_id: q0043
+  status: accepted
+  original_text: Why does will build your understanding of zipf’s law matter?
+  final_text: Why does will build your understanding of zipf’s law matter?
+  reject_reason: null
+- candidate_id: q0044
+  status: repaired
+  original_text: Why do we use will build your understanding of zipf’s law?
+  final_text: Why does will build your understanding of zipf’s law?
+  reject_reason: null
+- candidate_id: q0045
+  status: accepted
+  original_text: What is a simple example of will build your understanding of zipf’s
+    law?
+  final_text: What is a simple example of will build your understanding of zipf’s
+    law?
+  reject_reason: null
+- candidate_id: q0046
+  status: accepted
+  original_text: What is subjectivity lexicons?
+  final_text: What is subjectivity lexicons?
+  reject_reason: null
+- candidate_id: q0047
+  status: accepted
+  original_text: What does subjectivity lexicons mean?
+  final_text: What does subjectivity lexicons mean?
+  reject_reason: null
+- candidate_id: q0048
+  status: accepted
+  original_text: Why does subjectivity lexicons matter?
+  final_text: Why does subjectivity lexicons matter?
+  reject_reason: null
+- candidate_id: q0049
+  status: repaired
+  original_text: Why do we use subjectivity lexicons?
+  final_text: Why does subjectivity lexicons?
+  reject_reason: null
+- candidate_id: q0050
+  status: accepted
+  original_text: What is a simple example of subjectivity lexicons?
+  final_text: What is a simple example of subjectivity lexicons?
+  reject_reason: null
+- candidate_id: q0051
+  status: accepted
+  original_text: What is use tidytext to perform sentiment analysis?
+  final_text: What is use tidytext to perform sentiment analysis?
+  reject_reason: null
+- candidate_id: q0052
+  status: accepted
+  original_text: What does use tidytext to perform sentiment analysis mean?
+  final_text: What does use tidytext to perform sentiment analysis mean?
+  reject_reason: null
+- candidate_id: q0053
+  status: accepted
+  original_text: Why does use tidytext to perform sentiment analysis matter?
+  final_text: Why does use tidytext to perform sentiment analysis matter?
+  reject_reason: null
+- candidate_id: q0054
+  status: repaired
+  original_text: Why do we use use tidytext to perform sentiment analysis?
+  final_text: Why does use tidytext to perform sentiment analysis?
+  reject_reason: null
+- candidate_id: q0055
+  status: accepted
+  original_text: What is a simple example of use tidytext to perform sentiment analysis?
+  final_text: What is a simple example of use tidytext to perform sentiment analysis?
+  reject_reason: null
+- candidate_id: q0056
+  status: accepted
+  original_text: How is learn sentiment analysis by identifying positive different
+    from negative language?
+  final_text: How is learn sentiment analysis by identifying positive different from
+    negative language?
+  reject_reason: null
+- candidate_id: q0057
+  status: accepted
+  original_text: How is learn sentiment analysis by identifying positive different
+    from expand your text mining skill set?
+  final_text: How is learn sentiment analysis by identifying positive different from
+    expand your text mining skill set?
+  reject_reason: null
+- candidate_id: q0058
+  status: accepted
+  original_text: How is learn sentiment analysis by identifying positive different
+    from add sentiment analysis to your text mining toolkit! sentiment analysis is?
+  final_text: How is learn sentiment analysis by identifying positive different from
+    add sentiment analysis to your text mining toolkit! sentiment analysis is?
+  reject_reason: null
+- candidate_id: q0059
+  status: accepted
+  original_text: How is learn sentiment analysis by identifying positive different
+    from in this course you will learn to identify positive?
+  final_text: How is learn sentiment analysis by identifying positive different from
+    in this course you will learn to identify positive?
+  reject_reason: null
+- candidate_id: q0060
+  status: accepted
+  original_text: How is learn sentiment analysis by identifying positive different
+    from specific emotional intent?
+  final_text: How is learn sentiment analysis by identifying positive different from
+    specific emotional intent?
+  reject_reason: null
+- candidate_id: q0061
+  status: accepted
+  original_text: How is learn sentiment analysis by identifying positive different
+    from make compelling visualizations. you’ll start?
+  final_text: How is learn sentiment analysis by identifying positive different from
+    make compelling visualizations. you’ll start?
+  reject_reason: null
+- candidate_id: q0062
+  status: accepted
+  original_text: How is learn sentiment analysis by identifying positive different
+    from with an introduction to polarity scoring using qdap’s sentiment function,?
+  final_text: How is learn sentiment analysis by identifying positive different from
+    with an introduction to polarity scoring using qdap’s sentiment function,?
+  reject_reason: null
+- candidate_id: q0063
+  status: accepted
+  original_text: How is learn sentiment analysis by identifying positive different
+    from will build your understanding of zipf’s law?
+  final_text: How is learn sentiment analysis by identifying positive different from
+    will build your understanding of zipf’s law?
+  reject_reason: null
+- candidate_id: q0064
+  status: accepted
+  original_text: How is learn sentiment analysis by identifying positive different
+    from subjectivity lexicons?
+  final_text: How is learn sentiment analysis by identifying positive different from
+    subjectivity lexicons?
+  reject_reason: null
+- candidate_id: q0065
+  status: accepted
+  original_text: How is negative language different from expand your text mining skill
+    set?
+  final_text: How is negative language different from expand your text mining skill
+    set?
+  reject_reason: null
+- candidate_id: q0066
+  status: accepted
+  original_text: How is negative language different from add sentiment analysis to
+    your text mining toolkit! sentiment analysis is?
+  final_text: How is negative language different from add sentiment analysis to your
+    text mining toolkit! sentiment analysis is?
+  reject_reason: null
+- candidate_id: q0067
+  status: accepted
+  original_text: How is negative language different from in this course you will learn
+    to identify positive?
+  final_text: How is negative language different from in this course you will learn
+    to identify positive?
+  reject_reason: null
+- candidate_id: q0068
+  status: accepted
+  original_text: How is negative language different from specific emotional intent?
+  final_text: How is negative language different from specific emotional intent?
+  reject_reason: null
+- candidate_id: q0069
+  status: accepted
+  original_text: How is negative language different from make compelling visualizations.
+    you’ll start?
+  final_text: How is negative language different from make compelling visualizations.
+    you’ll start?
+  reject_reason: null
+- candidate_id: q0070
+  status: accepted
+  original_text: How is negative language different from with an introduction to polarity
+    scoring using qdap’s sentiment function,?
+  final_text: How is negative language different from with an introduction to polarity
+    scoring using qdap’s sentiment function,?
+  reject_reason: null
+- candidate_id: q0071
+  status: accepted
+  original_text: How is negative language different from will build your understanding
+    of zipf’s law?
+  final_text: How is negative language different from will build your understanding
+    of zipf’s law?
+  reject_reason: null
+- candidate_id: q0072
+  status: accepted
+  original_text: How is negative language different from subjectivity lexicons?
+  final_text: How is negative language different from subjectivity lexicons?
+  reject_reason: null
+- candidate_id: q0073
+  status: accepted
+  original_text: How is expand your text mining skill set different from add sentiment
+    analysis to your text mining toolkit! sentiment analysis is?
+  final_text: How is expand your text mining skill set different from add sentiment
+    analysis to your text mining toolkit! sentiment analysis is?
+  reject_reason: null
+- candidate_id: q0074
+  status: accepted
+  original_text: How is expand your text mining skill set different from in this course
+    you will learn to identify positive?
+  final_text: How is expand your text mining skill set different from in this course
+    you will learn to identify positive?
+  reject_reason: null
+- candidate_id: q0075
+  status: accepted
+  original_text: How is expand your text mining skill set different from specific
+    emotional intent?
+  final_text: How is expand your text mining skill set different from specific emotional
+    intent?
+  reject_reason: null
+- candidate_id: q0076
+  status: accepted
+  original_text: How is expand your text mining skill set different from make compelling
+    visualizations. you’ll start?
+  final_text: How is expand your text mining skill set different from make compelling
+    visualizations. you’ll start?
+  reject_reason: null
+- candidate_id: q0077
+  status: accepted
+  original_text: How is expand your text mining skill set different from with an introduction
+    to polarity scoring using qdap’s sentiment function,?
+  final_text: How is expand your text mining skill set different from with an introduction
+    to polarity scoring using qdap’s sentiment function,?
+  reject_reason: null
+- candidate_id: q0078
+  status: accepted
+  original_text: How is expand your text mining skill set different from will build
+    your understanding of zipf’s law?
+  final_text: How is expand your text mining skill set different from will build your
+    understanding of zipf’s law?
+  reject_reason: null
+- candidate_id: q0079
+  status: accepted
+  original_text: How is expand your text mining skill set different from subjectivity
+    lexicons?
+  final_text: How is expand your text mining skill set different from subjectivity
+    lexicons?
+  reject_reason: null
+- candidate_id: q0080
+  status: accepted
+  original_text: How is add sentiment analysis to your text mining toolkit! sentiment
+    analysis is different from in this course you will learn to identify positive?
+  final_text: How is add sentiment analysis to your text mining toolkit! sentiment
+    analysis is different from in this course you will learn to identify positive?
+  reject_reason: null
+- candidate_id: q0081
+  status: accepted
+  original_text: How is add sentiment analysis to your text mining toolkit! sentiment
+    analysis is different from specific emotional intent?
+  final_text: How is add sentiment analysis to your text mining toolkit! sentiment
+    analysis is different from specific emotional intent?
+  reject_reason: null
+- candidate_id: q0082
+  status: accepted
+  original_text: How is add sentiment analysis to your text mining toolkit! sentiment
+    analysis is different from make compelling visualizations. you’ll start?
+  final_text: How is add sentiment analysis to your text mining toolkit! sentiment
+    analysis is different from make compelling visualizations. you’ll start?
+  reject_reason: null
+- candidate_id: q0083
+  status: accepted
+  original_text: How is add sentiment analysis to your text mining toolkit! sentiment
+    analysis is different from with an introduction to polarity scoring using qdap’s
+    sentiment function,?
+  final_text: How is add sentiment analysis to your text mining toolkit! sentiment
+    analysis is different from with an introduction to polarity scoring using qdap’s
+    sentiment function,?
+  reject_reason: null
+- candidate_id: q0084
+  status: accepted
+  original_text: How is add sentiment analysis to your text mining toolkit! sentiment
+    analysis is different from will build your understanding of zipf’s law?
+  final_text: How is add sentiment analysis to your text mining toolkit! sentiment
+    analysis is different from will build your understanding of zipf’s law?
+  reject_reason: null
+- candidate_id: q0085
+  status: accepted
+  original_text: How is add sentiment analysis to your text mining toolkit! sentiment
+    analysis is different from subjectivity lexicons?
+  final_text: How is add sentiment analysis to your text mining toolkit! sentiment
+    analysis is different from subjectivity lexicons?
+  reject_reason: null
+- candidate_id: q0086
+  status: accepted
+  original_text: How is in this course you will learn to identify positive different
+    from specific emotional intent?
+  final_text: How is in this course you will learn to identify positive different
+    from specific emotional intent?
+  reject_reason: null
+- candidate_id: q0087
+  status: accepted
+  original_text: How is in this course you will learn to identify positive different
+    from make compelling visualizations. you’ll start?
+  final_text: How is in this course you will learn to identify positive different
+    from make compelling visualizations. you’ll start?
+  reject_reason: null
+- candidate_id: q0088
+  status: accepted
+  original_text: How is in this course you will learn to identify positive different
+    from with an introduction to polarity scoring using qdap’s sentiment function,?
+  final_text: How is in this course you will learn to identify positive different
+    from with an introduction to polarity scoring using qdap’s sentiment function,?
+  reject_reason: null
+- candidate_id: q0089
+  status: accepted
+  original_text: How is in this course you will learn to identify positive different
+    from will build your understanding of zipf’s law?
+  final_text: How is in this course you will learn to identify positive different
+    from will build your understanding of zipf’s law?
+  reject_reason: null
+- candidate_id: q0090
+  status: accepted
+  original_text: How is in this course you will learn to identify positive different
+    from subjectivity lexicons?
+  final_text: How is in this course you will learn to identify positive different
+    from subjectivity lexicons?
+  reject_reason: null
+- candidate_id: q0091
+  status: accepted
+  original_text: How is specific emotional intent different from make compelling visualizations.
+    you’ll start?
+  final_text: How is specific emotional intent different from make compelling visualizations.
+    you’ll start?
+  reject_reason: null
+- candidate_id: q0092
+  status: accepted
+  original_text: How is specific emotional intent different from with an introduction
+    to polarity scoring using qdap’s sentiment function,?
+  final_text: How is specific emotional intent different from with an introduction
+    to polarity scoring using qdap’s sentiment function,?
+  reject_reason: null
+- candidate_id: q0093
+  status: accepted
+  original_text: How is specific emotional intent different from will build your understanding
+    of zipf’s law?
+  final_text: How is specific emotional intent different from will build your understanding
+    of zipf’s law?
+  reject_reason: null
+- candidate_id: q0094
+  status: accepted
+  original_text: How is specific emotional intent different from subjectivity lexicons?
+  final_text: How is specific emotional intent different from subjectivity lexicons?
+  reject_reason: null
+- candidate_id: q0095
+  status: accepted
+  original_text: How is make compelling visualizations. you’ll start different from
+    with an introduction to polarity scoring using qdap’s sentiment function,?
+  final_text: How is make compelling visualizations. you’ll start different from with
+    an introduction to polarity scoring using qdap’s sentiment function,?
+  reject_reason: null
+- candidate_id: q0096
+  status: accepted
+  original_text: How is make compelling visualizations. you’ll start different from
+    will build your understanding of zipf’s law?
+  final_text: How is make compelling visualizations. you’ll start different from will
+    build your understanding of zipf’s law?
+  reject_reason: null
+- candidate_id: q0097
+  status: accepted
+  original_text: How is make compelling visualizations. you’ll start different from
+    subjectivity lexicons?
+  final_text: How is make compelling visualizations. you’ll start different from subjectivity
+    lexicons?
+  reject_reason: null
+- candidate_id: q0098
+  status: accepted
+  original_text: How is with an introduction to polarity scoring using qdap’s sentiment
+    function, different from will build your understanding of zipf’s law?
+  final_text: How is with an introduction to polarity scoring using qdap’s sentiment
+    function, different from will build your understanding of zipf’s law?
+  reject_reason: null
+- candidate_id: q0099
+  status: accepted
+  original_text: How is with an introduction to polarity scoring using qdap’s sentiment
+    function, different from subjectivity lexicons?
+  final_text: How is with an introduction to polarity scoring using qdap’s sentiment
+    function, different from subjectivity lexicons?
+  reject_reason: null
+- candidate_id: q0100
+  status: accepted
+  original_text: How is will build your understanding of zipf’s law different from
+    subjectivity lexicons?
+  final_text: How is will build your understanding of zipf’s law different from subjectivity
+    lexicons?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is learn sentiment analysis by identifying positive?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does learn sentiment analysis by identifying positive mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does learn sentiment analysis by identifying positive matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does learn sentiment analysis by identifying positive?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of learn sentiment analysis by identifying
+    positive?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is negative language?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does negative language mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does negative language matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does negative language?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of negative language?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is expand your text mining skill set?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does expand your text mining skill set mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does expand your text mining skill set matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does expand your text mining skill set?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of expand your text mining skill set?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is add sentiment analysis to your text mining toolkit! sentiment
+    analysis is?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does add sentiment analysis to your text mining toolkit! sentiment
+    analysis is mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does add sentiment analysis to your text mining toolkit! sentiment
+    analysis is matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does add sentiment analysis to your text mining toolkit! sentiment
+    analysis is?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of add sentiment analysis to your text mining
+    toolkit! sentiment analysis is?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: What is in this course you will learn to identify positive?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: What does in this course you will learn to identify positive mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: Why does in this course you will learn to identify positive matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: Why does in this course you will learn to identify positive?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: What is a simple example of in this course you will learn to identify
+    positive?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: What is specific emotional intent?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0027
+  question_text: What does specific emotional intent mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0028
+  question_text: Why does specific emotional intent matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0029
+  question_text: Why does specific emotional intent?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0030
+  question_text: What is a simple example of specific emotional intent?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0031
+  question_text: What is make compelling visualizations. you’ll start?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0032
+  question_text: What does make compelling visualizations. you’ll start mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0033
+  question_text: Why does make compelling visualizations. you’ll start matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0034
+  question_text: Why does make compelling visualizations. you’ll start?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0035
+  question_text: What is a simple example of make compelling visualizations. you’ll
+    start?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0036
+  question_text: What is with an introduction to polarity scoring using qdap’s sentiment
+    function,?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0037
+  question_text: What does with an introduction to polarity scoring using qdap’s sentiment
+    function, mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0038
+  question_text: Why does with an introduction to polarity scoring using qdap’s sentiment
+    function, matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0039
+  question_text: Why does with an introduction to polarity scoring using qdap’s sentiment
+    function,?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0040
+  question_text: What is a simple example of with an introduction to polarity scoring
+    using qdap’s sentiment function,?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0041
+  question_text: What is will build your understanding of zipf’s law?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0042
+  question_text: What does will build your understanding of zipf’s law mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0043
+  question_text: Why does will build your understanding of zipf’s law matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0044
+  question_text: Why does will build your understanding of zipf’s law?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0045
+  question_text: What is a simple example of will build your understanding of zipf’s
+    law?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0046
+  question_text: What is subjectivity lexicons?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0047
+  question_text: What does subjectivity lexicons mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0048
+  question_text: Why does subjectivity lexicons matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0049
+  question_text: Why does subjectivity lexicons?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0050
+  question_text: What is a simple example of subjectivity lexicons?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0051
+  question_text: What is use tidytext to perform sentiment analysis?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0052
+  question_text: What does use tidytext to perform sentiment analysis mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0053
+  question_text: Why does use tidytext to perform sentiment analysis matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0054
+  question_text: Why does use tidytext to perform sentiment analysis?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0055
+  question_text: What is a simple example of use tidytext to perform sentiment analysis?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0056
+  question_text: How is learn sentiment analysis by identifying positive different
+    from negative language?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0057
+  question_text: How is learn sentiment analysis by identifying positive different
+    from expand your text mining skill set?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0058
+  question_text: How is learn sentiment analysis by identifying positive different
+    from add sentiment analysis to your text mining toolkit! sentiment analysis is?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0059
+  question_text: How is learn sentiment analysis by identifying positive different
+    from in this course you will learn to identify positive?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0060
+  question_text: How is learn sentiment analysis by identifying positive different
+    from specific emotional intent?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0061
+  question_text: How is learn sentiment analysis by identifying positive different
+    from make compelling visualizations. you’ll start?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0062
+  question_text: How is learn sentiment analysis by identifying positive different
+    from with an introduction to polarity scoring using qdap’s sentiment function,?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0063
+  question_text: How is learn sentiment analysis by identifying positive different
+    from will build your understanding of zipf’s law?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0064
+  question_text: How is learn sentiment analysis by identifying positive different
+    from subjectivity lexicons?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0065
+  question_text: How is negative language different from expand your text mining skill
+    set?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0066
+  question_text: How is negative language different from add sentiment analysis to
+    your text mining toolkit! sentiment analysis is?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0067
+  question_text: How is negative language different from in this course you will learn
+    to identify positive?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0068
+  question_text: How is negative language different from specific emotional intent?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0069
+  question_text: How is negative language different from make compelling visualizations.
+    you’ll start?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0070
+  question_text: How is negative language different from with an introduction to polarity
+    scoring using qdap’s sentiment function,?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0071
+  question_text: How is negative language different from will build your understanding
+    of zipf’s law?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0072
+  question_text: How is negative language different from subjectivity lexicons?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0073
+  question_text: How is expand your text mining skill set different from add sentiment
+    analysis to your text mining toolkit! sentiment analysis is?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0074
+  question_text: How is expand your text mining skill set different from in this course
+    you will learn to identify positive?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0075
+  question_text: How is expand your text mining skill set different from specific
+    emotional intent?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0076
+  question_text: How is expand your text mining skill set different from make compelling
+    visualizations. you’ll start?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0077
+  question_text: How is expand your text mining skill set different from with an introduction
+    to polarity scoring using qdap’s sentiment function,?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0078
+  question_text: How is expand your text mining skill set different from will build
+    your understanding of zipf’s law?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0079
+  question_text: How is expand your text mining skill set different from subjectivity
+    lexicons?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0080
+  question_text: How is add sentiment analysis to your text mining toolkit! sentiment
+    analysis is different from in this course you will learn to identify positive?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0081
+  question_text: How is add sentiment analysis to your text mining toolkit! sentiment
+    analysis is different from specific emotional intent?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0082
+  question_text: How is add sentiment analysis to your text mining toolkit! sentiment
+    analysis is different from make compelling visualizations. you’ll start?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0083
+  question_text: How is add sentiment analysis to your text mining toolkit! sentiment
+    analysis is different from with an introduction to polarity scoring using qdap’s
+    sentiment function,?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0084
+  question_text: How is add sentiment analysis to your text mining toolkit! sentiment
+    analysis is different from will build your understanding of zipf’s law?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0085
+  question_text: How is add sentiment analysis to your text mining toolkit! sentiment
+    analysis is different from subjectivity lexicons?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0086
+  question_text: How is in this course you will learn to identify positive different
+    from specific emotional intent?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0087
+  question_text: How is in this course you will learn to identify positive different
+    from make compelling visualizations. you’ll start?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0088
+  question_text: How is in this course you will learn to identify positive different
+    from with an introduction to polarity scoring using qdap’s sentiment function,?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0089
+  question_text: How is in this course you will learn to identify positive different
+    from will build your understanding of zipf’s law?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0090
+  question_text: How is in this course you will learn to identify positive different
+    from subjectivity lexicons?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0091
+  question_text: How is specific emotional intent different from make compelling visualizations.
+    you’ll start?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0092
+  question_text: How is specific emotional intent different from with an introduction
+    to polarity scoring using qdap’s sentiment function,?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0093
+  question_text: How is specific emotional intent different from will build your understanding
+    of zipf’s law?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0094
+  question_text: How is specific emotional intent different from subjectivity lexicons?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0095
+  question_text: How is make compelling visualizations. you’ll start different from
+    with an introduction to polarity scoring using qdap’s sentiment function,?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0096
+  question_text: How is make compelling visualizations. you’ll start different from
+    will build your understanding of zipf’s law?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0097
+  question_text: How is make compelling visualizations. you’ll start different from
+    subjectivity lexicons?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0098
+  question_text: How is with an introduction to polarity scoring using qdap’s sentiment
+    function, different from will build your understanding of zipf’s law?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0099
+  question_text: How is with an introduction to polarity scoring using qdap’s sentiment
+    function, different from subjectivity lexicons?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0100
+  question_text: How is will build your understanding of zipf’s law different from
+    subjectivity lexicons?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - learn sentiment analysis by identifying positive
+  question_text: What is learn sentiment analysis by identifying positive?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - learn sentiment analysis by identifying positive
+  question_text: What does learn sentiment analysis by identifying positive mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - learn sentiment analysis by identifying positive
+  question_text: Why does learn sentiment analysis by identifying positive matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - learn sentiment analysis by identifying positive
+  question_text: Why does learn sentiment analysis by identifying positive?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - learn sentiment analysis by identifying positive
+  question_text: What is a simple example of learn sentiment analysis by identifying
+    positive?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - negative language
+  question_text: What is negative language?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - negative language
+  question_text: What does negative language mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - negative language
+  question_text: Why does negative language matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - negative language
+  question_text: Why does negative language?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - negative language
+  question_text: What is a simple example of negative language?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - expand your text mining skill set
+  question_text: What is expand your text mining skill set?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - expand your text mining skill set
+  question_text: What does expand your text mining skill set mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - expand your text mining skill set
+  question_text: Why does expand your text mining skill set matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - expand your text mining skill set
+  question_text: Why does expand your text mining skill set?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - expand your text mining skill set
+  question_text: What is a simple example of expand your text mining skill set?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - add sentiment analysis to your text mining toolkit! sentiment analysis is
+  question_text: What is add sentiment analysis to your text mining toolkit! sentiment
+    analysis is?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - add sentiment analysis to your text mining toolkit! sentiment analysis is
+  question_text: What does add sentiment analysis to your text mining toolkit! sentiment
+    analysis is mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - add sentiment analysis to your text mining toolkit! sentiment analysis is
+  question_text: Why does add sentiment analysis to your text mining toolkit! sentiment
+    analysis is matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - add sentiment analysis to your text mining toolkit! sentiment analysis is
+  question_text: Why does add sentiment analysis to your text mining toolkit! sentiment
+    analysis is?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - add sentiment analysis to your text mining toolkit! sentiment analysis is
+  question_text: What is a simple example of add sentiment analysis to your text mining
+    toolkit! sentiment analysis is?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - in this course you will learn to identify positive
+  question_text: What is in this course you will learn to identify positive?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - in this course you will learn to identify positive
+  question_text: What does in this course you will learn to identify positive mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - in this course you will learn to identify positive
+  question_text: Why does in this course you will learn to identify positive matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - in this course you will learn to identify positive
+  question_text: Why does in this course you will learn to identify positive?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - in this course you will learn to identify positive
+  question_text: What is a simple example of in this course you will learn to identify
+    positive?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - specific emotional intent
+  question_text: What is specific emotional intent?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000027
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - specific emotional intent
+  question_text: What does specific emotional intent mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000028
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - specific emotional intent
+  question_text: Why does specific emotional intent matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000029
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - specific emotional intent
+  question_text: Why does specific emotional intent?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000030
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - specific emotional intent
+  question_text: What is a simple example of specific emotional intent?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000031
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - make compelling visualizations. you’ll start
+  question_text: What is make compelling visualizations. you’ll start?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000032
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - make compelling visualizations. you’ll start
+  question_text: What does make compelling visualizations. you’ll start mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000033
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - make compelling visualizations. you’ll start
+  question_text: Why does make compelling visualizations. you’ll start matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000034
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - make compelling visualizations. you’ll start
+  question_text: Why does make compelling visualizations. you’ll start?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000035
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - make compelling visualizations. you’ll start
+  question_text: What is a simple example of make compelling visualizations. you’ll
+    start?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000036
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - with an introduction to polarity scoring using qdap’s sentiment function,
+  question_text: What is with an introduction to polarity scoring using qdap’s sentiment
+    function,?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000037
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - with an introduction to polarity scoring using qdap’s sentiment function,
+  question_text: What does with an introduction to polarity scoring using qdap’s sentiment
+    function, mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000038
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - with an introduction to polarity scoring using qdap’s sentiment function,
+  question_text: Why does with an introduction to polarity scoring using qdap’s sentiment
+    function, matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000039
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - with an introduction to polarity scoring using qdap’s sentiment function,
+  question_text: Why does with an introduction to polarity scoring using qdap’s sentiment
+    function,?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000040
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - with an introduction to polarity scoring using qdap’s sentiment function,
+  question_text: What is a simple example of with an introduction to polarity scoring
+    using qdap’s sentiment function,?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000041
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - will build your understanding of zipf’s law
+  question_text: What is will build your understanding of zipf’s law?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000042
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - will build your understanding of zipf’s law
+  question_text: What does will build your understanding of zipf’s law mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000043
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - will build your understanding of zipf’s law
+  question_text: Why does will build your understanding of zipf’s law matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000044
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - will build your understanding of zipf’s law
+  question_text: Why does will build your understanding of zipf’s law?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000045
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - will build your understanding of zipf’s law
+  question_text: What is a simple example of will build your understanding of zipf’s
+    law?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000046
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - subjectivity lexicons
+  question_text: What is subjectivity lexicons?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000047
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - subjectivity lexicons
+  question_text: What does subjectivity lexicons mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000048
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - subjectivity lexicons
+  question_text: Why does subjectivity lexicons matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000049
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - subjectivity lexicons
+  question_text: Why does subjectivity lexicons?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000050
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - subjectivity lexicons
+  question_text: What is a simple example of subjectivity lexicons?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000051
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - use tidytext to perform sentiment analysis
+  question_text: What is use tidytext to perform sentiment analysis?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000052
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - use tidytext to perform sentiment analysis
+  question_text: What does use tidytext to perform sentiment analysis mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000053
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - use tidytext to perform sentiment analysis
+  question_text: Why does use tidytext to perform sentiment analysis matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000054
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - use tidytext to perform sentiment analysis
+  question_text: Why does use tidytext to perform sentiment analysis?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000055
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - use tidytext to perform sentiment analysis
+  question_text: What is a simple example of use tidytext to perform sentiment analysis?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000056
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - learn sentiment analysis by identifying positive
+  - negative language
+  question_text: How is learn sentiment analysis by identifying positive different
+    from negative language?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000057
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - learn sentiment analysis by identifying positive
+  - expand your text mining skill set
+  question_text: How is learn sentiment analysis by identifying positive different
+    from expand your text mining skill set?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000058
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - learn sentiment analysis by identifying positive
+  - add sentiment analysis to your text mining toolkit! sentiment analysis is
+  question_text: How is learn sentiment analysis by identifying positive different
+    from add sentiment analysis to your text mining toolkit! sentiment analysis is?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000059
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - learn sentiment analysis by identifying positive
+  - in this course you will learn to identify positive
+  question_text: How is learn sentiment analysis by identifying positive different
+    from in this course you will learn to identify positive?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000060
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - learn sentiment analysis by identifying positive
+  - specific emotional intent
+  question_text: How is learn sentiment analysis by identifying positive different
+    from specific emotional intent?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000061
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - learn sentiment analysis by identifying positive
+  - make compelling visualizations. you’ll start
+  question_text: How is learn sentiment analysis by identifying positive different
+    from make compelling visualizations. you’ll start?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000062
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - learn sentiment analysis by identifying positive
+  - with an introduction to polarity scoring using qdap’s sentiment function,
+  question_text: How is learn sentiment analysis by identifying positive different
+    from with an introduction to polarity scoring using qdap’s sentiment function,?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000063
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - learn sentiment analysis by identifying positive
+  - will build your understanding of zipf’s law
+  question_text: How is learn sentiment analysis by identifying positive different
+    from will build your understanding of zipf’s law?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000064
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - learn sentiment analysis by identifying positive
+  - subjectivity lexicons
+  question_text: How is learn sentiment analysis by identifying positive different
+    from subjectivity lexicons?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000065
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - negative language
+  - expand your text mining skill set
+  question_text: How is negative language different from expand your text mining skill
+    set?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000066
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - negative language
+  - add sentiment analysis to your text mining toolkit! sentiment analysis is
+  question_text: How is negative language different from add sentiment analysis to
+    your text mining toolkit! sentiment analysis is?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000067
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - negative language
+  - in this course you will learn to identify positive
+  question_text: How is negative language different from in this course you will learn
+    to identify positive?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000068
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - negative language
+  - specific emotional intent
+  question_text: How is negative language different from specific emotional intent?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000069
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - negative language
+  - make compelling visualizations. you’ll start
+  question_text: How is negative language different from make compelling visualizations.
+    you’ll start?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000070
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - negative language
+  - with an introduction to polarity scoring using qdap’s sentiment function,
+  question_text: How is negative language different from with an introduction to polarity
+    scoring using qdap’s sentiment function,?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000071
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - negative language
+  - will build your understanding of zipf’s law
+  question_text: How is negative language different from will build your understanding
+    of zipf’s law?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000072
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - negative language
+  - subjectivity lexicons
+  question_text: How is negative language different from subjectivity lexicons?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000073
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - expand your text mining skill set
+  - add sentiment analysis to your text mining toolkit! sentiment analysis is
+  question_text: How is expand your text mining skill set different from add sentiment
+    analysis to your text mining toolkit! sentiment analysis is?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000074
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - expand your text mining skill set
+  - in this course you will learn to identify positive
+  question_text: How is expand your text mining skill set different from in this course
+    you will learn to identify positive?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000075
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - expand your text mining skill set
+  - specific emotional intent
+  question_text: How is expand your text mining skill set different from specific
+    emotional intent?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000076
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - expand your text mining skill set
+  - make compelling visualizations. you’ll start
+  question_text: How is expand your text mining skill set different from make compelling
+    visualizations. you’ll start?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000077
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - expand your text mining skill set
+  - with an introduction to polarity scoring using qdap’s sentiment function,
+  question_text: How is expand your text mining skill set different from with an introduction
+    to polarity scoring using qdap’s sentiment function,?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000078
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - expand your text mining skill set
+  - will build your understanding of zipf’s law
+  question_text: How is expand your text mining skill set different from will build
+    your understanding of zipf’s law?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000079
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - expand your text mining skill set
+  - subjectivity lexicons
+  question_text: How is expand your text mining skill set different from subjectivity
+    lexicons?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000080
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - add sentiment analysis to your text mining toolkit! sentiment analysis is
+  - in this course you will learn to identify positive
+  question_text: How is add sentiment analysis to your text mining toolkit! sentiment
+    analysis is different from in this course you will learn to identify positive?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000081
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - add sentiment analysis to your text mining toolkit! sentiment analysis is
+  - specific emotional intent
+  question_text: How is add sentiment analysis to your text mining toolkit! sentiment
+    analysis is different from specific emotional intent?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000082
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - add sentiment analysis to your text mining toolkit! sentiment analysis is
+  - make compelling visualizations. you’ll start
+  question_text: How is add sentiment analysis to your text mining toolkit! sentiment
+    analysis is different from make compelling visualizations. you’ll start?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000083
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - add sentiment analysis to your text mining toolkit! sentiment analysis is
+  - with an introduction to polarity scoring using qdap’s sentiment function,
+  question_text: How is add sentiment analysis to your text mining toolkit! sentiment
+    analysis is different from with an introduction to polarity scoring using qdap’s
+    sentiment function,?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000084
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - add sentiment analysis to your text mining toolkit! sentiment analysis is
+  - will build your understanding of zipf’s law
+  question_text: How is add sentiment analysis to your text mining toolkit! sentiment
+    analysis is different from will build your understanding of zipf’s law?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000085
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - add sentiment analysis to your text mining toolkit! sentiment analysis is
+  - subjectivity lexicons
+  question_text: How is add sentiment analysis to your text mining toolkit! sentiment
+    analysis is different from subjectivity lexicons?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000086
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - in this course you will learn to identify positive
+  - specific emotional intent
+  question_text: How is in this course you will learn to identify positive different
+    from specific emotional intent?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000087
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - in this course you will learn to identify positive
+  - make compelling visualizations. you’ll start
+  question_text: How is in this course you will learn to identify positive different
+    from make compelling visualizations. you’ll start?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000088
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - in this course you will learn to identify positive
+  - with an introduction to polarity scoring using qdap’s sentiment function,
+  question_text: How is in this course you will learn to identify positive different
+    from with an introduction to polarity scoring using qdap’s sentiment function,?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000089
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - in this course you will learn to identify positive
+  - will build your understanding of zipf’s law
+  question_text: How is in this course you will learn to identify positive different
+    from will build your understanding of zipf’s law?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000090
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - in this course you will learn to identify positive
+  - subjectivity lexicons
+  question_text: How is in this course you will learn to identify positive different
+    from subjectivity lexicons?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000091
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - specific emotional intent
+  - make compelling visualizations. you’ll start
+  question_text: How is specific emotional intent different from make compelling visualizations.
+    you’ll start?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000092
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - specific emotional intent
+  - with an introduction to polarity scoring using qdap’s sentiment function,
+  question_text: How is specific emotional intent different from with an introduction
+    to polarity scoring using qdap’s sentiment function,?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000093
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - specific emotional intent
+  - will build your understanding of zipf’s law
+  question_text: How is specific emotional intent different from will build your understanding
+    of zipf’s law?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000094
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - specific emotional intent
+  - subjectivity lexicons
+  question_text: How is specific emotional intent different from subjectivity lexicons?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000095
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - make compelling visualizations. you’ll start
+  - with an introduction to polarity scoring using qdap’s sentiment function,
+  question_text: How is make compelling visualizations. you’ll start different from
+    with an introduction to polarity scoring using qdap’s sentiment function,?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000096
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - make compelling visualizations. you’ll start
+  - will build your understanding of zipf’s law
+  question_text: How is make compelling visualizations. you’ll start different from
+    will build your understanding of zipf’s law?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000097
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - make compelling visualizations. you’ll start
+  - subjectivity lexicons
+  question_text: How is make compelling visualizations. you’ll start different from
+    subjectivity lexicons?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000098
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - with an introduction to polarity scoring using qdap’s sentiment function,
+  - will build your understanding of zipf’s law
+  question_text: How is with an introduction to polarity scoring using qdap’s sentiment
+    function, different from will build your understanding of zipf’s law?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000099
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - with an introduction to polarity scoring using qdap’s sentiment function,
+  - subjectivity lexicons
+  question_text: How is with an introduction to polarity scoring using qdap’s sentiment
+    function, different from subjectivity lexicons?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000100
+  course:
+    course_id: '24639'
+    title: Use Tidytext to Perform Sentiment Analysis
+  relevant_topics:
+  - will build your understanding of zipf’s law
+  - subjectivity lexicons
+  question_text: How is will build your understanding of zipf’s law different from
+    subjectivity lexicons?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 11
+  canonical_topic_count: 11
+  candidate_count: 100
+  accepted_count: 100
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 100

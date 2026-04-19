@@ -1,0 +1,2099 @@
+course_id: '24458'
+title: Time Series Analysis in Python
+normalized_course:
+  course_id: '24458'
+  title: Time Series Analysis in Python
+  provider: DataCamp
+  summary: 'In this four-hour course, you’ll learn the basics of analyzing time series
+
+    data in Python.'
+  overview: 'In this four-hour course, you’ll learn the basics of analyzing time series
+
+    data in Python.
+
+
+    Learn How to Use Python for Time Series Analysis
+
+
+    From stock prices to climate data, you can find time series data in a wide
+
+    variety of domains. Having the skills to work with such data effectively is
+
+    an increasingly important skill for data scientists. This course will
+
+    introduce you to time series analysis in Python.
+
+
+    After learning what a time series is, you''ll explore several time series
+
+    models, ranging from autoregressive and moving average models to
+
+    cointegration models. Along the way, you''ll learn how to estimate, forecast,
+
+    and simulate these models using statistical libraries in Python.
+
+
+    You''ll see numerous examples of how these models are used, with a particular
+
+    emphasis on applications in finance.
+
+
+    Discover How to Use Time Series Methods
+
+
+    You’ll start by covering the fundamentals of time series data, as well as
+
+    simple linear regression. You’ll cover concepts of correlation and
+
+    autocorrelation and how they apply to time series data before exploring some
+
+    simple time series models, such as white noise and a random walk.
+
+
+    Next, you’ll explore how autoregressive (AR) models are used for time series
+
+    data to predict current values and how moving average models can combine
+
+    with AR models to produce powerful ARMA models.
+
+
+    Finally, you’ll look at how to use cointegration models to model two series
+
+    jointly before looking at a real-life case study.
+
+
+    Explore Python Models and Libraries for Time Series Analysis
+
+
+    By the end of this course, you’ll understand how time series analysis in
+
+    Python works. You’ll know about some of the models, methods, and libraries
+
+    that can assist you with the process and will know how to choose the
+
+    appropriate ones for your own analysis.
+
+
+    This course is part of a wider Time Series with Python Track, which provides
+
+    a set of five courses to help you master this data science skill.'
+  chapters:
+  - chapter_index: 1
+    title: Correlation and Autocorrelation
+    summary: 'In this chapter you''ll be introduced to the ideas of correlation and
+
+      autocorrelation for time series. Correlation describes the
+
+      relationship between two time series and autocorrelation describes
+
+      the relationship of a time series with its past values.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 2
+    title: Some Simple Time Series
+    summary: 'In this chapter you''ll learn about some simple time series models.
+
+      These include white noise and a random walk.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 3
+    title: Autoregressive (AR) Models
+    summary: 'In this chapter you''ll learn about autoregressive, or AR, models for
+
+      time series. These models use past values of the series to predict
+
+      the current value.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 4
+    title: Moving Average (MA) and ARMA Models
+    summary: 'In this chapter you''ll learn about another kind of model, the moving
+
+      average, or MA, model. You will also see how to combine AR and MA
+
+      models into a powerful ARMA model.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 5
+    title: Putting It All Together
+    summary: 'This chapter will show you how to model two series jointly using
+
+      cointegration models. Then you''ll wrap up with a case study where
+
+      you look at a time series of temperature data from New York City.'
+    source: syllabus
+    confidence: 1.0
+  metadata:
+    level: Intermediate
+    duration_hours: 4 hours
+    subjects:
+    - Time Series Analysis
+    - Python
+    - Random Walks
+    - Correlation
+    - Autocorrelation
+    - Autoregressive Models
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: correlation
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: correlation'
+  evidence:
+  - source: syllabus
+    text: Correlation and Autocorrelation
+  confidence: 0.55
+- topic_id: t002
+  label: autocorrelation
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: autocorrelation'
+  evidence:
+  - source: syllabus
+    text: Correlation and Autocorrelation
+  confidence: 0.55
+- topic_id: t003
+  label: some simple time series
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: some simple time series'
+  evidence:
+  - source: syllabus
+    text: Some Simple Time Series
+  confidence: 0.45
+- topic_id: t004
+  label: autoregressive (ar) models
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: autoregressive (ar) models'
+  evidence:
+  - source: syllabus
+    text: Autoregressive (AR) Models
+  confidence: 0.45
+- topic_id: t005
+  label: moving average (ma)
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: moving average (ma)'
+  evidence:
+  - source: syllabus
+    text: Moving Average (MA) and ARMA Models
+  confidence: 0.55
+- topic_id: t006
+  label: arma models
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: arma models'
+  evidence:
+  - source: syllabus
+    text: Moving Average (MA) and ARMA Models
+  confidence: 0.55
+- topic_id: t007
+  label: putting it all together
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: putting it all together'
+  evidence:
+  - source: syllabus
+    text: Putting It All Together
+  confidence: 0.45
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: correlation
+  aliases:
+  - correlation
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: autocorrelation
+  aliases:
+  - autocorrelation
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: some simple time series
+  aliases:
+  - some simple time series
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: autoregressive (ar) model
+  aliases:
+  - autoregressive (ar) models
+  member_topic_ids:
+  - t004
+  topic_type: concept
+- canonical_topic_id: ct_005
+  label: moving average (ma)
+  aliases:
+  - moving average (ma)
+  member_topic_ids:
+  - t005
+  topic_type: concept
+- canonical_topic_id: ct_006
+  label: arma model
+  aliases:
+  - arma models
+  member_topic_ids:
+  - t006
+  topic_type: concept
+- canonical_topic_id: ct_007
+  label: putting it all together
+  aliases:
+  - putting it all together
+  member_topic_ids:
+  - t007
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - correlation
+  family: entry
+  pattern: What is {x}?
+  question_text: What is correlation?
+- candidate_id: q0002
+  relevant_topics:
+  - correlation
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does correlation mean?
+- candidate_id: q0003
+  relevant_topics:
+  - correlation
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does correlation matter?
+- candidate_id: q0004
+  relevant_topics:
+  - correlation
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use correlation?
+- candidate_id: q0005
+  relevant_topics:
+  - correlation
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of correlation?
+- candidate_id: q0006
+  relevant_topics:
+  - autocorrelation
+  family: entry
+  pattern: What is {x}?
+  question_text: What is autocorrelation?
+- candidate_id: q0007
+  relevant_topics:
+  - autocorrelation
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does autocorrelation mean?
+- candidate_id: q0008
+  relevant_topics:
+  - autocorrelation
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does autocorrelation matter?
+- candidate_id: q0009
+  relevant_topics:
+  - autocorrelation
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use autocorrelation?
+- candidate_id: q0010
+  relevant_topics:
+  - autocorrelation
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of autocorrelation?
+- candidate_id: q0011
+  relevant_topics:
+  - some simple time series
+  family: entry
+  pattern: What is {x}?
+  question_text: What is some simple time series?
+- candidate_id: q0012
+  relevant_topics:
+  - some simple time series
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does some simple time series mean?
+- candidate_id: q0013
+  relevant_topics:
+  - some simple time series
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does some simple time series matter?
+- candidate_id: q0014
+  relevant_topics:
+  - some simple time series
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use some simple time series?
+- candidate_id: q0015
+  relevant_topics:
+  - some simple time series
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of some simple time series?
+- candidate_id: q0016
+  relevant_topics:
+  - autoregressive (ar) model
+  family: entry
+  pattern: What is {x}?
+  question_text: What is autoregressive (ar) model?
+- candidate_id: q0017
+  relevant_topics:
+  - autoregressive (ar) model
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does autoregressive (ar) model mean?
+- candidate_id: q0018
+  relevant_topics:
+  - autoregressive (ar) model
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does autoregressive (ar) model matter?
+- candidate_id: q0019
+  relevant_topics:
+  - autoregressive (ar) model
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use autoregressive (ar) model?
+- candidate_id: q0020
+  relevant_topics:
+  - autoregressive (ar) model
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of autoregressive (ar) model?
+- candidate_id: q0021
+  relevant_topics:
+  - moving average (ma)
+  family: entry
+  pattern: What is {x}?
+  question_text: What is moving average (ma)?
+- candidate_id: q0022
+  relevant_topics:
+  - moving average (ma)
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does moving average (ma) mean?
+- candidate_id: q0023
+  relevant_topics:
+  - moving average (ma)
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does moving average (ma) matter?
+- candidate_id: q0024
+  relevant_topics:
+  - moving average (ma)
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use moving average (ma)?
+- candidate_id: q0025
+  relevant_topics:
+  - moving average (ma)
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of moving average (ma)?
+- candidate_id: q0026
+  relevant_topics:
+  - arma model
+  family: entry
+  pattern: What is {x}?
+  question_text: What is arma model?
+- candidate_id: q0027
+  relevant_topics:
+  - arma model
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does arma model mean?
+- candidate_id: q0028
+  relevant_topics:
+  - arma model
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does arma model matter?
+- candidate_id: q0029
+  relevant_topics:
+  - arma model
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use arma model?
+- candidate_id: q0030
+  relevant_topics:
+  - arma model
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of arma model?
+- candidate_id: q0031
+  relevant_topics:
+  - putting it all together
+  family: entry
+  pattern: What is {x}?
+  question_text: What is putting it all together?
+- candidate_id: q0032
+  relevant_topics:
+  - putting it all together
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does putting it all together mean?
+- candidate_id: q0033
+  relevant_topics:
+  - putting it all together
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does putting it all together matter?
+- candidate_id: q0034
+  relevant_topics:
+  - putting it all together
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use putting it all together?
+- candidate_id: q0035
+  relevant_topics:
+  - putting it all together
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of putting it all together?
+- candidate_id: q0036
+  relevant_topics:
+  - correlation
+  - autocorrelation
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is correlation different from autocorrelation?
+- candidate_id: q0037
+  relevant_topics:
+  - correlation
+  - some simple time series
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is correlation different from some simple time series?
+- candidate_id: q0038
+  relevant_topics:
+  - correlation
+  - autoregressive (ar) model
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is correlation different from autoregressive (ar) model?
+- candidate_id: q0039
+  relevant_topics:
+  - correlation
+  - moving average (ma)
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is correlation different from moving average (ma)?
+- candidate_id: q0040
+  relevant_topics:
+  - correlation
+  - arma model
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is correlation different from arma model?
+- candidate_id: q0041
+  relevant_topics:
+  - correlation
+  - putting it all together
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is correlation different from putting it all together?
+- candidate_id: q0042
+  relevant_topics:
+  - autocorrelation
+  - some simple time series
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is autocorrelation different from some simple time series?
+- candidate_id: q0043
+  relevant_topics:
+  - autocorrelation
+  - autoregressive (ar) model
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is autocorrelation different from autoregressive (ar) model?
+- candidate_id: q0044
+  relevant_topics:
+  - autocorrelation
+  - moving average (ma)
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is autocorrelation different from moving average (ma)?
+- candidate_id: q0045
+  relevant_topics:
+  - autocorrelation
+  - arma model
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is autocorrelation different from arma model?
+- candidate_id: q0046
+  relevant_topics:
+  - autocorrelation
+  - putting it all together
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is autocorrelation different from putting it all together?
+- candidate_id: q0047
+  relevant_topics:
+  - some simple time series
+  - autoregressive (ar) model
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is some simple time series different from autoregressive (ar)
+    model?
+- candidate_id: q0048
+  relevant_topics:
+  - some simple time series
+  - moving average (ma)
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is some simple time series different from moving average (ma)?
+- candidate_id: q0049
+  relevant_topics:
+  - some simple time series
+  - arma model
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is some simple time series different from arma model?
+- candidate_id: q0050
+  relevant_topics:
+  - some simple time series
+  - putting it all together
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is some simple time series different from putting it all together?
+- candidate_id: q0051
+  relevant_topics:
+  - autoregressive (ar) model
+  - moving average (ma)
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is autoregressive (ar) model different from moving average (ma)?
+- candidate_id: q0052
+  relevant_topics:
+  - autoregressive (ar) model
+  - arma model
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is autoregressive (ar) model different from arma model?
+- candidate_id: q0053
+  relevant_topics:
+  - autoregressive (ar) model
+  - putting it all together
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is autoregressive (ar) model different from putting it all together?
+- candidate_id: q0054
+  relevant_topics:
+  - moving average (ma)
+  - arma model
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is moving average (ma) different from arma model?
+- candidate_id: q0055
+  relevant_topics:
+  - moving average (ma)
+  - putting it all together
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is moving average (ma) different from putting it all together?
+- candidate_id: q0056
+  relevant_topics:
+  - arma model
+  - putting it all together
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is arma model different from putting it all together?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is correlation?
+  final_text: What is correlation?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does correlation mean?
+  final_text: What does correlation mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does correlation matter?
+  final_text: Why does correlation matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use correlation?
+  final_text: Why does correlation?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of correlation?
+  final_text: What is a simple example of correlation?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is autocorrelation?
+  final_text: What is autocorrelation?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does autocorrelation mean?
+  final_text: What does autocorrelation mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does autocorrelation matter?
+  final_text: Why does autocorrelation matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use autocorrelation?
+  final_text: Why does autocorrelation?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of autocorrelation?
+  final_text: What is a simple example of autocorrelation?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is some simple time series?
+  final_text: What is some simple time series?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does some simple time series mean?
+  final_text: What does some simple time series mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does some simple time series matter?
+  final_text: Why does some simple time series matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use some simple time series?
+  final_text: Why does some simple time series?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of some simple time series?
+  final_text: What is a simple example of some simple time series?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is autoregressive (ar) model?
+  final_text: What is autoregressive (ar) model?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does autoregressive (ar) model mean?
+  final_text: What does autoregressive (ar) model mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does autoregressive (ar) model matter?
+  final_text: Why does autoregressive (ar) model matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use autoregressive (ar) model?
+  final_text: Why does autoregressive (ar) model?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of autoregressive (ar) model?
+  final_text: What is a simple example of autoregressive (ar) model?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: What is moving average (ma)?
+  final_text: What is moving average (ma)?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: What does moving average (ma) mean?
+  final_text: What does moving average (ma) mean?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: Why does moving average (ma) matter?
+  final_text: Why does moving average (ma) matter?
+  reject_reason: null
+- candidate_id: q0024
+  status: repaired
+  original_text: Why do we use moving average (ma)?
+  final_text: Why does moving average (ma)?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: What is a simple example of moving average (ma)?
+  final_text: What is a simple example of moving average (ma)?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: What is arma model?
+  final_text: What is arma model?
+  reject_reason: null
+- candidate_id: q0027
+  status: accepted
+  original_text: What does arma model mean?
+  final_text: What does arma model mean?
+  reject_reason: null
+- candidate_id: q0028
+  status: accepted
+  original_text: Why does arma model matter?
+  final_text: Why does arma model matter?
+  reject_reason: null
+- candidate_id: q0029
+  status: repaired
+  original_text: Why do we use arma model?
+  final_text: Why does arma model?
+  reject_reason: null
+- candidate_id: q0030
+  status: accepted
+  original_text: What is a simple example of arma model?
+  final_text: What is a simple example of arma model?
+  reject_reason: null
+- candidate_id: q0031
+  status: accepted
+  original_text: What is putting it all together?
+  final_text: What is putting it all together?
+  reject_reason: null
+- candidate_id: q0032
+  status: accepted
+  original_text: What does putting it all together mean?
+  final_text: What does putting it all together mean?
+  reject_reason: null
+- candidate_id: q0033
+  status: accepted
+  original_text: Why does putting it all together matter?
+  final_text: Why does putting it all together matter?
+  reject_reason: null
+- candidate_id: q0034
+  status: repaired
+  original_text: Why do we use putting it all together?
+  final_text: Why does putting it all together?
+  reject_reason: null
+- candidate_id: q0035
+  status: accepted
+  original_text: What is a simple example of putting it all together?
+  final_text: What is a simple example of putting it all together?
+  reject_reason: null
+- candidate_id: q0036
+  status: accepted
+  original_text: How is correlation different from autocorrelation?
+  final_text: How is correlation different from autocorrelation?
+  reject_reason: null
+- candidate_id: q0037
+  status: accepted
+  original_text: How is correlation different from some simple time series?
+  final_text: How is correlation different from some simple time series?
+  reject_reason: null
+- candidate_id: q0038
+  status: accepted
+  original_text: How is correlation different from autoregressive (ar) model?
+  final_text: How is correlation different from autoregressive (ar) model?
+  reject_reason: null
+- candidate_id: q0039
+  status: accepted
+  original_text: How is correlation different from moving average (ma)?
+  final_text: How is correlation different from moving average (ma)?
+  reject_reason: null
+- candidate_id: q0040
+  status: accepted
+  original_text: How is correlation different from arma model?
+  final_text: How is correlation different from arma model?
+  reject_reason: null
+- candidate_id: q0041
+  status: accepted
+  original_text: How is correlation different from putting it all together?
+  final_text: How is correlation different from putting it all together?
+  reject_reason: null
+- candidate_id: q0042
+  status: accepted
+  original_text: How is autocorrelation different from some simple time series?
+  final_text: How is autocorrelation different from some simple time series?
+  reject_reason: null
+- candidate_id: q0043
+  status: accepted
+  original_text: How is autocorrelation different from autoregressive (ar) model?
+  final_text: How is autocorrelation different from autoregressive (ar) model?
+  reject_reason: null
+- candidate_id: q0044
+  status: accepted
+  original_text: How is autocorrelation different from moving average (ma)?
+  final_text: How is autocorrelation different from moving average (ma)?
+  reject_reason: null
+- candidate_id: q0045
+  status: accepted
+  original_text: How is autocorrelation different from arma model?
+  final_text: How is autocorrelation different from arma model?
+  reject_reason: null
+- candidate_id: q0046
+  status: accepted
+  original_text: How is autocorrelation different from putting it all together?
+  final_text: How is autocorrelation different from putting it all together?
+  reject_reason: null
+- candidate_id: q0047
+  status: accepted
+  original_text: How is some simple time series different from autoregressive (ar)
+    model?
+  final_text: How is some simple time series different from autoregressive (ar) model?
+  reject_reason: null
+- candidate_id: q0048
+  status: accepted
+  original_text: How is some simple time series different from moving average (ma)?
+  final_text: How is some simple time series different from moving average (ma)?
+  reject_reason: null
+- candidate_id: q0049
+  status: accepted
+  original_text: How is some simple time series different from arma model?
+  final_text: How is some simple time series different from arma model?
+  reject_reason: null
+- candidate_id: q0050
+  status: accepted
+  original_text: How is some simple time series different from putting it all together?
+  final_text: How is some simple time series different from putting it all together?
+  reject_reason: null
+- candidate_id: q0051
+  status: accepted
+  original_text: How is autoregressive (ar) model different from moving average (ma)?
+  final_text: How is autoregressive (ar) model different from moving average (ma)?
+  reject_reason: null
+- candidate_id: q0052
+  status: accepted
+  original_text: How is autoregressive (ar) model different from arma model?
+  final_text: How is autoregressive (ar) model different from arma model?
+  reject_reason: null
+- candidate_id: q0053
+  status: accepted
+  original_text: How is autoregressive (ar) model different from putting it all together?
+  final_text: How is autoregressive (ar) model different from putting it all together?
+  reject_reason: null
+- candidate_id: q0054
+  status: accepted
+  original_text: How is moving average (ma) different from arma model?
+  final_text: How is moving average (ma) different from arma model?
+  reject_reason: null
+- candidate_id: q0055
+  status: accepted
+  original_text: How is moving average (ma) different from putting it all together?
+  final_text: How is moving average (ma) different from putting it all together?
+  reject_reason: null
+- candidate_id: q0056
+  status: accepted
+  original_text: How is arma model different from putting it all together?
+  final_text: How is arma model different from putting it all together?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is correlation?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does correlation mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does correlation matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does correlation?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of correlation?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is autocorrelation?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does autocorrelation mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does autocorrelation matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does autocorrelation?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of autocorrelation?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is some simple time series?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does some simple time series mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does some simple time series matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does some simple time series?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of some simple time series?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is autoregressive (ar) model?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does autoregressive (ar) model mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does autoregressive (ar) model matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does autoregressive (ar) model?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of autoregressive (ar) model?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: What is moving average (ma)?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: What does moving average (ma) mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: Why does moving average (ma) matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: Why does moving average (ma)?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: What is a simple example of moving average (ma)?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: What is arma model?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0027
+  question_text: What does arma model mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0028
+  question_text: Why does arma model matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0029
+  question_text: Why does arma model?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0030
+  question_text: What is a simple example of arma model?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0031
+  question_text: What is putting it all together?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0032
+  question_text: What does putting it all together mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0033
+  question_text: Why does putting it all together matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0034
+  question_text: Why does putting it all together?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0035
+  question_text: What is a simple example of putting it all together?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0036
+  question_text: How is correlation different from autocorrelation?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0037
+  question_text: How is correlation different from some simple time series?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0038
+  question_text: How is correlation different from autoregressive (ar) model?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0039
+  question_text: How is correlation different from moving average (ma)?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0040
+  question_text: How is correlation different from arma model?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0041
+  question_text: How is correlation different from putting it all together?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0042
+  question_text: How is autocorrelation different from some simple time series?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0043
+  question_text: How is autocorrelation different from autoregressive (ar) model?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0044
+  question_text: How is autocorrelation different from moving average (ma)?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0045
+  question_text: How is autocorrelation different from arma model?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0046
+  question_text: How is autocorrelation different from putting it all together?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0047
+  question_text: How is some simple time series different from autoregressive (ar)
+    model?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0048
+  question_text: How is some simple time series different from moving average (ma)?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0049
+  question_text: How is some simple time series different from arma model?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0050
+  question_text: How is some simple time series different from putting it all together?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0051
+  question_text: How is autoregressive (ar) model different from moving average (ma)?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0052
+  question_text: How is autoregressive (ar) model different from arma model?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0053
+  question_text: How is autoregressive (ar) model different from putting it all together?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0054
+  question_text: How is moving average (ma) different from arma model?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0055
+  question_text: How is moving average (ma) different from putting it all together?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0056
+  question_text: How is arma model different from putting it all together?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - correlation
+  question_text: What is correlation?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - correlation
+  question_text: What does correlation mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - correlation
+  question_text: Why does correlation matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - correlation
+  question_text: Why does correlation?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - correlation
+  question_text: What is a simple example of correlation?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - autocorrelation
+  question_text: What is autocorrelation?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - autocorrelation
+  question_text: What does autocorrelation mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - autocorrelation
+  question_text: Why does autocorrelation matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - autocorrelation
+  question_text: Why does autocorrelation?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - autocorrelation
+  question_text: What is a simple example of autocorrelation?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - some simple time series
+  question_text: What is some simple time series?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - some simple time series
+  question_text: What does some simple time series mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - some simple time series
+  question_text: Why does some simple time series matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - some simple time series
+  question_text: Why does some simple time series?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - some simple time series
+  question_text: What is a simple example of some simple time series?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - autoregressive (ar) model
+  question_text: What is autoregressive (ar) model?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - autoregressive (ar) model
+  question_text: What does autoregressive (ar) model mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - autoregressive (ar) model
+  question_text: Why does autoregressive (ar) model matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - autoregressive (ar) model
+  question_text: Why does autoregressive (ar) model?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - autoregressive (ar) model
+  question_text: What is a simple example of autoregressive (ar) model?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - moving average (ma)
+  question_text: What is moving average (ma)?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - moving average (ma)
+  question_text: What does moving average (ma) mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - moving average (ma)
+  question_text: Why does moving average (ma) matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - moving average (ma)
+  question_text: Why does moving average (ma)?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - moving average (ma)
+  question_text: What is a simple example of moving average (ma)?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - arma model
+  question_text: What is arma model?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000027
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - arma model
+  question_text: What does arma model mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000028
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - arma model
+  question_text: Why does arma model matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000029
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - arma model
+  question_text: Why does arma model?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000030
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - arma model
+  question_text: What is a simple example of arma model?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000031
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - putting it all together
+  question_text: What is putting it all together?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000032
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - putting it all together
+  question_text: What does putting it all together mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000033
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - putting it all together
+  question_text: Why does putting it all together matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000034
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - putting it all together
+  question_text: Why does putting it all together?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000035
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - putting it all together
+  question_text: What is a simple example of putting it all together?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000036
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - correlation
+  - autocorrelation
+  question_text: How is correlation different from autocorrelation?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000037
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - correlation
+  - some simple time series
+  question_text: How is correlation different from some simple time series?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000038
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - correlation
+  - autoregressive (ar) model
+  question_text: How is correlation different from autoregressive (ar) model?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000039
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - correlation
+  - moving average (ma)
+  question_text: How is correlation different from moving average (ma)?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000040
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - correlation
+  - arma model
+  question_text: How is correlation different from arma model?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000041
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - correlation
+  - putting it all together
+  question_text: How is correlation different from putting it all together?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000042
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - autocorrelation
+  - some simple time series
+  question_text: How is autocorrelation different from some simple time series?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000043
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - autocorrelation
+  - autoregressive (ar) model
+  question_text: How is autocorrelation different from autoregressive (ar) model?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000044
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - autocorrelation
+  - moving average (ma)
+  question_text: How is autocorrelation different from moving average (ma)?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000045
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - autocorrelation
+  - arma model
+  question_text: How is autocorrelation different from arma model?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000046
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - autocorrelation
+  - putting it all together
+  question_text: How is autocorrelation different from putting it all together?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000047
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - some simple time series
+  - autoregressive (ar) model
+  question_text: How is some simple time series different from autoregressive (ar)
+    model?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000048
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - some simple time series
+  - moving average (ma)
+  question_text: How is some simple time series different from moving average (ma)?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000049
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - some simple time series
+  - arma model
+  question_text: How is some simple time series different from arma model?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000050
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - some simple time series
+  - putting it all together
+  question_text: How is some simple time series different from putting it all together?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000051
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - autoregressive (ar) model
+  - moving average (ma)
+  question_text: How is autoregressive (ar) model different from moving average (ma)?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000052
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - autoregressive (ar) model
+  - arma model
+  question_text: How is autoregressive (ar) model different from arma model?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000053
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - autoregressive (ar) model
+  - putting it all together
+  question_text: How is autoregressive (ar) model different from putting it all together?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000054
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - moving average (ma)
+  - arma model
+  question_text: How is moving average (ma) different from arma model?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000055
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - moving average (ma)
+  - putting it all together
+  question_text: How is moving average (ma) different from putting it all together?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000056
+  course:
+    course_id: '24458'
+    title: Time Series Analysis in Python
+  relevant_topics:
+  - arma model
+  - putting it all together
+  question_text: How is arma model different from putting it all together?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 7
+  canonical_topic_count: 7
+  candidate_count: 56
+  accepted_count: 56
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 56

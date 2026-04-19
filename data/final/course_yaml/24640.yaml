@@ -1,0 +1,1388 @@
+course_id: '24640'
+title: Introduction to Natural Language Processing in R
+normalized_course:
+  course_id: '24640'
+  title: Introduction to Natural Language Processing in R
+  provider: DataCamp
+  summary: 'Gain an overview of all the skills and tools needed to excel in Natural
+
+    Language Processing in R.'
+  overview: 'True Fundamentals
+
+
+    Chapter 1 of Introduction to Natural Langauge Processing prepares you for
+
+    running your first analysis on text. You will explore regular expressions
+
+    and tokenization, two of the most common components of most analysis tasks.
+
+    With regular expressions, you can search for any pattern you can think of,
+
+    and with tokenization, you can prepare and clean text for more sophisticated
+
+    analysis. This chapter is necessary for tackling the techniques we will
+
+    learn in the remaining chapters of this course.
+
+
+    Representations of Text
+
+
+    In this chapter, you will learn the most common and studied ways to analyze
+
+    text. You will look at creating a text corpus, expanding a bag-of-words
+
+    representation into a TFIDF matrix, and use cosine-similarity metrics to
+
+    determine how similar two pieces of text are to each other. You build on
+
+    your foundations for practicing NLP before you dive into applications of NLP
+
+    in chapters 3 and 4.
+
+
+    Applications: Classification and Topic Modeling
+
+
+    Chapter 3 focuses on two common text analysis approaches, classification
+
+    modeling, and topic modeling. If you are working on text analysis projects,
+
+    you will inevitably use one or both of these methods. This chapter teaches
+
+    you how to perform both techniques and provides insight into how to approach
+
+    these techniques from a practical point of you.
+
+
+    Advanced Techniques
+
+
+    In chapter 4 we cover two staples of natural language processing, sentiment
+
+    analysis, and word embeddings. These are two analysis techniques that are a
+
+    must for anyone learning the fundamentals of text analysis. Furthermore, you
+
+    will briefly learn about BERT, part-of-speech tagging, and named entity
+
+    recognition. Almost 15 different analysis techniques were covered in this
+
+    course, so chapter 4 ends by recapping all of the great techniques you will
+
+    learn about in this course.'
+  chapters:
+  - chapter_index: 1
+    title: True Fundamentals
+    summary: 'Chapter 1 of Introduction to Natural Langauge Processing prepares
+
+      you for running your first analysis on text. You will explore
+
+      regular expressions and tokenization, two of the most common
+
+      components of most analysis tasks. With regular expressions, you can
+
+      search for any pattern you can think of, and with tokenization, you
+
+      can prepare and clean text for more sophisticated analysis. This
+
+      chapter is necessary for tackling the techniques we will learn in
+
+      the remaining chapters of this course.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 2
+    title: Representations of Text
+    summary: 'In this chapter, you will learn the most common and studied ways to
+
+      analyze text. You will look at creating a text corpus, expanding a
+
+      bag-of-words representation into a TFIDF matrix, and use
+
+      cosine-similarity metrics to determine how similar two pieces of
+
+      text are to each other. You build on your foundations for practicing
+
+      NLP before you dive into applications of NLP in chapters 3 and 4.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 3
+    title: 'Applications: Classification and Topic Modeling'
+    summary: 'Chapter 3 focuses on two common text analysis approaches,
+
+      classification modeling, and topic modeling. If you are working on
+
+      text analysis projects, you will inevitably use one or both of these
+
+      methods. This chapter teaches you how to perform both techniques and
+
+      provides insight into how to approach these techniques from a
+
+      practical point of you.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 4
+    title: Advanced Techniques
+    summary: 'In chapter 4 we cover two staples of natural language processing,
+
+      sentiment analysis, and word embeddings. These are two analysis
+
+      techniques that are a must for anyone learning the fundamentals of
+
+      text analysis. Furthermore, you will briefly learn about BERT,
+
+      part-of-speech tagging, and named entity recognition. Almost 15
+
+      different analysis techniques were covered in this course, so
+
+      chapter 4 ends by recapping all of the great techniques you will
+
+      learn about in this course.'
+    source: syllabus
+    confidence: 1.0
+  metadata:
+    level: Beginner
+    duration_hours: 4 hours
+    subjects:
+    - R Programming
+    - Sentiment Analysis
+    - Regular Expressions
+    - Text Analysis
+    - Topic Modeling
+    - Word Embeddings
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: true fundamentals
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: true fundamentals'
+  evidence:
+  - source: syllabus
+    text: True Fundamentals
+  confidence: 0.45
+- topic_id: t002
+  label: representations of text
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: representations of text'
+  evidence:
+  - source: syllabus
+    text: Representations of Text
+  confidence: 0.45
+- topic_id: t003
+  label: 'applications: classification'
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: applications: classification'
+  evidence:
+  - source: syllabus
+    text: 'Applications: Classification and Topic Modeling'
+  confidence: 0.55
+- topic_id: t004
+  label: topic modeling
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: topic modeling'
+  evidence:
+  - source: syllabus
+    text: 'Applications: Classification and Topic Modeling'
+  confidence: 0.55
+- topic_id: t005
+  label: advanced techniques
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: advanced techniques'
+  evidence:
+  - source: syllabus
+    text: Advanced Techniques
+  confidence: 0.45
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: true fundamentals
+  aliases:
+  - true fundamentals
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: representations of text
+  aliases:
+  - representations of text
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: 'applications: classification'
+  aliases:
+  - 'applications: classification'
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: topic modeling
+  aliases:
+  - topic modeling
+  member_topic_ids:
+  - t004
+  topic_type: concept
+- canonical_topic_id: ct_005
+  label: advanced techniques
+  aliases:
+  - advanced techniques
+  member_topic_ids:
+  - t005
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - true fundamentals
+  family: entry
+  pattern: What is {x}?
+  question_text: What is true fundamentals?
+- candidate_id: q0002
+  relevant_topics:
+  - true fundamentals
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does true fundamentals mean?
+- candidate_id: q0003
+  relevant_topics:
+  - true fundamentals
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does true fundamentals matter?
+- candidate_id: q0004
+  relevant_topics:
+  - true fundamentals
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use true fundamentals?
+- candidate_id: q0005
+  relevant_topics:
+  - true fundamentals
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of true fundamentals?
+- candidate_id: q0006
+  relevant_topics:
+  - representations of text
+  family: entry
+  pattern: What is {x}?
+  question_text: What is representations of text?
+- candidate_id: q0007
+  relevant_topics:
+  - representations of text
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does representations of text mean?
+- candidate_id: q0008
+  relevant_topics:
+  - representations of text
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does representations of text matter?
+- candidate_id: q0009
+  relevant_topics:
+  - representations of text
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use representations of text?
+- candidate_id: q0010
+  relevant_topics:
+  - representations of text
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of representations of text?
+- candidate_id: q0011
+  relevant_topics:
+  - 'applications: classification'
+  family: entry
+  pattern: What is {x}?
+  question_text: 'What is applications: classification?'
+- candidate_id: q0012
+  relevant_topics:
+  - 'applications: classification'
+  family: entry
+  pattern: What does {x} mean?
+  question_text: 'What does applications: classification mean?'
+- candidate_id: q0013
+  relevant_topics:
+  - 'applications: classification'
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: 'Why does applications: classification matter?'
+- candidate_id: q0014
+  relevant_topics:
+  - 'applications: classification'
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: 'Why do we use applications: classification?'
+- candidate_id: q0015
+  relevant_topics:
+  - 'applications: classification'
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: 'What is a simple example of applications: classification?'
+- candidate_id: q0016
+  relevant_topics:
+  - topic modeling
+  family: entry
+  pattern: What is {x}?
+  question_text: What is topic modeling?
+- candidate_id: q0017
+  relevant_topics:
+  - topic modeling
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does topic modeling mean?
+- candidate_id: q0018
+  relevant_topics:
+  - topic modeling
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does topic modeling matter?
+- candidate_id: q0019
+  relevant_topics:
+  - topic modeling
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use topic modeling?
+- candidate_id: q0020
+  relevant_topics:
+  - topic modeling
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of topic modeling?
+- candidate_id: q0021
+  relevant_topics:
+  - advanced techniques
+  family: entry
+  pattern: What is {x}?
+  question_text: What is advanced techniques?
+- candidate_id: q0022
+  relevant_topics:
+  - advanced techniques
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does advanced techniques mean?
+- candidate_id: q0023
+  relevant_topics:
+  - advanced techniques
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does advanced techniques matter?
+- candidate_id: q0024
+  relevant_topics:
+  - advanced techniques
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use advanced techniques?
+- candidate_id: q0025
+  relevant_topics:
+  - advanced techniques
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of advanced techniques?
+- candidate_id: q0026
+  relevant_topics:
+  - true fundamentals
+  - representations of text
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is true fundamentals different from representations of text?
+- candidate_id: q0027
+  relevant_topics:
+  - true fundamentals
+  - 'applications: classification'
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: 'How is true fundamentals different from applications: classification?'
+- candidate_id: q0028
+  relevant_topics:
+  - true fundamentals
+  - topic modeling
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is true fundamentals different from topic modeling?
+- candidate_id: q0029
+  relevant_topics:
+  - true fundamentals
+  - advanced techniques
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is true fundamentals different from advanced techniques?
+- candidate_id: q0030
+  relevant_topics:
+  - representations of text
+  - 'applications: classification'
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: 'How is representations of text different from applications: classification?'
+- candidate_id: q0031
+  relevant_topics:
+  - representations of text
+  - topic modeling
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is representations of text different from topic modeling?
+- candidate_id: q0032
+  relevant_topics:
+  - representations of text
+  - advanced techniques
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is representations of text different from advanced techniques?
+- candidate_id: q0033
+  relevant_topics:
+  - 'applications: classification'
+  - topic modeling
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: 'How is applications: classification different from topic modeling?'
+- candidate_id: q0034
+  relevant_topics:
+  - 'applications: classification'
+  - advanced techniques
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: 'How is applications: classification different from advanced techniques?'
+- candidate_id: q0035
+  relevant_topics:
+  - topic modeling
+  - advanced techniques
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is topic modeling different from advanced techniques?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is true fundamentals?
+  final_text: What is true fundamentals?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does true fundamentals mean?
+  final_text: What does true fundamentals mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does true fundamentals matter?
+  final_text: Why does true fundamentals matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use true fundamentals?
+  final_text: Why does true fundamentals?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of true fundamentals?
+  final_text: What is a simple example of true fundamentals?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is representations of text?
+  final_text: What is representations of text?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does representations of text mean?
+  final_text: What does representations of text mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does representations of text matter?
+  final_text: Why does representations of text matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use representations of text?
+  final_text: Why does representations of text?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of representations of text?
+  final_text: What is a simple example of representations of text?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: 'What is applications: classification?'
+  final_text: 'What is applications: classification?'
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: 'What does applications: classification mean?'
+  final_text: 'What does applications: classification mean?'
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: 'Why does applications: classification matter?'
+  final_text: 'Why does applications: classification matter?'
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: 'Why do we use applications: classification?'
+  final_text: 'Why does applications: classification?'
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: 'What is a simple example of applications: classification?'
+  final_text: 'What is a simple example of applications: classification?'
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is topic modeling?
+  final_text: What is topic modeling?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does topic modeling mean?
+  final_text: What does topic modeling mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does topic modeling matter?
+  final_text: Why does topic modeling matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use topic modeling?
+  final_text: Why does topic modeling?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of topic modeling?
+  final_text: What is a simple example of topic modeling?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: What is advanced techniques?
+  final_text: What is advanced techniques?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: What does advanced techniques mean?
+  final_text: What does advanced techniques mean?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: Why does advanced techniques matter?
+  final_text: Why does advanced techniques matter?
+  reject_reason: null
+- candidate_id: q0024
+  status: repaired
+  original_text: Why do we use advanced techniques?
+  final_text: Why does advanced techniques?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: What is a simple example of advanced techniques?
+  final_text: What is a simple example of advanced techniques?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: How is true fundamentals different from representations of text?
+  final_text: How is true fundamentals different from representations of text?
+  reject_reason: null
+- candidate_id: q0027
+  status: accepted
+  original_text: 'How is true fundamentals different from applications: classification?'
+  final_text: 'How is true fundamentals different from applications: classification?'
+  reject_reason: null
+- candidate_id: q0028
+  status: accepted
+  original_text: How is true fundamentals different from topic modeling?
+  final_text: How is true fundamentals different from topic modeling?
+  reject_reason: null
+- candidate_id: q0029
+  status: accepted
+  original_text: How is true fundamentals different from advanced techniques?
+  final_text: How is true fundamentals different from advanced techniques?
+  reject_reason: null
+- candidate_id: q0030
+  status: accepted
+  original_text: 'How is representations of text different from applications: classification?'
+  final_text: 'How is representations of text different from applications: classification?'
+  reject_reason: null
+- candidate_id: q0031
+  status: accepted
+  original_text: How is representations of text different from topic modeling?
+  final_text: How is representations of text different from topic modeling?
+  reject_reason: null
+- candidate_id: q0032
+  status: accepted
+  original_text: How is representations of text different from advanced techniques?
+  final_text: How is representations of text different from advanced techniques?
+  reject_reason: null
+- candidate_id: q0033
+  status: accepted
+  original_text: 'How is applications: classification different from topic modeling?'
+  final_text: 'How is applications: classification different from topic modeling?'
+  reject_reason: null
+- candidate_id: q0034
+  status: accepted
+  original_text: 'How is applications: classification different from advanced techniques?'
+  final_text: 'How is applications: classification different from advanced techniques?'
+  reject_reason: null
+- candidate_id: q0035
+  status: accepted
+  original_text: How is topic modeling different from advanced techniques?
+  final_text: How is topic modeling different from advanced techniques?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is true fundamentals?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does true fundamentals mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does true fundamentals matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does true fundamentals?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of true fundamentals?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is representations of text?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does representations of text mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does representations of text matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does representations of text?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of representations of text?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: 'What is applications: classification?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: 'What does applications: classification mean?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: 'Why does applications: classification matter?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: 'Why does applications: classification?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: 'What is a simple example of applications: classification?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is topic modeling?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does topic modeling mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does topic modeling matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does topic modeling?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of topic modeling?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: What is advanced techniques?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: What does advanced techniques mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: Why does advanced techniques matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: Why does advanced techniques?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: What is a simple example of advanced techniques?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: How is true fundamentals different from representations of text?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0027
+  question_text: 'How is true fundamentals different from applications: classification?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0028
+  question_text: How is true fundamentals different from topic modeling?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0029
+  question_text: How is true fundamentals different from advanced techniques?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0030
+  question_text: 'How is representations of text different from applications: classification?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0031
+  question_text: How is representations of text different from topic modeling?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0032
+  question_text: How is representations of text different from advanced techniques?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0033
+  question_text: 'How is applications: classification different from topic modeling?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0034
+  question_text: 'How is applications: classification different from advanced techniques?'
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0035
+  question_text: How is topic modeling different from advanced techniques?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24640'
+    title: Introduction to Natural Language Processing in R
+  relevant_topics:
+  - true fundamentals
+  question_text: What is true fundamentals?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24640'
+    title: Introduction to Natural Language Processing in R
+  relevant_topics:
+  - true fundamentals
+  question_text: What does true fundamentals mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24640'
+    title: Introduction to Natural Language Processing in R
+  relevant_topics:
+  - true fundamentals
+  question_text: Why does true fundamentals matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24640'
+    title: Introduction to Natural Language Processing in R
+  relevant_topics:
+  - true fundamentals
+  question_text: Why does true fundamentals?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24640'
+    title: Introduction to Natural Language Processing in R
+  relevant_topics:
+  - true fundamentals
+  question_text: What is a simple example of true fundamentals?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24640'
+    title: Introduction to Natural Language Processing in R
+  relevant_topics:
+  - representations of text
+  question_text: What is representations of text?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24640'
+    title: Introduction to Natural Language Processing in R
+  relevant_topics:
+  - representations of text
+  question_text: What does representations of text mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24640'
+    title: Introduction to Natural Language Processing in R
+  relevant_topics:
+  - representations of text
+  question_text: Why does representations of text matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24640'
+    title: Introduction to Natural Language Processing in R
+  relevant_topics:
+  - representations of text
+  question_text: Why does representations of text?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24640'
+    title: Introduction to Natural Language Processing in R
+  relevant_topics:
+  - representations of text
+  question_text: What is a simple example of representations of text?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24640'
+    title: Introduction to Natural Language Processing in R
+  relevant_topics:
+  - 'applications: classification'
+  question_text: 'What is applications: classification?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24640'
+    title: Introduction to Natural Language Processing in R
+  relevant_topics:
+  - 'applications: classification'
+  question_text: 'What does applications: classification mean?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24640'
+    title: Introduction to Natural Language Processing in R
+  relevant_topics:
+  - 'applications: classification'
+  question_text: 'Why does applications: classification matter?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24640'
+    title: Introduction to Natural Language Processing in R
+  relevant_topics:
+  - 'applications: classification'
+  question_text: 'Why does applications: classification?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24640'
+    title: Introduction to Natural Language Processing in R
+  relevant_topics:
+  - 'applications: classification'
+  question_text: 'What is a simple example of applications: classification?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24640'
+    title: Introduction to Natural Language Processing in R
+  relevant_topics:
+  - topic modeling
+  question_text: What is topic modeling?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24640'
+    title: Introduction to Natural Language Processing in R
+  relevant_topics:
+  - topic modeling
+  question_text: What does topic modeling mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24640'
+    title: Introduction to Natural Language Processing in R
+  relevant_topics:
+  - topic modeling
+  question_text: Why does topic modeling matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24640'
+    title: Introduction to Natural Language Processing in R
+  relevant_topics:
+  - topic modeling
+  question_text: Why does topic modeling?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24640'
+    title: Introduction to Natural Language Processing in R
+  relevant_topics:
+  - topic modeling
+  question_text: What is a simple example of topic modeling?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24640'
+    title: Introduction to Natural Language Processing in R
+  relevant_topics:
+  - advanced techniques
+  question_text: What is advanced techniques?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24640'
+    title: Introduction to Natural Language Processing in R
+  relevant_topics:
+  - advanced techniques
+  question_text: What does advanced techniques mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24640'
+    title: Introduction to Natural Language Processing in R
+  relevant_topics:
+  - advanced techniques
+  question_text: Why does advanced techniques matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24640'
+    title: Introduction to Natural Language Processing in R
+  relevant_topics:
+  - advanced techniques
+  question_text: Why does advanced techniques?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24640'
+    title: Introduction to Natural Language Processing in R
+  relevant_topics:
+  - advanced techniques
+  question_text: What is a simple example of advanced techniques?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24640'
+    title: Introduction to Natural Language Processing in R
+  relevant_topics:
+  - true fundamentals
+  - representations of text
+  question_text: How is true fundamentals different from representations of text?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000027
+  course:
+    course_id: '24640'
+    title: Introduction to Natural Language Processing in R
+  relevant_topics:
+  - true fundamentals
+  - 'applications: classification'
+  question_text: 'How is true fundamentals different from applications: classification?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000028
+  course:
+    course_id: '24640'
+    title: Introduction to Natural Language Processing in R
+  relevant_topics:
+  - true fundamentals
+  - topic modeling
+  question_text: How is true fundamentals different from topic modeling?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000029
+  course:
+    course_id: '24640'
+    title: Introduction to Natural Language Processing in R
+  relevant_topics:
+  - true fundamentals
+  - advanced techniques
+  question_text: How is true fundamentals different from advanced techniques?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000030
+  course:
+    course_id: '24640'
+    title: Introduction to Natural Language Processing in R
+  relevant_topics:
+  - representations of text
+  - 'applications: classification'
+  question_text: 'How is representations of text different from applications: classification?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000031
+  course:
+    course_id: '24640'
+    title: Introduction to Natural Language Processing in R
+  relevant_topics:
+  - representations of text
+  - topic modeling
+  question_text: How is representations of text different from topic modeling?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000032
+  course:
+    course_id: '24640'
+    title: Introduction to Natural Language Processing in R
+  relevant_topics:
+  - representations of text
+  - advanced techniques
+  question_text: How is representations of text different from advanced techniques?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000033
+  course:
+    course_id: '24640'
+    title: Introduction to Natural Language Processing in R
+  relevant_topics:
+  - 'applications: classification'
+  - topic modeling
+  question_text: 'How is applications: classification different from topic modeling?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000034
+  course:
+    course_id: '24640'
+    title: Introduction to Natural Language Processing in R
+  relevant_topics:
+  - 'applications: classification'
+  - advanced techniques
+  question_text: 'How is applications: classification different from advanced techniques?'
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000035
+  course:
+    course_id: '24640'
+    title: Introduction to Natural Language Processing in R
+  relevant_topics:
+  - topic modeling
+  - advanced techniques
+  question_text: How is topic modeling different from advanced techniques?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 5
+  canonical_topic_count: 5
+  candidate_count: 35
+  accepted_count: 35
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 35

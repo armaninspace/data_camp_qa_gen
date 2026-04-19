@@ -1,0 +1,1382 @@
+course_id: '24641'
+title: Improving Query Performance in PostgreSQL
+normalized_course:
+  course_id: '24641'
+  title: Improving Query Performance in PostgreSQL
+  provider: DataCamp
+  summary: 'Learn how to structure your PostgreSQL queries to run in a fraction of
+    the
+
+    time.'
+  overview: 'Bringing Together the Data
+
+
+    Bundle up as you dive into the Winter Olympics! You will learn how to join,
+
+    subquery, and create temporary tables while finding which Olympic athletes
+
+    brave sub-freezing temperatures to train. You will also learn about the
+
+    query planner and how its functionality can guide your SQL structure to
+
+    faster queries.
+
+
+    Minimizing Results and Decreasing the Load
+
+
+    Dig up those past algebra memories while learning the SQL order of
+
+    operations. Find which countries "should" have the most athletes by looking
+
+    at population and gross domestic product (GDP) while learning the best way
+
+    to filter. You will also learn when your query aggregates (sums, counts,
+
+    etc.) and how you can structure your query to optimize this process.
+
+
+    Using Database Designed Properties
+
+
+    Zero in on the properties that improve database performance. Discover when
+
+    your table is not a table but a view. Learn how your database''s storage
+
+    structure (row or column oriented) impacts your query structure. You will
+
+    explore volcanic smog while using partitions and indexes to speed your
+
+    queries.
+
+
+    Assessing Query Performance
+
+
+    Learn the lingo of the Query Lifecycle and dive into the query planner.
+
+    Explore how the query planner creates and optimizes the query plan. Find
+
+    your next vacation locale by looking for countries with recent population
+
+    growth while also seeing how a join impacts the query steps. Fine tune your
+
+    optimization techniques by seeing how different filters speed your query
+
+    times.'
+  chapters:
+  - chapter_index: 1
+    title: Bringing Together the Data
+    summary: 'Bundle up as you dive into the Winter Olympics! You will learn how
+
+      to join, subquery, and create temporary tables while finding which
+
+      Olympic athletes brave sub-freezing temperatures to train. You will
+
+      also learn about the query planner and how its functionality can
+
+      guide your SQL structure to faster queries.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 2
+    title: Minimizing Results and Decreasing the Load
+    summary: 'Dig up those past algebra memories while learning the SQL order of
+
+      operations. Find which countries "should" have the most athletes by
+
+      looking at population and gross domestic product (GDP) while
+
+      learning the best way to filter. You will also learn when your query
+
+      aggregates (sums, counts, etc.) and how you can structure your query
+
+      to optimize this process.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 3
+    title: Using Database Designed Properties
+    summary: 'Zero in on the properties that improve database performance.
+
+      Discover when your table is not a table but a view. Learn how your
+
+      database''s storage structure (row or column oriented) impacts your
+
+      query structure. You will explore volcanic smog while using
+
+      partitions and indexes to speed your queries.'
+    source: syllabus
+    confidence: 1.0
+  - chapter_index: 4
+    title: Assessing Query Performance
+    summary: 'Learn the lingo of the Query Lifecycle and dive into the query
+
+      planner. Explore how the query planner creates and optimizes the
+
+      query plan. Find your next vacation locale by looking for countries
+
+      with recent population growth while also seeing how a join impacts
+
+      the query steps. Fine tune your optimization techniques by seeing
+
+      how different filters speed your query times.'
+    source: syllabus
+    confidence: 1.0
+  metadata:
+    level: Intermediate
+    duration_hours: 4 hours
+    subjects:
+    - PostgreSQL
+    - Data Analysis
+    - SQL
+    - Database Administration
+    - Temporary Tables
+  source_refs:
+    title: true
+    summary: true
+    overview: true
+    syllabus: true
+    source_url: true
+    final_url: true
+extracted_topics:
+- topic_id: t001
+  label: bringing together the data
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: bringing together the data'
+  evidence:
+  - source: syllabus
+    text: Bringing Together the Data
+  confidence: 0.45
+- topic_id: t002
+  label: minimizing results
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: minimizing results'
+  evidence:
+  - source: syllabus
+    text: Minimizing Results and Decreasing the Load
+  confidence: 0.55
+- topic_id: t003
+  label: decreasing the load
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: decreasing the load'
+  evidence:
+  - source: syllabus
+    text: Minimizing Results and Decreasing the Load
+  confidence: 0.55
+- topic_id: t004
+  label: using database designed properties
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: using database designed properties'
+  evidence:
+  - source: syllabus
+    text: Using Database Designed Properties
+  confidence: 0.45
+- topic_id: t005
+  label: assessing query performance
+  topic_type: concept
+  description: 'Topic inferred from chapter heading: assessing query performance'
+  evidence:
+  - source: syllabus
+    text: Assessing Query Performance
+  confidence: 0.45
+canonical_topics:
+- canonical_topic_id: ct_001
+  label: bringing together data
+  aliases:
+  - bringing together the data
+  member_topic_ids:
+  - t001
+  topic_type: concept
+- canonical_topic_id: ct_002
+  label: minimizing results
+  aliases:
+  - minimizing results
+  member_topic_ids:
+  - t002
+  topic_type: concept
+- canonical_topic_id: ct_003
+  label: decreasing load
+  aliases:
+  - decreasing the load
+  member_topic_ids:
+  - t003
+  topic_type: concept
+- canonical_topic_id: ct_004
+  label: using database designed properties
+  aliases:
+  - using database designed properties
+  member_topic_ids:
+  - t004
+  topic_type: concept
+- canonical_topic_id: ct_005
+  label: assessing query performance
+  aliases:
+  - assessing query performance
+  member_topic_ids:
+  - t005
+  topic_type: concept
+question_candidates:
+- candidate_id: q0001
+  relevant_topics:
+  - bringing together data
+  family: entry
+  pattern: What is {x}?
+  question_text: What is bringing together data?
+- candidate_id: q0002
+  relevant_topics:
+  - bringing together data
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does bringing together data mean?
+- candidate_id: q0003
+  relevant_topics:
+  - bringing together data
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does bringing together data matter?
+- candidate_id: q0004
+  relevant_topics:
+  - bringing together data
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use bringing together data?
+- candidate_id: q0005
+  relevant_topics:
+  - bringing together data
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of bringing together data?
+- candidate_id: q0006
+  relevant_topics:
+  - minimizing results
+  family: entry
+  pattern: What is {x}?
+  question_text: What is minimizing results?
+- candidate_id: q0007
+  relevant_topics:
+  - minimizing results
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does minimizing results mean?
+- candidate_id: q0008
+  relevant_topics:
+  - minimizing results
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does minimizing results matter?
+- candidate_id: q0009
+  relevant_topics:
+  - minimizing results
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use minimizing results?
+- candidate_id: q0010
+  relevant_topics:
+  - minimizing results
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of minimizing results?
+- candidate_id: q0011
+  relevant_topics:
+  - decreasing load
+  family: entry
+  pattern: What is {x}?
+  question_text: What is decreasing load?
+- candidate_id: q0012
+  relevant_topics:
+  - decreasing load
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does decreasing load mean?
+- candidate_id: q0013
+  relevant_topics:
+  - decreasing load
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does decreasing load matter?
+- candidate_id: q0014
+  relevant_topics:
+  - decreasing load
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use decreasing load?
+- candidate_id: q0015
+  relevant_topics:
+  - decreasing load
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of decreasing load?
+- candidate_id: q0016
+  relevant_topics:
+  - using database designed properties
+  family: entry
+  pattern: What is {x}?
+  question_text: What is using database designed properties?
+- candidate_id: q0017
+  relevant_topics:
+  - using database designed properties
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does using database designed properties mean?
+- candidate_id: q0018
+  relevant_topics:
+  - using database designed properties
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does using database designed properties matter?
+- candidate_id: q0019
+  relevant_topics:
+  - using database designed properties
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use using database designed properties?
+- candidate_id: q0020
+  relevant_topics:
+  - using database designed properties
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of using database designed properties?
+- candidate_id: q0021
+  relevant_topics:
+  - assessing query performance
+  family: entry
+  pattern: What is {x}?
+  question_text: What is assessing query performance?
+- candidate_id: q0022
+  relevant_topics:
+  - assessing query performance
+  family: entry
+  pattern: What does {x} mean?
+  question_text: What does assessing query performance mean?
+- candidate_id: q0023
+  relevant_topics:
+  - assessing query performance
+  family: purpose
+  pattern: Why does {x} matter?
+  question_text: Why does assessing query performance matter?
+- candidate_id: q0024
+  relevant_topics:
+  - assessing query performance
+  family: purpose
+  pattern: Why do we use {x}?
+  question_text: Why do we use assessing query performance?
+- candidate_id: q0025
+  relevant_topics:
+  - assessing query performance
+  family: example
+  pattern: What is a simple example of {x}?
+  question_text: What is a simple example of assessing query performance?
+- candidate_id: q0026
+  relevant_topics:
+  - bringing together data
+  - minimizing results
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is bringing together data different from minimizing results?
+- candidate_id: q0027
+  relevant_topics:
+  - bringing together data
+  - decreasing load
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is bringing together data different from decreasing load?
+- candidate_id: q0028
+  relevant_topics:
+  - bringing together data
+  - using database designed properties
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is bringing together data different from using database designed
+    properties?
+- candidate_id: q0029
+  relevant_topics:
+  - bringing together data
+  - assessing query performance
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is bringing together data different from assessing query performance?
+- candidate_id: q0030
+  relevant_topics:
+  - minimizing results
+  - decreasing load
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is minimizing results different from decreasing load?
+- candidate_id: q0031
+  relevant_topics:
+  - minimizing results
+  - using database designed properties
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is minimizing results different from using database designed
+    properties?
+- candidate_id: q0032
+  relevant_topics:
+  - minimizing results
+  - assessing query performance
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is minimizing results different from assessing query performance?
+- candidate_id: q0033
+  relevant_topics:
+  - decreasing load
+  - using database designed properties
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is decreasing load different from using database designed properties?
+- candidate_id: q0034
+  relevant_topics:
+  - decreasing load
+  - assessing query performance
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is decreasing load different from assessing query performance?
+- candidate_id: q0035
+  relevant_topics:
+  - using database designed properties
+  - assessing query performance
+  family: comparison
+  pattern: How is {x} different from {y}?
+  question_text: How is using database designed properties different from assessing
+    query performance?
+question_repairs:
+- candidate_id: q0001
+  status: accepted
+  original_text: What is bringing together data?
+  final_text: What is bringing together data?
+  reject_reason: null
+- candidate_id: q0002
+  status: accepted
+  original_text: What does bringing together data mean?
+  final_text: What does bringing together data mean?
+  reject_reason: null
+- candidate_id: q0003
+  status: accepted
+  original_text: Why does bringing together data matter?
+  final_text: Why does bringing together data matter?
+  reject_reason: null
+- candidate_id: q0004
+  status: repaired
+  original_text: Why do we use bringing together data?
+  final_text: Why does bringing together data?
+  reject_reason: null
+- candidate_id: q0005
+  status: accepted
+  original_text: What is a simple example of bringing together data?
+  final_text: What is a simple example of bringing together data?
+  reject_reason: null
+- candidate_id: q0006
+  status: accepted
+  original_text: What is minimizing results?
+  final_text: What is minimizing results?
+  reject_reason: null
+- candidate_id: q0007
+  status: accepted
+  original_text: What does minimizing results mean?
+  final_text: What does minimizing results mean?
+  reject_reason: null
+- candidate_id: q0008
+  status: accepted
+  original_text: Why does minimizing results matter?
+  final_text: Why does minimizing results matter?
+  reject_reason: null
+- candidate_id: q0009
+  status: repaired
+  original_text: Why do we use minimizing results?
+  final_text: Why does minimizing results?
+  reject_reason: null
+- candidate_id: q0010
+  status: accepted
+  original_text: What is a simple example of minimizing results?
+  final_text: What is a simple example of minimizing results?
+  reject_reason: null
+- candidate_id: q0011
+  status: accepted
+  original_text: What is decreasing load?
+  final_text: What is decreasing load?
+  reject_reason: null
+- candidate_id: q0012
+  status: accepted
+  original_text: What does decreasing load mean?
+  final_text: What does decreasing load mean?
+  reject_reason: null
+- candidate_id: q0013
+  status: accepted
+  original_text: Why does decreasing load matter?
+  final_text: Why does decreasing load matter?
+  reject_reason: null
+- candidate_id: q0014
+  status: repaired
+  original_text: Why do we use decreasing load?
+  final_text: Why does decreasing load?
+  reject_reason: null
+- candidate_id: q0015
+  status: accepted
+  original_text: What is a simple example of decreasing load?
+  final_text: What is a simple example of decreasing load?
+  reject_reason: null
+- candidate_id: q0016
+  status: accepted
+  original_text: What is using database designed properties?
+  final_text: What is using database designed properties?
+  reject_reason: null
+- candidate_id: q0017
+  status: accepted
+  original_text: What does using database designed properties mean?
+  final_text: What does using database designed properties mean?
+  reject_reason: null
+- candidate_id: q0018
+  status: accepted
+  original_text: Why does using database designed properties matter?
+  final_text: Why does using database designed properties matter?
+  reject_reason: null
+- candidate_id: q0019
+  status: repaired
+  original_text: Why do we use using database designed properties?
+  final_text: Why does using database designed properties?
+  reject_reason: null
+- candidate_id: q0020
+  status: accepted
+  original_text: What is a simple example of using database designed properties?
+  final_text: What is a simple example of using database designed properties?
+  reject_reason: null
+- candidate_id: q0021
+  status: accepted
+  original_text: What is assessing query performance?
+  final_text: What is assessing query performance?
+  reject_reason: null
+- candidate_id: q0022
+  status: accepted
+  original_text: What does assessing query performance mean?
+  final_text: What does assessing query performance mean?
+  reject_reason: null
+- candidate_id: q0023
+  status: accepted
+  original_text: Why does assessing query performance matter?
+  final_text: Why does assessing query performance matter?
+  reject_reason: null
+- candidate_id: q0024
+  status: repaired
+  original_text: Why do we use assessing query performance?
+  final_text: Why does assessing query performance?
+  reject_reason: null
+- candidate_id: q0025
+  status: accepted
+  original_text: What is a simple example of assessing query performance?
+  final_text: What is a simple example of assessing query performance?
+  reject_reason: null
+- candidate_id: q0026
+  status: accepted
+  original_text: How is bringing together data different from minimizing results?
+  final_text: How is bringing together data different from minimizing results?
+  reject_reason: null
+- candidate_id: q0027
+  status: accepted
+  original_text: How is bringing together data different from decreasing load?
+  final_text: How is bringing together data different from decreasing load?
+  reject_reason: null
+- candidate_id: q0028
+  status: accepted
+  original_text: How is bringing together data different from using database designed
+    properties?
+  final_text: How is bringing together data different from using database designed
+    properties?
+  reject_reason: null
+- candidate_id: q0029
+  status: accepted
+  original_text: How is bringing together data different from assessing query performance?
+  final_text: How is bringing together data different from assessing query performance?
+  reject_reason: null
+- candidate_id: q0030
+  status: accepted
+  original_text: How is minimizing results different from decreasing load?
+  final_text: How is minimizing results different from decreasing load?
+  reject_reason: null
+- candidate_id: q0031
+  status: accepted
+  original_text: How is minimizing results different from using database designed
+    properties?
+  final_text: How is minimizing results different from using database designed properties?
+  reject_reason: null
+- candidate_id: q0032
+  status: accepted
+  original_text: How is minimizing results different from assessing query performance?
+  final_text: How is minimizing results different from assessing query performance?
+  reject_reason: null
+- candidate_id: q0033
+  status: accepted
+  original_text: How is decreasing load different from using database designed properties?
+  final_text: How is decreasing load different from using database designed properties?
+  reject_reason: null
+- candidate_id: q0034
+  status: accepted
+  original_text: How is decreasing load different from assessing query performance?
+  final_text: How is decreasing load different from assessing query performance?
+  reject_reason: null
+- candidate_id: q0035
+  status: accepted
+  original_text: How is using database designed properties different from assessing
+    query performance?
+  final_text: How is using database designed properties different from assessing query
+    performance?
+  reject_reason: null
+answers:
+- question_id: q0001
+  question_text: What is bringing together data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0002
+  question_text: What does bringing together data mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0003
+  question_text: Why does bringing together data matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0004
+  question_text: Why does bringing together data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0005
+  question_text: What is a simple example of bringing together data?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0006
+  question_text: What is minimizing results?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0007
+  question_text: What does minimizing results mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0008
+  question_text: Why does minimizing results matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0009
+  question_text: Why does minimizing results?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0010
+  question_text: What is a simple example of minimizing results?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0011
+  question_text: What is decreasing load?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0012
+  question_text: What does decreasing load mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0013
+  question_text: Why does decreasing load matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0014
+  question_text: Why does decreasing load?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0015
+  question_text: What is a simple example of decreasing load?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0016
+  question_text: What is using database designed properties?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0017
+  question_text: What does using database designed properties mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0018
+  question_text: Why does using database designed properties matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0019
+  question_text: Why does using database designed properties?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0020
+  question_text: What is a simple example of using database designed properties?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0021
+  question_text: What is assessing query performance?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0022
+  question_text: What does assessing query performance mean?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0023
+  question_text: Why does assessing query performance matter?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0024
+  question_text: Why does assessing query performance?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0025
+  question_text: What is a simple example of assessing query performance?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0026
+  question_text: How is bringing together data different from minimizing results?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0027
+  question_text: How is bringing together data different from decreasing load?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0028
+  question_text: How is bringing together data different from using database designed
+    properties?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0029
+  question_text: How is bringing together data different from assessing query performance?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0030
+  question_text: How is minimizing results different from decreasing load?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0031
+  question_text: How is minimizing results different from using database designed
+    properties?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0032
+  question_text: How is minimizing results different from assessing query performance?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0033
+  question_text: How is decreasing load different from using database designed properties?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0034
+  question_text: How is decreasing load different from assessing query performance?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+- question_id: q0035
+  question_text: How is using database designed properties different from assessing
+    query performance?
+  answer_text: The course appears to mention this topic, but the scraped text may
+    not support a stronger answer.
+  correctness: uncertain
+  confidence: 0.35
+  evidence: []
+final_rows:
+- row_id: r_000001
+  course:
+    course_id: '24641'
+    title: Improving Query Performance in PostgreSQL
+  relevant_topics:
+  - bringing together data
+  question_text: What is bringing together data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000002
+  course:
+    course_id: '24641'
+    title: Improving Query Performance in PostgreSQL
+  relevant_topics:
+  - bringing together data
+  question_text: What does bringing together data mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000003
+  course:
+    course_id: '24641'
+    title: Improving Query Performance in PostgreSQL
+  relevant_topics:
+  - bringing together data
+  question_text: Why does bringing together data matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000004
+  course:
+    course_id: '24641'
+    title: Improving Query Performance in PostgreSQL
+  relevant_topics:
+  - bringing together data
+  question_text: Why does bringing together data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000005
+  course:
+    course_id: '24641'
+    title: Improving Query Performance in PostgreSQL
+  relevant_topics:
+  - bringing together data
+  question_text: What is a simple example of bringing together data?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000006
+  course:
+    course_id: '24641'
+    title: Improving Query Performance in PostgreSQL
+  relevant_topics:
+  - minimizing results
+  question_text: What is minimizing results?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000007
+  course:
+    course_id: '24641'
+    title: Improving Query Performance in PostgreSQL
+  relevant_topics:
+  - minimizing results
+  question_text: What does minimizing results mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000008
+  course:
+    course_id: '24641'
+    title: Improving Query Performance in PostgreSQL
+  relevant_topics:
+  - minimizing results
+  question_text: Why does minimizing results matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000009
+  course:
+    course_id: '24641'
+    title: Improving Query Performance in PostgreSQL
+  relevant_topics:
+  - minimizing results
+  question_text: Why does minimizing results?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000010
+  course:
+    course_id: '24641'
+    title: Improving Query Performance in PostgreSQL
+  relevant_topics:
+  - minimizing results
+  question_text: What is a simple example of minimizing results?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000011
+  course:
+    course_id: '24641'
+    title: Improving Query Performance in PostgreSQL
+  relevant_topics:
+  - decreasing load
+  question_text: What is decreasing load?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000012
+  course:
+    course_id: '24641'
+    title: Improving Query Performance in PostgreSQL
+  relevant_topics:
+  - decreasing load
+  question_text: What does decreasing load mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000013
+  course:
+    course_id: '24641'
+    title: Improving Query Performance in PostgreSQL
+  relevant_topics:
+  - decreasing load
+  question_text: Why does decreasing load matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000014
+  course:
+    course_id: '24641'
+    title: Improving Query Performance in PostgreSQL
+  relevant_topics:
+  - decreasing load
+  question_text: Why does decreasing load?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000015
+  course:
+    course_id: '24641'
+    title: Improving Query Performance in PostgreSQL
+  relevant_topics:
+  - decreasing load
+  question_text: What is a simple example of decreasing load?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000016
+  course:
+    course_id: '24641'
+    title: Improving Query Performance in PostgreSQL
+  relevant_topics:
+  - using database designed properties
+  question_text: What is using database designed properties?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000017
+  course:
+    course_id: '24641'
+    title: Improving Query Performance in PostgreSQL
+  relevant_topics:
+  - using database designed properties
+  question_text: What does using database designed properties mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000018
+  course:
+    course_id: '24641'
+    title: Improving Query Performance in PostgreSQL
+  relevant_topics:
+  - using database designed properties
+  question_text: Why does using database designed properties matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000019
+  course:
+    course_id: '24641'
+    title: Improving Query Performance in PostgreSQL
+  relevant_topics:
+  - using database designed properties
+  question_text: Why does using database designed properties?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000020
+  course:
+    course_id: '24641'
+    title: Improving Query Performance in PostgreSQL
+  relevant_topics:
+  - using database designed properties
+  question_text: What is a simple example of using database designed properties?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000021
+  course:
+    course_id: '24641'
+    title: Improving Query Performance in PostgreSQL
+  relevant_topics:
+  - assessing query performance
+  question_text: What is assessing query performance?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000022
+  course:
+    course_id: '24641'
+    title: Improving Query Performance in PostgreSQL
+  relevant_topics:
+  - assessing query performance
+  question_text: What does assessing query performance mean?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: entry
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000023
+  course:
+    course_id: '24641'
+    title: Improving Query Performance in PostgreSQL
+  relevant_topics:
+  - assessing query performance
+  question_text: Why does assessing query performance matter?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000024
+  course:
+    course_id: '24641'
+    title: Improving Query Performance in PostgreSQL
+  relevant_topics:
+  - assessing query performance
+  question_text: Why does assessing query performance?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: purpose
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000025
+  course:
+    course_id: '24641'
+    title: Improving Query Performance in PostgreSQL
+  relevant_topics:
+  - assessing query performance
+  question_text: What is a simple example of assessing query performance?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: example
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000026
+  course:
+    course_id: '24641'
+    title: Improving Query Performance in PostgreSQL
+  relevant_topics:
+  - bringing together data
+  - minimizing results
+  question_text: How is bringing together data different from minimizing results?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000027
+  course:
+    course_id: '24641'
+    title: Improving Query Performance in PostgreSQL
+  relevant_topics:
+  - bringing together data
+  - decreasing load
+  question_text: How is bringing together data different from decreasing load?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000028
+  course:
+    course_id: '24641'
+    title: Improving Query Performance in PostgreSQL
+  relevant_topics:
+  - bringing together data
+  - using database designed properties
+  question_text: How is bringing together data different from using database designed
+    properties?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000029
+  course:
+    course_id: '24641'
+    title: Improving Query Performance in PostgreSQL
+  relevant_topics:
+  - bringing together data
+  - assessing query performance
+  question_text: How is bringing together data different from assessing query performance?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000030
+  course:
+    course_id: '24641'
+    title: Improving Query Performance in PostgreSQL
+  relevant_topics:
+  - minimizing results
+  - decreasing load
+  question_text: How is minimizing results different from decreasing load?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000031
+  course:
+    course_id: '24641'
+    title: Improving Query Performance in PostgreSQL
+  relevant_topics:
+  - minimizing results
+  - using database designed properties
+  question_text: How is minimizing results different from using database designed
+    properties?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000032
+  course:
+    course_id: '24641'
+    title: Improving Query Performance in PostgreSQL
+  relevant_topics:
+  - minimizing results
+  - assessing query performance
+  question_text: How is minimizing results different from assessing query performance?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000033
+  course:
+    course_id: '24641'
+    title: Improving Query Performance in PostgreSQL
+  relevant_topics:
+  - decreasing load
+  - using database designed properties
+  question_text: How is decreasing load different from using database designed properties?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000034
+  course:
+    course_id: '24641'
+    title: Improving Query Performance in PostgreSQL
+  relevant_topics:
+  - decreasing load
+  - assessing query performance
+  question_text: How is decreasing load different from assessing query performance?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+- row_id: r_000035
+  course:
+    course_id: '24641'
+    title: Improving Query Performance in PostgreSQL
+  relevant_topics:
+  - using database designed properties
+  - assessing query performance
+  question_text: How is using database designed properties different from assessing
+    query performance?
+  question_answer: The course appears to mention this topic, but the scraped text
+    may not support a stronger answer.
+  correctness: uncertain
+  question_family: comparison
+  status: answered
+  reject_reason: null
+  source_evidence: []
+summary:
+  topic_count: 5
+  canonical_topic_count: 5
+  candidate_count: 35
+  accepted_count: 35
+  rejected_count: 0
+  correct_count: 0
+  uncertain_count: 35
