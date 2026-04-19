@@ -15,11 +15,14 @@ GENERIC_HEADINGS = {
 }
 HEADING_LIKE_PREFIXES = (
     "introduction to ",
+    "getting started in ",
+    "learn to ",
     "working with ",
     "manipulating ",
     "creating ",
     "understanding ",
     "exploring ",
+    "different types of ",
     "better code with ",
     "some simple ",
     "putting it all together",
@@ -68,6 +71,14 @@ METRIC_LABELS = {
 TEST_LABELS = {
     "hypothesis testing",
 }
+PLURAL_EXCEPTIONS = {
+    "pandas",
+    "statistics",
+    "basics",
+    "series",
+    "models",
+    "list-columns",
+}
 SUMMARY_PATTERNS = [
     r"\b(white noise)\b",
     r"\b(random walk)\b",
@@ -107,15 +118,36 @@ def _clean_label(text: str) -> str:
     return label
 
 
+def _singularize_word(word: str) -> str:
+    if word in PLURAL_EXCEPTIONS:
+        return word
+    if word.endswith("ies") and len(word) > 4:
+        return f"{word[:-3]}y"
+    if word.endswith("s") and not word.endswith(("ss", "sis")) and len(word) > 3:
+        return word[:-1]
+    return word
+
+
+def _normalize_topic_phrase(text: str) -> str:
+    cleaned = _clean_label(text)
+    if not cleaned:
+        return cleaned
+    tokens = cleaned.split()
+    if len(tokens) <= 2:
+        tokens[-1] = _singularize_word(tokens[-1])
+    return " ".join(tokens)
+
+
 def _split_coordinated_phrase(text: str) -> list[str]:
-    parts = re.split(r"\band\b", text, flags=re.IGNORECASE)
+    normalized = re.sub(r"\s*&\s*", " and ", text)
+    parts = re.split(r"\s*,\s*|\band\b", normalized, flags=re.IGNORECASE)
     cleaned = [_clean_label(p) for p in parts if p.strip()]
     if len(cleaned) == 2:
         left_words = cleaned[0].split()
         right_words = cleaned[1].split()
         if len(left_words) == 1 and len(right_words) > 1:
             cleaned[0] = f"{cleaned[0]} {' '.join(right_words[1:])}"
-    return cleaned if len(cleaned) > 1 else []
+    return [_normalize_topic_phrase(part) for part in cleaned] if len(cleaned) > 1 else []
 
 
 def _is_heading_like(label: str) -> bool:
@@ -137,6 +169,7 @@ def _add_topic(
     topic_type: str = "concept",
 ) -> None:
     clean = _clean_label(label)
+    clean = _normalize_topic_phrase(clean)
     if not clean or clean in seen or clean in GENERIC_HEADINGS or clean in ALWAYS_REJECT_TOPICS:
         return
     seen.add(clean)

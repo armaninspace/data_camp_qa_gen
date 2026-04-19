@@ -33,6 +33,9 @@ ARTIFACT_FILES = [
     "question_candidates.jsonl",
     "question_repairs.jsonl",
     "answers.jsonl",
+    "synthetic_answers.jsonl",
+    "synthetic_answer_validation.jsonl",
+    "synthetic_answer_rewrites.jsonl",
     "all_rows.jsonl",
 ]
 

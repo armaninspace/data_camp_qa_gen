@@ -23,6 +23,9 @@ def _write_final_fixture(root: Path, course_id: str) -> None:
         "question_candidates.jsonl",
         "question_repairs.jsonl",
         "answers.jsonl",
+        "synthetic_answers.jsonl",
+        "synthetic_answer_validation.jsonl",
+        "synthetic_answer_rewrites.jsonl",
         "all_rows.jsonl",
     ]:
         with (root / artifact_name).open("a", encoding="utf-8") as handle:
@@ -63,6 +66,8 @@ def test_mk_inspectgion_bundle_filters_selected_courses(tmp_path: Path) -> None:
     assert "published_run_course_count: 5" in manifest
     assert "selection_seed: 0" in manifest
     assert (bundle_dir / "inspectgion_bundle.log").exists()
+    assert (bundle_dir / "synthetic_answers.jsonl").exists()
+    assert (bundle_dir / "synthetic_answer_validation.jsonl").exists()
     selected_files = sorted(path.stem for path in (bundle_dir / "course_yaml").glob("*.yaml"))
     assert len(selected_files) == 4
     assert set(selected_files).issubset({"20001", "20002", "20003", "20004", "20005"})

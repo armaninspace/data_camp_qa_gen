@@ -61,6 +61,9 @@ PUBLISHED_ARTIFACT_NAMES = [
     "question_candidates.jsonl",
     "question_repairs.jsonl",
     "answers.jsonl",
+    "synthetic_answers.jsonl",
+    "synthetic_answer_validation.jsonl",
+    "synthetic_answer_rewrites.jsonl",
     "all_rows.jsonl",
 ]
 
@@ -296,6 +299,19 @@ def rebuild_run_summary(output_dir: str | Path) -> dict[str, Any]:
         "answered_count": sum(item["answered_count"] for item in bundles),
         "rejected_question_count": sum(item["rejected_count"] for item in bundles),
         "errored_question_count": sum(item["errored_count"] for item in bundles),
+        "synthetic_answer_count": len(read_jsonl(out / "synthetic_answers.jsonl")),
+        "synthetic_accepted_count": sum(
+            row.get("decision") == "accept"
+            for row in read_jsonl(out / "synthetic_answer_validation.jsonl")
+        ),
+        "synthetic_rewrite_count": sum(
+            row.get("decision") == "rewrite"
+            for row in read_jsonl(out / "synthetic_answer_validation.jsonl")
+        ),
+        "synthetic_reject_count": sum(
+            row.get("decision") == "reject"
+            for row in read_jsonl(out / "synthetic_answer_validation.jsonl")
+        ),
         "correct_count": sum(
             row.get("correctness") == "correct" for row in read_jsonl(out / "answers.jsonl")
         ),

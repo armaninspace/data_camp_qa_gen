@@ -15,6 +15,35 @@ WRAPPER_TYPES = {
     "case_study_container",
     "wrapper_or_container_candidate",
 }
+TOPIC_QUALITY_STOPWORDS = {
+    "we",
+    "this",
+    "you",
+    "your",
+    "our",
+    "it",
+    "for",
+    "with",
+    "the",
+    "and",
+    "just",
+}
+MARKETING_TOKENS = {
+    "popular",
+    "master",
+    "discover",
+    "explore",
+    "designed",
+    "skills",
+    "beginner",
+    "beginners",
+}
+SQL_KEYWORD_FRAGMENTS = {
+    "where",
+    "having",
+    "distinct",
+    "union",
+}
 
 
 def vet_topics_and_pairs(
@@ -79,8 +108,11 @@ def _vet_pairs(
 
 
 def _topic_decision(topic: CanonicalTopic) -> tuple[str, bool, str]:
+    topic_quality = _classify_topic_quality(topic.label, topic.topic_type)
     if topic.topic_type in WRAPPER_TYPES or is_heading_like_topic(topic.label):
         return "reject", False, "wrapper_or_heading_like_topic"
+    if topic_quality != "good_atomic_topic":
+        return "reject", False, topic_quality
     if topic.topic_type in {"metric", "test"}:
         return "keep", True, "strong_atomic_metric_or_test"
     if topic.topic_type in {"procedure", "tool", "method"}:
@@ -109,3 +141,31 @@ def _pair_reason(
     if not left.allow_pairwise_questions or not right.allow_pairwise_questions:
         return "pairwise_blocked_by_topic_policy"
     return "invalid_pair"
+
+
+def _classify_topic_quality(label: str, topic_type: str) -> str:
+    low = label.lower().strip()
+    tokens = low.split()
+    if topic_type in WRAPPER_TYPES:
+        return "chapter_wrapper"
+    if len(tokens) > 5:
+        return "too_broad"
+    if any(token in MARKETING_TOKENS for token in tokens) and len(tokens) >= 2:
+        return "marketing_claim"
+    if sum(token in TOPIC_QUALITY_STOPWORDS for token in tokens) >= 2:
+        return "sentence_fragment"
+    if low in SQL_KEYWORD_FRAGMENTS:
+        return "sql_keyword_fragment"
+    if low.startswith(
+        (
+            "an introduction to",
+            "discover ",
+            "explore ",
+            "get started with",
+            "getting started in ",
+            "learn to ",
+            "different types of ",
+        )
+    ):
+        return "course_preamble"
+    return "good_atomic_topic"

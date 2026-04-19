@@ -124,6 +124,7 @@ def synthesize_answers_for_course(
             validate_prompt,
             "validate_synthetic_answer",
         )
+        normalized_scores = _normalized_validation_scores(validate_json)
         if logger is not None:
             logger.log_llm_call(
                 course_id=course_id,
@@ -146,14 +147,14 @@ def synthesize_answers_for_course(
             question_id=synth_record.question_id,
             original_answer_text=synth_record.answer_text,
             decision=str(validate_json["decision"]),
-            correctness=_safe_float(validate_json.get("correctness"), 0.0),
-            sufficiency=_safe_float(validate_json.get("sufficiency"), 0.0),
-            brevity=_safe_float(validate_json.get("brevity"), 0.0),
-            pedagogical_fit=_safe_float(validate_json.get("pedagogical_fit"), 0.0),
-            difficulty_alignment=_safe_float(validate_json.get("difficulty_alignment"), 0.0),
-            clarity=_safe_float(validate_json.get("clarity"), 0.0),
-            contradiction_risk=_safe_float(validate_json.get("contradiction_risk"), 0.0),
-            scope_drift=_safe_float(validate_json.get("scope_drift"), 0.0),
+            correctness=normalized_scores["correctness"],
+            sufficiency=normalized_scores["sufficiency"],
+            brevity=normalized_scores["brevity"],
+            pedagogical_fit=normalized_scores["pedagogical_fit"],
+            difficulty_alignment=normalized_scores["difficulty_alignment"],
+            clarity=normalized_scores["clarity"],
+            contradiction_risk=normalized_scores["contradiction_risk"],
+            scope_drift=normalized_scores["scope_drift"],
             rewritten_answer_text=_optional_text(validate_json.get("rewritten_answer_text")),
             reject_reasons=[str(item) for item in validate_json.get("reject_reasons", [])],
         )
@@ -542,6 +543,27 @@ def _safe_float(value: object, default: float | None = None) -> float | None:
         return float(value)
     except (TypeError, ValueError):
         return default
+
+
+def _normalized_validation_scores(payload: dict[str, object]) -> dict[str, float]:
+    fields = [
+        "correctness",
+        "sufficiency",
+        "brevity",
+        "pedagogical_fit",
+        "difficulty_alignment",
+        "clarity",
+        "contradiction_risk",
+        "scope_drift",
+    ]
+    values = {
+        field: _safe_float(payload.get(field), 0.0) or 0.0
+        for field in fields
+    }
+    max_value = max(values.values(), default=0.0)
+    if max_value > 1.0:
+        values = {field: round(value / 5.0, 4) for field, value in values.items()}
+    return values
 
 
 def _correctness_label(score: float) -> str:

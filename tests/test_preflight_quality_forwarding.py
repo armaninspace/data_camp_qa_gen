@@ -14,11 +14,12 @@ class _RepeatingResponsesAPI:
     def __init__(self, payload: dict) -> None:
         self.payload = payload
 
-    def parse(self, *, model: str, input: str, text_format: object, metadata: dict) -> object:
+    def create(self, *, model: str, input: str, text: dict, metadata: dict) -> object:
         class _Response:
             def __init__(self, data: dict) -> None:
-                self.output_parsed = data
-                self.output_text = None
+                import json
+
+                self.output_text = json.dumps(data)
 
         return _Response(self.payload)
 

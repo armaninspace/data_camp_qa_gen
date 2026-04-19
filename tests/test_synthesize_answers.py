@@ -8,6 +8,7 @@ from course_pipeline.tasks.synthesize_answers import (
     render_ft_bundles,
     run_synthetic_answering,
     synthetic_results_to_answer_records,
+    synthesize_answers_for_course,
 )
 from course_pipeline.io_utils import read_jsonl, read_yaml, write_jsonl
 from course_pipeline.schemas import SyntheticAnswerRecord, SyntheticAnswerValidationRecord
@@ -387,3 +388,76 @@ def test_synthetic_results_to_answer_records_uses_rewrites_and_provenance() -> N
     assert result[0].validation_status == "rewrite"
     assert result[0].answer_text == "Rewritten answer."
     assert result[0].evidence[0].source == "syllabus"
+
+
+def test_validator_scores_are_normalized_from_five_point_scale(tmp_path: Path) -> None:
+    logger = RunLogger(run_id="run", root_dir=tmp_path / "run")
+    logger.ensure_files()
+    synth_client = FakeJsonClient(
+        "gpt-5.4",
+        [
+            {
+                "answer_text": "ARIMA is a forecasting model.",
+                "target_verbosity": "brief",
+                "self_assessed_confidence": 0.9,
+                "notable_risks": [],
+            }
+        ],
+    )
+    validate_client = FakeJsonClient(
+        "gpt-5.4",
+        [
+            {
+                "decision": "accept",
+                "correctness": 5.0,
+                "sufficiency": 4.0,
+                "brevity": 4.0,
+                "pedagogical_fit": 5.0,
+                "difficulty_alignment": 5.0,
+                "clarity": 4.0,
+                "contradiction_risk": 1.0,
+                "scope_drift": 1.0,
+                "rewritten_answer_text": None,
+                "reject_reasons": [],
+            }
+        ],
+    )
+
+    result = synthesize_answers_for_course(
+        run_id="run",
+        course={
+            "course_id": "24372",
+            "title": "Time Series Analysis in Python",
+            "metadata": {"level": "beginner", "subjects": ["python", "time series"]},
+        },
+        canonical_topics=[
+            {
+                "course_id": "24372",
+                "canonical_topic_id": "ct_arima",
+                "label": "ARIMA",
+                "topic_type": "concept",
+            }
+        ],
+        validations=[
+            {
+                "course_id": "24372",
+                "question_id": "q1",
+                "status": "accepted",
+                "original_text": "What is ARIMA?",
+                "final_text": "What is ARIMA?",
+                "question_family": "entry",
+                "relevant_topics": ["ARIMA"],
+                "evidence_spans": [],
+            }
+        ],
+        related_pairs=[],
+        synth_client=synth_client,
+        validate_client=validate_client,
+        logger=logger,
+    )
+
+    validation = result.validations[0]
+    assert validation.correctness == 1.0
+    assert validation.sufficiency == 0.8
+    assert validation.contradiction_risk == 0.2
+    assert validation.scope_drift == 0.2

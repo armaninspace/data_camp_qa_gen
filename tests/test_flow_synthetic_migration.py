@@ -23,13 +23,14 @@ class FakeResponsesAPI:
     def __init__(self, responses: list[dict]) -> None:
         self._client = FakeJsonClient(responses)
 
-    def parse(self, *, model: str, input: str, text_format: object, metadata: dict) -> object:
+    def create(self, *, model: str, input: str, text: dict, metadata: dict) -> object:
         payload = self._client.responses_parse(input, str(metadata["schema_name"]))
 
         class _Response:
             def __init__(self, data: dict) -> None:
-                self.output_parsed = data
-                self.output_text = None
+                import json
+
+                self.output_text = json.dumps(data)
 
         return _Response(payload)
 
@@ -41,7 +42,7 @@ class FakeOpenAIClient:
 
 
 class FailingResponsesAPI:
-    def parse(self, *, model: str, input: str, text_format: object, metadata: dict) -> object:
+    def create(self, *, model: str, input: str, text: dict, metadata: dict) -> object:
         raise RuntimeError(f"synthetic stage failed for {metadata['schema_name']}")
 
 
