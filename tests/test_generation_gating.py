@@ -74,6 +74,7 @@ def test_only_kept_pairs_generate_pairwise_questions() -> None:
             topic_y="text data",
             decision="keep_pair",
             reason="paired_scope_supported",
+            relation_type="paired_scope",
         ),
         VettedTopicPair(
             pair_id="p2",
@@ -88,3 +89,39 @@ def test_only_kept_pairs_generate_pairwise_questions() -> None:
 
     assert len(questions) == 1
     assert questions[0].relevant_topics == ["categorical data", "text data"]
+
+
+def test_single_topic_generation_is_entry_only() -> None:
+    topics = [
+        VettedTopic(
+            canonical_topic_id="ct1",
+            canonical_label="categorical data",
+            decision="keep",
+            allow_single_topic_questions=True,
+            allow_pairwise_questions=True,
+            reason="strong_atomic_metric_or_test",
+            final_topic_type="concept",
+        )
+    ]
+
+    questions = generate_single_topic_questions(topics)
+
+    assert len(questions) == 1
+    assert questions[0].family == "entry"
+
+
+def test_weak_relation_pair_does_not_generate_pairwise_questions() -> None:
+    pairs = [
+        VettedTopicPair(
+            pair_id="p1",
+            topic_x="categorical data",
+            topic_y="strings",
+            decision="keep_pair",
+            reason="paired_scope_supported",
+            relation_type="shared_local_evidence",
+        )
+    ]
+
+    questions = generate_pairwise_questions(pairs)
+
+    assert questions == []

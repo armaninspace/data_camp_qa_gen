@@ -83,6 +83,7 @@ data/
 docs/
   clean_sheet_spec.md
   architecture.md
+  operations_cheat_sheet.md
 
 tests/
 ```
@@ -102,6 +103,35 @@ pip install -e .
 cp .env.example .env
 python -m course_pipeline.cli run   --input data/scraped   --output data/pipeline_runs/dev_run
 ```
+
+## Operator shortcuts
+
+- Start fixed-port Prefect server: `./scripts/start_prefect_server.sh`
+- Stop Prefect server: `./scripts/stop_prefect_server.sh`
+- Check Prefect server: `./scripts/prefect_server_status.sh`
+- First 1% smoke run: `./scripts/run_first_1_percent.sh`
+- Any slice run: `./scripts/run_percent_slice.sh <start> <end> [run_id]`
+- Full 5% sweep: `./scripts/run_all_5_percent.sh`
+- Full 10% sweep: `./scripts/run_all_10_percent.sh`
+- Full 5% sweep with bundle checkpoints: `./scripts/run_all_5_percent_with_bundles.sh`
+- Full 10% sweep with bundle checkpoints: `./scripts/run_all_10_percent_with_bundles.sh`
+- Inspection bundle: `./scripts/mk_inspectgion_bundle.sh <bundle_id>`
+
+Make targets are also available:
+
+- `make prefect_server_start`
+- `make prefect_server_status`
+- `make prefect_server_stop`
+- `make run_first_1_percent RUN_ID=smoke_1_percent`
+- `make run_percent_slice SLICE_START=25 SLICE_END=30 RUN_ID=slice_025_030`
+- `make run_all_5_percent`
+- `make run_all_10_percent`
+- `make run_all_5_percent_with_bundles BUNDLE_EVERY=2 BUNDLE_ID_OFFSET=0`
+- `make run_all_10_percent_with_bundles BUNDLE_EVERY=1 BUNDLE_ID_OFFSET=100`
+- `make mk_inspectgion_bundle BUNDLE_ID=011`
+
+For the 5% plan, 10% plan, and bundle workflow, see
+`docs/operations_cheat_sheet.md`.
 
 ## What is implemented in this starter
 

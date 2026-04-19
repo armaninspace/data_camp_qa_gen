@@ -62,6 +62,7 @@ def _vet_pairs(
             and left.allow_pairwise_questions
             and right.allow_pairwise_questions
             and bool(pair.evidence_spans)
+            and pair.relation_type in {"paired_scope", "explicit_comparison"}
         )
         decisions.append(
             VettedTopicPair(
@@ -83,10 +84,10 @@ def _topic_decision(topic: CanonicalTopic) -> tuple[str, bool, str]:
     if topic.topic_type in {"metric", "test"}:
         return "keep", True, "strong_atomic_metric_or_test"
     if topic.topic_type in {"procedure", "tool", "method"}:
-        return "keep", True, "strong_atomic_skill_topic"
+        return "keep_no_pairwise", False, "single_topic_only_skill_topic"
     if topic.topic_type == "unknown":
         return "keep_entry_only", False, "weak_type_support_entry_only"
-    return "keep", True, "strong_atomic_concept"
+    return "keep_no_pairwise", False, "single_topic_only_concept"
 
 
 def _pair_reason(
@@ -103,6 +104,8 @@ def _pair_reason(
         return "missing_topic_decision"
     if left.decision == "reject" or right.decision == "reject":
         return "topic_rejected"
+    if pair.relation_type == "shared_local_evidence":
+        return "weak_relation_evidence"
     if not left.allow_pairwise_questions or not right.allow_pairwise_questions:
         return "pairwise_blocked_by_topic_policy"
     return "invalid_pair"

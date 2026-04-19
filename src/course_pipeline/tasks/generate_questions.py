@@ -68,10 +68,7 @@ def generate_single_topic_questions(
         if not topic.allow_single_topic_questions or topic.decision == "reject":
             continue
 
-        families = ["entry"] if topic.decision == "keep_entry_only" else TOPIC_TYPE_FAMILIES.get(
-            topic.final_topic_type,
-            ["entry"],
-        )
+        families = ["entry"]
         for family in families:
             patterns = PATTERN_BANK.get(family, [])
             if not patterns:
@@ -105,6 +102,8 @@ def generate_pairwise_questions(
 
     for pair in vetted_pairs:
         if pair.decision != "keep_pair":
+            continue
+        if pair.relation_type not in {"paired_scope", "explicit_comparison"}:
             continue
         pattern = comparison_patterns[0]
         questions.append(

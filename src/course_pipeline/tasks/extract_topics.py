@@ -16,6 +16,10 @@ GENERIC_HEADINGS = {
 HEADING_LIKE_PREFIXES = (
     "introduction to ",
     "working with ",
+    "manipulating ",
+    "creating ",
+    "understanding ",
+    "exploring ",
     "better code with ",
     "some simple ",
     "putting it all together",
@@ -26,6 +30,10 @@ ALWAYS_REJECT_TOPICS = {
     "putting it all together",
     "some simple time series",
     "better code with purrr",
+    "case study on flight etiquette",
+    "introduction to factor variables",
+    "manipulating factor variables",
+    "creating factor variables",
 }
 LEXICAL_TOPICS = [
     "record linkage",

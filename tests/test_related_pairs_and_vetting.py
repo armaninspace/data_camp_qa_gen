@@ -88,3 +88,41 @@ def test_invalid_related_pair_is_blocked_when_one_topic_is_rejected() -> None:
 
     assert vetted_pairs[0].decision == "reject_pair"
     assert vetted_pairs[0].reason == "topic_rejected"
+
+
+def test_shared_local_evidence_pair_is_rejected() -> None:
+    canonical_topics = [
+        CanonicalTopic(
+            canonical_topic_id="ct_1",
+            label="categorical data",
+            aliases=["categorical data"],
+            member_topic_ids=["t1"],
+            topic_type="concept",
+            evidence=[TopicEvidence(source="overview", text="The course covers categorical data in several chapters.")],
+        ),
+        CanonicalTopic(
+            canonical_topic_id="ct_2",
+            label="strings",
+            aliases=["strings"],
+            member_topic_ids=["t2"],
+            topic_type="tool",
+            evidence=[TopicEvidence(source="overview", text="The course also introduces strings later on.")],
+        ),
+    ]
+    related_pairs = [
+        RelatedTopicPair(
+            pair_id="p_001",
+            topic_x="categorical data",
+            topic_y="strings",
+            relation_type="shared_local_evidence",
+            evidence_spans=[
+                TopicEvidence(source="overview", text="The course covers categorical data and strings.")
+            ],
+            confidence=0.6,
+        )
+    ]
+
+    _, vetted_pairs = vet_topics_and_pairs(canonical_topics, related_pairs)
+
+    assert vetted_pairs[0].decision == "reject_pair"
+    assert vetted_pairs[0].reason == "weak_relation_evidence"

@@ -156,13 +156,16 @@ def _process_course(
     vetted_topics, vetted_pairs = vet_topics_and_pairs(canonical_topics, related_pairs)
     timer.finish(output_row_count=len(vetted_topics) + len(vetted_pairs))
 
+    kept_vetted_topics = [item for item in vetted_topics if item.decision != "reject"]
+    kept_vetted_pairs = [item for item in vetted_pairs if item.decision == "keep_pair"]
+
     timer = StageTimer(
         logger,
         course_id=course.course_id,
         stage="generate_single_topic_questions",
         input_row_count=len(vetted_topics),
     )
-    single_topic_questions = generate_single_topic_questions(vetted_topics)
+    single_topic_questions = generate_single_topic_questions(kept_vetted_topics)
     timer.finish(output_row_count=len(single_topic_questions))
 
     timer = StageTimer(
@@ -171,7 +174,9 @@ def _process_course(
         stage="generate_pairwise_questions",
         input_row_count=len(vetted_pairs),
     )
-    pairwise_questions = generate_pairwise_questions(vetted_pairs)
+    pairwise_questions = (
+        generate_pairwise_questions(kept_vetted_pairs) if kept_vetted_topics else []
+    )
     timer.finish(output_row_count=len(pairwise_questions))
 
     all_generated_questions = [*single_topic_questions, *pairwise_questions]
@@ -205,6 +210,8 @@ def _process_course(
     rows = build_ledger_rows(course, candidates, repairs, answers)
     timer.finish(output_row_count=len(rows))
 
+    _assert_course_quality_gate(course.course_id, repairs, answers)
+
     timer = StageTimer(
         logger,
         course_id=course.course_id,
@@ -237,6 +244,22 @@ def _process_course(
         "rejected_count": sum(r.status == "rejected" for r in rows),
         "errored_count": sum(r.status == "errored" for r in rows),
     }
+
+
+def _assert_course_quality_gate(
+    course_id: str,
+    repairs: list[QuestionRepair],
+    answers: list,
+) -> None:
+    accepted_count = sum(item.status != "rejected" for item in repairs)
+    rejected_count = sum(item.status == "rejected" for item in repairs)
+    uncertain_count = sum(getattr(item, "correctness", None) == "uncertain" for item in answers)
+
+    if accepted_count > 0 and rejected_count == 0 and uncertain_count == accepted_count:
+        raise RuntimeError(
+            "quality gate failed for "
+            f"course_id={course_id}: rejected_count=0 and uncertain_count==accepted_count=={accepted_count}"
+        )
 
 
 def _legacy_candidates(questions: list[GeneratedQuestion]) -> list[QuestionCandidate]:

@@ -4,6 +4,7 @@ from pathlib import Path
 
 from typer.testing import CliRunner
 
+from course_pipeline import cli
 from course_pipeline.cli import app
 
 
@@ -39,9 +40,9 @@ def _write_final_fixture(root: Path, course_id: str) -> None:
 
 def test_mk_inspectgion_bundle_filters_selected_courses(tmp_path: Path) -> None:
     final_dir = tmp_path / "final"
-    for course_id in ("24511", "24662", "24516", "24458"):
+    for course_id in ("20001", "20002", "20003", "20004", "20005"):
         _write_final_fixture(final_dir, course_id)
-    (final_dir / "run_summary.yaml").write_text("course_count: 4\n", encoding="utf-8")
+    (final_dir / "run_summary.yaml").write_text("course_count: 5\n", encoding="utf-8")
 
     runner = CliRunner()
     result = runner.invoke(
@@ -59,5 +60,68 @@ def test_mk_inspectgion_bundle_filters_selected_courses(tmp_path: Path) -> None:
     assert result.exit_code == 0, result.output
     bundle_dir = tmp_path / "inspectgion_bundl_0"
     manifest = (bundle_dir / "pipeline_run_manifest.yaml").read_text(encoding="utf-8")
-    assert "published_run_course_count: 4" in manifest
+    assert "published_run_course_count: 5" in manifest
+    assert "selection_seed: 0" in manifest
     assert (bundle_dir / "inspectgion_bundle.log").exists()
+    selected_files = sorted(path.stem for path in (bundle_dir / "course_yaml").glob("*.yaml"))
+    assert len(selected_files) == 4
+    assert set(selected_files).issubset({"20001", "20002", "20003", "20004", "20005"})
+
+
+def test_run_accepts_publish_boolean_string_and_flag_forms(
+    monkeypatch,
+    tmp_path: Path,
+) -> None:
+    captured_publish_values: list[bool] = []
+
+    def _fake_flow(**kwargs: object) -> dict[str, object]:
+        captured_publish_values.append(bool(kwargs["publish"]))
+        return {
+            "selected_course_count": 0,
+            "run_summary": {"course_count": 0},
+            "published_summary": None,
+        }
+
+    monkeypatch.setattr(cli, "course_question_pipeline_flow", _fake_flow)
+    runner = CliRunner()
+
+    default_result = runner.invoke(
+        app,
+        [
+            "run",
+            "--input",
+            str(tmp_path),
+            "--output",
+            str(tmp_path / "run-default"),
+        ],
+    )
+    assert default_result.exit_code == 0, default_result.output
+
+    false_result = runner.invoke(
+        app,
+        [
+            "run",
+            "--input",
+            str(tmp_path),
+            "--output",
+            str(tmp_path / "run-false"),
+            "--publish",
+            "false",
+        ],
+    )
+    assert false_result.exit_code == 0, false_result.output
+
+    no_publish_result = runner.invoke(
+        app,
+        [
+            "run",
+            "--input",
+            str(tmp_path),
+            "--output",
+            str(tmp_path / "run-no-publish"),
+            "--no-publish",
+        ],
+    )
+    assert no_publish_result.exit_code == 0, no_publish_result.output
+
+    assert captured_publish_values == [True, False, False]

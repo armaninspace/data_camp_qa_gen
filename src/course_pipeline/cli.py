@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
+import random
 import shutil
 import time
 
@@ -11,33 +12,6 @@ from course_pipeline.flows.course_question_pipeline import course_question_pipel
 from course_pipeline.io_utils import read_jsonl, read_yaml, write_jsonl, write_yaml
 
 app = typer.Typer(help="Course question pipeline CLI.")
-
-INSPECTGION_SELECTION = [
-    {
-        "course_id": "24511",
-        "slug": "0143-datacamp-categorical-data-in-the-tidyverse-24511-904060391f75",
-        "language": "R",
-        "title": "Categorical Data in the Tidyverse",
-    },
-    {
-        "course_id": "24662",
-        "slug": "0294-datacamp-intermediate-functional-programming-with-purrr-24662-3f669a54b183",
-        "language": "R",
-        "title": "Intermediate Functional Programming with purrr",
-    },
-    {
-        "course_id": "24516",
-        "slug": "0148-datacamp-improving-query-performance-in-sql-server-24516-db81d1568bd3",
-        "language": "SQL",
-        "title": "Improving Query Performance in SQL Server",
-    },
-    {
-        "course_id": "24458",
-        "slug": "0090-datacamp-time-series-analysis-in-python-24458-da389c14f72d",
-        "language": "Python",
-        "title": "Time Series Analysis in Python",
-    },
-]
 ARTIFACT_FILES = [
     "normalized_courses.jsonl",
     "topics.jsonl",
@@ -61,6 +35,19 @@ def _require_numeric_bundle_id(bundle_id: str) -> str:
     return bundle_id
 
 
+def _parse_publish_value(value: str) -> bool:
+    normalized = value.strip().lower()
+    truthy_values = {"1", "true", "t", "yes", "y", "on"}
+    falsy_values = {"0", "false", "f", "no", "n", "off"}
+    if normalized in truthy_values:
+        return True
+    if normalized in falsy_values:
+        return False
+    raise typer.BadParameter(
+        "publish must be a boolean string such as true/false, 1/0, yes/no"
+    )
+
+
 def _course_id_for_row(row: dict) -> str | None:
     if row.get("course_id") is not None:
         return str(row["course_id"])
@@ -81,6 +68,36 @@ def _bundle_log(bundle_dir: Path, message: str) -> None:
         handle.write(message + "\n")
 
 
+def _random_inspectgion_selection(
+    source_dir: Path,
+    bundle_id: str,
+    *,
+    course_count: int = 4,
+) -> list[dict[str, str | None]]:
+    course_yaml_dir = source_dir / "course_yaml"
+    bundle_files = sorted(course_yaml_dir.glob("*.yaml"))
+    if len(bundle_files) < course_count:
+        raise RuntimeError(
+            f"need at least {course_count} published course bundles in data/final; found {len(bundle_files)}"
+        )
+
+    rng = random.Random(int(bundle_id))
+    selected_paths = sorted(rng.sample(bundle_files, course_count), key=lambda item: item.stem)
+
+    selected_courses: list[dict[str, str | None]] = []
+    for path in selected_paths:
+        payload = read_yaml(path) or {}
+        selected_courses.append(
+            {
+                "course_id": str(payload.get("course_id", path.stem)),
+                "title": payload.get("title"),
+                "slug": None,
+                "language": None,
+            }
+        )
+    return selected_courses
+
+
 @app.command()
 def run(
     input: str = typer.Option(..., help="Input directory of scraped courses."),
@@ -88,15 +105,25 @@ def run(
     final_dir: str = typer.Option("data/final", help="Published final output directory."),
     slice_start: float = typer.Option(0.0, min=0.0, max=100.0, help="Slice start percent."),
     slice_end: float = typer.Option(100.0, min=0.0, max=100.0, help="Slice end percent."),
-    publish: bool = typer.Option(True, help="Publish merged outputs to data/final."),
+    publish: str = typer.Option(
+        "true",
+        "--publish",
+        help="Publish merged outputs to data/final. Accepts true/false.",
+    ),
+    no_publish: bool = typer.Option(
+        False,
+        "--no-publish",
+        help="Disable publish-to-data/final for this run.",
+    ),
 ) -> None:
+    publish_enabled = False if no_publish else _parse_publish_value(publish)
     result = course_question_pipeline_flow(
         input_dir=input,
         output_dir=output,
         final_dir=final_dir,
         slice_start=slice_start,
         slice_end=slice_end,
-        publish=publish,
+        publish=publish_enabled,
     )
     typer.echo(
         json.dumps(
@@ -137,7 +164,8 @@ def mk_inspectgion_bundle(
         shutil.rmtree(bundle_dir)
     bundle_dir.mkdir(parents=True, exist_ok=True)
 
-    selected_course_ids = {item["course_id"] for item in INSPECTGION_SELECTION}
+    selected_courses = _random_inspectgion_selection(source_dir, bundle_id)
+    selected_course_ids = {str(item["course_id"]) for item in selected_courses}
     missing_course_ids = [
         course_id
         for course_id in sorted(selected_course_ids)
@@ -164,7 +192,7 @@ def mk_inspectgion_bundle(
         )
 
     selected_yaml_count = 0
-    for item in INSPECTGION_SELECTION:
+    for item in selected_courses:
         source_yaml = source_dir / "course_yaml" / f"{item['course_id']}.yaml"
         target_yaml = bundle_dir / "course_yaml" / f"{item['course_id']}.yaml"
         target_yaml.parent.mkdir(parents=True, exist_ok=True)
@@ -173,7 +201,7 @@ def mk_inspectgion_bundle(
 
     artifact_counts["course_yaml"] = {
         "selected_file_count": selected_yaml_count,
-        "expected_file_count": len(INSPECTGION_SELECTION),
+        "expected_file_count": len(selected_courses),
     }
 
     run_summary = read_yaml(source_dir / "run_summary.yaml")
@@ -186,8 +214,9 @@ def mk_inspectgion_bundle(
         "bundle_dir": str(bundle_dir),
         "source_final_dir": str(source_dir),
         "selection_policy": {
-            "description": "Fixed four-course inspection set with intermediate concepts: 2 R, 1 SQL, 1 Python.",
-            "selected_courses": INSPECTGION_SELECTION,
+            "description": "Four published courses selected at random from data/final, reproducible by bundle_id seed.",
+            "selection_seed": int(bundle_id),
+            "selected_courses": selected_courses,
         },
         "artifact_counts": artifact_counts,
         "performance_data": {
