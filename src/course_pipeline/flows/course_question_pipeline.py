@@ -226,6 +226,7 @@ def _process_course(
             item.question_id: {
                 "topic_labels": item.relevant_topics,
                 "source_refs": [span.source for span in item.evidence_spans],
+                "evidence_spans": [span.model_dump() for span in item.evidence_spans],
             }
             for item in validations
         },

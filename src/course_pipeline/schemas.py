@@ -147,7 +147,7 @@ class AnswerRecord(BaseModel):
     correctness: Correctness = "uncertain"
     confidence: float = 0.0
     evidence: list[TopicEvidence] = Field(default_factory=list)
-    answer_mode: AnswerMode = "grounded_course_answer"
+    answer_mode: AnswerMode = "synthetic_tutor_answer"
     validation_status: str | None = None
     rewrite_applied: bool = False
     provenance: dict = Field(default_factory=dict)

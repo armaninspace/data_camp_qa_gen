@@ -12,6 +12,7 @@ from course_pipeline.schemas import (
     FineTuneRow,
     SyntheticAnswerRecord,
     SyntheticAnswerValidationRecord,
+    TopicEvidence,
 )
 
 
@@ -299,7 +300,10 @@ def synthetic_results_to_answer_records(
                 answer_text=final_answer,
                 correctness=_correctness_label(validation.correctness),
                 confidence=validation.correctness,
-                evidence=[],
+                evidence=[
+                    TopicEvidence.model_validate(span)
+                    for span in provenance.get("evidence_spans", [])
+                ],
                 answer_mode="synthetic_tutor_answer",
                 validation_status=validation.decision,
                 rewrite_applied=validation.decision == "rewrite",
