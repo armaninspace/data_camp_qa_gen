@@ -2,7 +2,12 @@ from __future__ import annotations
 
 import re
 
-from course_pipeline.schemas import QuestionCandidate, QuestionRepair
+from course_pipeline.schemas import (
+    GeneratedQuestion,
+    QuestionCandidate,
+    QuestionRepair,
+    QuestionValidationRecord,
+)
 
 
 BAD_PATTERNS = {
@@ -74,6 +79,52 @@ def repair_or_reject_questions(
             )
         )
     return repairs
+
+
+def validate_questions(
+    questions: list[GeneratedQuestion],
+) -> list[QuestionValidationRecord]:
+    validations: list[QuestionValidationRecord] = []
+    seen: set[str] = set()
+
+    for question in questions:
+        text = _normalize_question(question.question_text)
+        low = text.lower()
+        reject_reason: str | None = None
+        status = "accepted"
+
+        if question.generation_scope == "pairwise" and len(question.relevant_topics) != 2:
+            reject_reason = "invalid_pair"
+        elif any(bad in low for bad in BAD_PATTERNS):
+            reject_reason = (
+                "broad_heading"
+                if "problems" in low or "case study" in low or "putting it all together" in low
+                else "compound_topic"
+            )
+        elif _is_ungrammatical(text):
+            reject_reason = "malformed"
+        elif text in seen:
+            reject_reason = "duplicate_intent"
+
+        if reject_reason is not None:
+            status = "rejected"
+        else:
+            seen.add(text)
+
+        validations.append(
+            QuestionValidationRecord(
+                question_id=question.question_id,
+                relevant_topics=question.relevant_topics,
+                status=status,
+                original_text=question.question_text.strip(),
+                final_text=None if status == "rejected" else text,
+                reject_reason=reject_reason,
+                question_family=question.family,
+                evidence_spans=question.evidence_spans,
+            )
+        )
+
+    return validations
 
 
 def _normalize_question(text: str) -> str:

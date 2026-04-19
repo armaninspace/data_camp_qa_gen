@@ -11,8 +11,12 @@ from course_pipeline.run_logging import RunLogger, StageTimer
 from course_pipeline.tasks.answer_questions import answer_questions
 from course_pipeline.tasks.build_ledger import build_ledger_rows
 from course_pipeline.tasks.canonicalize import canonicalize_topics
+from course_pipeline.tasks.discover_related_pairs import discover_related_pairs
 from course_pipeline.tasks.extract_topics import extract_atomic_topics_baseline
-from course_pipeline.tasks.generate_questions import generate_question_candidates
+from course_pipeline.tasks.generate_questions import (
+    generate_pairwise_questions,
+    generate_single_topic_questions,
+)
 from course_pipeline.tasks.normalize import load_raw_course, normalize_course_record
 from course_pipeline.tasks.preflight_validate import preflight_validate_course
 from course_pipeline.tasks.render import (
@@ -20,7 +24,14 @@ from course_pipeline.tasks.render import (
     publish_final_outputs,
     rebuild_run_summary,
 )
-from course_pipeline.tasks.repair_questions import repair_or_reject_questions
+from course_pipeline.tasks.repair_questions import validate_questions
+from course_pipeline.tasks.vet_topics import vet_topics_and_pairs
+from course_pipeline.schemas import (
+    GeneratedQuestion,
+    QuestionCandidate,
+    QuestionRepair,
+    QuestionValidationRecord,
+)
 
 
 @dataclass
@@ -130,20 +141,51 @@ def _process_course(
     timer = StageTimer(
         logger,
         course_id=course.course_id,
-        stage="generate_question_candidates",
+        stage="discover_related_pairs",
         input_row_count=len(canonical_topics),
     )
-    candidates = generate_question_candidates(canonical_topics)
-    timer.finish(output_row_count=len(candidates))
+    related_pairs = discover_related_pairs(canonical_topics)
+    timer.finish(output_row_count=len(related_pairs))
 
     timer = StageTimer(
         logger,
         course_id=course.course_id,
-        stage="repair_or_reject_questions",
-        input_row_count=len(candidates),
+        stage="vet_topics",
+        input_row_count=len(canonical_topics) + len(related_pairs),
     )
-    repairs = repair_or_reject_questions(candidates)
-    timer.finish(output_row_count=len(repairs))
+    vetted_topics, vetted_pairs = vet_topics_and_pairs(canonical_topics, related_pairs)
+    timer.finish(output_row_count=len(vetted_topics) + len(vetted_pairs))
+
+    timer = StageTimer(
+        logger,
+        course_id=course.course_id,
+        stage="generate_single_topic_questions",
+        input_row_count=len(vetted_topics),
+    )
+    single_topic_questions = generate_single_topic_questions(vetted_topics)
+    timer.finish(output_row_count=len(single_topic_questions))
+
+    timer = StageTimer(
+        logger,
+        course_id=course.course_id,
+        stage="generate_pairwise_questions",
+        input_row_count=len(vetted_pairs),
+    )
+    pairwise_questions = generate_pairwise_questions(vetted_pairs)
+    timer.finish(output_row_count=len(pairwise_questions))
+
+    all_generated_questions = [*single_topic_questions, *pairwise_questions]
+    timer = StageTimer(
+        logger,
+        course_id=course.course_id,
+        stage="validate_questions",
+        input_row_count=len(all_generated_questions),
+    )
+    validations = validate_questions(all_generated_questions)
+    timer.finish(output_row_count=len(validations))
+
+    candidates = _legacy_candidates(all_generated_questions)
+    repairs = _legacy_repairs(validations)
 
     timer = StageTimer(
         logger,
@@ -178,6 +220,12 @@ def _process_course(
         repairs=repairs,
         answers=answers,
         rows=rows,
+        related_pairs=related_pairs,
+        vetted_topics=vetted_topics,
+        vetted_pairs=vetted_pairs,
+        single_topic_questions=single_topic_questions,
+        pairwise_questions=pairwise_questions,
+        validations=validations,
     )
     timer.finish(output_row_count=len(rows))
 
@@ -189,6 +237,32 @@ def _process_course(
         "rejected_count": sum(r.status == "rejected" for r in rows),
         "errored_count": sum(r.status == "errored" for r in rows),
     }
+
+
+def _legacy_candidates(questions: list[GeneratedQuestion]) -> list[QuestionCandidate]:
+    return [
+        QuestionCandidate(
+            candidate_id=question.question_id,
+            relevant_topics=question.relevant_topics,
+            family=question.family,
+            pattern=question.pattern,
+            question_text=question.question_text,
+        )
+        for question in questions
+    ]
+
+
+def _legacy_repairs(validations: list[QuestionValidationRecord]) -> list[QuestionRepair]:
+    return [
+        QuestionRepair(
+            candidate_id=validation.question_id,
+            status=validation.status,
+            original_text=validation.original_text,
+            final_text=validation.final_text,
+            reject_reason=validation.reject_reason,
+        )
+        for validation in validations
+    ]
 
 
 @flow(name="course-question-pipeline-flow")
