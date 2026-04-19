@@ -5,11 +5,6 @@ import json
 from typing import Any
 
 from openai import OpenAI
-from pydantic import RootModel
-
-
-class JsonObjectResponse(RootModel[dict[str, Any]]):
-    pass
 
 
 @dataclass
@@ -19,19 +14,13 @@ class LLMClient:
     client: Any | None = field(default=None, repr=False)
 
     def complete_json(self, prompt: str, schema_name: str) -> dict[str, Any]:
-        """Run a structured Responses API call and return a plain JSON object."""
-        response = self._client().responses.parse(
+        """Run a Responses API call in JSON-object mode and return a plain object."""
+        response = self._client().responses.create(
             model=self.model,
             input=prompt,
-            text_format=JsonObjectResponse,
+            text={"format": {"type": "json_object"}},
             metadata={"schema_name": schema_name},
         )
-
-        parsed = getattr(response, "output_parsed", None)
-        if parsed is not None:
-            payload = parsed.model_dump() if hasattr(parsed, "model_dump") else parsed
-            if isinstance(payload, dict):
-                return payload
 
         output_text = getattr(response, "output_text", None)
         if isinstance(output_text, str) and output_text.strip():

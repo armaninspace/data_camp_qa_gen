@@ -4,7 +4,7 @@ from types import SimpleNamespace
 
 import pytest
 
-from course_pipeline.llm import JsonObjectResponse, LLMClient
+from course_pipeline.llm import LLMClient
 
 
 class FakeResponsesAPI:
@@ -12,15 +12,14 @@ class FakeResponsesAPI:
         self.response = response
         self.calls: list[dict] = []
 
-    def parse(self, **kwargs: object) -> object:
+    def create(self, **kwargs: object) -> object:
         self.calls.append(kwargs)
         return self.response
 
 
-def test_complete_json_returns_parsed_root_model_payload() -> None:
+def test_complete_json_returns_output_text_payload() -> None:
     fake_response = SimpleNamespace(
-        output_parsed=JsonObjectResponse(root={"items": [1, 2], "status": "ok"}),
-        output_text='{"ignored": true}',
+        output_text='{"items": [1, 2], "status": "ok"}',
     )
     fake_client = SimpleNamespace(responses=FakeResponsesAPI(fake_response))
     client = LLMClient(api_key=None, model="gpt-5.4", client=fake_client)
@@ -30,11 +29,11 @@ def test_complete_json_returns_parsed_root_model_payload() -> None:
     assert payload == {"items": [1, 2], "status": "ok"}
     assert fake_client.responses.calls[0]["model"] == "gpt-5.4"
     assert fake_client.responses.calls[0]["metadata"] == {"schema_name": "topic_extract"}
+    assert fake_client.responses.calls[0]["text"] == {"format": {"type": "json_object"}}
 
 
 def test_complete_json_falls_back_to_output_text() -> None:
     fake_response = SimpleNamespace(
-        output_parsed=None,
         output_text='{"result": {"ok": true}}',
     )
     fake_client = SimpleNamespace(responses=FakeResponsesAPI(fake_response))
