@@ -117,6 +117,7 @@ normalized_course:
     - Data Integrity
     - Data Modeling
     - Data Migration
+    quality_status: usable
   source_refs:
     title: true
     summary: true
@@ -327,67 +328,94 @@ answers:
 - question_id: q0001
   question_text: What is your first database?
   answer_text: Create Your First Database
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Create Your First Database
 - question_id: q0002
   question_text: How does your first database work?
   answer_text: Create Your First Database
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Create Your First Database
 - question_id: q0003
   question_text: What is enforce data consistency with attribute constraints?
   answer_text: Enforce data consistency with attribute constraints
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Enforce data consistency with attribute constraints
 - question_id: q0004
   question_text: How does enforce data consistency with attribute constraints work?
   answer_text: Enforce data consistency with attribute constraints
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Enforce data consistency with attribute constraints
 - question_id: q0005
   question_text: What is uniquely identify records with key constraints?
   answer_text: Uniquely identify records with key constraints
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Uniquely identify records with key constraints
 - question_id: q0006
   question_text: How does uniquely identify records with key constraints work?
   answer_text: Uniquely identify records with key constraints
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Uniquely identify records with key constraints
 - question_id: q0007
   question_text: What is glue together tables with foreign keys?
   answer_text: Glue together tables with foreign keys
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Glue together tables with foreign keys
 - question_id: q0008
   question_text: How does glue together tables with foreign keys work?
   answer_text: Glue together tables with foreign keys
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Glue together tables with foreign keys
+- question_id: q0009
+  question_text: How is enforce data consistency with attribute constraints different
+    from uniquely identify records with key constraints?
+  answer_text: Enforce data consistency with attribute constraints
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: syllabus
+    text: Enforce data consistency with attribute constraints
+- question_id: q0010
+  question_text: How is enforce data consistency with attribute constraints different
+    from glue together tables with foreign keys?
+  answer_text: Enforce data consistency with attribute constraints
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: syllabus
+    text: Enforce data consistency with attribute constraints
+- question_id: q0011
+  question_text: How is uniquely identify records with key constraints different from
+    glue together tables with foreign keys?
+  answer_text: Uniquely identify records with key constraints
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: syllabus
+    text: Uniquely identify records with key constraints
 final_rows:
 - row_id: r_000001
   course:
@@ -397,7 +425,7 @@ final_rows:
   - your first database
   question_text: What is your first database?
   question_answer: Create Your First Database
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -412,7 +440,7 @@ final_rows:
   - your first database
   question_text: How does your first database work?
   question_answer: Create Your First Database
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -427,7 +455,7 @@ final_rows:
   - enforce data consistency with attribute constraints
   question_text: What is enforce data consistency with attribute constraints?
   question_answer: Enforce data consistency with attribute constraints
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -442,7 +470,7 @@ final_rows:
   - enforce data consistency with attribute constraints
   question_text: How does enforce data consistency with attribute constraints work?
   question_answer: Enforce data consistency with attribute constraints
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -457,7 +485,7 @@ final_rows:
   - uniquely identify records with key constraints
   question_text: What is uniquely identify records with key constraints?
   question_answer: Uniquely identify records with key constraints
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -472,7 +500,7 @@ final_rows:
   - uniquely identify records with key constraints
   question_text: How does uniquely identify records with key constraints work?
   question_answer: Uniquely identify records with key constraints
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -487,7 +515,7 @@ final_rows:
   - glue together tables with foreign keys
   question_text: What is glue together tables with foreign keys?
   question_answer: Glue together tables with foreign keys
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -502,7 +530,7 @@ final_rows:
   - glue together tables with foreign keys
   question_text: How does glue together tables with foreign keys work?
   question_answer: Glue together tables with foreign keys
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -518,12 +546,14 @@ final_rows:
   - uniquely identify records with key constraints
   question_text: How is enforce data consistency with attribute constraints different
     from uniquely identify records with key constraints?
-  question_answer: null
-  correctness: null
+  question_answer: Enforce data consistency with attribute constraints
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: syllabus
+    text: Enforce data consistency with attribute constraints
 - row_id: r_000010
   course:
     course_id: '24394'
@@ -533,12 +563,14 @@ final_rows:
   - glue together tables with foreign keys
   question_text: How is enforce data consistency with attribute constraints different
     from glue together tables with foreign keys?
-  question_answer: null
-  correctness: null
+  question_answer: Enforce data consistency with attribute constraints
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: syllabus
+    text: Enforce data consistency with attribute constraints
 - row_id: r_000011
   course:
     course_id: '24394'
@@ -548,17 +580,19 @@ final_rows:
   - glue together tables with foreign keys
   question_text: How is uniquely identify records with key constraints different from
     glue together tables with foreign keys?
-  question_answer: null
-  correctness: null
+  question_answer: Uniquely identify records with key constraints
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: syllabus
+    text: Uniquely identify records with key constraints
 summary:
   topic_count: 4
   canonical_topic_count: 4
   candidate_count: 11
   accepted_count: 11
   rejected_count: 0
-  correct_count: 8
-  uncertain_count: 0
+  correct_count: 0
+  uncertain_count: 11

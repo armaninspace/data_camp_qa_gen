@@ -117,6 +117,7 @@ normalized_course:
     - SELECT Statements
     - JOIN Operations
     - Aggregate Functions
+    quality_status: usable
   source_refs:
     title: true
     summary: true
@@ -448,48 +449,48 @@ answers:
 - question_id: q0001
   question_text: What is selection box?
   answer_text: SELECTion Box
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: SELECTion Box
 - question_id: q0002
   question_text: How does selection box work?
   answer_text: SELECTion Box
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: SELECTion Box
 - question_id: q0003
   question_text: What is groups, strings?
   answer_text: Groups, strings, and counting things
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Groups, strings, and counting things
 - question_id: q0004
   question_text: How does groups, strings work?
   answer_text: Groups, strings, and counting things
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Groups, strings, and counting things
 - question_id: q0005
   question_text: What is counting things?
   answer_text: Groups, strings, and counting things
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Groups, strings, and counting things
 - question_id: q0006
   question_text: How does counting things work?
   answer_text: Groups, strings, and counting things
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Groups, strings, and counting things
@@ -514,32 +515,32 @@ answers:
 - question_id: q0009
   question_text: What is joining tables?
   answer_text: Joining tables
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Joining tables
 - question_id: q0010
   question_text: How does joining tables work?
   answer_text: Joining tables
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Joining tables
 - question_id: q0013
   question_text: What is strings?
   answer_text: Groups, strings, and counting things
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Groups, strings, and counting things
 - question_id: q0014
   question_text: How does strings work?
   answer_text: Groups, strings, and counting things
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Groups, strings, and counting things
@@ -564,8 +565,8 @@ answers:
 - question_id: q0017
   question_text: How is groups, strings different from strings?
   answer_text: Groups, strings, and counting things
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Groups, strings, and counting things
@@ -578,7 +579,7 @@ final_rows:
   - selection box
   question_text: What is selection box?
   question_answer: SELECTion Box
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -593,7 +594,7 @@ final_rows:
   - selection box
   question_text: How does selection box work?
   question_answer: SELECTion Box
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -608,7 +609,7 @@ final_rows:
   - groups, strings
   question_text: What is groups, strings?
   question_answer: Groups, strings, and counting things
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -623,7 +624,7 @@ final_rows:
   - groups, strings
   question_text: How does groups, strings work?
   question_answer: Groups, strings, and counting things
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -638,7 +639,7 @@ final_rows:
   - counting things
   question_text: What is counting things?
   question_answer: Groups, strings, and counting things
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -653,7 +654,7 @@ final_rows:
   - counting things
   question_text: How does counting things work?
   question_answer: Groups, strings, and counting things
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -700,7 +701,7 @@ final_rows:
   - joining tables
   question_text: What is joining tables?
   question_answer: Joining tables
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -715,7 +716,7 @@ final_rows:
   - joining tables
   question_text: How does joining tables work?
   question_answer: Joining tables
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -756,7 +757,7 @@ final_rows:
   - strings
   question_text: What is strings?
   question_answer: Groups, strings, and counting things
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -771,7 +772,7 @@ final_rows:
   - strings
   question_text: How does strings work?
   question_answer: Groups, strings, and counting things
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -819,7 +820,7 @@ final_rows:
   - strings
   question_text: How is groups, strings different from strings?
   question_answer: Groups, strings, and counting things
-  correctness: correct
+  correctness: uncertain
   question_family: comparison
   status: answered
   reject_reason: null
@@ -832,5 +833,5 @@ summary:
   candidate_count: 17
   accepted_count: 17
   rejected_count: 0
-  correct_count: 15
-  uncertain_count: 0
+  correct_count: 4
+  uncertain_count: 11

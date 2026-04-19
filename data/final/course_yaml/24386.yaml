@@ -102,6 +102,7 @@ normalized_course:
     - Python
     - Data Manipulation
     - Data Validation
+    quality_status: usable
   source_refs:
     title: true
     summary: true
@@ -421,99 +422,150 @@ answers:
 - question_id: q0001
   question_text: What is data merging basics?
   answer_text: Data Merging Basics
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Data Merging Basics
 - question_id: q0002
   question_text: How does data merging basics work?
   answer_text: Data Merging Basics
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Data Merging Basics
 - question_id: q0003
   question_text: What is merging tables with different join types?
   answer_text: Merging Tables With Different Join Types
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Merging Tables With Different Join Types
 - question_id: q0004
   question_text: How does merging tables with different join types work?
   answer_text: Merging Tables With Different Join Types
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Merging Tables With Different Join Types
 - question_id: q0005
   question_text: What is advanced merging?
   answer_text: Advanced Merging and Concatenating
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Advanced Merging and Concatenating
 - question_id: q0006
   question_text: How does advanced merging work?
   answer_text: Advanced Merging and Concatenating
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Advanced Merging and Concatenating
 - question_id: q0007
   question_text: What is concatenating?
   answer_text: Advanced Merging and Concatenating
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Advanced Merging and Concatenating
 - question_id: q0008
   question_text: How does concatenating work?
   answer_text: Advanced Merging and Concatenating
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Advanced Merging and Concatenating
 - question_id: q0009
   question_text: What is merging ordered?
   answer_text: Merging Ordered and Time-Series Data
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Merging Ordered and Time-Series Data
 - question_id: q0010
   question_text: How does merging ordered work?
   answer_text: Merging Ordered and Time-Series Data
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Merging Ordered and Time-Series Data
 - question_id: q0011
   question_text: What is time-series data?
   answer_text: Merging Ordered and Time-Series Data
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Merging Ordered and Time-Series Data
 - question_id: q0012
   question_text: How does time-series data work?
   answer_text: Merging Ordered and Time-Series Data
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Merging Ordered and Time-Series Data
+- question_id: q0013
+  question_text: How is data merging basics different from merging tables with different
+    join types?
+  answer_text: Data Merging Basics
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: syllabus
+    text: Data Merging Basics
+- question_id: q0014
+  question_text: How is data merging basics different from advanced merging?
+  answer_text: Data Merging Basics
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: syllabus
+    text: Data Merging Basics
+- question_id: q0015
+  question_text: How is data merging basics different from merging ordered?
+  answer_text: Data Merging Basics
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: syllabus
+    text: Data Merging Basics
+- question_id: q0016
+  question_text: How is merging tables with different join types different from advanced
+    merging?
+  answer_text: Merging Tables With Different Join Types
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: syllabus
+    text: Merging Tables With Different Join Types
+- question_id: q0017
+  question_text: How is merging tables with different join types different from merging
+    ordered?
+  answer_text: Merging Tables With Different Join Types
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: syllabus
+    text: Merging Tables With Different Join Types
+- question_id: q0018
+  question_text: How is advanced merging different from merging ordered?
+  answer_text: Advanced Merging and Concatenating
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: syllabus
+    text: Advanced Merging and Concatenating
 final_rows:
 - row_id: r_000001
   course:
@@ -523,7 +575,7 @@ final_rows:
   - data merging basics
   question_text: What is data merging basics?
   question_answer: Data Merging Basics
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -538,7 +590,7 @@ final_rows:
   - data merging basics
   question_text: How does data merging basics work?
   question_answer: Data Merging Basics
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -553,7 +605,7 @@ final_rows:
   - merging tables with different join types
   question_text: What is merging tables with different join types?
   question_answer: Merging Tables With Different Join Types
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -568,7 +620,7 @@ final_rows:
   - merging tables with different join types
   question_text: How does merging tables with different join types work?
   question_answer: Merging Tables With Different Join Types
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -583,7 +635,7 @@ final_rows:
   - advanced merging
   question_text: What is advanced merging?
   question_answer: Advanced Merging and Concatenating
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -598,7 +650,7 @@ final_rows:
   - advanced merging
   question_text: How does advanced merging work?
   question_answer: Advanced Merging and Concatenating
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -613,7 +665,7 @@ final_rows:
   - concatenating
   question_text: What is concatenating?
   question_answer: Advanced Merging and Concatenating
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -628,7 +680,7 @@ final_rows:
   - concatenating
   question_text: How does concatenating work?
   question_answer: Advanced Merging and Concatenating
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -643,7 +695,7 @@ final_rows:
   - merging ordered
   question_text: What is merging ordered?
   question_answer: Merging Ordered and Time-Series Data
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -658,7 +710,7 @@ final_rows:
   - merging ordered
   question_text: How does merging ordered work?
   question_answer: Merging Ordered and Time-Series Data
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -673,7 +725,7 @@ final_rows:
   - time-series data
   question_text: What is time-series data?
   question_answer: Merging Ordered and Time-Series Data
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -688,7 +740,7 @@ final_rows:
   - time-series data
   question_text: How does time-series data work?
   question_answer: Merging Ordered and Time-Series Data
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -704,12 +756,14 @@ final_rows:
   - merging tables with different join types
   question_text: How is data merging basics different from merging tables with different
     join types?
-  question_answer: null
-  correctness: null
+  question_answer: Data Merging Basics
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: syllabus
+    text: Data Merging Basics
 - row_id: r_000014
   course:
     course_id: '24386'
@@ -718,12 +772,14 @@ final_rows:
   - data merging basics
   - advanced merging
   question_text: How is data merging basics different from advanced merging?
-  question_answer: null
-  correctness: null
+  question_answer: Data Merging Basics
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: syllabus
+    text: Data Merging Basics
 - row_id: r_000015
   course:
     course_id: '24386'
@@ -732,12 +788,14 @@ final_rows:
   - data merging basics
   - merging ordered
   question_text: How is data merging basics different from merging ordered?
-  question_answer: null
-  correctness: null
+  question_answer: Data Merging Basics
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: syllabus
+    text: Data Merging Basics
 - row_id: r_000016
   course:
     course_id: '24386'
@@ -747,12 +805,14 @@ final_rows:
   - advanced merging
   question_text: How is merging tables with different join types different from advanced
     merging?
-  question_answer: null
-  correctness: null
+  question_answer: Merging Tables With Different Join Types
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: syllabus
+    text: Merging Tables With Different Join Types
 - row_id: r_000017
   course:
     course_id: '24386'
@@ -762,12 +822,14 @@ final_rows:
   - merging ordered
   question_text: How is merging tables with different join types different from merging
     ordered?
-  question_answer: null
-  correctness: null
+  question_answer: Merging Tables With Different Join Types
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: syllabus
+    text: Merging Tables With Different Join Types
 - row_id: r_000018
   course:
     course_id: '24386'
@@ -776,17 +838,19 @@ final_rows:
   - advanced merging
   - merging ordered
   question_text: How is advanced merging different from merging ordered?
-  question_answer: null
-  correctness: null
+  question_answer: Advanced Merging and Concatenating
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: syllabus
+    text: Advanced Merging and Concatenating
 summary:
   topic_count: 6
   canonical_topic_count: 6
   candidate_count: 18
   accepted_count: 18
   rejected_count: 0
-  correct_count: 12
-  uncertain_count: 0
+  correct_count: 0
+  uncertain_count: 18

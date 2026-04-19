@@ -104,6 +104,7 @@ normalized_course:
     - NumPy
     - Data Structures
     - Code Optimization
+    quality_status: usable
   source_refs:
     title: true
     summary: true
@@ -316,67 +317,75 @@ answers:
 - question_id: q0001
   question_text: What is foundations for efficiencies?
   answer_text: Foundations for efficiencies
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Foundations for efficiencies
 - question_id: q0002
   question_text: How does foundations for efficiencies work?
   answer_text: Foundations for efficiencies
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Foundations for efficiencies
 - question_id: q0005
   question_text: What is profiling code?
   answer_text: Timing and profiling code
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Timing and profiling code
 - question_id: q0006
   question_text: How does profiling code work?
   answer_text: Timing and profiling code
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Timing and profiling code
 - question_id: q0007
   question_text: What is gaining efficiencies?
   answer_text: Gaining efficiencies
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Gaining efficiencies
 - question_id: q0008
   question_text: How does gaining efficiencies work?
   answer_text: Gaining efficiencies
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Gaining efficiencies
 - question_id: q0009
   question_text: What is basic pandas optimizations?
   answer_text: Basic pandas optimizations
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Basic pandas optimizations
 - question_id: q0010
   question_text: How does basic pandas optimizations work?
   answer_text: Basic pandas optimizations
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Basic pandas optimizations
+- question_id: q0011
+  question_text: How is foundations for efficiencies different from gaining efficiencies?
+  answer_text: Foundations for efficiencies
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: syllabus
+    text: Foundations for efficiencies
 final_rows:
 - row_id: r_000001
   course:
@@ -386,7 +395,7 @@ final_rows:
   - foundations for efficiencies
   question_text: What is foundations for efficiencies?
   question_answer: Foundations for efficiencies
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -401,7 +410,7 @@ final_rows:
   - foundations for efficiencies
   question_text: How does foundations for efficiencies work?
   question_answer: Foundations for efficiencies
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -442,7 +451,7 @@ final_rows:
   - profiling code
   question_text: What is profiling code?
   question_answer: Timing and profiling code
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -457,7 +466,7 @@ final_rows:
   - profiling code
   question_text: How does profiling code work?
   question_answer: Timing and profiling code
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -472,7 +481,7 @@ final_rows:
   - gaining efficiencies
   question_text: What is gaining efficiencies?
   question_answer: Gaining efficiencies
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -487,7 +496,7 @@ final_rows:
   - gaining efficiencies
   question_text: How does gaining efficiencies work?
   question_answer: Gaining efficiencies
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -502,7 +511,7 @@ final_rows:
   - basic pandas optimizations
   question_text: What is basic pandas optimizations?
   question_answer: Basic pandas optimizations
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -517,7 +526,7 @@ final_rows:
   - basic pandas optimizations
   question_text: How does basic pandas optimizations work?
   question_answer: Basic pandas optimizations
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -532,17 +541,19 @@ final_rows:
   - foundations for efficiencies
   - gaining efficiencies
   question_text: How is foundations for efficiencies different from gaining efficiencies?
-  question_answer: null
-  correctness: null
+  question_answer: Foundations for efficiencies
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: syllabus
+    text: Foundations for efficiencies
 summary:
   topic_count: 5
   canonical_topic_count: 5
   candidate_count: 11
   accepted_count: 11
   rejected_count: 0
-  correct_count: 8
-  uncertain_count: 0
+  correct_count: 0
+  uncertain_count: 9

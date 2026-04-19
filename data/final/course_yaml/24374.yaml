@@ -110,6 +110,7 @@ normalized_course:
     - Data Manipulation
     - Pivot Tables
     - DataFrames
+    quality_status: partial
   source_refs:
     title: true
     summary: true
@@ -935,16 +936,16 @@ answers:
 - question_id: q0007
   question_text: What is discover data manipulation with pandas?
   answer_text: Discover Data Manipulation with pandas
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Discover Data Manipulation with pandas
 - question_id: q0008
   question_text: How does discover data manipulation with pandas work?
   answer_text: Discover Data Manipulation with pandas
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Discover Data Manipulation with pandas
@@ -1040,6 +1041,33 @@ answers:
   evidence:
   - source: overview
     text: series, you’ll learn how to import, clean, calculate statistics, and create
+- question_id: q0025
+  question_text: How is learn how to import different from with this course, you’ll
+    learn why pandas is world's most popular python?
+  answer_text: Learn how to import and clean data, calculate statistics, and create
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: summary
+    text: Learn how to import and clean data, calculate statistics, and create
+- question_id: q0026
+  question_text: How is learn how to import different from library, used for everything
+    from data manipulation to data analysis. you’ll?
+  answer_text: Learn how to import and clean data, calculate statistics, and create
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: summary
+    text: Learn how to import and clean data, calculate statistics, and create
+- question_id: q0027
+  question_text: How is learn how to import different from explore how to manipulate
+    dataframes, as you extract, filter?
+  answer_text: Learn how to import and clean data, calculate statistics, and create
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: summary
+    text: Learn how to import and clean data, calculate statistics, and create
 - question_id: q0028
   question_text: How is learn how to import different from series, you’ll learn how
     to import, clean, calculate statistics?
@@ -1050,6 +1078,108 @@ answers:
   evidence:
   - source: overview
     text: series, you’ll learn how to import, clean, calculate statistics, and create
+- question_id: q0029
+  question_text: How is clean data, calculate statistics different from real-world
+    data, including walmart sales figures?
+  answer_text: Learn how to import and clean data, calculate statistics, and create
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: summary
+    text: Learn how to import and clean data, calculate statistics, and create
+- question_id: q0030
+  question_text: How is clean data, calculate statistics different from series, you’ll
+    learn how to import, clean, calculate statistics?
+  answer_text: Learn how to import and clean data, calculate statistics, and create
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: summary
+    text: Learn how to import and clean data, calculate statistics, and create
+- question_id: q0031
+  question_text: How is discover data manipulation with pandas different from with
+    this course, you’ll learn why pandas is world's most popular python?
+  answer_text: Discover Data Manipulation with pandas
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: Discover Data Manipulation with pandas
+- question_id: q0032
+  question_text: How is discover data manipulation with pandas different from library,
+    used for everything from data manipulation to data analysis. you’ll?
+  answer_text: Discover Data Manipulation with pandas
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: Discover Data Manipulation with pandas
+- question_id: q0033
+  question_text: How is discover data manipulation with pandas different from with
+    pandas, you’ll explore all core data science concepts. using?
+  answer_text: Discover Data Manipulation with pandas
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: Discover Data Manipulation with pandas
+- question_id: q0036
+  question_text: How is with this course, you’ll learn why pandas is world's most
+    popular python different from series, you’ll learn how to import, clean, calculate
+    statistics?
+  answer_text: Learn how to import and clean data, calculate statistics, and create
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: summary
+    text: Learn how to import and clean data, calculate statistics, and create
+- question_id: q0037
+  question_text: How is library, used for everything from data manipulation to data
+    analysis. you’ll different from explore how to manipulate dataframes, as you extract,
+    filter?
+  answer_text: explore how to manipulate DataFrames, as you extract, filter, and transform
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: explore how to manipulate DataFrames, as you extract, filter, and transform
+- question_id: q0039
+  question_text: How is library, used for everything from data manipulation to data
+    analysis. you’ll different from series, you’ll learn how to import, clean, calculate
+    statistics?
+  answer_text: Learn how to import and clean data, calculate statistics, and create
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: summary
+    text: Learn how to import and clean data, calculate statistics, and create
+- question_id: q0040
+  question_text: How is explore how to manipulate dataframes, as you extract, filter
+    different from with pandas, you’ll explore all core data science concepts. using?
+  answer_text: explore how to manipulate DataFrames, as you extract, filter, and transform
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: explore how to manipulate DataFrames, as you extract, filter, and transform
+- question_id: q0041
+  question_text: How is explore how to manipulate dataframes, as you extract, filter
+    different from series, you’ll learn how to import, clean, calculate statistics?
+  answer_text: Learn how to import and clean data, calculate statistics, and create
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: summary
+    text: Learn how to import and clean data, calculate statistics, and create
+- question_id: q0042
+  question_text: How is with pandas, you’ll explore all core data science concepts.
+    using different from series, you’ll learn how to import, clean, calculate statistics?
+  answer_text: Learn how to import and clean data, calculate statistics, and create
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: summary
+    text: Learn how to import and clean data, calculate statistics, and create
 final_rows:
 - row_id: r_000001
   course:
@@ -1149,7 +1279,7 @@ final_rows:
   - discover data manipulation with pandas
   question_text: What is discover data manipulation with pandas?
   question_answer: Discover Data Manipulation with pandas
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -1164,7 +1294,7 @@ final_rows:
   - discover data manipulation with pandas
   question_text: How does discover data manipulation with pandas work?
   question_answer: Discover Data Manipulation with pandas
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -1430,12 +1560,14 @@ final_rows:
   - with this course, you’ll learn why pandas is world's most popular python
   question_text: How is learn how to import different from with this course, you’ll
     learn why pandas is world's most popular python?
-  question_answer: null
-  correctness: null
+  question_answer: Learn how to import and clean data, calculate statistics, and create
+  correctness: correct
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: summary
+    text: Learn how to import and clean data, calculate statistics, and create
 - row_id: r_000026
   course:
     course_id: '24374'
@@ -1445,12 +1577,14 @@ final_rows:
   - library, used for everything from data manipulation to data analysis. you’ll
   question_text: How is learn how to import different from library, used for everything
     from data manipulation to data analysis. you’ll?
-  question_answer: null
-  correctness: null
+  question_answer: Learn how to import and clean data, calculate statistics, and create
+  correctness: correct
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: summary
+    text: Learn how to import and clean data, calculate statistics, and create
 - row_id: r_000027
   course:
     course_id: '24374'
@@ -1460,12 +1594,14 @@ final_rows:
   - explore how to manipulate dataframes, as you extract, filter
   question_text: How is learn how to import different from explore how to manipulate
     dataframes, as you extract, filter?
-  question_answer: null
-  correctness: null
+  question_answer: Learn how to import and clean data, calculate statistics, and create
+  correctness: correct
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: summary
+    text: Learn how to import and clean data, calculate statistics, and create
 - row_id: r_000028
   course:
     course_id: '24374'
@@ -1493,12 +1629,14 @@ final_rows:
   - real-world data, including walmart sales figures
   question_text: How is clean data, calculate statistics different from real-world
     data, including walmart sales figures?
-  question_answer: null
-  correctness: null
+  question_answer: Learn how to import and clean data, calculate statistics, and create
+  correctness: correct
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: summary
+    text: Learn how to import and clean data, calculate statistics, and create
 - row_id: r_000030
   course:
     course_id: '24374'
@@ -1508,12 +1646,14 @@ final_rows:
   - series, you’ll learn how to import, clean, calculate statistics
   question_text: How is clean data, calculate statistics different from series, you’ll
     learn how to import, clean, calculate statistics?
-  question_answer: null
-  correctness: null
+  question_answer: Learn how to import and clean data, calculate statistics, and create
+  correctness: correct
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: summary
+    text: Learn how to import and clean data, calculate statistics, and create
 - row_id: r_000031
   course:
     course_id: '24374'
@@ -1523,12 +1663,14 @@ final_rows:
   - with this course, you’ll learn why pandas is world's most popular python
   question_text: How is discover data manipulation with pandas different from with
     this course, you’ll learn why pandas is world's most popular python?
-  question_answer: null
-  correctness: null
+  question_answer: Discover Data Manipulation with pandas
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: Discover Data Manipulation with pandas
 - row_id: r_000032
   course:
     course_id: '24374'
@@ -1538,12 +1680,14 @@ final_rows:
   - library, used for everything from data manipulation to data analysis. you’ll
   question_text: How is discover data manipulation with pandas different from library,
     used for everything from data manipulation to data analysis. you’ll?
-  question_answer: null
-  correctness: null
+  question_answer: Discover Data Manipulation with pandas
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: Discover Data Manipulation with pandas
 - row_id: r_000033
   course:
     course_id: '24374'
@@ -1553,12 +1697,14 @@ final_rows:
   - with pandas, you’ll explore all core data science concepts. using
   question_text: How is discover data manipulation with pandas different from with
     pandas, you’ll explore all core data science concepts. using?
-  question_answer: null
-  correctness: null
+  question_answer: Discover Data Manipulation with pandas
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: Discover Data Manipulation with pandas
 - row_id: r_000034
   course:
     course_id: '24374'
@@ -1601,12 +1747,14 @@ final_rows:
   question_text: How is with this course, you’ll learn why pandas is world's most
     popular python different from series, you’ll learn how to import, clean, calculate
     statistics?
-  question_answer: null
-  correctness: null
+  question_answer: Learn how to import and clean data, calculate statistics, and create
+  correctness: correct
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: summary
+    text: Learn how to import and clean data, calculate statistics, and create
 - row_id: r_000037
   course:
     course_id: '24374'
@@ -1617,12 +1765,15 @@ final_rows:
   question_text: How is library, used for everything from data manipulation to data
     analysis. you’ll different from explore how to manipulate dataframes, as you extract,
     filter?
-  question_answer: null
-  correctness: null
+  question_answer: explore how to manipulate DataFrames, as you extract, filter, and
+    transform
+  correctness: correct
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: explore how to manipulate DataFrames, as you extract, filter, and transform
 - row_id: r_000038
   course:
     course_id: '24374'
@@ -1649,12 +1800,14 @@ final_rows:
   question_text: How is library, used for everything from data manipulation to data
     analysis. you’ll different from series, you’ll learn how to import, clean, calculate
     statistics?
-  question_answer: null
-  correctness: null
+  question_answer: Learn how to import and clean data, calculate statistics, and create
+  correctness: correct
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: summary
+    text: Learn how to import and clean data, calculate statistics, and create
 - row_id: r_000040
   course:
     course_id: '24374'
@@ -1664,12 +1817,15 @@ final_rows:
   - with pandas, you’ll explore all core data science concepts. using
   question_text: How is explore how to manipulate dataframes, as you extract, filter
     different from with pandas, you’ll explore all core data science concepts. using?
-  question_answer: null
-  correctness: null
+  question_answer: explore how to manipulate DataFrames, as you extract, filter, and
+    transform
+  correctness: correct
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: explore how to manipulate DataFrames, as you extract, filter, and transform
 - row_id: r_000041
   course:
     course_id: '24374'
@@ -1679,12 +1835,14 @@ final_rows:
   - series, you’ll learn how to import, clean, calculate statistics
   question_text: How is explore how to manipulate dataframes, as you extract, filter
     different from series, you’ll learn how to import, clean, calculate statistics?
-  question_answer: null
-  correctness: null
+  question_answer: Learn how to import and clean data, calculate statistics, and create
+  correctness: correct
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: summary
+    text: Learn how to import and clean data, calculate statistics, and create
 - row_id: r_000042
   course:
     course_id: '24374'
@@ -1694,17 +1852,19 @@ final_rows:
   - series, you’ll learn how to import, clean, calculate statistics
   question_text: How is with pandas, you’ll explore all core data science concepts.
     using different from series, you’ll learn how to import, clean, calculate statistics?
-  question_answer: null
-  correctness: null
+  question_answer: Learn how to import and clean data, calculate statistics, and create
+  correctness: correct
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: summary
+    text: Learn how to import and clean data, calculate statistics, and create
 summary:
   topic_count: 12
   canonical_topic_count: 12
   candidate_count: 42
   accepted_count: 42
   rejected_count: 0
-  correct_count: 19
-  uncertain_count: 0
+  correct_count: 28
+  uncertain_count: 5

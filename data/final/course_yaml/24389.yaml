@@ -99,6 +99,7 @@ normalized_course:
     - Data Processing
     - Parallel Computing
     - Data Engineering
+    quality_status: usable
   source_refs:
     title: true
     summary: true
@@ -307,8 +308,8 @@ answers:
 - question_id: q0002
   question_text: How does what is data engineering? work?
   answer_text: What is data engineering?
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: What is data engineering?
@@ -331,32 +332,32 @@ answers:
 - question_id: q0005
   question_text: What is storing data?
   answer_text: Storing data
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Storing data
 - question_id: q0006
   question_text: How does storing data work?
   answer_text: Storing data
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Storing data
 - question_id: q0009
   question_text: What is processing data?
   answer_text: Moving and processing data
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Moving and processing data
 - question_id: q0010
   question_text: How does processing data work?
   answer_text: Moving and processing data
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Moving and processing data
@@ -382,7 +383,7 @@ final_rows:
   - what is data engineering?
   question_text: How does what is data engineering? work?
   question_answer: What is data engineering?
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -427,7 +428,7 @@ final_rows:
   - storing data
   question_text: What is storing data?
   question_answer: Storing data
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -442,7 +443,7 @@ final_rows:
   - storing data
   question_text: How does storing data work?
   question_answer: Storing data
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -483,7 +484,7 @@ final_rows:
   - processing data
   question_text: What is processing data?
   question_answer: Moving and processing data
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -498,7 +499,7 @@ final_rows:
   - processing data
   question_text: How does processing data work?
   question_answer: Moving and processing data
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -511,5 +512,5 @@ summary:
   candidate_count: 10
   accepted_count: 9
   rejected_count: 1
-  correct_count: 7
-  uncertain_count: 0
+  correct_count: 2
+  uncertain_count: 5

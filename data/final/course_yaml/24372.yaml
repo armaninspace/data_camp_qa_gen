@@ -134,6 +134,7 @@ normalized_course:
     - pandas
     - Logic
     - DataFrames
+    quality_status: usable
   source_refs:
     title: true
     summary: true
@@ -350,16 +351,16 @@ answers:
 - question_id: q0003
   question_text: What is dictionaries & pandas?
   answer_text: Dictionaries & Pandas
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Dictionaries & Pandas
 - question_id: q0004
   question_text: How does dictionaries & pandas work?
   answer_text: Dictionaries & Pandas
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Dictionaries & Pandas
@@ -382,16 +383,16 @@ answers:
 - question_id: q0007
   question_text: What is filtering?
   answer_text: filtering and loops.
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: filtering and loops.
 - question_id: q0008
   question_text: How does filtering work?
   answer_text: filtering and loops.
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: filtering and loops.
@@ -450,7 +451,7 @@ final_rows:
   - dictionaries & pandas
   question_text: What is dictionaries & pandas?
   question_answer: Dictionaries & Pandas
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -465,7 +466,7 @@ final_rows:
   - dictionaries & pandas
   question_text: How does dictionaries & pandas work?
   question_answer: Dictionaries & Pandas
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -512,7 +513,7 @@ final_rows:
   - filtering
   question_text: What is filtering?
   question_answer: filtering and loops.
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -527,7 +528,7 @@ final_rows:
   - filtering
   question_text: How does filtering work?
   question_answer: filtering and loops.
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -570,5 +571,5 @@ summary:
   candidate_count: 10
   accepted_count: 10
   rejected_count: 0
-  correct_count: 10
-  uncertain_count: 0
+  correct_count: 6
+  uncertain_count: 4

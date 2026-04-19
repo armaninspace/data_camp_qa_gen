@@ -116,6 +116,7 @@ normalized_course:
     - Tableau
     - Trend Analysis
     - Advanced Analytics
+    quality_status: usable
   source_refs:
     title: true
     summary: true
@@ -328,83 +329,91 @@ answers:
 - question_id: q0001
   question_text: What is preparing for analysis?
   answer_text: Preparing for Analysis
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Preparing for Analysis
 - question_id: q0002
   question_text: How does preparing for analysis work?
   answer_text: Preparing for Analysis
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Preparing for Analysis
 - question_id: q0003
   question_text: What is exploring visualizations?
   answer_text: Exploring Visualizations
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Exploring Visualizations
 - question_id: q0004
   question_text: How does exploring visualizations work?
   answer_text: Exploring Visualizations
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Exploring Visualizations
 - question_id: q0005
   question_text: What is mapping analysis?
   answer_text: Mapping Analysis
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Mapping Analysis
 - question_id: q0006
   question_text: How does mapping analysis work?
   answer_text: Mapping Analysis
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Mapping Analysis
 - question_id: q0007
   question_text: What is groups, sets?
   answer_text: Groups, Sets, and Parameters
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Groups, Sets, and Parameters
 - question_id: q0008
   question_text: How does groups, sets work?
   answer_text: Groups, Sets, and Parameters
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Groups, Sets, and Parameters
 - question_id: q0009
   question_text: What is parameters?
   answer_text: Groups, Sets, and Parameters
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Groups, Sets, and Parameters
 - question_id: q0010
   question_text: How does parameters work?
   answer_text: Groups, Sets, and Parameters
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Groups, Sets, and Parameters
+- question_id: q0011
+  question_text: How is preparing for analysis different from mapping analysis?
+  answer_text: Preparing for Analysis
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: Preparing for Analysis
 final_rows:
 - row_id: r_000001
   course:
@@ -414,7 +423,7 @@ final_rows:
   - preparing for analysis
   question_text: What is preparing for analysis?
   question_answer: Preparing for Analysis
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -429,7 +438,7 @@ final_rows:
   - preparing for analysis
   question_text: How does preparing for analysis work?
   question_answer: Preparing for Analysis
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -444,7 +453,7 @@ final_rows:
   - exploring visualizations
   question_text: What is exploring visualizations?
   question_answer: Exploring Visualizations
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -459,7 +468,7 @@ final_rows:
   - exploring visualizations
   question_text: How does exploring visualizations work?
   question_answer: Exploring Visualizations
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -474,7 +483,7 @@ final_rows:
   - mapping analysis
   question_text: What is mapping analysis?
   question_answer: Mapping Analysis
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -489,7 +498,7 @@ final_rows:
   - mapping analysis
   question_text: How does mapping analysis work?
   question_answer: Mapping Analysis
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -504,7 +513,7 @@ final_rows:
   - groups, sets
   question_text: What is groups, sets?
   question_answer: Groups, Sets, and Parameters
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -519,7 +528,7 @@ final_rows:
   - groups, sets
   question_text: How does groups, sets work?
   question_answer: Groups, Sets, and Parameters
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -534,7 +543,7 @@ final_rows:
   - parameters
   question_text: What is parameters?
   question_answer: Groups, Sets, and Parameters
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -549,7 +558,7 @@ final_rows:
   - parameters
   question_text: How does parameters work?
   question_answer: Groups, Sets, and Parameters
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -564,17 +573,19 @@ final_rows:
   - preparing for analysis
   - mapping analysis
   question_text: How is preparing for analysis different from mapping analysis?
-  question_answer: null
-  correctness: null
+  question_answer: Preparing for Analysis
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: Preparing for Analysis
 summary:
   topic_count: 5
   canonical_topic_count: 5
   candidate_count: 11
   accepted_count: 11
   rejected_count: 0
-  correct_count: 10
-  uncertain_count: 0
+  correct_count: 0
+  uncertain_count: 11

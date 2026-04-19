@@ -121,6 +121,7 @@ normalized_course:
     - Data Filtering
     - Data Transformation
     - Power Query
+    quality_status: usable
   source_refs:
     title: true
     summary: true
@@ -321,64 +322,64 @@ answers:
 - question_id: q0001
   question_text: What is getting started with power bi?
   answer_text: Getting Started with Power BI
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Getting Started with Power BI
 - question_id: q0002
   question_text: How does getting started with power bi work?
   answer_text: Getting Started with Power BI
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Getting Started with Power BI
 - question_id: q0003
   question_text: What is transforming data?
   answer_text: Transforming Data
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Transforming Data
 - question_id: q0004
   question_text: How does transforming data work?
   answer_text: Transforming Data
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Transforming Data
 - question_id: q0005
   question_text: What is visualizing data?
   answer_text: Visualizing Data
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Visualizing Data
 - question_id: q0006
   question_text: How does visualizing data work?
   answer_text: Visualizing Data
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Visualizing Data
 - question_id: q0007
   question_text: What is filtering?
   answer_text: Filtering
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Filtering
 - question_id: q0008
   question_text: How does filtering work?
   answer_text: Filtering
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Filtering
@@ -407,7 +408,7 @@ final_rows:
   - getting started with power bi
   question_text: What is getting started with power bi?
   question_answer: Getting Started with Power BI
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -422,7 +423,7 @@ final_rows:
   - getting started with power bi
   question_text: How does getting started with power bi work?
   question_answer: Getting Started with Power BI
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -437,7 +438,7 @@ final_rows:
   - transforming data
   question_text: What is transforming data?
   question_answer: Transforming Data
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -452,7 +453,7 @@ final_rows:
   - transforming data
   question_text: How does transforming data work?
   question_answer: Transforming Data
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -467,7 +468,7 @@ final_rows:
   - visualizing data
   question_text: What is visualizing data?
   question_answer: Visualizing Data
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -482,7 +483,7 @@ final_rows:
   - visualizing data
   question_text: How does visualizing data work?
   question_answer: Visualizing Data
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -497,7 +498,7 @@ final_rows:
   - filtering
   question_text: What is filtering?
   question_answer: Filtering
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -512,7 +513,7 @@ final_rows:
   - filtering
   question_text: How does filtering work?
   question_answer: Filtering
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -555,5 +556,5 @@ summary:
   candidate_count: 10
   accepted_count: 10
   rejected_count: 0
-  correct_count: 10
-  uncertain_count: 0
+  correct_count: 2
+  uncertain_count: 8

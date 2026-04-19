@@ -109,6 +109,7 @@ normalized_course:
     - Data Preparation
     - Data Exploration
     - Time Series Forecasting
+    quality_status: usable
   source_refs:
     title: true
     summary: true
@@ -391,112 +392,112 @@ answers:
 - question_id: q0001
   question_text: What is data collection?
   answer_text: Data Collection and Storage
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Data Collection and Storage
 - question_id: q0002
   question_text: How does data collection work?
   answer_text: Data Collection and Storage
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Data Collection and Storage
 - question_id: q0003
   question_text: What is storage?
   answer_text: Data Collection and Storage
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Data Collection and Storage
 - question_id: q0004
   question_text: How does storage work?
   answer_text: Data Collection and Storage
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Data Collection and Storage
 - question_id: q0005
   question_text: What is preparation, exploration?
   answer_text: Preparation, Exploration, and Visualization
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Preparation, Exploration, and Visualization
 - question_id: q0006
   question_text: How does preparation, exploration work?
   answer_text: Preparation, Exploration, and Visualization
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Preparation, Exploration, and Visualization
 - question_id: q0007
   question_text: What is visualization?
   answer_text: Preparation, Exploration, and Visualization
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Preparation, Exploration, and Visualization
 - question_id: q0008
   question_text: How does visualization work?
   answer_text: Preparation, Exploration, and Visualization
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Preparation, Exploration, and Visualization
 - question_id: q0009
   question_text: What is experimentation?
   answer_text: Experimentation and Prediction
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Experimentation and Prediction
 - question_id: q0010
   question_text: How does experimentation work?
   answer_text: Experimentation and Prediction
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Experimentation and Prediction
 - question_id: q0011
   question_text: What is prediction?
   answer_text: Experimentation and Prediction
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Experimentation and Prediction
 - question_id: q0012
   question_text: How does prediction work?
   answer_text: Experimentation and Prediction
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Experimentation and Prediction
 - question_id: q0013
   question_text: What is where?
   answer_text: time series forecasting where we'll learn about predicting future
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: time series forecasting where we'll learn about predicting future
 - question_id: q0014
   question_text: How do you use where?
   answer_text: time series forecasting where we'll learn about predicting future
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: time series forecasting where we'll learn about predicting future
@@ -509,7 +510,7 @@ final_rows:
   - data collection
   question_text: What is data collection?
   question_answer: Data Collection and Storage
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -524,7 +525,7 @@ final_rows:
   - data collection
   question_text: How does data collection work?
   question_answer: Data Collection and Storage
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -539,7 +540,7 @@ final_rows:
   - storage
   question_text: What is storage?
   question_answer: Data Collection and Storage
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -554,7 +555,7 @@ final_rows:
   - storage
   question_text: How does storage work?
   question_answer: Data Collection and Storage
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -569,7 +570,7 @@ final_rows:
   - preparation, exploration
   question_text: What is preparation, exploration?
   question_answer: Preparation, Exploration, and Visualization
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -584,7 +585,7 @@ final_rows:
   - preparation, exploration
   question_text: How does preparation, exploration work?
   question_answer: Preparation, Exploration, and Visualization
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -599,7 +600,7 @@ final_rows:
   - visualization
   question_text: What is visualization?
   question_answer: Preparation, Exploration, and Visualization
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -614,7 +615,7 @@ final_rows:
   - visualization
   question_text: How does visualization work?
   question_answer: Preparation, Exploration, and Visualization
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -629,7 +630,7 @@ final_rows:
   - experimentation
   question_text: What is experimentation?
   question_answer: Experimentation and Prediction
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -644,7 +645,7 @@ final_rows:
   - experimentation
   question_text: How does experimentation work?
   question_answer: Experimentation and Prediction
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -659,7 +660,7 @@ final_rows:
   - prediction
   question_text: What is prediction?
   question_answer: Experimentation and Prediction
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -674,7 +675,7 @@ final_rows:
   - prediction
   question_text: How does prediction work?
   question_answer: Experimentation and Prediction
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -689,7 +690,7 @@ final_rows:
   - where
   question_text: What is where?
   question_answer: time series forecasting where we'll learn about predicting future
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -704,7 +705,7 @@ final_rows:
   - where
   question_text: How do you use where?
   question_answer: time series forecasting where we'll learn about predicting future
-  correctness: correct
+  correctness: uncertain
   question_family: procedure
   status: answered
   reject_reason: null
@@ -717,5 +718,5 @@ summary:
   candidate_count: 14
   accepted_count: 14
   rejected_count: 0
-  correct_count: 14
-  uncertain_count: 0
+  correct_count: 0
+  uncertain_count: 14

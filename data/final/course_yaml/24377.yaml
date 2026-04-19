@@ -96,6 +96,7 @@ normalized_course:
     - Python
     - Data Science
     - Lambda Functions
+    quality_status: partial
   source_refs:
     title: true
     summary: true
@@ -998,6 +999,151 @@ answers:
   evidence:
   - source: overview
     text: multiple parameters and multiple return values, along with default arguments
+- question_id: q0024
+  question_text: How is learn art of writing your own functions in python, as well
+    as key different from has tons of fantastic functions?
+  answer_text: has tons of fantastic functions and a module ecosystem.
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: has tons of fantastic functions and a module ecosystem.
+- question_id: q0026
+  question_text: How is learn art of writing your own functions in python, as well
+    as key different from professional or developer, you'll constantly need to write
+    your own?
+  answer_text: professional or developer, you'll constantly need to write your own
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: professional or developer, you'll constantly need to write your own
+- question_id: q0029
+  question_text: How is learn art of writing your own functions in python, as well
+    as key different from course being able to write your very own custom functions,
+    complete with?
+  answer_text: course being able to write your very own custom functions, complete
+    with
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: course being able to write your very own custom functions, complete with
+- question_id: q0030
+  question_text: How is it's time to push forward different from professional or developer,
+    you'll constantly need to write your own?
+  answer_text: It's time to push forward and develop your Python chops even further.
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: It's time to push forward and develop your Python chops even further.
+- question_id: q0031
+  question_text: How is it's time to push forward different from functions to solve
+    problems that are dictated by your data. you will learn?
+  answer_text: It's time to push forward and develop your Python chops even further.
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: It's time to push forward and develop your Python chops even further.
+- question_id: q0032
+  question_text: How is it's time to push forward different from course being able
+    to write your very own custom functions, complete with?
+  answer_text: It's time to push forward and develop your Python chops even further.
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: It's time to push forward and develop your Python chops even further.
+- question_id: q0033
+  question_text: How is develop your python chops even further. python different from
+    professional or developer, you'll constantly need to write your own?
+  answer_text: professional or developer, you'll constantly need to write your own
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: professional or developer, you'll constantly need to write your own
+- question_id: q0035
+  question_text: How is develop your python chops even further. python different from
+    course being able to write your very own custom functions, complete with?
+  answer_text: course being able to write your very own custom functions, complete
+    with
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: course being able to write your very own custom functions, complete with
+- question_id: q0036
+  question_text: How is has tons of fantastic functions different from functions to
+    solve problems that are dictated by your data. you will learn?
+  answer_text: has tons of fantastic functions and a module ecosystem.
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: has tons of fantastic functions and a module ecosystem.
+- question_id: q0037
+  question_text: How is has tons of fantastic functions different from art of function
+    writing in this first course. you'll come out of this?
+  answer_text: has tons of fantastic functions and a module ecosystem.
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: has tons of fantastic functions and a module ecosystem.
+- question_id: q0038
+  question_text: How is professional or developer, you'll constantly need to write
+    your own different from functions to solve problems that are dictated by your
+    data. you will learn?
+  answer_text: professional or developer, you'll constantly need to write your own
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: professional or developer, you'll constantly need to write your own
+- question_id: q0039
+  question_text: How is professional or developer, you'll constantly need to write
+    your own different from art of function writing in this first course. you'll come
+    out of this?
+  answer_text: professional or developer, you'll constantly need to write your own
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: professional or developer, you'll constantly need to write your own
+- question_id: q0040
+  question_text: How is professional or developer, you'll constantly need to write
+    your own different from course being able to write your very own custom functions,
+    complete with?
+  answer_text: professional or developer, you'll constantly need to write your own
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: professional or developer, you'll constantly need to write your own
+- question_id: q0041
+  question_text: How is functions to solve problems that are dictated by your data.
+    you will learn different from course being able to write your very own custom
+    functions, complete with?
+  answer_text: course being able to write your very own custom functions, complete
+    with
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: course being able to write your very own custom functions, complete with
+- question_id: q0042
+  question_text: How is course being able to write your very own custom functions,
+    complete with different from multiple return values, along with default arguments?
+  answer_text: course being able to write your very own custom functions, complete
+    with
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: course being able to write your very own custom functions, complete with
 - question_id: q0043
   question_text: How is multiple parameters different from multiple return values,
     along with default arguments?
@@ -1361,12 +1507,14 @@ final_rows:
   - has tons of fantastic functions
   question_text: How is learn art of writing your own functions in python, as well
     as key different from has tons of fantastic functions?
-  question_answer: null
-  correctness: null
+  question_answer: has tons of fantastic functions and a module ecosystem.
+  correctness: correct
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: has tons of fantastic functions and a module ecosystem.
 - row_id: r_000025
   course:
     course_id: '24377'
@@ -1392,12 +1540,15 @@ final_rows:
   question_text: How is learn art of writing your own functions in python, as well
     as key different from professional or developer, you'll constantly need to write
     your own?
-  question_answer: null
-  correctness: null
+  question_answer: professional or developer, you'll constantly need to write your
+    own
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: professional or developer, you'll constantly need to write your own
 - row_id: r_000027
   course:
     course_id: '24377'
@@ -1440,12 +1591,15 @@ final_rows:
   question_text: How is learn art of writing your own functions in python, as well
     as key different from course being able to write your very own custom functions,
     complete with?
-  question_answer: null
-  correctness: null
+  question_answer: course being able to write your very own custom functions, complete
+    with
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: course being able to write your very own custom functions, complete with
 - row_id: r_000030
   course:
     course_id: '24377'
@@ -1455,12 +1609,14 @@ final_rows:
   - professional or developer, you'll constantly need to write your own
   question_text: How is it's time to push forward different from professional or developer,
     you'll constantly need to write your own?
-  question_answer: null
-  correctness: null
+  question_answer: It's time to push forward and develop your Python chops even further.
+  correctness: correct
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: It's time to push forward and develop your Python chops even further.
 - row_id: r_000031
   course:
     course_id: '24377'
@@ -1470,12 +1626,14 @@ final_rows:
   - functions to solve problems that are dictated by your data. you will learn
   question_text: How is it's time to push forward different from functions to solve
     problems that are dictated by your data. you will learn?
-  question_answer: null
-  correctness: null
+  question_answer: It's time to push forward and develop your Python chops even further.
+  correctness: correct
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: It's time to push forward and develop your Python chops even further.
 - row_id: r_000032
   course:
     course_id: '24377'
@@ -1485,12 +1643,14 @@ final_rows:
   - course being able to write your very own custom functions, complete with
   question_text: How is it's time to push forward different from course being able
     to write your very own custom functions, complete with?
-  question_answer: null
-  correctness: null
+  question_answer: It's time to push forward and develop your Python chops even further.
+  correctness: correct
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: It's time to push forward and develop your Python chops even further.
 - row_id: r_000033
   course:
     course_id: '24377'
@@ -1500,12 +1660,15 @@ final_rows:
   - professional or developer, you'll constantly need to write your own
   question_text: How is develop your python chops even further. python different from
     professional or developer, you'll constantly need to write your own?
-  question_answer: null
-  correctness: null
+  question_answer: professional or developer, you'll constantly need to write your
+    own
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: professional or developer, you'll constantly need to write your own
 - row_id: r_000034
   course:
     course_id: '24377'
@@ -1530,12 +1693,15 @@ final_rows:
   - course being able to write your very own custom functions, complete with
   question_text: How is develop your python chops even further. python different from
     course being able to write your very own custom functions, complete with?
-  question_answer: null
-  correctness: null
+  question_answer: course being able to write your very own custom functions, complete
+    with
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: course being able to write your very own custom functions, complete with
 - row_id: r_000036
   course:
     course_id: '24377'
@@ -1545,12 +1711,14 @@ final_rows:
   - functions to solve problems that are dictated by your data. you will learn
   question_text: How is has tons of fantastic functions different from functions to
     solve problems that are dictated by your data. you will learn?
-  question_answer: null
-  correctness: null
+  question_answer: has tons of fantastic functions and a module ecosystem.
+  correctness: correct
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: has tons of fantastic functions and a module ecosystem.
 - row_id: r_000037
   course:
     course_id: '24377'
@@ -1560,12 +1728,14 @@ final_rows:
   - art of function writing in this first course. you'll come out of this
   question_text: How is has tons of fantastic functions different from art of function
     writing in this first course. you'll come out of this?
-  question_answer: null
-  correctness: null
+  question_answer: has tons of fantastic functions and a module ecosystem.
+  correctness: correct
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: has tons of fantastic functions and a module ecosystem.
 - row_id: r_000038
   course:
     course_id: '24377'
@@ -1576,12 +1746,15 @@ final_rows:
   question_text: How is professional or developer, you'll constantly need to write
     your own different from functions to solve problems that are dictated by your
     data. you will learn?
-  question_answer: null
-  correctness: null
+  question_answer: professional or developer, you'll constantly need to write your
+    own
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: professional or developer, you'll constantly need to write your own
 - row_id: r_000039
   course:
     course_id: '24377'
@@ -1592,12 +1765,15 @@ final_rows:
   question_text: How is professional or developer, you'll constantly need to write
     your own different from art of function writing in this first course. you'll come
     out of this?
-  question_answer: null
-  correctness: null
+  question_answer: professional or developer, you'll constantly need to write your
+    own
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: professional or developer, you'll constantly need to write your own
 - row_id: r_000040
   course:
     course_id: '24377'
@@ -1608,12 +1784,15 @@ final_rows:
   question_text: How is professional or developer, you'll constantly need to write
     your own different from course being able to write your very own custom functions,
     complete with?
-  question_answer: null
-  correctness: null
+  question_answer: professional or developer, you'll constantly need to write your
+    own
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: professional or developer, you'll constantly need to write your own
 - row_id: r_000041
   course:
     course_id: '24377'
@@ -1624,12 +1803,15 @@ final_rows:
   question_text: How is functions to solve problems that are dictated by your data.
     you will learn different from course being able to write your very own custom
     functions, complete with?
-  question_answer: null
-  correctness: null
+  question_answer: course being able to write your very own custom functions, complete
+    with
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: course being able to write your very own custom functions, complete with
 - row_id: r_000042
   course:
     course_id: '24377'
@@ -1639,12 +1821,15 @@ final_rows:
   - multiple return values, along with default arguments
   question_text: How is course being able to write your very own custom functions,
     complete with different from multiple return values, along with default arguments?
-  question_answer: null
-  correctness: null
+  question_answer: course being able to write your very own custom functions, complete
+    with
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: course being able to write your very own custom functions, complete with
 - row_id: r_000043
   course:
     course_id: '24377'
@@ -1669,5 +1854,5 @@ summary:
   candidate_count: 43
   accepted_count: 43
   rejected_count: 0
-  correct_count: 13
-  uncertain_count: 0
+  correct_count: 19
+  uncertain_count: 9

@@ -120,6 +120,7 @@ normalized_course:
     - Data Visualization
     - Data Analysis
     - Tableau
+    quality_status: usable
   source_refs:
     title: true
     summary: true
@@ -332,67 +333,75 @@ answers:
 - question_id: q0001
   question_text: What is getting started with tableau?
   answer_text: Getting Started with Tableau
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Getting Started with Tableau
 - question_id: q0002
   question_text: How does getting started with tableau work?
   answer_text: Getting Started with Tableau
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Getting Started with Tableau
 - question_id: q0005
   question_text: What is customizing visualizations?
   answer_text: Building and Customizing Visualizations
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Building and Customizing Visualizations
 - question_id: q0006
   question_text: How does customizing visualizations work?
   answer_text: Building and Customizing Visualizations
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Building and Customizing Visualizations
 - question_id: q0007
   question_text: What is digging deeper?
   answer_text: Digging Deeper
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Digging Deeper
 - question_id: q0008
   question_text: How does digging deeper work?
   answer_text: Digging Deeper
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Digging Deeper
 - question_id: q0009
   question_text: What is presenting your data?
   answer_text: Presenting Your Data
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Presenting Your Data
 - question_id: q0010
   question_text: How does presenting your data work?
   answer_text: Presenting Your Data
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Presenting Your Data
+- question_id: q0011
+  question_text: How is building visualizations different from customizing visualizations?
+  answer_text: Building and Customizing Visualizations
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: syllabus
+    text: Building and Customizing Visualizations
 final_rows:
 - row_id: r_000001
   course:
@@ -402,7 +411,7 @@ final_rows:
   - getting started with tableau
   question_text: What is getting started with tableau?
   question_answer: Getting Started with Tableau
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -417,7 +426,7 @@ final_rows:
   - getting started with tableau
   question_text: How does getting started with tableau work?
   question_answer: Getting Started with Tableau
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -458,7 +467,7 @@ final_rows:
   - customizing visualizations
   question_text: What is customizing visualizations?
   question_answer: Building and Customizing Visualizations
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -473,7 +482,7 @@ final_rows:
   - customizing visualizations
   question_text: How does customizing visualizations work?
   question_answer: Building and Customizing Visualizations
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -488,7 +497,7 @@ final_rows:
   - digging deeper
   question_text: What is digging deeper?
   question_answer: Digging Deeper
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -503,7 +512,7 @@ final_rows:
   - digging deeper
   question_text: How does digging deeper work?
   question_answer: Digging Deeper
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -518,7 +527,7 @@ final_rows:
   - presenting your data
   question_text: What is presenting your data?
   question_answer: Presenting Your Data
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -533,7 +542,7 @@ final_rows:
   - presenting your data
   question_text: How does presenting your data work?
   question_answer: Presenting Your Data
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -548,17 +557,19 @@ final_rows:
   - building visualizations
   - customizing visualizations
   question_text: How is building visualizations different from customizing visualizations?
-  question_answer: null
-  correctness: null
+  question_answer: Building and Customizing Visualizations
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: syllabus
+    text: Building and Customizing Visualizations
 summary:
   topic_count: 5
   canonical_topic_count: 5
   candidate_count: 11
   accepted_count: 11
   rejected_count: 0
-  correct_count: 8
-  uncertain_count: 0
+  correct_count: 0
+  uncertain_count: 9

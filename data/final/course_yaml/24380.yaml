@@ -104,6 +104,7 @@ normalized_course:
     subjects:
     - R Programming
     - Regular Expressions
+    quality_status: usable
   source_refs:
     title: true
     summary: true
@@ -398,64 +399,64 @@ answers:
 - question_id: q0003
   question_text: What is control flow?
   answer_text: Conditionals and Control Flow
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Conditionals and Control Flow
 - question_id: q0004
   question_text: How does control flow work?
   answer_text: Conditionals and Control Flow
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Conditionals and Control Flow
 - question_id: q0005
   question_text: What is loops?
   answer_text: statements, loops, and vector functions.
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: summary
     text: statements, loops, and vector functions.
 - question_id: q0006
   question_text: How does loops work?
   answer_text: statements, loops, and vector functions.
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: summary
     text: statements, loops, and vector functions.
 - question_id: q0007
   question_text: What is functions?
   answer_text: statements, loops, and vector functions.
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: summary
     text: statements, loops, and vector functions.
 - question_id: q0008
   question_text: How do you use functions?
   answer_text: statements, loops, and vector functions.
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: summary
     text: statements, loops, and vector functions.
 - question_id: q0009
   question_text: What is apply family?
   answer_text: The apply family
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: The apply family
 - question_id: q0010
   question_text: How does apply family work?
   answer_text: The apply family
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: The apply family
@@ -480,19 +481,27 @@ answers:
 - question_id: q0013
   question_text: What is having?
   answer_text: Having a solid understanding of a wide range
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Having a solid understanding of a wide range
 - question_id: q0014
   question_text: How do you use having?
   answer_text: Having a solid understanding of a wide range
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Having a solid understanding of a wide range
+- question_id: q0015
+  question_text: How is conditionals flow different from control flow?
+  answer_text: Conditionals and Control Flow
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: syllabus
+    text: Conditionals and Control Flow
 final_rows:
 - row_id: r_000001
   course:
@@ -528,7 +537,7 @@ final_rows:
   - control flow
   question_text: What is control flow?
   question_answer: Conditionals and Control Flow
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -543,7 +552,7 @@ final_rows:
   - control flow
   question_text: How does control flow work?
   question_answer: Conditionals and Control Flow
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -558,7 +567,7 @@ final_rows:
   - loops
   question_text: What is loops?
   question_answer: statements, loops, and vector functions.
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -573,7 +582,7 @@ final_rows:
   - loops
   question_text: How does loops work?
   question_answer: statements, loops, and vector functions.
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -588,7 +597,7 @@ final_rows:
   - functions
   question_text: What is functions?
   question_answer: statements, loops, and vector functions.
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -603,7 +612,7 @@ final_rows:
   - functions
   question_text: How do you use functions?
   question_answer: statements, loops, and vector functions.
-  correctness: correct
+  correctness: uncertain
   question_family: procedure
   status: answered
   reject_reason: null
@@ -618,7 +627,7 @@ final_rows:
   - apply family
   question_text: What is apply family?
   question_answer: The apply family
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -633,7 +642,7 @@ final_rows:
   - apply family
   question_text: How does apply family work?
   question_answer: The apply family
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -680,7 +689,7 @@ final_rows:
   - having
   question_text: What is having?
   question_answer: Having a solid understanding of a wide range
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -695,7 +704,7 @@ final_rows:
   - having
   question_text: How do you use having?
   question_answer: Having a solid understanding of a wide range
-  correctness: correct
+  correctness: uncertain
   question_family: procedure
   status: answered
   reject_reason: null
@@ -710,17 +719,19 @@ final_rows:
   - conditionals flow
   - control flow
   question_text: How is conditionals flow different from control flow?
-  question_answer: null
-  correctness: null
+  question_answer: Conditionals and Control Flow
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: syllabus
+    text: Conditionals and Control Flow
 summary:
   topic_count: 7
   canonical_topic_count: 7
   candidate_count: 15
   accepted_count: 15
   rejected_count: 0
-  correct_count: 12
-  uncertain_count: 0
+  correct_count: 2
+  uncertain_count: 11

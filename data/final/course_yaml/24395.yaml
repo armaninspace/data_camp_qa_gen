@@ -108,6 +108,7 @@ normalized_course:
     - ggplot2
     - Data Visualization
     - R Programming
+    quality_status: usable
   source_refs:
     title: true
     summary: true
@@ -297,16 +298,16 @@ answers:
 - question_id: q0003
   question_text: What is where?
   answer_text: This is where the magic happens - converting
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: This is where the magic happens - converting
 - question_id: q0004
   question_text: How do you use where?
   answer_text: This is where the magic happens - converting
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: This is where the magic happens - converting
@@ -329,16 +330,16 @@ answers:
 - question_id: q0007
   question_text: What is themes?
   answer_text: Themes
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Themes
 - question_id: q0008
   question_text: How does themes work?
   answer_text: Themes
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: syllabus
     text: Themes
@@ -383,7 +384,7 @@ final_rows:
   - where
   question_text: What is where?
   question_answer: This is where the magic happens - converting
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -398,7 +399,7 @@ final_rows:
   - where
   question_text: How do you use where?
   question_answer: This is where the magic happens - converting
-  correctness: correct
+  correctness: uncertain
   question_family: procedure
   status: answered
   reject_reason: null
@@ -445,7 +446,7 @@ final_rows:
   - themes
   question_text: What is themes?
   question_answer: Themes
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -460,7 +461,7 @@ final_rows:
   - themes
   question_text: How does themes work?
   question_answer: Themes
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -473,5 +474,5 @@ summary:
   candidate_count: 8
   accepted_count: 8
   rejected_count: 0
-  correct_count: 8
-  uncertain_count: 0
+  correct_count: 4
+  uncertain_count: 4

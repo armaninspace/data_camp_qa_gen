@@ -121,6 +121,7 @@ normalized_course:
     - NumPy
     - Data Storage
     - Data Manipulation
+    quality_status: partial
   source_refs:
     title: true
     summary: true
@@ -979,16 +980,16 @@ answers:
 - question_id: q0007
   question_text: What is an introduction to python?
   answer_text: An Introduction to Python
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: An Introduction to Python
 - question_id: q0008
   question_text: How does an introduction to python work?
   answer_text: An Introduction to Python
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: An Introduction to Python
@@ -1058,6 +1059,191 @@ answers:
       no
 - question_id: q0022
   question_text: How does we designed it for people with no work?
+  answer_text: This is a Python course for beginners, and we designed it for people
+    with no
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: This is a Python course for beginners, and we designed it for people with
+      no
+- question_id: q0024
+  question_text: How is master basics of data analysis with python in just four hours.
+    this different from an introduction to python?
+  answer_text: An Introduction to Python
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: An Introduction to Python
+- question_id: q0026
+  question_text: How is master basics of data analysis with python in just four hours.
+    this different from language of choice for data analysts?
+  answer_text: the language of choice for data analysts and data scientists.
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: the language of choice for data analysts and data scientists.
+- question_id: q0028
+  question_text: How is master basics of data analysis with python in just four hours.
+    this different from this is a python course for beginners?
+  answer_text: This is a Python course for beginners, and we designed it for people
+    with no
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: This is a Python course for beginners, and we designed it for people with
+      no
+- question_id: q0029
+  question_text: How is master basics of data analysis with python in just four hours.
+    this different from we designed it for people with no?
+  answer_text: This is a Python course for beginners, and we designed it for people
+    with no
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: This is a Python course for beginners, and we designed it for people with
+      no
+- question_id: q0030
+  question_text: How is online course will introduce python interface different from
+    an introduction to python?
+  answer_text: An Introduction to Python
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: An Introduction to Python
+- question_id: q0033
+  question_text: How is online course will introduce python interface different from
+    this is a python course for beginners?
+  answer_text: This is a Python course for beginners, and we designed it for people
+    with no
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: This is a Python course for beginners, and we designed it for people with
+      no
+- question_id: q0034
+  question_text: How is an introduction to python different from python has grown
+    to become market leader in programming languages and?
+  answer_text: An Introduction to Python
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: An Introduction to Python
+- question_id: q0035
+  question_text: How is an introduction to python different from data skills is rising
+    because companies want to gain actionable insights?
+  answer_text: An Introduction to Python
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: An Introduction to Python
+- question_id: q0036
+  question_text: How is an introduction to python different from discover python basics?
+  answer_text: An Introduction to Python
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: An Introduction to Python
+- question_id: q0037
+  question_text: How is an introduction to python different from this is a python
+    course for beginners?
+  answer_text: An Introduction to Python
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: An Introduction to Python
+- question_id: q0038
+  question_text: How is python has grown to become market leader in programming languages
+    and different from data skills is rising because companies want to gain actionable
+    insights?
+  answer_text: data skills is rising because companies want to gain actionable insights
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: data skills is rising because companies want to gain actionable insights
+- question_id: q0040
+  question_text: How is python has grown to become market leader in programming languages
+    and different from this is a python course for beginners?
+  answer_text: This is a Python course for beginners, and we designed it for people
+    with no
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: This is a Python course for beginners, and we designed it for people with
+      no
+- question_id: q0041
+  question_text: How is language of choice for data analysts different from data scientists.
+    demand for?
+  answer_text: the language of choice for data analysts and data scientists.
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: the language of choice for data analysts and data scientists.
+- question_id: q0042
+  question_text: How is language of choice for data analysts different from this is
+    a python course for beginners?
+  answer_text: the language of choice for data analysts and data scientists.
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: the language of choice for data analysts and data scientists.
+- question_id: q0043
+  question_text: How is language of choice for data analysts different from we designed
+    it for people with no?
+  answer_text: the language of choice for data analysts and data scientists.
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: the language of choice for data analysts and data scientists.
+- question_id: q0044
+  question_text: How is data scientists. demand for different from this is a python
+    course for beginners?
+  answer_text: This is a Python course for beginners, and we designed it for people
+    with no
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: This is a Python course for beginners, and we designed it for people with
+      no
+- question_id: q0045
+  question_text: How is data scientists. demand for different from we designed it
+    for people with no?
+  answer_text: This is a Python course for beginners, and we designed it for people
+    with no
+  correctness: correct
+  confidence: 0.7
+  evidence:
+  - source: overview
+    text: This is a Python course for beginners, and we designed it for people with
+      no
+- question_id: q0046
+  question_text: How is data skills is rising because companies want to gain actionable
+    insights different from this is a python course for beginners?
+  answer_text: data skills is rising because companies want to gain actionable insights
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: data skills is rising because companies want to gain actionable insights
+- question_id: q0047
+  question_text: How is discover python basics different from this is a python course
+    for beginners?
   answer_text: This is a Python course for beginners, and we designed it for people
     with no
   correctness: correct
@@ -1177,7 +1363,7 @@ final_rows:
   - an introduction to python
   question_text: What is an introduction to python?
   question_answer: An Introduction to Python
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -1193,7 +1379,7 @@ final_rows:
   - an introduction to python
   question_text: How does an introduction to python work?
   question_answer: An Introduction to Python
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -1452,12 +1638,14 @@ final_rows:
   - an introduction to python
   question_text: How is master basics of data analysis with python in just four hours.
     this different from an introduction to python?
-  question_answer: null
-  correctness: null
+  question_answer: An Introduction to Python
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: An Introduction to Python
 - row_id: r_000025
   course:
     course_id: '7631'
@@ -1485,12 +1673,14 @@ final_rows:
   - language of choice for data analysts
   question_text: How is master basics of data analysis with python in just four hours.
     this different from language of choice for data analysts?
-  question_answer: null
-  correctness: null
+  question_answer: the language of choice for data analysts and data scientists.
+  correctness: correct
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: the language of choice for data analysts and data scientists.
 - row_id: r_000027
   course:
     course_id: '7631'
@@ -1517,12 +1707,16 @@ final_rows:
   - this is a python course for beginners
   question_text: How is master basics of data analysis with python in just four hours.
     this different from this is a python course for beginners?
-  question_answer: null
-  correctness: null
+  question_answer: This is a Python course for beginners, and we designed it for people
+    with no
+  correctness: correct
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: This is a Python course for beginners, and we designed it for people with
+      no
 - row_id: r_000029
   course:
     course_id: '7631'
@@ -1533,12 +1727,16 @@ final_rows:
   - we designed it for people with no
   question_text: How is master basics of data analysis with python in just four hours.
     this different from we designed it for people with no?
-  question_answer: null
-  correctness: null
+  question_answer: This is a Python course for beginners, and we designed it for people
+    with no
+  correctness: correct
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: This is a Python course for beginners, and we designed it for people with
+      no
 - row_id: r_000030
   course:
     course_id: '7631'
@@ -1549,12 +1747,14 @@ final_rows:
   - an introduction to python
   question_text: How is online course will introduce python interface different from
     an introduction to python?
-  question_answer: null
-  correctness: null
+  question_answer: An Introduction to Python
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: An Introduction to Python
 - row_id: r_000031
   course:
     course_id: '7631'
@@ -1597,12 +1797,16 @@ final_rows:
   - this is a python course for beginners
   question_text: How is online course will introduce python interface different from
     this is a python course for beginners?
-  question_answer: null
-  correctness: null
+  question_answer: This is a Python course for beginners, and we designed it for people
+    with no
+  correctness: correct
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: This is a Python course for beginners, and we designed it for people with
+      no
 - row_id: r_000034
   course:
     course_id: '7631'
@@ -1613,12 +1817,14 @@ final_rows:
   - python has grown to become market leader in programming languages and
   question_text: How is an introduction to python different from python has grown
     to become market leader in programming languages and?
-  question_answer: null
-  correctness: null
+  question_answer: An Introduction to Python
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: An Introduction to Python
 - row_id: r_000035
   course:
     course_id: '7631'
@@ -1629,12 +1835,14 @@ final_rows:
   - data skills is rising because companies want to gain actionable insights
   question_text: How is an introduction to python different from data skills is rising
     because companies want to gain actionable insights?
-  question_answer: null
-  correctness: null
+  question_answer: An Introduction to Python
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: An Introduction to Python
 - row_id: r_000036
   course:
     course_id: '7631'
@@ -1644,12 +1852,14 @@ final_rows:
   - an introduction to python
   - discover python basics
   question_text: How is an introduction to python different from discover python basics?
-  question_answer: null
-  correctness: null
+  question_answer: An Introduction to Python
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: An Introduction to Python
 - row_id: r_000037
   course:
     course_id: '7631'
@@ -1660,12 +1870,14 @@ final_rows:
   - this is a python course for beginners
   question_text: How is an introduction to python different from this is a python
     course for beginners?
-  question_answer: null
-  correctness: null
+  question_answer: An Introduction to Python
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: An Introduction to Python
 - row_id: r_000038
   course:
     course_id: '7631'
@@ -1677,12 +1889,15 @@ final_rows:
   question_text: How is python has grown to become market leader in programming languages
     and different from data skills is rising because companies want to gain actionable
     insights?
-  question_answer: null
-  correctness: null
+  question_answer: data skills is rising because companies want to gain actionable
+    insights
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: data skills is rising because companies want to gain actionable insights
 - row_id: r_000039
   course:
     course_id: '7631'
@@ -1709,12 +1924,16 @@ final_rows:
   - this is a python course for beginners
   question_text: How is python has grown to become market leader in programming languages
     and different from this is a python course for beginners?
-  question_answer: null
-  correctness: null
+  question_answer: This is a Python course for beginners, and we designed it for people
+    with no
+  correctness: correct
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: This is a Python course for beginners, and we designed it for people with
+      no
 - row_id: r_000041
   course:
     course_id: '7631'
@@ -1725,12 +1944,14 @@ final_rows:
   - data scientists. demand for
   question_text: How is language of choice for data analysts different from data scientists.
     demand for?
-  question_answer: null
-  correctness: null
+  question_answer: the language of choice for data analysts and data scientists.
+  correctness: correct
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: the language of choice for data analysts and data scientists.
 - row_id: r_000042
   course:
     course_id: '7631'
@@ -1741,12 +1962,14 @@ final_rows:
   - this is a python course for beginners
   question_text: How is language of choice for data analysts different from this is
     a python course for beginners?
-  question_answer: null
-  correctness: null
+  question_answer: the language of choice for data analysts and data scientists.
+  correctness: correct
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: the language of choice for data analysts and data scientists.
 - row_id: r_000043
   course:
     course_id: '7631'
@@ -1757,12 +1980,14 @@ final_rows:
   - we designed it for people with no
   question_text: How is language of choice for data analysts different from we designed
     it for people with no?
-  question_answer: null
-  correctness: null
+  question_answer: the language of choice for data analysts and data scientists.
+  correctness: correct
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: the language of choice for data analysts and data scientists.
 - row_id: r_000044
   course:
     course_id: '7631'
@@ -1773,12 +1998,16 @@ final_rows:
   - this is a python course for beginners
   question_text: How is data scientists. demand for different from this is a python
     course for beginners?
-  question_answer: null
-  correctness: null
+  question_answer: This is a Python course for beginners, and we designed it for people
+    with no
+  correctness: correct
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: This is a Python course for beginners, and we designed it for people with
+      no
 - row_id: r_000045
   course:
     course_id: '7631'
@@ -1789,12 +2018,16 @@ final_rows:
   - we designed it for people with no
   question_text: How is data scientists. demand for different from we designed it
     for people with no?
-  question_answer: null
-  correctness: null
+  question_answer: This is a Python course for beginners, and we designed it for people
+    with no
+  correctness: correct
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: This is a Python course for beginners, and we designed it for people with
+      no
 - row_id: r_000046
   course:
     course_id: '7631'
@@ -1805,12 +2038,15 @@ final_rows:
   - this is a python course for beginners
   question_text: How is data skills is rising because companies want to gain actionable
     insights different from this is a python course for beginners?
-  question_answer: null
-  correctness: null
+  question_answer: data skills is rising because companies want to gain actionable
+    insights
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: data skills is rising because companies want to gain actionable insights
 - row_id: r_000047
   course:
     course_id: '7631'
@@ -1821,12 +2057,16 @@ final_rows:
   - this is a python course for beginners
   question_text: How is discover python basics different from this is a python course
     for beginners?
-  question_answer: null
-  correctness: null
+  question_answer: This is a Python course for beginners, and we designed it for people
+    with no
+  correctness: correct
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: This is a Python course for beginners, and we designed it for people with
+      no
 - row_id: r_000048
   course:
     course_id: '7631'
@@ -1853,5 +2093,5 @@ summary:
   candidate_count: 48
   accepted_count: 48
   rejected_count: 0
-  correct_count: 13
-  uncertain_count: 0
+  correct_count: 22
+  uncertain_count: 10

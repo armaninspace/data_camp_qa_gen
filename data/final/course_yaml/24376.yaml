@@ -100,6 +100,7 @@ normalized_course:
     - PostgreSQL
     - Set Theory
     - Relational Databases
+    quality_status: partial
   source_refs:
     title: true
     summary: true
@@ -855,32 +856,32 @@ answers:
 - question_id: q0009
   question_text: What is outer joins?
   answer_text: Outer joins and cross joins
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Outer joins and cross joins
 - question_id: q0010
   question_text: How does outer joins work?
   answer_text: Outer joins and cross joins
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Outer joins and cross joins
 - question_id: q0011
   question_text: What is cross joins?
   answer_text: Outer joins and cross joins
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Outer joins and cross joins
 - question_id: q0012
   question_text: How does cross joins work?
   answer_text: Outer joins and cross joins
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Outer joins and cross joins
@@ -907,40 +908,219 @@ answers:
 - question_id: q0015
   question_text: What is right joins?
   answer_text: right joins, and full joins.
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: right joins, and full joins.
 - question_id: q0016
   question_text: How does right joins work?
   answer_text: right joins, and full joins.
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: right joins, and full joins.
+- question_id: q0017
+  question_text: What is full joins. in addition to outer joins, you'll also work?
+  answer_text: Outer joins and cross joins
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: Outer joins and cross joins
+- question_id: q0018
+  question_text: How does full joins. in addition to outer joins, you'll also work
+    work?
+  answer_text: Outer joins and cross joins
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: Outer joins and cross joins
 - question_id: q0019
   question_text: What is set theory clauses?
   answer_text: Set theory clauses
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Set theory clauses
 - question_id: q0020
   question_text: How does set theory clauses work?
   answer_text: Set theory clauses
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Set theory clauses
+- question_id: q0023
+  question_text: How is -in this chapter, you'll be introduced to concept of joining
+    tables, and different from you'll learn how to gain further insights into your
+    data through left joins?
+  answer_text: You'll learn how to gain further insights into your data through left
+    joins,
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: You'll learn how to gain further insights into your data through left joins,
+- question_id: q0024
+  question_text: How is -in this chapter, you'll be introduced to concept of joining
+    tables, and different from full joins. in addition to outer joins, you'll also
+    work?
+  answer_text: Outer joins and cross joins
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: Outer joins and cross joins
+- question_id: q0025
+  question_text: How is will explore different ways you can enrich your queries using
+    inner different from you'll learn how to gain further insights into your data
+    through left joins?
+  answer_text: You'll learn how to gain further insights into your data through left
+    joins,
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: You'll learn how to gain further insights into your data through left joins,
+- question_id: q0027
+  question_text: How is joins joins. you'll also see how to use case statement to
+    split different from outer joins?
+  answer_text: Outer joins and cross joins
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: Outer joins and cross joins
+- question_id: q0028
+  question_text: How is joins joins. you'll also see how to use case statement to
+    split different from cross joins?
+  answer_text: Outer joins and cross joins
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: Outer joins and cross joins
+- question_id: q0029
+  question_text: How is joins joins. you'll also see how to use case statement to
+    split different from you'll learn how to gain further insights into your data
+    through left joins?
+  answer_text: You'll learn how to gain further insights into your data through left
+    joins,
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: You'll learn how to gain further insights into your data through left joins,
+- question_id: q0030
+  question_text: How is joins joins. you'll also see how to use case statement to
+    split different from right joins?
+  answer_text: right joins, and full joins.
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: right joins, and full joins.
+- question_id: q0031
+  question_text: How is joins joins. you'll also see how to use case statement to
+    split different from full joins. in addition to outer joins, you'll also work?
+  answer_text: Outer joins and cross joins
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: Outer joins and cross joins
+- question_id: q0032
+  question_text: How is self joins. you'll also see how to use case statement to split
+    different from you'll learn how to gain further insights into your data through
+    left joins?
+  answer_text: You'll learn how to gain further insights into your data through left
+    joins,
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: You'll learn how to gain further insights into your data through left joins,
+- question_id: q0033
+  question_text: How is self joins. you'll also see how to use case statement to split
+    different from full joins. in addition to outer joins, you'll also work?
+  answer_text: Outer joins and cross joins
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: Outer joins and cross joins
 - question_id: q0034
   question_text: How is outer joins different from cross joins?
   answer_text: Outer joins and cross joins
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: Outer joins and cross joins
+- question_id: q0035
+  question_text: How is outer joins different from you'll learn how to gain further
+    insights into your data through left joins?
+  answer_text: Outer joins and cross joins
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: Outer joins and cross joins
+- question_id: q0036
+  question_text: How is outer joins different from right joins?
+  answer_text: Outer joins and cross joins
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: Outer joins and cross joins
+- question_id: q0037
+  question_text: How is outer joins different from full joins. in addition to outer
+    joins, you'll also work?
+  answer_text: Outer joins and cross joins
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: Outer joins and cross joins
+- question_id: q0038
+  question_text: How is cross joins different from you'll learn how to gain further
+    insights into your data through left joins?
+  answer_text: Outer joins and cross joins
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: Outer joins and cross joins
+- question_id: q0039
+  question_text: How is cross joins different from right joins?
+  answer_text: Outer joins and cross joins
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: Outer joins and cross joins
+- question_id: q0040
+  question_text: How is you'll learn how to gain further insights into your data through
+    left joins different from right joins?
+  answer_text: You'll learn how to gain further insights into your data through left
+    joins,
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: You'll learn how to gain further insights into your data through left joins,
+- question_id: q0041
+  question_text: How is you'll learn how to gain further insights into your data through
+    left joins different from full joins. in addition to outer joins, you'll also
+    work?
+  answer_text: Outer joins and cross joins
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Outer joins and cross joins
@@ -1065,7 +1245,7 @@ final_rows:
   - outer joins
   question_text: What is outer joins?
   question_answer: Outer joins and cross joins
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -1080,7 +1260,7 @@ final_rows:
   - outer joins
   question_text: How does outer joins work?
   question_answer: Outer joins and cross joins
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -1095,7 +1275,7 @@ final_rows:
   - cross joins
   question_text: What is cross joins?
   question_answer: Outer joins and cross joins
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -1110,7 +1290,7 @@ final_rows:
   - cross joins
   question_text: How does cross joins work?
   question_answer: Outer joins and cross joins
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -1159,7 +1339,7 @@ final_rows:
   - right joins
   question_text: What is right joins?
   question_answer: right joins, and full joins.
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -1174,7 +1354,7 @@ final_rows:
   - right joins
   question_text: How does right joins work?
   question_answer: right joins, and full joins.
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -1188,12 +1368,14 @@ final_rows:
   relevant_topics:
   - full joins. in addition to outer joins, you'll also work
   question_text: What is full joins. in addition to outer joins, you'll also work?
-  question_answer: null
-  correctness: null
+  question_answer: Outer joins and cross joins
+  correctness: uncertain
   question_family: entry
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: Outer joins and cross joins
 - row_id: r_000018
   course:
     course_id: '24376'
@@ -1202,12 +1384,14 @@ final_rows:
   - full joins. in addition to outer joins, you'll also work
   question_text: How does full joins. in addition to outer joins, you'll also work
     work?
-  question_answer: null
-  correctness: null
+  question_answer: Outer joins and cross joins
+  correctness: uncertain
   question_family: mechanism
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: Outer joins and cross joins
 - row_id: r_000019
   course:
     course_id: '24376'
@@ -1216,7 +1400,7 @@ final_rows:
   - set theory clauses
   question_text: What is set theory clauses?
   question_answer: Set theory clauses
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -1231,7 +1415,7 @@ final_rows:
   - set theory clauses
   question_text: How does set theory clauses work?
   question_answer: Set theory clauses
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -1280,12 +1464,15 @@ final_rows:
   question_text: How is -in this chapter, you'll be introduced to concept of joining
     tables, and different from you'll learn how to gain further insights into your
     data through left joins?
-  question_answer: null
-  correctness: null
+  question_answer: You'll learn how to gain further insights into your data through
+    left joins,
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: You'll learn how to gain further insights into your data through left joins,
 - row_id: r_000024
   course:
     course_id: '24376'
@@ -1296,12 +1483,14 @@ final_rows:
   question_text: How is -in this chapter, you'll be introduced to concept of joining
     tables, and different from full joins. in addition to outer joins, you'll also
     work?
-  question_answer: null
-  correctness: null
+  question_answer: Outer joins and cross joins
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: Outer joins and cross joins
 - row_id: r_000025
   course:
     course_id: '24376'
@@ -1312,12 +1501,15 @@ final_rows:
   question_text: How is will explore different ways you can enrich your queries using
     inner different from you'll learn how to gain further insights into your data
     through left joins?
-  question_answer: null
-  correctness: null
+  question_answer: You'll learn how to gain further insights into your data through
+    left joins,
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: You'll learn how to gain further insights into your data through left joins,
 - row_id: r_000026
   course:
     course_id: '24376'
@@ -1343,12 +1535,14 @@ final_rows:
   - outer joins
   question_text: How is joins joins. you'll also see how to use case statement to
     split different from outer joins?
-  question_answer: null
-  correctness: null
+  question_answer: Outer joins and cross joins
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: Outer joins and cross joins
 - row_id: r_000028
   course:
     course_id: '24376'
@@ -1358,12 +1552,14 @@ final_rows:
   - cross joins
   question_text: How is joins joins. you'll also see how to use case statement to
     split different from cross joins?
-  question_answer: null
-  correctness: null
+  question_answer: Outer joins and cross joins
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: Outer joins and cross joins
 - row_id: r_000029
   course:
     course_id: '24376'
@@ -1374,12 +1570,15 @@ final_rows:
   question_text: How is joins joins. you'll also see how to use case statement to
     split different from you'll learn how to gain further insights into your data
     through left joins?
-  question_answer: null
-  correctness: null
+  question_answer: You'll learn how to gain further insights into your data through
+    left joins,
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: You'll learn how to gain further insights into your data through left joins,
 - row_id: r_000030
   course:
     course_id: '24376'
@@ -1389,12 +1588,14 @@ final_rows:
   - right joins
   question_text: How is joins joins. you'll also see how to use case statement to
     split different from right joins?
-  question_answer: null
-  correctness: null
+  question_answer: right joins, and full joins.
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: right joins, and full joins.
 - row_id: r_000031
   course:
     course_id: '24376'
@@ -1404,12 +1605,14 @@ final_rows:
   - full joins. in addition to outer joins, you'll also work
   question_text: How is joins joins. you'll also see how to use case statement to
     split different from full joins. in addition to outer joins, you'll also work?
-  question_answer: null
-  correctness: null
+  question_answer: Outer joins and cross joins
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: Outer joins and cross joins
 - row_id: r_000032
   course:
     course_id: '24376'
@@ -1420,12 +1623,15 @@ final_rows:
   question_text: How is self joins. you'll also see how to use case statement to split
     different from you'll learn how to gain further insights into your data through
     left joins?
-  question_answer: null
-  correctness: null
+  question_answer: You'll learn how to gain further insights into your data through
+    left joins,
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: You'll learn how to gain further insights into your data through left joins,
 - row_id: r_000033
   course:
     course_id: '24376'
@@ -1435,12 +1641,14 @@ final_rows:
   - full joins. in addition to outer joins, you'll also work
   question_text: How is self joins. you'll also see how to use case statement to split
     different from full joins. in addition to outer joins, you'll also work?
-  question_answer: null
-  correctness: null
+  question_answer: Outer joins and cross joins
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: Outer joins and cross joins
 - row_id: r_000034
   course:
     course_id: '24376'
@@ -1450,7 +1658,7 @@ final_rows:
   - cross joins
   question_text: How is outer joins different from cross joins?
   question_answer: Outer joins and cross joins
-  correctness: correct
+  correctness: uncertain
   question_family: comparison
   status: answered
   reject_reason: null
@@ -1466,12 +1674,14 @@ final_rows:
   - you'll learn how to gain further insights into your data through left joins
   question_text: How is outer joins different from you'll learn how to gain further
     insights into your data through left joins?
-  question_answer: null
-  correctness: null
+  question_answer: Outer joins and cross joins
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: Outer joins and cross joins
 - row_id: r_000036
   course:
     course_id: '24376'
@@ -1480,12 +1690,14 @@ final_rows:
   - outer joins
   - right joins
   question_text: How is outer joins different from right joins?
-  question_answer: null
-  correctness: null
+  question_answer: Outer joins and cross joins
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: Outer joins and cross joins
 - row_id: r_000037
   course:
     course_id: '24376'
@@ -1495,12 +1707,14 @@ final_rows:
   - full joins. in addition to outer joins, you'll also work
   question_text: How is outer joins different from full joins. in addition to outer
     joins, you'll also work?
-  question_answer: null
-  correctness: null
+  question_answer: Outer joins and cross joins
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: Outer joins and cross joins
 - row_id: r_000038
   course:
     course_id: '24376'
@@ -1510,12 +1724,14 @@ final_rows:
   - you'll learn how to gain further insights into your data through left joins
   question_text: How is cross joins different from you'll learn how to gain further
     insights into your data through left joins?
-  question_answer: null
-  correctness: null
+  question_answer: Outer joins and cross joins
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: Outer joins and cross joins
 - row_id: r_000039
   course:
     course_id: '24376'
@@ -1524,12 +1740,14 @@ final_rows:
   - cross joins
   - right joins
   question_text: How is cross joins different from right joins?
-  question_answer: null
-  correctness: null
+  question_answer: Outer joins and cross joins
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: Outer joins and cross joins
 - row_id: r_000040
   course:
     course_id: '24376'
@@ -1539,12 +1757,15 @@ final_rows:
   - right joins
   question_text: How is you'll learn how to gain further insights into your data through
     left joins different from right joins?
-  question_answer: null
-  correctness: null
+  question_answer: You'll learn how to gain further insights into your data through
+    left joins,
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: You'll learn how to gain further insights into your data through left joins,
 - row_id: r_000041
   course:
     course_id: '24376'
@@ -1555,17 +1776,19 @@ final_rows:
   question_text: How is you'll learn how to gain further insights into your data through
     left joins different from full joins. in addition to outer joins, you'll also
     work?
-  question_answer: null
-  correctness: null
+  question_answer: Outer joins and cross joins
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: Outer joins and cross joins
 summary:
   topic_count: 10
   canonical_topic_count: 10
   candidate_count: 41
   accepted_count: 41
   rejected_count: 0
-  correct_count: 11
-  uncertain_count: 0
+  correct_count: 2
+  uncertain_count: 28

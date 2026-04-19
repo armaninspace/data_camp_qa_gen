@@ -110,6 +110,7 @@ normalized_course:
     - Matplotlib
     - pandas
     - Line Plots
+    quality_status: usable
   source_refs:
     title: true
     summary: true
@@ -328,64 +329,64 @@ answers:
 - question_id: q0001
   question_text: What is getting started in python?
   answer_text: Getting Started in Python
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Getting Started in Python
 - question_id: q0002
   question_text: How does getting started in python work?
   answer_text: Getting Started in Python
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Getting Started in Python
 - question_id: q0003
   question_text: What is loading data in pandas?
   answer_text: Loading Data in pandas
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Loading Data in pandas
 - question_id: q0004
   question_text: How does loading data in pandas work?
   answer_text: Loading Data in pandas
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Loading Data in pandas
 - question_id: q0005
   question_text: What is plotting data with matplotlib?
   answer_text: Plotting Data with Matplotlib
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Plotting Data with Matplotlib
 - question_id: q0006
   question_text: How does plotting data with matplotlib work?
   answer_text: Plotting Data with Matplotlib
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Plotting Data with Matplotlib
 - question_id: q0007
   question_text: What is different types of plots?
   answer_text: Different Types of Plots
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Different Types of Plots
 - question_id: q0008
   question_text: How does different types of plots work?
   answer_text: Different Types of Plots
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Different Types of Plots
@@ -405,6 +406,14 @@ answers:
   evidence:
   - source: overview
     text: where the kidnapper is hiding and rescue Bayes, the Golden Retriever.
+- question_id: q0011
+  question_text: How is getting started in python different from loading data in pandas?
+  answer_text: Getting Started in Python
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: Getting Started in Python
 final_rows:
 - row_id: r_000001
   course:
@@ -414,7 +423,7 @@ final_rows:
   - getting started in python
   question_text: What is getting started in python?
   question_answer: Getting Started in Python
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -429,7 +438,7 @@ final_rows:
   - getting started in python
   question_text: How does getting started in python work?
   question_answer: Getting Started in Python
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -444,7 +453,7 @@ final_rows:
   - loading data in pandas
   question_text: What is loading data in pandas?
   question_answer: Loading Data in pandas
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -459,7 +468,7 @@ final_rows:
   - loading data in pandas
   question_text: How does loading data in pandas work?
   question_answer: Loading Data in pandas
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -474,7 +483,7 @@ final_rows:
   - plotting data with matplotlib
   question_text: What is plotting data with matplotlib?
   question_answer: Plotting Data with Matplotlib
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -489,7 +498,7 @@ final_rows:
   - plotting data with matplotlib
   question_text: How does plotting data with matplotlib work?
   question_answer: Plotting Data with Matplotlib
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -504,7 +513,7 @@ final_rows:
   - different types of plots
   question_text: What is different types of plots?
   question_answer: Different Types of Plots
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -519,7 +528,7 @@ final_rows:
   - different types of plots
   question_text: How does different types of plots work?
   question_answer: Different Types of Plots
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -564,17 +573,19 @@ final_rows:
   - getting started in python
   - loading data in pandas
   question_text: How is getting started in python different from loading data in pandas?
-  question_answer: null
-  correctness: null
+  question_answer: Getting Started in Python
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: Getting Started in Python
 summary:
   topic_count: 5
   canonical_topic_count: 5
   candidate_count: 11
   accepted_count: 11
   rejected_count: 0
-  correct_count: 10
-  uncertain_count: 0
+  correct_count: 2
+  uncertain_count: 9

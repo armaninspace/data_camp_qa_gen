@@ -111,6 +111,7 @@ normalized_course:
     - Probability
     - Statistical Inference
     - Exploratory Data Analysis
+    quality_status: usable
   source_refs:
     title: true
     summary: true
@@ -306,67 +307,85 @@ answers:
 - question_id: q0001
   question_text: What is graphical exploratory data analysis?
   answer_text: Graphical Exploratory Data Analysis
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Graphical Exploratory Data Analysis
 - question_id: q0002
   question_text: How does graphical exploratory data analysis work?
   answer_text: Graphical Exploratory Data Analysis
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Graphical Exploratory Data Analysis
 - question_id: q0003
   question_text: What is quantitative exploratory data analysis?
   answer_text: Quantitative Exploratory Data Analysis
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Quantitative Exploratory Data Analysis
 - question_id: q0004
   question_text: How does quantitative exploratory data analysis work?
   answer_text: Quantitative Exploratory Data Analysis
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Quantitative Exploratory Data Analysis
 - question_id: q0005
   question_text: What is thinking probabilistically-- discrete variables?
   answer_text: Thinking Probabilistically-- Discrete Variables
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Thinking Probabilistically-- Discrete Variables
 - question_id: q0006
   question_text: How does thinking probabilistically-- discrete variables work?
   answer_text: Thinking Probabilistically-- Discrete Variables
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Thinking Probabilistically-- Discrete Variables
 - question_id: q0007
   question_text: What is thinking probabilistically-- continuous variables?
   answer_text: Thinking Probabilistically-- Continuous Variables
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Thinking Probabilistically-- Continuous Variables
 - question_id: q0008
   question_text: How does thinking probabilistically-- continuous variables work?
   answer_text: Thinking Probabilistically-- Continuous Variables
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Thinking Probabilistically-- Continuous Variables
+- question_id: q0009
+  question_text: How is graphical exploratory data analysis different from quantitative
+    exploratory data analysis?
+  answer_text: Graphical Exploratory Data Analysis
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: Graphical Exploratory Data Analysis
+- question_id: q0010
+  question_text: How is thinking probabilistically-- discrete variables different
+    from thinking probabilistically-- continuous variables?
+  answer_text: Thinking Probabilistically-- Discrete Variables
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: Thinking Probabilistically-- Discrete Variables
 final_rows:
 - row_id: r_000001
   course:
@@ -376,7 +395,7 @@ final_rows:
   - graphical exploratory data analysis
   question_text: What is graphical exploratory data analysis?
   question_answer: Graphical Exploratory Data Analysis
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -391,7 +410,7 @@ final_rows:
   - graphical exploratory data analysis
   question_text: How does graphical exploratory data analysis work?
   question_answer: Graphical Exploratory Data Analysis
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -406,7 +425,7 @@ final_rows:
   - quantitative exploratory data analysis
   question_text: What is quantitative exploratory data analysis?
   question_answer: Quantitative Exploratory Data Analysis
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -421,7 +440,7 @@ final_rows:
   - quantitative exploratory data analysis
   question_text: How does quantitative exploratory data analysis work?
   question_answer: Quantitative Exploratory Data Analysis
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -436,7 +455,7 @@ final_rows:
   - thinking probabilistically-- discrete variables
   question_text: What is thinking probabilistically-- discrete variables?
   question_answer: Thinking Probabilistically-- Discrete Variables
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -451,7 +470,7 @@ final_rows:
   - thinking probabilistically-- discrete variables
   question_text: How does thinking probabilistically-- discrete variables work?
   question_answer: Thinking Probabilistically-- Discrete Variables
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -466,7 +485,7 @@ final_rows:
   - thinking probabilistically-- continuous variables
   question_text: What is thinking probabilistically-- continuous variables?
   question_answer: Thinking Probabilistically-- Continuous Variables
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -481,7 +500,7 @@ final_rows:
   - thinking probabilistically-- continuous variables
   question_text: How does thinking probabilistically-- continuous variables work?
   question_answer: Thinking Probabilistically-- Continuous Variables
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -497,12 +516,14 @@ final_rows:
   - quantitative exploratory data analysis
   question_text: How is graphical exploratory data analysis different from quantitative
     exploratory data analysis?
-  question_answer: null
-  correctness: null
+  question_answer: Graphical Exploratory Data Analysis
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: Graphical Exploratory Data Analysis
 - row_id: r_000010
   course:
     course_id: '24392'
@@ -512,17 +533,19 @@ final_rows:
   - thinking probabilistically-- continuous variables
   question_text: How is thinking probabilistically-- discrete variables different
     from thinking probabilistically-- continuous variables?
-  question_answer: null
-  correctness: null
+  question_answer: Thinking Probabilistically-- Discrete Variables
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: Thinking Probabilistically-- Discrete Variables
 summary:
   topic_count: 4
   canonical_topic_count: 4
   candidate_count: 10
   accepted_count: 10
   rejected_count: 0
-  correct_count: 8
-  uncertain_count: 0
+  correct_count: 0
+  uncertain_count: 10

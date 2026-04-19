@@ -110,6 +110,7 @@ normalized_course:
     - Supervised Learning
     - Classification
     - Hyperparameter Tuning
+    quality_status: partial
   source_refs:
     title: true
     summary: true
@@ -850,16 +851,16 @@ answers:
 - question_id: q0001
   question_text: What is classification?
   answer_text: Classification
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Classification
 - question_id: q0002
   question_text: How does classification work?
   answer_text: Classification
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Classification
@@ -903,32 +904,32 @@ answers:
 - question_id: q0007
   question_text: What is you’ll?
   answer_text: And you’ll
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: And you’ll
 - question_id: q0008
   question_text: How does you’ll work?
   answer_text: And you’ll
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: And you’ll
 - question_id: q0011
   question_text: What is regression?
   answer_text: Regression
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Regression
 - question_id: q0012
   question_text: How does regression work?
   answer_text: Regression
-  correctness: correct
-  confidence: 0.7
+  correctness: uncertain
+  confidence: 0.4
   evidence:
   - source: overview
     text: Regression
@@ -950,16 +951,158 @@ answers:
   evidence:
   - source: overview
     text: -In the previous chapter, you used image and political datasets to predict
+- question_id: q0021
+  question_text: What is continuous outcome? regression is best suited to solving
+    such problems. you?
+  answer_text: Regression
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: Regression
+- question_id: q0022
+  question_text: How does continuous outcome? regression is best suited to solving
+    such problems. you work?
+  answer_text: Regression
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: Regression
 - question_id: q0023
   question_text: How is classification different from -in this chapter, you will be
     introduced to classification problems and?
   answer_text: -In this chapter, you will be introduced to classification problems
     and
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: -In this chapter, you will be introduced to classification problems and
+- question_id: q0024
+  question_text: How is -in this chapter, you will be introduced to classification
+    problems and different from learn how to solve them using supervised learning
+    techniques?
+  answer_text: Classification
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: Classification
+- question_id: q0025
+  question_text: How is -in this chapter, you will be introduced to classification
+    problems and different from apply what you learn to a political dataset, where
+    you classify party?
+  answer_text: Classification
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: Classification
+- question_id: q0026
+  question_text: How is -in this chapter, you will be introduced to classification
+    problems and different from -in previous chapter, you used image?
+  answer_text: Classification
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: Classification
+- question_id: q0027
+  question_text: How is -in this chapter, you will be introduced to classification
+    problems and different from political datasets to predict?
+  answer_text: Classification
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: Classification
+- question_id: q0028
+  question_text: How is -in this chapter, you will be introduced to classification
+    problems and different from continuous outcome? regression is best suited to solving
+    such problems. you?
+  answer_text: Classification
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: Classification
+- question_id: q0029
+  question_text: How is learn how to solve them using supervised learning techniques
+    different from apply what you learn to a political dataset, where you classify
+    party?
+  answer_text: learn how to solve them using supervised learning techniques.
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: learn how to solve them using supervised learning techniques.
+- question_id: q0030
+  question_text: How is learn how to solve them using supervised learning techniques
+    different from political datasets to predict?
+  answer_text: learn how to solve them using supervised learning techniques.
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: learn how to solve them using supervised learning techniques.
+- question_id: q0031
+  question_text: How is learn how to solve them using supervised learning techniques
+    different from continuous outcome? regression is best suited to solving such problems.
+    you?
+  answer_text: learn how to solve them using supervised learning techniques.
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: learn how to solve them using supervised learning techniques.
+- question_id: q0033
+  question_text: How is apply what you learn to a political dataset, where you classify
+    party different from political datasets to predict?
+  answer_text: -In the previous chapter, you used image and political datasets to
+    predict
   correctness: correct
   confidence: 0.7
   evidence:
   - source: overview
-    text: -In this chapter, you will be introduced to classification problems and
+    text: -In the previous chapter, you used image and political datasets to predict
+- question_id: q0036
+  question_text: How is apply what you learn to a political dataset, where you classify
+    party different from continuous outcome? regression is best suited to solving
+    such problems. you?
+  answer_text: Regression
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: Regression
+- question_id: q0037
+  question_text: How is regression different from continuous outcome? regression is
+    best suited to solving such problems. you?
+  answer_text: Regression
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: Regression
+- question_id: q0038
+  question_text: How is -in previous chapter, you used image different from continuous
+    outcome? regression is best suited to solving such problems. you?
+  answer_text: Regression
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: Regression
+- question_id: q0039
+  question_text: How is political datasets to predict different from continuous outcome?
+    regression is best suited to solving such problems. you?
+  answer_text: Regression
+  correctness: uncertain
+  confidence: 0.4
+  evidence:
+  - source: overview
+    text: Regression
 final_rows:
 - row_id: r_000001
   course:
@@ -970,7 +1113,7 @@ final_rows:
   - classification
   question_text: What is classification?
   question_answer: Classification
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -986,7 +1129,7 @@ final_rows:
   - classification
   question_text: How does classification work?
   question_answer: Classification
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -1071,7 +1214,7 @@ final_rows:
   - you’ll
   question_text: What is you’ll?
   question_answer: And you’ll
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -1087,7 +1230,7 @@ final_rows:
   - you’ll
   question_text: How does you’ll work?
   question_answer: And you’ll
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -1133,7 +1276,7 @@ final_rows:
   - regression
   question_text: What is regression?
   question_answer: Regression
-  correctness: correct
+  correctness: uncertain
   question_family: entry
   status: answered
   reject_reason: null
@@ -1149,7 +1292,7 @@ final_rows:
   - regression
   question_text: How does regression work?
   question_answer: Regression
-  correctness: correct
+  correctness: uncertain
   question_family: mechanism
   status: answered
   reject_reason: null
@@ -1284,12 +1427,14 @@ final_rows:
   - continuous outcome? regression is best suited to solving such problems. you
   question_text: What is continuous outcome? regression is best suited to solving
     such problems. you?
-  question_answer: null
-  correctness: null
+  question_answer: Regression
+  correctness: uncertain
   question_family: entry
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: Regression
 - row_id: r_000022
   course:
     course_id: '24375'
@@ -1299,12 +1444,14 @@ final_rows:
   - continuous outcome? regression is best suited to solving such problems. you
   question_text: How does continuous outcome? regression is best suited to solving
     such problems. you work?
-  question_answer: null
-  correctness: null
+  question_answer: Regression
+  correctness: uncertain
   question_family: mechanism
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: Regression
 - row_id: r_000023
   course:
     course_id: '24375'
@@ -1317,7 +1464,7 @@ final_rows:
     introduced to classification problems and?
   question_answer: -In this chapter, you will be introduced to classification problems
     and
-  correctness: correct
+  correctness: uncertain
   question_family: comparison
   status: answered
   reject_reason: null
@@ -1335,12 +1482,14 @@ final_rows:
   question_text: How is -in this chapter, you will be introduced to classification
     problems and different from learn how to solve them using supervised learning
     techniques?
-  question_answer: null
-  correctness: null
+  question_answer: Classification
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: Classification
 - row_id: r_000025
   course:
     course_id: '24375'
@@ -1352,12 +1501,14 @@ final_rows:
   question_text: How is -in this chapter, you will be introduced to classification
     problems and different from apply what you learn to a political dataset, where
     you classify party?
-  question_answer: null
-  correctness: null
+  question_answer: Classification
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: Classification
 - row_id: r_000026
   course:
     course_id: '24375'
@@ -1368,12 +1519,14 @@ final_rows:
   - -in previous chapter, you used image
   question_text: How is -in this chapter, you will be introduced to classification
     problems and different from -in previous chapter, you used image?
-  question_answer: null
-  correctness: null
+  question_answer: Classification
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: Classification
 - row_id: r_000027
   course:
     course_id: '24375'
@@ -1384,12 +1537,14 @@ final_rows:
   - political datasets to predict
   question_text: How is -in this chapter, you will be introduced to classification
     problems and different from political datasets to predict?
-  question_answer: null
-  correctness: null
+  question_answer: Classification
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: Classification
 - row_id: r_000028
   course:
     course_id: '24375'
@@ -1401,12 +1556,14 @@ final_rows:
   question_text: How is -in this chapter, you will be introduced to classification
     problems and different from continuous outcome? regression is best suited to solving
     such problems. you?
-  question_answer: null
-  correctness: null
+  question_answer: Classification
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: Classification
 - row_id: r_000029
   course:
     course_id: '24375'
@@ -1418,12 +1575,14 @@ final_rows:
   question_text: How is learn how to solve them using supervised learning techniques
     different from apply what you learn to a political dataset, where you classify
     party?
-  question_answer: null
-  correctness: null
+  question_answer: learn how to solve them using supervised learning techniques.
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: learn how to solve them using supervised learning techniques.
 - row_id: r_000030
   course:
     course_id: '24375'
@@ -1434,12 +1593,14 @@ final_rows:
   - political datasets to predict
   question_text: How is learn how to solve them using supervised learning techniques
     different from political datasets to predict?
-  question_answer: null
-  correctness: null
+  question_answer: learn how to solve them using supervised learning techniques.
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: learn how to solve them using supervised learning techniques.
 - row_id: r_000031
   course:
     course_id: '24375'
@@ -1451,12 +1612,14 @@ final_rows:
   question_text: How is learn how to solve them using supervised learning techniques
     different from continuous outcome? regression is best suited to solving such problems.
     you?
-  question_answer: null
-  correctness: null
+  question_answer: learn how to solve them using supervised learning techniques.
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: learn how to solve them using supervised learning techniques.
 - row_id: r_000032
   course:
     course_id: '24375'
@@ -1483,12 +1646,15 @@ final_rows:
   - political datasets to predict
   question_text: How is apply what you learn to a political dataset, where you classify
     party different from political datasets to predict?
-  question_answer: null
-  correctness: null
+  question_answer: -In the previous chapter, you used image and political datasets
+    to predict
+  correctness: correct
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: -In the previous chapter, you used image and political datasets to predict
 - row_id: r_000034
   course:
     course_id: '24375'
@@ -1532,12 +1698,14 @@ final_rows:
   question_text: How is apply what you learn to a political dataset, where you classify
     party different from continuous outcome? regression is best suited to solving
     such problems. you?
-  question_answer: null
-  correctness: null
+  question_answer: Regression
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: Regression
 - row_id: r_000037
   course:
     course_id: '24375'
@@ -1548,12 +1716,14 @@ final_rows:
   - continuous outcome? regression is best suited to solving such problems. you
   question_text: How is regression different from continuous outcome? regression is
     best suited to solving such problems. you?
-  question_answer: null
-  correctness: null
+  question_answer: Regression
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: Regression
 - row_id: r_000038
   course:
     course_id: '24375'
@@ -1564,12 +1734,14 @@ final_rows:
   - continuous outcome? regression is best suited to solving such problems. you
   question_text: How is -in previous chapter, you used image different from continuous
     outcome? regression is best suited to solving such problems. you?
-  question_answer: null
-  correctness: null
+  question_answer: Regression
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: Regression
 - row_id: r_000039
   course:
     course_id: '24375'
@@ -1580,12 +1752,14 @@ final_rows:
   - continuous outcome? regression is best suited to solving such problems. you
   question_text: How is political datasets to predict different from continuous outcome?
     regression is best suited to solving such problems. you?
-  question_answer: null
-  correctness: null
+  question_answer: Regression
+  correctness: uncertain
   question_family: comparison
-  status: errored
-  reject_reason: missing_answer
-  source_evidence: []
+  status: answered
+  reject_reason: null
+  source_evidence:
+  - source: overview
+    text: Regression
 - row_id: r_000040
   course:
     course_id: '24375'
@@ -1608,5 +1782,5 @@ summary:
   candidate_count: 40
   accepted_count: 40
   rejected_count: 0
-  correct_count: 13
-  uncertain_count: 0
+  correct_count: 7
+  uncertain_count: 21
