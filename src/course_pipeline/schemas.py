@@ -135,6 +135,10 @@ class SemanticReviewDecision(BaseModel):
     rationale: str
 
 
+class SemanticReviewResult(BaseModel):
+    decisions: list[SemanticReviewDecision] = Field(default_factory=list)
+
+
 class SemanticStageResult(BaseModel):
     topics: list[SemanticTopic] = Field(default_factory=list)
     correlated_topics: list[SemanticCorrelatedTopic] = Field(default_factory=list)
