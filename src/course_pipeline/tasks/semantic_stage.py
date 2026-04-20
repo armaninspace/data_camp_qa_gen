@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from pathlib import Path
 import time
+import re
 
 import yaml
 
@@ -46,7 +47,9 @@ def run_semantic_stage_for_course(
             status="success",
         )
 
-    return SemanticStageResult.model_validate(semantic_json)
+    return SemanticStageResult.model_validate(
+        _normalize_semantic_stage_payload(semantic_json)
+    )
 
 
 def _render_semantic_prompt(course_payload: dict) -> str:
@@ -58,3 +61,70 @@ def _render_semantic_prompt(course_payload: dict) -> str:
         width=80,
     ).strip()
     return template.replace("{{NORMALIZED_COURSE_YAML}}", course_yaml)
+
+
+def _normalize_semantic_stage_payload(payload: dict) -> dict:
+    normalized = dict(payload)
+    normalized["topic_questions"] = _normalize_question_items(
+        payload.get("topic_questions", []),
+        scope="single_topic",
+        prefix="sq",
+    )
+    normalized["correlated_topic_questions"] = _normalize_question_items(
+        payload.get("correlated_topic_questions", []),
+        scope="correlated_topics",
+        prefix="cq",
+    )
+    return normalized
+
+
+def _normalize_question_items(
+    items: list[dict],
+    *,
+    scope: str,
+    prefix: str,
+) -> list[dict]:
+    normalized_items: list[dict] = []
+    for index, item in enumerate(items, start=1):
+        row = dict(item)
+        topics = row.get("relevant_topics") or row.get("topics") or []
+        if isinstance(topics, str):
+            topics = [topics]
+        question_text = str(row.get("question_text") or "").strip()
+        row["relevant_topics"] = list(topics)
+        row["question_scope"] = scope
+        row["question_id"] = row.get("question_id") or f"{prefix}_{index:03d}"
+        row["question_family"] = row.get("question_family") or _infer_question_family(
+            question_text,
+            scope=scope,
+        )
+        row["rationale"] = row.get("rationale") or "normalized_from_semantic_stage_output"
+        row.setdefault("source_refs", [])
+        normalized_items.append(row)
+    return normalized_items
+
+
+def _infer_question_family(question_text: str, *, scope: str) -> str:
+    normalized = re.sub(r"\s+", " ", question_text.strip().lower())
+    if scope == "correlated_topics":
+        if normalized.startswith("how are "):
+            return "how_are_x_and_y_related"
+        if normalized.startswith("what is the difference between "):
+            return "what_is_the_difference_between_x_and_y"
+        if normalized.startswith("why are ") and "used together" in normalized:
+            return "why_are_x_and_y_often_used_together"
+        if normalized.startswith("when would you use ") and " instead of " in normalized:
+            return "when_would_you_use_x_instead_of_y"
+        return "how_are_x_and_y_related"
+
+    if normalized.startswith("what is "):
+        return "what_is"
+    if normalized.startswith("why is "):
+        return "why_is"
+    if normalized.startswith("when would you use ") or normalized.startswith("when should you use "):
+        return "when_to_use"
+    if normalized.startswith("how does ") or normalized.startswith("how do "):
+        return "how_does_it_work"
+    if normalized.startswith("what is ") and " used for" in normalized:
+        return "what_is_it_used_for"
+    return "what_is"

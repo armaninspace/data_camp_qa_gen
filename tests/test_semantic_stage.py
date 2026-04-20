@@ -201,3 +201,49 @@ def test_semantic_stage_coerces_non_literal_answer_modes(tmp_path: Path) -> None
         "synthetic_tutor_answer",
         "synthetic_tutor_answer",
     ]
+
+
+def test_semantic_stage_normalizes_sparse_correlated_question_records(
+    tmp_path: Path,
+) -> None:
+    logger = RunLogger(run_id="run", root_dir=tmp_path)
+    logger.ensure_files()
+    client = FakeJsonClient(
+        "gpt-5.4",
+        [
+            {
+                "topics": [],
+                "correlated_topics": [],
+                "topic_questions": [],
+                "correlated_topic_questions": [
+                    {
+                        "topics": ["data frames", "subsetting"],
+                        "question_text": "How are data frames and subsetting related in R?",
+                    },
+                    {
+                        "topics": ["matrices", "arrays"],
+                        "question_text": "Why are matrices and arrays often used together in R?",
+                    },
+                ],
+                "synthetic_answers": [],
+            }
+        ],
+    )
+
+    result = run_semantic_stage_for_course(course=_course(), llm_client=client, logger=logger)
+
+    assert result.correlated_topic_questions[0].question_id == "cq_001"
+    assert result.correlated_topic_questions[0].relevant_topics == [
+        "data frames",
+        "subsetting",
+    ]
+    assert result.correlated_topic_questions[0].question_scope == "correlated_topics"
+    assert result.correlated_topic_questions[0].question_family == "how_are_x_and_y_related"
+    assert result.correlated_topic_questions[0].rationale == (
+        "normalized_from_semantic_stage_output"
+    )
+
+    assert result.correlated_topic_questions[1].question_id == "cq_002"
+    assert result.correlated_topic_questions[1].question_family == (
+        "why_are_x_and_y_often_used_together"
+    )
