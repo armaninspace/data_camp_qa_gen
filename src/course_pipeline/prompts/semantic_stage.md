@@ -79,6 +79,9 @@ Synthetic-answer requirements:
 - use general subject-matter knowledge
 - do not quote brochure spans as the answer source
 - keep answers brief, clear, and beginner-appropriate
+- `answer_mode` must always be the exact literal string `synthetic_tutor_answer`
+- do not use semantic labels such as `definition`, `usage`, `procedure`,
+  `comparison`, or `relationship` in `answer_mode`
 - include:
   - `question_text`
   - `answer_text`

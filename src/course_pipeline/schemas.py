@@ -2,7 +2,7 @@
 from __future__ import annotations
 
 from typing import Literal
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator
 
 
 Correctness = Literal["correct", "incorrect", "uncertain"]
@@ -119,6 +119,11 @@ class SemanticSyntheticAnswer(BaseModel):
     confidence: float = 0.0
     answer_rationale: str
     related_topics: list[str] = Field(default_factory=list)
+
+    @field_validator("answer_mode", mode="before")
+    @classmethod
+    def _coerce_answer_mode(cls, value: object) -> str:
+        return "synthetic_tutor_answer"
 
 
 class SemanticReviewDecision(BaseModel):

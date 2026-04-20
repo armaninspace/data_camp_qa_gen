@@ -158,3 +158,46 @@ def test_semantic_stage_prompt_uses_whole_normalized_course_yaml() -> None:
     assert "Logic, Control Flow and Filtering" in prompt
     assert "This course teaches learners how to work with pandas and matplotlib." in prompt
     assert "{{NORMALIZED_COURSE_YAML}}" not in prompt
+
+
+def test_semantic_stage_coerces_non_literal_answer_modes(tmp_path: Path) -> None:
+    logger = RunLogger(run_id="run", root_dir=tmp_path)
+    logger.ensure_files()
+    client = FakeJsonClient(
+        "gpt-5.4",
+        [
+            {
+                "topics": [],
+                "correlated_topics": [],
+                "topic_questions": [],
+                "correlated_topic_questions": [],
+                "synthetic_answers": [
+                    {
+                        "question_text": "What is pandas?",
+                        "answer_text": "Pandas is a Python library for working with tabular data.",
+                        "answer_mode": "usage",
+                        "difficulty_band": "beginner",
+                        "confidence": 0.97,
+                        "answer_rationale": "Brief beginner definition.",
+                        "related_topics": ["pandas"],
+                    },
+                    {
+                        "question_text": "How are pandas and matplotlib related?",
+                        "answer_text": "They are often used together to analyze and plot data.",
+                        "answer_mode": "relationship",
+                        "difficulty_band": "beginner",
+                        "confidence": 0.92,
+                        "answer_rationale": "Brief workflow explanation.",
+                        "related_topics": ["pandas", "matplotlib"],
+                    },
+                ],
+            }
+        ],
+    )
+
+    result = run_semantic_stage_for_course(course=_course(), llm_client=client, logger=logger)
+
+    assert [item.answer_mode for item in result.synthetic_answers] == [
+        "synthetic_tutor_answer",
+        "synthetic_tutor_answer",
+    ]
