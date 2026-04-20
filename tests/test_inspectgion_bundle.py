@@ -19,20 +19,7 @@ def _write_final_fixture(root: Path, course_id: str) -> None:
         "semantic_correlated_topic_questions.jsonl",
         "semantic_synthetic_answers.jsonl",
         "semantic_review_decisions.jsonl",
-        "topics.jsonl",
-        "canonical_topics.jsonl",
-        "related_topic_pairs.jsonl",
-        "vetted_topics.jsonl",
-        "vetted_topic_pairs.jsonl",
-        "single_topic_questions.jsonl",
-        "pairwise_questions.jsonl",
-        "question_validation.jsonl",
-        "question_candidates.jsonl",
-        "question_repairs.jsonl",
         "answers.jsonl",
-        "synthetic_answers.jsonl",
-        "synthetic_answer_validation.jsonl",
-        "synthetic_answer_rewrites.jsonl",
         "all_rows.jsonl",
     ]:
         with (root / artifact_name).open("a", encoding="utf-8") as handle:
@@ -75,8 +62,6 @@ def test_mk_inspectgion_bundle_filters_selected_courses(tmp_path: Path) -> None:
     assert (bundle_dir / "inspectgion_bundle.log").exists()
     assert (bundle_dir / "semantic_topics.jsonl").exists()
     assert (bundle_dir / "semantic_synthetic_answers.jsonl").exists()
-    assert (bundle_dir / "synthetic_answers.jsonl").exists()
-    assert (bundle_dir / "synthetic_answer_validation.jsonl").exists()
     selected_files = sorted(path.stem for path in (bundle_dir / "course_yaml").glob("*.yaml"))
     assert len(selected_files) == 4
     assert set(selected_files).issubset({"20001", "20002", "20003", "20004", "20005"})

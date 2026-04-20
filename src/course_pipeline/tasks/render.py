@@ -40,20 +40,7 @@ RUN_ARTIFACT_NAMES = [
     "semantic_correlated_topic_questions.jsonl",
     "semantic_synthetic_answers.jsonl",
     "semantic_review_decisions.jsonl",
-    "topics.jsonl",
-    "canonical_topics.jsonl",
-    "related_topic_pairs.jsonl",
-    "vetted_topics.jsonl",
-    "vetted_topic_pairs.jsonl",
-    "single_topic_questions.jsonl",
-    "pairwise_questions.jsonl",
-    "question_validation.jsonl",
-    "question_candidates.jsonl",
-    "question_repairs.jsonl",
     "answers.jsonl",
-    "synthetic_answers.jsonl",
-    "synthetic_answer_validation.jsonl",
-    "synthetic_answer_rewrites.jsonl",
     "all_rows.jsonl",
 ]
 PUBLISHED_ARTIFACT_NAMES = [
@@ -64,20 +51,7 @@ PUBLISHED_ARTIFACT_NAMES = [
     "semantic_correlated_topic_questions.jsonl",
     "semantic_synthetic_answers.jsonl",
     "semantic_review_decisions.jsonl",
-    "topics.jsonl",
-    "canonical_topics.jsonl",
-    "related_topic_pairs.jsonl",
-    "vetted_topics.jsonl",
-    "vetted_topic_pairs.jsonl",
-    "single_topic_questions.jsonl",
-    "pairwise_questions.jsonl",
-    "question_validation.jsonl",
-    "question_candidates.jsonl",
-    "question_repairs.jsonl",
     "answers.jsonl",
-    "synthetic_answers.jsonl",
-    "synthetic_answer_validation.jsonl",
-    "synthetic_answer_rewrites.jsonl",
     "all_rows.jsonl",
 ]
 
@@ -117,18 +91,8 @@ def persist_stage_artifacts(
     related_pairs = related_pairs or []
     single_topic_questions = single_topic_questions or []
     pairwise_questions = pairwise_questions or []
-    vetted_topics = vetted_topics or _default_vetted_topics(canonical_topics)
-    vetted_pairs = vetted_pairs or _default_vetted_pairs(related_pairs)
     validations = validations or []
-    synthetic_answers = synthetic_answers or []
-    synthetic_validations = synthetic_validations or []
-    synthetic_rewrites = synthetic_rewrites or []
     semantic_review_decisions = semantic_review_decisions or []
-    projected_candidates = _candidate_rows_from_questions(
-        course.course_id,
-        [*single_topic_questions, *pairwise_questions],
-    )
-    projected_repairs = _repair_rows_from_validations(course.course_id, validations)
 
     upsert_jsonl_rows(out / "normalized_courses.jsonl", [course], course_ids)
     semantic_topics = [] if semantic_result is None else [
@@ -181,97 +145,11 @@ def persist_stage_artifacts(
         course_ids,
     )
     upsert_jsonl_rows(
-        out / "topics.jsonl",
-        [{"course_id": course.course_id, **topic.model_dump()} for topic in topics],
-        course_ids,
-    )
-    upsert_jsonl_rows(
-        out / "canonical_topics.jsonl",
-        [
-            {"course_id": course.course_id, **topic.model_dump()}
-            for topic in canonical_topics
-        ],
-        course_ids,
-    )
-    upsert_jsonl_rows(
-        out / "related_topic_pairs.jsonl",
-        [
-            {"course_id": course.course_id, **pair.model_dump()}
-            for pair in related_pairs
-        ],
-        course_ids,
-    )
-    upsert_jsonl_rows(
-        out / "vetted_topics.jsonl",
-        [
-            {"course_id": course.course_id, **topic.model_dump()}
-            for topic in vetted_topics
-        ],
-        course_ids,
-    )
-    upsert_jsonl_rows(
-        out / "vetted_topic_pairs.jsonl",
-        [
-            {"course_id": course.course_id, **pair.model_dump()}
-            for pair in vetted_pairs
-        ],
-        course_ids,
-    )
-    upsert_jsonl_rows(
-        out / "single_topic_questions.jsonl",
-        [
-            {"course_id": course.course_id, **question.model_dump()}
-            for question in single_topic_questions
-        ],
-        course_ids,
-    )
-    upsert_jsonl_rows(
-        out / "pairwise_questions.jsonl",
-        [
-            {"course_id": course.course_id, **question.model_dump()}
-            for question in pairwise_questions
-        ],
-        course_ids,
-    )
-    upsert_jsonl_rows(
-        out / "question_validation.jsonl",
-        [
-            {"course_id": course.course_id, **validation.model_dump()}
-            for validation in validations
-        ],
-        course_ids,
-    )
-    upsert_jsonl_rows(
-        out / "question_candidates.jsonl",
-        projected_candidates,
-        course_ids,
-    )
-    upsert_jsonl_rows(
-        out / "question_repairs.jsonl",
-        projected_repairs,
-        course_ids,
-    )
-    upsert_jsonl_rows(
         out / "answers.jsonl",
         [
             {"course_id": course.course_id, **answer.model_dump()}
             for answer in answers
         ],
-        course_ids,
-    )
-    upsert_jsonl_rows(
-        out / "synthetic_answers.jsonl",
-        [item.model_dump() for item in synthetic_answers],
-        course_ids,
-    )
-    upsert_jsonl_rows(
-        out / "synthetic_answer_validation.jsonl",
-        [item.model_dump() for item in synthetic_validations],
-        course_ids,
-    )
-    upsert_jsonl_rows(
-        out / "synthetic_answer_rewrites.jsonl",
-        synthetic_rewrites,
         course_ids,
     )
     upsert_jsonl_rows(out / "all_rows.jsonl", rows, course_ids)
@@ -282,38 +160,29 @@ def persist_stage_artifacts(
         normalized_course=course,
         semantic_stage_result=semantic_result,
         semantic_review_decisions=semantic_review_decisions,
-        raw_topics=topics,
-        canonical_topics=canonical_topics,
-        vetted_topics=vetted_topics,
-        related_topic_pairs=related_pairs,
-        vetted_topic_pairs=vetted_pairs,
-        single_topic_questions=single_topic_questions,
-        pairwise_questions=pairwise_questions,
-        question_validation=validations,
         answers=answers,
-        synthetic_answers=synthetic_answers,
-        synthetic_answer_validation=synthetic_validations,
-        synthetic_answer_rewrites=synthetic_rewrites,
         final_rows=rows,
         summary={
-            "raw_topic_count": len(topics),
-            "canonical_topic_count": len(canonical_topics),
-            "vetted_topic_count": sum(item.decision != "reject" for item in vetted_topics),
-            "related_pair_count": len(related_pairs),
-            "single_topic_question_count": len(single_topic_questions),
-            "pairwise_question_count": len(pairwise_questions),
-            "accepted_question_count": sum(item.status != "rejected" for item in validations),
-            "rejected_question_count": sum(item.status == "rejected" for item in validations),
+            "semantic_topic_count": 0 if semantic_result is None else len(semantic_result.topics),
+            "semantic_correlated_topic_count": (
+                0 if semantic_result is None else len(semantic_result.correlated_topics)
+            ),
+            "semantic_question_count": (
+                0
+                if semantic_result is None
+                else len(semantic_result.topic_questions)
+                + len(semantic_result.correlated_topic_questions)
+            ),
+            "semantic_answer_count": (
+                0 if semantic_result is None else len(semantic_result.synthetic_answers)
+            ),
+            "review_decision_count": len(semantic_review_decisions),
+            "answered_count": sum(row.status == "answered" for row in rows),
+            "rejected_question_count": sum(row.status == "rejected" for row in rows),
+            "errored_question_count": sum(row.status == "errored" for row in rows),
             "correct_count": sum(a.correctness == "correct" for a in answers),
             "incorrect_count": sum(a.correctness == "incorrect" for a in answers),
             "uncertain_count": sum(a.correctness == "uncertain" for a in answers),
-            "synthetic_answer_count": len(synthetic_answers),
-            "synthetic_rewrite_count": sum(
-                item.decision == "rewrite" for item in synthetic_validations
-            ),
-            "synthetic_reject_count": sum(
-                item.decision == "reject" for item in synthetic_validations
-            ),
         },
     )
     write_yaml(out / "course_yaml" / f"{course.course_id}.yaml", bundle)
@@ -353,34 +222,17 @@ def rebuild_run_summary(output_dir: str | Path) -> dict[str, Any]:
             artifact_name: len(read_jsonl(out / artifact_name))
             for artifact_name in RUN_ARTIFACT_NAMES
         },
-        "total_raw_topics": len(read_jsonl(out / "topics.jsonl")),
-        "total_canonical_topics": len(read_jsonl(out / "canonical_topics.jsonl")),
-        "total_vetted_topics": sum(
-            row.get("decision") != "reject" for row in read_jsonl(out / "vetted_topics.jsonl")
+        "semantic_topic_count": len(read_jsonl(out / "semantic_topics.jsonl")),
+        "semantic_correlated_topic_count": len(
+            read_jsonl(out / "semantic_correlated_topics.jsonl")
         ),
-        "total_related_pairs": len(read_jsonl(out / "related_topic_pairs.jsonl")),
-        "total_single_topic_questions": len(read_jsonl(out / "single_topic_questions.jsonl")),
-        "total_pairwise_questions": len(read_jsonl(out / "pairwise_questions.jsonl")),
-        "accepted_question_count": sum(
-            row.get("status") != "rejected"
-            for row in read_jsonl(out / "question_validation.jsonl")
-        ),
+        "semantic_question_count": len(read_jsonl(out / "semantic_topic_questions.jsonl"))
+        + len(read_jsonl(out / "semantic_correlated_topic_questions.jsonl")),
+        "semantic_answer_count": len(read_jsonl(out / "semantic_synthetic_answers.jsonl")),
+        "review_decision_count": len(read_jsonl(out / "semantic_review_decisions.jsonl")),
         "answered_count": sum(item["answered_count"] for item in bundles),
         "rejected_question_count": sum(item["rejected_count"] for item in bundles),
         "errored_question_count": sum(item["errored_count"] for item in bundles),
-        "synthetic_answer_count": len(read_jsonl(out / "synthetic_answers.jsonl")),
-        "synthetic_accepted_count": sum(
-            row.get("decision") == "accept"
-            for row in read_jsonl(out / "synthetic_answer_validation.jsonl")
-        ),
-        "synthetic_rewrite_count": sum(
-            row.get("decision") == "rewrite"
-            for row in read_jsonl(out / "synthetic_answer_validation.jsonl")
-        ),
-        "synthetic_reject_count": sum(
-            row.get("decision") == "reject"
-            for row in read_jsonl(out / "synthetic_answer_validation.jsonl")
-        ),
         "correct_count": sum(
             row.get("correctness") == "correct" for row in read_jsonl(out / "answers.jsonl")
         ),
@@ -602,8 +454,8 @@ def _collect_consistency_state(
 
 def _quality_metrics(output_dir: Path) -> dict[str, Any]:
     all_rows = read_jsonl(output_dir / "all_rows.jsonl")
-    single_questions = read_jsonl(output_dir / "single_topic_questions.jsonl")
-    pairwise_questions = read_jsonl(output_dir / "pairwise_questions.jsonl")
+    single_questions = read_jsonl(output_dir / "semantic_topic_questions.jsonl")
+    pairwise_questions = read_jsonl(output_dir / "semantic_correlated_topic_questions.jsonl")
     total_rows = len(all_rows)
     rejected_count = sum(row.get("status") == "rejected" for row in all_rows)
     errored_count = sum(row.get("status") == "errored" for row in all_rows)
@@ -615,65 +467,3 @@ def _quality_metrics(output_dir: Path) -> dict[str, Any]:
         "entry_question_count": sum(row.get("family") == "entry" for row in single_questions),
     }
 
-
-def _default_vetted_topics(canonical_topics: list[CanonicalTopic]) -> list[VettedTopic]:
-    return [
-        VettedTopic(
-            canonical_topic_id=topic.canonical_topic_id,
-            canonical_label=topic.label,
-            decision="keep",
-            allow_single_topic_questions=True,
-            allow_pairwise_questions=True,
-            reason="derived_from_canonical_topic",
-            final_topic_type=topic.topic_type,
-            evidence_spans=topic.evidence,
-        )
-        for topic in canonical_topics
-    ]
-
-
-def _default_vetted_pairs(related_pairs: list[RelatedTopicPair]) -> list[VettedTopicPair]:
-    return [
-        VettedTopicPair(
-            pair_id=pair.pair_id,
-            topic_x=pair.topic_x,
-            topic_y=pair.topic_y,
-            decision="keep_pair",
-            reason="derived_from_related_pair",
-            relation_type=pair.relation_type,
-            evidence_spans=pair.evidence_spans,
-        )
-        for pair in related_pairs
-    ]
-def _candidate_rows_from_questions(
-    course_id: str,
-    questions: list[GeneratedQuestion],
-) -> list[dict[str, object]]:
-    return [
-        {
-            "course_id": course_id,
-            "candidate_id": question.question_id,
-            "relevant_topics": question.relevant_topics,
-            "family": question.family,
-            "pattern": question.pattern,
-            "question_text": question.question_text,
-        }
-        for question in questions
-    ]
-
-
-def _repair_rows_from_validations(
-    course_id: str,
-    validations: list[QuestionValidationRecord],
-) -> list[dict[str, object]]:
-    return [
-        {
-            "course_id": course_id,
-            "candidate_id": validation.question_id,
-            "status": validation.status,
-            "original_text": validation.original_text,
-            "final_text": validation.final_text,
-            "reject_reason": validation.reject_reason,
-        }
-        for validation in validations
-    ]

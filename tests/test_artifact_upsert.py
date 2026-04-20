@@ -129,13 +129,9 @@ def test_persist_stage_artifacts_upserts_by_course_id(tmp_path: Path) -> None:
     assert summary["course_count"] == 2
     assert summary["artifact_counts"]["semantic_topics.jsonl"] == 0
     assert summary["artifact_counts"]["semantic_review_decisions.jsonl"] == 0
-    assert summary["artifact_counts"]["canonical_topics.jsonl"] == 2
-    assert summary["artifact_counts"]["vetted_topics.jsonl"] == 2
-    assert summary["artifact_counts"]["single_topic_questions.jsonl"] == 2
-    assert "synthetic_answer_count" in summary
-    assert "synthetic_accepted_count" in summary
-    assert "synthetic_rewrite_count" in summary
-    assert "synthetic_reject_count" in summary
+    assert summary["semantic_question_count"] == 0
+    assert summary["semantic_answer_count"] == 0
+    assert "review_decision_count" in summary
     assert "rejected_question_count" in summary
     assert "errored_question_count" in summary
     assert "quality_metrics" in summary
@@ -143,7 +139,7 @@ def test_persist_stage_artifacts_upserts_by_course_id(tmp_path: Path) -> None:
     assert "entry_question_count" in summary["quality_metrics"]
     bundle = (output_dir / "course_yaml" / "1.yaml").read_text(encoding="utf-8")
     assert "One Updated" in bundle
-    assert "single_topic_questions" in bundle
+    assert "semantic_stage_result: null" in bundle
 
 
 def test_rebuild_run_summary_uses_shared_rows_and_keeps_zero_row_courses(tmp_path: Path) -> None:

@@ -266,18 +266,7 @@ class CourseBundle(BaseModel):
     normalized_course: NormalizedCourse
     semantic_stage_result: SemanticStageResult | None = None
     semantic_review_decisions: list[SemanticReviewDecision] = Field(default_factory=list)
-    raw_topics: list[Topic]
-    canonical_topics: list[CanonicalTopic]
-    vetted_topics: list[VettedTopic] = Field(default_factory=list)
-    related_topic_pairs: list[RelatedTopicPair] = Field(default_factory=list)
-    vetted_topic_pairs: list[VettedTopicPair] = Field(default_factory=list)
-    single_topic_questions: list[GeneratedQuestion] = Field(default_factory=list)
-    pairwise_questions: list[GeneratedQuestion] = Field(default_factory=list)
-    question_validation: list[QuestionValidationRecord] = Field(default_factory=list)
     answers: list[AnswerRecord]
-    synthetic_answers: list[SyntheticAnswerRecord] = Field(default_factory=list)
-    synthetic_answer_validation: list[SyntheticAnswerValidationRecord] = Field(default_factory=list)
-    synthetic_answer_rewrites: list[dict] = Field(default_factory=list)
     final_rows: list[LedgerRow]
     summary: dict = Field(default_factory=dict)
 

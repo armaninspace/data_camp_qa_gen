@@ -180,7 +180,7 @@ def test_main_flow_publishes_synthetic_answers(tmp_path: Path) -> None:
 
     bundle = read_yaml(final_dir / "course_yaml" / "24372.yaml")
     assert bundle["answers"][0]["answer_mode"] == "synthetic_tutor_answer"
-    assert bundle["synthetic_answers"][0]["answer_mode"] == "synthetic_tutor_answer"
+    assert bundle["semantic_stage_result"]["synthetic_answers"][0]["answer_mode"] == "synthetic_tutor_answer"
     assert bundle["final_rows"][0]["question_answer"] == answers[0]["answer_text"]
 
 
