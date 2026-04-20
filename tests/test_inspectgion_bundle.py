@@ -13,6 +13,12 @@ def _write_final_fixture(root: Path, course_id: str) -> None:
     (root / "course_yaml").mkdir(parents=True, exist_ok=True)
     for artifact_name in [
         "normalized_courses.jsonl",
+        "semantic_topics.jsonl",
+        "semantic_correlated_topics.jsonl",
+        "semantic_topic_questions.jsonl",
+        "semantic_correlated_topic_questions.jsonl",
+        "semantic_synthetic_answers.jsonl",
+        "semantic_review_decisions.jsonl",
         "topics.jsonl",
         "canonical_topics.jsonl",
         "related_topic_pairs.jsonl",
@@ -67,6 +73,8 @@ def test_mk_inspectgion_bundle_filters_selected_courses(tmp_path: Path) -> None:
     assert "published_run_course_count: 5" in manifest
     assert "selection_seed: 0" in manifest
     assert (bundle_dir / "inspectgion_bundle.log").exists()
+    assert (bundle_dir / "semantic_topics.jsonl").exists()
+    assert (bundle_dir / "semantic_synthetic_answers.jsonl").exists()
     assert (bundle_dir / "synthetic_answers.jsonl").exists()
     assert (bundle_dir / "synthetic_answer_validation.jsonl").exists()
     selected_files = sorted(path.stem for path in (bundle_dir / "course_yaml").glob("*.yaml"))

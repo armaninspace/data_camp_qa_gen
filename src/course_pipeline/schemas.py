@@ -264,6 +264,8 @@ class CourseBundle(BaseModel):
     course_id: str
     title: str
     normalized_course: NormalizedCourse
+    semantic_stage_result: SemanticStageResult | None = None
+    semantic_review_decisions: list[SemanticReviewDecision] = Field(default_factory=list)
     raw_topics: list[Topic]
     canonical_topics: list[CanonicalTopic]
     vetted_topics: list[VettedTopic] = Field(default_factory=list)

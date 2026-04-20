@@ -127,6 +127,8 @@ def test_persist_stage_artifacts_upserts_by_course_id(tmp_path: Path) -> None:
     summary = rebuild_run_summary(output_dir)
 
     assert summary["course_count"] == 2
+    assert summary["artifact_counts"]["semantic_topics.jsonl"] == 0
+    assert summary["artifact_counts"]["semantic_review_decisions.jsonl"] == 0
     assert summary["artifact_counts"]["canonical_topics.jsonl"] == 2
     assert summary["artifact_counts"]["vetted_topics.jsonl"] == 2
     assert summary["artifact_counts"]["single_topic_questions.jsonl"] == 2

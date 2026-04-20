@@ -232,6 +232,8 @@ def _process_course(
         synthetic_answers=synthetic_answers,
         synthetic_validations=synthetic_validations,
         synthetic_rewrites=[],
+        semantic_result=semantic_result,
+        semantic_review_decisions=[] if review_result is None else review_result.decisions,
     )
     timer.finish(output_row_count=len(rows))
 

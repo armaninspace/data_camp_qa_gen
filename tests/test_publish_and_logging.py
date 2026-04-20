@@ -15,6 +15,12 @@ def test_publish_final_outputs_merges_and_logs(tmp_path: Path) -> None:
 
     artifacts = {
         "normalized_courses.jsonl": '{"course_id": "1", "title": "One"}\n',
+        "semantic_topics.jsonl": '{"course_id": "1", "label": "t1"}\n',
+        "semantic_correlated_topics.jsonl": '{"course_id": "1", "topics": ["t1", "t2"]}\n',
+        "semantic_topic_questions.jsonl": '{"course_id": "1", "question_id": "q1"}\n',
+        "semantic_correlated_topic_questions.jsonl": '{"course_id": "1", "question_id": "q2"}\n',
+        "semantic_synthetic_answers.jsonl": '{"course_id": "1", "question_text": "What is t1?"}\n',
+        "semantic_review_decisions.jsonl": '{"course_id": "1", "target_id": "q1", "decision": "keep"}\n',
         "topics.jsonl": '{"course_id": "1", "topic_id": "t1"}\n',
         "canonical_topics.jsonl": '{"course_id": "1", "canonical_topic_id": "ct1"}\n',
         "related_topic_pairs.jsonl": '{"course_id": "1", "pair_id": "p1"}\n',

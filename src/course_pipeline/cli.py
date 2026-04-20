@@ -22,6 +22,12 @@ from course_pipeline.tasks.synthesize_answers import (
 app = typer.Typer(help="Course question pipeline CLI. `run` is the primary path.")
 ARTIFACT_FILES = [
     "normalized_courses.jsonl",
+    "semantic_topics.jsonl",
+    "semantic_correlated_topics.jsonl",
+    "semantic_topic_questions.jsonl",
+    "semantic_correlated_topic_questions.jsonl",
+    "semantic_synthetic_answers.jsonl",
+    "semantic_review_decisions.jsonl",
     "topics.jsonl",
     "canonical_topics.jsonl",
     "related_topic_pairs.jsonl",

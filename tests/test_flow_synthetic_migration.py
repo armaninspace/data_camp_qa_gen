@@ -170,6 +170,8 @@ def test_main_flow_publishes_synthetic_answers(tmp_path: Path) -> None:
     )
 
     assert result["run_summary"]["course_count"] == 1
+    semantic_topics = read_jsonl(run_dir / "semantic_topics.jsonl")
+    assert semantic_topics[0]["label"] == "ARIMA"
     answers = read_jsonl(run_dir / "answers.jsonl")
     assert len(answers) == 1
     assert answers[0]["answer_mode"] == "synthetic_tutor_answer"

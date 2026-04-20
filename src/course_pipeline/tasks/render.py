@@ -23,6 +23,8 @@ from course_pipeline.schemas import (
     NormalizedCourse,
     RelatedTopicPair,
     QuestionValidationRecord,
+    SemanticReviewDecision,
+    SemanticStageResult,
     Topic,
     ExcludedCourseRecord,
     VettedTopic,
@@ -33,6 +35,12 @@ from course_pipeline.schemas import (
 RUN_ARTIFACT_NAMES = [
     "excluded_courses.jsonl",
     "normalized_courses.jsonl",
+    "semantic_topics.jsonl",
+    "semantic_correlated_topics.jsonl",
+    "semantic_topic_questions.jsonl",
+    "semantic_correlated_topic_questions.jsonl",
+    "semantic_synthetic_answers.jsonl",
+    "semantic_review_decisions.jsonl",
     "topics.jsonl",
     "canonical_topics.jsonl",
     "related_topic_pairs.jsonl",
@@ -51,6 +59,12 @@ RUN_ARTIFACT_NAMES = [
 ]
 PUBLISHED_ARTIFACT_NAMES = [
     "normalized_courses.jsonl",
+    "semantic_topics.jsonl",
+    "semantic_correlated_topics.jsonl",
+    "semantic_topic_questions.jsonl",
+    "semantic_correlated_topic_questions.jsonl",
+    "semantic_synthetic_answers.jsonl",
+    "semantic_review_decisions.jsonl",
     "topics.jsonl",
     "canonical_topics.jsonl",
     "related_topic_pairs.jsonl",
@@ -96,6 +110,8 @@ def persist_stage_artifacts(
     synthetic_answers: list | None = None,
     synthetic_validations: list | None = None,
     synthetic_rewrites: list[dict] | None = None,
+    semantic_result: SemanticStageResult | None = None,
+    semantic_review_decisions: list[SemanticReviewDecision] | None = None,
 ) -> None:
     out = Path(output_dir)
     course_ids = {course.course_id}
@@ -108,6 +124,7 @@ def persist_stage_artifacts(
     synthetic_answers = synthetic_answers or []
     synthetic_validations = synthetic_validations or []
     synthetic_rewrites = synthetic_rewrites or []
+    semantic_review_decisions = semantic_review_decisions or []
     projected_candidates = _candidate_rows_from_questions(
         course.course_id,
         [*single_topic_questions, *pairwise_questions],
@@ -115,6 +132,55 @@ def persist_stage_artifacts(
     projected_repairs = _repair_rows_from_validations(course.course_id, validations)
 
     upsert_jsonl_rows(out / "normalized_courses.jsonl", [course], course_ids)
+    semantic_topics = [] if semantic_result is None else [
+        {"course_id": course.course_id, **item.model_dump()}
+        for item in semantic_result.topics
+    ]
+    semantic_correlated_topics = [] if semantic_result is None else [
+        {"course_id": course.course_id, **item.model_dump()}
+        for item in semantic_result.correlated_topics
+    ]
+    semantic_topic_questions = [] if semantic_result is None else [
+        {"course_id": course.course_id, **item.model_dump()}
+        for item in semantic_result.topic_questions
+    ]
+    semantic_correlated_topic_questions = [] if semantic_result is None else [
+        {"course_id": course.course_id, **item.model_dump()}
+        for item in semantic_result.correlated_topic_questions
+    ]
+    semantic_synthetic_answers = [] if semantic_result is None else [
+        {"course_id": course.course_id, **item.model_dump()}
+        for item in semantic_result.synthetic_answers
+    ]
+    upsert_jsonl_rows(out / "semantic_topics.jsonl", semantic_topics, course_ids)
+    upsert_jsonl_rows(
+        out / "semantic_correlated_topics.jsonl",
+        semantic_correlated_topics,
+        course_ids,
+    )
+    upsert_jsonl_rows(
+        out / "semantic_topic_questions.jsonl",
+        semantic_topic_questions,
+        course_ids,
+    )
+    upsert_jsonl_rows(
+        out / "semantic_correlated_topic_questions.jsonl",
+        semantic_correlated_topic_questions,
+        course_ids,
+    )
+    upsert_jsonl_rows(
+        out / "semantic_synthetic_answers.jsonl",
+        semantic_synthetic_answers,
+        course_ids,
+    )
+    upsert_jsonl_rows(
+        out / "semantic_review_decisions.jsonl",
+        [
+            {"course_id": course.course_id, **item.model_dump()}
+            for item in semantic_review_decisions
+        ],
+        course_ids,
+    )
     upsert_jsonl_rows(
         out / "topics.jsonl",
         [{"course_id": course.course_id, **topic.model_dump()} for topic in topics],
@@ -215,6 +281,8 @@ def persist_stage_artifacts(
         course_id=course.course_id,
         title=course.title,
         normalized_course=course,
+        semantic_stage_result=semantic_result,
+        semantic_review_decisions=semantic_review_decisions,
         raw_topics=topics,
         canonical_topics=canonical_topics,
         vetted_topics=vetted_topics,
