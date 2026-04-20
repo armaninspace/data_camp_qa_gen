@@ -247,3 +247,54 @@ def test_semantic_stage_normalizes_sparse_correlated_question_records(
     assert result.correlated_topic_questions[1].question_family == (
         "why_are_x_and_y_often_used_together"
     )
+
+
+def test_semantic_stage_normalizes_loose_relationship_types(tmp_path: Path) -> None:
+    logger = RunLogger(run_id="run", root_dir=tmp_path)
+    logger.ensure_files()
+    client = FakeJsonClient(
+        "gpt-5.4",
+        [
+            {
+                "topics": [],
+                "correlated_topics": [
+                    {
+                        "topics": ["factors", "releveling"],
+                        "relationship_type": "procedure_on_concept",
+                        "strength": 0.8,
+                    },
+                    {
+                        "topics": ["matrices", "arrays"],
+                        "relationship_type": "related_data_structures",
+                        "strength": 0.7,
+                    },
+                    {
+                        "topics": ["lists", "vectors"],
+                        "relationship_type": "comparison",
+                        "strength": 0.6,
+                    },
+                    {
+                        "topics": ["variables", "data types"],
+                        "relationship_type": "foundational_skills",
+                        "strength": 0.65,
+                    },
+                ],
+                "topic_questions": [],
+                "correlated_topic_questions": [],
+                "synthetic_answers": [],
+            }
+        ],
+    )
+
+    result = run_semantic_stage_for_course(course=_course(), llm_client=client, logger=logger)
+
+    assert [item.relationship_type for item in result.correlated_topics] == [
+        "prerequisite_adjacent",
+        "paired_scope",
+        "comparison_worthy",
+        "prerequisite_adjacent",
+    ]
+    assert all(
+        item.rationale == "normalized_from_semantic_stage_output"
+        for item in result.correlated_topics
+    )

@@ -65,6 +65,9 @@ def _render_semantic_prompt(course_payload: dict) -> str:
 
 def _normalize_semantic_stage_payload(payload: dict) -> dict:
     normalized = dict(payload)
+    normalized["correlated_topics"] = _normalize_correlated_topics(
+        payload.get("correlated_topics", [])
+    )
     normalized["topic_questions"] = _normalize_question_items(
         payload.get("topic_questions", []),
         scope="single_topic",
@@ -76,6 +79,22 @@ def _normalize_semantic_stage_payload(payload: dict) -> dict:
         prefix="cq",
     )
     return normalized
+
+
+def _normalize_correlated_topics(items: list[dict]) -> list[dict]:
+    normalized_items: list[dict] = []
+    for item in items:
+        row = dict(item)
+        topics = row.get("topics") or []
+        if isinstance(topics, str):
+            topics = [topics]
+        row["topics"] = list(topics)
+        row["relationship_type"] = _normalize_relationship_type(
+            row.get("relationship_type")
+        )
+        row["rationale"] = row.get("rationale") or "normalized_from_semantic_stage_output"
+        normalized_items.append(row)
+    return normalized_items
 
 
 def _normalize_question_items(
@@ -128,3 +147,25 @@ def _infer_question_family(question_text: str, *, scope: str) -> str:
     if normalized.startswith("what is ") and " used for" in normalized:
         return "what_is_it_used_for"
     return "what_is"
+
+
+def _normalize_relationship_type(value: object) -> str:
+    normalized = re.sub(r"[\s\-]+", "_", str(value or "").strip().lower())
+    if normalized in {
+        "paired_scope",
+        "prerequisite_adjacent",
+        "commonly_confused",
+        "comparison_worthy",
+        "used_together",
+        "evaluation_related",
+    }:
+        return normalized
+    if normalized in {"procedure_on_concept", "foundation", "foundational_skills"}:
+        return "prerequisite_adjacent"
+    if normalized in {"related_data_structures"}:
+        return "paired_scope"
+    if normalized in {"comparison", "compare", "contrast"}:
+        return "comparison_worthy"
+    if normalized in {"related", "relationship", "connected"}:
+        return "used_together"
+    return "used_together"
