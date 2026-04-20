@@ -57,3 +57,32 @@ def test_entry_question_with_course_title_scope_topic_is_rejected() -> None:
     assert validations[0].reject_reason == "course_title_scope"
     assert validations[1].status == "rejected"
     assert validations[1].reject_reason == "course_preamble"
+
+
+def test_exact_junk_entry_questions_are_rejected_before_answer_synthesis() -> None:
+    validations = validate_questions(
+        [
+            _generated("q1", "What is getting started in python?"),
+            _generated("q2", "What is different types of plots?"),
+            _generated("q3", "What is where?"),
+        ]
+    )
+
+    assert [item.status for item in validations] == ["rejected", "rejected", "rejected"]
+    assert validations[0].reject_reason == "course_preamble"
+    assert validations[1].reject_reason == "course_preamble"
+    assert validations[2].reject_reason == "sql_keyword_fragment"
+
+
+def test_positive_control_entry_questions_stay_accepted() -> None:
+    validations = validate_questions(
+        [
+            _generated("q1", "What is matplotlib?"),
+            _generated("q2", "What is pandas?"),
+            _generated("q3", "What is dictionary?"),
+            _generated("q4", "What is control flow?"),
+        ]
+    )
+
+    assert all(item.status == "accepted" for item in validations)
+    assert all(item.reject_reason is None for item in validations)

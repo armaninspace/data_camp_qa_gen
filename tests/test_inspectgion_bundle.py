@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from pathlib import Path
+import json
 
 from typer.testing import CliRunner
 
@@ -71,6 +72,18 @@ def test_mk_inspectgion_bundle_filters_selected_courses(tmp_path: Path) -> None:
     selected_files = sorted(path.stem for path in (bundle_dir / "course_yaml").glob("*.yaml"))
     assert len(selected_files) == 4
     assert set(selected_files).issubset({"20001", "20002", "20003", "20004", "20005"})
+    bundled_answer_courses = {
+        json.loads(line)["course_id"]
+        for line in (bundle_dir / "answers.jsonl").read_text(encoding="utf-8").splitlines()
+        if line.strip()
+    }
+    bundled_row_courses = {
+        json.loads(line)["course"]["course_id"]
+        for line in (bundle_dir / "all_rows.jsonl").read_text(encoding="utf-8").splitlines()
+        if line.strip()
+    }
+    assert bundled_answer_courses == set(selected_files)
+    assert bundled_row_courses == set(selected_files)
 
 
 def test_run_accepts_publish_boolean_string_and_flag_forms(
