@@ -154,3 +154,58 @@ def test_semantic_review_prompt_includes_course_yaml_and_bundle_json() -> None:
     assert '"normalized_label": "getting started in python"' in prompt
     assert '"question_text": "What is getting started in python?"' in prompt
     assert "{{SEMANTIC_BUNDLE_JSON}}" not in prompt
+
+
+def test_semantic_review_normalizes_item_type_aliases_and_null_rewrites(
+    tmp_path: Path,
+) -> None:
+    logger = RunLogger(run_id="run", root_dir=tmp_path)
+    logger.ensure_files()
+    client = FakeJsonClient(
+        "gpt-5.4",
+        [
+            {
+                "decisions": [
+                    {
+                        "item_type": "topic_question",
+                        "target_id": "sq_001",
+                        "decision": "reject",
+                        "rewritten_payload": None,
+                        "merged_into": None,
+                        "rationale": "Bad question.",
+                    },
+                    {
+                        "item_type": "correlated_topic_question",
+                        "target_id": "cq_001",
+                        "decision": "rewrite",
+                        "rewritten_payload": None,
+                        "merged_into": None,
+                        "rationale": "",
+                    },
+                    {
+                        "item_type": "answer",
+                        "target_id": "What is pandas?",
+                        "decision": "keep",
+                        "rewritten_payload": None,
+                        "merged_into": None,
+                        "rationale": "Fine answer.",
+                    },
+                ]
+            }
+        ],
+    )
+
+    result = run_semantic_review_for_course(
+        course=_course(),
+        semantic_result=_semantic_result(),
+        llm_client=client,
+        logger=logger,
+    )
+
+    assert [item.item_type for item in result.decisions] == [
+        "question",
+        "question",
+        "synthetic_answer",
+    ]
+    assert [item.rewritten_payload for item in result.decisions] == [{}, {}, {}]
+    assert result.decisions[1].rationale == "normalized_from_semantic_review_output"

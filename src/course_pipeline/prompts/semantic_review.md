@@ -44,6 +44,19 @@ Each decision must include:
 - `merged_into`
 - `rationale`
 
+`item_type` must be exactly one of:
+- `topic`
+- `correlated_topic`
+- `question`
+- `synthetic_answer`
+
+Do not use variants such as:
+- `topic_question`
+- `correlated_topic_question`
+- `answer`
+
+If there is no rewrite, set `rewritten_payload` to `{}` and not `null`.
+
 Normalized course YAML:
 
 {{NORMALIZED_COURSE_YAML}}
