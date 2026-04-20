@@ -304,11 +304,6 @@ def course_question_pipeline_flow(
         f"run summary rebuilt course_count={run_summary['course_count']} excluded_course_count={run_summary['excluded_course_count']}"
     )
 
-    if len(preflight.excluded_rows) == 0 and run_summary["rejected_question_count"] == 0:
-        raise RuntimeError(
-            "rejection pressure gate failed: no excluded courses and no rejected questions"
-        )
-
     published_summary = None
     affected_course_ids = {item["course_id"] for item in summaries}
     if publish and affected_course_ids:

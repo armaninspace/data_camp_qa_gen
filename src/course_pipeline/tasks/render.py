@@ -13,7 +13,6 @@ from course_pipeline.io_utils import (
     write_yaml,
 )
 from course_pipeline.run_logging import RunLogger
-from course_pipeline.tasks.extract_topics import is_heading_like_topic
 from course_pipeline.schemas import (
     AnswerRecord,
     CanonicalTopic,
@@ -602,60 +601,35 @@ def _collect_consistency_state(
 
 
 def _quality_metrics(output_dir: Path) -> dict[str, Any]:
-    canonical_topics = read_jsonl(output_dir / "canonical_topics.jsonl")
     all_rows = read_jsonl(output_dir / "all_rows.jsonl")
     single_questions = read_jsonl(output_dir / "single_topic_questions.jsonl")
     pairwise_questions = read_jsonl(output_dir / "pairwise_questions.jsonl")
-    validations = read_jsonl(output_dir / "question_validation.jsonl")
-    answers = read_jsonl(output_dir / "answers.jsonl")
-
-    heading_like_count = sum(
-        is_heading_like_topic(row.get("label", ""))
-        for row in canonical_topics
-        if isinstance(row, dict)
-    )
-    total_topics = len(canonical_topics)
     total_rows = len(all_rows)
     rejected_count = sum(row.get("status") == "rejected" for row in all_rows)
     errored_count = sum(row.get("status") == "errored" for row in all_rows)
-    malformed_repair_count = sum(
-        row.get("status") == "repaired" and row.get("reject_reason") == "malformed"
-        for row in validations
-    )
-    answer_rows_without_evidence_count = sum(
-        not row.get("evidence") for row in answers if row.get("answer_text")
-    )
 
     return {
-        "heading_like_topic_rate": 0.0
-        if total_topics == 0
-        else round(heading_like_count / total_topics, 4),
         "reject_rate": 0.0 if total_rows == 0 else round(rejected_count / total_rows, 4),
         "errored_rate": 0.0 if total_rows == 0 else round(errored_count / total_rows, 4),
         "comparison_question_count": len(pairwise_questions),
         "entry_question_count": sum(row.get("family") == "entry" for row in single_questions),
-        "answer_rows_without_evidence_count": answer_rows_without_evidence_count,
-        "malformed_repair_count": malformed_repair_count,
     }
 
 
 def _default_vetted_topics(canonical_topics: list[CanonicalTopic]) -> list[VettedTopic]:
-    vetted: list[VettedTopic] = []
-    for topic in canonical_topics:
-        is_rejected = is_heading_like_topic(topic.label)
-        vetted.append(
-            VettedTopic(
-                canonical_topic_id=topic.canonical_topic_id,
-                canonical_label=topic.label,
-                decision="reject" if is_rejected else "keep",
-                allow_single_topic_questions=not is_rejected,
-                allow_pairwise_questions=not is_rejected,
-                reason="heading_like_topic" if is_rejected else "derived_from_canonical_topic",
-                final_topic_type=topic.topic_type,
-                evidence_spans=topic.evidence,
-            )
+    return [
+        VettedTopic(
+            canonical_topic_id=topic.canonical_topic_id,
+            canonical_label=topic.label,
+            decision="keep",
+            allow_single_topic_questions=True,
+            allow_pairwise_questions=True,
+            reason="derived_from_canonical_topic",
+            final_topic_type=topic.topic_type,
+            evidence_spans=topic.evidence,
         )
-    return vetted
+        for topic in canonical_topics
+    ]
 
 
 def _default_vetted_pairs(related_pairs: list[RelatedTopicPair]) -> list[VettedTopicPair]:

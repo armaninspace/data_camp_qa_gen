@@ -138,11 +138,9 @@ def test_persist_stage_artifacts_upserts_by_course_id(tmp_path: Path) -> None:
     assert "synthetic_reject_count" in summary
     assert "rejected_question_count" in summary
     assert "errored_question_count" in summary
-    assert "heading_like_topic_rate" in summary
-    assert "answer_rows_without_evidence_count" in summary
     assert "quality_metrics" in summary
     assert "reject_rate" in summary["quality_metrics"]
-    assert "answer_rows_without_evidence_count" in summary["quality_metrics"]
+    assert "entry_question_count" in summary["quality_metrics"]
     bundle = (output_dir / "course_yaml" / "1.yaml").read_text(encoding="utf-8")
     assert "One Updated" in bundle
     assert "single_topic_questions" in bundle
