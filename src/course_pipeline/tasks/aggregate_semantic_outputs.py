@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import re
+
 from course_pipeline.schemas import (
     AnswerRecord,
     CanonicalTopic,
@@ -231,7 +233,14 @@ def _apply_topic_decision(topics: list, decision: SemanticReviewDecision) -> lis
         if decision.decision == "reject":
             continue
         if decision.decision == "rewrite" and decision.rewritten_payload:
-            updated.append(type(topic).model_validate({**topic.model_dump(), **decision.rewritten_payload}))
+            updated.append(
+                type(topic).model_validate(
+                    {
+                        **topic.model_dump(),
+                        **_normalize_topic_rewrite_payload(decision.rewritten_payload),
+                    }
+                )
+            )
             continue
         if decision.decision == "merge" and decision.merged_into:
             continue
@@ -249,7 +258,14 @@ def _apply_correlated_decision(items: list, decision: SemanticReviewDecision) ->
         if decision.decision == "reject":
             continue
         if decision.decision == "rewrite" and decision.rewritten_payload:
-            updated.append(type(item).model_validate({**item.model_dump(), **decision.rewritten_payload}))
+            updated.append(
+                type(item).model_validate(
+                    {
+                        **item.model_dump(),
+                        **_normalize_correlated_rewrite_payload(decision.rewritten_payload),
+                    }
+                )
+            )
             continue
         if decision.decision == "merge" and decision.merged_into:
             continue
@@ -266,7 +282,14 @@ def _apply_question_decision(items: list, decision: SemanticReviewDecision) -> l
         if decision.decision == "reject":
             continue
         if decision.decision == "rewrite" and decision.rewritten_payload:
-            updated.append(type(item).model_validate({**item.model_dump(), **decision.rewritten_payload}))
+            updated.append(
+                type(item).model_validate(
+                    {
+                        **item.model_dump(),
+                        **_normalize_question_rewrite_payload(decision.rewritten_payload),
+                    }
+                )
+            )
             continue
         if decision.decision == "merge" and decision.merged_into:
             continue
@@ -283,7 +306,14 @@ def _apply_answer_decision(items: list, decision: SemanticReviewDecision) -> lis
         if decision.decision == "reject":
             continue
         if decision.decision == "rewrite" and decision.rewritten_payload:
-            updated.append(type(item).model_validate({**item.model_dump(), **decision.rewritten_payload}))
+            updated.append(
+                type(item).model_validate(
+                    {
+                        **item.model_dump(),
+                        **_normalize_answer_rewrite_payload(decision.rewritten_payload),
+                    }
+                )
+            )
             continue
         if decision.decision == "merge" and decision.merged_into:
             continue
@@ -300,4 +330,151 @@ def _semantic_topic_type_to_legacy(topic_type: str) -> str:
         return "comparison_pair_candidate"
     if topic_type == "decision_point":
         return "other"
+    return "concept"
+
+
+def _normalize_topic_rewrite_payload(payload: dict) -> dict:
+    row = dict(payload)
+    if "topic_type" in row:
+        row["topic_type"] = _normalize_topic_type(row.get("topic_type"))
+    row.setdefault("aliases", payload.get("aliases", []))
+    row.setdefault("source_refs", payload.get("source_refs", []))
+    if not row.get("rationale"):
+        row["rationale"] = "normalized_from_semantic_review_rewrite"
+    return row
+
+
+def _normalize_correlated_rewrite_payload(payload: dict) -> dict:
+    row = dict(payload)
+    if "relationship_type" in row:
+        row["relationship_type"] = _normalize_relationship_type(
+            row.get("relationship_type")
+        )
+    if not row.get("rationale"):
+        row["rationale"] = "normalized_from_semantic_review_rewrite"
+    return row
+
+
+def _normalize_question_rewrite_payload(payload: dict) -> dict:
+    row = dict(payload)
+    question_text = str(row.get("question_text") or "").strip()
+    if "question_family" in row:
+        row["question_family"] = _normalize_question_family(row.get("question_family"))
+    elif question_text:
+        row["question_family"] = _infer_question_family(
+            question_text,
+            scope=row.get("question_scope", "single_topic"),
+        )
+    if "question_scope" in row:
+        row["question_scope"] = (
+            "correlated_topics"
+            if str(row.get("question_scope")).strip().lower() in {"correlated_topics", "pairwise"}
+            else "single_topic"
+        )
+    if "topics" in row and "relevant_topics" not in row:
+        topics = row.get("topics") or []
+        row["relevant_topics"] = [topics] if isinstance(topics, str) else list(topics)
+    if not row.get("rationale"):
+        row["rationale"] = "normalized_from_semantic_review_rewrite"
+    row.setdefault("source_refs", payload.get("source_refs", []))
+    return row
+
+
+def _normalize_answer_rewrite_payload(payload: dict) -> dict:
+    row = dict(payload)
+    if "answer_mode" in row:
+        row["answer_mode"] = "synthetic_tutor_answer"
+    return row
+
+
+def _normalize_question_family(value: object) -> str:
+    normalized = re.sub(r"[\s\-]+", "_", str(value or "").strip().lower())
+    mapping = {
+        "what_is": "what_is",
+        "why_is": "why_is",
+        "when_to_use": "when_to_use",
+        "how_does_it_work": "how_does_it_work",
+        "what_is_it_used_for": "what_is_it_used_for",
+        "how_are_x_and_y_related": "how_are_x_and_y_related",
+        "what_is_the_difference_between_x_and_y": "what_is_the_difference_between_x_and_y",
+        "why_are_x_and_y_often_used_together": "why_are_x_and_y_often_used_together",
+        "when_would_you_use_x_instead_of_y": "when_would_you_use_x_instead_of_y",
+        "how_is_it_used": "what_is_it_used_for",
+        "what_is_it_for": "what_is_it_used_for",
+        "difference_between": "what_is_the_difference_between_x_and_y",
+        "used_together": "why_are_x_and_y_often_used_together",
+    }
+    return mapping.get(normalized, "what_is")
+
+
+def _infer_question_family(question_text: str, *, scope: str) -> str:
+    normalized = re.sub(r"\s+", " ", question_text.strip().lower())
+    if scope == "correlated_topics":
+        if normalized.startswith("how are "):
+            return "how_are_x_and_y_related"
+        if normalized.startswith("what is the difference between "):
+            return "what_is_the_difference_between_x_and_y"
+        if normalized.startswith("why are ") and "used together" in normalized:
+            return "why_are_x_and_y_often_used_together"
+        if normalized.startswith("when would you use ") and " instead of " in normalized:
+            return "when_would_you_use_x_instead_of_y"
+        return "how_are_x_and_y_related"
+    if normalized.startswith("what is ") and " used for" in normalized:
+        return "what_is_it_used_for"
+    if normalized.startswith("what is "):
+        return "what_is"
+    if normalized.startswith("why is "):
+        return "why_is"
+    if normalized.startswith("when would you use ") or normalized.startswith("when should you use "):
+        return "when_to_use"
+    if normalized.startswith("how does ") or normalized.startswith("how do "):
+        return "how_does_it_work"
+    return "what_is"
+
+
+def _normalize_relationship_type(value: object) -> str:
+    normalized = re.sub(r"[\s\-]+", "_", str(value or "").strip().lower())
+    if normalized in {
+        "paired_scope",
+        "prerequisite_adjacent",
+        "commonly_confused",
+        "comparison_worthy",
+        "used_together",
+        "evaluation_related",
+    }:
+        return normalized
+    if normalized in {"procedure_on_concept", "foundation", "foundational_skills"}:
+        return "prerequisite_adjacent"
+    if normalized in {"related_data_structures"}:
+        return "paired_scope"
+    if normalized in {"comparison", "compare", "contrast"}:
+        return "comparison_worthy"
+    if normalized in {"related", "relationship", "connected"}:
+        return "used_together"
+    return "used_together"
+
+
+def _normalize_topic_type(value: object) -> str:
+    normalized = re.sub(r"[\s\-]+", "_", str(value or "").strip().lower())
+    if normalized in {
+        "concept",
+        "procedure",
+        "tool",
+        "metric",
+        "diagnostic",
+        "test",
+        "comparison_axis",
+        "decision_point",
+    }:
+        return normalized
+    if normalized in {"model", "framework", "pattern", "principle", "structure"}:
+        return "concept"
+    if normalized in {"library", "package", "function", "operator", "keyword"}:
+        return "tool"
+    if normalized in {"workflow", "technique", "method", "process"}:
+        return "procedure"
+    if normalized in {"comparison", "comparison_axis_candidate"}:
+        return "comparison_axis"
+    if normalized in {"decision", "choice"}:
+        return "decision_point"
     return "concept"

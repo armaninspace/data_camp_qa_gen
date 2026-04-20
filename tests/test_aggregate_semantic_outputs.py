@@ -103,3 +103,28 @@ def test_semantic_bundle_transforms_to_legacy_structural_shapes() -> None:
     assert synthetic_answers[0].question_id == "sq_001"
     assert synthetic_validations[0].decision == "accept"
     assert answers[0].answer_mode == "synthetic_tutor_answer"
+
+
+def test_apply_semantic_review_normalizes_question_rewrite_payloads() -> None:
+    review = SemanticReviewResult.model_validate(
+        {
+            "decisions": [
+                {
+                    "item_type": "question",
+                    "target_id": "sq_001",
+                    "decision": "rewrite",
+                    "rewritten_payload": {
+                        "question_family": "how_is_it_used",
+                        "rationale": None,
+                    },
+                    "merged_into": None,
+                    "rationale": "Rewrite to a usage framing.",
+                }
+            ]
+        }
+    )
+
+    result = apply_semantic_review(_semantic_result(), review)
+
+    assert result.topic_questions[0].question_family == "what_is_it_used_for"
+    assert result.topic_questions[0].rationale == "normalized_from_semantic_review_rewrite"
