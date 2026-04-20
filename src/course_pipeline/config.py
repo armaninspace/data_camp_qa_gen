@@ -15,6 +15,11 @@ class Settings(BaseModel):
     model_generate: str = os.getenv("OPENAI_MODEL_GENERATE", "gpt-5.4-mini")
     model_repair: str = os.getenv("OPENAI_MODEL_REPAIR", "gpt-5.4")
     model_answer: str = os.getenv("OPENAI_MODEL_ANSWER", "gpt-5.4")
+    model_semantic_primary: str = os.getenv("OPENAI_MODEL_SEMANTIC_PRIMARY", "gpt-5.4")
+    model_semantic_review: str = os.getenv("OPENAI_MODEL_SEMANTIC_REVIEW", "gpt-5.4")
+    model_synth_answer: str = os.getenv("OPENAI_MODEL_SYNTH_ANSWER", "gpt-5.4")
+    model_synth_validate: str = os.getenv("OPENAI_MODEL_SYNTH_VALIDATE", "gpt-5.4")
+    model_synth_rewrite: str = os.getenv("OPENAI_MODEL_SYNTH_REWRITE", "gpt-5.4-mini")
     log_level: str = os.getenv("LOG_LEVEL", "INFO")
 
     @staticmethod

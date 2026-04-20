@@ -8,6 +8,36 @@ from pydantic import BaseModel, Field
 Correctness = Literal["correct", "incorrect", "uncertain"]
 CourseQualityStatus = Literal["usable", "partial", "broken"]
 AnswerMode = Literal["grounded_course_answer", "synthetic_tutor_answer", "blended_answer"]
+SemanticTopicType = Literal[
+    "concept",
+    "procedure",
+    "tool",
+    "metric",
+    "diagnostic",
+    "test",
+    "comparison_axis",
+    "decision_point",
+]
+SemanticRelationshipType = Literal[
+    "paired_scope",
+    "prerequisite_adjacent",
+    "commonly_confused",
+    "comparison_worthy",
+    "used_together",
+    "evaluation_related",
+]
+SemanticQuestionFamily = Literal[
+    "what_is",
+    "why_is",
+    "when_to_use",
+    "how_does_it_work",
+    "what_is_it_used_for",
+    "how_are_x_and_y_related",
+    "what_is_the_difference_between_x_and_y",
+    "why_are_x_and_y_often_used_together",
+    "when_would_you_use_x_instead_of_y",
+]
+SemanticReviewDecisionType = Literal["keep", "rewrite", "merge", "reject"]
 TopicType = Literal[
     "concept",
     "procedure",
@@ -51,6 +81,66 @@ class NormalizedCourse(BaseModel):
 class TopicEvidence(BaseModel):
     source: str
     text: str
+
+
+class SemanticTopic(BaseModel):
+    label: str
+    normalized_label: str
+    topic_type: SemanticTopicType
+    confidence: float = 0.0
+    course_centrality: float = 0.0
+    source_refs: list[str] = Field(default_factory=list)
+    rationale: str
+    aliases: list[str] = Field(default_factory=list)
+
+
+class SemanticCorrelatedTopic(BaseModel):
+    topics: list[str]
+    relationship_type: SemanticRelationshipType
+    strength: float = 0.0
+    rationale: str
+
+
+class SemanticQuestion(BaseModel):
+    question_id: str
+    question_text: str
+    question_family: SemanticQuestionFamily
+    relevant_topics: list[str]
+    question_scope: Literal["single_topic", "correlated_topics"]
+    rationale: str
+    source_refs: list[str] = Field(default_factory=list)
+
+
+class SemanticSyntheticAnswer(BaseModel):
+    question_text: str
+    answer_text: str
+    answer_mode: Literal["synthetic_tutor_answer"] = "synthetic_tutor_answer"
+    difficulty_band: str | None = None
+    confidence: float = 0.0
+    answer_rationale: str
+    related_topics: list[str] = Field(default_factory=list)
+
+
+class SemanticReviewDecision(BaseModel):
+    item_type: Literal[
+        "topic",
+        "correlated_topic",
+        "question",
+        "synthetic_answer",
+    ]
+    target_id: str
+    decision: SemanticReviewDecisionType
+    rewritten_payload: dict = Field(default_factory=dict)
+    merged_into: str | None = None
+    rationale: str
+
+
+class SemanticStageResult(BaseModel):
+    topics: list[SemanticTopic] = Field(default_factory=list)
+    correlated_topics: list[SemanticCorrelatedTopic] = Field(default_factory=list)
+    topic_questions: list[SemanticQuestion] = Field(default_factory=list)
+    correlated_topic_questions: list[SemanticQuestion] = Field(default_factory=list)
+    synthetic_answers: list[SemanticSyntheticAnswer] = Field(default_factory=list)
 
 
 class Topic(BaseModel):
