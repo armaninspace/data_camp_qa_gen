@@ -44,6 +44,37 @@ SQL_KEYWORD_FRAGMENTS = {
     "distinct",
     "union",
 }
+DISCOURSE_FRAGMENTS = {
+    "then",
+    "here",
+    "there",
+}
+INSTRUCTIONAL_PREFIXES = (
+    "an introduction to",
+    "discover ",
+    "explore ",
+    "get started with",
+    "getting started in ",
+    "learn to ",
+    "different types of ",
+    "intro to ",
+    "foundations of ",
+    "intermediate ",
+    "advanced ",
+    "loading ",
+    "plotting ",
+    "analyzing ",
+    "using ",
+)
+COURSE_TITLE_SUFFIXES = (
+    " in r",
+    " in python",
+    " in pandas",
+    " in sql",
+    " in sql server",
+    " with matplotlib",
+    " with pandas",
+)
 
 
 def vet_topics_and_pairs(
@@ -122,6 +153,10 @@ def _topic_decision(topic: CanonicalTopic) -> tuple[str, bool, str]:
     return "keep_no_pairwise", False, "single_topic_only_concept"
 
 
+def classify_topic_label_quality(label: str) -> str:
+    return _classify_topic_quality(label, "concept")
+
+
 def _pair_reason(
     pair: RelatedTopicPair,
     left: VettedTopic | None,
@@ -156,16 +191,20 @@ def _classify_topic_quality(label: str, topic_type: str) -> str:
         return "sentence_fragment"
     if low in SQL_KEYWORD_FRAGMENTS:
         return "sql_keyword_fragment"
-    if low.startswith(
-        (
-            "an introduction to",
-            "discover ",
-            "explore ",
-            "get started with",
-            "getting started in ",
-            "learn to ",
-            "different types of ",
-        )
-    ):
+    if low in DISCOURSE_FRAGMENTS:
+        return "discourse_fragment"
+    if low.startswith(INSTRUCTIONAL_PREFIXES):
         return "course_preamble"
+    if _looks_like_course_title_scope(low, tokens):
+        return "course_title_scope"
     return "good_atomic_topic"
+
+
+def _looks_like_course_title_scope(label: str, tokens: list[str]) -> bool:
+    if len(tokens) >= 3 and label.endswith(COURSE_TITLE_SUFFIXES):
+        return True
+    if len(tokens) >= 3 and tokens[0].endswith("ing") and any(
+        prep in tokens for prep in {"in", "with", "using"}
+    ):
+        return True
+    return False

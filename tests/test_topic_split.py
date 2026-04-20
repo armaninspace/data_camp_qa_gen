@@ -137,3 +137,27 @@ def test_learning_objective_and_clause_fragment_topics_are_rejected() -> None:
     assert "learn to manipulate dataframes" not in labels
     assert "different types of plots" not in labels
     assert decisions["where"] == "reject"
+
+
+def test_instructional_and_course_title_headings_are_filtered_early() -> None:
+    raw = {
+        "course_id": "8",
+        "title": "Example",
+        "syllabus": [
+            {"title": "Intro to Basics", "summary": "Learn the basics."},
+            {"title": "Foundations of Probability in R", "summary": "Probability examples in R."},
+            {"title": "Loading Data in pandas", "summary": "Load data with pandas."},
+            {"title": "Plotting Data with Matplotlib", "summary": "Plot data with Matplotlib."},
+            {"title": "Matrices", "summary": "Use matrices."},
+        ],
+    }
+
+    course = normalize_course_record(raw)
+    topics = extract_atomic_topics_baseline(course)
+    labels = {t.label for t in topics}
+
+    assert "intro to basics" not in labels
+    assert "foundations of probability in r" not in labels
+    assert "loading data in pandas" not in labels
+    assert "plotting data with matplotlib" not in labels
+    assert "matrix" in labels

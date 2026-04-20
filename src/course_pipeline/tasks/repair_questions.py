@@ -8,6 +8,7 @@ from course_pipeline.schemas import (
     QuestionRepair,
     QuestionValidationRecord,
 )
+from course_pipeline.tasks.vet_topics import classify_topic_label_quality
 
 
 BAD_PATTERNS = {
@@ -101,6 +102,8 @@ def validate_questions(
                 if "problems" in low or "case study" in low or "putting it all together" in low
                 else "compound_topic"
             )
+        elif (entry_reject_reason := _entry_question_reject_reason(text)) is not None:
+            reject_reason = entry_reject_reason
         elif _is_ungrammatical(text):
             reject_reason = "malformed"
         elif text in seen:
@@ -132,6 +135,24 @@ def _normalize_question(text: str) -> str:
     if cleaned and not cleaned.endswith("?"):
         cleaned = f"{cleaned}?"
     return cleaned
+
+
+def _entry_question_reject_reason(text: str) -> str | None:
+    low = text.lower().strip()
+    topic_text: str | None = None
+
+    if low.startswith("what is "):
+        topic_text = low.removeprefix("what is ").rstrip("?").strip()
+    elif low.startswith("what are "):
+        topic_text = low.removeprefix("what are ").rstrip("?").strip()
+
+    if not topic_text:
+        return None
+
+    quality = classify_topic_label_quality(topic_text)
+    if quality == "good_atomic_topic":
+        return None
+    return quality
 
 
 def _is_ungrammatical(text: str) -> bool:

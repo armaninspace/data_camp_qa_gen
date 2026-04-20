@@ -126,3 +126,31 @@ def test_shared_local_evidence_pair_is_rejected() -> None:
 
     assert vetted_pairs[0].decision == "reject_pair"
     assert vetted_pairs[0].reason == "weak_relation_evidence"
+
+
+def test_course_title_scoped_topics_are_rejected_during_vetting() -> None:
+    canonical_topics = [
+        CanonicalTopic(
+            canonical_topic_id="ct_1",
+            label="survival analysis in r",
+            aliases=["survival analysis in r"],
+            member_topic_ids=["t1"],
+            topic_type="concept",
+            evidence=[TopicEvidence(source="syllabus", text="Survival Analysis in R")],
+        ),
+        CanonicalTopic(
+            canonical_topic_id="ct_2",
+            label="loading data in pandas",
+            aliases=["loading data in pandas"],
+            member_topic_ids=["t2"],
+            topic_type="procedure",
+            evidence=[TopicEvidence(source="syllabus", text="Loading Data in pandas")],
+        ),
+    ]
+
+    vetted_topics, _ = vet_topics_and_pairs(canonical_topics, [])
+
+    assert vetted_topics[0].decision == "reject"
+    assert vetted_topics[0].reason == "course_title_scope"
+    assert vetted_topics[1].decision == "reject"
+    assert vetted_topics[1].reason == "wrapper_or_heading_like_topic"

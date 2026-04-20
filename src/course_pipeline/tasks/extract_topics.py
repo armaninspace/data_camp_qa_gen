@@ -14,9 +14,17 @@ GENERIC_HEADINGS = {
     "putting it all together",
 }
 HEADING_LIKE_PREFIXES = (
+    "intro to ",
     "introduction to ",
+    "foundations of ",
+    "intermediate ",
+    "advanced ",
     "getting started in ",
     "learn to ",
+    "loading ",
+    "plotting ",
+    "analyzing ",
+    "using ",
     "working with ",
     "manipulating ",
     "creating ",
@@ -28,6 +36,10 @@ HEADING_LIKE_PREFIXES = (
     "putting it all together",
     "case study",
 )
+IRREGULAR_SINGULARS = {
+    "matrices": "matrix",
+    "indices": "index",
+}
 ALWAYS_REJECT_TOPICS = {
     "case study",
     "putting it all together",
@@ -119,6 +131,8 @@ def _clean_label(text: str) -> str:
 
 
 def _singularize_word(word: str) -> str:
+    if word in IRREGULAR_SINGULARS:
+        return IRREGULAR_SINGULARS[word]
     if word in PLURAL_EXCEPTIONS:
         return word
     if word.endswith("ies") and len(word) > 4:

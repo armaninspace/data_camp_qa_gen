@@ -1,7 +1,7 @@
 from __future__ import annotations
 
-from course_pipeline.schemas import QuestionCandidate
-from course_pipeline.tasks.repair_questions import repair_or_reject_questions
+from course_pipeline.schemas import GeneratedQuestion, QuestionCandidate
+from course_pipeline.tasks.repair_questions import repair_or_reject_questions, validate_questions
 
 
 def _candidate(candidate_id: str, text: str, family: str = "purpose") -> QuestionCandidate:
@@ -25,3 +25,35 @@ def test_ungrammatical_why_does_is_rejected() -> None:
 
     assert repairs[0].status == "rejected"
     assert repairs[0].reject_reason == "malformed"
+
+
+def _generated(question_id: str, text: str) -> GeneratedQuestion:
+    return GeneratedQuestion(
+        question_id=question_id,
+        relevant_topics=["topic"],
+        family="entry",
+        pattern="What is {x}?",
+        question_text=text,
+        generation_scope="single_topic",
+    )
+
+
+def test_entry_question_with_course_preamble_topic_is_rejected() -> None:
+    validations = validate_questions([_generated("q1", "What is intro to basics?")])
+
+    assert validations[0].status == "rejected"
+    assert validations[0].reject_reason == "course_preamble"
+
+
+def test_entry_question_with_course_title_scope_topic_is_rejected() -> None:
+    validations = validate_questions(
+        [
+            _generated("q1", "What is survival analysis in R?"),
+            _generated("q2", "What is loading data in pandas?"),
+        ]
+    )
+
+    assert validations[0].status == "rejected"
+    assert validations[0].reject_reason == "course_title_scope"
+    assert validations[1].status == "rejected"
+    assert validations[1].reject_reason == "course_preamble"
