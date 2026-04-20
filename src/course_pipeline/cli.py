@@ -11,13 +11,6 @@ import typer
 from course_pipeline.config import Settings
 from course_pipeline.flows.course_question_pipeline import course_question_pipeline_flow
 from course_pipeline.io_utils import read_jsonl, read_yaml, write_jsonl, write_yaml
-from course_pipeline.llm import LLMClient
-from course_pipeline.run_logging import RunLogger
-from course_pipeline.tasks.synthesize_answers import (
-    build_fine_tune_rows_from_artifacts,
-    render_ft_bundles,
-    run_synthetic_answering,
-)
 
 app = typer.Typer(help="Course question pipeline CLI. `run` is the primary path.")
 ARTIFACT_FILES = [
@@ -156,67 +149,6 @@ def run(
             indent=2,
         )
     )
-
-
-@app.command("run-synthetic-answering")
-def run_synthetic_answering_command(
-    run_dir: str = typer.Option(..., help="Run directory containing validated question artifacts."),
-    output_dir: str | None = typer.Option(
-        None,
-        help="Debug output directory for synthetic artifacts. Defaults to run_dir.",
-    ),
-) -> None:
-    settings = Settings()
-    logger = RunLogger(run_id=Path(run_dir).name, root_dir=Path(run_dir))
-    logger.ensure_files()
-    result = run_synthetic_answering(
-        run_dir=run_dir,
-        output_dir=output_dir,
-        synth_client=LLMClient(
-            api_key=settings.openai_api_key,
-            model=settings.model_synth_answer,
-        ),
-        validate_client=LLMClient(
-            api_key=settings.openai_api_key,
-            model=settings.model_synth_validate,
-        ),
-        logger=logger,
-    )
-    typer.echo(
-        json.dumps(
-            {
-                "synthetic_answer_count": len(result.synthetic_answers),
-                "validation_count": len(result.validations),
-                "rewrite_count": len(result.rewrites),
-                "fine_tune_row_count": len(result.fine_tune_rows),
-            },
-            indent=2,
-        )
-    )
-
-
-@app.command("build-ft-dataset")
-def build_ft_dataset_command(
-    run_dir: str = typer.Option(..., help="Run directory containing synthetic answer artifacts."),
-    output_dir: str | None = typer.Option(
-        None,
-        help="Debug output directory for FT dataset artifacts. Defaults to run_dir.",
-    ),
-) -> None:
-    rows = build_fine_tune_rows_from_artifacts(run_dir=run_dir, output_dir=output_dir)
-    typer.echo(json.dumps({"fine_tune_row_count": len(rows)}, indent=2))
-
-
-@app.command("render-ft-bundle")
-def render_ft_bundle_command(
-    run_dir: str = typer.Option(..., help="Run directory containing synthetic answer artifacts."),
-    output_dir: str | None = typer.Option(
-        None,
-        help="Debug output directory for FT bundle YAMLs. Defaults to run_dir.",
-    ),
-) -> None:
-    bundles = render_ft_bundles(run_dir=run_dir, output_dir=output_dir)
-    typer.echo(json.dumps({"course_bundle_count": len(bundles)}, indent=2))
 
 
 @app.command("mk_inspectgion_bundle")

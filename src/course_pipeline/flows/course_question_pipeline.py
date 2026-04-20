@@ -255,8 +255,6 @@ def course_question_pipeline_flow(
     publish: bool = True,
     semantic_client: LLMClient | None = None,
     review_client: LLMClient | None = None,
-    synth_client: LLMClient | None = None,
-    validate_client: LLMClient | None = None,
 ) -> dict:
     output = Path(output_dir)
     output.mkdir(parents=True, exist_ok=True)
@@ -264,11 +262,10 @@ def course_question_pipeline_flow(
     logger = RunLogger(run_id=output.name or "run", root_dir=output)
     logger.ensure_files()
     settings = Settings()
-    semantic_client = semantic_client or synth_client or LLMClient(
+    semantic_client = semantic_client or LLMClient(
         api_key=settings.openai_api_key,
         model=settings.model_semantic_primary,
     )
-    review_client = review_client or validate_client
     if review_client is None and settings.openai_api_key and settings.model_semantic_review:
         review_client = LLMClient(
             api_key=settings.openai_api_key,
