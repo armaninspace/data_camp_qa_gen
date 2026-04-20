@@ -34,7 +34,15 @@ def test_publish_final_outputs_merges_and_logs(tmp_path: Path) -> None:
     for name, content in artifacts.items():
         (run_dir / name).write_text(content, encoding="utf-8")
     (run_dir / "course_yaml" / "1.yaml").write_text(
-        "course_id: '1'\ntitle: One\nfinal_rows:\n  - status: answered\n",
+        (
+            "course_id: '1'\n"
+            "title: One\n"
+            "answers:\n"
+            "  - question_id: q1\n"
+            "    answer_mode: synthetic_tutor_answer\n"
+            "final_rows:\n"
+            "  - status: answered\n"
+        ),
         encoding="utf-8",
     )
 

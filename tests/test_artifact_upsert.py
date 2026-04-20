@@ -2,6 +2,9 @@ from __future__ import annotations
 
 from pathlib import Path
 
+import pytest
+
+from course_pipeline.io_utils import write_jsonl
 from course_pipeline.schemas import (
     AnswerRecord,
     CanonicalTopic,
@@ -12,7 +15,11 @@ from course_pipeline.schemas import (
     Topic,
     TopicEvidence,
 )
-from course_pipeline.tasks.render import persist_stage_artifacts, rebuild_run_summary
+from course_pipeline.tasks.render import (
+    persist_stage_artifacts,
+    rebuild_run_summary,
+    validate_rendered_output_consistency,
+)
 
 
 def _course(course_id: str, title: str) -> NormalizedCourse:
@@ -137,3 +144,61 @@ def test_persist_stage_artifacts_upserts_by_course_id(tmp_path: Path) -> None:
     bundle = (output_dir / "course_yaml" / "1.yaml").read_text(encoding="utf-8")
     assert "One Updated" in bundle
     assert "single_topic_questions" in bundle
+
+
+def test_rebuild_run_summary_uses_shared_rows_and_keeps_zero_row_courses(tmp_path: Path) -> None:
+    output_dir = tmp_path / "run"
+
+    persist_stage_artifacts(
+        output_dir=output_dir,
+        course=_course("1", "One"),
+        topics=[_topic("t1", "matplotlib")],
+        canonical_topics=[_canonical("matplotlib", "t1")],
+        single_topic_questions=[_question("q1", "matplotlib")],
+        validations=[_validation("q1", "matplotlib", "What is matplotlib?")],
+        answers=[_answer("q1", "What is matplotlib?")],
+        rows=[_row("1", "One", "What is matplotlib?")],
+    )
+    persist_stage_artifacts(
+        output_dir=output_dir,
+        course=_course("2", "Two"),
+        topics=[],
+        canonical_topics=[],
+        single_topic_questions=[],
+        validations=[],
+        answers=[],
+        rows=[],
+    )
+
+    summary = rebuild_run_summary(output_dir)
+
+    assert summary["course_count"] == 2
+    assert summary["answered_count"] == 1
+    course_counts = {item["course_id"]: item for item in summary["courses"]}
+    assert course_counts["1"]["row_count"] == 1
+    assert course_counts["1"]["shared_answer_count"] == 1
+    assert course_counts["2"]["row_count"] == 0
+    assert course_counts["2"]["shared_answer_count"] == 0
+
+
+def test_rendered_output_consistency_fails_when_bundle_rows_are_missing_from_shared_artifacts(
+    tmp_path: Path,
+) -> None:
+    output_dir = tmp_path / "run"
+
+    persist_stage_artifacts(
+        output_dir=output_dir,
+        course=_course("1", "One"),
+        topics=[_topic("t1", "matplotlib")],
+        canonical_topics=[_canonical("matplotlib", "t1")],
+        single_topic_questions=[_question("q1", "matplotlib")],
+        validations=[_validation("q1", "matplotlib", "What is matplotlib?")],
+        answers=[_answer("q1", "What is matplotlib?")],
+        rows=[_row("1", "One", "What is matplotlib?")],
+    )
+
+    write_jsonl(output_dir / "answers.jsonl", [])
+    write_jsonl(output_dir / "all_rows.jsonl", [])
+
+    with pytest.raises(RuntimeError, match="consistency check failed"):
+        validate_rendered_output_consistency(output_dir)

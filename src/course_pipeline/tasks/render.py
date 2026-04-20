@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from collections import defaultdict
 from pathlib import Path
 import shutil
 from typing import Any
@@ -253,26 +254,27 @@ def persist_stage_artifacts(
 
 def rebuild_run_summary(output_dir: str | Path) -> dict[str, Any]:
     out = Path(output_dir)
-    bundles: list[dict[str, Any]] = []
-    for bundle_path in sorted((out / "course_yaml").glob("*.yaml")):
-        bundle = read_yaml(bundle_path)
-        if not bundle:
-            continue
-        rows = bundle.get("final_rows", [])
+    bundle_rows, shared_rows_by_course, answers_by_course = _collect_consistency_state(out)
+    validate_rendered_output_consistency(out)
+    bundles = []
+    for course_id in sorted(bundle_rows):
+        bundle = bundle_rows[course_id]
+        shared_rows = shared_rows_by_course.get(course_id, [])
         bundles.append(
             {
-                "course_id": str(bundle.get("course_id", bundle_path.stem)),
-                "title": bundle.get("title"),
-                "row_count": len(rows),
+                "course_id": course_id,
+                "title": bundle["title"],
+                "row_count": len(shared_rows),
                 "answered_count": sum(
-                    row.get("status") == "answered" for row in rows if isinstance(row, dict)
+                    row.get("status") == "answered" for row in shared_rows if isinstance(row, dict)
                 ),
                 "rejected_count": sum(
-                    row.get("status") == "rejected" for row in rows if isinstance(row, dict)
+                    row.get("status") == "rejected" for row in shared_rows if isinstance(row, dict)
                 ),
                 "errored_count": sum(
-                    row.get("status") == "errored" for row in rows if isinstance(row, dict)
+                    row.get("status") == "errored" for row in shared_rows if isinstance(row, dict)
                 ),
+                "shared_answer_count": len(answers_by_course.get(course_id, [])),
             }
         )
 
@@ -395,6 +397,94 @@ def publish_final_outputs(
     return summary
 
 
+def validate_rendered_output_consistency(output_dir: str | Path) -> None:
+    out = Path(output_dir)
+    bundle_rows, shared_rows_by_course, answers_by_course = _collect_consistency_state(out)
+    issues: list[str] = []
+
+    shared_answered_count = 0
+    for shared_rows in shared_rows_by_course.values():
+        shared_answered_count += sum(
+            row.get("status") == "answered" for row in shared_rows if isinstance(row, dict)
+        )
+
+    all_answers = read_jsonl(out / "answers.jsonl")
+    non_synthetic_answers = [
+        row
+        for row in all_answers
+        if row.get("answer_mode") not in {None, "synthetic_tutor_answer"}
+    ]
+    if non_synthetic_answers:
+        issues.append(
+            "shared answers.jsonl contains non-synthetic answer_mode rows"
+        )
+    if len(all_answers) != shared_answered_count:
+        issues.append(
+            "shared answers.jsonl row count does not match answered rows in all_rows.jsonl"
+        )
+
+    bundle_course_ids = set(bundle_rows)
+    shared_course_ids = set(shared_rows_by_course)
+    answer_course_ids = set(answers_by_course)
+
+    missing_bundle_courses = sorted((shared_course_ids | answer_course_ids) - bundle_course_ids)
+    if missing_bundle_courses:
+        issues.append(
+            "shared artifacts reference courses without course_yaml bundles: "
+            + ", ".join(missing_bundle_courses)
+        )
+
+    for course_id, bundle in sorted(bundle_rows.items()):
+        bundle_final_rows = bundle["final_rows"]
+        bundle_answers = bundle["answers"]
+        shared_rows = shared_rows_by_course.get(course_id, [])
+        shared_answers = answers_by_course.get(course_id, [])
+        bundle_answered_count = sum(
+            row.get("status") == "answered"
+            for row in bundle_final_rows
+            if isinstance(row, dict)
+        )
+        shared_answered_for_course = sum(
+            row.get("status") == "answered"
+            for row in shared_rows
+            if isinstance(row, dict)
+        )
+
+        if bundle_final_rows and not shared_rows:
+            issues.append(
+                f"course {course_id} has final_rows in course_yaml but no shared all_rows.jsonl rows"
+            )
+        if len(bundle_final_rows) != len(shared_rows):
+            issues.append(
+                f"course {course_id} final_rows count {len(bundle_final_rows)} != shared all_rows count {len(shared_rows)}"
+            )
+        if bundle_answered_count != shared_answered_for_course:
+            issues.append(
+                f"course {course_id} answered rows in course_yaml ({bundle_answered_count}) != shared answered rows ({shared_answered_for_course})"
+            )
+        if bundle_answered_count != len(shared_answers):
+            issues.append(
+                f"course {course_id} answered rows in course_yaml ({bundle_answered_count}) != shared answers.jsonl rows ({len(shared_answers)})"
+            )
+        if len(bundle_answers) != len(shared_answers):
+            issues.append(
+                f"course {course_id} bundle answers count {len(bundle_answers)} != shared answers.jsonl count {len(shared_answers)}"
+            )
+        if any(
+            row.get("answer_mode") not in {None, "synthetic_tutor_answer"}
+            for row in bundle_answers
+            if isinstance(row, dict)
+        ):
+            issues.append(
+                f"course {course_id} course_yaml answers include non-synthetic answer_mode rows"
+            )
+
+    if issues:
+        raise RuntimeError(
+            "rendered output consistency check failed: " + "; ".join(issues)
+        )
+
+
 def _row_course_id(row: dict[str, Any]) -> str | None:
     value = row.get("course_id")
     if value is not None:
@@ -403,6 +493,44 @@ def _row_course_id(row: dict[str, Any]) -> str | None:
     if isinstance(course, dict) and course.get("course_id") is not None:
         return str(course["course_id"])
     return None
+
+
+def _collect_consistency_state(
+    output_dir: Path,
+) -> tuple[
+    dict[str, dict[str, Any]],
+    dict[str, list[dict[str, Any]]],
+    dict[str, list[dict[str, Any]]],
+]:
+    bundle_rows: dict[str, dict[str, Any]] = {}
+    for bundle_path in sorted((output_dir / "course_yaml").glob("*.yaml")):
+        bundle = read_yaml(bundle_path)
+        if not bundle:
+            continue
+        course_id = str(bundle.get("course_id", bundle_path.stem))
+        bundle_rows[course_id] = {
+            "title": bundle.get("title"),
+            "final_rows": [
+                row for row in bundle.get("final_rows", []) if isinstance(row, dict)
+            ],
+            "answers": [
+                row for row in bundle.get("answers", []) if isinstance(row, dict)
+            ],
+        }
+
+    shared_rows_by_course: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    for row in read_jsonl(output_dir / "all_rows.jsonl"):
+        course_id = _row_course_id(row)
+        if course_id is not None:
+            shared_rows_by_course[course_id].append(row)
+
+    answers_by_course: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    for row in read_jsonl(output_dir / "answers.jsonl"):
+        course_id = _row_course_id(row)
+        if course_id is not None:
+            answers_by_course[course_id].append(row)
+
+    return bundle_rows, dict(shared_rows_by_course), dict(answers_by_course)
 
 
 def _quality_metrics(output_dir: Path) -> dict[str, Any]:
