@@ -10,14 +10,16 @@ from course_pipeline.config import Settings
 from course_pipeline.io_utils import normalized_relative_paths, write_jsonl
 from course_pipeline.llm import LLMClient
 from course_pipeline.run_logging import RunLogger, StageTimer
-from course_pipeline.tasks.build_ledger import build_ledger_rows
-from course_pipeline.tasks.canonicalize import canonicalize_topics
-from course_pipeline.tasks.discover_related_pairs import discover_related_pairs
-from course_pipeline.tasks.extract_topics import extract_atomic_topics_baseline
-from course_pipeline.tasks.generate_questions import (
-    generate_pairwise_questions,
-    generate_single_topic_questions,
+from course_pipeline.tasks.aggregate_semantic_outputs import (
+    apply_semantic_review,
+    generated_questions_to_validations,
+    semantic_answers_to_records,
+    semantic_correlations_to_related_pairs,
+    semantic_questions_to_generated_questions,
+    semantic_topics_to_canonical_topics,
+    semantic_topics_to_topics,
 )
+from course_pipeline.tasks.build_ledger import build_ledger_rows
 from course_pipeline.tasks.normalize import load_raw_course, normalize_course_record
 from course_pipeline.tasks.preflight_validate import preflight_validate_course
 from course_pipeline.tasks.render import (
@@ -25,16 +27,9 @@ from course_pipeline.tasks.render import (
     publish_final_outputs,
     rebuild_run_summary,
 )
-from course_pipeline.tasks.repair_questions import validate_questions
-from course_pipeline.tasks.synthesize_answers import (
-    synthesize_answers_for_course,
-    synthetic_results_to_answer_records,
-)
-from course_pipeline.tasks.vet_topics import vet_topics_and_pairs
-from course_pipeline.schemas import (
-    GeneratedQuestion,
-    QuestionValidationRecord,
-)
+from course_pipeline.tasks.semantic_review import run_semantic_review_for_course
+from course_pipeline.tasks.semantic_stage import run_semantic_stage_for_course
+
 
 
 @dataclass
@@ -106,8 +101,8 @@ def _process_course(
     path: str,
     output_dir: str,
     logger: RunLogger,
-    synth_client: LLMClient,
-    validate_client: LLMClient,
+    semantic_client: LLMClient,
+    review_client: LLMClient | None,
     *,
     quality_status: str | None,
 ) -> dict:
@@ -128,105 +123,85 @@ def _process_course(
     timer = StageTimer(
         logger,
         course_id=course.course_id,
-        stage="extract_atomic_topics",
-        input_row_count=len(course.chapters),
+        stage="semantic_stage",
+        input_row_count=1,
     )
-    topics = extract_atomic_topics_baseline(course)
-    timer.finish(output_row_count=len(topics))
-
-    timer = StageTimer(
-        logger,
-        course_id=course.course_id,
-        stage="canonicalize_topics",
-        input_row_count=len(topics),
-    )
-    canonical_topics = canonicalize_topics(topics)
-    timer.finish(output_row_count=len(canonical_topics))
-
-    timer = StageTimer(
-        logger,
-        course_id=course.course_id,
-        stage="discover_related_pairs",
-        input_row_count=len(canonical_topics),
-    )
-    related_pairs = discover_related_pairs(canonical_topics)
-    timer.finish(output_row_count=len(related_pairs))
-
-    timer = StageTimer(
-        logger,
-        course_id=course.course_id,
-        stage="vet_topics",
-        input_row_count=len(canonical_topics) + len(related_pairs),
-    )
-    vetted_topics, vetted_pairs = vet_topics_and_pairs(canonical_topics, related_pairs)
-    timer.finish(output_row_count=len(vetted_topics) + len(vetted_pairs))
-
-    kept_vetted_topics = [item for item in vetted_topics if item.decision != "reject"]
-    kept_vetted_pairs = [item for item in vetted_pairs if item.decision == "keep_pair"]
-
-    timer = StageTimer(
-        logger,
-        course_id=course.course_id,
-        stage="generate_single_topic_questions",
-        input_row_count=len(vetted_topics),
-    )
-    single_topic_questions = generate_single_topic_questions(kept_vetted_topics)
-    timer.finish(output_row_count=len(single_topic_questions))
-
-    timer = StageTimer(
-        logger,
-        course_id=course.course_id,
-        stage="generate_pairwise_questions",
-        input_row_count=len(vetted_pairs),
-    )
-    pairwise_questions = (
-        generate_pairwise_questions(kept_vetted_pairs) if kept_vetted_topics else []
-    )
-    timer.finish(output_row_count=len(pairwise_questions))
-
-    all_generated_questions = [*single_topic_questions, *pairwise_questions]
-    timer = StageTimer(
-        logger,
-        course_id=course.course_id,
-        stage="validate_questions",
-        input_row_count=len(all_generated_questions),
-    )
-    validations = validate_questions(all_generated_questions)
-    timer.finish(output_row_count=len(validations))
-
-    timer = StageTimer(
-        logger,
-        course_id=course.course_id,
-        stage="synthesize_answers",
-        input_row_count=len(validations),
-    )
-    synth_result = synthesize_answers_for_course(
-        run_id=Path(output_dir).name,
-        course=course.model_dump(),
-        canonical_topics=[
-            {"course_id": course.course_id, **topic.model_dump()} for topic in canonical_topics
-        ],
-        validations=[{"course_id": course.course_id, **item.model_dump()} for item in validations],
-        related_pairs=[
-            {"course_id": course.course_id, **pair.model_dump()} for pair in related_pairs
-        ],
-        synth_client=synth_client,
-        validate_client=validate_client,
+    semantic_result = run_semantic_stage_for_course(
+        course=course,
+        llm_client=semantic_client,
         logger=logger,
     )
-    answers = synthetic_results_to_answer_records(
-        synthetic_answers=synth_result.synthetic_answers,
-        validations=synth_result.validations,
-        question_provenance={
-            item.question_id: {
-                "topic_labels": item.relevant_topics,
-                "source_refs": [span.source for span in item.evidence_spans],
-                "evidence_spans": [span.model_dump() for span in item.evidence_spans],
-            }
-            for item in validations
-        },
+    timer.finish(
+        output_row_count=(
+            len(semantic_result.topics)
+            + len(semantic_result.correlated_topics)
+            + len(semantic_result.topic_questions)
+            + len(semantic_result.correlated_topic_questions)
+            + len(semantic_result.synthetic_answers)
+        )
     )
-    timer.finish(output_row_count=len(answers))
+
+    timer = StageTimer(
+        logger,
+        course_id=course.course_id,
+        stage="semantic_review",
+        input_row_count=(
+            len(semantic_result.topics)
+            + len(semantic_result.correlated_topics)
+            + len(semantic_result.topic_questions)
+            + len(semantic_result.correlated_topic_questions)
+            + len(semantic_result.synthetic_answers)
+        ),
+    )
+    review_result = (
+        run_semantic_review_for_course(
+            course=course,
+            semantic_result=semantic_result,
+            llm_client=review_client,
+            logger=logger,
+        )
+        if review_client is not None
+        else None
+    )
+    reviewed_semantic_result = apply_semantic_review(semantic_result, review_result)
+    review_output_count = len(review_result.decisions) if review_result is not None else 0
+    timer.finish(output_row_count=review_output_count)
+
+    timer = StageTimer(
+        logger,
+        course_id=course.course_id,
+        stage="aggregate_semantic_outputs",
+        input_row_count=(
+            len(reviewed_semantic_result.topics)
+            + len(reviewed_semantic_result.correlated_topics)
+            + len(reviewed_semantic_result.topic_questions)
+            + len(reviewed_semantic_result.correlated_topic_questions)
+            + len(reviewed_semantic_result.synthetic_answers)
+        ),
+    )
+    topics = semantic_topics_to_topics(reviewed_semantic_result)
+    canonical_topics = semantic_topics_to_canonical_topics(reviewed_semantic_result)
+    related_pairs = semantic_correlations_to_related_pairs(reviewed_semantic_result)
+    single_topic_questions, pairwise_questions = semantic_questions_to_generated_questions(
+        reviewed_semantic_result
+    )
+    all_generated_questions = [*single_topic_questions, *pairwise_questions]
+    validations = generated_questions_to_validations(all_generated_questions)
+    synthetic_answers, synthetic_validations, answers = semantic_answers_to_records(
+        run_id=Path(output_dir).name,
+        course_id=course.course_id,
+        model_name=semantic_client.model,
+        semantic_result=reviewed_semantic_result,
+        questions=all_generated_questions,
+    )
+    timer.finish(
+        output_row_count=(
+            len(canonical_topics)
+            + len(related_pairs)
+            + len(all_generated_questions)
+            + len(synthetic_answers)
+        )
+    )
 
     timer = StageTimer(
         logger,
@@ -251,14 +226,12 @@ def _process_course(
         answers=answers,
         rows=rows,
         related_pairs=related_pairs,
-        vetted_topics=vetted_topics,
-        vetted_pairs=vetted_pairs,
         single_topic_questions=single_topic_questions,
         pairwise_questions=pairwise_questions,
         validations=validations,
-        synthetic_answers=synth_result.synthetic_answers,
-        synthetic_validations=synth_result.validations,
-        synthetic_rewrites=synth_result.rewrites,
+        synthetic_answers=synthetic_answers,
+        synthetic_validations=synthetic_validations,
+        synthetic_rewrites=[],
     )
     timer.finish(output_row_count=len(rows))
 
@@ -278,6 +251,8 @@ def course_question_pipeline_flow(
     slice_start: float = 0.0,
     slice_end: float = 100.0,
     publish: bool = True,
+    semantic_client: LLMClient | None = None,
+    review_client: LLMClient | None = None,
     synth_client: LLMClient | None = None,
     validate_client: LLMClient | None = None,
 ) -> dict:
@@ -287,14 +262,16 @@ def course_question_pipeline_flow(
     logger = RunLogger(run_id=output.name or "run", root_dir=output)
     logger.ensure_files()
     settings = Settings()
-    synth_client = synth_client or LLMClient(
+    semantic_client = semantic_client or synth_client or LLMClient(
         api_key=settings.openai_api_key,
-        model=settings.model_synth_answer,
+        model=settings.model_semantic_primary,
     )
-    validate_client = validate_client or LLMClient(
-        api_key=settings.openai_api_key,
-        model=settings.model_synth_validate,
-    )
+    review_client = review_client or validate_client
+    if review_client is None and settings.openai_api_key and settings.model_semantic_review:
+        review_client = LLMClient(
+            api_key=settings.openai_api_key,
+            model=settings.model_semantic_review,
+        )
     logger.log_pipeline(
         f"run start input_dir={input_dir} output_dir={output_dir} slice={slice_start}-{slice_end}"
     )
@@ -317,8 +294,8 @@ def course_question_pipeline_flow(
                 selected.absolute_path,
                 output_dir,
                 logger,
-                synth_client,
-                validate_client,
+                semantic_client,
+                review_client,
                 quality_status=selected.quality_status,
             )
         )

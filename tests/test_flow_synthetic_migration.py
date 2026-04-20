@@ -94,39 +94,67 @@ def test_main_flow_publishes_synthetic_answers(tmp_path: Path) -> None:
     _write_course(input_dir / "course.yaml")
     _write_broken_course(input_dir / "broken.yaml")
 
-    synth_client = LLMClient(
+    semantic_client = LLMClient(
         api_key=None,
         model="gpt-5.4",
         client=FakeOpenAIClient(
             "gpt-5.4",
             [
                 {
-                    "answer_text": "ARIMA is a forecasting model that combines autoregression, differencing, and moving averages.",
-                    "target_verbosity": "brief",
-                    "self_assessed_confidence": 0.94,
-                    "notable_risks": [],
+                    "topics": [
+                        {
+                            "label": "ARIMA",
+                            "normalized_label": "arima",
+                            "topic_type": "concept",
+                            "confidence": 0.94,
+                            "course_centrality": 0.95,
+                            "source_refs": ["overview", "chapter:1"],
+                            "rationale": "Repeated central concept.",
+                        }
+                    ],
+                    "correlated_topics": [],
+                    "topic_questions": [
+                        {
+                            "question_id": "sq_001",
+                            "question_text": "What is ARIMA?",
+                            "question_family": "what_is",
+                            "relevant_topics": ["arima"],
+                            "question_scope": "single_topic",
+                            "rationale": "Natural entry question.",
+                        }
+                    ],
+                    "correlated_topic_questions": [],
+                    "synthetic_answers": [
+                        {
+                            "question_text": "What is ARIMA?",
+                            "answer_text": "ARIMA is a forecasting model that combines autoregression, differencing, and moving averages.",
+                            "answer_mode": "synthetic_tutor_answer",
+                            "difficulty_band": "beginner",
+                            "confidence": 0.94,
+                            "answer_rationale": "Brief beginner definition.",
+                        }
+                    ],
                 }
             ],
         ),
     )
-    validate_client = LLMClient(
+    review_client = LLMClient(
         api_key=None,
         model="gpt-5.4",
         client=FakeOpenAIClient(
             "gpt-5.4",
             [
                 {
-                    "decision": "accept",
-                    "correctness": 0.97,
-                "sufficiency": 0.94,
-                "brevity": 0.95,
-                "pedagogical_fit": 0.95,
-                "difficulty_alignment": 0.95,
-                "clarity": 0.96,
-                "contradiction_risk": 0.01,
-                "scope_drift": 0.01,
-                "rewritten_answer_text": None,
-                    "reject_reasons": [],
+                    "decisions": [
+                        {
+                            "item_type": "synthetic_answer",
+                            "target_id": "What is ARIMA?",
+                            "decision": "keep",
+                            "rewritten_payload": {},
+                            "merged_into": None,
+                            "rationale": "Good answer.",
+                        }
+                    ]
                 }
             ],
         ),
@@ -137,8 +165,8 @@ def test_main_flow_publishes_synthetic_answers(tmp_path: Path) -> None:
         output_dir=str(run_dir),
         final_dir=str(final_dir),
         publish=True,
-        synth_client=synth_client,
-        validate_client=validate_client,
+        semantic_client=semantic_client,
+        review_client=review_client,
     )
 
     assert result["run_summary"]["course_count"] == 1
@@ -164,12 +192,12 @@ def test_main_flow_fails_closed_without_grounded_fallback(tmp_path: Path) -> Non
             input_dir=str(input_dir),
             output_dir=str(run_dir),
             publish=False,
-            synth_client=LLMClient(api_key=None, model="gpt-5.4", client=FailingOpenAIClient()),
-            validate_client=LLMClient(
+            semantic_client=LLMClient(
                 api_key=None, model="gpt-5.4", client=FailingOpenAIClient()
             ),
+            review_client=None,
         )
     except RuntimeError as exc:
-        assert "synthetic stage failed" in str(exc)
+        assert "semantic_stage" in str(exc)
     else:
-        raise AssertionError("expected synthetic-answer failure to stop the run")
+        raise AssertionError("expected semantic-stage failure to stop the run")
