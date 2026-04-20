@@ -298,3 +298,51 @@ def test_semantic_stage_normalizes_loose_relationship_types(tmp_path: Path) -> N
         item.rationale == "normalized_from_semantic_stage_output"
         for item in result.correlated_topics
     )
+
+
+def test_semantic_stage_normalizes_loose_topic_types(tmp_path: Path) -> None:
+    logger = RunLogger(run_id="run", root_dir=tmp_path)
+    logger.ensure_files()
+    client = FakeJsonClient(
+        "gpt-5.4",
+        [
+            {
+                "topics": [
+                    {
+                        "label": "ARIMA",
+                        "normalized_label": "arima",
+                        "topic_type": "model",
+                        "confidence": 0.9,
+                        "course_centrality": 0.9,
+                    },
+                    {
+                        "label": "pandas",
+                        "normalized_label": "pandas",
+                        "topic_type": "library",
+                        "confidence": 0.95,
+                        "course_centrality": 0.93,
+                    },
+                    {
+                        "label": "feature engineering",
+                        "normalized_label": "feature engineering",
+                        "topic_type": "method",
+                        "confidence": 0.82,
+                        "course_centrality": 0.8,
+                    },
+                ],
+                "correlated_topics": [],
+                "topic_questions": [],
+                "correlated_topic_questions": [],
+                "synthetic_answers": [],
+            }
+        ],
+    )
+
+    result = run_semantic_stage_for_course(course=_course(), llm_client=client, logger=logger)
+
+    assert [item.topic_type for item in result.topics] == [
+        "concept",
+        "tool",
+        "procedure",
+    ]
+    assert all(item.rationale == "normalized_from_semantic_stage_output" for item in result.topics)

@@ -65,6 +65,7 @@ def _render_semantic_prompt(course_payload: dict) -> str:
 
 def _normalize_semantic_stage_payload(payload: dict) -> dict:
     normalized = dict(payload)
+    normalized["topics"] = _normalize_topics(payload.get("topics", []))
     normalized["correlated_topics"] = _normalize_correlated_topics(
         payload.get("correlated_topics", [])
     )
@@ -79,6 +80,18 @@ def _normalize_semantic_stage_payload(payload: dict) -> dict:
         prefix="cq",
     )
     return normalized
+
+
+def _normalize_topics(items: list[dict]) -> list[dict]:
+    normalized_items: list[dict] = []
+    for item in items:
+        row = dict(item)
+        row["topic_type"] = _normalize_topic_type(row.get("topic_type"))
+        row["rationale"] = row.get("rationale") or "normalized_from_semantic_stage_output"
+        row.setdefault("aliases", [])
+        row.setdefault("source_refs", [])
+        normalized_items.append(row)
+    return normalized_items
 
 
 def _normalize_correlated_topics(items: list[dict]) -> list[dict]:
@@ -169,3 +182,29 @@ def _normalize_relationship_type(value: object) -> str:
     if normalized in {"related", "relationship", "connected"}:
         return "used_together"
     return "used_together"
+
+
+def _normalize_topic_type(value: object) -> str:
+    normalized = re.sub(r"[\s\-]+", "_", str(value or "").strip().lower())
+    if normalized in {
+        "concept",
+        "procedure",
+        "tool",
+        "metric",
+        "diagnostic",
+        "test",
+        "comparison_axis",
+        "decision_point",
+    }:
+        return normalized
+    if normalized in {"model", "framework", "pattern", "principle", "structure"}:
+        return "concept"
+    if normalized in {"library", "package", "function", "operator", "keyword"}:
+        return "tool"
+    if normalized in {"workflow", "technique", "method", "process"}:
+        return "procedure"
+    if normalized in {"comparison", "comparison_axis_candidate"}:
+        return "comparison_axis"
+    if normalized in {"decision", "choice"}:
+        return "decision_point"
+    return "concept"
