@@ -394,6 +394,24 @@ def publish_final_outputs(
         shutil.copy2(source_bundle, target_bundle)
         logger.log_publish(f"published course bundle course_id={course_id}")
 
+    run_llm_calls = [
+        row
+        for row in read_jsonl(run_root / "logs" / "llm_calls.jsonl")
+        if _row_course_id(row) in affected_course_ids
+    ]
+    if run_llm_calls:
+        upsert_jsonl_rows(final_root / "logs" / "llm_calls.jsonl", run_llm_calls, affected_course_ids)
+        logger.log_publish(
+            f"upserted logs/llm_calls.jsonl affected_courses={len(affected_course_ids)} rows={len(run_llm_calls)}"
+        )
+
+    run_pricing_snapshot = run_root / "logs" / "pricing_snapshot.json"
+    if run_pricing_snapshot.exists():
+        target_snapshot = final_root / "logs" / "pricing_snapshot.json"
+        target_snapshot.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(run_pricing_snapshot, target_snapshot)
+        logger.log_publish("copied logs/pricing_snapshot.json")
+
     summary = rebuild_run_summary(final_root)
     logger.log_publish(
         f"publish complete course_count={summary['course_count']} answered_count={summary['answered_count']}"

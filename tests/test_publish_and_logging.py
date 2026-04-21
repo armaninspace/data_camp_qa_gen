@@ -46,6 +46,33 @@ def test_publish_final_outputs_merges_and_logs(tmp_path: Path) -> None:
 
     logger = RunLogger(run_id="run", root_dir=run_dir)
     logger.ensure_files()
+    logger.write_pricing_snapshot(
+        fetch_live_pricing_snapshot(
+            fetch_text=lambda url: """
+            <h2>GPT-5.4</h2>
+            <p>Input:</p><p>$2.50 / 1M tokens</p>
+            <p>Cached input:</p><p>$0.25 / 1M tokens</p>
+            <p>Output:</p><p>$15.00 / 1M tokens</p>
+            """,
+            fetched_at="2026-04-21T00:00:00+00:00",
+        )
+    )
+    logger.log_llm_call(
+        course_id="1",
+        stage="semantic_stage",
+        prompt_family="semantic_stage",
+        configured_model="gpt-5.4",
+        requested_model="gpt-5.4",
+        actual_model="gpt-5.4",
+        actual_model_source="configured_model",
+        provider_request_id="req_publish",
+        latency_ms=100,
+        tokens_in=100,
+        cached_tokens_in=20,
+        tokens_out=40,
+        retry_count=0,
+        status="success",
+    )
     summary = publish_final_outputs(
         run_dir=run_dir,
         final_dir=final_dir,
@@ -60,8 +87,12 @@ def test_publish_final_outputs_merges_and_logs(tmp_path: Path) -> None:
     assert summary["cache_row_count"] == 1
     assert summary["semantic_answer_count"] == 1
     assert summary["review_decision_count"] == 1
+    assert summary["llm_call_count"] == 1
+    assert summary["llm_tokens_in_total"] == 100
+    assert summary["llm_cost_total_usd"] > 0
     assert (final_dir / "course_yaml" / "1.yaml").exists()
     assert (final_dir / "semantic_synthetic_answers.jsonl").exists()
+    assert (final_dir / "logs" / "llm_calls.jsonl").exists()
     publish_log = (run_dir / "logs" / "publish.log").read_text(encoding="utf-8")
     assert "publish complete" in publish_log
 
