@@ -33,7 +33,7 @@ def run_semantic_review_for_course(
     prompt = _render_review_prompt(course_payload, semantic_payload)
 
     started = time.perf_counter()
-    review_json = llm_client.complete_json(prompt, "semantic_review")
+    review_response = llm_client.complete_json_result(prompt, "semantic_review")
     latency_ms = int((time.perf_counter() - started) * 1000)
 
     course_id = str(course_payload["course_id"])
@@ -44,18 +44,20 @@ def run_semantic_review_for_course(
             prompt_family="semantic_review",
             configured_model=llm_client.model,
             requested_model=llm_client.model,
-            actual_model=llm_client.model,
-            actual_model_source="configured_model",
-            provider_request_id=None,
+            actual_model=review_response.actual_model or llm_client.model,
+            actual_model_source=(
+                "response.model" if review_response.actual_model else "configured_model"
+            ),
+            provider_request_id=review_response.response_id,
             latency_ms=latency_ms,
-            tokens_in=None,
-            tokens_out=None,
+            tokens_in=review_response.usage.tokens_in,
+            tokens_out=review_response.usage.tokens_out,
             retry_count=0,
             status="success",
         )
 
     return SemanticReviewResult.model_validate(
-        _normalize_semantic_review_payload(review_json)
+        _normalize_semantic_review_payload(review_response.payload)
     )
 
 

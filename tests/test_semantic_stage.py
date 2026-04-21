@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
+from course_pipeline.llm import JSONCompletionResult, LLMUsage
 from course_pipeline.run_logging import RunLogger
 from course_pipeline.schemas import NormalizedCourse
 from course_pipeline.tasks.semantic_stage import run_semantic_stage_for_course
@@ -18,6 +19,14 @@ class FakeJsonClient:
         if not self._responses:
             raise AssertionError(f"no fake response left for schema={schema_name}")
         return self._responses.pop(0)
+
+    def complete_json_result(self, prompt: str, schema_name: str) -> JSONCompletionResult:
+        return JSONCompletionResult(
+            payload=self.complete_json(prompt, schema_name),
+            response_id="resp_semantic",
+            actual_model=f"{self.model}-snapshot",
+            usage=LLMUsage(tokens_in=111, tokens_out=222, cached_tokens_in=33),
+        )
 
 
 def _course() -> NormalizedCourse:
@@ -133,6 +142,10 @@ def test_semantic_stage_returns_structured_bundle(tmp_path: Path) -> None:
     llm_logs = (tmp_path / "logs" / "llm_calls.jsonl").read_text(encoding="utf-8")
     assert '"stage": "semantic_stage"' in llm_logs
     assert '"prompt_family": "semantic_stage"' in llm_logs
+    assert '"provider_request_id": "resp_semantic"' in llm_logs
+    assert '"tokens_in": 111' in llm_logs
+    assert '"tokens_out": 222' in llm_logs
+    assert '"actual_model_source": "response.model"' in llm_logs
 
 
 def test_semantic_stage_prompt_uses_whole_normalized_course_yaml() -> None:

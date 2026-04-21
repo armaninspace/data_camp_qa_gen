@@ -31,7 +31,7 @@ def generate_teacher_answer(
     prompt = _render_teacher_answer_prompt(provided_context)
 
     started = time.perf_counter()
-    answer_json = llm_client.complete_json(prompt, "teacher_answer")
+    answer_response = llm_client.complete_json_result(prompt, "teacher_answer")
     latency_ms = int((time.perf_counter() - started) * 1000)
 
     if logger is not None:
@@ -41,12 +41,14 @@ def generate_teacher_answer(
             prompt_family="teacher_answer",
             configured_model=llm_client.model,
             requested_model=llm_client.model,
-            actual_model=llm_client.model,
-            actual_model_source="configured_model",
-            provider_request_id=None,
+            actual_model=answer_response.actual_model or llm_client.model,
+            actual_model_source=(
+                "response.model" if answer_response.actual_model else "configured_model"
+            ),
+            provider_request_id=answer_response.response_id,
             latency_ms=latency_ms,
-            tokens_in=None,
-            tokens_out=None,
+            tokens_in=answer_response.usage.tokens_in,
+            tokens_out=answer_response.usage.tokens_out,
             retry_count=0,
             status="success",
         )
@@ -57,11 +59,11 @@ def generate_teacher_answer(
             "question_id": question_context_frame.question_id,
             "question_text": question_context_frame.question_text,
             "provided_context": provided_context.model_dump(mode="json"),
-            "teacher_answer": answer_json["teacher_answer"],
-            "course_aligned": answer_json.get("course_aligned", True),
-            "weak_grounding": answer_json.get("weak_grounding", False),
-            "off_topic": answer_json.get("off_topic", False),
-            "needs_review": answer_json.get("needs_review", False),
+            "teacher_answer": answer_response.payload["teacher_answer"],
+            "course_aligned": answer_response.payload.get("course_aligned", True),
+            "weak_grounding": answer_response.payload.get("weak_grounding", False),
+            "off_topic": answer_response.payload.get("off_topic", False),
+            "needs_review": answer_response.payload.get("needs_review", False),
             "model_name": llm_client.model,
             "prompt_family": "teacher_answer",
         }

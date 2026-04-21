@@ -44,6 +44,44 @@ def test_complete_json_falls_back_to_output_text() -> None:
     assert payload == {"result": {"ok": True}}
 
 
+def test_complete_json_result_extracts_response_metadata_and_usage() -> None:
+    fake_response = SimpleNamespace(
+        id="resp_123",
+        model="gpt-5.4-2026-04-20",
+        output_text='{"answer": "ok"}',
+        usage=SimpleNamespace(
+            input_tokens=120,
+            output_tokens=33,
+            input_tokens_details=SimpleNamespace(cached_tokens=48),
+        ),
+    )
+    fake_client = SimpleNamespace(responses=FakeResponsesAPI(fake_response))
+    client = LLMClient(api_key=None, model="gpt-5.4", client=fake_client)
+
+    result = client.complete_json_result("Return JSON.", "answer")
+
+    assert result.payload == {"answer": "ok"}
+    assert result.response_id == "resp_123"
+    assert result.actual_model == "gpt-5.4-2026-04-20"
+    assert result.usage.tokens_in == 120
+    assert result.usage.tokens_out == 33
+    assert result.usage.cached_tokens_in == 48
+
+
+def test_complete_json_result_handles_missing_usage() -> None:
+    fake_response = SimpleNamespace(
+        output_text='{"answer": "ok"}',
+    )
+    fake_client = SimpleNamespace(responses=FakeResponsesAPI(fake_response))
+    client = LLMClient(api_key=None, model="gpt-5.4", client=fake_client)
+
+    result = client.complete_json_result("Return JSON.", "answer")
+
+    assert result.usage.tokens_in is None
+    assert result.usage.tokens_out is None
+    assert result.usage.cached_tokens_in is None
+
+
 def test_complete_json_requires_api_key_without_injected_client() -> None:
     client = LLMClient(api_key=None, model="gpt-5.4")
 

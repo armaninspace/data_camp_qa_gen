@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
+from course_pipeline.llm import JSONCompletionResult, LLMUsage
 from course_pipeline.run_logging import RunLogger
 from course_pipeline.schemas import NormalizedCourse, SemanticStageResult
 from course_pipeline.tasks.semantic_review import run_semantic_review_for_course
@@ -18,6 +19,14 @@ class FakeJsonClient:
         if not self._responses:
             raise AssertionError(f"no fake response left for schema={schema_name}")
         return self._responses.pop(0)
+
+    def complete_json_result(self, prompt: str, schema_name: str) -> JSONCompletionResult:
+        return JSONCompletionResult(
+            payload=self.complete_json(prompt, schema_name),
+            response_id="resp_review",
+            actual_model=f"{self.model}-snapshot",
+            usage=LLMUsage(tokens_in=77, tokens_out=55, cached_tokens_in=11),
+        )
 
 
 def _course() -> NormalizedCourse:
@@ -137,6 +146,9 @@ def test_semantic_review_returns_structured_decisions(tmp_path: Path) -> None:
     llm_logs = (tmp_path / "logs" / "llm_calls.jsonl").read_text(encoding="utf-8")
     assert '"stage": "semantic_review"' in llm_logs
     assert '"prompt_family": "semantic_review"' in llm_logs
+    assert '"provider_request_id": "resp_review"' in llm_logs
+    assert '"tokens_in": 77' in llm_logs
+    assert '"tokens_out": 55' in llm_logs
 
 
 def test_semantic_review_prompt_includes_course_yaml_and_bundle_json() -> None:

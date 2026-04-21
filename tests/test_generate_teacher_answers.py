@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
+from course_pipeline.llm import JSONCompletionResult, LLMUsage
 from course_pipeline.run_logging import RunLogger
 from course_pipeline.schemas import CourseContextFrame, QuestionContextFrame
 from course_pipeline.tasks.generate_teacher_answers import (
@@ -20,6 +21,14 @@ class FakeJsonClient:
         if not self._responses:
             raise AssertionError(f"no fake response left for schema={schema_name}")
         return self._responses.pop(0)
+
+    def complete_json_result(self, prompt: str, schema_name: str) -> JSONCompletionResult:
+        return JSONCompletionResult(
+            payload=self.complete_json(prompt, schema_name),
+            response_id="resp_teacher",
+            actual_model=f"{self.model}-snapshot",
+            usage=LLMUsage(tokens_in=44, tokens_out=18, cached_tokens_in=7),
+        )
 
 
 def _course_context(course_id: str, title: str, domain: str) -> CourseContextFrame:
@@ -98,6 +107,10 @@ def test_generate_teacher_answer_uses_provided_context_in_prompt(tmp_path: Path)
     assert '"question_context_frame"' in prompt
     assert '"course_id": "24373"' in prompt
     assert '"question_text": "What is pandas?"' in prompt
+    llm_logs = (tmp_path / "logs" / "llm_calls.jsonl").read_text(encoding="utf-8")
+    assert '"provider_request_id": "resp_teacher"' in llm_logs
+    assert '"tokens_in": 44' in llm_logs
+    assert '"tokens_out": 18' in llm_logs
 
 
 def test_generate_teacher_answer_can_differ_for_same_question_across_courses() -> None:

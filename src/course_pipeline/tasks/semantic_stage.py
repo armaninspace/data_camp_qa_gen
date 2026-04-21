@@ -26,7 +26,7 @@ def run_semantic_stage_for_course(
     prompt = _render_semantic_prompt(course_payload)
 
     started = time.perf_counter()
-    semantic_json = llm_client.complete_json(prompt, "semantic_stage")
+    semantic_response = llm_client.complete_json_result(prompt, "semantic_stage")
     latency_ms = int((time.perf_counter() - started) * 1000)
 
     course_id = str(course_payload["course_id"])
@@ -37,18 +37,20 @@ def run_semantic_stage_for_course(
             prompt_family="semantic_stage",
             configured_model=llm_client.model,
             requested_model=llm_client.model,
-            actual_model=llm_client.model,
-            actual_model_source="configured_model",
-            provider_request_id=None,
+            actual_model=semantic_response.actual_model or llm_client.model,
+            actual_model_source=(
+                "response.model" if semantic_response.actual_model else "configured_model"
+            ),
+            provider_request_id=semantic_response.response_id,
             latency_ms=latency_ms,
-            tokens_in=None,
-            tokens_out=None,
+            tokens_in=semantic_response.usage.tokens_in,
+            tokens_out=semantic_response.usage.tokens_out,
             retry_count=0,
             status="success",
         )
 
     return SemanticStageResult.model_validate(
-        _normalize_semantic_stage_payload(semantic_json)
+        _normalize_semantic_stage_payload(semantic_response.payload)
     )
 
 
