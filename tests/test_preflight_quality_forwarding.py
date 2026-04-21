@@ -56,10 +56,41 @@ def test_partial_preflight_status_is_persisted_in_normalized_course(tmp_path: Pa
             model="gpt-5.4",
             client=_RepeatingOpenAIClient(
                 {
-                    "answer_text": "Categorical data uses labels rather than continuous values.",
-                    "target_verbosity": "brief",
-                    "self_assessed_confidence": 0.9,
-                    "notable_risks": [],
+                    "topics": [
+                        {
+                            "label": "Categorical data",
+                            "normalized_label": "categorical data",
+                            "topic_type": "concept",
+                            "confidence": 0.9,
+                            "course_centrality": 0.9,
+                            "source_refs": ["overview"],
+                            "rationale": "Central concept in the overview.",
+                        }
+                    ],
+                    "correlated_topics": [],
+                    "topic_questions": [
+                        {
+                            "question_id": "sq_001",
+                            "question_text": "What is categorical data?",
+                            "question_family": "what_is",
+                            "relevant_topics": ["categorical data"],
+                            "question_scope": "single_topic",
+                            "rationale": "Natural entry question.",
+                            "source_refs": ["overview"],
+                        }
+                    ],
+                    "correlated_topic_questions": [],
+                    "synthetic_answers": [
+                        {
+                            "question_text": "What is categorical data?",
+                            "answer_text": "Categorical data uses labels rather than continuous values.",
+                            "answer_mode": "synthetic_tutor_answer",
+                            "difficulty_band": "beginner",
+                            "confidence": 0.9,
+                            "answer_rationale": "Brief definition.",
+                            "related_topics": ["categorical data"],
+                        }
+                    ],
                 }
             ),
         ),
@@ -68,17 +99,16 @@ def test_partial_preflight_status_is_persisted_in_normalized_course(tmp_path: Pa
             model="gpt-5.4",
             client=_RepeatingOpenAIClient(
                 {
-                    "decision": "accept",
-                    "correctness": 0.95,
-                    "sufficiency": 0.9,
-                    "brevity": 0.9,
-                    "pedagogical_fit": 0.9,
-                    "difficulty_alignment": 0.9,
-                    "clarity": 0.9,
-                    "contradiction_risk": 0.01,
-                    "scope_drift": 0.01,
-                    "rewritten_answer_text": None,
-                    "reject_reasons": [],
+                    "decisions": [
+                        {
+                            "item_type": "synthetic_answer",
+                            "target_id": "What is categorical data?",
+                            "decision": "keep",
+                            "rewritten_payload": {},
+                            "merged_into": None,
+                            "rationale": "Good answer.",
+                        }
+                    ]
                 }
             ),
         ),

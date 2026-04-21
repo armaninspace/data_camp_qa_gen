@@ -331,6 +331,10 @@ class CourseBundle(BaseModel):
     normalized_course: NormalizedCourse
     semantic_stage_result: SemanticStageResult | None = None
     semantic_review_decisions: list[SemanticReviewDecision] = Field(default_factory=list)
+    course_context_frame: CourseContextFrame | None = None
+    question_context_frames: list[QuestionContextFrame] = Field(default_factory=list)
+    train_rows: list[TrainRow] = Field(default_factory=list)
+    cache_rows: list[CacheRow] = Field(default_factory=list)
     answers: list[AnswerRecord]
     final_rows: list[LedgerRow]
     summary: dict = Field(default_factory=dict)

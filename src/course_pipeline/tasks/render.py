@@ -16,15 +16,20 @@ from course_pipeline.run_logging import RunLogger
 from course_pipeline.schemas import (
     AnswerRecord,
     CanonicalTopic,
+    CacheRow,
     CourseBundle,
+    CourseContextFrame,
     GeneratedQuestion,
     LedgerRow,
     NormalizedCourse,
+    QuestionContextFrame,
     RelatedTopicPair,
     QuestionValidationRecord,
     SemanticReviewDecision,
     SemanticStageResult,
+    TrainRow,
     Topic,
+    TeacherAnswerDraft,
     ExcludedCourseRecord,
     VettedTopic,
     VettedTopicPair,
@@ -34,6 +39,10 @@ from course_pipeline.schemas import (
 RUN_ARTIFACT_NAMES = [
     "excluded_courses.jsonl",
     "normalized_courses.jsonl",
+    "course_context_frames.jsonl",
+    "question_context_frames.jsonl",
+    "train_rows.jsonl",
+    "cache_rows.jsonl",
     "semantic_topics.jsonl",
     "semantic_correlated_topics.jsonl",
     "semantic_topic_questions.jsonl",
@@ -45,6 +54,10 @@ RUN_ARTIFACT_NAMES = [
 ]
 PUBLISHED_ARTIFACT_NAMES = [
     "normalized_courses.jsonl",
+    "course_context_frames.jsonl",
+    "question_context_frames.jsonl",
+    "train_rows.jsonl",
+    "cache_rows.jsonl",
     "semantic_topics.jsonl",
     "semantic_correlated_topics.jsonl",
     "semantic_topic_questions.jsonl",
@@ -85,6 +98,11 @@ def persist_stage_artifacts(
     synthetic_rewrites: list[dict] | None = None,
     semantic_result: SemanticStageResult | None = None,
     semantic_review_decisions: list[SemanticReviewDecision] | None = None,
+    course_context_frame: CourseContextFrame | None = None,
+    question_context_frames: list[QuestionContextFrame] | None = None,
+    teacher_answer_drafts: list[TeacherAnswerDraft] | None = None,
+    train_rows: list[TrainRow] | None = None,
+    cache_rows: list[CacheRow] | None = None,
 ) -> None:
     out = Path(output_dir)
     course_ids = {course.course_id}
@@ -93,8 +111,32 @@ def persist_stage_artifacts(
     pairwise_questions = pairwise_questions or []
     validations = validations or []
     semantic_review_decisions = semantic_review_decisions or []
+    question_context_frames = question_context_frames or []
+    teacher_answer_drafts = teacher_answer_drafts or []
+    train_rows = train_rows or []
+    cache_rows = cache_rows or []
 
     upsert_jsonl_rows(out / "normalized_courses.jsonl", [course], course_ids)
+    upsert_jsonl_rows(
+        out / "course_context_frames.jsonl",
+        [] if course_context_frame is None else [course_context_frame],
+        course_ids,
+    )
+    upsert_jsonl_rows(
+        out / "question_context_frames.jsonl",
+        question_context_frames,
+        course_ids,
+    )
+    upsert_jsonl_rows(
+        out / "train_rows.jsonl",
+        train_rows,
+        course_ids,
+    )
+    upsert_jsonl_rows(
+        out / "cache_rows.jsonl",
+        cache_rows,
+        course_ids,
+    )
     semantic_topics = [] if semantic_result is None else [
         {"course_id": course.course_id, **item.model_dump()}
         for item in semantic_result.topics
@@ -160,9 +202,18 @@ def persist_stage_artifacts(
         normalized_course=course,
         semantic_stage_result=semantic_result,
         semantic_review_decisions=semantic_review_decisions,
+        course_context_frame=course_context_frame,
+        question_context_frames=question_context_frames,
+        train_rows=train_rows,
+        cache_rows=cache_rows,
         answers=answers,
         final_rows=rows,
         summary={
+            "course_context_frame_count": 0 if course_context_frame is None else 1,
+            "question_context_frame_count": len(question_context_frames),
+            "teacher_answer_count": len(teacher_answer_drafts),
+            "train_row_count": len(train_rows),
+            "cache_row_count": len(cache_rows),
             "semantic_topic_count": 0 if semantic_result is None else len(semantic_result.topics),
             "semantic_correlated_topic_count": (
                 0 if semantic_result is None else len(semantic_result.correlated_topics)
@@ -222,6 +273,10 @@ def rebuild_run_summary(output_dir: str | Path) -> dict[str, Any]:
             artifact_name: len(read_jsonl(out / artifact_name))
             for artifact_name in RUN_ARTIFACT_NAMES
         },
+        "course_context_frame_count": len(read_jsonl(out / "course_context_frames.jsonl")),
+        "question_context_frame_count": len(read_jsonl(out / "question_context_frames.jsonl")),
+        "train_row_count": len(read_jsonl(out / "train_rows.jsonl")),
+        "cache_row_count": len(read_jsonl(out / "cache_rows.jsonl")),
         "semantic_topic_count": len(read_jsonl(out / "semantic_topics.jsonl")),
         "semantic_correlated_topic_count": len(
             read_jsonl(out / "semantic_correlated_topics.jsonl")
@@ -466,4 +521,3 @@ def _quality_metrics(output_dir: Path) -> dict[str, Any]:
         "comparison_question_count": len(pairwise_questions),
         "entry_question_count": sum(row.get("family") == "entry" for row in single_questions),
     }
-

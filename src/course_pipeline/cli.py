@@ -15,6 +15,10 @@ from course_pipeline.io_utils import read_jsonl, read_yaml, write_jsonl, write_y
 app = typer.Typer(help="Course question pipeline CLI. `run` is the primary path.")
 ARTIFACT_FILES = [
     "normalized_courses.jsonl",
+    "course_context_frames.jsonl",
+    "question_context_frames.jsonl",
+    "train_rows.jsonl",
+    "cache_rows.jsonl",
     "semantic_topics.jsonl",
     "semantic_correlated_topics.jsonl",
     "semantic_topic_questions.jsonl",

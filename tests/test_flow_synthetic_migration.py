@@ -170,8 +170,16 @@ def test_main_flow_publishes_synthetic_answers(tmp_path: Path) -> None:
     )
 
     assert result["run_summary"]["course_count"] == 1
+    assert result["run_summary"]["course_context_frame_count"] == 1
+    assert result["run_summary"]["question_context_frame_count"] == 1
+    assert result["run_summary"]["train_row_count"] == 1
+    assert result["run_summary"]["cache_row_count"] == 1
     semantic_topics = read_jsonl(run_dir / "semantic_topics.jsonl")
     assert semantic_topics[0]["label"] == "ARIMA"
+    train_rows = read_jsonl(run_dir / "train_rows.jsonl")
+    cache_rows = read_jsonl(run_dir / "cache_rows.jsonl")
+    assert train_rows[0]["course_id"] == "24372"
+    assert cache_rows[0]["cache_key"] == "24372::what is arima"
     answers = read_jsonl(run_dir / "answers.jsonl")
     assert len(answers) == 1
     assert answers[0]["answer_mode"] == "synthetic_tutor_answer"

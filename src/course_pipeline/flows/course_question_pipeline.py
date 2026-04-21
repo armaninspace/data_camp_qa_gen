@@ -19,7 +19,11 @@ from course_pipeline.tasks.aggregate_semantic_outputs import (
     semantic_topics_to_canonical_topics,
     semantic_topics_to_topics,
 )
+from course_pipeline.tasks.build_course_context import build_course_context_frame
+from course_pipeline.tasks.build_product_rows import build_cache_rows, build_train_rows
+from course_pipeline.tasks.build_question_context import build_question_context_frames
 from course_pipeline.tasks.build_ledger import build_ledger_rows
+from course_pipeline.tasks.generate_teacher_answers import generate_teacher_answers
 from course_pipeline.tasks.normalize import load_raw_course, normalize_course_record
 from course_pipeline.tasks.preflight_validate import preflight_validate_course
 from course_pipeline.tasks.render import (
@@ -103,6 +107,7 @@ def _process_course(
     logger: RunLogger,
     semantic_client: LLMClient,
     review_client: LLMClient | None,
+    teacher_client: LLMClient | None = None,
     *,
     quality_status: str | None,
 ) -> dict:
@@ -194,12 +199,37 @@ def _process_course(
         semantic_result=reviewed_semantic_result,
         questions=all_generated_questions,
     )
+    course_context_frame = build_course_context_frame(course, reviewed_semantic_result)
+    question_context_frames = build_question_context_frames(
+        course=course,
+        questions=[*reviewed_semantic_result.topic_questions, *reviewed_semantic_result.correlated_topic_questions],
+        course_context_frame=course_context_frame,
+    )
+    teacher_answer_drafts = (
+        generate_teacher_answers(
+            course_context_frame=course_context_frame,
+            question_context_frames=question_context_frames,
+            llm_client=teacher_client,
+            logger=logger,
+        )
+        if teacher_client is not None
+        else _teacher_drafts_from_semantic_answers(
+            course_context_frame=course_context_frame,
+            question_context_frames=question_context_frames,
+            semantic_result=reviewed_semantic_result,
+            model_name=semantic_client.model,
+        )
+    )
+    train_rows = build_train_rows(teacher_answer_drafts)
+    cache_rows = build_cache_rows(train_rows)
     timer.finish(
         output_row_count=(
             len(canonical_topics)
             + len(related_pairs)
             + len(all_generated_questions)
             + len(synthetic_answers)
+            + len(train_rows)
+            + len(cache_rows)
         )
     )
 
@@ -234,6 +264,11 @@ def _process_course(
         synthetic_rewrites=[],
         semantic_result=semantic_result,
         semantic_review_decisions=[] if review_result is None else review_result.decisions,
+        course_context_frame=course_context_frame,
+        question_context_frames=question_context_frames,
+        teacher_answer_drafts=teacher_answer_drafts,
+        train_rows=train_rows,
+        cache_rows=cache_rows,
     )
     timer.finish(output_row_count=len(rows))
 
@@ -255,6 +290,7 @@ def course_question_pipeline_flow(
     publish: bool = True,
     semantic_client: LLMClient | None = None,
     review_client: LLMClient | None = None,
+    teacher_client: LLMClient | None = None,
 ) -> dict:
     output = Path(output_dir)
     output.mkdir(parents=True, exist_ok=True)
@@ -270,6 +306,11 @@ def course_question_pipeline_flow(
         review_client = LLMClient(
             api_key=settings.openai_api_key,
             model=settings.model_semantic_review,
+        )
+    if teacher_client is None and settings.openai_api_key and settings.model_teacher_answer:
+        teacher_client = LLMClient(
+            api_key=settings.openai_api_key,
+            model=settings.model_teacher_answer,
         )
     logger.log_pipeline(
         f"run start input_dir={input_dir} output_dir={output_dir} slice={slice_start}-{slice_end}"
@@ -295,6 +336,7 @@ def course_question_pipeline_flow(
                 logger,
                 semantic_client,
                 review_client,
+                teacher_client,
                 quality_status=selected.quality_status,
             )
         )
@@ -324,6 +366,45 @@ def course_question_pipeline_flow(
         "excluded_course_count": len(preflight.excluded_rows),
         "courses": summaries,
     }
+
+
+def _teacher_drafts_from_semantic_answers(
+    *,
+    course_context_frame,
+    question_context_frames,
+    semantic_result,
+    model_name: str,
+):
+    from course_pipeline.schemas import TeacherAnswerDraft
+
+    answer_by_text = {
+        item.question_text: item
+        for item in semantic_result.synthetic_answers
+    }
+    drafts: list[TeacherAnswerDraft] = []
+    for question_context_frame in question_context_frames:
+        semantic_answer = answer_by_text.get(question_context_frame.question_text)
+        if semantic_answer is None:
+            continue
+        drafts.append(
+            TeacherAnswerDraft(
+                course_id=course_context_frame.course_id,
+                question_id=question_context_frame.question_id,
+                question_text=question_context_frame.question_text,
+                provided_context={
+                    "course_context_frame": course_context_frame,
+                    "question_context_frame": question_context_frame,
+                },
+                teacher_answer=semantic_answer.answer_text,
+                course_aligned=True,
+                weak_grounding=False,
+                off_topic=False,
+                needs_review=False,
+                model_name=model_name,
+                prompt_family="teacher_answer",
+            )
+        )
+    return drafts
 
 
 if __name__ == "__main__":
