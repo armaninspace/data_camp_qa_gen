@@ -129,6 +129,8 @@ def test_persist_stage_artifacts_upserts_by_course_id(tmp_path: Path) -> None:
     summary = rebuild_run_summary(output_dir)
 
     assert summary["course_count"] == 2
+    assert summary["teacher_answer_count"] == 0
+    assert summary["teacher_answer_to_final_answer_gap"] == 0
     assert summary["artifact_counts"]["semantic_topics.jsonl"] == 0
     assert summary["artifact_counts"]["semantic_review_decisions.jsonl"] == 0
     assert summary["semantic_question_count"] == 0
@@ -172,11 +174,14 @@ def test_rebuild_run_summary_uses_shared_rows_and_keeps_zero_row_courses(tmp_pat
 
     assert summary["course_count"] == 2
     assert summary["answered_count"] == 1
+    assert summary["teacher_answer_count"] == 0
     course_counts = {item["course_id"]: item for item in summary["courses"]}
     assert course_counts["1"]["row_count"] == 1
     assert course_counts["1"]["shared_answer_count"] == 1
+    assert course_counts["1"]["teacher_answer_count"] == 0
     assert course_counts["2"]["row_count"] == 0
     assert course_counts["2"]["shared_answer_count"] == 0
+    assert course_counts["2"]["teacher_answer_count"] == 0
 
 
 def test_rendered_output_consistency_fails_when_bundle_rows_are_missing_from_shared_artifacts(
@@ -295,3 +300,77 @@ def test_rebuild_run_summary_includes_llm_cost_rollups(tmp_path: Path) -> None:
     assert summary["llm_pricing_source"] == "https://openai.com/api/pricing/"
     assert summary["llm_pricing_fetched_at"] == "2026-04-21T00:00:00+00:00"
     assert summary["llm_cost_reporting_status"] == "partial"
+
+
+def test_rendered_output_consistency_fails_when_teacher_answers_do_not_propagate(
+    tmp_path: Path,
+) -> None:
+    output_dir = tmp_path / "run"
+
+    persist_stage_artifacts(
+        output_dir=output_dir,
+        course=_course("1", "One"),
+        topics=[_topic("t1", "matplotlib")],
+        canonical_topics=[_canonical("matplotlib", "t1")],
+        single_topic_questions=[_question("q1", "matplotlib")],
+        validations=[_validation("q1", "matplotlib", "What is matplotlib?")],
+        answers=[],
+        rows=[
+            _row("1", "One", "What is matplotlib?").model_copy(
+                update={"question_answer": None, "correctness": None, "status": "errored", "reject_reason": "missing_answer"}
+            )
+        ],
+        train_rows=[
+            {
+                "row_id": "1:q1:a:1",
+                "course_id": "1",
+                "question_id": "q1",
+                "question_text": "What is matplotlib?",
+                "provided_context": {
+                    "course_context_frame": {
+                        "course_id": "1",
+                        "course_title": "One",
+                        "learner_level": "beginner",
+                        "domain": "python",
+                        "primary_tools": [],
+                        "core_tasks": [],
+                        "scope_bias": [],
+                        "answer_style": {
+                            "depth": "introductory",
+                            "tone": "direct",
+                            "prefer_examples": True,
+                            "prefer_definitions": True,
+                            "keep_short": True,
+                        },
+                    },
+                    "question_context_frame": {
+                        "question_id": "q1",
+                        "course_id": "1",
+                        "question_text": "What is matplotlib?",
+                        "question_intent": "definition",
+                        "relevant_topics": ["matplotlib"],
+                        "chapter_scope": [],
+                        "expected_answer_shape": ["short definition"],
+                        "scope_bias": [],
+                        "support_refs": [],
+                    },
+                },
+                "teacher_answer": "Matplotlib is a plotting library.",
+                "question_variants": ["What is matplotlib?"],
+                "answer_quality_flags": {
+                    "course_aligned": True,
+                    "weak_grounding": False,
+                    "off_topic": False,
+                    "duplicate_signature": "what is matplotlib",
+                    "cache_eligible": True,
+                    "train_eligible": True,
+                    "needs_review": False,
+                },
+                "global_question_signature": "what is matplotlib",
+                "cross_course_similarity": [],
+            }
+        ],
+    )
+
+    with pytest.raises(RuntimeError, match="teacher answers in train_rows"):
+        validate_rendered_output_consistency(output_dir)

@@ -242,12 +242,24 @@ def persist_stage_artifacts(
 
 def rebuild_run_summary(output_dir: str | Path) -> dict[str, Any]:
     out = Path(output_dir)
-    bundle_rows, shared_rows_by_course, answers_by_course = _collect_consistency_state(out)
+    (
+        bundle_rows,
+        shared_rows_by_course,
+        answers_by_course,
+        train_rows_by_course,
+    ) = _collect_consistency_state(out)
     validate_rendered_output_consistency(out)
     bundles = []
     for course_id in sorted(bundle_rows):
         bundle = bundle_rows[course_id]
         shared_rows = shared_rows_by_course.get(course_id, [])
+        train_rows = train_rows_by_course.get(course_id, [])
+        teacher_answer_count = sum(
+            bool(str(row.get("teacher_answer") or "").strip())
+            for row in train_rows
+            if isinstance(row, dict)
+        )
+        shared_answer_count = len(answers_by_course.get(course_id, []))
         bundles.append(
             {
                 "course_id": course_id,
@@ -262,10 +274,20 @@ def rebuild_run_summary(output_dir: str | Path) -> dict[str, Any]:
                 "errored_count": sum(
                     row.get("status") == "errored" for row in shared_rows if isinstance(row, dict)
                 ),
-                "shared_answer_count": len(answers_by_course.get(course_id, [])),
+                "teacher_answer_count": teacher_answer_count,
+                "shared_answer_count": shared_answer_count,
+                "teacher_answer_to_final_answer_gap": max(
+                    teacher_answer_count - shared_answer_count,
+                    0,
+                ),
             }
         )
 
+    teacher_answer_count = sum(
+        bool(str(row.get("teacher_answer") or "").strip())
+        for row in read_jsonl(out / "train_rows.jsonl")
+        if isinstance(row, dict)
+    )
     summary = {
         "course_count": len(bundles),
         "excluded_course_count": len(read_jsonl(out / "excluded_courses.jsonl")),
@@ -276,6 +298,7 @@ def rebuild_run_summary(output_dir: str | Path) -> dict[str, Any]:
         },
         "course_context_frame_count": len(read_jsonl(out / "course_context_frames.jsonl")),
         "question_context_frame_count": len(read_jsonl(out / "question_context_frames.jsonl")),
+        "teacher_answer_count": teacher_answer_count,
         "train_row_count": len(read_jsonl(out / "train_rows.jsonl")),
         "cache_row_count": len(read_jsonl(out / "cache_rows.jsonl")),
         "semantic_topic_count": len(read_jsonl(out / "semantic_topics.jsonl")),
@@ -289,6 +312,10 @@ def rebuild_run_summary(output_dir: str | Path) -> dict[str, Any]:
         "answered_count": sum(item["answered_count"] for item in bundles),
         "rejected_question_count": sum(item["rejected_count"] for item in bundles),
         "errored_question_count": sum(item["errored_count"] for item in bundles),
+        "teacher_answer_to_final_answer_gap": max(
+            teacher_answer_count - len(read_jsonl(out / "answers.jsonl")),
+            0,
+        ),
         "correct_count": sum(
             row.get("correctness") == "correct" for row in read_jsonl(out / "answers.jsonl")
         ),
@@ -376,7 +403,12 @@ def publish_final_outputs(
 
 def validate_rendered_output_consistency(output_dir: str | Path) -> None:
     out = Path(output_dir)
-    bundle_rows, shared_rows_by_course, answers_by_course = _collect_consistency_state(out)
+    (
+        bundle_rows,
+        shared_rows_by_course,
+        answers_by_course,
+        train_rows_by_course,
+    ) = _collect_consistency_state(out)
     issues: list[str] = []
 
     shared_answered_count = 0
@@ -455,6 +487,20 @@ def validate_rendered_output_consistency(output_dir: str | Path) -> None:
             issues.append(
                 f"course {course_id} course_yaml answers include non-synthetic answer_mode rows"
             )
+        train_rows = train_rows_by_course.get(course_id, [])
+        teacher_answer_count = sum(
+            bool(str(row.get("teacher_answer") or "").strip())
+            for row in train_rows
+            if isinstance(row, dict)
+        )
+        if teacher_answer_count > len(shared_answers):
+            issues.append(
+                f"course {course_id} has teacher answers in train_rows ({teacher_answer_count}) but only {len(shared_answers)} shared answers.jsonl rows"
+            )
+        if teacher_answer_count > shared_answered_for_course:
+            issues.append(
+                f"course {course_id} has teacher answers in train_rows ({teacher_answer_count}) but only {shared_answered_for_course} answered final rows"
+            )
 
     if issues:
         raise RuntimeError(
@@ -476,6 +522,7 @@ def _collect_consistency_state(
     output_dir: Path,
 ) -> tuple[
     dict[str, dict[str, Any]],
+    dict[str, list[dict[str, Any]]],
     dict[str, list[dict[str, Any]]],
     dict[str, list[dict[str, Any]]],
 ]:
@@ -507,7 +554,18 @@ def _collect_consistency_state(
         if course_id is not None:
             answers_by_course[course_id].append(row)
 
-    return bundle_rows, dict(shared_rows_by_course), dict(answers_by_course)
+    train_rows_by_course: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    for row in read_jsonl(output_dir / "train_rows.jsonl"):
+        course_id = _row_course_id(row)
+        if course_id is not None:
+            train_rows_by_course[course_id].append(row)
+
+    return (
+        bundle_rows,
+        dict(shared_rows_by_course),
+        dict(answers_by_course),
+        dict(train_rows_by_course),
+    )
 
 
 def _quality_metrics(output_dir: Path) -> dict[str, Any]:
