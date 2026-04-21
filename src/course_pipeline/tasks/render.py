@@ -603,8 +603,10 @@ def _quality_metrics(output_dir: Path) -> dict[str, Any]:
 
 
 def _llm_usage_cost_metrics(output_dir: Path) -> dict[str, Any]:
-    llm_calls = read_jsonl(output_dir / "logs" / "llm_calls.jsonl")
-    pricing_snapshot = load_pricing_snapshot(output_dir / "logs" / "pricing_snapshot.json")
+    llm_calls_path = output_dir / "logs" / "llm_calls.jsonl"
+    pricing_snapshot_path = output_dir / "logs" / "pricing_snapshot.json"
+    llm_calls = read_jsonl(llm_calls_path)
+    pricing_snapshot = load_pricing_snapshot(pricing_snapshot_path)
 
     cost_by_stage: defaultdict[str, float] = defaultdict(float)
     cost_by_model: defaultdict[str, float] = defaultdict(float)
@@ -652,7 +654,9 @@ def _llm_usage_cost_metrics(output_dir: Path) -> dict[str, Any]:
             cost_by_stage[stage] += float(cost_value)
             cost_by_model[model] += float(cost_value)
 
-    if not llm_calls:
+    if not llm_calls_path.exists():
+        cost_reporting_status = "usage_reporting_unavailable"
+    elif not llm_calls:
         cost_reporting_status = "no_calls"
     elif missing_usage or unknown_pricing or pricing_unavailable:
         cost_reporting_status = "partial"

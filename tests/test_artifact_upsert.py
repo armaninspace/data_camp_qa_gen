@@ -182,6 +182,7 @@ def test_rebuild_run_summary_uses_shared_rows_and_keeps_zero_row_courses(tmp_pat
     assert course_counts["2"]["row_count"] == 0
     assert course_counts["2"]["shared_answer_count"] == 0
     assert course_counts["2"]["teacher_answer_count"] == 0
+    assert summary["llm_cost_reporting_status"] == "usage_reporting_unavailable"
 
 
 def test_rendered_output_consistency_fails_when_bundle_rows_are_missing_from_shared_artifacts(
@@ -300,6 +301,31 @@ def test_rebuild_run_summary_includes_llm_cost_rollups(tmp_path: Path) -> None:
     assert summary["llm_pricing_source"] == "https://openai.com/api/pricing/"
     assert summary["llm_pricing_fetched_at"] == "2026-04-21T00:00:00+00:00"
     assert summary["llm_cost_reporting_status"] == "partial"
+
+
+def test_rebuild_run_summary_reports_no_calls_when_llm_log_is_empty(tmp_path: Path) -> None:
+    output_dir = tmp_path / "run"
+
+    persist_stage_artifacts(
+        output_dir=output_dir,
+        course=_course("1", "One"),
+        topics=[_topic("t1", "matplotlib")],
+        canonical_topics=[_canonical("matplotlib", "t1")],
+        single_topic_questions=[_question("q1", "matplotlib")],
+        validations=[_validation("q1", "matplotlib", "What is matplotlib?")],
+        answers=[_answer("q1", "What is matplotlib?")],
+        rows=[_row("1", "One", "What is matplotlib?")],
+    )
+
+    logs_dir = output_dir / "logs"
+    logs_dir.mkdir(parents=True, exist_ok=True)
+    (logs_dir / "llm_calls.jsonl").write_text("", encoding="utf-8")
+
+    summary = rebuild_run_summary(output_dir)
+
+    assert summary["llm_call_count"] == 0
+    assert summary["llm_calls_with_cost"] == 0
+    assert summary["llm_cost_reporting_status"] == "no_calls"
 
 
 def test_rendered_output_consistency_fails_when_teacher_answers_do_not_propagate(
