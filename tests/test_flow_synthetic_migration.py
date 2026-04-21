@@ -248,3 +248,129 @@ def test_main_flow_fails_closed_without_grounded_fallback(tmp_path: Path) -> Non
         assert "semantic_stage" in str(exc)
     else:
         raise AssertionError("expected semantic-stage failure to stop the run")
+
+
+def test_main_flow_retains_correct_generic_rows_across_outputs(tmp_path: Path) -> None:
+    input_dir = tmp_path / "input"
+    run_dir = tmp_path / "run"
+    final_dir = tmp_path / "final"
+    _write_course(input_dir / "course.yaml")
+
+    semantic_client = LLMClient(
+        api_key=None,
+        model="gpt-5.4",
+        client=FakeOpenAIClient(
+            "gpt-5.4",
+            [
+                {
+                    "topics": [
+                        {
+                            "label": "Pandas",
+                            "normalized_label": "pandas",
+                            "topic_type": "tool",
+                            "confidence": 0.95,
+                            "course_centrality": 0.92,
+                            "source_refs": ["overview"],
+                            "rationale": "Central tool.",
+                        }
+                    ],
+                    "correlated_topics": [],
+                    "topic_questions": [
+                        {
+                            "question_id": "sq_001",
+                            "question_text": "What is pandas?",
+                            "question_family": "what_is",
+                            "relevant_topics": ["pandas"],
+                            "question_scope": "single_topic",
+                            "rationale": "Natural but broad beginner question.",
+                        }
+                    ],
+                    "correlated_topic_questions": [],
+                    "synthetic_answers": [
+                        {
+                            "question_text": "What is pandas?",
+                            "answer_text": "Pandas is a Python library for working with tabular data.",
+                            "answer_mode": "synthetic_tutor_answer",
+                            "difficulty_band": "beginner",
+                            "confidence": 0.94,
+                            "answer_rationale": "Brief beginner definition.",
+                        }
+                    ],
+                }
+            ],
+        ),
+    )
+    review_client = LLMClient(
+        api_key=None,
+        model="gpt-5.4",
+        client=FakeOpenAIClient(
+            "gpt-5.4",
+            [
+                {
+                    "decisions": [
+                        {
+                            "item_type": "question",
+                            "target_id": "sq_001",
+                            "decision": "reject",
+                            "rewritten_payload": {},
+                            "merged_into": None,
+                            "rationale": "Too generic and too beginner-level for this course.",
+                        },
+                        {
+                            "item_type": "synthetic_answer",
+                            "target_id": "What is pandas?",
+                            "decision": "reject",
+                            "rewritten_payload": {},
+                            "merged_into": None,
+                            "rationale": "Correct but too broad and not the preferred wording.",
+                        },
+                    ]
+                }
+            ],
+        ),
+    )
+    teacher_client = LLMClient(
+        api_key=None,
+        model="gpt-5.4",
+        client=FakeOpenAIClient(
+            "gpt-5.4",
+            [
+                {
+                    "teacher_answer": "Pandas is a Python library for working with tabular data.",
+                    "course_aligned": True,
+                    "weak_grounding": True,
+                    "off_topic": False,
+                    "needs_review": True,
+                }
+            ],
+        ),
+    )
+
+    result = course_question_pipeline_flow(
+        input_dir=str(input_dir),
+        output_dir=str(run_dir),
+        final_dir=str(final_dir),
+        publish=True,
+        semantic_client=semantic_client,
+        review_client=review_client,
+        teacher_client=teacher_client,
+    )
+
+    assert result["run_summary"]["course_count"] == 1
+    assert result["run_summary"]["answered_count"] == 1
+
+    answers = read_jsonl(run_dir / "answers.jsonl")
+    train_rows = read_jsonl(run_dir / "train_rows.jsonl")
+    cache_rows = read_jsonl(run_dir / "cache_rows.jsonl")
+    bundle = read_yaml(final_dir / "course_yaml" / "24372.yaml")
+
+    assert answers[0]["question_text"] == "What is pandas?"
+    assert answers[0]["validation_status"] == "accept"
+    assert train_rows[0]["question_text"] == "What is pandas?"
+    assert train_rows[0]["answer_quality_flags"]["weak_grounding"] is True
+    assert train_rows[0]["answer_quality_flags"]["needs_review"] is True
+    assert train_rows[0]["answer_quality_flags"]["cache_eligible"] is True
+    assert cache_rows[0]["question_text"] == "What is pandas?"
+    assert cache_rows[0]["cache_eligible"] is True
+    assert bundle["final_rows"][0]["question_text"] == "What is pandas?"
+    assert bundle["final_rows"][0]["status"] == "answered"
