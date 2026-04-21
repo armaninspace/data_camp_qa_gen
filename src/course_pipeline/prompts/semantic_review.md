@@ -26,7 +26,8 @@ Rules:
 - remove wrapper or junk topics
 - merge duplicates
 - fix awkward but salvageable questions
-- reject unnatural beginner questions
+- do not reject correct understandable questions just for being generic, broad, or beginner-level
+- reject questions only when they are malformed, off-topic, unsafe, or otherwise unusable
 - rewrite answers that are too long, unclear, or off-scope
 - reject answers that are wrong or mismatched
 - return JSON only

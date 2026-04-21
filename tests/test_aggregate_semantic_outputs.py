@@ -128,3 +128,87 @@ def test_apply_semantic_review_normalizes_question_rewrite_payloads() -> None:
 
     assert result.topic_questions[0].question_family == "what_is_it_used_for"
     assert result.topic_questions[0].rationale == "normalized_from_semantic_review_rewrite"
+
+
+def test_apply_semantic_review_keeps_question_when_reject_is_editorial() -> None:
+    review = SemanticReviewResult.model_validate(
+        {
+            "decisions": [
+                {
+                    "item_type": "question",
+                    "target_id": "sq_001",
+                    "decision": "reject",
+                    "rewritten_payload": {},
+                    "merged_into": None,
+                    "rationale": "Too generic and beginner-level for this course.",
+                }
+            ]
+        }
+    )
+
+    result = apply_semantic_review(_semantic_result(), review)
+
+    assert [item.question_id for item in result.topic_questions] == ["sq_001"]
+
+
+def test_apply_semantic_review_rejects_question_when_rationale_is_hard_failure() -> None:
+    review = SemanticReviewResult.model_validate(
+        {
+            "decisions": [
+                {
+                    "item_type": "question",
+                    "target_id": "sq_001",
+                    "decision": "reject",
+                    "rewritten_payload": {},
+                    "merged_into": None,
+                    "rationale": "Malformed and off-topic question.",
+                }
+            ]
+        }
+    )
+
+    result = apply_semantic_review(_semantic_result(), review)
+
+    assert result.topic_questions == []
+
+
+def test_apply_semantic_review_keeps_answer_when_reject_is_editorial() -> None:
+    review = SemanticReviewResult.model_validate(
+        {
+            "decisions": [
+                {
+                    "item_type": "synthetic_answer",
+                    "target_id": "What is pandas?",
+                    "decision": "reject",
+                    "rewritten_payload": {},
+                    "merged_into": None,
+                    "rationale": "Too basic and not the preferred pedagogical wording.",
+                }
+            ]
+        }
+    )
+
+    result = apply_semantic_review(_semantic_result(), review)
+
+    assert [item.question_text for item in result.synthetic_answers] == ["What is pandas?"]
+
+
+def test_apply_semantic_review_rejects_answer_when_rationale_is_hard_failure() -> None:
+    review = SemanticReviewResult.model_validate(
+        {
+            "decisions": [
+                {
+                    "item_type": "synthetic_answer",
+                    "target_id": "What is pandas?",
+                    "decision": "reject",
+                    "rewritten_payload": {},
+                    "merged_into": None,
+                    "rationale": "Incorrect answer that mismatches the course context.",
+                }
+            ]
+        }
+    )
+
+    result = apply_semantic_review(_semantic_result(), review)
+
+    assert result.synthetic_answers == []

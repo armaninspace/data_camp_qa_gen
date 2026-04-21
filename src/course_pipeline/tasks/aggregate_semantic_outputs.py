@@ -279,7 +279,7 @@ def _apply_question_decision(items: list, decision: SemanticReviewDecision) -> l
         if item.question_id != decision.target_id:
             updated.append(item)
             continue
-        if decision.decision == "reject":
+        if decision.decision == "reject" and _is_hard_reject_rationale(decision.rationale):
             continue
         if decision.decision == "rewrite" and decision.rewritten_payload:
             updated.append(
@@ -303,7 +303,7 @@ def _apply_answer_decision(items: list, decision: SemanticReviewDecision) -> lis
         if item.question_text != decision.target_id:
             updated.append(item)
             continue
-        if decision.decision == "reject":
+        if decision.decision == "reject" and _is_hard_reject_rationale(decision.rationale):
             continue
         if decision.decision == "rewrite" and decision.rewritten_payload:
             updated.append(
@@ -385,6 +385,28 @@ def _normalize_answer_rewrite_payload(payload: dict) -> dict:
     if "answer_mode" in row:
         row["answer_mode"] = "synthetic_tutor_answer"
     return row
+
+
+def _is_hard_reject_rationale(rationale: str | None) -> bool:
+    normalized = str(rationale or "").strip().lower()
+    if not normalized:
+        return False
+    hard_reject_markers = (
+        "incorrect",
+        "wrong",
+        "contradict",
+        "conflict",
+        "mismatch",
+        "off-topic",
+        "off topic",
+        "malformed",
+        "unintelligible",
+        "unsafe",
+        "empty",
+        "unusable",
+        "duplicate",
+    )
+    return any(marker in normalized for marker in hard_reject_markers)
 
 
 def _normalize_question_family(value: object) -> str:
