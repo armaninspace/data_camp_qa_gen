@@ -17,12 +17,7 @@ def build_train_rows(
             [answer.question_text],
         )
         train_eligible = bool(answer.teacher_answer.strip()) and not answer.off_topic
-        cache_eligible = (
-            train_eligible
-            and answer.course_aligned
-            and not answer.weak_grounding
-            and not answer.needs_review
-        )
+        cache_eligible = train_eligible
         rows.append(
             TrainRow(
                 row_id=f"{answer.course_id}:{answer.question_id}:a:{index}",

@@ -79,7 +79,7 @@ def test_build_train_rows_retains_variants_and_sets_flags() -> None:
     assert rows[0].global_question_signature == "what is pandas"
 
 
-def test_build_cache_rows_is_stricter_than_train_rows() -> None:
+def test_build_cache_rows_keeps_good_rows_even_when_flagged() -> None:
     train_rows = build_train_rows(
         [
             _teacher_answer(course_id="24373", question_id="24373:q:0012"),
@@ -89,12 +89,41 @@ def test_build_cache_rows_is_stricter_than_train_rows() -> None:
                 question_text="What is matplotlib?",
                 weak_grounding=True,
             ),
+            _teacher_answer(
+                course_id="24373",
+                question_id="24373:q:0014",
+                question_text="What is seaborn?",
+                needs_review=True,
+            ),
         ]
     )
 
     cache_rows = build_cache_rows(train_rows)
 
-    assert len(train_rows) == 2
+    assert len(train_rows) == 3
+    assert len(cache_rows) == 3
+    assert [row.question_text for row in cache_rows] == [
+        "What is pandas?",
+        "What is matplotlib?",
+        "What is seaborn?",
+    ]
+
+
+def test_build_cache_rows_excludes_only_truly_bad_rows() -> None:
+    train_rows = build_train_rows(
+        [
+            _teacher_answer(course_id="24373", question_id="24373:q:0012"),
+            _teacher_answer(
+                course_id="24373",
+                question_id="24373:q:0015",
+                question_text="What is off topic?",
+                off_topic=True,
+            ),
+        ]
+    )
+
+    cache_rows = build_cache_rows(train_rows)
+
     assert len(cache_rows) == 1
     assert cache_rows[0].question_text == "What is pandas?"
 
