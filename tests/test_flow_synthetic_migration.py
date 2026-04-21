@@ -374,3 +374,89 @@ def test_main_flow_retains_correct_generic_rows_across_outputs(tmp_path: Path) -
     assert cache_rows[0]["cache_eligible"] is True
     assert bundle["final_rows"][0]["question_text"] == "What is pandas?"
     assert bundle["final_rows"][0]["status"] == "answered"
+
+
+def test_main_flow_derives_shared_answers_from_teacher_answers_when_semantic_answers_are_missing(
+    tmp_path: Path,
+) -> None:
+    input_dir = tmp_path / "input"
+    run_dir = tmp_path / "run"
+    final_dir = tmp_path / "final"
+    _write_course(input_dir / "course.yaml")
+
+    semantic_client = LLMClient(
+        api_key=None,
+        model="gpt-5.4",
+        client=FakeOpenAIClient(
+            "gpt-5.4",
+            [
+                {
+                    "topics": [
+                        {
+                            "label": "ARIMA",
+                            "normalized_label": "arima",
+                            "topic_type": "concept",
+                            "confidence": 0.94,
+                            "course_centrality": 0.95,
+                            "source_refs": ["overview"],
+                            "rationale": "Central concept.",
+                        }
+                    ],
+                    "correlated_topics": [],
+                    "topic_questions": [
+                        {
+                            "question_id": "sq_001",
+                            "question_text": "What is ARIMA?",
+                            "question_family": "what_is",
+                            "relevant_topics": ["arima"],
+                            "question_scope": "single_topic",
+                            "rationale": "Natural entry question.",
+                        }
+                    ],
+                    "correlated_topic_questions": [],
+                    "synthetic_answers": [],
+                }
+            ],
+        ),
+    )
+    review_client = LLMClient(
+        api_key=None,
+        model="gpt-5.4",
+        client=FakeOpenAIClient("gpt-5.4", [{"decisions": []}]),
+    )
+    teacher_client = LLMClient(
+        api_key=None,
+        model="gpt-5.4",
+        client=FakeOpenAIClient(
+            "gpt-5.4",
+            [
+                {
+                    "teacher_answer": "ARIMA is a forecasting model for time series data.",
+                    "course_aligned": True,
+                    "weak_grounding": False,
+                    "off_topic": False,
+                    "needs_review": False,
+                }
+            ],
+        ),
+    )
+
+    result = course_question_pipeline_flow(
+        input_dir=str(input_dir),
+        output_dir=str(run_dir),
+        final_dir=str(final_dir),
+        publish=True,
+        semantic_client=semantic_client,
+        review_client=review_client,
+        teacher_client=teacher_client,
+    )
+
+    assert result["run_summary"]["answered_count"] == 1
+    answers = read_jsonl(run_dir / "answers.jsonl")
+    bundle = read_yaml(final_dir / "course_yaml" / "24372.yaml")
+
+    assert len(answers) == 1
+    assert answers[0]["answer_text"] == "ARIMA is a forecasting model for time series data."
+    assert answers[0]["provenance"]["answer_source"] == "teacher_answer_draft"
+    assert bundle["answers"][0]["answer_text"] == answers[0]["answer_text"]
+    assert bundle["final_rows"][0]["question_answer"] == answers[0]["answer_text"]

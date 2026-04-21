@@ -221,6 +221,10 @@ def _process_course(
             model_name=semantic_client.model,
         )
     )
+    answers = _merge_answers_with_teacher_drafts(
+        answers=answers,
+        teacher_answer_drafts=teacher_answer_drafts,
+    )
     train_rows = build_train_rows(teacher_answer_drafts)
     cache_rows = build_cache_rows(train_rows)
     timer.finish(
@@ -422,6 +426,40 @@ def _teacher_drafts_from_semantic_answers(
             )
         )
     return drafts
+
+
+def _merge_answers_with_teacher_drafts(
+    *,
+    answers,
+    teacher_answer_drafts,
+):
+    from course_pipeline.schemas import AnswerRecord
+
+    merged = list(answers)
+    existing_question_ids = {answer.question_id for answer in merged}
+    for draft in teacher_answer_drafts:
+        if draft.question_id in existing_question_ids:
+            continue
+        if not draft.teacher_answer.strip() or draft.off_topic:
+            continue
+        merged.append(
+            AnswerRecord(
+                question_id=draft.question_id,
+                question_text=draft.question_text,
+                answer_text=draft.teacher_answer,
+                correctness="correct",
+                confidence=1.0,
+                answer_mode="synthetic_tutor_answer",
+                validation_status="accept",
+                provenance={
+                    "teacher_model_name": draft.model_name,
+                    "prompt_family": draft.prompt_family,
+                    "answer_source": "teacher_answer_draft",
+                },
+            )
+        )
+        existing_question_ids.add(draft.question_id)
+    return merged
 
 
 if __name__ == "__main__":
