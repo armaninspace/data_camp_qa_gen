@@ -44,6 +44,7 @@ def run_semantic_stage_for_course(
             provider_request_id=semantic_response.response_id,
             latency_ms=latency_ms,
             tokens_in=semantic_response.usage.tokens_in,
+            cached_tokens_in=semantic_response.usage.cached_tokens_in,
             tokens_out=semantic_response.usage.tokens_out,
             retry_count=0,
             status="success",

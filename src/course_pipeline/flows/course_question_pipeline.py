@@ -9,6 +9,7 @@ from prefect import flow, task
 from course_pipeline.config import Settings
 from course_pipeline.io_utils import normalized_relative_paths, write_jsonl
 from course_pipeline.llm import LLMClient
+from course_pipeline.pricing import fetch_live_pricing_snapshot
 from course_pipeline.run_logging import RunLogger, StageTimer
 from course_pipeline.tasks.aggregate_semantic_outputs import (
     apply_semantic_review,
@@ -298,6 +299,16 @@ def course_question_pipeline_flow(
     logger = RunLogger(run_id=output.name or "run", root_dir=output)
     logger.ensure_files()
     settings = Settings()
+    uses_configured_openai_client = (
+        semantic_client is None or review_client is None or teacher_client is None
+    )
+    if settings.openai_api_key and uses_configured_openai_client:
+        pricing_snapshot = fetch_live_pricing_snapshot()
+        logger.write_pricing_snapshot(pricing_snapshot)
+        logger.log_pipeline(
+            "pricing snapshot fetched "
+            f"source={pricing_snapshot['source_url']} fetched_at={pricing_snapshot['fetched_at']}"
+        )
     semantic_client = semantic_client or LLMClient(
         api_key=settings.openai_api_key,
         model=settings.model_semantic_primary,

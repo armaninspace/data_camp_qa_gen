@@ -159,6 +159,22 @@ def test_main_flow_publishes_synthetic_answers(tmp_path: Path) -> None:
             ],
         ),
     )
+    teacher_client = LLMClient(
+        api_key=None,
+        model="gpt-5.4",
+        client=FakeOpenAIClient(
+            "gpt-5.4",
+            [
+                {
+                    "teacher_answer": "ARIMA is a forecasting model that combines autoregression, differencing, and moving averages.",
+                    "course_aligned": True,
+                    "weak_grounding": False,
+                    "off_topic": False,
+                    "needs_review": False,
+                }
+            ],
+        ),
+    )
 
     result = course_question_pipeline_flow(
         input_dir=str(input_dir),
@@ -167,6 +183,7 @@ def test_main_flow_publishes_synthetic_answers(tmp_path: Path) -> None:
         publish=True,
         semantic_client=semantic_client,
         review_client=review_client,
+        teacher_client=teacher_client,
     )
 
     assert result["run_summary"]["course_count"] == 1
@@ -205,7 +222,27 @@ def test_main_flow_fails_closed_without_grounded_fallback(tmp_path: Path) -> Non
             semantic_client=LLMClient(
                 api_key=None, model="gpt-5.4", client=FailingOpenAIClient()
             ),
-            review_client=None,
+            review_client=LLMClient(
+                api_key=None,
+                model="gpt-5.4",
+                client=FakeOpenAIClient("gpt-5.4", [{"decisions": []}]),
+            ),
+            teacher_client=LLMClient(
+                api_key=None,
+                model="gpt-5.4",
+                client=FakeOpenAIClient(
+                    "gpt-5.4",
+                    [
+                        {
+                            "teacher_answer": "unused",
+                            "course_aligned": True,
+                            "weak_grounding": False,
+                            "off_topic": False,
+                            "needs_review": False,
+                        }
+                    ],
+                ),
+            ),
         )
     except RuntimeError as exc:
         assert "semantic_stage" in str(exc)

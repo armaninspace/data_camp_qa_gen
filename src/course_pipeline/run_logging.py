@@ -6,6 +6,8 @@ from pathlib import Path
 import json
 import time
 
+from course_pipeline.pricing import compute_llm_call_cost, load_pricing_snapshot, persist_pricing_snapshot
+
 
 def _now_iso() -> str:
     return datetime.now(UTC).isoformat()
@@ -35,6 +37,10 @@ class RunLogger:
         return self.logs_dir / "llm_calls.jsonl"
 
     @property
+    def pricing_snapshot_path(self) -> Path:
+        return self.logs_dir / "pricing_snapshot.json"
+
+    @property
     def stage_metrics_path(self) -> Path:
         return self.logs_dir / "stage_metrics.jsonl"
 
@@ -56,6 +62,12 @@ class RunLogger:
             self.inspection_log_path,
         ):
             path.touch(exist_ok=True)
+
+    def write_pricing_snapshot(self, snapshot: dict) -> None:
+        persist_pricing_snapshot(self.pricing_snapshot_path, snapshot)
+
+    def load_pricing_snapshot(self) -> dict | None:
+        return load_pricing_snapshot(self.pricing_snapshot_path)
 
     def log_pipeline(self, message: str, *, level: str = "INFO") -> None:
         _append_line(
@@ -117,10 +129,18 @@ class RunLogger:
         provider_request_id: str | None,
         latency_ms: int | None,
         tokens_in: int | None,
+        cached_tokens_in: int | None = None,
         tokens_out: int | None,
         retry_count: int,
         status: str,
     ) -> None:
+        cost_payload = compute_llm_call_cost(
+            pricing_snapshot=self.load_pricing_snapshot(),
+            actual_model=actual_model,
+            tokens_in=tokens_in,
+            cached_tokens_in=cached_tokens_in,
+            tokens_out=tokens_out,
+        )
         payload = {
             "timestamp": _now_iso(),
             "run_id": self.run_id,
@@ -134,9 +154,11 @@ class RunLogger:
             "provider_request_id": provider_request_id,
             "latency_ms": latency_ms,
             "tokens_in": tokens_in,
+            "cached_tokens_in": cached_tokens_in,
             "tokens_out": tokens_out,
             "retry_count": retry_count,
             "status": status,
+            **cost_payload,
         }
         _append_line(self.llm_calls_path, json.dumps(payload, ensure_ascii=False))
 

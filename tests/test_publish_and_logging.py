@@ -3,6 +3,7 @@ from __future__ import annotations
 from pathlib import Path
 import json
 
+from course_pipeline.pricing import fetch_live_pricing_snapshot
 from course_pipeline.run_logging import RunLogger
 from course_pipeline.run_logging import StageTimer
 from course_pipeline.tasks.render import publish_final_outputs
@@ -68,6 +69,17 @@ def test_publish_final_outputs_merges_and_logs(tmp_path: Path) -> None:
 def test_llm_log_shape(tmp_path: Path) -> None:
     logger = RunLogger(run_id="run", root_dir=tmp_path)
     logger.ensure_files()
+    logger.write_pricing_snapshot(
+        fetch_live_pricing_snapshot(
+            fetch_text=lambda url: """
+            <h2>GPT-5.4</h2>
+            <p>Input:</p><p>$2.50 / 1M tokens</p>
+            <p>Cached input:</p><p>$0.25 / 1M tokens</p>
+            <p>Output:</p><p>$15.00 / 1M tokens</p>
+            """,
+            fetched_at="2026-04-21T00:00:00+00:00",
+        )
+    )
     logger.log_llm_call(
         course_id="1",
         stage="extract_atomic_topics",
@@ -79,6 +91,7 @@ def test_llm_log_shape(tmp_path: Path) -> None:
         provider_request_id="req_1",
         latency_ms=123,
         tokens_in=10,
+        cached_tokens_in=4,
         tokens_out=20,
         retry_count=0,
         status="success",
@@ -87,6 +100,9 @@ def test_llm_log_shape(tmp_path: Path) -> None:
     payload = (tmp_path / "logs" / "llm_calls.jsonl").read_text(encoding="utf-8")
     assert '"actual_model_source": "response.model"' in payload
     assert '"actual_model": "gpt-5.4-2025-01-01"' in payload
+    assert '"cached_tokens_in": 4' in payload
+    assert '"resolved_pricing_model": "gpt-5.4"' in payload
+    assert '"cost_status": "ok"' in payload
 
 
 def test_stage_metrics_log_started_and_completed_events(tmp_path: Path) -> None:

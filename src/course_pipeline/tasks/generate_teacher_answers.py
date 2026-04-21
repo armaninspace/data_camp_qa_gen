@@ -48,6 +48,7 @@ def generate_teacher_answer(
             provider_request_id=answer_response.response_id,
             latency_ms=latency_ms,
             tokens_in=answer_response.usage.tokens_in,
+            cached_tokens_in=answer_response.usage.cached_tokens_in,
             tokens_out=answer_response.usage.tokens_out,
             retry_count=0,
             status="success",
