@@ -57,6 +57,20 @@ RepairStatus = Literal["accepted", "repaired", "rejected"]
 QuestionStatus = Literal["answered", "rejected", "errored"]
 TopicDecision = Literal["keep", "keep_entry_only", "keep_no_pairwise", "reject"]
 PairDecision = Literal["keep_pair", "reject_pair"]
+QuestionIntent = Literal[
+    "definition",
+    "purpose",
+    "usage",
+    "comparison",
+    "relationship",
+    "procedure",
+    "decision",
+    "example",
+    "troubleshooting",
+    "interpretation",
+    "prerequisite",
+    "other",
+]
 
 
 class Chapter(BaseModel):
@@ -76,6 +90,52 @@ class NormalizedCourse(BaseModel):
     chapters: list[Chapter] = Field(default_factory=list)
     metadata: dict = Field(default_factory=dict)
     source_refs: dict = Field(default_factory=dict)
+
+
+class AnswerStyle(BaseModel):
+    depth: str
+    tone: str
+    prefer_examples: bool = False
+    prefer_definitions: bool = False
+    keep_short: bool = True
+
+
+class CourseContextFrame(BaseModel):
+    course_id: str
+    course_title: str
+    learner_level: str | None = None
+    domain: str
+    primary_tools: list[str] = Field(default_factory=list)
+    core_tasks: list[str] = Field(default_factory=list)
+    scope_bias: list[str] = Field(default_factory=list)
+    answer_style: AnswerStyle
+
+
+class QuestionContextFrame(BaseModel):
+    question_id: str
+    course_id: str
+    question_text: str
+    question_intent: QuestionIntent
+    relevant_topics: list[str] = Field(default_factory=list)
+    chapter_scope: list[str] = Field(default_factory=list)
+    expected_answer_shape: list[str] = Field(default_factory=list)
+    scope_bias: list[str] = Field(default_factory=list)
+    support_refs: list[str] = Field(default_factory=list)
+
+
+class ProvidedContext(BaseModel):
+    course_context_frame: CourseContextFrame
+    question_context_frame: QuestionContextFrame
+
+
+class AnswerQualityFlags(BaseModel):
+    course_aligned: bool = False
+    weak_grounding: bool = False
+    off_topic: bool = False
+    duplicate_signature: str | None = None
+    cache_eligible: bool = False
+    train_eligible: bool = False
+    needs_review: bool = False
 
 
 class TopicEvidence(BaseModel):
@@ -325,6 +385,67 @@ class FineTuneRow(BaseModel):
     answer_mode: AnswerMode
     provenance: dict = Field(default_factory=dict)
     metadata: dict = Field(default_factory=dict)
+
+
+class TrainRow(BaseModel):
+    row_id: str
+    course_id: str
+    question_id: str
+    question_text: str
+    provided_context: ProvidedContext
+    teacher_answer: str
+    question_variants: list[str] = Field(default_factory=list)
+    answer_quality_flags: AnswerQualityFlags
+    global_question_signature: str | None = None
+    cross_course_similarity: list[str] = Field(default_factory=list)
+
+    @field_validator("question_variants", mode="before")
+    @classmethod
+    def _coerce_question_variants(cls, value: object) -> list[str]:
+        if value is None:
+            return []
+        if isinstance(value, str):
+            return [value]
+        return list(value)
+
+    @field_validator("question_variants")
+    @classmethod
+    def _dedupe_question_variants(cls, value: list[str]) -> list[str]:
+        seen: list[str] = []
+        for item in value:
+            if item not in seen:
+                seen.append(item)
+        return seen
+
+
+class CacheRow(BaseModel):
+    cache_key: str
+    course_id: str
+    question_text: str
+    question_variants: list[str] = Field(default_factory=list)
+    provided_context: ProvidedContext
+    canonical_answer: str
+    cache_eligible: bool
+    global_question_signature: str | None = None
+    cross_course_similarity: list[str] = Field(default_factory=list)
+
+    @field_validator("question_variants", mode="before")
+    @classmethod
+    def _coerce_question_variants(cls, value: object) -> list[str]:
+        if value is None:
+            return []
+        if isinstance(value, str):
+            return [value]
+        return list(value)
+
+    @field_validator("question_variants")
+    @classmethod
+    def _dedupe_question_variants(cls, value: list[str]) -> list[str]:
+        seen: list[str] = []
+        for item in value:
+            if item not in seen:
+                seen.append(item)
+        return seen
 
 
 class ExcludedCourseRecord(BaseModel):
