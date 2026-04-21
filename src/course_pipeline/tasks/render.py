@@ -12,6 +12,7 @@ from course_pipeline.io_utils import (
     write_jsonl,
     write_yaml,
 )
+from course_pipeline.pricing import load_pricing_snapshot
 from course_pipeline.run_logging import RunLogger
 from course_pipeline.schemas import (
     AnswerRecord,
@@ -299,7 +300,9 @@ def rebuild_run_summary(output_dir: str | Path) -> dict[str, Any]:
         ),
     }
     quality_metrics = _quality_metrics(out)
+    llm_metrics = _llm_usage_cost_metrics(out)
     summary.update(quality_metrics)
+    summary.update(llm_metrics)
     summary["rejected_count"] = summary["rejected_question_count"]
     summary["errored_count"] = summary["errored_question_count"]
     summary["quality_metrics"] = quality_metrics
@@ -521,3 +524,86 @@ def _quality_metrics(output_dir: Path) -> dict[str, Any]:
         "comparison_question_count": len(pairwise_questions),
         "entry_question_count": sum(row.get("family") == "entry" for row in single_questions),
     }
+
+
+def _llm_usage_cost_metrics(output_dir: Path) -> dict[str, Any]:
+    llm_calls = read_jsonl(output_dir / "logs" / "llm_calls.jsonl")
+    pricing_snapshot = load_pricing_snapshot(output_dir / "logs" / "pricing_snapshot.json")
+
+    cost_by_stage: defaultdict[str, float] = defaultdict(float)
+    cost_by_model: defaultdict[str, float] = defaultdict(float)
+    tokens_in_total = 0
+    cached_tokens_in_total = 0
+    tokens_out_total = 0
+    cost_total = 0.0
+    calls_with_cost = 0
+    missing_usage = 0
+    unknown_pricing = 0
+    pricing_unavailable = 0
+
+    for call in llm_calls:
+        tokens_in = call.get("tokens_in")
+        if isinstance(tokens_in, int):
+            tokens_in_total += tokens_in
+
+        cached_tokens_in = call.get("cached_tokens_in")
+        if isinstance(cached_tokens_in, int):
+            cached_tokens_in_total += cached_tokens_in
+
+        tokens_out = call.get("tokens_out")
+        if isinstance(tokens_out, int):
+            tokens_out_total += tokens_out
+
+        cost_status = call.get("cost_status")
+        if cost_status == "missing_usage":
+            missing_usage += 1
+        elif cost_status == "unknown_model":
+            unknown_pricing += 1
+        elif cost_status == "pricing_unavailable":
+            pricing_unavailable += 1
+
+        cost_value = call.get("cost_total_usd")
+        if isinstance(cost_value, (int, float)):
+            calls_with_cost += 1
+            cost_total += float(cost_value)
+            stage = str(call.get("stage") or "unknown")
+            model = str(
+                call.get("resolved_pricing_model")
+                or call.get("actual_model")
+                or call.get("configured_model")
+                or "unknown"
+            )
+            cost_by_stage[stage] += float(cost_value)
+            cost_by_model[model] += float(cost_value)
+
+    if not llm_calls:
+        cost_reporting_status = "no_calls"
+    elif missing_usage or unknown_pricing or pricing_unavailable:
+        cost_reporting_status = "partial"
+    else:
+        cost_reporting_status = "ok"
+
+    return {
+        "llm_call_count": len(llm_calls),
+        "llm_calls_with_cost": calls_with_cost,
+        "llm_calls_missing_usage": missing_usage,
+        "llm_calls_unknown_pricing": unknown_pricing,
+        "llm_calls_pricing_unavailable": pricing_unavailable,
+        "llm_tokens_in_total": tokens_in_total,
+        "llm_cached_tokens_in_total": cached_tokens_in_total,
+        "llm_tokens_out_total": tokens_out_total,
+        "llm_cost_total_usd": _round_cost(cost_total),
+        "llm_cost_by_stage": {
+            key: _round_cost(value) for key, value in sorted(cost_by_stage.items())
+        },
+        "llm_cost_by_model": {
+            key: _round_cost(value) for key, value in sorted(cost_by_model.items())
+        },
+        "llm_pricing_source": None if pricing_snapshot is None else pricing_snapshot.get("source_url"),
+        "llm_pricing_fetched_at": None if pricing_snapshot is None else pricing_snapshot.get("fetched_at"),
+        "llm_cost_reporting_status": cost_reporting_status,
+    }
+
+
+def _round_cost(value: float) -> float:
+    return round(value, 12)

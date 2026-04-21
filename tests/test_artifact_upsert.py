@@ -1,10 +1,12 @@
 from __future__ import annotations
 
 from pathlib import Path
+import json
 
 import pytest
 
 from course_pipeline.io_utils import write_jsonl
+from course_pipeline.pricing import fetch_live_pricing_snapshot
 from course_pipeline.schemas import (
     AnswerRecord,
     CanonicalTopic,
@@ -198,3 +200,98 @@ def test_rendered_output_consistency_fails_when_bundle_rows_are_missing_from_sha
 
     with pytest.raises(RuntimeError, match="consistency check failed"):
         validate_rendered_output_consistency(output_dir)
+
+
+def test_rebuild_run_summary_includes_llm_cost_rollups(tmp_path: Path) -> None:
+    output_dir = tmp_path / "run"
+
+    persist_stage_artifacts(
+        output_dir=output_dir,
+        course=_course("1", "One"),
+        topics=[_topic("t1", "matplotlib")],
+        canonical_topics=[_canonical("matplotlib", "t1")],
+        single_topic_questions=[_question("q1", "matplotlib")],
+        validations=[_validation("q1", "matplotlib", "What is matplotlib?")],
+        answers=[_answer("q1", "What is matplotlib?")],
+        rows=[_row("1", "One", "What is matplotlib?")],
+    )
+
+    pricing_snapshot = fetch_live_pricing_snapshot(
+        fetch_text=lambda url: """
+        <h2>GPT-5.4</h2>
+        <p>Input:</p><p>$2.50 / 1M tokens</p>
+        <p>Cached input:</p><p>$0.25 / 1M tokens</p>
+        <p>Output:</p><p>$15.00 / 1M tokens</p>
+        <h2>GPT-5.4 mini</h2>
+        <p>Input:</p><p>$0.75 / 1M tokens</p>
+        <p>Cached input:</p><p>$0.075 / 1M tokens</p>
+        <p>Output:</p><p>$4.50 / 1M tokens</p>
+        """,
+        fetched_at="2026-04-21T00:00:00+00:00",
+    )
+    logs_dir = output_dir / "logs"
+    logs_dir.mkdir(parents=True, exist_ok=True)
+    (logs_dir / "pricing_snapshot.json").write_text(
+        json.dumps(pricing_snapshot, ensure_ascii=False),
+        encoding="utf-8",
+    )
+    write_jsonl(
+        logs_dir / "llm_calls.jsonl",
+        [
+            {
+                "stage": "semantic_stage",
+                "configured_model": "gpt-5.4",
+                "actual_model": "gpt-5.4-2026-04-20",
+                "resolved_pricing_model": "gpt-5.4",
+                "tokens_in": 120,
+                "cached_tokens_in": 20,
+                "tokens_out": 40,
+                "cost_status": "ok",
+                "cost_total_usd": 0.000853,
+            },
+            {
+                "stage": "generate_teacher_answer",
+                "configured_model": "gpt-5.4-mini",
+                "actual_model": "gpt-5.4-mini-2026-04-20",
+                "resolved_pricing_model": "gpt-5.4-mini",
+                "tokens_in": 200,
+                "cached_tokens_in": 100,
+                "tokens_out": 50,
+                "cost_status": "ok",
+                "cost_total_usd": 0.00024,
+            },
+            {
+                "stage": "semantic_review",
+                "configured_model": "mystery-model",
+                "actual_model": "mystery-model",
+                "resolved_pricing_model": None,
+                "tokens_in": 10,
+                "cached_tokens_in": 0,
+                "tokens_out": 5,
+                "cost_status": "unknown_model",
+                "cost_total_usd": None,
+            },
+        ],
+    )
+
+    summary = rebuild_run_summary(output_dir)
+
+    assert summary["llm_call_count"] == 3
+    assert summary["llm_calls_with_cost"] == 2
+    assert summary["llm_calls_unknown_pricing"] == 1
+    assert summary["llm_calls_missing_usage"] == 0
+    assert summary["llm_tokens_in_total"] == 330
+    assert summary["llm_cached_tokens_in_total"] == 120
+    assert summary["llm_tokens_out_total"] == 95
+    assert summary["llm_cost_total_usd"] == 0.001093
+    assert summary["llm_cost_by_stage"] == {
+        "generate_teacher_answer": 0.00024,
+        "semantic_stage": 0.000853,
+    }
+    assert summary["llm_cost_by_model"] == {
+        "gpt-5.4": 0.000853,
+        "gpt-5.4-mini": 0.00024,
+    }
+    assert summary["llm_pricing_source"] == "https://openai.com/api/pricing/"
+    assert summary["llm_pricing_fetched_at"] == "2026-04-21T00:00:00+00:00"
+    assert summary["llm_cost_reporting_status"] == "partial"
