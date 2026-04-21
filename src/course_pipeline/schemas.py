@@ -448,6 +448,20 @@ class CacheRow(BaseModel):
         return seen
 
 
+class TeacherAnswerDraft(BaseModel):
+    course_id: str
+    question_id: str
+    question_text: str
+    provided_context: ProvidedContext
+    teacher_answer: str
+    course_aligned: bool = True
+    weak_grounding: bool = False
+    off_topic: bool = False
+    needs_review: bool = False
+    model_name: str
+    prompt_family: Literal["teacher_answer"] = "teacher_answer"
+
+
 class ExcludedCourseRecord(BaseModel):
     course_id: str
     source_path: str
