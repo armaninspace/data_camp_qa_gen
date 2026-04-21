@@ -240,7 +240,13 @@ def _process_course(
         stage="build_ledger_rows",
         input_row_count=len(validations),
     )
-    rows = build_ledger_rows(course, all_generated_questions, validations, answers)
+    rows = build_ledger_rows(
+        course,
+        all_generated_questions,
+        validations,
+        answers,
+        teacher_answer_drafts,
+    )
     timer.finish(output_row_count=len(rows))
 
     timer = StageTimer(
