@@ -308,9 +308,11 @@ Suggested operating pattern:
 The inspection bundle always reads from `data/final`, not from a transient run
 directory.
 
-For a given numeric `bundle_id`, the command selects 4 published courses at
-random from `data/final/course_yaml`, using the bundle id as the random seed.
-That means:
+By default, `mk_inspectgion_bundle` builds a `filtered` bundle.
+
+For a given numeric `bundle_id`, the filtered mode selects 4 published courses
+at random from `data/final/course_yaml`, using the bundle id as the random
+seed. That means:
 
 - different bundle ids usually produce different 4-course bundles
 - rerunning the same bundle id against the same published outputs is reproducible
@@ -318,9 +320,16 @@ That means:
 Rules that matter operationally:
 
 - bundle id must be digits only
+- export mode must be `filtered` or `full`
 - bundle creation fails if fewer than 4 published course bundles exist in
   `data/final/course_yaml`
 - the output directory is replaced on each run for the same bundle id
+- bundle creation now validates all exported artifacts against one canonical
+  selection and fails if any artifact drifts
+- filtered bundles now write:
+  - `run_summary.yaml` as the bundle-level filtered summary
+  - `source_run_summary.yaml` as the original published summary
+  - `bundle_validation.json` as the machine-readable validation report
 
 Useful commands:
 
@@ -328,6 +337,8 @@ Useful commands:
 ./scripts/mk_inspectgion_bundle.sh 0
 ./scripts/mk_inspectgion_bundle.sh 1
 ./scripts/mk_inspectgion_bundle.sh 011
+python -m course_pipeline.cli mk_inspectgion_bundle 14 --export-mode filtered
+python -m course_pipeline.cli mk_inspectgion_bundle 999 --export-mode full
 make mk_inspectgion_bundle BUNDLE_ID=0
 make mk_inspectgion_bundle BUNDLE_ID=011
 ```
@@ -403,8 +414,17 @@ make run_all_10_percent_with_bundles BUNDLE_EVERY=2 BUNDLE_ID_OFFSET=300
 What to inspect after bundle creation:
 
 - `tmp/inspectgion_bundl_<bundle_id>/pipeline_run_manifest.yaml`
+- `tmp/inspectgion_bundl_<bundle_id>/bundle_validation.json`
+- `tmp/inspectgion_bundl_<bundle_id>/run_summary.yaml`
+- `tmp/inspectgion_bundl_<bundle_id>/source_run_summary.yaml`
 - `tmp/inspectgion_bundl_<bundle_id>/inspectgion_bundle.log`
 - `tmp/inspectgion_bundl_<bundle_id>/course_yaml/`
+
+What to inspect after publish:
+
+- `data/final/run_summary.yaml`
+- `data/final/logs/llm_calls.jsonl`
+- `data/final/logs/pricing_snapshot.json`
 
 ## Environment Overrides
 
