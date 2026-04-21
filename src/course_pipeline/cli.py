@@ -429,6 +429,66 @@ def _validate_bundle_artifacts(
     }
 
 
+def _render_bundle_validation_markdown(report: dict[str, object]) -> str:
+    lines = [
+        "# Bundle Validation",
+        "",
+        f"- `bundle_id`: `{report['bundle_id']}`",
+        f"- `source_run_id`: `{report['source_run_id']}`",
+        f"- `export_mode`: `{report['export_mode']}`",
+        f"- `status`: `{report['status']}`",
+        "",
+        "## Expected Courses",
+        "",
+    ]
+    expected_course_ids = report.get("expected_course_ids", [])
+    for course_id in expected_course_ids:
+        lines.append(f"- `{course_id}`")
+
+    lines.extend(
+        [
+            "",
+            "## Artifact Validation",
+            "",
+            "| Artifact | Status | Expected Rows | Observed Rows | Expected Courses | Observed Courses |",
+            "| --- | --- | ---: | ---: | --- | --- |",
+        ]
+    )
+    artifacts = report.get("artifacts", {})
+    for artifact_name, payload in artifacts.items():
+        lines.append(
+            "| "
+            f"`{artifact_name}` | `{payload['status']}` | {payload['expected_row_count']} | {payload['observed_row_count']} | "
+            f"`{', '.join(payload['expected_course_ids'])}` | `{', '.join(payload['observed_course_ids'])}` |"
+        )
+        if payload["missing_ids"]:
+            lines.append(f"Missing ids: `{', '.join(payload['missing_ids'][:5])}`")
+        if payload["unexpected_ids"]:
+            lines.append(f"Unexpected ids: `{', '.join(payload['unexpected_ids'][:5])}`")
+
+    course_yaml = report.get("course_yaml", {})
+    lines.extend(
+        [
+            "",
+            "## Course YAML Validation",
+            "",
+            f"- `status`: `{course_yaml.get('status')}`",
+            f"- `expected_course_ids`: `{', '.join(course_yaml.get('expected_course_ids', []))}`",
+            f"- `observed_course_ids`: `{', '.join(course_yaml.get('observed_course_ids', []))}`",
+        ]
+    )
+    if course_yaml.get("missing_ids"):
+        lines.append(
+            f"- `missing_ids`: `{', '.join(course_yaml.get('missing_ids', [])[:5])}`"
+        )
+    if course_yaml.get("unexpected_ids"):
+        lines.append(
+            f"- `unexpected_ids`: `{', '.join(course_yaml.get('unexpected_ids', [])[:5])}`"
+        )
+
+    return "\n".join(lines) + "\n"
+
+
 @app.command()
 def run(
     input: str = typer.Option(..., help="Input directory of scraped courses."),
@@ -523,6 +583,13 @@ def mk_inspectgion_bundle(
         bundle_dir,
         f"bundle start bundle_id={bundle_id} source_dir={source_dir} export_mode={selection.export_mode}",
     )
+    _bundle_log(
+        bundle_dir,
+        "bundle selection "
+        f"selected_course_ids={selection.selected_course_ids} "
+        f"selected_question_ids={selection.selected_question_ids} "
+        f"selected_row_ids={selection.selected_row_ids}",
+    )
     artifact_counts: dict[str, dict[str, int]] = {}
     expected_rows_by_artifact: dict[str, list[dict]] = {}
     for artifact_name in ARTIFACT_FILES:
@@ -573,6 +640,10 @@ def mk_inspectgion_bundle(
     )
     (bundle_dir / "bundle_validation.json").write_text(
         json.dumps(validation_report, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+    (bundle_dir / "bundle_validation.md").write_text(
+        _render_bundle_validation_markdown(validation_report),
         encoding="utf-8",
     )
     if validation_report["status"] != "pass":

@@ -110,6 +110,7 @@ def test_mk_inspectgion_bundle_filters_selected_courses(tmp_path: Path) -> None:
     assert "selection_seed" not in manifest
     assert (bundle_dir / "inspectgion_bundle.log").exists()
     assert (bundle_dir / "bundle_validation.json").exists()
+    assert (bundle_dir / "bundle_validation.md").exists()
     assert (bundle_dir / "semantic_topics.jsonl").exists()
     assert (bundle_dir / "semantic_synthetic_answers.jsonl").exists()
     selected_files = sorted(path.stem for path in (bundle_dir / "course_yaml").glob("*.yaml"))
@@ -132,6 +133,11 @@ def test_mk_inspectgion_bundle_filters_selected_courses(tmp_path: Path) -> None:
     validation = json.loads((bundle_dir / "bundle_validation.json").read_text(encoding="utf-8"))
     assert validation["status"] == "pass"
     assert validation["expected_course_ids"] == selected_files
+    validation_md = (bundle_dir / "bundle_validation.md").read_text(encoding="utf-8")
+    assert "# Bundle Validation" in validation_md
+    assert "`status`: `pass`" in validation_md
+    bundle_log = (bundle_dir / "inspectgion_bundle.log").read_text(encoding="utf-8")
+    assert "bundle selection selected_course_ids=" in bundle_log
 
 
 def test_run_accepts_publish_boolean_string_and_flag_forms(
