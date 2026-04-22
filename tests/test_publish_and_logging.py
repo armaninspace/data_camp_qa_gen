@@ -27,7 +27,7 @@ def test_publish_final_outputs_merges_and_logs(tmp_path: Path) -> None:
         "semantic_synthetic_answers.jsonl": '{"course_id": "1", "question_text": "What is t1?"}\n',
         "semantic_review_decisions.jsonl": '{"course_id": "1", "target_id": "q1", "decision": "keep"}\n',
         "answers.jsonl": '{"course_id": "1", "question_id": "q1", "correctness": "correct", "answer_text": "answer", "answer_mode": "synthetic_tutor_answer", "validation_status": "accept", "evidence": [{"source": "overview", "text": "answer"}]}\n',
-        "all_rows.jsonl": '{"course": {"course_id": "1", "title": "One"}, "status": "answered"}\n',
+        "all_rows.jsonl": '{"row_id": "r1", "question_id": "q1", "course": {"course_id": "1", "title": "One"}, "question_text": "What is t1?", "question_answer": "answer", "correctness": "correct", "question_family": "entry", "relevant_topics": ["t1"], "source_refs": [], "source_evidence": [], "status": "answered"}\n',
     }
     for name, content in artifacts.items():
         (run_dir / name).write_text(content, encoding="utf-8")

@@ -468,75 +468,73 @@ def test_main_flow_derives_shared_answers_from_teacher_answers_when_semantic_ans
     assert bundle["final_rows"][0]["question_answer"] == answers[0]["answer_text"]
 
 
-def test_main_flow_reports_entry_metric_without_failing_on_missing_anchor_coverage(tmp_path: Path) -> None:
+def test_main_flow_fails_when_required_entry_coverage_is_missing(tmp_path: Path) -> None:
     input_dir = tmp_path / "input"
     run_dir = tmp_path / "run"
     final_dir = tmp_path / "final"
     _write_course(input_dir / "course.yaml")
 
-    result = course_question_pipeline_flow(
-        input_dir=str(input_dir),
-        output_dir=str(run_dir),
-        final_dir=str(final_dir),
-        publish=True,
-        semantic_client=LLMClient(
-            api_key=None,
-            model="gpt-5.4",
-            client=FakeOpenAIClient(
-                "gpt-5.4",
-                [
-                    {
-                        "topics": [
-                            {
-                                "label": "ARIMA",
-                                "normalized_label": "arima",
-                                "topic_type": "concept",
-                                "confidence": 0.94,
-                                "course_centrality": 0.95,
-                                "source_refs": ["overview"],
-                                "rationale": "Central concept.",
-                            }
-                        ],
-                        "correlated_topics": [],
-                        "topic_questions": [
-                            {
-                                "question_id": "sq_001",
-                                "question_text": "Why is ARIMA useful?",
-                                "question_family": "why_is",
-                                "relevant_topics": ["arima"],
-                                "question_scope": "single_topic",
-                                "rationale": "Purpose question only.",
-                                "source_refs": ["overview"],
-                            }
-                        ],
-                        "correlated_topic_questions": [],
-                        "synthetic_answers": [],
-                    }
-                ],
+    with pytest.raises(RuntimeError, match="required entry coverage missing for anchors: arima"):
+        course_question_pipeline_flow(
+            input_dir=str(input_dir),
+            output_dir=str(run_dir),
+            final_dir=str(final_dir),
+            publish=True,
+            semantic_client=LLMClient(
+                api_key=None,
+                model="gpt-5.4",
+                client=FakeOpenAIClient(
+                    "gpt-5.4",
+                    [
+                        {
+                            "topics": [
+                                {
+                                    "label": "ARIMA",
+                                    "normalized_label": "arima",
+                                    "topic_type": "concept",
+                                    "confidence": 0.94,
+                                    "course_centrality": 0.95,
+                                    "source_refs": ["overview"],
+                                    "rationale": "Central concept.",
+                                }
+                            ],
+                            "correlated_topics": [],
+                            "topic_questions": [
+                                {
+                                    "question_id": "sq_001",
+                                    "question_text": "Why is ARIMA useful?",
+                                    "question_family": "why_is",
+                                    "relevant_topics": ["arima"],
+                                    "question_scope": "single_topic",
+                                    "rationale": "Purpose question only.",
+                                    "source_refs": ["overview"],
+                                }
+                            ],
+                            "correlated_topic_questions": [],
+                            "synthetic_answers": [],
+                        }
+                    ],
+                ),
             ),
-        ),
-        review_client=LLMClient(
-            api_key=None,
-            model="gpt-5.4",
-            client=FakeOpenAIClient("gpt-5.4", [{"decisions": []}]),
-        ),
-        teacher_client=LLMClient(
-            api_key=None,
-            model="gpt-5.4",
-            client=FakeOpenAIClient(
-                "gpt-5.4",
-                [
-                    {
-                        "teacher_answer": "ARIMA is useful for forecasting.",
-                        "course_aligned": True,
-                        "weak_grounding": False,
-                        "off_topic": False,
-                        "needs_review": False,
-                    }
-                ],
+            review_client=LLMClient(
+                api_key=None,
+                model="gpt-5.4",
+                client=FakeOpenAIClient("gpt-5.4", [{"decisions": []}]),
             ),
-        ),
-    )
-
-    assert result["run_summary"]["course_count"] == 1
-    assert result["run_summary"]["entry_question_count"] == 0
+            teacher_client=LLMClient(
+                api_key=None,
+                model="gpt-5.4",
+                client=FakeOpenAIClient(
+                    "gpt-5.4",
+                    [
+                        {
+                            "teacher_answer": "ARIMA is useful for forecasting.",
+                            "course_aligned": True,
+                            "weak_grounding": False,
+                            "off_topic": False,
+                            "needs_review": False,
+                        }
+                    ],
+                ),
+            ),
+        )

@@ -5,7 +5,7 @@ import json
 
 import pytest
 
-from course_pipeline.io_utils import write_jsonl
+from course_pipeline.io_utils import read_jsonl, write_jsonl
 from course_pipeline.pricing import fetch_live_pricing_snapshot
 from course_pipeline.schemas import (
     AnswerRecord,
@@ -82,6 +82,7 @@ def _answer(candidate_id: str, text: str) -> AnswerRecord:
 def _row(course_id: str, title: str, text: str) -> LedgerRow:
     return LedgerRow(
         row_id=f"row_{course_id}",
+        question_id=f"q_{course_id}",
         course={"course_id": course_id, "title": title},
         relevant_topics=["topic"],
         question_text=text,
@@ -185,6 +186,33 @@ def test_rebuild_run_summary_uses_shared_rows_and_keeps_zero_row_courses(tmp_pat
     assert summary["llm_cost_reporting_status"] == "usage_reporting_unavailable"
 
 
+def test_persist_stage_artifacts_derives_shared_answers_from_terminal_rows(tmp_path: Path) -> None:
+    output_dir = tmp_path / "run"
+
+    persist_stage_artifacts(
+        output_dir=output_dir,
+        course=_course("1", "One"),
+        topics=[],
+        canonical_topics=[],
+        single_topic_questions=[],
+        validations=[],
+        answers=[
+            AnswerRecord(
+                question_id="orphan_q",
+                question_text="What is orphaned?",
+                answer_text="orphan answer",
+                correctness="correct",
+            )
+        ],
+        rows=[_row("1", "One", "What is topic?")],
+    )
+
+    shared_answers = read_jsonl(output_dir / "answers.jsonl")
+
+    assert len(shared_answers) == 1
+    assert shared_answers[0]["question_id"] == "q_1"
+    assert shared_answers[0]["question_text"] == "What is topic?"
+    assert shared_answers[0]["answer_text"] == "answer"
 def test_rebuild_run_summary_counts_what_is_semantic_questions_as_entry(tmp_path: Path) -> None:
     output_dir = tmp_path / "run"
 

@@ -15,8 +15,15 @@ These documents define the current target reshape of the pipeline:
 
 These documents remain useful as supporting operational or repo context:
 
-- `clean_sheet_spec.md`
 - `operations_cheat_sheet.md`
+
+The following active-path docs are historical reference only and should not be
+treated as the canonical contract for new implementation work:
+
+- `clean_sheet_spec.md`
+- `codex_qa_addendum.md`
+- `remediation-direction.md`
+- `interrogation_answers.md`
 
 ## Sunset docs
 

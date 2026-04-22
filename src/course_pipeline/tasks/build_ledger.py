@@ -32,6 +32,7 @@ def build_ledger_rows(
             rows.append(
                 LedgerRow(
                     row_id=f"r_{len(rows)+1:06d}",
+                    question_id=validation.question_id,
                     course={
                         "course_id": course.course_id,
                         "title": course.title,
@@ -55,6 +56,7 @@ def build_ledger_rows(
                 rows.append(
                     LedgerRow(
                         row_id=f"r_{len(rows)+1:06d}",
+                        question_id=validation.question_id,
                         course={
                             "course_id": course.course_id,
                             "title": course.title,
@@ -74,6 +76,7 @@ def build_ledger_rows(
             rows.append(
                 LedgerRow(
                     row_id=f"r_{len(rows)+1:06d}",
+                    question_id=validation.question_id,
                     course={
                         "course_id": course.course_id,
                         "title": course.title,
@@ -94,6 +97,7 @@ def build_ledger_rows(
         rows.append(
             LedgerRow(
                 row_id=f"r_{len(rows)+1:06d}",
+                question_id=validation.question_id,
                 course={
                     "course_id": course.course_id,
                     "title": course.title,

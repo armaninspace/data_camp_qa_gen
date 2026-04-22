@@ -53,7 +53,7 @@ def _write_final_fixture(root: Path, course_id: str) -> None:
                 )
             elif artifact_name == "all_rows.jsonl":
                 handle.write(
-                    f'{{"row_id": "r_{course_id}", "course": {{"course_id": "{course_id}", "title": "Title {course_id}"}}, "relevant_topics": ["topic {course_id}"], "question_text": "What is topic {course_id}?", "question_answer": "Answer {course_id}", "correctness": "correct", "question_family": "what_is", "status": "answered"}}\n'
+                    f'{{"row_id": "r_{course_id}", "question_id": "q_{course_id}", "course": {{"course_id": "{course_id}", "title": "Title {course_id}"}}, "relevant_topics": ["topic {course_id}"], "question_text": "What is topic {course_id}?", "question_answer": "Answer {course_id}", "correctness": "correct", "question_family": "what_is", "status": "answered"}}\n'
                 )
             else:
                 handle.write(f'{{"course_id": "{course_id}"}}\n')
@@ -68,6 +68,7 @@ def _write_final_fixture(root: Path, course_id: str) -> None:
             "    answer_mode: synthetic_tutor_answer\n"
             "final_rows:\n"
             f"  - row_id: r_{course_id}\n"
+            f"    question_id: q_{course_id}\n"
             f"    course:\n"
             f"      course_id: '{course_id}'\n"
             f"      title: Title {course_id}\n"

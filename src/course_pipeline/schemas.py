@@ -7,7 +7,7 @@ from pydantic import BaseModel, Field, field_validator
 
 Correctness = Literal["correct", "incorrect", "uncertain"]
 CourseQualityStatus = Literal["usable", "partial", "broken"]
-AnswerMode = Literal["grounded_course_answer", "synthetic_tutor_answer", "blended_answer"]
+AnswerMode = Literal["synthetic_tutor_answer"]
 SemanticTopicType = Literal[
     "concept",
     "procedure",
@@ -320,6 +320,7 @@ class AnswerRecord(BaseModel):
 
 class LedgerRow(BaseModel):
     row_id: str
+    question_id: str
     course: dict
     relevant_topics: list[str]
     question_text: str

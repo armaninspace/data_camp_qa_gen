@@ -107,6 +107,7 @@ def persist_stage_artifacts(
 ) -> None:
     out = Path(output_dir)
     course_ids = {course.course_id}
+    derived_answers = _derive_answers_from_rows(rows, answers)
     related_pairs = related_pairs or []
     single_topic_questions = single_topic_questions or []
     pairwise_questions = pairwise_questions or []
@@ -191,7 +192,7 @@ def persist_stage_artifacts(
         out / "answers.jsonl",
         [
             {"course_id": course.course_id, **answer.model_dump()}
-            for answer in answers
+            for answer in derived_answers
         ],
         course_ids,
     )
@@ -207,7 +208,7 @@ def persist_stage_artifacts(
         question_context_frames=question_context_frames,
         train_rows=train_rows,
         cache_rows=cache_rows,
-        answers=answers,
+        answers=derived_answers,
         final_rows=rows,
         summary={
             "course_context_frame_count": 0 if course_context_frame is None else 1,
@@ -232,12 +233,59 @@ def persist_stage_artifacts(
             "answered_count": sum(row.status == "answered" for row in rows),
             "rejected_question_count": sum(row.status == "rejected" for row in rows),
             "errored_question_count": sum(row.status == "errored" for row in rows),
-            "correct_count": sum(a.correctness == "correct" for a in answers),
-            "incorrect_count": sum(a.correctness == "incorrect" for a in answers),
-            "uncertain_count": sum(a.correctness == "uncertain" for a in answers),
+            "correct_count": sum(a.correctness == "correct" for a in derived_answers),
+            "incorrect_count": sum(a.correctness == "incorrect" for a in derived_answers),
+            "uncertain_count": sum(a.correctness == "uncertain" for a in derived_answers),
         },
     )
     write_yaml(out / "course_yaml" / f"{course.course_id}.yaml", bundle)
+
+
+def _derive_answers_from_rows(
+    rows: list[LedgerRow],
+    answers: list[AnswerRecord],
+) -> list[AnswerRecord]:
+    answer_by_question_id = {answer.question_id: answer for answer in answers}
+    derived_answers: list[AnswerRecord] = []
+
+    for row in rows:
+        if row.status != "answered":
+            continue
+        answer_text = str(row.question_answer or "").strip()
+        if not answer_text:
+            continue
+
+        existing = answer_by_question_id.get(row.question_id)
+        if existing is not None:
+            derived_answers.append(
+                existing.model_copy(
+                    update={
+                        "question_text": row.question_text,
+                        "answer_text": row.question_answer,
+                        "correctness": row.correctness or existing.correctness,
+                        "evidence": row.source_evidence or existing.evidence,
+                        "source_refs": row.source_refs or existing.source_refs,
+                        "answer_mode": "synthetic_tutor_answer",
+                    }
+                )
+            )
+            continue
+
+        derived_answers.append(
+            AnswerRecord(
+                question_id=row.question_id,
+                question_text=row.question_text,
+                answer_text=row.question_answer,
+                correctness=row.correctness or "uncertain",
+                evidence=row.source_evidence,
+                source_refs=row.source_refs,
+                answer_mode="synthetic_tutor_answer",
+                validation_status="accept",
+                provenance={"answer_source": "final_row"},
+            )
+        )
+
+    return derived_answers
 
 
 def rebuild_run_summary(output_dir: str | Path) -> dict[str, Any]:

@@ -101,4 +101,5 @@ def test_post_semantic_policy_reports_missing_anchor_when_no_entry_question_exis
     )
 
     assert report.missing_anchors == ["r"]
-    enforce_required_entry_coverage(report)
+    with pytest.raises(RuntimeError, match="required entry coverage missing for anchors: r"):
+        enforce_required_entry_coverage(report)

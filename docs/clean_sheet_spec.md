@@ -1,5 +1,9 @@
-
 # Clean-Sheet Pipeline Spec
+
+> Superseded note: this document describes an older staged design with grounded
+> extraction/answer assumptions. For current implementation work, use
+> `AGENTS.md`, `codex_full_spec_llm_semantic_pipeline.md`,
+> `pipeline-arch-v1.md`, and `ACCEPTANCE_CRITERIA.md` instead.
 
 ## Goal
 

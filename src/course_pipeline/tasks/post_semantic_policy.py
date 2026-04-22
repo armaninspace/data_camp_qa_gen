@@ -48,7 +48,10 @@ def apply_post_semantic_policy(
 
 
 def enforce_required_entry_coverage(report: PolicyCoverageReport) -> None:
-    return None
+    if not report.missing_anchors:
+        return None
+    missing = ", ".join(report.missing_anchors)
+    raise RuntimeError(f"required entry coverage missing for anchors: {missing}")
 
 
 def _canonicalize_question_family(question: GeneratedQuestion) -> GeneratedQuestion:
