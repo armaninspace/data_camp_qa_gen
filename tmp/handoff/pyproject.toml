@@ -1,0 +1,42 @@
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "course-question-pipeline"
+version = "0.1.0"
+description = "Clean-sheet course question pipeline starter"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "prefect>=3.0.0",
+  "pydantic>=2.6.0",
+  "PyYAML>=6.0.1",
+  "typer>=0.12.0",
+  "rich>=13.7.0",
+  "python-dotenv>=1.0.1",
+  "openai>=1.50.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0.0",
+  "ruff>=0.6.0",
+]
+
+[project.scripts]
+course-pipeline = "course_pipeline.cli:app"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 80
+target-version = "py311"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

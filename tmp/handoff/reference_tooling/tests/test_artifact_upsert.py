@@ -1,0 +1,436 @@
+from __future__ import annotations
+
+from pathlib import Path
+import json
+
+import pytest
+
+from course_pipeline.io_utils import write_jsonl
+from course_pipeline.pricing import fetch_live_pricing_snapshot
+from course_pipeline.schemas import (
+    AnswerRecord,
+    CanonicalTopic,
+    GeneratedQuestion,
+    LedgerRow,
+    NormalizedCourse,
+    QuestionValidationRecord,
+    Topic,
+    TopicEvidence,
+)
+from course_pipeline.tasks.render import (
+    persist_stage_artifacts,
+    rebuild_run_summary,
+    validate_rendered_output_consistency,
+)
+
+
+def _course(course_id: str, title: str) -> NormalizedCourse:
+    return NormalizedCourse(course_id=course_id, title=title)
+
+
+def _topic(topic_id: str, label: str) -> Topic:
+    return Topic(
+        topic_id=topic_id,
+        label=label,
+        description=label,
+        evidence=[TopicEvidence(source="test", text=label)],
+    )
+
+
+def _canonical(label: str, topic_id: str) -> CanonicalTopic:
+    return CanonicalTopic(
+        canonical_topic_id=f"ct_{topic_id}",
+        label=label,
+        aliases=[label],
+        member_topic_ids=[topic_id],
+    )
+
+
+def _question(candidate_id: str, label: str) -> GeneratedQuestion:
+    return GeneratedQuestion(
+        question_id=candidate_id,
+        relevant_topics=[label],
+        source_topic_ids=[f"ct_{label}"],
+        family="entry",
+        pattern="What is {x}?",
+        question_text=f"What is {label}?",
+        generation_scope="single_topic",
+    )
+
+
+def _validation(candidate_id: str, label: str, text: str) -> QuestionValidationRecord:
+    return QuestionValidationRecord(
+        question_id=candidate_id,
+        relevant_topics=[label],
+        status="accepted",
+        original_text=text,
+        final_text=text,
+        question_family="entry",
+    )
+
+
+def _answer(candidate_id: str, text: str) -> AnswerRecord:
+    return AnswerRecord(
+        question_id=candidate_id,
+        question_text=text,
+        answer_text="answer",
+        correctness="correct",
+        confidence=1.0,
+    )
+
+
+def _row(course_id: str, title: str, text: str) -> LedgerRow:
+    return LedgerRow(
+        row_id=f"row_{course_id}",
+        course={"course_id": course_id, "title": title},
+        relevant_topics=["topic"],
+        question_text=text,
+        question_answer="answer",
+        correctness="correct",
+        question_family="entry",
+        status="answered",
+    )
+
+
+def test_persist_stage_artifacts_upserts_by_course_id(tmp_path: Path) -> None:
+    output_dir = tmp_path / "run"
+
+    persist_stage_artifacts(
+        output_dir=output_dir,
+        course=_course("1", "One"),
+        topics=[_topic("t1", "topic one")],
+        canonical_topics=[_canonical("topic one", "t1")],
+        single_topic_questions=[_question("q1", "topic one")],
+        validations=[_validation("q1", "topic one", "What is topic one?")],
+        answers=[_answer("q1", "What is topic one?")],
+        rows=[_row("1", "One", "What is topic one?")],
+    )
+    persist_stage_artifacts(
+        output_dir=output_dir,
+        course=_course("1", "One Updated"),
+        topics=[_topic("t1b", "topic one updated")],
+        canonical_topics=[_canonical("topic one updated", "t1b")],
+        single_topic_questions=[_question("q1b", "topic one updated")],
+        validations=[_validation("q1b", "topic one updated", "What is topic one updated?")],
+        answers=[_answer("q1b", "What is topic one updated?")],
+        rows=[_row("1", "One Updated", "What is topic one updated?")],
+    )
+    persist_stage_artifacts(
+        output_dir=output_dir,
+        course=_course("2", "Two"),
+        topics=[_topic("t2", "topic two")],
+        canonical_topics=[_canonical("topic two", "t2")],
+        single_topic_questions=[_question("q2", "topic two")],
+        validations=[_validation("q2", "topic two", "What is topic two?")],
+        answers=[_answer("q2", "What is topic two?")],
+        rows=[_row("2", "Two", "What is topic two?")],
+    )
+
+    summary = rebuild_run_summary(output_dir)
+
+    assert summary["course_count"] == 2
+    assert summary["teacher_answer_count"] == 0
+    assert summary["teacher_answer_to_final_answer_gap"] == 0
+    assert summary["artifact_counts"]["semantic_topics.jsonl"] == 0
+    assert summary["artifact_counts"]["semantic_review_decisions.jsonl"] == 0
+    assert summary["semantic_question_count"] == 0
+    assert summary["semantic_answer_count"] == 0
+    assert "review_decision_count" in summary
+    assert "rejected_question_count" in summary
+    assert "errored_question_count" in summary
+    assert "quality_metrics" in summary
+    assert "reject_rate" in summary["quality_metrics"]
+    assert "entry_question_count" in summary["quality_metrics"]
+    bundle = (output_dir / "course_yaml" / "1.yaml").read_text(encoding="utf-8")
+    assert "One Updated" in bundle
+    assert "semantic_stage_result: null" in bundle
+
+
+def test_rebuild_run_summary_uses_shared_rows_and_keeps_zero_row_courses(tmp_path: Path) -> None:
+    output_dir = tmp_path / "run"
+
+    persist_stage_artifacts(
+        output_dir=output_dir,
+        course=_course("1", "One"),
+        topics=[_topic("t1", "matplotlib")],
+        canonical_topics=[_canonical("matplotlib", "t1")],
+        single_topic_questions=[_question("q1", "matplotlib")],
+        validations=[_validation("q1", "matplotlib", "What is matplotlib?")],
+        answers=[_answer("q1", "What is matplotlib?")],
+        rows=[_row("1", "One", "What is matplotlib?")],
+    )
+    persist_stage_artifacts(
+        output_dir=output_dir,
+        course=_course("2", "Two"),
+        topics=[],
+        canonical_topics=[],
+        single_topic_questions=[],
+        validations=[],
+        answers=[],
+        rows=[],
+    )
+
+    summary = rebuild_run_summary(output_dir)
+
+    assert summary["course_count"] == 2
+    assert summary["answered_count"] == 1
+    assert summary["teacher_answer_count"] == 0
+    course_counts = {item["course_id"]: item for item in summary["courses"]}
+    assert course_counts["1"]["row_count"] == 1
+    assert course_counts["1"]["shared_answer_count"] == 1
+    assert course_counts["1"]["teacher_answer_count"] == 0
+    assert course_counts["2"]["row_count"] == 0
+    assert course_counts["2"]["shared_answer_count"] == 0
+    assert course_counts["2"]["teacher_answer_count"] == 0
+    assert summary["llm_cost_reporting_status"] == "usage_reporting_unavailable"
+
+
+def test_rebuild_run_summary_counts_what_is_semantic_questions_as_entry(tmp_path: Path) -> None:
+    output_dir = tmp_path / "run"
+
+    persist_stage_artifacts(
+        output_dir=output_dir,
+        course=_course("1", "One"),
+        topics=[_topic("t1", "matplotlib")],
+        canonical_topics=[_canonical("matplotlib", "t1")],
+        single_topic_questions=[],
+        validations=[],
+        answers=[],
+        rows=[],
+    )
+    write_jsonl(
+        output_dir / "semantic_topic_questions.jsonl",
+        [
+            {
+                "course_id": "1",
+                "question_id": "sq_001",
+                "question_text": "What is matplotlib?",
+                "question_family": "what_is",
+                "relevant_topics": ["matplotlib"],
+                "question_scope": "single_topic",
+                "rationale": "Entry question.",
+                "source_refs": ["overview"],
+            }
+        ],
+    )
+
+    summary = rebuild_run_summary(output_dir)
+
+    assert summary["entry_question_count"] == 1
+
+
+def test_rendered_output_consistency_fails_when_bundle_rows_are_missing_from_shared_artifacts(
+    tmp_path: Path,
+) -> None:
+    output_dir = tmp_path / "run"
+
+    persist_stage_artifacts(
+        output_dir=output_dir,
+        course=_course("1", "One"),
+        topics=[_topic("t1", "matplotlib")],
+        canonical_topics=[_canonical("matplotlib", "t1")],
+        single_topic_questions=[_question("q1", "matplotlib")],
+        validations=[_validation("q1", "matplotlib", "What is matplotlib?")],
+        answers=[_answer("q1", "What is matplotlib?")],
+        rows=[_row("1", "One", "What is matplotlib?")],
+    )
+
+    write_jsonl(output_dir / "answers.jsonl", [])
+    write_jsonl(output_dir / "all_rows.jsonl", [])
+
+    with pytest.raises(RuntimeError, match="consistency check failed"):
+        validate_rendered_output_consistency(output_dir)
+
+
+def test_rebuild_run_summary_includes_llm_cost_rollups(tmp_path: Path) -> None:
+    output_dir = tmp_path / "run"
+
+    persist_stage_artifacts(
+        output_dir=output_dir,
+        course=_course("1", "One"),
+        topics=[_topic("t1", "matplotlib")],
+        canonical_topics=[_canonical("matplotlib", "t1")],
+        single_topic_questions=[_question("q1", "matplotlib")],
+        validations=[_validation("q1", "matplotlib", "What is matplotlib?")],
+        answers=[_answer("q1", "What is matplotlib?")],
+        rows=[_row("1", "One", "What is matplotlib?")],
+    )
+
+    pricing_snapshot = fetch_live_pricing_snapshot(
+        fetch_text=lambda url: """
+        <h2>GPT-5.4</h2>
+        <p>Input:</p><p>$2.50 / 1M tokens</p>
+        <p>Cached input:</p><p>$0.25 / 1M tokens</p>
+        <p>Output:</p><p>$15.00 / 1M tokens</p>
+        <h2>GPT-5.4 mini</h2>
+        <p>Input:</p><p>$0.75 / 1M tokens</p>
+        <p>Cached input:</p><p>$0.075 / 1M tokens</p>
+        <p>Output:</p><p>$4.50 / 1M tokens</p>
+        """,
+        fetched_at="2026-04-21T00:00:00+00:00",
+    )
+    logs_dir = output_dir / "logs"
+    logs_dir.mkdir(parents=True, exist_ok=True)
+    (logs_dir / "pricing_snapshot.json").write_text(
+        json.dumps(pricing_snapshot, ensure_ascii=False),
+        encoding="utf-8",
+    )
+    write_jsonl(
+        logs_dir / "llm_calls.jsonl",
+        [
+            {
+                "stage": "semantic_stage",
+                "configured_model": "gpt-5.4",
+                "actual_model": "gpt-5.4-2026-04-20",
+                "resolved_pricing_model": "gpt-5.4",
+                "tokens_in": 120,
+                "cached_tokens_in": 20,
+                "tokens_out": 40,
+                "cost_status": "ok",
+                "cost_total_usd": 0.000853,
+            },
+            {
+                "stage": "generate_teacher_answer",
+                "configured_model": "gpt-5.4-mini",
+                "actual_model": "gpt-5.4-mini-2026-04-20",
+                "resolved_pricing_model": "gpt-5.4-mini",
+                "tokens_in": 200,
+                "cached_tokens_in": 100,
+                "tokens_out": 50,
+                "cost_status": "ok",
+                "cost_total_usd": 0.00024,
+            },
+            {
+                "stage": "semantic_review",
+                "configured_model": "mystery-model",
+                "actual_model": "mystery-model",
+                "resolved_pricing_model": None,
+                "tokens_in": 10,
+                "cached_tokens_in": 0,
+                "tokens_out": 5,
+                "cost_status": "unknown_model",
+                "cost_total_usd": None,
+            },
+        ],
+    )
+
+    summary = rebuild_run_summary(output_dir)
+
+    assert summary["llm_call_count"] == 3
+    assert summary["llm_calls_with_cost"] == 2
+    assert summary["llm_calls_unknown_pricing"] == 1
+    assert summary["llm_calls_missing_usage"] == 0
+    assert summary["llm_tokens_in_total"] == 330
+    assert summary["llm_cached_tokens_in_total"] == 120
+    assert summary["llm_tokens_out_total"] == 95
+    assert summary["llm_cost_total_usd"] == 0.001093
+    assert summary["llm_cost_by_stage"] == {
+        "generate_teacher_answer": 0.00024,
+        "semantic_stage": 0.000853,
+    }
+    assert summary["llm_cost_by_model"] == {
+        "gpt-5.4": 0.000853,
+        "gpt-5.4-mini": 0.00024,
+    }
+    assert summary["llm_pricing_source"] == "https://openai.com/api/pricing/"
+    assert summary["llm_pricing_fetched_at"] == "2026-04-21T00:00:00+00:00"
+    assert summary["llm_cost_reporting_status"] == "partial"
+
+
+def test_rebuild_run_summary_reports_no_calls_when_llm_log_is_empty(tmp_path: Path) -> None:
+    output_dir = tmp_path / "run"
+
+    persist_stage_artifacts(
+        output_dir=output_dir,
+        course=_course("1", "One"),
+        topics=[_topic("t1", "matplotlib")],
+        canonical_topics=[_canonical("matplotlib", "t1")],
+        single_topic_questions=[_question("q1", "matplotlib")],
+        validations=[_validation("q1", "matplotlib", "What is matplotlib?")],
+        answers=[_answer("q1", "What is matplotlib?")],
+        rows=[_row("1", "One", "What is matplotlib?")],
+    )
+
+    logs_dir = output_dir / "logs"
+    logs_dir.mkdir(parents=True, exist_ok=True)
+    (logs_dir / "llm_calls.jsonl").write_text("", encoding="utf-8")
+
+    summary = rebuild_run_summary(output_dir)
+
+    assert summary["llm_call_count"] == 0
+    assert summary["llm_calls_with_cost"] == 0
+    assert summary["llm_cost_reporting_status"] == "no_calls"
+
+
+def test_rendered_output_consistency_fails_when_teacher_answers_do_not_propagate(
+    tmp_path: Path,
+) -> None:
+    output_dir = tmp_path / "run"
+
+    persist_stage_artifacts(
+        output_dir=output_dir,
+        course=_course("1", "One"),
+        topics=[_topic("t1", "matplotlib")],
+        canonical_topics=[_canonical("matplotlib", "t1")],
+        single_topic_questions=[_question("q1", "matplotlib")],
+        validations=[_validation("q1", "matplotlib", "What is matplotlib?")],
+        answers=[],
+        rows=[
+            _row("1", "One", "What is matplotlib?").model_copy(
+                update={"question_answer": None, "correctness": None, "status": "errored", "reject_reason": "missing_answer"}
+            )
+        ],
+        train_rows=[
+            {
+                "row_id": "1:q1:a:1",
+                "course_id": "1",
+                "question_id": "q1",
+                "question_text": "What is matplotlib?",
+                "provided_context": {
+                    "course_context_frame": {
+                        "course_id": "1",
+                        "course_title": "One",
+                        "learner_level": "beginner",
+                        "domain": "python",
+                        "primary_tools": [],
+                        "core_tasks": [],
+                        "scope_bias": [],
+                        "answer_style": {
+                            "depth": "introductory",
+                            "tone": "direct",
+                            "prefer_examples": True,
+                            "prefer_definitions": True,
+                            "keep_short": True,
+                        },
+                    },
+                    "question_context_frame": {
+                        "question_id": "q1",
+                        "course_id": "1",
+                        "question_text": "What is matplotlib?",
+                        "question_intent": "definition",
+                        "relevant_topics": ["matplotlib"],
+                        "chapter_scope": [],
+                        "expected_answer_shape": ["short definition"],
+                        "scope_bias": [],
+                        "support_refs": [],
+                    },
+                },
+                "teacher_answer": "Matplotlib is a plotting library.",
+                "question_variants": ["What is matplotlib?"],
+                "answer_quality_flags": {
+                    "course_aligned": True,
+                    "weak_grounding": False,
+                    "off_topic": False,
+                    "duplicate_signature": "what is matplotlib",
+                    "cache_eligible": True,
+                    "train_eligible": True,
+                    "needs_review": False,
+                },
+                "global_question_signature": "what is matplotlib",
+                "cross_course_similarity": [],
+            }
+        ],
+    )
+
+    with pytest.raises(RuntimeError, match="teacher answers in train_rows"):
+        validate_rendered_output_consistency(output_dir)
