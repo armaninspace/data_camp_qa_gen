@@ -43,6 +43,7 @@ def build_ledger_rows(
                     question_family=question.family,
                     status="rejected",
                     reject_reason=validation.reject_reason,
+                    source_refs=question.source_refs,
                     source_evidence=[],
                 )
             )
@@ -65,6 +66,7 @@ def build_ledger_rows(
                         question_family=question.family,
                         status="answered",
                         reject_reason=None,
+                        source_refs=teacher_answer.source_refs,
                         source_evidence=[],
                     )
                 )
@@ -83,6 +85,7 @@ def build_ledger_rows(
                     question_family=question.family,
                     status="errored",
                     reject_reason="missing_answer",
+                    source_refs=question.source_refs,
                     source_evidence=[],
                 )
             )
@@ -102,6 +105,7 @@ def build_ledger_rows(
                 question_family=question.family,
                 status="answered",
                 reject_reason=None,
+                source_refs=answer.source_refs,
                 source_evidence=answer.evidence,
             )
         )

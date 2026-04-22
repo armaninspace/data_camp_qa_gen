@@ -115,6 +115,7 @@ def semantic_questions_to_generated_questions(
             GeneratedQuestion(
                 question_id=question.question_id,
                 relevant_topics=question.relevant_topics,
+                source_refs=question.source_refs,
                 family=question.question_family,
                 pattern="semantic_stage",
                 question_text=question.question_text,
@@ -127,6 +128,7 @@ def semantic_questions_to_generated_questions(
             GeneratedQuestion(
                 question_id=question.question_id,
                 relevant_topics=question.relevant_topics,
+                source_refs=question.source_refs,
                 family=question.question_family,
                 pattern="semantic_stage",
                 question_text=question.question_text,
@@ -148,6 +150,8 @@ def generated_questions_to_validations(
             original_text=question.question_text,
             final_text=question.question_text,
             question_family=question.family,
+            required_entry=question.required_entry,
+            anchor_label=question.anchor_label,
         )
         for question in questions
     ]
@@ -216,6 +220,7 @@ def semantic_answers_to_records(
                 "synthetic_model_name": model_name,
                 "prompt_family": "semantic_stage",
             },
+            source_refs=question.source_refs,
         )
         synthetic_answers.append(synthetic_record)
         validations.append(validation_record)

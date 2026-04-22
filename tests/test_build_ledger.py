@@ -72,6 +72,7 @@ def _teacher_answer(*, off_topic: bool = False, answer_text: str = "Pandas is a 
                 },
             },
             "teacher_answer": answer_text,
+            "source_refs": ["summary", "overview"],
             "course_aligned": True,
             "weak_grounding": False,
             "off_topic": off_topic,
@@ -93,6 +94,7 @@ def test_build_ledger_rows_uses_answer_records_when_present() -> None:
                 question_text="What is pandas?",
                 answer_text="Pandas is an answer record.",
                 correctness="correct",
+                source_refs=["chapter:2"],
             )
         ],
         [_teacher_answer(answer_text="Pandas is a teacher answer.")],
@@ -101,6 +103,7 @@ def test_build_ledger_rows_uses_answer_records_when_present() -> None:
     assert len(rows) == 1
     assert rows[0].status == "answered"
     assert rows[0].question_answer == "Pandas is an answer record."
+    assert rows[0].source_refs == ["chapter:2"]
 
 
 def test_build_ledger_rows_falls_back_to_teacher_answers() -> None:
@@ -116,6 +119,7 @@ def test_build_ledger_rows_falls_back_to_teacher_answers() -> None:
     assert rows[0].status == "answered"
     assert rows[0].question_answer == "Pandas is a Python library."
     assert rows[0].correctness == "correct"
+    assert rows[0].source_refs == ["summary", "overview"]
 
 
 def test_build_ledger_rows_still_errors_when_teacher_answer_is_unusable() -> None:

@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
+import pytest
 import yaml
 
 from course_pipeline.flows.course_question_pipeline import course_question_pipeline_flow
@@ -121,6 +122,7 @@ def test_main_flow_publishes_synthetic_answers(tmp_path: Path) -> None:
                             "relevant_topics": ["arima"],
                             "question_scope": "single_topic",
                             "rationale": "Natural entry question.",
+                            "source_refs": [],
                         }
                     ],
                     "correlated_topic_questions": [],
@@ -191,6 +193,7 @@ def test_main_flow_publishes_synthetic_answers(tmp_path: Path) -> None:
     assert result["run_summary"]["question_context_frame_count"] == 1
     assert result["run_summary"]["train_row_count"] == 1
     assert result["run_summary"]["cache_row_count"] == 1
+    assert result["run_summary"]["entry_question_count"] == 1
     semantic_topics = read_jsonl(run_dir / "semantic_topics.jsonl")
     assert semantic_topics[0]["label"] == "ARIMA"
     train_rows = read_jsonl(run_dir / "train_rows.jsonl")
@@ -202,11 +205,14 @@ def test_main_flow_publishes_synthetic_answers(tmp_path: Path) -> None:
     assert answers[0]["answer_mode"] == "synthetic_tutor_answer"
     assert answers[0]["validation_status"] == "accept"
     assert "forecasting model" in answers[0]["answer_text"]
+    assert answers[0]["source_refs"] == ["summary", "overview", "chapter_1"]
 
     bundle = read_yaml(final_dir / "course_yaml" / "24372.yaml")
     assert bundle["answers"][0]["answer_mode"] == "synthetic_tutor_answer"
     assert bundle["semantic_stage_result"]["synthetic_answers"][0]["answer_mode"] == "synthetic_tutor_answer"
     assert bundle["final_rows"][0]["question_answer"] == answers[0]["answer_text"]
+    assert bundle["final_rows"][0]["question_family"] == "entry"
+    assert bundle["final_rows"][0]["source_refs"] == ["summary", "overview", "chapter_1"]
 
 
 def test_main_flow_fails_closed_without_grounded_fallback(tmp_path: Path) -> None:
@@ -460,3 +466,77 @@ def test_main_flow_derives_shared_answers_from_teacher_answers_when_semantic_ans
     assert answers[0]["provenance"]["answer_source"] == "teacher_answer_draft"
     assert bundle["answers"][0]["answer_text"] == answers[0]["answer_text"]
     assert bundle["final_rows"][0]["question_answer"] == answers[0]["answer_text"]
+
+
+def test_main_flow_reports_entry_metric_without_failing_on_missing_anchor_coverage(tmp_path: Path) -> None:
+    input_dir = tmp_path / "input"
+    run_dir = tmp_path / "run"
+    final_dir = tmp_path / "final"
+    _write_course(input_dir / "course.yaml")
+
+    result = course_question_pipeline_flow(
+        input_dir=str(input_dir),
+        output_dir=str(run_dir),
+        final_dir=str(final_dir),
+        publish=True,
+        semantic_client=LLMClient(
+            api_key=None,
+            model="gpt-5.4",
+            client=FakeOpenAIClient(
+                "gpt-5.4",
+                [
+                    {
+                        "topics": [
+                            {
+                                "label": "ARIMA",
+                                "normalized_label": "arima",
+                                "topic_type": "concept",
+                                "confidence": 0.94,
+                                "course_centrality": 0.95,
+                                "source_refs": ["overview"],
+                                "rationale": "Central concept.",
+                            }
+                        ],
+                        "correlated_topics": [],
+                        "topic_questions": [
+                            {
+                                "question_id": "sq_001",
+                                "question_text": "Why is ARIMA useful?",
+                                "question_family": "why_is",
+                                "relevant_topics": ["arima"],
+                                "question_scope": "single_topic",
+                                "rationale": "Purpose question only.",
+                                "source_refs": ["overview"],
+                            }
+                        ],
+                        "correlated_topic_questions": [],
+                        "synthetic_answers": [],
+                    }
+                ],
+            ),
+        ),
+        review_client=LLMClient(
+            api_key=None,
+            model="gpt-5.4",
+            client=FakeOpenAIClient("gpt-5.4", [{"decisions": []}]),
+        ),
+        teacher_client=LLMClient(
+            api_key=None,
+            model="gpt-5.4",
+            client=FakeOpenAIClient(
+                "gpt-5.4",
+                [
+                    {
+                        "teacher_answer": "ARIMA is useful for forecasting.",
+                        "course_aligned": True,
+                        "weak_grounding": False,
+                        "off_topic": False,
+                        "needs_review": False,
+                    }
+                ],
+            ),
+        ),
+    )
+
+    assert result["run_summary"]["course_count"] == 1
+    assert result["run_summary"]["entry_question_count"] == 0

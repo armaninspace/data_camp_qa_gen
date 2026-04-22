@@ -185,6 +185,40 @@ def test_rebuild_run_summary_uses_shared_rows_and_keeps_zero_row_courses(tmp_pat
     assert summary["llm_cost_reporting_status"] == "usage_reporting_unavailable"
 
 
+def test_rebuild_run_summary_counts_what_is_semantic_questions_as_entry(tmp_path: Path) -> None:
+    output_dir = tmp_path / "run"
+
+    persist_stage_artifacts(
+        output_dir=output_dir,
+        course=_course("1", "One"),
+        topics=[_topic("t1", "matplotlib")],
+        canonical_topics=[_canonical("matplotlib", "t1")],
+        single_topic_questions=[],
+        validations=[],
+        answers=[],
+        rows=[],
+    )
+    write_jsonl(
+        output_dir / "semantic_topic_questions.jsonl",
+        [
+            {
+                "course_id": "1",
+                "question_id": "sq_001",
+                "question_text": "What is matplotlib?",
+                "question_family": "what_is",
+                "relevant_topics": ["matplotlib"],
+                "question_scope": "single_topic",
+                "rationale": "Entry question.",
+                "source_refs": ["overview"],
+            }
+        ],
+    )
+
+    summary = rebuild_run_summary(output_dir)
+
+    assert summary["entry_question_count"] == 1
+
+
 def test_rendered_output_consistency_fails_when_bundle_rows_are_missing_from_shared_artifacts(
     tmp_path: Path,
 ) -> None:

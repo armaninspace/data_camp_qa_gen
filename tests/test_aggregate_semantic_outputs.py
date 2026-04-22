@@ -42,6 +42,7 @@ def _semantic_result() -> SemanticStageResult:
                     "relevant_topics": ["pandas"],
                     "question_scope": "single_topic",
                     "rationale": "Natural entry question.",
+                    "source_refs": ["overview"],
                 }
             ],
             "correlated_topic_questions": [],
@@ -99,10 +100,12 @@ def test_semantic_bundle_transforms_to_legacy_structural_shapes() -> None:
 
     assert canonical_topics[0].label == "pandas"
     assert single_topic_questions[0].question_text == "What is pandas?"
+    assert single_topic_questions[0].source_refs == ["overview"]
     assert validations[0].status == "accepted"
     assert synthetic_answers[0].question_id == "sq_001"
     assert synthetic_validations[0].decision == "accept"
     assert answers[0].answer_mode == "synthetic_tutor_answer"
+    assert answers[0].source_refs == ["overview"]
 
 
 def test_apply_semantic_review_normalizes_question_rewrite_payloads() -> None:

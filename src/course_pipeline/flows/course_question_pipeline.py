@@ -26,6 +26,10 @@ from course_pipeline.tasks.build_question_context import build_question_context_
 from course_pipeline.tasks.build_ledger import build_ledger_rows
 from course_pipeline.tasks.generate_teacher_answers import generate_teacher_answers
 from course_pipeline.tasks.normalize import load_raw_course, normalize_course_record
+from course_pipeline.tasks.post_semantic_policy import (
+    apply_post_semantic_policy,
+    enforce_required_entry_coverage,
+)
 from course_pipeline.tasks.preflight_validate import preflight_validate_course
 from course_pipeline.tasks.render import (
     persist_stage_artifacts,
@@ -192,7 +196,13 @@ def _process_course(
         reviewed_semantic_result
     )
     all_generated_questions = [*single_topic_questions, *pairwise_questions]
+    all_generated_questions, coverage_report = apply_post_semantic_policy(
+        course=course,
+        semantic_topics=reviewed_semantic_result.topics,
+        questions=all_generated_questions,
+    )
     validations = generated_questions_to_validations(all_generated_questions)
+    enforce_required_entry_coverage(coverage_report)
     synthetic_answers, synthetic_validations, answers = semantic_answers_to_records(
         run_id=Path(output_dir).name,
         course_id=course.course_id,
@@ -417,6 +427,7 @@ def _teacher_drafts_from_semantic_answers(
                     "question_context_frame": question_context_frame,
                 },
                 teacher_answer=semantic_answer.answer_text,
+                source_refs=list(question_context_frame.support_refs),
                 course_aligned=True,
                 weak_grounding=False,
                 off_topic=False,
@@ -435,31 +446,33 @@ def _merge_answers_with_teacher_drafts(
 ):
     from course_pipeline.schemas import AnswerRecord
 
-    merged = list(answers)
-    existing_question_ids = {answer.question_id for answer in merged}
+    merged_by_question_id = {answer.question_id: answer for answer in answers}
     for draft in teacher_answer_drafts:
-        if draft.question_id in existing_question_ids:
+        existing = merged_by_question_id.get(draft.question_id)
+        if existing is not None:
+            if not existing.source_refs and draft.source_refs:
+                merged_by_question_id[draft.question_id] = existing.model_copy(
+                    update={"source_refs": list(draft.source_refs)}
+                )
             continue
         if not draft.teacher_answer.strip() or draft.off_topic:
             continue
-        merged.append(
-            AnswerRecord(
-                question_id=draft.question_id,
-                question_text=draft.question_text,
-                answer_text=draft.teacher_answer,
-                correctness="correct",
-                confidence=1.0,
-                answer_mode="synthetic_tutor_answer",
-                validation_status="accept",
-                provenance={
-                    "teacher_model_name": draft.model_name,
-                    "prompt_family": draft.prompt_family,
-                    "answer_source": "teacher_answer_draft",
-                },
-            )
+        merged_by_question_id[draft.question_id] = AnswerRecord(
+            question_id=draft.question_id,
+            question_text=draft.question_text,
+            answer_text=draft.teacher_answer,
+            correctness="correct",
+            confidence=1.0,
+            answer_mode="synthetic_tutor_answer",
+            validation_status="accept",
+            provenance={
+                "teacher_model_name": draft.model_name,
+                "prompt_family": draft.prompt_family,
+                "answer_source": "teacher_answer_draft",
+            },
+            source_refs=list(draft.source_refs),
         )
-        existing_question_ids.add(draft.question_id)
-    return merged
+    return list(merged_by_question_id.values())
 
 
 if __name__ == "__main__":

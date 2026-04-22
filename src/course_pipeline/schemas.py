@@ -263,6 +263,7 @@ class VettedTopicPair(BaseModel):
 class GeneratedQuestion(BaseModel):
     question_id: str
     relevant_topics: list[str]
+    source_refs: list[str] = Field(default_factory=list)
     source_topic_ids: list[str] = Field(default_factory=list)
     source_pair_id: str | None = None
     family: str
@@ -270,6 +271,8 @@ class GeneratedQuestion(BaseModel):
     question_text: str
     evidence_spans: list[TopicEvidence] = Field(default_factory=list)
     generation_scope: Literal["single_topic", "pairwise"]
+    required_entry: bool = False
+    anchor_label: str | None = None
 
 
 class QuestionCandidate(BaseModel):
@@ -297,6 +300,8 @@ class QuestionValidationRecord(BaseModel):
     reject_reason: str | None = None
     question_family: str
     evidence_spans: list[TopicEvidence] = Field(default_factory=list)
+    required_entry: bool = False
+    anchor_label: str | None = None
 
 
 class AnswerRecord(BaseModel):
@@ -306,6 +311,7 @@ class AnswerRecord(BaseModel):
     correctness: Correctness = "uncertain"
     confidence: float = 0.0
     evidence: list[TopicEvidence] = Field(default_factory=list)
+    source_refs: list[str] = Field(default_factory=list)
     answer_mode: AnswerMode = "synthetic_tutor_answer"
     validation_status: str | None = None
     rewrite_applied: bool = False
@@ -322,6 +328,7 @@ class LedgerRow(BaseModel):
     question_family: str
     status: QuestionStatus
     reject_reason: str | None = None
+    source_refs: list[str] = Field(default_factory=list)
     source_evidence: list[TopicEvidence] = Field(default_factory=list)
 
 
@@ -458,6 +465,7 @@ class TeacherAnswerDraft(BaseModel):
     question_text: str
     provided_context: ProvidedContext
     teacher_answer: str
+    source_refs: list[str] = Field(default_factory=list)
     course_aligned: bool = True
     weak_grounding: bool = False
     off_topic: bool = False

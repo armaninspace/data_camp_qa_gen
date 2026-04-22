@@ -61,6 +61,7 @@ def generate_teacher_answer(
             "question_text": question_context_frame.question_text,
             "provided_context": provided_context.model_dump(mode="json"),
             "teacher_answer": answer_response.payload["teacher_answer"],
+            "source_refs": list(question_context_frame.support_refs),
             "course_aligned": answer_response.payload.get("course_aligned", True),
             "weak_grounding": answer_response.payload.get("weak_grounding", False),
             "off_topic": answer_response.payload.get("off_topic", False),

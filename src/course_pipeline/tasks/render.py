@@ -598,8 +598,13 @@ def _quality_metrics(output_dir: Path) -> dict[str, Any]:
         "reject_rate": 0.0 if total_rows == 0 else round(rejected_count / total_rows, 4),
         "errored_rate": 0.0 if total_rows == 0 else round(errored_count / total_rows, 4),
         "comparison_question_count": len(pairwise_questions),
-        "entry_question_count": sum(row.get("family") == "entry" for row in single_questions),
+        "entry_question_count": sum(_is_entry_semantic_question(row) for row in single_questions),
     }
+
+
+def _is_entry_semantic_question(row: dict[str, Any]) -> bool:
+    family = str(row.get("question_family") or row.get("family") or "").strip().lower()
+    return family in {"entry", "what_is"}
 
 
 def _llm_usage_cost_metrics(output_dir: Path) -> dict[str, Any]:
