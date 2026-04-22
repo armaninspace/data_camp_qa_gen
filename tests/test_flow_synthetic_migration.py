@@ -161,23 +161,6 @@ def test_main_flow_publishes_synthetic_answers(tmp_path: Path) -> None:
             ],
         ),
     )
-    teacher_client = LLMClient(
-        api_key=None,
-        model="gpt-5.4",
-        client=FakeOpenAIClient(
-            "gpt-5.4",
-            [
-                {
-                    "teacher_answer": "ARIMA is a forecasting model that combines autoregression, differencing, and moving averages.",
-                    "course_aligned": True,
-                    "weak_grounding": False,
-                    "off_topic": False,
-                    "needs_review": False,
-                }
-            ],
-        ),
-    )
-
     result = course_question_pipeline_flow(
         input_dir=str(input_dir),
         output_dir=str(run_dir),
@@ -185,7 +168,6 @@ def test_main_flow_publishes_synthetic_answers(tmp_path: Path) -> None:
         publish=True,
         semantic_client=semantic_client,
         review_client=review_client,
-        teacher_client=teacher_client,
     )
 
     assert result["run_summary"]["course_count"] == 1
@@ -232,22 +214,6 @@ def test_main_flow_fails_closed_without_grounded_fallback(tmp_path: Path) -> Non
                 api_key=None,
                 model="gpt-5.4",
                 client=FakeOpenAIClient("gpt-5.4", [{"decisions": []}]),
-            ),
-            teacher_client=LLMClient(
-                api_key=None,
-                model="gpt-5.4",
-                client=FakeOpenAIClient(
-                    "gpt-5.4",
-                    [
-                        {
-                            "teacher_answer": "unused",
-                            "course_aligned": True,
-                            "weak_grounding": False,
-                            "off_topic": False,
-                            "needs_review": False,
-                        }
-                    ],
-                ),
             ),
         )
     except RuntimeError as exc:
@@ -335,23 +301,6 @@ def test_main_flow_retains_correct_generic_rows_across_outputs(tmp_path: Path) -
             ],
         ),
     )
-    teacher_client = LLMClient(
-        api_key=None,
-        model="gpt-5.4",
-        client=FakeOpenAIClient(
-            "gpt-5.4",
-            [
-                {
-                    "teacher_answer": "Pandas is a Python library for working with tabular data.",
-                    "course_aligned": True,
-                    "weak_grounding": True,
-                    "off_topic": False,
-                    "needs_review": True,
-                }
-            ],
-        ),
-    )
-
     result = course_question_pipeline_flow(
         input_dir=str(input_dir),
         output_dir=str(run_dir),
@@ -359,7 +308,6 @@ def test_main_flow_retains_correct_generic_rows_across_outputs(tmp_path: Path) -
         publish=True,
         semantic_client=semantic_client,
         review_client=review_client,
-        teacher_client=teacher_client,
     )
 
     assert result["run_summary"]["course_count"] == 1
@@ -382,7 +330,7 @@ def test_main_flow_retains_correct_generic_rows_across_outputs(tmp_path: Path) -
     assert bundle["final_rows"][0]["status"] == "answered"
 
 
-def test_main_flow_derives_shared_answers_from_teacher_answers_when_semantic_answers_are_missing(
+def test_main_flow_keeps_missing_semantic_answers_errored_without_fallback(
     tmp_path: Path,
 ) -> None:
     input_dir = tmp_path / "input"
@@ -430,23 +378,6 @@ def test_main_flow_derives_shared_answers_from_teacher_answers_when_semantic_ans
         model="gpt-5.4",
         client=FakeOpenAIClient("gpt-5.4", [{"decisions": []}]),
     )
-    teacher_client = LLMClient(
-        api_key=None,
-        model="gpt-5.4",
-        client=FakeOpenAIClient(
-            "gpt-5.4",
-            [
-                {
-                    "teacher_answer": "ARIMA is a forecasting model for time series data.",
-                    "course_aligned": True,
-                    "weak_grounding": False,
-                    "off_topic": False,
-                    "needs_review": False,
-                }
-            ],
-        ),
-    )
-
     result = course_question_pipeline_flow(
         input_dir=str(input_dir),
         output_dir=str(run_dir),
@@ -454,18 +385,17 @@ def test_main_flow_derives_shared_answers_from_teacher_answers_when_semantic_ans
         publish=True,
         semantic_client=semantic_client,
         review_client=review_client,
-        teacher_client=teacher_client,
     )
 
-    assert result["run_summary"]["answered_count"] == 1
+    assert result["run_summary"]["answered_count"] == 0
+    assert result["run_summary"]["errored_count"] == 1
     answers = read_jsonl(run_dir / "answers.jsonl")
     bundle = read_yaml(final_dir / "course_yaml" / "24372.yaml")
 
-    assert len(answers) == 1
-    assert answers[0]["answer_text"] == "ARIMA is a forecasting model for time series data."
-    assert answers[0]["provenance"]["answer_source"] == "teacher_answer_draft"
-    assert bundle["answers"][0]["answer_text"] == answers[0]["answer_text"]
-    assert bundle["final_rows"][0]["question_answer"] == answers[0]["answer_text"]
+    assert answers == []
+    assert bundle["answers"] == []
+    assert bundle["final_rows"][0]["status"] == "errored"
+    assert bundle["final_rows"][0]["reject_reason"] == "missing_answer"
 
 
 def test_main_flow_fails_when_required_entry_coverage_is_missing(tmp_path: Path) -> None:
@@ -520,21 +450,5 @@ def test_main_flow_fails_when_required_entry_coverage_is_missing(tmp_path: Path)
                 api_key=None,
                 model="gpt-5.4",
                 client=FakeOpenAIClient("gpt-5.4", [{"decisions": []}]),
-            ),
-            teacher_client=LLMClient(
-                api_key=None,
-                model="gpt-5.4",
-                client=FakeOpenAIClient(
-                    "gpt-5.4",
-                    [
-                        {
-                            "teacher_answer": "ARIMA is useful for forecasting.",
-                            "course_aligned": True,
-                            "weak_grounding": False,
-                            "off_topic": False,
-                            "needs_review": False,
-                        }
-                    ],
-                ),
             ),
         )

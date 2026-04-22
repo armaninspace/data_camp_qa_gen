@@ -17,7 +17,6 @@ class Settings(BaseModel):
     model_answer: str = os.getenv("OPENAI_MODEL_ANSWER", "gpt-5.4")
     model_semantic_primary: str = os.getenv("OPENAI_MODEL_SEMANTIC_PRIMARY", "gpt-5.4")
     model_semantic_review: str = os.getenv("OPENAI_MODEL_SEMANTIC_REVIEW", "gpt-5.4")
-    model_teacher_answer: str = os.getenv("OPENAI_MODEL_TEACHER_ANSWER", "gpt-5.4")
     log_level: str = os.getenv("LOG_LEVEL", "INFO")
 
     @staticmethod

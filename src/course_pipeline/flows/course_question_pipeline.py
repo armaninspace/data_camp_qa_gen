@@ -24,7 +24,6 @@ from course_pipeline.tasks.build_course_context import build_course_context_fram
 from course_pipeline.tasks.build_product_rows import build_cache_rows, build_train_rows
 from course_pipeline.tasks.build_question_context import build_question_context_frames
 from course_pipeline.tasks.build_ledger import build_ledger_rows
-from course_pipeline.tasks.generate_teacher_answers import generate_teacher_answers
 from course_pipeline.tasks.normalize import load_raw_course, normalize_course_record
 from course_pipeline.tasks.post_semantic_policy import (
     apply_post_semantic_policy,
@@ -112,7 +111,6 @@ def _process_course(
     logger: RunLogger,
     semantic_client: LLMClient,
     review_client: LLMClient | None,
-    teacher_client: LLMClient | None = None,
     *,
     quality_status: str | None,
 ) -> dict:
@@ -216,24 +214,16 @@ def _process_course(
         questions=[*reviewed_semantic_result.topic_questions, *reviewed_semantic_result.correlated_topic_questions],
         course_context_frame=course_context_frame,
     )
-    teacher_answer_drafts = (
-        generate_teacher_answers(
-            course_context_frame=course_context_frame,
-            question_context_frames=question_context_frames,
-            llm_client=teacher_client,
-            logger=logger,
-        )
-        if teacher_client is not None
-        else _teacher_drafts_from_semantic_answers(
-            course_context_frame=course_context_frame,
-            question_context_frames=question_context_frames,
-            semantic_result=reviewed_semantic_result,
-            model_name=semantic_client.model,
-        )
+    teacher_answer_drafts = _teacher_drafts_from_semantic_answers(
+        course_context_frame=course_context_frame,
+        question_context_frames=question_context_frames,
+        semantic_result=reviewed_semantic_result,
+        model_name=semantic_client.model,
+        review_result=review_result,
     )
-    answers = _merge_answers_with_teacher_drafts(
+    answers = _enrich_answers_from_semantic_drafts(
         answers=answers,
-        teacher_answer_drafts=teacher_answer_drafts,
+        semantic_answer_drafts=teacher_answer_drafts,
     )
     train_rows = build_train_rows(teacher_answer_drafts)
     cache_rows = build_cache_rows(train_rows)
@@ -259,7 +249,6 @@ def _process_course(
         all_generated_questions,
         validations,
         answers,
-        teacher_answer_drafts,
     )
     timer.finish(output_row_count=len(rows))
 
@@ -287,7 +276,6 @@ def _process_course(
         semantic_review_decisions=[] if review_result is None else review_result.decisions,
         course_context_frame=course_context_frame,
         question_context_frames=question_context_frames,
-        teacher_answer_drafts=teacher_answer_drafts,
         train_rows=train_rows,
         cache_rows=cache_rows,
     )
@@ -311,7 +299,6 @@ def course_question_pipeline_flow(
     publish: bool = True,
     semantic_client: LLMClient | None = None,
     review_client: LLMClient | None = None,
-    teacher_client: LLMClient | None = None,
 ) -> dict:
     output = Path(output_dir)
     output.mkdir(parents=True, exist_ok=True)
@@ -319,9 +306,7 @@ def course_question_pipeline_flow(
     logger = RunLogger(run_id=output.name or "run", root_dir=output)
     logger.ensure_files()
     settings = Settings()
-    uses_configured_openai_client = (
-        semantic_client is None or review_client is None or teacher_client is None
-    )
+    uses_configured_openai_client = semantic_client is None or review_client is None
     if settings.openai_api_key and uses_configured_openai_client:
         pricing_snapshot = fetch_live_pricing_snapshot()
         logger.write_pricing_snapshot(pricing_snapshot)
@@ -337,11 +322,6 @@ def course_question_pipeline_flow(
         review_client = LLMClient(
             api_key=settings.openai_api_key,
             model=settings.model_semantic_review,
-        )
-    if teacher_client is None and settings.openai_api_key and settings.model_teacher_answer:
-        teacher_client = LLMClient(
-            api_key=settings.openai_api_key,
-            model=settings.model_teacher_answer,
         )
     logger.log_pipeline(
         f"run start input_dir={input_dir} output_dir={output_dir} slice={slice_start}-{slice_end}"
@@ -367,7 +347,6 @@ def course_question_pipeline_flow(
                 logger,
                 semantic_client,
                 review_client,
-                teacher_client,
                 quality_status=selected.quality_status,
             )
         )
@@ -405,6 +384,7 @@ def _teacher_drafts_from_semantic_answers(
     question_context_frames,
     semantic_result,
     model_name: str,
+    review_result,
 ):
     from course_pipeline.schemas import TeacherAnswerDraft
 
@@ -412,11 +392,32 @@ def _teacher_drafts_from_semantic_answers(
         item.question_text: item
         for item in semantic_result.synthetic_answers
     }
+    review_decision_by_question_id: dict[str, list[str]] = {}
+    review_decision_by_question_text: dict[str, list[str]] = {}
+    for decision in [] if review_result is None else review_result.decisions:
+        if decision.item_type == "question":
+            review_decision_by_question_id.setdefault(decision.target_id, []).append(
+                decision.rationale
+            )
+        elif decision.item_type == "synthetic_answer":
+            review_decision_by_question_text.setdefault(decision.target_id, []).append(
+                decision.rationale
+            )
     drafts: list[TeacherAnswerDraft] = []
     for question_context_frame in question_context_frames:
         semantic_answer = answer_by_text.get(question_context_frame.question_text)
         if semantic_answer is None:
             continue
+        question_rationales = review_decision_by_question_id.get(
+            question_context_frame.question_id,
+            [],
+        )
+        answer_rationales = review_decision_by_question_text.get(
+            question_context_frame.question_text,
+            [],
+        )
+        review_rationales = [*question_rationales, *answer_rationales]
+        needs_review = any(review_rationales)
         drafts.append(
             TeacherAnswerDraft(
                 course_id=course_context_frame.course_id,
@@ -429,48 +430,35 @@ def _teacher_drafts_from_semantic_answers(
                 teacher_answer=semantic_answer.answer_text,
                 source_refs=list(question_context_frame.support_refs),
                 course_aligned=True,
-                weak_grounding=False,
+                weak_grounding=needs_review,
                 off_topic=False,
-                needs_review=False,
+                needs_review=needs_review,
                 model_name=model_name,
-                prompt_family="teacher_answer",
+                prompt_family="semantic_stage",
             )
         )
     return drafts
 
 
-def _merge_answers_with_teacher_drafts(
+def _enrich_answers_from_semantic_drafts(
     *,
     answers,
-    teacher_answer_drafts,
+    semantic_answer_drafts,
 ):
-    from course_pipeline.schemas import AnswerRecord
-
     merged_by_question_id = {answer.question_id: answer for answer in answers}
-    for draft in teacher_answer_drafts:
+    for draft in semantic_answer_drafts:
         existing = merged_by_question_id.get(draft.question_id)
-        if existing is not None:
-            if not existing.source_refs and draft.source_refs:
-                merged_by_question_id[draft.question_id] = existing.model_copy(
-                    update={"source_refs": list(draft.source_refs)}
-                )
+        if existing is None:
             continue
-        if not draft.teacher_answer.strip() or draft.off_topic:
-            continue
-        merged_by_question_id[draft.question_id] = AnswerRecord(
-            question_id=draft.question_id,
-            question_text=draft.question_text,
-            answer_text=draft.teacher_answer,
-            correctness="correct",
-            confidence=1.0,
-            answer_mode="synthetic_tutor_answer",
-            validation_status="accept",
-            provenance={
-                "teacher_model_name": draft.model_name,
-                "prompt_family": draft.prompt_family,
-                "answer_source": "teacher_answer_draft",
-            },
-            source_refs=list(draft.source_refs),
+        source_refs = list(dict.fromkeys([*existing.source_refs, *draft.source_refs]))
+        provenance = dict(existing.provenance)
+        if draft.needs_review:
+            provenance["needs_review"] = True
+        merged_by_question_id[draft.question_id] = existing.model_copy(
+            update={
+                "source_refs": source_refs,
+                "provenance": provenance,
+            }
         )
     return list(merged_by_question_id.values())
 

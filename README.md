@@ -11,15 +11,15 @@ The target end state is:
 3. correlated-topic extraction in the same semantic pass
 4. basic single-topic and correlated-topic questions from the same semantic pass
 5. short synthetic tutor answers from general knowledge
-6. one canonical retained teacher-answer path
-7. one canonical answer artifact family derived from that retained path
-8. one canonical final ledger / final-row family derived from the same retained path
+6. one canonical synthetic-answer path
+7. one canonical answer artifact family derived from that path
+8. one canonical final ledger / final-row family derived from the same terminal row set
 9. no grounded brochure-span answer code anywhere in the main pipeline
 
 Current operational expectations:
 
 - `train_rows.jsonl` and `cache_rows.jsonl` are first-class outputs
-- valid teacher answers propagate into shared `answers.jsonl` and final rows
+- valid semantic synthetic answers propagate into shared `answers.jsonl` and final rows
 - filtered inspection bundles are validated against one canonical selection object
 - published summaries can report LLM usage and cost when run logs were published
 

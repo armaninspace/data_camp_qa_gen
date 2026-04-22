@@ -5,7 +5,6 @@ from course_pipeline.schemas import (
     GeneratedQuestion,
     NormalizedCourse,
     QuestionValidationRecord,
-    TeacherAnswerDraft,
 )
 from course_pipeline.tasks.build_ledger import build_ledger_rows
 
@@ -36,53 +35,6 @@ def _validation() -> QuestionValidationRecord:
     )
 
 
-def _teacher_answer(*, off_topic: bool = False, answer_text: str = "Pandas is a Python library.") -> TeacherAnswerDraft:
-    return TeacherAnswerDraft.model_validate(
-        {
-            "course_id": "24372",
-            "question_id": "sq_001",
-            "question_text": "What is pandas?",
-            "provided_context": {
-                "course_context_frame": {
-                    "course_id": "24372",
-                    "course_title": "Intermediate Python",
-                    "learner_level": "beginner",
-                    "domain": "python",
-                    "primary_tools": ["pandas"],
-                    "core_tasks": ["tabular analysis"],
-                    "scope_bias": [],
-                    "answer_style": {
-                        "depth": "introductory",
-                        "tone": "direct",
-                        "prefer_examples": True,
-                        "prefer_definitions": True,
-                        "keep_short": True,
-                    },
-                },
-                "question_context_frame": {
-                    "question_id": "sq_001",
-                    "course_id": "24372",
-                    "question_text": "What is pandas?",
-                    "question_intent": "definition",
-                    "relevant_topics": ["pandas"],
-                    "chapter_scope": [],
-                    "expected_answer_shape": ["short definition"],
-                    "scope_bias": [],
-                    "support_refs": [],
-                },
-            },
-            "teacher_answer": answer_text,
-            "source_refs": ["summary", "overview"],
-            "course_aligned": True,
-            "weak_grounding": False,
-            "off_topic": off_topic,
-            "needs_review": False,
-            "model_name": "gpt-5.4",
-            "prompt_family": "teacher_answer",
-        }
-    )
-
-
 def test_build_ledger_rows_uses_answer_records_when_present() -> None:
     rows = build_ledger_rows(
         _course(),
@@ -97,7 +49,6 @@ def test_build_ledger_rows_uses_answer_records_when_present() -> None:
                 source_refs=["chapter:2"],
             )
         ],
-        [_teacher_answer(answer_text="Pandas is a teacher answer.")],
     )
 
     assert len(rows) == 1
@@ -106,29 +57,12 @@ def test_build_ledger_rows_uses_answer_records_when_present() -> None:
     assert rows[0].source_refs == ["chapter:2"]
 
 
-def test_build_ledger_rows_falls_back_to_teacher_answers() -> None:
+def test_build_ledger_rows_errors_when_answer_record_is_missing() -> None:
     rows = build_ledger_rows(
         _course(),
         [_question()],
         [_validation()],
         [],
-        [_teacher_answer()],
-    )
-
-    assert len(rows) == 1
-    assert rows[0].status == "answered"
-    assert rows[0].question_answer == "Pandas is a Python library."
-    assert rows[0].correctness == "correct"
-    assert rows[0].source_refs == ["summary", "overview"]
-
-
-def test_build_ledger_rows_still_errors_when_teacher_answer_is_unusable() -> None:
-    rows = build_ledger_rows(
-        _course(),
-        [_question()],
-        [_validation()],
-        [],
-        [_teacher_answer(off_topic=True)],
     )
 
     assert len(rows) == 1

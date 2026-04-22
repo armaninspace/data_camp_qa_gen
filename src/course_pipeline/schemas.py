@@ -472,7 +472,7 @@ class TeacherAnswerDraft(BaseModel):
     off_topic: bool = False
     needs_review: bool = False
     model_name: str
-    prompt_family: Literal["teacher_answer"] = "teacher_answer"
+    prompt_family: Literal["semantic_stage"] = "semantic_stage"
 
 
 class ExcludedCourseRecord(BaseModel):

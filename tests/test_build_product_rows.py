@@ -53,7 +53,7 @@ def _teacher_answer(
             "off_topic": off_topic,
             "needs_review": needs_review,
             "model_name": "gpt-5.4",
-            "prompt_family": "teacher_answer",
+            "prompt_family": "semantic_stage",
         }
     )
 

@@ -30,7 +30,6 @@ from course_pipeline.schemas import (
     SemanticStageResult,
     TrainRow,
     Topic,
-    TeacherAnswerDraft,
     ExcludedCourseRecord,
     VettedTopic,
     VettedTopicPair,
@@ -101,7 +100,6 @@ def persist_stage_artifacts(
     semantic_review_decisions: list[SemanticReviewDecision] | None = None,
     course_context_frame: CourseContextFrame | None = None,
     question_context_frames: list[QuestionContextFrame] | None = None,
-    teacher_answer_drafts: list[TeacherAnswerDraft] | None = None,
     train_rows: list[TrainRow] | None = None,
     cache_rows: list[CacheRow] | None = None,
 ) -> None:
@@ -114,7 +112,6 @@ def persist_stage_artifacts(
     validations = validations or []
     semantic_review_decisions = semantic_review_decisions or []
     question_context_frames = question_context_frames or []
-    teacher_answer_drafts = teacher_answer_drafts or []
     train_rows = train_rows or []
     cache_rows = cache_rows or []
 
@@ -213,7 +210,6 @@ def persist_stage_artifacts(
         summary={
             "course_context_frame_count": 0 if course_context_frame is None else 1,
             "question_context_frame_count": len(question_context_frames),
-            "teacher_answer_count": len(teacher_answer_drafts),
             "train_row_count": len(train_rows),
             "cache_row_count": len(cache_rows),
             "semantic_topic_count": 0 if semantic_result is None else len(semantic_result.topics),
@@ -301,12 +297,6 @@ def rebuild_run_summary(output_dir: str | Path) -> dict[str, Any]:
     for course_id in sorted(bundle_rows):
         bundle = bundle_rows[course_id]
         shared_rows = shared_rows_by_course.get(course_id, [])
-        train_rows = train_rows_by_course.get(course_id, [])
-        teacher_answer_count = sum(
-            bool(str(row.get("teacher_answer") or "").strip())
-            for row in train_rows
-            if isinstance(row, dict)
-        )
         shared_answer_count = len(answers_by_course.get(course_id, []))
         bundles.append(
             {
@@ -322,20 +312,10 @@ def rebuild_run_summary(output_dir: str | Path) -> dict[str, Any]:
                 "errored_count": sum(
                     row.get("status") == "errored" for row in shared_rows if isinstance(row, dict)
                 ),
-                "teacher_answer_count": teacher_answer_count,
                 "shared_answer_count": shared_answer_count,
-                "teacher_answer_to_final_answer_gap": max(
-                    teacher_answer_count - shared_answer_count,
-                    0,
-                ),
             }
         )
 
-    teacher_answer_count = sum(
-        bool(str(row.get("teacher_answer") or "").strip())
-        for row in read_jsonl(out / "train_rows.jsonl")
-        if isinstance(row, dict)
-    )
     summary = {
         "course_count": len(bundles),
         "excluded_course_count": len(read_jsonl(out / "excluded_courses.jsonl")),
@@ -346,7 +326,6 @@ def rebuild_run_summary(output_dir: str | Path) -> dict[str, Any]:
         },
         "course_context_frame_count": len(read_jsonl(out / "course_context_frames.jsonl")),
         "question_context_frame_count": len(read_jsonl(out / "question_context_frames.jsonl")),
-        "teacher_answer_count": teacher_answer_count,
         "train_row_count": len(read_jsonl(out / "train_rows.jsonl")),
         "cache_row_count": len(read_jsonl(out / "cache_rows.jsonl")),
         "semantic_topic_count": len(read_jsonl(out / "semantic_topics.jsonl")),
@@ -360,10 +339,6 @@ def rebuild_run_summary(output_dir: str | Path) -> dict[str, Any]:
         "answered_count": sum(item["answered_count"] for item in bundles),
         "rejected_question_count": sum(item["rejected_count"] for item in bundles),
         "errored_question_count": sum(item["errored_count"] for item in bundles),
-        "teacher_answer_to_final_answer_gap": max(
-            teacher_answer_count - len(read_jsonl(out / "answers.jsonl")),
-            0,
-        ),
         "correct_count": sum(
             row.get("correctness") == "correct" for row in read_jsonl(out / "answers.jsonl")
         ),
@@ -553,21 +528,6 @@ def validate_rendered_output_consistency(output_dir: str | Path) -> None:
             issues.append(
                 f"course {course_id} course_yaml answers include non-synthetic answer_mode rows"
             )
-        train_rows = train_rows_by_course.get(course_id, [])
-        teacher_answer_count = sum(
-            bool(str(row.get("teacher_answer") or "").strip())
-            for row in train_rows
-            if isinstance(row, dict)
-        )
-        if teacher_answer_count > len(shared_answers):
-            issues.append(
-                f"course {course_id} has teacher answers in train_rows ({teacher_answer_count}) but only {len(shared_answers)} shared answers.jsonl rows"
-            )
-        if teacher_answer_count > shared_answered_for_course:
-            issues.append(
-                f"course {course_id} has teacher answers in train_rows ({teacher_answer_count}) but only {shared_answered_for_course} answered final rows"
-            )
-
     if issues:
         raise RuntimeError(
             "rendered output consistency check failed: " + "; ".join(issues)
