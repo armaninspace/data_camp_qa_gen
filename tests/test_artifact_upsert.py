@@ -313,7 +313,7 @@ def test_rebuild_run_summary_includes_llm_cost_rollups(tmp_path: Path) -> None:
                 "cost_total_usd": 0.000853,
             },
             {
-                "stage": "generate_teacher_answer",
+                "stage": "semantic_answer_projection",
                 "configured_model": "gpt-5.4-mini",
                 "actual_model": "gpt-5.4-mini-2026-04-20",
                 "resolved_pricing_model": "gpt-5.4-mini",
@@ -348,7 +348,7 @@ def test_rebuild_run_summary_includes_llm_cost_rollups(tmp_path: Path) -> None:
     assert summary["llm_tokens_out_total"] == 95
     assert summary["llm_cost_total_usd"] == 0.001093
     assert summary["llm_cost_by_stage"] == {
-        "generate_teacher_answer": 0.00024,
+        "semantic_answer_projection": 0.00024,
         "semantic_stage": 0.000853,
     }
     assert summary["llm_cost_by_model"] == {
@@ -383,4 +383,3 @@ def test_rebuild_run_summary_reports_no_calls_when_llm_log_is_empty(tmp_path: Pa
     assert summary["llm_call_count"] == 0
     assert summary["llm_calls_with_cost"] == 0
     assert summary["llm_cost_reporting_status"] == "no_calls"
-

@@ -1,10 +1,10 @@
 from __future__ import annotations
 
-from course_pipeline.schemas import TeacherAnswerDraft
+from course_pipeline.schemas import SyntheticAnswerDraft
 from course_pipeline.tasks.build_product_rows import build_cache_rows, build_train_rows
 
 
-def _teacher_answer(
+def _answer_draft(
     *,
     course_id: str,
     question_id: str,
@@ -12,8 +12,8 @@ def _teacher_answer(
     weak_grounding: bool = False,
     off_topic: bool = False,
     needs_review: bool = False,
-) -> TeacherAnswerDraft:
-    return TeacherAnswerDraft.model_validate(
+) -> SyntheticAnswerDraft:
+    return SyntheticAnswerDraft.model_validate(
         {
             "course_id": course_id,
             "question_id": question_id,
@@ -47,7 +47,7 @@ def _teacher_answer(
                     "support_refs": ["summary"],
                 },
             },
-            "teacher_answer": f"Pandas is explained here for course {course_id}.",
+            "answer_text": f"Pandas is explained here for course {course_id}.",
             "course_aligned": True,
             "weak_grounding": weak_grounding,
             "off_topic": off_topic,
@@ -61,7 +61,7 @@ def _teacher_answer(
 def test_build_train_rows_retains_variants_and_sets_flags() -> None:
     rows = build_train_rows(
         [
-            _teacher_answer(course_id="24373", question_id="24373:q:0012"),
+            _answer_draft(course_id="24373", question_id="24373:q:0012"),
         ],
         {
             "24373:q:0012": [
@@ -82,14 +82,14 @@ def test_build_train_rows_retains_variants_and_sets_flags() -> None:
 def test_build_cache_rows_keeps_good_rows_even_when_flagged() -> None:
     train_rows = build_train_rows(
         [
-            _teacher_answer(course_id="24373", question_id="24373:q:0012"),
-            _teacher_answer(
+            _answer_draft(course_id="24373", question_id="24373:q:0012"),
+            _answer_draft(
                 course_id="24373",
                 question_id="24373:q:0013",
                 question_text="What is matplotlib?",
                 weak_grounding=True,
             ),
-            _teacher_answer(
+            _answer_draft(
                 course_id="24373",
                 question_id="24373:q:0014",
                 question_text="What is seaborn?",
@@ -112,8 +112,8 @@ def test_build_cache_rows_keeps_good_rows_even_when_flagged() -> None:
 def test_build_cache_rows_excludes_only_truly_bad_rows() -> None:
     train_rows = build_train_rows(
         [
-            _teacher_answer(course_id="24373", question_id="24373:q:0012"),
-            _teacher_answer(
+            _answer_draft(course_id="24373", question_id="24373:q:0012"),
+            _answer_draft(
                 course_id="24373",
                 question_id="24373:q:0015",
                 question_text="What is off topic?",
@@ -131,8 +131,8 @@ def test_build_cache_rows_excludes_only_truly_bad_rows() -> None:
 def test_build_cache_rows_preserves_course_separation_for_same_question() -> None:
     train_rows = build_train_rows(
         [
-            _teacher_answer(course_id="24373", question_id="24373:q:0012"),
-            _teacher_answer(course_id="24511", question_id="24511:q:0003"),
+            _answer_draft(course_id="24373", question_id="24373:q:0012"),
+            _answer_draft(course_id="24511", question_id="24511:q:0003"),
         ]
     )
 

@@ -77,7 +77,7 @@ def test_train_row_preserves_course_bound_identity_and_dedupes_variants() -> Non
                     "24373", "24373:q:0012"
                 ).model_dump(mode="json"),
             },
-            "teacher_answer": "Pandas is a Python library for working with tabular data.",
+            "answer_text": "Pandas is a Python library for working with tabular data.",
             "question_variants": [
                 "What is pandas?",
                 "What does pandas do?",

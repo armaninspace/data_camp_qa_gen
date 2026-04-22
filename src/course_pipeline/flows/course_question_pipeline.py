@@ -214,7 +214,7 @@ def _process_course(
         questions=[*reviewed_semantic_result.topic_questions, *reviewed_semantic_result.correlated_topic_questions],
         course_context_frame=course_context_frame,
     )
-    teacher_answer_drafts = _teacher_drafts_from_semantic_answers(
+    synthetic_answer_drafts = _synthetic_answer_drafts_from_semantic_answers(
         course_context_frame=course_context_frame,
         question_context_frames=question_context_frames,
         semantic_result=reviewed_semantic_result,
@@ -223,9 +223,9 @@ def _process_course(
     )
     answers = _enrich_answers_from_semantic_drafts(
         answers=answers,
-        semantic_answer_drafts=teacher_answer_drafts,
+        semantic_answer_drafts=synthetic_answer_drafts,
     )
-    train_rows = build_train_rows(teacher_answer_drafts)
+    train_rows = build_train_rows(synthetic_answer_drafts)
     cache_rows = build_cache_rows(train_rows)
     timer.finish(
         output_row_count=(
@@ -378,7 +378,7 @@ def course_question_pipeline_flow(
     }
 
 
-def _teacher_drafts_from_semantic_answers(
+def _synthetic_answer_drafts_from_semantic_answers(
     *,
     course_context_frame,
     question_context_frames,
@@ -386,7 +386,7 @@ def _teacher_drafts_from_semantic_answers(
     model_name: str,
     review_result,
 ):
-    from course_pipeline.schemas import TeacherAnswerDraft
+    from course_pipeline.schemas import SyntheticAnswerDraft
 
     answer_by_text = {
         item.question_text: item
@@ -403,7 +403,7 @@ def _teacher_drafts_from_semantic_answers(
             review_decision_by_question_text.setdefault(decision.target_id, []).append(
                 decision.rationale
             )
-    drafts: list[TeacherAnswerDraft] = []
+    drafts: list[SyntheticAnswerDraft] = []
     for question_context_frame in question_context_frames:
         semantic_answer = answer_by_text.get(question_context_frame.question_text)
         if semantic_answer is None:
@@ -419,7 +419,7 @@ def _teacher_drafts_from_semantic_answers(
         review_rationales = [*question_rationales, *answer_rationales]
         needs_review = any(review_rationales)
         drafts.append(
-            TeacherAnswerDraft(
+            SyntheticAnswerDraft(
                 course_id=course_context_frame.course_id,
                 question_id=question_context_frame.question_id,
                 question_text=question_context_frame.question_text,
@@ -427,7 +427,7 @@ def _teacher_drafts_from_semantic_answers(
                     "course_context_frame": course_context_frame,
                     "question_context_frame": question_context_frame,
                 },
-                teacher_answer=semantic_answer.answer_text,
+                answer_text=semantic_answer.answer_text,
                 source_refs=list(question_context_frame.support_refs),
                 course_aligned=True,
                 weak_grounding=needs_review,

@@ -405,7 +405,7 @@ class TrainRow(BaseModel):
     question_id: str
     question_text: str
     provided_context: ProvidedContext
-    teacher_answer: str
+    answer_text: str
     question_variants: list[str] = Field(default_factory=list)
     answer_quality_flags: AnswerQualityFlags
     global_question_signature: str | None = None
@@ -460,12 +460,12 @@ class CacheRow(BaseModel):
         return seen
 
 
-class TeacherAnswerDraft(BaseModel):
+class SyntheticAnswerDraft(BaseModel):
     course_id: str
     question_id: str
     question_text: str
     provided_context: ProvidedContext
-    teacher_answer: str
+    answer_text: str
     source_refs: list[str] = Field(default_factory=list)
     course_aligned: bool = True
     weak_grounding: bool = False

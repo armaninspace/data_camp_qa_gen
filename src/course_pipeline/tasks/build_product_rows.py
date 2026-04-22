@@ -2,21 +2,21 @@ from __future__ import annotations
 
 import re
 
-from course_pipeline.schemas import CacheRow, TeacherAnswerDraft, TrainRow
+from course_pipeline.schemas import CacheRow, SyntheticAnswerDraft, TrainRow
 
 
 def build_train_rows(
-    teacher_answers: list[TeacherAnswerDraft],
+    answer_drafts: list[SyntheticAnswerDraft],
     question_variants_by_question_id: dict[str, list[str]] | None = None,
 ) -> list[TrainRow]:
     question_variants_by_question_id = question_variants_by_question_id or {}
     rows: list[TrainRow] = []
-    for index, answer in enumerate(teacher_answers, start=1):
+    for index, answer in enumerate(answer_drafts, start=1):
         variants = question_variants_by_question_id.get(
             answer.question_id,
             [answer.question_text],
         )
-        train_eligible = bool(answer.teacher_answer.strip()) and not answer.off_topic
+        train_eligible = bool(answer.answer_text.strip()) and not answer.off_topic
         cache_eligible = train_eligible
         rows.append(
             TrainRow(
@@ -25,7 +25,7 @@ def build_train_rows(
                 question_id=answer.question_id,
                 question_text=answer.question_text,
                 provided_context=answer.provided_context,
-                teacher_answer=answer.teacher_answer,
+                answer_text=answer.answer_text,
                 question_variants=variants,
                 answer_quality_flags={
                     "course_aligned": answer.course_aligned,
@@ -54,7 +54,7 @@ def build_cache_rows(train_rows: list[TrainRow]) -> list[CacheRow]:
                 question_text=row.question_text,
                 question_variants=row.question_variants,
                 provided_context=row.provided_context,
-                canonical_answer=row.teacher_answer,
+                canonical_answer=row.answer_text,
                 cache_eligible=True,
                 global_question_signature=row.global_question_signature,
                 cross_course_similarity=row.cross_course_similarity,
